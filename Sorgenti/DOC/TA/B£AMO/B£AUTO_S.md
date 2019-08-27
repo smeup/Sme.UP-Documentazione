@@ -1,0 +1,6 @@
+  DEC T(MB) P(DOC) K(B£AUTO_01)
+- [Classi Autorizzazione Master](Sorgenti/DOC/TA/B£AMO/B£AUTO_02)
+ :  : DEC T(MB) P(DOC) K(B£AUTO_03)
+- [Autorizzazioni MENU e accessi - V4R1](Sorgenti/DOC/TA/B£AMO/B£AUTO_04)
+- [Autorizzazioni operative Looc.up](Sorgenti/DOC/TA/B£AMO/B£AUTO_05)
+- [SSO](Sorgenti/DOC/TA/B£AMO/B£AUTO_99)

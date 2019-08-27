@@ -1,0 +1,12 @@
+## Utilizzo
+- [Processo di Fattura elettronica](Sorgenti/DOC/TA/B£AMO/V5FTPA_01)
+- [Processo di Fattura elettronica in Sme.UP ERP](Sorgenti/DOC/TA/B£AMO/V5FTPA_10)
+- [Casi particolari di compilazione](Sorgenti/DOC/TA/B£AMO/V5FTPA_08)
+- [Estrazione Fattura elettronica](Sorgenti/DOC/TA/B£AMO/V5FTPA_04)
+- [Estero](Sorgenti/DOC/TA/B£AMO/V5FTPA_20)
+- [Cruscotto invio fatture](Sorgenti/DOC/TA/B£AMO/V5FTPA_61)
+- [Conservazione sostitutiva](Sorgenti/DOC/TA/B£AMO/V5FTPA_09)
+- [Caricamento Codici Univoci PA Ufficio FE](Sorgenti/DOC/TA/B£AMO/V5FTPA_07)
+- [Fatturazione Elettronica NO SMEUP](Sorgenti/DOC/TA/B£AMO/V5FTPA_11)
+- [Cruscotto esito fatture](Sorgenti/DOC/TA/B£AMO/V5FTPA_71)
+- [Gestione fatture scartate](Sorgenti/DOC/TA/B£AMO/V5FTPA_72)

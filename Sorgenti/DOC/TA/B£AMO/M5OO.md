@@ -1,0 +1,4 @@
+- [Multiplant](Sorgenti/DOC/TA/B£AMO/M5_005)
+- [MRP a Capacità Finita](Sorgenti/DOC/TA/B£AMO/M5_012)
+- [MRP Logistico](Sorgenti/DOC/TA/B£AMO/M5_013)
+- [Criterio Make or Change (MOC)](Sorgenti/DOC/TA/B£AMO/M5_014)

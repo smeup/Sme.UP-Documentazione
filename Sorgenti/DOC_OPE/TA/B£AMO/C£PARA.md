@@ -1,0 +1,5 @@
+- [Gestione parametri](Sorgenti/OJ/PGM/P_C£CR01)
+- [Interrogazione parametri](Sorgenti/OJ/PGM/P_C£CR20I)
+- [Funzioni sui parametri](Sorgenti/OJ/PGM/P_TSTC£6)
+- [Stampa parametri](Sorgenti/OJ/PGM/P_C£CR30S)
+- [Manutenzione per parametro](Sorgenti/OJ/PGM/P_C£CR04)

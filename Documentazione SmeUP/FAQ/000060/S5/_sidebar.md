@@ -1,0 +1,1 @@
+# Schedulaz. Capacità Finita

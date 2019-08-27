@@ -1,0 +1,22 @@
+## Documenti Tecnici
+- [Descrizione memorie](Sorgenti/DOC/TA/B£AMO/S5IRIS_T11)
+- [Descrizione processo](Sorgenti/DOC/TA/B£AMO/S5IRIS_T12)
+- [Scelta operazione](Sorgenti/DOC/TA/B£AMO/S5IRIS_T13)
+- [Schedulazione](Sorgenti/DOC/TA/B£AMO/S5IRIS_T14)
+- [Trattamento tempi](Sorgenti/DOC/TA/B£AMO/S5IRIS_T15)
+- [Come aggiornare BCD](Sorgenti/DOC/TA/B£AMO/S5IRIS_T16)
+- [Costruzione Alternative e Dettagli](Sorgenti/DOC/TA/B£AMO/S5IRIS_T26)
+- [Ottimizzazione Gruppi](Sorgenti/DOC/TA/B£AMO/S5IRIS_T24)
+- [Note Exit S5smx_21X](Sorgenti/DOC/TA/B£AMO/S5IRIS_T25)
+- [Log Schedulazione](Sorgenti/DOC/TA/B£AMO/S5IRIS_T37)
+- [Documentazione Flag Schedulazione](Sorgenti/DOC/TA/B£AMO/S5IRIS_T38)
+- [Sviluppi](Sorgenti/DOC/TA/B£AMO/S5IRIS_T17)
+- [News schedulazione](Sorgenti/DOC/TA/B£AMO/S5IRIS_T18)
+- [Descrizione Variabili Ambiente](Sorgenti/DOC/TA/B£AMO/S5IRIS_T19)
+- [Documentazione script BCD](Sorgenti/DOC/TA/B£AMO/B£BCDO_A)
+- [Lancio cieco BCD](Sorgenti/DOC/TA/B£AMO/B£BCDO_B)
+- [Schedulazione a Capacità Infinita](Sorgenti/DOC/TA/B£AMO/S5_001)
+- [Schema schedulazione capacità infinita](Sorgenti/DOC/TA/B£AMO/S5_002)
+## Note tecnico/applicative
+- [Modalità scansione ciclo del documento](Sorgenti/DOC/TA/B£AMO/BRCICL_N3)
+

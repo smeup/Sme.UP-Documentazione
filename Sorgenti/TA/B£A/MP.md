@@ -1,0 +1,3 @@
+- [Visione Plan.up](Sorgenti/TA/B£A/MP_001)
+- [MPS&-x3a; best practices](Sorgenti/TA/B£A/MP_002)
+- [Metodo Holt Winters x le previsioni](Sorgenti/TA/B£A/MPHW_01)

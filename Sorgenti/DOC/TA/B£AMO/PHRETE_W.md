@@ -1,0 +1,2 @@
+- [Scelte effettuate](Sorgenti/DOC/TA/B£AMO/PHRETE_W01)
+- [TO DO List](Sorgenti/DOC/TA/B£AMO/PHRETE_W02)

@@ -1,0 +1,7 @@
+- [Gestione documenti](Sorgenti/DOC_OPE/TA/B£AMO/V5DOCU)
+- [Spedizioni ricevimenti](Sorgenti/DOC_OPE/TA/B£AMO/V5SPRI)
+- [Fatturazione](Sorgenti/DOC_OPE/TA/B£AMO/V5FATT)
+- [Provvigioni](Sorgenti/DOC_OPE/TA/B£AMO/V5PROV)
+ :  : DEC T(MB) P(DOC_OPE) K(V5TRIP)
+ :  : DEC T(MB) P(DOC_OPE) K(V5BASE)
+ :  : DEC T(MB) P(DOC_OPE) K(V5COGE)

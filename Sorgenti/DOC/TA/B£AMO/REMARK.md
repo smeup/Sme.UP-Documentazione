@@ -1,0 +1,8 @@
+- [Campagne](Sorgenti/DOC/TA/B£AMO/REMARK_01)
+ :  : DEC T(MB) P(DOC) K(REMARK_02) I(Lead                             )
+- [Opportunità NEW](Sorgenti/DOC/TA/B£AMO/REMARK_07)
+ :  : DEC T(MB) P(DOC) K(REMARK_03) I(Opportunità                      )
+ :  : DEC T(MB) P(DOC) K(REMARK_04) I(Promozioni                       )
+- [Forecast](Sorgenti/DOC/TA/B£AMO/REMARK_05)
+- [Survey](Sorgenti/DOC/TA/B£AMO/REMARK_06)
+- [Dashboard BQ](Sorgenti/DOC/TA/B£AMO/REMARK_08)

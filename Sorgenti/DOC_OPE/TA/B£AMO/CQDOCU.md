@@ -1,0 +1,7 @@
+- [Gestione documentazione](Sorgenti/OJ/PGM/P_CQQM10)
+- [Gestione Liste di Distribuzione](Sorgenti/OJ/PGM/P_B£IRTB)
+- [Stampa documenti distribuiti](Sorgenti/OJ/PGM/P_CQIRTS)
+- [Gestione note strutturate](Sorgenti/OJ/PGM/P_B£AMC0)
+- [Gestione Posta](Sorgenti/OJ/PGM/P_B£IRT0)
+- [Gestione Distribuzione Documento](Sorgenti/OJ/PGM/P_CQQM40)
+- [Gestione Distr. Per Ente](Sorgenti/OJ/PGM/P_CQQM41)

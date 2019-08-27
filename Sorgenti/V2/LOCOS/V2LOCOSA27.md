@@ -1,0 +1,1 @@
+- [Esecuzione funzioni Batch](Sorgenti/DOC/TA/B£AMO/LOCBAS_BCP)

@@ -1,0 +1,12 @@
+# Acquisti
+- [Funzioni comuni](Sorgenti/DOC/TA/B£AMO/V5BASE.md)
+- [Gestione documenti](Sorgenti/DOC/TA/B£AMO/V5DOCU.md)
+- [Fatturazione](Sorgenti/DOC/TA/B£AMO/V5FATT.md)
+- [Fattura elettronica](Sorgenti/DOC/TA/B£AMO/V5FTPA.md)
+- [Gestione Listini](Sorgenti/DOC/TA/B£AMO/V5LIST.md)
+- [Avviamento veloce di Trad.up](Sorgenti/DOC/TA/B£AMO/V5PLUG.md)
+- [Provvigioni](Sorgenti/DOC/TA/B£AMO/V5PROV.md)
+- [Richieste di acquisto - SV](Sorgenti/DOC/TA/B£AMO/V5RIDA.md)
+- [Azioni spedizioni &#x2f; ricevimenti](Sorgenti/DOC/TA/B£AMO/V5SPRI.md)
+- [Modulo V5STAT](Sorgenti/DOC/TA/B£AMO/V5STAT.md)
+- [Viaggi](Sorgenti/DOC/TA/B£AMO/V5TRIP.md)

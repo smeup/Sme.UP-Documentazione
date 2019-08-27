@@ -1,0 +1,3 @@
+- [Gestione esponenti di modifica](Sorgenti/OJ/PGM/P_C£EM10)
+- [Stampa esponenti di modifica](Sorgenti/OJ/PGM/P_C£EM51A)
+- [Esponente di Modifica](Sorgenti/OJ/PGM/P_TSTIEM)

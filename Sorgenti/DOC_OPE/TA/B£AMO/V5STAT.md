@@ -1,0 +1,8 @@
+- [Introduzione](Sorgenti/DOC_OPE/TA/B£AMO/V5STAT_01)
+- [Archivio statistiche](Sorgenti/DOC_OPE/TA/B£AMO/V5STAT_02)
+- [Analisi standard](Sorgenti/DOC_OPE/TA/B£AMO/V5STAT_03)
+- [Andamento nel tempo](Sorgenti/DOC_OPE/TA/B£AMO/V5STAT_04)
+- [Analisi tabellare](Sorgenti/DOC_OPE/TA/B£AMO/V5STAT_05)
+- [Funzioni generali](Sorgenti/DOC_OPE/TA/B£AMO/V5STAT_06)
+- [Funzioni di controllo](Sorgenti/DOC_OPE/TA/B£AMO/V5STAT_07)
+- [Esempi di interrogazioni&-x2f;consultazione](Sorgenti/DOC_OPE/TA/B£AMO/V5STAT_09)

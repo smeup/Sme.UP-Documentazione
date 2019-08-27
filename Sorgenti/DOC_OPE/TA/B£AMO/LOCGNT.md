@@ -1,0 +1,1 @@
+- [Modalità operative  Gantt](Sorgenti/DOC_OPE/TA/B£AMO/LOCGNT_OP)

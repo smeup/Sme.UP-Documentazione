@@ -1,0 +1,7 @@
+- [Struttura indice](Sorgenti/OJ/PGM/P_CQVR60)
+- [Gestione indici statici](Sorgenti/OJ/PGM/P_CQVR70)
+- [Controllo valutazioni](Sorgenti/OJ/PGM/P_CQVR80)
+- [Interrogazione rating](Sorgenti/OJ/PGM/P_CQVR64)
+- [Stampa prospetto rating](Sorgenti/OJ/PGM/P_CQVR68)
+- [Calcolo indici dinamici](Sorgenti/OJ/PGM/P_IGIND0)
+- [Storicizzazione rating](Sorgenti/OJ/PGM/P_CQVR65)

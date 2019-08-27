@@ -1,0 +1,2 @@
+- [Rilascio V2.R1 e precedenti](Sorgenti/DOC/TA/B£AMO/LOCEXD_P1A)
+- [Rilascio V2.R1 e precedenti](Sorgenti/DOC/TA/B£AMO/LOCEXD_P1B)

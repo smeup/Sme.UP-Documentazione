@@ -1,0 +1,1 @@
+- [Input panel](Sorgenti/DOC_OPE/TA/B£AMO/LOCINP_01)

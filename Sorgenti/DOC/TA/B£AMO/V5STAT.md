@@ -1,0 +1,11 @@
+## Documenti applicativi
+- [Introduzione](Sorgenti/DOC/TA/B£AMO/V5STAT_01)
+- [Installazione](Sorgenti/DOC/TA/B£AMO/V5STAT_02)
+- [Configurazione generale](Sorgenti/DOC/TA/B£AMO/V5STAT_03)
+- [Programma impostazione generale](Sorgenti/DOC/TA/B£AMO/V5STAT_04)
+- [Personalizzazione campi](Sorgenti/DOC/TA/B£AMO/V5STAT_05)
+- [Programma EXIT utente](Sorgenti/DOC/TA/B£AMO/V5STAT_06)
+- [Costruzione file statistiche](Sorgenti/DOC/TA/B£AMO/V5STAT_07)
+- [Autorizzazioni sulle statistiche](Sorgenti/DOC/TA/B£AMO/V5STAT_08)
+- [Statistica del contabilizzato](Sorgenti/DOC/TA/B£AMO/V5STAT_09)
+- [Flag statistici del V5](Sorgenti/DOC/TA/B£AMO/V5STAT_10)

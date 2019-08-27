@@ -1,0 +1,3 @@
+- [Preparazione del Budget](Sorgenti/DOC/TA/B£AMO/MPBDGT_01)
+- [Impostazioni del Budget](Sorgenti/DOC/TA/B£AMO/MPBDGT_02)
+- [Analisi varianze](Sorgenti/DOC/TA/B£AMO/MPBDGT_03)

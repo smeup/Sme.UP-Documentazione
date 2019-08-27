@@ -1,0 +1,4 @@
+- [Text editor](Sorgenti/DOC_OPE/TA/B£AMO/LOCEDT_01)
+- [Come si utilizza l&-x27;editor](Sorgenti/DOC_OPE/TA/B£AMO/LOCEDT_MAN)
+- [Sintassi linguaggio documentazione](Sorgenti/DOC_OPE/TA/B£AMO/LOCEDT_SYX)
+- [Immagini](Sorgenti/DOC_OPE/TA/B£AMO/LOCEDT_IMG)

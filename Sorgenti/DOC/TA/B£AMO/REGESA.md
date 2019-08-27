@@ -1,0 +1,4 @@
+- [Dati anagrafici aggiuntivi](Sorgenti/DOC/TA/B£AMO/REGESA_03)
+- [Competitors](Sorgenti/DOC/TA/B£AMO/REGESA_04)
+- [Rete vendita](Sorgenti/DOC/TA/B£AMO/REGESA_05)
+- [Gestione biglietti da visita](Sorgenti/DOC/TA/B£AMO/REGESA_06)

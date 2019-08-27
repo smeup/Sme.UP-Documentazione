@@ -1,0 +1,2 @@
+- [Gestione Autorizzazioni Applicative](Sorgenti/OJ/PGM/P_B£AUA0)
+- [Scheda Autorizzazioni applicative](Sorgenti/MB/SCP_SCH/B£AUTO)

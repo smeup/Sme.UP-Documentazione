@@ -1,0 +1,3 @@
+- [Controllo Fatture Acquisto](Sorgenti/OJ/PGM/P_G9CF60)
+- [Situazione entrate fornitori](Sorgenti/OJ/PGM/P_G9AS10)
+- [Contabilizzazione Fatture Acquisto](Sorgenti/OJ/PGM/P_G9FA05A)

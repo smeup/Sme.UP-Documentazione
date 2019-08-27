@@ -1,0 +1,2 @@
+- [SSO - Configurazione Client Access](Sorgenti/DOC_OPE/TA/B£AMO/LOSSON_50C)
+- [SSO - Manuale utente LoocUp](Sorgenti/DOC_OPE/TA/B£AMO/LOSSON_50F)

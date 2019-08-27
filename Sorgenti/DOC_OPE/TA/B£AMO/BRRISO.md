@@ -1,0 +1,3 @@
+- [Gestione Risorse](Sorgenti/OJ/PGM/P_BRRI01)
+- [Stampe Risorse](Sorgenti/OJ/PGM/P_BRRI51)
+- [Nuove funzionalità RISORSE](Sorgenti/DOC_OPE/TA/B£AMO/BRRISO_01)
