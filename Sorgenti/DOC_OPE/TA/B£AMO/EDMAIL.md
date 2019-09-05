@@ -1,1 +1,1 @@
-- [Ricezione dati remote](Sorgenti/OJ/PGM/P_EDAP00)
+- [Ricezione dati remote](Sorgenti/OJ/PGM/EDAP00)

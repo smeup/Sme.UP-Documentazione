@@ -14,4 +14,4 @@ Tra le funzioni più importanti della £PHI ci sono
 * CHG E'una funzione semplice che permette di generare il cambio stato degli eventi
 * STOP Permette di "smontare" l'ordine attualmente in macchina
 
-- [Documentazione PHI](Sorgenti/OJ/PGM/P_TSTPHI)
+- [Documentazione PHI](Sorgenti/OJ/PGM/TSTPHI)

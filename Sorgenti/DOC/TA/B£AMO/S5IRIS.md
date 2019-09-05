@@ -10,7 +10,7 @@
 - [Sovrapposizione tra livelli distinta](Sorgenti/DOC/TA/B£AMO/S5IRIS_T21)
 - [BCD di interrogtazione](Sorgenti/DOC/TA/B£AMO/S5IRIS_T39)
 - [Acronimi Schedulazione](Sorgenti/DOC/TA/B£AMO/S5IRIS_T50)
- :  : DEC T(MB) P(DOC_VOC) K(S5IRIS_GLO)
+- [Glossario Fine.up](Sorgenti/MB/DOC_VOC/S5IRIS_GLO)
 - [Documentazione Tecnica](Sorgenti/DOC/TA/B£AMO/S5IRIS_T10)
 - [Documentazione Tecnica Gantt](Sorgenti/DOC/TA/B£AMO/S5IRIS_T20)
 

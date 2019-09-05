@@ -18,7 +18,7 @@ Avremo ad esempio CNCLI,,000001,,Cliente di prova||TAV5D,,OVE,,||J1FUN,,F(EXD;*S
 ### COPY di gestione dei dati
 Tutte le funzioni sono delegate alla COPY £G97 cui si rinvia per i dettagli.
 ![B£CARR_003](http://localhost:3000/immagini/B£CARR_C/BXCARR_003.png)
-- [Funzioni sul carrello](Sorgenti/OJ/PGM/P_TSTG97)
+- [Funzioni sul carrello](Sorgenti/OJ/PGM/TSTG97)
 Documentazione Servizio
 Presente in DOC_SER riferita al servizio B£SER_25;
 Si accede tramite la Scheda di LoocUp Documentazione/I documenti/Documenti presenti/DOC_SER documentazione dei servizi/B£SER_25

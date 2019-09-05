@@ -118,7 +118,7 @@ In questo modo è possibile utilizzare le costanti al posto dei valori esadecima
 La tabella PGM consente di gestire le impostazioni relative alla modalità di esecuzione di un programma e all'attivazione dei log relativamente al programma stesso.
 
 **Documentazione specifica**
-- [PGM - Programma](Sorgenti/OG/TA/TA_PGM)
+- [PGM - Programma](Sorgenti/OG/TA/PGM)
 
 # Programmi "FUNIZZATI"
 Il concetto di programma "funizzato" si basa sulla constatazione che se un programma è dotato di una entry standard, allora è possibile eseguirne la chiamata indicandone il nome in modo parametrico in una tabella, senza che sia necessario includere nel sorgente il nome del programma come stringa fissa.

@@ -23,7 +23,7 @@ I parametri della categoria  £CA vengono creati in automatico (senza necessità
 ### Tabella V50
 Compilare la tabella basandosi sulla documentazione della stessa per avere indicazioni relativamente al contenuto dei campi.
 
-- [Fatturazione Elettronica](Sorgenti/OG/TA/TA_V50)
+- [Fatturazione Elettronica](Sorgenti/OG/TA/V50)
 
 ### Tabella C5A
 Compilare il campo Modello Cont.F.E.B2B indicando la causale da utilizzare per le fatture elettroniche verso privati (potrebbe essere la stessa usata per la PA) se diversa dalla causale contabile (e quindi dal registro IVA) delle altre fatture

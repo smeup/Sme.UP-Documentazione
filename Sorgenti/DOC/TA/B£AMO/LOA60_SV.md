@@ -20,5 +20,5 @@ L'invio delle notifiche mobile necessita delle configurazioni (da restorare tram
  /SMEDOC/SECFG/SESUB.A3801.S00.B01.cfg
 Il percorso in cui restorare i file .cfg è restituito dal pgm LOUT01.
 
-- [](Sorgenti/OJ/PGM/P_TSTK14)
-- [](Sorgenti/OJ/PGM/P_TSTK17)
+- [](Sorgenti/OJ/PGM/TSTK14)
+- [](Sorgenti/OJ/PGM/TSTK17)

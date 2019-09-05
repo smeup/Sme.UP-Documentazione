@@ -38,4 +38,4 @@ Insieme di sezioni descritte in un membro di SCRIPT. I gruppi sono numerati da 0
 -- Ecc.
 
 
- :  : DEC T(MB) P(DOC_VOC) K(L_EDT_SET)
+- [Configuratore di SETUP](Sorgenti/MB/DOC_VOC/L_EDT_SET)

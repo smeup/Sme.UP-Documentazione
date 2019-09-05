@@ -10,10 +10,10 @@ Per emettere una nuova dichiarazione di intento è necessario eseguire due passa
 
 Per emettere una nuova dichiarazione di intento entrare nel menù delle dichiarazioni di intento (generalmente si trova all'interno del menù dei dati di base BR) e scegliere la voce 'Emissione dichiarazioni'.
 Seguire quindi le seguenti istruzioni : 
-- [Emissione dichiarazioni di intento](Sorgenti/OJ/PGM/P_BRIN04)
+- [Emissione dichiarazioni di intento](Sorgenti/OJ/PGM/BRIN04)
 
 ## Trasmissione della Dichiarazione d'Intento
 
 Per ottenere il modello ministeriale e il file di trasmissione delle dichiarazioni di intento  entrare nel menù delle dichiarazioni di intento (generalmente si trova all'interno del menù dei dati di base BR) e scegliere la voce 'Trasmissione dichiaraz. Emesse'.
 Seguire quindi le seguenti istruzioni : 
-- [Trasmissione Dich. Intento Emesse](Sorgenti/OJ/PGM/P_BRIN05)
+- [Trasmissione Dich. Intento Emesse](Sorgenti/OJ/PGM/BRIN05)

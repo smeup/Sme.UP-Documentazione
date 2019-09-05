@@ -40,8 +40,8 @@ Servono :
  * La configurazione degli elementi di tabella WFP con opportuni tipi notifica (SE.SUB.A60).
 
 ## Tabelle da impostare
-- [Impostazioni generali workflow](Sorgenti/OG/TA/TA_WF1)
-- [Tipo Promemoria](Sorgenti/OG/TA/TA_WFP)
+- [Impostazioni generali workflow](Sorgenti/OG/TA/WF1)
+- [Tipo Promemoria](Sorgenti/OG/TA/WFP)
 L'oggetto **F3** promemoria ha come codice un contatore definito nell'elemento **OG.F3** della tabella **CRNWF**.
 
 ## Schedulazione del Job di scansione dei promemoria
@@ -53,7 +53,7 @@ Tale programma va schedulato :
 - Es. CALL PGM(WFPROM00) PARM('START').
 NB :  La schedulazione deve essere effettuata tramite l'opportuna scheda di schedulazione SMEUP, in modo che sia possibile lanciare il programma con l'ambiente corretto.
 Per questo si rimanda a : 
- :  : DEC T(MB) P(DOC_NWS) K(NWS001549)
+- [Nuovi cmd B£QQ00,B£QQ01 e WRKJOBSCDE in scheda](Sorgenti/MB/DOC_NWS/NWS001549)
 - [Lancio&-x2f;Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
 
 Il programma si chiude una volta superato l'orario impostato nella tabella di configurazione **WF1**.

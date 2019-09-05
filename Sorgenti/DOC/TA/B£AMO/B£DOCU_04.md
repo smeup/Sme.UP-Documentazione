@@ -42,7 +42,7 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Immagini (\\Smeup\SmeImg)
 
 ### Programma
-- [Dettaglio programma](Sorgenti/OG/OG/OG_PG)
+- [Dettaglio programma](Sorgenti/OG/OG/PG)
  - Sorgente
  - Documentazione
  - Documentazione interna di sviluppo
@@ -66,18 +66,18 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Help
 
 ### Settore di tabella
-- [Settore di tabella](Sorgenti/OG/OG/OG_ST)
+- [Settore di tabella](Sorgenti/OG/OG/ST)
  - Documentazione
  - Lista dei campi
  - Lista di elementi di tabella
 
 ### Elemento di tabella
-- [Elemento di tabella](Sorgenti/OG/OG/OG_TA)
+- [Elemento di tabella](Sorgenti/OG/OG/TA)
  - Drill down
  - Nota, associata all'elemento, che ne spiega perchè è stato creato quel particolare elemento e le regole collegate.
 
 ### Utente
-- [Dettaglio Utente](Sorgenti/OG/OG/OG_UP)
+- [Dettaglio Utente](Sorgenti/OG/OG/UP)
  - Ingressi
  - Menubar
 
@@ -87,7 +87,7 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Lista campi (domande)
 
 ### Archivio
-- [BRARTI0F Anagrafica articoli](Sorgenti/OJ/FILE/F_BRARTI0F)
+- [BRARTI0F Anagrafica articoli](Sorgenti/OJ/FILE/BRARTI0F)
  - Scheda
  - Documentazione
  - Lista campi
@@ -97,15 +97,15 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Lista dei valori presenti
 
 ### Valore fisso V2
-- [Dettaglio Valori fissi SME.up](Sorgenti/OG/OG/OG_V2)
+- [Dettaglio Valori fissi SME.up](Sorgenti/OG/OG/V2)
  - Documentazione
 
 ### Flag di archivio
-- [Dettaglio Flag di archivio](Sorgenti/OG/OG/OG_FL)
+- [Dettaglio Flag di archivio](Sorgenti/OG/OG/FL)
  - Documentazione
 
 ### Valore fisso V3
-- [Dettaglio Valori dinamici SME.up](Sorgenti/OG/OG/OG_V3)
+- [Dettaglio Valori dinamici SME.up](Sorgenti/OG/OG/V3)
  - Documentazione
 
 ### Configurazione
@@ -118,12 +118,12 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Test
 
 ### Classi di autorizzazione
-- [B£P - Classi Autorizzazione](Sorgenti/OG/TA/TA_B£P)
+- [B£P - Classi Autorizzazione](Sorgenti/OG/TA/B£P)
  - Documentazione
  - Scheda autorizzazioni ?????
 
 ### Oggetto
-- [Creare un nuovo oggetto](Sorgenti/OG/OG/OG_OG)
+- [Creare un nuovo oggetto](Sorgenti/OG/OG/OG)
  - Documentazione
  - Attributi (OAV)
  - Opzioni di Popup

@@ -222,13 +222,13 @@ Tutti le schiere di gestione dell'input panel sono salvate in un file di work LO
 ## Appendice
 
 Documentazione specifica script SCP_LAY
- :  : DEC T(MB) P(DOC_VOC) K(L_EDT_LAY)
+- [Configuratore di Setup LAY](Sorgenti/MB/DOC_VOC/L_EDT_LAY)
 
 Documentazione specifica Script SCP_A36
- :  : DEC T(MB) P(DOC_VOC) K(L_EDT_A36)
+- [Configuratore di Setup A36](Sorgenti/MB/DOC_VOC/L_EDT_A36)
 
 Documentazione specifica copy £K89
-- [£K89](Sorgenti/OJ/PGM/P_TSTK89)
+- [£K89](Sorgenti/OJ/PGM/TSTK89)
 
 Documentazione sviluppo
  :  : DEC T(MB) P(DOC) K(LOA36_SVI)

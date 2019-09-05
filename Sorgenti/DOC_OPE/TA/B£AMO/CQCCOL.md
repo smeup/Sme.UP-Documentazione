@@ -1,4 +1,4 @@
-- [Gestione cicli collaudo x articolo](Sorgenti/OJ/PGM/P_CQCM10)
-- [Cicli di collaudo interrogazione](Sorgenti/OJ/PGM/P_CQCR20)
-- [Cicli di collaudo approvazione](Sorgenti/OJ/PGM/P_CQCM30)
-- [Legame fase di collaudo&-x2f;ente](Sorgenti/OJ/PGM/P_CQCF40)
+- [Gestione cicli collaudo x articolo](Sorgenti/OJ/PGM/CQCM10)
+- [Cicli di collaudo interrogazione](Sorgenti/OJ/PGM/CQCR20)
+- [Cicli di collaudo approvazione](Sorgenti/OJ/PGM/CQCM30)
+- [Legame fase di collaudo&-x2f;ente](Sorgenti/OJ/PGM/CQCF40)

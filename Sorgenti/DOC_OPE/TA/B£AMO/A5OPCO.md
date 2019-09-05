@@ -1,4 +1,4 @@
-- [Programma controllo plafond manutenzioni](Sorgenti/OJ/PGM/P_A5UT11A)
+- [Programma controllo plafond manutenzioni](Sorgenti/OJ/PGM/A5UT11A)
 - [Scheda Controllo Quadratura Cespiti - Co.Ge](Sorgenti/MB/SCP_SCH/A5OPCO)
 - [Scheda Associazione Conti per Categoria](Sorgenti/MB/SCP_SCH/A5OPCO_CO0)
 - [Scheda collegamento Cespiti - Co.Ge generiche](Sorgenti/MB/SCP_SCH/A5OPCO_CO1)

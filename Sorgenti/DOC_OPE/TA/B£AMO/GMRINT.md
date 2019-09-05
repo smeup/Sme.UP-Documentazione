@@ -1,1 +1,1 @@
-- [Rintracciabilità estesa](Sorgenti/OJ/PGM/P_GMRN02)
+- [Rintracciabilità estesa](Sorgenti/OJ/PGM/GMRN02)

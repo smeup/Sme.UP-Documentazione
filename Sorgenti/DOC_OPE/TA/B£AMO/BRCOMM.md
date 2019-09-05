@@ -1,3 +1,3 @@
-- [Gestione Commesse](Sorgenti/OJ/PGM/P_BRCM01)
-- [Stampa Commesse](Sorgenti/OJ/PGM/P_BRCM51)
+- [Gestione Commesse](Sorgenti/OJ/PGM/BRCM01)
+- [Stampa Commesse](Sorgenti/OJ/PGM/BRCM51)
 - [Nuove funzionalità COMMESSE](Sorgenti/DOC_OPE/TA/B£AMO/BRCOMM_01)

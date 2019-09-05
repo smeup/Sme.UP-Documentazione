@@ -5,7 +5,7 @@
 - [Approfondimenti azioni su oggetti](Sorgenti/DOC/TA/B£AMO/B£BASE_05)
 xxDEC T(MB) P(DOC) K(B£BASE_050) D(Azioni di Gestione su Oggetti)
 - [Approfondimenti azioni su oggetti](Sorgenti/DOC/TA/B£AMO/B£BASE_051)
-- [Variabili (Lato SERVER)](Sorgenti/OG/V3/V3_EVA)
+- [Variabili (Lato SERVER)](Sorgenti/OG/V3/EVA)
 - [Controllo oggetti](Sorgenti/DOC/TA/B£AMO/B£BASE_C1)
 ## Note tecnico/applicative
 - [Modalità decodifica indiretta el. tab. INT](Sorgenti/DOC/TA/B£AMO/B£BASE_N1)

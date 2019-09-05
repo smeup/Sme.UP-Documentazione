@@ -1,3 +1,3 @@
-- [Gestione Articoli](Sorgenti/OJ/PGM/P_BRAR01)
-- [Stampa Articoli](Sorgenti/OJ/PGM/P_BRAR51)
+- [Gestione Articoli](Sorgenti/OJ/PGM/BRAR01)
+- [Stampa Articoli](Sorgenti/OJ/PGM/BRAR51)
 - [Nuove funzionalità ARTICOLI](Sorgenti/DOC_OPE/TA/B£AMO/BRARTI_01)

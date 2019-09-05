@@ -1,4 +1,4 @@
 - [Introduzione](Sorgenti/DOC_OPE/TA/B£AMO/BRDINT05)
-- [Gestione dichiarazioni di intento](Sorgenti/OJ/PGM/P_BRIN01)
-- [Stampa registro dich. di intento](Sorgenti/OJ/PGM/P_BRIN02)
-- [Dichiarazioni di intento Integrativa](Sorgenti/OJ/PGM/P_BRIN06)
+- [Gestione dichiarazioni di intento](Sorgenti/OJ/PGM/BRIN01)
+- [Stampa registro dich. di intento](Sorgenti/OJ/PGM/BRIN02)
+- [Dichiarazioni di intento Integrativa](Sorgenti/OJ/PGM/BRIN06)

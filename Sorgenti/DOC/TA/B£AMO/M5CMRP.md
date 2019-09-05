@@ -14,8 +14,8 @@
 - [Assegna fornitore-contratto a suggerimenti](Sorgenti/DOC/TA/B£AMO/M5_018)
 - [DRP leggero](Sorgenti/DOC/TA/B£AMO/M5_020)
 - [MRP Rottura di Esponente Modifica](Sorgenti/DOC/TA/B£AMO/M5_021)
- :  : DEC T(MB) P(DOC_VOC) K(S_M5SER_04)
- :  : DEC T(MB) P(DOC_VOC) K(D5_M5_£I2)
+- [Analisi quantità superflue MRP](Sorgenti/MB/DOC_VOC/S_M5SER_04)
+- [Indici MRP](Sorgenti/MB/DOC_VOC/D5_M5_£I2)
 ## Note tecnico/applicative
 - [Struttura quantità in M5CONS](Sorgenti/DOC/TA/B£AMO/M5CMRP_N1)
 - [Modo di individuare le righe di M5CONS](Sorgenti/DOC/TA/B£AMO/M5CMRP_N2)

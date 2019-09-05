@@ -1,1 +1,1 @@
-- [Gestione note strutturate](Sorgenti/OJ/PGM/P_B£AMC0)
+- [Gestione note strutturate](Sorgenti/OJ/PGM/B£AMC0)

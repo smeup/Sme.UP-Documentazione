@@ -1,3 +1,3 @@
-- [Interrogazione Giacenze](Sorgenti/OJ/PGM/P_GMQU01)
-- [Interrogazione Sintesi Magazzino &-x2f; Articolo](Sorgenti/OJ/PGM/P_GMSI01)
-- [Stampa giacenze negative](Sorgenti/OJ/PGM/P_GMQU60)
+- [Interrogazione Giacenze](Sorgenti/OJ/PGM/GMQU01)
+- [Interrogazione Sintesi Magazzino &-x2f; Articolo](Sorgenti/OJ/PGM/GMSI01)
+- [Stampa giacenze negative](Sorgenti/OJ/PGM/GMQU60)

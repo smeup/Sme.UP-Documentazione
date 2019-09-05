@@ -50,7 +50,7 @@ Le libreie non devono mai essere specificate in maniera diretta ma attraverso va
 
 
 Per le spiegazioni sulle variabili vedere qui : 
-- [Variabili (Lato SERVER)](Sorgenti/OG/V3/V3_EVA)
+- [Variabili (Lato SERVER)](Sorgenti/OG/V3/EVA)
 
 **NOTA : ** La prima riga della PTF deve essere **..REL D(GG/MM/AAAA)** per indicare a quale  data si riferisce (ovviamente si devono sostituire i __".."__ con i __due punti__).
 Una PTF viene creata quando le modifiche introdotte in SMEUP richiedono degli adeguamenti all'installazione effettuata presso il cliente. Tali adeguamenti comportano l'esecuzione di una serie di operazioni preliminari di controllo, operazioni di aggiornamento e operazioni/controlli di post-aggiornamento.

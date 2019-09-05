@@ -12,7 +12,7 @@ Per la produzione dell'output Smeup mette a disposizione una serie di utility ch
 
 Questa /COPY permette di produrre l'output secondo vari formati (Video 5250, Printer, PDF) scrivendo i dati dell'output in un formato generico, svincolato dalla forma di output, senza doversi inoltre preoccupare della definizione degli stessi (Printer File, Script ecc.) in quanto essa contiene già una serie di modelli standard.
 
-- [Gestione Visualizzatore](Sorgenti/OJ/PGM/P_TSTG18)
+- [Gestione Visualizzatore](Sorgenti/OJ/PGM/TSTG18)
 
 Quando poi le funzioni della suddetta /COPY risultino troppo vincolanti sono cmq disponibili le funzioni generiche, elencate di seguito, utilizzate della /COPY stessa, che possono essere a questo punto configurate in modo più specifico.
 
@@ -22,13 +22,13 @@ Quando poi le funzioni della suddetta /COPY risultino troppo vincolanti sono cmq
 
 Fra le varie funzioni questa /COPY permette di produrre un file PDF a partire dalla scrittura di un file di testo prodotto secondo delle regole di codifica interna.
 
-- [Mail, PDF, FTP, etc.](Sorgenti/OJ/PGM/P_TSTG53)
+- [Mail, PDF, FTP, etc.](Sorgenti/OJ/PGM/TSTG53)
 
 ### £H53
 
 Tramite questa /COPY è possibile semplificare la scrittura dei file PDF che vengono prodotti tramite la £G53. In sostanza, viene scissa la definizione della struttura del PDF (Righe Intestazioni, Riquadri ecc.) che viene delegata a degli script, dalla valorizzazione dei che dati che riempiono la struttura stessa. Il programma deve perciò occuparsi solo di quest'ultima parte.
 
-- [Funzione di generazione PDF](Sorgenti/OJ/PGM/P_TSTH53)
+- [Funzione di generazione PDF](Sorgenti/OJ/PGM/TSTH53)
 
 ## UTILITY PER LA PRODUZIONE DI FILE DI SPOOL
 

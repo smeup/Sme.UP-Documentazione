@@ -22,5 +22,5 @@ Ricordimao che i sottosettori della MEA corrispondono alle applicazioni standard
 Occorre prestare particolare attenzione al campo "Ordinamento" perchè è tramite il valore riportato in questo campo che la voce personale troverà la giusta collocazione nel menù.
 Si consiglia di lasciare questo campo vuoto se si vuole che la voce trovi posto prima di tutte le altre voci, di compilarlo con "999999999" se si vuole che la voce sia l'ultima, o di compilarlo con una qualsiasi altra combinazione se si vuole che la voce appaia in un determinato posto.
 Per comprendere meglio l'utilità di questo campo e il suo scopo, si rimanda alla documentazione specifica della voce "rordina menù" presente tra le actions del modulo B£MENU.
- :  : DEC T(MB) P(DOC_VOC) K(M_B£MENU)
+- [Actions B£MENU](Sorgenti/MB/DOC_VOC/M_B£MENU)
 

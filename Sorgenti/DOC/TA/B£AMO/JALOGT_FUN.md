@@ -58,7 +58,7 @@ La mancata chiamata di scollegamento comporta un funzionamento simile all'altra 
 
 ## Documentazione Tabella
 Per ulteriori riferimenti sui campi Fare Riferimento a help tabella
-- [JAL - Log collegamento webup loocup](Sorgenti/OG/TA/TA_JAL)
+- [JAL - Log collegamento webup loocup](Sorgenti/OG/TA/JAL)
 
 # Aggiornare la data ultima operazione
 Nel file di log è presente una data ultima operazione effettuata per una determinata sessione.

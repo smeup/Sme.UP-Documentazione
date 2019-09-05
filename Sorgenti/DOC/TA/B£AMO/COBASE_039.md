@@ -42,7 +42,7 @@ Tale programma va schedulato :
  * N volte, una per ambiente, con parametro 'START' per far partire il controllo dei promemoria e la loro scrittura sulla coda - Es. CALL PGM(WFPROM00) PARM('START').
 NB :  La schedulazione deve essere effettuata tramite l'opportuna scheda di schedulazione SMEUP, in modo che sia possibile lanciare il programma con l'ambiente corretto.
 Per questo si rimanda a : 
- :  : DEC T(MB) P(DOC_NWS) K(NWS001549)
+- [Nuovi cmd B£QQ00,B£QQ01 e WRKJOBSCDE in scheda](Sorgenti/MB/DOC_NWS/NWS001549)
 - [Lancio&-x2f;Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
 
 Il programma si chiude una volta superato l'orario impostato nella tabella di configurazione WF1.

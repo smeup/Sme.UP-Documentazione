@@ -1,4 +1,4 @@
-- [Lancio pianificazione MRP](Sorgenti/OJ/PGM/P_M5MRP0)
+- [Lancio pianificazione MRP](Sorgenti/OJ/PGM/M5MRP0)
 - [Pianificazione - Base](Sorgenti/MB/SCP_SCH/M5CMRP)
 - [Scheda Pianif. Navigazione](Sorgenti/MB/SCP_SCH/M5CMRP_N)
 - [Scheda Pianif. Quantità superflua](Sorgenti/MB/SCP_SCH/M5CMRP_A)
@@ -6,5 +6,5 @@
  :  : DEC T(MB) P(DOC_SCH) K(M5CMRPTG)
  :  : DEC T(MB) P(DOC_SCH) K(M5CMRPTP)
 - [Scheda Analisi nel tempo per periodo](Sorgenti/MB/SCP_SCH/M5)
-- [Navigazione MRP](Sorgenti/OJ/PGM/P_M5FUC1)
-- [Stampa analisi pianificazione](Sorgenti/OJ/PGM/P_M5SC51)
+- [Navigazione MRP](Sorgenti/OJ/PGM/M5FUC1)
+- [Stampa analisi pianificazione](Sorgenti/OJ/PGM/M5SC51)

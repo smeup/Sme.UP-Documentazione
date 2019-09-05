@@ -1,2 +1,2 @@
-- [Gestione matricole](Sorgenti/OJ/PGM/P_BRTM01)
-- [Gestione matricole](Sorgenti/OJ/PGM/P_BRTM51)
+- [Gestione matricole](Sorgenti/OJ/PGM/BRTM01)
+- [Gestione matricole](Sorgenti/OJ/PGM/BRTM51)

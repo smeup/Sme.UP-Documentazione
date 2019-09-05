@@ -157,7 +157,7 @@ Gestisce sia i dati della gestione del conto lavoro e della gestione Kit. In ott
  :  : DEC T(ST) K(V5K) I(Gestione Tabella)
 Definisce le tipologie di kit trattati a livello aziendale. Vengono mappati a questo livello i flag specifici delle righe di Kit, in modo da creare più modelli di comportamento in base a come sono compilati.
 I flag della V5K sovrascrivono per i valori specifici i flag della riga.
-- [V5K - Tipi Kit](Sorgenti/OG/TA/TA_V5K)
+- [V5K - Tipi Kit](Sorgenti/OG/TA/V5K)
 
 ### Programmi specifici
  :  : DEC T(OJ) P(*PGM) K(V5FUKIT)

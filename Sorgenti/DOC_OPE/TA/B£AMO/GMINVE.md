@@ -1,1 +1,1 @@
-- [Gestione inventario fisico](Sorgenti/OJ/PGM/P_GMSI03)
+- [Gestione inventario fisico](Sorgenti/OJ/PGM/GMSI03)

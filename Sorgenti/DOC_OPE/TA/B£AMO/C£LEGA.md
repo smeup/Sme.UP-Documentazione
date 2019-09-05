@@ -1,1 +1,1 @@
-- [Gestione legami](Sorgenti/OJ/PGM/P_C£LEG0)
+- [Gestione legami](Sorgenti/OJ/PGM/C£LEG0)

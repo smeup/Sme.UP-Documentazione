@@ -1,1 +1,1 @@
-- [Eventi di rilevazione](Sorgenti/OJ/PGM/P_B£G950)
+- [Eventi di rilevazione](Sorgenti/OJ/PGM/B£G950)

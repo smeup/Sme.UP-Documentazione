@@ -80,7 +80,7 @@ Se presente lo schema, si possono scegliere i campi da visualizzare in lista.
 Se presente la scansione, la ricerca dei record da presentare può essere fatta anche per caratteri contenuti nel codice (es. :  inserendo *AUT* nella scansione descrizione, vengono presentati tutti i centri di lavoro che hanno le 3 lettere >AUT all'interno dela descrizione).
 Alcune gestioni richiedono l'utilizzo di parzializzazioni superiori a quelle consentite da una unica videata di selezione :  in questi casi con >F13__ si passa alle __"Altre parzializzazioni".
 Tutte le parzializzazioni impostate possono essere identificate con un codice identificativo e memorizzate.
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/P_B£MDV0)
+- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
 
 ![B£BASE_062](http://localhost:3000/immagini/MBDOC_OPE-B£_VID/BXBASE_062.png)
 ## Impostazione di una stampa
@@ -95,7 +95,7 @@ Normalmente un formato di stampa è un insieme di diverse impostazioni :
 
 Ciascuna di queste impostazioni può essere memorizzata singolarmente per essere riutilizzata in diversi tipi di stampe.
 Anche l'insieme delle impostazioni di una stampa può essere memorizzato.
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/P_B£MDV0)
+- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
 
 ![B£BASE_063](http://localhost:3000/immagini/MBDOC_OPE-B£_VID/BXBASE_063.png)
 Si rimanda al documento _2_"STAMPE" per ulteriori dettagli.

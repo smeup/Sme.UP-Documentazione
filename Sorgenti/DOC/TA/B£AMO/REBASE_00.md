@@ -229,7 +229,7 @@ L'interfaccia è la gestione interagiscono tramite una struttura di schiere che 
 Ogni oggetto ha un suo particolare programma di gestione B£K89_XX dove XX è l'oggetto.
 Ad ogni programma è poi associata una exit dove è possibile intervenire per modificare le caratteristiche di un campo, completare il contenuto di un campo in funzione del contenuto di un altro,  eseguire controlli specifici, agire prima e/o dopo l'aggiornamento ...
 Per maggiori dettagli fare riferimento alla documentazione della £K89
-- [£K89](Sorgenti/OJ/PGM/P_TSTK89)
+- [£K89](Sorgenti/OJ/PGM/TSTK89)
 
 ## PRECEDURA DI INSTALLAZIONE
 

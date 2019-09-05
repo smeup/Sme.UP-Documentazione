@@ -40,5 +40,5 @@ Alcuni elementi sono predefiniti a standard, di seguito ne viene riportato l'ele
  * _2_£41 Dati Percipiente. Definisce i dati specifici del percipiente.
 
 ### Tabella Estensioni contatti
-- [BRI - Tipi estensioni contatti](Sorgenti/OG/TA/TA_BRI)
+- [BRI - Tipi estensioni contatti](Sorgenti/OG/TA/BRI)
 

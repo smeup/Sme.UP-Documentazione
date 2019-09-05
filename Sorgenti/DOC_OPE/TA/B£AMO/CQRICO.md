@@ -1,3 +1,3 @@
-- [Gestione registrazione controlli](Sorgenti/OJ/PGM/P_CQRM10)
-- [Stampa rilievi e misure](Sorgenti/OJ/PGM/P_CQRM40)
-- [Stampa certificato di qualità](Sorgenti/OJ/PGM/P_CQRM80)
+- [Gestione registrazione controlli](Sorgenti/OJ/PGM/CQRM10)
+- [Stampa rilievi e misure](Sorgenti/OJ/PGM/CQRM40)
+- [Stampa certificato di qualità](Sorgenti/OJ/PGM/CQRM80)

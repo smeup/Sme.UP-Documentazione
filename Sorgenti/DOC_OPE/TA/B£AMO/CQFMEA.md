@@ -1,2 +1,2 @@
-- [Immissione dati](Sorgenti/OJ/PGM/P_CQFM10)
-- [Lista Livelli di modifica](Sorgenti/OJ/PGM/P_CQFM20)
+- [Immissione dati](Sorgenti/OJ/PGM/CQFM10)
+- [Lista Livelli di modifica](Sorgenti/OJ/PGM/CQFM20)
