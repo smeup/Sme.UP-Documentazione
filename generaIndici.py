@@ -22,7 +22,9 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
         file_or_path = os.path.join(dire, filename)
         if os.path.isdir(file_or_path): #is dir
             
-            if mdfile_in_dir(file_or_path): # if there is .md files in the folder
+            if mdfile_in_dir(file_or_path) and os.path.relpath(file_or_path) != 'DocumentazioneSmeUP\DOC': # if there is .md files in the folder
+                print(os.path.relpath(file_or_path))
+                '''
                 if filename == 'DOC':
                     output_file.write('  ' * iter_depth + '- [Documentazione](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
                 elif filename == 'DOC_VIS':
@@ -35,8 +37,9 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                     output_file.write('  ' * iter_depth + '- [Glossario](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
                 elif filename == 'FAQ':
                     output_file.write('  ' * iter_depth + '- [FAQ](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
+                '''
                               
-                elif filename in areeApp: # Se è un'area applicativa
+                if filename in areeApp: # Se è un'area applicativa
                     if 'DOC_SCH' not in os.path.relpath(file_or_path):
                         output_file.write('  ' * iter_depth + '- [' + areeApp[filename] + '](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
                     else:
@@ -114,7 +117,7 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                         output_file.write('  ' * iter_depth + '- [{}]({})\n'.format(write_md_filename(filename, append), os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20')))
                         # iter depth for indent, relpath and join to write link.
                 else:
-                    print(os.path.relpath(file_or_path))
+                    # print(os.path.relpath(file_or_path))
                     if 'DOC_APP' in os.path.relpath(file_or_path):
                         for codice, nome in applicazioni.items():
                             if codice in os.path.relpath(file_or_path):
@@ -164,7 +167,7 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                                                 for singleFile in os.listdir('Sorgenti/MB/SCP_SCH'):
                                                     nomeFile = singleFile.replace('.md','')    
                                                     if areeApplicative[i][j] == singleFile[:2] and nomeFile in nomiDOC_SCH and len(nomeFile) == 6 and '_' not in nomeFile and applicazioneEsistente == False:
-                                                        pathApplicazione = 'Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/' + codice + '/' + areeApplicative[i][j] + '/_sidebar.md'
+                                                        pathApplicazione = 'DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/' + codice + '/' + areeApplicative[i][j] + '/_sidebar.md'
                                                         f.write('- [' + applicazioni[areeApplicative[i][j]] + '](' + pathApplicazione.replace(' ', '%20') + ')\n')
                                                         applicazioneEsistente = True              
                         elif '\\Componenti\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_SCH relativi ai Componenti
@@ -195,7 +198,7 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                                         if len(codice) == 2 and codice not in applicazioni:
                                             f.write('- [' + nomiDOC_SCH[nomeFile] + '](Sorgenti/MB/SCP_SCH/' + singleFile + ')\n')
                         else:
-                            with open('Documentazione SmeUP/DOC/DOC_SCH/Altro/_sidebar.md' , 'w', encoding='utf8') as f:
+                            with open('DocumentazioneSmeUP/DOC/DOC_SCH/Altro/_sidebar.md' , 'w', encoding='utf8') as f:
                                 f.write('# Altre Schede\n')
                                 for singleFile in os.listdir('Sorgenti/MB/SCP_SCH'):
                                     codice = ""
@@ -401,46 +404,47 @@ def main():
             else:
                 output = open(os.path.join(dir_input, filename), 'a+', encoding='utf8')
     else:
-        output = open(os.path.join(dir_input, filename), 'w+', encoding='utf8')
+        if os.path.relpath(dir_input) != 'DocumentazioneSmeUP':
+            output = open(os.path.join(dir_input, filename), 'w+', encoding='utf8')
 
     # Se è una cartella stampa nel file di indice il titolo ed eventualmente le categorie
     if os.path.isdir(dir_input):
         directoryName = dir_input[dir_input.rfind('/')+1:]
         if directoryName == 'DOC':
             output.write('# Documentazione\n')
-            output.write('- [Documentazione Applicativa](Documentazione%20SmeUP/DOC/DOC_APP/_sidebar)\n')
-            output.write('- [Documentazione dei Servizi](Documentazione%20SmeUP/DOC/DOC_SER/_sidebar)\n')
-            output.write('- [Documentazione Schede](Documentazione%20SmeUP/DOC/DOC_SCH/_sidebar)\n')
-            output.write('- [Documentazione per Oggetto](Documentazione%20SmeUP/DOC/DOC_OGG/_sidebar)\n')
+            output.write('- [Documentazione Applicativa](DocumentazioneSmeUP/DOC/DOC_APP/_sidebar)\n')
+            output.write('- [Documentazione dei Servizi](DocumentazioneSmeUP/DOC/DOC_SER/_sidebar)\n')
+            output.write('- [Documentazione Schede](DocumentazioneSmeUP/DOC/DOC_SCH/_sidebar)\n')
+            output.write('- [Documentazione per Oggetto](DocumentazioneSmeUP/DOC/DOC_OGG/_sidebar)\n')
         elif directoryName == 'DOC_APP':
             output.write('# Documentazione Applicativa\n')
         elif directoryName == 'DOC_VIS':
             output.write('# Documentazione di Visione\n')
         elif directoryName == 'DOC_SCH':
             output.write('# Documentazione Schede\n')
-            output.write('- [Schede di Applicazioni](Documentazione%20SmeUP/DOC/DOC_SCH/Applicazioni/_sidebar)\n')
-            output.write('- [Schede di Componenti](Documentazione%20SmeUP/DOC/DOC_SCH/Componenti/_sidebar)\n')
-            output.write('- [Schede di UPP](Documentazione%20SmeUP/DOC/DOC_SCH/UPP/_sidebar)\n')
-            output.write('- [Schede di Oggetti](Documentazione%20SmeUP/DOC/DOC_SCH/Oggetti/_sidebar)\n')
-            output.write('- [Altre Schede](Documentazione%20SmeUP/DOC/DOC_SCH/Altro/_sidebar)\n')
+            output.write('- [Schede di Applicazioni](DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/_sidebar)\n')
+            output.write('- [Schede di Componenti](DocumentazioneSmeUP/DOC/DOC_SCH/Componenti/_sidebar)\n')
+            output.write('- [Schede di UPP](DocumentazioneSmeUP/DOC/DOC_SCH/UPP/_sidebar)\n')
+            output.write('- [Schede di Oggetti](DocumentazioneSmeUP/DOC/DOC_SCH/Oggetti/_sidebar)\n')
+            output.write('- [Altre Schede](DocumentazioneSmeUP/DOC/DOC_SCH/Altro/_sidebar)\n')
         elif directoryName == 'DOC_OGG':
             output.write('# Documentazione per Oggetto\n')
-            output.write('- [File](Documentazione%20SmeUP/DOC/DOC_OGG/File/_sidebar)\n')
-            output.write('- [Costruttori](Documentazione%20SmeUP/DOC/DOC_OGG/Costruttori/_sidebar)\n')
-            output.write('- [Classi](Documentazione%20SmeUP/DOC/DOC_OGG/Classi/_sidebar)\n')
-            output.write('- [Programmi](Documentazione%20SmeUP/DOC/DOC_OGG/Programmi/_sidebar)\n')
-            output.write('- [Tabelle](Documentazione%20SmeUP/DOC/DOC_OGG/Tabelle/_sidebar)\n')
-            output.write('- [Valori Fissi](Documentazione%20SmeUP/DOC/DOC_OGG/ValoriFissi/_sidebar)\n')
-            output.write('- [Valori Dinamici](Documentazione%20SmeUP/DOC/DOC_OGG/ValoriDinamici/_sidebar)\n')
-            # output.write('- [Altri Oggetti](Documentazione%20SmeUP/DOC/DOC_OGG/Altro/_sidebar)\n')
+            output.write('- [File](DocumentazioneSmeUP/DOC/DOC_OGG/File/_sidebar)\n')
+            output.write('- [Costruttori](DocumentazioneSmeUP/DOC/DOC_OGG/Costruttori/_sidebar)\n')
+            output.write('- [Classi](DocumentazioneSmeUP/DOC/DOC_OGG/Classi/_sidebar)\n')
+            output.write('- [Programmi](DocumentazioneSmeUP/DOC/DOC_OGG/Programmi/_sidebar)\n')
+            output.write('- [Tabelle](DocumentazioneSmeUP/DOC/DOC_OGG/Tabelle/_sidebar)\n')
+            output.write('- [Valori Fissi](DocumentazioneSmeUP/DOC/DOC_OGG/ValoriFissi/_sidebar)\n')
+            output.write('- [Valori Dinamici](DocumentazioneSmeUP/DOC/DOC_OGG/ValoriDinamici/_sidebar)\n')
+            # output.write('- [Altri Oggetti](DocumentazioneSmeUP/DOC/DOC_OGG/Altro/_sidebar)\n')
         elif directoryName == 'DOC_OPE':
             output.write('# Documentazione Operativa\n')
         elif directoryName == 'DOC_SER':
             output.write('# Documentazione dei Servizi\n')
         elif directoryName == 'NWS':
             output.write('# News\n')
-            output.write('- [News](Documentazione%20SmeUP/NWS/News/_sidebar)\n')
-            output.write('- [Note Tecniche](Documentazione%20SmeUP/NWS/NTI/_sidebar)\n')
+            output.write('- [News](DocumentazioneSmeUP/NWS/News/_sidebar)\n')
+            output.write('- [Note Tecniche](DocumentazioneSmeUP/NWS/NTI/_sidebar)\n')
         elif directoryName == 'GLO':
             output.write('# Glossario\n')
         elif directoryName == 'NTI':
@@ -456,12 +460,13 @@ def main():
         
 
     # Se non è l'indice totale, genera indice con un solo livello
-    if os.path.relpath(dir_input) == 'Documentazione SmeUP':
+    if os.path.relpath(dir_input) == 'DocumentazioneSmeUP':
         oneLevelIndex = False
     else:
         oneLevelIndex = True
 
-    output_markdown(dir_input, dir_input, output, append, oneLevelIndex)
+    if os.path.relpath(dir_input) != 'DocumentazioneSmeUP':
+        output_markdown(dir_input, dir_input, output, append, oneLevelIndex)
 
     return 0
 

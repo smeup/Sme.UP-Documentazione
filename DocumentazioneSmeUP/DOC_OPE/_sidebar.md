@@ -1,0 +1,12 @@
+# Documentazione Operativa
+- [Architettura e Servizi di Base](DocumentazioneSmeUP/DOC_OPE/000010/_sidebar.md)
+- [Gestione Anagrafici](DocumentazioneSmeUP/DOC_OPE/000020/_sidebar.md)
+- [Amministrazione Finanza Controllo](DocumentazioneSmeUP/DOC_OPE/000030/_sidebar.md)
+- [Vendite](DocumentazioneSmeUP/DOC_OPE/000040/_sidebar.md)
+- [Pianificazione](DocumentazioneSmeUP/DOC_OPE/000050/_sidebar.md)
+- [Produzione](DocumentazioneSmeUP/DOC_OPE/000060/_sidebar.md)
+- [Acquisti](DocumentazioneSmeUP/DOC_OPE/000070/_sidebar.md)
+- [Logistica](DocumentazioneSmeUP/DOC_OPE/000080/_sidebar.md)
+- [Qualita Manutenzione](DocumentazioneSmeUP/DOC_OPE/000090/_sidebar.md)
+- [Open-Integration](DocumentazioneSmeUP/DOC_OPE/000100/_sidebar.md)
+- [WebApplication](DocumentazioneSmeUP/DOC_OPE/000110/_sidebar.md)

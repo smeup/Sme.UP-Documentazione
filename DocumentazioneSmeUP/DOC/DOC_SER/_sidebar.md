@@ -1,0 +1,12 @@
+# Documentazione dei Servizi
+- [Architettura e Servizi di Base](DocumentazioneSmeUP/DOC/DOC_SER/000010/_sidebar.md)
+- [Gestione Anagrafici](DocumentazioneSmeUP/DOC/DOC_SER/000020/_sidebar.md)
+- [Amministrazione Finanza Controllo](DocumentazioneSmeUP/DOC/DOC_SER/000030/_sidebar.md)
+- [Vendite](DocumentazioneSmeUP/DOC/DOC_SER/000040/_sidebar.md)
+- [Pianificazione](DocumentazioneSmeUP/DOC/DOC_SER/000050/_sidebar.md)
+- [Produzione](DocumentazioneSmeUP/DOC/DOC_SER/000060/_sidebar.md)
+- [Acquisti](DocumentazioneSmeUP/DOC/DOC_SER/000070/_sidebar.md)
+- [Logistica](DocumentazioneSmeUP/DOC/DOC_SER/000080/_sidebar.md)
+- [Qualita Manutenzione](DocumentazioneSmeUP/DOC/DOC_SER/000090/_sidebar.md)
+- [Open-Integration](DocumentazioneSmeUP/DOC/DOC_SER/000100/_sidebar.md)
+- [WebApplication](DocumentazioneSmeUP/DOC/DOC_SER/000110/_sidebar.md)

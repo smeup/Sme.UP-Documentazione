@@ -3,7 +3,7 @@ import os
 
 dataFile = os.path.abspath('data.js')
 basepath = 'Sorgenti'
-basepath1 = 'Documentazione SmeUP'
+basepath1 = 'DocumentazioneSmeUP'
 with open(dataFile, "w",  encoding='utf8') as f: 
     f.write('var data = [\n')
     f.write('\n')

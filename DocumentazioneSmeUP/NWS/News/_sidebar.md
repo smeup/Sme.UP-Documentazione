@@ -1,0 +1,12 @@
+# News
+- [Architettura e Servizi di Base](DocumentazioneSmeUP/NWS/News/000010/_sidebar.md)
+- [Gestione Anagrafici](DocumentazioneSmeUP/NWS/News/000020/_sidebar.md)
+- [Amministrazione Finanza Controllo](DocumentazioneSmeUP/NWS/News/000030/_sidebar.md)
+- [Vendite](DocumentazioneSmeUP/NWS/News/000040/_sidebar.md)
+- [Pianificazione](DocumentazioneSmeUP/NWS/News/000050/_sidebar.md)
+- [Produzione](DocumentazioneSmeUP/NWS/News/000060/_sidebar.md)
+- [Acquisti](DocumentazioneSmeUP/NWS/News/000070/_sidebar.md)
+- [Logistica](DocumentazioneSmeUP/NWS/News/000080/_sidebar.md)
+- [Qualita Manutenzione](DocumentazioneSmeUP/NWS/News/000090/_sidebar.md)
+- [Open-Integration](DocumentazioneSmeUP/NWS/News/000100/_sidebar.md)
+- [WebApplication](DocumentazioneSmeUP/NWS/News/000110/_sidebar.md)

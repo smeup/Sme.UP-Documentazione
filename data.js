@@ -47436,2139 +47436,2139 @@ href: "Sorgenti/V3/ASE/XXSER.md"
 id: 8301,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/_sidebar.md"
+href: "DocumentazioneSmeUP/_sidebar.md"
 },{
 id: 8302,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/_sidebar.md"
 },{
 id: 8303,
-href: "Documentazione SmeUP/DOC/DOC_APP/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/_sidebar.md"
 },{
 id: 8304,
 title: "Architettura e Servizi di Base",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/_sidebar.md"
 },{
 id: 8305,
 title: "Funzioni Tecniche",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/A£/_sidebar.md"
 },{
 id: 8306,
 title: "Funzioni Base",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/B£/_sidebar.md"
 },{
 id: 8307,
 title: "Dati di Classificazione",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/C£/_sidebar.md"
 },{
 id: 8308,
 title: "Business Intelligence",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/D9/_sidebar.md"
 },{
 id: 8309,
 title: "Client-Server service",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/JA/_sidebar.md"
 },{
 id: 8310,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/LO/_sidebar.md"
 },{
 id: 8311,
 title: "Funzioni di Network",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/NS/_sidebar.md"
 },{
 id: 8312,
 title: "Workflow",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/WF/_sidebar.md"
 },{
 id: 8313,
 title: "Gestione Anagrafici",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000020/_sidebar.md"
 },{
 id: 8314,
 title: "Dati di Base",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000020/BR/_sidebar.md"
 },{
 id: 8315,
 title: "Configuratore",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000020/CF/_sidebar.md"
 },{
 id: 8316,
 title: "Modifiche Tecniche",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000020/MT/_sidebar.md"
 },{
 id: 8317,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/_sidebar.md"
 },{
 id: 8318,
 title: "Cespiti",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/A5/_sidebar.md"
 },{
 id: 8319,
 title: "Contabilità Generale",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/C5/_sidebar.md"
 },{
 id: 8320,
 title: "Costi Avanzati",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/D0/_sidebar.md"
 },{
 id: 8321,
 title: "Contabilità Industriale",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/D5/_sidebar.md"
 },{
 id: 8322,
 title: "Vendite",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000040/_sidebar.md"
 },{
 id: 8323,
 title: "CRM Relazioni Cliente",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000040/RE/_sidebar.md"
 },{
 id: 8324,
 title: "Vendite",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000040/V6/_sidebar.md"
 },{
 id: 8325,
 title: "Pianificazione",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000050/_sidebar.md"
 },{
 id: 8326,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000050/JM/_sidebar.md"
 },{
 id: 8327,
 title: "MRP Pianific. Materiali",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000050/M5/_sidebar.md"
 },{
 id: 8328,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000050/MP/_sidebar.md"
 },{
 id: 8329,
 title: "Produzione",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000060/_sidebar.md"
 },{
 id: 8330,
 title: "Produzione",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000060/P5/_sidebar.md"
 },{
 id: 8331,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000060/S5/_sidebar.md"
 },{
 id: 8332,
 title: "Acquisti",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000070/_sidebar.md"
 },{
 id: 8333,
 title: "Post Acquisto",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000070/G9/_sidebar.md"
 },{
 id: 8334,
 title: "Richieste Di Acquisto",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000070/V4/_sidebar.md"
 },{
 id: 8335,
 title: "Acquisti",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000070/V5/_sidebar.md"
 },{
 id: 8336,
 title: "Logistica",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000080/_sidebar.md"
 },{
 id: 8337,
 title: "Magazzino",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000080/GM/_sidebar.md"
 },{
 id: 8338,
 title: "Qualita Manutenzione",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000090/_sidebar.md"
 },{
 id: 8339,
 title: "Qualità",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000090/CQ/_sidebar.md"
 },{
 id: 8340,
 title: "Manutenzioni",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000090/MM/_sidebar.md"
 },{
 id: 8341,
 title: "Open-Integration",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/_sidebar.md"
 },{
 id: 8342,
 title: "EDI Elett.Data Interchange",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/ED/_sidebar.md"
 },{
 id: 8343,
 title: "Negoziando",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/NG/_sidebar.md"
 },{
 id: 8344,
 title: "Documentale",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/OD/_sidebar.md"
 },{
 id: 8345,
 title: "Gestione Dati di Campo",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/PH/_sidebar.md"
 },{
 id: 8346,
 title: "Integrazione CMS",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/WS/_sidebar.md"
 },{
 id: 8347,
 title: "WebApplication",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000110/_sidebar.md"
 },{
 id: 8348,
 title: "Componenti Web",
 cat: "Indice DOC_APP",
-href: "Documentazione SmeUP/DOC/DOC_APP/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_APP/000110/WE/_sidebar.md"
 },{
 id: 8349,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/_sidebar.md"
 },{
 id: 8350,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/Altro/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/Altro/_sidebar.md"
 },{
 id: 8351,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/Classi/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/Classi/_sidebar.md"
 },{
 id: 8352,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/Costruttori/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/Costruttori/_sidebar.md"
 },{
 id: 8353,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/File/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/File/_sidebar.md"
 },{
 id: 8354,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/Programmi/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/Programmi/_sidebar.md"
 },{
 id: 8355,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/Tabelle/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/Tabelle/_sidebar.md"
 },{
 id: 8356,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/ValoriDinamici/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/ValoriDinamici/_sidebar.md"
 },{
 id: 8357,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_OGG/ValoriFissi/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_OGG/ValoriFissi/_sidebar.md"
 },{
 id: 8358,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/_sidebar.md"
 },{
 id: 8359,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Altro/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Altro/_sidebar.md"
 },{
 id: 8360,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/_sidebar.md"
 },{
 id: 8361,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/_sidebar.md"
 },{
 id: 8362,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/A£/_sidebar.md"
 },{
 id: 8363,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/B£/_sidebar.md"
 },{
 id: 8364,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/C£/_sidebar.md"
 },{
 id: 8365,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/D9/_sidebar.md"
 },{
 id: 8366,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/JA/_sidebar.md"
 },{
 id: 8367,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/LO/_sidebar.md"
 },{
 id: 8368,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/NS/_sidebar.md"
 },{
 id: 8369,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/WF/_sidebar.md"
 },{
 id: 8370,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000020/_sidebar.md"
 },{
 id: 8371,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000020/BR/_sidebar.md"
 },{
 id: 8372,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000020/CF/_sidebar.md"
 },{
 id: 8373,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000020/MT/_sidebar.md"
 },{
 id: 8374,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/_sidebar.md"
 },{
 id: 8375,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/A5/_sidebar.md"
 },{
 id: 8376,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/C5/_sidebar.md"
 },{
 id: 8377,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/D0/_sidebar.md"
 },{
 id: 8378,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/D5/_sidebar.md"
 },{
 id: 8379,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000040/_sidebar.md"
 },{
 id: 8380,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000040/RE/_sidebar.md"
 },{
 id: 8381,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000040/V6/_sidebar.md"
 },{
 id: 8382,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000050/_sidebar.md"
 },{
 id: 8383,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000050/JM/_sidebar.md"
 },{
 id: 8384,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000050/M5/_sidebar.md"
 },{
 id: 8385,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000050/MP/_sidebar.md"
 },{
 id: 8386,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000060/_sidebar.md"
 },{
 id: 8387,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000060/P5/_sidebar.md"
 },{
 id: 8388,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000060/S5/_sidebar.md"
 },{
 id: 8389,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000070/_sidebar.md"
 },{
 id: 8390,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000070/G9/_sidebar.md"
 },{
 id: 8391,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000070/V4/_sidebar.md"
 },{
 id: 8392,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000070/V5/_sidebar.md"
 },{
 id: 8393,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000080/_sidebar.md"
 },{
 id: 8394,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000080/GM/_sidebar.md"
 },{
 id: 8395,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000090/_sidebar.md"
 },{
 id: 8396,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000090/CQ/_sidebar.md"
 },{
 id: 8397,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000090/MM/_sidebar.md"
 },{
 id: 8398,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/_sidebar.md"
 },{
 id: 8399,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/ED/_sidebar.md"
 },{
 id: 8400,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/NG/_sidebar.md"
 },{
 id: 8401,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/OD/_sidebar.md"
 },{
 id: 8402,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/PH/_sidebar.md"
 },{
 id: 8403,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/WS/_sidebar.md"
 },{
 id: 8404,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000110/_sidebar.md"
 },{
 id: 8405,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Applicazioni/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000110/WE/_sidebar.md"
 },{
 id: 8406,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Componenti/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Componenti/_sidebar.md"
 },{
 id: 8407,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/Oggetti/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/Oggetti/_sidebar.md"
 },{
 id: 8408,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/DOC/DOC_SCH/UPP/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SCH/UPP/_sidebar.md"
 },{
 id: 8409,
-href: "Documentazione SmeUP/DOC/DOC_SER/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/_sidebar.md"
 },{
 id: 8410,
 title: "Architettura e Servizi di Base",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/_sidebar.md"
 },{
 id: 8411,
 title: "Funzioni Tecniche",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/A£/_sidebar.md"
 },{
 id: 8412,
 title: "Funzioni Base",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/B£/_sidebar.md"
 },{
 id: 8413,
 title: "Dati di Classificazione",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/C£/_sidebar.md"
 },{
 id: 8414,
 title: "Business Intelligence",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/D9/_sidebar.md"
 },{
 id: 8415,
 title: "Client-Server service",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/JA/_sidebar.md"
 },{
 id: 8416,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/LO/_sidebar.md"
 },{
 id: 8417,
 title: "Funzioni di Network",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/NS/_sidebar.md"
 },{
 id: 8418,
 title: "Workflow",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/WF/_sidebar.md"
 },{
 id: 8419,
 title: "Gestione Anagrafici",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000020/_sidebar.md"
 },{
 id: 8420,
 title: "Dati di Base",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000020/BR/_sidebar.md"
 },{
 id: 8421,
 title: "Configuratore",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000020/CF/_sidebar.md"
 },{
 id: 8422,
 title: "Modifiche Tecniche",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000020/MT/_sidebar.md"
 },{
 id: 8423,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/_sidebar.md"
 },{
 id: 8424,
 title: "Cespiti",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/A5/_sidebar.md"
 },{
 id: 8425,
 title: "Contabilità Generale",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/C5/_sidebar.md"
 },{
 id: 8426,
 title: "Costi Avanzati",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/D0/_sidebar.md"
 },{
 id: 8427,
 title: "Contabilità Industriale",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/D5/_sidebar.md"
 },{
 id: 8428,
 title: "Vendite",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000040/_sidebar.md"
 },{
 id: 8429,
 title: "CRM Relazioni Cliente",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000040/RE/_sidebar.md"
 },{
 id: 8430,
 title: "Vendite",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000040/V6/_sidebar.md"
 },{
 id: 8431,
 title: "Pianificazione",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000050/_sidebar.md"
 },{
 id: 8432,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000050/JM/_sidebar.md"
 },{
 id: 8433,
 title: "MRP Pianific. Materiali",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000050/M5/_sidebar.md"
 },{
 id: 8434,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000050/MP/_sidebar.md"
 },{
 id: 8435,
 title: "Produzione",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000060/_sidebar.md"
 },{
 id: 8436,
 title: "Produzione",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000060/P5/_sidebar.md"
 },{
 id: 8437,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000060/S5/_sidebar.md"
 },{
 id: 8438,
 title: "Acquisti",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000070/_sidebar.md"
 },{
 id: 8439,
 title: "Post Acquisto",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000070/G9/_sidebar.md"
 },{
 id: 8440,
 title: "Richieste Di Acquisto",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000070/V4/_sidebar.md"
 },{
 id: 8441,
 title: "Acquisti",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000070/V5/_sidebar.md"
 },{
 id: 8442,
 title: "Logistica",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000080/_sidebar.md"
 },{
 id: 8443,
 title: "Magazzino",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000080/GM/_sidebar.md"
 },{
 id: 8444,
 title: "Qualita Manutenzione",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000090/_sidebar.md"
 },{
 id: 8445,
 title: "Qualità",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000090/CQ/_sidebar.md"
 },{
 id: 8446,
 title: "Manutenzioni",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000090/MM/_sidebar.md"
 },{
 id: 8447,
 title: "Open-Integration",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/_sidebar.md"
 },{
 id: 8448,
 title: "EDI Elett.Data Interchange",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/ED/_sidebar.md"
 },{
 id: 8449,
 title: "Negoziando",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/NG/_sidebar.md"
 },{
 id: 8450,
 title: "Documentale",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/OD/_sidebar.md"
 },{
 id: 8451,
 title: "Gestione Dati di Campo",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/PH/_sidebar.md"
 },{
 id: 8452,
 title: "Integrazione CMS",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/WS/_sidebar.md"
 },{
 id: 8453,
 title: "WebApplication",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000110/_sidebar.md"
 },{
 id: 8454,
 title: "Componenti Web",
 cat: "Indice DOC_SER",
-href: "Documentazione SmeUP/DOC/DOC_SER/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC/DOC_SER/000110/WE/_sidebar.md"
 },{
 id: 8455,
-href: "Documentazione SmeUP/DOC_OPE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/_sidebar.md"
 },{
 id: 8456,
 title: "Architettura e Servizi di Base",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/_sidebar.md"
 },{
 id: 8457,
 title: "Funzioni Tecniche",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/A£/_sidebar.md"
 },{
 id: 8458,
 title: "Funzioni Base",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/B£/_sidebar.md"
 },{
 id: 8459,
 title: "Dati di Classificazione",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/C£/_sidebar.md"
 },{
 id: 8460,
 title: "Business Intelligence",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/D9/_sidebar.md"
 },{
 id: 8461,
 title: "Client-Server service",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/JA/_sidebar.md"
 },{
 id: 8462,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/LO/_sidebar.md"
 },{
 id: 8463,
 title: "Funzioni di Network",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/NS/_sidebar.md"
 },{
 id: 8464,
 title: "Workflow",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000010/WF/_sidebar.md"
 },{
 id: 8465,
 title: "Gestione Anagrafici",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000020/_sidebar.md"
 },{
 id: 8466,
 title: "Dati di Base",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000020/BR/_sidebar.md"
 },{
 id: 8467,
 title: "Configuratore",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000020/CF/_sidebar.md"
 },{
 id: 8468,
 title: "Modifiche Tecniche",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000020/MT/_sidebar.md"
 },{
 id: 8469,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000030/_sidebar.md"
 },{
 id: 8470,
 title: "Cespiti",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000030/A5/_sidebar.md"
 },{
 id: 8471,
 title: "Contabilità Generale",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000030/C5/_sidebar.md"
 },{
 id: 8472,
 title: "Costi Avanzati",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000030/D0/_sidebar.md"
 },{
 id: 8473,
 title: "Contabilità Industriale",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000030/D5/_sidebar.md"
 },{
 id: 8474,
 title: "Vendite",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000040/_sidebar.md"
 },{
 id: 8475,
 title: "CRM Relazioni Cliente",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000040/RE/_sidebar.md"
 },{
 id: 8476,
 title: "Vendite",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000040/V6/_sidebar.md"
 },{
 id: 8477,
 title: "Pianificazione",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000050/_sidebar.md"
 },{
 id: 8478,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000050/JM/_sidebar.md"
 },{
 id: 8479,
 title: "MRP Pianific. Materiali",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000050/M5/_sidebar.md"
 },{
 id: 8480,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000050/MP/_sidebar.md"
 },{
 id: 8481,
 title: "Produzione",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000060/_sidebar.md"
 },{
 id: 8482,
 title: "Produzione",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000060/P5/_sidebar.md"
 },{
 id: 8483,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000060/S5/_sidebar.md"
 },{
 id: 8484,
 title: "Acquisti",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000070/_sidebar.md"
 },{
 id: 8485,
 title: "Post Acquisto",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000070/G9/_sidebar.md"
 },{
 id: 8486,
 title: "Richieste Di Acquisto",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000070/V4/_sidebar.md"
 },{
 id: 8487,
 title: "Acquisti",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000070/V5/_sidebar.md"
 },{
 id: 8488,
 title: "Logistica",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000080/_sidebar.md"
 },{
 id: 8489,
 title: "Magazzino",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000080/GM/_sidebar.md"
 },{
 id: 8490,
 title: "Qualita Manutenzione",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000090/_sidebar.md"
 },{
 id: 8491,
 title: "Qualità",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000090/CQ/_sidebar.md"
 },{
 id: 8492,
 title: "Manutenzioni",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000090/MM/_sidebar.md"
 },{
 id: 8493,
 title: "Open-Integration",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000100/_sidebar.md"
 },{
 id: 8494,
 title: "EDI Elett.Data Interchange",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000100/ED/_sidebar.md"
 },{
 id: 8495,
 title: "Negoziando",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000100/NG/_sidebar.md"
 },{
 id: 8496,
 title: "Documentale",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000100/OD/_sidebar.md"
 },{
 id: 8497,
 title: "Gestione Dati di Campo",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000100/PH/_sidebar.md"
 },{
 id: 8498,
 title: "Integrazione CMS",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000100/WS/_sidebar.md"
 },{
 id: 8499,
 title: "WebApplication",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000110/_sidebar.md"
 },{
 id: 8500,
 title: "Componenti Web",
 cat: "Indice DOC_OPE",
-href: "Documentazione SmeUP/DOC_OPE/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_OPE/000110/WE/_sidebar.md"
 },{
 id: 8501,
-href: "Documentazione SmeUP/DOC_VIS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/_sidebar.md"
 },{
 id: 8502,
 title: "Architettura e Servizi di Base",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/_sidebar.md"
 },{
 id: 8503,
 title: "Funzioni Tecniche",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/A£/_sidebar.md"
 },{
 id: 8504,
 title: "Funzioni Base",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/B£/_sidebar.md"
 },{
 id: 8505,
 title: "Dati di Classificazione",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/C£/_sidebar.md"
 },{
 id: 8506,
 title: "Business Intelligence",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/D9/_sidebar.md"
 },{
 id: 8507,
 title: "Client-Server service",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/JA/_sidebar.md"
 },{
 id: 8508,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/LO/_sidebar.md"
 },{
 id: 8509,
 title: "Funzioni di Network",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/NS/_sidebar.md"
 },{
 id: 8510,
 title: "Workflow",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000010/WF/_sidebar.md"
 },{
 id: 8511,
 title: "Gestione Anagrafici",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000020/_sidebar.md"
 },{
 id: 8512,
 title: "Dati di Base",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000020/BR/_sidebar.md"
 },{
 id: 8513,
 title: "Configuratore",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000020/CF/_sidebar.md"
 },{
 id: 8514,
 title: "Modifiche Tecniche",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000020/MT/_sidebar.md"
 },{
 id: 8515,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000030/_sidebar.md"
 },{
 id: 8516,
 title: "Cespiti",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000030/A5/_sidebar.md"
 },{
 id: 8517,
 title: "Contabilità Generale",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000030/C5/_sidebar.md"
 },{
 id: 8518,
 title: "Costi Avanzati",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000030/D0/_sidebar.md"
 },{
 id: 8519,
 title: "Contabilità Industriale",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000030/D5/_sidebar.md"
 },{
 id: 8520,
 title: "Vendite",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000040/_sidebar.md"
 },{
 id: 8521,
 title: "CRM Relazioni Cliente",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000040/RE/_sidebar.md"
 },{
 id: 8522,
 title: "Vendite",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000040/V6/_sidebar.md"
 },{
 id: 8523,
 title: "Pianificazione",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000050/_sidebar.md"
 },{
 id: 8524,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000050/JM/_sidebar.md"
 },{
 id: 8525,
 title: "MRP Pianific. Materiali",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000050/M5/_sidebar.md"
 },{
 id: 8526,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000050/MP/_sidebar.md"
 },{
 id: 8527,
 title: "Produzione",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000060/_sidebar.md"
 },{
 id: 8528,
 title: "Produzione",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000060/P5/_sidebar.md"
 },{
 id: 8529,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000060/S5/_sidebar.md"
 },{
 id: 8530,
 title: "Acquisti",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000070/_sidebar.md"
 },{
 id: 8531,
 title: "Post Acquisto",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000070/G9/_sidebar.md"
 },{
 id: 8532,
 title: "Richieste Di Acquisto",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000070/V4/_sidebar.md"
 },{
 id: 8533,
 title: "Acquisti",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000070/V5/_sidebar.md"
 },{
 id: 8534,
 title: "Logistica",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000080/_sidebar.md"
 },{
 id: 8535,
 title: "Magazzino",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000080/GM/_sidebar.md"
 },{
 id: 8536,
 title: "Qualita Manutenzione",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000090/_sidebar.md"
 },{
 id: 8537,
 title: "Qualità",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000090/CQ/_sidebar.md"
 },{
 id: 8538,
 title: "Manutenzioni",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000090/MM/_sidebar.md"
 },{
 id: 8539,
 title: "Open-Integration",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000100/_sidebar.md"
 },{
 id: 8540,
 title: "EDI Elett.Data Interchange",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000100/ED/_sidebar.md"
 },{
 id: 8541,
 title: "Negoziando",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000100/NG/_sidebar.md"
 },{
 id: 8542,
 title: "Documentale",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000100/OD/_sidebar.md"
 },{
 id: 8543,
 title: "Gestione Dati di Campo",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000100/PH/_sidebar.md"
 },{
 id: 8544,
 title: "Integrazione CMS",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000100/WS/_sidebar.md"
 },{
 id: 8545,
 title: "WebApplication",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000110/_sidebar.md"
 },{
 id: 8546,
 title: "Componenti Web",
 cat: "Indice DOC_VIS",
-href: "Documentazione SmeUP/DOC_VIS/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/DOC_VIS/000110/WE/_sidebar.md"
 },{
 id: 8547,
-href: "Documentazione SmeUP/FAQ/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/_sidebar.md"
 },{
 id: 8548,
 title: "Architettura e Servizi di Base",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/_sidebar.md"
 },{
 id: 8549,
 title: "Funzioni Tecniche",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/A£/_sidebar.md"
 },{
 id: 8550,
 title: "Funzioni Base",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/B£/_sidebar.md"
 },{
 id: 8551,
 title: "Dati di Classificazione",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/C£/_sidebar.md"
 },{
 id: 8552,
 title: "Business Intelligence",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/D9/_sidebar.md"
 },{
 id: 8553,
 title: "Client-Server service",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/JA/_sidebar.md"
 },{
 id: 8554,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/LO/_sidebar.md"
 },{
 id: 8555,
 title: "Funzioni di Network",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/NS/_sidebar.md"
 },{
 id: 8556,
 title: "Workflow",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000010/WF/_sidebar.md"
 },{
 id: 8557,
 title: "Gestione Anagrafici",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000020/_sidebar.md"
 },{
 id: 8558,
 title: "Dati di Base",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000020/BR/_sidebar.md"
 },{
 id: 8559,
 title: "Configuratore",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000020/CF/_sidebar.md"
 },{
 id: 8560,
 title: "Modifiche Tecniche",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000020/MT/_sidebar.md"
 },{
 id: 8561,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000030/_sidebar.md"
 },{
 id: 8562,
 title: "Cespiti",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000030/A5/_sidebar.md"
 },{
 id: 8563,
 title: "Contabilità Generale",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000030/C5/_sidebar.md"
 },{
 id: 8564,
 title: "Costi Avanzati",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000030/D0/_sidebar.md"
 },{
 id: 8565,
 title: "Contabilità Industriale",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000030/D5/_sidebar.md"
 },{
 id: 8566,
 title: "Vendite",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000040/_sidebar.md"
 },{
 id: 8567,
 title: "CRM Relazioni Cliente",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000040/RE/_sidebar.md"
 },{
 id: 8568,
 title: "Vendite",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000040/V6/_sidebar.md"
 },{
 id: 8569,
 title: "Pianificazione",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000050/_sidebar.md"
 },{
 id: 8570,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000050/JM/_sidebar.md"
 },{
 id: 8571,
 title: "MRP Pianific. Materiali",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000050/M5/_sidebar.md"
 },{
 id: 8572,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000050/MP/_sidebar.md"
 },{
 id: 8573,
 title: "Produzione",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000060/_sidebar.md"
 },{
 id: 8574,
 title: "Produzione",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000060/P5/_sidebar.md"
 },{
 id: 8575,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000060/S5/_sidebar.md"
 },{
 id: 8576,
 title: "Acquisti",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000070/_sidebar.md"
 },{
 id: 8577,
 title: "Post Acquisto",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000070/G9/_sidebar.md"
 },{
 id: 8578,
 title: "Richieste Di Acquisto",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000070/V4/_sidebar.md"
 },{
 id: 8579,
 title: "Acquisti",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000070/V5/_sidebar.md"
 },{
 id: 8580,
 title: "Logistica",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000080/_sidebar.md"
 },{
 id: 8581,
 title: "Magazzino",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000080/GM/_sidebar.md"
 },{
 id: 8582,
 title: "Qualita Manutenzione",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000090/_sidebar.md"
 },{
 id: 8583,
 title: "Qualità",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000090/CQ/_sidebar.md"
 },{
 id: 8584,
 title: "Manutenzioni",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000090/MM/_sidebar.md"
 },{
 id: 8585,
 title: "Open-Integration",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000100/_sidebar.md"
 },{
 id: 8586,
 title: "EDI Elett.Data Interchange",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000100/ED/_sidebar.md"
 },{
 id: 8587,
 title: "Negoziando",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000100/NG/_sidebar.md"
 },{
 id: 8588,
 title: "Documentale",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000100/OD/_sidebar.md"
 },{
 id: 8589,
 title: "Gestione Dati di Campo",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000100/PH/_sidebar.md"
 },{
 id: 8590,
 title: "Integrazione CMS",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000100/WS/_sidebar.md"
 },{
 id: 8591,
 title: "WebApplication",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000110/_sidebar.md"
 },{
 id: 8592,
 title: "Componenti Web",
 cat: "Indice FAQ",
-href: "Documentazione SmeUP/FAQ/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/FAQ/000110/WE/_sidebar.md"
 },{
 id: 8593,
-href: "Documentazione SmeUP/GLO/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/_sidebar.md"
 },{
 id: 8594,
 title: "Architettura e Servizi di Base",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/_sidebar.md"
 },{
 id: 8595,
 title: "Funzioni Tecniche",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/A£/_sidebar.md"
 },{
 id: 8596,
 title: "Funzioni Base",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/B£/_sidebar.md"
 },{
 id: 8597,
 title: "Dati di Classificazione",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/C£/_sidebar.md"
 },{
 id: 8598,
 title: "Business Intelligence",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/D9/_sidebar.md"
 },{
 id: 8599,
 title: "Client-Server service",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/JA/_sidebar.md"
 },{
 id: 8600,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/LO/_sidebar.md"
 },{
 id: 8601,
 title: "Funzioni di Network",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/NS/_sidebar.md"
 },{
 id: 8602,
 title: "Workflow",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000010/WF/_sidebar.md"
 },{
 id: 8603,
 title: "Gestione Anagrafici",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000020/_sidebar.md"
 },{
 id: 8604,
 title: "Dati di Base",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000020/BR/_sidebar.md"
 },{
 id: 8605,
 title: "Configuratore",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000020/CF/_sidebar.md"
 },{
 id: 8606,
 title: "Modifiche Tecniche",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000020/MT/_sidebar.md"
 },{
 id: 8607,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000030/_sidebar.md"
 },{
 id: 8608,
 title: "Cespiti",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000030/A5/_sidebar.md"
 },{
 id: 8609,
 title: "Contabilità Generale",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000030/C5/_sidebar.md"
 },{
 id: 8610,
 title: "Costi Avanzati",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000030/D0/_sidebar.md"
 },{
 id: 8611,
 title: "Contabilità Industriale",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000030/D5/_sidebar.md"
 },{
 id: 8612,
 title: "Vendite",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000040/_sidebar.md"
 },{
 id: 8613,
 title: "CRM Relazioni Cliente",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000040/RE/_sidebar.md"
 },{
 id: 8614,
 title: "Vendite",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000040/V6/_sidebar.md"
 },{
 id: 8615,
 title: "Pianificazione",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000050/_sidebar.md"
 },{
 id: 8616,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000050/JM/_sidebar.md"
 },{
 id: 8617,
 title: "MRP Pianific. Materiali",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000050/M5/_sidebar.md"
 },{
 id: 8618,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000050/MP/_sidebar.md"
 },{
 id: 8619,
 title: "Produzione",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000060/_sidebar.md"
 },{
 id: 8620,
 title: "Produzione",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000060/P5/_sidebar.md"
 },{
 id: 8621,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000060/S5/_sidebar.md"
 },{
 id: 8622,
 title: "Acquisti",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000070/_sidebar.md"
 },{
 id: 8623,
 title: "Post Acquisto",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000070/G9/_sidebar.md"
 },{
 id: 8624,
 title: "Richieste Di Acquisto",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000070/V4/_sidebar.md"
 },{
 id: 8625,
 title: "Acquisti",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000070/V5/_sidebar.md"
 },{
 id: 8626,
 title: "Logistica",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000080/_sidebar.md"
 },{
 id: 8627,
 title: "Magazzino",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000080/GM/_sidebar.md"
 },{
 id: 8628,
 title: "Qualita Manutenzione",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000090/_sidebar.md"
 },{
 id: 8629,
 title: "Qualità",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000090/CQ/_sidebar.md"
 },{
 id: 8630,
 title: "Manutenzioni",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000090/MM/_sidebar.md"
 },{
 id: 8631,
 title: "Open-Integration",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000100/_sidebar.md"
 },{
 id: 8632,
 title: "EDI Elett.Data Interchange",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000100/ED/_sidebar.md"
 },{
 id: 8633,
 title: "Negoziando",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000100/NG/_sidebar.md"
 },{
 id: 8634,
 title: "Documentale",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000100/OD/_sidebar.md"
 },{
 id: 8635,
 title: "Gestione Dati di Campo",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000100/PH/_sidebar.md"
 },{
 id: 8636,
 title: "Integrazione CMS",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000100/WS/_sidebar.md"
 },{
 id: 8637,
 title: "WebApplication",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000110/_sidebar.md"
 },{
 id: 8638,
 title: "Componenti Web",
 cat: "Indice GLO",
-href: "Documentazione SmeUP/GLO/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/GLO/000110/WE/_sidebar.md"
 },{
 id: 8639,
 title: "",
 cat: "",
-href: "Documentazione SmeUP/NWS/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/_sidebar.md"
 },{
 id: 8640,
-href: "Documentazione SmeUP/NWS/News/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/_sidebar.md"
 },{
 id: 8641,
 title: "Architettura e Servizi di Base",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/_sidebar.md"
 },{
 id: 8642,
 title: "Funzioni Tecniche",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/A£/_sidebar.md"
 },{
 id: 8643,
 title: "Funzioni Base",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/B£/_sidebar.md"
 },{
 id: 8644,
 title: "Dati di Classificazione",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/C£/_sidebar.md"
 },{
 id: 8645,
 title: "Business Intelligence",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/D9/_sidebar.md"
 },{
 id: 8646,
 title: "Client-Server service",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/JA/_sidebar.md"
 },{
 id: 8647,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/LO/_sidebar.md"
 },{
 id: 8648,
 title: "Funzioni di Network",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/NS/_sidebar.md"
 },{
 id: 8649,
 title: "Workflow",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000010/WF/_sidebar.md"
 },{
 id: 8650,
 title: "Gestione Anagrafici",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000020/_sidebar.md"
 },{
 id: 8651,
 title: "Dati di Base",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000020/BR/_sidebar.md"
 },{
 id: 8652,
 title: "Configuratore",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000020/CF/_sidebar.md"
 },{
 id: 8653,
 title: "Modifiche Tecniche",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000020/MT/_sidebar.md"
 },{
 id: 8654,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000030/_sidebar.md"
 },{
 id: 8655,
 title: "Cespiti",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000030/A5/_sidebar.md"
 },{
 id: 8656,
 title: "Contabilità Generale",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000030/C5/_sidebar.md"
 },{
 id: 8657,
 title: "Costi Avanzati",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000030/D0/_sidebar.md"
 },{
 id: 8658,
 title: "Contabilità Industriale",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000030/D5/_sidebar.md"
 },{
 id: 8659,
 title: "Vendite",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000040/_sidebar.md"
 },{
 id: 8660,
 title: "CRM Relazioni Cliente",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000040/RE/_sidebar.md"
 },{
 id: 8661,
 title: "Vendite",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000040/V6/_sidebar.md"
 },{
 id: 8662,
 title: "Pianificazione",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000050/_sidebar.md"
 },{
 id: 8663,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000050/JM/_sidebar.md"
 },{
 id: 8664,
 title: "MRP Pianific. Materiali",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000050/M5/_sidebar.md"
 },{
 id: 8665,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000050/MP/_sidebar.md"
 },{
 id: 8666,
 title: "Produzione",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000060/_sidebar.md"
 },{
 id: 8667,
 title: "Produzione",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000060/P5/_sidebar.md"
 },{
 id: 8668,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000060/S5/_sidebar.md"
 },{
 id: 8669,
 title: "Acquisti",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000070/_sidebar.md"
 },{
 id: 8670,
 title: "Post Acquisto",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000070/G9/_sidebar.md"
 },{
 id: 8671,
 title: "Richieste Di Acquisto",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000070/V4/_sidebar.md"
 },{
 id: 8672,
 title: "Acquisti",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000070/V5/_sidebar.md"
 },{
 id: 8673,
 title: "Logistica",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000080/_sidebar.md"
 },{
 id: 8674,
 title: "Magazzino",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000080/GM/_sidebar.md"
 },{
 id: 8675,
 title: "Qualita Manutenzione",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000090/_sidebar.md"
 },{
 id: 8676,
 title: "Qualità",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000090/CQ/_sidebar.md"
 },{
 id: 8677,
 title: "Manutenzioni",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000090/MM/_sidebar.md"
 },{
 id: 8678,
 title: "Open-Integration",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000100/_sidebar.md"
 },{
 id: 8679,
 title: "EDI Elett.Data Interchange",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000100/ED/_sidebar.md"
 },{
 id: 8680,
 title: "Negoziando",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000100/NG/_sidebar.md"
 },{
 id: 8681,
 title: "Documentale",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000100/OD/_sidebar.md"
 },{
 id: 8682,
 title: "Gestione Dati di Campo",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000100/PH/_sidebar.md"
 },{
 id: 8683,
 title: "Integrazione CMS",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000100/WS/_sidebar.md"
 },{
 id: 8684,
 title: "WebApplication",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000110/_sidebar.md"
 },{
 id: 8685,
 title: "Componenti Web",
 cat: "Indice NWS",
-href: "Documentazione SmeUP/NWS/News/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/News/000110/WE/_sidebar.md"
 },{
 id: 8686,
-href: "Documentazione SmeUP/NWS/NTI/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/_sidebar.md"
 },{
 id: 8687,
 title: "Architettura e Servizi di Base",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/_sidebar.md"
 },{
 id: 8688,
 title: "Funzioni Tecniche",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/A£/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/A£/_sidebar.md"
 },{
 id: 8689,
 title: "Funzioni Base",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/B£/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/B£/_sidebar.md"
 },{
 id: 8690,
 title: "Dati di Classificazione",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/C£/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/C£/_sidebar.md"
 },{
 id: 8691,
 title: "Business Intelligence",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/D9/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/D9/_sidebar.md"
 },{
 id: 8692,
 title: "Client-Server service",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/JA/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/JA/_sidebar.md"
 },{
 id: 8693,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/LO/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/LO/_sidebar.md"
 },{
 id: 8694,
 title: "Funzioni di Network",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/NS/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/NS/_sidebar.md"
 },{
 id: 8695,
 title: "Workflow",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000010/WF/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000010/WF/_sidebar.md"
 },{
 id: 8696,
 title: "Gestione Anagrafici",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000020/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000020/_sidebar.md"
 },{
 id: 8697,
 title: "Dati di Base",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000020/BR/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000020/BR/_sidebar.md"
 },{
 id: 8698,
 title: "Configuratore",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000020/CF/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000020/CF/_sidebar.md"
 },{
 id: 8699,
 title: "Modifiche Tecniche",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000020/MT/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000020/MT/_sidebar.md"
 },{
 id: 8700,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000030/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000030/_sidebar.md"
 },{
 id: 8701,
 title: "Cespiti",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000030/A5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000030/A5/_sidebar.md"
 },{
 id: 8702,
 title: "Contabilità Generale",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000030/C5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000030/C5/_sidebar.md"
 },{
 id: 8703,
 title: "Costi Avanzati",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000030/D0/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000030/D0/_sidebar.md"
 },{
 id: 8704,
 title: "Contabilità Industriale",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000030/D5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000030/D5/_sidebar.md"
 },{
 id: 8705,
 title: "Vendite",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000040/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000040/_sidebar.md"
 },{
 id: 8706,
 title: "CRM Relazioni Cliente",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000040/RE/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000040/RE/_sidebar.md"
 },{
 id: 8707,
 title: "Vendite",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000040/V6/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000040/V6/_sidebar.md"
 },{
 id: 8708,
 title: "Pianificazione",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000050/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000050/_sidebar.md"
 },{
 id: 8709,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000050/JM/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000050/JM/_sidebar.md"
 },{
 id: 8710,
 title: "MRP Pianific. Materiali",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000050/M5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000050/M5/_sidebar.md"
 },{
 id: 8711,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000050/MP/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000050/MP/_sidebar.md"
 },{
 id: 8712,
 title: "Produzione",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000060/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000060/_sidebar.md"
 },{
 id: 8713,
 title: "Produzione",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000060/P5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000060/P5/_sidebar.md"
 },{
 id: 8714,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000060/S5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000060/S5/_sidebar.md"
 },{
 id: 8715,
 title: "Acquisti",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000070/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000070/_sidebar.md"
 },{
 id: 8716,
 title: "Post Acquisto",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000070/G9/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000070/G9/_sidebar.md"
 },{
 id: 8717,
 title: "Richieste Di Acquisto",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000070/V4/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000070/V4/_sidebar.md"
 },{
 id: 8718,
 title: "Acquisti",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000070/V5/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000070/V5/_sidebar.md"
 },{
 id: 8719,
 title: "Logistica",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000080/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000080/_sidebar.md"
 },{
 id: 8720,
 title: "Magazzino",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000080/GM/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000080/GM/_sidebar.md"
 },{
 id: 8721,
 title: "Qualita Manutenzione",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000090/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000090/_sidebar.md"
 },{
 id: 8722,
 title: "Qualità",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000090/CQ/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000090/CQ/_sidebar.md"
 },{
 id: 8723,
 title: "Manutenzioni",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000090/MM/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000090/MM/_sidebar.md"
 },{
 id: 8724,
 title: "Open-Integration",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000100/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000100/_sidebar.md"
 },{
 id: 8725,
 title: "EDI Elett.Data Interchange",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000100/ED/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000100/ED/_sidebar.md"
 },{
 id: 8726,
 title: "Negoziando",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000100/NG/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000100/NG/_sidebar.md"
 },{
 id: 8727,
 title: "Documentale",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000100/OD/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000100/OD/_sidebar.md"
 },{
 id: 8728,
 title: "Gestione Dati di Campo",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000100/PH/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000100/PH/_sidebar.md"
 },{
 id: 8729,
 title: "Integrazione CMS",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000100/WS/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000100/WS/_sidebar.md"
 },{
 id: 8730,
 title: "WebApplication",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000110/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000110/_sidebar.md"
 },{
 id: 8731,
 title: "Componenti Web",
 cat: "Indice NTI",
-href: "Documentazione SmeUP/NWS/NTI/000110/WE/_sidebar.md"
+href: "DocumentazioneSmeUP/NWS/NTI/000110/WE/_sidebar.md"
 },];
