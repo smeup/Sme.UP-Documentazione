@@ -24,20 +24,6 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
             
             if mdfile_in_dir(file_or_path) and os.path.relpath(file_or_path) != 'DocumentazioneSmeUP\DOC': # if there is .md files in the folder
                 print(os.path.relpath(file_or_path))
-                '''
-                if filename == 'DOC':
-                    output_file.write('  ' * iter_depth + '- [Documentazione](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
-                elif filename == 'DOC_VIS':
-                    output_file.write('  ' * iter_depth + '- [Visione](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
-                elif filename == 'DOC_OPE':
-                    output_file.write('  ' * iter_depth + '- [Manuali Utente](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
-                elif filename == 'NWS':
-                    output_file.write('  ' * iter_depth + '- [News](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
-                elif filename == 'GLO':
-                    output_file.write('  ' * iter_depth + '- [Glossario](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
-                elif filename == 'FAQ':
-                    output_file.write('  ' * iter_depth + '- [FAQ](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
-                '''
                               
                 if filename in areeApp: # Se è un'area applicativa
                     if 'DOC_SCH' not in os.path.relpath(file_or_path):
