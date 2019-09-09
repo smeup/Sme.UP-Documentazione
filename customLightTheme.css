@@ -86,9 +86,11 @@ body.no-sidebar .sidebar,
 
     #switch{
       position:absolute;
-      top:13px; 
+      top:10px; 
       left: 1350px; 
       padding:7px 5px; 
-      border: 1px solid #ddd;
-      border-radius: 4px;
+      border: 3px solid #ddd;
+      background-color: white;
+      border-radius: 5px;
+      height: 40px;
     }
