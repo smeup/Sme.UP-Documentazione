@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   
   <!--Themes-->
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link id="theme" rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link id="customTheme" rel="stylesheet" href="customLightTheme.css">
   <!--<link id="theme" rel="stylesheet" href="//unpkg.com/docsify/themes/dark.css">-->
   
   <!--Edit on Github plugin-->
@@ -16,106 +17,30 @@
 
   <script src="https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@master/dist/flexsearch.min.js"></script>
   <script src="data.js"></script>
-  
-  <style>
-    body.no-sidebar .sidebar,
-    body.no-sidebar .sidebar-toggle {
-        display: none !important;
-    }
-
-    body.no-sidebar .content {
-        left: 0px !important;
-    }
-
-    .tag {
-      display: inline-block;
-      padding: .4em .5em;
-      margin: 2px 2px 2px 10px;
-      font-size: 15px;
-      line-height: 1;
-      text-decoration: none;
-      text-align: center;
-      border-width: 1px;
-      border-style: solid;
-      border-radius: 3px;
-    }
-
-    table{
-            width: 65%;
-            table-layout: fixed;
-            position: fixed;
-            top: 0;
-            padding-top: 10px;
-            z-index: 1;
-            position:absolute;
-            top:0; left: 300px;
-            background-color: transparent;
-        }
-    td, tr{
-        width: 100%;
-        border: none;
-    }
-    input{
-        width: 100%;
-        height: 40px;
-        border: 3px solid #ddd;
-        border-radius: 5px;
-        outline: none;
-        background-color: transparent;
-        position: absolute;
-        -webkit-appearance: none;
-        padding:7px 5px;
-        box-sizing: border-box;
-    }
-    #autocomplete{
-        color: white;
-        background-color: #ffffff;
-    }
-    #suggestions{
-        position:absolute;
-        top:50px; 
-        left: 300px; 
-        background-color: white;
-    }
-    #suggestions a{
-        padding: 10px 0;
-        margin: 0 8px;
-        border-bottom: 1px solid #ddd;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        float:left; 
-        clear:left;
-        font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
-        color: #42b983;
-        font-weight: 600;
-    }
-
-    #switch{
-      position:absolute;
-      top:13px; 
-      left: 610px; 
-      padding:7px 5px; 
-      border: 1px solid #ddd;
-      border-radius: 4px;
-    }
-  </style>
 
   <script>
     function checkWindowSize(){
-      console.log(window.innerWidth);
+      console.log(window.location.href);
       if(window.innerWidth < 1120){
         body = document.getElementsByTagName('body');
-        body[0].classList.add('no-sidebar')
+        table = document.getElementsByTagName('table');
+        suggestions = document.getElementById('suggestions');
+        theme = document.getElementById('switch');
+        theme.classList.add('no-sidebar');
+        suggestions.classList.add('no-sidebar');
+        body[0].classList.add('no-sidebar');
+        table[0].classList.add('no-sidebar');
       }
     }
 
     function switchTheme() {
       if (document.getElementById('theme').href == "http://unpkg.com/docsify/themes/dark.css") {
         document.getElementById('theme').href = "http://unpkg.com/docsify/lib/themes/vue.css";
+        document.getElementById('customTheme').href = "customLightTheme.css";
         console.log(document.getElementById('theme').href)
       } else {
         document.getElementById('theme').href = "http://unpkg.com/docsify/themes/dark.css";
+        document.getElementById('customTheme').href = "customDarkTheme.css";
       }
     };
   </script>
@@ -124,7 +49,9 @@
 
   
   <body onload="checkWindowSize()">
+
     <div id="app"></div>
+
     <table>
       <tr>
           <td>       
@@ -133,8 +60,11 @@
           </td>
       </tr>
   </table>
+
   <div id="suggestions"></div>
-  <!--<button id="switch" onclick="switchTheme()">Switch Theme</button>-->
+  
+  <button id="switch" onclick="switchTheme()">Switch Theme</button>
+  
   <script>
     var found = false;
 
@@ -164,9 +94,8 @@
   </script>
 
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <!--<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>-->
   <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  
+  <!--<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>-->  
   
   
   <script>
