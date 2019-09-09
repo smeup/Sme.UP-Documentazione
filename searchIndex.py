@@ -17,41 +17,41 @@ with open(dataFile, "w",  encoding='utf8') as f:
             f.write('{\n')
             f.write('id: ' + str(cont) + ",\n")
             
-            if 'OJ\FILE' in dirname:
+            if 'OJ\\FILE' in dirname:
                 nomefile = 'F_' + nomefile
                 f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
-            elif 'OJ\PGM' in dirname:
+            elif 'OJ\\PGM' in dirname:
                 nomefile = 'P_' + nomefile
                 f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
-            elif 'OG\OG' in dirname:
+            elif 'OG\\OG' in dirname:
                 nomefile = 'OG_' + nomefile
                 f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
-            elif 'OG\TA' in dirname:
+            elif 'OG\\TA' in dirname:
                 nomefile = 'TA_' + nomefile
                 f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
-            elif 'OG\V2' in dirname:
+            elif 'OG\\V2' in dirname:
                 nomefile = 'V2_' + nomefile
                 f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
-            elif 'OG\V3' in dirname:
+            elif 'OG\\V3' in dirname:
                 nomefile = 'V3_' + nomefile
                 f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
-            elif 'V2\LOCOS' in dirname:
+            elif 'V2\\LOCOS' in dirname:
                 f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
-            elif 'DOC\TA' in dirname:
+            elif 'DOC\\TA' in dirname:
                 f.write('title: "' + nomiDOC[nomefile] + '",\n')
                 f.write('cat: "DOC_APP",\n')
                 #f.write('voci: "",\n')
@@ -102,15 +102,15 @@ with open(dataFile, "w",  encoding='utf8') as f:
                 f.write('cat: "NWS",\n')
                 f.write('rel: "' + rel + '",\n')
                 f.write('num: "' + num + '",\n')
-            elif 'MB\SCP_SCH' in dirname:
+            elif 'MB\\SCP_SCH' in dirname:
                 f.write('title: "' + nomiDOC_SCH[nomefile] + '",\n')
                 f.write('cat: "DOC_SCH",\n')
                 #f.write('voci: "",\n')
-            elif 'V3\ASE' in dirname:
+            elif 'V3\\ASE' in dirname:
                 f.write('title: "' + nomiDOC_SER[nomefile] + '",\n')
                 f.write('cat: "DOC_SER",\n')
                 #f.write('voci: "",\n')
-            elif 'TA\B£A' in dirname:
+            elif 'TA\\B£A' in dirname:
                 if nomefile in applicazioni:
                     f.write('title: "' + applicazioni[nomefile] + '",\n')
                     f.write('cat: "DOC_VIS",\n')
@@ -137,7 +137,7 @@ with open(dataFile, "w",  encoding='utf8') as f:
             f.write('{\n')
             f.write('id: ' + str(cont) + ",\n")
 
-            if 'DOC\DOC_APP' in dirname:
+            if 'DOC\\DOC_APP' in dirname:
                 for key, value in areeApp.items():
                     if key in dirname:
                         if dirname.endswith(key):
@@ -149,7 +149,7 @@ with open(dataFile, "w",  encoding='utf8') as f:
                                 f.write('title: "' + nome + '",\n')
                                 f.write('cat: "Indice DOC_APP",\n')
                                 # f.write('voci: "",\n')
-            elif 'DOC\DOC_SER' in dirname:
+            elif 'DOC\\DOC_SER' in dirname:
                 for key, value in areeApp.items():
                     if key in dirname:
                         if dirname.endswith(key):
