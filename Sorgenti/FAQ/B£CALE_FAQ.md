@@ -16,7 +16,7 @@ L'orario lavorativo giornaliero rappresenta il tempo in cui una risorsa lavora i
 I vari tipi di orario lavorativo sono definiti nella tabella OLG.
 
 Per una informazione più completa vedi documentazione : 
-- [OLG - Orari di lavoro giornalieri](Sorgenti/OG/TA/TA_OLG)
+- [OLG - Orari di lavoro giornalieri](Sorgenti/OG/TA/OLG)
 
 - **Conosci il concetto di festività?**
 
@@ -57,7 +57,7 @@ Es. i centri di lavoro, le risorse di mautenzione, gli operatori di magazzino, i
 Il tipo risorsa gestita è codificato nella tabella TRG.
 
 Per una informazione più completa vedi documentazione : 
-- [TRG - Tipo risorsa gestita](Sorgenti/OG/TA/TA_TRG)
+- [TRG - Tipo risorsa gestita](Sorgenti/OG/TA/TRG)
 
 - **Sai come viene determinata la disponibilità oraria e giornaliera di una ri**
 
@@ -73,7 +73,7 @@ Incrociando queste tre categorie di informazioni si può stabilire nel dettaglio
 Sono possibili diversi tipi di risalita, attraverso i quali la risorsa eredita :  orari, festività ed eccezioni dai livelli superiori.
 
 Per una informazione più completa vedi documentazione : 
-- [TRG - Tipo risorsa gestita](Sorgenti/OG/TA/TA_TRG)
+- [TRG - Tipo risorsa gestita](Sorgenti/OG/TA/TRG)
 
 - **Sai come avvengono le risalite?**
 

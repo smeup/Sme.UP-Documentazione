@@ -5,8 +5,8 @@ La tabella GMU che determina la tipologia dell'ubicazione.
 La tabella GMG che definisce il tipo gestione ubicazione.
 
 Per una documentazione completa : 
-- [GMU - Tipologia ubicazione](Sorgenti/OG/TA/TA_GMU)
-- [GMG - Tipo gestione ubicazione](Sorgenti/OG/TA/TA_GMG)
+- [GMU - Tipologia ubicazione](Sorgenti/OG/TA/GMU)
+- [GMG - Tipo gestione ubicazione](Sorgenti/OG/TA/GMG)
 - **Sai qual'è l'archivio di riferimento?**
 
  :  : VOC Id="SKIA0020" Txt="Sai qual'è l'archivio di riferimento?"

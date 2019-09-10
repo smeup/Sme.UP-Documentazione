@@ -4,7 +4,7 @@
 La tabella BRL.
 
 Per una informazione più completa vedi documentazione tabella : 
-- [BRL - Tipo distinta](Sorgenti/OG/TA/TA_BRL)
+- [BRL - Tipo distinta](Sorgenti/OG/TA/BRL)
 - **Sai cos'è il coefficiente di impiego?**
 
  :  : VOC Id="SKIB0020" Txt="Sai cos'è il coefficiente di impiego?" Als="comm"
@@ -53,7 +53,7 @@ Si utilizza per le distinte "configurate", dove il legame di distinta assume div
 Questi diversi comportamenti si ottengono attraverso l'impostazione del criterio di selezione che è un elemento della tabella BRS.
 
 Per una informazione più completa vedi documentazione tabella : 
-- [BRS - Criteri di selezione](Sorgenti/OG/TA/TA_BRS)
+- [BRS - Criteri di selezione](Sorgenti/OG/TA/BRS)
 - **Sai cosa comporta l'impostazione del legame interno/esterno?**
 
  :  : VOC Id="SKIB0080" Txt="Sai cosa comporta l'impostazione del legame interno/esterno?"

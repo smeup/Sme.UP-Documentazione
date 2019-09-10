@@ -92,7 +92,7 @@ L'elemento B£I deve riportare le indicazioni per collegarsi ai dati origine (no
 
 Per una informazione più completa : 
 - [Definizione di una tabella](Sorgenti/DOC/TA/B£AMO/B£TABE_02)
-- [B£I - Deviaz. tabella](Sorgenti/OG/TA/TA_B£I)
+- [B£I - Deviaz. tabella](Sorgenti/OG/TA/B£I)
 
 - **Sai aggiungere campi utente ad una tabella standard?**
 

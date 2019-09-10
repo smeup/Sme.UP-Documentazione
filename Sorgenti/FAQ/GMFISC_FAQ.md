@@ -33,25 +33,25 @@ Tabella GMR, dove sono stabilite le aree con rilevanza fiscale (metodo da giacen
 Tabella GMC, dove sono stabilite le causali di movimentazione con rilevanza fiscale (metodo da chiusure periodiche).
 
 Per una informazione più completa vedi documentazione tabelle : 
-- [GM3 - Scenari di magazzino fiscale](Sorgenti/OG/TA/TA_GM3)
-- [MAF - Magazzini fiscali](Sorgenti/OG/TA/TA_MAF)
-- [MAG - Magazzino](Sorgenti/OG/TA/TA_MAG)
-- [GMR - Area](Sorgenti/OG/TA/TA_GMR)
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GM3 - Scenari di magazzino fiscale](Sorgenti/OG/TA/GM3)
+- [MAF - Magazzini fiscali](Sorgenti/OG/TA/MAF)
+- [MAG - Magazzino](Sorgenti/OG/TA/MAG)
+- [GMR - Area](Sorgenti/OG/TA/GMR)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
 - **Sai qual'è l'archivio di riferimento?**
 
  :  : VOC Id="SKIA0060" Txt="Sai qual'è l'archivio di riferimento?"
 Archivio GMSIAN0F dove, per ogni esercizio e per articolo, abbiamo :  giacenza iniziale, carichi totali, scarichi totali, giacenza finale, costo medio.
 
 Per una informazione più completa vedi documentazione file : 
-- [GMSIAN0F Sintesi Annuale Magazzino](Sorgenti/OJ/FILE/F_GMSIAN0F)
+- [GMSIAN0F Sintesi Annuale Magazzino](Sorgenti/OJ/FILE/GMSIAN0F)
 - **Sai come assegnare rilevanza fiscale ad un'area giacenza?**
 
  :  : VOC Id="SKIA0070" Txt="Sai come assegnare rilevanza fiscale ad un'area giacenza?"
 Nella tabella di riferimento GMR c'è il campo trattamento fiscale, le aree che hanno in questo campo il valore F o S sono aree con rilevanza fiscale.
 
 Per una informazione più completa vedi documentazione tabella : 
-- [GMR - Area](Sorgenti/OG/TA/TA_GMR)
+- [GMR - Area](Sorgenti/OG/TA/GMR)
 - **Sai cos'è un'area con trattamento fiscale a storno?**
 
  :  : VOC Id="SKIA0080" Txt="Sai cos'è un'area con trattamento fiscale a storno?"
@@ -65,7 +65,7 @@ La gicenza di quest'area viene stornata dalla giacenza fiscale in modo da esclud
 Nella tabella di riferimento GMC c'è il campo elemento di raggruppamento che contraddistingue i movimenti con rilevanza fiscale (carichi, scarichi).
 
 Per una informazione più completa vedi documentazione tabella : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
 - **Sai come modificare il comportamento sulla rilevanza fiscale di un'area?**
 
  :  : VOC Id="SKIA0100" Txt="Sai come modificare il comportamento sulla rilevanza fiscale di un'area?"
@@ -103,7 +103,7 @@ In questo modo la creazione di uno scenario mensile copia dallo scenario annuale
 
 
 Per una informazione più completa vedi documentazione tabella : 
-- [GM3 - Scenari di magazzino fiscale](Sorgenti/OG/TA/TA_GM3)
+- [GM3 - Scenari di magazzino fiscale](Sorgenti/OG/TA/GM3)
 
 - **Sai quali diverse valorizzazioni posso avere in stampa sintesi?**
 

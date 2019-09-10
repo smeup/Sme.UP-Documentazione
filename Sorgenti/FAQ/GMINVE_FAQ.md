@@ -40,8 +40,8 @@ Tabella GMI, che contiene la lista degli inventari con le relative impostazioni 
 Tabella GML, dove sono codificati i lotti di conta previsti per un inventario, le regole di numerazione e controllo cartellini, e la possibilità di vedere la giacenza teorica in fase di inserimento quantità cartellino.
 
 Per una informazione più completa vedi documentazione tabelle : 
-- [GMI - Codice inventario](Sorgenti/OG/TA/TA_GMI)
-- [GML - Lotto di conta inventariale](Sorgenti/OG/TA/TA_GML)
+- [GMI - Codice inventario](Sorgenti/OG/TA/GMI)
+- [GML - Lotto di conta inventariale](Sorgenti/OG/TA/GML)
 - **Sai quali sono gli archivi di riferimento per l'inventario con cartellini?**
 
  :  : VOC Id="SKIA0060" Txt="Sai quali sono gli archivi di riferimento per l'inventario con cartellini?"
@@ -49,22 +49,22 @@ Il file GMRIIN0F, che contiene i cartellini inventario organizzati per lotto di 
 Il file GMDAIN0F, che contiene le conte e/o i cartellini totalizzati di un inventario.
 
 Per una informazione più completa vedi documentazione archivi : 
-- [GMRIIN0F Righe cartellini di conta](Sorgenti/OJ/FILE/F_GMRIIN0F)
-- [GMDAIN0F Dati&-x2f;Rettifiche di inventario](Sorgenti/OJ/FILE/F_GMDAIN0F)
+- [GMRIIN0F Righe cartellini di conta](Sorgenti/OJ/FILE/GMRIIN0F)
+- [GMDAIN0F Dati&-x2f;Rettifiche di inventario](Sorgenti/OJ/FILE/GMDAIN0F)
 - **Sai quali sono le tabelle guida per l'inventario con liste di conta?**
 
  :  : VOC Id="SKIA0070" Txt="Sai quali sono le tabelle guida per l'inventario con liste di conta?"
 Tabella GMI, che contiene la lista degli inventari con le relative impostazioni (data esecuzione, modalità di creazione liste di conta, metodo per rifasatura qtà teorica, ...).
 
 Per una informazione più completa vedi documentazione tabella : 
-- [GMI - Codice inventario](Sorgenti/OG/TA/TA_GMI)
+- [GMI - Codice inventario](Sorgenti/OG/TA/GMI)
 - **Sai quali sono gli archivi guida per l'inventario con liste di conta?**
 
  :  : VOC Id="SKIA0080" Txt="Sai quali sono gli archivi guida per l'inventario con liste di conta?"
 Il file GMDAIN0F, che contiene le conte e/o i cartellini totalizzati di un inventario.
 
 Per una informazione più completa vedi documentazione archivio : 
-- [GMDAIN0F Dati&-x2f;Rettifiche di inventario](Sorgenti/OJ/FILE/F_GMDAIN0F)
+- [GMDAIN0F Dati&-x2f;Rettifiche di inventario](Sorgenti/OJ/FILE/GMDAIN0F)
 - **Sai quali sono i vari modi di creazione cartellini?**
 
  :  : VOC Id="SKIA0090" Txt="Sai quali sono i vari modi di creazione cartellini?"

@@ -8,7 +8,7 @@ Il plant o magazzino è l'unità di pianificazione, cioè l'entità a fronte del
 - i parametri di pianificazione (lottizzazione, lead times, politica di riordino, scorta minima, punto di riordino, ecc..) sono validi per un articolo in una unità di pianificazione.
 
 La tabella di riferimento è la tabella MAG, per una informazione più completa vedi documentazione : 
-- [MAG - Magazzino](Sorgenti/OG/TA/TA_MAG)
+- [MAG - Magazzino](Sorgenti/OG/TA/MAG)
 - **Conosci la definizione di area?**
 
  :  : VOC Id="SKIA0020" Txt="Conosci la definizione di area?" Als="comm"
@@ -22,7 +22,7 @@ Es. :
 - area giacenza terzisti
 
 La tabella di riferimento è la tabella GMR, per una informazione più completa vedi documentazione : 
-- [GMR - Area](Sorgenti/OG/TA/TA_GMR)
+- [GMR - Area](Sorgenti/OG/TA/GMR)
 - **Conosci la definizione di tipo giacenza?**
 
  :  : VOC Id="SKIA0030" Txt="Conosci la definizione di tipo giacenza?" Als="comm"
@@ -38,13 +38,13 @@ In Sme.UP la giacenza può avere, oltre a plant / area / articolo, anche altre i
 
 L'archivio prevede di poter avere fino a quattro di queste caratterizzazioni oltre al collo/contenitore.
 Queste caratterizzazioni sono codificate come "Tipo giacenza" e sono gestite nella tabella di riferimento  GMQ, per una informazione più completa vedi documentazione : 
-- [GMQ - Tipo giacenza](Sorgenti/OG/TA/TA_GMQ)
+- [GMQ - Tipo giacenza](Sorgenti/OG/TA/GMQ)
 - **Sai cosa sono le forme di presentazione usate nell'interrogazione giacenze**
 
  :  : VOC Id="SKIA0040" Txt="Sai cosa sono le forme di presentazione usate nell'interrogazione giacenze?"
 Le forme di presentazione dell'interrogazione giacenze servono per configurare i parametri di chiamate del programma e la lista giacenze che viene visualizzata.
 La tabella di riferimento è la GMF a cui si rimanda per una documentazione completa : 
-- [GMF - Forme presentazione giacenze](Sorgenti/OG/TA/TA_GMF)
+- [GMF - Forme presentazione giacenze](Sorgenti/OG/TA/GMF)
 
 - **Sei capace di fissare alcuni elementi nella forma di presentazione, es. l'**
 

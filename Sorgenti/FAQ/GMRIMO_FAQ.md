@@ -5,8 +5,8 @@ La tabella GMO è quella di impostazione delle testate richieste movimentazione 
 La tabella GMZ è quella di impostazione delle righe richieste movimentazione (RRIM).
 
 Per una documentazione completa : 
-- [GMO - Tipo documento movimentazione](Sorgenti/OG/TA/TA_GMO)
-- [GMZ - Tipo riga movimentazione](Sorgenti/OG/TA/TA_GMZ)
+- [GMO - Tipo documento movimentazione](Sorgenti/OG/TA/GMO)
+- [GMZ - Tipo riga movimentazione](Sorgenti/OG/TA/GMZ)
 
 - **Sai quali sono gli archivi di riferimento?**
 
@@ -77,8 +77,8 @@ La tabella GMH è la testata del processo ed identifica il primo passo da esegui
 La tabella GMK è la tabella dei passi di esecuzione dove viene indicato il programma da eseguire con i relativi parametri di condizionamento ed il passo successivo.
 
 Per una documentazione completa : 
-- [GMH - Modelli £GMI](Sorgenti/OG/TA/TA_GMH)
-- [GMK - Passi £GMI](Sorgenti/OG/TA/TA_GMK)
+- [GMH - Modelli £GMI](Sorgenti/OG/TA/GMH)
+- [GMK - Passi £GMI](Sorgenti/OG/TA/GMK)
 
 - **Sai trovare dei programmi esempio di utilizzo del motore inferenziale?**
 
@@ -114,7 +114,7 @@ Nella causale di magazzino collegata al tipo riga movimentazione (TA GMZ), occor
 Nella tabella GMC c'è il campo "Applica solo se IDDM" che, se impostato e sono presenti le azioni (+ o -) sulla qtà allocata e/o sulla qtà attesa, esegue le azioni in questione solo se la causale è stata lanciata da una richiesta di movimentazione.
 
 Per una documentazione completa : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
 
 - **Sai come creare righe documento da richieste movimentazione?**
 
@@ -137,8 +137,8 @@ ATTENZIONE :  Nelle azioni P5FURIM e V5FURIM è possibile impostare il tipo R.M.
 
 
 Per maggiori dettagli : 
-- [&-x3f; P55 - Parametri logistici](Sorgenti/OG/TA/TA_P55)
-- [V55 - Par. accantonamento&-x2f;spedizione](Sorgenti/OG/TA/TA_V55)
+- [&-x3f; P55 - Parametri logistici](Sorgenti/OG/TA/P55)
+- [V55 - Par. accantonamento&-x2f;spedizione](Sorgenti/OG/TA/V55)
 
 - **Sai che si può creare una TRIM senza eseguirla utilizzandola come prebolla**
 

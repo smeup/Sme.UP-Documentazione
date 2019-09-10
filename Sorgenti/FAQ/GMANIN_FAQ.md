@@ -32,7 +32,7 @@ Utilizzando la funzione "L" nel programma di creazione / completamento foto.
 La tabella GMW, dove vengono inseriti gli indentificativi delle foto, dove possono essere fissate le date foto, dove possono essere fissati i parametri per la valorizzazione di default della foto ed i parametri (sottosettore) dove recuperare le informazioni per valorizzazioni differenziate.
 
 Per una informazione più completa vedi documentazione tabella : 
-- [GMW - Foto di giacenze alla data](Sorgenti/OG/TA/TA_GMW)
+- [GMW - Foto di giacenze alla data](Sorgenti/OG/TA/GMW)
 - **Sai qual'è l'archivio di riferimento?**
 
  :  : VOC Id="SKIA0050" Txt="Sai qual'è l'archivio di riferimento?"
@@ -68,7 +68,7 @@ Esistono 2 modi :
 Nella tabella GMY che è per sottosettore (nella tab. GMW si deve inserire il sottosettore da usare per le valorizzazioni di questa foto) possono essere inseriti n. elementi ciascuno con proprie regole di valorizzazione.
 
 Per una informazione più completa vedi documentazione tabella : 
-- [GMY - Metodi valorizzaz. inventari](Sorgenti/OG/TA/TA_GMY)
+- [GMY - Metodi valorizzaz. inventari](Sorgenti/OG/TA/GMY)
 - **Sai come impostare un attributo articolo in modo che la valorizzazione abb**
 
  :  : VOC Id="SKIA0120" Txt="Sai come impostare un attributo articolo in modo che la valorizzazione abbia regole diverse in funzione dei valori assunti dall'attributo nei vari articoli?"

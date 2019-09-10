@@ -42,9 +42,9 @@ La tabella principale è la V5G con sottosettore specifico per tipo di attività
 Alla V5G sono associate la tabella B£H che gestisce tutti i flussi e la tabella B£J con sottosettore specifico che contiene le varie azioni elementari.
 
 Per una informazione più completa vedi : 
-- [V5G - Tipo attivita](Sorgenti/OG/TA/TA_V5G)
-- [B£H - Gruppi di azioni di tab B£J](Sorgenti/OG/TA/TA_B£H)
-- [B£J - Gruppi di azioni](Sorgenti/OG/TA/TA_B£J)
+- [V5G - Tipo attivita](Sorgenti/OG/TA/V5G)
+- [B£H - Gruppi di azioni di tab B£J](Sorgenti/OG/TA/B£H)
+- [B£J - Gruppi di azioni](Sorgenti/OG/TA/B£J)
 - **Sai come trovare programmi funzione/metodo da utilizzare nelle azioni dei **
 
  :  : VOC Id="SKIA0040" Txt="Sai come trovare programmi funzione/metodo da utilizzare nelle azioni dei flussi V5 SPRI?"

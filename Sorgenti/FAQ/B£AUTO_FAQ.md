@@ -26,8 +26,8 @@ La tabella B£P, dove sono definite tutte le classi di autorizzazione.
 La tabella B£S, dove sono definiti i possibili significati delle opzioni/funzioni operative.
 
 Per una informazione più completa vedi documentazione tabelle : 
-- [B£P - Classi Autorizzazione](Sorgenti/OG/TA/TA_B£P)
-- [B£S - Significato protezioni applic.](Sorgenti/OG/TA/TA_B£S)
+- [B£P - Classi Autorizzazione](Sorgenti/OG/TA/B£P)
+- [B£S - Significato protezioni applic.](Sorgenti/OG/TA/B£S)
 - **Sai qual'è l'archivio di riferimento?**
 
  :  : VOC Id="SKIA0050" Txt="Sai qual'è l'archivio di riferimento?"
@@ -72,7 +72,7 @@ Esistono 2 metodi che sono dipendenti da come è stato definito in "UT5" l'ingre
 - se il tipo accesso è "S" = Menù SMEUP,  le autorizzazioni vanno date con la classe MENU e funzione pari alla "Categoria di protezione" inserita nella tabella MEA.
 
 Per una informazione più completa vedi documentazione : 
-- [Menu a parametri per gruppo utente](Sorgenti/OJ/PGM/P_B£UT54)
+- [Menu a parametri per gruppo utente](Sorgenti/OJ/PGM/B£UT54)
  :  : DEC T(MB) P(DOC_TAB£P) K(MENU)
 - **Sai cosa fare per autorizzare singoli elementi delle azioni B£J?**
 

@@ -3,7 +3,7 @@
  :  : VOC Id="SKIA0010" Txt="Sai qual'è la tabella principale di impostazione dei movimenti?"
 La tabella GMC dove sono definite tutte le causali di movimentazione.
 Per una documentazione completa : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
 
 - **Conosci gli archivi di riferimento?**
 
@@ -48,8 +48,8 @@ Nota; nella movimentazione a 2 causali si consiglia di inserire nella funzione d
 - GMMV50I, per lanciare __movimentazioni da distinta base__, (con o senza versamento del prodotto).
 
 Per una documentazione completa : 
-- [B£H - Gruppi di azioni di tab B£J](Sorgenti/OG/TA/TA_B£H)
-- [B£J - Gruppi di azioni](Sorgenti/OG/TA/TA_B£J)
+- [B£H - Gruppi di azioni di tab B£J](Sorgenti/OG/TA/B£H)
+- [B£J - Gruppi di azioni](Sorgenti/OG/TA/B£J)
 
 - **Sai che impostazione serve per inserire movimenti manuali da interrogazion**
 
@@ -58,7 +58,7 @@ Da interrogazione giacenze possono essere lanciati movimenti di rettifica, in qu
 Si possono anche lanciare altre movimentazioni a 1 o 2 causali, per fare questo nella tabella ad elemento singolo GM1 si deve inserire l'elemento di B£H opportuno nel campo "Gruppo azioni movimenti magazzino".
 
 Per una documentazione completa : 
-- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/TA_GM1)
+- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/GM1)
 
 - **Sai che impostazione serve per inserire movimenti  automatici da documenti**
 
@@ -66,7 +66,7 @@ Per una documentazione completa :
 Nelle tabelle tipo riga (V5B) devono essere inserite le causali di movimentazione.
 
 Per una documentazione completa : 
-- [V5B - Tipo riga](Sorgenti/OG/TA/TA_V5B)
+- [V5B - Tipo riga](Sorgenti/OG/TA/V5B)
 
 - **Sai che impostazione serve per inserire movimenti  automatici da ordini pr**
 
@@ -76,7 +76,7 @@ Per il versamento da ordine produzione devono essere compilati opportunamente i 
 Per il prelievo dei componenti (alla fase o backflush) devono essere compilate opportunamente le tabelle degli impegni materiali (P5I)
 
 Per una documentazione completa : 
-- [&-x2a; P5I - Tipo impegno materiali](Sorgenti/OG/TA/TA_P5I)
+- [&-x2a; P5I - Tipo impegno materiali](Sorgenti/OG/TA/P5I)
 
 - **Sai che impostazione serve per inserire movimenti  automatici da richieste**
 
@@ -84,7 +84,7 @@ Per una documentazione completa :
 Deve essere compilata opportunamente la tabella del tipo riga di movimentazione (GMZ)
 
 Per una documentazione completa : 
-- [GMZ - Tipo riga movimentazione](Sorgenti/OG/TA/TA_GMZ)
+- [GMZ - Tipo riga movimentazione](Sorgenti/OG/TA/GMZ)
 
 - **Sai che impostazione serve per inserire movimenti  automatici da attività **
 
@@ -92,7 +92,7 @@ Per una documentazione completa :
 Deve essere compilata opportunamente i flag "Scarico impegni" e "Carico assieme" nella tabella delle causali attività produzione (P5C)
 
 Per una documentazione completa : 
-- [&-x2a; P5C - Causali attivita  produttive](Sorgenti/OG/TA/TA_P5C)
+- [&-x2a; P5C - Causali attivita  produttive](Sorgenti/OG/TA/P5C)
 
 - **Sai che impostazione serve per inserire movimenti  automatici da esito di **
 
@@ -100,8 +100,8 @@ Per una documentazione completa :
 Devono essere compilate opportunamente le tabelle di movimentazione per tipo lotto (CRP) e la movimentazione deve essere attivata nella tabella a elemento unico CQ1.
 
 Per una documentazione completa : 
-- [CRP - Integrazione Q9000 con magazzino](Sorgenti/OG/TA/TA_CRP)
-- [CQ1 - Personal.controllo qualita  1](Sorgenti/OG/TA/TA_CQ1)
+- [CRP - Integrazione Q9000 con magazzino](Sorgenti/OG/TA/CRP)
+- [CQ1 - Personal.controllo qualita  1](Sorgenti/OG/TA/CQ1)
 
 - **Sai autorizzare singoli tipi movimento?**
 
@@ -112,7 +112,7 @@ Le autorizzazioni possono essere date con classe = ABILITA e funzione = MOV-MAGx
 __Suggerimento__, se ci sono distinzioni tra causali "automatiche" utilizzate nelle transazioni del gestionale (es. versamento da ordine produzione, collegamento bolla di vendita, ...) e causali "manuali" lanciate manualmente dall'operatore è consigliabile dare un gruppo autorizzazione specifico (es. 9) alle causali manuali e non autorizzare nessun utente al gruppo 9, in questo modo abbiamo la sicurezza che queste causali siano usate solo dalle transazioni del gestionale.
 
 Per una documentazione completa : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
 
 - **Sai come modificare il formato video di input del movimento?**
 
@@ -120,8 +120,8 @@ Per una documentazione completa :
 Nella tabella GMC c'è il campo "Forma di presentazione" che è un elemento della tabella B£Q dove viene impostato il programma specifico di visualizzazione.
 
 Per una documentazione completa : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
-- [B£Q - Forme di rappresentazione](Sorgenti/OG/TA/TA_B£Q)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
+- [B£Q - Forme di rappresentazione](Sorgenti/OG/TA/B£Q)
 
 - **Sai usare la scheda movimenti?**
 
@@ -133,7 +133,7 @@ Per una documentazione completa :
 Nella tabella GMC c'è il campo "Applica solo se IDDM" che controlla questa funzionalità.
 
 Per una documentazione completa : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
 
 - **Sai come impostare la causale in modo che la movimentazione avvenga con le**
 
@@ -141,7 +141,7 @@ Per una documentazione completa :
 Nella tabella GMC c'è il campo "Tipo quantità" che va messo = A.
 
 Per una documentazione completa : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
 
 - **Sai come condizionare il comportamento della causale di movimentazione sot**
 
@@ -149,7 +149,7 @@ Per una documentazione completa :
 Nella tabella GMC c'è il campo "Programma specifico" dove può essere inserito un programma di "exit" (esiste un sorgente di esempio :  GMTR00X_ES ).
 
 Per una documentazione completa : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)
 
 - **Sai come modificare o cancellare movimenti già inseriti in precedenza?**
 
@@ -164,7 +164,7 @@ __Attenzione__, la manutenzione è ammessa solo se per la causale in questione e
 Nella tabella ad elemento unico GM1 c'è il campo "Revisione movimenti a storno" che se impostato determina questo comportamento.
 
 Per una documentazione completa : 
-- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/TA_GM1)
+- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/GM1)
 
 - **Se lanciando l'interrogazione giacenze ti esce una segnalazione che ci son**
 
@@ -179,7 +179,7 @@ La convenzione di codifica delle causali di magazzino prevede che il codice sia 
 Se il tab. GM1 il campo "Controllo inserimento GMC" è impostato a 1 si attiva il controllo formale.
 
 Per una documentazione completa : 
-- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/TA_GM1)
+- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/GM1)
 
 - **Il numeratore movimenti è obbligatorio e fornisce la chiave univoca del mo**
 
@@ -187,8 +187,8 @@ Per una documentazione completa :
 Nel campo "Numeratore movimenti" della tab. GM1.
 
 Per una documentazione completa : 
-- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/TA_GM1)
-- [CRN - Numeratori](Sorgenti/OG/TA/TA_CRN)
+- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/GM1)
+- [CRN - Numeratori](Sorgenti/OG/TA/CRN)
 
 - **Sai come attivare una segnalazione quando la movimentazione manda in negat**
 
@@ -196,8 +196,8 @@ Per una documentazione completa :
 In tabella GM1 si imposta il campo "Tipo evento segnalazione negativi".
 
 Per una documentazione completa : 
-- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/TA_GM1)
-- [P5D - Tipo evento](Sorgenti/OG/TA/TA_P5D)
+- [GM1 - Parametri gestione magazzini](Sorgenti/OG/TA/GM1)
+- [P5D - Tipo evento](Sorgenti/OG/TA/P5D)
 
 - **Sai come usare impostare le causali di movimentazione in modo che si possa**
 
@@ -205,4 +205,4 @@ Per una documentazione completa :
 Nella tabella GMC c'è il campo "Applica solo se IDDM" che, se impostato e sono presenti le azioni (+ o -) sulla qtà allocata e/o sulla qtà attesa, esegue le azioni in questione solo se la causale è stata lanciata da un richiesta di movimentazione.
 
 Per una documentazione completa : 
-- [GMC - Causali di movimentazione](Sorgenti/OG/TA/TA_GMC)
+- [GMC - Causali di movimentazione](Sorgenti/OG/TA/GMC)

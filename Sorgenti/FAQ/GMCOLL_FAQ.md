@@ -25,8 +25,8 @@ La tabella principale è la GMD (Tipo collo) che definisce le specifiche del col
 L'altra tabella guida è la GMB (Unità di movimentazione) che è relativa alle caratteristiche fisiche (misure, peso max consentito, matricolazione, bar-code, ...).
 
 Per una informazione più completa vedi documentazione tabelle : 
-- [GMD - Tipo collo](Sorgenti/OG/TA/TA_GMD)
-- [GMB - Unita  di movimentazione](Sorgenti/OG/TA/TA_GMB)
+- [GMD - Tipo collo](Sorgenti/OG/TA/GMD)
+- [GMB - Unita  di movimentazione](Sorgenti/OG/TA/GMB)
 
 - **Sai quali sono gli archivi di riferimento?**
 
@@ -36,8 +36,8 @@ L'anagrafico di colli è il file GMCOLL0F.
 Esiste un secondo archivio di riferimento (file GMCOCO0F) dove mantenere il dettaglio giacenza del contenuto dei colli, in alternativa alla gestione dettaglio giacenze per collo in GMQUAN.
 
 Per una informazione più completa vedi documentazione files : 
-- [GMCOLL0F Colli](Sorgenti/OJ/FILE/F_GMCOLL0F)
-- [GMCOCO0F Giacenze per Packing list (prova Query](Sorgenti/OJ/FILE/F_GMCOCO0F)
+- [GMCOLL0F Colli](Sorgenti/OJ/FILE/GMCOLL0F)
+- [GMCOCO0F Giacenze per Packing list (prova Query](Sorgenti/OJ/FILE/GMCOCO0F)
 
 - **Sai come collegare un documento ad un collo?**
 
