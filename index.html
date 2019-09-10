@@ -20,8 +20,9 @@
 
   <script>
     function checkWindowSize(){
-      console.log(window.location.href);
-      if(window.innerWidth < 1120){
+      console.log(window.innerHeight);
+      console.log(screen.height)
+      if(!(window.innerWidth == screen.width)){
         body = document.getElementsByTagName('body');
         table = document.getElementsByTagName('table');
         suggestions = document.getElementById('suggestions');

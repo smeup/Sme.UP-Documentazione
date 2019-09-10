@@ -82,6 +82,7 @@ body.no-sidebar .sidebar,
 
     #switch.no-sidebar{
         left: 600px !important; 
+        display: none;
     }
 
     #switch{
