@@ -298,4 +298,4 @@ La funzione di upload di un file risponde con un file XML di conferma spedizione
 messaggio di warning.
 
 Per l'interfaccia ai webservice si rimanda alla documentazione specifica dell'API K11 : 
-- [TST Integrazione con webservice](Sorgenti/OJ/PGM/P_TSTK11)
+- [TST Integrazione con webservice](Sorgenti/OJ/PGM/TSTK11)

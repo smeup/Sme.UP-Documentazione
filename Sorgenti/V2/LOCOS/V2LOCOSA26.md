@@ -153,7 +153,7 @@ Richiamando più volte in modo questa sub sezione è possibile collegare le vari
 -- Capire autorizzazioni di Archibox (non importante) vedere con loro se tenerle allineate
 
 ## Vedi anche
-- [Server Archibox](Sorgenti/OG/V3/V3_CSE_09)
+- [Server Archibox](Sorgenti/OG/V3/CSE_09)
 - [Interfaccia Archiviazione Archibox](Sorgenti/DOC/TA/B£AMO/ODIAAB)
 - [Interfaccia Archiviazione Medusa](Sorgenti/DOC/TA/B£AMO/ODIAME)
 

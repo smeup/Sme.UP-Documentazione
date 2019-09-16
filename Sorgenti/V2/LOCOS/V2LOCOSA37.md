@@ -151,4 +151,4 @@ Il parametro Batch indica il tipo di esecuzione e come da wizard può avere i se
 
 
 Per l'invio di messaggi a dispositivi si rimanda alla documentazione specifica dell'API K10 : 
-- [TST Dati di Campo](Sorgenti/OJ/PGM/P_TSTK10)
+- [TST Dati di Campo](Sorgenti/OJ/PGM/TSTK10)

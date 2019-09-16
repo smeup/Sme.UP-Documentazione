@@ -50,7 +50,7 @@ Oltre ai valori presenta anche gli indici statistici della vista :
 
 ![MPPIAN_090](http://localhost:3000/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_090.png)
 _3_Nota , per il significato e le formule di calcolo degli indici presentati fare riferimento alla documentazione della routine di calcolo funzioni matematiche £G56
-- [Test statistiche](Sorgenti/OJ/PGM/P_TSTG56)
+- [Test statistiche](Sorgenti/OJ/PGM/TSTG56)
 
 ## Modifica riga
 Prevede la possibilità di modificare i valori della riga

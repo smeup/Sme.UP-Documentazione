@@ -587,8 +587,8 @@ Nell'impostazione delle fonti che ritornano la scorta (origine SC, SD) è possib
 Nel richiamo della funzione £M5A (ritorno informazioni articolo/plant) è possibile impostare, tra i parametri di input, il campo priorità di scelta.
 
 ### Fonti esistenti e future
-- [&-x2a; M5E - SC - Scorta minima](Sorgenti/OG/TA/TA_M5E_SC )
-- [&-x2a; M5F - SD - Scorta datata](Sorgenti/OG/TA/TA_M5F_SD )
+- [&-x2a; M5E - SC - Scorta minima](Sorgenti/OG/TA/M5E_SC )
+- [&-x2a; M5F - SD - Scorta datata](Sorgenti/OG/TA/M5F_SD )
 
 ## Popolamento dati articolo/plant
 La scorta dinamica viene calcolata se è stato impostato, nell'archivio articolo/plant, il criterio £01 nel campo "Calcolo scorta lotti". Dato che il comportamento di default non può variare, per attivare questo calcolo è necessario valorizzare il campo con una funzione ad hoc (ad esempio con un UPDATE di SQL). Non è stato realizzato un programma standard di popolamento in quanto le situazioni possono essere le più diversificate :  si può voler calcolare la scorta dinamica solo sugli articoli di una determinata classe, oppure ad un determinato livello di risalita, solo per un plant, ecc ...

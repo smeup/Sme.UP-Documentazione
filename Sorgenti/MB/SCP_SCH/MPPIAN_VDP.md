@@ -67,7 +67,7 @@ Per ogni riga della vista presenta una serie di indici statistici :
 _3_Nota 1, selezionando le impostazioni di visualizzazione _2_Base o _2_Completa si possono vedere un set ridotto di indici oppure tutti
 
 _3_Nota 2, per il significato e le formule di calcolo degli indici presentati fare riferimento alla documentazione della routine di calcolo funzioni matematiche £G56
-- [Test statistiche](Sorgenti/OJ/PGM/P_TSTG56)
+- [Test statistiche](Sorgenti/OJ/PGM/TSTG56)
 
 ## Comparazione
 Permette di confrontare i dati della vista di partenza con un'altra vista, sono previste una comparazione in forma sintetica, una comparazione in forma estesa ed una manutenzione in matrice modificabile della vista con confronto con un'altra vista di riferimento.

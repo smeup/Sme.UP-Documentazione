@@ -30,6 +30,6 @@ Le altre funzioni sono la possibilità di abilitare altre ricerche ed in partico
 - In GOOGLE
 
 ## PArole in attesa di definizione
- :  : DEC T(MB) P(DOC_VOC) K(GLO_TBD_01)
+- [Parole in attesa di definizione](Sorgenti/MB/DOC_VOC/GLO_TBD_01)
 
 
