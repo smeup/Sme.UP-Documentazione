@@ -6,7 +6,7 @@ Questo menù è estremamente personabizzabile da parte dell'utente, con peculiar
 # Come aprire il modulo di configurazione?
 
 Per raggiungere il modulo di cofigurazione del menù di Web.UP bisogna andare sulla pagina di avvio di Web.UP, ad esempio per noi "webuptest.smeup.com", poi attivare la modialità sviluppatore.
-A questo punto cliccare sul modulo *main config, e selezionare la seconda voce ERP vs B2B settings.
+A questo punto cliccare sul modulo \*main config, e selezionare la seconda voce ERP vs B2B settings.
 Ora scendendo fino al punto dove troviamo external menù, qui possiamo andare a personalizzare il nostro menù di Web.UP.
 
 # Personalizzazioni
@@ -19,7 +19,7 @@ Subito dopo troviamo due campi di immissione (Fixed start menu (WEB), Fixed star
 
       1 - true :  inserendo la parola true andiamo ad indicare a web.UP che il menù che aprirà sarà con una FUN cablata all'interno del codice di web.UP
            Le FUN che vengono generate quando abbiamo abilitato la modalità TRUE sono : 
-WEB :        F(TRE;*MNU;) 1(IU;;) 6(;WU3_01;0010) SS(CONAP(X1))
+WEB :        F(TRE;\*MNU;) 1(IU;;) 6(;WU3_01;0010) SS(CONAP(X1))
 MOBILE :   F(TRE;JATRE_06C;NEW)
 
       2 - false :  inserendo la parola false utilizziamo un menù che apre una FUN cablata all'interno dello script di configurazione della scheda

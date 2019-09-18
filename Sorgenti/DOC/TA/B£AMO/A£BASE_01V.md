@@ -4,25 +4,25 @@ Questo può servire in particoalre quando vari accessi causano la disabilitazion
 
 ### Nota
 Le seguenti istruzioni valgono per un sistema in cui l'auditing non è già attivo.
-Ossia per un sistema in cui i valori di sistema QAUDCTL e QAUDLVL valgono *NONE.
+Ossia per un sistema in cui i valori di sistema QAUDCTL e QAUDLVL valgono \*NONE.
 In altre situazioni valutare caso per caso.
 
 ## Attivazione audit
 CRTJRNRCV JRNRCV(libreria/AUDRCV0001)
           THRESHOLD(100000)
           TEXT('Auditing Journal Receiver')
-          AUT(*EXCLUDE)
+          AUT(\*EXCLUDE)
 
 CRTJRN JRN(QSYS/QAUDJRN)
        JRNRCV(libreria/AUDRCV0001)
-       MNGRCV(*SYSTEM)
-       DLTRCV(*NO)
+       MNGRCV(\*SYSTEM)
+       DLTRCV(\*NO)
        TEXT('Auditing Journal')
-       AUT(*EXCLUDE)
+       AUT(\*EXCLUDE)
 
-CHGSECAUD QAUDLVL(*AUTFAIL) INLJRNRCV(libreria/AUDRCV0001)
+CHGSECAUD QAUDLVL(\*AUTFAIL) INLJRNRCV(libreria/AUDRCV0001)
 
-CHGSYSVAL SYSVAL(QAUDCTL) VALUE(*AUDLVL)
+CHGSYSVAL SYSVAL(QAUDCTL) VALUE(\*AUDLVL)
 
 ## Interrogazione audit
 CPYAUDJRNE ENTTYP(PW) OUTFILE(libreria/QAUDIT)
@@ -34,9 +34,9 @@ FROM libreria/QAUDITPW
 ## Disattivazione audit
 DLTF libreria/QAUDITPW
 
-CHGSYSVAL SYSVAL(QAUDCTL) VALUE(*NONE)
+CHGSYSVAL SYSVAL(QAUDCTL) VALUE(\*NONE)
 
-CHGSECAUD QAUDLVL(*NONE)
+CHGSECAUD QAUDLVL(\*NONE)
           INLJRNRCV(libreria/AUDRCV0001)
 
 DLTJRN JRN(QSYS/QAUDJRN)

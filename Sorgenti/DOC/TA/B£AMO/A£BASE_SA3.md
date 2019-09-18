@@ -21,49 +21,49 @@ I nomi dei campi devono essere univoci in tutto SME.UP, secondo la codifica xxnn
 Le modifiche apportate ai file di dati vengono indicate nel membro SMESTD/SRCDB/AAAFIL, separate per rilascio.
 Le modifiche effettuate durante lo sviluppo vengono invece indicate nel membro SMEDEV/SRCDB/AAAFIL.
 
->     A*----------------------------------------------------------------                      .
-     A* Anagrafico cespiti
-     A*----------------------------------------------------------------                      .
+>     A\*----------------------------------------------------------------                      .
+     A\* Anagrafico cespiti
+     A\*----------------------------------------------------------------                      .
      A                                      ALTSEQ(QTOCSSTBL)
      A          R A5CESPR                   PFILE(A5CESP0F)
-     A*
+     A\*
      A          K TAAZIE
      A          K TADECE
-     A*
+     A\*
 
 
 ## Il buon file
 I nuovi file Sme.UP dovrebbero avere tutti questi campi : 
-* Dati statistici di inserimento
-** Origine
-** Data (di sistema)
-** Ora (di sistema)
-** Utente
-* Dati statistici di ultima modifica
-** Origine
-** Data (di sistema)
-** Ora (di sistema)
-** Utente
-* 10 Campi alfanumerici liberi
-* 10 Campi numerici liberi
-* 10 Campi per date se pertinenti (di tipo alfanumerico)
-* 40 Campi flag
+\* Dati statistici di inserimento
+\*\* Origine
+\*\* Data (di sistema)
+\*\* Ora (di sistema)
+\*\* Utente
+\* Dati statistici di ultima modifica
+\*\* Origine
+\*\* Data (di sistema)
+\*\* Ora (di sistema)
+\*\* Utente
+\* 10 Campi alfanumerici liberi
+\* 10 Campi numerici liberi
+\* 10 Campi per date se pertinenti (di tipo alfanumerico)
+\* 40 Campi flag
 
 # Programmi
 I programmi riguardanti la gestione di un file vengono codificati nel seguente modo : 
 >AAOOppx, dove : 
- * _1_AA = Applicazione - 2 caratteri (TAB£A).
+ \* _1_AA = Applicazione - 2 caratteri (TAB£A).
  :  : DEC T(ST) K(B£A)
 
- * _1_OO = Oggetto - 2 caratteri (TA*CNTT).
- :  : DEC T(ST) K(*CNTT)
+ \* _1_OO = Oggetto - 2 caratteri (TA\*CNTT).
+ :  : DEC T(ST) K(\*CNTT)
 
- * _1_pp = Progressivo numerico di due caratteri.
+ \* _1_pp = Progressivo numerico di due caratteri.
 
- * _1_x = ultimo carattere che varia in base alla funzione del pgm : 
- ** finiscono per L i pgm di lista
- ** finiscono per G i pgm di acquisizione parametri
- ** finiscono per P i pgm di parzializzazione (filtri)
+ \* _1_x = ultimo carattere che varia in base alla funzione del pgm : 
+ \*\* finiscono per L i pgm di lista
+ \*\* finiscono per G i pgm di acquisizione parametri
+ \*\* finiscono per P i pgm di parzializzazione (filtri)
 
 Es. :  BRAR01G è il pgm di acquisizione parametri dell'oggetto AR (=Articoli).
 Se un pgm è di test di una /COPY, si chiamerà TST+codice /COPY senza il carattere "£".
@@ -76,7 +76,7 @@ Es. :  BRAR01L ha come testo del membro _ARTI Lista articoli_
 Normalmente seguono la stessa codifica del programma che li utilizza con l'aggiunta del carattere "V" finale.
 
 # File dei messaggi
-I messaggi (di errore, informativi, ecc.) sono archiviati in appositi file messaggi (*MSGF) per applicazione, il cui nome è codificato come MSGaa, dove _aa_ è il codice dell'applicazione (un'eccezione è il MSGBA corrispondente all'applicazione B£).
+I messaggi (di errore, informativi, ecc.) sono archiviati in appositi file messaggi (\*MSGF) per applicazione, il cui nome è codificato come MSGaa, dove _aa_ è il codice dell'applicazione (un'eccezione è il MSGBA corrispondente all'applicazione B£).
 
 # File di Dizionario
 Per ottenere la **tipizzazione di un campo** è necessario indicare _tipo e parametro dell'oggetto nelle definizioni dei campi nel TEXT() .
@@ -85,15 +85,15 @@ In questo modo il sitema può identificare il tipo del campo e associare ad esso
 Esempio di tipizzazione di un campo data : 
 >  A            DTIA           8  0       TEXT('Data Inizio Ammortamento
 
- A                                      D8*YYMD')
+ A                                      D8\*YYMD')
 
 
 # /COPY
 La codifica delle /COPY di smeup si basa su un suffisso di 4 caratteri :  il primo carattere è sempre il carattere "£", mentre gli altri caratteri a seconda della funzione che la /COPY svolge può assumere differenti codifiche : 
- * se la /COPY svolge una funzione specifica di un'applicazione i successivi 3 caratteri corrisponderanno al codice dell'applicazione, seguita da una lettera o un numero
- * se la /COPY è la definizone di una tabella i caratterei successivi saranno "TAB" ed il codice settore tabella
- * se la /COPY svolge una funzione di interfaccia i caratteri successivi saranno "I" o "IF" seguiti da caratteri che identifichino l'oggetto dell'interfaccia
- * se la /COPY svolge una funzione di carattere generale i caratteri successivi saranno "G" seguito da un numero di due cifre o un codice di tre lettere che possa rimandare in qualche modo alla funzione della /COPY
+ \* se la /COPY svolge una funzione specifica di un'applicazione i successivi 3 caratteri corrisponderanno al codice dell'applicazione, seguita da una lettera o un numero
+ \* se la /COPY è la definizone di una tabella i caratterei successivi saranno "TAB" ed il codice settore tabella
+ \* se la /COPY svolge una funzione di interfaccia i caratteri successivi saranno "I" o "IF" seguiti da caratteri che identifichino l'oggetto dell'interfaccia
+ \* se la /COPY svolge una funzione di carattere generale i caratteri successivi saranno "G" seguito da un numero di due cifre o un codice di tre lettere che possa rimandare in qualche modo alla funzione della /COPY
 Su codifica dei caratteri successivi si possono trovare delle eccezioni, ma non esistono eccezioni al carattere "£" iniziale.
 Se la /COPY, oltre ai succitati caratteri, riporta come caratteri finali "DS", "D", "E", "I" significa che contiene le specifiche di definizione utilizzate dalla /COPY corrispondente che non presenta tali desinenze.
 Tutte le variabili utilizzate da una /COPY sono codificate riportando come primi 4 caratteri gli stessi caratteri del codice della /COPY cui appartengono. Perciò in Sme.up se una variabile ha un codice che inizia per "£" si ha la certezza che sia contenuta in una /COPY, e che questa dovrebbe essere identificabile dai 3 caratteri successivi della variabile.

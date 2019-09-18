@@ -75,7 +75,7 @@ Per effettuare dei test sulla funzioine è inoltre possibile attivare dall'eleme
      C                   EXSR      H53_EMI
      C                   EXSR      £H53
 2    C                   IF        £H53_STROU<>' '
-      * [...] Istruzioni per scrivere £H53_STROU nell'IFS (es. tramite G80)
+      \* [...] Istruzioni per scrivere £H53_STROU nell'IFS (es. tramite G80)
 2E   C                   ENDIF
  :  : PAR : END
 - Scrittura delle variabili di intestazione
@@ -92,7 +92,7 @@ Per effettuare dei test sulla funzioine è inoltre possibile attivare dall'eleme
      C                             +'Txt="TestoRiga"'
      C                   EXSR      £H53
 2    C                   IF        £H53_STROU<>' '
-      * [...] Istruzioni per scrivere £H53_STROU nell'IFS (es. tramite G80)
+      \* [...] Istruzioni per scrivere £H53_STROU nell'IFS (es. tramite G80)
      C                   ENDIF
 
 - Test Salto Pagina (solo se voglio modificare la pagina, altrimenti la nuova pagina  viene scritta automaticamente
@@ -104,6 +104,6 @@ Per effettuare dei test sulla funzioine è inoltre possibile attivare dall'eleme
      C                   EVAL      £H53_MET='   '
      C                   EXSR      £H53
 2    C                   IF        £H53_STROU<>' '
-      * [...] Istruzioni per scrivere £H53_STROU nell'IFS (es. tramite G80)
+      \* [...] Istruzioni per scrivere £H53_STROU nell'IFS (es. tramite G80)
      C                   ENDIF
 

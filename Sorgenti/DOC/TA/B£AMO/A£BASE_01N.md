@@ -20,38 +20,38 @@ Nel file QAPIGEN si può vedere il membro QSQCHKS
  :  : DEC T(MB) P(QAPIGEN) K(QSQCHKS) O(K)
 
 Dal sito IBM sopra citato si legge che i parametri di questa API sono i seguenti : 
->1 Source records containing SQL statement         Input   Char(*)
+>1 Source records containing SQL statement         Input   Char(\*)
 2 Record length                                   Input   Binary(4)
 3 Number of records provided                      Input   Binary(4)
 4 Language                                        Input   Char(10)
-5 Options                                         Input   Char(*)
-6 Statement information                           Output  Char(*)
+5 Options                                         Input   Char(\*)
+6 Statement information                           Output  Char(\*)
 7 Length of statement information                 Input   Binary(4)
 8 Number of records processed                     Output  Binary(4)
-9 Error code I/O                                  I/O     Char(*)
+9 Error code I/O                                  I/O     Char(\*)
 
 
 Questo esempio comprende parametri di input e di output a lunghezza variabile.
-Il tipo di dato Char(*) significa puntatore ad una varibile di tipo CHAR (con un poco di conoscenza del il linguaggio C, tutto risulterà molto famigliare).
+Il tipo di dato Char(\*) significa puntatore ad una varibile di tipo CHAR (con un poco di conoscenza del il linguaggio C, tutto risulterà molto famigliare).
 Per utilizzare questa Api in un programma QRPGLE è consigliabile definire un prototipo di chiamata, che consenta di utilizzare la stessa sotto forma di procedura.
 Il nostro programma RPG comprenderà quindi le seguenti specifiche D (queste definizioni sono presenti nella /COPY QAPIGEN,QSQCHKS.
->  *-- Syntax Check SQL Statement -----------------------------------------.
+>  \*-- Syntax Check SQL Statement -----------------------------------------.
  D SQLSYNTAX       Pr                  ExtPgm( 'QSQCHKS' )                .
- D  SQLSTR                    32767a   Const  Options( *VarSize )         .
+ D  SQLSTR                    32767a   Const  Options( \*VarSize )         .
  D  SQLSTRL                      10i 0 Const                              .
  D  SQLSTRRN                     10i 0 Const                              .
  D  SQLLANG                      10a   Const                              .
- D  SQLOPT                    32767a   Const  Options( *VarSize )         .
- D  SQLINF                    32767a          Options( *VarSize )         .
+ D  SQLOPT                    32767a   Const  Options( \*VarSize )         .
+ D  SQLINF                    32767a          Options( \*VarSize )         .
  D  SQLINFL                      10i 0 Const                              .
  D  SQLREC                       10i 0                                    .
- D  SQLERROR                  32767a          Options( *VarSize )         .
-  *---------------------------------------------------------------------- .
+ D  SQLERROR                  32767a          Options( \*VarSize )         .
+  \*---------------------------------------------------------------------- .
 
 
 Nel prototipo sono stati dichiarati i parametri : 
- * CHAR(*)  è stato definito come Const  Options(*VarSize)
- * Binary(4) è stato dichiarato come 10I 0
+ \* CHAR(\*)  è stato definito come Const  Options(\*VarSize)
+ \* Binary(4) è stato dichiarato come 10I 0
 
 La dichiarazione come Const è riservata ai soli paramatri di input.
 Il prototipo può anche ridefinire il nome dell'API (come avviene in questo caso, dove l'API verrà utilizzata richiamando la procedura SQLSYNTAX). In ogni caso, la procedura può essere chiamata come il none dell'API stessa.
@@ -66,31 +66,31 @@ L'API di cui stiamo parlando non fa eccezione a questa regola (vedere QSYSINC/QR
 Per definire le DS necessarie alla nostra API è necessario specificare la struttura dei parametri per le DS previste. Si rimanda al membro QSQCHKS in QAPIGEN per il dettaglio delle DS necessarie
 per l'utilizzo di questa API.
 Per illustrare la struttura di Ds "variabile" frequentemente utilizzata dalla API, ecco nel dettaglio una di queste DS.
->D  SQLOPT                    32767a   Const  Options( *VarSize )          .
+>D  SQLOPT                    32767a   Const  Options( \*VarSize )          .
                                                                           .
 Type Definition for the SQLOPT                                            .
                                                                           .
 DQSQTIONS         DS                                                      .
-D*                                             Qsq Options                .
+D\*                                             Qsq Options                .
 D QSQNBROK                1      4B 0                                     .
-D*                                             Number Of Keys             .
-D*QSQTIONS00              5      5                                        .
-D*                             Varying length                             .
+D\*                                             Number Of Keys             .
+D\*QSQTIONS00              5      5                                        .
+D\*                             Varying length                             .
                                                                           .
- *----------------------------------------------------------------------- .
-D*Type Definition for parte variabile di SQLOPT                           .
- *----------------------------------------------------------------------- .
+ \*----------------------------------------------------------------------- .
+D\*Type Definition for parte variabile di SQLOPT                           .
+ \*----------------------------------------------------------------------- .
 DQSQVO            DS                                                      .
-D*                                             Qsq Vlen Option            .
+D\*                                             Qsq Vlen Option            .
 D QSQK                    1      4B 0                                     .
-D*                                             Key                        .
+D\*                                             Key                        .
 D QSQLVO                  5      8B 0                                     .
-D*                                             Length Vlen Option         .
+D\*                                             Length Vlen Option         .
 
 
 Nell'esempio riportato il parametro SQLOPT è strutturato nel modo seguente : 
- * Numero di opzioni (N) passate
- * Ripetizione di N volte della struttura QSQVO
+ \* Numero di opzioni (N) passate
+ \* Ripetizione di N volte della struttura QSQVO
 
 Per quanto riguarda la DS relativa agli errori si può utilizzare la /COPY APIERROR
  :  : DEC T(MB) P(QAPIGEN) K(APIERROR) O(K)
@@ -113,7 +113,7 @@ C                              :  $SQLSTRRN                                 .
 C                              :  ApiError)                                 .
 C                                                                         .
 C                   IF        AeBytAvl=0                                  .
-C                   IF        QSQMI00=*BLANKS                             .
+C                   IF        QSQMI00=\*BLANKS                             .
 C                   ELSE                                                  .
 C                   ENDIF                                                 .
 C                   ELSE                                                  .

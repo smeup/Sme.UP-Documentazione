@@ -13,7 +13,7 @@ _9_Esempio :
 40   Lotto accettato in deroga.
 5    Lotto scartato.
  :  : FLD T$RAGE **Tipo Accettazione**
-Campo controllato dalla tabella CQ*TA. Esso definisce il raggruppamento per categoria delle causali di accettazione.
+Campo controllato dalla tabella CQ\*TA. Esso definisce il raggruppamento per categoria delle causali di accettazione.
 (Tipo Accettazione Lotto).
  :  : FLD T$ODCO **Obbligo dichiarazione NC**
 Obbligo della dichiarazione della/delle non conformità.
@@ -39,6 +39,6 @@ Tale variazione diventa prioritaria rispetto alla normale gestione delle regole 
  :  : FLD T$FLG5 **Azione prossima consegna**
 Valore da impostare automaticamente in fase di dichiarazione di collaudo di un lotto nel campo azione prossima consegna.
  :  : FLD T$CRI1 **Riclassifica 1/2/3**
-Campi di riclassifica controllati dalla tabella 'CQ*CR' (Riclassifica Causali N.C./Acc.). Tali campi sono usati per eseguire riclassifiche nelle analisi statistiche.
+Campi di riclassifica controllati dalla tabella 'CQ\*CR' (Riclassifica Causali N.C./Acc.). Tali campi sono usati per eseguire riclassifiche nelle analisi statistiche.
  :  : FLD T$CRI2.T$CRI1 **Riclassifica 1/2/3**
  :  : FLD T$CRI3.T$CRI1 **Riclassifica 1/2/3**

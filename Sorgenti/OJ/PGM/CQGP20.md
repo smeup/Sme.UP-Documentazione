@@ -6,8 +6,8 @@ Una seconda modalità di utilizzo del programma consente di documentare la parte
 ## Formato guida attribuzione JNDS a dipendente
 ![CQ_PERS_12](http://localhost:3000/immagini/MBDOC_OGG-P_CQGP20/CQ_PERS_12.png)
 Si immette : 
- * _2_Ente di Riferimento, è un campo tabellato *CNTT
- * _2_Profilo di posizione, è un campo tabellato CQ*DA
+ \* _2_Ente di Riferimento, è un campo tabellato \*CNTT
+ \* _2_Profilo di posizione, è un campo tabellato CQ\*DA
 
 Una volta immesso nella maschera di ingresso il codice, il programma propone automaticamente la lista dei fattori e delle competenze legate a quel profilo di posizione registrate in archivio (con la valutazione minima accettabile).
 

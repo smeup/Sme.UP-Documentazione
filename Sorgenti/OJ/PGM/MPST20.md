@@ -1,15 +1,15 @@
 ## Stampe Piano
 Questa funzione serve per l'ottenimento parametrico di stampe di una o più viste piano.
 Sono ottenibili stampe contenenti : 
- * Informazioni di una vista piano;
- * confronto di 2 viste piano con eventuali operazioni (somma, evidenza del massimo, evidenza del minimo, ...);
- * informazioni di una vista piano unita a informazioni di altre viste piano collegate.
+ \* Informazioni di una vista piano;
+ \* confronto di 2 viste piano con eventuali operazioni (somma, evidenza del massimo, evidenza del minimo, ...);
+ \* informazioni di una vista piano unita a informazioni di altre viste piano collegate.
 
 La presentazione delle informazioni può essere : 
- * in quantità per periodo;
- * in quantità cumulata;
- * in valore per periodo;
- * in valore cumulato.
+ \* in quantità per periodo;
+ \* in quantità cumulata;
+ \* in valore per periodo;
+ \* in valore cumulato.
 
 Possono essere stampati tutti i dati oppure solo quelli contenuti all'interno delle parzializzazioni. I periodi con cui vengono presentate le informazioni in stampa possono essere corrispondenti
 all'impostazione del piano oppure uno dei possibili tipi di sintesi creati nella gestione delle analisi differenze di 2 viste piano (cfr Manutenzione manuale viste piano)
@@ -21,8 +21,8 @@ Di seguito saranno spiegate solo le particolarità specifiche MPS.
 ## Stampa dati della vista
 ![MP_001_17](http://localhost:3000/immagini/MBDOC_OGG-P_MPST20/MP_001_17.png)In funzione della vista in input, il sistema presenta le sintesi (raggruppamenti) possibili per il codice 1 e il codice 2 della vista.
 Ordinamento, Parzializzazioni, Schema Informazioni seguono lo standard, con le seguenti particolarità collegate allo schema : 
- * possono essere stampati solo 24 periodi;
- * per definizione, il "Periodo 25" è quello dove il sistema calcola i totali di riga (se si vuole una stampa con i totali di riga nello schema deve essere presente il "Periodo 25").
+ \* possono essere stampati solo 24 periodi;
+ \* per definizione, il "Periodo 25" è quello dove il sistema calcola i totali di riga (se si vuole una stampa con i totali di riga nello schema deve essere presente il "Periodo 25").
 Dopo aver definito questi parametri si passa alla finestra successiva per determinare i parametri di stampa di numeri (quantità, importi, totali, periodi stampati) e il formato dei periodi (colonne della
 stampa).
 

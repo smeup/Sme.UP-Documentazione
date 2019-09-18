@@ -39,7 +39,7 @@ Se compilato con un carattere, viene utilizzato dopo il mese (anche se in bianco
 Permette di utilizzare il giorno, derivato dalla data passata al costruttore del numeratore (/COPY £CRN).
 In base all'opzione scelta varia la sintassi : 
 X emette il giorno del mese in formato numerico, occupando 2 caratteri (01, 02, ecc..)
-A emette il giorno utilizzando un carattere alfabetico, dalla A alla Z, ed esaurite le lettere arriva a 31 utilizzando caratteri speciali 27=$ 28=£ 29=& 30=% 31=*
+A emette il giorno utilizzando un carattere alfabetico, dalla A alla Z, ed esaurite le lettere arriva a 31 utilizzando caratteri speciali 27=$ 28=£ 29=& 30=% 31=\*
 J emette il giorno in formato giuliano utilizzando 3 caratteri. E' un progressivo numerico di cifre che corrisponde al progressivo assoluto del giorno partendo da inizio anno, e va da 1 a 365 (o 366 per gli anni bisestili).
  :  : FLD T$SEP4 **Separatore 3**
 Se compilato con un carattere, viene utilizzato dopo il giorno (anche se in bianco) e prima del progressivo.

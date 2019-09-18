@@ -8,21 +8,21 @@ Verranno inoltre descritte le verifiche preliminari di tutti gli attori in gioco
 
 ## Prerequisiti lato Iseries
 
- * **DEVE ESSERE ATTIVO IL CONTRATTO DI MANUTENZIONE SW IBM**
- * Versione di sistema operativo i5/os uguale o superiore a V5R3M0
- * **Ultimo cumulativo PTF per la versione di i5/os installata.**
- * I seguenti prodotti programma installati su Iseries : 
- ** 5722SS1 Option 12 OS/400 - Host Servers
- ** 5722SS1 Option 30 OS/400 - QShell Interpreter
- ** 5722AC3 Crypto Access Provider 128-bit for AS/400
- ** 5722CE3 Client Encryption 128-bit (optional for Client side encryption)
- ** 5722DG1 IBM HTTP Server for iSeries (optional for additional scenarios)
- ** 5722XE1 iSeries Access for Windows
- * Autorizzazioni *SECOFR per l'utente che configura il servizio (deve avere solo i diritti di *IOSYSCFG e *ALLOBJ)
- * Valore di sistema QRMTSIGN impostato a *VERIFY- iSeries configurato per utilizzare gli stessi DNS Server utilizzati da AD (sconsigliato utilizzare la tabella host).
- * Corretta impostazione dei valori di sistema QTIME e QTIMZON
- * Configurazione del server NTP (servizio tcp/ip SNTP) in modo che l'adattamento ora sia automatico (meglio configurarlo con il server dns interno AD)
- * Authentication Method di i5/OS Netserver impostato a Password/Network autenthication. Ogni utente AS400 deve avere la HOME definita, vedere anche i prerequisiti SmeUp.
+ \* **DEVE ESSERE ATTIVO IL CONTRATTO DI MANUTENZIONE SW IBM**
+ \* Versione di sistema operativo i5/os uguale o superiore a V5R3M0
+ \* **Ultimo cumulativo PTF per la versione di i5/os installata.**
+ \* I seguenti prodotti programma installati su Iseries : 
+ \*\* 5722SS1 Option 12 OS/400 - Host Servers
+ \*\* 5722SS1 Option 30 OS/400 - QShell Interpreter
+ \*\* 5722AC3 Crypto Access Provider 128-bit for AS/400
+ \*\* 5722CE3 Client Encryption 128-bit (optional for Client side encryption)
+ \*\* 5722DG1 IBM HTTP Server for iSeries (optional for additional scenarios)
+ \*\* 5722XE1 iSeries Access for Windows
+ \* Autorizzazioni \*SECOFR per l'utente che configura il servizio (deve avere solo i diritti di \*IOSYSCFG e \*ALLOBJ)
+ \* Valore di sistema QRMTSIGN impostato a \*VERIFY- iSeries configurato per utilizzare gli stessi DNS Server utilizzati da AD (sconsigliato utilizzare la tabella host).
+ \* Corretta impostazione dei valori di sistema QTIME e QTIMZON
+ \* Configurazione del server NTP (servizio tcp/ip SNTP) in modo che l'adattamento ora sia automatico (meglio configurarlo con il server dns interno AD)
+ \* Authentication Method di i5/OS Netserver impostato a Password/Network autenthication. Ogni utente AS400 deve avere la HOME definita, vedere anche i prerequisiti SmeUp.
 
 **NOTA** :  nel manuale IBM "Redbook Windows-based Single Signon and the EIM .pdf", si consiglia la consultazione dell'appendice D :  contiene utili tabelle in fase di preanalisi e di configurazione.
 

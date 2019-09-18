@@ -9,7 +9,7 @@ Abitualmente esiste fra gli ambienti quello che chiamiamo SVIU (Sviluppo + libre
 Comprendere tutto delle funzioni di ricerca e individuazione di una UPP
 La UPP di gestione delle UPP è l'oggetto SU A£_001
 Il menù che appare è quello dell'uso di tale UPP
- :  : DEC T(J1) P(FUN) D(A.Gestire le UPP) K(F(EXD;*SCO;) 1(SU;;A£_001) INPUT(SU_Sub(CO)))
+ :  : DEC T(J1) P(FUN) D(A.Gestire le UPP) K(F(EXD;\*SCO;) 1(SU;;A£_001) INPUT(SU_Sub(CO)))
 
 03. Provare e capire tutte le forme di ricerca
 

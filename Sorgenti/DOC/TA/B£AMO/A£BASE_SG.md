@@ -16,8 +16,8 @@ Si realizzano piccoli programmi orientati alla soluzione del problema, che non i
 Dato che il richiamo delle exit è comandato in tabella, si può facilmente confrontare il comportamento dell'applicazione in presenza ed assenza della exit stessa.
 L'installazione di nuovi rilasci risulta velocizzata :  non bisogna riportare le personalizzazioni sulla nuova versione del codice. È naturalmente nostra cura mantenere inalterata la modalità di richiamo delle exit.
 Un esempio è il programma di controlli aggiuntivi all'inserimento e variazione dell'anagrafica articoli, dove si possono eseguire, ad esempio, sia controlli incrociati sia semantici.
- * Uniformità di colloquio tra le varie funzioni, per permetterne la composizione in modo nativo
- * Rappresentazione 'profonda' dei fenomeni aziendali :  se se ne coglie la reale struttura, nuove esigenze possono essere già contemplate, perché sono manifestazioni diverse di uno stesso disegno concettuale.
+ \* Uniformità di colloquio tra le varie funzioni, per permetterne la composizione in modo nativo
+ \* Rappresentazione 'profonda' dei fenomeni aziendali :  se se ne coglie la reale struttura, nuove esigenze possono essere già contemplate, perché sono manifestazioni diverse di uno stesso disegno concettuale.
 
 Dalla tabella tabella BRZ è attivabile un pgm di exit che permette di applicare dei controlli di congruenza aggiuntivi rispetto a quelli previsti a standard. La prima cosa da prendere in considerazione passando al data entry V2 è il fatto che l'exit prevista dalla versione precedente rimane attiva, ma viene deviata su un pgm che supporta una radice ed un'entry differente. Per tale motivo per mantenere l'exit i pgm dovranno essere ridenominati e riadeguati.
 
@@ -29,6 +29,6 @@ Dalla tabella tabella BRZ è attivabile un pgm di exit che permette di applicare
  - In ogni implementazione, inoltre, sono da determinare i valori  previsti nei parametri dalla tabella CCO, ma visto che ognuno si calcola tali valori secondo criteri specifici, tutti utilizzano le exit previste nella ripresa e nel data entry per  determinare tale valore.
 
 Tabelle Personalizzazione : 
- :  : DEC T(TA) P(B£1) K(*)
- :  : DEC T(TA) P(CQ1) K(*)
- :  : DEC T(TA) P(CR1) K(*)
+ :  : DEC T(TA) P(B£1) K(\*)
+ :  : DEC T(TA) P(CQ1) K(\*)
+ :  : DEC T(TA) P(CR1) K(\*)

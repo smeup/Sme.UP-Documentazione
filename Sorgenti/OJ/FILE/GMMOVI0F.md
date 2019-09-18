@@ -1,7 +1,7 @@
 ## Contenuto
 Tutte le informazioni significative di una transazione di magazzino (quantità, valori, date, codici, documenti, ecc..).
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'E1'                               £FUNT1
 
 ## Chiave primaria
@@ -17,8 +17,8 @@ Le impostazioni che condizionano questo archivio sono contenute nel settore di t
 
 ## Autorizzazioni
 Le autorizzazioni si reperiscono nel seguente modo : 
- *  classe di autorizzazione ABILITA
- *  funzione MOV-MAGx, dove x è il gruppo di autorizzazione impostato nella causale di movimentazione.
+ \*  classe di autorizzazione ABILITA
+ \*  funzione MOV-MAGx, dove x è il gruppo di autorizzazione impostato nella causale di movimentazione.
 
 ## Note strutturate (Tabella NSC)
 Definito in impostazioni generali GM (Tab. GM1).
@@ -38,8 +38,8 @@ NB :  il flusso per causale non è attivo per le Azioni eseguibili.
 Ogni programma che esegue la transazione imposta il proprio nome nel contesto (campo della £FUNDS1).
 
 In  tabella GMC ad un movimento possiamo anche associare gruppi di azioni di movimentazione (Tab. GMH) queste azioni possono essere lanciate : 
- * in fase di creazione del movimento, dal programma monitor di inserimento
- * in fase di scrittura del movimento, dal programma di applicazione.
+ \* in fase di creazione del movimento, dal programma monitor di inserimento
+ \* in fase di scrittura del movimento, dal programma di applicazione.
 
 ## Costruzione automatica campi (tabella B£C)
 N.A.

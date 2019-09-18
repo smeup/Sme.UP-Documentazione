@@ -11,7 +11,7 @@ Il formato di richiesta è il seguente :
 ![V5_22_01](http://localhost:3000/immagini/MBDOC_OGG-P_V5DO21I/V5_22_01.png)
 Le opzioni permettono di scegliere se si vuole agire su documenti di Clienti o Fornitori e relativi a Fatture o Note di credito.
 
-Inoltre si deve impostare lo stato (di fatturazione) del documento, lo schema di visualizzazione e l'ente (mettere "*" se si vogliono vedere i documenti di tutti gli enti).
+Inoltre si deve impostare lo stato (di fatturazione) del documento, lo schema di visualizzazione e l'ente (mettere "\*" se si vogliono vedere i documenti di tutti gli enti).
 
 ## Lista documenti
 Fatte le opportune selezioni con INVIO si ottiene la lista dei documenti su cui si vuole agire, le opzioni possibili sono presentate in figura : 

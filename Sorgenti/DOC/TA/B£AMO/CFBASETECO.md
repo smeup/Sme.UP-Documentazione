@@ -319,14 +319,14 @@ _2_Aspetto :  specifica come si deve presentare il questionario. Sono possibili 
 
 _2_Dati ausiliari :  richiede la gestione di variabili ausiliarie. Di seguito l'elenco di quelle gestite : 
 
-- *DE è la descrizione della configurazione
-- *QU è il codice del questionario
-- *DC è la data di creazione
-- *IC l'ora di creazione
-- *DM è l'utente che ha modificato la configurazione
-- *IM l'ora di modifica
-- *UM è l'utente che ha modificato
-- *UC è l'utente che ha creato la configurazione
+- \*DE è la descrizione della configurazione
+- \*QU è il codice del questionario
+- \*DC è la data di creazione
+- \*IC l'ora di creazione
+- \*DM è l'utente che ha modificato la configurazione
+- \*IM l'ora di modifica
+- \*UM è l'utente che ha modificato
+- \*UC è l'utente che ha creato la configurazione
 
 Queste variabili vengono salvate su AS400 ma sono anche accessibili tramite la funzione getAuxResp("codice"), dove codice è il codice della domanda senza l'asterisco.
 
@@ -411,7 +411,7 @@ Le funzioni che questo linguaggio delle regole può implementare sono le seguent
 - _2_AddAll (cod_domanda) :  abilito tutti i valori della domanda selezionata
 - _2_RmvAll (cod_domanda) :  disabilito tutti i valori della domanda selezionata
 - _2_AddFunVal() e RmvFunVal() : possono aggiungere o rimuovere una lista di valori letta da AS400 utilizzando un servizio che restituisca una griglia. I parametri ammessi sono i seguenti :  domanda a cui vanno aggiunti/rimossi i valori, funzione da invocare, codice colonna che contiene valori, codice colonna di filtro e valore filtro. Gli ultimi due valori sono opzionali. Per rendere dinamica la chiamata da fare all'AS400 si possono inserire le variabili del configuratore con la sintassi "aperta quadra" codice_domanda "chiusa quadra". Se la variabile è multipla vengono eseguite n chiamate, una per ogni valore. La funzione accetta fino a 3 variabili.
-- _2_SetFiltro ( cod_domanda; cod_filtro; param1 filtro; ...; param N filtro) :  imposto un filtro sulle possibili risposte fornite. Se si desiderano utilizzare i filtri definiti nella JAC il codice del filtro deve diventare *JAC
+- _2_SetFiltro ( cod_domanda; cod_filtro; param1 filtro; ...; param N filtro) :  imposto un filtro sulle possibili risposte fornite. Se si desiderano utilizzare i filtri definiti nella JAC il codice del filtro deve diventare \*JAC
 - _2_ResetFiltro(cod_domanda) :  annullo il filtro
 
 
@@ -465,14 +465,14 @@ Operano tutte su parametri numerici.
 - _2_getDescResp( cod_domanda) restituisce la descrizione della risposta (se la domanda è a risposta multipla restituisce la descrizione della prima risposta).
 - _2_getObjDesc(tipo; parametro; codice) restituisce la decodifica dell'oggetto identificato dalla terna tipo-parametro-codice. Tipo parametro codice sono espressioni.
 - _2_getAuxResp('nome domanda ausliaria senza asterisco') restituisce la risposta ausiliaria. Le domande ausiliarie sono le seguenti : 
--- *DE è la descrizione della configurazione
--- *QU è il codice del questionario
--- *UC è l'utente che ha creato la configurazione
--- *DC è la data di creazione
--- *IC l'ora di creazione
--- *DM è l'utente che ha modificato la configurazione
--- *IM l'ora di modifica
--- *UM è l'utente che ha modificato
+-- \*DE è la descrizione della configurazione
+-- \*QU è il codice del questionario
+-- \*UC è l'utente che ha creato la configurazione
+-- \*DC è la data di creazione
+-- \*IC l'ora di creazione
+-- \*DM è l'utente che ha modificato la configurazione
+-- \*IM l'ora di modifica
+-- \*UM è l'utente che ha modificato
 Esempio getAuxResp('UM') restituisce il codice dell'utente che ha modificato la configurazione. Queste informazioni ausiliarie sono disponibili solo se nel questionario si specifica di aggiungere queste informazioni.
 - _2_getLoocupVarValue('cod_LoocupVariable') restituisce il valore della variabile di ambiente di Loocup. Le variabili di ambiente includono i dati relativi all'applicazione (es. posizione icone), i dati relativi alla macchina e i dati della JVM utilizzata. Maggiori dettagli sono disponibili nella documentazione di LoocUp.
 
@@ -586,7 +586,7 @@ Sempre sulla sinistra vengono mostrate tutte le funzioni necessarie alla gestion
 ### La Scheda del Configuratore
 L'accesso alle funzioni del configuratore avviene mediante un'apposita scheda (CFBASE).
 
-Questa scheda è accessibile dal menù delle applicazioni di Loocup con il seguente percorso :  Menù Ingresso utente, *AP :  Applicazioni, LOOC_Up Graphic Environment, Schede, configuratore.
+Questa scheda è accessibile dal menù delle applicazioni di Loocup con il seguente percorso :  Menù Ingresso utente, \*AP :  Applicazioni, LOOC_Up Graphic Environment, Schede, configuratore.
 
 Verrà visualizzata la seguente scheda (Figura 12) : 
 

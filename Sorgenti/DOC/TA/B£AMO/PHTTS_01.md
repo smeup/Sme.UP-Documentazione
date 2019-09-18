@@ -5,11 +5,11 @@ Corrisponde alla tabella PHM, che contiene la configurazione del master stesso e
 Ulteriori parametri di configurazione sono presenti nella tabella PHN.
 
 ### Slave
- :  : DEC T(TA) P(*CNTT) K(UF)
+ :  : DEC T(TA) P(\*CNTT) K(UF)
 Corrisponde al sottosettore della "tabella slave" indicata in PHM.
 
 ### Unità logica
- :  : DEC T(TA) P(*CNTT) K(UF)
+ :  : DEC T(TA) P(\*CNTT) K(UF)
 Corrisponde all'elemento della tabella degli SLAVE (vedi sopra).
 I tipi di unità logiche conosciute da FILD.UP sono rappresentate dai sottosettori della tabella PHC.
 

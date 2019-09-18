@@ -9,11 +9,11 @@ E' previsto un elenco di default di tali, ma esso è sovrascrivibile tramite l'i
 
 # ELENCO AZIONI STANDARD
 Le azioni standard previste come default (riportabili nella B§1) sono le seguenti : 
- * Stampe utente
- * Documenti utente
- * Lavori sottomessi
- * Lavori utente
- * Gestione stampanti
- * Invio messaggi
- * Visualizza messaggi
- * Modifica parola d'ordine
+ \* Stampe utente
+ \* Documenti utente
+ \* Lavori sottomessi
+ \* Lavori utente
+ \* Gestione stampanti
+ \* Invio messaggi
+ \* Visualizza messaggi
+ \* Modifica parola d'ordine

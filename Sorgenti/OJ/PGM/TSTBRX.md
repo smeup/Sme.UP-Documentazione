@@ -21,16 +21,16 @@ Vedere la sezione INDICAZIONE ERRORI per vedere come vengono segnalati i possibi
 
 # INDICAZIONE ERRORI
 In caso di errori viene acceso l'indicatore 35 e vengono riempite le 3 schiere WEC,WEF,WEV, le quali rispettivamente contengono : 
- * WEC i codici di messaggio per ogni campo in erroer
- * WEF i file di messaggio relativi ai codici
- * WEV i valori da impostare nel messaggio
+ \* WEC i codici di messaggio per ogni campo in erroer
+ \* WEF i file di messaggio relativi ai codici
+ \* WEV i valori da impostare nel messaggio
 Inoltre viene restituita una schiera DFT che contiene tutti i campi del visualizzatore.
 Tramite la DS $DF ho tutti i campi della schiera tra cui menzoniamo $DFCAM che contiene il nome del campo
 
 Di seguito un esempio esemplificativo con emissione di un possibile messaggio di errore : 
 
 >                    FOR       $A=1 TO %ELEM(WEC)
-                    IF        WEC($A)<>*BLANKS
+                    IF        WEC($A)<>\*BLANKS
                     EVAL      £DMSAZ='7'
                     EVAL      £DMSME=WEC($A)
                     EVAL      CODMES=WEC($A)
@@ -38,7 +38,7 @@ Di seguito un esempio esemplificativo con emissione di un possibile messaggio di
                     EVAL      £DMSVA=WEV($A)
                     EXSR      £DMSG
                     EVAL      $DF=DFT($A)
- *
+ \*
                     EVAL      £DMSME=''
                     EVAL      £DMSFI=''
                     EVAL      £DMSAZ='1'

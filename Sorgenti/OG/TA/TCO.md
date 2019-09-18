@@ -139,15 +139,15 @@ Per queste eccezioni la lettura del costo avviene tramite l'analisi dei document
 
 Il costo viene letto dai listini. Anche qui la lettura è condizionata dal riempimento del parametro dell'eccezione.
 Nel parametro di eccezione la "valuta listino" ha il seguente significato : 
-* >*BLANKS Se non reperisce fornitore abituale va con fornitore generico (**) e forza la
+\* >\*BLANKS Se non reperisce fornitore abituale va con fornitore generico (\*\*) e forza la
   valuta presente nella tabella B£2
-* >1 Se non reperisce fornitore abituale va con fornitore generico (**) e forza la
-  valuta *BLANKS
-* >2 Se reperisce fornitore abituale ricerca sul listino con quel fornitore e con la
+\* >1 Se non reperisce fornitore abituale va con fornitore generico (\*\*) e forza la
+  valuta \*BLANKS
+\* >2 Se reperisce fornitore abituale ricerca sul listino con quel fornitore e con la
   valuta della tabella B£2, se non reperisce il fornitore abituale usa il fornitore
-  generico (**) sempre con la valuta della tabella B£2
-* >3 Se reperisce fornitore abituale ricerca sul listino con quel fornitore e con la
-  valuta *BLANKS, se non reperisce il fornitore abituale usa il fornitore generico (**)
+  generico (\*\*) sempre con la valuta della tabella B£2
+\* >3 Se reperisce fornitore abituale ricerca sul listino con quel fornitore e con la
+  valuta \*BLANKS, se non reperisce il fornitore abituale usa il fornitore generico (\*\*)
 
 
 

@@ -86,37 +86,37 @@ L'header, estende le funzionalità dell'api, permettendo :
 
 
 ## Esempio con funzione HEADER
-> * Preparo il LOTTO
+> \* Preparo il LOTTO
 C                   CLEAR                   £V5BHL
 C                   EVAL      £V5BFU='INZ'
 C                   EVAL      £V5BME='HED'
 C                   EVAL      £V5BIM=£V5BHL
 C                   EXSR      £V5B
- * Documento
+ \* Documento
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='DO'
-* Imposto i campi con cui voglio creare il documento, per esempio
+\* Imposto i campi con cui voglio creare il documento, per esempio
 C                   EVAL      T§TDOC='OA'
 C                   EVAL      T§TMOD='001'
 C                   EVAL      T§CDCL='000001
-* Ecc... ecc...
+\* Ecc... ecc...
 C                   EVAL      £V5BIM=V5TDOC
 C                   EXSR      £V5B
 C                   EVAL      £V5BOM=£V5BOG
 C                   EVAL      $V5BOM=£V5BOG
- * ..riga
+ \* ..riga
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='DR'
-* Imposto i campi con cui voglio creare il documento, per esempio
+\* Imposto i campi con cui voglio creare il documento, per esempio
 C                   EVAL      R§TDOC='OA'
 C                   EVAL      R§TRIG='AR'
 C                   EVAL      R§CDOG='ART000001
-* Ecc... ecc...
+\* Ecc... ecc...
 C                   EVAL      £V5BIM=V5RDOC
 C                   EXSR      £V5B
-* header di riga (solo se necessario)
+\* header di riga (solo se necessario)
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='HR'
@@ -124,94 +124,94 @@ C                   EVAL      £V5BIM=£V5BHL
 C                   EVAL      £V5BOM=£V5BOG
 C                   EXSR      £V5B
 C                   EVAL      £V5BOM=$V5BOM
-* Note o prametri (Se necessario)
+\* Note o prametri (Se necessario)
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='C£'
 C                   EVAL      £V5BIM=C£CONR
 C                   EXSR      £V5B
-* Chiusura dell'Header
+\* Chiusura dell'Header
 C                   EVAL      £V5BFU='CLO'
 C                   EVAL      £V5BME='HED'
 C                   EXSR      £V5B
-* Applico il lotto (creazione dei documenti)
+\* Applico il lotto (creazione dei documenti)
 C                   EVAL      £V5BFU='APP'
 C                   EVAL      £V5BME='LOT'
 C                   EXSR      £V5B
 
 
 ## Esempio senza funzione HEADER (multidocumento)
-> * Preparo il LOTTO
+> \* Preparo il LOTTO
 C                   CLEAR                   £V5BHL
 C                   EVAL      £V5BFU='INZ'
 C                   EVAL      £V5BME='LOT'
 C                   EVAL      £V5BIM=£V5BHL
 C                   EXSR      £V5B
- * Documento
+ \* Documento
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='DO'
-* Imposto i campi con cui voglio creare il documento, per esempio
+\* Imposto i campi con cui voglio creare il documento, per esempio
 C                   EVAL      T§TDOC='OA'
 C                   EVAL      T§TMOD='001'
 C                   EVAL      T§CDCL='000001
-* Ecc... ecc...
+\* Ecc... ecc...
 C                   EVAL      £V5BIM=V5TDOC
 C                   EXSR      £V5B
 C                   EVAL      £V5BOM=£V5BOG
- * ..riga
+ \* ..riga
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='DR'
-* Imposto i campi con cui voglio creare il documento, per esempio
+\* Imposto i campi con cui voglio creare il documento, per esempio
 C                   EVAL      R§TDOC='OA'
 C                   EVAL      R§TRIG='AR'
 C                   EVAL      R§CDOG='ART000001
-* Ecc... ecc...
+\* Ecc... ecc...
 C                   EVAL      £V5BIM=V5RDOC
 C                   EXSR      £V5B
-* Note o prametri (Se necessario)
+\* Note o prametri (Se necessario)
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='C£'
 C                   EVAL      £V5BIM=C£CONR
 C                   EXSR      £V5B
- * Preparo il SOTTOLOTTO per includere nello stesso lotto un'altro documento
+ \* Preparo il SOTTOLOTTO per includere nello stesso lotto un'altro documento
 C                   CLEAR                   £V5BHL
 C                   EVAL      £V5BFU='INZ'
 C                   EVAL      £V5BME='SLT'
 C                   EVAL      £V5BIM=£V5BHL
 C                   EXSR      £V5B
- * Documento
+ \* Documento
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='DO'
-* Imposto i campi con cui voglio creare il documento, per esempio
+\* Imposto i campi con cui voglio creare il documento, per esempio
 C                   EVAL      T§TDOC='OA'
 C                   EVAL      T§TMOD='001'
 C                   EVAL      T§CDCL='000001
-* Ecc... ecc...
+\* Ecc... ecc...
 C                   EVAL      £V5BIM=V5TDOC
 C                   EXSR      £V5B
 C                   EVAL      £V5BOM=£V5BOG
- * ..riga
+ \* ..riga
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='DR'
-* Imposto i campi con cui voglio creare il documento, per esempio
+\* Imposto i campi con cui voglio creare il documento, per esempio
 C                   EVAL      R§TDOC='OA'
 C                   EVAL      R§TRIG='AR'
 C                   EVAL      R§CDOG='ART000001
-* Ecc... ecc...
+\* Ecc... ecc...
 C                   EVAL      £V5BIM=V5RDOC
 C                   EXSR      £V5B
-* Note o prametri (Se necessario)
+\* Note o prametri (Se necessario)
 C                   EVAL      £V5BFU='WRI'
 C                   EVAL      £V5BME=''
 C                   EVAL      £V5BTR='C£'
 C                   EVAL      £V5BIM=C£CONR
 C                   EXSR      £V5B
-* Applico il lotto (creazione dei documenti)
+\* Applico il lotto (creazione dei documenti)
 C                   EVAL      £V5BFU='APP'
 C                   EVAL      £V5BME='LOT'
 C                   EXSR      £V5B

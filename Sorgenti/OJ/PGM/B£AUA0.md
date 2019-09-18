@@ -8,7 +8,7 @@ Assumiamo che se l'utente e' entrato in un programma ha tutte le autorizzazioni 
 In particolare l'utente o il gruppo di utenti avrà una sequenza di menu specifici e quindi potrà eseguire solo azioni previste in tali menu'.
 I menu' potranno essere gestiti a livello di modulo base ACG oppure mediante i menu' personalizzati MAPICS.
 # SOLUZIONE
-Realizzeremo un programma che data una classe di sicurezza, restituisca, in funzione dell'utente, 10 possibili condizioni di accesso, il cui significato e' in funzione della classe di sicurezza (ovvero dell'ap- plicazione). Se non sono definite condizioni per un utente, il programma legge le condizioni relative al gruppo di utenti, e in mancanza anche di queste si utilizzano le condizioni di DEFAULT definite per l'utente "**"  Ogni condizione avrà 10 possibili contenuti.
+Realizzeremo un programma che data una classe di sicurezza, restituisca, in funzione dell'utente, 10 possibili condizioni di accesso, il cui significato e' in funzione della classe di sicurezza (ovvero dell'ap- plicazione). Se non sono definite condizioni per un utente, il programma legge le condizioni relative al gruppo di utenti, e in mancanza anche di queste si utilizzano le condizioni di DEFAULT definite per l'utente "\*\*"  Ogni condizione avrà 10 possibili contenuti.
 Possiamo immaginare di avere per ogni classe di sicu- rezza una tabella di 10 righe e 10 colonne.
 Supponiamo di voler realizzare una protezione relati- vamente ai costi (che chiameremo "COSTI"). Possiamo separare le seguenti aree : 
 1.   Calcolo
@@ -17,7 +17,7 @@ NO
 2.   Livello di autoriz. in interrogazione 01 - Fino ai costi variabili
 02 - Fino al costo industriale 03 - Fino al costo pieno
 3.   Modifica costi
-** - tutti
+\*\* - tutti
 AC - di acquisto
 LE - solo lavorazioni esterne
 4.   Ecc.
@@ -25,7 +25,7 @@ Dato un utente avremo :
 UTENTE1       Sc    Opzioni
 1. Calcolo    NO    SI NO
 2. Interrog.  04    01 02 03 04
-3. Modifica         ** AC LE
+3. Modifica         \*\* AC LE
 Nella scrittura del programma si potranno usare tutti i condizionamenti necessari. DETTAGLIO DI PROGRAMMAZIONE
 # TABELLE
 B£P  Classi di autorizzazione
@@ -55,7 +55,7 @@ Ricerca l'utente e il suo gruppo di appartenenza.
 Cerca la prima definizione di autorizzazione valida fra : 
 .    UTENTE/CLASSE
 .    GRUPPO/CLASSE
-.    "**"/CLASSE
-.    "**"/"**"
+.    "\*\*"/CLASSE
+.    "\*\*"/"\*\*"
 Fornisce : 
 valori di 2 caratteri

@@ -2,17 +2,17 @@
 Inizializzare il record del file GMRRIM0F : 
 
 # Funzioni e metodi
- * Funzione - "CLEAR"   :  inizializzazione totale del record
- * Funzione - "CLEARN"  :  inizializzazione totale del record senza testata
- * Funzione - "DERIV"   :  derivaz.riga esistente senza pulizia campi "origine" e "destinazione"
- * Funzione - "DERIVI"  :  derivaz.riga esist.senza pulizia campi e con incremento dumero di riga
- * Funzione - "DERIVA"  :  derivaz.riga esistente con pulizia campi "origine" e "destinazione"
- * Funzione - "DERIVO"  :  derivaz.riga esistente con pulizia campi "origine"
- * Funzione - "DERIVD"  :  derivaz.riga esistente con pulizia campi "destinazione"
+ \* Funzione - "CLEAR"   :  inizializzazione totale del record
+ \* Funzione - "CLEARN"  :  inizializzazione totale del record senza testata
+ \* Funzione - "DERIV"   :  derivaz.riga esistente senza pulizia campi "origine" e "destinazione"
+ \* Funzione - "DERIVI"  :  derivaz.riga esist.senza pulizia campi e con incremento dumero di riga
+ \* Funzione - "DERIVA"  :  derivaz.riga esistente con pulizia campi "origine" e "destinazione"
+ \* Funzione - "DERIVO"  :  derivaz.riga esistente con pulizia campi "origine"
+ \* Funzione - "DERIVD"  :  derivaz.riga esistente con pulizia campi "destinazione"
 
 Tutte le funzioni possono essere richiamate con due metodi : 
- * Metodo   -  blanks   :  il record verrà scritto dal pgm chiamante
- * Metodo   - "WRI"     :  il record verrà scritto dalla funzione £GMZ
+ \* Metodo   -  blanks   :  il record verrà scritto dal pgm chiamante
+ \* Metodo   - "WRI"     :  il record verrà scritto dalla funzione £GMZ
 
 _2_Nota Bene : 
 Con la dicitura campi "origine" e "destinazione" si intendono i campi chiave corrispondenti a quelli del file GMQUAN0F (quattro campi chiave, piu' i campi del plant e del contenitore).
@@ -30,19 +30,19 @@ In dettaglio, si tratta dei seguenti campi :
 
 
 # Input
- * £GMZFU :  funzione
- * £GMZME :  metodo
- * £GMZNR :  numero di RdM. Se si sta creando una riga senza testata (funzione CLEARN), in questo campo deve essere indicato il tipo di richiesta (tabella GMO)
- * £GMZTR :  tipo RdM. Deve essere presente in tabella GMZ. Se è lasciato a blanks, si assume quello di dft specificato in tabella GMO.
- * GMRRIM :  record del GMRRIM0F :  se si sta usando una delle funzioni "DERIVx", deve essere il record origine da cui derivare quello nuovo
+ \* £GMZFU :  funzione
+ \* £GMZME :  metodo
+ \* £GMZNR :  numero di RdM. Se si sta creando una riga senza testata (funzione CLEARN), in questo campo deve essere indicato il tipo di richiesta (tabella GMO)
+ \* £GMZTR :  tipo RdM. Deve essere presente in tabella GMZ. Se è lasciato a blanks, si assume quello di dft specificato in tabella GMO.
+ \* GMRRIM :  record del GMRRIM0F :  se si sta usando una delle funzioni "DERIVx", deve essere il record origine da cui derivare quello nuovo
 
 # Output
- * GMRRIM :  record inizializzato della DS del record del GMRRIM0F
- * £GMZMS :  Codice messaggio
- * £GMZFI :  File messaggio
- * £GMZCM :  Ultimo comando
- * £GMZ35 :  Indicatore 35
- * £GMZ36 :  Indicatore 36
+ \* GMRRIM :  record inizializzato della DS del record del GMRRIM0F
+ \* £GMZMS :  Codice messaggio
+ \* £GMZFI :  File messaggio
+ \* £GMZCM :  Ultimo comando
+ \* £GMZ35 :  Indicatore 35
+ \* £GMZ36 :  Indicatore 36
 
 # Prerequisiti
 Definizione del record del file : 

@@ -8,22 +8,22 @@ Quando si sceglie un'opzione di manutenzione manuale, il sistema presenta lo sch
 ![MP_001_07](http://localhost:3000/immagini/MBDOC_OGG-P_MPGP01/MP_001_07.png)
 In modalità inserimento le colonne "Quantità" e Quantità Variazione" si presentano vuote e, man mano che vengono inserite le quantità nei campi di input, il sistema compila la colonna "Quantità Variazione".
 In funzione del valore del campo Variazione è possibile operare variazioni in modalità : 
- * __incremento__ (1), con cui le quantità inserite vengono sommate algebricamente alle quantità precedenti (è possibile inserire variazioni negative);
- * __sostituzione__ (2), con cui le quantità inserite sostituiscono quelle precedenti.
+ \* __incremento__ (1), con cui le quantità inserite vengono sommate algebricamente alle quantità precedenti (è possibile inserire variazioni negative);
+ \* __sostituzione__ (2), con cui le quantità inserite sostituiscono quelle precedenti.
 
 Possono essere inserite quantità giornaliere, settimanali o mensili, le cui variazioni vengono automaticamente distribuite sui giorni lavorativi.
 
 >N.B. :  se la periodicità del piano prevede solo periodi mensili, le quantità possono essere solo inserite a livello mensile e, ad ogni variazione, il sistema calcolerà e visualizzerà nel campo "Quantità Variazione" la nuova quantità (che sostituirà quella attuale della vista piano).
 Per registrare le variazioni inserite è necessario utilizzare il comando F6, oppure tornare allo schermo guida con il comando funzione F12.
 Utilizzando il campo opzione (colonna di sinistra), è possibile forzare, per i periodi selezionati, la quantità del piano di variazione a : 
- * zero con l'azione A = Azzera;
- * uguale alla quantità del piano di riferimento (quantità originale della vista piano) con l'azione R = Reinserimento.
+ \* zero con l'azione A = Azzera;
+ \* uguale alla quantità del piano di riferimento (quantità originale della vista piano) con l'azione R = Reinserimento.
 
 ![MP_001_08](http://localhost:3000/immagini/MBDOC_OGG-P_MPGP01/MP_001_08.png)
 Oltre alle classiche opzioni di gestione di Sme.up, ne esistono di specifiche sviluppate per MPS : 
- * Gestione in lista, che permette di inserire o modificare direttamente, a parità di codice 2, tutti i valori inseriti nei vari periodi per tutti i codici 1 della vista piano;
- * Analisi delta, che permette di confrontare una vista con un'altra a parità di codice 1 e codice 2;
- * Analisi grafica, che visualizza graficamente i valori presenti nella vista, segnalando i periodi in cui la quantità è massima e quelli in cui la quantità è minima.
+ \* Gestione in lista, che permette di inserire o modificare direttamente, a parità di codice 2, tutti i valori inseriti nei vari periodi per tutti i codici 1 della vista piano;
+ \* Analisi delta, che permette di confrontare una vista con un'altra a parità di codice 1 e codice 2;
+ \* Analisi grafica, che visualizza graficamente i valori presenti nella vista, segnalando i periodi in cui la quantità è massima e quelli in cui la quantità è minima.
 
 ## Gestione in Lista
 Quando si lancia la gestione in lista, fissato il "codice2" si presenta il seguente formato in cui viene presentata la lista seguente con tutti i codici 1 : 

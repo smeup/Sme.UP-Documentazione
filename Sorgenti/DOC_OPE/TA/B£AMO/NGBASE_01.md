@@ -34,20 +34,20 @@ Stampare il contenuto della griglia.
 ## Tasti Funzionali
 
 Le maschere delle funzioni di Negoziando riportano in basso dei tasti (più o meno standard per disposizione e utilizzo)
- * ESC= Indietro. In base alla finestra in cui ci si trova, il tasto permette di tornare alla maschera precedente, oppure di chiudere la finestra (come il tasto X in alto a destra)
- * INVIO= Modifica. Il tasto permette di modificare il record selezionato.Esistono alcuni vincoli, quindi potrebbe apparire un messaggio che inibisce la modifica (es. se il record è già stato elaborato,non sarà modificabile)
- * F4=Elimina. Permette di eliminare il Record selezionato. Anche in questo caso, non sempre i record sono cancellabili
- * F5=Visualizza. Il tasto permette di visualizzare i dettagli del record selezionato
- * F6=Inserisci. Con questo tasto è possibile inserire un nuovo record
- * F8=Ordina. Permette di ordinare la visualizzazione dei record contenuti in una determinata maschera secondo dei criteri prestabiliti
- * F9=Duplica. Permette la duplicazione del contenuto di un record, con l'attribuzione di un codice nuovo. Serve quindi per creare un nuovo record, che abbia lo stesso "contenuto" di un altro,ma differenziati per codice
+ \* ESC= Indietro. In base alla finestra in cui ci si trova, il tasto permette di tornare alla maschera precedente, oppure di chiudere la finestra (come il tasto X in alto a destra)
+ \* INVIO= Modifica. Il tasto permette di modificare il record selezionato.Esistono alcuni vincoli, quindi potrebbe apparire un messaggio che inibisce la modifica (es. se il record è già stato elaborato,non sarà modificabile)
+ \* F4=Elimina. Permette di eliminare il Record selezionato. Anche in questo caso, non sempre i record sono cancellabili
+ \* F5=Visualizza. Il tasto permette di visualizzare i dettagli del record selezionato
+ \* F6=Inserisci. Con questo tasto è possibile inserire un nuovo record
+ \* F8=Ordina. Permette di ordinare la visualizzazione dei record contenuti in una determinata maschera secondo dei criteri prestabiliti
+ \* F9=Duplica. Permette la duplicazione del contenuto di un record, con l'attribuzione di un codice nuovo. Serve quindi per creare un nuovo record, che abbia lo stesso "contenuto" di un altro,ma differenziati per codice
 
  :  :  T02 Descrizioni in Lingua e Filtri di Selezione
 
 In alcuni punti del programma, accanto a determinati campi, è possibile trovare un quadratino grigio che contiene tre puntini di spospensione. Questo simbolo può indicare : 
 
- * la possibilità di gestire la descrizione in lingua della descrizione che precede il quadratino (avendo prima codificato il codice Lingua nella Tabella LING - Codici Lingua).
- * la possibilità di creare delle liste di selezione, quindi di impostare un filtro, in alcuni campi di ricerca (es. nella Ricerca Articoli). Se si imposta un filtro, questo quadratino assumerà l'immagine classica del Filtro di Excel
+ \* la possibilità di gestire la descrizione in lingua della descrizione che precede il quadratino (avendo prima codificato il codice Lingua nella Tabella LING - Codici Lingua).
+ \* la possibilità di creare delle liste di selezione, quindi di impostare un filtro, in alcuni campi di ricerca (es. nella Ricerca Articoli). Se si imposta un filtro, questo quadratino assumerà l'immagine classica del Filtro di Excel
 
 ## ATTENZIONE : 
 L'applicazione è soggetta a continue revisioni e viene personalizzata secondo le esigenze di ogni singolo cliente. Le immagini visualizzate potrebbere non corrispondere alle vostre, ma le funzioni che richiamano sono invariate. L'aspetto estetico, la disposizione dei tasti funzione ed il flusso delle procedure potrebbero essere differenti da quelle descritte nel presente manuale.

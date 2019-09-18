@@ -19,49 +19,49 @@ Nella figura seguente si può vedere uno schema che esemplifica come il mondo Sm
 
 ![A£BASE_020](http://localhost:3000/immagini/A£BASE_SF/AXBASE_020.png)
 Gli ambienti supportati ad oggi [22/01/08] sono : 
- * ACG IBM 5.0 (EXT)
- * ACG IBM 7.0 (EXT)
- * ACG IBM Versione 1
- * ACG IBM Versione 2
- * ADB IBM
- * AGAS/GIPROS - THERA V2R1
- * APPL. SELTERING
- * Applicazioni CTS
- * Applicazioni SVIB
- * BITECH
- * Bpcs
- * DataSys
- * ECON
- * Europa di CSB
- * Galileo - SanMarco
- * GI.PRO.S APS - THERA
- * Gipros V1R6 (EXT)
- * GIPROS/36
- * Golden Lake
- * Gruppo PRO J
- * Ibimec
- * MAPICS - Rilascio 2
- * MAPICS - Rilascio 3
- * MAPICS - Rilascio 4
- * MAPICS versione XA
- * PACKMAN 2 - DATASYS
- * Primerose
- * Query / EURO
- * Query versione 3
- * Query versione 5
- * SAP R.3
- * SAXAP - IBM
- * SICON/CATA
- * SIGECO
- * SIPE
- * SME_up
- * SME_up /Release precedente
- * SME_up DEMO
- * SME_up/V2
- * SMEUP_ Q9000
- * Star
- * SYSTEL
- * Tecnest Flex
+ \* ACG IBM 5.0 (EXT)
+ \* ACG IBM 7.0 (EXT)
+ \* ACG IBM Versione 1
+ \* ACG IBM Versione 2
+ \* ADB IBM
+ \* AGAS/GIPROS - THERA V2R1
+ \* APPL. SELTERING
+ \* Applicazioni CTS
+ \* Applicazioni SVIB
+ \* BITECH
+ \* Bpcs
+ \* DataSys
+ \* ECON
+ \* Europa di CSB
+ \* Galileo - SanMarco
+ \* GI.PRO.S APS - THERA
+ \* Gipros V1R6 (EXT)
+ \* GIPROS/36
+ \* Golden Lake
+ \* Gruppo PRO J
+ \* Ibimec
+ \* MAPICS - Rilascio 2
+ \* MAPICS - Rilascio 3
+ \* MAPICS - Rilascio 4
+ \* MAPICS versione XA
+ \* PACKMAN 2 - DATASYS
+ \* Primerose
+ \* Query / EURO
+ \* Query versione 3
+ \* Query versione 5
+ \* SAP R.3
+ \* SAXAP - IBM
+ \* SICON/CATA
+ \* SIGECO
+ \* SIPE
+ \* SME_up
+ \* SME_up /Release precedente
+ \* SME_up DEMO
+ \* SME_up/V2
+ \* SMEUP_ Q9000
+ \* Star
+ \* SYSTEL
+ \* Tecnest Flex
 
 Un'architettura di questo genere ha l'indubbio vantaggio che, come nel caso presentato di seguito, alla nascita dell'esigenza d'interfacciamento con un nuovo driver, l'unico modulo da modificare  è il gestore delle interfacce. Infatti, qualunque sia la modalità di comunicazione con il nuovo driver, questa sarà trasparente a tutti i moduli, che parlano direttamente solo con il gestore delle interfacce. Grazie a questa architettura è possibile evitare la modifica di qualsiasi altro modulo, con un risparmio di tempo e risorse senza eguali.
 
@@ -76,7 +76,7 @@ Le righe visualizzate sono tutte e sole quelle definite nella tabella B£1. Il p
 **Interfaccia** :  Descrizione dell'interfaccia definita per la tabella B£1
 **Applicazione** :  Codice dell'applicazione.
 **AP**Tale codice può essere associato mediante la B£1 a  due diverse tabelle : 
- 1.   Tabella *CNAA :  Solo descrittivo, il campo tipo oggetto si presenta con inversione di fondo. Sono possibili le normali interrogazioni ma non i controlli.
+ 1.   Tabella \*CNAA :  Solo descrittivo, il campo tipo oggetto si presenta con inversione di fondo. Sono possibili le normali interrogazioni ma non i controlli.
  2.   Tabella B£Vxx (xx=tipo oggetto) :  Oltre alle normali interrogazioni è possibile inserire il carattere "/". In tal caso si presenta un formato di dettaglio che visualizza tutte le interfacce descritte per l'oggetto permettendo la selezione delle sole interfacce che non presentano errori, cioè per le quali è soddisfatta la disponibilità di file e programmi descritti nella specifica tabella.
 
 ### Tasti funzionali
@@ -85,7 +85,7 @@ Esegue per tutte le interfacce descritte in tabella B£V la verifica sopra descr
 
 ## Tabelle collegate
 B£1   - Personalizzazione
-*CNAA - Codici ambiente applicativo *CNTT - Codici oggetti applicativi
+\*CNAA - Codici ambiente applicativo \*CNTT - Codici oggetti applicativi
 B£Vxx - Dettaglio interfacce applicative
 
 un'altra scheda rilevante è TA _B£I

@@ -10,31 +10,31 @@ Per una panoramica completa sui prerequisiti e sulla configurazione dei client e
 
 ## PREREQUISITI FONDAMENTALI
 
- * SO Domain controller Windows Server 2003 o superiore
- * Livello funzionale minimo del domino e della foresta Active Directory minimi :  Windows Server 2003
- * Tutti i client devono essere correttamente uniti al dominio Active Directory in questione.
- * Tutti i client interessati alla funzionalità devono essere Windows 2000 Professional o superiori. Non sono ammesse licenze Home o Home Premium in quanto non unibili all'Active Directory
- * Tutti i client devono aver installato Client Access 5.3 o superiore nel caso di Windows 2000 o XP e Client Access 5.8 o superiori per Vista e Windows 7.
- * L'accesso all'iSeries in SSO tramite un'emulazione telnet 5250 / mocha è non è possibile in quanto ad oggi non supportano SSO.
- * La tabella host del client NON deve contenere riferimenti alla risorsa a cui si vuole accedere (System-i, ecc) in quanto SSO utilizza anche il DNS diretto e inverso per la verifica del ticket di autenticazione.
- * Per poter utilizzare Loocup con accesso in SSO deve essere abilitato il supporto Kerberos. Per ogni client (o tramite policy di dominio) va impostata una chiave nel registro di windows. Vedere l'appendice A per i dettagli.
- * Per poter utilizzare il CA in windows 7 va abilitata la opportuna codifica del ticket. Vedere l'appendice B per i dettagli.
+ \* SO Domain controller Windows Server 2003 o superiore
+ \* Livello funzionale minimo del domino e della foresta Active Directory minimi :  Windows Server 2003
+ \* Tutti i client devono essere correttamente uniti al dominio Active Directory in questione.
+ \* Tutti i client interessati alla funzionalità devono essere Windows 2000 Professional o superiori. Non sono ammesse licenze Home o Home Premium in quanto non unibili all'Active Directory
+ \* Tutti i client devono aver installato Client Access 5.3 o superiore nel caso di Windows 2000 o XP e Client Access 5.8 o superiori per Vista e Windows 7.
+ \* L'accesso all'iSeries in SSO tramite un'emulazione telnet 5250 / mocha è non è possibile in quanto ad oggi non supportano SSO.
+ \* La tabella host del client NON deve contenere riferimenti alla risorsa a cui si vuole accedere (System-i, ecc) in quanto SSO utilizza anche il DNS diretto e inverso per la verifica del ticket di autenticazione.
+ \* Per poter utilizzare Loocup con accesso in SSO deve essere abilitato il supporto Kerberos. Per ogni client (o tramite policy di dominio) va impostata una chiave nel registro di windows. Vedere l'appendice A per i dettagli.
+ \* Per poter utilizzare il CA in windows 7 va abilitata la opportuna codifica del ticket. Vedere l'appendice B per i dettagli.
 
 
 ## Prerequisiti Operativi
 
- * Record Host A relativo al sistema AS400 correttamente registrato nella zona di ricerca diretta (Forward Lookup) con il seguente schema :  <hostname AS400>.<AD domain>.<TLD> (es. :  as400.azienda.local)
- * Puntatore PTR relativo al sistema AS400 correttamente configurato nella zona di ricerca inversa (Reverse Lookup)
- * Sui Domain Controller Windows Server 2003, installare i Support Tools per poter utilizzare il comando KTPASS
+ \* Record Host A relativo al sistema AS400 correttamente registrato nella zona di ricerca diretta (Forward Lookup) con il seguente schema :  <hostname AS400>.<AD domain>.<TLD> (es. :  as400.azienda.local)
+ \* Puntatore PTR relativo al sistema AS400 correttamente configurato nella zona di ricerca inversa (Reverse Lookup)
+ \* Sui Domain Controller Windows Server 2003, installare i Support Tools per poter utilizzare il comando KTPASS
 
 ## Limiti
- * Non sono stati compiuti test con client Linux.
- * Da verificare ulteriormente la compatibilità in ambienti cross-domain, quelli in cui cioè client appartenenti a più domini Windows accedono allo stesso sistema AS400.
- * Per abilitare Loocup all'accesso in SSO è necessario impostare su ogni client una chiave di registro (manualmente o via Group Policies).
+ \* Non sono stati compiuti test con client Linux.
+ \* Da verificare ulteriormente la compatibilità in ambienti cross-domain, quelli in cui cioè client appartenenti a più domini Windows accedono allo stesso sistema AS400.
+ \* Per abilitare Loocup all'accesso in SSO è necessario impostare su ogni client una chiave di registro (manualmente o via Group Policies).
 
 ## Fase Operativa
- * Creare, sul server DNS primario utilizzato da Active Directory, i corretti record come da prerequisiti.
- * Creare nel dominio Active Directory un utente per la funzione di passaggio Kerberos. Questa operazione può essere automatizzata :  l'Operation Navigator è in grado di creare un file di configurazione in modo automatico.
+ \* Creare, sul server DNS primario utilizzato da Active Directory, i corretti record come da prerequisiti.
+ \* Creare nel dominio Active Directory un utente per la funzione di passaggio Kerberos. Questa operazione può essere automatizzata :  l'Operation Navigator è in grado di creare un file di configurazione in modo automatico.
 
 ### Creazione utenti del DC
 Per automatizzare la creazione degli utenti di dominio necessari al dialogo iSeries - DC, fare riferimento al documento **Configurazione iSeries**
@@ -47,18 +47,18 @@ Per automatizzare la creazione degli utenti di dominio necessari al dialogo iSer
 
 ## Installazione con Citrix
 lo scenario e la configurazione è identica a quella di un personal computer, pertanto : 
- * Se il server ha Windows 2003, la configurazione di Citrix equivale a quella di un PC con Windows XP.
- * Se il server ha Windows 2008, la configurazione di Citrix equivale a quella di un PC con Windows 7.
+ \* Se il server ha Windows 2003, la configurazione di Citrix equivale a quella di un PC con Windows XP.
+ \* Se il server ha Windows 2008, la configurazione di Citrix equivale a quella di un PC con Windows 7.
 
 Durante la configurazione di SSO, va posta attenzione a quanti server sono disponibili :  è molto probabile che sia indispensabile poter disporre di due o più pubblicazioni distinte della stessa applicazione configurata opportunamente.
 Anche in questo caso è importantissimo che il Dominio funzioni a dovere, compresa la distribuzione delle Policy di Gruppo.
 
 ## Possibili problematiche
 Alcuni casi di malfunzionamenti : 
- * Indisponibilità di AD
- * Errore nel protocollo NTP
- * Non corretta distribuzione delle Policy di Windows (può succedere specialmente con Windows 7)
- * Caduta del servizio TIVOLI su AS400, può avvenire se una PTF di sistema operativa non viene caricata nel modo corretto
+ \* Indisponibilità di AD
+ \* Errore nel protocollo NTP
+ \* Non corretta distribuzione delle Policy di Windows (può succedere specialmente con Windows 7)
+ \* Caduta del servizio TIVOLI su AS400, può avvenire se una PTF di sistema operativa non viene caricata nel modo corretto
 
 
 ## Appendice A - Abilitazione del supporto kerberos

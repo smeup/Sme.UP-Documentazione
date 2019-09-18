@@ -8,11 +8,11 @@ All'interno del formato lista è possibile visualizzare l'elenco delle presentaz
 Per ogni presentazione sono riportate le seguenti informazioni : 
 
 ![C5C090_011](http://localhost:3000/immagini/MBDOC_OGG-P_C5IS90AA/C5C090_011.png)
- * Tipo trasmissione (Acquisti o Cessioni)
- * Anno e Mese della presentazione
- * Data presentazione
- * Numero protocollo
- * Numero dischetto
+ \* Tipo trasmissione (Acquisti o Cessioni)
+ \* Anno e Mese della presentazione
+ \* Data presentazione
+ \* Numero protocollo
+ \* Numero dischetto
 
 E' da sottolineare che la data presentazione e il numero dischetto vengono memorizzati nel momento in cui viene eseguita la trasmissione definitiva per il periodo. Il numero protocollo doganale, invece, deve essere manutenuto manualmente.
 
@@ -25,8 +25,8 @@ Per ciascun record del formato lista è disponibile l'opzione 02 di modifica che
 Il dettaglio di u record riporta le seguenti informazioni : 
 
 ![C5C090_012](http://localhost:3000/immagini/MBDOC_OGG-P_C5IS90AA/C5C090_012.png)
- * Periodo di riferimento della trasmissione (non modificabile)
- * Tipo di movimentazione (non modificabile)
- * Data di presentazione
- * Numero Protocollo
- * Numero dischetto
+ \* Periodo di riferimento della trasmissione (non modificabile)
+ \* Tipo di movimentazione (non modificabile)
+ \* Data di presentazione
+ \* Numero Protocollo
+ \* Numero dischetto

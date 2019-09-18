@@ -6,8 +6,8 @@ Dal punto di vista applicativo il programma fornisce un supporto alla gestione d
 
 ## Formato controllo valutazioni
 ![CQ_VEND_20](http://localhost:3000/immagini/MBDOC_OGG-P_CQVR80/CQ_VEND_20.png)
- * se compare in visualizzazione il periodo (es. 2005) implica che per il fornitore 'xyz' sono stati inseriti gli indici dinamici e gli indici statici.
- * se non compare in visualizzazione il periodo  implica che per il fornitore 'xyz' sono stati calcolati gli indici dinamici ma non sono stati inseriti gli indici statici.
- * se compare il periodo in reverse significa che ci potrebbero essere per il fornitore 'xyz' le valutazioni statiche relative ad un'altro periodo e le valutazioni dinamiche relative al periodo in analisi
- * le opzioni presenti permettono di inserire, modificare le valutazioni statiche.
+ \* se compare in visualizzazione il periodo (es. 2005) implica che per il fornitore 'xyz' sono stati inseriti gli indici dinamici e gli indici statici.
+ \* se non compare in visualizzazione il periodo  implica che per il fornitore 'xyz' sono stati calcolati gli indici dinamici ma non sono stati inseriti gli indici statici.
+ \* se compare il periodo in reverse significa che ci potrebbero essere per il fornitore 'xyz' le valutazioni statiche relative ad un'altro periodo e le valutazioni dinamiche relative al periodo in analisi
+ \* le opzioni presenti permettono di inserire, modificare le valutazioni statiche.
 

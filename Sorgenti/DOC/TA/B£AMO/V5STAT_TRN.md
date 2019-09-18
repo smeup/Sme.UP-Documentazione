@@ -5,8 +5,8 @@
 02. Dopo aver impostato il filtro, è possibile interrogare la scheda per "Andamento nel tempo" > "Importo netto".
 
 03. Una volta entrati è possibile scegliere il tipo di valore della vista che si vuole visualizzare, in questo caso l' "Importo netto" e quindi impostare il resto delle condizioni di interrogazione in questo modo : 
- * come parametro verticale :  anno
- * come parametro orizzontale :  trimeste
+ \* come parametro verticale :  anno
+ \* come parametro orizzontale :  trimeste
 
 04. Selezionando come "Valore" l'"Aumento - percentuale su precedente - Importo netto" otteniamo le variazioni percentuali : 
 
@@ -18,9 +18,9 @@
  :  : ATT Cod(MAR) Txt(Visualizzare i margini per provincia / classe contabile articolo)
 01. Per analizzare il margine l'interrogazione più appropriata è :  "Analisi tabellare" per "Articolo/Ente".
 Si impostino i seguenti parametri
- * Valore :  margine
- * Verticale :  cliente - provincia
- * Orizzontale :  articolo - classe contabile
+ \* Valore :  margine
+ \* Verticale :  cliente - provincia
+ \* Orizzontale :  articolo - classe contabile
 
  :  : ATT Cod(REG) Txt(Controlla la registrazione cui appartiene la riga con massimo importo negativo nel 2010)
 01. Impostiamo il filtro per esercizio di competenza = 2010.

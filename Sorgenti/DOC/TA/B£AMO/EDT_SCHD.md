@@ -1,8 +1,8 @@
 Le istruzioni di tipo "D" indicano alla scheda come riempire le sezioni, cioè forniscono i dati veri e propri che verranno visualizzati nella scheda.
 
 Concettualmente si dividono in due categorie : 
- * Chiamate a programmi esterni :  l'XML dei dati viene restituito da un programma esterno
- * Fornitori di dati interni alla scheda :  l'XML viene costruito una volta per tutte alla prima visualizzazione della scheda dal servizio della scheda stessa.
+ \* Chiamate a programmi esterni :  l'XML dei dati viene restituito da un programma esterno
+ \* Fornitori di dati interni alla scheda :  l'XML viene costruito una volta per tutte alla prima visualizzazione della scheda dal servizio della scheda stessa.
 
 Le chiamate a programmi esterni possono essere variabili in funzione ad azioni effettuate dall'utente dopo la prima visualizzazione della scheda (ad esempio la scelta dell'elemento di un albero). Dopo ogni azione è possibile richiamare il servizio, cambiandone i parametri di ingresso.
 I fornitori di dati interni, invece, creano l'XML una volta sola al momento della costruzione della scheda :  non è possibile condizionarli con variabili scelte dall'utente.
@@ -15,8 +15,8 @@ Si veda anche :
 Definisce una chiamata a un servizio secondo le modalità standard di Looc.up.
 
 ### Metodi ammessi
- * STD Standard (vedere il Set'n'Play UP SER per la costruzione)
- * Formato XML valido (qualsiasi, purchè compatibile con il tipo di subsezione come specificato nella documentazione delle subsezioni)
+ \* STD Standard (vedere il Set'n'Play UP SER per la costruzione)
+ \* Formato XML valido (qualsiasi, purchè compatibile con il tipo di subsezione come specificato nella documentazione delle subsezioni)
 Si veda anche : 
 - [Caratteri non validi nelle password lunghe](Sorgenti/DOC/TA/B£AMO/LOBASE_05)
 
@@ -36,18 +36,18 @@ Presenta l'immagine dell'oggetto definito
 >N.B. :  solo immagini di tipo JPG!!!
 
 Metodi ammessi
- * OGG Dell'oggetto
- * OG2 Percorso da tabella B§D
- * ATR Di un attributo dell'oggetto
+ \* OGG Dell'oggetto
+ \* OG2 Percorso da tabella B§D
+ \* ATR Di un attributo dell'oggetto
 
 ## D.LAB - Label
 Presenta una scritta
 
 Metodi ammessi
- * STD Standard (come oggetto)
+ \* STD Standard (come oggetto)
 
 Formato XML valido
- * Una riga di albero
+ \* Una riga di albero
 Esempio :   < Oggetto Tipo="AR" Parametro="" Codice="A01" Testo=""/ > (senza spazio dopo il '<' e prima del '>')
 
 ## D.OGG - Oggetto

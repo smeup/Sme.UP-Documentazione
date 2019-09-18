@@ -14,11 +14,11 @@ Normale**grassetto**normale
 
 ### Elenchi puntati
 
-* aaaa
-* bbbbbb
-** bbbbb1111
-** bbbbb2222
-* cccccc
+\* aaaa
+\* bbbbbb
+\*\* bbbbb1111
+\*\* bbbbb2222
+\* cccccc
 
 ### Tabelle
 
@@ -34,6 +34,6 @@ Normale**grassetto**normale
 ### Link ad altri documenti o oggetti Smeup
 
 - [Documentazione PHIIOT](Sorgenti/DOC/TA/B£AMO/PHIIOT)
- :  : DEC T(TA) P(PH1) K(*)
+ :  : DEC T(TA) P(PH1) K(\*)
 
 

@@ -9,11 +9,11 @@ Perchè LaTeX separa il contenuto dalla formattazione, e consente di ottenere do
 Un documento LaTeX sarà costituito pertanto dal testo e da direttive che specificano la formattazione.
 Le specifiche di formattazione sono raggruppate in classi e ne sono state sviluppate di vario tipo in funzione della destinazione.
 Ci sono così classi per : 
- * realizzare libri
- * articoli, soprattutto scientifici
- * lettere
- * report
- * creare presentazioni (con Beamer si raggiunge una elevata qualità)
+ \* realizzare libri
+ \* articoli, soprattutto scientifici
+ \* lettere
+ \* report
+ \* creare presentazioni (con Beamer si raggiunge una elevata qualità)
 
 # Come lo usiamo in SmeUp
 Con l'avvento di LoocUp grossa parte della documentazione è stata scritta impiegando una sintassi definita ad HOC, basata in parte su quella della documentazione attiva.

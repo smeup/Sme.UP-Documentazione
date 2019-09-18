@@ -19,7 +19,7 @@ La "vista" è ciò che stiamo trattando, ossia il set di dati che ci interessa g
 Quindi, possiamo avere la vista delle previsioni per cliente, del venduto per cliente, del consegnato per fornitore, del prodotto per articolo, ecc...
 Tutte le viste possono appartenere a qualsiasi piano e, in effetti, esse rappresentano una "visione" particolare dei dati del piano.
 La vista si definisce nella tabella MPC, in cui è possibile definirne le chiavi.
-Esse possono essere una o due e sono oggetti applicativi, ossia appartenenti alla tabella *CNTT.
+Esse possono essere una o due e sono oggetti applicativi, ossia appartenenti alla tabella \*CNTT.
 
 ![MP_001_04](http://localhost:3000/immagini/MPP_01/MP_001_04.png)
 >N.B.** :  **la Vista di seguito riportata ha la gestione dei dati decimali impostata. Questo significa che in visualizzazione dei dati si vede un decimale. Tuttavia, anche le viste che non hanno la gestione dati decimali impostata hanno i dati registrati con la parte decimale (2 posizioni), ma non viene visualizzata.
@@ -31,8 +31,8 @@ La periodicità è la possibilità di "mettere le tacche sulla linea del tempo",
 Naturalmente è un elemento di tabella (MPC) che mostriamo qui di seguito con un esempio.
 
 ![MP_001_02](http://localhost:3000/immagini/MPP_01/MP_001_02.png)
-**In questo elemento di tabella MPC, si è deciso di costruire una periodicità di 20 giorni, 13 settimane e 9 mesi, quindi il piano avrà 20+13+9 = 42 colonne (periodi). È importante notare che, se la data di inizio piano è un lunedì e la settimana tipica della risorsa CDL ** è di 5 giorni (dal lunedì al venerdì), i primi venti giorni del piano saranno esattamente le prime 4 settimane, per cui la costruzione del 21° periodo sarà una settimana esatta. Se invece la giornata di inizio piano fosse un mercoledì, allora la costruzione del 21° periodo dipenderebbe dal contenuto del campo "Flag giorni".
-Se in quest'ultimo è contenuto il valore "-", allora vengono cancellati gli ultimi periodi fino a saldarsi con un possibile inizio settimana (il primo giorno lavorativo della settimana della risorsa CDL **).
+**In questo elemento di tabella MPC, si è deciso di costruire una periodicità di 20 giorni, 13 settimane e 9 mesi, quindi il piano avrà 20+13+9 = 42 colonne (periodi). È importante notare che, se la data di inizio piano è un lunedì e la settimana tipica della risorsa CDL \*\* è di 5 giorni (dal lunedì al venerdì), i primi venti giorni del piano saranno esattamente le prime 4 settimane, per cui la costruzione del 21° periodo sarà una settimana esatta. Se invece la giornata di inizio piano fosse un mercoledì, allora la costruzione del 21° periodo dipenderebbe dal contenuto del campo "Flag giorni".
+Se in quest'ultimo è contenuto il valore "-", allora vengono cancellati gli ultimi periodi fino a saldarsi con un possibile inizio settimana (il primo giorno lavorativo della settimana della risorsa CDL \*\*).
 Quindi, nel caso in considerazione, sarebbero cancellati il martedì e il lunedì ultimi, proponendo un periodo settimanale che comicia di lunedì. Se invece il contenuto di "Flag giorni" è "+", allora verranno aggiunti periodi giornalieri fino a saldarsi con un inizio settimana :  sarebbero aggiunti il mercoledì, il giovedì e il venerdì. Se nel campo "Flag giorni" c'è un Blank, per default il programma di costruzione periodi si comporta come se ci fosse un "+". Analogamente, vengono trattati il "Flag settimane" e il "Flag mesi" (in questo caso si salda sull'anno), risolvendo il problema delle saldature tra periodi di diversa unità di misura.
 
 # Raggruppamenti di periodi
@@ -70,7 +70,7 @@ dai documenti esterni, come il fatturato o gli ordini di produzione. Elenchiamo 
 - Da altro Piano/Vista
 - Da analisi disponibilità
 - Da movimenti di magazzino
-- Da piani diversi in base a data *
+- Da piani diversi in base a data \*
 
 ### 2) Azioni di creazione /cancellazione piani
 Queste azioni creano i piani, li cancellano o li stampano.
@@ -112,35 +112,35 @@ Gestione
 Manutenzione dei dati
 
 ### Funzioni su una riga del piano
- * Analisi grafica del contenuto
- * Trasferimento a foglio elettronico
- * Gestione
- * Analisi grafica
- * Confronto con altre righe
- * Selezione delle righe di piano secondo criteri di valore
- ** Compresi tra limiti
- * Selezione secondo criteri di sequenze di valori
- * Analisi grafica valori di una riga
- * Analisi statistica dei valori
- ** medie
- ** deviazioni
- ** massimi e minimi
- * Analisi di singole righe dei piani
- ** Con viste collegate
- ** Confrontate algebricamente con altre viste
- * Totalizzazione per riga/colonna
- * Verifica delle capacità aziendali
- * Risorse primarie
- ** carico macchine
- ** carico uomini
- ** Fabbisogni materiali
- * Risorse secondarie
- ** volumi
- ** contenitori
- ** mezzi di trasporto
- ** energia
- ** materiali di consumo
- ** attrezzi
+ \* Analisi grafica del contenuto
+ \* Trasferimento a foglio elettronico
+ \* Gestione
+ \* Analisi grafica
+ \* Confronto con altre righe
+ \* Selezione delle righe di piano secondo criteri di valore
+ \*\* Compresi tra limiti
+ \* Selezione secondo criteri di sequenze di valori
+ \* Analisi grafica valori di una riga
+ \* Analisi statistica dei valori
+ \*\* medie
+ \*\* deviazioni
+ \*\* massimi e minimi
+ \* Analisi di singole righe dei piani
+ \*\* Con viste collegate
+ \*\* Confrontate algebricamente con altre viste
+ \* Totalizzazione per riga/colonna
+ \* Verifica delle capacità aziendali
+ \* Risorse primarie
+ \*\* carico macchine
+ \*\* carico uomini
+ \*\* Fabbisogni materiali
+ \* Risorse secondarie
+ \*\* volumi
+ \*\* contenitori
+ \*\* mezzi di trasporto
+ \*\* energia
+ \*\* materiali di consumo
+ \*\* attrezzi
 
 # Stampa piani
 La stampa del piano permette di stampare le viste piano singolarmente, oppure confrontate con una o diverse altre, applicando anche un operatore di confronto.

@@ -14,7 +14,7 @@ Il file D5NUOG0F è un file dove sono depositati i numeri degli oggetti
 
 ## Documentazione file
 Vedi la scheda dell'oggetto File.
- :  : DEC T(OJ) P(*FILE) K(V5STAT0F)
+ :  : DEC T(OJ) P(\*FILE) K(V5STAT0F)
 
 ## Analisi dei numeri
 Una struttura di schede LOOC UP fornisce già gli strumenti di base per la sua analisi.

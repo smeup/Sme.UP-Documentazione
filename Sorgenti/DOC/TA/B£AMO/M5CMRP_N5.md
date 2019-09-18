@@ -1,13 +1,13 @@
 ## Struttura tecnica MRP
 L'MRP, per ogni articolo, riempie i'archivio dei suggerimenti
- :  : DEC T(OJ) P(*FILE) K(M5CONS0F)
+ :  : DEC T(OJ) P(\*FILE) K(M5CONS0F)
 con le informazioni ottenute dalla scansioni disponibilità (fonti rilasciate) e le completa con la scrittura di nuove informazioni (fonti pianificate di ordini e impegni) e l'aggiornamento delle fonti precedenti (suggerimenti di modifica alle fonti rilasciate).
 
 ##  Introduzione
 La "colonna vertebrale" dell'MRP, che guida l'esecuzione della pianificazione di ogni singolo codice, con la corretta sequenza, è il programma
- :  : DEC T(OJ) P(*PGM) K(M5MRP0A)
+ :  : DEC T(OJ) P(\*PGM) K(M5MRP0A)
 che riceve le impostazioni dal programma di guida
- :  : DEC T(OJ) P(*PGM) K(M5MRP0G)
+ :  : DEC T(OJ) P(\*PGM) K(M5MRP0G)
 
 ## Impostazioni generali
 L'MRP può essere eseguito totalmente o per un singolo articolo, una lista di articoli o una commessa.
@@ -34,7 +34,7 @@ Si pulisce l'archivio (tutto o selettivamente, in base al fatto che la pianifica
 Se impostato in M51 si ricalcola il livello minimo di distinta
 Si lanciano i flussi PRE.
 Si scandisce l'archivio contenente i livelli minimi
- :  : DEC T(OJ) P(*FILE) K(BRARDT0F)
+ :  : DEC T(OJ) P(\*FILE) K(BRARDT0F)
 e si pianificano, in sequenza, tutti i record trovati (con eventuale inclusione / esclusione di fittizi e codici a punto di riordino, in base a quanto impostato nel lancio).
 Se non è stato calcolato il livello minimo di distinta, successivcamnente si scandisce l'anagrafica articoli, e si pianificano i codici non presenti nell'archivio del livello minimo. Questo si rende necessario in quanto la mancata ricostruzione del livello minimo sta a significare che si mantengono i valori determinatri durante la manutenzione della distinta base. Eventuali codici non presenti in distinta, di pura commercializzazione (acquistati e venduti) non sono quindi presenti nemmeno nell'archivio del livello minimo, e quindi non verrebbero trattati dalla pianificazione. Il ricalcolo di massa del livello minimo registra invece nell'archivio tutti i codici, eventualmente con livello minimo pari a zero (che è il caso degli articoli di commercializzazione), e qundi rende superfluo il secondo giro di scansione degli articoli.
 Si eseguono i flussi POST.
@@ -56,7 +56,7 @@ Questa modalità di pianificazione di un plant alla volta potrà permettere, in 
 
 ## Struttura tecnica esecuzione MRP
 Viene prima lanciato il programma
- :  : DEC T(OJ) P(*PGM) K(M5M5R0I)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5R0I)
 che esegue la scansione disponibilità, scrive i record rilasciati e prepara le schiere per il calcolo
 Viene poi eseguita la routine di calcolo
  :  : DEC T(MB) P(QILEGEN) K(£M5R)
@@ -67,9 +67,9 @@ e la routine
  :  : DEC T(MB) P(QILEGEN) K(£M5W)
 che scrive gli impegni pianificati scandendo la distinta base.
 Sono presenti inoltre i programmi di servizio (lanciati anch'essi dall'interno dell'MRP)
- :  : DEC T(OJ) P(*PGM) K(M5M5R0C)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5R0C)
 che esegue la modifica agli ordini in corso e calcola i ragguppamenti dei fabbisogni (sia in termine di quantità sia di data massima)
- :  : DEC T(OJ) P(*PGM) K(M5M5R0K)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5R0K)
 che calcola la classe di copertura
 
 ## Schiere dell'MRP

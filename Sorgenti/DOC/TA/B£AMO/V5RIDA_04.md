@@ -15,7 +15,7 @@ Ad ogni passaggio di luogo viene inviata una mail al destinatario dell'impegno c
 Per ogni transizione sono attivi gli utenti di Back up e  l'annullamento della dichiarazione..
 Ad ogni transizione viene modificato lo stato del documento RA, secondo la tabella stati
 
- :  : DEC T(LI) P(TAB£WRA) K(*) R(1)
+ :  : DEC T(LI) P(TAB£WRA) K(\*) R(1)
 ## Punti importanti della gestione.
 
 Il documento di tipo RA si intesta all'azienda; sul dettaglio di riga c'è l'indicazione del fornitore da cui si pensa di acquistare.

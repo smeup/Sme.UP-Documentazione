@@ -17,7 +17,7 @@ Solo per i messaggi di tipo <> DA 'C', imposta in che modo scrivere gli eventi.
 Esistono 3 modalità : 
 - ' ' non verrà scritto alcun evento;
 - 'C' verrà scritto un evento ad ogni richiamo della routine £JAC;
-- 'R' verranno raggruppati ed interpretati i richiami della routine £JAC * IN SVILUPPO **;
+- 'R' verranno raggruppati ed interpretati i richiami della routine £JAC \* IN SVILUPPO \*\*;
  :  : FLD T$JAL4 __Modalità coll__
 Per gli elementi di tipo collegamento (T$JAL2='C'). Definisce se si sta scrivendo un record di webup o di loocup : 
 - W = WEBUP

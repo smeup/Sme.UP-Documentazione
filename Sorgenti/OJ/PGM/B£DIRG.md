@@ -7,8 +7,8 @@ Un esempio può essere quando abbiamo un certo numero di operai che lavorano su 
 La funzione viene lanciata da formato seguente : 
 
 ![B£DIRG_01](http://localhost:3000/immagini/MBDOC_OGG-P_B£DIRG/BXDIRG_01.png)
- * **Tipo risorsa**, è un elemento della tabella TRG, il tipo risorsa deve prevedere lo sviluppo per squadre (campo di TRG)
- * **Tipo oggetto**, può essere una data specifica (quando vogliamo gestire il numero di risorse della squadra in un particolare giorno), un giorno della settimana (es. Martedì) quando vogliamo gestire il numero risorse di uno specifico giorno della settimana, "**" quando vogliamo gestiore il numero risorse valido per tutti i giorni (default)
+ \* **Tipo risorsa**, è un elemento della tabella TRG, il tipo risorsa deve prevedere lo sviluppo per squadre (campo di TRG)
+ \* **Tipo oggetto**, può essere una data specifica (quando vogliamo gestire il numero di risorse della squadra in un particolare giorno), un giorno della settimana (es. Martedì) quando vogliamo gestire il numero risorse di uno specifico giorno della settimana, "\*\*" quando vogliamo gestiore il numero risorse valido per tutti i giorni (default)
 
 # Formato dettaglio
 

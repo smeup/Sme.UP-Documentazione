@@ -35,13 +35,13 @@ Con la scelta di consultazione di dettaglio viene costruita una riga contenente 
 ## Consultazione non conformità per analisi difetti e costi ricorrente (esempio a 2 livelli)
 ![CQ_PARE_06](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_06.png)
 Per ognuna delle non conformità riportate è prevista una serie di opzioni tra cui la consultazione delle registrazioni effettuate tramite il modulo di gestione; il programma permette quindi di recuperare tutte le informazioni relative alla non conformità tra cui : 
- * azioni intraprese per risolvere il problema;
- * gli esiti di tali azioni;
- * quantità coinvolte;
- * i costi comportati dalla non conformità;
- * i responsabili;
- * il lotto di appartenenza della caratteristica su cui è stata rilevata la non conformità;
- * le note che sono state allegate durante la gestione delle non conformità;
+ \* azioni intraprese per risolvere il problema;
+ \* gli esiti di tali azioni;
+ \* quantità coinvolte;
+ \* i costi comportati dalla non conformità;
+ \* i responsabili;
+ \* il lotto di appartenenza della caratteristica su cui è stata rilevata la non conformità;
+ \* le note che sono state allegate durante la gestione delle non conformità;
 
 Per un codice di difetto è possibile consultare tutti i lotti responsabili ed apparenti delle non conformità oltre che le non conformità per quei lotti.
 

@@ -3,18 +3,18 @@
 L'editor di Loocup ha il compito di permettere l'editazione di tutte le parti testuali dello Sme.up. A tale scopo mette a disposizione le principali funzioni di editing e di ricerca nel testo presenti negli altri editor. Eccezion fatta per la gestione delle note strutturate, l'editor mette a disposizione una visualizzazione coadiuvata dall'evidenziazione dei comandi (hilight) e di uno strumento di aiuto alla composizione  sintattica delle specifiche (wizard).
 Ogni pannello di testo aperto riporta una etichetta che identifica il file che si sta editando :  se il pannello è aperto in scrittura l'etichetta avrà scritta blu, se il testo è in sola lettura l'etichetta avrà la scritta rossa. Inoltre ad indicare la modalità sola lettura del testo c'è una bordatura blu attorno all'area di visualizzazione del testo.
 La finestra di Text editor è costituita da : 
- * una menu bar di due colori :  le voci nere sono le voci di menù generali di Loocup, mentre le voci di menù azzurre sono caratteristiche dell'editor;
- * una tool bar superiore coni bottoni per l'utilizzo rapido di alcune funzioni principali dell'editor :  il salvataggio, l'undo/redo e copia/taglia/incolla;
- * tool bar inferiore, posta alla base della finestra dell'editor, con bottoni che forniscono svariate funzioni : 
- ** nella parte sinistra sono riportate tutte le funzioni associate a tasti funzione attivi nell'editor;
- ** nella parte destra sono disponibili alcune funzioni speciali che verranno spiegate più avanti.
+ \* una menu bar di due colori :  le voci nere sono le voci di menù generali di Loocup, mentre le voci di menù azzurre sono caratteristiche dell'editor;
+ \* una tool bar superiore coni bottoni per l'utilizzo rapido di alcune funzioni principali dell'editor :  il salvataggio, l'undo/redo e copia/taglia/incolla;
+ \* tool bar inferiore, posta alla base della finestra dell'editor, con bottoni che forniscono svariate funzioni : 
+ \*\* nella parte sinistra sono riportate tutte le funzioni associate a tasti funzione attivi nell'editor;
+ \*\* nella parte destra sono disponibili alcune funzioni speciali che verranno spiegate più avanti.
 
 # Operazioni del text editor
 Possiamo suddividere le funzionalità dell'editor di testi in due gruppi :  quelle comuni a tutti i tipi di testo e quelle dipendenti dal tipo di testo che si sta gestendo.
 Le funzioni specifiche sono
- * Funzioni di visualizzazione
- * Compila
- * Wizard
+ \* Funzioni di visualizzazione
+ \* Compila
+ \* Wizard
 Le funzioni specifiche sono attivate automaticamente :  il componente aggiungerà dei pulsanti appositi nella barra in basso.
 
 ## Funzioni di editing
@@ -60,8 +60,8 @@ Non implementata
 - Salva con Nome :     F6
 - Salva :     F7
 - Elimina :     F8
-- Compila :     F9 (*)
+- Compila :     F9 (\*)
 - Esamina/Copia :     F15
-- Richiamo Wizard :     CTRL+W (*)
-- Preview :     CTRL+P (*)
+- Richiamo Wizard :     CTRL+W (\*)
+- Preview :     CTRL+P (\*)
 

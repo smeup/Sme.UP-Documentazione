@@ -20,4 +20,4 @@ Lo script può essere compilato con i tag E.PRO, E.PAR e E.FUN.
 Per il dettaglio delle funzionalità si veda l'help di campo dal richiamo del wizard di ogni tag.
 
  :  : DEC T(MB) P(SCP_SET) K([MB.SCP_SET.CN_P.CN_P999999]) I(**Script Prospettive >>)
- :  : DEC T(ST) P() K(*CNIE) I(**Intestazioni prospettive  >>)
+ :  : DEC T(ST) P() K(\*CNIE) I(**Intestazioni prospettive  >>)

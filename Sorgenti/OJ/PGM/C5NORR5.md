@@ -6,9 +6,9 @@ Alla selezione della voce di menù compare il seguente formato guida :
 
 ![C5C010_041](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR5/C5C010_041.png)
 Nel campo 'Metodo' è possibile scegliere tra le seguenti opzioni : 
- * Per scadenza sintetica :  viene restituita la situazione del portafoglio aziendale per data scadenza, ovvero è possibile vedere il totale in scadenza alle diverse date.
- * Per scadenza dettaglaita :  restituisce lo stesso risulttao dell'interrogazione precedente solo che in questo caso avremo il dettaglio per scadenza, ovvero la visualizzazione delle diverse rate a scadere.
- * Per banca :  per questo metodo è disponibile solo la modalità 'Stampa' e viene eseguita una stampa del portafoglio suddiviso per banca di presentazione.
+ \* Per scadenza sintetica :  viene restituita la situazione del portafoglio aziendale per data scadenza, ovvero è possibile vedere il totale in scadenza alle diverse date.
+ \* Per scadenza dettaglaita :  restituisce lo stesso risulttao dell'interrogazione precedente solo che in questo caso avremo il dettaglio per scadenza, ovvero la visualizzazione delle diverse rate a scadere.
+ \* Per banca :  per questo metodo è disponibile solo la modalità 'Stampa' e viene eseguita una stampa del portafoglio suddiviso per banca di presentazione.
 
 Nei campi centrali è possibile impostare una data situazione e una data scadenza iniziale e finale
 

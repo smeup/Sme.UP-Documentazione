@@ -15,8 +15,8 @@ I record con quantità zero e valore diverso da zero, sono movimenti a valore.
 ## Ripresa
 L'estrazione della statistica viene effettuata a partire da 2 file principali : 
 
- * C5TREG, è il file delle registrazioni contabili che viene scandito per tutte le estrazioni che riguardano il fatturato contabilizzato.
- * V5TDOC, è il file dei documenti del ciclo esterno che viene scandito per tutte le altre estrazioni.
+ \* C5TREG, è il file delle registrazioni contabili che viene scandito per tutte le estrazioni che riguardano il fatturato contabilizzato.
+ \* V5TDOC, è il file dei documenti del ciclo esterno che viene scandito per tutte le altre estrazioni.
 
 ## Struttura del file
 Il dettaglio di ogni singola riga della statistica  è dato dalla riga di un documento.
@@ -25,7 +25,7 @@ I valori di testata del documento o della fattura vengono appiattiti a livello d
 
 ## Documentazione file
 Vedi la scheda dell'oggetto File.
- :  : DEC T(OJ) P(*FILE) K(V5STAT0F)
+ :  : DEC T(OJ) P(\*FILE) K(V5STAT0F)
 
 ## Analisi della statistica
 Una struttura di schede LOOC UP fornisce già gli strumenti di base per la sua analisi.

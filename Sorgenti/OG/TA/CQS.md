@@ -5,13 +5,13 @@ Stabilire le relazioni di calcolo della classe di precisione.
 Descrivere i rilievi definibili dall'utente, fissandone l'obbligatorietà e l'unità di misura.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$SDQU **Tipo misurazione**
-Descrive il tipo di misura che esegue lo strumento. È un campo controllato dalla tabella 'CQ*TM' (Tipo misura).
+Descrive il tipo di misura che esegue lo strumento. È un campo controllato dalla tabella 'CQ\*TM' (Tipo misura).
 _9_Esempio
 VA   Variabili
 AT   Attributi
 EN   Ente di controllo
  :  : FLD T$TPCO **Tipo controllo**
-Campo controllato nella tabella 'CQ*VT' (Valori tipo strumento), stabilisce le modalità di calcolo della classe di precisione, in funzione delle quote rilevate. Può assumere i seguenti valori : 
+Campo controllato nella tabella 'CQ\*VT' (Valori tipo strumento), stabilisce le modalità di calcolo della classe di precisione, in funzione delle quote rilevate. Può assumere i seguenti valori : 
 A   non esegue il calcolo della classe di precisione.
 T   esegue il calcolo della classe di precisione riferendosi solo al valore del fondoscala.
 V   esegue il calcolo della classe di precisione riferendosi al valore dell'ampiezza della scala.

@@ -1,7 +1,7 @@
 ## Contenuto
 Impegni materiali residui di un oggetto (al netto dei prelievi eseguiti).
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'IT'                               £FUNT1
 
 ## Chiave primaria

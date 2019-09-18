@@ -76,22 +76,22 @@ Il Collaudo è previsto sia per le forniture esterne che per le forniture intern
 
 La gestione dei Lotti per articolo dipende dalla Classe funzionale ad esso assegnata.
 
-Sono state introdotte 3 classi funzionali dell'articolo :  **, CF-1, CF-5. Le classi funzionali sono gestite nella tabella CQQ : 
+Sono state introdotte 3 classi funzionali dell'articolo :  \*\*, CF-1, CF-5. Le classi funzionali sono gestite nella tabella CQQ : 
  :  : DEC T(ST) K(CQQ)
- :  : DEC T(TA) P(CQQ) K(**) I(CLASSE FUNZIONALE >>)
+ :  : DEC T(TA) P(CQQ) K(\*\*) I(CLASSE FUNZIONALE >>)
  :  : DEC T(TA) P(CQQ) K(CF-1) I(CLASSE FUNZIONALE >>)
  :  : DEC T(TA) P(CQQ) K(CF-5) I(CLASSE FUNZIONALE >>)
 
 All'atto del ricevimento, per gli  articoli  a cui è  stata  assegnata la  _9_Classe funzionale : 
 
-- _9_**   non si crea alcun lotto
+- _9_\*\*   non si crea alcun lotto
 - _9_CF-5 si crea un lotto in free pass
 - _9_CF-1 si crea un lotto con campionamento I-2A (Tabella CQP)
 
-La_9_Classe funzionale viene  assegnata ad un articolo o attraverso la sua >Classe articolo(Tabella CLS), oppure, se l'articolo non ha alcuna>Classe articolo, viene assunta la_9_Classe funzionaledi default_9_**.
+La_9_Classe funzionale viene  assegnata ad un articolo o attraverso la sua >Classe articolo(Tabella CLS), oppure, se l'articolo non ha alcuna>Classe articolo, viene assunta la_9_Classe funzionaledi default_9_\*\*.
 
-Nella>Classe articolodi default ,>**,è  stata  associata  la_9_Classe funzionale **, per cui se si assegna agli articoli la>Classe articolo '**', per ogni articolo non vengono creati lotti .
- :  : DEC T(TA) P(CLS) K(**) I(CLASSE ARTICOLO >>)
+Nella>Classe articolodi default ,>\*\*,è  stata  associata  la_9_Classe funzionale \*\*, per cui se si assegna agli articoli la>Classe articolo '\*\*', per ogni articolo non vengono creati lotti .
+ :  : DEC T(TA) P(CLS) K(\*\*) I(CLASSE ARTICOLO >>)
 
 La tabella  che  sovrintende al_3_movimento dei materialirelativamente alla Gestione qualità è la CRP : 
  :  : DEC T(ST) K(CRP)
@@ -105,7 +105,7 @@ L'esito del collaudo è influenzato dal_5_TIPO LOTTO, tabella CQL. (Nota :  l'es
  :  : DEC T(ST) K(CQL)
 
 I Tipo Lotto creati sono : 
- :  : DEC T(TA) P(CQL) K(**) I(Tipo Lotto >>)
+ :  : DEC T(TA) P(CQL) K(\*\*) I(Tipo Lotto >>)
  :  : DEC T(TA) P(CQL) K(AC) I(Tipo Lotto >>)
  :  : DEC T(TA) P(CQL) K(PR) I(Tipo Lotto >>)
 
@@ -266,8 +266,8 @@ Le aree coinvolte sono quindi :
  :  : DEC T(TA) P(GMR) K(47) I(Codice area >>)
  :  : DEC T(TA) P(GMR) K(90) I(Codice area >>)
 
- * Manca flusso Spedizione  materiale a fornitore per riparazione
- * Manca flusso Ricevimento materiale da fornitore riparato
+ \* Manca flusso Spedizione  materiale a fornitore per riparazione
+ \* Manca flusso Ricevimento materiale da fornitore riparato
 
 ### FLUSSO MATERIALE IN PRESTITO D'USO
 Questo flusso può essere usato di esempio per le movimentazioni di  materiali  di  terzi  presso  l'azienda, e per le movimentazioni di materiali dell'azienda presso terzi. Con "terzi" si intendono tutti i soggetti (es. fornitori, clienti) che interagiscono con l'azienda.
@@ -482,7 +482,7 @@ Le aree coinvolte sono quindi :
 - Manca Flusso ricevimento c/lavoro da fornitore
 
 # DEMAND PLANNING
-Esiste il flusso HW10 che deve essere schedulato una volta sola ad inizio mese ( *MTHSTR) e
+Esiste il flusso HW10 che deve essere schedulato una volta sola ad inizio mese ( \*MTHSTR) e
 che esegue il calcolo delle previsioni con il metodo Holt Winters.
 Questo metodo è ben documentato nella documentazione dinamica del modulo MP.
 Il flusso HW10 crea, partendo dallo storico degli ultimi 24 mesi, la previsione per i prossimi 12 mesi.
@@ -568,7 +568,7 @@ Sono stati creati i seguenti tipi costo :
 -- _2_LAE costo lavorazioni esterne (- Articoli = Si - Centri di costo = No). E' un costo dinamico che legge il listino 501/102 per Fornitore-Articolo-Fase. Serve per valorizzare le fasi del ciclo dichiarate esternamente o i materiali di conto lavoro pieno leggendo il costo dal listino del fornitore preferenziale dell'articolo. Per funzionare correttamente occorre che : 
 --- sull'articolo sia presente il fornitore preferenziale
 --- il listino abbia come valuta la valuta del fornitore preferenziale
---- nel caso di conto lavoro pieno la fase sia specificata come **
+--- nel caso di conto lavoro pieno la fase sia specificata come \*\*
 
  :  : DEC T(ST) K(TCO) I(Tipi costo Tab.TCO >>)
 

@@ -1,6 +1,6 @@
 ## Princìpi generali
 Costruire una scheda significa creare uno script che descriva quali dati visualizzare e come disporli graficamente.
-Questo script viene interpretato dal servizio *SCO (implementato dal programma JATRE_18C) e in base ad esso viene costruito un XML, presentato dal componente EXD (Scheda).
+Questo script viene interpretato dal servizio \*SCO (implementato dal programma JATRE_18C) e in base ad esso viene costruito un XML, presentato dal componente EXD (Scheda).
 Gli script delle schede sono salvati su AS come membri nel file SCP_SCH.
 
 ## Best practice
@@ -179,13 +179,13 @@ Ad esempio, per un loop di tipo £IMM ritornano il tipo accesso (VA), il signifi
 **Dal Parametro**
 
 - _&_PA.xxx : 
- Restituiscono il valore di un parametro passato alla scheda nel Parametro. xxx è il nome con cui è stato passato il parametro, a discrezione dell'utente. La variabile &PA.*ALL restituisce la stringa di tutti i parametri.
+ Restituiscono il valore di un parametro passato alla scheda nel Parametro. xxx è il nome con cui è stato passato il parametro, a discrezione dell'utente. La variabile &PA.\*ALL restituisce la stringa di tutti i parametri.
 
 
 **Dal Parametro INPUT**
 
 - _&_IN.xxx : 
- Restituiscono il valore di un parametro passato alla scheda nel Parametro INPUT. xxx è il nome con cui è stato passato il parametro, a discrezione dell'utente. La variabile &IN.*ALL restituisce la stringa di tutti i parametri.
+ Restituiscono il valore di un parametro passato alla scheda nel Parametro INPUT. xxx è il nome con cui è stato passato il parametro, a discrezione dell'utente. La variabile &IN.\*ALL restituisce la stringa di tutti i parametri.
 
 
 **Di Ambiente**
@@ -204,7 +204,7 @@ Restituisce la data corrispondente alla formula indicata dal valore xxx in forma
 
 
 ### Esempi
-Variabili su Oggetto1 :  data una chiamata del tipo :  F(EXD;*SCO;) 1(CN;CLI;000001), corrispondente alla scheda dell'oggetto cliente 000001, sono valorizzate le variabili : 
+Variabili su Oggetto1 :  data una chiamata del tipo :  F(EXD;\*SCO;) 1(CN;CLI;000001), corrispondente alla scheda dell'oggetto cliente 000001, sono valorizzate le variabili : 
 
 - _&_OG.T1='CN'
 - _&_OG.P1='CLI'
@@ -219,7 +219,7 @@ Variabili su Oggetto1 :  data una chiamata del tipo :  F(EXD;*SCO;) 1(CN;CLI;000
 - _&_OB.J/002 ='BRENTIOF' (Ritorna il valore dell'Oav J/002 dell'oggetto OG codice CNCLI che calcola il file dell'oggetto)
 
 
-Variabili sul Parametro :  data una chiamata del tipo :  F(EXD;*SCO;) 1(CN;CLI;000001) P(UNO(val1) DUE(35) ART(A01)) sono valorizzate le variabili : 
+Variabili sul Parametro :  data una chiamata del tipo :  F(EXD;\*SCO;) 1(CN;CLI;000001) P(UNO(val1) DUE(35) ART(A01)) sono valorizzate le variabili : 
 
 - _&_PA.UNO='val1'
 - _&_PA.DUE='35'
@@ -227,7 +227,7 @@ Variabili sul Parametro :  data una chiamata del tipo :  F(EXD;*SCO;) 1(CN;CLI;0
 
 
 ### Attenzione!
-All'interno di una scheda le chiamate alle funzioni standard di LOOC.up passano l'Oggetto1 ricevuto in ingresso nella chiamata alla scheda, se non diversamente specificato. Così all'interno di una scheda chiamata con F(EXD;*SCO;) 1(CN;CLI;000001) sono equivalenti : 
+All'interno di una scheda le chiamate alle funzioni standard di LOOC.up passano l'Oggetto1 ricevuto in ingresso nella chiamata alla scheda, se non diversamente specificato. Così all'interno di una scheda chiamata con F(EXD;\*SCO;) 1(CN;CLI;000001) sono equivalenti : 
 
 - F (...funzione) 1(_&_OG.T1;_&_OG.P1;_&_OG.K1)
 - F (...funzione) 1(CN;CLI;000001)
@@ -246,15 +246,15 @@ Se viene richiesto il valore di una variabile non precedentemente valorizzata, t
 Per una corretta interpretazione delle variabili dinamiche, il primo carattere del loro nome non può essere un numero.
 
 ### Esempio
-Consideriamo una subsezione che contiene l'elenco delle applicazioni di SME.up (elementi della tabella B£A) sotto forma di albero, ottenuta con la chiamata alla funzione F(TRE;*LAP;). Se specifichiamo che questa subsezione induce dinamicità in un'altra sezione cliccando su un elemento dell'albero (ad esempio BR) istanzieremo le variabili : 
+Consideriamo una subsezione che contiene l'elenco delle applicazioni di SME.up (elementi della tabella B£A) sotto forma di albero, ottenuta con la chiamata alla funzione F(TRE;\*LAP;). Se specifichiamo che questa subsezione induce dinamicità in un'altra sezione cliccando su un elemento dell'albero (ad esempio BR) istanzieremo le variabili : 
 
 - T1='TA'
 - P1='B£A'
 - K1='BR'
 - Tx='BREC_up basic records'
-- Fu='F(TRE;*APP;) G(CDI) 1(TA;B£A;BR)'
+- Fu='F(TRE;\*APP;) G(CDI) 1(TA;B£A;BR)'
 
-T1, P1, K1, Tx sono rispettivamente tipo, parametro, codice e descrizione dell'elemento selezionato. Fu è una chiamata a funzione standard di LOOC.up associata al doppio clic sull'elemento :  questa associazione viene fatta nella costruzione dell'albero da parte del servizio (in questo caso *LAP).
+T1, P1, K1, Tx sono rispettivamente tipo, parametro, codice e descrizione dell'elemento selezionato. Fu è una chiamata a funzione standard di LOOC.up associata al doppio clic sull'elemento :  questa associazione viene fatta nella costruzione dell'albero da parte del servizio (in questo caso \*LAP).
 Tutti i valori delle variabili sono salvati nell'XML dell'albero in esame.
 I nomi delle variabili T1, P1, K1, Tx, Fu sono nomi standard associati in questo caso agli elementi di un albero di LOOC.up; altri componenti, come la matrice, presentaranno un set diverso di variabili con nomi diversi. È possibile, nel loro impiego all'interno di una scheda, ridenorminarle.
 
@@ -287,7 +287,7 @@ Cont = ???
 Inoltre vengono valorizzate tutte le variabili corrispondenti ai campi della riga selezionata : 
 i nomi delle variabili sono quelli assegnati ai campi nella tabella di definizione delle colonne
 Es. data una matrice definita dalla £JAXSWK : 
->S5SCAD    Scadenza                     D8*YYMD               12
+>S5SCAD    Scadenza                     D8\*YYMD               12
 S5TPPA    Tipo Pagamento               TAC5G                 03
 S5COPA    Codice Pagamento             TAPAG                 03
 S5NDOR    Numero Documento                                   20
@@ -296,11 +296,11 @@ S5IMPO    Importo                      NR                    15
 
 cliccando su un campo della matrice (ad. esempio un importo) si avrà in K1 e S5IMPO il valore del campo, in S5SCAD il valore della scadenza sulla stessa riga, S5TPPA il tipo pagamento e così via..
 
-### *CLEAR
-E' possibile cancellare tutte le variabili dinamiche di un certo scope (di sezione, di scheda...) mediante la funzione *CLEAR.
+### \*CLEAR
+E' possibile cancellare tutte le variabili dinamiche di un certo scope (di sezione, di scheda...) mediante la funzione \*CLEAR.
 Tale funzione deve essere implementata come una variabile, deve cioè essere specificata all'interno delle variabili "esplicite".
 ### Esempio
-... Sch.Var="*CLEAR() NumFat(12)"
+... Sch.Var="\*CLEAR() NumFat(12)"
 Vengono cancellati tutti i valori delle variabili e successivamente viene assegnato il valore 12 alla variabile NumFat
 
 ## XML di una scheda
@@ -341,8 +341,8 @@ Illustriamo i concetti base che stanno dietro la costruzione di una scheda e le 
 Le istruzioni introdotte in questo primo tutorial sono quelle strettamente necessarie alla definizione di una scheda.
 
 Requisiti per la comprensione del documento : 
- * Familiarità con i concetti principali della scheda.
- * Conoscenza delle chiamate alle funzioni di LOOC.up.
+ \* Familiarità con i concetti principali della scheda.
+ \* Conoscenza delle chiamate alle funzioni di LOOC.up.
 
 ### Una scheda per i clienti
 Ipotizziamo di voler creare una scheda personalizzata per i clienti.
@@ -350,19 +350,19 @@ Tale scheda conterrà una matrice con i dati di base del cliente, un elenco (sem
 <img src="file : [SME.IMG]\TAB£A\LO\LOCEXD\ese_010.png">
 Per prima cosa va creato un membro CNCLI, associato all'oggetto cliente, da collocare nel file sorgente SCP_SCH della libreria dei sorgenti personalizzati.
 Il membro CNCLI conterrà lo script che descrive la scheda; esso potrà essere modificato : 
- * Dal SEU, operando con un Client Access
- * Dall'editor di Looc.up (con la possibilità di costruzione guidata tramite Ctrl+W)
+ \* Dal SEU, operando con un Client Access
+ \* Dall'editor di Looc.up (con la possibilità di costruzione guidata tramite Ctrl+W)
 
-La scheda verrà chiamata cliccando con il tasto destro su un oggetto di tipo CNCLI e scegliendo "scheda oggetto", oppure con la chiamata equivalente (ad esempio per il cliente 000001) :  F(EXD;*SCO;) 1(CN;CLI;000001)
+La scheda verrà chiamata cliccando con il tasto destro su un oggetto di tipo CNCLI e scegliendo "scheda oggetto", oppure con la chiamata equivalente (ad esempio per il cliente 000001) :  F(EXD;\*SCO;) 1(CN;CLI;000001)
 
 ### 1. Impostazione della struttura grafica
 **Sezioni**
 La prima operazione da compiere è impostare la struttura grafica delle sottofinestre che compongono
 la scheda. Nel nostro caso avremo 4 finestre : 
- * Dati di base
- * Ordini attivi
- * Telefono
- * Indirizzo
+ \* Dati di base
+ \* Ordini attivi
+ \* Telefono
+ \* Indirizzo
 
 Dividiamo prima il nostro foglio in due parti verticali, una per i dati di base e una
 per le altre informazioni, mediante i comandi : 
@@ -388,10 +388,10 @@ Ad esempio, se avessi tre sezioni A, B e C, con B divisa in B1 e B2, dovrei defi
 Il passo successivo è la definizione delle subsezioni :  bisogna dire a LOOC.up quali componenti chiamare per la rappresentazione delle informazioni in ogni sezione.
 Con l'istruzione  :   : G.SUB specifichiamo, immediatamente dopo la definizione di ogni sezione, il tipo di informazione da essa rappresentata e un titolo per la finestra.
 Quindi : 
- * Matrice per i dati di base :   :   : G.SUB.MAT Tit="Dati di base"
- * Matrice per gli ordini attivi :   :   : G.SUB.TRE Tit="Ordini attivi"
- * Label per il numero di telefono :   :   : G.SUB.LAB Tit="Telefono"
- * Label per l'indirizzo :   :   : G.SUB.LAB Tit="Indirizzo"
+ \* Matrice per i dati di base :   :   : G.SUB.MAT Tit="Dati di base"
+ \* Matrice per gli ordini attivi :   :   : G.SUB.TRE Tit="Ordini attivi"
+ \* Label per il numero di telefono :   :   : G.SUB.LAB Tit="Telefono"
+ \* Label per l'indirizzo :   :   : G.SUB.LAB Tit="Indirizzo"
 
 La label non è un componente di Looc.up, ma un metodo interno alla scheda. Non viene chiamato alcun componente esterno per la presentazione, è la scheda stessa che lo visualizza.
 
@@ -399,26 +399,26 @@ La label non è un componente di Looc.up, ma un metodo interno alla scheda. Non 
 Dopo avere definito il posizionamento delle finestre e che tipo di dati conterranno è necessario specificare quali dati verranno rappresentati.
 Questi dati possono essere specificati direttamente oppure si può chiamare un servizio AS per produrre l'XML che li contiene.
 Nel nostro caso : 
- - Per i dati di base si chiama un servizio che produce una matrice con gli attributi intrinseci dell'oggetto CNCLI :   :   : D.FUN.STD F(EXB;*OAV;LIM) P(I         I999999999)
- - Per gli ordini attivi si chiama un servizio che restituisce una matrice di ordini attivi :   :   : D.FUN.STD F(EXB;*BAR;) 1(OJ;*PGM;V5TDOC_B) 2(**;;3L) P(C01(OVE) C02(2) C03(CLI) C04(&OG.K1))
+ - Per i dati di base si chiama un servizio che produce una matrice con gli attributi intrinseci dell'oggetto CNCLI :   :   : D.FUN.STD F(EXB;\*OAV;LIM) P(I         I999999999)
+ - Per gli ordini attivi si chiama un servizio che restituisce una matrice di ordini attivi :   :   : D.FUN.STD F(EXB;\*BAR;) 1(OJ;\*PGM;V5TDOC_B) 2(\*\*;;3L) P(C01(OVE) C02(2) C03(CLI) C04(&OG.K1))
  - Per il numero di telefono e l'indirizzo si specifica direttamente che sono OAV dell'oggetto in ingresso, quindi :   :   : D.OGG D(&OA.I/44) e D.OGG D(&OA.I/03)
 
 Alcune osservazioni : 
- * I dati specificati in 1. e 2. sono chiamate a funzioni di Looc.up, quindi sono rispettivamente i servizi *OAV (pgm JATRE_17C) e *BAR (pgm JATRE_31C) a fornire l'XML contenente i dati
- * Nella chiamata alla funzione in 1. è implicito il parametro 1 :  se non specificato l'Oggetto 1, infatti, viene passato lo stesso con cui è stata chiamata la scheda. In questo caso stiamo trattando una scheda di oggetto, quindi l'Oggetto 1 è proprio valorizzato con l'oggetto in esame. Se la scheda fosse stata chiamata sul cliente 000001, ad esempio, la chiamata equivale a : 
- :   : D.FUN.STD F(EXB;*OAV;LIM) 1(CN;CLI;000001) P(I         I999999999)
- * Nella chiamata alla funzione in 2., "&OG.K1" si riferisce al codice dell'Oggetto 1 con cui è stata chiamata la scheda (nel caso precedente :  000001)
- * L'istruzione  :   : D.OGG (sostituibile dalla sua vecchia versione  :   : D.LAB.STD, sconsigliata) in 3. e 4. specifica manualmente due oggetti. Di questi oggetti forniamo solo la descrizione (coincidente con il valore degli OAV I/44 e I/33 dell'Oggetto 1 con cui è stata chiamata la scheda) :  la label visualizza infatti sempre la descrizione di un oggetto, ricavata dal suo tipo e codice oppure fornita direttamente (come in questo caso).
+ \* I dati specificati in 1. e 2. sono chiamate a funzioni di Looc.up, quindi sono rispettivamente i servizi \*OAV (pgm JATRE_17C) e \*BAR (pgm JATRE_31C) a fornire l'XML contenente i dati
+ \* Nella chiamata alla funzione in 1. è implicito il parametro 1 :  se non specificato l'Oggetto 1, infatti, viene passato lo stesso con cui è stata chiamata la scheda. In questo caso stiamo trattando una scheda di oggetto, quindi l'Oggetto 1 è proprio valorizzato con l'oggetto in esame. Se la scheda fosse stata chiamata sul cliente 000001, ad esempio, la chiamata equivale a : 
+ :   : D.FUN.STD F(EXB;\*OAV;LIM) 1(CN;CLI;000001) P(I         I999999999)
+ \* Nella chiamata alla funzione in 2., "&OG.K1" si riferisce al codice dell'Oggetto 1 con cui è stata chiamata la scheda (nel caso precedente :  000001)
+ \* L'istruzione  :   : D.OGG (sostituibile dalla sua vecchia versione  :   : D.LAB.STD, sconsigliata) in 3. e 4. specifica manualmente due oggetti. Di questi oggetti forniamo solo la descrizione (coincidente con il valore degli OAV I/44 e I/33 dell'Oggetto 1 con cui è stata chiamata la scheda) :  la label visualizza infatti sempre la descrizione di un oggetto, ricavata dal suo tipo e codice oppure fornita direttamente (come in questo caso).
 
 ### Lo script finale
  :  : PAR F(04)
 ..G.SEZ Pos(A) Dim(60%)
 ..G.SUB.MAT Tit="Dati di base"
-..D.FUN.STD F(EXB;*OAV;LIM) P(I         I99999999)
+..D.FUN.STD F(EXB;\*OAV;LIM) P(I         I99999999)
 
 ..G.SEZ Pos(B1) Dim(70%)
 ..G.SUB.MAT Tit="Ordini attivi"
-..D.FUN.STD F(EXB;*BAR;) 1(OJ;*PGM;V5TDOC_B) 2(**;;3L) P(C01(OVE) C02(2) C03(CLI) C04(&OG.K1))
+..D.FUN.STD F(EXB;\*BAR;) 1(OJ;\*PGM;V5TDOC_B) 2(\*\*;;3L) P(C01(OVE) C02(2) C03(CLI) C04(&OG.K1))
 
 ..G.SEZ Pos(B2) Dim(15%)
 ..G.SUB.LAB Tit="Telefono"
@@ -431,10 +431,10 @@ Alcune osservazioni :
 
 ### Sottoschede e dinamicità
 Estendiamo ora la scheda di esempio creata nel primo tutorial, familiarizzando con i concetti di : 
- * Sottoschede
- * Più subsezioni in una sezione
- * Setup di componente
- * Variabili e dinamicità
+ \* Sottoschede
+ \* Più subsezioni in una sezione
+ \* Setup di componente
+ \* Variabili e dinamicità
 
 ### Creazione di sottoschede / più subsezioni in una sezione
 Dividiamo la scheda in due sottoschede, una contenente i dati di base e una per la visualizzazione di alcuni dati commerciali (ordini di vendita attivi e relative righe).
@@ -451,10 +451,10 @@ Lo script della scheda madre è :
 ..D.SCH Nam(COMMERCIALE)
 
 
-L'istruzione  :   : D.SCH indica di aprire una sottoscheda definita nello stesso membro della scheda corrente;  :   : D.SCH Nam(SUB) è l'equivalente abbreviato di  :   : D.FUN.STD F(EXD;*SCO;) 1(stesso oggetto) 2(stesso membro) 4(;;SUB), dove nell'oggetto 4 della chiamata si specifica la sottoscheda.
+L'istruzione  :   : D.SCH indica di aprire una sottoscheda definita nello stesso membro della scheda corrente;  :   : D.SCH Nam(SUB) è l'equivalente abbreviato di  :   : D.FUN.STD F(EXD;\*SCO;) 1(stesso oggetto) 2(stesso membro) 4(;;SUB), dove nell'oggetto 4 della chiamata si specifica la sottoscheda.
 
 Un'altra possibilità era definire le sottoschede in membri diversi, ad esempio la sottoscheda dei dati commerciali nel membro CNCLI_COM.
-In questo caso una chiamata avrebbe potuto essere  :   : D.FUN.STD F(EXD;*SCO;) 1(CN;CLI;&OG.K1) 3(;;COM).
+In questo caso una chiamata avrebbe potuto essere  :   : D.FUN.STD F(EXD;\*SCO;) 1(CN;CLI;&OG.K1) 3(;;COM).
 
 ### Una sottoscheda
 La sottoscheda di nome "BASE" è compresa tra le istruzioni  :   : I.SCH Nam(BASE) e  :   : I.SCH.END.
@@ -462,7 +462,7 @@ Nello script CNCLI, quindi, in coda allo script della scheda madre andranno inse
  :  : PAR F(04)
 ..G.SEZ Pos(A) Dim(60%)
 ..G.SUB.MAT Tit="Dati di base"
-..D.FUN.STD F(EXB;*OAV;LIM) P(I         I99999999)
+..D.FUN.STD F(EXB;\*OAV;LIM) P(I         I99999999)
 ..G.SEZ Pos(B1)
 ..G.SUB.LAB Tit="Telefono"
 ..D.OGG D(&OA.I/44)
@@ -488,7 +488,7 @@ Questo indica che cliccando sulla subsezione "Ordini attivi" si triggera il rica
 La keyword Sch.Var indica che TDOC e NDOC sono variabili di scheda, visibili anche nelle altre subsezioni della scheda.
 I dati nella subsezione "Righe" vengono caricati con : 
  :  : PAR F(04)
-..D.FUN.STD F(EXB;*DR;) 1(DO;[TDOC];[NDOC])
+..D.FUN.STD F(EXB;\*DR;) 1(DO;[TDOC];[NDOC])
 
 Le parentesi quadre indicano di utilizzare il valore delle variabili TDOC e NDOC nella chiamata.
 
@@ -497,7 +497,7 @@ Condizioniamo la rappresentazione dei dati nella subsezione "Righe". Tramite l'i
  :  : PAR F(04)
 ..G.SET.MAT Columns="NUMRIG|R§TRIG|CODOGG|DESOGG|QTAORD|QTACON|CONRIC|CONCON" Load="D"
 
-indichiamo al componente matrice chiamato per la visualizzazione della subsezione "Righe" quali colonne mostrare e in che ordine tra quelle restituite dal servizio *DR, oltre a specificare un caricamento differito della subsezione :  la subsezione viene caricata al click sul suo tab oppure al click su una delle subsezioni che la condizionano dinamicamente.
+indichiamo al componente matrice chiamato per la visualizzazione della subsezione "Righe" quali colonne mostrare e in che ordine tra quelle restituite dal servizio \*DR, oltre a specificare un caricamento differito della subsezione :  la subsezione viene caricata al click sul suo tab oppure al click su una delle subsezioni che la condizionano dinamicamente.
 
 ### Lo script completo
  :  : PAR F(04)
@@ -510,7 +510,7 @@ indichiamo al componente matrice chiamato per la visualizzazione della subsezion
 ..I.SCH Nam(BASE)
 ..G.SEZ Pos(A) Dim(60%)
 ..G.SUB.MAT Tit="Dati di base"
-..D.FUN.STD F(EXB;*OAV;LIM) P(I         I99999999)
+..D.FUN.STD F(EXB;\*OAV;LIM) P(I         I99999999)
 
 ..G.SEZ Pos(B1)
 ..G.SUB.LAB Tit="Telefono"
@@ -533,12 +533,12 @@ indichiamo al componente matrice chiamato per la visualizzazione della subsezion
 ..G.SEZ Pos(1)
 ..G.SUB.MAT Tit="Ordini attivi"
 ..G.DIN Where="Righe" Sch.Var="TDOC([T§TDOC]) NDOC([T§NDOC])"
-..D.FUN.STD F(EXB;*BAR;) 1(OJ;*PGM;V5TDOC_B) 2(**;;3L) P(C01(OVE) C02(2) C03(CLI) C04(&OG.K1))
+..D.FUN.STD F(EXB;\*BAR;) 1(OJ;\*PGM;V5TDOC_B) 2(\*\*;;3L) P(C01(OVE) C02(2) C03(CLI) C04(&OG.K1))
 
 ..G.SEZ Pos(2)
 ..G.SUB.MAT Tit="Righe"
 ..G.SET.MAT Columns="NUMRIG|R§TRIG|CODOGG|DESOGG|QTAORD|QTACON|CONRIC|CONCON" Load="D"
-..D.FUN.STD F(EXB;*DR;) 1(DO;[TDOC];[NDOC])
+..D.FUN.STD F(EXB;\*DR;) 1(DO;[TDOC];[NDOC])
 ..I.SCH.END
 
 

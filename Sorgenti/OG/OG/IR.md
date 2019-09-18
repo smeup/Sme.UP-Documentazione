@@ -2,4 +2,4 @@ Contiene la quantità ed il tempo residui, richiesti per eseguire ogni attività
 Contiene inoltre informazioni generali dell'attività.
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(S5IRIS0F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(S5IRIS0F) L(1)

@@ -10,10 +10,10 @@ Gestire le funzioni di base per Lock/Autorizzazioni/Attributi/Tabelle
 
 ## AUA Autorizzazioni
 ### SIG significato di una classe
- :  : PRO.SER Cod="AUASIG" Tit="Significato" Txt="Albero dei significati data la classe e la funzione." Fun="F(TRE;B£SER_01;AUA.SIG) 1(TA;B£P;-(O;;TAB£P;Classe)) 2(**;;-(O;;**;Stringa))"
+ :  : PRO.SER Cod="AUASIG" Tit="Significato" Txt="Albero dei significati data la classe e la funzione." Fun="F(TRE;B£SER_01;AUA.SIG) 1(TA;B£P;-(O;;TAB£P;Classe)) 2(\*\*;;-(O;;\*\*;Stringa))"
 
 ### ESI record esistenti per una classe
- :  : PRO.SER Cod="AUAESI" Tit="Autoriuzzazioni esistenti" Txt="Matrice dei record presenti data la classe,la funzione e l'utente." Fun="F(EXB;B£SER_01;AUA.ESI) 1(TA;B£P;-(O;;TAB£P;Classe)) 2(**;;-(F;;**;Stringa)) 3(UP;;-(F;&AM.UT;UP;Utente))"
+ :  : PRO.SER Cod="AUAESI" Tit="Autoriuzzazioni esistenti" Txt="Matrice dei record presenti data la classe,la funzione e l'utente." Fun="F(EXB;B£SER_01;AUA.ESI) 1(TA;B£P;-(O;;TAB£P;Classe)) 2(\*\*;;-(F;;\*\*;Stringa)) 3(UP;;-(F;&AM.UT;UP;Utente))"
 
 ## ATR Attributi
 ### LAB Label

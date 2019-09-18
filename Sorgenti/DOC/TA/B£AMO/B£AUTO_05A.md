@@ -106,14 +106,14 @@ _1_Esempio 4
 Se voglio autorizzare solo uno specifico gruppo di utenti (ad esempio ADM) alla scheda del cliente (senza voler modificare la relativa scheda), posso impostare il record di autorizzazione
  :  : PAR
 _£AUARA : _ LO.EXD
-_£AUAUT : _  **ADM
+_£AUAUT : _  \*\*ADM
 _£AUAAZ : _ CN
 
 con un valore maggiore o uguale a 05 (ma non superiore a 09, dato che si tratta comunque di una classe di autorizzazione gestita come la classe stati).
 Poi per revocare l'autorizzazione a tutti gli altri utenti, posso impostare il record di autorizzazione
  :  : PAR
 _£AUARA : _ LO.EXD
-_£AUAUT : _  **
+_£AUAUT : _  \*\*
 _£AUAAZ : _ CN
 
 con un valore inferiore o uguale a 04.
@@ -121,13 +121,13 @@ con un valore inferiore o uguale a 04.
 Analogamente a prima, devo andare ad agire sullo script AR_COM, impostando
  :  : PAR
 _£AUARA : _ LO.EXD
-_£AUAUT : _  **ADM
+_£AUAUT : _  \*\*ADM
 _£AUAAZ : _ AR_COM
 
 al livello 05, mentre il record
  :  : PAR
 _£AUARA : _ LO.EXD
-_£AUAUT : _  **
+_£AUAUT : _  \*\*
 _£AUAAZ : _ AR_COM
 
 deve essere portato a 04.
@@ -145,14 +145,14 @@ Ad esempio in questo script :
 | .COL Txt="Istruzione" LunAut="1" A="L" |
 |  - 1 | G.SEZ Pos(A) |
 |  - 2 | G.SUB.TRE Tit="Articoli" |
-|  - 3 | D.FUN.STD F(TRE;*LIS;) 1(OG;;AR) |
+|  - 3 | D.FUN.STD F(TRE;\*LIS;) 1(OG;;AR) |
 |  - 4 | G.SEZ Pos (B) |
 |  - 5 | G.SUB.SCH Tit="Sottoscheda cliente" |
 |  - 6 | D.SCH Nam(CLI) |
 |  - 7 | I.SCH Nam(CLI) |
 |  - 8 | G.SEZ Pos(A) |
 |  - 9 | G.SUB.MAT Tit="OAV" |
-|  - 10 | D.FUN.STD F(EXB;*OAV;) 1(CN;CLI;000001) |
+|  - 10 | D.FUN.STD F(EXB;\*OAV;) 1(CN;CLI;000001) |
 |  - 11 | G.SEZ Pos(B) |
 |  - 12 | G.SUB.IMG Tit="Fotografia" |
 |  - 13 | D.IMG.OGG T(CN) P(CLI) K(000001).IMG |

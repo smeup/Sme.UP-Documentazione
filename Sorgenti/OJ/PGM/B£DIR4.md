@@ -9,7 +9,7 @@ In tal modo è più facile capire quali priorità sono state adottate dalla funz
 ## Tipo risorsa gestita
 Codice controllato sulla tabella TRG.
 ## Codice risorsa
-Viene controllato sull'anagrafico opportuno, in funzione del tipo di risorsa. I codici che iniziano con '**' non vengono controllati.
+Viene controllato sull'anagrafico opportuno, in funzione del tipo di risorsa. I codici che iniziano con '\*\*' non vengono controllati.
 ## Data inizio / Data fine
 Delimitano il periodo da visualizzare.
 # Formato visualizzazione
@@ -45,14 +45,14 @@ Permette di ottenere i valori settimanali e particolari per codici orari, numero
 
 - della risorsa interessata
 - della risorsa collegata, se indicata per la risorsa
-- della risorsa di default '**'
+- della risorsa di default '\*\*'
 
 ### Lettura anagrafico risorse
 Permette di ottenere i valori settimanali e particolari per codici orari, numero risorse disponibili e percentuali di utilizzo. Questi dati vengono assunti dalla prima risorsa trovata che contiene dei codici orari non in bianco. La ricerca procede utilizzando in cascata i codici risorsa : 
 
 - della risorsa interessata
 - della risorsa collegata, se indicata per la risorsa
-- della risorsa di default '**'
+- della risorsa di default '\*\*'
 
 NB :  l'anagrafico della risorsa di default deve sempre esistere ed avere impostati tutti i codici orari.
 
@@ -75,7 +75,7 @@ Se vengono trovate, ogni valore non vuoto viene forzato nel corrispondente dato 
 Gli eventuali errori rilevati durante la costruzione del calendario vengono segnalati con dei codici, indicati nella seguente tabella : 
 
  - _2_A; trovati troppi codici orario nelle tabelle OLG. Possono essere gestiti al massimo 98 codici orario.
- - _2_B; nell'anagrafico risorse non è stata trovata la risorsa di default (**), oppure è priva di codici orari.
+ - _2_B; nell'anagrafico risorse non è stata trovata la risorsa di default (\*\*), oppure è priva di codici orari.
  - _2_C; nel calendario annuale non è stato trovato l'anno richiesto, per il tipo di risorsa.
  - _2_D; il periodo richiesto supera la capacità del calendario. Possono essere gestiti al massimo 999 giorni.
  - _2_E; nell'anagrafico risorse o nelle eccezioni è stato trovato un codice orario non valido.

@@ -4,10 +4,10 @@ Gestire (in lettura e scrittura) file e cartelle di rete da un programma RPG
 
 Il percorso del file o della cartella di rete è relativo allo Sme.UP Provider a cui vengono inoltrate le operazioni da eseguire :  si tratta quindi di condivisioni di rete oppure di percorsi locali relativi alla macchina su cui è installato Sme.UP Provider.
 Gli encoding attualmente supportati per i file di testo sono : 
- * Windows (CP1252)
- * Ascii (CP850)
- * ISO-8859-1 (Latin 1)
- * UTF-8
+ \* Windows (CP1252)
+ \* Ascii (CP850)
+ \* ISO-8859-1 (Latin 1)
+ \* UTF-8
 
 **PREREQUISITO : ** installazione di uno Sme.UP Provider V4R1M151024 "Sydney Harbour Bridge" Stable con upgrade del 25/07/2016 o successivo.
 Per l'installazione e la configurazione del provider si rimanda alla documentazione del modulo
@@ -34,8 +34,8 @@ RUNTIME
 ### FUNZIONE E METODO
 Funzioni e metodi ricalcano quelli della £G80 per la gestione dell'IFS.
 
-. ***BLANKS**   Controllo esistenza
-.. ***BLANKS**   Qualsiasi oggetto
+. **\*BLANKS**   Controllo esistenza
+.. **\*BLANKS**   Qualsiasi oggetto
 . **READ**      Lettura
 .. **FILE**      Contenuto File
 .. **DIR**       Contenuto Directory
@@ -72,17 +72,17 @@ Funzioni e metodi ricalcano quelli della £G80 per la gestione dell'IFS.
    In scrittura se non specificato assume UTF-8 con BOM (Byte Order Mark).
    In lettura se non specificato assume cp1252 a meno che il file non cominci con il BOM (nel cui    caso riconosce UTF-8)
    Gli encoding attualmente supportati per i file di testo sono : 
-   * Windows (cp1252)
-   * Ascii (Cp850)
-   * ISO-8859-1 (Latin 1)
-   * UTF-8
+   \* Windows (cp1252)
+   \* Ascii (Cp850)
+   \* ISO-8859-1 (Latin 1)
+   \* UTF-8
 
 **£H80I_RL**= Lunghezza record
  - fissa la lunghezza di un record con la funzione WRITE/FILE. Se questa non viene indicata viene assunta la lunghezza della stringa trimmata a destra passata con la WRITE
 
 **£H80I_EO**= Caratteri fine record
  - fissa i caratteri che vengono aggiunti alla fine record con la funzione WRITE/FILE. Se il parametro non viene passato vengono assunti i caratteri CR/LF che identificano l'"a capo".
-Se invece voglio che non venga aggiunto alcun carattere va passata come costante '*NONE'.
+Se invece voglio che non venga aggiunto alcun carattere va passata come costante '\*NONE'.
 
 **£H80I_AT**= Timeout Attesa
  - attesa in secondi della risposta di Sme.UP Provider prima di andare in timeout. Se 0 assume 60 secondi.
@@ -95,21 +95,21 @@ Se invece voglio che non venga aggiunto alcun carattere va passata come costante
     .se il metodo è DIR  contiene il nome dell'oggetto contenuto nella cartella
 
 **£H80O_OG**= oggetto
-  - è il path completo dell'oggetto letto con la funzione READ o *blanks
+  - è il path completo dell'oggetto letto con la funzione READ o \*blanks
 
 **£H80O_TO**= tipo oggetto
- - è il tipo oggetto dell'oggetto letto con la funzione READ o *blanks (J1PATHFILE o J1PATHDIR)
+ - è il tipo oggetto dell'oggetto letto con la funzione READ o \*blanks (J1PATHFILE o J1PATHDIR)
 
 **£H80O_D2/£H80O_H2**= Data e ora della modifica del contenuto dell'oggetto
 
 **£H80O_SZ**= size
- - dimensione in byte dell'oggetto restituita dalla funzione *blanks
+ - dimensione in byte dell'oggetto restituita dalla funzione \*blanks
 
 **£H80O_SD**= Presenza Sottocartelle
  - Se presenti sottocartelle restituisce 1 (funzione READ/DIR)
 
 **£H80O_35= indicatore di errore
  - impostato a '1' nei seguenti casi : 
-   .oggetto non trovato (funzione *blanks)
+   .oggetto non trovato (funzione \*blanks)
    .fine file/file cartella (funzione READ)
    .errore generico (tutte le funzioni)

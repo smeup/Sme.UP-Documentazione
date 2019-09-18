@@ -3,10 +3,10 @@
 
 Per agevolare la consultazione di tutti i documenti che vengono normalmente gestiti in azienda, si è pensato di introdurre il concetto di NATURA DOCUMENTO, ovvero un'informazione aggiuntiva del tipo documento che permette di organizzare i documenti in macro categorie. Volendo riassumere i criteri secondo cui i documenti possono essere ordinati, si ha che, dopo la distinzione generale tra ciclo passivo e ciclo attivo, la natura è di fatto il concetto più generale di raggruppamento. A questa seguono poi il tipo documento (ovvero l'elemento di tabella V5D), il modello, il tipo modello, etc.
 
-*********************************
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 In questo contesto, è bene fare una precisazione. Ricordiamo infatti che, con ciclo attivo si intende l'insieme di tutte le operazioni che l'azienda intrattiene verso terzi, generalmente clienti, e che le permettono di generare dei guadagni; rientrano quindi nel ciclo attivo tutte quelle attività e documenti che permetto all'azienda di vendere i suoi prodotti e servizi.
 Con ciclo passivo si intende l'insieme delle attività che l'azienda intrattiene con i suoi fornitori e che generano tipicamente delle uscite finanziarie.
-*********************************
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 A oggi le nature documento che sono state definite sono : 
 
@@ -80,8 +80,8 @@ Sia che si scelga un SURF del gruppo delle testate o un SURF del gruppo delle ri
 ## A) Il surf di testata per numero documento
 
 Scegliendo di partire dal surf per numero documento delle testate, la sezione dei filtri offre la possibilità di impostare alcuni campi come per esempio : 
-** __Posizionamento numero documento : __ inserendo in questo campo un numero di documento la scheda permette di visualizzare tutti i documenti antecedenti o successivi a questo, a seconda di quanto impostato nel campo A/D dell'ordinamento (ascendente o discendente). A differenza di tutti gli altri campi che fungono da filtri puntuali, questo campo serve solo a porre un limite alla ricerca.
-** __Flag Righe : __ se impostato, questo flag permette di visualizzare per ciascuna testata, le relative righe, dove ovviamente presenti. La presenza di queste è manifestata da una piccola icona a forma di lente che viene caricata in corrispondenza delle testate, nella prima colonna della matrice. Solo cliccando su questa icona sarà possibile vedere il dettaglio nella parte inferiore della scheda.
+\*\* __Posizionamento numero documento : __ inserendo in questo campo un numero di documento la scheda permette di visualizzare tutti i documenti antecedenti o successivi a questo, a seconda di quanto impostato nel campo A/D dell'ordinamento (ascendente o discendente). A differenza di tutti gli altri campi che fungono da filtri puntuali, questo campo serve solo a porre un limite alla ricerca.
+\*\* __Flag Righe : __ se impostato, questo flag permette di visualizzare per ciascuna testata, le relative righe, dove ovviamente presenti. La presenza di queste è manifestata da una piccola icona a forma di lente che viene caricata in corrispondenza delle testate, nella prima colonna della matrice. Solo cliccando su questa icona sarà possibile vedere il dettaglio nella parte inferiore della scheda.
 
 ![V5_007](http://localhost:3000/immagini/MBDOC_OPE-V5DOCU_01/V5_007.png)
 Se si sceglie di non visualizzare la sezione delle righe nella parte inferiore della scheda, è comunque possibile accedere alla loro consultazione grazie alla voce di menù 'Righe' presente nel popup caricabile cliccando sull'icona funzionale accanto a ogni numero di documento.

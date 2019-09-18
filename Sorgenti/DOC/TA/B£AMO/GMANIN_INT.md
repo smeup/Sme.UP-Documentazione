@@ -23,7 +23,7 @@ Sono possibili varie modalità di creazione della foto :
 
 
 # Archivio utilizzato
- :  : DEC T(OJ) P(*FILE) K(GMFOTO0F)
+ :  : DEC T(OJ) P(\*FILE) K(GMFOTO0F)
 
 # Tabelle necessarie
  :  : DEC T(ST) K(GMW)

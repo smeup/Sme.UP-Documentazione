@@ -6,55 +6,55 @@ Come tutte le finestre di Looc.Up anche la finestra emulatore può essere suddiv
 # Le funzioni della Title Bar
 ![LOCEMU_01](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_01.png)
 La "Title Bar", oltre a visualizzare il titolo ed il sottotitolo dell'applicazione, consente l'esecuzione di una serie di funzioni mediante l'attivazione del "System Menu", tramite : 
- * ALT + BARRA SPAZIATRICE;
- * Click (tasto sinistro) su icona Emulatore della Title bar;
- * Click tasto destro del mouse sulla Title Bar : 
+ \* ALT + BARRA SPAZIATRICE;
+ \* Click (tasto sinistro) su icona Emulatore della Title bar;
+ \* Click tasto destro del mouse sulla Title Bar : 
 
 ![LOCEMU_02](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_02.png)
 Suddividiamo il "System Menu" in sette aree : 
- * _2_Gestione Finestra :  sono le funzioni standard di Windows di gestione delle finestre;
- * _2_Analisi della Comunicazione :  è un menu tecnico che consente, mediante l'attivazione di un sottomenu, l'accesso e la visualizzazione degli oggetti utilizzati per la comunicazione tra il server iSeries ed il Client;
- * _2_Icone :  permette la visualizzazione delle icone;
- * _2_Cache Locale dei formati video :  permette di gestire la cache dei formati video che vengono mantenuti sul client;
- * _2_Elenco Valori Memorizzati :  permette di gestire l'elenco dei Valori Memorizzati dei campi dei formati video, che vengono mantenuti sul client;
- * _2_File Configurazione :  permette la gestione del file di configurazione;
- * _2_Gestione Memorizzazioni Aspetto :  consentono la gestione delle memorizzazioni dell'aspetto (appearance) delle finestre e delle liste;
- * _2_Invio segnalazione errori :  permette di inviare al laboratorio la segnalazione di un errore.
+ \* _2_Gestione Finestra :  sono le funzioni standard di Windows di gestione delle finestre;
+ \* _2_Analisi della Comunicazione :  è un menu tecnico che consente, mediante l'attivazione di un sottomenu, l'accesso e la visualizzazione degli oggetti utilizzati per la comunicazione tra il server iSeries ed il Client;
+ \* _2_Icone :  permette la visualizzazione delle icone;
+ \* _2_Cache Locale dei formati video :  permette di gestire la cache dei formati video che vengono mantenuti sul client;
+ \* _2_Elenco Valori Memorizzati :  permette di gestire l'elenco dei Valori Memorizzati dei campi dei formati video, che vengono mantenuti sul client;
+ \* _2_File Configurazione :  permette la gestione del file di configurazione;
+ \* _2_Gestione Memorizzazioni Aspetto :  consentono la gestione delle memorizzazioni dell'aspetto (appearance) delle finestre e delle liste;
+ \* _2_Invio segnalazione errori :  permette di inviare al laboratorio la segnalazione di un errore.
 
 ## Gestione Finestra
 Significato delle voci : 
- * Ripristina :  voce che permette, quando la finestra è minimizzata o massimizzata, di ripristinare la finestra a video;
- * Sposta :  permette di spostare con i tasti freccia o con l'ausilio del mouse la finestra;
- * Riduci a Icona :  permette di minimizzare sulla barra delle applicazioni la finestra;
- * Ingrandisci :  permette di portare a tutto schermo la finestra;
- * Chiudi :  chiude la finestra, questa voce è consentita solo se sono abilitati i tasti funzionali F03 o F12, e ne viene simulata la loro pressione.
+ \* Ripristina :  voce che permette, quando la finestra è minimizzata o massimizzata, di ripristinare la finestra a video;
+ \* Sposta :  permette di spostare con i tasti freccia o con l'ausilio del mouse la finestra;
+ \* Riduci a Icona :  permette di minimizzare sulla barra delle applicazioni la finestra;
+ \* Ingrandisci :  permette di portare a tutto schermo la finestra;
+ \* Chiudi :  chiude la finestra, questa voce è consentita solo se sono abilitati i tasti funzionali F03 o F12, e ne viene simulata la loro pressione.
 
 ## Analisi della Comunicazione
 La funzione di queste opzioni è quella di permettere la comprensione della comunicazione tra l'emulatore 5250 e il server iSeries.
 
 Significato delle voci : 
- * XML Sorgente :  permette di visualizzare l'XML che l'emulatore riceve dal server iSeries;
- * XML Normalizzato :  permette di visualizzare l'XML sorgente dopo avergli applicato le funzioni di normalizzazione e d'aver integrato i buffer video ricevuti;
- * Buffer Video :  permette di visualizzare l'XML del buffer video ricevuto dal server iSeries;
- * Dati Performance :  permette di visualizzare l'elenco dei dati di performance che vengono salvati durante l'interazione;
- * Traccia Comunicazione :  permette di visualizzare i dati della comunicazione tra il server iSeries e l'emulatore;
- * Traccia errori :  permette di visualizzare il log degli errori non gestiti.
+ \* XML Sorgente :  permette di visualizzare l'XML che l'emulatore riceve dal server iSeries;
+ \* XML Normalizzato :  permette di visualizzare l'XML sorgente dopo avergli applicato le funzioni di normalizzazione e d'aver integrato i buffer video ricevuti;
+ \* Buffer Video :  permette di visualizzare l'XML del buffer video ricevuto dal server iSeries;
+ \* Dati Performance :  permette di visualizzare l'elenco dei dati di performance che vengono salvati durante l'interazione;
+ \* Traccia Comunicazione :  permette di visualizzare i dati della comunicazione tra il server iSeries e l'emulatore;
+ \* Traccia errori :  permette di visualizzare il log degli errori non gestiti.
 
 Si possono compiere le stesse azioni anche attraverso short-cut (comandi tastiera); si faccia riferimento all'immagine per la loro definizione.
 
 ## Icone
 La funzione di queste opzioni è di permettere la scelta di visualizzare o meno le icone nell'uso dell'emulatore 5250.
 L'inibizione di quest'opzione dà la possibilità di velocizzare l'interazione con l'emulatore. Vediamo quali sono i componenti di quest'area : 
- * Icone Oggetto su Campo :  permette di abilitare/disabilitare la visualizzazione delle Icone vicino ai campi (icone oggetto);
- * Icone Oggetto su Subfile :  permette di abilitare/disabilitare la visualizzazione delle Icone all'interno delle liste (icone oggetto su subfile);
+ \* Icone Oggetto su Campo :  permette di abilitare/disabilitare la visualizzazione delle Icone vicino ai campi (icone oggetto);
+ \* Icone Oggetto su Subfile :  permette di abilitare/disabilitare la visualizzazione delle Icone all'interno delle liste (icone oggetto su subfile);
 _2_Nota; l'attivazione di questa funzionalità può portare ad una visualizzazione parziale del contenuto delle colonne.
 
 Si possono compiere le stesse azioni anche attraverso short-cut (comandi tastiera); si faccia riferimento all'immagine per la loro definizione.
 
 ## Cache Locale dei formati video
 La funzione di queste opzioni è di permettere la gestione della cache dei formati video : 
- * Visualizzazione :  consente di "esplorare" la cartella nella quale vengono memorizzati i documenti XML che descrivono i formati video iSeries.
- * Cancellazione :  consente la cancellazione della cache dei documenti XML che descrivono i formati video iSeries. Ciò può rendersi necessario nel caso in cui l'applicazione iSeries venga modificata.
+ \* Visualizzazione :  consente di "esplorare" la cartella nella quale vengono memorizzati i documenti XML che descrivono i formati video iSeries.
+ \* Cancellazione :  consente la cancellazione della cache dei documenti XML che descrivono i formati video iSeries. Ciò può rendersi necessario nel caso in cui l'applicazione iSeries venga modificata.
 _2_Nota; ad ogni esecuzione di LOOC.up la cache dei formati video XML viene automaticamente svuotata.
 
 Si possono compiere le stesse azioni anche attraverso short-cut (comandi tastiera); si faccia riferimento all'immagine per la loro definizione.
@@ -63,25 +63,25 @@ Si possono compiere le stesse azioni anche attraverso short-cut (comandi tastier
 I valori memorizzati sono quei valori che sono stati usati in precedenza per un determinato tipo di campo. _2_Nota; l'attivazione delle funzionalità di memorizzazione valori è configurabile nei parametri _3_Completamento automatico e _3_proposta, mentre il numero massimo di valori memorizzabili è configurabile nel parametro _3_lunghezza. (cfr. Configurazione).
 I valori memorizzati sono visualizzabili posizionandosi su un campo (Es. :  un codice articolo) e premendo il tasto freccia giù; a questo punto compare una finestra in cui sono presenti tutti i campi utilizzati in precedenza.
 _2_Nota; se il campo di input è classificato come oggetto, la "storia" dei valori è condivisa tra tutti i campi relativi alla stessa classe. Se il campo di input è "neutro", la "storia" dei valori è condivisa tra tutti i campi di input aventi lo stesso nome (indipendentemente dal formato video).
- * Visualizzazione :  consente di "esplorare" la cartella nella quale vengono memorizzati i valori storici dei campi video di input.
- * Cancellazione :  permette di cancellare l'elenco dei valori memorizzati.
+ \* Visualizzazione :  consente di "esplorare" la cartella nella quale vengono memorizzati i valori storici dei campi video di input.
+ \* Cancellazione :  permette di cancellare l'elenco dei valori memorizzati.
 
 ## Gestione Memorizzazioni Aspetto
 I componenti di quest'area sono : 
- * visualizzazione elenco aspetto e posizionamento finestre, consente la gestione delle memorizzazioni dell'aspetto (appearance) delle finestre e delle liste. Per ogni finestra viene memorizzato quanto segue : 
- ** le sue coordinate x e y
- ** la sua Larghezza ed Altezza
- ** se la finestra è dotata di Subfile vengono inoltre memorizzate le larghezze delle singole colonne;
- * cancellazione globale aspetto e posizionamento finestre, cancella le impostazioni memorizzate per tutte le finestre;
- * cancellazione aspetto e posizionamento finestra corrente, cancella le impostazioni memorizzate solo per la finestra corrente.
+ \* visualizzazione elenco aspetto e posizionamento finestre, consente la gestione delle memorizzazioni dell'aspetto (appearance) delle finestre e delle liste. Per ogni finestra viene memorizzato quanto segue : 
+ \*\* le sue coordinate x e y
+ \*\* la sua Larghezza ed Altezza
+ \*\* se la finestra è dotata di Subfile vengono inoltre memorizzate le larghezze delle singole colonne;
+ \* cancellazione globale aspetto e posizionamento finestre, cancella le impostazioni memorizzate per tutte le finestre;
+ \* cancellazione aspetto e posizionamento finestra corrente, cancella le impostazioni memorizzate solo per la finestra corrente.
 
 ## Configurazione
- * Carica / Gestisci :  consente la modifica;
- * Ricaricamento :  consente di ricaricare una configurazione aggiornata dopo eventuali modifiche.
+ \* Carica / Gestisci :  consente la modifica;
+ \* Ricaricamento :  consente di ricaricare una configurazione aggiornata dopo eventuali modifiche.
 
 La funzione di queste opzioni è quella di gestire la configurazione dell'emulatore 5250. La configurazione avviene attraverso l'editazione di un file XML che è assistita dalla gestione dei setup.
 Selezionando la gestione della configurazione si apre la finestra seguente : 
-![LOCEMU_03](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_03.png)dove si sceglie se intervenire sul livello di configurazione (es. specifica dell'utente oppure comunte a tutto l'ambiente :  utente "**").
+![LOCEMU_03](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_03.png)dove si sceglie se intervenire sul livello di configurazione (es. specifica dell'utente oppure comunte a tutto l'ambiente :  utente "\*\*").
 
 Il click sul bottone "Modifica" apre il formato per le impostazioni di configurazione : 
 ![LOCEMU_04](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_04.png)Per il significato di tutti i campi si rimanda alla documentazione specifica.
@@ -99,27 +99,27 @@ Questa funzione apre un formato per l'invio di una mail di segnalazione allo "Sv
 ![LOCEMU_05](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_05.png)
 # Le funzioni della Header Bar
 ![LOCEMU_06](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_06.png)Nell'emulatore la header bar permette, in maniera grafica, di : 
- * Identificare : 
- ** il sistema a cui si è collegati;
- ** l'ambiente in cui si sta lavorando;
- ** l'utente connesso.
- * Accedere a funzionalità su : 
- ** il componente;
- ** il programma;
- ** il video;
- ** elementi variabili.
+ \* Identificare : 
+ \*\* il sistema a cui si è collegati;
+ \*\* l'ambiente in cui si sta lavorando;
+ \*\* l'utente connesso.
+ \* Accedere a funzionalità su : 
+ \*\* il componente;
+ \*\* il programma;
+ \*\* il video;
+ \*\* elementi variabili.
 
 La "Header Bar" è suddivisa in tre aree distinte : 
- * Area Ambiente;
- * Area Oggetti;
- * Area Dinamica.
+ \* Area Ambiente;
+ \* Area Oggetti;
+ \* Area Dinamica.
 _2_Nota; l'aspetto e la visualizzazione della barra è condizionata dalla configurazione.
 
 ## Area Ambiente
 In quest'area possono essere visualizzate delle immagini rappresentanti : 
- * il sistema;
- * l'ambiente;
- * l'utente.
+ \* il sistema;
+ \* l'ambiente;
+ \* l'utente.
 
 ![LOCEMU_07](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_07.png)_2_Nota, le immagini possono venire mostrate o meno a seconda che siano presenti le relative icone nella cartella LOOCUP_ICO
 
@@ -134,22 +134,22 @@ In quest'area possono essere visualizzate delle immagini rappresentanti :
 | 
 | .COL Txt="_2_Descrizione" Lun="0" LunAut="1" |
 |  - J1 | GRA EMU | Emulatore |
-|  - OJ | *PGM ....... | Programma |
-|  - OJ | *FILE ....... | File video |
+|  - OJ | \*PGM ....... | Programma |
+|  - OJ | \*FILE ....... | File video |
 | 
 
 Da ogni icona, con il tasto destro, è possibile accedere alle funzioni ed ai metodi propri di ogni oggetto che permettono di gestire e identificare : 
- * il componente che è attualmente in uso;
- * il programma;
- * il video.
+ \* il componente che è attualmente in uso;
+ \* il programma;
+ \* il video.
 
 ## Area Dinamica
 In questa area possono essere dinamicamente rimappati dei campi di I/O presenti nel formato video dell'Emulazione 5250.
 ![LOCEMU_09](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_09.png)
 ## Icone
 La visualizzazione delle icone è sottoposta a : 
- * attivazione dal System Menu della Title Bar;
- * la tipizzazione del campo.
+ \* attivazione dal System Menu della Title Bar;
+ \* la tipizzazione del campo.
 
 Nei campi tipizzati il tasto destro sull'icona o sul campo apre il PopUp dell'oggetto, mentre il click sull'icona lancia la funzione associata in sede di configurazione :  tab "Object actions" (generalmente la ricerca per codice "!").
 
@@ -163,8 +163,8 @@ In questa parte vengono rappresentati i bottoni corrispondneti ai tasti funziona
 
 ## Le funzioni della Status Bar
 Le funzioni della Status Bar sono principalmente due : 
- * visualizzazione dei messaggi informativi;
- * reperimento di informazioni sul programma;
+ \* visualizzazione dei messaggi informativi;
+ \* reperimento di informazioni sul programma;
 
 Posizionandosi sopra e apettando alcuni secondi verrà presentato un riquadro di riepilogo informazioni sul programma ILE-RPG attualmente in esecuzione (Hint).
 
@@ -192,16 +192,16 @@ La storia dei valori è uno strumento utile che permette di visualizzare le ulti
 
 ### Campi Tipizzati
 Questi campi sono contraddistinti da : 
- * sfondo giallo o, se all'interno di un subfile, dal colore giallo dell'intestazione della colonna;
- * icona associata al campo, l'icona cambia in relazione al tipo di oggetto applicativo a cui fa riferimento. Il click sull'icona lancia la funzione definita in configurazione (di solito la ricerca).
+ \* sfondo giallo o, se all'interno di un subfile, dal colore giallo dell'intestazione della colonna;
+ \* icona associata al campo, l'icona cambia in relazione al tipo di oggetto applicativo a cui fa riferimento. Il click sull'icona lancia la funzione definita in configurazione (di solito la ricerca).
 
 Sul campo tipizzato il tasto destro apre un menu di popup con le funzioni previste per l'oggetto : 
 
 ![LOCEMU_11](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_11.png)
 # Lista (Subfile)
 La lista è fondamentalmente suddivisa in due tipologie di campi : 
- * campi di visualizzazione
- * campi di inserimento/modifica
+ \* campi di visualizzazione
+ \* campi di inserimento/modifica
 
 ![LOCEMU_12](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_12.png)Lo spostamento all'interno delle righe nella lista avviene attraverso l'uso dei tasti freccia su e giù. Per spostarsi tra i campi della lista (relativamente allo stesso record) vengono utilizzati i tasti di
 tabulazione.
@@ -212,10 +212,10 @@ Posizionandosi con il mouse su una colonna di questa tipologia è possibile rich
 
 ## Selezione di un elemento della lista
 Per selezionare un codice all'interno di una lista (subfile), sono a disposizione quattro possibili modalità : 
- * Doppio click con il mouse sul codice (mette una X sul campo opzione)
- * Immissione di una X di selezione sul campo opzioni
- * ALT + (Lettera assegnata del pulsante relativo) se sono presenti i bottoni di opzione
- * Right-Click + seleziona voce
+ \* Doppio click con il mouse sul codice (mette una X sul campo opzione)
+ \* Immissione di una X di selezione sul campo opzioni
+ \* ALT + (Lettera assegnata del pulsante relativo) se sono presenti i bottoni di opzione
+ \* Right-Click + seleziona voce
 
 ## Configurazione del formato
 Le opzioni che permettono la configurazione del formato di visualizzazione sono raccolte nel tab "Griglia" della scheda del setup emulatore.
@@ -234,8 +234,8 @@ La tastiera è lo strumento principale con cui interfacciarsi con l'emulatore. L
 illustrate le combinazioni di tasti ed il loro significato.
 
 Le motivazioni che stanno alla base di questa scelta sono essenzialmente : 
- * velocità di interazione :  l'utilizzo della tastiera permette una maggiore efficienza rispetto all'uso del mouse
- * l'interfaccia segue il concetto di "grafica in più" e non " grafica invece", l'utente SME.up si è gia creato un proprio legame mentale tra i tasti da utilizzare e le funzioni, si ha una key-recognition tra la funzione voluta e la tastiera.
+ \* velocità di interazione :  l'utilizzo della tastiera permette una maggiore efficienza rispetto all'uso del mouse
+ \* l'interfaccia segue il concetto di "grafica in più" e non " grafica invece", l'utente SME.up si è gia creato un proprio legame mentale tra i tasti da utilizzare e le funzioni, si ha una key-recognition tra la funzione voluta e la tastiera.
 
 Il mouse rappresenta, invece, il punto di partenza per gli utenti nuovi che possiedono un background culturale di stile Windows.
 All'inizio a questi risulterà più naturale e semplice l'uso del mouse. Poi, acquisiranno anche loro propri stili di interazione con un utilizzo maggiore della tastiera, accorgendosi di poter effettuare le stesse operazioni in maniera più efficiente e veloce.

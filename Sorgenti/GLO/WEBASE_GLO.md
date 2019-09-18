@@ -1,62 +1,62 @@
-- **Application Server**
+- \*\*Application Server\*\*
 
  :  : VOC Id="000" Txt="Application Server"
 Un applications server è un programma che pubblica applicazioni web. I più usati sono Glassfish,
 JBoss, Wildfly
 
-- **J2EE**
+- \*\*J2EE\*\*
 
  :  : VOC Id="001" Txt="J2EE"
 
-- **Ruoli**
+- \*\*Ruoli\*\*
 
  :  : VOC Id="002" Txt="Ruoli"
 
-- **Modulo di login**
+- \*\*Modulo di login\*\*
 
  :  : VOC Id="003" Txt="Modulo di login"
 
-- **Context Root**
+- \*\*Context Root\*\*
 
  :  : VOC Id="004" Txt="Context Root"
 
-- **CSS**
+- \*\*CSS\*\*
 
  :  : VOC Id="005" Txt="CSS"
 
-- **Terminale**
+- \*\*Terminale\*\*
 
  :  : VOC Id="006" Txt="Terminale"
 
-- **Navigazione oggetto**
+- \*\*Navigazione oggetto\*\*
 
  :  : VOC Id="007" Txt="Navigazione oggetto"
 
-- **Scheda Oggetto**
+- \*\*Scheda Oggetto\*\*
 
  :  : VOC Id="008" Txt="Scheda Oggetto"
 
-- **Spotlight**
+- \*\*Spotlight\*\*
 
  :  : VOC Id="009" Txt="Spotlight"
 
-- **Accordion**
+- \*\*Accordion\*\*
 
  :  : VOC Id="010" Txt="Accordion"
 
-- **Tab**
+- \*\*Tab\*\*
 
  :  : VOC Id="011" Txt="Tab"
 
-- **Comandi**
+- \*\*Comandi\*\*
 
  :  : VOC Id="012" Txt="Comandi"
 
-- **Context Root**
+- \*\*Context Root\*\*
 
  :  : VOC Id="004" Txt="Context Root"
 
-- **Context Root**
+- \*\*Context Root\*\*
 
  :  : VOC Id="004" Txt="Context Root"
 

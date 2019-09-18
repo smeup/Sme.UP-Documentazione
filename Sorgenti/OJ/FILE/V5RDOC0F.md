@@ -1,7 +1,7 @@
 ## Contenuto
 Dati delle righe dei documenti del ciclo esterno.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'DO'                               £FUNT1
 
 ## Chiave primaria
@@ -25,15 +25,15 @@ V5A (Tipo riga)
  :  : DEC T(ST) K(V5B)
 
 ## Autorizzazioni
- * _2_Autorizzazione gestione righe documenti, Classe = V5DO05, Funzione = Tipo documento
- * _2_Autorizzazione gestione righe x modello, Classe = V5DO05M, Funzione = TTTMMM (TTT = Tipo documento, MMM = Modello documento)
- * _2_Autorizzazione interrogazione righe documenti, Classe = V5DO05I, Funzione = Tipo documento
- * _2_Autorizzazione campi specifici, Classe = PLC-V5RDOC, Funzione = Tipo documento
- * _2_Autorizzazione dati riservati da "lista campi" di un oggetto, Classe = RIS-, Funzione = V5D-TTT (dove TTT = Tipo documento)
- * _2_Autorizzazione dati riservati da "lista numeri" di un oggetto, Classe = RIS-, Funzione = VL_DRTTT (dove TTT = Tipo documento)
- * _2_Autorizzazione "sintesi conti spese tasse" di un documento, Classe = RIS-, Funzione = V5DTTT (dove TTT = Tipo documento)
- * _2_Autorizzazione "Funzioni aggiuntive - F14" di un documento, Classe = ABILITA, Funzione = V5DO05D
- * _2_Autorizzazione "Funzioni di un oggetto - F10", Classe = B£FUN0, Funzione = DR .
+ \* _2_Autorizzazione gestione righe documenti, Classe = V5DO05, Funzione = Tipo documento
+ \* _2_Autorizzazione gestione righe x modello, Classe = V5DO05M, Funzione = TTTMMM (TTT = Tipo documento, MMM = Modello documento)
+ \* _2_Autorizzazione interrogazione righe documenti, Classe = V5DO05I, Funzione = Tipo documento
+ \* _2_Autorizzazione campi specifici, Classe = PLC-V5RDOC, Funzione = Tipo documento
+ \* _2_Autorizzazione dati riservati da "lista campi" di un oggetto, Classe = RIS-, Funzione = V5D-TTT (dove TTT = Tipo documento)
+ \* _2_Autorizzazione dati riservati da "lista numeri" di un oggetto, Classe = RIS-, Funzione = VL_DRTTT (dove TTT = Tipo documento)
+ \* _2_Autorizzazione "sintesi conti spese tasse" di un documento, Classe = RIS-, Funzione = V5DTTT (dove TTT = Tipo documento)
+ \* _2_Autorizzazione "Funzioni aggiuntive - F14" di un documento, Classe = ABILITA, Funzione = V5DO05D
+ \* _2_Autorizzazione "Funzioni di un oggetto - F10", Classe = B£FUN0, Funzione = DR .
 
 ## Note strutturate (Tabella NSC)
 Il contenitore note si assume dalla tabella V5A.
@@ -62,10 +62,10 @@ Nella tabella V5B si può impostare :
 
 ## /COPY
 Interfaccia righe documenti (£IDR) : 
- :  : DEC T(MB) P(QILEGEN) K(£IDR) X(F(EXD;*SCO;) 1(MB;QILEGEN;£IDR) 2(;;))
+ :  : DEC T(MB) P(QILEGEN) K(£IDR) X(F(EXD;\*SCO;) 1(MB;QILEGEN;£IDR) 2(;;))
 
 Inizializzazione righe documenti (£V5Z) : 
- :  : DEC T(MB) P(QILEGEN) K(£V5Z) X(F(EXD;*SCO;) 1(MB;QILEGEN;£V5Z) 2(;;))
+ :  : DEC T(MB) P(QILEGEN) K(£V5Z) X(F(EXD;\*SCO;) 1(MB;QILEGEN;£V5Z) 2(;;))
 
 Funzioni valori (£V5V) : 
  :  : DEC T(MB) P(QILEGEN) K(£V5V)

@@ -1,7 +1,7 @@
 # Analisi disponibilità - modalità trattamento attesa spedizione/entrata
 Si può vedere : 
- * **ordini al lordo**
- * **ordini al netto + bolla**
+ \* **ordini al lordo**
+ \* **ordini al netto + bolla**
  - **fonte ordine al lordo dell'attesa**
  - **fonte ordine al netto dell'attesa, fonte bolla (futura con data = 0)**
 

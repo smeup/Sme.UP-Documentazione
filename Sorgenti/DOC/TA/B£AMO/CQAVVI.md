@@ -3,21 +3,21 @@
 I passi per eseguire un avviamento minimalista del Q9000 sono quelli necessari alla messa in opera di un sistema di qualità che abbia copertura sui seguenti processi : 
 
 # Processi Primari
- ** Creazione lotti di origine esterna :  acquisto, conto lavoro, resi cliente
- ** Classi funzionali dell'articolo e di abilitazione del fornitore
- ** Piani di campionamento :  particolare attenzione al free pass
- ** Movimentazione dei materiali conseguente al collaudo
- ** Collaudo lotti
- ** Registrazione non conformità
- ** Registrazione azioni correttiva, accettazioni in deroga, etc
+ \*\* Creazione lotti di origine esterna :  acquisto, conto lavoro, resi cliente
+ \*\* Classi funzionali dell'articolo e di abilitazione del fornitore
+ \*\* Piani di campionamento :  particolare attenzione al free pass
+ \*\* Movimentazione dei materiali conseguente al collaudo
+ \*\* Collaudo lotti
+ \*\* Registrazione non conformità
+ \*\* Registrazione azioni correttiva, accettazioni in deroga, etc
 
 # Processi Secondari
- ** Creazione lotti di produzione
- ** Cicli di collaudo
- ** Vendor rating
- ** Documentazione
- ** Strumenti di misura
- ** Manutenzione Impianti
+ \*\* Creazione lotti di produzione
+ \*\* Cicli di collaudo
+ \*\* Vendor rating
+ \*\* Documentazione
+ \*\* Strumenti di misura
+ \*\* Manutenzione Impianti
 
 ## Primo punto fondamentale :  creazione del Lotto di qualità, oggetto fulcro del sistema
 
@@ -48,7 +48,7 @@ ad avere al massimo 1 % di pezzi difettosi. Per dare un'idea dei valori di rifer
 
 La classe funzionale dell'articolo (tabella CQQ) può essere attribuita ad ogni singolo articolo direttamente dalla gestione dell'articolo (è un campo di BRarti0f), oppure derivata dalla classe materiale (è un campo di tab CLS).
 
-Per un avviamento veloce del Q9000, si suggerisce di definire una classe funzionale ** di default che non gestisca i lotti, e di definire un'altra classe CF-1 che movimenta a lotti da mettere come attributo sulle classi materiali che si vuole lottizzare
+Per un avviamento veloce del Q9000, si suggerisce di definire una classe funzionale \*\* di default che non gestisca i lotti, e di definire un'altra classe CF-1 che movimenta a lotti da mettere come attributo sulle classi materiali che si vuole lottizzare
 
 ## Classe di abilitazione del fornitore, tab CQV
 ![CQAVVI_04](http://localhost:3000/immagini/CQAVVI/CQAVVI_04.png)I fornitori possono essere classificati con diverse gradazioni di "affidabilità qualitativa" tramite l'attribuzione in anagrafica Brenti0f della classe di abilitazione. Tale classe identifica le classi funzionali degli articoli per cui il fornitore è qualificato.
@@ -66,11 +66,11 @@ Essenzialmente nella tabella CRP si possono dire le seguenti cose :
  - in che area si carica il materiale da collaudare o il materiale in Free Pass (si scrivono le causali di magazzino che si sovrappongono a quelle impostate sul tipo riga della bolla di entrata materiali!
  - con che causali si muove il magazzino quando si registra l'esito di collaudo.
 NOTA :  l'esito di collaudo permette di scomporre la quantità del lotto in cinque quantità separate, chiamate  : 
- * Qty Conforme
- * Qty Non Conforme
- * Qty Scarto
- * Qty Rilavorare
- * Qty Selezionare
+ \* Qty Conforme
+ \* Qty Non Conforme
+ \* Qty Scarto
+ \* Qty Rilavorare
+ \* Qty Selezionare
 Tali quantità possono essere movimentate alla fine del collaudo in modo differente, generando quindi la micrologistica di magazzino (i resi cliente finiscono in posto diverso dai non conformi di acquisto)
 ![CQAVVI_06](http://localhost:3000/immagini/CQAVVI/CQAVVI_06.png)## Collaudo Lotti
 Per operare il collaudo lotti è necessario solo avere impostata la tabella CQB degli esiti di collaudo.

@@ -10,7 +10,7 @@ Tutte le azioni che si possono eseguire sulle date sono eseguite nella routine Â
 
 
 ### Controllo/Trasformazione
-La tabella *CND4 contiene le azioni che sono possibili su un campo di tipo data grazie alla funzione specifica.
+La tabella \*CND4 contiene le azioni che sono possibili su un campo di tipo data grazie alla funzione specifica.
 
 ### Controlli formali
 La data Ã¨ fisicamente salvata in un campo di 8 caratteri, ma per quanto riguarda l'input e l'output della stessa viene accettata a 6 caratteri.
@@ -22,26 +22,26 @@ Esempio
 
 
 ### Controllo correttezza formale
-Le tabelle *CND1 e *CND3 contengono rispettivamente i formati accettabili per la data e per il separatore.
+Le tabelle \*CND1 e \*CND3 contengono rispettivamente i formati accettabili per la data e per il separatore.
 
 I formati accettabili per la data sono : 
-> *CYMD        SAAMMGG           :  s=0/s=1 se <1999/>2000
- *DMY         GGMMAA
- *DMYY        GGMMAAAA
- *JOB         Formato del JOB
- *JULY        AAGGG             :  Giuliano
- *JULYY       AAAAGGG           :  Giuliano
- *MDY         MMGGAA
- *MDYY        MMGGAAAA
- *SYSVAL      Formato del sistema
- *YMD         AAMMGG
- *YYMD        AAAAMMGG
+> \*CYMD        SAAMMGG           :  s=0/s=1 se <1999/>2000
+ \*DMY         GGMMAA
+ \*DMYY        GGMMAAAA
+ \*JOB         Formato del JOB
+ \*JULY        AAGGG             :  Giuliano
+ \*JULYY       AAAAGGG           :  Giuliano
+ \*MDY         MMGGAA
+ \*MDYY        MMGGAAAA
+ \*SYSVAL      Formato del sistema
+ \*YMD         AAMMGG
+ \*YYMD        AAAAMMGG
  IBM          Formato IBM
 
 I formati accettabili per i separatori sono invece : 
 > Separatore "."
- *JOB            Vedi attributo lavoro DATSEP
- *SYSVAL         Vedi attributo lavoro DATSEP
+ \*JOB            Vedi attributo lavoro DATSEP
+ \*SYSVAL         Vedi attributo lavoro DATSEP
  -               Separatore "-"
  /               Separatore "/"
  ,               Separatore ","

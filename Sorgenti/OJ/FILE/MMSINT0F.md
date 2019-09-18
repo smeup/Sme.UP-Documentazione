@@ -1,7 +1,7 @@
 ## Contenuto
 Tutte le informazioni significative di un intervento dichiarato (Impianto, Intervento, Date Inizio/Fine,Esecutore, ecc...)
 
-## Sigla oggetto in TA/*CNAA
+## Sigla oggetto in TA/\*CNAA
 'E6'                               £FUNT1
 
 ## Chiave primaria

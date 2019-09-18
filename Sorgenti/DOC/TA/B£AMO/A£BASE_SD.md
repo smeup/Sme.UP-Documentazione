@@ -16,44 +16,44 @@ Il comando 'CO' si occupa anche di eseguire le repliche dei file :  i file da re
 ## Specifiche aggiunte dal precompilatore
 Si elencano di seguito i tipi di specifiche aggiunte automaticamente dal precompilatore nel sorgente intermedio : 
 
-| LI>* | Specifiche per le lingue. Se nella B£2$DS (definita nella /copy £TABB£1DS) non c'è ITA ---|
+| LI>\* | Specifiche per le lingue. Se nella B£2$DS (definita nella /copy £TABB£1DS) non c'è ITA ---|
 | viene chiamato un programma che traduce le costanti. |
-| LO>* | Specifiche per Looc.Up. Fanno sì che il video venga emesso solo se non si sta eseguendo un lavoro di Looc.Up. Il compilatore necessita del video nello stesso file dei sorgenti. |
+| LO>\* | Specifiche per Looc.Up. Fanno sì che il video venga emesso solo se non si sta eseguendo un lavoro di Looc.Up. Il compilatore necessita del video nello stesso file dei sorgenti. |
 | 
 
 
-**Esempio di specifiche LI>***
->.   RD* ROUTINE INIZIALE
-.     *--------------------------------------------------------------*                     .
+**Esempio di specifiche LI>\***
+>.   RD\* ROUTINE INIZIALE
+.     \*--------------------------------------------------------------\*                     .
 .    C     £INIZI        BEGSR
-.LI> * Inizializzazione schiere interne in lingua
-.LI>C     ££B£2I        IFNE      *BLANK
+.LI> \* Inizializzazione schiere interne in lingua
+.LI>C     ££B£2I        IFNE      \*BLANK
 .LI>C                   EXSR      £INIZL
 .LI>C                   ENDIF
-.    *
+.    \*
 .                           ...
-.    *
+.    \*
 .   C                   ENDSR
-.LI> *---------------------------------------------------------------*                    .
-.LI> * Inizializzazione schiere interne in lingua
-.LI> *---------------------------------------------------------------*                    .
+.LI> \*---------------------------------------------------------------\*                    .
+.LI> \* Inizializzazione schiere interne in lingua
+.LI> \*---------------------------------------------------------------\*                    .
 .LI>C     £INIZL        BEGSR
 .LI>C     £INIZL        BEGSR
-.LI> *
+.LI> \*
 .LI>C                   MOVEL(P)  'TXT         '£LINNC                                      .
 .LI>C                   MOVEL(P)  'TXT         '£LINTC                                      .
 .LI>C                   CLEAR                   £LINSC                                           .
 .LI>C                   MOVEL     TXT           £LINSC                                       .
 .LI>C                   EXSR      £LIN
 .LI>C                   MOVEL     £LINSC        TXT                                          .
-.LI> *
+.LI> \*
 .LI>C                   ENDSR
 .LI>C/COPY QILEGEN,£LIN
-.LI> *--------------------------------------------------------------*
+.LI> \*--------------------------------------------------------------\*
 
 
-**Esempio di specifiche LO>***
->.    * Emissione formato video
+**Esempio di specifiche LO>\***
+>.    \* Emissione formato video
 .LO>C                   IF        £INZJT<>'L'
 .   C                   EXFMT     FMT1
 .LO>C                   ELSE
@@ -92,12 +92,12 @@ La 'SELECT' è allo stesso livello di 'IF' e presenta tag 2 , 2x e 2e rispettiva
 >.1    C                   DO        1000          $X                5 0                 .
 .     C     KTIAR         READE     BRARTI2L                               50           .
 .     C   50              LEAVE                                                         .
-.      *                                                                                .
+.      \*                                                                                .
 .2    C                   IF        %SUBST(A§DEAR : 1 : 1)<>'D' AND                         .
 .     C                             %SUBST(A§DEAR : 1 : 1)<>'T'                             .
 .     C                   ITER                                                          .
 .2e   C                   ENDIF                                                         .
-.      *                                                                                .
+.      \*                                                                                .
 .2    C                   SELECT                                                        .
 .2x   C                   WHEN      %SUBST(A§DEAR : 1 : 1)='D'                              .
 .     C                   EVAL      A§DEAR=%REPLACE('T' : A§DEAR : 1 : 1)                     .
@@ -106,7 +106,7 @@ La 'SELECT' è allo stesso livello di 'IF' e presenta tag 2 , 2x e 2e rispettiva
 .     C                   EVAL      A§DEAR=%REPLACE('D' : A§DEAR : 1 : 1)                     .
 .     C                   UPDATE    BRARTIR                                             .
 .2e   C                   ENDSL                                                         .
-.      *
+.      \*
 .     C                   CLEAR                   S§STRI                             .
 .     C                   EVAL      S§ARTI=A§ARTI                                .
 .     C                   EVAL      S§TIAR=A§TIAR                                .
@@ -158,15 +158,15 @@ Per effettuare il debug di un programma bisogna utilizzare il debug attivabile d
 Non essendo presentata alcuna linea di comando da cui richiamare il programma interessato, per prima cosa bisogna mettere un breakpoint (F6) all'interno del codice e premere F12, per poi digitare ENDDBG da linea comando o da opzioni di riga **ED**.
 
 >N.B. : 
- * Effettuando richiesta di sistema (F4), opzione 3 e digitando DSPMODSRC, viene mostrato il codice del programma in debug, per reimpostare nuovi breakpoint nel caso in cui, per esempio, sia stato premuto un F12 di troppo;
- * eseguendo le operazioni passo-passo (tramite F10) e incontrando una /COPY, il debug perde il puntatore ed è necessario premere molte volte F10, fino a quando il flusso non ritorna alla specifica successiva alla chiamata. Il consiglio è di porre un breakpoint sulla specifica seguente la chiamata alla /COPY e di fare eseguire il codice (F12);
- * per aggiungere programmi alla lista dei programmi da debuggare, premere F14 e usare l'opzione 1, seguita dall'opzione 5 per impostare un breakpoint (dato che il controllo non viene passato al programma chiamato);
- * per **vedere il contenuto di una variabile**, oltre al tasto _F11**, è possibile utilizzare il comando EVAL, anche attraverso le funzioni %SUBST e %INDEX. Per esempio, EVAL %SUBSTR(VAR 1 2) mostra i primi 2 caratteri della variabile VAR;
- * la **ricerca** di testo, attuabile tramite il tasto funzionale F16, una volta arrivati in fondo non riparte dall'inizio del codice sorgente. E' quindi consigliabile posizionarsi sempre all'inizio col comando T;
- * con il comando di _WATCH_ su di una variabile, si viene informati su quando essa cambi (è come impostare un breakpoint condizionato);
- * per cambiare il valore di una variabile, è necessario digitare un _EVAL_ (es. :  EVAL <variabile>='PIPPO').
+ \* Effettuando richiesta di sistema (F4), opzione 3 e digitando DSPMODSRC, viene mostrato il codice del programma in debug, per reimpostare nuovi breakpoint nel caso in cui, per esempio, sia stato premuto un F12 di troppo;
+ \* eseguendo le operazioni passo-passo (tramite F10) e incontrando una /COPY, il debug perde il puntatore ed è necessario premere molte volte F10, fino a quando il flusso non ritorna alla specifica successiva alla chiamata. Il consiglio è di porre un breakpoint sulla specifica seguente la chiamata alla /COPY e di fare eseguire il codice (F12);
+ \* per aggiungere programmi alla lista dei programmi da debuggare, premere F14 e usare l'opzione 1, seguita dall'opzione 5 per impostare un breakpoint (dato che il controllo non viene passato al programma chiamato);
+ \* per **vedere il contenuto di una variabile**, oltre al tasto _F11**, è possibile utilizzare il comando EVAL, anche attraverso le funzioni %SUBST e %INDEX. Per esempio, EVAL %SUBSTR(VAR 1 2) mostra i primi 2 caratteri della variabile VAR;
+ \* la **ricerca** di testo, attuabile tramite il tasto funzionale F16, una volta arrivati in fondo non riparte dall'inizio del codice sorgente. E' quindi consigliabile posizionarsi sempre all'inizio col comando T;
+ \* con il comando di _WATCH_ su di una variabile, si viene informati su quando essa cambi (è come impostare un breakpoint condizionato);
+ \* per cambiare il valore di una variabile, è necessario digitare un _EVAL_ (es. :  EVAL <variabile>='PIPPO').
 
-Per effettuare il debug di un programma già attivo nella lista lavori (cosa che prima si effettuava mettendo *SELECT nell'opzione SRVJOB) occorre digitare STRSRVJOB da linea di comando, indicando gli attributi del lavoro da debuggare e avviare il debug normalmente. Terminato il debug con ENDDBG, digitare ENDSRVJOB.
+Per effettuare il debug di un programma già attivo nella lista lavori (cosa che prima si effettuava mettendo \*SELECT nell'opzione SRVJOB) occorre digitare STRSRVJOB da linea di comando, indicando gli attributi del lavoro da debuggare e avviare il debug normalmente. Terminato il debug con ENDDBG, digitare ENDSRVJOB.
 
 # Looc.Up lato client
 - [Controllo prerequisiti Looc.Up](Sorgenti/DOC/TA/B£AMO/LOBASE_03)
@@ -190,7 +190,7 @@ La ricerca può avvenire in uno o più (fino a 35) file sorgenti (identificati d
 Altre opzioni : 
 
 | **Ricerca** | _Stringhe** :  cerca in tutto il membro; _Modifiche** :  cerca nelle modifiche ---|
-| V* che indicano le modifiche apportate a un sorgente. |
+| V\* che indicano le modifiche apportate a un sorgente. |
 | **A/O/M** | _A** :  esegue la ricerca delle stringhe in AND sulla medesima riga del sorgente. _O_ :  esegue la ricerca delle stringhe in OR. _M_ :  esegue la ricerca delle stringhe in AND all'interno di tutto il membro. |
 | **PosI / PosF** | Esegue la ricerca della stringa in una parte della riga compresa tra la posizione iniziale (PosI) e la posizione finale (PosF) specificate. |
 | **Case Sensitive** | Esegue la ricerca delle stringhe distinguendo maiuscole e minuscole. |

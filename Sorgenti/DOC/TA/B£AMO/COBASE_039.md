@@ -2,8 +2,8 @@ La finalità dei promemoria è quella di poter avere una notifica che viene emes
 Tipicamente i promemoria sono legati ad un impegno di workflow, ma è possibile creare anche promemoria indipendenti dagli impegni.
 
 In estrema sintesi, quindi : 
- * Un promemoria è un record di database intestato a oggetto (utente)/data/ora.
- * I promemoria aperti vengono scanditi periodicamente e, quando data/ora vengono raggiunte o superate, vengono emessi sul Looc.up dell'utente interessato, che può posporli o chiuderli.
+ \* Un promemoria è un record di database intestato a oggetto (utente)/data/ora.
+ \* I promemoria aperti vengono scanditi periodicamente e, quando data/ora vengono raggiunte o superate, vengono emessi sul Looc.up dell'utente interessato, che può posporli o chiuderli.
 
 # Prerequisiti
 
@@ -16,30 +16,30 @@ In estrema sintesi, quindi :
 I promemoria sono record del file WFPROM0F intestati a un oggetto destinatario tramite i campi F3TPMA e F3CDMA; attualmente tale oggetto deve essere un utente applicativo (oggetto UP).
 Un promemoria destinato ad un gruppo o ad una lista di utenti viene quindi esploso scrivendo una serie di record (uno per ciascun utente), in modo da poter gestire separatamente per ciascun utente lo stato del record così come la posposizione del promemoria.
 I promemoria possono essere scritti : 
- * Automaticamente, ad esempio come conseguenza esterna di qualche impegno di workflow (e.g. all'attivazione dell'impegno viene impostato un promemoria alla sua scadenza).
- * In modo manuale (come in un calendario/scadenzario) realizzando una scheda di interfaccia utente.
+ \* Automaticamente, ad esempio come conseguenza esterna di qualche impegno di workflow (e.g. all'attivazione dell'impegno viene impostato un promemoria alla sua scadenza).
+ \* In modo manuale (come in un calendario/scadenzario) realizzando una scheda di interfaccia utente.
 
 ## Emissione dei promemoria
 
 In sintesi : 
- * Per ogni ambiente di Sme.up in cui sono attivi i promemoria è attivo un job che scandisce periodicamente i promemoria attivi;
- * Per ogni promemoria attivo per cui è stata raggiunta o superata la data/ora di emissione viene scritto un XML di messaggio in una apposita coda dati;
- * Sui Looc.up degli utenti è attivo un listener che legge la coda dati ed emette in locale i promemoria trovati per l'utente.
+ \* Per ogni ambiente di Sme.up in cui sono attivi i promemoria è attivo un job che scandisce periodicamente i promemoria attivi;
+ \* Per ogni promemoria attivo per cui è stata raggiunta o superata la data/ora di emissione viene scritto un XML di messaggio in una apposita coda dati;
+ \* Sui Looc.up degli utenti è attivo un listener che legge la coda dati ed emette in locale i promemoria trovati per l'utente.
 
 # Impostazione dell'ambiente per l'emissione dei promemoria
 
 Servono : 
- * Un job per ogni ambiente in cui sono attivi i promemoria;
- * Una coda dati;
- * Un listener attivo sui Looc.up degli utenti.
+ \* Un job per ogni ambiente in cui sono attivi i promemoria;
+ \* Una coda dati;
+ \* Un listener attivo sui Looc.up degli utenti.
 
 ## Job di scansione dei promemoria
 
 L'emissione dei promemoria avviene tramite la schedulazione di un JOB che lanci il programma WFPROM00 ogni mattina.
 
 Tale programma va schedulato : 
- * Una volta con parametro 'CLEAR' per eseguire la pulitura della coda (pulisce i promemoria scritti per tutti gli ambienti) - Es. CALL PGM(WFPROM00) PARM('CLEAR').
- * N volte, una per ambiente, con parametro 'START' per far partire il controllo dei promemoria e la loro scrittura sulla coda - Es. CALL PGM(WFPROM00) PARM('START').
+ \* Una volta con parametro 'CLEAR' per eseguire la pulitura della coda (pulisce i promemoria scritti per tutti gli ambienti) - Es. CALL PGM(WFPROM00) PARM('CLEAR').
+ \* N volte, una per ambiente, con parametro 'START' per far partire il controllo dei promemoria e la loro scrittura sulla coda - Es. CALL PGM(WFPROM00) PARM('START').
 NB :  La schedulazione deve essere effettuata tramite l'opportuna scheda di schedulazione SMEUP, in modo che sia possibile lanciare il programma con l'ambiente corretto.
 Per questo si rimanda a : 
 - [Nuovi cmd B£QQ00,B£QQ01 e WRKJOBSCDE in scheda](Sorgenti/MB/DOC_NWS/NWS001549)
@@ -66,14 +66,14 @@ I parametri presenti nelle righe sopra riportate indicano di leggere la coda dat
 # Modalità di calcolo della data/ora di emissione del promemoria
 
 La data ora di emissione del promemoria può essere calcolata in due modi (V2 WF_23)
- * 1 - Orario assoluto  :  la data ora di emissione viene indicata direttamente nel record del promemoria.
- * 2 - Tempo prima della data riferim.  :  la data ora di emissione viene ricalcolata in base alla  data di riferimento (sul record vengono indicati giorni, ore e minuti di anticipo rispetto alla  data di riferimento ai quali emettere la notifica).
+ \* 1 - Orario assoluto  :  la data ora di emissione viene indicata direttamente nel record del promemoria.
+ \* 2 - Tempo prima della data riferim.  :  la data ora di emissione viene ricalcolata in base alla  data di riferimento (sul record vengono indicati giorni, ore e minuti di anticipo rispetto alla  data di riferimento ai quali emettere la notifica).
 
 In caso la modalità di calcolo della data ora sia "2 - Tempo prima della data riferim.", la data di riferimento è indicata nella tabella WFP (Tipo promemoria) tramite i valori del V2/WF_24  : 
- * 0 - Libero;
- * 1 - Data attivazione impegno;
- * 2 - Data rich.esec.impegno;
- * 3 - Data rich.esec.ordine.
+ \* 0 - Libero;
+ \* 1 - Data attivazione impegno;
+ \* 2 - Data rich.esec.impegno;
+ \* 3 - Data rich.esec.ordine.
 
 Nella tabella WFP viene anche indicata la modalità di calcolo della data/ora utilizzata per inizializzare il record di WFPROM0F tramite la /copy £WFF. La £WFF consente comunque la forzatura di una modalità di calcolo differente.
 

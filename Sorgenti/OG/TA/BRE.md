@@ -7,9 +7,9 @@ Permettere la caratterizzazione delle diverse sezioni in cui si sviluppa l'anagr
 Indica l'ambiente applicativo da cui reperire le informazioni per ente/articolo. Se non impostato si assume SM. In questo caso è possibile stabilire se l'origine delle informazioni è sull'archivio Ente/Articolo (BRARES0F) oppure su LISTINI, DOCUMENTI, ecc.
  :  : FLD T$BRED **Modo scelta enti di spedizione**
 Sono enti di spedizione di un ente : 
- *     Tutti gli enti di qualsiasi tipo che hanno l'ente in esame come ente di contabilizzazione.
- *     Tutti gli enti definiti nell'estensione "£01" dei contatti.
- *     L'ente associato come ente di spedizione dell'ente in esame.
+ \*     Tutti gli enti di qualsiasi tipo che hanno l'ente in esame come ente di contabilizzazione.
+ \*     Tutti gli enti definiti nell'estensione "£01" dei contatti.
+ \*     L'ente associato come ente di spedizione dell'ente in esame.
 
 Si definisce come "assunto" l'ente associato come ente di spedizione dell'ente in esame.
 Questo campo può assumere i valori seguenti : 

@@ -4,27 +4,27 @@ La scheda permette la navigazione nei suggerimenti con varie possibilità di ing
 ## Visualizzazione per articolo e opzionalmente per oggetto di rottura
 ![M5CMRP_022](http://localhost:3000/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_022.png)
 La scheda è composta di 4 sezioni più un bottone di selezione : 
-* **sezione albero in alto a sinistra** :  viene presentata la lista dei valori trovati per l'oggetto di riferimento (attributo dell'articolo inpostato nello scenario - Tab. M5B)
-* **sezione albero al centro a sinistra** :  dato un oggetto di riferimento viene presentata la lista degli articoli che gli appartengono
-* **bottone "scegli articolo" in basso a sinistra** :  che consente di inserire manualmente il codice dell'articolo di cui si vogliono vedere i consigli
-* **sezione matrice in alto a destra** :  lista dei consigli per articolo (tutti gli articoli oppure quello selezionato)
-* **sezione matrice in basso a destra** : quadro di pianificazione per il consiglio selezionato nella sezione in alto a destra
+\* **sezione albero in alto a sinistra** :  viene presentata la lista dei valori trovati per l'oggetto di riferimento (attributo dell'articolo inpostato nello scenario - Tab. M5B)
+\* **sezione albero al centro a sinistra** :  dato un oggetto di riferimento viene presentata la lista degli articoli che gli appartengono
+\* **bottone "scegli articolo" in basso a sinistra** :  che consente di inserire manualmente il codice dell'articolo di cui si vogliono vedere i consigli
+\* **sezione matrice in alto a destra** :  lista dei consigli per articolo (tutti gli articoli oppure quello selezionato)
+\* **sezione matrice in basso a destra** : quadro di pianificazione per il consiglio selezionato nella sezione in alto a destra
 
 Sotto la matrice dei consigli sono presenti dei bottoni che permettono di eseguire delle azioni sui consigli che vi vengono trascinati sopra, le azioni previste sono : 
-* **Applicazione suggerimento** :  per i consigli selezionati applica il suggerimento proposto (es. creazione ordine, spostamento di data, annullamento, ...) purchè nella fonte sia impostato il relativo programma di applicazione e l'utente sia autorizzato (classe M5CMRP)
-* **Applicazione suggerimento con variazioni** :  come il precedente con la differenza che prima dell'applicazione propone una finestra dove si possono approtare delle variazioni (es. qtà, data, fornitore)
-* **Applicazione suggerimento + modifica rilascio** :  esegue l'applicazione e dopo presenta il formato di manutenzione ordine (o riga ordine) per eventuali modifiche successive (es variazione prezzo)
-* **Applicazione suggerimento con variazioni + modifica rilascio** :  è la combinazione dei precedenti
-* **Modifica rilascio** :  si applica ai consigli applicati in precedenza (liv. = 8) e presenta il formato di manutenzione
-* **Annulamento** :  annulla (livello = 9)  i consigli selezionati
-* **Annullamento con annullamento impegni** :  si applica ai consigli di produzione o di conto lavoro, dopo l'annullamento del consiglio annulla anche gli impengi collegati
+\* **Applicazione suggerimento** :  per i consigli selezionati applica il suggerimento proposto (es. creazione ordine, spostamento di data, annullamento, ...) purchè nella fonte sia impostato il relativo programma di applicazione e l'utente sia autorizzato (classe M5CMRP)
+\* **Applicazione suggerimento con variazioni** :  come il precedente con la differenza che prima dell'applicazione propone una finestra dove si possono approtare delle variazioni (es. qtà, data, fornitore)
+\* **Applicazione suggerimento + modifica rilascio** :  esegue l'applicazione e dopo presenta il formato di manutenzione ordine (o riga ordine) per eventuali modifiche successive (es variazione prezzo)
+\* **Applicazione suggerimento con variazioni + modifica rilascio** :  è la combinazione dei precedenti
+\* **Modifica rilascio** :  si applica ai consigli applicati in precedenza (liv. = 8) e presenta il formato di manutenzione
+\* **Annulamento** :  annulla (livello = 9)  i consigli selezionati
+\* **Annullamento con annullamento impegni** :  si applica ai consigli di produzione o di conto lavoro, dopo l'annullamento del consiglio annulla anche gli impengi collegati
 
 I bottoni di azione sui consigli posso agire su un singolo consiglio oppure su gruppi di consigli selezionati, la selezione dei consigli segue le regole di selezione proprie delle righe di matrice : 
-* **control + click sulla colonna di selezione riga**, oppure **control + barra spaziatrice**, per selezionare una riga della matrice. L'operazione può essere ripetuta a piacere per n. righe
-* per selezionare un gruppo di righe contigue, selezionare la riga superiore con control + click oppure control + barra spaziatrice come visto sopra, poi selezionare una riga sottostante con **control + shift + click**, oppure **control + shift + barra spaziatrice**, vengono selezionate tutte le righe comprese nell'intervallo
-* le righe selezionate vengono evideziate con l'ombreggiatura
-* per deselezionare una riga precedentemente selezionata, rifare control + click
-* per deselezionare tutte le righe, click nella sezione ma fuori della matrice, oppure barra spaziatrice
+\* **control + click sulla colonna di selezione riga**, oppure **control + barra spaziatrice**, per selezionare una riga della matrice. L'operazione può essere ripetuta a piacere per n. righe
+\* per selezionare un gruppo di righe contigue, selezionare la riga superiore con control + click oppure control + barra spaziatrice come visto sopra, poi selezionare una riga sottostante con **control + shift + click**, oppure **control + shift + barra spaziatrice**, vengono selezionate tutte le righe comprese nell'intervallo
+\* le righe selezionate vengono evideziate con l'ombreggiatura
+\* per deselezionare una riga precedentemente selezionata, rifare control + click
+\* per deselezionare tutte le righe, click nella sezione ma fuori della matrice, oppure barra spaziatrice
 
 ### Classe copertura
 Tra le indicazioni presenti nella matrice dei consigli una particolare menzione spetta alla **classe di copertura** ed al relativo semaforo :  se attivato nello scenario (Tab M5B) il flag di classificazione delle coperture il sistema calcola anche questo attributo del consiglio e lo presenta in matrice, i valori possibili e relativi significati sono : 
@@ -70,7 +70,7 @@ In tutte le visualizzazione possibili sono presenti caratteristiche e operazioni
 Nella parte alta della scheda è sempre presente l'indicazione dello scenario e del plant a cui ci stiamo riferendo.
 
 ### Scheda tabelle
-Nella parte bassa di ogni scheda è presente un pulsante,  associato al tasto funzionale F10, che consente di passare alla scheda degli elementi di tabella interessati :  TA MAG del plant interessato, TA M5B  dello scenario e TA M51 * delle impostazioni generali MRP.
+Nella parte bassa di ogni scheda è presente un pulsante,  associato al tasto funzionale F10, che consente di passare alla scheda degli elementi di tabella interessati :  TA MAG del plant interessato, TA M5B  dello scenario e TA M51 \* delle impostazioni generali MRP.
 
 ### Data limite - Elimina data limite
 Nella parte bassa di ogni scheda sono presenti questi due bottoni, che si attivano con un click nella sezione della matrice dei consigli, che permettono di impostare o eliminare un flitro sulla data del consiglio.

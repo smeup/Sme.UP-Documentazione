@@ -44,7 +44,7 @@ Specifica la categoria della risposta. Potremo avere :
 -- Modalità di pagamento.
 -- Altra tabella a piacere.
 Anche per queste esiste un programma di gestione specifico.
--- Tipo      = qualsiasi scelta della tabella *CNTT.
+-- Tipo      = qualsiasi scelta della tabella \*CNTT.
 -- Parametro = dipendente dal tipo indicato.
 - Risposte controllate da una particolare regola. Queste risposte sono collegate ad una regola e al programma ad essa associato. Si veda la documentazione relativa alla tabella C£T.
 -- Tipo      = TA.

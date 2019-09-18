@@ -22,7 +22,7 @@ all'uscita.
 Se non viene immesso e le u.m. non sono coerenti, la funzione lo legge dalla tabella di correlazione tra le due u.m.
 (= tab UMS che ha come codice 'u.m. origine + u.m. destinazione'), e se non lo trova segnala l'errore.
 # DIVISORE/MOLTIPLICATORE
-Indica se la quantità origine deve essere moltiplicata (se = '*') o divisa (se = '/') per il fattore di conversione.
+Indica se la quantità origine deve essere moltiplicata (se = '\*') o divisa (se = '/') per il fattore di conversione.
 Viene dedotto dalle tabelle.
 Se le u.m. non sono coerenti, la funzione lo legge dalla tabella di correlazione tra le due u.m..
 # METODO DI ARROTONDAMENTO

@@ -3,7 +3,7 @@
 ## OBIETTIVO
 Definire la modalità con la quale si gestisce il dettaglio di analitica.
 Un conto è di analitica se impostato nella tabella C5B.
-La C6B può contenere il conto contabilie (C5B), la linea di riclassifica del conto (C5NBA) oppure un elemento di default '**'.
+La C6B può contenere il conto contabilie (C5B), la linea di riclassifica del conto (C5NBA) oppure un elemento di default '\*\*'.
 La modalità di risalita è : 
 Conto -> Linea -> Default.
 In immissione il carattere '>>' permette di andare in ricerca sulla linea (C5NBA) e sul conto(C5B).

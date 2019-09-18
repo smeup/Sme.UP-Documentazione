@@ -1,16 +1,16 @@
 # Formato di gestione
 ![QA_ENLO014](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM30/QA_ENLO014.png)
 _1_Nota, in fase di inserimento dichiarazione di collaudo il sistema controlla : 
- *  _3_abilitazione del fornitore alla fornitura di un articolo di quella classe funzionale. Con il comando funzione F6 l'operatore può forzare la dichiarazione del collaudo anche per un fornitore non abilitato alla classe funzionale dell'articolo, il programma assegnerà il piano di campionamento rinforzato impostato in tabella;
- * _3_presenza di un documento rilasciato ad un livello di modifica superiore a quello del lotto. Con il comando funzione F6 F6 l'operatore può forzare la dichiarazione del collaudo anche se sono stati rilasciati documenti a livello di modifica superiore.
+ \*  _3_abilitazione del fornitore alla fornitura di un articolo di quella classe funzionale. Con il comando funzione F6 l'operatore può forzare la dichiarazione del collaudo anche per un fornitore non abilitato alla classe funzionale dell'articolo, il programma assegnerà il piano di campionamento rinforzato impostato in tabella;
+ \* _3_presenza di un documento rilasciato ad un livello di modifica superiore a quello del lotto. Con il comando funzione F6 F6 l'operatore può forzare la dichiarazione del collaudo anche se sono stati rilasciati documenti a livello di modifica superiore.
 
 I campi da gestire sono : 
- *  _2_ente di controllo, è un campo che identifica il responsabile del controllo
- *  _2_esito controllo, è un campo (Tab. CQB) che identifica l'esito del controllo (deroga interna, consegna regolare, reso da cliente non conforme, ecc...)
- *  _2_quantità rilevata, è un campo numerico che identifica la quantità effettivamente rilevata al controllo
- *  _2_certificato qualità, è un campo in cui l'operatore può immettere il riferimento al certificato di qualità del fornitore ad esempio il certificato di colata dell'acciaio della fornitura
- *  _2_azioni sulla prossima consegna, è un campo (Tab. CQA) che permette di specificare quali azioni fare sulla prossima consegna articolo/fornitore, ad esempio un audit di controllo sull'articolo, collaudo completo articolo, ecc...
- *  _2_note, è un campo in cui vengono visualizzate le scelte fatte nel campo azioni sulla prossima consegna del lotto
+ \*  _2_ente di controllo, è un campo che identifica il responsabile del controllo
+ \*  _2_esito controllo, è un campo (Tab. CQB) che identifica l'esito del controllo (deroga interna, consegna regolare, reso da cliente non conforme, ecc...)
+ \*  _2_quantità rilevata, è un campo numerico che identifica la quantità effettivamente rilevata al controllo
+ \*  _2_certificato qualità, è un campo in cui l'operatore può immettere il riferimento al certificato di qualità del fornitore ad esempio il certificato di colata dell'acciaio della fornitura
+ \*  _2_azioni sulla prossima consegna, è un campo (Tab. CQA) che permette di specificare quali azioni fare sulla prossima consegna articolo/fornitore, ad esempio un audit di controllo sull'articolo, collaudo completo articolo, ecc...
+ \*  _2_note, è un campo in cui vengono visualizzate le scelte fatte nel campo azioni sulla prossima consegna del lotto
 
 ## Sviluppi
 La dichiarazione di collaudo può avere gli sviluppi seguenti identificati dai campi di selezione posti in basso al formato di dettaglio : 

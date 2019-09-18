@@ -6,7 +6,7 @@ _7_BASE.up - B£
    :  : DEC T(ST) K(B£1)   I(**Nome azienda / Interfacce     >>)
    :  : DEC T(ST) K(B£2)   I(**Azienda/Divisa/Lingua         >>)
  >Standard da riprendere da modello
-   :  : DEC T(ST) K(*CNAV) I(**Attributi video               >>)
+   :  : DEC T(ST) K(\*CNAV) I(**Attributi video               >>)
    :  : DEC T(ST) K(B£R)   I(**Funzioni cablate              >>)
    :  : DEC T(ST) K(B£SGD) I(**Funzioni cablate              >>)
    :  : DEC T(ST) K(B£T)   I(**Gestita -parametri cablati-   >>)
@@ -56,9 +56,9 @@ _7_BREC.up - BR
  >Impostazioni
    :  : DEC T(ST) K(BR1)   I(**Fatta                         >>)
  >Standard da riprendere da modello
-   :  : DEC T(ST) K(BR*)   I(**Gestita  parametri cablati    >>)
-   :  : DEC T(ST) K(BR*CF) I(**Fatta       Dati di esempio   >>)
-   :  : DEC T(ST) K(BR*TF) I(**Fatta       Dati di esempio   >>)
+   :  : DEC T(ST) K(BR\*)   I(**Gestita  parametri cablati    >>)
+   :  : DEC T(ST) K(BR\*CF) I(**Fatta       Dati di esempio   >>)
+   :  : DEC T(ST) K(BR\*TF) I(**Fatta       Dati di esempio   >>)
  >Altre tabelle proposte
    :  : DEC T(ST) K(BRA)   I(**Fatta                         >>)
    :  : DEC T(ST) K(BRB)   I(**Fatta       Dati di esempio   >>)
@@ -100,7 +100,7 @@ _7_CLAS.up - C£
  >Impostazioni
    :  : DEC T(ST) K(C£1)   I(**Fatta                         >>)
  >Standard da riprendere da modello
-   :  : DEC T(ST) K(C£*)   I(**Gestita  parametri cablati    >>)
+   :  : DEC T(ST) K(C£\*)   I(**Gestita  parametri cablati    >>)
  >Altre tabelle proposte
    :  : DEC T(ST) K(C£E)   I(**Fatta                         >>)
    :  : DEC T(ST) K(C£F)   I(**Fatta  ctr. nuovi elementi    >>)
@@ -113,7 +113,7 @@ _7_WARE.up - GM
  >Impostazioni
    :  : DEC T(ST) K(GM1)   I(**Fatta                         >>)
  >Standard da riprendere da modello
-   :  : DEC T(ST) K(GM*)   I(**Gestita  parametri cablati    >>)
+   :  : DEC T(ST) K(GM\*)   I(**Gestita  parametri cablati    >>)
  >Altre tabelle proposte
    :  : DEC T(ST) K(GMC)   I(**Fatta                         >>)
    :  : DEC T(ST) K(GMF)   I(**Fatta                         >>)
@@ -123,7 +123,7 @@ _7_WARE.up - GM
 _7_MARP.up - M5      
  >Impostazioni
  >Standard da riprendere da modello
-   :  : DEC T(ST) K(M5*)   I(**Gestita  parametri cablati    >>)
+   :  : DEC T(ST) K(M5\*)   I(**Gestita  parametri cablati    >>)
  >Altre tabelle proposte
    :  : DEC T(ST) K(M5E)   I(**Gestita                       >>)
    :  : DEC T(ST) K(M5F)   I(**Gestita                       >>)
@@ -132,16 +132,16 @@ _7_PROD.up - P5
  >Impostazioni
    :  : DEC T(ST) K(P51)   I(**Fatta                         >>)
  >Standard da riprendere da modello
-   :  : DEC T(ST) K(P5*)   I(**Gestita  parametri cablati    >>)
+   :  : DEC T(ST) K(P5\*)   I(**Gestita  parametri cablati    >>)
  >Altre tabelle proposte
    :  : DEC T(ST) K(P5I)   I(**Gestita                       >>)
    :  : DEC T(ST) K(P5T)   I(**Gestita                       >>)
-  _9_Gestire Parametro 2P2 con max risalita PRO/** indicando GMC versamento
+  _9_Gestire Parametro 2P2 con max risalita PRO/\*\* indicando GMC versamento
 
 _7_TRAD.up - V5      
  >Impostazioni
  >Standard da riprendere da modello
-   :  : DEC T(ST) K(V5*)   I(**Fatta                         >>)
+   :  : DEC T(ST) K(V5\*)   I(**Fatta                         >>)
  >Altre tabelle proposte
    :  : DEC T(ST) K(V5A)   I(**Fatta                         >>)
    :  : DEC T(ST) K(V5BDP) I(**Fatta                         >>)

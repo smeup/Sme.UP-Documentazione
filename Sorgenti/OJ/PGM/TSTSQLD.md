@@ -6,7 +6,7 @@
 
 ## CLOSE - Chiude il cursore
 >    C                  EVAL      £SQLD_FUNFU='CLOSE'
-    C                  EVAL      £SQLD_FUNME=*BLANKS
+    C                  EVAL      £SQLD_FUNME=\*BLANKS
     C                  EXSR      £SQLD
 
 
@@ -15,7 +15,7 @@
 
 ### NAM  - recuperando i nomi di sistema dei campi in £SQLDCName
 >    C                  EVAL      £SQLDString=SelectSQL
-     * numero di righe per istruzione OPTIMIZE (se 0 assume 5000)
+     \* numero di righe per istruzione OPTIMIZE (se 0 assume 5000)
     C                  EVAL      £SQLDRows=n
     C                  EVAL      £SQLD_FUNFU='OPEN'
     C                  EVAL      £SQLD_FUNME='NAM'
@@ -93,12 +93,12 @@
     C                  EXSR      £SQLD
 
 ### LET - Lettura
->     * ciclo sui campi
-    C                  DO        *HIVAL
+>     \* ciclo sui campi
+    C                  DO        \*HIVAL
     C                  EVAL      £SQLD_FUNFU='FINDC'
     C                  EVAL      £SQLD_FUNME='LET'
     C                  EXSR      £SQLD
-    C                  IF        £SQLD35=*ON
+    C                  IF        £SQLD35=\*ON
     C                  LEAVE
     C                  ENDIF
     C                  ENDDO
@@ -150,79 +150,79 @@
 
 
 # VARIABILI
->      * Stringa istruzione SQL (in INPUT)
-      * Record restituito (in OUTPUT con funzione 'RETREC')
-      * Valore del campo restituito (in OUTPUT con funzione 'READF')
+>      \* Stringa istruzione SQL (in INPUT)
+      \* Record restituito (in OUTPUT con funzione 'RETREC')
+      \* Valore del campo restituito (in OUTPUT con funzione 'READF')
      D £SQLDString     S          32766    VARYING
-      *-------------------------------------------------------------------
-      * DS INPUT/OUTPUT
+      \*-------------------------------------------------------------------
+      \* DS INPUT/OUTPUT
      D £SQLD_DS1       DS
-      * INPUT
-     D* numero in base al quale eseguire il fetch relative (con funzione 'RELATIVE')
-     D* numero di righe per l'optimize su apertura cursore
+      \* INPUT
+     D\* numero in base al quale eseguire il fetch relative (con funzione 'RELATIVE')
+     D\* numero di righe per l'optimize su apertura cursore
      D  £SQLDRows                    30P 0
-      * OUTPUT con info campi (con funzione 'READF')
-     D* nome colonna (con metodo 'NAM' o 'NAMLAB') o intestazione (con metodo 'LAB')
+      \* OUTPUT con info campi (con funzione 'READF')
+     D\* nome colonna (con metodo 'NAM' o 'NAMLAB') o intestazione (con metodo 'LAB')
      D  £SQLDCName                   30
-     D* label (intestazione) colonna (con metodo 'NAMLAB')
+     D\* label (intestazione) colonna (con metodo 'NAMLAB')
      D  £SQLDCLabel                  30
-     D* tipo di dato del campo
+     D\* tipo di dato del campo
      D  £SQLDCDType                   5I 0
-     D* lunghezza campo stringa
+     D\* lunghezza campo stringa
      D  £SQLDCLen                     5I 0
-     D* scala campo numerico (numero posizioni decimali)
+     D\* scala campo numerico (numero posizioni decimali)
      D  £SQLDCScale                  10I 0
-     D* precisione campo numerico
+     D\* precisione campo numerico
      D  £SQLDCPrec                   10I 0
-     D* indice della colonna corrente del record
+     D\* indice della colonna corrente del record
      D  £SQLDCurCol                   7  0
-     D* numero totale delle colonne del record
+     D\* numero totale delle colonne del record
      D  £SQLDTotCol                   7  0
-     D* tipo di dato del campo nel formato della £IR1AC
+     D\* tipo di dato del campo nel formato della £IR1AC
      D  £SQLDCDTpIR                   1
-      *---------------------------------------------------------------
-      * DS OUTPUT Info ERRORE
+      \*---------------------------------------------------------------
+      \* DS OUTPUT Info ERRORE
      D £SQLD_ERROR     DS
-      * Indicatore di errore
+      \* Indicatore di errore
      D  £SQLD35                        N
-      * SQLCOD
+      \* SQLCOD
      D  £SQLDCOD                      5I 0
-      * SQLERM
+      \* SQLERM
      D  £SQLDERM                     80
-      * %Status (per errori di allocazione di memoria)
+      \* %Status (per errori di allocazione di memoria)
      D  £SQLDSTATUS                   5S 0
-      * Variabili per errore non SQL
+      \* Variabili per errore non SQL
      D  £SQLDVA                      45
 
 # ESEMPIO
->     ESEGUIRE UNA LETTURA DEL BRARTI0F QUERY  :  SELECT * FROM BRARTI0F
-     C*APRO
-     C                   EVAL      £SQLDString='SELECT * FROM BRARTI0F'
+>     ESEGUIRE UNA LETTURA DEL BRARTI0F QUERY  :  SELECT \* FROM BRARTI0F
+     C\*APRO
+     C                   EVAL      £SQLDString='SELECT \* FROM BRARTI0F'
      C                   EVAL      £SQLD_FUNFU='OPEN'
      C                   EVAL      £SQLD_FUNME='NAM'
      C                   EXSR      £SQLD
-1    C                   IF        £SQLD35=*ON
+1    C                   IF        £SQLD35=\*ON
      C                   LEAVESR
 1e   C                   ENDIF
-     C*posizionamento
+     C\*posizionamento
      C                   EVAL      £SQLD_FUNFU='POS'
      C                   EVAL      £SQLD_FUNME='NEXT'
      C                   EXSR      £SQLD
-1    C                   IF        £SQLD35=*ON
+1    C                   IF        £SQLD35=\*ON
      C                   LEAVESR
 1e   C                   ENDIF
-     C*lettura
-     C                   DO        *HIVAL
+     C\*lettura
+     C                   DO        \*HIVAL
      C                   EVAL      £SQLD_FUNFU='RETREC'
      C                   EVAL      £SQLD_FUNME='MAT'
      C                   EXSR      £SQLD
-1    C                   IF        £SQLD35=*ON
+1    C                   IF        £SQLD35=\*ON
      C                   LEAVE
 1e   C                   ENDIF
-     C* £SQLDString  CONTIENE IL RISULTATO DELLA FETCH
+     C\* £SQLDString  CONTIENE IL RISULTATO DELLA FETCH
 1e   C                   ENDDO
-     C*CHIUDO
+     C\*CHIUDO
      C                   EVAL      £SQLD_FUNFU='CLOSE'
-     C                   EVAL      £SQLD_FUNME=*BLANKS
+     C                   EVAL      £SQLD_FUNME=\*BLANKS
      C                   EXSR      £SQLD
-     C* LA FUNZIONE CLOSE CHIUDE IL CURSORE E PULISCE £SQLDString
+     C\* LA FUNZIONE CLOSE CHIUDE IL CURSORE E PULISCE £SQLDString

@@ -3,38 +3,38 @@ Tramite questo servizio è possibile ottenere la costruzione dinamica del docume
 Per ottenere il documento XML si devono uttilizare i Nodi appartenenti alla stessa struttura.
 
 # PARAMETRI DI INPUT
-* £J15FU :  Funzione
-* £J15ME :  Metodo
-* £J15DS :  Immagine di Comunicazione
-* £J15IM :  Immagine di Input/Output
-* £J15MS :  Codice Messaggio
-* £J15FI :  File Messaggio
-* £J1535 :  Errore
+\* £J15FU :  Funzione
+\* £J15ME :  Metodo
+\* £J15DS :  Immagine di Comunicazione
+\* £J15IM :  Immagine di Input/Output
+\* £J15MS :  Codice Messaggio
+\* £J15FI :  File Messaggio
+\* £J1535 :  Errore
 
 ## Immagine di comunicazione
 Vediamo in dettaglio i parametri di comunicazione
-* £J15CO - Contesto, insieme alla struttura identifica il documento XML
-* £J15ST - Struttura, insieme al contesto identifica il documento XML
-* £J15TN - Tipo nodo, permette di derivare il nodo da una struttura conosciuta : 
-** "M"     "Messaggi.Messaggio"
-** "MO"    "Opzioni.Opzione"
-** "GC"    "Griglia.Colonna"
-** "SP"    "Setup.Program"
-** "EX"    "Setup.Program"
-** "EXB"   "EXB"
-** "EXBS"  "Setup"
-** "EXBU"  "UserSetups"
-** "EXBUS" "Setup"
-** "EXUA"  "EXU.Actions"
-** "EXUCO" "EXU.Comandi.Oggetto"
-** "EXUS"  "EXU.Config"
-** "EXUFF" "EXU.Fields.Field"
-** "EXUR"  "EXU.Search"
-** "U"     "UserSetups"
-** "US"    "Setup"
-* £J15ND Permette la creazione di un nodo non presente nei tipi nodi
-* £J15AP Non chiudere il nodo se in presenza di uno stesso nodo
-* £J15SA Nodo senza attributi
+\* £J15CO - Contesto, insieme alla struttura identifica il documento XML
+\* £J15ST - Struttura, insieme al contesto identifica il documento XML
+\* £J15TN - Tipo nodo, permette di derivare il nodo da una struttura conosciuta : 
+\*\* "M"     "Messaggi.Messaggio"
+\*\* "MO"    "Opzioni.Opzione"
+\*\* "GC"    "Griglia.Colonna"
+\*\* "SP"    "Setup.Program"
+\*\* "EX"    "Setup.Program"
+\*\* "EXB"   "EXB"
+\*\* "EXBS"  "Setup"
+\*\* "EXBU"  "UserSetups"
+\*\* "EXBUS" "Setup"
+\*\* "EXUA"  "EXU.Actions"
+\*\* "EXUCO" "EXU.Comandi.Oggetto"
+\*\* "EXUS"  "EXU.Config"
+\*\* "EXUFF" "EXU.Fields.Field"
+\*\* "EXUR"  "EXU.Search"
+\*\* "U"     "UserSetups"
+\*\* "US"    "Setup"
+\* £J15ND Permette la creazione di un nodo non presente nei tipi nodi
+\* £J15AP Non chiudere il nodo se in presenza di uno stesso nodo
+\* £J15SA Nodo senza attributi
 
 # FUNZIONI E METODI
 ## CON.CRE - Contesto Crea

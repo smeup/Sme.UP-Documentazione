@@ -6,7 +6,7 @@ parziale del suggerimento (Solo riduzione e anticipo o ritardo).
 
  : T02 Elemento della tabella M5G : 
 la sintassi dell'elemento di tabella comprende sia lo scenario dell'MRP sia il plant su cui si deve applicare il selfie. La separazione tra i due codici è effettuata col carattere _ .
-Ad esempio l'elemento **_001 significa Scenario = ** e Plant = 001.
+Ad esempio l'elemento \*\*_001 significa Scenario = \*\* e Plant = 001.
 
 ## Impianto monoplant.
 Si può inserire solo l'elemento scenario , in questo caso si applica a tutti i plant.

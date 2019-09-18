@@ -9,8 +9,8 @@ Eseguire la ricerca alfabetica relativa se richiesto
 £IRIME :  Metodo
 £IRIAM :  Ambiente
 £IRICO :  Contesto
-£IRICD :  Codice risorsa  (se funzione = *Blanks)
-£IRITR :  Tipo   risorsa  (se funzione = *Blanks)
+£IRICD :  Codice risorsa  (se funzione = \*Blanks)
+£IRITR :  Tipo   risorsa  (se funzione = \*Blanks)
 £IRIRI :  N.ro Record di input
 £IRILC :  Livello chiamata
 
@@ -22,8 +22,8 @@ Eseguire la ricerca alfabetica relativa se richiesto
 £IRIFI :  File   messaggio ritorno
 £IRICM :  Ultimo Comando
 £IRIRO :  N.ro record di output
-*IN35  :  se On = Codice errato
-*IN36  :  se On = eseguita ricerca alfabetica
+\*IN35  :  se On = Codice errato
+\*IN36  :  se On = eseguita ricerca alfabetica
 BRRISO :  DS valorizzata
 
 # Prerequisiti
@@ -33,31 +33,31 @@ D/COPY QILEGEN,£IRIDS
 
   1) ricerca/decodifica/controllo risorsa
 
-C*                  EVAL      £IRICD= Risorsa
-C*                  EVAL      £IRITR= Tipo
-C*                  EXSR      £IRI
-C*                  EVAL      Descrizione= £IRIDE
-C*                  EVAL      Risorsa    = £IRICD
-C*                  EVAL      Record_BRRISO
+C\*                  EVAL      £IRICD= Risorsa
+C\*                  EVAL      £IRITR= Tipo
+C\*                  EXSR      £IRI
+C\*                  EVAL      Descrizione= £IRIDE
+C\*                  EVAL      Risorsa    = £IRICD
+C\*                  EVAL      Record_BRRISO
 
  2) SETLL+READE sul logico BRRISO3L (tipo risorsa/gruppo risorsa)
 
-C*                  CLEAR                   BRRISO
-C*                  EVAL      £IRIFU='SLRE'
-C*                  EVAL      £IRIME='3L'
-C*                  EVAL      C§TRIS='CDL'
-C*                  EVAL      C§DEPT='AAA'
-C*                  DO        *HIVAL
-C*                  EXSR      £IRI
-C*                  IF        £IRIMS='FINE'
-C*                  LEAVE
-C*                  ENDIF
-C*
-C*                  utilizzo dei campi del BRRISO
-C*
-C*                  EVAL      £IRIFU='RE'
-C*                  EVAL      £IRIME='3L'
-C*                  ENDDO
+C\*                  CLEAR                   BRRISO
+C\*                  EVAL      £IRIFU='SLRE'
+C\*                  EVAL      £IRIME='3L'
+C\*                  EVAL      C§TRIS='CDL'
+C\*                  EVAL      C§DEPT='AAA'
+C\*                  DO        \*HIVAL
+C\*                  EXSR      £IRI
+C\*                  IF        £IRIMS='FINE'
+C\*                  LEAVE
+C\*                  ENDIF
+C\*
+C\*                  utilizzo dei campi del BRRISO
+C\*
+C\*                  EVAL      £IRIFU='RE'
+C\*                  EVAL      £IRIME='3L'
+C\*                  ENDDO
 
 # Note particolari
 

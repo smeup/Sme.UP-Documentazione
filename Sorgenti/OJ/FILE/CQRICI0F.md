@@ -1,7 +1,7 @@
 ### Contenuto
  Dati informativi della fase di ciclo di collaudo.
 
-### Sigla oggetto in TA/*CNTT
+### Sigla oggetto in TA/\*CNTT
  'H1'                               £FUNT1
 
 ### Chiave primaria

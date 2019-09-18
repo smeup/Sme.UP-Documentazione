@@ -61,18 +61,18 @@
 
 ---------------------------------------------------------------------------------------------
 - Da far fare
- * Fare in modo che non si apra il LOA10, verificando già nel LOSER_47 se ho un solo codice
- * Fare in modo che nella scheda di test da ridenominare in loser_47 (al posto di esegui_tst)  mi venga evidenziata la singola stringa risolta, il livello di elaborazione che ha subito (era già in partenza il codice esatto ho dovuto fare una dec?)
- * Fare in modo che non venga emesso il loa10 se in ricerca la corrispondenza è unica
+ \* Fare in modo che non si apra il LOA10, verificando già nel LOSER_47 se ho un solo codice
+ \* Fare in modo che nella scheda di test da ridenominare in loser_47 (al posto di esegui_tst)  mi venga evidenziata la singola stringa risolta, il livello di elaborazione che ha subito (era già in partenza il codice esatto ho dovuto fare una dec?)
+ \* Fare in modo che non venga emesso il loa10 se in ricerca la corrispondenza è unica
     => devo far fare la ricerca anche nel LOSER_47? Duplico?
     => la stessa cosa devo farla anche quando tenta di partire la ricerca del parametro
 
- * Risolvere i problema dei nodi del LOA12
- * Perchè se faccio consultazioni non mi esce nulla?
- * E' possibile fare in modo che per il caso ad esempio dei clienti, con stringa dati mi costruisca l'albero senza il nodo "non definito"?
+ \* Risolvere i problema dei nodi del LOA12
+ \* Perchè se faccio consultazioni non mi esce nulla?
+ \* E' possibile fare in modo che per il caso ad esempio dei clienti, con stringa dati mi costruisca l'albero senza il nodo "non definito"?
 
 
-* Guardare utilizzo £SQLS per il controllo della stringa complessa
+\* Guardare utilizzo £SQLS per il controllo della stringa complessa
 
 - Mettere nella scheda LOA12??
 - In fondo al pgm fare casi di test, da esemplificare in una scheda
@@ -112,8 +112,8 @@
 
 ++ .N - Note ------------------------------------ +
 ++ .X - Note Extra ------------------------------ +
-* Fare in modo che l'O mi funzioni di nuovo correttamente, perchè la scansione fa casino?
-* Fare in modo che pur mantenendo la struttura della lettera iniziale, al momento venga assunta come lettera la O
+\* Fare in modo che l'O mi funzioni di nuovo correttamente, perchè la scansione fa casino?
+\* Fare in modo che pur mantenendo la struttura della lettera iniziale, al momento venga assunta come lettera la O
 
 - Fare in modo che inizino ad essere applicati gli alias su tipooggetto e codice oggetto, lasciando perdere la questione della funzione
 - Fare in modo che se non mi viene identificato qualcosa vada in ricerca
@@ -130,8 +130,8 @@
   - in fondo al pgm fare casi di test, da esemplificare in una scheda
   -> nella scheda di test evidenziare cosa è oggetto, cosa è il tipo cosa è la funzione, in tre campi separati
   -> fare in modo che veda anche i tentativi che vengono fatti per identificare il tipo
-  **=> vedere perchè se faccio cncli,brembo incassi funziona, cncol,lancini incassi non funziona la differenza dovrebbe essere dovuta al caso in cui devo scegliere fra più codici corrispondenti
-  **=> perchè non funziona più la ricerca per parametro? es. TApagamenti?
+  \*\*=> vedere perchè se faccio cncli,brembo incassi funziona, cncol,lancini incassi non funziona la differenza dovrebbe essere dovuta al caso in cui devo scegliere fra più codici corrispondenti
+  \*\*=> perchè non funziona più la ricerca per parametro? es. TApagamenti?
   - Impostata selezione automatica se viene trovato un solo codice corrispondente => per come è adesso ha lo svantaggio che per un attimo si vede la matrice di ricerca ... => però così la ricerca viene effettuata solo una volta, viceversa dovrei ripeterla (con due sql ...)
   - Idee aggiuntive : 
   - Prevedere a livello di oggetto di poter specificare i campi in cui voglio effettuare la ricerca implicita

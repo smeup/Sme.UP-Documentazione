@@ -1,16 +1,16 @@
 # Obiettivo
 Inizializzare il record del file GMTRIM0F : 
- * a. da zero
- * b. derivandolo da un altro già esistente
+ \* a. da zero
+ \* b. derivandolo da un altro già esistente
 
 
 # Funzioni e metodi
- * Funzione - "CLEAR"   :  inizializzazione totale del record
- ** Metodo   - blanks   :  il record verrà scritto dal pgm chiamante
- ** Metodo   - "WRI"    :  il record verrà scritto dalla funzione £GMW
- * Funzione - "DERIV"   :  inizializzazione del record a partire da un altro
- ** Metodo   - blanks   :  il record verrà scritto dal pgm chiamante
- ** Metodo   - "WRI"    :  il record verrà scritto dalla funzione £GMW
+ \* Funzione - "CLEAR"   :  inizializzazione totale del record
+ \*\* Metodo   - blanks   :  il record verrà scritto dal pgm chiamante
+ \*\* Metodo   - "WRI"    :  il record verrà scritto dalla funzione £GMW
+ \* Funzione - "DERIV"   :  inizializzazione del record a partire da un altro
+ \*\* Metodo   - blanks   :  il record verrà scritto dal pgm chiamante
+ \*\* Metodo   - "WRI"    :  il record verrà scritto dalla funzione £GMW
 
 
 # Input

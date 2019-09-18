@@ -1,8 +1,8 @@
- :  : DEC T(OJ)  P(*FILE) K(V5TDOC0F)
+ :  : DEC T(OJ)  P(\*FILE) K(V5TDOC0F)
 ## Contenuto
 Dati generali di un documento del ciclo esterno.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'DO'                               £FUNT1
 
 ## Chiave primaria
@@ -23,15 +23,15 @@ V5A (Modello documento)
  :  : DEC T(ST) K(V5A)
 
 ## Autorizzazioni
- * _2_Autorizzazione gestione testate documenti, Classe = V5DO01, Funzione = Tipo documento
- * _2_Autorizzazione gestione testate x modello, Classe = V5DO01M, Funzione = TTTMMM (TTT = Tipo documento, MMM = Modello documento)
- * _2_Autorizzazione per stato/flag, Classe = V5DO01D, Funzione = Tipo documento
- * _2_Autorizzazione campi specifici, Classe = PLC-V5TDOC, Funzione = Tipo documento
- * _2_Autorizzazione dati riservati da "lista campi" di un oggetto, Classe = RIS-, Funzione = V5D-TTT (dove TTT = Tipo documento)
- * _2_Autorizzazione dati riservati da "lista numeri" di un oggetto, Classe = RIS-, Funzione = VL_DOTTT (dove TTT = Tipo documento)
- * _2_Autorizzazione "sintesi conti spese tasse" di un documento, Classe = RIS-, Funzione = V5DTTT (dove TTT = Tipo documento)
- * _2_Autorizzazione "Funzioni aggiuntive - F14" di un documento, Classe = ABILITA, Funzione = V5DO01D
- * _2_Autorizzazione "Funzioni di un oggetto - F10", Classe = B£FUN0, Funzione = DO .
+ \* _2_Autorizzazione gestione testate documenti, Classe = V5DO01, Funzione = Tipo documento
+ \* _2_Autorizzazione gestione testate x modello, Classe = V5DO01M, Funzione = TTTMMM (TTT = Tipo documento, MMM = Modello documento)
+ \* _2_Autorizzazione per stato/flag, Classe = V5DO01D, Funzione = Tipo documento
+ \* _2_Autorizzazione campi specifici, Classe = PLC-V5TDOC, Funzione = Tipo documento
+ \* _2_Autorizzazione dati riservati da "lista campi" di un oggetto, Classe = RIS-, Funzione = V5D-TTT (dove TTT = Tipo documento)
+ \* _2_Autorizzazione dati riservati da "lista numeri" di un oggetto, Classe = RIS-, Funzione = VL_DOTTT (dove TTT = Tipo documento)
+ \* _2_Autorizzazione "sintesi conti spese tasse" di un documento, Classe = RIS-, Funzione = V5DTTT (dove TTT = Tipo documento)
+ \* _2_Autorizzazione "Funzioni aggiuntive - F14" di un documento, Classe = ABILITA, Funzione = V5DO01D
+ \* _2_Autorizzazione "Funzioni di un oggetto - F10", Classe = B£FUN0, Funzione = DO .
 
 ## Note strutturate (Tabella NSC)
 Il contenitore note si assume dalla tabella V5A.

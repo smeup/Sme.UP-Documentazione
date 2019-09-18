@@ -2,9 +2,9 @@
 
 ##  Ripresa dei numeri oggetto
 La ripresa dei numeri oggetto può essere gestita : 
- * Con lancio estemporaneo (Dalla scheda del modulo)
- * Con lavoro schedulato   (Attraverso il lancio delle funzioni B£AP00G)
- * Dall'aplicativo ogni qual volta si chiede un numero
+ \* Con lancio estemporaneo (Dalla scheda del modulo)
+ \* Con lavoro schedulato   (Attraverso il lancio delle funzioni B£AP00G)
+ \* Dall'aplicativo ogni qual volta si chiede un numero
 
 L'aggiornamento di un singolo documento o di una singola registrazione è altresì possibile attraverso la configurazione di un'azione di POP-UP.
 

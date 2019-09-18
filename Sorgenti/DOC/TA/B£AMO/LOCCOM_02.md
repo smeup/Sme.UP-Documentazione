@@ -16,22 +16,22 @@ Una volta scelto l'ingresso utente viene verificata l'effettiva validità. Se è
 tutte le chiamate necessarie per avviare la sessione su quell'ingresso utente.
 
 ## Dettaglio : 
-* Inserimento credenziali
-* INZJAC
-* SMEVER JAC
-  **Risposta con "V3R1"
-* DATAMB NUM
-  **Risposta con numero ambienti
-* LISAMB LET
-  **Risposta con lista ambienti (primi 20 se presenti di più)
-* Emissione lista ambienti
-* Scelta ambiente
-* DATAMB VER
-* DATSES CON MAS
-  **CALL JAJAS0SB che effettua SBMJOB LO_E
-* DATSES CHG
-  **Passa per B£QQ50V (CHGLIBL)
-* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
+\* Inserimento credenziali
+\* INZJAC
+\* SMEVER JAC
+  \*\*Risposta con "V3R1"
+\* DATAMB NUM
+  \*\*Risposta con numero ambienti
+\* LISAMB LET
+  \*\*Risposta con lista ambienti (primi 20 se presenti di più)
+\* Emissione lista ambienti
+\* Scelta ambiente
+\* DATAMB VER
+\* DATSES CON MAS
+  \*\*CALL JAJAS0SB che effettua SBMJOB LO_E
+\* DATSES CHG
+  \*\*Passa per B£QQ50V (CHGLIBL)
+\* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
 
 # Looc.UP se al collegamento specifico l'ingresso utente
 ## Descrizione generale
@@ -40,15 +40,15 @@ Viene verificata la validità dell'ingresso utente. Se è valido vengono fatte t
 
 ## Dettaglio
 Inserimento credenziali e ingresso utente
-* INZJAC
-* SMEVER JAC
-  **Risposta con "V3R1"
-* DATAMB VER
-* DATSES CON MAS
-  **CALL JAJAS0SB che effettua SBMJOB LO_E
-* DATSES CHG
-  **Passa per B£QQ50V (CHGLIBL)
-* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
+\* INZJAC
+\* SMEVER JAC
+  \*\*Risposta con "V3R1"
+\* DATAMB VER
+\* DATSES CON MAS
+  \*\*CALL JAJAS0SB che effettua SBMJOB LO_E
+\* DATSES CHG
+  \*\*Passa per B£QQ50V (CHGLIBL)
+\* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
 
 
 # Looc.UP se al collegamento specifico un ambiente (NON un ingresso utente)
@@ -61,40 +61,40 @@ Poi viene chiesta la lista degli ingressi utente. In caso l'utente abbia più di
 
 ## Dettaglio
 
-*Inserimento credenziali
-* INZJAC
-* SMEVER JAC
-  **Risposta con "V3R1"
-* DATAMB NUM
-  **Risposta con numero ambienti
-* LISAMB LET
-* Risposta con lista ambienti
-* Eventuale ripetizione di LISAMB LET
-* Ricerca dell'ingresso utente corrispondente all'ambiente.
-* DATAMB VER
-* DATSES CON MAS
-  **CALL JAJAS0SB che effettua SBMJOB LO_E
-* DATSES CHG
-  **Passa per B£QQ50V (CHGLIBL)
-* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
+\*Inserimento credenziali
+\* INZJAC
+\* SMEVER JAC
+  \*\*Risposta con "V3R1"
+\* DATAMB NUM
+  \*\*Risposta con numero ambienti
+\* LISAMB LET
+\* Risposta con lista ambienti
+\* Eventuale ripetizione di LISAMB LET
+\* Ricerca dell'ingresso utente corrispondente all'ambiente.
+\* DATAMB VER
+\* DATSES CON MAS
+  \*\*CALL JAJAS0SB che effettua SBMJOB LO_E
+\* DATSES CHG
+  \*\*Passa per B£QQ50V (CHGLIBL)
+\* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
 
 # Web.UP con provider se al collegamento specifico l'ingresso utente
 
 ## Descrizione generale
-*Viene inizializzato l'ambiente.
-*Viene verificata la validità dell'ingresso utente. Se è valido vengono fatte tutte le chiamate necessarie per avviare la sessione su quell'ingresso utente.
+\*Viene inizializzato l'ambiente.
+\*Viene verificata la validità dell'ingresso utente. Se è valido vengono fatte tutte le chiamate necessarie per avviare la sessione su quell'ingresso utente.
 
 ## Dettaglio
-* Inserimento credenziali e ingresso utente
-* INZJAC
-* SMEVER JAC
-  **Risposta con "V3R1"
-* DATAMB VER
-* DATSES CON MAS
-  **CALL JAJAS0SB che effettua SBMJOB LO_E
-* DATSES CHG
-  **Passa per B£QQ50V (CHGLIBL)
-* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
+\* Inserimento credenziali e ingresso utente
+\* INZJAC
+\* SMEVER JAC
+  \*\*Risposta con "V3R1"
+\* DATAMB VER
+\* DATSES CON MAS
+  \*\*CALL JAJAS0SB che effettua SBMJOB LO_E
+\* DATSES CHG
+  \*\*Passa per B£QQ50V (CHGLIBL)
+\* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
 
 # Web.UP con provider se al collegamento specifico un ambiente (NON un ingresso utente)
 
@@ -104,22 +104,22 @@ Successivamente viene chiesto il numero di ambienti disponibili. Perché? Non lo
 Poi viene chiesta la lista degli ingressi utente. In caso l'utente abbia più di 20 ingressi utente attivi, viene ripetuta la richiesta (col posizionamento adeguato) fino a quando non vengono comunicati tutti. Il client cerca il primo ingresso utente corrispondente all'ambiente indicato e ne verifica la validità. Se è valido vengono fatte tutte le chiamate necessarie per avviare la sessione su quell'ingresso utente.
 
 ## Dettaglio
-* Inserimento credenziali
-* INZJAC
-* SMEVER JAC
- **Risposta con "V3R1"
-* DATAMB NUM
-  **Risposta con numero ambienti
-* LISAMB LET
-  **Risposta con lista ambienti
-* Eventuale ripetizione di LISAMB LET
-* Ricerca dell'ingresso utente corrispondente all'ambiente.
-* DATAMB VER
-* DATSES CON MAS
-  **CALL JAJAS0SB che effettua SBMJOB LO_E
-* DATSES CHG
-  **Passa per B£QQ50V (CHGLIBL)
-* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
+\* Inserimento credenziali
+\* INZJAC
+\* SMEVER JAC
+ \*\*Risposta con "V3R1"
+\* DATAMB NUM
+  \*\*Risposta con numero ambienti
+\* LISAMB LET
+  \*\*Risposta con lista ambienti
+\* Eventuale ripetizione di LISAMB LET
+\* Ricerca dell'ingresso utente corrispondente all'ambiente.
+\* DATAMB VER
+\* DATSES CON MAS
+  \*\*CALL JAJAS0SB che effettua SBMJOB LO_E
+\* DATSES CHG
+  \*\*Passa per B£QQ50V (CHGLIBL)
+\* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
 
 
 
@@ -145,13 +145,13 @@ Viene richiesta la LISAMB LET. Forse perché il fun-provider non capisce che ha 
 
 ### Dettaglio
 Inserimento credenziali e ingresso utente
-* INZJAC - NON FATTA e SERVE
-* SMEVER JAC - non fatta ma direi che non serve
-* DATAMB VER - NON FATTA e SERVE
-* LISAMB LET - FATTA MA INUTILE?
-* DATSES CON MAS - fatta
-* DATSES CHG - NON FATTA. Sarebbe meglio farla? Se il QZRCSRVS poi "muore", non serve.
-* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ - fatta
+\* INZJAC - NON FATTA e SERVE
+\* SMEVER JAC - non fatta ma direi che non serve
+\* DATAMB VER - NON FATTA e SERVE
+\* LISAMB LET - FATTA MA INUTILE?
+\* DATSES CON MAS - fatta
+\* DATSES CHG - NON FATTA. Sarebbe meglio farla? Se il QZRCSRVS poi "muore", non serve.
+\* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ - fatta
 
 ## Web.UP con fun-provider se al collegamento specifico un ambiente (NON un ingresso utente)
 
@@ -162,19 +162,19 @@ A questo punto viene avviata la sessione. Poi viene chiesta la lista degli ingre
 
 ### Dettaglio com'è
 Inserimento credenziali
-* INZJAC - NON FATTA e SERVE
-* SMEVER JAC - non fatta ma direi che non serve
-* DATSES CON MAS - VA FATTA DOPO LA LISAMB LET e DATAMB VER (che non è nemmeno fatta)
-* LISAMB LET - fatta solo sulla prima pagina
-* Ricerca dell'ingresso utente corrispondente all'ambiente.
-* DATSES CHG - NON FATTA. Sarebbe meglio farla? Se il QZRCSRVS poi "muore", non serve.
-* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
+\* INZJAC - NON FATTA e SERVE
+\* SMEVER JAC - non fatta ma direi che non serve
+\* DATSES CON MAS - VA FATTA DOPO LA LISAMB LET e DATAMB VER (che non è nemmeno fatta)
+\* LISAMB LET - fatta solo sulla prima pagina
+\* Ricerca dell'ingresso utente corrispondente all'ambiente.
+\* DATSES CHG - NON FATTA. Sarebbe meglio farla? Se il QZRCSRVS poi "muore", non serve.
+\* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ
 
 ### Dettaglio come dovrebbe essere
-* INZJAC
-* LISAMB LET n volte
-* DATAMB VER
-* DATSES CON MAS
-* DATSES CHG (Se il QZRCSRVS poi "muore", non serve.)
-* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ - fatta
+\* INZJAC
+\* LISAMB LET n volte
+\* DATAMB VER
+\* DATSES CON MAS
+\* DATSES CHG (Se il QZRCSRVS poi "muore", non serve.)
+\* Il client spedisce su DTAQ il COM-COL-CHG e ora tutta la comunicazione si sposta su DTAQ - fatta
 

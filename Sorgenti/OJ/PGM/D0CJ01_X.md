@@ -1,2 +1,2 @@
-* Esempio di situazioni gestibili nella Exit
+\* Esempio di situazioni gestibili nella Exit
 

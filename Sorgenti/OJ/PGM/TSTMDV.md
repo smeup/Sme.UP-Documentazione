@@ -35,7 +35,7 @@ DS utilizzata dalla routine standard di memorizzazione dei dati ed è utilizzata
 YYYYYY è un campo alfanumerico di 1 che bisogna impostare =
 '0' e che gestisce se ritornato = '1' l'errore della scelta.
 Il programma B£MDV5 gestisce utilizzando il campo di richiesta le seguenti funzioni (è opportuno precisare che se il
-campo di richiesta = *blanks è opportuno non lanciare il programma, comunque non succede nulla) : 
+campo di richiesta = \*blanks è opportuno non lanciare il programma, comunque non succede nulla) : 
 CONTROLLO
 Se nella prima posizione del campo richiesta c'è un carattere diverso da  '?/!' il pgm controlla la validità della
 richiesta ed esegue la ripresa se la scelta è corretta oppure imposta a '1' il campo YYYYYY.
@@ -48,7 +48,7 @@ il Sbf eseguo un'operazione alla volta quindi la prima, riemettendo il Sbf se la
 scelta.
 Nota Tecnica : 
 La memorizzazione fisica delle scelte avviene utilizzando MD£UTE e MD£PGM (campi chiave del file
-MEDAV00F) inserendo nel primo campo '**WWWWWWWW' (dove ** è un valore fisso e WWWWWWWW è il campo del sbf gestito
+MEDAV00F) inserendo nel primo campo '\*\*WWWWWWWW' (dove \*\* è un valore fisso e WWWWWWWW è il campo del sbf gestito
 dall'operatore) e nel secondo campo il nome del programma (£PDSNP).
 
 # Default per tutti gli utenti
@@ -57,9 +57,9 @@ dall'operatore) e nel secondo campo il nome del programma (£PDSNP).
    Il programma gestisce la lettura di due livelli di default
    utente : 
    - default di utente corrente con chiave
-     Utente :  "<utente>", Ambiente :  "<ambiente>-*"
+     Utente :  "<utente>", Ambiente :  "<ambiente>-\*"
    - default di tutti gli utenti con chiave
-     Utente :  "**      ", Ambiente :  "<ambiente>-*"
+     Utente :  "\*\*      ", Ambiente :  "<ambiente>-\*"
    l'immissione dell'impostazione di default per tutti gli
    utenti non è possibile da alcuna funzione dei programmi di mdv
    ma può essere realizzata mediante la funzione UP MDV,
@@ -67,7 +67,7 @@ dall'operatore) e nel secondo campo il nome del programma (£PDSNP).
 
    Per creare un default per tutti gli utenti l'amministratore deve : 
     - creare un default utente personale.
-    - duplicare tale deafult tramite UP MDV sull'utente generico **.
+    - duplicare tale deafult tramite UP MDV sull'utente generico \*\*.
 
 
  FLUSSO

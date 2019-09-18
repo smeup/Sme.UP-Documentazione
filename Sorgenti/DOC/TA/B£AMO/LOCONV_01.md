@@ -7,7 +7,7 @@ I sorgenti dei formati video vengono letti e trasformati in un sorgente XML seco
 >.   <Formato Cod="£UFMT1" Tip="RECORD" Sfl="" Srn="" Pox="" Poy="" Rows="24" Cols="080" Sfp="" Csr=""
 .     <Modello>
 .      <Controlli>
-.       <Controllo Cod="IN1" Txt="**   ANAGRAFICA CESPITI   **">
+.       <Controllo Cod="IN1" Txt="\*\*   ANAGRAFICA CESPITI   \*\*">
 .        <Condizioni>
 .         <Condizione Se="" Allora="RI"/>
 .        </Condizioni>
@@ -35,8 +35,8 @@ I sorgenti dei formati video vengono letti e trasformati in un sorgente XML seco
 Introduciamo la /COPY £UIA e le sue funzioni in sostituzione delle chiamate al video
 Ogni scrittura o lettura del video viene sostituita da una lettura o scrittura sulla opportuna coda di dati.
 La sostituzione viene fatta automaticamente da un programma specifico che : 
- * Crea un sorgente intermedio salvato nel file SRC
- * Crea se necessario un COPY per la DS del formato video salvata in £UI_DSP
+ \* Crea un sorgente intermedio salvato nel file SRC
+ \* Crea se necessario un COPY per la DS del formato video salvata in £UI_DSP
 
 ### Breve esempio di sostituzione di RPG
 >     C                   IF        £INZJT='I'

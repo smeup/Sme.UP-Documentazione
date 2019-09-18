@@ -34,7 +34,7 @@ Per attivare questa seconda gestione, dalla finestra di lista delle memorizzazio
 viene presentata la lista delle memorizzazioni per utente già presenti (X per selezionarne una già creata).
 La gestione è analoga alle memorizzazioni multiple con la differenza che il codice è lungo 1.
 
-_1_Nota :  se presente, il default utente è quello con codice = _2_"*"  (asterisco).
+_1_Nota :  se presente, il default utente è quello con codice = _2_"\*"  (asterisco).
 
 # Manutenzione memorizzazioni video
 Questa funzione serve per modificare le memorizzazioni video relative a qualsiasi programma ed a qualsiasi utente; è anche possibile copiare i parametri di scelta tra programmi diversi per utenti diversi.
@@ -42,10 +42,10 @@ _2_Nota bene; si deve fare molta attenzione nel copiare MDV tra programmi divers
 
 ## Formato guida
 ![B£BASE_03](http://localhost:3000/immagini/MBDOC_OGG-P_B£MDV0/BXBASE_03.png)
- * _2_UTENTE :  Se si inserisce solo il nome di un Utente e successivamente si preme invio compare il "Formato di Scelta" dove è possibile scegliere se Variare, Annullare, Interrogare i parametri video per ogni programma elencato.
- * _2_PROGRAMMA :  Viceversa inserendo solo il nome di un programma appare il "Formato di Scelta" con le opzioni Variazione, Annullamento e Interrogazione riferite alle scelte video degli utenti di cui esistono i parametri relativi al programma inserito.
+ \* _2_UTENTE :  Se si inserisce solo il nome di un Utente e successivamente si preme invio compare il "Formato di Scelta" dove è possibile scegliere se Variare, Annullare, Interrogare i parametri video per ogni programma elencato.
+ \* _2_PROGRAMMA :  Viceversa inserendo solo il nome di un programma appare il "Formato di Scelta" con le opzioni Variazione, Annullamento e Interrogazione riferite alle scelte video degli utenti di cui esistono i parametri relativi al programma inserito.
 
-Per questi due campi è previsto l'utilizzo della stringa "**" di inserimento generico.
+Per questi due campi è previsto l'utilizzo della stringa "\*\*" di inserimento generico.
 
 Se si compilano i campi _2_"Copia da" il programma copia le memorizzazioni da un altro utente/programma.
 

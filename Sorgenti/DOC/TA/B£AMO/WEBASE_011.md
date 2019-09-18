@@ -1,10 +1,10 @@
 ## Introduzione alla gestione utenti in Web.UP
 
 Essendo una delle interfacce di Sme.UP ERP, Web.UP utilizza le stesse modalità di accesso al sistema di Looc.UP
-* Indirizzo server
-* Utente
-* Password
-* Ingresso utente
+\* Indirizzo server
+\* Utente
+\* Password
+\* Ingresso utente
 Questo significa che un utente, per accedere a Web.UP, deve possedere un profilo as400 e un B£U e un ambiente compatibile a Looc.UP
 
 Tuttavia in ambito web possono nascere esigenze differenti, ad esempio può essere necessario far accedere utenti che non hanno un profilo as400.
@@ -13,10 +13,10 @@ Per questo motivo sono state create diverse modalità di Login che supportando l
 ATTENZIONE :  per ogni modalità di login è importante chiedersi quale sarà l'utente as400 del job.
 
 WebUP gestisce quattro tipologie di login : 
-* USRPRF
-* FUN
-* ROLES
-* DIRECT
+\* USRPRF
+\* FUN
+\* ROLES
+\* DIRECT
 
 Per accedere alla configurazione dei moduli di login (aggiunta, cancellazione, modifica) occorre premere la combinazione di tasti CTRL+SHIFT+F8, inserire
 la password richiesta ed aggiornare la pagina.
@@ -82,9 +82,9 @@ Utilizzata per contesti in cui si vuole gestire l'accesso di "n" utenze senza do
 Nella modalità standard, occorre creare le "n" utenze necessarie nella tabella JAU.
 Al momento del submit della form, verrà chiamato il servizio (fun) WEJAU_01 che riceverà utente/password digitati e, una volta verificate le credenziali nella tabella JAU,
 restituirà un xml di matrice monoriga contenente tutti i campi della tabella JAU e permetterà quindi l'accesso al sistema.
-Il valore di ogni campo della matrice sarà inoltre disponibile all'interno delle schede SmeUP (nel contesto WebUP) nella forma *WebUser.<nomeCampo> (es :  *WebUser.T$JAUF).
+Il valore di ogni campo della matrice sarà inoltre disponibile all'interno delle schede SmeUP (nel contesto WebUP) nella forma \*WebUser.<nomeCampo> (es :  \*WebUser.T$JAUF).
 Il servizio è estendibile a piacimento e può quindi restituire una matrice arricchita di tutti i dati necessari.
-Ad esempio, aggiungendo alla matrice il campo XXABCD, lo stesso sarà poi disponibile nelle schede come [*WebUser.XXABCD].
+Ad esempio, aggiungendo alla matrice il campo XXABCD, lo stesso sarà poi disponibile nelle schede come [\*WebUser.XXABCD].
 Serve comunque un utente di sistema operativo per la connessione "master", diversamente non sarebbe possibile effettuata la chiamata al servizio WEJAU_01.
 Per ulteriori dettagli implementativi si veda di seguito.
 Connessioni :  n utenti jau -> n job (LO_Exxxxxx) N.B. in questo caso ogni job sarà comunque intestato al medesimo utente master!
@@ -106,7 +106,7 @@ Connessioni :  n utenti jau -> n job (LO_Exxxxxx) N.B. in questo caso ogni job s
 | **hash**|hash dei parametri|calcolata come descritto nel paragrafo sotto|Obbligatorio |
 | **p**|parametro|contiene il parametro specifico per l'autenticazione, che verra passato alla fun di autenticazione ad esempio il nome utente|Obbligatorio |
 | **callBack**|Url di callback|url di chiamare nel per ritornare all'applicazione chiamante|Facoltativo |
-| **sfunction**|Funzione d'avvio|contiente il nome della variabile SCP_CLO da usare come funzione d'avvio in sovrascrittura dell *SFUNCTION|Facoltativo |
+| **sfunction**|Funzione d'avvio|contiente il nome della variabile SCP_CLO da usare come funzione d'avvio in sovrascrittura dell \*SFUNCTION|Facoltativo |
 | **var**|Variabili|variabili da passare che verranno messe nel contesto LOO.VAR e impostate subito. La forma è variabile(valore)variabile2(valore2)|Facoltativo |
 | 
 
@@ -158,7 +158,7 @@ Connessioni :  n utenti jau -> n job (LO_Exxxxxx) N.B. ogni job sarà comunque i
 | **hash**|hash dei parametri|calcolata come descritto nel paragrafo sotto|Obbligatorio |
 | **p**|parametro|contiene il parametro specifico per l'autenticazione, che verra passato alla fun di autenticazione ad esempio il nome utente|Obbligatorio |
 | **callBack**|Url di callback|url di chiamare nel per ritornare all'applicazione chiamante|Facoltativo |
-| **sfunction**|Funzione d'avvio|contiente il nome della variabile SCP_CLO da usare come funzione d'avvio in sovrascrittura dell *SFUNCTION|Facoltativo |
+| **sfunction**|Funzione d'avvio|contiente il nome della variabile SCP_CLO da usare come funzione d'avvio in sovrascrittura dell \*SFUNCTION|Facoltativo |
 | **var**|Variabili|variabili da passare che verranno messe nel contesto LOO.VAR e impostate subito. La forma è variabile(valore)variabile2(valore2)|Facoltativo |
 | 
 
@@ -182,7 +182,7 @@ Connessione :  n utenti b£u -> n job (LO_Exxxxxx)
 | 
 | .COL Txt="Obbiligatorietà" |
 | **mod**|modulo di login|definisce quale modulo di login utilizzare|Obbigatorio |
-| **sfunction**|Funzione d'avvio|contiente il nome della variabile SCP_CLO da usare come funzione d'avvio in sovrascrittura dell *SFUNCTION|Facoltativo |
+| **sfunction**|Funzione d'avvio|contiente il nome della variabile SCP_CLO da usare come funzione d'avvio in sovrascrittura dell \*SFUNCTION|Facoltativo |
 | **callBack**|Url di callback|url di chiamare nel per ritornare all'applicazione chiamante|Facoltativo |
 | **var**|Variabili|variabili da passare che verranno messe nel contesto LOO.VAR e impostate subito. La forma è variabile(valore)variabile2(valore2)|Facoltativo |
 | 
@@ -200,11 +200,11 @@ Ad esempio, nel caso di direct, viene eseguita la connessione, nel caso di fun o
 ### Calcolo dell'hash
 
 Il calcolo dell'hash è eseguito usando
-* **l'algoritmo di hashing**, secondo quanto definito nel file di configurazione.
-* **il character encoding** da utilizzare per la conversione in byte delle, secondo quanto definito nel file di configurazione
-* i parametri obbigatori **p** e **t**
-* **un segreto condiviso** tra le due applicazioni, secondo quanto definito nel file di configurazione
-* i parametri facoltativi
+\* **l'algoritmo di hashing**, secondo quanto definito nel file di configurazione.
+\* **il character encoding** da utilizzare per la conversione in byte delle, secondo quanto definito nel file di configurazione
+\* i parametri obbigatori **p** e **t**
+\* **un segreto condiviso** tra le due applicazioni, secondo quanto definito nel file di configurazione
+\* i parametri facoltativi
 
 Suppondendo, ad esempio, di utilizzare **SHA1**, **UTF-8**, ed il segreto condiviso **WEBUP91818$**, avremmo il seguente algoritmo in pseudo codice : 
 

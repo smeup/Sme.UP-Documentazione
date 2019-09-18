@@ -1,5 +1,5 @@
 ### Nuovi oggetti
- * Nuovo oggetto TAPHO = Oggetti fisici
+ \* Nuovo oggetto TAPHO = Oggetti fisici
  - Distinta delle reti
  -- Tabella tipo distinta (BRL) con elemento PHO
  -- Gestione della distinta per relazionare gli oggetti fisici
@@ -8,9 +8,9 @@
 
 ### Concetto di ambiente
 Ogni ambiente deve essere in grado di fornire : 
- * Lista degli oggetti fisici
- * Distinta degli oggetti collegati ad un oggetto
- * Lista delle azioni per un aggetto fisico
+ \* Lista degli oggetti fisici
+ \* Distinta degli oggetti collegati ad un oggetto
+ \* Lista delle azioni per un aggetto fisico
 
 
 ### Documentazione

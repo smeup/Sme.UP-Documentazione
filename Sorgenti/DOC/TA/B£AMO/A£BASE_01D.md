@@ -1,21 +1,21 @@
 ## Modificare una Tabella
 Per modificare la struttura di una tabella, ad esempio per aggiungere una nuova colonna, è necessario seguire i seguenti passi : 
- * UP DEF  per entrare nel programma relativo alla modifica di settori e subsettori;
- * inserire 06 "Def. campi" nel campo "Opzioni";
- * inserire il nome della tabella nel campo "Settore" e il nome del sottosettore, se presente, nel campo "Subsettore".
+ \* UP DEF  per entrare nel programma relativo alla modifica di settori e subsettori;
+ \* inserire 06 "Def. campi" nel campo "Opzioni";
+ \* inserire il nome della tabella nel campo "Settore" e il nome del sottosettore, se presente, nel campo "Subsettore".
 A questo punto compare la schermata di definizione della struttura del settore, in cui specificare per ciascun campo della tabella : 
- ** Seq.  :  numero di sequenza univoco da incrementare a livello di decine, non di unità
- ** Nome Campo  :  nome del campo, secondo la struttura
+ \*\* Seq.  :  numero di sequenza univoco da incrementare a livello di decine, non di unità
+ \*\* Nome Campo  :  nome del campo, secondo la struttura
                               T$ + nome tabella + lettera dell'alfabeto in ordine crescente
- ** Intestazione Campo  :  descrizione del campo
- ** Tp  :  tipo del campo
- ** Param  :  parametro del campo, in base al tipo scelto
- ** Lun  :  lunghezza del campo
- ** Dec  :  numero di cifre decimali, se il campo è numerico
- ** Obl  :  obbligatorietà del campo
- ** Non Ctr  : 
- ** Ann  : 
- ** Pos Ini  :  Posizione inizale del campo
+ \*\* Intestazione Campo  :  descrizione del campo
+ \*\* Tp  :  tipo del campo
+ \*\* Param  :  parametro del campo, in base al tipo scelto
+ \*\* Lun  :  lunghezza del campo
+ \*\* Dec  :  numero di cifre decimali, se il campo è numerico
+ \*\* Obl  :  obbligatorietà del campo
+ \*\* Non Ctr  : 
+ \*\* Ann  : 
+ \*\* Pos Ini  :  Posizione inizale del campo
 
 Se la tabella è vuota, i primi due campi (T$ELEM e T$DESC) sono inseriti di default.
 
@@ -30,11 +30,11 @@ F09 permette di vedere un'anteprima del risultato a video.
 Premere F01 per effettuare l'aggiornamento del campo inserito :  se non sono presenti errori, la struttura della tabella viene aggiornata.
 
 Quando si aggiunge / modifica un campo, è necessario compilare l'help relativo : 
- * UP TAB
- * Inserire il nome della tabella nel campo "Settore"
- * Inserire l'opzione 02 "Modifica"
- * Posizionarsi nell'area modificabile del campo di cui si vuole inserire l'help e premere F01 per entrare nella schermata "Documentazione per oggetto", in cui vengono riassunte le proprietà del campo
- * Premere F20 per entrare nell'Editazione della documentazione, del seguente formato fisso :  FLD Nome_del_campo Descrizione_del_campo (FLD è preceduto da due  : ) Documentazione
+ \* UP TAB
+ \* Inserire il nome della tabella nel campo "Settore"
+ \* Inserire l'opzione 02 "Modifica"
+ \* Posizionarsi nell'area modificabile del campo di cui si vuole inserire l'help e premere F01 per entrare nella schermata "Documentazione per oggetto", in cui vengono riassunte le proprietà del campo
+ \* Premere F20 per entrare nell'Editazione della documentazione, del seguente formato fisso :  FLD Nome_del_campo Descrizione_del_campo (FLD è preceduto da due  : ) Documentazione
 
 Quando si effettua una modifica sulla struttura di una tabella, è necessario effettuare una news.
 

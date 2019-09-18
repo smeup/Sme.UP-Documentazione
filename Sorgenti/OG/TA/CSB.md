@@ -20,7 +20,7 @@ I sei CAMPI provenienti dal ciclo sono così suddivisi :
 5  - Componente di tempo numero 5
 6  - Componente di tempo numero 6
 Per ulteriori informazioni si veda la documentazione allegata alla funzione £BRT.
-Le 6 aliquote sono gestite dalla funzione £G16 e sono definite nella tabella *CNVS.
+Le 6 aliquote sono gestite dalla funzione £G16 e sono definite nella tabella \*CNVS.
 Dove il significato standard delle aliquote è : 
 1  - Lavoro variabile
 2  - Macchina variabile

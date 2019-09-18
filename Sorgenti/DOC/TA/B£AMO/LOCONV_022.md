@@ -6,14 +6,14 @@ E' la costante o la variabile definita titolo della finestra.
 **Assunzioni sui formati**, E' considerata intestazione tutta la prima riga e i soli campi della seconda riga che iniziano nelle colonne fra la nona e la settanta.
 
 **Eslusioni e Inclusioni**, Sono esclusi dall'intestazione i seguenti campi : 
-   £RAS*
-   *PDS*
+   £RAS\*
+   \*PDS\*
    £G00AZ
    £G00DV
    £G00ES
    La costante <--
 Sono inclusi nell'intestazione i seguenti campi : 
-   W$TIT* (fino alla terza riga)
+   W$TIT\* (fino alla terza riga)
 
 ### Comandi
 Sono i tasti funzionale CFxx e CAxx.
@@ -44,7 +44,7 @@ E' la variabile utilizzata per l'emissione delle segnalazioni nella barra di sta
 **Eslusioni e Inclusioni**, Sono inclusi i soli campi alfabetici con i seguenti nomi : 
      W$M130
      W2MES1
-     W$MES*
+     W$MES\*
 Sono esclusi i campi : 
      W$MESE
      W$MESG
@@ -59,7 +59,7 @@ Non sono fatti controlli di esclusione riga sui programmi :
      C5MH01L
      B£G08G
 Sono escluse le righe che contengono i campi : 
-     £AUA*
+     £AUA\*
 o le costanti contenenti i caratteri : 
      =
 o i campi di input solo se non sono protetti
@@ -86,9 +86,9 @@ E' il campo si selezione della funzione desiderata.
 **Assunzioni**, Assunto progressivo vuoto
 
 **Inclusioni**, Sono considerati Opzioni i seguenti campi : 
-     W$OPZ*
+     W$OPZ\*
      W$MODA
-     S$OPZ* (solo se si tratta di una lista)
+     S$OPZ\* (solo se si tratta di una lista)
      W$SBEM (solo se è riferita al programma CQBC10GV o CQBC50GV)
 
 ### Lista opzioni
@@ -96,9 +96,9 @@ E' l'elenco delle opzioni disponibili, sono legati all'opzione tramite il progre
 **Assunzioni**, Assunto progressivo vuoto
 
 **Inclusioni**, Sono considerate liste di opzini i seguenti campi : 
-     £AUAS*
+     £AUAS\*
      UI£OPZ
-     W$AUS*
+     W$AUS\*
 Sono considerate liste di opzioni le costanti col carattere :  = con almeno uno dei due caratteri seguenti diversi da spazio.
 
 ### Lista Pannelli di formato

@@ -33,7 +33,7 @@ Gli script in oggetto hanno nomenclatura LOA25_xx dove xx=gruppo (CN, AR...)
  Ogg :  CN.NOM
  lo script in esame è pilotato dal gruppo, quindi LOA25_CN da cui vengono caricate le
  sottosezioni della sezione NOM.
-  :  : SEZ Cod="NOM" ed eseguito lo statement del tag  :  : A25.ESE SQL(SELECT * ....)
+  :  : SEZ Cod="NOM" ed eseguito lo statement del tag  :  : A25.ESE SQL(SELECT \* ....)
 # SOTTOSEZIONI
  Tp :   SE
  Par :  SUB.A25
@@ -41,11 +41,11 @@ Gli script in oggetto hanno nomenclatura LOA25_xx dove xx=gruppo (CN, AR...)
  lo script in esame è pilotato dal gruppo, quindi LOA25_CN da cui viene caricata la
  sottosezione specifica 01
   :  : SEZ Cod="NOM" Txt="Comuni"
-  :  : SUB Cod="01" ed eseguito lo statement del tag  :  : A25.ESE SQL(SELECT * ....)
+  :  : SUB Cod="01" ed eseguito lo statement del tag  :  : A25.ESE SQL(SELECT \* ....)
 
 ## SINTASSI
 La sintassi per l'esecuzione di un sql è la seguente : 
-F(EXD;*SCO;) 1(;;01.A01.07) 2(MB;SCP_SCH;LOA25) 4(;;SCH_ESE) P(PG(EXB))
+F(EXD;\*SCO;) 1(;;01.A01.07) 2(MB;SCP_SCH;LOA25) 4(;;SCH_ESE) P(PG(EXB))
 Dove : 
 01.A01.07 -> Gruppo.Sezione.Sottosezione in cui compare lo statement SQL
 EXB, REP, EXC -> output su matrice, report, excel
@@ -53,17 +53,17 @@ EXB, REP, EXC -> output su matrice, report, excel
 A fronte di quanto sopra quindi, volendo per esempio produrre un report con i dati
 caricati da un SQL di gruppo CN (quindi sql contenuti in LOA25_CN) nella  sezione A01,
 sottosezione 02 : 
-F(EXD;*SCO;) 1(;;CN.A01.02) 2(MB;SCP_SCH;LOA25) 4(;;SCH_ESE) P(PG(REP))
+F(EXD;\*SCO;) 1(;;CN.A01.02) 2(MB;SCP_SCH;LOA25) 4(;;SCH_ESE) P(PG(REP))
 
 E' possibile inoltre fornire schemi e filtri : 
  :  : SUB Cod="08" Txt="V5STAT"
- :  : A25.ESE SQL(SELECT * FROM V5STAT0F) FIL(V5STAT0F) Q3(E/*JOB) Q2(T/DFT)
+ :  : A25.ESE SQL(SELECT \* FROM V5STAT0F) FIL(V5STAT0F) Q3(E/\*JOB) Q2(T/DFT)
 
 ##  Proprietà del tag  :   : A25.ESE
  :  : PAR L(TAB)
 SQL|Istruzione SQL di selezione da eseguire
 FIL|File di riferimento per l'applicazione del filtro Q3 o dello schema Q2
-Q3|Codice del filtro da applicare (comunemente E/*JOB)
+Q3|Codice del filtro da applicare (comunemente E/\*JOB)
 Q2|Codice dello schema da applicare
 MDV|Codice della memorizzazione salvata con UP SQL
 NRW|Numero di righe della paginazione iniziale
@@ -75,7 +75,7 @@ Il motore LOA25 è infatti in grado di utilizzare l'API in oggetto per eseguire
 interrogazioni inerenti agli oggetti SmeUp, attraverso l'interfaccia fornita da £IVD.
 
 Nella fattispecie la funzione : 
- :  : A25.ESE SQL(SELECT * FROM BRENTI0F) FIL(_OCNCLI) Q3(E/*JOB)
+ :  : A25.ESE SQL(SELECT \* FROM BRENTI0F) FIL(_OCNCLI) Q3(E/\*JOB)
 è in grado di estrarre i record dell'oggetto CNCLI, secondo la SELECT  memorizzata
 nel filtro _OCNCLI risolto dalla £IDV, nel caso specifico : 
 
@@ -93,7 +93,7 @@ Output
   Descr.  ID  E§RAGS
   Assunto ID  E§TRAG
   Where       E§TRAG ='CLI' AND E§DINV<=20121003 AND E§DFNV>=20121003
-  Select      *
+  Select      \*
 
 Requisiti minimi per poterlo utilizzare DEV >= 3.x
 

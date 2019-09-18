@@ -1,7 +1,7 @@
 ## Contenuto
 Codici, dati quantitativi e descrittivi che caratterizzano le operazioni di un ciclo di lavoro.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 Nessuno.
 
 ## Chiave primaria

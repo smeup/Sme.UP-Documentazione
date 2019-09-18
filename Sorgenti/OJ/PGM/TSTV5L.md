@@ -3,21 +3,21 @@ Con questa routine si recuperano le informazioni e quindi le DS delle tabelle co
 
 # Funzioni e metodi
 _1_Funzioni e _5_Metodi
- * _1_A,        Fino al modello documento
- * _1_B,          ,,    tipo riga
- * _1_C,          ,,    parametro c/lavoro
- * _1_D,          ,,    tipo impegno Materiali
- * _1_E,          ,,    tipo impegno Risorse
+ \* _1_A,        Fino al modello documento
+ \* _1_B,          ,,    tipo riga
+ \* _1_C,          ,,    parametro c/lavoro
+ \* _1_D,          ,,    tipo impegno Materiali
+ \* _1_E,          ,,    tipo impegno Risorse
 
 Nella £FUNP1/K1 viene passata la riga in esame e nei campi £V5LIR=Tipo riga e £V5LIM=Modello documento si possono passare i rispettivi campi impedendo al programma il recupero (rispettivamente chain sul v5rdoc e v5tdoc).
 
 Nei campi £V5LL1,£V5LL2,£V5LL3  se imposta il codice relativo alla tabella che si vuole come risultato. I codici sono : 
- ** 1   Leggere tabella Tipo Doc. (V5D)
- ** 2   Leggere tabella Mod. Doc. (V5A)
- ** 3   Leggere tabella Tipo Riga (V5B)
- ** 4   Leggere tabella Par.C/Lav (V5L)
- ** 5   Leggere tabella Tipo Imp. (P5I)
- ** 6   Leggere tabella Tipo Imp. (P5S)
+ \*\* 1   Leggere tabella Tipo Doc. (V5D)
+ \*\* 2   Leggere tabella Mod. Doc. (V5A)
+ \*\* 3   Leggere tabella Tipo Riga (V5B)
+ \*\* 4   Leggere tabella Par.C/Lav (V5L)
+ \*\* 5   Leggere tabella Tipo Imp. (P5I)
+ \*\* 6   Leggere tabella Tipo Imp. (P5S)
 e vanno impostati in funzione del campo "funzione". Ricordiamo che la v5d e la v5a sono legate alla testata e che le altre sono legate alla riga.
 
 # Input

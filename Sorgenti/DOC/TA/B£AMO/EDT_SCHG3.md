@@ -34,10 +34,10 @@ I valori definiti per questo parametro :
 .ChangeCol      Al cambio di colonna (se matrice)
 .Drop           Al DROP (files system)
 .Init           Crea solo le variabili sulla sezione corrente
-.*ALL           Sempre
+.\*ALL           Sempre
 
 Obbligatorio = NO
-Default = *ALL
+Default = \*ALL
 
 ## Sync - Sincrono
 Stabilisce se la subsezione deve ricaricarsi al verificarsi dell'evento o solo quando esplicitamente richiesto.
@@ -128,19 +128,19 @@ Default = Nullo
 
 ## Base -  Sezione base destinazione
 
-        **                      030   D
+        \*\*                      030   D
 ## Mode  - Modalita' Dinamismo
 
 .VDin.Mode              030   D
 ## Source  - Sorgente del dinamismo
 
-      **                      100
+      \*\*                      100
 ## Focus - Dai il fuoco alla sottosezione
 
 .VYes.No                030   D
 ## Action - Definisce un'azione
 
-         **                      100
+         \*\*                      100
 
 
 # Dinamicità multiple

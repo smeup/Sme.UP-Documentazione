@@ -1,14 +1,14 @@
 # Attivazione dell'integrazione
 Per attivare le ceazione delle richieste di movimentazione è necessario : 
 _4_Documenti
- * _2_definire il Tipo di documento di movimentazione
+ \* _2_definire il Tipo di documento di movimentazione
  :  : DEC T(TA) K(V55)
- * _2_attivare il flag 23 di testata dei documenti
+ \* _2_attivare il flag 23 di testata dei documenti
  :  : DEC T(TA) K(B£Y)
 _4_Ordini di produzione
- * _2_definire il Tipo di documento di movimentazione impegni
+ \* _2_definire il Tipo di documento di movimentazione impegni
  :  : DEC T(TA) K(P55)
- * _2_attivare il flag 09 dell'ordine di produzione
+ \* _2_attivare il flag 09 dell'ordine di produzione
  :  : DEC T(TA) K(B£Y)
 
 ## Funzionamento

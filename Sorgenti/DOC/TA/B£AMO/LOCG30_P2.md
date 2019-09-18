@@ -16,7 +16,7 @@ Corretta la gestione dell'assegnazione delle risposte alle domande con lista di 
 ## Versione 19
 
 - cambiato comportamento dopo una ricerca scatenata dal tasto **INVIO** :  il componente non si chiude e propone la scelta effettuata.
-- accettati anche caratteri **"/"** e **"%"** nei campi non tipizzati o di tipo "**"
+- accettati anche caratteri **"/"** e **"%"** nei campi non tipizzati o di tipo "\*\*"
 
 
 

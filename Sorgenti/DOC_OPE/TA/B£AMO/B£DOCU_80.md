@@ -6,11 +6,11 @@ La parte iniziale del percorso che Looc.Up segue per reperire le immagini deve e
 Esistono documenti di oggetto (tabella, file, API, servizio, .....) che sono poi raggruppati per tipologia, aggregati a livello di modulo di applicazione e prodotti in _2_Book per applicazione.
 
 I book possono essere classificati in : 
- * **Documento Visione**, illustra i principi a cui ci si è ispirati nella costruzione dell'applicazione. Il manuale è rivolto ai key user e ai responsabili EDP.
- * **Manuale Applicativo**, spiega le particolarità dell'applicazione, fornisce suggerimenti sull'avviamento e approfondisce alcune funzioni particolari. Il manuale è rivolto ai responsabili EDP, ai customizzatori ed agli sviluppatori.
- * **Manuale Operativo**, spiega come utilizzare le funzioni fornite dall'applicazione, i documenti sono organizzati per modulo. Il manuale è rivolto agli utenti finali.
- * **Manuale tecnico**, raccoglie i documenti tecnici di archivi, tabelle e API che appartengono all'applicazione. Il manuale è rivolto ai responsabili EDP, ai customizzatori ed agli sviluppatori.
- * **Note di sviluppo**, raccoglie idee, prospettive, direzioni di sviluppo dell'applicazione o di parti di essa. Il manuale è rivolto esclusivamente agli sviluppatori del gruppo Sme.Up.
+ \* **Documento Visione**, illustra i principi a cui ci si è ispirati nella costruzione dell'applicazione. Il manuale è rivolto ai key user e ai responsabili EDP.
+ \* **Manuale Applicativo**, spiega le particolarità dell'applicazione, fornisce suggerimenti sull'avviamento e approfondisce alcune funzioni particolari. Il manuale è rivolto ai responsabili EDP, ai customizzatori ed agli sviluppatori.
+ \* **Manuale Operativo**, spiega come utilizzare le funzioni fornite dall'applicazione, i documenti sono organizzati per modulo. Il manuale è rivolto agli utenti finali.
+ \* **Manuale tecnico**, raccoglie i documenti tecnici di archivi, tabelle e API che appartengono all'applicazione. Il manuale è rivolto ai responsabili EDP, ai customizzatori ed agli sviluppatori.
+ \* **Note di sviluppo**, raccoglie idee, prospettive, direzioni di sviluppo dell'applicazione o di parti di essa. Il manuale è rivolto esclusivamente agli sviluppatori del gruppo Sme.Up.
 
 ## Documentazione di un oggetto
 Per una spegazione dettagliata della decumentazione di un oggetto rifarsi al doc. **B£DOCU_09 - Documentazione degli oggetti di Base.Up - documenti applicativi : 

@@ -1,7 +1,7 @@
 ## Contenuto
 Singola riga di una registrazione contabile.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'E5'                               £FUNT1
  'WK' Se è nel transito             £FUNP1
 

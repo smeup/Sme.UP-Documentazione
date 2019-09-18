@@ -3,7 +3,7 @@ La liquidazione è la procedura tramite cui vengono consolidate le elaborazioni 
 
 Se oltre a presentare un importo da liquidare il record risulta anche interamente pagato, verrà messo in stato chiuso e in stato di elaborazione 9 (da non elaborare).
 
-La data dell'ultima elaborazione definitiva viene memorizzata nell'elemento della tabella B£4 ottenuto unendo la radice "*PC" + il codice di ogni periodicità.
+La data dell'ultima elaborazione definitiva viene memorizzata nell'elemento della tabella B£4 ottenuto unendo la radice "\*PC" + il codice di ogni periodicità.
 
 Ad elaborazione eseguita in definitivo, è possibile ritornare alla situazione preelaborazione tramite un pgm di utility.
 Quest'ultimo però permette di tornare indietro rispetto all'ultima elaborazione e non all'infinito in quanto i valori di preelaborazione sono memorizzati sul file stesso e riguardano solo la penultima elaborazione.
@@ -21,17 +21,17 @@ Se prevista una gestione anticipi, verranno anche generati dei record del V5PROV
 
 Questo tipo di elaborazione viene eseguita solo se la periodicità è mensile per i soggetti con una periodicità trimestrale e solo se non si sta trattando il mese di fine trimestre (nel quale viene corrisposta la fattura normale da cui dovranno essere detratti gli anticipi già corrisposti).
 L'importo dell'anticipo a stardard può essere calcolato secondo 3 criteri : 
- * ad importo fisso
- * secondo una percentuale sul pagato
- * secondo una percentuale fatturato del periodo.
+ \* ad importo fisso
+ \* secondo una percentuale sul pagato
+ \* secondo una percentuale fatturato del periodo.
 
 E' prevista però anche la possibilità di poter gestire la determinazione dell'importo tramite un pgm di exit, nel caso si utilizzino criteri differenti da quelli previsti.
 Il nome di tale programma ha radice "V5PR04C_" + il suffisso indicato nella tabella V6Z.
 
 Agli anticipi può essere attribuito un significato particolare in base all'utilizzo del tipo provvigione che attributo all'anticipo : 
-* Se il tipo provvigione ha tipo "2" = Minimo garantito, come tale l'anticipo verrà conguagliato solo se le provvigioni superano l'importo del minimo garantito corrisposto.
-* Se il tipo provvigione ha tipo "0" = Fisso, come tale l'anticipo non verrà mai conguagliato. sarà sempre un importo corrisposto all'agente in aggiunta a quello maturato tramite le provvigioni.
-* Per gli altri tipi, gli importi anticipati verrà sempre conguagliati e in caso superino l'importo delle provvigioni, riportati al periodo successivo.
+\* Se il tipo provvigione ha tipo "2" = Minimo garantito, come tale l'anticipo verrà conguagliato solo se le provvigioni superano l'importo del minimo garantito corrisposto.
+\* Se il tipo provvigione ha tipo "0" = Fisso, come tale l'anticipo non verrà mai conguagliato. sarà sempre un importo corrisposto all'agente in aggiunta a quello maturato tramite le provvigioni.
+\* Per gli altri tipi, gli importi anticipati verrà sempre conguagliati e in caso superino l'importo delle provvigioni, riportati al periodo successivo.
 
 ## Anticipi su fattura
 Oltre agli anticipi automatici, è possibile gestire degli anticipi su fattura, che, utilizzabili anche con agenti a periodicità mensile, permettono di portare in detrazione l'anticipo solo quando viene liquidata una provvigione relativa alla fattura indicata nell'anticipo stesso, al di là di quando esso avvenga.
@@ -57,5 +57,5 @@ V5PR14A    :  Utility per il riallineamento del V5PROV dopo esecuzione definitiv
  :  : DEC T(ST) P() K(V58)
  :  : DEC T(ST) P() K(AGE)
  :  : DEC T(ST) P() K(V6Z)
- :  : DEC T(TA) P(B£4) K(*PCM)
- :  : DEC T(TA) P(B£4) K(*PCT)
+ :  : DEC T(TA) P(B£4) K(\*PCM)
+ :  : DEC T(TA) P(B£4) K(\*PCT)

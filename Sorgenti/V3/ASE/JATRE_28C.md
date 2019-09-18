@@ -43,7 +43,7 @@ Metodo **DIS**
 
  :  : PRO.SER Cod="FOG.DRA.8" Tit="Funzioni specifiche dell'oggetto. Righe documento oggetto" Fun="F(EXB;JATRE_28C;FOG.DRA) 1(AR;;-(F;;AR;Articolo)) P( TIP(-(F;;TAV5D;Tipo documento)) MAG(-(F;;MG;Codice magazzino)) OGG(-(F;;TAB£G;Griglia oggetto)))"
 
- :  : PRO.SER Cod="FOG.ES1.9" Tit="Funzioni specifiche dell'oggetto. Estensione contatti" Fun="F(TRE;JATRE_28C;FOG.ES1) 1(CN;;-(O;;CN;Ente)) 2(TA;BRI;-(F;;TABRI;Estensione)) 3(**;;-(F;;**;))"
+ :  : PRO.SER Cod="FOG.ES1.9" Tit="Funzioni specifiche dell'oggetto. Estensione contatti" Fun="F(TRE;JATRE_28C;FOG.ES1) 1(CN;;-(O;;CN;Ente)) 2(TA;BRI;-(F;;TABRI;Estensione)) 3(\*\*;;-(F;;\*\*;))"
 
  :  : PRO.SER Cod="FOG.ES1.10" Tit="Funzioni specifiche dell'oggetto. Estensione contatti" Fun="F(EXB;JATRE_28C;FOG.ES1)" Ref="FOG.ES1.9"
 

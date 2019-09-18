@@ -16,5 +16,5 @@ Questa funzione gestisce tre parametri :
 Metodo|Parametro|Valore|Significato
 
 
- :  : PRO.SER Cod="PRE.ALL.1" Tit="Previsioni. Tutti i raggruppamenti" Fun="F(EXB;MMSER_01;PRE.ALL) P( LO(-(F;;**;Logico)) K1(-(F;;**;Chiave 1)) K2(-(F;;**;Chiave 2)))"
+ :  : PRO.SER Cod="PRE.ALL.1" Tit="Previsioni. Tutti i raggruppamenti" Fun="F(EXB;MMSER_01;PRE.ALL) P( LO(-(F;;\*\*;Logico)) K1(-(F;;\*\*;Chiave 1)) K2(-(F;;\*\*;Chiave 2)))"
 

@@ -27,12 +27,12 @@ oppure da un luogo che si biforca in due (o più) archi.
 //// immagine FIG.002.DOC
 Il primo caso rappresenta un And-Split implicito (se non impostate conseguenze sui luoghi), oppure un Or-Split  (se impostate conseguenze sui luoghi), che ne attivano uno solo in funzione del verificarsi di una condizione.
 Il secondo caso invece costituisce un'anomalia o quantomeno una incertezza di comportamento. Il token sul luogo  rende pronte entambe le transizioni a valle. La prima che viene eseguita elimina il token e rende di nuovo non prota l'altra. Si produce quindi una indeterminazione di comportamento che può essere indesiderata.
-Un utilizzo possibile di questa struttura può essere quello in cui le transizioni hanno requisiti esterni mutuamente esclusivi, in modo da eliminare l'indeterminazione del verificarsi di entrambi, introducendo una preferenza. (*)
+Un utilizzo possibile di questa struttura può essere quello in cui le transizioni hanno requisiti esterni mutuamente esclusivi, in modo da eliminare l'indeterminazione del verificarsi di entrambi, introducendo una preferenza. (\*)
 Al verificarsi di uno di essi si attiva la transizione che consuma il token e rende definitivamente non pronta l'altra transizione.
 Si può utilizzare questa struttura anche per modellare una transizione in cui il primo utente che la
 dichiara, eliminando il token di ingresso, rende di nuovo non pronte le altre transizioni.
 
-(*) Ad esempio, dati i requisiti R1 e R2 con preferenza R1, si completa il requisito R2 con la negazione di R2 (R2 AND NOT(R1)); in questo caso al verificarsi contemporaneo di R1 e R2 solo il primo requisito è soddisfatto.
+(\*) Ad esempio, dati i requisiti R1 e R2 con preferenza R1, si completa il requisito R2 con la negazione di R2 (R2 AND NOT(R1)); in questo caso al verificarsi contemporaneo di R1 e R2 solo il primo requisito è soddisfatto.
 
 ### Riunificazione
 Una riunificazione può essere costutuita da due luoghi che concorrono in una transizione.

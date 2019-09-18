@@ -1,4 +1,4 @@
-- **Foglio Elettronico**
+- \*\*Foglio Elettronico\*\*
 
  :  : VOC Id="SHE_001" Txt="Foglio Elettronico"
 

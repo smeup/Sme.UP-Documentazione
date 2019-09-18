@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni di un viaggio.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'VG'                               £FUNT1
 
 ## Chiave primaria

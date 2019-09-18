@@ -3,12 +3,12 @@ Illustrare come creare questionari.
 Verranno forniti i concetti di base,  poi analizzati i vari tipi di questionari ed inifine l'utilizzo delle configurazioni.
 
 # Nomenclatura
- * _2_Configuratore :  insieme di domande, suddivise in una o più sezioni
- * _2_Configurazione :  insieme di risposte ottenute dalla compilazione di un configuratore
- * _2_Sezioni :  suddivisione logica di un questionario in più parti. Ogni sezione contiene una o più domande.
- * _2_Script di configurazione :  membri del file SCP_CFG che contengono la struttura del questionario
- * _2_Domanda configurata (a risposta) singola :  tipo di domanda in cui su un'unica riga posso immettere più valori
- * _2_Domanda configurata (a risposta) multipla :  tipo di domanda in cui l'utente può immettere una matrice di valori.
+ \* _2_Configuratore :  insieme di domande, suddivise in una o più sezioni
+ \* _2_Configurazione :  insieme di risposte ottenute dalla compilazione di un configuratore
+ \* _2_Sezioni :  suddivisione logica di un questionario in più parti. Ogni sezione contiene una o più domande.
+ \* _2_Script di configurazione :  membri del file SCP_CFG che contengono la struttura del questionario
+ \* _2_Domanda configurata (a risposta) singola :  tipo di domanda in cui su un'unica riga posso immettere più valori
+ \* _2_Domanda configurata (a risposta) multipla :  tipo di domanda in cui l'utente può immettere una matrice di valori.
 
 # Aspetti Grafici
 
@@ -53,54 +53,54 @@ Comme illustrato nel documento introduttivo, si dividono in base all'orgine dell
 Analizziamo le varie tipologie.
 
 ## Questionari T-
- * **Utilizzo** :   manutenzione tabelle SmeUp.
- * **Costruzione** :  dedotte dalla struttura del tipo di tabella.
- * **Struttura** :  un'unica sezione
- * **Formato risposte** :  posizionale, scritte nel file delle tabelle di SmeUp (normalmente il Tabel00f)
- * **File Configurazioni** :  TABEL00F
- * **Forma presentazione** :  unica sezione.
- * **Navigazione** : 
- * **Regole** :  definite da programma (per gestire i range dei valori)
+ \* **Utilizzo** :   manutenzione tabelle SmeUp.
+ \* **Costruzione** :  dedotte dalla struttura del tipo di tabella.
+ \* **Struttura** :  un'unica sezione
+ \* **Formato risposte** :  posizionale, scritte nel file delle tabelle di SmeUp (normalmente il Tabel00f)
+ \* **File Configurazioni** :  TABEL00F
+ \* **Forma presentazione** :  unica sezione.
+ \* **Navigazione** : 
+ \* **Regole** :  definite da programma (per gestire i range dei valori)
 
 ## Questionari Q-
- * **Utilizzo** :   creazione configuratorei generici, dal configuratore di prodotto ad un questionario per raccogliere le preferenze degli utenti.
- * **Costruzione** :  utilizzando le tabelle SmeUp CFQ, CFS, CFD, CFV, CFC oppure appositi script.
- * **Struttura** :  composta da sezioni, con possibilità di includere questionari o di ripetere sezioni o gruppi di sezioni.
- * **Formato risposte** :  vari formati di XML.
- * **File Configurazioni** :  CFVARI0F, B£MEDE0F
- * **Forma presentazione** :  albero di navigazione con sezione corrente.
- * **Navigazione** :  Dalla prima sezione all'ultima.
- * **Regole** :  definite liberamente dal creatore del questionario, oppure tramite programmi appositi.
+ \* **Utilizzo** :   creazione configuratorei generici, dal configuratore di prodotto ad un questionario per raccogliere le preferenze degli utenti.
+ \* **Costruzione** :  utilizzando le tabelle SmeUp CFQ, CFS, CFD, CFV, CFC oppure appositi script.
+ \* **Struttura** :  composta da sezioni, con possibilità di includere questionari o di ripetere sezioni o gruppi di sezioni.
+ \* **Formato risposte** :  vari formati di XML.
+ \* **File Configurazioni** :  CFVARI0F, B£MEDE0F
+ \* **Forma presentazione** :  albero di navigazione con sezione corrente.
+ \* **Navigazione** :  Dalla prima sezione all'ultima.
+ \* **Regole** :  definite liberamente dal creatore del questionario, oppure tramite programmi appositi.
 
 ## Questionari L-
 Questionari definiti all'interno del file SCP_CFG
- * **Utilizzo** :   creazione configuratori  di servizio (configuratore di configuratori, wizard vari)
- * **Costruzione** :  tramite Wizard in Loocup
- * **Formato risposte** :  vari formati di XML.
- * **File Configurazioni** :   B£MEDE0F
- * **Forma presentazione** :  pannello con n pannelli, ognuno con una sezione
- * **Navigazione** :  Libera
- * **Regole** :  non definite
+ \* **Utilizzo** :   creazione configuratori  di servizio (configuratore di configuratori, wizard vari)
+ \* **Costruzione** :  tramite Wizard in Loocup
+ \* **Formato risposte** :  vari formati di XML.
+ \* **File Configurazioni** :   B£MEDE0F
+ \* **Forma presentazione** :  pannello con n pannelli, ognuno con una sezione
+ \* **Navigazione** :  Libera
+ \* **Regole** :  non definite
 
 ## Questionari U-
 Questionari ottenuti dall'unione di una o più sezioni di script oppure da impostazioni grafiche.
- * **Utilizzo** :   raggruppare configurazioni eterogenee
- * **Costruzione** :  da codice :  viene indicato lo script e quali sezioni utilizzare, oppure viene solo indicato il codice del questionario e quali sono le risposte da salvare.
- * **Formato risposte** :  vari formati di XML.
- * **File Configurazioni** :   B£MEDE0F
- * **Forma presentazione** :  pannello contenente da 1 a n pannelli, ognuno con una sezione
- * **Navigazione** :  Libera
- * **Regole** :  non definite
+ \* **Utilizzo** :   raggruppare configurazioni eterogenee
+ \* **Costruzione** :  da codice :  viene indicato lo script e quali sezioni utilizzare, oppure viene solo indicato il codice del questionario e quali sono le risposte da salvare.
+ \* **Formato risposte** :  vari formati di XML.
+ \* **File Configurazioni** :   B£MEDE0F
+ \* **Forma presentazione** :  pannello contenente da 1 a n pannelli, ognuno con una sezione
+ \* **Navigazione** :  Libera
+ \* **Regole** :  non definite
 
 ## Questionari S-
 Questionari definiti all'interno del file SCP_CFG
- * **Utilizzo** :   creazione configuratori  di setup di moduli SmeUp
- * **Costruzione** :  tramite Wizard in Loocup
- * **Formato risposte** :  vari formati di XML.
- * **File Configurazioni** :   B£MEDE0F
- * **Forma presentazione** :  pannello con n pannelli, ognuno con una sezione
- * **Navigazione** :  Libera
- * **Regole** :  non definite
+ \* **Utilizzo** :   creazione configuratori  di setup di moduli SmeUp
+ \* **Costruzione** :  tramite Wizard in Loocup
+ \* **Formato risposte** :  vari formati di XML.
+ \* **File Configurazioni** :   B£MEDE0F
+ \* **Forma presentazione** :  pannello con n pannelli, ognuno con una sezione
+ \* **Navigazione** :  Libera
+ \* **Regole** :  non definite
 
 # Costruzione di un questionario
 La costruzione di un questionario si differenzia in base al tipo.
@@ -108,11 +108,11 @@ La costruzione di un questionario si differenzia in base al tipo.
 ## Costruzione di un questionario di tipo Q-
 
 Per la costruzione della struttura di un questionario di tipo Q- si rimanda alla documentazione del modulo CF, in particolare alla documentazione delle tabelle
- * _2_CFQ :  questionari
- * _2_CFS :  sezionidi questionario
- * _2_CFD : domande di sezione
- * _2_CFV :  valori di domanda
- * _2_CFC :  configurazioni.
+ \* _2_CFQ :  questionari
+ \* _2_CFS :  sezionidi questionario
+ \* _2_CFD : domande di sezione
+ \* _2_CFV :  valori di domanda
+ \* _2_CFC :  configurazioni.
 
 Per la costruzione delle regole del questionario utilizzare la scheda CFBASE, sottoscheda Regole.
 
@@ -130,13 +130,13 @@ Gli script che definiscono i questionari hanno una sintassi leggermente diversa 
 Questa condizione si verifica solo quando voglia definire domande configurate, a risposta singola oppure multipla.
 
 Gli script sono composti dalle seguenti parti : 
- * _2_Sezione Header
- ** _3_KEY :  contiene le chiavi di salvataggio, da utilizzare quando si salva una configurazione
- ** _3_POP :  le voci di popup da aggiungere al G30
- ** _3_BOT :  quali pulsanti tra salva/salva con nome/ elimina sono attivi
- * _2_SEZ :  da questo tag, fino al tag RIG sono indicati i questionari da cui è composto lo script. Per ogni riga viene indicato il formato delle risposte.
- * _2_RIG :  da questo taga fino al tag LIS sono indicate le sezioni e le domande che compongono i vari questionari.
- * _2_LIS :  contiene i possibili valori che una risposta può assumere.
+ \* _2_Sezione Header
+ \*\* _3_KEY :  contiene le chiavi di salvataggio, da utilizzare quando si salva una configurazione
+ \*\* _3_POP :  le voci di popup da aggiungere al G30
+ \*\* _3_BOT :  quali pulsanti tra salva/salva con nome/ elimina sono attivi
+ \* _2_SEZ :  da questo tag, fino al tag RIG sono indicati i questionari da cui è composto lo script. Per ogni riga viene indicato il formato delle risposte.
+ \* _2_RIG :  da questo taga fino al tag LIS sono indicate le sezioni e le domande che compongono i vari questionari.
+ \* _2_LIS :  contiene i possibili valori che una risposta può assumere.
 
 Analizziamo i vari tag.
 **Tag RIG**
@@ -184,7 +184,7 @@ Anche per la definizione delle liste di valori c'è un apposito wizard.
 S1 prima sezione
 .A Articolo                             AR                      015
 .B Cliente                              CNCLI                   015
-.C Libera                               **                      100
+.C Libera                               \*\*                      100
 .D Con valori                           .VPos.Vert              001
  :  : LIS
 Pos.Vert
@@ -203,7 +203,7 @@ S1 prima sezione
 S2 seconda sezione
 .E Articolo                             AR                      015
 .F Cliente                              CNCLI                   015
-.G Libera                               **                      100
+.G Libera                               \*\*                      100
 .H Con valori                           .VPos.Vert              001
  :  : LIS
 Pos.Vert
@@ -224,12 +224,12 @@ A
 .A Articolo                             AR                      015
 .B Cliente                              CNCLI                   015
  : S1B seconda subsezione
-.C Libera                               **                      100
+.C Libera                               \*\*                      100
 .D Con valori                           .VPos.Vert              001
 B seconda sezione
 .E Centro di lavoro                     RICDL                   015
-.F Data                                 D8*YYMD                 015
-.G Libera                               **                      100
+.F Data                                 D8\*YYMD                 015
+.G Libera                               \*\*                      100
 .H Con valori                           .VPos.Vert              001
  :  : LIS
 Pos.Vert

@@ -10,11 +10,11 @@ Parametro 1 :
 .              -- '1' inizio richiesto.
 .              -- '2' ordine.
 .              -- '3' inserimento.
-.              -- '4' (*) data fine schedulata a capacità finita, nello scenario
+.              -- '4' (\*) data fine schedulata a capacità finita, nello scenario
 .                         impostato nel param.3.
-.              -- '5' (*) data fine schedulata a capacità infinita al più presto,
+.              -- '5' (\*) data fine schedulata a capacità infinita al più presto,
 .                         nello scenario impostato nel param.3.
-.              (*) Se non si riesce a reperire questa data, o essa è a zero, viene
+.              (\*) Se non si riesce a reperire questa data, o essa è a zero, viene
 .                  assunta la data fine richiesta
 Parametro 2 : 
 -    Pos.1     Se impostato la fonte è disponibile (con data 0);
@@ -54,5 +54,5 @@ Parametro 2 :
 .              impostazione.
 Parametro 3 : 
 -    Pos.1/10  Scenario da cui acquisire la data schedulata (se non impostato si
-.               assume '**').
+.               assume '\*\*').
 

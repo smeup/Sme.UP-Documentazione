@@ -30,20 +30,20 @@ Esse forniscono tre routine-base :  £Jay_SETUP, £Jay_UPDATE, £Jay_INIT che gu
 Descriviamo di seguito le operazioni svolte da queste routine; altre fonti di informazioni sono i servizi di aggiornamento di esempio e la /COPY £Jay_D, contenente le descrizioni dei campi impiegati dalle £Jay.
 
 ## SETUP
-Per gestire correttamente il colloquio al momento del setup è necessario nel servizio di aggiornamento chiamato con £UIBME='*SETUP', valorizzare alcune variabili e chiamare la routine £Jay_SETUP.
+Per gestire correttamente il colloquio al momento del setup è necessario nel servizio di aggiornamento chiamato con £UIBME='\*SETUP', valorizzare alcune variabili e chiamare la routine £Jay_SETUP.
 Le variabili da impostare sono : 
 
 - Abilitazione operazioni possibili
 -- £JayAutIns (V2SI/NO) :  Abilita inserimento
 -- £JayAutUpd (V2SI/NO) :  Abilita modifica dei record
 -- £JayAutDel (V2SI/NO) :  Abilita cancellazione dei record
--- £JayAutChk (V2SI/NO) :  Abilita pulsante per azione "*CHECK"
+-- £JayAutChk (V2SI/NO) :  Abilita pulsante per azione "\*CHECK"
 -- £JayAlwUpd (V2SI/NO) :  Sempre in aggiornam.
 - Tasti funzionali :  sono schiere tramite le quali è possibile passare il codice di un comando  e la descrizione del comando stesso. Quando il tasto funzionale verrà premuto, il servizio di update verrà richiamato con impostato come metodo il codice del comando.
--- £JayCmd :  Codice comando (in formato *Fnn dove nn è il numero corrispondente al tasto funzionale)
+-- £JayCmd :  Codice comando (in formato \*Fnn dove nn è il numero corrispondente al tasto funzionale)
 -- £JayCmdDes :  Descrizione comando
 - Gestione inserimento
--- £JayIniRow (V2SI/NO) :  Se valorizzato attiva all'inserimento una chiamata da parte del client verso il servizio di update con metodo *INIT al fine di poter permettere l'inizializzazione dei dati di inserimento
+-- £JayIniRow (V2SI/NO) :  Se valorizzato attiva all'inserimento una chiamata da parte del client verso il servizio di update con metodo \*INIT al fine di poter permettere l'inizializzazione dei dati di inserimento
 -- £JayFirIns (V2SI/NO) :  Se valorizzato attiva la chiamata automatica di inserimento all'apertura della matrice
 - Disabilitazione controlli automatici
 -- £JayDisCon (V2SI/NO) :  Se valorizzato disabilita i controlli di consistenza di tutti i campi della matrice.
@@ -69,7 +69,7 @@ Le variabili da impostare sono :
 --- £JayFOB :  Obbligatorietà (V2SI/NO)
 --- £JayFNT :  Controllo tipo oggetto (' ' = Si / '1' = No / '2'= Loocup, significa che prima di chiamare il servizio di update il client si occupa di controllare la consistenza del codice rispetto al tipo oggetto). Questo campo diventa irrilevante se viene attivato nel setup il campo £JayDisTip.
 --- £JayFNC :  Controllo consistenza  (' ' = Si / '1' = No). Questo campo diventa irrilevante se viene attivato nel setup il campo £JayDisCon.
---- £JayFAR  :  Se aggiornamento deferred, quando si conferma la cella viene richiamato il servizio di update con funzione *CHECK
+--- £JayFAR  :  Se aggiornamento deferred, quando si conferma la cella viene richiamato il servizio di update con funzione \*CHECK
 --- £JayFLL :  Lunghezza campo numerico (2 caratteri)
 --- £JayFDD :  N° decimali campo numerico
 --- £JayFFM :  Utilizzo Caratteri minuscoli ('LC' = Lower Case / 'UC' = Upper Case)
@@ -78,7 +78,7 @@ Le variabili da impostare sono :
 --- £JayDES :  Campo descrizione. Se il indicato il nome del campo corrispondente questo verrà automaticamente valorizzato con la descrizione del campo in questione. E' importante ricordare che in questo caso per il campo di descrizione va disabilitato il controllo di consistenza.
 -- £JayDSSea :  è la schiera che definisce i sottocampi di ogni elemento della schiera £JaySeaLst
 --- £JaySNM :  Nome campo
---- £JaySCH :  Carattere/Caratteri che attivano la funzione di ricerca specificata. Possono essere indicati fino a 5 differenti caratteri. Indicato *ALL la funzione di ricerca/controllo sarà sempre
+--- £JaySCH :  Carattere/Caratteri che attivano la funzione di ricerca specificata. Possono essere indicati fino a 5 differenti caratteri. Indicato \*ALL la funzione di ricerca/controllo sarà sempre
 quella specificata
 --- £JaySFU :  Funzione da lanciare per eseguire la ricerca/controllo del campo
 -- £JayDSCom :  è la DS che definisce i sottocampi di ogni elemento della schiera £JayComLst
@@ -94,10 +94,10 @@ quella specificata
 
 
 ## INIZIALIZZAZIONE
-Il servizio viene chiamato con £UIBME="*INIT" se nel setup è stato impostata la variabile £JayIniRow a "1". In questo caso il servizio dovrà valorizzare le schiere £JayVBef/NumBef con i valori per i quali un nuovo record va inizialmente valorizzato e chiare la routine £Jay_INIT.
+Il servizio viene chiamato con £UIBME="\*INIT" se nel setup è stato impostata la variabile £JayIniRow a "1". In questo caso il servizio dovrà valorizzare le schiere £JayVBef/NumBef con i valori per i quali un nuovo record va inizialmente valorizzato e chiare la routine £Jay_INIT.
 
 ## AGGIORNAMENTO / CONTROLLO
-Quando un servizio è chiamato con £UIBME="*UPDATE" oppure "*CHECK" è necessario chiamare la routine £Jay_UPDATE (definita in £Jay_C1 o £Jay_C2 a seconda del tipo di aggiornamento che si sta trattando) e definire le subroutine specifiche dettagliate nel seguito.
+Quando un servizio è chiamato con £UIBME="\*UPDATE" oppure "\*CHECK" è necessario chiamare la routine £Jay_UPDATE (definita in £Jay_C1 o £Jay_C2 a seconda del tipo di aggiornamento che si sta trattando) e definire le subroutine specifiche dettagliate nel seguito.
 NB :  essendo queste subroutine chiamate dal £Jay_UPDATE è necessario comunque definirle per compilare, poi a seconda delle esigenze verranno utilizzate o meno.
 
 ## £JAY_C1 - UPDATE MONOLINE
@@ -122,12 +122,12 @@ fra i valori presenti sulla matrice prima della modifica e quelli presenti sul d
 - Chiama la routine £Jay_AFTER (da definire nel servizio) per ulteriori controlli specifici sui campi della Line in esame
 -- £JayFld35  = Indicatore di errore (poi fa accendere anche il £Jay35)
 -- £JayFldErr e £JayFldErrLev = Schiera con errori specifici per campo (£JayFldErr schiera con i testi degli errori e £JayFldErrLev corrispondente schiera per i livelli di gravità)
-- Chiama la routine £Jay_EXEC (da definire nel servizio) per l'esecuzione della scrittura/cancellazione. E' compito di £Jay_EXEC discriminare tra *CHECK e *UPDATE, ad esempio eseguendo l'operazione solo su *UPDATE e controllare l'indicatore di errore £Jay35
+- Chiama la routine £Jay_EXEC (da definire nel servizio) per l'esecuzione della scrittura/cancellazione. E' compito di £Jay_EXEC discriminare tra \*CHECK e \*UPDATE, ad esempio eseguendo l'operazione solo su \*UPDATE e controllare l'indicatore di errore £Jay35
 - Scrive l'XML di ritorno per la Line, e ricomincia leggendo la Line successiva
 
 
 Esaminiamo nel dettaglio il funzionamento della routine £Jay_UPDATE presentando le strutture dati che vengono utilizzate nel processo.
-Sono gestite varie schiere i cui valori si riferiscono ai campi della matrice (Before, After, valori salvati Save, errori sui campi) :  l'indice di queste schiere corrisponde alla posizione del campo nella schiera £JayFldLst di dichiarazione a *SETUP dei campi trattati.
+Sono gestite varie schiere i cui valori si riferiscono ai campi della matrice (Before, After, valori salvati Save, errori sui campi) :  l'indice di queste schiere corrisponde alla posizione del campo nella schiera £JayFldLst di dichiarazione a \*SETUP dei campi trattati.
 La schiera £JayFldLst, di DS £JayDSFld, contiene gli £Jay_NFld elementi trattati dalle operazioni di aggiornamento.
 
 ### Caso MonoLine : 
@@ -156,7 +156,7 @@ Dall'XML passato dal client vengono ricavate le seguenti informazioni :
 **£Jay_LOAD**
 Questa routine viene chiamata dopo la lettura dell'XML. I suoi compiti : 
 
-- Indicare  la fattibilità dell'operazione :  se modifica o cancellazione DEVE essere presente il record, se inserimento in genere NO. Si usa l'indicatore £Jay35 con il seguente significato :  *BLANKS trovato record (consentite modifica e cancellazione), '1' record non presente (consentito inserimento). Nel caso in cui fosse possibile inserire record multipli è sufficiente restituire sempre £Jay35='1' all'inserimento.
+- Indicare  la fattibilità dell'operazione :  se modifica o cancellazione DEVE essere presente il record, se inserimento in genere NO. Si usa l'indicatore £Jay35 con il seguente significato :  \*BLANKS trovato record (consentite modifica e cancellazione), '1' record non presente (consentito inserimento). Nel caso in cui fosse possibile inserire record multipli è sufficiente restituire sempre £Jay35='1' all'inserimento.
 - Se sono abilitati i controlli di consistenza deve caricare le schiere £JayVSav e £JayNumSav, che contengono i valori salvati su AS dei campi della matrice. I controlli di consistenza vengono effettuati comparando £JayVSav con £JayVBef per i tipi alfanumerici, £JayNumSav con £JayNumBef per quelli numerici (NR e D8). Si noti che per caricare i valori salvati su AS spesso serviranno chiavi per individuare un record :  si usino a tale scopo i valori salvati in £JayVAft (in immissione) o £JayVBef (negli altri casi).
 - Integrare / effettuare le prime modifiche ai valori After dei campi (£JayVAft, £JayNumAft). Si noti che vengono ritornati solo i campi che risultano accesi sulle schiere £JayBefUse o £JayAftUse, per tali motivi anche la schiera £JayAftUse va adeguata nel dovuto modo.
 
@@ -180,7 +180,7 @@ Queste variabili sono sempre a disposizione, in particolare saranno utili nella 
 **Controlli standard**
 Vengono eseguiti controlli di : 
 
-- Fattibilità dell'operazione :  inserimento se £Jay35='1', modifica/cancellazione se £Jay35=*BLANKS. Subito dopo £Jay35 viene pulito e verrà usato nel resto della routine per segnalare errori generici.
+- Fattibilità dell'operazione :  inserimento se £Jay35='1', modifica/cancellazione se £Jay35=\*BLANKS. Subito dopo £Jay35 viene pulito e verrà usato nel resto della routine per segnalare errori generici.
 - Consistenza (opzionali), tra i valori Bef e quelli Sav
 - Tipo (opzionali) :  viene fatta la £DEC sui campi tipizzati (eventualmente anche in maniera dinamica); per i numerici vengono controllati lunghezza e decimali (decimali da implementare); per le date si controlla con £DA8
 - Obbligatorietà (opzionali)
@@ -199,7 +199,7 @@ Vengono restituiti, a livello di Line :
 
 - Numero Line
 - Numero riga matrice visualizzazione
-- Esito dell'operazione :  positivo se £Jay35=*BLANKS, negativo se £Jay35='1'
+- Esito dell'operazione :  positivo se £Jay35=\*BLANKS, negativo se £Jay35='1'
 - Eventuale messaggio di Line in £JayMS
 
 Per ogni campo trattato, poi : 
@@ -373,15 +373,15 @@ Questo avviene salvando i valori della schiera dei campi gestiti (£JayFldLst), 
 Salvare queste informazioni consente utilizzi contemporanei dello stesso servizio in più  schede nella stessa sessione Loocup, senza che le impostazioni vengano sovrascritte.
 Inoltre predispone il servizio aumentandone la compatibilità con web e mobile.
 
-La pulizia dei dati scritti nel B£SUPS0F per la singola matrice avviene alla chiamata del servizio di aggiornamento con £UIBME='*EXIT'.
+La pulizia dei dati scritti nel B£SUPS0F per la singola matrice avviene alla chiamata del servizio di aggiornamento con £UIBME='\*EXIT'.
 La pulizia dei dati scritti nel B£SUPS0F per la sessione avviene alla chiusura di Loocup.
 
 
 ## Implementazione
 Aggiungere nella IMP0 del servizio di aggiornamento l'esecuzione della routine £JAY_SETLET .
 
-Verificare che nel servizio di aggiornamento sia gestita la chiamata con £UIBME='*EXIT' e in caso manchi aggiungerla nel main del programma.
-Aggiungere sotto la chiamata con £UIBME='*EXIT' l'esecuzione della routine £JAY_EXIT.
+Verificare che nel servizio di aggiornamento sia gestita la chiamata con £UIBME='\*EXIT' e in caso manchi aggiungerla nel main del programma.
+Aggiungere sotto la chiamata con £UIBME='\*EXIT' l'esecuzione della routine £JAY_EXIT.
 
 ### ATTENZIONE : 
 Prestare attenzione ad eventuali conflitti tra la rilettura del setup e ottimizzazioni interne al servizio in merito alla rilettura delle autorizzazioni :  potrebbe causare problemi dopo il refresh della sezione.

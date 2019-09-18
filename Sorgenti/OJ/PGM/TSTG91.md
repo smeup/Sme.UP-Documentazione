@@ -16,9 +16,9 @@ di script).
 ## Attribuzione del contesto
 
 Può essere : 
- * Indicato esplicitamente in £G91CO.
- * Associato ad un oggetto (tipo-parametro-codice in £G91TP-£G91PA-£G91CO). Attenzione a pulire sempre £G91CO in questo caso (potrebbe essere valorizzato da chiamate precedenti e causare un'attribuzione errata!).
- * Attribuito automaticamente.
+ \* Indicato esplicitamente in £G91CO.
+ \* Associato ad un oggetto (tipo-parametro-codice in £G91TP-£G91PA-£G91CO). Attenzione a pulire sempre £G91CO in questo caso (potrebbe essere valorizzato da chiamate precedenti e causare un'attribuzione errata!).
+ \* Attribuito automaticamente.
 
 # FUNZIONI/METODI
 
@@ -100,7 +100,7 @@ NB :  le variabili _&_Ox. si riferiscono sempre solo all'oggetto 1 ed anno la pa
 
 ### . SCA.INI - Scansione con posizionamento iniziale
  Inizializza la scansione delle variabili attive in un certo contesto, con il ritorno della prima di esse (Non sono ritornate quelle del contesto di default).
-Per avere l'elenco presente nel contesto di default bisogna eseguire la scansione sul contesto *DFT.
+Per avere l'elenco presente nel contesto di default bisogna eseguire la scansione sul contesto \*DFT.
 
 ### . SCA.NXT - Scansione prossima
  Fatta in successione al metodo SCA.INI permette di proseguire la scansione delle variabili attive.
@@ -169,9 +169,9 @@ Il risultato della condizione viene ritornato nella variabile £G91RS.
 -- XOR
 - Assegnazione
 -- ==
-### Condizione di *BLANKS
-La condizione di *BLANKS è indicata con lo spazio vuoto
-Per esempio se voglio indicare _&_CO.MYVAR<>*BLANKS si deve scrivere
+### Condizione di \*BLANKS
+La condizione di \*BLANKS è indicata con lo spazio vuoto
+Per esempio se voglio indicare _&_CO.MYVAR<>\*BLANKS si deve scrivere
  :  : PAR F(04)
  £G91FU = CND
  £G91ME = TRA

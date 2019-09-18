@@ -4,9 +4,9 @@ Tracciare varie informazioni di utilizzo delle frasi utilizzate in un'installazi
 # Descrizione funzionamento
 La tracciatura salva varie informazioni relative a tutte le richieste di traduzione effettuate da Sme.UP.
 Ogni volta che viene richiesta al sistema la traduzione di una frase, vengono aggiornate varie informazioni quali : 
-* numero di volte totali di cui è stata richiesta tale traduzione
-* numero di giorni in cui è stata richiesta la traduzione
-* ultimo giorno in cui è stata richiesta la traduzione
+\* numero di volte totali di cui è stata richiesta tale traduzione
+\* numero di giorni in cui è stata richiesta la traduzione
+\* ultimo giorno in cui è stata richiesta la traduzione
 Sulla base di queste informazioni sarà poi possibile andare ad effettuare le effettive traduzioni richieste in modo efficiente.
 
 La tracciatura è attivabile solo ed esclusivamente su ambienti in lingua.
@@ -24,7 +24,7 @@ Quando si parla di frase, si intende sempre la frase "contestualizzata".
 - Impostazione exit in tabella A£1
 
 ## Compilazione file A£TRTR0F e logici A£TRTR0L e A£TRTR1L
-Il file della tracciatura delle traduzioni A£TRTR0F e le sue viste logiche devono stare nella stessa libreria dei file delle traduzioni ver e proprie (A£TROR* e A£TRDE*).
+Il file della tracciatura delle traduzioni A£TRTR0F e le sue viste logiche devono stare nella stessa libreria dei file delle traduzioni ver e proprie (A£TROR\* e A£TRDE\*).
 
 Nel file SRCDB della libreria P_LINTR sono presenti i sorgenti da compilare.
 

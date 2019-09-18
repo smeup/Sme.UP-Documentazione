@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni aggiuntive legate ad un oggetto o a una coppia di oggetti.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 N.A.
 
 ## Chiave primaria

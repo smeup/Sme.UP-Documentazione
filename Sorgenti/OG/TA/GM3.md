@@ -2,8 +2,8 @@
 ## OBIETTIVO
 Definizione degli ambienti di valorizzazione del magazzino fiscale
 ## CONTENUTO DEI CAMPI
-Gli scenari possono essere utilizzati solo se, nella tabella GM1, è stato specificato nel campo 'Scenari in val.fisc. il valore '1' (SI), altrimenti viene assunto l'utilizzo dello scenario '**'.
-In ambiente monoscenario vengono utilizzati i parametri di valorizzazione specificati nell'elemento '**' (scenario assunto). In mancanza dell'elemento '**' si considera che tutti i campi siano bianchi, quindi vengono utilizzati i paramentri assunti.
+Gli scenari possono essere utilizzati solo se, nella tabella GM1, è stato specificato nel campo 'Scenari in val.fisc. il valore '1' (SI), altrimenti viene assunto l'utilizzo dello scenario '\*\*'.
+In ambiente monoscenario vengono utilizzati i parametri di valorizzazione specificati nell'elemento '\*\*' (scenario assunto). In mancanza dell'elemento '\*\*' si considera che tutti i campi siano bianchi, quindi vengono utilizzati i paramentri assunti.
  :  : FLD T$ELEM __Scenario__
 È un campo ad immissione libera. Definisce il codice dello scenario di valorizzazione che verrà richiesto prima dell'esecuzione di tutte le funzioni legati alle valorizzazione.
  :  : FLD T$GM3A __Oggetto intestatario__
@@ -19,7 +19,7 @@ Come la Sintesi 1 per la produzione dei totali 2.
 È un elemento V2 SI/NO. Se impostato, l'oggetto intestatario della valorizzazione dello scenario è l'articolo + l'oggetto di riferimento specificato nei campi seguenti.
 Se questo campo è impostato e il campo tipo "Oggetto di riferimento" è lasciato a blanks, si assume di default 'CF' (configurazione).
  :  : FLD T$GM3L __Tipo ogg. di rifer.__
-È un elemento della tabella *CNTT e specifica l'oggetto di riferimento da aggiungere all'articolo. Ha importanza se è impostato a '1' il campo precedente.
+È un elemento della tabella \*CNTT e specifica l'oggetto di riferimento da aggiungere all'articolo. Ha importanza se è impostato a '1' il campo precedente.
  :  : FLD T$GM3M __Param. Rifer.__
 È il parametro dell'oggetto di riferimento.
  :  : FLD T$GM3E __Gruppo flag__

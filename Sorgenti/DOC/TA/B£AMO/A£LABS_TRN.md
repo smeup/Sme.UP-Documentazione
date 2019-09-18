@@ -1,21 +1,21 @@
  :  : PRO Cod(A02) Txt(Esercizi) STAT(00) RESP(VERFRA)
 
  :  : ATT Cod(001) Txt(Come generare dati prototipo) STAT(10) RESP(VERFRA)
-//--***************************************************************
-//--  CREAZIONE DI UN PROTOTIPO                       *
-//--***************************************************************
+//--\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+//--  CREAZIONE DI UN PROTOTIPO                       \*
+//--\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 01. Cosa sono i prototipi in Sme.UP?
-//-- ********************** CAPITOLO 1 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 1 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 In Sme.Up esiste il concetto di dato prototipo, cioè creare dei dati fittizzi che possiamo utilizzare per popolare i nostri componenti di scheda.
 
 Si rimanda alla documentazione ufficiale dei prototipi (Funzioni dell'esercizio).
 
- :  : DEC T(J1) P(FUN) D(A. Documentazione PROTOTIPO) K(F(EXD;*SCO;) 1(MB;DOC;A£LABS_PRO) 2(OJ;*FILE;DOC))
+ :  : DEC T(J1) P(FUN) D(A. Documentazione PROTOTIPO) K(F(EXD;\*SCO;) 1(MB;DOC;A£LABS_PRO) 2(OJ;\*FILE;DOC))
 
 02. Dove creare i dati prototipo
-//-- ********************** CAPITOLO 2 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 2 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Per creare dei dati prototipo abbiamo bisogno di un membro SCP_SET.
 Solitamente questi membri vengono creati seguendo la nomenclatura [NOME]_PRO.
@@ -29,7 +29,7 @@ Sovente si sceglie però di copiare i membri da altre librerie per inserirli nel
     7- Confermiamo la copia del file
 
 03. Come creare i dati prototipi
-//-- ********************** CAPITOLO 3 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 3 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Abbiamo due modi per generare dati prototipo, Randomici o Statici. Inizaimo a vedere i secondi : 
 
@@ -43,7 +43,7 @@ Di seguito vediamo uno script che genererà dati protoipo statici
    COL Cod="B" Txt="Codice" Lun="6" IO="O" Ogg="CNCOL"
    COL Cod="C" Txt="Nome" Lun="30" IO="O" Ogg=""
    COL Cod="D" Txt="Matricola" Lun="5" IO="O" Ogg="NR"
-   COL Cod="STYLE" Txt="Style" Lun="5" IO="H" Ogg="**"
+   COL Cod="STYLE" Txt="Style" Lun="5" IO="H" Ogg="\*\*"
      DAT Fld="CN;COL;SANCOS_$_PIPE_$_SANCOS_$_PIPE_$_Mauro Sanfilippo_$_PIPE_$_3500_$_PIPE_$_WEB01"
      DAT Fld="CN;COL;PARFRA_$_PIPE_$_PARFRA_$_PIPE_$_Franco Parodi_$_PIPE_$_4500_$_PIPE_$_WEB02"
      DAT Fld="CN;COL;FIOGIA_$_PIPE_$_FIOGIA_$_PIPE_$_Gianluca Fioletti_$_PIPE_$_1500_$_PIPE_$_WEB03"
@@ -64,7 +64,7 @@ Per fare questo basta inserire il campo Mod="RDN" e il numero di ripetizioni Rip
 Così compilato, questo esempio ci caricherà 10 collaboratori casuali (definiti nel parametro Ogg="CNCOL").
 
 04.Come importare questi dati in una scheda
-//-- ********************** CAPITOLO 4 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 4 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Ora sposticiamoci in membro SCP_SCH, in cui vogliamo importare i dati che abbiamo appena editato in una matrice.
 Per prima cosa andiamo a impostare due sezioni contenti entrambi una matrice : 
@@ -96,7 +96,7 @@ Ovviamente questo perchè vogliamo che vengano riempite in maniera differente, u
 
 
 05. Vediamo un piccolo esercizio per prendere confidenza con qesto argomento
-//-- ********************** CAPITOLO 5 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 5 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 1- Editare un membro SCP_SET con dei dati fittizzi che verranno uasti per valorizzare un box
 2- Creare in un membro SCP_SCH una sezione BOX e tramite Fun passare i dati contenuti nel membro SCP_SET
@@ -118,7 +118,7 @@ Di seguito un esempio di script che possiamo scrivere all'interno di un SCP_SET 
 Ora editiamo il membro SCP_SCH per importare in un box i dati appena scritti : 
 
  G.SEZ Pos(1)
-  G.SUB.BOX Tit="*NONE"
+  G.SUB.BOX Tit="\*NONE"
    D.FUN.STD F(EXB;B£SER_46;WRK.SCP) 1(MB;SCP_SET;PROVA_PRO) 2(;;ESE_01)
 
 
@@ -126,14 +126,14 @@ Ora editiamo il membro SCP_SCH per importare in un box i dati appena scritti :
  :  : ATT Cod(002) Txt(I costruttori in SmeUP) STAT(10) RESP(VERFRA)
 
 01.Cosa sono i costruttori in SmeUP?
-//-- ********************** CAPITOLO 1 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 1 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 I costruttori in SmeUP sono un insieme di programmi che gestiscono tutti gli aspetti di un singolo ambito, come ad esempio la raccolta dati di campo.
 Tutti i costruttori di SmeUP sono riconoscibili dalla nomenclatura LOA[XX], dove XX è un numero.
 
 
 02.Arrivare sulla scheda di un costruttore
-//-- ********************** CAPITOLO 2 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 2 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Ogni costruttore ha una sua scheda di presentazione
 
@@ -151,17 +151,17 @@ da qui possiamo, ad esempio, accedere alla scheda di documentazione del costrutt
  :  : ATT Cod(003) Txt(Sistema e Ambienti) STAT(10) RESP(VERFRA)
 
 01.Cosa si intende per sistema in SmeUP
-//-- ********************** CAPITOLO 1 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 1 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Per sistema in SmeUP si intende su quale AS400 stiamo lavorando, al momento in laboratorio si utilizzano due sistemi, uno di sviluppo SRVLAB01.SMEUP.COM e uno di amministrazione SRVAMM.SMEUP.COM
 
 02.Cosa si intende per ambiente in smeUP
-//-- ********************** CAPITOLO 2 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 2 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 E' un ambiente di sviluppo isolato da tutti gli altri. Esistono ambienti di sviluppo e test, e ne esistono di produzione.
 
 03.Verificare l'ambiente e il sistema di connessione a LoocUP
-//-- ********************** CAPITOLO 3 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 3 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 In smeUp è possibile, una volta loggati conoscere i propri dati di connessione.
 

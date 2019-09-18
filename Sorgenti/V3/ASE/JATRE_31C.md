@@ -6,7 +6,7 @@ I barratori forniscono un modo di accedere ai dati di un determinato file second
 
 
 # FUNZIONI/METODI (DA RISTRUTTURARE)
-## *BLANKS
+## \*BLANKS
 È l'unica funzione prevista dal servizio, restituisce risultati diversi a seconda dei parametri passati
 del componente scelto.
 Nel primo oggetto va passato il nome del programma barratore (es. V5TDOC_B, BRARTI_B, ...) oppure un

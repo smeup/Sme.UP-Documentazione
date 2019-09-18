@@ -16,9 +16,9 @@
 ## Nuovi oggetti
 ### Creare Domande, Questionario, Modello di configurazione
     Sett. Elemento Descrizione            Contenuto
-  - B£CCF DOM01    COLLEZIONE             *GRUPPO  TAXC1C1  101 03 101 CFDOM002
-  - B£CCF DOM02    COLORE                 *GRUPPO  TAXC1C2  101 03 105 CFDOM003
-  - B£CCF DOM03    TAGLIA                 *GRUPPO  TAXC1C3  101 03 106
+  - B£CCF DOM01    COLLEZIONE             \*GRUPPO  TAXC1C1  101 03 101 CFDOM002
+  - B£CCF DOM02    COLORE                 \*GRUPPO  TAXC1C2  101 03 105 CFDOM003
+  - B£CCF DOM03    TAGLIA                 \*GRUPPO  TAXC1C3  101 03 106
   - B£F   OA01     Questionario           CFDOM001
   - BRC   OA01     Questionario           2     1AOA01
   - C£Q   T01      Taglie                 Liberamente

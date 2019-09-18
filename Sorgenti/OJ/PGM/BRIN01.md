@@ -15,8 +15,8 @@ E' stata prevista poi anche una **Data Sospensione**, ovvero una data che se com
 ## Note di gestione
 E' importante sapere che il programma di gestione delle dichiarazioni, oltre ad alimentare appunto l'archivio delle dichiarazioni, esegue in automatico anche un'altra operazione, ossia quella di riportare alcune informazioni sulla dichiarazione nell'archivio degli enti.
 Ciò significa che per ogni soggetto per il quale è presente una dichiarazione, nella sezione "Dati fiscali" della sua anagrafica vedrò compilati i campi : 
- * Data Valid.Esenzione
- * Dichiarazione Intento
- * Data Dichiarazione Intento
+ \* Data Valid.Esenzione
+ \* Dichiarazione Intento
+ \* Data Dichiarazione Intento
 
 N.B. :  tali campi verranno aggiornati SOLO in caso di ricezione/invio di una nuova dichiarazione.

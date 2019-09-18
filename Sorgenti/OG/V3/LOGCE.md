@@ -23,7 +23,7 @@ Il modo implicito è la composizione di una stringa di cinque caratteri numerici
 E' inoltre possibile definire stili in modo esplicto, inserendoli nello scrpit J3_SET_STD di SCP_SCH.
 In esso si inseriscono il nome dello stile e, in modo esplicto, le sue carratteristiche (colore, sfondo, ecc..) ad eccezione della continuazione.
 
-Esistono infine alcuni stili "base"  con il primo carattere *, definiti direttamente dal client.
+Esistono infine alcuni stili "base"  con il primo carattere \*, definiti direttamente dal client.
 
 Esistono inotre stili utilizzati dall'emulatore, descritti in V2/ATTVI, e rimappati (con le stesse caratteristiche) nello script degli stili espliciti.
 NON esiste nessuna risalita :  l'emulatore usa gli stili di V2/ATTVI, la scheda utlizza l'insieme degli stili espliciti ed impliciti.

@@ -2,42 +2,42 @@
 
 ## COMPLETAMENTO TABELLE
 ### TABELLE COMUNI DI BASE
-* TABELLA PER
+\* TABELLA PER
 Creare gli elementi della tabella PER con sottosettore azienda tramite l'utility PE8 con funzione MAN e metodo CRE
 
- * TABELLA B£4
+ \* TABELLA B£4
 Creare gli elementi della tabella B£4
- * TABELLA B£Y
-Verificare presenza gruppo flag A5*
+ \* TABELLA B£Y
+Verificare presenza gruppo flag A5\*
  :  : DEC T(ST) K(B£Y)
 
 ### TABELLE DI BASE
 
-* A51
+\* A51
 Impostare la tabella : 
  :  : DEC T(ST) K(A51)
 
-* CATEGORIE FISCALI
+\* CATEGORIE FISCALI
 Impostare la tabella : 
  :  : DEC T(ST) K(A5A)
 
-* CAUSALI CESPITI
+\* CAUSALI CESPITI
 Riprendere la tabella : 
  :  : DEC T(ST) K(A5B)
 
-* LINEE DI AMMORTAMENTO
+\* LINEE DI AMMORTAMENTO
 Impostare la tabella : 
  :  : DEC T(ST) K(A5C)
 
-* CAUSALI DI COLLEGAMENTO CON CONTABILITA'
+\* CAUSALI DI COLLEGAMENTO CON CONTABILITA'
 Impostare la tabella con le causali utilizzate nelle registrazioni contabili (elementi della C5V) : 
  :  : DEC T(ST) K(A5F)
 
-* CAUSALI COLLEGATE
+\* CAUSALI COLLEGATE
 Riprendere la tabella : 
  :  : DEC T(ST) K(A5G)
 
-* INIZIALIZZAZIONI A5
+\* INIZIALIZZAZIONI A5
 Riprendere la tabella : 
  :  : DEC T(ST) K(A5W)
 

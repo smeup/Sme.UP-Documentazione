@@ -2,7 +2,7 @@
 Dati informativi e classificazioni degli enti esterni con cui l'azienda viene in contatto.
 Ogni contatto appartiene ad un tipo (tabella BRE) che lo caratterizza (ad esempio clienti, fornitori, concorrenti, probabili clienti, ecc..).
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'CN'                               £FUNT1
  'Tipo ente' (TA/BRE)	  £FUNP1
 
@@ -19,11 +19,11 @@ E§IDOJ
 ## Autorizzazioni
 La classe di autorizzazione è BREN01.
 La funzione di autorizzazione dipende dal programma in cui si esegue il controllo : 
- * Nel formato guida (BREN01G) è il tipo dell'ente.
- * Nelle liste è costruita in questo modo :  BREN01xxxY, dove xxx è il tipo ente, mentre Y è il suffisso del programma di lista, rispettivamente ' '/'A'/'L', per le tre modalità : 
- ** BREN01L   -    Lista richiamata dal formato guida.
- ** BRAEN1LA  -    Lista richiamata dalla ricerca. Se si vuol permettere la manutenzione dalla ricerca (inserimento, variazione) si autorizza questa funzione.
- ** BRAEN1LT  -    Lista richiamata dalla parzializzazione : abilitare solo la scelta, ed eventualmente il dettaglio.
+ \* Nel formato guida (BREN01G) è il tipo dell'ente.
+ \* Nelle liste è costruita in questo modo :  BREN01xxxY, dove xxx è il tipo ente, mentre Y è il suffisso del programma di lista, rispettivamente ' '/'A'/'L', per le tre modalità : 
+ \*\* BREN01L   -    Lista richiamata dal formato guida.
+ \*\* BRAEN1LA  -    Lista richiamata dalla ricerca. Se si vuol permettere la manutenzione dalla ricerca (inserimento, variazione) si autorizza questa funzione.
+ \*\* BRAEN1LT  -    Lista richiamata dalla parzializzazione : abilitare solo la scelta, ed eventualmente il dettaglio.
 
 ## Note strutturate (Tabella NSC)
 Il contenitore si assume dalla tabella BRE. Se non inserito si assume CON.

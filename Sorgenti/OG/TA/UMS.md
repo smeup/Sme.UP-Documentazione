@@ -8,10 +8,10 @@ Contiene la descrizione dell'unità di musura.
  :  : FLD T$FATT __Fattore di conversione__
 Se codificata l'unità di misura di riferimento, è il fattore di conversione tra le due unità di misura. Se non inserito, si assume 1.
  :  : FLD T$MUDI __Tipo Fattore__
-_7_* :     Moltiplicatore
+_7_\* :     Moltiplicatore
 _7_/ :    Divisore
-Se è codificata l'unità di misura di riferimento, definisce se per passare dall'u.m. all'u.m. di riferimento bisogna moltiplicare (*)  o dividere (/) per il fattore di conversione.
-Se invece non è codificata l'unità di misura di riferimento, e questo elemento definisce una coppia di u.m. (u.m.1 e u.m.2), definisce se per passare dall'u.m.1 all'u.m.2 bisogna moltiplicare (*) o dividere (/) per il fattore di conversione.
+Se è codificata l'unità di misura di riferimento, definisce se per passare dall'u.m. all'u.m. di riferimento bisogna moltiplicare (\*)  o dividere (/) per il fattore di conversione.
+Se invece non è codificata l'unità di misura di riferimento, e questo elemento definisce una coppia di u.m. (u.m.1 e u.m.2), definisce se per passare dall'u.m.1 all'u.m.2 bisogna moltiplicare (\*) o dividere (/) per il fattore di conversione.
 In entrambi i casi, se assente, si assume (/).
 _7_P :  Pezzi per unità di tempo
 Indica che il valore indicato deve essere trattato come denominatore. Il fattore indica la corrispondenza con l'unità di riferimento. Ad esempio avremo 1 per pezzi ora e 60 per pezzi minuto. In questo caso è consigliato definire i fattori di arrotondamento, al fine di conservare dopo una doppia conversione lo stesso valore di partenza.
@@ -29,4 +29,4 @@ I valori ammessi sono :
 1 = Sessagesimi. Per esprimere ore e minuti
 2 = Ventiquattresimi. Per esprimere giorni e ore
  :  : FLD T$UMSA __Tipo Oggetto Smeup__
-È un elemento *CN/TT che stabilisce il tipo di numero ammesso per l'unità di misura di questa tabella (numero intero, positivo, relativo..)
+È un elemento \*CN/TT che stabilisce il tipo di numero ammesso per l'unità di misura di questa tabella (numero intero, positivo, relativo..)

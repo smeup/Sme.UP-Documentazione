@@ -1,6 +1,6 @@
 ## Obiettivo
-* Il prototipo è un oggetto che restituisce un XML simulando una funzione ma senza il bisogno di scrivere codice. Ciò al fine di permettere il disegno di una applicazione o funzione applicativa che potrà essere validata dall'utente, testata ecc. in tempi molto ridotti.
-* I dati devono avere il più possibile un contenuto congruente con l'ambiente che stiamo utilizzando. Per farmi capire se parlo di clienti deve presentare clienti di quell'azienda.
+\* Il prototipo è un oggetto che restituisce un XML simulando una funzione ma senza il bisogno di scrivere codice. Ciò al fine di permettere il disegno di una applicazione o funzione applicativa che potrà essere validata dall'utente, testata ecc. in tempi molto ridotti.
+\* I dati devono avere il più possibile un contenuto congruente con l'ambiente che stiamo utilizzando. Per farmi capire se parlo di clienti deve presentare clienti di quell'azienda.
 
 ## Gestione di un prototipo
 I prototipi vengono definiti in membri di SCP_SET.
@@ -16,11 +16,11 @@ V3 P.<Modulo> <Nome prototipo>
 
 ### Testata
 TBL
-* Nam="<nome propotipo>"
-* Tit="<titolo>"
-* Rip="OPZIONALE :  <numero ripetizioni riga>"
-* Mod="OPZIONALE :  <se RND i dati vengono generati random in base all'oggetto della colonna>"
-* Com="Componente ammesso (Albero/Matrice)
+\* Nam="<nome propotipo>"
+\* Tit="<titolo>"
+\* Rip="OPZIONALE :  <numero ripetizioni riga>"
+\* Mod="OPZIONALE :  <se RND i dati vengono generati random in base all'oggetto della colonna>"
+\* Com="Componente ammesso (Albero/Matrice)
 
 ### Colonne di matrice
 Per la comprensione fare riferimento agli attributi di colonna nell'XML standard di Smeup
@@ -47,9 +47,9 @@ Coincidono con i setup dei componenti abilitati quindi matrici, alberi ecc.
 -- apertura sottonodi
    :  : DAT Tip="TA" Par="B£A" Cod="B£"   Tre="Open"
 -- sottonodo
-        :  : DAT Tip="TA" Par="B£AMO" Cod="A£BASE" Fun="F(TRE;*LAP;)"  Txt=""
+        :  : DAT Tip="TA" Par="B£AMO" Cod="A£BASE" Fun="F(TRE;\*LAP;)"  Txt=""
  -- sottonodo
-        :  : DAT Tip="TA" Par="B£AMO" Cod="A5BASE" Fun="F(TRE;*LOG;)"
+        :  : DAT Tip="TA" Par="B£AMO" Cod="A5BASE" Fun="F(TRE;\*LOG;)"
  -- chiusuta sottonodi
    :  : DAT Tre="Close"
 

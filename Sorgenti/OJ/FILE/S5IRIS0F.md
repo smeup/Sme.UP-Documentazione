@@ -5,7 +5,7 @@ Per le fasi completate (perchè dichiarata tutta la quantità oppure perchè sal
 Viene ricostruito automaticamente ad ogni dichiarazione di attività.
 E' inoltre consigliabile attivarne la ricostruzione nel flusso di modifica dell'oggetto intestatario.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'IR'                               £FUNT1
 
 ## Chiave primaria
@@ -49,12 +49,12 @@ N.A.
 
 ## Programmi di controllo
 E' possibile impostare in tabella P5S il suffisso x di un programma di aggiustamento, che può modificare il contenuto del record prima della scrittura : 
-* per gli ordini di produzione non gestiti a MFP, i contenitori PCD, le righe documento e gli ordini pianificati :  S5FURIT_x
-* per gli ordini di produzione gestiti a MFP :  S5FURIF_x
+\* per gli ordini di produzione non gestiti a MFP, i contenitori PCD, le righe documento e gli ordini pianificati :  S5FURIT_x
+\* per gli ordini di produzione gestiti a MFP :  S5FURIF_x
 
 E' possibile impostare, sempre in tabella P5S, il suffisso x di un programma di aggiustamento S5FASIR_x, che permette di ripristinare campi del record tra una rifasatura e l'altra.
 Riferirsi al programma
- :  : DEC T(OJ) P(*PGM) K(S5FASIR)
+ :  : DEC T(OJ) P(\*PGM) K(S5FASIR)
 per l'elenco dei campi che sono ripristinati in automatico.
 NB :  per attivare il ripristino è comunque necessario impostare il flag "Ripresa impegni risorse" in tabella P51.
 
@@ -76,19 +76,19 @@ N.A.
 Gli impegni risorse si riferiscono a ordini di produzione, righe documenti, contenitori e ordini pianificati.
 Si costruiscono con i seguenti programmi : 
 ordini di produzione e righe documento : 
- :  : DEC T(OJ) P(*PGM) K(P5FURIT)
+ :  : DEC T(OJ) P(\*PGM) K(P5FURIT)
 ordini di produzione gestiti a MFP (NB :  programma lanciato dal precedente) : 
- :  : DEC T(OJ) P(*PGM) K(P5MFP02)
+ :  : DEC T(OJ) P(\*PGM) K(P5MFP02)
 contenitori (nella gestione PDC) : 
- :  : DEC T(OJ) P(*PGM) K(P5FUPDC)
+ :  : DEC T(OJ) P(\*PGM) K(P5FUPDC)
 ordini pianificati : 
- :  : DEC T(OJ) P(*PGM) K(M5FURIT)
+ :  : DEC T(OJ) P(\*PGM) K(M5FURIT)
 
 
 ## CONTENUTO DEI CAMPI
 
  :  : FLD S6SCEN Scenario
-Gli impegni risorse sono costruiti sullo scenario ** principale, che deve obbligatoriamente esistere in tabella S5B.
+Gli impegni risorse sono costruiti sullo scenario \*\* principale, che deve obbligatoriamente esistere in tabella S5B.
 E' possibile costruire altri scenari di simulazione, dipendenti dal principale, su cui effettuare la schedulazione fine.
 La loro costruzione avviene contestuamente a quella dello scenario principale, se è impostato, nell'elemento di tabella dello scenario dipendente, il flag di scenario dipendente.
 
@@ -612,7 +612,7 @@ Valore ritornato dalla scansione del ciclo
 Viene determinato col numeratore degli impegni risorse presente in tabella P51.
 E' un identificativo univoco che, al ripresentarsi della stessa combinazione di chiavi, ritorna lo stesso valore.
 L'accoppiata "identificativo - chiave estesa" viene memorizzata nell'archivio
- :  : DEC T(OJ) P(*FILE) K(S5IDIR0F)
+ :  : DEC T(OJ) P(\*FILE) K(S5IDIR0F)
 
  :  : FLD S6DTCR Data creazione
 Impostato alla data di rifasatura

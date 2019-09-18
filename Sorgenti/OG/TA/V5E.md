@@ -26,13 +26,13 @@ Se presente rappresenta il suffisso del programma V5V5E2_SM che viene lanciato p
  :  : FLD T$V5EQ __Suff. Pgm.Aggiustam.__
 Se presente rappresenta il suffisso del programma V5V5E2_SM che viene lanciato per il calcolo personalizzato di vari dati della comunicazione Intra. Si veda la relativa documentazione del programma di estrazione.
  :  : FLD T$V5ER __Sezione Doganale__
-E' un elemento della tabella V§*IH e identifica la sezione doganale presso cui l'azienda effettua la presentazione degli elenchi intracomunitari. Se compilato il campo viene automaticamente ripreso nella compilazione del modello quinquies relativo alle rettifiche di prestazioni.
+E' un elemento della tabella V§\*IH e identifica la sezione doganale presso cui l'azienda effettua la presentazione degli elenchi intracomunitari. Se compilato il campo viene automaticamente ripreso nella compilazione del modello quinquies relativo alle rettifiche di prestazioni.
  :  : FLD T$V5ES __Raggruppamento Servizi__
 A partire del 2015, diventa obbligatori per i servizi i soli campi : 
-* Numero di identificazione delle controparti
-* Codice servizio
-* Paese di pagamento
-* Valore delle transazioni
+\* Numero di identificazione delle controparti
+\* Codice servizio
+\* Paese di pagamento
+\* Valore delle transazioni
 A parità delle prime 3 chiavi, gli importi andranno sommati. Per trasmettere i dati in questa modalità semplificata, sarà necessario valorizzare il campo in oggetto.
 NOTA BENE :  mentre per i servizi ricevuti/resi nel periodo l'applicazione sarà completamente trasparente, nel caso delle rettifiche non verrà applicato alcun raggruppamento, essendo che potrebbe essere necessario rettificare dati trasmessi in modo completo, il raggruppamento viene quindi applicato in base alle effettive chiavi indicate.
 NOTA BENE 2 :  qualora nasca l'esigenza di ritrasmettere una trasmissione precedentemente inviata senza il raggruppamento dei servizi, sarà necessario togliere temporaneamente l'attivazione del raggruppamento dalla tabella, per ripristinarla una volta che la ritrasimissione sarà stata effettuata.

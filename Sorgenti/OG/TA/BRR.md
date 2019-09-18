@@ -5,7 +5,7 @@
 Per ogni tipo risorsa si può definire la tipologia di risorsa cui appartiene (esempio :  i centri di lavoro appartengono ai centri di costo).
 ## CONTENUTO DEI CAMPI
  :  : FLD T$BRRA __Tipo e parametro risorsa appartenenza__
-Tipo e parametro definiscono l'oggetto (elemento della tabella *CN/TT eventualmente tipizzato) che rappresenta il tipo risorsa a cui si può collegare il tipo trattato.
+Tipo e parametro definiscono l'oggetto (elemento della tabella \*CN/TT eventualmente tipizzato) che rappresenta il tipo risorsa a cui si può collegare il tipo trattato.
  :  : FLD T$BRRB.T$BRRA Tipo e parametro risorsa appartenenza
  :  : FLD T$BRR1 __Inser.facoltativo__
 Se impostato, in inserimento delle risorse di questo tipo, la risorsa di appartenenza è facoltativa. Se lasciato in bianco, è invece obbligatoria.

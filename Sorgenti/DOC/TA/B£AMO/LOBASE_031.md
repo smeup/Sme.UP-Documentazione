@@ -160,10 +160,10 @@ Se è presente un'aggiornamento compatibile con la versione installata si può s
 ## Collegamento all'AS400
 Una volta installato Looc.up sul client secondo le modalità precedenti avviare looc.up come una normale applicazione PC
 Verrà visualizzata una finestra di collegamento dove si deve specificare : 
- * nome del sistema As400 (così come conosciuto dal client :  indirizzo IP o nome)
- * utente (vedi sezione LATO SERVER AS400)
- * password
- * codice ambiente
+ \* nome del sistema As400 (così come conosciuto dal client :  indirizzo IP o nome)
+ \* utente (vedi sezione LATO SERVER AS400)
+ \* password
+ \* codice ambiente
 
 E' possibile anche specificare nel link di collegamento dei parametri aggiuntivi che mi permettono di predisporre delle risposte automatiche alle suddette domande. I parametri vengono riconosciuti in base all'ordine dei parametri stessi.
 Quindi in questa modalità : 
@@ -246,9 +246,9 @@ L'installazione della JVM su macchine con sistema operativo a 64 bit richiede al
 ## Dipendenza da altri prodotti
 Alcune funzioni di Looc.up si appoggiano a software esterni. L'assenza di tali prodotti sulla macchina in cui è in esecuzione Looc.up non ne permette la fruizione.
 Le funzioni che sono dipendenti da software esterni sono le seguenti : 
- * i servizi del menù di finestra di Loocup contenute in **Servizi--->Servizi AS400** ad eccezione del menù "Emulatore telnet 5250"
- * la visualizzazione di files (xml, pdf, doc, xls, etc.).
- * le **uscite Excel** delle matrici.
+ \* i servizi del menù di finestra di Loocup contenute in **Servizi--->Servizi AS400** ad eccezione del menù "Emulatore telnet 5250"
+ \* la visualizzazione di files (xml, pdf, doc, xls, etc.).
+ \* le **uscite Excel** delle matrici.
 
 ### I servizi di accesso alle funzioni di sistema AS400
 Tali funzionalità, che genericamente indicheremo come 'Servizi AS400', si appoggiano sulla gestione di sistema fornita dall' Operation Navigator. Questo software è fornito a chi possiede il sistema operativo OS400 **senza necessità di ulteriore licenza se non quella del sistema operativo dell' AS400 .
@@ -263,9 +263,9 @@ Attenzione che se non si vede il nome simbolico non significa che non esista al 
 Esistono però delle eccezioni a questa obbligatorietà. Se nel DNS aziendale è inserito un nome simbolico associato all'IP dell'AS400 ed è stao definito anche il relativo record di risoluzione DNS inversa, allora è possibile utilizzare i "Servizi AS400" anche collegandosi con l'indirizzo IP. Un comportamento analogo inoltre può essere sfruttato anche con la tecnica del file hosts. Dato che il record inserito nel file hosts serve sia per la risoluzione diretta che quella inversa, una volta inserito il record nel file hosts è quindi possibile collegarsi sia utilizzando nome simbolico che IP. E' comunque sempre consigliato collegarsi utilizzando il nome simbolico.
 
 Esistono inoltre ulteriori limitazioni sul nome simbolico utilizzato. Non tutti i nomi simbolici utilizzabili sono compatibili con i "servizi AS400" citati precedentemente. Per poterli utilizzare, tale nome deve essere composto solo da lettere, numeri e il carattere ".". Inoltre ogni gruppo alfanumerico separato dal "." non può essere più lungo di 10 caratteri e non può iniziare con un numero. Non sono quindi validi nomi mnemonici di questo tipo : 
- * NOMEAS400AZIENDALE (più lungo di 10)
- * NOMEAS400.QUESTAAZIENDA (secondo "blocco" più lungo di 10)
- * NOME.AS.400 (il terzo "blocco" inizia con una cifra)
+ \* NOMEAS400AZIENDALE (più lungo di 10)
+ \* NOMEAS400.QUESTAAZIENDA (secondo "blocco" più lungo di 10)
+ \* NOME.AS.400 (il terzo "blocco" inizia con una cifra)
 
 Da notare che loocup si collegherebbe comunque correttamente (il nome simbolico è valido a livello di rete), l'unica cosa che non funzionerebbe sarebbero i "servizi AS400". Si otterrebbe in tal caso il seguente messaggio (The system name is not a valid AS/400 system name.) : 
 ![LOCBAS_024](http://localhost:3000/immagini/LOBASE_031/LOCBAS_024.png)
@@ -302,9 +302,9 @@ Le **uscite Excel** delle matrici prevedono la presenza di **Microsoft Excel** o
 
 ## Looc.Up sotto CITRIX
 ### Prerequisiti
- * Client citrix installato, accedere utilizzando Microsoft Internet Explorer
- * Java Virtual Machine Installata sul server citrix
- * tool di verifica dell'installazione che abbia dato esito positivo.
+ \* Client citrix installato, accedere utilizzando Microsoft Internet Explorer
+ \* Java Virtual Machine Installata sul server citrix
+ \* tool di verifica dell'installazione che abbia dato esito positivo.
 
 ## Accesso al server in laboratorio
 L'installazione attuale è ancora in fase di test.

@@ -2,7 +2,7 @@
 >Se l'origine è PN (ordine pianificato)
 Parametro 1 : 
 -    Pos.1/10  Scenario dei consigli (opzionale) :  se non impostato viene assunto lo
-.              scenario ricevuto. Se anch'esso è bianco viene assunto '**'.
+.              scenario ricevuto. Se anch'esso è bianco viene assunto '\*\*'.
 Parametro 2 : 
 -    Pos.1     Deviazione oggetto di rottura. Se impostato, l'oggetto di rottura
 .              sostituisce l'oggetto dello stesso tipo sia nella parzializzazione

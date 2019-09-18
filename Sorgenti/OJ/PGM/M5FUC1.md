@@ -17,9 +17,9 @@ Bisogna quindi individuare i legami elementari, che contengono la quantità comu
 Il legame può essere tra fabbisogno e copertura oppure tra copertura e fabbisogno.
 Di seguito si farà riferimento al primo termine per identificare l'intero legame.
 Esso contiene, oltre ai codici che individuano il fabbisogno e la copertura (nel caso di Sme.up il numero di record origine), tre quantità : 
- * la quantità sua, che è la quantità effettiva del legame, comune a fabbisogno e copertura;
- * la quantità precedente, che nel caso del fabbisogno corrisponde alla quantità che esso ha riservato per coperture precedenti, mentre, nel caso della copertura è la quantità soddisfatta da fabbisogni precedenti. Essa indica, in pratica, il modo in cui si posiziona temporalmente, all'interno della quantità complessiva del fabbisogno o della copertura;
- * la quantità totale del fabbisogno o della copertura.
+ \* la quantità sua, che è la quantità effettiva del legame, comune a fabbisogno e copertura;
+ \* la quantità precedente, che nel caso del fabbisogno corrisponde alla quantità che esso ha riservato per coperture precedenti, mentre, nel caso della copertura è la quantità soddisfatta da fabbisogni precedenti. Essa indica, in pratica, il modo in cui si posiziona temporalmente, all'interno della quantità complessiva del fabbisogno o della copertura;
+ \* la quantità totale del fabbisogno o della copertura.
 
 ![M5_002_02](http://localhost:3000/immagini/MBDOC_OGG-P_M5FUC1/M5_002_02.png)
 ![M5_002_03](http://localhost:3000/immagini/MBDOC_OGG-P_M5FUC1/M5_002_03.png)
@@ -74,9 +74,9 @@ data di consegna :  vengono evidenziati i fabbisogni che diverrebbero non più e
 
 # Nota tecnica
 Le applicazioni che abbiamo descritto trovano il loro utilizzo nei seguenti punti di Sme.up : 
- * all'interno della funzione di interrogazione dell'MRP;
- * come funzione collegabile a un ordine di acquisto, di vendita o di produzione, in modo da poter valutare la sua situazione di materiali, sia come fabbisogni, sia come coperture;
- * come funzione di scansione, simile alla distinta base, che può essere inserita in applicazioni specifiche.
+ \* all'interno della funzione di interrogazione dell'MRP;
+ \* come funzione collegabile a un ordine di acquisto, di vendita o di produzione, in modo da poter valutare la sua situazione di materiali, sia come fabbisogni, sia come coperture;
+ \* come funzione di scansione, simile alla distinta base, che può essere inserita in applicazioni specifiche.
 
 # Conclusioni
 La capacità di individuare il legame orizzontale (detto di copertura o di appuntamento) tra fabbisogni e disponibilità permette di "vedere" l'MRP con una matrice x-y dove l'asse verticale rappresenta la
@@ -85,10 +85,10 @@ A questo punto è stato possibile realizzare la scansione nel piano x-y di ciò 
 
 # Analisi dei risultati e applicazione dei suggerimenti
 Possiamo avere suggerimenti di : 
- * spostamento delle date di ordini (acquisto, produzione) già rilasciati quando il fabbisogno ha date diverse rispetto agli ordini;
- * cancellazione di ordini (acquisto, produzione) già rilasciati, quando il fabbisogno è minore della disponibilità;
- * creazione di nuovi ordini produzione, quando il fabbisogno è superiore alla disponibilità e la politica è di produzione;
- * creazione di nuovi ordini di acquisto, quando il fabbisogno è superiore alla disponibilità e la politica è di acquisto.
+ \* spostamento delle date di ordini (acquisto, produzione) già rilasciati quando il fabbisogno ha date diverse rispetto agli ordini;
+ \* cancellazione di ordini (acquisto, produzione) già rilasciati, quando il fabbisogno è minore della disponibilità;
+ \* creazione di nuovi ordini produzione, quando il fabbisogno è superiore alla disponibilità e la politica è di produzione;
+ \* creazione di nuovi ordini di acquisto, quando il fabbisogno è superiore alla disponibilità e la politica è di acquisto.
 I suggerimenti possono essere interrogati per articolo, commessa, tipo suggerimento e fonte di disponibilità.
 
 Si utilizza il formato seguente : 
@@ -100,8 +100,8 @@ Ad esempio :
 
 ![M5_001_10](http://localhost:3000/immagini/MBDOC_OGG-P_M5FUC1/M5_001_10.png)
 da notare : 
- * __tipo suggerimento__  -->  può essere AE = agire sull'esistente, PN = pianificare un nuovo ordine;
- * __codice suggerimento__  -->  può essere PR - AQ - LV (quando il tipo è PN e definisce se l'ordine pianificato è di produzione, acquisto, conto lavoro), MO - EL (quando il tipo è AE e definisce se il suggerimento è di modifica o cancellazione. inserendo l'opzione "ES" in corrispondenza del suggerimento, il sistema emette una finestra con l'esposizione del suggerimento : 
+ \* __tipo suggerimento__  -->  può essere AE = agire sull'esistente, PN = pianificare un nuovo ordine;
+ \* __codice suggerimento__  -->  può essere PR - AQ - LV (quando il tipo è PN e definisce se l'ordine pianificato è di produzione, acquisto, conto lavoro), MO - EL (quando il tipo è AE e definisce se il suggerimento è di modifica o cancellazione. inserendo l'opzione "ES" in corrispondenza del suggerimento, il sistema emette una finestra con l'esposizione del suggerimento : 
 
 ![M5_001_11](http://localhost:3000/immagini/MBDOC_OGG-P_M5FUC1/M5_001_11.png)
 Per i suggerimenti di modifica, di fianco alla data suggerita ci possono essere il segno -> oppure <-, che significano rispettivamente anticipa o posticipa.
@@ -109,6 +109,6 @@ L'opzione sulla sinistra del suggerimento può attivare delle funzioni che dipen
 
 ![M5_001_12](http://localhost:3000/immagini/MBDOC_OGG-P_M5FUC1/M5_001_12.png)
 L'applicazione dei suggerimenti può essere : 
- * modifica;
- * creazione di un ordine (fatta direttamente come applicazione del suggerimento nella videata di gestione suggerimenti)  -->  in base alla politica di riordino associata all'articolo vengono generati ordini di produzione o montaggio oppure ordini di acquisto (in questo caso viene chiesto se creare un nuovo ordine o aggiungere una riga ad un ordine già esistente).
+ \* modifica;
+ \* creazione di un ordine (fatta direttamente come applicazione del suggerimento nella videata di gestione suggerimenti)  -->  in base alla politica di riordino associata all'articolo vengono generati ordini di produzione o montaggio oppure ordini di acquisto (in questo caso viene chiesto se creare un nuovo ordine o aggiungere una riga ad un ordine già esistente).
 È possibile sia l'applicazione del suggerimento proposto dall'MRP, sia l'applicazione con variazione del suggerimento (possono essere modificati quantità, data, fornitore).

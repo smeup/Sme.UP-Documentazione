@@ -264,25 +264,25 @@ ed il ciclo dell'articolo "scopa" è  :
 
 ### La distinta base : 
 Possiamo quindi elencare a cosa serve la distinta base e quali sono le informazioni fondamentali.
- * Ogni legame di distinta rappresenta la relazione tra un articolo ed un componente.
- * Per rappresentare un grappolo di componenti, ossia una trasformazione che coinvolge più livelli di distinta, bisogna scrivere N legami, uno per ogni livello e per ogni componente
- * Operazione di impiego :  rappresenta la fase del ciclo dove si consumerà il componente
- * Nel legame di distinta si può riportare il "tempo di rettifica", detto anche leadtime adjustment, che rappresenta l'anticipo di giorni rispetto alla data di completamento trasformazione, per calcolare la data di necessità del componente. (vedi capitolo "pianificare")
- * Avere i livelli di distinta è utile nei seguenti casi : 
- ** Se ci sono vincoli di lotto minimo o multiplo diversi tra un assieme ed un componente (es. Manici almeno 1000, scope alla bisogna)
- ** Se si riutilizzano i semilavorati al livello in assiemi diversi (es :  lo stesso manico in scope diverse)
- ** Se si vuole immagazzinare una parte della trasformazione (es. manico di scopa)
- ** Se si vuole descrivere un KIT di materiali, ossia un assieme fittizio (detto anche phantom, fantasma) che non rappresenta un montaggio fisico ma solamente logico.
+ \* Ogni legame di distinta rappresenta la relazione tra un articolo ed un componente.
+ \* Per rappresentare un grappolo di componenti, ossia una trasformazione che coinvolge più livelli di distinta, bisogna scrivere N legami, uno per ogni livello e per ogni componente
+ \* Operazione di impiego :  rappresenta la fase del ciclo dove si consumerà il componente
+ \* Nel legame di distinta si può riportare il "tempo di rettifica", detto anche leadtime adjustment, che rappresenta l'anticipo di giorni rispetto alla data di completamento trasformazione, per calcolare la data di necessità del componente. (vedi capitolo "pianificare")
+ \* Avere i livelli di distinta è utile nei seguenti casi : 
+ \*\* Se ci sono vincoli di lotto minimo o multiplo diversi tra un assieme ed un componente (es. Manici almeno 1000, scope alla bisogna)
+ \*\* Se si riutilizzano i semilavorati al livello in assiemi diversi (es :  lo stesso manico in scope diverse)
+ \*\* Se si vuole immagazzinare una parte della trasformazione (es. manico di scopa)
+ \*\* Se si vuole descrivere un KIT di materiali, ossia un assieme fittizio (detto anche phantom, fantasma) che non rappresenta un montaggio fisico ma solamente logico.
 
 ### Il ciclo di lavoro : 
 Il ciclo è utile per  : 
- * Tenere in sequenza temporale le fasi di trasformazione (ne beneficia la schedulazione)
- * Calcolare i costi ed i carichi delle trasformazioni interne
+ \* Tenere in sequenza temporale le fasi di trasformazione (ne beneficia la schedulazione)
+ \* Calcolare i costi ed i carichi delle trasformazioni interne
 
 Nel ciclo ci sono queste informazioni fondamentali : 
- * Tempi e valori della fase
- * Centro di lavoro su cui avviene la fase
- * Operazione di riferimento :  questa è una operazione predefinita, ossia è un template usando il quale si aiuta la compilazione delle fasi del ciclo. Praticamente rappresenta la classificazione della sequenza (es. la fase 0057 di un ciclo , se ha come operazione di riferimento " A010 Tornitura" permette al volo di capire che tipo di operazione sia...)
+ \* Tempi e valori della fase
+ \* Centro di lavoro su cui avviene la fase
+ \* Operazione di riferimento :  questa è una operazione predefinita, ossia è un template usando il quale si aiuta la compilazione delle fasi del ciclo. Praticamente rappresenta la classificazione della sequenza (es. la fase 0057 di un ciclo , se ha come operazione di riferimento " A010 Tornitura" permette al volo di capire che tipo di operazione sia...)
 
 ### Il tempo di trasformazione : 
 In Sme.UP, per tempo di trasformazione si intende il tempo necessario per "completare" un livello di distinta. Infatti si chiama anche leadtime di livello.

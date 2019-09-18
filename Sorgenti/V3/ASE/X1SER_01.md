@@ -100,5 +100,5 @@ I valori riportati sono ovviamente solo quelli scritti sul file VERAPG0F, pertan
 
  :  : PRO.SER Cod="COM.10" Tit="Totali commesse per CN\Periodo. " Fun="F(EXB;X1SER_01;COM)" Ref="OPN.1"
 
- :  : PRO.SER Cod="GAD.DAY.11" Tit=". Agenda del giorno" Fun="F(EXB;X1SER_01;GAD.DAY) 1(D8;*YYMD;-(O;;D8*YYMD;Data))"
+ :  : PRO.SER Cod="GAD.DAY.11" Tit=". Agenda del giorno" Fun="F(EXB;X1SER_01;GAD.DAY) 1(D8;\*YYMD;-(O;;D8\*YYMD;Data))"
 

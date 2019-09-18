@@ -5,9 +5,9 @@ Partendo dalla release di Sme.UP Provider Roma Rev 2, è stata sviluppata una ve
 
 ## Le versioni di Sme.UP Provider
 Le versioni di Sme.UP Provider sono 3 : 
- * Sme.UP Provider Stand Alone o Provider SA :  si tratta della versione "storica", quella che funziona solo in ambiente Windows
- * Sme.UP Provider Web Application o Provider WA :   è la versione funzionante all'interno di un application server, quindi indipendente dal sistema operativo
- * Smartkit :  è la versione Provider WA distribuita in un container docker o in una macchina virtuale.
+ \* Sme.UP Provider Stand Alone o Provider SA :  si tratta della versione "storica", quella che funziona solo in ambiente Windows
+ \* Sme.UP Provider Web Application o Provider WA :   è la versione funzionante all'interno di un application server, quindi indipendente dal sistema operativo
+ \* Smartkit :  è la versione Provider WA distribuita in un container docker o in una macchina virtuale.
 
 
 ## Differenze tra Provider WA e SA
@@ -24,12 +24,12 @@ Non è possibile utilizzare plugin che si mettano in ascolto su una porta specif
 Non è possibile neppure utilizzare le funzionalità relative al dialogo con i LoocUp client.
 
 ### Vantaggi versione WA
- * L'applicazione funziona a 64 bit, viene quindi superato il limite di 1024Kb(*), quindi si ha un incremento della robustezza, potendo elaborare XML molto più grossi senza problemi di esaurire la memoria.
- * Avvi e spegnimenti sono gestiti dall'application server
- * Il provider si deve preoccupare solamente della gestione delle connessioni/disconnesioni verso l'AS400
- * Può funzionare sia su Window che su Linux che su AS400
+ \* L'applicazione funziona a 64 bit, viene quindi superato il limite di 1024Kb(\*), quindi si ha un incremento della robustezza, potendo elaborare XML molto più grossi senza problemi di esaurire la memoria.
+ \* Avvi e spegnimenti sono gestiti dall'application server
+ \* Il provider si deve preoccupare solamente della gestione delle connessioni/disconnesioni verso l'AS400
+ \* Può funzionare sia su Window che su Linux che su AS400
 
-NOTA (*) In teoria sono 2048 ma a causa di limiti nella gestione della memoria sulle macchine Windows, si riesce ad arrivare al massimo a 1024Kb.
+NOTA (\*) In teoria sono 2048 ma a causa di limiti nella gestione della memoria sulle macchine Windows, si riesce ad arrivare al massimo a 1024Kb.
 
 ## Prerequisiti
 Un application server, consigliato Payara 5 64 bit, Java 8 64 bit, una macchina con sistema operativo di tipo server con 8GB di ram minimo, consigliati 16.

@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni relative a Plant/Articolo.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 
 ## Chiave primaria
 Vedi tabella C£F.
@@ -23,10 +23,10 @@ La funzione di autorizzazione è ART_MAG.
 ## Parametri (Tabella C£E)
 La categoria è definita in tabella C£F, a standard £P3.
 I parametri £P3 sono importanti perchè da essi derivano gli OAV logistici : 
- * J/L01          Tipo ordine assunto
- * J/L02          % Scarto previsto
- * J/L03          Contenitore standard
- * J/L04          Qtà per contenitore
+ \* J/L01          Tipo ordine assunto
+ \* J/L02          % Scarto previsto
+ \* J/L03          Contenitore standard
+ \* J/L04          Qtà per contenitore
 
 
 ## Flussi (Tabella B£H)

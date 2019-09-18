@@ -23,7 +23,7 @@ _2_Oggetti origine
 - Cliente
 - Fornitore
 - Oggetto 8 determinato dal contenuto della tabella M51 oggetto di rottura
-- Oggetto 9 determinato dal contenuto della tabella M5B elemento '**' oggetto di riferimento
+- Oggetto 9 determinato dal contenuto della tabella M5B elemento '\*\*' oggetto di riferimento
 
 _2_Oggetti aggiuntivi piatti
 

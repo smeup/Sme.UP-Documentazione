@@ -13,6 +13,6 @@ La tipizzazione di un bottone è facilmente riconoscibile :  un bottone è tipiz
 ![LOCBTN_008](http://localhost:3000/immagini/MBDOC_OPE-LOCBTN/LOCBTN_008.png)
 ### Terminologia ed Elementi grafici
 La bottoniera può
- * Bottone
- * Bottoniera
- * Azione associata al click
+ \* Bottone
+ \* Bottoniera
+ \* Azione associata al click

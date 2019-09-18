@@ -4,33 +4,33 @@ Tramite l'utilizzo di questa sezione l'utente potrà manualmente associare i mov
 
 ![C5D030_057](http://localhost:3000/immagini/MBDOC_SCH-C5D030_RIM/C5D030_057.png)
 ## Parametri di lancio
- * Rapporto Bancario :  specificare quale il rapporto bancario da analizzare.
- * Movimenti :  permette di filtrare : 
- ** i movimenti spuntati (dunque quelli già associati ad una registrazione contabile) ;
- ** tutti, dunque i movimenti già spuntati e quelli ancora da spuntare;
- ** i movimenti annullati e dunque i movimenti su cui è stata precedentemente forzata l'azione di annullamento;
- ** lasciando il campo vuoto otterremo solo i movimenti da spuntare, di prevalente inerenza alla sezione in questione.
- * Forza condizione :  nel caso in cui vengano spuntati movimenti contabili con condizione non attiva (valore della condizione all'interno della registrazione contavìbile diverso da 6) è possibile forzarne l'attivazione in modo che il movimento contabile spuntato venga sempre attivato.
-* Ripresa Note :  permette di riprendere all'interno delle note della registrazione contabile la descrizione del movimento che la banca passa all'interno del record di remote banking.
- * Lista Causali Contabili :  consente di filtrare in base al movimento contabile, garantendo maggior efficenza nella selezione di alcuni movimenti piuttosto che altri, risulta particolarmente utile quando i movimenti contabili da associare ai movimenti bancari risultano svariati.
- * Lista Causali ABI :  consente di filtrare in base al codice della causale ABI
- * Tutte le descrizioni :  consente di ottenere l'intera descrizione del movimento bancario con relativa specifica.
+ \* Rapporto Bancario :  specificare quale il rapporto bancario da analizzare.
+ \* Movimenti :  permette di filtrare : 
+ \*\* i movimenti spuntati (dunque quelli già associati ad una registrazione contabile) ;
+ \*\* tutti, dunque i movimenti già spuntati e quelli ancora da spuntare;
+ \*\* i movimenti annullati e dunque i movimenti su cui è stata precedentemente forzata l'azione di annullamento;
+ \*\* lasciando il campo vuoto otterremo solo i movimenti da spuntare, di prevalente inerenza alla sezione in questione.
+ \* Forza condizione :  nel caso in cui vengano spuntati movimenti contabili con condizione non attiva (valore della condizione all'interno della registrazione contavìbile diverso da 6) è possibile forzarne l'attivazione in modo che il movimento contabile spuntato venga sempre attivato.
+\* Ripresa Note :  permette di riprendere all'interno delle note della registrazione contabile la descrizione del movimento che la banca passa all'interno del record di remote banking.
+ \* Lista Causali Contabili :  consente di filtrare in base al movimento contabile, garantendo maggior efficenza nella selezione di alcuni movimenti piuttosto che altri, risulta particolarmente utile quando i movimenti contabili da associare ai movimenti bancari risultano svariati.
+ \* Lista Causali ABI :  consente di filtrare in base al codice della causale ABI
+ \* Tutte le descrizioni :  consente di ottenere l'intera descrizione del movimento bancario con relativa specifica.
 
 ## Dettaglio informazioni
 All'interno della scheda vengono visualizzati nella metà sinistra i movimenti contabili e nella metà destra i movimenti bancari al fine di rendere immediata la conciliazione.
 La matrice relativa ai movimenti contabili presenta : 
-* Data Valuta :  viene visualizzata la data valuta inserita sul movimento contabile;
-* Data operazione :  è la data operazione impostata sul movimento contabile;
-* Importo :  viene visualizzato l'importo dell'operazione
-* Causale :  viene visualizzata la causale contabile legata all'operazione
-* Descrizione :  viene visualizzata la descrizione riportata sulla riga contabile.
+\* Data Valuta :  viene visualizzata la data valuta inserita sul movimento contabile;
+\* Data operazione :  è la data operazione impostata sul movimento contabile;
+\* Importo :  viene visualizzato l'importo dell'operazione
+\* Causale :  viene visualizzata la causale contabile legata all'operazione
+\* Descrizione :  viene visualizzata la descrizione riportata sulla riga contabile.
 
 La matrice relativa ai movimenti bancari presenta : 
-* Data Valuta :  viene visualizzata la data valuta che è la data di effettiva disponibilità sul conto bancario;
-* Data Operazione : indica la data in cui si svolge l'operazione
-* Importo : viene visualizzato l'importo dell'operazione, ricevuto dal flusso bancario;
-* Causale :  viene visualizzata la causale ABI ricevuta dal flusso Banca : 
-* Descrizione : viene visualizzata la descrizione della causale bancaria;
+\* Data Valuta :  viene visualizzata la data valuta che è la data di effettiva disponibilità sul conto bancario;
+\* Data Operazione : indica la data in cui si svolge l'operazione
+\* Importo : viene visualizzato l'importo dell'operazione, ricevuto dal flusso bancario;
+\* Causale :  viene visualizzata la causale ABI ricevuta dal flusso Banca : 
+\* Descrizione : viene visualizzata la descrizione della causale bancaria;
 
 ## Opzioni
 Movimenti Contabili : 

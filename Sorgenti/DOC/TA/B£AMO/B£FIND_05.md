@@ -15,7 +15,7 @@ T§LING :  lingua derivata dalla tabella B£2
 Infine è possibile comporre una descrizione "Normalizzata" creata automaticamente secondo le regole della /COPY £K40, la cui costruzione può essere schedulata o lanciata manualmente dalla scheda "Controllo parole ricerca naturale", e viene salvata nel file C£ALIA0F con le seguenti chiavi : 
 E$TIP1 :  oggetto (Es. OG)
 E$COD1 :  codice oggetto (Es. CNCLI)
-E$TIP2 :  '**'
+E$TIP2 :  '\*\*'
 E$COD2 :  Codice elemento codice oggetto (Es. codice cliente)
 E$ALIA :  '£DE'
 E$SCD2 :  codice Azienda

@@ -32,8 +32,8 @@ Se si desidera utilizzare comunque l'autenticazione in SSO è necessario collega
 ## COME AUTENTICARSI ATTRAVERSO SSO
 
 Seguire  i seguenti passi : 
- * Creare un collegamento a Loocup (Loocup_w.exe o Loocup.exe )
- * Modificare l'attributo "Proprietà" del collegamento :   dopo Loocup.exe, aggiungere uno spazio poi il nome dell'iSeries
+ \* Creare un collegamento a Loocup (Loocup_w.exe o Loocup.exe )
+ \* Modificare l'attributo "Proprietà" del collegamento :   dopo Loocup.exe, aggiungere uno spazio poi il nome dell'iSeries
 
 ![LOBASE_168](http://localhost:3000/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_168.png)
 
@@ -66,17 +66,17 @@ Per autenticarsi attraverso altro profilo, quindi non attraverso SSO, è necessa
 Questa soluzione consente di attivare e disattivare SSO attraverso gli attributi presenti nella riga di collegamento.
 
  - Creare un collegamento a Loocup (Loocup_w.exe o Loocup.exe )
- - Modificare l'attributo Proprietà del collegamento :   dopo Loocup.exe, aggiungere  uno spazio poi il nome dell'iSeries, un altro spazio ed infine  *SSO
+ - Modificare l'attributo Proprietà del collegamento :   dopo Loocup.exe, aggiungere  uno spazio poi il nome dell'iSeries, un altro spazio ed infine  \*SSO
  - Cliccare su OK
 
 ![LOBASE_172](http://localhost:3000/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_172.png)
-L'utente *SSO è una convenzione adottata da Loocup per indicare la modalità di accesso in SSO.
+L'utente \*SSO è una convenzione adottata da Loocup per indicare la modalità di accesso in SSO.
 L'accesso tramite SSO utilizza le credenziali dell'utente iSeries associato all'utente di dominio windows  (utilizzato per accedere al Pc). Tramite SSO si può pertanto accedere con un solo profilo iSeries.
 Nel caso in cui si voglia accedere con un utente differente riferirsi al paragrafo precedente.
 
 ### DISABILITARE L'ACCESSO IN SSO
 
-SSO da collegamento (link) a Loocup.exe; Modificare un link verso Loocup.exe togliendo il parametro "*SSO"
+SSO da collegamento (link) a Loocup.exe; Modificare un link verso Loocup.exe togliendo il parametro "\*SSO"
 
 ## TABELLA RIEPILOGATIVA DELLE MODALITA' DI ATTIVAZIONE
 
@@ -93,7 +93,7 @@ SSO da collegamento (link) a Loocup.exe; Modificare un link verso Loocup.exe tog
 | 
 | .COL Txt="Per disattivare" LunAut="1" |
 | Utente | Imposto SSO in finestra accesso | Accesso diretto | Non posso modificare l'utente d'accesso a meno di disattivare SSO e quindi avere riproposta la maschera di login | About dentro Looc.Up (togli flag) |
-| Sviluppatore | *SSO nel link | Accesso diretto | Posso modificare l'utente d'accesso togliendo  *SSO prima di lanciare l'esecuzione | Rimuovere *SSO dal link |
+| Sviluppatore | \*SSO nel link | Accesso diretto | Posso modificare l'utente d'accesso togliendo  \*SSO prima di lanciare l'esecuzione | Rimuovere \*SSO dal link |
 | Sviluppatore | Utente nel link | Richiesta Password | Per attivare SSO devo rifarmi alle condizioni sopra indicate | Niente (a meno che SSO non sia attivo) |
 | 
 

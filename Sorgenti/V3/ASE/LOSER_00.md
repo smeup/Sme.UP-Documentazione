@@ -27,7 +27,7 @@ ESETR.LIV||Param 2|MDM5FO01G           00010
 
  :  : PRO.SER Cod="ESETR.LIV.1" Tit="Esempio di albero. A 2 livelli con esempi di azioni" Fun="F(TRE;LOSER_00;ESETR.LIV) 1(OG;TS;-(O;;OGTS;)) P()"
 
- :  : PRO.SER Cod="ESEMA.2" Tit="Esempio di matrice. " Fun="F(EXB;LOSER_00;ESEMA) P( TDO(-(F;;TAV5D;Param 1)) CMA(-(F;;MG;Param 2)) TOG(-(F;;TAB£G;Param 3)) VAL(-(F;;**;Param 4)))"
+ :  : PRO.SER Cod="ESEMA.2" Tit="Esempio di matrice. " Fun="F(EXB;LOSER_00;ESEMA) P( TDO(-(F;;TAV5D;Param 1)) CMA(-(F;;MG;Param 2)) TOG(-(F;;TAB£G;Param 3)) VAL(-(F;;\*\*;Param 4)))"
 
  :  : PRO.SER Cod="ESEGA.3" Tit="Esempio di cruscotto. " Fun="F(EXB;LOSER_00;ESEGA) P( VAL(-(F;;NR;Valore)))"
 

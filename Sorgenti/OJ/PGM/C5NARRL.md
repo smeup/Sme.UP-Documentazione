@@ -25,16 +25,16 @@ All'interno del formato lista viene restituito l'elenco delle rate che verrebber
 
 ![C5D010_010](http://localhost:3000/immagini/MBDOC_OGG-P_C5NARRL/C5D010_010.png)
 Le rate riportate nella lista vengono ordinate per data scadenza. Per ogni rata sono riportate le seguenti informazioni : 
- * tipologia di sollecito
- * data documento
- * ente intestatario e relativa ragione sociale
- * numero documento
- * data scadenza
- * tipo pagamento
- * codice valuta
- * importo scaduto in valuta
- * segno registrazione (dare/avere)
- * importo scaduto in euro
+ \* tipologia di sollecito
+ \* data documento
+ \* ente intestatario e relativa ragione sociale
+ \* numero documento
+ \* data scadenza
+ \* tipo pagamento
+ \* codice valuta
+ \* importo scaduto in valuta
+ \* segno registrazione (dare/avere)
+ \* importo scaduto in euro
 
 Per ogni data scadenza è poi riportato un riassunto che riporta l'ammontare scaduto a una certa data.
 In fondo alla lista è poi riportato un totale scaduto generale per ogni valuta presente.

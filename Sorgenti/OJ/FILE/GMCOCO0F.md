@@ -1,7 +1,7 @@
 ## Contenuto
 Dettaglio giacenze degli articoli.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 N.A.
 
 ## Chiave primaria

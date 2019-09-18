@@ -11,23 +11,23 @@ Altro aspetto da considerare è che se il documento origine è già stato oggett
 
 # RICHIESTA PARAMETRI
 
-* Data inizio :  data inizio del periodo da elaborare
-* Data fine :  data fine del periodo da elaborare
-* Data rettifica :  data che verrà attribuita alle rettifiche che verranno generate
-* Modalità :  Stampa/Esecuzione (solo quest'ultima crea anche i record)
+\* Data inizio :  data inizio del periodo da elaborare
+\* Data fine :  data fine del periodo da elaborare
+\* Data rettifica :  data che verrà attribuita alle rettifiche che verranno generate
+\* Modalità :  Stampa/Esecuzione (solo quest'ultima crea anche i record)
 
 # DATI DI OUTPUT
 
-* T  :  tipo movimento (acquisto/cessione)
-* Id Origine :  n° movimento d'origine
-* NzO :  nazione pagamento attribuita al movimento d'origine
-* Id Rettif. :  n° movimento rettifica (se modalità stampa per tutti presenta **)
-* NzR :  nazione pagamento attribuita al movimento di rettifica
-* Soggetto :  ente intestatario
-* P.IVA :  partita iva
-* Data Orig. :  data di elaborazione del movimento originale
-* Importo :  importo del movimento
-* N°Prot. :  n° protocollo del documento
-* Dt.Prot. :  data protocollo del documento
-* Cod.Ser. :  codice servizio
+\* T  :  tipo movimento (acquisto/cessione)
+\* Id Origine :  n° movimento d'origine
+\* NzO :  nazione pagamento attribuita al movimento d'origine
+\* Id Rettif. :  n° movimento rettifica (se modalità stampa per tutti presenta \*\*)
+\* NzR :  nazione pagamento attribuita al movimento di rettifica
+\* Soggetto :  ente intestatario
+\* P.IVA :  partita iva
+\* Data Orig. :  data di elaborazione del movimento originale
+\* Importo :  importo del movimento
+\* N°Prot. :  n° protocollo del documento
+\* Dt.Prot. :  data protocollo del documento
+\* Cod.Ser. :  codice servizio
 

@@ -82,12 +82,12 @@ L'acceso ai metadati richiede apposite sintassi di interrogazione, differenti da
 
 Ad esempio l'elenco delle tabelle è ottenibile mediante la seguente query : 
 
-SELECT *
+SELECT \*
     FROM QSYS2.TABLES
 
 oppure tramite la seguente query : 
 
-SELECT *
+SELECT \*
     FROM SYSIBM.TABLES
 
 La prima da la garanzia di essere valida per ogni versione del SO, mentre la seconda potrebbe cambiare al cambiare della release del SO.

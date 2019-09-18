@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni di quantità, date e classificazioni degli ordini di produzione.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'OR'                               £FUNT1
 
 ## Chiave primaria
@@ -21,8 +21,8 @@ Le impostazioni che condizionano questo archivio sono contenute nel settore di t
 La classe di autorizzazione è P5OR01.
 
 La funzione di autorizzazione è il programma in cui si esegue il controllo : 
- * P5OR01G   -    Formato guida
- * P5OR01L   -    Lista
+ \* P5OR01G   -    Formato guida
+ \* P5OR01L   -    Lista
 
 ## Note strutturate (Tabella NSC)
 Il contenitore si assume dalla tabella P5T (tipo ordine). Se non inserito si assume OR.

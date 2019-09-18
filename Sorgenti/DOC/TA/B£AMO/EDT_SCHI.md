@@ -30,7 +30,7 @@ La condizione è valida se l'oggetto indicato esiste in SME.up. L'oggetto può i
 - .PGM - Dello script generato da un programma
 ## Parametri
 Per l'inclusione di un membro : 
-      Lib :  Libreria (assume *LIBL)
+      Lib :  Libreria (assume \*LIBL)
       Fil :  File     (assume SCP_SCH)
       Mem :  Membro
 Per l'inclusione da un programma : 

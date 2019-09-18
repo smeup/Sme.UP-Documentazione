@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni anagrafiche di una ubicazione.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'UB'                               £FUNT1
 
 ## Chiave primaria

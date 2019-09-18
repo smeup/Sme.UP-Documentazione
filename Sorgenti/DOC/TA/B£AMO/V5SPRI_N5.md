@@ -1,7 +1,7 @@
 # Spedizione in C/Lavoro
 Si può decidere di spedire per : 
- * impegno (a bilanciamento)
- * per documento (tutti gli impegni di un documento per una qtà di riferimento dell'assieme)
+ \* impegno (a bilanciamento)
+ \* per documento (tutti gli impegni di un documento per una qtà di riferimento dell'assieme)
 
 In questo secondo caso __NON__ viene fatto alcun bilanciamento :  viene proposta la qtà indipendentemente da spedizioni precedenti a fronte dello stesso documento / riga. Viene comunque presentato a fianco il bilanciamento (sommatoria impegni e sommatoria disponibilità c/o il terzista) su cui regolarsi.
 

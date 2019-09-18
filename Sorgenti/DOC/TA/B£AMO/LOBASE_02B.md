@@ -19,7 +19,7 @@ Una chiamata standard a un servizio parte con F(A;B;C), dove
 
 
 - **£UIBPG** :  _Componente**. Indica al servizio quale è il componente di destinazione che interpreterà l'XML restituito. In questo modo il servizio sa, ad esempio, che l'XML di una lista di oggetti va restituita secondo la sintassi di un albero piuttosto che di una matrice.
-- **£UIBFU** :  _Servizio**. Secondo le vecchie modalità in questo campo si indicava un elemento di TAJAT che indicava il servizio da restituire, come ad esempio *DO, *DR... Un servizio JATRE* poteva basarsi su questa informazione per decidere quale funzione eseguire e quali dati restituire. Ora questo campo contiene il nome del programma che restituisce il servizio. La funzione vera e propria viene indicata in £UIBME.
+- **£UIBFU** :  _Servizio**. Secondo le vecchie modalità in questo campo si indicava un elemento di TAJAT che indicava il servizio da restituire, come ad esempio \*DO, \*DR... Un servizio JATRE\* poteva basarsi su questa informazione per decidere quale funzione eseguire e quali dati restituire. Ora questo campo contiene il nome del programma che restituisce il servizio. La funzione vera e propria viene indicata in £UIBME.
 - **£UIBME** :  _Funzione.metodo**. Indica al servizio la funzione da eseguire, opzionalmente seguita da un metodo separato da un punto.
 
 
@@ -51,7 +51,7 @@ Ogni programma che implementa un servizio può fornire tramite una schiera una t
 
 Questa schiera può essere definita nella documentazione attiva del programma, in DOC_SER, membro nome programma ad es : 
 - [SXML Documentazione - modifica](Sorgenti/V3/ASE/JATRE_29C)
-racchiusa tra le specifiche ..I.RUL e ..I.RUL.END oppure restituita dal programma in risposta a una chiamata con funzione '*JASEP2' (vecchia modalità, sconsigliata)
+racchiusa tra le specifiche ..I.RUL e ..I.RUL.END oppure restituita dal programma in risposta a una chiamata con funzione '\*JASEP2' (vecchia modalità, sconsigliata)
 
 ## STRUTTURA
 Una tabella delle regole si compone di 4 sezioni : 
@@ -69,8 +69,8 @@ Le regole possono essere associate alle funzioni in maniera ereditaria :  si pu�
 Nel caso di regole definite su più livelli le più specifiche hanno la priorità (metodo/funzione/ generali).
 La prima riga della sezione specifica le regole generali e dichiara la completezza della tabella delle regole mediante una delle due keywords : 
 
-- ***ALL** :  sono definiti in tabella tutte le funzioni e metodi supportati dal servizio
-- ***FREE** :  sono definiti solo alcune funzioni/metodo. Le funzioni/metodo definiti vengono controllati secondo le regole indicate, gli altri sono lasciati liberi.
+- **\*ALL** :  sono definiti in tabella tutte le funzioni e metodi supportati dal servizio
+- **\*FREE** :  sono definiti solo alcune funzioni/metodo. Le funzioni/metodo definiti vengono controllati secondo le regole indicate, gli altri sono lasciati liberi.
 
 La righe successive associano dei nomi di regole alle funzioni oppure alle funzioni/metodo.
 I metodi si differenziano dalle funzioni mediante un punto in prima posizione.
@@ -78,14 +78,14 @@ I metodi si differenziano dalle funzioni mediante un punto in prima posizione.
 ## PARAMETRI
 Questa sezione definisce i parametri che vengono passati tramite il campo £UIBPA al programma che implementa il servizio.
 Sono possibili due modalità di passaggio parametri al servizio (mutuamente esclusive) : 
- * **Forma posizionale** :  viene presentata una G30 per i parametri, il risultato va a formare una stringa in cui ad ogni parametro corrisponde una posizione. Esempio : 
- ** Codice articolo (15) = A01
- ** Tipo documento  (3)  = OVE
- ** -> P(A01            OVE)
- * **Forma a tag** :        viene presentata una G11 per i parametri, il risultato va a formare una stringa in cui ogni parametro è associato a un tag che lo racchiude, in questo caso la posizione è ininfluente. Esempio : 
- ** Codice articolo (ART) = A01
- ** Tipo documento  (TDO)  = OVE
- ** -> P(ART(A01)  TDO(OVE))
+ \* **Forma posizionale** :  viene presentata una G30 per i parametri, il risultato va a formare una stringa in cui ad ogni parametro corrisponde una posizione. Esempio : 
+ \*\* Codice articolo (15) = A01
+ \*\* Tipo documento  (3)  = OVE
+ \*\* -> P(A01            OVE)
+ \* **Forma a tag** :        viene presentata una G11 per i parametri, il risultato va a formare una stringa in cui ogni parametro è associato a un tag che lo racchiude, in questo caso la posizione è ininfluente. Esempio : 
+ \*\* Codice articolo (ART) = A01
+ \*\* Tipo documento  (TDO)  = OVE
+ \*\* -> P(ART(A01)  TDO(OVE))
 
 Struttura della sezione : 
 
@@ -122,7 +122,7 @@ _7_Obbligatorietà :  alla riga dell'oggetto viene associato un carattere :
 - **'F'** :  facoltativo
 - **' '** :  non va immesso
 
-_7_Tipizzazione : si possono specificare fino a 5 TipoParametro consentiti per l'oggetto. Il valore immesso deve essere compreso tra questi (e la ricerca suggerisce questi valori), a meno cheil primo oggetto non sia '**' (in tal caso vale qualunque tipo/parametro, la ricerca opera in *CNTT).
+_7_Tipizzazione : si possono specificare fino a 5 TipoParametro consentiti per l'oggetto. Il valore immesso deve essere compreso tra questi (e la ricerca suggerisce questi valori), a meno cheil primo oggetto non sia '\*\*' (in tal caso vale qualunque tipo/parametro, la ricerca opera in \*CNTT).
 
 Struttura delle righe di questa sezione : 
 
@@ -208,52 +208,52 @@ In tal caso vengono stampate le stringhe aggiunte al buffer e poi inviate su cod
 
 ## Richiamo delle routine
 ### COPY necessarie
- * £INIZH
- * £JAX_D
- * £TABJATDS
- * £PDS
- * £INZSR
- * £RITES
- * £DEC
- * £JAX_C
- * £JAX_O
+ \* £INIZH
+ \* £JAX_D
+ \* £TABJATDS
+ \* £PDS
+ \* £INZSR
+ \* £RITES
+ \* £DEC
+ \* £JAX_C
+ \* £JAX_O
 
 ### Inizializzazione
 (All'interno di £INZSR)
 
- * _2_£JAX_INZP. ENTRY Standard se proveniente da JAJAS1 di LOOC.up. Separata perchè può essere facoltativa (metto io l'entry)
- * _2_£JAX_INZ. Pulisce variabili e se LOG attivo apre file di stampa
+ \* _2_£JAX_INZP. ENTRY Standard se proveniente da JAJAS1 di LOOC.up. Separata perchè può essere facoltativa (metto io l'entry)
+ \* _2_£JAX_INZ. Pulisce variabili e se LOG attivo apre file di stampa
 
 ### Impostazioni iniziali
 (Nella routine iniziale eseguita ad ogni richiamo)
 
- * _2_£JAX_IMP0.
+ \* _2_£JAX_IMP0.
 
 ### Corpo
 _7_Lista dei costrutti base predefiniti in COPY £JAX_C0 
- * _2_£JAX_ADD. Aggiunge la variabile £JAXCP in coda al buffer. Se supera limite forza un scrittura con condizione "CONTINUA"
- * _2_£JAX_SND. Invio
- * _2_£JAX_RCV. Ricevo da coda
+ \* _2_£JAX_ADD. Aggiunge la variabile £JAXCP in coda al buffer. Se supera limite forza un scrittura con condizione "CONTINUA"
+ \* _2_£JAX_SND. Invio
+ \* _2_£JAX_RCV. Ricevo da coda
 
 _7_Lista dei costrutti predefiniti in COPY £JAX_C1 
- * _2_£JAX_ADDO. Aggiunta oggetto
- * _2_£JAX_AGRI. Aggiunta griglia
- ** Riceve una schiera £JAXSWK (Tipo £G30E)
- ** Inizia la griglia
- ** Ripete n colonne
- ** Chiude la griglia
- * _2_£JAX_ACOL. Aggiunta colonna
- * _2_£JAX_ARIG. Aggiunta riga
- * _2_£JAX_AMSG. Aggiunta messaggio
+ \* _2_£JAX_ADDO. Aggiunta oggetto
+ \* _2_£JAX_AGRI. Aggiunta griglia
+ \*\* Riceve una schiera £JAXSWK (Tipo £G30E)
+ \*\* Inizia la griglia
+ \*\* Ripete n colonne
+ \*\* Chiude la griglia
+ \* _2_£JAX_ACOL. Aggiunta colonna
+ \* _2_£JAX_ARIG. Aggiunta riga
+ \* _2_£JAX_AMSG. Aggiunta messaggio
 
 _7_Lista dei costrutti predefiniti in COPY £JAX_C2 
- * _2_£JAX_ATAB_I. Inizializza Caricamento Tabelle
- * _2_£JAX_ATAB. Aggiunta Oggetto a Tabelle
- * _2_£JAX_ATAB_F. Finalizzazzione Tabelle
+ \* _2_£JAX_ATAB_I. Inizializza Caricamento Tabelle
+ \* _2_£JAX_ATAB. Aggiunta Oggetto a Tabelle
+ \* _2_£JAX_ATAB_F. Finalizzazzione Tabelle
 
 ### Chiusura
 - Nella routine precedente al RETURN o LR
- * _2_£JAX_FIN0. Forza l'invio su coda con condizione "FINE"
+ \* _2_£JAX_FIN0. Forza l'invio su coda con condizione "FINE"
 
 ## Debug di un servizio (SL / RL)
 ### Introduzione
@@ -292,9 +292,9 @@ A questo punto posso far **partire la mia richiesta** dall'interfaccia di Loocup
 Una volta che è stato invocato il servizio la finesta di Loocup rimane in attesa di una risposta da parte del server. A questo punto ci si sposta alla finestra del terminale e da qui possiamo interagire con il debug e passare alle **successive istruzioni** che seguono al mio primo punto di breakpoint grazie al comando **F10**. E' possibile poi passare ad un **punto successivo del programma** spostandosi con le **frecce** e selezionando un  nuovo punto di analisi tramite la sequenza di comandi **F6-F12**.
 
 Pian piano che ci muoviamo dentro il programma possiamo : 
- * **analizzare le varie variabili** :   posizionandosi con il **cursore** sulla variabile da analizzare ed eseguendo il comando **F11**;
- * porre **condizioni** su determinate sezioni del programma tramite il comando **F13**;
- * indicare un **altro sorgente**, tramite il comando **F14**, a cui posso porre dei punti di breakpoint.
+ \* **analizzare le varie variabili** :   posizionandosi con il **cursore** sulla variabile da analizzare ed eseguendo il comando **F11**;
+ \* porre **condizioni** su determinate sezioni del programma tramite il comando **F13**;
+ \* indicare un **altro sorgente**, tramite il comando **F14**, a cui posso porre dei punti di breakpoint.
 
 ### 3 - Ending Debugger - Termina sessione di debug
 Per uscire dalle operazioni di debug si usa il comando **F3**. Una volta usciti è comunque possibile ritornare al sorgente in debug tramite il comando **DSPMODSRC**.
@@ -310,7 +310,7 @@ _5_Ricercare il lavoro
 Ricercare il**numero**del lavoro di AS/400 attraverso il comando WRKUSRJOB dell'utente UISMEUP con lavori SMEUPUIxxx. Determinare il numero utilizzano l'opzione 5. Determinare il numero del lavoro in esecuzione su AS/400 attraverso il comando WRKUSRJOB.
 
  :  : INI  Ricerca Lavoro SMEUPUISTD
- :  : CMD ?WRKUSRJOB USER(UISMEUP) JOBTYPE(*BATCH)
+ :  : CMD ?WRKUSRJOB USER(UISMEUP) JOBTYPE(\*BATCH)
  :  : FIN
 
 ### Esempio della ricerca
@@ -335,7 +335,7 @@ Una volta determinato il lavoro,(Es.852654) attivare il monitoraggio attraverso 
 _5_Attivare il debug
 Attivare il debug sul programma desiderato, (Es.BRAR01G)
  :  : INI  Attivo l'analizzatore
- :  : CMD ?STRDBG PGM(BRAR01G) UPDPROD(*YES) OPMSRC(*NO)
+ :  : CMD ?STRDBG PGM(BRAR01G) UPDPROD(\*YES) OPMSRC(\*NO)
  :  : FIN
  : T03
 _5_Chidere il monitoraggio
@@ -349,7 +349,7 @@ _5_Visualizzare il log del lavoro.
 Ricercare il**numero**del lavoro di AS/400 attraverso il comando WRKUSRJOB dell'utente UISMEUP con lavori SMEUPUIxxx. Determinare il numero utilizzano l'opzione 5 e poi la 10 e poi F10.
 Determinare il numero del lavoro in esecuzione su AS/400 attreaverso il comando WRKUSRJOB.
  :  : INI  Ricerca Lavoro SMEUPUISTD
- :  : CMD ?WRKUSRJOB USER(UISMEUP) JOBTYPE(*BATCH)
+ :  : CMD ?WRKUSRJOB USER(UISMEUP) JOBTYPE(\*BATCH)
  :  : FIN
 ###
 ## Esempio della ricerca
@@ -464,7 +464,7 @@ L'xml della risposta può essere ritornato in queste due modalità :
 >     C                   EVAL      £J15ST='EDT_SCH/G.SET.MAT'
      C                   EVAL      £J15CO=''
      C                   EXSR      £JAX_ISET
-      *
+      \*
      C                   EVAL      £JAXCP=
      C                              'ShowTotal="Yes" ShowGroup="Yes" '
      C                             +'Showfilter="Yes" Showheader="Yes" '
@@ -475,14 +475,14 @@ L'xml della risposta può essere ritornato in queste due modalità :
      C                             +'Aligntotal="Yes" '
      C                             +'DftTotal="COUNT(XXCODI)" '
      C                   EXSR      £JAX_ASET
-      *
+      \*
 
 
 ## Scrivere il popup dalle sezione da servizio
 >     C                   EXSR      £JAX_APOP_I
-      *
+      \*
      C                   EVAL      £JAXCP='<Oggetto Tipo="J1" Parametro="KEY" '
-     C                             +'Codice="*NEXT" '
+     C                             +'Codice="\*NEXT" '
      C                             +'Testo="'+%TRIM(TXT(2))+'" '
      C                   EVAL      £JAXCP=%TRIM(£JAXCP)
      C                             +' Exec="F('+%TRIM(£UIBPG)+';'
@@ -490,12 +490,12 @@ L'xml della risposta può essere ritornato in queste due modalità :
      C                             +' 1('+XUIBT1+';'+XUIBP1+';'+XUIBK1+') '
      C                             +'" />'
      C                   EXSR      £JAX_ADD
-      *
+      \*
      C                   EVAL      £JAXCP='<Oggetto '
      C                             +'Gruppo="3" '
      C                             +'ShowText="Yes" '
      C                             +'Tipo="J1" Parametro="KEY" '
-     C                             +'Codice="*F10" '
+     C                             +'Codice="\*F10" '
      C                             +'Testo="F10='+%TRIM(TXT(3))+'" '
      C                             +'Mode="EXT.PAG" '
      C                             +'_Type="TRE;TRA;MAT Pag(Yes)"'
@@ -506,22 +506,22 @@ L'xml della risposta può essere ritornato in queste due modalità :
      C                             +'" />'
      C                             +'" />'
      C                   EXSR      £JAX_ADD
-      *
+      \*
      C                   EVAL      £JAXCP='<Oggetto '
      C                             +'Gruppo="3" '
      C                             +'ShowText="Yes" '
      C                             +'Tipo="J1" Parametro="KEY" '
-     C                             +'Codice="*F13" '
+     C                             +'Codice="\*F13" '
      C                             +'Testo="F13='+%TRIM(TXT(10))+'" '
      C                             +'Mode="EXT.NOT" '
      C                   EVAL      £JAXCP=%TRIM(£JAXCP)+' '
      C                             +'Exec="'
-     C                             +'F(EXD;*SCO;) '
+     C                             +'F(EXD;\*SCO;) '
      C                             +'2(MB;SCP_SCH;B£SER_88) '
      C                             +'1(OG'+';;'+%TRIMR(XUIBP1)+')'
      C                             +'" />'
      C                   EXSR      £JAX_ADD
-      *
+      \*
      C                   EXSR      £JAX_APOP_F
 
 
@@ -554,10 +554,10 @@ Matrice dei lock attivi.
  :  : PRO Fun="F(EXB;B£SER_01;LIS.LCK) 1(RE;K-;--)".
 
 Albero dei significati data la classe e la funzione.
- :  : PRO Fun="F(TRE;B£SER_01;AUA.SIG) 1(TA;B£P;--) 2(**;;--)".
+ :  : PRO Fun="F(TRE;B£SER_01;AUA.SIG) 1(TA;B£P;--) 2(\*\*;;--)".
 
 Matrice dei record presenti data la classe,la funzione e l'utente.
- :  : PRO Fun="F(EXB;B£SER_01;AUA.ESI) 1(TA;B£P;--) 2(**;;-) 3(UP;;-)".
+ :  : PRO Fun="F(EXB;B£SER_01;AUA.ESI) 1(TA;B£P;--) 2(\*\*;;-) 3(UP;;-)".
 
 Costruisce una matrice delle liste presenti per l'oggetto.
  :  : PRO Fun="F(EXB;B£SER_40;LIS.LIS) 1(LI;--;-)".
@@ -567,15 +567,15 @@ Costruisce una matrice degli elementi contenuti nella lista.
 
 
 La sintassi è molto efficace, ma presenta delle limitazioni : 
- * intestazione oggetti non modificabile;
- * difficoltà di estensione;
- * duplicata intestazione FEM fra prototipo (..PRO) e sezione (..SEZ);
- * se il campo chiave non partecipa alla configurazione del parametro, non riesco a referenziarlo;
- * i campi oggetto possono referenziarsi fra di loro
+ \* intestazione oggetti non modificabile;
+ \* difficoltà di estensione;
+ \* duplicata intestazione FEM fra prototipo (..PRO) e sezione (..SEZ);
+ \* se il campo chiave non partecipa alla configurazione del parametro, non riesco a referenziarlo;
+ \* i campi oggetto possono referenziarsi fra di loro
              F(TRE;B£SER_01;ATR.TRE) 1(--;-;--) 2(OA;[T1][P1];--)
 
- * utilizzo di £UIBTx/£UIBPx/£UIBKx che non esprime un oggetto
-             F(EXB;JASER_02;OGG.LIS) 1(TA*CNTT;OG[T1];Q1[T1][P1])
+ \* utilizzo di £UIBTx/£UIBPx/£UIBKx che non esprime un oggetto
+             F(EXB;JASER_02;OGG.LIS) 1(TA\*CNTT;OG[T1];Q1[T1][P1])
 
 Potremmo gestire degli attributi speciali in modo da trattare i campi oggetto nella configurazione.
 Potremmo definire due sezioni differenti **Oggetti/Parametri**.
@@ -614,16 +614,16 @@ ATR.TRE
 | .COL Txt="Impostazione" A="L" |
 | 
 | .COL Txt="Assunto" LunAut="1" |
-|  - T1|Tipo|TA*CNTT||O|||||| |
+|  - T1|Tipo|TA\*CNTT||O|||||| |
 |  - P1|Parametro|OG[T1]|||||||| |
 |  - K1|Codice|T1][P1]||O|||||| |
-|  - T2|Tipo|TA*CNTT|H|||||||OA |
+|  - T2|Tipo|TA\*CNTT|H|||||||OA |
 |  - P2|Parametro|[P1]|H||||||| |
 |  - K2|Codice|[OA][P1]||O|||||| |
 | 
 
 
-F(EXB;JASER_02;OGG.LIS) 1(TA*CNTT;OG[T1];Q1[T1][P1])
+F(EXB;JASER_02;OGG.LIS) 1(TA\*CNTT;OG[T1];Q1[T1][P1])
 ..SEZ
 OGG            Oggetti
 .OGG.LIS      Lista
@@ -655,7 +655,7 @@ OGG.LIS
 | .COL Txt="Impostazione" A="L" |
 | 
 | .COL Txt="Assunto" LunAut="1" |
-|  - T1|Tipo|TA*CNTT||O|||||| |
+|  - T1|Tipo|TA\*CNTT||O|||||| |
 |  - P1|Parametro|OG[T1]||O|||||| |
 |  - K1|Query|Q1[T1][P1]||O|||||| |
 | 
@@ -679,13 +679,13 @@ Il parametro può fare riferimento ai campi chiave.
 ## Utilizzo in scheda
 Per le schede che ricevono parametri, potremmo introdurre nello script la sintassi : 
 >.. S.PAR.INI
-.. S.PAR.DOM Cod="Txt" Txt="Testo da scandire" Ogg="**" Lun="50"
-.. S.PAR.DOM Cod="Txt2" Txt="Testo da scandire2" Ogg="**" Lun="50"
+.. S.PAR.DOM Cod="Txt" Txt="Testo da scandire" Ogg="\*\*" Lun="50"
+.. S.PAR.DOM Cod="Txt2" Txt="Testo da scandire2" Ogg="\*\*" Lun="50"
 .. S.PAR.END
 
 
 o questa sintassi
->.. S.VAR.VAL Sch.Var="x" Req="1" Txt="Testo da scandire" Ogg="**" Lun="50"
+>.. S.VAR.VAL Sch.Var="x" Req="1" Txt="Testo da scandire" Ogg="\*\*" Lun="50"
 
 
 dove Req="1"indica che all'apertura della scheda devo valorizzare la variabile
@@ -765,9 +765,9 @@ MAT.PER
 | 
 | .COL Txt="Assunto" Lun="0" LunAut="1" |
 |  - Nome|Descrizione|Oggetto|H|O|N|M|Lun|D|Impostazioni|Assunto |
-|  - IniDate|Data iniziale|D8*YYMD| | | | | | | | |
-|  - EndDate|Data finale|D8*YYMD| | | | | | | | |
-|  - TPer|Tipo periodo|TA*CNPE| | | | | | | | |
+|  - IniDate|Data iniziale|D8\*YYMD| | | | | | | | |
+|  - EndDate|Data finale|D8\*YYMD| | | | | | | | |
+|  - TPer|Tipo periodo|TA\*CNPE| | | | | | | | |
 | 
 
 

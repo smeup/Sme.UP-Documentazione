@@ -40,7 +40,7 @@ Se impostato, mostra la riga della fonte anche se con quantità zero. Nel caso d
  :  : FLD T$M5EI __Suffisso programma aggiustamento__
 Se impostato, è il suffisso x del programma M5M5D0G_x, che viene lanciato all'atto della scrittura delle fonti di questo tipo, per modificarne il comportamento.
  :  : FLD T$M5EL __Riclassifica__
-È un elemento della tabella 'M5*RF' :  viene usato nell'analisi pianificazione e disponibilità riepilogate. Se impostato, le fonti verranno raggruppate per questo campo. Se non impostato verrà assunta come riclassifica l'azione fonte, in questa stessa tabella.
+È un elemento della tabella 'M5\*RF' :  viene usato nell'analisi pianificazione e disponibilità riepilogate. Se impostato, le fonti verranno raggruppate per questo campo. Se non impostato verrà assunta come riclassifica l'azione fonte, in questa stessa tabella.
  :  : FLD T$M5EM __Ordinamento riclassifica__
 È usato nelle analisi pianificazione e disponibilità riepilogate :  all'interno della riclassifica impostata nel campo precedente, le fonti verranno presentate ordinate per questo campo.
 Se non impostato, verrà assunto come ordinamento il codice della fonte.

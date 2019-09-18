@@ -32,25 +32,25 @@ Prima di descrivere i punti in cui lo sviluppatore può fissare lo specifico set
 # Le risalite dei compenenti di output (FRM.REP/FRM.G53/SET.EXC)
 Per i setup del componente REP, G53 ed EXC, in aggiunta a quanto esplicitato in precedenza esiste un'elaborazione di ricostruzione aggiuntiva. Reperito il setup di funzione viene infatti applicata una risalita a pettine, per ogni attributo di setup per i seguenti livelli : 
 
-* Default del setup per **/**/** (cioè per qualsiasi utente, su qualsiasi contesto, su qualsiasi setup)
-* Default del setup per gruppo utente/**/** (cioè per quel gruppo utente, su qualsiasi contesto, su qualsiasi setup)
-* Default del setup per utente/**/** (cioè per quel gruppo utente, su qualsiasi contesto, su qualsiasi setup)
-* Default del setup per **/contesto/** (cioè per qualsiasi utente, sul contesto, su qualsiasi setup)
-* Default del setup per gruppo utente/contesto/** (cioè per quel gruppo utente, sul contesto, su qualsiasi setup)
-* Default del setup per gruppo utente/contesto/setupname (cioè per quel gruppo utente, sul contesto, sul nome del setup di funzione)
-* Default del setup per utente/contesto/** (cioè per quel gruppo utente, sul contesto, su qualsiasiasi setup)
-* Default del setup per utente/contesto/setupname (cioè per quel gruppo utente, sul contesto, sul nome del setup di funzione)
-* Eventuale Override da LDA (viene cercata nella G00 la memoria con codice OVS.codicesetup). Questa funzionalità è normalmente utilizzata solo nella struttura dei flussi.
+\* Default del setup per \*\*/\*\*/\*\* (cioè per qualsiasi utente, su qualsiasi contesto, su qualsiasi setup)
+\* Default del setup per gruppo utente/\*\*/\*\* (cioè per quel gruppo utente, su qualsiasi contesto, su qualsiasi setup)
+\* Default del setup per utente/\*\*/\*\* (cioè per quel gruppo utente, su qualsiasi contesto, su qualsiasi setup)
+\* Default del setup per \*\*/contesto/\*\* (cioè per qualsiasi utente, sul contesto, su qualsiasi setup)
+\* Default del setup per gruppo utente/contesto/\*\* (cioè per quel gruppo utente, sul contesto, su qualsiasi setup)
+\* Default del setup per gruppo utente/contesto/setupname (cioè per quel gruppo utente, sul contesto, sul nome del setup di funzione)
+\* Default del setup per utente/contesto/\*\* (cioè per quel gruppo utente, sul contesto, su qualsiasiasi setup)
+\* Default del setup per utente/contesto/setupname (cioè per quel gruppo utente, sul contesto, sul nome del setup di funzione)
+\* Eventuale Override da LDA (viene cercata nella G00 la memoria con codice OVS.codicesetup). Questa funzionalità è normalmente utilizzata solo nella struttura dei flussi.
 
-Per la citata risalita a pettine si intende che vengono elaborati i livelli sopracitati e per ogni livello vengono trattenuti i soli valori riempiti. Es. Se a livello di **/**/** vengono definiti gli attributi a e b, mentre a livello di gruppo utente/**/** viene definito solo l'attributo b, alla fine il setup finale sarà composto dall'attributo a reperito dal livello **/**/** e dall'attributo b reperito dal livello gruppo utente/**/**.
+Per la citata risalita a pettine si intende che vengono elaborati i livelli sopracitati e per ogni livello vengono trattenuti i soli valori riempiti. Es. Se a livello di \*\*/\*\*/\*\* vengono definiti gli attributi a e b, mentre a livello di gruppo utente/\*\*/\*\* viene definito solo l'attributo b, alla fine il setup finale sarà composto dall'attributo a reperito dal livello \*\*/\*\*/\*\* e dall'attributo b reperito dal livello gruppo utente/\*\*/\*\*.
 
 Con i termini contesto/setupname, si intendono invece : 
-* Contesto :  il Context della funzione. Questa informazione può essere fissata dal servizio attraverso il Setup Program nell'attributo "Context", oppure viene calcolata dal cliente nel seguente modo :  nomescheda/idsezione(o titolo sezione se per la sezione non è stato indicato un codice ID) tagliato a 15 caratteri massimo. Questa informazione può essere comunque reperita tutte le volte che si accede alla gestione dei setup di una particolare funzione.
-* Setupname :  è il nome del setup della funzione, viene reperito dall'attributo "Name" del setup. Se tale attributo è assente dal setup viene assunto blank. Questo vale solo per i setup da programma.
+\* Contesto :  il Context della funzione. Questa informazione può essere fissata dal servizio attraverso il Setup Program nell'attributo "Context", oppure viene calcolata dal cliente nel seguente modo :  nomescheda/idsezione(o titolo sezione se per la sezione non è stato indicato un codice ID) tagliato a 15 caratteri massimo. Questa informazione può essere comunque reperita tutte le volte che si accede alla gestione dei setup di una particolare funzione.
+\* Setupname :  è il nome del setup della funzione, viene reperito dall'attributo "Name" del setup. Se tale attributo è assente dal setup viene assunto blank. Questo vale solo per i setup da programma.
 
 I sopracitati setup possono essere gestiti/inseriti da due particolari punti : 
-* Dalla scheda del modulo LOCSET, indicando manualmente le chiavi che vogliono essere inserite
-* Dalla finestra di elaborazione della particolare esportazione, attraverso la voce gestione setup
+\* Dalla scheda del modulo LOCSET, indicando manualmente le chiavi che vogliono essere inserite
+\* Dalla finestra di elaborazione della particolare esportazione, attraverso la voce gestione setup
 
 ![LOCSET_01](http://localhost:3000/immagini/LOCSET_03/LOCSET_01.png)
 **NOTA BENE :  Eccezione per SET.EXC**

@@ -15,6 +15,6 @@ Per compilare i programmi è necessario indicare :
 - Libreria :  libreria in cui è presente il file indicato sopra;
 
 Nella parte a destra (relativa alla destinazione) è necessario indicare le stesse medesime indicazioni, scegliendo le destinazioni desiderate.
-Nel campo di input "Membro" é possibile utilizzare la parola chiave *ALL per indicare all'utility di compilare tutti i
+Nel campo di input "Membro" é possibile utilizzare la parola chiave \*ALL per indicare all'utility di compilare tutti i
 programmi di un file in una libreria.
 Per questa funzione è necessario compilare la parte in basso, inserendo una "X" sotto tutti i tipi di file indicati.

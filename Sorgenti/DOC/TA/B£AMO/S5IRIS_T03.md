@@ -1,6 +1,6 @@
 
 # Scenario di schedulazione
-         L'elemento '**' della tabella S5B definisce  i comportamenti principali della nostra schedulazione
+         L'elemento '\*\*' della tabella S5B definisce  i comportamenti principali della nostra schedulazione
          Nello scenario definiamo i seguenti aspetti della schedulazione : 
  1. Risorsa da schedulare. Nel campo risorsa principale mettiamo 'CDL' , nel campo risorsa specifica se scheduliamo i centri di lavoro impostiamo 'CDL' (non abbiamo CDL composti di più macchine) se scheduliamo le macchine 'MAC'
  2. Oggetto Priorità. Definisce la priorità con cui a parità di istante di esecuzione di un Job viene scelto quello con priorità più alta. Le regole implementate ci permettono di scegliere tra 'N'    valori     ognuno dei quali permette di ottimizzare un diverso indice (saturazione,  numero ordini elaborati, etc..)

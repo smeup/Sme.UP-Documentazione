@@ -5,10 +5,10 @@ Tipicamente si tratta di funzioni che richiedono tempi di esecuzione medio lungh
 
 Le caratteristiche di una funziona batch sono le seguenti : 
 
- * Esecuzione non presidiata. La funzione deve essere entrocontenuta e deve essere autosufficiente in fase di esecuzione. Tutte le informazioni necessarie per l'esecuzione della funzione devono essere intrinseche nella funzione stessa e non deve mai essere richiesto l'input di informazioni aggiuntive.
- * Se previsto, l'output della funzione deve essere in un formato che non richiede interazione con l'utente. Quindi una funzione di tipo batch può produrre stampe, scrivere file, mandare mail ma non può visualizzare pannelli grafici informativi che richiedano una iterazione con l'utente.
- * Una funzione di tipo batch può essere eseguita in un determinato ambiente operativo e con un determinato utente. Ambiente e utente che possono essere diversi da quelli attivi nel momento in cui si richiede la sottomissione in batch di una funzione.
- * Deve essere fornito un pannello di controllo che consenta l'analisi dello stato di esecuzione delle funzioni batch sottomesse. Il pannello di controllo deve fornire tutte le informazioni utili a determinare lo stato di una richiesta batch ed eventualmente fornire indicazioni sulle cause di una eventuale default.
+ \* Esecuzione non presidiata. La funzione deve essere entrocontenuta e deve essere autosufficiente in fase di esecuzione. Tutte le informazioni necessarie per l'esecuzione della funzione devono essere intrinseche nella funzione stessa e non deve mai essere richiesto l'input di informazioni aggiuntive.
+ \* Se previsto, l'output della funzione deve essere in un formato che non richiede interazione con l'utente. Quindi una funzione di tipo batch può produrre stampe, scrivere file, mandare mail ma non può visualizzare pannelli grafici informativi che richiedano una iterazione con l'utente.
+ \* Una funzione di tipo batch può essere eseguita in un determinato ambiente operativo e con un determinato utente. Ambiente e utente che possono essere diversi da quelli attivi nel momento in cui si richiede la sottomissione in batch di una funzione.
+ \* Deve essere fornito un pannello di controllo che consenta l'analisi dello stato di esecuzione delle funzioni batch sottomesse. Il pannello di controllo deve fornire tutte le informazioni utili a determinare lo stato di una richiesta batch ed eventualmente fornire indicazioni sulle cause di una eventuale default.
 
 # Architettura operativa
 
@@ -16,9 +16,9 @@ Per la sua natura, l'esecuzione di una funzione batch non può avvenire su un no
 
 Perchè una istanza di Looc.Up possa eseguire richieste in modalità batch è necessario che si verifichino le seguenti condizioni : 
 
- * L'istanza di Loocup deve essere sempre attiva (o per lo meno essere attiva quando è attivo il sistema AS400 servente)
- * L'istanza di Loocup deve essere accessibile da parte da tutte le altre istanze di Looc.Up presenti nella rete nonchè dal sistema AS400 stesso. Questo vuol dire che qualsiasi client Loocup presente sulla rete può inviare al server Looc.Up una richiesta di esecuzione di una funzione batch. Idem per l'AS400. Deve quindi esistere un canale di comunicazione che consenta l'invio al server Looc.Up delle richieste di esecuzione.
- * L'istanza di Loocu.Up deve poter avviare processi figli con ambienti e utenti diversi da quelli dell'istanza stessa.
+ \* L'istanza di Loocup deve essere sempre attiva (o per lo meno essere attiva quando è attivo il sistema AS400 servente)
+ \* L'istanza di Loocup deve essere accessibile da parte da tutte le altre istanze di Looc.Up presenti nella rete nonchè dal sistema AS400 stesso. Questo vuol dire che qualsiasi client Loocup presente sulla rete può inviare al server Looc.Up una richiesta di esecuzione di una funzione batch. Idem per l'AS400. Deve quindi esistere un canale di comunicazione che consenta l'invio al server Looc.Up delle richieste di esecuzione.
+ \* L'istanza di Loocu.Up deve poter avviare processi figli con ambienti e utenti diversi da quelli dell'istanza stessa.
 
 L'elemento centrale dell'architettura per l'esecuzione di funzioni bacth è pertanto il Looc.Up server.
 
@@ -29,16 +29,16 @@ Looc.Up Server è una istanza del client Looc.Up avviata in modo tale da abilita
 
 Rispetto ad una normale istanza di Looc.Up, una istanza di Looc.Up Server ha le seguenti prerogative : 
 
- * Un Looc.Up Server oltre ad abilitare le normali code di comunicazione verso AS400, abilita anche una coda speciale che consente l'invio di richieste da AS400 verso il server Looc.Up stesso. In altre parole, un normale client Looc.Up usa le code dati per inviare al sistema AS400 delle richieste di servizio e leggere i risultati, un Looc.Up Server consente anche l'inverso, cioè consente al sistema AS400 di inviare richieste al server e leggere i risultati. In pratica un Looc.Up Server può fornire servizi al sistema AS400 nello stesso modo in cui il sistema AS400 normalmente fornisce servizi al Looc.Up client.
- * Looc.Up Server fornisce il supporto ad una architettura client server. E' possibile fare in modo che un qualsiasi client Looc.Up che si avvii nella rete si registri anche sul server e venga creato un canale di comunicazione tra il server Looc.Up e tutti i client attivi nella rete e registrati sul server. Questa struttura client-server consente alcune forme di comunicazione normalmente non disponibili in un normale sistema basato sui soli client Looc.Up. In ogni momento il server Looc.Up può conoscere quali sono i client Looc.Up attivi sulla rete e, attraverso la loro identificazione univoca, può contattare il singolo client e inviare messaggi o richieste di esecuzione di funzioni. Sono quindi possibili una serie di funzionalità aggiuntive figlie di questo tipo di architettura centralizzata :  ad esempio, un client registrato può inviare messaggi o richiedere l'esecuzione di una funzione ad un altro client registrato. Oppure, il sistema AS400 può sfruttare il canale di comunicazione con il server Looc.Up per interagire con uno qualsiasi del client registrati, ad esempio chiedere che una data funzione F venga eseguita su un determinato client.
-* Infine, un Looc.Up avviato in modalità server è il supporto ideale per l'esecuzione di funzioni batch. La presenza di un canale di comunizazione con AS400 consente al sistema gestionale di spedire richieste di esecuzione batch direttamente al Looc.Up server. Server che per sua natura è sempre attivo e quindi disponibile all'esecuzione delle funzioni richieste anche con schedulazioni particolari. Analogamente, qualsiasi istanza di Looc.Up attiva sulla rete e registrata al server può anch'essa sottomettere richieste batch al server, sfruttando i normali canali di comunicazione tra client e server. Infine, anche le istanze di Loocup non registrate possono comunque richiedere l'esecuzione di funzioni batch attraverso apposite funzioni che sfruttano il canale di comunicazione AS400-Looc.Up server.
+ \* Un Looc.Up Server oltre ad abilitare le normali code di comunicazione verso AS400, abilita anche una coda speciale che consente l'invio di richieste da AS400 verso il server Looc.Up stesso. In altre parole, un normale client Looc.Up usa le code dati per inviare al sistema AS400 delle richieste di servizio e leggere i risultati, un Looc.Up Server consente anche l'inverso, cioè consente al sistema AS400 di inviare richieste al server e leggere i risultati. In pratica un Looc.Up Server può fornire servizi al sistema AS400 nello stesso modo in cui il sistema AS400 normalmente fornisce servizi al Looc.Up client.
+ \* Looc.Up Server fornisce il supporto ad una architettura client server. E' possibile fare in modo che un qualsiasi client Looc.Up che si avvii nella rete si registri anche sul server e venga creato un canale di comunicazione tra il server Looc.Up e tutti i client attivi nella rete e registrati sul server. Questa struttura client-server consente alcune forme di comunicazione normalmente non disponibili in un normale sistema basato sui soli client Looc.Up. In ogni momento il server Looc.Up può conoscere quali sono i client Looc.Up attivi sulla rete e, attraverso la loro identificazione univoca, può contattare il singolo client e inviare messaggi o richieste di esecuzione di funzioni. Sono quindi possibili una serie di funzionalità aggiuntive figlie di questo tipo di architettura centralizzata :  ad esempio, un client registrato può inviare messaggi o richiedere l'esecuzione di una funzione ad un altro client registrato. Oppure, il sistema AS400 può sfruttare il canale di comunicazione con il server Looc.Up per interagire con uno qualsiasi del client registrati, ad esempio chiedere che una data funzione F venga eseguita su un determinato client.
+\* Infine, un Looc.Up avviato in modalità server è il supporto ideale per l'esecuzione di funzioni batch. La presenza di un canale di comunizazione con AS400 consente al sistema gestionale di spedire richieste di esecuzione batch direttamente al Looc.Up server. Server che per sua natura è sempre attivo e quindi disponibile all'esecuzione delle funzioni richieste anche con schedulazioni particolari. Analogamente, qualsiasi istanza di Looc.Up attiva sulla rete e registrata al server può anch'essa sottomettere richieste batch al server, sfruttando i normali canali di comunicazione tra client e server. Infine, anche le istanze di Loocup non registrate possono comunque richiedere l'esecuzione di funzioni batch attraverso apposite funzioni che sfruttano il canale di comunicazione AS400-Looc.Up server.
 
 
 
 Una istanza di Looc.Up può essere avviata in modalità server utilizzando l'opzione -server nella linea di comando.  Il server Looc.Up viene identificato attraverso un codice univoco, assegnato in fase di avvio del server stesso. L'assegnamento può avvenire in due modi distinti (ed esclusivi) : 
 
- * A linea di comando (opzione da preferire) :   l'istanza di Looc.Up che si vuole rendere server viene avviata con l'opzione aggiuntiva **--server : CODSRV : PORT** dove CODSRV (__max 6 caratteri) è il codice identificativo del server, mentre PORT è la porta socket usata dal server per la comunicazione con i client collegati e registrati. La specifica della porta socket è necessaria quando due istanze distinte di Looc.Up server vengono avviate su una stessa macchina.
- * Come property della JVM :   nella stringa di comando java che avvia il server Looc.Up aggiungere delle property java nel formato -DSmeup.smeui.uiserverside.name=CODSRV e -DSmeup.smeui.uiserverside.port=PORT. Questa soluzione è più adatta nei casi in cui l'avvio del server viene inserito come passo di uno script windows o unix e richiede una maggiore conoscenza tecnica dell'ambiente java.
+ \* A linea di comando (opzione da preferire) :   l'istanza di Looc.Up che si vuole rendere server viene avviata con l'opzione aggiuntiva **--server : CODSRV : PORT** dove CODSRV (__max 6 caratteri) è il codice identificativo del server, mentre PORT è la porta socket usata dal server per la comunicazione con i client collegati e registrati. La specifica della porta socket è necessaria quando due istanze distinte di Looc.Up server vengono avviate su una stessa macchina.
+ \* Come property della JVM :   nella stringa di comando java che avvia il server Looc.Up aggiungere delle property java nel formato -DSmeup.smeui.uiserverside.name=CODSRV e -DSmeup.smeui.uiserverside.port=PORT. Questa soluzione è più adatta nei casi in cui l'avvio del server viene inserito come passo di uno script windows o unix e richiede una maggiore conoscenza tecnica dell'ambiente java.
 
 ## Esecuzione di una funzione batch
 
@@ -50,8 +50,8 @@ non è importante entrare nel merito della funzione stessa. E' solo importante s
 
 Per poter eseguire la funzione in modalità batch sono due i problemi da risolvere : 
 
- * Fare in modo che la funzione venga in qualche modo riconosciuta da Looc.Up come funzione da eseguire in modalità batch
- * Fare in modo che la funzione sia effettivamente eseguita in modalità batch all'interno di un ambiente abilitato all'esecuzione di questo tipo di funzioni
+ \* Fare in modo che la funzione venga in qualche modo riconosciuta da Looc.Up come funzione da eseguire in modalità batch
+ \* Fare in modo che la funzione sia effettivamente eseguita in modalità batch all'interno di un ambiente abilitato all'esecuzione di questo tipo di funzioni
 
 Analizziamo distintamente le due problematiche.
 
@@ -95,10 +95,10 @@ Fissiamo quindi un ambiente operativo di esempio, che vede la presenza all'inter
 
 Le richieste di esecuzione di una funzione in modalità batch possono provenire da vari attori : 
 
- * Dal sistema AS400
- * Da un client Looc.Up registrato e identificato sul server Looc.Up
- * Da un client Looc.Up attivo sulla rete ma non registrato sul server Looc.Up
- * Da sistemi esterni (schedulatore di Windows, programmi esterni...)
+ \* Dal sistema AS400
+ \* Da un client Looc.Up registrato e identificato sul server Looc.Up
+ \* Da un client Looc.Up attivo sulla rete ma non registrato sul server Looc.Up
+ \* Da sistemi esterni (schedulatore di Windows, programmi esterni...)
 
 
 Analizziamo le varie casistiche.
@@ -141,19 +141,19 @@ Vediamo un esempio di script, più precisamente lo script 01 salvato nel membro 
 
 Il precedente scrip definisce 4 funzioni batch : 
 
- * 01.A01.B01 :  funzione A(EMU;B£SER_85;MAI.OGG) 1(;;01.A02.B06) INPUT(SJ(PDF Vendor Rating) TX(In allegato Vendor Rating)) lanciata su server SRVSVI con utente USER e password PWD
- * 01.A02.B01 :  funzione F(FLU;LOA11_SE;FLU.ESE)  1(;;53.01.03) lanciata si server SRVSVI con utente USER e pwd PWD
- * 01.A02.B02 :  funzione F(FLU;LOA11_SE;FLU.ESE)  1(;;98.A01.B01) lanciata sul server SRVSVI con utente USER, password PWD e ambiente P_SVI
- * 01.A02.B03 :  funzione F(FLU;LOA11_SE;FLU.ESE)  1(;;ES.A01.B09) lanciata sul server SRVTST con utente USER, password PWD e ambiente SVI
+ \* 01.A01.B01 :  funzione A(EMU;B£SER_85;MAI.OGG) 1(;;01.A02.B06) INPUT(SJ(PDF Vendor Rating) TX(In allegato Vendor Rating)) lanciata su server SRVSVI con utente USER e password PWD
+ \* 01.A02.B01 :  funzione F(FLU;LOA11_SE;FLU.ESE)  1(;;53.01.03) lanciata si server SRVSVI con utente USER e pwd PWD
+ \* 01.A02.B02 :  funzione F(FLU;LOA11_SE;FLU.ESE)  1(;;98.A01.B01) lanciata sul server SRVSVI con utente USER, password PWD e ambiente P_SVI
+ \* 01.A02.B03 :  funzione F(FLU;LOA11_SE;FLU.ESE)  1(;;ES.A01.B09) lanciata sul server SRVTST con utente USER, password PWD e ambiente SVI
 
 In particolare, una singola funzione batch è identificata dai seguenti parametri : 
 
- * **Codice** :  codice univoco che identifica nello sctipr SCP_SET/LOA27_nn la funzione batch (ad esempio, 01.A01.B01)
- * **CdSrv** :  codice del server che dovrà eseguire la funzione batch
- * **CdUsr** :  utente di esecuzione della funzione batch
- * **CdPwd** :  password utente esecutore della funzione batch (in chiaro)
- * **CdIu** :  ambiente (oggetto IU) di esecuzione della funzione batch
- * **Fun** :  funzione da eseguire in batch
+ \* **Codice** :  codice univoco che identifica nello sctipr SCP_SET/LOA27_nn la funzione batch (ad esempio, 01.A01.B01)
+ \* **CdSrv** :  codice del server che dovrà eseguire la funzione batch
+ \* **CdUsr** :  utente di esecuzione della funzione batch
+ \* **CdPwd** :  password utente esecutore della funzione batch (in chiaro)
+ \* **CdIu** :  ambiente (oggetto IU) di esecuzione della funzione batch
+ \* **Fun** :  funzione da eseguire in batch
 
 L'editazione dello script di setup della funzione LOA27 può avvenire direttamente nella scheda LOA27 attraverso la selezione dell'azione Set'n Play disponibile all'interno della scheda stessa.
 

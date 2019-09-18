@@ -22,8 +22,8 @@ Nella sezione Tipo Oggetto vengono elencate le tipologie di oggetto per le quali
 Ogni carrello contiene cartelle. Selezionando l'istanza, e quindi il carrello corrispondente, nella sezione centrale in alto viene caricato l'elenco delle cartelle. Le cartelle possono essere di diverse tipologie e si distinguono per omogeneità del contenuto e per utilizzo.
 Se è valorizzata la colonna tipo... la cartella è omogenea cioè potrà contenere solo elementi della tipologia specificata.
 Se il tipo non è impostato la cartella conterrà oggetti di tipologie distinte.
-La cartella *LAST viene creata in automatico con la creazione del carrello e contiene un solo oggetto per ogni tipologia.
-La cartella *WORK è specifica per l'istanza di un utente ed è la cartella di lavoro di quell'utente. Viene creata solo per carrelli relativi a istanze utenti e utilizzata in diversi punti di LoocUp.
+La cartella \*LAST viene creata in automatico con la creazione del carrello e contiene un solo oggetto per ogni tipologia.
+La cartella \*WORK è specifica per l'istanza di un utente ed è la cartella di lavoro di quell'utente. Viene creata solo per carrelli relativi a istanze utenti e utilizzata in diversi punti di LoocUp.
 Per accedere al contenuto di una cartella, bisogna selezionarla dall'elenco e sfogliarne gli elementi nella sezione centrale.
 In basso a destra compare un cestino... per eliminare un elemento è sufficiente trascinarcelo sopra con Drag & Drop.
 

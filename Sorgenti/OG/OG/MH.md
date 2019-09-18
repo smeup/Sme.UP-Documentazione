@@ -3,4 +3,4 @@ Vedi
  :  : DEC T(OG) K(E5)
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(C5MOAN0F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(C5MOAN0F) L(1)

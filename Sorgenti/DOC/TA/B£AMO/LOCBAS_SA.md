@@ -9,10 +9,10 @@ Lo sviluppo grafico avviene tramite editazione di file .jsp contenenti XML di Lo
 Lo sviluppo applicativo avviene tramite classi java che tipicamente operano sul DB locale.
 
 Componenti principali : 
-* Client
-* Server Slave
-* Package cliente
-* Server Master
+\* Client
+\* Server Slave
+\* Package cliente
+\* Server Master
 
 
 ## Client

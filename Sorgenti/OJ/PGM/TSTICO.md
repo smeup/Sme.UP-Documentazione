@@ -6,7 +6,7 @@ Interfacciare il programma in esecuzione con l'anagrafico conti contabili. Esegu
 £ICOME :  Metodo
 £ICOAM :  Ambiente
 £ICOCO :  Contesto
-£ICOCD :  Codice conto contabile (se funzione = *Blanks)
+£ICOCD :  Codice conto contabile (se funzione = \*Blanks)
 £ICOLC :  Livello chiamata
 £ICODS :  DS valorizzata
 
@@ -16,8 +16,8 @@ Interfacciare il programma in esecuzione con l'anagrafico conti contabili. Esegu
 £ICOMS :  Codice messaggio ritorno
 £ICOFI :  File   messaggio ritorno
 £ICOCM :  Ultimo Comando
-*IN35  :  se On = Codice errato
-*IN36  :  se On = eseguita ricerca alfabetica
+\*IN35  :  se On = Codice errato
+\*IN36  :  se On = eseguita ricerca alfabetica
 C5B$DS :  DS valorizzata
 £ICODS :  DS valorizzata
 
@@ -28,37 +28,37 @@ D/COPY QILEGEN,£ICODS
 # Esempio di chiamata
 
 ## Chiamata con singola lettura
-> C*                  CLEAR                   C5B$DS
- C*                  CLEAR                   £ICODS
- C*                  MOVEL     *BLANKS       £ICOFU
- C*                  MOVEL     Con_cont      £ICOCD
- C*                  EXSR      £ICO
- C*                  MOVEL     £ICODE        Campo_descrizione
- C*                  MOVEL     £ICOCD        Campo_con_cont
- C*                  MOVEL     C5B$DS        Tutti_campi
- C*                  MOVEL     £ICODS        Campi_output
+> C\*                  CLEAR                   C5B$DS
+ C\*                  CLEAR                   £ICODS
+ C\*                  MOVEL     \*BLANKS       £ICOFU
+ C\*                  MOVEL     Con_cont      £ICOCD
+ C\*                  EXSR      £ICO
+ C\*                  MOVEL     £ICODE        Campo_descrizione
+ C\*                  MOVEL     £ICOCD        Campo_con_cont
+ C\*                  MOVEL     C5B$DS        Tutti_campi
+ C\*                  MOVEL     £ICODS        Campi_output
 
 
 ## Chiamata con scansione
->     C*                  CLEAR                   C5B$DS
-     C*                  CLEAR                   £ICODS
-     C*                  EVAL      £ICOFU='SL'
-     C*                  EVAL      £ICOME='0L'
-     C*                  EVAL      £ICOCD=Campo_con_cont
-     C*                  EXSR      £ICO
-     C*
-     C*                  DO        *HIVAL
-     C*
-     C*                  EVAL      £ICOFU='RD'
-     C*                  EVAL      £ICOME='0L'
-     C*                  EVAL      £ICOCD=Campo_con_cont
-     C*                  EXSR      £ICO
-     C*                  IF        £ICO35=*ON
-     C*                  LEAVE
-     C*                  ENDIF
-     C*
-     C*                  ....
-     C*                  ENDDO
+>     C\*                  CLEAR                   C5B$DS
+     C\*                  CLEAR                   £ICODS
+     C\*                  EVAL      £ICOFU='SL'
+     C\*                  EVAL      £ICOME='0L'
+     C\*                  EVAL      £ICOCD=Campo_con_cont
+     C\*                  EXSR      £ICO
+     C\*
+     C\*                  DO        \*HIVAL
+     C\*
+     C\*                  EVAL      £ICOFU='RD'
+     C\*                  EVAL      £ICOME='0L'
+     C\*                  EVAL      £ICOCD=Campo_con_cont
+     C\*                  EXSR      £ICO
+     C\*                  IF        £ICO35=\*ON
+     C\*                  LEAVE
+     C\*                  ENDIF
+     C\*
+     C\*                  ....
+     C\*                  ENDDO
 
 
 # Oggetti collegati

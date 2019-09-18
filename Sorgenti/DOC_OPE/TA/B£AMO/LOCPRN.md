@@ -3,8 +3,8 @@ Ogni sub sezione di LoocUp fornisce una funzionalità di stampa del contenuto.
 Significative per la stampa sono le componenti HTM che visualizzano documenti / testi.
 
 E' possibile avviare due modalità di stampa : 
- * stampa html;
- * stampa pdf.
+ \* stampa html;
+ \* stampa pdf.
 
 # Stampa html
 Modalità di stampa attiva sulla componente browser che permette di stampare il documento html visualizzato con le impostazioni predefinite nel browser di navigazione, si attiva selezionando il bottone di "stampa documento".

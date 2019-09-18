@@ -4,4 +4,4 @@ Vedi
 Ad esempio, il sottosettore può individuare il ciclo attivo e passivo, in modo che gli elementi di tabella che  descrivono il tipo dell'ordine (di vendita e d'acquisto), vengono distinti.
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(TABDS00F)
+ :  : DEC T(OJ) P(\*FILE) K(TABDS00F)

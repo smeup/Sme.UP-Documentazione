@@ -1,8 +1,8 @@
- :  : DEC T(OJ)  P(*FILE) K(MUCONV0F)
+ :  : DEC T(OJ)  P(\*FILE) K(MUCONV0F)
 ## Contenuto
 File conversione oggetti AS.UP
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 N.A.
 
 ## Chiave primaria
@@ -26,7 +26,7 @@ Funzione di conversione (£MUC) :
 
 ## Comandi Correlati
 MU - Conversione sorgente
- :  : DEC T(OJ)  P(*CMD) K(MUOS02C)
+ :  : DEC T(OJ)  P(\*CMD) K(MUOS02C)
 
 ## Note particolari
 Il MUCONV è un file di log in cui vengono scritte tutte le informazioni interessanti
@@ -85,9 +85,9 @@ Nome membro sorgente dell'oggetto convertito
  :  : FLD MUFL01
 V2 SI/NO se il programma è considerato exit.
 La ricerca delle caratteristiche di exit è descritta nel pgm MUUT01
- :  : DEC T(OJ)  P(*PGM) K(MUUT01)
+ :  : DEC T(OJ)  P(\*PGM) K(MUUT01)
 
  :  : FLD MUFL02
 V2 SI/NO se il programma è una replica.
 La ricerca delle caratteristiche di exit è descritta nel pgm MUUT03
- :  : DEC T(OJ)  P(*PGM) K(MUUT03)
+ :  : DEC T(OJ)  P(\*PGM) K(MUUT03)

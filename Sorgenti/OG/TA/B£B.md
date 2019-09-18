@@ -1,7 +1,7 @@
 # B£B - Liste Librerie per ambienti
  :  : DEC T(ST) K(B£B)
 ## OBIETTIVI
-Qui viene descritta la lista delle librerie per ambiente. È possibile richiamare un secondo livello di lista prefissandolo con i caratteri******
+Qui viene descritta la lista delle librerie per ambiente. È possibile richiamare un secondo livello di lista prefissandolo con i caratteri**\*\***
 ## CONTENUTO DEI CAMPI
  :  : FLD T$ELEM **Codice**
 Codice ambiente

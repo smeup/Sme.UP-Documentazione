@@ -24,7 +24,7 @@ Funzione SCA, SCV :
 
 Funzione VIS : 
 
-- *BLANKS
+- \*BLANKS
 
 - Tipo tracciato :  _campo £IR1TT_
 Valori dell'oggetto V2_B£IRE

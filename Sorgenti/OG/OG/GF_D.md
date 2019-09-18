@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'FO'                                          £FUNT1
 Tipo gruppo fonti  (V2/TIPGF)                 £FUNP1
 ## Chiave primaria
@@ -10,9 +10,9 @@ Il tipo gruppo fonti specifica se il gruppo è di disponibilità materiali (defa
 Fiscamente il gruppo fonti risiede in uma memorizzazione video così individuata : 
 Ambiente
 - per disponibilità materiali
- :  : DEC T(OJ) P(*PGM) K(M5FO01G)
+ :  : DEC T(OJ) P(\*PGM) K(M5FO01G)
 - per disponibilità finanziaria
- :  : DEC T(OJ) P(*PGM) K(C5C6F0G)
+ :  : DEC T(OJ) P(\*PGM) K(C5C6F0G)
 Utente
 - Nome dell'MDV
 

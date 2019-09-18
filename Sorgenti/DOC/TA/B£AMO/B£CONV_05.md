@@ -2,7 +2,7 @@
 Per la preparazione del nuovo ambiente si rimanda al documento del progetto Time To Run : 
 - [Installazione Sme.UP&-x2f;Looc.UP](Sorgenti/DOC/TA/B£AMO/A£BASE_INS)
 
-Per crare un nuovo ambiente pulito copiandolo da SMEUP_FIL utilizzare l'istruzione 'sbmjob cmd(cpylib fromlib(SMEUP_FIL) tolib(SMEDATXXX)) *jobq(qbatch)'
+Per crare un nuovo ambiente pulito copiandolo da SMEUP_FIL utilizzare l'istruzione 'sbmjob cmd(cpylib fromlib(SMEUP_FIL) tolib(SMEDATXXX)) \*jobq(qbatch)'
 
 # CREAZIONE AZIENDA
 Creare l'ente AZI relativo all'azienda in conversione

@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'AM'                                          £FUNT1
 Codice magazzino (TAMAG)                      £FUNP1
 ## Chiave primaria

@@ -238,9 +238,9 @@ L'applicazione mobile, in fase di partenza, effettua la seguente chiamata, per r
 
 Tale chiamata, ritornerà un XML, che l'app mobile interpreterà andando alla ricerca dei seguenti attributi  : 
 
-_2_*SMOBILE
+_2_\*SMOBILE
 oppure
-_2_*SFUNCTION
+_2_\*SFUNCTION
 
 Il valore recuperato da SMOBILE o SFUNCTION costituirà il nome della scheda di default di partenza per l'ambiente Mobile.
 
@@ -268,14 +268,14 @@ Lo scopo di ciò sarà porre l'accento sul fatto che a parità di script di sche
 __Script di scheda__
 
  :  : G.SEZ Pos(A)
- :  : G.SUB.TRE Tit="*NONE"
+ :  : G.SUB.TRE Tit="\*NONE"
  :  : G.SET.TRE Icone="Yes" NodeText="Text"
  :  : G.DIN When="Click" Exec="[Fu]"
  :  : D.FUN.STD F(TRE;B£SER_46;WRK.SCP) 1(MB;SCP_SET;SMA_MOBILE) 2(;;TRE1) INPUT()
 
  :  : I.SCH Nam(DOCHTM)
  :  : G.SEZ Pos(A)
- :  : G.SUB.HTM Tit="*NONE"
+ :  : G.SUB.HTM Tit="\*NONE"
  :  : D.HTM.URL &PA.HTMURL
  :  : I.SCH.END
 
@@ -289,15 +289,15 @@ __XML di scheda __
     <Livello Caratteristiche="A01"/>
   </Header>
   <Griglia/>
-  <Oggetto Nome="" Tipo="OG" Parametro="" Codice="FT" Testo="Fatturato" Exec="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_02)" Fld="" Leaf="Yes"/>
-  <Oggetto Nome="" Tipo="TA" Parametro="PAG" Codice="" Testo="Portafoglio" Exec="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_03)" Fld="" Leaf="Yes"/>
-  <Oggetto Nome="" Tipo="RR" Parametro="" Codice="" Testo="Scaduto" Exec="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_04)" Fld="" Leaf="Yes"/>
-  <Oggetto Nome="" Tipo="E1" Parametro="" Codice="" Testo="Disponibilità" Exec="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_05)" Fld="" Leaf="Yes"/>
-  <Oggetto Nome="" Tipo="CF" Parametro="" Codice="" Testo="Aiuto" Exec="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://www.smeup.com/mobile/aiuto_demo.html))" Fld="" Leaf="Yes"/>
-  <Oggetto Nome="" Tipo="DO" Parametro="" Codice="" Testo="Company Profile" Exec="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://mobile.smeup.com/demo/images/companyprofile.pdf))" Fld="" Leaf="Yes"/>
-  <Oggetto Nome="" Tipo="**" Parametro="" Codice="" Testo="Informazioni su Sme.Up" Exec="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://www.smeup.com/mobile/info.html))" Fld="" Leaf="Yes"/>
+  <Oggetto Nome="" Tipo="OG" Parametro="" Codice="FT" Testo="Fatturato" Exec="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_02)" Fld="" Leaf="Yes"/>
+  <Oggetto Nome="" Tipo="TA" Parametro="PAG" Codice="" Testo="Portafoglio" Exec="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_03)" Fld="" Leaf="Yes"/>
+  <Oggetto Nome="" Tipo="RR" Parametro="" Codice="" Testo="Scaduto" Exec="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_04)" Fld="" Leaf="Yes"/>
+  <Oggetto Nome="" Tipo="E1" Parametro="" Codice="" Testo="Disponibilità" Exec="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_05)" Fld="" Leaf="Yes"/>
+  <Oggetto Nome="" Tipo="CF" Parametro="" Codice="" Testo="Aiuto" Exec="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://www.smeup.com/mobile/aiuto_demo.html))" Fld="" Leaf="Yes"/>
+  <Oggetto Nome="" Tipo="DO" Parametro="" Codice="" Testo="Company Profile" Exec="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://mobile.smeup.com/demo/images/companyprofile.pdf))" Fld="" Leaf="Yes"/>
+  <Oggetto Nome="" Tipo="\*\*" Parametro="" Codice="" Testo="Informazioni su Sme.Up" Exec="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://www.smeup.com/mobile/info.html))" Fld="" Leaf="Yes"/>
   <UIPopup>
-    <Oggetto Tipo="J1" Parametro="KEY" Codice="*F20" Testo="F20=Gestione Prototipo" Exec="F(EDT;*EDTLET;)1(MB;SCP_SET;SMA_MOBILE)"/>
+    <Oggetto Tipo="J1" Parametro="KEY" Codice="\*F20" Testo="F20=Gestione Prototipo" Exec="F(EDT;\*EDTLET;)1(MB;SCP_SET;SMA_MOBILE)"/>
   </UIPopup>
   <Setup>
     <Program Title="Image List di Scelta" Context=""/>
@@ -352,10 +352,10 @@ __Script di scheda__
  :  : G.SEZ Pos(1)
  :  : G.SUB.MAT Tit="Fatturato"
 
- :  : G.SET.MAT ShowHeader="Yes" ShowTotal="Yes" CellStyle="PS07|LS07" Styles="DES001=*BOLD|DES001=*DPBLUE" Columns="DES001|NUM001|NUM003|NUM002|COD001"
+ :  : G.SET.MAT ShowHeader="Yes" ShowTotal="Yes" CellStyle="PS07|LS07" Styles="DES001=\*BOLD|DES001=\*DPBLUE" Columns="DES001|NUM001|NUM003|NUM002|COD001"
 ImgUrlCmp="NUM001|NUM002"
 
- :  : G.DIN When="Click" Exec="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_02) 4(;;DFAT) P(COD1([COD001])) G(NFI)" Focus="Yes"
+ :  : G.DIN When="Click" Exec="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_02) 4(;;DFAT) P(COD1([COD001])) G(NFI)" Focus="Yes"
  :  : D.FUN.STD F(EXB;LOA15_SE;LIS.PAR) 1(;;PR.02.01) 2(;;04) P(PAR2(1)) INPUT()
 
 __XML di scheda__

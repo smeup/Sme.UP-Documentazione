@@ -25,7 +25,7 @@ Valori possibili :
 - P :  il tema si sviluppa per periodo (elemento della tabella PER).
 - blanks :  il tema non si sviluppa ulteriormente.
  :  : FLD T$D5OG **Tipo periodo**
-Se in data/periodo è stato specificato P (tema che si sviluppa per periodo), è possibile in questo campo definire anche il tipo periodo (elemento della tabella *CNTT).
+Se in data/periodo è stato specificato P (tema che si sviluppa per periodo), è possibile in questo campo definire anche il tipo periodo (elemento della tabella \*CNTT).
 Questa opzione è controllata solo nei programmi inerenti i costi per oggetto.
  :  : FLD T$D5OH **Punti sep./decimali**
 È possibile specificare il numero di punti separatori (max. 4) e di decimali (max. 6) da utilizzare nella visualizzazione del record del D5COSO. Tutti i valori utilizzeranno questa impostazione, a meno che non ne venga specificata una diversa nel singolo elemento della tabella IGI. Se non viene specificato nulla, vengono assunti 2 punti separatori e 2 decimali.

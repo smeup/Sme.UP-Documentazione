@@ -11,7 +11,7 @@ Restituisce l'elenco dei costruttori
 Restituisce secondo diversi criteri un elenco di codici di raggruppamento dei costruttori
 
 # SCHEDE CONTENENTI ESEMPI DI CHIAMATE
- :  : DEC T(**) I(Gestione Costruttori) X({F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCH;LOSER_15)}) O(I)
+ :  : DEC T(\*\*) I(Gestione Costruttori) X({F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCH;LOSER_15)}) O(I)
 
 # UTILIZZO PARAMETRO "IND"
 Il parametro IND serve per eseguire un filtro sulla scansione dei dati e va strutturato

@@ -59,7 +59,7 @@ Il caricamento dei campi è dipendente dalla sua tipologia :
   - yy/xx - Filtri definiti dal programma di fonte.
      Vengono caricati dal programma di fonte, dove yy=fonte xx=schema (vedi £IQ5).
 
-  - ** - 	Filtri del programma chiamante
+  - \*\* - 	Filtri del programma chiamante
      La schiera £IQR3I e opzionalmente la schiera £IQR3D devono essere valorizzate dal programma chiamante.
      I campi vengono impostati a valorizzazione dinamica £IQ3CDI='1', vengono quindi supposti OAV.
 
@@ -71,7 +71,7 @@ Viene valorizzata la schiera £IQR2V in base ai parametri FLT() e CFG() in £IQ3
 Se passato il parametro FLT() in £IQRIN, vengono caricati i valori di filtro secondo la sintassi : 
 FLT(£IQR3I(x)(valore_x))
 Se passato il parametro Q3_CFG([MEIDOJ]) in £IQRIN, vengono caricati i valori di filtro dalla configurazione.
-Se passato il parametro Q3_CFG(*USER) in £IQRIN, viene ricercata la configurazione del filtro utente.
+Se passato il parametro Q3_CFG(\*USER) in £IQRIN, viene ricercata la configurazione del filtro utente.
 
 ## CMP : FLT - Completamento definizione campi
 Viene completata la definizione di ogni singolo campo in base al tipo tracciato £IQ3DTT/£I32DOT.

@@ -13,7 +13,7 @@ Le transizioni extra rete non possono avere una transizione master nello script 
 
 La creazione degli impegni (sul modello della corrispondente transizione) e la loro attivazione è manuale.
 Poi : 
- * E' possibile specificare nella transizione extra-rete i gruppi utenti esecutori / di assegnazione :  questi vengono controllati.
- * E' possibile specificare nella transizione extra-rete le azioni esterne da presentare nella scheda dell'impegno extra-rete e le conseguenze esterne da eseguire alle varie dichiarazioni :  queste vengono gestite.
- * La gestione dell'attivazione delle azioni esterne è tuttavia manuale :  vengono testate le condizioni, ma non vengono inibite le azioni in relazione all'eventuale stato di non pronto dell'impegno. E' cura dell'implementatore della rete vincolare con delle condizioni sullo stato, se desiderato.
+ \* E' possibile specificare nella transizione extra-rete i gruppi utenti esecutori / di assegnazione :  questi vengono controllati.
+ \* E' possibile specificare nella transizione extra-rete le azioni esterne da presentare nella scheda dell'impegno extra-rete e le conseguenze esterne da eseguire alle varie dichiarazioni :  queste vengono gestite.
+ \* La gestione dell'attivazione delle azioni esterne è tuttavia manuale :  vengono testate le condizioni, ma non vengono inibite le azioni in relazione all'eventuale stato di non pronto dell'impegno. E' cura dell'implementatore della rete vincolare con delle condizioni sullo stato, se desiderato.
 

@@ -9,12 +9,12 @@ In questa sezione tratteremo la nomenclatura di :
 # Proposta ambiente e std operativi
 ## Librerie std
  Sono quelle fornite in fase di installazione
- :  : DEC T(OJ) P(*LIB) K(SMEDEV)
- :  : DEC T(OJ) P(*LIB) K(SMEUP_OBJ)
- :  : DEC T(OJ) P(*LIB) K(SMESTD)
- :  : DEC T(OJ) P(*LIB) K(SMESRC)
- :  : DEC T(OJ) P(*LIB) K(SMEMOD)
- :  : DEC T(OJ) P(*LIB) K(SMECON)
+ :  : DEC T(OJ) P(\*LIB) K(SMEDEV)
+ :  : DEC T(OJ) P(\*LIB) K(SMEUP_OBJ)
+ :  : DEC T(OJ) P(\*LIB) K(SMESTD)
+ :  : DEC T(OJ) P(\*LIB) K(SMESRC)
+ :  : DEC T(OJ) P(\*LIB) K(SMEMOD)
+ :  : DEC T(OJ) P(\*LIB) K(SMECON)
 
 ## Libreria personale
  In questa libreria (inizialmente fornita di file source vuoti) saranno  contenuti tutti gli
@@ -22,16 +22,16 @@ elementi (tranne i dati) che caratterizzeranno l'installazione specifica.
 
  Chiamarla SME_xxx dove xxx è il nome azienda
  Impostare la variabile "SIGAMB" mediante F15 - Personalizzazioni
- :  : DEC T(OJ) P(*LIB) K(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*LIB) K(SME_&SIGAMB)
 
 In caso di installazioni con multisistemi informativi si può prevedere la libreria di
 personalizzazioni di gruppo da creare con le stesse caratteristiche della lib. aziendale
 con denominazione  SME_GRP (aggiungere un progressivo in caso numerico in caso di installazioni
 con "multigruppi" es. SME_GRP001/002 ecc.)
- :  : DEC T(OJ) P(*LIB) K(SME_GRP)
+ :  : DEC T(OJ) P(\*LIB) K(SME_GRP)
 
 ## Libreria di "sistema"
- :  : DEC T(OJ) P(*LIB) K(SMESYS)
+ :  : DEC T(OJ) P(\*LIB) K(SMESYS)
 Dal rilascio V3R2 la libreria di sistema può essere gestita in due modi ("nomale" o "speciale") dal comando UP UT5.
 **Si ricorda di inserire in questa libreria oltre ai file di sistema (tabelq0f) e ai programmi di
 **gestione sistema (salvataggi e impostazioni di sistema) TUTTI GLI oggetti creati appositamente
@@ -40,40 +40,40 @@ Dal rilascio V3R2 la libreria di sistema può essere gestita in due modi ("nomal
 ## Libreria dati
  Chiamarla SMEDATxxx dove xxx è il nome azienda.
  Impostare la variabile "LICLDA" mediante F15 - Dati
-  :  : DEC T(OJ) P(*LIB) K(SMEDAT&SIGAMB)
+  :  : DEC T(OJ) P(\*LIB) K(SMEDAT&SIGAMB)
  Se non esiste ancora si può crearla duplicando la SMEUP_FIL, ottenendo così una libreria dati pre-configurata
  ..deve esistere
- :  : DEC T(OJ) P(*LIB) K(SMEUP_FIL)
+ :  : DEC T(OJ) P(\*LIB) K(SMEUP_FIL)
 In caso di installazioni "multisistemi informativi" creare la libreria SMEDATGRP per contenere i
 file di gruppo (es. TABELG0F)
 
 ## File sorgenti forniti e, quindi, suggeriti nelle libreria SME_&SIGAMB
- :  : DEC T(OJ) P(*FILE) K(DOC_PER) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(QILEGEN) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_AZI) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_BCD) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_CFG) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_CLO) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_FLU) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_G53) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_MAP) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_MNU) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_NAV) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_PDF) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_QRY) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_SCH) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_SET) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_SPL) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_WFA) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SCP_XML) LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SMEQSM)  LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SMEUP)   LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SRC)     LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SRC_X1)  LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SRCCON)  LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SRCDB)   LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SRCUTI)  LI(SME_&SIGAMB)
- :  : DEC T(OJ) P(*FILE) K(SRCWK)   LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(DOC_PER) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(QILEGEN) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_AZI) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_BCD) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_CFG) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_CLO) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_FLU) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_G53) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_MAP) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_MNU) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_NAV) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_PDF) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_QRY) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_SCH) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_SET) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_SPL) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_WFA) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SCP_XML) LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SMEQSM)  LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SMEUP)   LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SRC)     LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SRC_X1)  LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SRCCON)  LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SRCDB)   LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SRCUTI)  LI(SME_&SIGAMB)
+ :  : DEC T(OJ) P(\*FILE) K(SRCWK)   LI(SME_&SIGAMB)
 
 
 # Nomenclatura suggerita nei file sorgenti della libreria SME_&SIGAMB
@@ -86,7 +86,7 @@ In questo file ci vanno le /COPY personali ed le eventuali standard.
 Approfittiamo per ricordare che le tabelle personali dovranno iniziare con la lettera 'X' quindi
 le /copy relative saranno £TABXnnDS, mentre le routine personali saranno £Xnn (dove i pgm di
 gestione X£XnnG) e le relative DS o schiere saranno £XnnDS o £XnnE (si consiglia di non utilizzare
-il suffisso *E ma sempre e solo il *DS)
+il suffisso \*E ma sempre e solo il \*DS)
 
 ## SMEUP
 In questo file devono essere messi i sorgenti STANDARD (per standard si intende sorgenti forniti
@@ -179,7 +179,7 @@ In questo file vanno messi i sorgenti relativi a programmi di utility creati app
 
 
 ## File sorgente suggerito nelle libreria SMESYS
- :  : DEC T(OJ) P(*FILE) K(SRC_SYS) LI(SMESYS)
+ :  : DEC T(OJ) P(\*FILE) K(SRC_SYS) LI(SMESYS)
 
 ## Nomenclature suggerita nel file sorgente della SMESYS
    **(SRC)**

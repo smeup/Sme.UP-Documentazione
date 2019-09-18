@@ -12,7 +12,7 @@ Il sottometodo 'HPG' serve ad estrarre l'help tecnico di un programma.
 Il parametro TXT permette di formattare l'XML in modo che sia correttamente interpretato da una subsezione di tipo Text.
 ### Cosa legge
 
-- Un membro di file, se l'Oggetto1 è 'MB' oppure 'OJ*PGM'. Se il membro letto è un help di tabella (
+- Un membro di file, se l'Oggetto1 è 'MB' oppure 'OJ\*PGM'. Se il membro letto è un help di tabella (
   TA_xxx di DOC_OGG) viene gestito in maniera particolare.
   Parametri : 
   £UIBP1-> Nome del file
@@ -55,17 +55,17 @@ Questa funzione restituisce un albero degli oggetti referenziati in un membro di
 Può restituire i membri referenziati (metodo MBR) oppure gli oggetti di altro tipo (metodo OTH).
 
 
- :  : PRO.SER Cod="*FREE.1" Tit="Solo alcuni metodi documentati. " Fun="F(EXB;JATRE_34C;*FREE)"
+ :  : PRO.SER Cod="\*FREE.1" Tit="Solo alcuni metodi documentati. " Fun="F(EXB;JATRE_34C;\*FREE)"
 
- :  : PRO.SER Cod="DOC.SCH.2" Tit="Documentazione attiva. di scheda" Fun="F(EDT;JATRE_34C;DOC.SCH) 1(MB;;-(O;;MB;)) 2(**;;-(F;;**;)) 3(**;;-(F;;**;)) 4(**;;-(F;;**;)) 5(**;;-(F;;**;)) 6(**;;-(F;;**;)) P( TGID(-(F;;;TAG ID)) TXT(-(F;;V2SI/NO;Emissione in sub TXT)))"
+ :  : PRO.SER Cod="DOC.SCH.2" Tit="Documentazione attiva. di scheda" Fun="F(EDT;JATRE_34C;DOC.SCH) 1(MB;;-(O;;MB;)) 2(\*\*;;-(F;;\*\*;)) 3(\*\*;;-(F;;\*\*;)) 4(\*\*;;-(F;;\*\*;)) 5(\*\*;;-(F;;\*\*;)) 6(\*\*;;-(F;;\*\*;)) P( TGID(-(F;;;TAG ID)) TXT(-(F;;V2SI/NO;Emissione in sub TXT)))"
 
  :  : PRO.SER Cod="DOC.SCH.3" Tit="Documentazione attiva. di scheda" Fun="F(HTM;JATRE_34C;DOC.SCH)" Ref="DOC.SCH.2"
 
- :  : PRO.SER Cod="VIS.SCH.4" Tit="HTML. di scheda" Fun="F(HTM;JATRE_34C;VIS.SCH) 1(MB;;-(O;;MB;)) 2(**;;-(F;;**;)) 3(**;;-(F;;**;)) 4(**;;-(F;;**;)) 5(**;;-(F;;**;)) 6(**;;-(F;;**;))"
+ :  : PRO.SER Cod="VIS.SCH.4" Tit="HTML. di scheda" Fun="F(HTM;JATRE_34C;VIS.SCH) 1(MB;;-(O;;MB;)) 2(\*\*;;-(F;;\*\*;)) 3(\*\*;;-(F;;\*\*;)) 4(\*\*;;-(F;;\*\*;)) 5(\*\*;;-(F;;\*\*;)) 6(\*\*;;-(F;;\*\*;))"
 
  :  : PRO.SER Cod="VIS.HPG.5" Tit="HTML. Help tecnico di programma" Fun="F(HTM;JATRE_34C;VIS.HPG)" Ref="VIS.SCH.4"
 
- :  : PRO.SER Cod="OGG.MBR.6" Tit="Albero degli oggetti in un doc. Membri referenziati" Fun="F(TRE;JATRE_34C;OGG.MBR) 1(MB;;-(O;;MB;)) 2(**;;-(F;;**;)) 3(**;;-(F;;**;)) 4(**;;-(F;;**;)) 5(**;;-(F;;**;)) 6(**;;-(F;;**;)) P( NSUB(-(F;;NR;Numero di sottolivelli)))"
+ :  : PRO.SER Cod="OGG.MBR.6" Tit="Albero degli oggetti in un doc. Membri referenziati" Fun="F(TRE;JATRE_34C;OGG.MBR) 1(MB;;-(O;;MB;)) 2(\*\*;;-(F;;\*\*;)) 3(\*\*;;-(F;;\*\*;)) 4(\*\*;;-(F;;\*\*;)) 5(\*\*;;-(F;;\*\*;)) 6(\*\*;;-(F;;\*\*;)) P( NSUB(-(F;;NR;Numero di sottolivelli)))"
 
  :  : PRO.SER Cod="OGG.OTH.7" Tit="Albero degli oggetti in un doc. Altri oggetti" Fun="F(TRE;JATRE_34C;OGG.OTH)" Ref="OGG.MBR.6"
 

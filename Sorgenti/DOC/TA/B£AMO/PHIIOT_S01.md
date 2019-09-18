@@ -17,7 +17,7 @@ Alcuni punti a cui prestare attenzione :
 
 -- Configurazione di alcune variabili fondamentali, da impostare sull' SCP_CLO dell'utente con cui è avviato il Provider : 
 
-Cod="PROVIDER_FIELD_ENABLED" Txt="Abilita integrazione LOA37" TVal="**" Value="true"
+Cod="PROVIDER_FIELD_ENABLED" Txt="Abilita integrazione LOA37" TVal="\*\*" Value="true"
 Cod="IOTSPI_EVENT_PULSE" Txt="Tempo di estrazione eventi da coda IOTSPI" TVal="" PVal="" Value="20"
    (rappresenta la velocità con cui viene gestito l'evento all' interno del consumatore della coda dati)
 

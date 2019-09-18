@@ -7,22 +7,22 @@
 In Negoziando esistono diverse versioni di gestione delle chiusure di cassa, dalla meno articolata a questa, la più completa e ormai la più diffusa ed utilizzata.
 La Chiusura in oggetto permette di gestire : 
 
- * aperture e chiusure dei turni degli operatori di cassa
- * distinte in valuta estera
- * distinte di prelievo dal cassetto di cassa verso la cassaforte
- * successivo controllo delle distinte in cassaforte
- * versamento in banca o a sede delle distinte in cassaforte
- * successivo controllo del versamento in banca
- * chiusura serale della singola cassa
- * chiusura serale del negozio
- * controllo delle spese e associazione dell'immagine del documento di ricevuta
+ \* aperture e chiusure dei turni degli operatori di cassa
+ \* distinte in valuta estera
+ \* distinte di prelievo dal cassetto di cassa verso la cassaforte
+ \* successivo controllo delle distinte in cassaforte
+ \* versamento in banca o a sede delle distinte in cassaforte
+ \* successivo controllo del versamento in banca
+ \* chiusura serale della singola cassa
+ \* chiusura serale del negozio
+ \* controllo delle spese e associazione dell'immagine del documento di ricevuta
 
 Per attivare la funzionalità di Chiusura di Cassa con gestione Operatori e Cassaforte occorrerà : 
 
- * definire le tabelle standard delle chiusure di cassa
- * definire le nuove tabelle specifiche di questa modalità
- * definire le informazioni specifiche in anagrafica di magazzino
- * impostare la configurazione di Negoziando
+ \* definire le tabelle standard delle chiusure di cassa
+ \* definire le nuove tabelle specifiche di questa modalità
+ \* definire le informazioni specifiche in anagrafica di magazzino
+ \* impostare la configurazione di Negoziando
 
 ## Tabelle da Configurare
 
@@ -30,83 +30,83 @@ Ecco l'elenco delle Tabelle da configurare per l'utilizzo di questa versione di 
 
 _Dal Menu>Principale>Anagrafiche di Base>Gestione Tabelle_
 
- * VATG - Tagli Valute
- * TDSC - Tipi Distinta di Cassa
- * INCA - Anagrafica Cassa
- * CASN - Registratori di Cassa - Negozi
- * FIPA - File e Percorsi (da configurare solo se si vogliono definire tastiere diverse per Negozi)
- * INCT - Tipologie Movimenti Cassa
- * VALU - Valute
+ \* VATG - Tagli Valute
+ \* TDSC - Tipi Distinta di Cassa
+ \* INCA - Anagrafica Cassa
+ \* CASN - Registratori di Cassa - Negozi
+ \* FIPA - File e Percorsi (da configurare solo se si vogliono definire tastiere diverse per Negozi)
+ \* INCT - Tipologie Movimenti Cassa
+ \* VALU - Valute
 
 ## Tabella INCA - Anagrafica Cassa
 
 E' in questa tabella che definiamo la Tipologia della Cassa, che può essere Cassa Contabile, ovvero il Cassetto di ogni Registratore, oppure la Cassaforte (se gestiamo la Chiusura con Gestione Cassaforte)
 Per ciascuna Cassa occorre definire un Codice Cassa (codice alfanumerico di tre caratteri) e poi confermare. A questo punto verranno richiesti : 
 
- * Descrizione
- * Tipo Cassa. Si può definire se
- ** Cassa dei Registratori (quindi Cassetto)
- ** Cassaforte (deve essercene una sola)
+ \* Descrizione
+ \* Tipo Cassa. Si può definire se
+ \*\* Cassa dei Registratori (quindi Cassetto)
+ \*\* Cassaforte (deve essercene una sola)
 
 ## Tabella CASN - Registratori di Cassa - Negozi
 
 In questo tabella vengono definiti i Registratori di Cassa di ciascun Negozio. Viene definito il Cassetto di ogni Cassa (due Casse, ad esempio, potrebbero avere un unico Cassetto in comune) associando al Registratore l'Anagrafica Cassa appena creata.
 E' opportuno indicare : 
 
- * Codice Negozio
- * Codice Registratore
- * Descrizione
- * Matricola
- * 5 righe di Intestazione Scontrino. Principalmente utilizzata per le Casse Non Fiscali o per le Casse Fiscali che supportano la modifica dell'intestazione
- * Anagrafica Cassa. E' qui che associo il Registratore al Cassetto/Cassaforte precedentemente creato nella Tabella INCA - Anagrafica Cassa
- * File Definizione Tastiera Cassa. Nel caso si voglia utilizzare in Cassa Slave una Tastiera diversa a seconda del Negozio/Cassa, definire un Codice della Tabella FIPA. In questa tabella verranno richiesti
- ** Codice
- ** Descrizione
- ** File o Percorso. Definire percorso e nome del File della Tastiera (Plates).
- * Prefisso Barcode Scontrini per Utilizzo in Emergenza
+ \* Codice Negozio
+ \* Codice Registratore
+ \* Descrizione
+ \* Matricola
+ \* 5 righe di Intestazione Scontrino. Principalmente utilizzata per le Casse Non Fiscali o per le Casse Fiscali che supportano la modifica dell'intestazione
+ \* Anagrafica Cassa. E' qui che associo il Registratore al Cassetto/Cassaforte precedentemente creato nella Tabella INCA - Anagrafica Cassa
+ \* File Definizione Tastiera Cassa. Nel caso si voglia utilizzare in Cassa Slave una Tastiera diversa a seconda del Negozio/Cassa, definire un Codice della Tabella FIPA. In questa tabella verranno richiesti
+ \*\* Codice
+ \*\* Descrizione
+ \*\* File o Percorso. Definire percorso e nome del File della Tastiera (Plates).
+ \* Prefisso Barcode Scontrini per Utilizzo in Emergenza
 
 ## Tabella INCT -Tipologie Movimenti di Cassa
 
 In questo tabella vengono definite le tipologie dei Movimenti di Cassa.
 Per ciascuna Tipologia di Movimento è opportuno compilare SOLO i campi qui sotto indicati, gli altri riguardano versioni precedenti : 
 
- * Tipo Movimento. Può essere : 
- ** E = Entrata
- ** I = Incasso
- ** U = Uscita
- * Codice Movimento. Codice alfanumerico di 3 caratteri
+ \* Tipo Movimento. Può essere : 
+ \*\* E = Entrata
+ \*\* I = Incasso
+ \*\* U = Uscita
+ \* Codice Movimento. Codice alfanumerico di 3 caratteri
 
 Premere Invio e a questo punto definire : 
 
- * Descrizione Operazione (Es. Contanti, Carte, etc..)
- * Richiedi Anagrafica Sì/No. In determinati casi, come per il pagamento tramite Assegni, è possibile richiedere delle informazioni anagrafiche aggiuntive al momento del pagamento (es. Nome e Cognome, Numero Assegno, Banca d'Emissione). Queste informazioni andranno definite nella Tabella INCP - Campi Anagrafici da Richiedere per Registratore Cassa
- * Numero Sequenza. E' la sequenza in base alla quale verrà visualizzato l'elenco dei Tipi Movimento nella maschera delle Chiusure. Consigliamo di attribuire numeri in decine (10, 20,..) in modo da poter aggiungere valori intermedi in futuro.
- * Stampa Bollettina Sì/No. Una sorta di bolla di consegna stampata da una stampante NON fiscale
- * Tipologia. E' possibile scegliere tra : 
- ** Incasso Assegni
- ** Incasso Contanti
- ** Pagamenti
- ** Prelievo per Cassaforte
- ** Versamento in Banca
- ** Incasso con Carte di Credito
- ** Spesa
- * Richiedi Data Competenze Sì/No. Valore legato alla Richiesta Anagrafica. Oltre ai dati anagrafici aggiuntivi, è possibile richiedere la Data Emissione Scontrino in modo da avere un riferimento per quel preciso tipo di pagamento
- * Univocità Dati Anagrafici : 
- ** Sì, con Blocco
- ** Sì, con Richiesta
- ** Nessun Controllo. Riguarda i dati definiti nella Tabella INCP (esisterà 1 solo assegno n° X emesso in tal data dalla tal banca)
- * Versamento - Cassa Entrate. Questa informazione deve essere definita in caso di Tipologia Movimento = Prelievi per Cassaforte. Premere F1 per specificare il Codice della Cassaforte (Tabella INCA)
- * Versamento - Tipo Movimento Entrate. Questa informazione deve essere definita in caso di Tipologia Movimento = Prelievi per Cassaforte. Premere F1 per specificare il Tipo Movimento per la Registrazione del Movimento di Entrata in Cassaforte (Tabelle INCT)
- * Codice Valuta. Premere F1 per selezionare la Valuta (Tabella VALU)
- * Codice Incasso per il Resto. Premere F1 per selezionare il tipo incasso (Tabella INCT). Potrei incassare in Euro, ma emettere il resto in Franchi
- * Richiesta Annotazioni. Utilizzabile per la Registrazione delle Entrate/Uscite di Cassa per richiedere annotazioni alla registrazione ed é possibile indicare : 
- ** No
- ** Annotazioni Facoltative
- ** Annotazioni Obbligatorie
- * Codice Workflow. Da definire solo se si intende utilizzare la Gestione del Workflow sui Movimenti di Cassa. Premere F1 e selezionare il Tipo Workflow (Tabella WFLT)
+ \* Descrizione Operazione (Es. Contanti, Carte, etc..)
+ \* Richiedi Anagrafica Sì/No. In determinati casi, come per il pagamento tramite Assegni, è possibile richiedere delle informazioni anagrafiche aggiuntive al momento del pagamento (es. Nome e Cognome, Numero Assegno, Banca d'Emissione). Queste informazioni andranno definite nella Tabella INCP - Campi Anagrafici da Richiedere per Registratore Cassa
+ \* Numero Sequenza. E' la sequenza in base alla quale verrà visualizzato l'elenco dei Tipi Movimento nella maschera delle Chiusure. Consigliamo di attribuire numeri in decine (10, 20,..) in modo da poter aggiungere valori intermedi in futuro.
+ \* Stampa Bollettina Sì/No. Una sorta di bolla di consegna stampata da una stampante NON fiscale
+ \* Tipologia. E' possibile scegliere tra : 
+ \*\* Incasso Assegni
+ \*\* Incasso Contanti
+ \*\* Pagamenti
+ \*\* Prelievo per Cassaforte
+ \*\* Versamento in Banca
+ \*\* Incasso con Carte di Credito
+ \*\* Spesa
+ \* Richiedi Data Competenze Sì/No. Valore legato alla Richiesta Anagrafica. Oltre ai dati anagrafici aggiuntivi, è possibile richiedere la Data Emissione Scontrino in modo da avere un riferimento per quel preciso tipo di pagamento
+ \* Univocità Dati Anagrafici : 
+ \*\* Sì, con Blocco
+ \*\* Sì, con Richiesta
+ \*\* Nessun Controllo. Riguarda i dati definiti nella Tabella INCP (esisterà 1 solo assegno n° X emesso in tal data dalla tal banca)
+ \* Versamento - Cassa Entrate. Questa informazione deve essere definita in caso di Tipologia Movimento = Prelievi per Cassaforte. Premere F1 per specificare il Codice della Cassaforte (Tabella INCA)
+ \* Versamento - Tipo Movimento Entrate. Questa informazione deve essere definita in caso di Tipologia Movimento = Prelievi per Cassaforte. Premere F1 per specificare il Tipo Movimento per la Registrazione del Movimento di Entrata in Cassaforte (Tabelle INCT)
+ \* Codice Valuta. Premere F1 per selezionare la Valuta (Tabella VALU)
+ \* Codice Incasso per il Resto. Premere F1 per selezionare il tipo incasso (Tabella INCT). Potrei incassare in Euro, ma emettere il resto in Franchi
+ \* Richiesta Annotazioni. Utilizzabile per la Registrazione delle Entrate/Uscite di Cassa per richiedere annotazioni alla registrazione ed é possibile indicare : 
+ \*\* No
+ \*\* Annotazioni Facoltative
+ \*\* Annotazioni Obbligatorie
+ \* Codice Workflow. Da definire solo se si intende utilizzare la Gestione del Workflow sui Movimenti di Cassa. Premere F1 e selezionare il Tipo Workflow (Tabella WFLT)
   :  : DEC T(MB) P(DOC_OPE) K(NGBASE_XX)
- * Utilizzabile nella Gestione Spese Sì/No. Serve ad indicare se, in cassa, è possibile utilizzare il Tipo Movimento come causale per la registrazione di Entrate o Uscite di Cassa
- * Tipo Distinta di Cassa. Da impostare solo se viene attivata la Gestione dei Tipi Distinta di Cassa. Premere F1 per selezionare il Tipo Distinta (Tabella TDSC)
+ \* Utilizzabile nella Gestione Spese Sì/No. Serve ad indicare se, in cassa, è possibile utilizzare il Tipo Movimento come causale per la registrazione di Entrate o Uscite di Cassa
+ \* Tipo Distinta di Cassa. Da impostare solo se viene attivata la Gestione dei Tipi Distinta di Cassa. Premere F1 per selezionare il Tipo Distinta (Tabella TDSC)
 
 N.B. E' opportuno codificare un solo Movimento di Tipo Prelievi per Cassaforte.
 
@@ -115,27 +115,27 @@ N.B. E' opportuno codificare un solo Movimento di Tipo Prelievi per Cassaforte.
 
 Per attivare la Gestione della Chiusura di Cassa in questa modalità occorre definire le impostazioni delle seguenti tabelle : 
 
- * VATG - Tagli Valute **Obbligatoria**
- * TDSC - Tipi Distinte di Cassa **Facoltativa**
- * BANC - Banche **Facoltativa**
- * BACC - Conti Correnti Bancari **Facoltativa**
+ \* VATG - Tagli Valute **Obbligatoria**
+ \* TDSC - Tipi Distinte di Cassa **Facoltativa**
+ \* BANC - Banche **Facoltativa**
+ \* BACC - Conti Correnti Bancari **Facoltativa**
 
 ## Tabella VATG - Tagli Valute
 
 In questo tabella occorre definire i Tagli per ciascuna Valuta utilizzata nei Negozi, che serviranno per la compilazione delle Distinte di Cassa. Oltre ai Tagli delle Valute è possibile codificare anche i Buoni e gli Assegni, se gestiti.
 Premere F6 per inserire una Nuova Valuta e definire : 
 
- * Codice Valuta. Premere F1 e selezionare la Valuta (Tabella VALU)
- * Sequenza. E' la sequenza con la quale verranno presentati i Tagli nelle Richieste delle Distinte, è l'ordine in cui vengono visualizzati. Conviene sempre utilizzare valori come 10,20,30 etc, per poter aggiungere valori intermedi in futuro
- * Descrizione. Es. Pezzi da 20 Euro
- * Importo Taglio
- * Nome File Immagine. Al momento non utilizzato
- * Tipo Taglio. Può essere : 
- ** Contanti
- ** Buoni di Pagamento
- ** Assegni
- * Tipo Contanti. Specificare se Banconota o Moneta (solo in caso di Taglio Contanti)
- * Numero Massimo Pezzi per Taglio. Per un eventuale controllo nella digitazione delle Distinte di Cassa
+ \* Codice Valuta. Premere F1 e selezionare la Valuta (Tabella VALU)
+ \* Sequenza. E' la sequenza con la quale verranno presentati i Tagli nelle Richieste delle Distinte, è l'ordine in cui vengono visualizzati. Conviene sempre utilizzare valori come 10,20,30 etc, per poter aggiungere valori intermedi in futuro
+ \* Descrizione. Es. Pezzi da 20 Euro
+ \* Importo Taglio
+ \* Nome File Immagine. Al momento non utilizzato
+ \* Tipo Taglio. Può essere : 
+ \*\* Contanti
+ \*\* Buoni di Pagamento
+ \*\* Assegni
+ \* Tipo Contanti. Specificare se Banconota o Moneta (solo in caso di Taglio Contanti)
+ \* Numero Massimo Pezzi per Taglio. Per un eventuale controllo nella digitazione delle Distinte di Cassa
 
 ## Tabella TDSC - Tipi Distinte di Cassa
 
@@ -143,14 +143,14 @@ La definizione delle informazioni di questa tabella è facoltativa. Occorre defi
 Premere F6 per inserire un nuovo tipo Distinta, attribuire un codice alfanumerico di tre caratteri e confermare.
 A questo punto specificare : 
 
- * Descrizione
- * Richiedi Banconote Sì/No
- * Richiedi Monete Sì/No
- * Richiedi Assegni Sì/No
- * Richiedi Buoni Sì/No
- * Tipo Versamento. Può essere : 
- ** In Banca
- ** In Sede
+ \* Descrizione
+ \* Richiedi Banconote Sì/No
+ \* Richiedi Monete Sì/No
+ \* Richiedi Assegni Sì/No
+ \* Richiedi Buoni Sì/No
+ \* Tipo Versamento. Può essere : 
+ \*\* In Banca
+ \*\* In Sede
 
  :  :  T02 Tabelle BANC- Banche e BACC - Conti Correnti Bancari
 
@@ -160,25 +160,25 @@ La definizione delle informazioni di queste tabelle è facoltativa. Occorre impo
 
 Per inserire una nuova Banca premere F6 ed attribuire un codice alfanumerico. Confermare e proseguire con la definizione dei campi seguenti : 
 
- * Descrizione
- * Ragione Sociale
- * Indirizzo
- * Cap
- * Località
- * Provincia
- * Nazione
- * Codici ABI e CAB
- * Codice BIC (Swift)
+ \* Descrizione
+ \* Ragione Sociale
+ \* Indirizzo
+ \* Cap
+ \* Località
+ \* Provincia
+ \* Nazione
+ \* Codici ABI e CAB
+ \* Codice BIC (Swift)
 
 ## Tabella BACC - Conti Correnti Bancari
 
 Per inserire un nuovo Conto Corrente premere F6 ed attribuire un codice alfanumerico. Confermare e proseguire con la definizione dei campi seguenti : 
 
- * Descrizione
- * Codice Banca. Premere F1 per selezionarlo dalla Tabella BANC
- * Numero Conto Corrente Bancario
- * Codice IBAN
- * Codice Valuta. Premere F1 per selezionarlo dalla Tabella VALU
+ \* Descrizione
+ \* Codice Banca. Premere F1 per selezionarlo dalla Tabella BANC
+ \* Numero Conto Corrente Bancario
+ \* Codice IBAN
+ \* Codice Valuta. Premere F1 per selezionarlo dalla Tabella VALU
 
 ## Aggiornamento Tabella VALU - Valute, se attiva la Gestione Distinte di Cassa
 
@@ -198,10 +198,10 @@ Nel pannello più grande vengono richieste le informazioni sul Numero di Bancono
 Sempre in questo pannello, a seconda della Tipologia di Distinta, possono essere evidenziati l'Importo Richiesto e la Differenza tra i valori digitati e l'Importo Richiesto.
 Sono a disposizione i seguenti tasti funzionali per modificare le modalità di richiesta dati : 
 
- * F2 per richiedere Solo le Quantità
- * F3 per richiedere Solo gli Importi
- * F4 per richiedere Quantità e Importi
- * F8 Dati da Bilancia Conta Soldi (il tasto è attivo solo se è collegata la Bilancia Conta Soldi)
+ \* F2 per richiedere Solo le Quantità
+ \* F3 per richiedere Solo gli Importi
+ \* F4 per richiedere Quantità e Importi
+ \* F8 Dati da Bilancia Conta Soldi (il tasto è attivo solo se è collegata la Bilancia Conta Soldi)
 
 Le richieste effettuate nelle Distinte di Cassa sono condizionate alle impostazioni della Tabella dei Tagli Valute - VATG (in base alla Valuta utilizzata) ed eventualmente, se gestite, alle impostazioni
 della Tabella dei Tipi Distinta.
@@ -236,53 +236,53 @@ _Pannello Chiusure di Cassa_
 Qui vengono definite le informazioni generiche delle Chiusure di Cassa.
 Definire obbligatoriamente SOLO i campi qui elencati, gli altri sono relativi alle versioni di Chiusura Cassa precedenti : 
 
- * Modalità Incasso per il Resto. Selezionare il Tipo Incasso dalla Tabella INCT
- * Modalità Gestione Chiusure di Cassa. Indicare "Versione 3 - con Gestione Cassaforte"
- * Tipi Movimento per Differenze Positive/Negative. Selezionare il Tipo Movimento dalla Tabella INCT
- * Tipo Movimento per Versamento in Banca. Selezionare il Tipo Movimento dalla Tabella INCT
- * Tipo Movimento per Uscita Prelievo per Cassaforte. Selezionare il Tipo Movimento dalla Tabella INCT
- * Tipo Richiesta Data Registrazione nei Prelievi per Cassaforte
- ** Data Prelievo uguale a Data Odierna
- ** Data Prelievo da Richiedere
- * Importo Fondo Cassa
+ \* Modalità Incasso per il Resto. Selezionare il Tipo Incasso dalla Tabella INCT
+ \* Modalità Gestione Chiusure di Cassa. Indicare "Versione 3 - con Gestione Cassaforte"
+ \* Tipi Movimento per Differenze Positive/Negative. Selezionare il Tipo Movimento dalla Tabella INCT
+ \* Tipo Movimento per Versamento in Banca. Selezionare il Tipo Movimento dalla Tabella INCT
+ \* Tipo Movimento per Uscita Prelievo per Cassaforte. Selezionare il Tipo Movimento dalla Tabella INCT
+ \* Tipo Richiesta Data Registrazione nei Prelievi per Cassaforte
+ \*\* Data Prelievo uguale a Data Odierna
+ \*\* Data Prelievo da Richiedere
+ \* Importo Fondo Cassa
 
 _Pannello Altre Informazioni Versione 3 (1)_
 
 Per la configurazione della Modalità di Gestione Chiusure Versione 3 occorre definire SOLO le richieste riportate di seguito, le altre voci riguardano le vecchie tipologie di Chiusura : 
 
- * Richiedi Importi per Corrispettivi da Rapporto Zeta Sì/No
- * Richiedi Importo Note di Credito da Rapporto Zeta Sì/NO
- * Richiedi Importo Scontrini Annullati Sì/NO
- * Richiedi Importo Corrispettivi di Emergenza SI/NO
- * Richiedi Importo Documenti di Vendita SI/NO
- * Richiedi Importo Tessere Regalo SI/NO
- * Segnala Mancanza del Rapporto Zeta dalla Cassa. Si può scegliere tra : 
- ** No
- ** Sì - Solo Segnalazione
- ** Sì - Con Blocco Elaborazione
- * Richiedi Numero Scontrini SI/NO
- * Segnala Importo previsto del Prelievo nella Chiusura Turno SI/NO
- * Attività da chiudere nella Chiusura Negozio di Fine Giornata (vedi Gestione Attività)
+ \* Richiedi Importi per Corrispettivi da Rapporto Zeta Sì/No
+ \* Richiedi Importo Note di Credito da Rapporto Zeta Sì/NO
+ \* Richiedi Importo Scontrini Annullati Sì/NO
+ \* Richiedi Importo Corrispettivi di Emergenza SI/NO
+ \* Richiedi Importo Documenti di Vendita SI/NO
+ \* Richiedi Importo Tessere Regalo SI/NO
+ \* Segnala Mancanza del Rapporto Zeta dalla Cassa. Si può scegliere tra : 
+ \*\* No
+ \*\* Sì - Solo Segnalazione
+ \*\* Sì - Con Blocco Elaborazione
+ \* Richiedi Numero Scontrini SI/NO
+ \* Segnala Importo previsto del Prelievo nella Chiusura Turno SI/NO
+ \* Attività da chiudere nella Chiusura Negozio di Fine Giornata (vedi Gestione Attività)
   :  : DEC T(MB) P(DOC_OPE) K(NGBASE_XX)
- * Modalità Selezione Buste per Versamento in Banca che potrà essere : 
- ** Nessuna Proposta
- ** Buste Controllate di Giornate Chiuse con possibilità di Forzatura se giornata Non Chiusa
- ** Buste Controllate di Giornate Chiuse con Blocco
- * Blocca Versamento in Banca se Buste non Controllate SI/NO
+ \* Modalità Selezione Buste per Versamento in Banca che potrà essere : 
+ \*\* Nessuna Proposta
+ \*\* Buste Controllate di Giornate Chiuse con possibilità di Forzatura se giornata Non Chiusa
+ \*\* Buste Controllate di Giornate Chiuse con Blocco
+ \* Blocca Versamento in Banca se Buste non Controllate SI/NO
 
 _Pannello Informazioni Versione 3 (2)_
 
 Queste informazioni sono specifiche della Modalità di Gestione Chiusure Versione 3.
 Definire : 
 
- * Tipo Movimento Uscita da Cassaforte per Monete. Obbligatorio (Tabella INCT). In caso di Versamento in Banca, in presenza di Monete, il sistema chiede se si vogliono versare anche quelle o meno. Se si decide di NON versarle, verrà scritto un movimento con la causale impostata qui
- * Tipo Movimento Uscita da Cassaforte per Versamenti a Sede. Da compilare solo se attiva la Gestione Tipi Distinta di Cassa che prevedono Versamenti a Sede (Tabella INCT)
- * Gestione Distinte di Cassa in Valuta SI/NO. Impostare SI per i Negozi che Incassano in Valute diverse
- * Richiedi Annotazioni Commerciali nelle Chiusure Negozio
- ** NO
- ** Sì - Obbligatorie
- ** Sì - Facoltative
- * Tipi Movimenti specifici per Differenze.Questi 10 Tipi Movimento sono tutti facoltativi e servono per differenziare i Movimenti di Rettifica nelle analisi dei Movimenti di Cassa (Tabella INCT)
+ \* Tipo Movimento Uscita da Cassaforte per Monete. Obbligatorio (Tabella INCT). In caso di Versamento in Banca, in presenza di Monete, il sistema chiede se si vogliono versare anche quelle o meno. Se si decide di NON versarle, verrà scritto un movimento con la causale impostata qui
+ \* Tipo Movimento Uscita da Cassaforte per Versamenti a Sede. Da compilare solo se attiva la Gestione Tipi Distinta di Cassa che prevedono Versamenti a Sede (Tabella INCT)
+ \* Gestione Distinte di Cassa in Valuta SI/NO. Impostare SI per i Negozi che Incassano in Valute diverse
+ \* Richiedi Annotazioni Commerciali nelle Chiusure Negozio
+ \*\* NO
+ \*\* Sì - Obbligatorie
+ \*\* Sì - Facoltative
+ \* Tipi Movimenti specifici per Differenze.Questi 10 Tipi Movimento sono tutti facoltativi e servono per differenziare i Movimenti di Rettifica nelle analisi dei Movimenti di Cassa (Tabella INCT)
 Se non definiti, verranno utilizzati i Tipi Movimento di Rettifica Positive/Negative definiti nel pannello iniziale di Configurazione Chiusure di Cassa
 _Pannello Chiusure di Cassa_
 
@@ -290,9 +290,9 @@ _Pannello Bilancia Conta Soldi_
 
 In questo pannello è possibile definire le Informazioni per l'eventuale Collegamento di una Bilancia Conta Soldi. Verranno richiesti : 
 
- * Nome. Viene proposta la Bilancia CashMaster, che è l'unica supportata da Negoziando al momento
- * IP
- * Porta
+ \* Nome. Viene proposta la Bilancia CashMaster, che è l'unica supportata da Negoziando al momento
+ \* IP
+ \* Porta
 
 N.B. Se definite queste impostazioni, nella Gestione delle Distinte di Cassa verrà attivato il tasto F8 Dati da Bilancia Contasoldi per ricevere le informazioni richieste alla bilancia.
 
@@ -301,12 +301,12 @@ N.B. Se definite queste impostazioni, nella Gestione delle Distinte di Cassa ver
 _Dal Menu>Utilità>Configurazione>Gestione Configurazione Applicativa>Cassa - Slave>Pannello Gestione Operatori
 
 Per attivare le Chiusure di Cassa con Gestione Cassaforte e Operatori, in Cassa Slave, all'interno del Pannello Gestione Operatori, occorre impostare : 
- * Indica Operatore di Cassa. OBBLIGATORIO
- * Tipo Stampa Distinte di Cassa. Se la Gestione Distinte è attiva, indicare qui quale tipo Stampa si desidera, scegliendo tra : 
- ** Stampa Modulo
- ** Stampa Scontrino NON Fiscale
- ** Stampa Scontrino NON Fiscale e Modulo
- ** Nessuna Stampa
+ \* Indica Operatore di Cassa. OBBLIGATORIO
+ \* Tipo Stampa Distinte di Cassa. Se la Gestione Distinte è attiva, indicare qui quale tipo Stampa si desidera, scegliendo tra : 
+ \*\* Stampa Modulo
+ \*\* Stampa Scontrino NON Fiscale
+ \*\* Stampa Scontrino NON Fiscale e Modulo
+ \*\* Nessuna Stampa
 
 ## Configurazione Applicativa - Parametri Casse Generali
 
@@ -314,16 +314,16 @@ _Dal Menu>Utilità>Configurazione>Gestione Configurazione Applicativa>Cassa - Ge
 
 Se si desidera impostare il controllo del Contante nel Cassetto ed ottenere la segnalazione per effettuare i Prelievi per Cassaforte al raggiungimento di un certo importo, occorre indicare : 
 
- * Tipo Controllo Importo Massimo Contanti nel Cassetto. E' possibile scegliere tra : 
- ** Controllo alla Chiusura di ogni Scontrino
- ** Controllo a Intervalli di Tempo Configurati
- ** Controllo a Chiusura Scontrino a Intervalli di Tempo Configurati
- ** Nessun Controllo
+ \* Tipo Controllo Importo Massimo Contanti nel Cassetto. E' possibile scegliere tra : 
+ \*\* Controllo alla Chiusura di ogni Scontrino
+ \*\* Controllo a Intervalli di Tempo Configurati
+ \*\* Controllo a Chiusura Scontrino a Intervalli di Tempo Configurati
+ \*\* Nessun Controllo
 
 A seconda della scelta impostata, vanno poi compilate le due richieste seguenti : 
 
- * Importo Massimo Contanti nel Cassetto (escluso Fondo Cassa). Raggiunto questo limite scatterà la Richiesta di Prelievo per Cassaforte
- * Intervallo (in Secondi) per Controllo Importo Massimo Contanti nel Cassetto
+ \* Importo Massimo Contanti nel Cassetto (escluso Fondo Cassa). Raggiunto questo limite scatterà la Richiesta di Prelievo per Cassaforte
+ \* Intervallo (in Secondi) per Controllo Importo Massimo Contanti nel Cassetto
 
 ## Funzionalità di Negoziando
 
@@ -331,29 +331,29 @@ Di seguito l'elenco delle funzionalità specifiche della Chiusura in oggetto :
 
 _Dal Menu>Principale>Chiusure di Cassa>Cassa_  : 
 
- * Registrazione Chiusure di Cassa
- * Conferma Registrazione Entrate/Uscite di Cassa
- * Conferma Chiusura di Fine Giornata - Negozio
- * Visualizza Distinte Cassa
+ \* Registrazione Chiusure di Cassa
+ \* Conferma Registrazione Entrate/Uscite di Cassa
+ \* Conferma Chiusura di Fine Giornata - Negozio
+ \* Visualizza Distinte Cassa
 (Oltre alle funzioni utilizzabili in tutte le modalità)
 
 _Dal Menu>Principale>Chiusure di Cassa>Operatori_  : 
 
- * Apertura Turno Operatori
- * Chiusura Turno Operatori
+ \* Apertura Turno Operatori
+ \* Chiusura Turno Operatori
 - [Gestione Operatori](Sorgenti/DOC_OPE/TA/B£AMO/NGBASE_12)
 
 _Dal Menu>Principale>Chiusure di Cassa>Cassaforte_  : 
 
- * Registrazione Prelievi per Cassaforte
- * Controllo Cassaforte
+ \* Registrazione Prelievi per Cassaforte
+ \* Controllo Cassaforte
 
 _Dal Menu>Principale>Chiusure di Cassa>Versamenti_  : 
 
- * Registrazione Versamenti in Banca
- * Controllo Versamenti in Banca
- * Analisi Versamenti in Banca
- * Registrazione Versamenti a Sede
+ \* Registrazione Versamenti in Banca
+ \* Controllo Versamenti in Banca
+ \* Analisi Versamenti in Banca
+ \* Registrazione Versamenti a Sede
 
 E' inoltre possibile definire dei Bottoni in Cassa Slave che possono essere associati ad alcune delle funzionalità sopra indicate.
 In cassa l'utilizzo del Bottone specifico potrà essere leggermente diverso dall'attivazione della funzione da Menù, infatti alcune informazioni non verranno richieste poiché verranno utilizzate direttamente quelle già presenti nel programma di Cassa.
@@ -365,11 +365,11 @@ _Dal Menu>Principale>Chiusure di Cassa>Operatori>Apertura Turno Operatori _  :
 
 A questo punto l'Operatore dovrà indicare : 
 
- * Data
- * Ora
- * Registratore di Cassa
- * Codice Operatore
- * Password
+ \* Data
+ \* Ora
+ \* Registratore di Cassa
+ \* Codice Operatore
+ \* Password
 
 N.B. Per effettuare l'Apertura Turno occorre che l'operatore di Cassa precedente abbia effettuato la Chiusura del suo. In caso contrario, è opportuno recuperare Utente e Password per poter chiudere quel turno e, se non reperibili, occorrerà rivolgersi al responsabile, il quale avrà un Codice col più alto livello di autorizzazione e potrà chiudere il Turno
 
@@ -385,12 +385,12 @@ _Dal Menu>Principale>Chiusure di Cassa>Cassaforte>Registrazione Prelievi per Cas
 In qualsiasi momento del turno, l'Operatore potrà effettuare un Prelievo di Contanti (o Assegni/Buoni) e depositarli in Cassaforte.
 Indicare le seguenti informazioni e premere Invio : 
 
- * Data Prelievo
- * Ora Prelievo
- * Registratore di Cassa
- * Valuta
- * Operatore
- * Password
+ \* Data Prelievo
+ \* Ora Prelievo
+ \* Registratore di Cassa
+ \* Valuta
+ \* Operatore
+ \* Password
 
 N.B. La Richiesta del Codice Valuta viene effettuata solo se è Attiva la Gestione delle Valute
 
@@ -427,11 +427,11 @@ yyy = Codice Movimento (Facoltativo) dovrà essere un Codice della Tabella INCT 
 Alla pressione del Tasto, se il Codice Movimento non è definito sul Bottone, verrà richiesto di selezionarlo
 Verranno poi richieste le informazioni per la registrazione del Movimento di Uscita / Entrata : 
 
- * Importo
- * Tipo
- * Data
- * Numero
- * Eventuali Note
+ \* Importo
+ \* Tipo
+ \* Data
+ \* Numero
+ \* Eventuali Note
 
 Premere F6 per Confermare.
 N.B. Il Movimento andrà poi confermato prima della Chiusura di Cassa tramite l'apposita funzione.
@@ -446,9 +446,9 @@ _Dal Menu>Principale>Chiusure di Cassa>Cassa>Conferma Registrazione Entrate/Usci
 Impostare Registratore di Cassa e Data e confermare. Verrà evidenziato l'elenco delle Entrate/Uscite effettuate.
 Sono a disposizione, oltre ai soliti tasti funzionali, anche i seguenti : 
 
- * F5 Note. Per Visualizzare le note inserite in fase di registrazione
- * F9 Allega Ricevuta
- * F10 Visualizza Ricevuta
+ \* F5 Note. Per Visualizzare le note inserite in fase di registrazione
+ \* F9 Allega Ricevuta
+ \* F10 Visualizza Ricevuta
 
 ## Registrazione Chiusura di Cassa
 
@@ -459,28 +459,28 @@ _Dal Menu>Principale>Chiusure di Cassa>Cassa>Registrazione Chiusure di Cassa _  
 Indicare la Data della Chiusura e il Codice del Registratore di Cassa per cui effettuare la chiusura.
 Prima di proseguire con l' elaborazione, il programma effettuerà le seguenti verifiche : 
 
- * Deve essere stata effettuata la Chiusura Turno dell'ultimo operatore. Se non effettuata, verrà richiesto di effettuarla al momento (indicazione Fondo Cassa, Prelievi etc....)
- * Deve essere stata effettuata la stampa del Rapporto Zeta dalla Cassa. In caso contrario il sistema ne darà segnalazione o bloccherà l'elaborazione (in base alle impostazioni definite in Configurazione)
- * Devono essere state effettuate anche tutte le Chiusure di Cassa dei giorni precedenti, altrimenti l'elaborazione verrà bloccata. Apparirà un messaggio che riporta anche le date con Chiusura mancante.
- * Se nella giornata sono state effettuate registrazione di Entrate o Uscite di Cassa, queste dovranno essere state confermate (vedi annotazioni precedenti)
+ \* Deve essere stata effettuata la Chiusura Turno dell'ultimo operatore. Se non effettuata, verrà richiesto di effettuarla al momento (indicazione Fondo Cassa, Prelievi etc....)
+ \* Deve essere stata effettuata la stampa del Rapporto Zeta dalla Cassa. In caso contrario il sistema ne darà segnalazione o bloccherà l'elaborazione (in base alle impostazioni definite in Configurazione)
+ \* Devono essere state effettuate anche tutte le Chiusure di Cassa dei giorni precedenti, altrimenti l'elaborazione verrà bloccata. Apparirà un messaggio che riporta anche le date con Chiusura mancante.
+ \* Se nella giornata sono state effettuate registrazione di Entrate o Uscite di Cassa, queste dovranno essere state confermate (vedi annotazioni precedenti)
 
 Dopo le verifiche iniziali si passa alla Registrazione della Chiusura di Cassa : 
 
 Nel pannello superiore vengono evidenziate le Informazioni del Negozio e della Cassa e i valori dei Corrispettivi Calcolati da Negoziando.
 Le tre voci visualizzate sono : 
 
- * Valore Corrispettivi da Movimenti Cassa. Questo importo terrà conto di tutte le vendite effettuate in Cassa
- * Valore Corrispettivi da Magazzino. L'importo proposto quì comprende tutte le vendite che hanno movimentato il Magazzino, quindi scaricate correttamente con Codice
- * Valore Corrispettivi da Scarichi Manuali NON Elaborati. Questo importo indica invece tutte le vendite effettuate a Reparto, quindi senza Codice
+ \* Valore Corrispettivi da Movimenti Cassa. Questo importo terrà conto di tutte le vendite effettuate in Cassa
+ \* Valore Corrispettivi da Magazzino. L'importo proposto quì comprende tutte le vendite che hanno movimentato il Magazzino, quindi scaricate correttamente con Codice
+ \* Valore Corrispettivi da Scarichi Manuali NON Elaborati. Questo importo indica invece tutte le vendite effettuate a Reparto, quindi senza Codice
 
 Viene inoltre visualizzata l'eventuale differenza tra l'importo dei Corrispettivi da Rapporto Zeta del giorno e la differenza tra i GranTotali (prelevati dai rapporti Zeta) della chiusura del giorno corrente
 con l'ultima chiusura effettuata.
 
 Nel pannello centrale, il pannello dei Corrispettivi, sono evidenziati gli Importi che Negoziando riceve dal Registratore di Cassa in fase di stampa del Stampa del Rapporto Zeta (se il registratore di cassa è dotato di questa specifica funzionalità).
 Esistono tre colonne : 
- * Importo Dichiarato. In automatico viene calcolato e proposto dal Sistema, ma è possibile per l'Operatore modificare gli importi proposti in questa colonna.
- * Importo Calcolato. In automatico viene calcolato e proposto dal Sistema, ma, a differenza di quello Dichiarato, questo campo non è modificabile.
- * Differenza. Propone l'eventuale differenza che potrebbe esserci nel momento in cui l'Operatore apportasse delle modifiche a qualche valore
+ \* Importo Dichiarato. In automatico viene calcolato e proposto dal Sistema, ma è possibile per l'Operatore modificare gli importi proposti in questa colonna.
+ \* Importo Calcolato. In automatico viene calcolato e proposto dal Sistema, ma, a differenza di quello Dichiarato, questo campo non è modificabile.
+ \* Differenza. Propone l'eventuale differenza che potrebbe esserci nel momento in cui l'Operatore apportasse delle modifiche a qualche valore
 
 Nella parte inferiore abbiamo i pannelli Incassi e il Riepilogo.
 
@@ -495,15 +495,15 @@ Qui viene proposto l'elenco di eventuali Entrate/Uscite di Cassa Confermate. La 
 Turno con gli importi Corretti. E' naturalmente possibile effettuare la Chiusura di Cassa anche in presenza di Differenze, basterà specificarne la motivazione nella richiesta di annotazioni Finali.
 Sono a disposizione i seguenti tasti funzionali : 
 
- * Invio. Per Confermare la Chiusura di Cassa
- * F7/F8 Giorno Precedente/Giorno Successivo. Per effettuare la Chiusura di Cassa di giorni Precedenti/Successivi
- * F11 Visualizza Rapporto Zeta. Per Visualizzare le Informazioni ricevute dal Registratore di Cassa in fase di stampa del Rapporto Zeta
- * F5 Visualizza Movimenti Cassaforte.
+ \* Invio. Per Confermare la Chiusura di Cassa
+ \* F7/F8 Giorno Precedente/Giorno Successivo. Per effettuare la Chiusura di Cassa di giorni Precedenti/Successivi
+ \* F11 Visualizza Rapporto Zeta. Per Visualizzare le Informazioni ricevute dal Registratore di Cassa in fase di stampa del Rapporto Zeta
+ \* F5 Visualizza Movimenti Cassaforte.
 
 Premendo Invio per confermare la Chiusura vengono richieste le annotazioni : 
 
- * Indicare se Chiusura Corretta SI/NO
- * Eventuali Annotazioni. OBBLIGATORIE se la Chiusura Non è Corretta
+ \* Indicare se Chiusura Corretta SI/NO
+ \* Eventuali Annotazioni. OBBLIGATORIE se la Chiusura Non è Corretta
 
 E' possibile effettuare la Stampa del Riepilogo della Chiusura impostando a SI l'apposita richiestaStampa Chiusura. A questo punto premere F6 per Confermare.
 
@@ -518,25 +518,25 @@ La funzione richiede la Data di Chiusura e l'indicazione di un Operatore che sia
 
 Prima di proseguire nella elaborazione il programma effettuerà le seguenti verifiche : 
 
- * Devono essere state effettuate le Chiusure di Cassa di Tutti i Registratori. In caso contrario ne verrà data segnalazione.
- * Devono essere state effettuate le Chiusure del Negozio delle giornate precedenti, altrimenti apparirà una segnalazione
- * Viene effettuato un controllo sulle Registrazioni delle giornate precedenti e se ne esistono di Non Confermate ne verrà data segnalazione con la possibilità di visualizzarne l'elenco (tasto F5)
+ \* Devono essere state effettuate le Chiusure di Cassa di Tutti i Registratori. In caso contrario ne verrà data segnalazione.
+ \* Devono essere state effettuate le Chiusure del Negozio delle giornate precedenti, altrimenti apparirà una segnalazione
+ \* Viene effettuato un controllo sulle Registrazioni delle giornate precedenti e se ne esistono di Non Confermate ne verrà data segnalazione con la possibilità di visualizzarne l'elenco (tasto F5)
 
 A questo punto si accede alla funzione di Chiusura Negozio tramite una maschera di riepilogo che riporta l'elenco di tutte le Casse (i Cassetti) del Negozio, indicando lo Stato di ognuna, quindi se Chiusa o Non Utilizzata.
 Sulla sinistra viene visualizzata la colonna  che riporta tutte le voci già compilate nella Registrazione della Chiusura siddivise in : 
 
- * Transazioni
- * Corrispetivi
- * Incassi
- * Riepilogo
- * Cassaforte
+ \* Transazioni
+ \* Corrispetivi
+ \* Incassi
+ \* Riepilogo
+ \* Cassaforte
 
 Sono a disposizione i seguenti tasti funzionali : 
 
- * F6 Conferma Chiusura
- * F5 Dettaglio. Per Visualizzare il Dettaglio dei Movimenti di ciascuna tipologia. Posizionarsi sulla cella interessata prima di premere F5
- * F7 Stampa
- * F8 Esporta in Excel
+ \* F6 Conferma Chiusura
+ \* F5 Dettaglio. Per Visualizzare il Dettaglio dei Movimenti di ciascuna tipologia. Posizionarsi sulla cella interessata prima di premere F5
+ \* F7 Stampa
+ \* F8 Esporta in Excel
 
 Si potrà visualizzare il Dettaglio dei Movimenti anche facendo il Doppio Clic sulla cella interessata. Premendo F6 se esistono Registratori di Cassa non utilizzati nella giornata ne verrà data
 segnalazione con richiesta di Conferma prima di proseguire nell'elaborazione.
@@ -605,18 +605,18 @@ Premere F6 per Confermare.
 
 Nella maschera iniziale del Controllo Versamenti saranno inoltre disponibili i seguenti tasti funzionali : 
 
- * F8 Allega Ricevuta. Per allegare al versamento l'immagine della ricevuta rilasciata dalla Banca
- * F9 Visualizza Ricevuta. Per visualizzare l'eventuale ricevuta allegata mediante la funzione precedente
- * F10 Visualizza Tutti i Versamenti. Permette di passare dalla Visualizzazione dei soli Versamenti da Controllare alla Visualizzazione di tutti i Versamenti e viceversa
+ \* F8 Allega Ricevuta. Per allegare al versamento l'immagine della ricevuta rilasciata dalla Banca
+ \* F9 Visualizza Ricevuta. Per visualizzare l'eventuale ricevuta allegata mediante la funzione precedente
+ \* F10 Visualizza Tutti i Versamenti. Permette di passare dalla Visualizzazione dei soli Versamenti da Controllare alla Visualizzazione di tutti i Versamenti e viceversa
 
 ## Come Allegare una Ricevuta
 
 Dopo aver premuto il tasto F8 Allega Ricevuta si apre una finestra che richiederà : 
 
- * Tipo. E' opportuno aver prima codificato il Tipo di Ricevuta nella Tabella ARTD - Tipo Documento di Archiviazione
- * Data
- * Numero
- * Descrizione
+ \* Tipo. E' opportuno aver prima codificato il Tipo di Ricevuta nella Tabella ARTD - Tipo Documento di Archiviazione
+ \* Data
+ \* Numero
+ \* Descrizione
 
 A questo punto premere F11 Scansione Ricevuta e, al termine dell'operazione, premere F9 Allega Ricevuta
 
@@ -636,19 +636,19 @@ _Dal Menu>Principale>Chiusure di Cassa>Cassa>Visualizza Distinte di Cassa_  :
 
 Verranno richiesti : 
 
- * Negozio
- * Registratore di cassa
- * Codice Cassa
- * Tipologia. E' possibile scegliere tra
- ** Apertura Turno - Controllo Fondo Cassa
- ** Chiusura Turno - Controllo Fondo Cassa
- ** Chiusura Turno - Prelievo per Cassaforte
- ** Controllo Cassaforte
- ** Prelievi per Cassaforte
- ** Versamento in Banca
- ** Versamento a Sede
- * Operatore
- * Da Data/A Data
+ \* Negozio
+ \* Registratore di cassa
+ \* Codice Cassa
+ \* Tipologia. E' possibile scegliere tra
+ \*\* Apertura Turno - Controllo Fondo Cassa
+ \*\* Chiusura Turno - Controllo Fondo Cassa
+ \*\* Chiusura Turno - Prelievo per Cassaforte
+ \*\* Controllo Cassaforte
+ \*\* Prelievi per Cassaforte
+ \*\* Versamento in Banca
+ \*\* Versamento a Sede
+ \* Operatore
+ \* Da Data/A Data
 
 Tutti i valori sono facoltativi, se non ne viene indicato nessuno, verrà presentata la maschera con tutte le Distinte presenti a sistema
 

@@ -15,9 +15,9 @@
                   </FLU>
           </Program>
  </Setup>
-         <Oggetto Nome="" Tipo="" Parametro="" Codice="" Testo="Scheda Utente AA" Exec="F(EXD;*SCO;) 1(TA;B£U;AA)" Fld="" Leaf=""/>
-         <Oggetto Nome="" Tipo="" Parametro="" Codice="" Testo="Scheda Utente AA" Exec="F(EXD;*SCO;) 1(TA;B£U;BB)" Fld="" Leaf=""/>
+         <Oggetto Nome="" Tipo="" Parametro="" Codice="" Testo="Scheda Utente AA" Exec="F(EXD;\*SCO;) 1(TA;B£U;AA)" Fld="" Leaf=""/>
+         <Oggetto Nome="" Tipo="" Parametro="" Codice="" Testo="Scheda Utente AA" Exec="F(EXD;\*SCO;) 1(TA;B£U;BB)" Fld="" Leaf=""/>
          ...
-         <Oggetto Nome="" Tipo="" Parametro="" Codice="" Testo="Scheda Utente AA" Exec="F(EXD;*SCO;) 1(TA;B£U;ZZ)" Fld="" Leaf=""/>
+         <Oggetto Nome="" Tipo="" Parametro="" Codice="" Testo="Scheda Utente AA" Exec="F(EXD;\*SCO;) 1(TA;B£U;ZZ)" Fld="" Leaf=""/>
 </Base>
 

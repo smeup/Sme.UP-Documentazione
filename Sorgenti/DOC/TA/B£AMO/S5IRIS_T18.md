@@ -385,11 +385,11 @@ E' possibile impostare nello script di parametri uno stato delle risorse :  verr
 Dato che nell'archivio BRRISO non esiste il livello, e qunidi non c'è la possibilità di annullamento logico, questo implemento sopperisce a questa mancanza.
 In tal modo si possono, ad esempio, escludere alcune risorse specifiche dalla schedulazione.
 ### Filtro risorse
-E' stato introdutto inoltre un flag libero (controllato in *CN/S5) in tabella BRM, in cui si puè impostare una classe di schedulazione a disposizione dei programmi specifici. Ad esempio si può impostare che il tiro viene eseguito solo sulle risorse che hanno un valore specifico in questo campo.
+E' stato introdutto inoltre un flag libero (controllato in \*CN/S5) in tabella BRM, in cui si puè impostare una classe di schedulazione a disposizione dei programmi specifici. Ad esempio si può impostare che il tiro viene eseguito solo sulle risorse che hanno un valore specifico in questo campo.
 NB :  è cura totale del programma specifico eseguire questo controllo :  come standard si può impostare solo di lanciare il programma specifico di tiro. All'interno di questo programma si decide se eseguire il tiro solo su una certa classe di risorse.
 Tale flag è stato riportato nel flag 15 di S5IRIS (programmi S5FURIT_SC e S5IRIS0F_F).
 Si deve quindi : 
-- aggiungere il sottosettore S5 alla tabella *CN, col significato 'classe di schedulazione'
+- aggiungere il sottosettore S5 alla tabella \*CN, col significato 'classe di schedulazione'
 - aggiornare il settore BRM
 Sono da aggiornare inoltre i programmi :  S5FURIT_SC, S5IRIS0F_F e S5S5C0.
 

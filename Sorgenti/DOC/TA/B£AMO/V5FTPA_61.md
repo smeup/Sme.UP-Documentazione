@@ -6,13 +6,13 @@ La scheda è richiamabile dalla voce di menù "Cruscotto invio fatture" del modu
 
 Attualmente si compone di 7 sezioni : 
 
-* La dashboard di riepilogo
-* La scheda di invio ed il cruscotto d'avanzamento invio
-* La scheda di visualizzazione dei tracciati (USRLVL 01)
-* La scheda dei log di integrazione con il webservice (USRLVL 02)
-* La scheda del log della coda dati (USRLVL 02)
-* La scheda di controlli di sistema
-* La scheda del provider (USRLVL 02)
+\* La dashboard di riepilogo
+\* La scheda di invio ed il cruscotto d'avanzamento invio
+\* La scheda di visualizzazione dei tracciati (USRLVL 01)
+\* La scheda dei log di integrazione con il webservice (USRLVL 02)
+\* La scheda del log della coda dati (USRLVL 02)
+\* La scheda di controlli di sistema
+\* La scheda del provider (USRLVL 02)
 
 **Prerequisito all'invio è l'impostazione di alcuni parametri la cui mancata o non corretta compilazione sarà segnalata direttamente nel cruscotto sopra le linguette di selezione delle 6 sezioni sopra elencate.
 Nel caso di parametri mancanti o di componenti necessari non correttamente configurati, sarà opportuno verificare il problema tramite la tab "Controllo di sistema" e correggerlo prima di effettuare l'invio.
@@ -24,12 +24,12 @@ Su ogni record di EDSEND utilizzato per l'invio, infatti, è presente l'indicazi
 
 Al momento, gli stati possibili sono 6 : 
 
-* **0** - Da elaborare :  Rappresentano le fatture per le quali non è ancora stato generato l'XML
-* **1** - XML errato :  Rappresentano quelle fatture per le quali l'XML è stato generato ma presenta errori formali ed quindi necessario ricreare l'XML in questione, dopo aver controllato le stampe di errore e aver sistemato le cause.
-* **2** - Da inviare :  Sono le fatture con XML generato e pronte per essere inviate
-* **3** - Invio in corso :  sono le fatture per cui è stata lanciata la procedura di invio, ma che sono ancora in attesa di essere trasmesse.
-* **4** - Errore nell'invio :  Sono quelle fatture per le quali è stato tentato l'invio ma è fallita la trasmissione all'intermediario.
-* **5** - Inviate :  Sono le fatture correttamente trasmesse e ricevute dall'intermediario
+\* **0** - Da elaborare :  Rappresentano le fatture per le quali non è ancora stato generato l'XML
+\* **1** - XML errato :  Rappresentano quelle fatture per le quali l'XML è stato generato ma presenta errori formali ed quindi necessario ricreare l'XML in questione, dopo aver controllato le stampe di errore e aver sistemato le cause.
+\* **2** - Da inviare :  Sono le fatture con XML generato e pronte per essere inviate
+\* **3** - Invio in corso :  sono le fatture per cui è stata lanciata la procedura di invio, ma che sono ancora in attesa di essere trasmesse.
+\* **4** - Errore nell'invio :  Sono quelle fatture per le quali è stato tentato l'invio ma è fallita la trasmissione all'intermediario.
+\* **5** - Inviate :  Sono le fatture correttamente trasmesse e ricevute dall'intermediario
 
 La dashbord riepilogativa in questione mostra, in forma di grafico a barre, il numero complessivo di fattura con XML errato e quelle in attesa di essere inviate.
 
@@ -37,12 +37,12 @@ La dashbord riepilogativa in questione mostra, in forma di grafico a barre, il n
 ### La scheda di invio
 Questa scheda permette di avere un riepilogo generale su tutte le fatture estratte (inviate, da inviare, in errore, etc...) mediante l'impostazione dei filtri nonché di procedere materialmente all'invio delle fatture stesse.
 I filtri selezionabili, anche in abbinamento, sono : 
-* **Tipo selezione**. Permette di filtrare sugli stati di invio visti al punto precedente
-* **Data iniziale e finale**. Filtra tutte le fatture la cui data fattura è nel range specificato. Se impostata solo la data finale, si comporta come un 'fino a'. Se impostata solo la data iniziale si comporta come un 'da'
-* **Tipo ente fattura** e **codice ente fattura**. Corrispondono all'ente di fatturazione dei documenti da cui è composta la fattura.
-* Registro iva
-* **Numero fattura da** e **numero fattura a**. Filtra, con lo stesso criterio sopra espresso per le date, sul numero fattura
-* **Anno**. E' l'anno di emissione della fattura
+\* **Tipo selezione**. Permette di filtrare sugli stati di invio visti al punto precedente
+\* **Data iniziale e finale**. Filtra tutte le fatture la cui data fattura è nel range specificato. Se impostata solo la data finale, si comporta come un 'fino a'. Se impostata solo la data iniziale si comporta come un 'da'
+\* **Tipo ente fattura** e **codice ente fattura**. Corrispondono all'ente di fatturazione dei documenti da cui è composta la fattura.
+\* Registro iva
+\* **Numero fattura da** e **numero fattura a**. Filtra, con lo stesso criterio sopra espresso per le date, sul numero fattura
+\* **Anno**. E' l'anno di emissione della fattura
 
 L'unico filtro obbligatorio è il tipo selezione, che condiziona anche le azioni eseguibili sull'elenco di fatture che verrà estrapolato.
 Risulta infatti abilitato il pulsante per la trasmissione solo per le selezioni 'Da inviare' e 'Errore nell'invio'.
@@ -61,9 +61,9 @@ La dashboard è suddivisa in due sezioni :  a sinistra troviamo il grafico ed a 
 
 Il grafico a torta, con refresh automatico ogni 20 secondi, mostra : 
 
-* In grigio la porzione di fatture in attesa di essere inviate
-* In verde la porzione di fatture inviate per le quali è stato restituito l'esito di invio positivo
-* In rosso la porzione di fatture inviate per le quali è stato restituito l'esito di invio negativo
+\* In grigio la porzione di fatture in attesa di essere inviate
+\* In verde la porzione di fatture inviate per le quali è stato restituito l'esito di invio positivo
+\* In rosso la porzione di fatture inviate per le quali è stato restituito l'esito di invio negativo
 
 E' possibile forzare il refresh cliccando sulla barra del titolo del grafico.
 Il grafico mostra, come etichetta, la percentuale per ogni porzione mentre sotto al grafico è presente una piccola tabella riepilogativa che fornisce le stesse informazioni del grafico ma in termini numerici.

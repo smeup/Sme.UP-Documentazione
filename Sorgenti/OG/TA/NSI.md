@@ -42,7 +42,7 @@ Tre caratteri che permettono di presentare il formato video con le tre colonne
  :  : FLD T$NSIB __Gestione avanzata flag__
 Se impostato a '1', quando scelgo l'opzione 'GR' o 'G' nella gestione delle note, ci si aspetta che il "flag nota"
 dell'archivio NTSTRU0F venga restiuito dal programma di controllo (T$PGCO) in un campo aggiuntivo della PARM.
-Se impostato a *blanks, viene mantenuta la compatibilità con il passato, cioè questo flag viene passato nel
+Se impostato a \*blanks, viene mantenuta la compatibilità con il passato, cioè questo flag viene passato nel
 centesimo byte (l'ultimo) della riga di nota.
  :  : FLD T$NSIC __Conferma abbandono__
 Se impostato a '1', in caso di uscita dall'editazione con il tasto F12 o F03, verrà presentata una finestra

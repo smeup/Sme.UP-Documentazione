@@ -131,7 +131,7 @@ nella chiamata dell'UDF in una istruzione SQL)
      d outDiagTxt      s             70    varying
 
 
-     C     *ENTRY        PLIST
+     C     \*ENTRY        PLIST
      C                   PARM                    OAFFUN
      C                   PARM                    OAFTP1
      C                   PARM                    OAFPR1

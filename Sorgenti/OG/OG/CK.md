@@ -13,10 +13,10 @@
 
 ## Codifica controlli
 
- * Controlli dinamici. Generati a runtime a partire dagli OAV dell'oggetto (tipo + parametro).
- ** Codifica G00001 per oggettizzazione errata, G00002 per obbligatorietà, G00003     per valore non valido, G00004 per valore non congruente rispetto alle ricerche condizionate.
+ \* Controlli dinamici. Generati a runtime a partire dagli OAV dell'oggetto (tipo + parametro).
+ \*\* Codifica G00001 per oggettizzazione errata, G00002 per obbligatorietà, G00003     per valore non valido, G00004 per valore non congruente rispetto alle ricerche condizionate.
     Definiti nello script B£K89G in DOC_VOC.
- * Controlli standard. Definiti nello script B£K89_xx in DOC_VOC.
- ** Codifica **S**+progressivo
- * Controlli utente. Vanno codificati nello script B£K89_xxU in DOC_VOC.
- ** Codifica **X**+progressivo
+ \* Controlli standard. Definiti nello script B£K89_xx in DOC_VOC.
+ \*\* Codifica **S**+progressivo
+ \* Controlli utente. Vanno codificati nello script B£K89_xxU in DOC_VOC.
+ \*\* Codifica **X**+progressivo

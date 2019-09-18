@@ -7,7 +7,7 @@ Oggetto6, di tipo SI/NO, indica se tornare la matrice completa con informazioni 
 # FUNZIONI/METODI
 ## OAV (OAV)
 Restituisce una matrice o un albero con gli OAV di un oggetto.
-Metodo ***BLANKS**
+Metodo **\*BLANKS**
 Tutti
 Metodo **GRU**
 Restituisce gli attributi appartenenti a un gruppo.
@@ -26,7 +26,7 @@ Restituisce il prossimo elemento nella lista di oggetti identificata dal tipo e 
 
 ## Tabella (TBL)
 Ritorna una lista di oggetti di un certo tipo. Il tipo oggetto è specificato in Oggetto 1.
-Se l'Oggetto 1 è OJ*FILE in Oggetto 2 si può specificare la libreria, vengono restituiti i membri di
+Se l'Oggetto 1 è OJ\*FILE in Oggetto 2 si può specificare la libreria, vengono restituiti i membri di
 
  SVILUPPI
 
@@ -34,15 +34,15 @@ Se l'Oggetto 1 è OJ*FILE in Oggetto 2 si può specificare la libreria, vengono 
 
  :  : PRO.SER Cod="OAV..2" Tit="scansione OAV. TUTTI" Fun="F(TRE;JATRE_17C;OAV.)"
 
- :  : PRO.SER Cod="OAV.GRU.3" Tit="scansione OAV. per gruppo" Fun="F(EXB;JATRE_17C;OAV.GRU) P( GRU(-(F;;**;Gruppo)))"
+ :  : PRO.SER Cod="OAV.GRU.3" Tit="scansione OAV. per gruppo" Fun="F(EXB;JATRE_17C;OAV.GRU) P( GRU(-(F;;\*\*;Gruppo)))"
 
  :  : PRO.SER Cod="OAV.GRU.4" Tit="scansione OAV. per gruppo" Fun="F(TRE;JATRE_17C;OAV.GRU)" Ref="OAV.GRU.3"
 
- :  : PRO.SER Cod="OAV.CAT.5" Tit="scansione OAV. per categoria" Fun="F(EXB;JATRE_17C;OAV.CAT) P( CAT(-(F;;**;Categoria)))"
+ :  : PRO.SER Cod="OAV.CAT.5" Tit="scansione OAV. per categoria" Fun="F(EXB;JATRE_17C;OAV.CAT) P( CAT(-(F;;\*\*;Categoria)))"
 
  :  : PRO.SER Cod="OAV.CAT.6" Tit="scansione OAV. per categoria" Fun="F(TRE;JATRE_17C;OAV.CAT)" Ref="OAV.CAT.5"
 
- :  : PRO.SER Cod="OAV.LIM.7" Tit="scansione OAV. entro certi limiti" Fun="F(EXB;JATRE_17C;OAV.LIM) P( DA(-(F;;**;Limite inferiore)) A(-(F;;**;Limite superiore)))"
+ :  : PRO.SER Cod="OAV.LIM.7" Tit="scansione OAV. entro certi limiti" Fun="F(EXB;JATRE_17C;OAV.LIM) P( DA(-(F;;\*\*;Limite inferiore)) A(-(F;;\*\*;Limite superiore)))"
 
  :  : PRO.SER Cod="OAV.LIM.8" Tit="scansione OAV. entro certi limiti" Fun="F(TRE;JATRE_17C;OAV.LIM)" Ref="OAV.LIM.7"
 

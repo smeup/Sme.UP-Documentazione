@@ -1,11 +1,11 @@
  :  : TIT Sme.UP - Visione applicativa
 # ERP effettivo Generalità
 Le definizioni di ERP (Enterprise Resources Planning) per una soluzione gestionale sono le più disparate e spesso in disaccordo tra loro.Secondo la nostra visione, questa tipologia di software deve tassativamente avere alcune categorie di requisiti : 
- * una copertura applicativa tale da supportare i principali processi aziendali attraverso una piena e libera navigabilità tra le differenti informazioni
- * la capacità di soddisfare, attraverso interventi parametrici, le più varie esigenze funzionali delle aziende di produzione, di distribuzione e di servizi
- * la flessibilità e la modellabilità necessari per seguire l'impresa lungo le evoluzioni organizzative che necessariamente avvengono nel tempo
- * un insieme di caratteristiche generali che ne permettano l'installazione in diverse nazioni
- * la disponibilità di strumenti decisionali integrati, che aiutino Titolari e Manager nel momento di prendere una decisione.
+ \* una copertura applicativa tale da supportare i principali processi aziendali attraverso una piena e libera navigabilità tra le differenti informazioni
+ \* la capacità di soddisfare, attraverso interventi parametrici, le più varie esigenze funzionali delle aziende di produzione, di distribuzione e di servizi
+ \* la flessibilità e la modellabilità necessari per seguire l'impresa lungo le evoluzioni organizzative che necessariamente avvengono nel tempo
+ \* un insieme di caratteristiche generali che ne permettano l'installazione in diverse nazioni
+ \* la disponibilità di strumenti decisionali integrati, che aiutino Titolari e Manager nel momento di prendere una decisione.
 In questo documento viene esposto il modo in cui Sme.up offre la sua risposta a questi requisiti.
 
 # Caratteristiche Generali
@@ -35,10 +35,10 @@ Questo modo di procedere che noi chiamiamo "Rilascio per processi" limita fortem
 
 ![AAP_VAP_04](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_04.png)
 Come confermano le installazioni in numerosi paesi europei, Sme.up è predisposto per una completa internazionalizzazione attraverso una serie di caratteristiche tra le quali : 
- * **Traduzione** :  il prodotto è già disponibile in una decina di lingue diverse :  la traduzione viene guidata attraverso opportune tabelle, nessuna parte del codice viene duplicata; tecnicamente, le parole e le frasi sono state trasformate in 'oggetti' e beneficiano quindi dei numerosi vantaggi di questi
- * **Lingua** :  ogni singolo utente può scegliere la lingua attraverso la quale interagire con il sistema
- * **Date** :  scelta del formato di presentazione della data :  giorno/mese/anno oppure  mese/giorno/anno, senza che differisca il formato interno di memorizzazione
- * **Numeri** :  si può scegliere, nell'editazione dei numeri, tra il formato italiano (punti separatori di migliaia e virgola per i decimali) ed il formato anglosassone (l'opposto del precedente).
+ \* **Traduzione** :  il prodotto è già disponibile in una decina di lingue diverse :  la traduzione viene guidata attraverso opportune tabelle, nessuna parte del codice viene duplicata; tecnicamente, le parole e le frasi sono state trasformate in 'oggetti' e beneficiano quindi dei numerosi vantaggi di questi
+ \* **Lingua** :  ogni singolo utente può scegliere la lingua attraverso la quale interagire con il sistema
+ \* **Date** :  scelta del formato di presentazione della data :  giorno/mese/anno oppure  mese/giorno/anno, senza che differisca il formato interno di memorizzazione
+ \* **Numeri** :  si può scegliere, nell'editazione dei numeri, tra il formato italiano (punti separatori di migliaia e virgola per i decimali) ed il formato anglosassone (l'opposto del precedente).
 In aggiunta, sono state già realizzate alcune localizzazioni in linea con le disposizioni fiscali di singoli paesi.
 
 # Multiaziendalità
@@ -60,8 +60,8 @@ La complessità dei sistemi ERP rende la loro documentazione un fattore vitale p
 Il nostro sforzo è stato quello di realizzare strumenti diversificati che facilitino la comprensione del prodotto nella sua struttura, nella sua parametrizzazione e nel suo utilizzo.
 
 **Help**
- * __Di tabella__ :  nelle tabelle ogni campo è provvisto di un help contestuale. Dato che le tabelle costituiscono i mattoni elementari della parametrizzazione del sistema, particolare cura è stata posta nella completezza ed accuratezza di questa documentazione.
- * __Di programma__ :  è presente nei programmi che eseguono funzioni particolarmente importanti. È possibile, da parte dell'utente, integrare questi help, oltre a realizzare help specifici per programmi che ne sono privi.
+ \* __Di tabella__ :  nelle tabelle ogni campo è provvisto di un help contestuale. Dato che le tabelle costituiscono i mattoni elementari della parametrizzazione del sistema, particolare cura è stata posta nella completezza ed accuratezza di questa documentazione.
+ \* __Di programma__ :  è presente nei programmi che eseguono funzioni particolarmente importanti. È possibile, da parte dell'utente, integrare questi help, oltre a realizzare help specifici per programmi che ne sono privi.
 
 **Books**
 Sme.up mette a disposizione testi che descrivono, in generale, le finalità e la struttura di ogni applicazione ("documenti di visione"). In aggiunta, vi sono testi ("soluzioni particolari") che affrontano in profondità argomenti specifici (ad esempio le alternative di ciclo, la gestione del multiplant, l'ATP, ecc..).
@@ -91,8 +91,8 @@ Tra i vantaggi della metodologia ad oggetti applicativi, c'è che a ciascuno di 
 
 **Descrizioni Estese**
 È un set di descrizioni alternative, ciascuna delle quali può essere usata per : 
- * integrare la descrizione standard dell'oggetto, come avviene quando sono necessarie descrizioni tecniche dettagliate
- * sostituire la descrizione standard, come nel caso della decodifica in lingue differenti necessaria per esporre nei documenti verso l'esterno (conferme d'ordine, fatture, ...) la descrizione congruente con la nazionalità del cliente.
+ \* integrare la descrizione standard dell'oggetto, come avviene quando sono necessarie descrizioni tecniche dettagliate
+ \* sostituire la descrizione standard, come nel caso della decodifica in lingue differenti necessaria per esporre nei documenti verso l'esterno (conferme d'ordine, fatture, ...) la descrizione congruente con la nazionalità del cliente.
 
 **Parametri**
 In numerose realtà aziendali risulta indispensabile memorizzare informazioni eterogenee, anche molto specifiche in relazione alla tipologia di lavoro dell'azienda. Si tratta di dati che non possono certo essere presenti negli archivi standard di qualsiasi applicazione. La gestione parametri risponde a questa esigenza :  ad ogni oggetto è possibile associare una serie ampia a piacere di informazioni, la cui natura è definita dall'utente. Ad esempio, si può fissare che, per gli articoli appartenenti alla classe delle lamiere, si memorizzino le opportune caratteristiche chimiche e meccaniche. Questa metodologia realizza un arricchimento potenzialmente illimitato delle informazioni disponibili, senza alcun intervento di personalizzazione, senza implicazioni negative per la manutenzione del prodotto ed imediatamente "visibili" dalle restanti parti del sistema.
@@ -106,14 +106,14 @@ OAV è un acronimo per Oggetto/Attributo/Valore e costituisce una modalità di d
 **Azioni su oggetti**
 Per ogni oggetto viene fornito l'insieme di azioni (pop.up) eseguibili su di esso da un particolare utente in un particolare momento, fondendo azioni provenienti da punti diversi in un'unica lista accessibile da tutto Sme.up.
 Le azioni di un oggetto sono : 
- * __Multilivello__. Ad esempio per un determinato oggetto il livello 1 è costituito dalle voci : 
- ** Scheda oggetto
- ** Gestione (apre un sottolivello di azioni di inserimento, modifica, ...)
- ** Azioni specifiche azienda
- ** Navigazione (apre un sottolivello di azioni per raggiungere oggetti con proprietà simili)
- ** ...e così via
- * __Sensibili all'istanza dell'oggetto__ :  per un particolare articolo potrebbe essere attiva la modifica mentre per un altro no
- * __Ridefinibili da script__ :  è suggerito un pop.up standard valido per tutti i tipi, poi per particolari oggetti questo può essere specializzato mediante script
+ \* __Multilivello__. Ad esempio per un determinato oggetto il livello 1 è costituito dalle voci : 
+ \*\* Scheda oggetto
+ \*\* Gestione (apre un sottolivello di azioni di inserimento, modifica, ...)
+ \*\* Azioni specifiche azienda
+ \*\* Navigazione (apre un sottolivello di azioni per raggiungere oggetti con proprietà simili)
+ \*\* ...e così via
+ \* __Sensibili all'istanza dell'oggetto__ :  per un particolare articolo potrebbe essere attiva la modifica mentre per un altro no
+ \* __Ridefinibili da script__ :  è suggerito un pop.up standard valido per tutti i tipi, poi per particolari oggetti questo può essere specializzato mediante script
 La centralizzazione della gestione delle azioni rende possibile l'integrazione nativa del modulo di workflow con gli oggetti di Sme.up :  cedendo il controllo sulla gestibilità degli oggetti al modulo di workflow stesso si abilita una gestione molto potente degli oggetti di Sme.up, comandata dai processi aziendali.
 
 ![AAP_VAP_05](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_05.png)
@@ -126,9 +126,9 @@ Gli incrementi di potenza e ricchezza applicativa degli attuali sistemi portano 
 
 **Organizzazione menu utenti**
 L'accesso facilitato alle informazioni e l'individuazione della via più breve per accedere ad un dato sono tra le esigenze più sentite dall'utente di un ERP. Sme.up risponde a questa istanza con più modalità : 
- * quella standard prevista dal sistema operativo
- * una gestione alternativa a definizione tabellare, con il controllo preventivo dell'autorizzazione dell'utente ad eseguire l'azione e la possibilità di intestare ogni menu ad un oggetto specifico; ad esempio, se vi è un cliente particolarmente strategico, sul quale si esegue una serie di funzioni, le si può raccogliere in un menu intestato al cliente stesso
- * la navigazione libera tra i dati realizzata attraverso Looc.up
+ \* quella standard prevista dal sistema operativo
+ \* una gestione alternativa a definizione tabellare, con il controllo preventivo dell'autorizzazione dell'utente ad eseguire l'azione e la possibilità di intestare ogni menu ad un oggetto specifico; ad esempio, se vi è un cliente particolarmente strategico, sul quale si esegue una serie di funzioni, le si può raccogliere in un menu intestato al cliente stesso
+ \* la navigazione libera tra i dati realizzata attraverso Looc.up
 
 **Presentazione dei dati**
 In tutte le interrogazioni e le stampe viene data la possibilità di scegliere quali informazioni presentare, in modo da poterle ottenere senza eseguire nessuna personalizzazione al software. La scelta di quello che si desidera stampare non è limitata alle sole caratteristiche dell'oggetto applicativo che si sta presentendo, ma è estesa ai suoi "attributi". Ad esempio, nella visualizzazione delle righe di un ordine di vendita è possibile riportare, oltre al cliente, qualsiasi sua caratteristica, sia anagrafica sia calcolata dinamicamente quali indirizzo, persona di riferimento o valore dello scoperto.
@@ -138,21 +138,21 @@ In un ambiente con un gran numero di utenti, è indispensabile tenere in massima
 
 **Workflow**
 L'applicazione Workflow si occupa della gestione di processi aziendali, intesi come insiemi di compiti (impegni) svolti da diverse persone per il conseguimento di un obiettivo. Molte attività aziendali possono essere viste come processi, ad esempio : 
- * studio di un nuovo articolo
- * revisione di documentazione tecnica (come in figura)
- * vendita, dall'ordine alla consegna
+ \* studio di un nuovo articolo
+ \* revisione di documentazione tecnica (come in figura)
+ \* vendita, dall'ordine alla consegna
 L'applicazione guida gli utenti nell'esecuzione dei processi : 
- * attiva gli impegni non appena diventano eseguibili
- * rende visibili gli impegni a tutti e solo gli utenti che li possono eseguire
- * porta negli impegni tutte le informazioni necessarie per svolgere il lavoro :  oggetti Sme.up, documentazione, chiamate di menù...
+ \* attiva gli impegni non appena diventano eseguibili
+ \* rende visibili gli impegni a tutti e solo gli utenti che li possono eseguire
+ \* porta negli impegni tutte le informazioni necessarie per svolgere il lavoro :  oggetti Sme.up, documentazione, chiamate di menù...
 Dal punto di vista dell'utente questo si traduce nella consultazione di una worklist, che contiene i diversi compiti da svolgere :  selezionando uno di questi gli verranno presentate tutte le informazioni utili e le azioni da eseguire. Portato a termine il compito, sarà il sistema ad avanzare il lavoro in maniera automatica ed immediata, portando le attività successive nelle worklist dei relativi utenti.
 
 ![WF-FIG0001](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/WF-FIG0001.png)
 **Ricerche**
 Ogni volta che viene richiesto un codice, oltre alle consuete ricerche (per lo stesso codice e alfabetica) sono presenti le seguenti funzioni : 
- * __ricerca contestuale__, che presenta i soli codici significativi in quello specifico contesto; ad esempio, quando si richiede un assieme nella manutenzione distinta base, è possibile richiamare una lista dei soli codici che sono presenti nella distinta come assiemi
-* __ricerca estesa__, che permette selezioni mirate, impostando un tipo ricerca ed un codice di selezione; ad esempio, per gli articoli è prevista la ricerca per codice dei prodotti alternativi :  in questo caso, impostando un articolo, vengono presentati in lista tutti i suoi codici alternativi
- * __richiamo delle funzioni dell'oggetto__, che presentata una lista di funzioni, definibile dall'utente, che possono essere eseguite da quel punto; ad esempio, ad un articolo è possibile collegare l'interrogazione della distinta base, del ciclo di lavoro, l'andamento della sua disponibilità nel tempo.
+ \* __ricerca contestuale__, che presenta i soli codici significativi in quello specifico contesto; ad esempio, quando si richiede un assieme nella manutenzione distinta base, è possibile richiamare una lista dei soli codici che sono presenti nella distinta come assiemi
+\* __ricerca estesa__, che permette selezioni mirate, impostando un tipo ricerca ed un codice di selezione; ad esempio, per gli articoli è prevista la ricerca per codice dei prodotti alternativi :  in questo caso, impostando un articolo, vengono presentati in lista tutti i suoi codici alternativi
+ \* __richiamo delle funzioni dell'oggetto__, che presentata una lista di funzioni, definibile dall'utente, che possono essere eseguite da quel punto; ad esempio, ad un articolo è possibile collegare l'interrogazione della distinta base, del ciclo di lavoro, l'andamento della sua disponibilità nel tempo.
 
 **Memorizzazione impostazioni personali**
 Particolare cura è stata prestata negli strumenti di impostazione preventiva delle informazioni da inserire, allo scopo di ridurre le complessità operative e migliorare contemporaneamente la fruibilità dell'ERP. Ogni volta che un singolo utente rientra in un formato video di richiesta informazioni, gli vengono proposte le impostazioni che aveva adottato in occasione dell'ultimo utilizzo.  È possibile memorizzare, e quindi richiamare, una impostazione specifica; è prevista, per ogni utente, la definizione di un'impostazione di "default" che viene presentata ogni volta che egli entra nel formato, c'é la possibilità di memorizzare anche gli estremi di una parzializzazione desiderata; ad esempio, un utente può decidere di entrare in una funzione sugli articoli con un accesso sempre filtrato sui soli prodotti finiti.
@@ -192,32 +192,32 @@ Considerando che il "contenitore" rappresentato dalla Scheda di Sme.UP fa da rac
 Risolvono un'ampia gamma di problematiche connesse alla catalogazione e alla presentazione di un set di domande ed alla gestione ed archiviazione delle relative risposte che, in funzione del contenuto (tipo :  sì/no o conforme/non conforme), a loro volta sono in grado di indirizzare i livelli inferiori del questionario verso i "rami" opportuni. Accanto agli impieghi tradizionali del questionario come la gestione dei Sistemi Qualità oppure il Configuratore di prodotto Sme.UP ne permette l'adozione in tutta una serie altri campi quali la creazione di una scheda per l'acquisizione di un nuovo cliente o una griglia per la codifica automatica di un nuovo articolo.
 
 **Altre funzioni di utilità**
- * __Collegameto a business intelligence__ :  alimentazione dei cubi multidimensionali del data warehouse trasferendo direttamente sia le informazioni che la loro gerarchia.
- * __Collegameto a fogli elettronici__ :  popolati attraverso un semplice comando dalle informazioni provenienti dalle rappresentazioni "a Matrice" del sistema gestionale.
- * __Documenti Pdf__ :  costruzione facilitata con la possibilità di inserire testi e immagini, in varie modalità grafiche, per produrre schede prodotti, cataloghi, offerte, manuali di istruzione o altro.
- * __Accesso ai documenti__ :  di un oggetto, con la possibilità di definire in modo strutturato i collegamenti :  singoli oggetti, oggetti che rispondono a determinate caratteristiche, tutti i documenti di una cartella, ecc.
+ \* __Collegameto a business intelligence__ :  alimentazione dei cubi multidimensionali del data warehouse trasferendo direttamente sia le informazioni che la loro gerarchia.
+ \* __Collegameto a fogli elettronici__ :  popolati attraverso un semplice comando dalle informazioni provenienti dalle rappresentazioni "a Matrice" del sistema gestionale.
+ \* __Documenti Pdf__ :  costruzione facilitata con la possibilità di inserire testi e immagini, in varie modalità grafiche, per produrre schede prodotti, cataloghi, offerte, manuali di istruzione o altro.
+ \* __Accesso ai documenti__ :  di un oggetto, con la possibilità di definire in modo strutturato i collegamenti :  singoli oggetti, oggetti che rispondono a determinate caratteristiche, tutti i documenti di una cartella, ecc.
 
 # Copertura applicativa
 Per il modo con cui Sme.UP è stato concepito, è estremamente arduo predisporre una descrizione esaustiva dei processi che è in grado di svolgere e dei comportamenti che è in grado di assumere.
 
 ![B£BASE_088](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/BXBASE_088.png)
 Questa affermazione si basa sulle seguenti caratteristiche : 
- * __la rigorosa architettura ad oggetti__, dato che la potenza funzionale deriva dall'efficacia descrittiva la modularità, con le funzioni elementari che si compongono per realizzare processi articolati;
- * __la parametrizzazione__, considerando che la combinazione delle singole scelte applicative tabellari porta a comportamenti eterogenei
- * __l'estendibilità__, perché le exit specifiche a disposizione dell'azienda modificano o estendono le funzioni esistenti.
+ \* __la rigorosa architettura ad oggetti__, dato che la potenza funzionale deriva dall'efficacia descrittiva la modularità, con le funzioni elementari che si compongono per realizzare processi articolati;
+ \* __la parametrizzazione__, considerando che la combinazione delle singole scelte applicative tabellari porta a comportamenti eterogenei
+ \* __l'estendibilità__, perché le exit specifiche a disposizione dell'azienda modificano o estendono le funzioni esistenti.
 Possiamo in ogni caso dare un'idea di massima della copertura applicativa, suddivisa nelle aree principali di cui si compone un sistema informativo gestionale : 
- * la descrizione degli oggetti che rappresentano le entità aziendali che vengono trattate
- * l'esecuzione delle attività operative, estemporanee oppure precedute da una pianificazione
- * la gestione degli aspetti contabili e fiscali
- * il controllo delle attività eseguite.
+ \* la descrizione degli oggetti che rappresentano le entità aziendali che vengono trattate
+ \* l'esecuzione delle attività operative, estemporanee oppure precedute da una pianificazione
+ \* la gestione degli aspetti contabili e fiscali
+ \* il controllo delle attività eseguite.
 Nell'esposizione delle varie funzioni applicative svolte da Sme.UP, verrà dato maggior rilievo alle sue peculiarità, rimandando ai documenti di visione specifici per una esposizione più completa.
 
 # Descrizione
 # Organizzazione logistica
 Rappresenta la realtà fisica dell'azienda :  se essa è formata da più plant (di produzione o soltanto di distribuzione) o se è costituita da un'unica sede. All'interno del plant, si individuano poi le aree in cui possono risiedere i materiali (ricevimento, magazzino materie prime, magazzino semilavorati, corso lavoro, spedizione, ecc.), e le aree esterne collegate al plant stesso (materiale in conto lavoro presso fornitori, in conto deposito, visione, presso fornitori o clienti). A loro volta, le aree possono essere, opzionalmente, suddivise in ubicazioni fisiche. Si individuano poi le risorse produttive :  centri di lavoro, macchine, linee di produzione, secondo una struttura gerarchica a definizione libera (ad esempio ogni centro di lavoro può essere composto da più macchine). Le aree di magazzino, oltre che in ubicazioni, possono essere suddivise in risorse; una rappresentazione realistica può essere la seguente : 
- * le aree di ricevimento e spedizione non hanno ulteriori suddivisioni
- * le aree chiuse (magazzini di materie prime, semilavorati e prodotti finiti) si suddividono in ubicazioni,
- * le aree di corso lavoro si suddividono in risorse, in modo da tenere sotto controllo la giacenza a piede macchina
+ \* le aree di ricevimento e spedizione non hanno ulteriori suddivisioni
+ \* le aree chiuse (magazzini di materie prime, semilavorati e prodotti finiti) si suddividono in ubicazioni,
+ \* le aree di corso lavoro si suddividono in risorse, in modo da tenere sotto controllo la giacenza a piede macchina
 Si definiscono le unità di movimentazione (colli, pallet, contenitori, ecc..) tramite le quali si possono eseguire gli spostamenti fisici tra le varie aree.
 
 ![AAP_LOG_04](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_LOG_04.png)
@@ -260,13 +260,13 @@ La commessa rappresenta un elemento di aggregazione di attività (previste ed es
 # Esecuzione delle attività operative
 # Documento Esterno
 Il documento descrive un'attività di trasferimento da o verso l'esterno, sia prevista (ordine), sia effettiva (bolla di entrata o di uscita). Si compone di una testata, in cui si definiscono le caratteristiche generali, a cominciare dall'ente con cui si interagisce, e da un insieme di righe, in ciascuna delle quali è definito l'oggetto che si trasferisce (non necessariamente un articolo), la quantità di trasferimento (prevista o effettiva), oltre ad un insieme di caratteristiche specifiche (prezzi, sconti, provvigioni). Questa impostazione astratta dell'oggetto documento, permette di unificare il trattamento di un insieme di entità diverse, quali, ad esempio : 
- * ordini di vendita
- * ordini di acquisto
- * bolle di entrata
- * bolle di uscita
- * previsioni di vendita
- * ordini quadro
- * contratto
+ \* ordini di vendita
+ \* ordini di acquisto
+ \* bolle di entrata
+ \* bolle di uscita
+ \* previsioni di vendita
+ \* ordini quadro
+ \* contratto
 Ciascuna di esse viene individuata dal tipo documento, che permette di differenziare i comportamenti specifici.
 
 ![AAP_VAP_11](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_11.png)
@@ -291,12 +291,12 @@ Quando l'azienda è disposta su più posizioni geografiche i trasferimenti di ma
 # Provvigioni
 Esiste un archivio delle provvigioni che può essere popolato sia in automatico, estraendo i dati dalle fatture di vendita, che manualmente per l'immissione di provvigioni manuali (premi, anticipi, ecc...). La liquidazione delle provvigioni agli agenti può essere gestita con differenti periodicità (annuale, mensile, trimestrale) ed effettuata sull'importo fatturato, sull'importo incassato oppure sull'importo saldato della fattura (queste informazioni vengono automaticamente ricavate dalla contabilità). Tutte le liquidazioni effettuate vengono storicizzate, permettendone una consultazione in qualsiasi momento. Viene inoltre calcolato il piano dei contributi dell'agente (ritenute d'acconto, Enasarco, ISC, e FIRR), con la stampa della fattura proforma, e la creazione opzionale di un documento di ciclo esterno sul quale verrà eseguito il controllo all'arrivo della fattura dell'agente. Apposite stampe riepilogano la situazione contributiva del singolo agente e dell'azienda.
 Esistono apposite funzioni di contabilizzazione che premettono di attribuire i costi, nonché i contributi in funzione del loro periodo di competenza (e non in funzione della registrazione della fattura agente) : 
- * Contabilizzazione Provvigioni, suddivisa fra : 
- ** Costo (contabilizza i costi provvigioni in funzione della loro competenza)
- ** Liquidato (contabilizza le fatture da ricevere per le provvigioni liquidate in un periodo)
- * Contabilizzazione Contributi, suddivisa fra : 
- ** Enasarco
- ** FIRR
+ \* Contabilizzazione Provvigioni, suddivisa fra : 
+ \*\* Costo (contabilizza i costi provvigioni in funzione della loro competenza)
+ \*\* Liquidato (contabilizza le fatture da ricevere per le provvigioni liquidate in un periodo)
+ \* Contabilizzazione Contributi, suddivisa fra : 
+ \*\* Enasarco
+ \*\* FIRR
 
 Al momento della contabilizzazione della fattura agente i contributi Enasarco / FIRR vengono trattati in modo separato.
 
@@ -313,18 +313,18 @@ Gli impegni materiali costituiscono l'insieme degli articoli, con le relative qu
 
 # Conto lavoro e materiale di terzi e presso terzi
 In Sme.UP non esiste un modulo specifico per il conto lavorazione, ma esso viene ottenuto combinando funzioni già presenti nel sistema. Il conto lavoro attivo (realizzazione del prodotto in azienda con materiale di terzi) si ottiene attravesro una riga di ordine cliente a cui si collegano gli impegni materiali. Al ricevimento dei componenti si caricano in un'area specifica per ente. All'atto della spedizione del prodotto si chiudono gli impegni materiali, scaricando i componenti da quell'area. Il conto lavoro passivo (realizzazione presso terzi con materiale fornito dall'azienda), si divide in due tipologie.
-* si ha il conto lavoro pieno quando il terzista esegue un livello completo di distinta :  si ottiene una riga di conto lavoro collegando ad una riga di acquisti gli impegni materiali. Questa riga può convivere, all'interno dello stesso ordine, con righe di puro acquisto. La spedizione dei componenti trasferisce i materiali dall'area interna a quella esterna (per terzista). Al ricevimento del finito, si scaricano i componenti da quest'area;
- * si ha invece il conto lavoro di fase quando il terzista esegue una o più fasi del ciclo di produzione. In questo caso la riga di conto lavoro è collegata ad un ordine di produzione origine. Il ricevimento dell'assieme può eseguire automaticamente anche una dichiarazione di attività su quest'ordine.
+\* si ha il conto lavoro pieno quando il terzista esegue un livello completo di distinta :  si ottiene una riga di conto lavoro collegando ad una riga di acquisti gli impegni materiali. Questa riga può convivere, all'interno dello stesso ordine, con righe di puro acquisto. La spedizione dei componenti trasferisce i materiali dall'area interna a quella esterna (per terzista). Al ricevimento del finito, si scaricano i componenti da quest'area;
+ \* si ha invece il conto lavoro di fase quando il terzista esegue una o più fasi del ciclo di produzione. In questo caso la riga di conto lavoro è collegata ad un ordine di produzione origine. Il ricevimento dell'assieme può eseguire automaticamente anche una dichiarazione di attività su quest'ordine.
 
 La gestione di materiale di terzi in azienda e di materiale dell'azienda presso terzi, si configura definendo aree opportune (rispettivamente interne ed esterne, e di proprietà aziendale e di terzi), per le varie suddivisioni (conto deposito, visione, prestito d'uso, ecc.) ed inserendo, di volta in volta documenti di trasferimento da un'area all'altra.
 
 # Giacenze
 Una caratteristica di Sme.UP è di non avere un ambiente logistico separato dal magazzino gestionale, ma di permettere di spingersi fino al massimo dettaglio desiderato, direttamente all'interno del magazzino gestionale, che in tal modo risulta essere l'unica informazione di giacenza a cui tutto il sistema accede. Ciò è stato realizzato con una composizione parametrica dell'oggetto intestatario della giacenza, che, oltre a contenere il plant, l'articolo e l'area, può avere fino ad un massimo di quattro altri codici che lo caratterizzano.
 In tal modo i seguenti dettagli di giacenza sono compresi in questa struttura : 
- * Articolo/Ubicazione /Lotto (per gestire al massimo livello di dettaglio le aree interne)
- * Articolo/Configurazione (se la configurazione differenzia i codici)
- * Articolo/Commessa
- * Articolo/Fonitore o Cliente (per trattare le quantità in conto lavoro, deposito, visione,...) e, naturalmente, qualsiasi altra combinazione di questi oggetti.
+ \* Articolo/Ubicazione /Lotto (per gestire al massimo livello di dettaglio le aree interne)
+ \* Articolo/Configurazione (se la configurazione differenzia i codici)
+ \* Articolo/Commessa
+ \* Articolo/Fonitore o Cliente (per trattare le quantità in conto lavoro, deposito, visione,...) e, naturalmente, qualsiasi altra combinazione di questi oggetti.
 
 È inoltre possibile aggiungere, per individuare la giacenza, il codice del contenitore, che costituisce una chiave univoca di accesso. In tal modo, se ad esempio si ha la giacenza per articolo/ubicazione, specificando il contenitore, si conosce che cosa contiene (l'articolo), quanto contiene (la giacenza) e dove è situato (l'ubicazione).
 
@@ -339,14 +339,14 @@ La movimentazione può essere eseguita facendo riferimento ad unità fisiche (co
 
 # Tracciabilità lotti
 All'atto del ricevimento di un articolo d'acquisto (o di conto lavorazione) o al versamento dell'ordine di produzione, è possibile registrare un nuovo lotto. Oltre a scopi di controllo qualità, può risultare utile come base per analisi di tracciabilità. I prelievi di produzione dovranno essere intestati al lotto utilizzato :  in tal modo, tramite i movimenti di magazzino, si formeranno dei legami in base ai quali sarà possibile rispondere alle domande : 
- * quali lotti di un componente d'acquisto sono entrati in un lotto di prodotto finito?
- * un lotto di acquisto in quali lotti di assiemi superiori (a tutti i livelli) è entrato?
+ \* quali lotti di un componente d'acquisto sono entrati in un lotto di prodotto finito?
+ \* un lotto di acquisto in quali lotti di assiemi superiori (a tutti i livelli) è entrato?
 Va tenuto presente che per realizzare la tracciabilità completa è necessario, per i codici dei quali si intende percorrere la tracciabilità, dichiarare sempre il lotto, in modo da non interrompere la catena di informazioni.
 
 # Inventari
 Per lo svolgimento di questa attività, si deve innanzitutto inserire il codice inventario, nel quale si definiscono le informazioni necessarie alla procedura di conta :  le modalità di estrazione (dalla giacenza attuale, ad una data impostata, con una exit utente), il tipo costo per le valorizzazioni, le modalità di applicazione degli scostamenti. Ogni funzione richiede il codice dell'inventario :  in tal modo è possibile tener traccia degli inventari completati. Sono previste due modalità di registrazione dell'inventario : 
- * su lista di conta. La giacenza contata viene registrata direttamente sull'inventario estratto.
- * su cartellini distribuiti agli utenti. Si produce un archivio di cartellini, eventualmente raggruppati in lotti di conta. Essi vengono stampati, compilati, raccolti ed inseriti nel sistema con i dati identificativi (articolo, lotto, area, tipo giacenza, ubicazione, ecc.) e la quantità trovata. Con un passo successivo da essi si aggiorna l'inventario.
+ \* su lista di conta. La giacenza contata viene registrata direttamente sull'inventario estratto.
+ \* su cartellini distribuiti agli utenti. Si produce un archivio di cartellini, eventualmente raggruppati in lotti di conta. Essi vengono stampati, compilati, raccolti ed inseriti nel sistema con i dati identificativi (articolo, lotto, area, tipo giacenza, ubicazione, ecc.) e la quantità trovata. Con un passo successivo da essi si aggiorna l'inventario.
 L'inventario, dopo essere stato compilato, può essere stampato o visualizzato, in varie modalità e sintesi, eventualmente valorizzando gli scostamenti, ed infine concluso con l'esecuzione automatica delle rettifiche inventariali.
 
 # Fotografia di magazzino
@@ -363,9 +363,9 @@ La consuntivazione delle attività si basa sulla rilevazione delle attività svo
 L'analisi disponibilità (proiezione nel tempo della giacenza prevista di un articolo) è lo strumento su cui si fonda la pianificazione materiali, e tutti gli strumenti di analisi fattibilità e copertura. L'elemento di base è la fonte, che costituisce il canale di comunicazione da parte del sistema gestionale. Si impostano fonti presenti (giacenze e scorte) e future (ordini di acquisto, vendita, produzione, impegni, ecc.), con varie possibilità di parametrizzazioni :  ad esempio, si selezionano le giacenze di un'area specifica, gli ordini di vendita solo in uno stato di confermati, ecc..
 Si raccolgono quindi le fonti desiderate, in un gruppo fonti, che costituisce, insieme all'articolo, l'input per la disponibilità. Diversi gruppi fonti permettono di ottenere diversi profili di disponibilità, che rispondono a diverse esigenze.
 Ad esempio, si può valutare l'effetto dell'inclusione della scorta minima, oppure di un budget che si aggiunge al portafoglio vendite. È inoltre possibile filtrare la disponibilità con una serie di oggetti. Ad esempio, si può fissare : 
- * la commessa, (qualora si abbiano giacenze separate per commessa)
- * la configurazione (se è un elemento che diversifica l'articolo)
- * il fornitore (per decidere i rifornimenti ad un terzista)
+ \* la commessa, (qualora si abbiano giacenze separate per commessa)
+ \* la configurazione (se è un elemento che diversifica l'articolo)
+ \* il fornitore (per decidere i rifornimenti ad un terzista)
 
 # Budget (MPS)
 L'MPS (Master Production Schedule) è lo strumento con cui vengono rappresentati, in Sme.UP, gli sviluppi temporali di una quantità legata ad una coppia di oggetti. L'astrazione di questo modello ne permette un utilizzo non limitato al budget, o all'MPS in senso stretto, ma esteso ad ogni grandezza, sia preventiva sia consuntiva, di cui interessa seguire l'andamento nel tempo. La periodicità è variabile :  si può diversificare per grandezze diverse e, per la stessa grandezza può assumere valori diversi per ogni periodo (ad esempio all'inizio in giorni, poi in settimane ed infine in mesi). Si definisce vista lo sviluppo temporale di una grandezza (legata ad una coppia di oggetti di tipo qualsiasi). È stata realizzata una serie di funzioni, sia di natura generale (operazioni aritmetiche, confronti tra due viste, suddivisione di una vista in altre in base ad una tabella di pesi, ecc.), sia di natura applicativa (partendo da una vista ottenere le viste dei suoi componenti di distinta base, delle risorse del ciclo di produzione, partendo da un articolo ottenere l'andamento della disponibilità futura, valorizzare una vista in base ad un costo prefissato, sintetizzare in una vista i movimenti di magazzino eseguiti in un periodo, oppure le righe di ciclo esterno, passate o future). Queste funzioni possono essere composte liberamente in un flusso sequenziale di azioni, eventualmente arricchite da funzioni specifiche, in modo da realizzare un processo articolato, sia di preventivazione, sia di consuntivazione :  come la definizione di un budget a partire da dati storici, ed il suo sviluppo in consumi materiali e risorse, sia in termini di quantità sia di valore; oppure la definizione del piano principale di produzione, in base al portafoglio ordini e alle previsioni di vendita, eventualmente combinati con regole specifiche; oppure ancora l'analisi dell'impatto sulle risorse dei risultati della pianificazione materiali, realizzando uno strumento di CRP.
@@ -373,23 +373,23 @@ L'MPS (Master Production Schedule) è lo strumento con cui vengono rappresentati
 # Pianificazione materiali
 La pianificazione materiali (MRP) si caratterizza per la scelta di una ricca parametrizzazione, che consente di affrontare situazioni complesse, avendo cura di non appesantire l'impostazione nei casi più semplici. È stato quindi fatto un uso esteso dell'ereditarietà (tempi di approvvigionamento, lotti di produzione, politiche di pianificazione definiti, singolarmente, al livello più alto possibile). È stato realizzato un strumento di simulazione, che può partire dai dati del sistema oppure immessi manualmente dall'utente, che ha lo scopo di fornire una conoscenza diretta delle tecniche MRP (si imposta l'input e si vede immediatamente il risultato della pianificazione), e di permettere una regolazione del funzionamento della pianificazione (si varia un parametro e, senza modificare l'input, si vede come varia l'output, se quindi la nuova impostazione ha raggiunto gli scopi prefissati).
 Tra le caratteristiche più rilevanti della pianificazione materiali, segnaliamo : 
- * la possibilità di definire, per ogni articolo, o classe, l'insieme dei fabbisogni e delle coperture (ad esempio la giacenza in un'area di controllo qualità è considerata solo per alcuni articoli)
- * la possibilità che l'oggetto della pianificazione non sia solo l'articolo, ma l'articolo abbinato alla commessa, o alla configurazione, o all'ente (in modo da realizzare una catena logistica di fornitura)
- * la segnalazione delle eccedenze (quantità superflue non eliminabili, perché giacenti o per effetto della lottizzazione)
- * la possibilità di definire orizzonti variabili per il raggruppamento dei fabbisogni
- * la pianificazione interattiva di un singolo codice (e di tutti i suoi componenti che subiscono variazioni, fino all'ultimo livello di distinta base)
- * la presenza contemporanea di più ambienti di pianificazione, che consentono simulazioni di vario tipo (ad esempio senza considerare la lottizzazione)
- * la realizzazione di un algoritmo che ottimizza l'emissione di nuovi ordini in luogo di un eccessivo anticipo
- * la possibilità di trascurare automaticamente piccoli fabbisogni, la cui copertura, per effetto del lotto minimo, gonfierebbe in modo perverso i fabbisogni del livello e dei livelli inferiori.
- * la possibilità, in modo analogo, di non emettere ordini pianificati che coprono unicamente una frazione (sotto una soglia prefissata) della scorta minima, in modo da evitare effetti perversi simili a quelli descritti nel punto precedente.
- * la possibilità di schedulare a capacità infinita (sia al più presto sia al più tardi, sia entrambe) gli ordini di produzione pianificati, per ottenere una stima del carico a medio/lungo termine.
- * la pianificazione integrata multiplant, in cui, per ogni articolo, si esegue una pianificazione separata di ogni plant utilizzatore con emissione di ordini pianificati di trasferimento dal plant di produzione, e successivamente si pianifica quest'ultimo plant con i fabbisogni propri e quelli provenienti dagli altri plant, con la possibilità di tener conto dei tempi di trasferimento e della merce in transito.
+ \* la possibilità di definire, per ogni articolo, o classe, l'insieme dei fabbisogni e delle coperture (ad esempio la giacenza in un'area di controllo qualità è considerata solo per alcuni articoli)
+ \* la possibilità che l'oggetto della pianificazione non sia solo l'articolo, ma l'articolo abbinato alla commessa, o alla configurazione, o all'ente (in modo da realizzare una catena logistica di fornitura)
+ \* la segnalazione delle eccedenze (quantità superflue non eliminabili, perché giacenti o per effetto della lottizzazione)
+ \* la possibilità di definire orizzonti variabili per il raggruppamento dei fabbisogni
+ \* la pianificazione interattiva di un singolo codice (e di tutti i suoi componenti che subiscono variazioni, fino all'ultimo livello di distinta base)
+ \* la presenza contemporanea di più ambienti di pianificazione, che consentono simulazioni di vario tipo (ad esempio senza considerare la lottizzazione)
+ \* la realizzazione di un algoritmo che ottimizza l'emissione di nuovi ordini in luogo di un eccessivo anticipo
+ \* la possibilità di trascurare automaticamente piccoli fabbisogni, la cui copertura, per effetto del lotto minimo, gonfierebbe in modo perverso i fabbisogni del livello e dei livelli inferiori.
+ \* la possibilità, in modo analogo, di non emettere ordini pianificati che coprono unicamente una frazione (sotto una soglia prefissata) della scorta minima, in modo da evitare effetti perversi simili a quelli descritti nel punto precedente.
+ \* la possibilità di schedulare a capacità infinita (sia al più presto sia al più tardi, sia entrambe) gli ordini di produzione pianificati, per ottenere una stima del carico a medio/lungo termine.
+ \* la pianificazione integrata multiplant, in cui, per ogni articolo, si esegue una pianificazione separata di ogni plant utilizzatore con emissione di ordini pianificati di trasferimento dal plant di produzione, e successivamente si pianifica quest'ultimo plant con i fabbisogni propri e quelli provenienti dagli altri plant, con la possibilità di tener conto dei tempi di trasferimento e della merce in transito.
 I risultati della pianificazione sono consultabili con una potente funzione di presentazione con navigazione, che, a partire da una forma per articolo, o per ente, o per tipo di suggerimento, permette di : 
- * passare ad ogni altra forma
- * risalire agli assiemi e di scendere ai componenti, a qualsiasi livello, realizzando l'equivalente di un'esplosione e implosione di distinta base
- * passare ad una rappresentazione sintetica periodicizzata
- * esporre il suggerimento in modo colloquiale
- * simulare l'impatto della variazione di una copertura (riduzione della quantità e posticipo della data) sui fabbisogni fino al livello dell'assieme.
+ \* passare ad ogni altra forma
+ \* risalire agli assiemi e di scendere ai componenti, a qualsiasi livello, realizzando l'equivalente di un'esplosione e implosione di distinta base
+ \* passare ad una rappresentazione sintetica periodicizzata
+ \* esporre il suggerimento in modo colloquiale
+ \* simulare l'impatto della variazione di una copertura (riduzione della quantità e posticipo della data) sui fabbisogni fino al livello dell'assieme.
 I suggerimenti (sia di nuovi ordini sia di azione sull'esistente) sono applicabili, per chi ne ha l'autorizzazione, direttamente da questa funzione. Data la completa modularità del disegno, la pianificazione materiali può essere inserita, senza alcuna duplicazione di dati, in qualsiasi sistema gestionale :  i dati dell'ambiente (articoli, fabbisogni, coperture) vengono integrati dai dati di pianificazione (inseriti in Sme.UP). L'applicazione dei suggerimenti è realizzata in modo che la scrittura dei dati sull'ambiente (ordini di produzione e d'acquisto), venga realizzata con una interfaccia specifica.
 
 ![M5CMRP_022](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/M5CMRP_022.png)
@@ -404,34 +404,34 @@ L'ATP è uno strumento che permette di datare al più presto una quantità richi
 La schedulazione Fine.UP costituisce uno strumento interattivo e grafico, che fa parte nativamente del sistema gestionale, atto a risolvere i problemi di allocazione delle risorse e di sequenziazione delle attività, che si presentano quotidianamente nelle aziende produttive e di servizi.
 
 Le principali caratteristiche dell'applicazione sono : 
- * schedulazione di impegni risorse di vari tipi
- ** ordini di produzione in corso
- ** ordini pianificati
- ** righe di ciclo esterno
- ** contenitori, in presenza di produzione snella;
- * definizione di più scenari di schedulazione, per eseguire simulazioni, e scegliere di rendere definitivo il più efficace;
- * suddivisione in ambiti di competenza schedulabili separatamente;
- * ampia scelta di dispatching rules (oltre a quelle implementate, possibilità di definirne di specifiche, anche come combinazione di quelle esistenti);
- * modellazione della strategia (rispetto della consegna, saturazione delle risorse, comunanze tecnologiche o di attrezzaggio, eventualmente combinate e messe in competizione tra di loro);
- * rappresentazione estesa del processo
- ** sovrapposizione tra fasi successive dello stesso ordine
- ** accostamenti sulla stessa risorsa di fasi successive dello stesso ordine
- ** tempi d attrezzaggio parametrici (dipendenti dalla situazione esistente e da quella futura)
- ** appuntamenti statici tra ordini (rispetto di vincoli di priorità definiti esternamente) e vincoli esterni fissi (date al più presto)
- ** calendari ed efficienza definibili al massimo dettaglio
- ** definizione di risorse a capacità infinita trattate con tempo di attraversamento;
- * integrazione completa con il sistema gestionale :  non solo assenza di duplicazione di dati e loro trasferimento, ma anche possibilità, dall'interno della schedulazione, di navigare verso tutti i dati e, avendone l'autorizzazione, di operare modifiche, immediatamente recepite alla successiva rischedulazione, eseguita dall' interno di questa applicazione;
- * calcolo dei principali indici di prestazioni (saturazione, earliness, tardiness, ecc,,) e loro storicizzazione;
- * possibilità di modificare i risultati con azioni manuali
- ** di ordinamento della sequenza di schedulazione
- ** di forzatura delle risorse selezionate
- ** di congelamento della situazione
- * analisi dei materiali critici;
- * possibilità di realizzazione di exit utente che permettono
- ** di modificare i dati di input e dei risultati
- ** di specializzare la strategia in 'spinta' (decidere dove eseguire la fase selezionata) e in 'tiro' (decidere quale fase eseguire subito dopo quella appena schedulata)
- ** di estendere le informazioni riportate nella presentazione dei risultati
- ** di realizzare forme di presentazioni 'ad hoc', integrate nella navigazione della presentazione dei risultati.
+ \* schedulazione di impegni risorse di vari tipi
+ \*\* ordini di produzione in corso
+ \*\* ordini pianificati
+ \*\* righe di ciclo esterno
+ \*\* contenitori, in presenza di produzione snella;
+ \* definizione di più scenari di schedulazione, per eseguire simulazioni, e scegliere di rendere definitivo il più efficace;
+ \* suddivisione in ambiti di competenza schedulabili separatamente;
+ \* ampia scelta di dispatching rules (oltre a quelle implementate, possibilità di definirne di specifiche, anche come combinazione di quelle esistenti);
+ \* modellazione della strategia (rispetto della consegna, saturazione delle risorse, comunanze tecnologiche o di attrezzaggio, eventualmente combinate e messe in competizione tra di loro);
+ \* rappresentazione estesa del processo
+ \*\* sovrapposizione tra fasi successive dello stesso ordine
+ \*\* accostamenti sulla stessa risorsa di fasi successive dello stesso ordine
+ \*\* tempi d attrezzaggio parametrici (dipendenti dalla situazione esistente e da quella futura)
+ \*\* appuntamenti statici tra ordini (rispetto di vincoli di priorità definiti esternamente) e vincoli esterni fissi (date al più presto)
+ \*\* calendari ed efficienza definibili al massimo dettaglio
+ \*\* definizione di risorse a capacità infinita trattate con tempo di attraversamento;
+ \* integrazione completa con il sistema gestionale :  non solo assenza di duplicazione di dati e loro trasferimento, ma anche possibilità, dall'interno della schedulazione, di navigare verso tutti i dati e, avendone l'autorizzazione, di operare modifiche, immediatamente recepite alla successiva rischedulazione, eseguita dall' interno di questa applicazione;
+ \* calcolo dei principali indici di prestazioni (saturazione, earliness, tardiness, ecc,,) e loro storicizzazione;
+ \* possibilità di modificare i risultati con azioni manuali
+ \*\* di ordinamento della sequenza di schedulazione
+ \*\* di forzatura delle risorse selezionate
+ \*\* di congelamento della situazione
+ \* analisi dei materiali critici;
+ \* possibilità di realizzazione di exit utente che permettono
+ \*\* di modificare i dati di input e dei risultati
+ \*\* di specializzare la strategia in 'spinta' (decidere dove eseguire la fase selezionata) e in 'tiro' (decidere quale fase eseguire subito dopo quella appena schedulata)
+ \*\* di estendere le informazioni riportate nella presentazione dei risultati
+ \*\* di realizzare forme di presentazioni 'ad hoc', integrate nella navigazione della presentazione dei risultati.
 
 ![S5_001B](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/S5_001B.png)
 # Produzione a disponibilità chiamata
@@ -440,9 +440,9 @@ La produzione a disponibilità chiamata (PDC) è una particolare modalità di ge
 # Sistema Qualità ISO 9000
 È un insieme di moduli atto a supportare l'azienda nella gestione di tutti gli aspetti connessi all'introduzione e al mantenimento di un Sistema Qualità in linea con le Norme ISO 9000 nella più recente versione nota come "Vision 2000".
 È suddiviso nelle seguenti aree : 
- * __sistema di controllo__ :  comprende i moduli che, richiamati dalla gestione aziendale quotidiana, alimentano il sistema di qualità :  la gestione degli strumenti di misura, dei piani di campionamento, dei cicli di collaudo, dei lotti, delle dichiarazioni di collaudo con i rilievi associati, delle non conformità, il collegamento a sistemi SPC;
- * __sistema di supporto__ :  in essa si inseriscono informazioni che sono pretese dalle normative ma che risultano estremamente produttive per la gestione aziendale nel suo complesso :  la formazione del personale, la matrice delle responsabilità, la gestione e il controllo della documentazione, la FMEA, la gestione degli Audit e delle richieste di intervento;
- * __sistema di analisi e supervisione__ :  offre una serie di strumenti di sintesi delle situazioni rilevate e numerose statistiche, tra cui la definizione di indici (realizzati in modo parametrico), con cui ottenere una misura oggettiva dell'andamento del livello qualitativo aziendale; comprende l'analisi dei lotti, delle non conformità, degli indici di qualità, la valutazione dei fornitori.
+ \* __sistema di controllo__ :  comprende i moduli che, richiamati dalla gestione aziendale quotidiana, alimentano il sistema di qualità :  la gestione degli strumenti di misura, dei piani di campionamento, dei cicli di collaudo, dei lotti, delle dichiarazioni di collaudo con i rilievi associati, delle non conformità, il collegamento a sistemi SPC;
+ \* __sistema di supporto__ :  in essa si inseriscono informazioni che sono pretese dalle normative ma che risultano estremamente produttive per la gestione aziendale nel suo complesso :  la formazione del personale, la matrice delle responsabilità, la gestione e il controllo della documentazione, la FMEA, la gestione degli Audit e delle richieste di intervento;
+ \* __sistema di analisi e supervisione__ :  offre una serie di strumenti di sintesi delle situazioni rilevate e numerose statistiche, tra cui la definizione di indici (realizzati in modo parametrico), con cui ottenere una misura oggettiva dell'andamento del livello qualitativo aziendale; comprende l'analisi dei lotti, delle non conformità, degli indici di qualità, la valutazione dei fornitori.
 
 # Manutenzione Impianti
 Permette di definire gli impianti con i loro componenti, e di schedulare gli interventi programmati, con varie politiche (ad esempio ogni 'n' giorni, ogni 'n' pezzi lavorati), associandoli ai materiali necessari. Consente di dichiarare l'effettuazione sia degli interventi programmati (che vengono chiusi e riprogrammati nel futuro), sia di quelli straordinari, registrando tempi, materiali, costi aggiuntivi, ed eventuali documenti associati. Queste registrazioni costituiscono la base per poter effettuare analisi statistiche e ricavare indici di prestazioni.
@@ -454,16 +454,16 @@ L'introduzione delle modifiche del prodotto o del processo, è seguita in tutte 
 # Contabilità
 Questa applicazione offre una copertura completa per quanto riguarda gli obblighi fiscali vigenti, permette inoltre la gestione dei crediti e dei debiti, dei rapporti con gli istituti di credito e i percipienti, e offre gli strumenti di base per il controllo di gestione.
 Caratteristiche principali : 
- * Perfetta integrazione con tutto il gestionale (Documenti, Cespiti, Provvigioni, Anagrafiche Enti, Controllo gestione, Qualità, EDI);
- * Multiazienda (archivi unici, interrogazioni aggregate);
- * Gestione dati di impostazione a livello di gruppo e a livello di azienda;
- * Set'n play di impostazione (Periodi e Date, Piano dei Conti, Analitica ecc.);
- * Multidata (registrazione, competenza, date bancarie);
- * Multivaluta;
- * Multipertinenza (fiscale/gestionali) e multicondizione (attive/simulate);
- * Righe e registrazioni automatiche;
- * Elaborazioni in modalità provvisoria/definitiva/ristampa annullamento (es. giornale, registri iva, generazione reg. apertura/chiusura ecc.);
- * Gestione lettere.
+ \* Perfetta integrazione con tutto il gestionale (Documenti, Cespiti, Provvigioni, Anagrafiche Enti, Controllo gestione, Qualità, EDI);
+ \* Multiazienda (archivi unici, interrogazioni aggregate);
+ \* Gestione dati di impostazione a livello di gruppo e a livello di azienda;
+ \* Set'n play di impostazione (Periodi e Date, Piano dei Conti, Analitica ecc.);
+ \* Multidata (registrazione, competenza, date bancarie);
+ \* Multivaluta;
+ \* Multipertinenza (fiscale/gestionali) e multicondizione (attive/simulate);
+ \* Righe e registrazioni automatiche;
+ \* Elaborazioni in modalità provvisoria/definitiva/ristampa annullamento (es. giornale, registri iva, generazione reg. apertura/chiusura ecc.);
+ \* Gestione lettere.
 
 ![AAP_VAP_12](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_12.png)
 # Piano dei conti / Riclassifiche
@@ -493,10 +493,10 @@ Questa funzione si basa sull'accoppiamento tra le rate di dovuto e di pagato :  
 
 # Controllo DDT / Fatture
 È presente uno strumento di registrazione contabile delle fatture con controllo dei documenti di trasporto che le originano. Tale controllo può essere attivato oltre che per il ciclo passivo (come di consueto ) anche per il ciclo attivo, in modo da ottenere anche in questo caso una migliore integrazione fra documenti e registrazioni. È possibile scegliere le anomalie da rilevare (differenza prezzo, quantità, pagamento, .ecc.) e le azioni da intraprendere al loro verificarsi :  apertura di non conformità, invio di e-mail, blocco dei pagamenti, ecc. Sono presenti, nel ciclo passivo, varie modalità operative : 
- * viene eseguito il controllo. In un secondo tempo viene eseguita la registrazione contabile per le sole fatture corrette;
- * il controllo e la registrazione contabile vengono eseguiti contemporaneamente, con sole segnalazioni non bloccanti;
- * viene eseguita la registrazione contabile sia per un singolo documento, sia di massa, (anche partendo dalle fatture ricevute via EDI), mentre il controllo viene eseguito in un secondo tempo;
- * è inoltre possibile eseguire in modo automatico la registrazione delle fatture da ricevere e da emettere, che verranno in seguito stornate (dalla registrazione della fattura se di un esercizio successivo, manualmente se nello stesso esercizio). In tal modo si tiene conto del valore in attesa fattura, sia nel ciclo attivo sia in quello passivo.
+ \* viene eseguito il controllo. In un secondo tempo viene eseguita la registrazione contabile per le sole fatture corrette;
+ \* il controllo e la registrazione contabile vengono eseguiti contemporaneamente, con sole segnalazioni non bloccanti;
+ \* viene eseguita la registrazione contabile sia per un singolo documento, sia di massa, (anche partendo dalle fatture ricevute via EDI), mentre il controllo viene eseguito in un secondo tempo;
+ \* è inoltre possibile eseguire in modo automatico la registrazione delle fatture da ricevere e da emettere, che verranno in seguito stornate (dalla registrazione della fattura se di un esercizio successivo, manualmente se nello stesso esercizio). In tal modo si tiene conto del valore in attesa fattura, sia nel ciclo attivo sia in quello passivo.
 
 ![C5C040_005](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/C5C040_005.png)
 # Ritenute d'Acconto
@@ -511,9 +511,9 @@ Allo scopo di fornire un maggior livello di dettaglio alle righe di registrazion
 ![AAP_VAP_13](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_13.png)
 # Contabilità gestionale
 Pertinenza/Condizione a vari livelli Date competenza : 
- * Registrazione Ratei/Risconti
- * Registrazione Fatture da Emettere/Ricevere
- * Registrazione Stanziamenti Registrazioni autostornanti Analisi Registrazione Rettifiche di chiusura periodo
+ \* Registrazione Ratei/Risconti
+ \* Registrazione Fatture da Emettere/Ricevere
+ \* Registrazione Stanziamenti Registrazioni autostornanti Analisi Registrazione Rettifiche di chiusura periodo
 
 # Analisi di bilancio
 È possibile redigere il bilancio oltre che per le classiche riclassifiche del piano dei conti e CEE per qualsiasi altra riclassificazione si voglia utilizzare e secondo criteri fiscali o gestionali, con la possibilità di analizzarne struttura ed indici nonché di confrontare bilanci di periodi diversi e/o di altre aziende del gruppo e di verificarne gli scostamenti.
@@ -539,8 +539,8 @@ Ai fini statistici, per la bilancia dei pagamenti, è obbligo comunicare all'uff
 
 # Intrastat
 Integrazione con registrazione
- * Interattiva
- * Scrittura/Estrazione cieca
+ \* Interattiva
+ \* Scrittura/Estrazione cieca
 Integrazione informazioni documenti
 Estrazione da documenti conto lavoro
 Data entry di gestione e controllo movimenti intrastat
@@ -549,9 +549,9 @@ Controllo e produzione file di trasmissione
 # Cespiti
 L'applicazione Cespiti ha come scopo di risolvere le problematiche connesse alla determinazione degli ammortamenti dei beni di proprietà dell'azienda.
 Le principali caratteristiche applicative sono le seguenti : 
- * è possibile il calcolo dell'ammortamento fiscale, secondo la normativa vigente, di quello civilistico, e di 'n' diversi ammortamenti industriali. Ciò è ottenuto introducendo il concetto di linea di ammortamento (simile allo scenario in pianificazione e schedulazione) che costituisce un ambiente separato in cui vengono impostati i parametri di calcolo e registrati gli ammortamenti risultanti.
- * per ogni linea si può infatti definire un piano di ammortamento esplicito per il singolo cespite, oppure impostare valori (sia importi sia percentuali, per il singolo esercizio o globali), a livello di cespite, di categoria, o generali, con ricerca per risalita, in modo da inserire il dato al suo massimo livello, senza introdurre ridondanze.
- * è inoltre possibile inserire movimenti manuali relativi ad una singola linea, in modo da poter simulare rivalutazioni, svalutazioni, ecc..
+ \* è possibile il calcolo dell'ammortamento fiscale, secondo la normativa vigente, di quello civilistico, e di 'n' diversi ammortamenti industriali. Ciò è ottenuto introducendo il concetto di linea di ammortamento (simile allo scenario in pianificazione e schedulazione) che costituisce un ambiente separato in cui vengono impostati i parametri di calcolo e registrati gli ammortamenti risultanti.
+ \* per ogni linea si può infatti definire un piano di ammortamento esplicito per il singolo cespite, oppure impostare valori (sia importi sia percentuali, per il singolo esercizio o globali), a livello di cespite, di categoria, o generali, con ricerca per risalita, in modo da inserire il dato al suo massimo livello, senza introdurre ridondanze.
+ \* è inoltre possibile inserire movimenti manuali relativi ad una singola linea, in modo da poter simulare rivalutazioni, svalutazioni, ecc..
 Ogni elaborazione di calcolo degli ammortamenti registra tutta la storia futura dei cespiti presenti nel sistema. In tal modo sono facilmente ottenibili, per ogni linea, sia analisi 'verticali' (piano di ammortamento di un singolo cespite), sia 'orizzontali' (valore totale dei cespiti in un qualsiasi esercizio futuro). È inoltre stato predisposto il collegamento dalla contabilità generale, per introdurre nell'applicazione i movimenti di apertura (acquisti), ed il collegamento verso la contabilità generale, per eseguirvi la registrazione degli ammortamenti.
 
 ![A5BASE_003](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/A5BASE_003.png)
@@ -562,18 +562,18 @@ Questa applicazione permette di determinare il costo del prodotto, suddiviso in 
 # Controllo di gestione
 Come per altri moduli, Sme.UP non vuole essere collegato ad una specifica impostazione del controllo di gestione, ma fornire l'insieme di strumenti di base necessari ad una grande gamma di possibili impostazioni. Ciò, come sempre, è ottenuto realizzando strutture di dati "neutre", che contengono, tra le proprie informazioni, il significato degli oggetti e dei valori, oltre agli oggetti e ai valori. In particolare si sfruttano due strutture generali simmetriche che sono state già presentate :  l'MPS e l'archivio di scomposizione del costo. La prima rappresenta, per un gruppo di oggetti, lo sviluppo nel tempo, secondo una periodicità definita, di un singolo valore. La seconda rappresenta, sempre per lo stesso gruppo di oggetti, per un singolo periodo, un insieme di 99 valori a significato variabile. Per entrambe queste strutture sono state realizzate funzioni di ripresa di informazioni dal gestionale e di sintesi, che possono essere composte in un flusso di attività, ed eventualmente integrate con funzioni di ripresa specifiche.
 La struttura dell'MPS, permette di rappresentare lo sviluppo di budget e consuntivi nel tempo, quali, ad esempio : 
- * la quantità prevista per articolo cliente nei prossimi 12 mesi
- * la quantità venduta per articolo cliente negli ultimi 12 mesi
- * l'aumento pianificato per fornitore e classe materiale nei prossimi 5 anni
- * le spese per centro di costo
- * il piano di produzione per articolo nelle prossime 12 settimane
- * il carico dei centri di lavoro per giorno
+ \* la quantità prevista per articolo cliente nei prossimi 12 mesi
+ \* la quantità venduta per articolo cliente negli ultimi 12 mesi
+ \* l'aumento pianificato per fornitore e classe materiale nei prossimi 5 anni
+ \* le spese per centro di costo
+ \* il piano di produzione per articolo nelle prossime 12 settimane
+ \* il carico dei centri di lavoro per giorno
 La struttura dei costi, permette di rappresentare budget e consuntivi analitici, relativi ad un periodo, quali, ad esempio : 
- * scomposizione del costo del lavoro mensile, per dipendente
- * scheda di costo per centro di costo
- * sintesi valori per cliente/articolo :  ordinato, spedito, a quantità e valore
- * indici di servizio per cliente e classe di prodotto
- * scheda dei costi per commessa.
+ \* scomposizione del costo del lavoro mensile, per dipendente
+ \* scheda di costo per centro di costo
+ \* sintesi valori per cliente/articolo :  ordinato, spedito, a quantità e valore
+ \* indici di servizio per cliente e classe di prodotto
+ \* scheda dei costi per commessa.
 
 ![AAP_VAP_14](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_14.png)
 # Sinergie con ambienti e sistemi esterni
@@ -586,17 +586,17 @@ xxIMG P([SME.IMG]\TAB£A\GM\GMAIN\XXXXXXXXXXXXXXXX_01.png) R(70) A(C) C(Scheda X
  :  : REM.END
 
 Web.UP ha le seguenti caratteristiche : 
- * definizione di una serie di strumenti per l'accesso ad informazioni gestionali dall'interno di pagine web; il gestionale di riferimento per il progetto è Sme.UP ma è possibile, tramite l'uso di apposite interfacce, estendere l'accesso a qualsiasi altro gestionale
- * identificazione di una serie di moduli di base a cui possano essere associate delle funzioni dinamiche fondamentali; ad esempio, la lettura di attributi associati ad un oggetto o l'esecuzione di una funzione complessa come la visualizzazione di una distinta o l'inserimento di un nuovo ordine
- * completa indipendenza tra gli oggetti dinamici e la parte statica delle pagine web :  i moduli dinamici sono il più possibile indipendenti dal codice HTMLstatico e il loro utilizzo non richiede competenze superiori a quelle normalmente in possesso ad un progettista di pagine web statiche; non è necessario che le problematiche relative al collegamento con il programma gestionale siano note al progettista Web.UP
- * gli oggetti dinamici sono caratterizzati da forte atomicità ed ogni oggetto può essere identificato in base a tre elementi fondamentali :  le informazioni richieste (input), la funzione svolta (elaborazione) e il tipo di risultato prodotto (output); questi tre elementi sono esaustivi nel definire le proprietà e le metodologie di utilizzo dell'oggetto dinamico; per l'uso corretto di un oggetto dinamico non devono di norma essere conosciute caratteristiche tecniche intrinseche al funzionamento dell'oggetto stesso (secondo il principio dell'incapsulamento).
- * la struttura del progetto consente in ogni momento lo sviluppo di nuovi moduli dinamici o la semplice modifica dei moduli esistenti; i moduli sono il meno possibile correlati tra loro per evitare che modifiche su uno di essi si possano ripercuotere negativamente sugli oggetti eventualmente collegati.
+ \* definizione di una serie di strumenti per l'accesso ad informazioni gestionali dall'interno di pagine web; il gestionale di riferimento per il progetto è Sme.UP ma è possibile, tramite l'uso di apposite interfacce, estendere l'accesso a qualsiasi altro gestionale
+ \* identificazione di una serie di moduli di base a cui possano essere associate delle funzioni dinamiche fondamentali; ad esempio, la lettura di attributi associati ad un oggetto o l'esecuzione di una funzione complessa come la visualizzazione di una distinta o l'inserimento di un nuovo ordine
+ \* completa indipendenza tra gli oggetti dinamici e la parte statica delle pagine web :  i moduli dinamici sono il più possibile indipendenti dal codice HTMLstatico e il loro utilizzo non richiede competenze superiori a quelle normalmente in possesso ad un progettista di pagine web statiche; non è necessario che le problematiche relative al collegamento con il programma gestionale siano note al progettista Web.UP
+ \* gli oggetti dinamici sono caratterizzati da forte atomicità ed ogni oggetto può essere identificato in base a tre elementi fondamentali :  le informazioni richieste (input), la funzione svolta (elaborazione) e il tipo di risultato prodotto (output); questi tre elementi sono esaustivi nel definire le proprietà e le metodologie di utilizzo dell'oggetto dinamico; per l'uso corretto di un oggetto dinamico non devono di norma essere conosciute caratteristiche tecniche intrinseche al funzionamento dell'oggetto stesso (secondo il principio dell'incapsulamento).
+ \* la struttura del progetto consente in ogni momento lo sviluppo di nuovi moduli dinamici o la semplice modifica dei moduli esistenti; i moduli sono il meno possibile correlati tra loro per evitare che modifiche su uno di essi si possano ripercuotere negativamente sugli oggetti eventualmente collegati.
 
 # Dati di campo
 In numerosi settori di attività -ed in particolare nel mondo manifatturiero -un monitoraggio efficiente dei processi pretende informazioni ricevute in tempo reale. Questo può avvenire solo attraverso l'acquisizione diretta dei dati di campo, che vengono messi in relazione con le altre indicazioni e condizioni contenute nell'ERP. Considerando che la soluzione è fortemente condizionata dalla struttura hardware presente in ogni azienda, Sme.UP è predisposto per collegarsi in modo facile con sistemi di campo specifici.
 Sono previsti i seguenti interfacciamenti : 
- * collegamento a terminali in radiofrequenza che diventano a tutti gli effetti, terminali del Sistema (con un video di dimensioni ridotte) per cui possono essere utilizzati per eseguire transazioni elementari o presentare un set ridotto di informazioni; a tal fine abbiamo definito la possibilità di costruire, mediante tabelle, menu per questa categoria di terminali, con i quali normalmente si eseguono azioni elementari su un oggetto (ad esempio :  chiamata dei materiali in un'ubicazione, caricamento di un contenitore su un viaggio)
- * preparazione di una struttura di messaggi per comunicare, nei due sensi, con un sistema esterno che emula un video per ricevere informazioni dal campo (ad esempio, collegareun programma alla lettura di un badge o ad una pesata di bilancia); in modo simmetrico si possono realizzare funzioni (associabili ad oggetti) che hanno il loro effetto in sistemi di campo (ad esempio accendere la lampadina dello scaffale dove si trova un certo articolo).
+ \* collegamento a terminali in radiofrequenza che diventano a tutti gli effetti, terminali del Sistema (con un video di dimensioni ridotte) per cui possono essere utilizzati per eseguire transazioni elementari o presentare un set ridotto di informazioni; a tal fine abbiamo definito la possibilità di costruire, mediante tabelle, menu per questa categoria di terminali, con i quali normalmente si eseguono azioni elementari su un oggetto (ad esempio :  chiamata dei materiali in un'ubicazione, caricamento di un contenitore su un viaggio)
+ \* preparazione di una struttura di messaggi per comunicare, nei due sensi, con un sistema esterno che emula un video per ricevere informazioni dal campo (ad esempio, collegareun programma alla lettura di un badge o ad una pesata di bilancia); in modo simmetrico si possono realizzare funzioni (associabili ad oggetti) che hanno il loro effetto in sistemi di campo (ad esempio accendere la lampadina dello scaffale dove si trova un certo articolo).
 
 # Sinergie con ambienti e sistemi esterni
 Il modello OAV (Oggetti, Attributi e Valori), intesi come informazioni atte ad arricchire il corredo di un oggetto per facilitarne il reperimento, si estende ad oggetti presenti in file system esterni all'AS/400. L'individuazione dell'oggetto esterno può infatti essere eseguita colloquiando con un prodotto di gestione documentale che permette di navigare nel file system, e di integrare gli OAV che caratterizzano l'oggetto (aggiungendone di specifici). Inversamente Sme.UP può fornire i propri OAV alla gestione documentale. Una volta individuato, l'oggetto può essere eseguito,concordemente alla sua natura; visualizzazione di un'immagine o di un filmato, esecuzione di un brano acustico, ecc... Ad esempio, noto un cliente, è possibile individuare le tipologie dei suoi documenti (offerte, contratti, ordini, ecc,,), da ciascuna di esse presentarne l'elenco (eventualmente filtrato con attributi, ad esempio un intervallo di date), ed infine visualizzare il singolo documento.

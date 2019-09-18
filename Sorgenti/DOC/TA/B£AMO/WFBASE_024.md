@@ -19,13 +19,13 @@ Ovviamente variano da processo a processo, eventualmente da impegno a impegno.
 
 È una scheda in cui vengono fornite informazioni tecniche standard relative al workflow in corso.
 Possono essere informazioni relative alla situazione dell'ordine, quali ad esempio : 
- * una worklist di impegni relativi all'ordine.
- * una rappresentazione grafica dello stato attuale dell'ordine.
- * il log delle attività svolte.
+ \* una worklist di impegni relativi all'ordine.
+ \* una rappresentazione grafica dello stato attuale dell'ordine.
+ \* il log delle attività svolte.
 
 Inoltre vengono mostrate informazioni specifiche dell'impegno, ad esempio : 
- * dati relativi all'impegno (stato, data e ora di attivazione).
- * le istruzioni relative al tipo di lavoro da svolgere.
+ \* dati relativi all'impegno (stato, data e ora di attivazione).
+ \* le istruzioni relative al tipo di lavoro da svolgere.
 
 ## Azioni di workflow
 
@@ -36,9 +36,9 @@ Definiamo di seguito le due più importanti azioni eseguibili da un utente su un
 ### Presa in carico
 
 La presa in carico ha una doppia valenza : 
- * da un lato serve ad assegnare a sè stessi l'impegno, se questo è eseguibile da diverse persone :  in questo caso l'utente che prende in carico diventa esecutore dell'impegno e l'impegno sparisce dalle worklist degli altri potenziali esecutori.
- * contemporaneamente segnala l'inizio del lavoro sull'impegno :  in questo modo è più facile per gli altri partecipanti al processo stimare per quando l'impegno sarà completato.
- * infine inibisce l'attivazione di eventuali impegni alternativi.
+ \* da un lato serve ad assegnare a sè stessi l'impegno, se questo è eseguibile da diverse persone :  in questo caso l'utente che prende in carico diventa esecutore dell'impegno e l'impegno sparisce dalle worklist degli altri potenziali esecutori.
+ \* contemporaneamente segnala l'inizio del lavoro sull'impegno :  in questo modo è più facile per gli altri partecipanti al processo stimare per quando l'impegno sarà completato.
+ \* infine inibisce l'attivazione di eventuali impegni alternativi.
 
 ### Avanzamento
 

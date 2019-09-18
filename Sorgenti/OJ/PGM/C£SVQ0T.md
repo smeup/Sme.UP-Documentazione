@@ -7,13 +7,13 @@ Esempio
 OV   ORD001 RIG001  OR   10   12   35
 OV   ORD001 RIG001  SP   4         35
 !                   !    !    !    !
-!                   !    *--------------> Sviluppo quantità
-!                   *--> OR=Ordinato SP=Spedito Ecc.
-*----------------------> OVE=Ordini di vendita ORA=Ord.acquisto
+!                   !    \*--------------> Sviluppo quantità
+!                   \*--> OR=Ordinato SP=Spedito Ecc.
+\*----------------------> OVE=Ordini di vendita ORA=Ord.acquisto
 ## FORMATI VIDEO
 ## FORMATO GUIDA
 Azione
-Il significato delle azioni è prefissato. E' descritto nella tabella *CNSQ solo a scopo di descrizione e documentazione.
+Il significato delle azioni è prefissato. E' descritto nella tabella \*CNSQ solo a scopo di descrizione e documentazione.
 G    =    Gestione della riga
 La gestione potrà essere una immissione, variazione, annullamento. La colonna da modificare è definita dalle azioni di  comportamento descritte in seguito.
 I    =    Interrogazione
@@ -30,7 +30,7 @@ Tipo sviluppo
 Struttura del controllo 1/5
 Tipo
 E' il tipo della riga con significato prefissato dalla applicazione. Codificato a scopo descrittivo nella tabella
-*CNTQ.
+\*CNTQ.
 Avremo ad esempio : 
 OR = Ordinato
 SP = Spedito

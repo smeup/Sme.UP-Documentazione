@@ -2,8 +2,8 @@
 Il programma carica in un file di WORK le righe che andranno a comporre il documento di uscita di C/Lavoro.
 
 Nella tabella di lancio B£JXX è ncessario impostare nel campo "parametri aggiuntivi" : 
- * Tipo riga
- * Ubicazione
+ \* Tipo riga
+ \* Ubicazione
 
 ## Formato video
 ![P5PMFP_51](http://localhost:3000/immagini/MBDOC_OGG-P_V5AT51A/P5PMFP_51.png)Area di giacenza e tipo giacenza sono derivate dalla prima causale di movimentazione di scarico ("-") presente nel tipo riga. La giacenza deve essere univoca e di tipo MFP :  ubicazione / fase / contenitore.

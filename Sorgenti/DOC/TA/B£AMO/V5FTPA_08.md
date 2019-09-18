@@ -8,8 +8,8 @@ A pro del fatto di poter continuare la data di fine mese non si è espressa l'ag
 Qualora ci si voglia attenere strettamente a quanto indicato dall'agenzia sarà possibile attivare tale possibilità tramite il campo "Data ultima bolla" della tabella V50.
 
 In questo caso Smeup opererà nel seguente modo : 
-* Le fatture potranno essere sempre stampate con le modalità usuali, usando come data fattura ancora la data di fine mese.
-* In xml nel campo data, la data fattura, verrà usata solo in assenza di una data bolla. In presenza di una data bolla verrà usata l'unica o l'ultima presente in fattura.
+\* Le fatture potranno essere sempre stampate con le modalità usuali, usando come data fattura ancora la data di fine mese.
+\* In xml nel campo data, la data fattura, verrà usata solo in assenza di una data bolla. In presenza di una data bolla verrà usata l'unica o l'ultima presente in fattura.
 
 NOTA BENE :  è importante notare che in questo modo il cliente non riceverà la nostra data fattura, che verrà ad indicare solo la data di "protocollazione" della fattura.
 Sarà quindi importante notare che nella relazione con il cliente, solo il n° fattura permetterà di identificare in modo certo la fattura, in quanto non si potrà più fare affidamento sulla corrispondenza della data.
@@ -37,12 +37,12 @@ Nel caso si voglia specificare nell'xml il riferimento dell'ordine d'acquisto a 
 In questo modo ad ogni riga della fattura viene associato, anzichè un riferimento ad un ordine di acquisto, il riferimento ad una precisa riga dell'ordine di acquisto.
 Questo consente peraltro anche di avere riferimenti a differenti ordini di acquisto per differenti righe di fattura.
 Valori di T$V50L  : 
- *  ' '  Non considerare rif. riga (risale a T§ORAQ senza considerare R§ORAQ)
- *  '1'  Rif. Riga posizionale (20 caratteri per numero ordine + 10 caratteri per numero riga)
- *  '2'  Rif. Riga sep. ',' (Numero ordine e numero riga separati da ',')
- *  '3'  Rif. Riga sep. ';' (Numero ordine e numero riga separati da ';')
- *  '4'  Rif. Riga sep. '/' (Numero ordine e numero riga separati da '/')
- *  '5'  Rif. Riga sep. '-' (Numero ordine e numero riga separati da '-')
+ \*  ' '  Non considerare rif. riga (risale a T§ORAQ senza considerare R§ORAQ)
+ \*  '1'  Rif. Riga posizionale (20 caratteri per numero ordine + 10 caratteri per numero riga)
+ \*  '2'  Rif. Riga sep. ',' (Numero ordine e numero riga separati da ',')
+ \*  '3'  Rif. Riga sep. ';' (Numero ordine e numero riga separati da ';')
+ \*  '4'  Rif. Riga sep. '/' (Numero ordine e numero riga separati da '/')
+ \*  '5'  Rif. Riga sep. '-' (Numero ordine e numero riga separati da '-')
 Qualora T$V50L sia diverso da '' e non venga trovato nessun riferimento all'ordine di acquisto sulle righe, viene utilizzato riferimento di testata se presente.
 
 **N.B. :  I riferimenti a CIG e CUP rimangono comunque unici a livello di fattura.**
@@ -51,8 +51,8 @@ Qualora T$V50L sia diverso da '' e non venga trovato nessun riferimento all'ordi
 ### Omaggi
 
 All'interno di una fattura è possibile avere due tipologie di omaggi : 
- * Omaggi non imponibili come sconti in merce (ART. 15), campioni gratuiti e promozioni (ART.2)
- * Omaggi imponibili (ART.2)
+ \* Omaggi non imponibili come sconti in merce (ART. 15), campioni gratuiti e promozioni (ART.2)
+ \* Omaggi imponibili (ART.2)
 
 I suggerimenti di Assosoftware per la compilazione dell'XML in questi due casi sono i seguenti : 
 
@@ -60,7 +60,7 @@ __Omaggi non imponibili__
 
 In questo caso il valore del campo _2.2.1.11 <PrezzoTotale>_ è = 0; nel campo _2.2.1.9 <PrezzoUnitario> va indicato il "valore normale"; nel codice IVA va indicato la motivazione dell'omaggio :  fuori campo IVA, articolo di esclusione, ecc.
 In questo caso il valore del codice da utilizzare nella sezione <TipoCessionePrestazione> sarà "AB"
-Poiché vengono valorizzati quantità, prezzo unitario e sconti, ma il campo 2.2.1.11 <PrezzoTotale> è valorizzato = 0; non verrebbe rispettata il controllo 00423 (<PrezzoTotale> = (prezzo - sconti) * qta)
+Poiché vengono valorizzati quantità, prezzo unitario e sconti, ma il campo 2.2.1.11 <PrezzoTotale> è valorizzato = 0; non verrebbe rispettata il controllo 00423 (<PrezzoTotale> = (prezzo - sconti) \* qta)
 Per superare il controllo occorre aggiungere come sconto di riga uno sconto = 100%
 
 __Omaggi imponibili__
@@ -93,8 +93,8 @@ L'oav distribuito a standard restituisce bianco per entrambe le informazioni.
 Per uniformare il reperimento dell'Esigibilità IVA è stato creato un oav J/C03 dell'oggetto DO.
 A partire dalla V3R2 tale oav richiama la £C60 che restituisce se al cliente è applicata l'iva per cassa. Nelle release precedenti l'oav dovrà essere personalizzato presso il cliente creando un apposito programma di calcolo dell'oav, indicandolo nel B£SLOT e impostando il flag di conservazione in costruzione.
 I valori che devono essere restituiti sono quelli dell'oggetto V4 ED.£FPAEI  : 
- * I         Immediata
- * D         Differita
+ \* I         Immediata
+ \* D         Differita
 L'oav distribuito a standard per release precedenti la V3R2 restituisce bianco.
 
 **N.B. L'esigibilità IVA è una informazione obbligatoria nel formato fatturaPA.**

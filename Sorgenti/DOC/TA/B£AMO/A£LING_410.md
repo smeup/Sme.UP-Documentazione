@@ -11,7 +11,7 @@ Tramite le apposite voci di menù del modulo è possibile completare le traduzio
 # Nota
 Non si dovrebbe MAI inserire a mano traduzioni (es. SQL, upddta...)
 Gli unici programmi abilitati al completamento di traduzioni sono : 
- * A£UTX05 - passaggio da pre-V4R1. Scrive traduzioni con S2STDE='05' e S2FTTR='3'
- * A£TR12A, A£TR13B - ripresa traduzioni da altri record (altre lingue o altri contesti). Scrivono traduzioni con S2STDE='05' e S2FTTR='4'
- * A£SUP_01 - compilazione manuale traduzioni da schede del modulo A£LING. Scrive traduzioni con S2STDE controllato dall'utente (tipicamente 10/20) e S2FTTR='2'.
+ \* A£UTX05 - passaggio da pre-V4R1. Scrive traduzioni con S2STDE='05' e S2FTTR='3'
+ \* A£TR12A, A£TR13B - ripresa traduzioni da altri record (altre lingue o altri contesti). Scrivono traduzioni con S2STDE='05' e S2FTTR='4'
+ \* A£SUP_01 - compilazione manuale traduzioni da schede del modulo A£LING. Scrive traduzioni con S2STDE controllato dall'utente (tipicamente 10/20) e S2FTTR='2'.
 

@@ -6,7 +6,7 @@ Per convenzione questa fonte è stata classificata come futura, ma verranno rito
 Inoltre, è ininfluente quale valore si imposti sull'azione fonte (che è un campo obbligatorio) :  verrà ritornato il valore effettivamente presente sul record dei consigli, relativo alla fonte originaria.
 >Parametro 1 : 
 -    Pos.1/10  Scenario dei consigli (opzionale) :  se non impostato viene assunto lo
-.              scenario ricevuto. Se anch'esso è bianco viene assunto '**'.
+.              scenario ricevuto. Se anch'esso è bianco viene assunto '\*\*'.
 Parametro 2 : 
 -    Pos.1/1   Tipo fonte (E/F) :  se impostato si tratteranno solo le fonti
 .              esistenti o future

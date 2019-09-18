@@ -3,16 +3,16 @@ Gestisce e recupera le informazioni gestionali della coppia Magazzino articolo.
 Le informazioni vengono recuperate in base al valore del driver magazzino della tabella B£1.
 
 # Funzioni e metodi
- * Funzione - "GES  "   :  Gestione
- ** Metodo   - "VIS"    :  Visualizzazione
- ** Metodo   - "MOD"    :  Modifica
- * Funzione - "LET  "   :  Lettura
- ** Metodo   - "ALL"    :  Tutti i dati anagrafici
+ \* Funzione - "GES  "   :  Gestione
+ \*\* Metodo   - "VIS"    :  Visualizzazione
+ \*\* Metodo   - "MOD"    :  Modifica
+ \* Funzione - "LET  "   :  Lettura
+ \*\* Metodo   - "ALL"    :  Tutti i dati anagrafici
 Funzione - "LET_P"   :  Lettura con presentazione
- ** Metodo   - "ALL"    :  Tutti i dati anagrafici
- * Funzione - "LET_L"   :  Lettura con presentazione in loocup
- ** Metodo   - "ALL"    :  Tutti i dati anagrafici
- * Funzione - "LR   "   :  Chiusura programma
+ \*\* Metodo   - "ALL"    :  Tutti i dati anagrafici
+ \* Funzione - "LET_L"   :  Lettura con presentazione in loocup
+ \*\* Metodo   - "ALL"    :  Tutti i dati anagrafici
+ \* Funzione - "LR   "   :  Chiusura programma
 
 # Input
 £GMAFU :  funzione
@@ -66,7 +66,7 @@ Campi derivati :  dalla fine della DS all'indietro
 /COPY QILEGEN,£GMADS
 
 # Esempio di chiamata
->      *
+>      \*
      C                   MOVEL(P)  MAGAZZ        £FUNK1
      C                   MOVEL(P)  ARTICOLO      £FUNK2
      C                   MOVEL(P)  'LET'         £GMAFU

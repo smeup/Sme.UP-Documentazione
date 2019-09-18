@@ -128,8 +128,8 @@ Funzioni :
 **RIE : **permette di cancellare il riferimento esterno
 
 Metodi
-**ALL : **    Gestione Parametri/Note di Comuni/Scenario (*)
-**SCE : **    Dati Scenario (Parametri e note) (*)
+**ALL : **    Gestione Parametri/Note di Comuni/Scenario (\*)
+**SCE : **    Dati Scenario (Parametri e note) (\*)
 **PAR_SCE : **Gestione Parametri Scenario
 **PAR_COM : **Gestione Parametri Comuni
 **NOT_COM : **Gestione Note Comuni
@@ -138,7 +138,7 @@ Metodi
 **GES_CAL : **Gestione Calendario (-)
 
 
-(*) Metodi non validi per funzione GES
+(\*) Metodi non validi per funzione GES
 (-) Metodi non validi per funzione CON
 
 Campi Input :  £BRETP      Tipo Contatto

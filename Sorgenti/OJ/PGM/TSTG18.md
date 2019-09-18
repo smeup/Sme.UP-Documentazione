@@ -17,7 +17,7 @@ il concetto di stile da indicare a livello di £G18CR (si veda quanto riportato 
 - Informazioni standard :  alcune informazioni standard (utente, sistema informativo, data/ora, numero pagina), possono essere omesse valorizzato la posizione 9 del campo £G18MO.
 - Formati dei printer :  vengono assunti questi formati a seconda del modello E=132 caratteri, X=198 caratteri, 80 caratteri per tutto gli altri casi.
 - £GPE :  tramite la £GPE ed il relativo comando UP GPE possono essere condizionate anche le modalità di produzione del PDF. Per fare questo in modo corretto nel programma che richiama la £GPE deve essere valorizzato il campo £UDTPS con valore 999.
-Inoltre per quel che riguarda le stampe, quest'ultime di default sono in formato AFPDS, ma  nel caso vi sia necessità è possibile passare ad un formato *SCS tramite l'apposita opzione della GPE. Se nel formato video si possono selezionare più formati, quello del PDF va identificato dal codice "7".
+Inoltre per quel che riguarda le stampe, quest'ultime di default sono in formato AFPDS, ma  nel caso vi sia necessità è possibile passare ad un formato \*SCS tramite l'apposita opzione della GPE. Se nel formato video si possono selezionare più formati, quello del PDF va identificato dal codice "7".
 - L'ubicazione e la denominazione dei file PDF prodotti :  per i file PDF è previsto un default sia per l'ubicazione che per la denominazione dei file PDF prodotti. Tali default sono sovrascribili tramite il comando UP GPE con la possibilità di poter utilizzare anche variabili d'ambiente (es. &AM.UT).
 -- Ubicazione :  vengono posti nella cartella /SMEDOC/UTE/NomeUtente/ il suo utilizzo implica l'attivazione della condivisione della cartella SMEDOC
 -- Denominazione File :  NomeProgramma-Lavoro-Data-Ora.PDF
@@ -110,7 +110,7 @@ Funzione per la gestione della rilettura del subfile.
 Legge e restituisce il primo record del subfile.
     - NEXT -
 Da utilizzare in un ciclo dopo una READ/FIRST per leggere i successivi record del subfile.
-    - *BLANKS -
+    - \*BLANKS -
 Legge e restituisce il record impostato nel campo £G18PO.
     - POSI -
 Legge e restituisce il primo record dell'ultima pagina visualizzata

@@ -37,7 +37,7 @@ Consente di scegliere uno scenario, se si preme F20 o se non c'è ancora uno sce
 Nota tecnica :  Esegue una ovrdbf su ogni file multi-scenario.
 ## DIS - Disattivazione scenario
 Consente di disattivare lo scenario attivo.
-Nota tecnica :  Esegue una dltovr *all.
+Nota tecnica :  Esegue una dltovr \*all.
 # Funz. VER - Verifica scenario attivo
 ## 90 - Visualizza solo nomi (senza controlli)
 Visualizza i nomi dei file definiti come multi-scenario e i nomi dei rispettivi membri utilizzati dallo scenario attivo, ma senza eseguire nessun controllo.

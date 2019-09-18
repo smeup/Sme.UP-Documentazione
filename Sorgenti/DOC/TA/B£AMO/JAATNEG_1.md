@@ -19,7 +19,7 @@
   Oggetti interessati
   JM$R42CL    JM$R60CL    JM$R70CL    SFSG10CL
 ## File
-### BX*/BT*/TI*/TO*/MP*
+### BX\*/BT\*/TI\*/TO\*/MP\*
   Oggetti interessati
   B£DEFCO_AR  B£G07G_AC   B£G17S_U    B£ICIR_AR   B£IFAL_AR   C£$LAUPD    D9AP_XBC    D9AP_XDC
   D9AP_X1C    D9AP_X7C    D9AP_X8C    D9AP_X9C    GM$CV1      GM$TR00_SM  JM$RPB1     JM$RPC1
@@ -35,13 +35,13 @@
 ### ADAZI
   Oggetti interessati
   XNOCO0S
-### EDXSIF*
+### EDXSIF\*
   Oggetti interessati
   ED$ART1
-### ANDIP*
+### ANDIP\*
   Oggetti interessati
   B£IFDI_AR
-### SCAD0*
+### SCAD0\*
   Oggetti interessati
   D9AP_XHC
 ### CQNC360V

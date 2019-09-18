@@ -9,7 +9,7 @@ I valori possibili sono i seguenti :
  :  : FLD T$BRXB **Controllo partita IVA-Codice fiscale-Partita IVA CEE**
 0.   Dato facoltativo (Default)
 1.   Dato obbligatorio e valido
-2.   Come 1 ma accetta la forzatura **
+2.   Come 1 ma accetta la forzatura \*\*
 3.   Dato non gestito (deve essere blank)
 4.   Come 1 ma con univocità dati di identificazione.
 5.   Come 2 ma con univocità dati di identificazione.

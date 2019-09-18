@@ -2,5 +2,5 @@
 
 ## OBIETTIVI
 
- * Inserire documentazione nel caso di fun/me = MAN/CRE
+ \* Inserire documentazione nel caso di fun/me = MAN/CRE
 

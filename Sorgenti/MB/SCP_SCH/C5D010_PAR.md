@@ -3,15 +3,15 @@ Analizzare e pareggiare le scadenze negative aperte per un ente o per una lista 
 
 ![C5D010_066](http://localhost:3000/immagini/MBDOC_SCH-C5D010_PAR/C5D010_066.png)
 ## Parametri di lancio
- * Codice oggetto :  in funzione dell'oggetto scelto all'interno del surf in questo campo sarà necessario indicare il codice cliente, la lista clienti, il codice fornitore, ecc. da analizzare
- * Raggruppa/Includi Soggetti :  nel caso in cui un cliente sia anche fornitore attraverso questo parametro è possibile vederne la posizione netta e, quindi, includere sia le scadenze attive che quelle passive. In questo parametro sarà necessario indicare come effettuare il collegamento cliente/fornitore. Le scelte possibili sono : 
- ** Per codice fiscale / Partita IVA :  il sistema cerca di accoppiare i clienti/fornitori in funzione del codice fiscale/partita iva
- ** Per ente corripondente :  il sistema leggerà l'ente corrispondente impostato sull'anagrafica del cliente/fornitore
- ** Per Nominativo :  il sistema risalirà al nominativo comune tra cliente e fornitore
- ** Per ente di gruppo :  attraverso questo campo è possibile individuare dei gruppi aziendali. Il gruppo a cui appartiene un soggetto è impostabile tramite l'estensione anagrafica £53
- * Cumuli Effetti :  in caso di effetti cumulati permette i visualizzare una scadenza unica o il dettaglio delle scadenze
- * Schema :  permette di impostare uno schema sulle colonne visualizzate
- * Righe per pagina :  permette di aumentare il numero di righe mostrato al lancio della funzione (di default vengono presentate le prime 1000 righe).
+ \* Codice oggetto :  in funzione dell'oggetto scelto all'interno del surf in questo campo sarà necessario indicare il codice cliente, la lista clienti, il codice fornitore, ecc. da analizzare
+ \* Raggruppa/Includi Soggetti :  nel caso in cui un cliente sia anche fornitore attraverso questo parametro è possibile vederne la posizione netta e, quindi, includere sia le scadenze attive che quelle passive. In questo parametro sarà necessario indicare come effettuare il collegamento cliente/fornitore. Le scelte possibili sono : 
+ \*\* Per codice fiscale / Partita IVA :  il sistema cerca di accoppiare i clienti/fornitori in funzione del codice fiscale/partita iva
+ \*\* Per ente corripondente :  il sistema leggerà l'ente corrispondente impostato sull'anagrafica del cliente/fornitore
+ \*\* Per Nominativo :  il sistema risalirà al nominativo comune tra cliente e fornitore
+ \*\* Per ente di gruppo :  attraverso questo campo è possibile individuare dei gruppi aziendali. Il gruppo a cui appartiene un soggetto è impostabile tramite l'estensione anagrafica £53
+ \* Cumuli Effetti :  in caso di effetti cumulati permette i visualizzare una scadenza unica o il dettaglio delle scadenze
+ \* Schema :  permette di impostare uno schema sulle colonne visualizzate
+ \* Righe per pagina :  permette di aumentare il numero di righe mostrato al lancio della funzione (di default vengono presentate le prime 1000 righe).
 
 ## Dettaglio informazioni
 

@@ -1,12 +1,12 @@
 # OBIETTIVI
 
- * Fornire gli strumenti standard per l'inizializzazione, creazione, aggiornamento di impegni di workflow.
- * Fornire servizi particolari, come il ricalcolo degli utenti di un impegno.
- * Fornire scansioni di impegni con ragionamenti su eseguibilità e assegnabilità.
+ \* Fornire gli strumenti standard per l'inizializzazione, creazione, aggiornamento di impegni di workflow.
+ \* Fornire servizi particolari, come il ricalcolo degli utenti di un impegno.
+ \* Fornire scansioni di impegni con ragionamenti su eseguibilità e assegnabilità.
 
 # FUNZIONI E METODI
 ## SCA  - Scansione impegni
-### POS* - posizionamento.
+### POS\* - posizionamento.
 Imposta il tipo scansione (su tutti, sugli impegni di un ordine e derivati, sugli impegni relativi a un oggetto master) e si posiziona sul primo impegno.
 Vanno specificati il campo tipo scansione £WFDTS e gli eventuali filtri in £WFDDI (ordine, oggetto, utente) - attenzione a pulire la £WFDDI prima di impostare i filtri, questa cosa non viene fatta dal WFWFD0.
 ### LET - lettura.

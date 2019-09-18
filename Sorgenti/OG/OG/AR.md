@@ -5,4 +5,4 @@ Possono quindi essere articoli, oltre ai normali oggetti di produzione e commerc
 Sinonimi :  item, parte, referenza, materiale, prodotto.
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(BRARTI0F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(BRARTI0F) L(1)

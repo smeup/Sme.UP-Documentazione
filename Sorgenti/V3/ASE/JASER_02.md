@@ -20,9 +20,9 @@ Una query puo' essere rappresentata come un'aggregazione di 4 elementi :
 
 ### Vengono fornite le seguenti query di default : 
   Cod      Descrizione                Fonte Note
-  *KEY     Ricerca per codice         *INT
-  *DEC     Ricerca per descrizione    *INT
-  *FIL     Ricerca su file            *FIL  Richiede la compilazione di TAB§O
+  \*KEY     Ricerca per codice         \*INT
+  \*DEC     Ricerca per descrizione    \*INT
+  \*FIL     Ricerca su file            \*FIL  Richiede la compilazione di TAB§O
 
  Le query vengono definiti nello script SCP_QRY, dove il nome del membro
   e' il nome dell'oggetto gestendo risalita tipo/parametro
@@ -33,9 +33,9 @@ Una query puo' essere rappresentata come un'aggregazione di 4 elementi :
  Rappresentata il contenitore in cui ricercare gli oggetti, e' implementata da un programma di tipo V3PQR (B£IQR_xx)
 
 ### Vengono fornite le seguenti fonti di default : 
-  *INT Accesso da interfaccia oggetto (B£IQR_01)
-  *FIL Accesso da file (B£IQR_02)
-  *JAC Accesso da tabella JAC (B£IQR_03)
+  \*INT Accesso da interfaccia oggetto (B£IQR_01)
+  \*FIL Accesso da file (B£IQR_02)
+  \*JAC Accesso da tabella JAC (B£IQR_03)
 
  Le fonti dati possono essere estese tramite la compilazione dello script : 
   :  : SRC Cod="Nome fonte" Des="Descrizione fonte" Pgm="XX"

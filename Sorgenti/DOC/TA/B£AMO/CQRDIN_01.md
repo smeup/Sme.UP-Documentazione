@@ -1,9 +1,9 @@
 # Scopo
- * Emissione della richiesta dai programmi di gestione del Q9000 con indirizzamento all'ente preposto per l'evasione
- * Gestione della Lista di distribuzione della richiesta
- * Stampa del documento
- * Consuntivazione dei tempi e costi per l'evasione della richiesta con attribuzione degli stessi all'ente di addebito
- * Gestione dello stato di evasione della richiesta
+ \* Emissione della richiesta dai programmi di gestione del Q9000 con indirizzamento all'ente preposto per l'evasione
+ \* Gestione della Lista di distribuzione della richiesta
+ \* Stampa del documento
+ \* Consuntivazione dei tempi e costi per l'evasione della richiesta con attribuzione degli stessi all'ente di addebito
+ \* Gestione dello stato di evasione della richiesta
 
 
 # Definizioni
@@ -21,21 +21,21 @@ Definire il contenitore delle note strutturate da utilizzare per il tipo di rich
 Descrivere il significato dei campi legati alla griglia. Collegare questi campi alle tabelle o ad archivi dati.
  :  : DEC T(ST) K(CQY)
 
-### CQ*PR - PRIORITÀ DELL'INTERVENTO
+### CQ\*PR - PRIORITÀ DELL'INTERVENTO
 Descrive la priorità di una Richiesta di Intervento (alta,media,bassa...)
- :  : DEC T(ST) K(CQ*PR)
+ :  : DEC T(ST) K(CQ\*PR)
 
-### *CNTT - CODICI OGGETTI APPLICATIVI
+### \*CNTT - CODICI OGGETTI APPLICATIVI
 Descrive il tipo di enti che richiedono, gestiscono, evadono,ecc.. la  richiesta di intervento (direzione tecnica, direzione commerciale, ecc..)
  :  : DEC T(ST) K(CQY)
 
-### CQ*QZ - DESCRIZIONE VALORI RICHIESTE
+### CQ\*QZ - DESCRIZIONE VALORI RICHIESTE
 Descrive i dati  di base della richiesta di intervento (obbiettivo, soluzione proposta,ecc..)
- :  : DEC T(ST) K(CQ*QZ)
+ :  : DEC T(ST) K(CQ\*QZ)
 
-### CQ*ST - STATO EVASIONE
+### CQ\*ST - STATO EVASIONE
 Descrive lo stato di evasione della richiesta di intervento (evaso, da definire, ecc..)
- :  : DEC T(ST) K(CQ*ST)
+ :  : DEC T(ST) K(CQ\*ST)
 
 ### CQW - VALUTAZIONE DEL CONTROLLO
 Descrive l'esito della soluzione adottata. Per ogni elemento della tabella si deve indicare un coefficiente di valutazione
@@ -43,13 +43,13 @@ Descrive l'esito della soluzione adottata. Per ogni elemento della tabella si de
 
 # Processo di avviamento ed utilizzo
 ## Attività iniziale
- * Classificazione tipi di intervento
- * Classificazione procedure di riferimento
- * Classificazione delle priorità di evasione
- * Inserimento tabelle relative al modulo
+ \* Classificazione tipi di intervento
+ \* Classificazione procedure di riferimento
+ \* Classificazione delle priorità di evasione
+ \* Inserimento tabelle relative al modulo
 
 ## Attività periodica
- * Immissione Richieste di intervento
- * Gestione Richieste di intervento
- * Evasione Richieste di intervento
- * Stampa Richieste di intervento
+ \* Immissione Richieste di intervento
+ \* Gestione Richieste di intervento
+ \* Evasione Richieste di intervento
+ \* Stampa Richieste di intervento

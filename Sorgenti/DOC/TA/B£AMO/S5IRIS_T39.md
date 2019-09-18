@@ -4,11 +4,11 @@ La BCD di interrogazione permette di consultare una schedulazione eseguita in pr
 # Note tecniche
 Questa funzione si attiva impostanto il flag di "memorizza sessione" in tabella B§G.
 In questo caso, ad ogni salvataggio della schedulazione vengono salvate tutte le memorie nell'archivio : 
- :  : DEC T(OJ) P(*FILE) K(B£BCDM0F)
+ :  : DEC T(OJ) P(\*FILE) K(B£BCDM0F)
 Viene creata una nuova sessione (a meno di impostazioni personali che vedremo in seguito) se varia almeno un campo di input (appartenente a S5X). In questo modo, ad ogni salvataggio della schedulazione eseguito senza uscire (successivo al primo) viene mantenuta la sessione, (non essendo variati i campi dalla S5X), e quindi viene ricoperta la memorizzazione precedente.
 Il numero di sessione viene memorizzato nell'elemento £BCD della tabella CRN di sottosettore B£.
 Vengono mantenute (a meno di impostazioni personali) le sessioni con data maggiore o uguale a quella (ovviamente implicita) impostata in tabella B§G.
-In questa tabella va inserito il campo (obbligatorio) "Ambiente" (elemento della tabella *CN/BC) che permette di riclassificare ogni elemento di B§G.
+In questa tabella va inserito il campo (obbligatorio) "Ambiente" (elemento della tabella \*CN/BC) che permette di riclassificare ogni elemento di B§G.
 Ogni interrogazione è individuata dai campi :  Ambiente / Elemento B§G / Sessione.
 
 ## Modalità di lancio

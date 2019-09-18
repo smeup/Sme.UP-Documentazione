@@ -1,12 +1,12 @@
 
-## SIGLA OGGETTO in TA/*CNTT
+## SIGLA OGGETTO in TA/\*CNTT
  'MB'                               £FUNT1
  'Nome File'                        £FUNP1
 
 ## CHIAVE PRIMARIA
  'Nome Membro'                      £FUNK1
 
-Il file è un oggetto di sistema (OJ) di tipo (*FILE)
+Il file è un oggetto di sistema (OJ) di tipo (\*FILE)
  :  : DEC T(OG) K(OJ)
 
 ## /COPY

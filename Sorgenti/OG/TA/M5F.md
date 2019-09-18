@@ -42,7 +42,7 @@ Definisce il segno della quantità neutra e consente di suddividere la stessa in
  :  : FLD T$M5FE.T$M5FB
  :  : FLD T$M5FF __Parametro suggerimento__
 Contiene le informazioni che guidano l'applicazione del suggerimento collegato a questa fonte, nel caso in cui si voglia dar corso al suggerimento stesso. L'assenza di questa informazione sta a significare che non si vuole attivare questa funzionalità.
-I primi 10 caratteri contengono il programma di applicazione, (controllato nella tabella M5*/*P), i restanti sono ulteriori condizioni, specifici di ogni fonte.
+I primi 10 caratteri contengono il programma di applicazione, (controllato nella tabella M5\*/\*P), i restanti sono ulteriori condizioni, specifici di ogni fonte.
 Per le fonti SME_UP è attiva la seguente impostazione : 
 -    L'ultimo carattere a destra, se impostato, definisce il suffisso del programma di aggiustamento, che viene lanciato prima della scrittura del suggerimento stesso.
 Il programma deve chiamarsi nel modo seguente :  xxxxxx_SMy, dove xxxxxx_SM è il programma SME_UP di rilascio, ed y è il suffisso codificato in questa tabella.
@@ -104,7 +104,7 @@ Può assumere i seguenti valori :
 Può venire utilizzata, ad esempio, in caso di ordini emessi a fornitori e terzisti con condizioni vantaggiose (economiche e/o di termini di consegna), a patto che non vengano modificati :  quindi non possono essere nè anticipati nè stornati (parzialmente o totalmente). Il suggerimento di ritardo viene comunque emesso perchè rappresenta un'informazione che può rimanere all'interno dell'azienda, senza essere comunicata al fornitore.
 Un altro utilizzo è quello di non perturbare gli ordini di produzione in corso, con suggerimenti di modifica.
  :  : FLD T$M5FR __Riclassifica__
-È un elemento della tabella 'M5*RF' :  viene usato nell'analisi pianificazione e disponibilità riepilogate. Per maggiori dettagli fare riferimento alla documentazione del campo corrispondente nella tabella M5E (fonti esistenti).
+È un elemento della tabella 'M5\*RF' :  viene usato nell'analisi pianificazione e disponibilità riepilogate. Per maggiori dettagli fare riferimento alla documentazione del campo corrispondente nella tabella M5E (fonti esistenti).
  :  : FLD T$M5FS __Ordinamento riclassifica__
 È usato nelle analisi riepilogate. Per maggiori dettagli riferirsi alla documentazione del campo corrispondente nella tabella M5E (fonti esistenti).
  :  : FLD T$M5FK __Gestione flag esclusione__

@@ -34,8 +34,8 @@ METODI (PER FUNZIONI DA 2 A 10)
 £IARME :  Metodo
 £IARAM :  Ambiente
 £IARCO :  Contesto
-£IARCD :  Codice articolo (se funzione = *Blanks)
-£IARTA :  Tipo   articolo (se funzione = *Blanks)
+£IARCD :  Codice articolo (se funzione = \*Blanks)
+£IARTA :  Tipo   articolo (se funzione = \*Blanks)
 £IARRI :  N.ro Record di input
 £IARLC :  Livello chiamata
 
@@ -49,8 +49,8 @@ BRARTI :  DS valorizzata
 £IARFI :  File   messaggio ritorno
 £IARCM :  Ultimo Comando
 £IARRO :  N.ro record di output
-*IN35  :  se On = Codice errato
-*IN36  :  se On = eseguita ricerca alfabetica
+\*IN35  :  se On = Codice errato
+\*IN36  :  se On = eseguita ricerca alfabetica
 BRARTI :  DS valorizzata
 
 # Prerequisiti
@@ -60,32 +60,32 @@ BRARTI :  DS valorizzata
 # Esempio di chiamata
 
 Esempio 1 :  chiamata secca per reperire i campi della DS BRARTI di uno specifico articolo
-     C*                  EVAL      £IARFU=*BLANKS
-     C*                  EVAL      £IARCD='codice articolo'
-     C*                  EXSR      £IAR
-     C*                  IF        £IAR35=*OFF
-     C*                  BRARTI VALORIZZATO
-     C*                  ENDIF
-     C*
+     C\*                  EVAL      £IARFU=\*BLANKS
+     C\*                  EVAL      £IARCD='codice articolo'
+     C\*                  EXSR      £IAR
+     C\*                  IF        £IAR35=\*OFF
+     C\*                  BRARTI VALORIZZATO
+     C\*                  ENDIF
+     C\*
 Esempio 2 :  scansione di tutti gli articoli che hanno un dato tipo articolo
-     C*                  CLEAR                   BRARTI
-     C*                  EVAL      £IARFU='SL'
-     C*                  EVAL      £IARME='2L'
-     C*                  EVAL      £IARTA='TIPO ARTICOLO'
-     C*                  EXSR      £IAR
-     C*
-     C*                  DO        *HIVAL
-     C*
-     C*                  EVAL      £IARFU='RE'
-     C*                  EVAL      £IARME='2L'
-     C*                  EVAL      £IARTA='TIPO ARTICOLO'
-     C*                  EXSR      £IAR
-     C*                  IF        £IAR35=*ON
-     C*                  LEAVE
-     C*                  ENDIF
-     C*
-     C*                  ....
-     C*                  ENDDO
+     C\*                  CLEAR                   BRARTI
+     C\*                  EVAL      £IARFU='SL'
+     C\*                  EVAL      £IARME='2L'
+     C\*                  EVAL      £IARTA='TIPO ARTICOLO'
+     C\*                  EXSR      £IAR
+     C\*
+     C\*                  DO        \*HIVAL
+     C\*
+     C\*                  EVAL      £IARFU='RE'
+     C\*                  EVAL      £IARME='2L'
+     C\*                  EVAL      £IARTA='TIPO ARTICOLO'
+     C\*                  EXSR      £IAR
+     C\*                  IF        £IAR35=\*ON
+     C\*                  LEAVE
+     C\*                  ENDIF
+     C\*
+     C\*                  ....
+     C\*                  ENDDO
 
 # Oggetti collegati
 

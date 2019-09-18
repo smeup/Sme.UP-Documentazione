@@ -10,7 +10,7 @@
 
 ## Versione V2R2M070622-02D Stable (Rilasciata il 02-10-2007)
 
-- Corretto errore nel caso di *ACTION senza emissione di alcun formato video
+- Corretto errore nel caso di \*ACTION senza emissione di alcun formato video
 
 ## Versione V2R2M070622-02C Stable (Rilasciata il 30-08-2007)
 
@@ -33,7 +33,7 @@
 ## Versione V2R2M070214-01D Stable (Rilasciata il 09-05-2007)
 
 - Corretto Errore che si verificava alla pressione del tasto F22
-- Modificata implementazione Operazioni *ACTION. Ora è possibile richiamarle anche senza specificare un formato video
+- Modificata implementazione Operazioni \*ACTION. Ora è possibile richiamarle anche senza specificare un formato video
 
 ## Versione V2R2M070214-01B Stable (Rilasciata il 02-03-2007)
 

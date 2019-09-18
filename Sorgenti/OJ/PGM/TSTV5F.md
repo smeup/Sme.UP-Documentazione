@@ -62,7 +62,7 @@ _2_Elaborazione della riga
 --- In ogni caso se la quantità master è 0 assume come master quella interna.
 -- Se il tipo documento lo richiede(campo "Calcolo Pesi/Volumi" della "V5D") e l'oggetto è un articolo calcola il peso e il volume come quantità interna per rispettivamente  peso e volume dell'articolo
 -- Calcola l'importo : 
---- è quantita master * prezzo netto, se la quantità non è 0 e la riga non è di tipo forfettario (Vedi R§FL29)
+--- è quantita master \* prezzo netto, se la quantità non è 0 e la riga non è di tipo forfettario (Vedi R§FL29)
 ---  è il prezzo netto in tutti gli altri casi.
 -- Esegue un arrotondamento dell'importo mediante la £G51
 -- Calcola assoggettamento IVA

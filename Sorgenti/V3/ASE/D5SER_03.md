@@ -81,11 +81,11 @@ In questo esempio due elementi sono presi da D5COSO, il terzo è lo scostamento 
 Da notare che gli elementi da confrontare devono avere valori "confrontabili". Non viene fatto nessun controllo di questo vincolo, deve essere chi costruisce il confronto che si preoccupa di inserire solo elementi (colonne) confrontabili. Per quanto riguarda le decodifiche dei valori, vengono usate quelle relative all'ultimo record D5COSO agganciato (l'ultima colonna di tipo REC).
 
 
- :  : PRO.SER Cod="CFR.EXT.1" Tit="Confronti. Dati da pgm esterno" Fun="F(EXB;D5SER_03;CFR.EXT) 1(**;;-(F;;**;Contesto/codice)) 2(TA;D5O**;-(F;;TAD5O**;Tema)) 3(**;;-(F;;**;Chiave 1)) 4(**;;-(F;;**;Chiave 2)) 5(**;;-(F;;**;Chiave 3)) 6(**;;-(F;;**;Data/periodo)) P( NM(-(F;;**;Nome programma)) FU(-(F;;**;Funzione)) ME(-(F;;**;Metodo)) PA(-(F;;**;Parametro)) RC(-(F;;**;Riclassifica)) ID(-(F;;IDD5COSO0F;ID di partenza)))"
+ :  : PRO.SER Cod="CFR.EXT.1" Tit="Confronti. Dati da pgm esterno" Fun="F(EXB;D5SER_03;CFR.EXT) 1(\*\*;;-(F;;\*\*;Contesto/codice)) 2(TA;D5O\*\*;-(F;;TAD5O\*\*;Tema)) 3(\*\*;;-(F;;\*\*;Chiave 1)) 4(\*\*;;-(F;;\*\*;Chiave 2)) 5(\*\*;;-(F;;\*\*;Chiave 3)) 6(\*\*;;-(F;;\*\*;Data/periodo)) P( NM(-(F;;\*\*;Nome programma)) FU(-(F;;\*\*;Funzione)) ME(-(F;;\*\*;Metodo)) PA(-(F;;\*\*;Parametro)) RC(-(F;;\*\*;Riclassifica)) ID(-(F;;IDD5COSO0F;ID di partenza)))"
 
- :  : PRO.SER Cod="QRY.SCP.2" Tit="Confronti da script. Elenco script" Fun="F(TRE;D5SER_03;QRY.SCP) 2(OJ;*LIB;-(O;;OJ*LIB;Libreria))"
+ :  : PRO.SER Cod="QRY.SCP.2" Tit="Confronti da script. Elenco script" Fun="F(TRE;D5SER_03;QRY.SCP) 2(OJ;\*LIB;-(O;;OJ\*LIB;Libreria))"
 
- :  : PRO.SER Cod="QRY.LIC.3" Tit="Confronti da script. Elenco report" Fun="F(TRE;D5SER_03;QRY.LIC) P( NS(-(F;;**;Nome script)))"
+ :  : PRO.SER Cod="QRY.LIC.3" Tit="Confronti da script. Elenco report" Fun="F(TRE;D5SER_03;QRY.LIC) P( NS(-(F;;\*\*;Nome script)))"
 
- :  : PRO.SER Cod="QRY.CFR.4" Tit="Confronti da script. Report" Fun="F(EXB;D5SER_03;QRY.CFR) P( NS(-(F;;**;Nome script)) CC(-(F;;**;Codice confronto)))"
+ :  : PRO.SER Cod="QRY.CFR.4" Tit="Confronti da script. Report" Fun="F(EXB;D5SER_03;QRY.CFR) P( NS(-(F;;\*\*;Nome script)) CC(-(F;;\*\*;Codice confronto)))"
 

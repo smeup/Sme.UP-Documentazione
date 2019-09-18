@@ -1,3 +1,3 @@
 # Descrizione
 
-Oggetti J1CMD e OJ*CMD
+Oggetti J1CMD e OJ\*CMD

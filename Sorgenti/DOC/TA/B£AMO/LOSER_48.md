@@ -29,5 +29,5 @@ Deve recuperare le informazioni del guida e passarle al dettaglio
 
 ### Note
 Nella funzione LOSER_48 ANA.RIC e ESE.G99 dovranno essere presenti tutte quelle attivita da eseguire prima e dopo la gestione del dettaglio.
-* VIncolo oggetto
-* Flussi
+\* VIncolo oggetto
+\* Flussi

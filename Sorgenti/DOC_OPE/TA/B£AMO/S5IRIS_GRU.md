@@ -1,8 +1,8 @@
 L'alternativa di ciclo, possibile se presenti le testate, è una scelta dell'intero ciclo da schedulare, ed è eseguita a monte della schedulazione stessa.
 
 Le ulteriori alternative che sono tra le scelte che opera la schedulazione si definiscono nella tabella dello scenario S5B : 
- * Alternative di fase (si imposta il campo specifico). Attualmente la scelta dell'alternativa di fase va eseguita all'esterno della schedulazione, operando sul ciclo del documento.
- * Alternative di risorsa specifica (se i campi tipo risorsa principale e tipo risorsa specifica sono diversi)
+ \* Alternative di fase (si imposta il campo specifico). Attualmente la scelta dell'alternativa di fase va eseguita all'esterno della schedulazione, operando sul ciclo del documento.
+ \* Alternative di risorsa specifica (se i campi tipo risorsa principale e tipo risorsa specifica sono diversi)
 
 ![FIG_015](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_GRU/FIG_015.png)
  - Solo sequenziazione delle fasi attive sulla risorsa principale

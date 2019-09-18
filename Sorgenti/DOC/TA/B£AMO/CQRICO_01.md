@@ -1,7 +1,7 @@
 # Scopo
- * introdurre e gestire i rilievi analitici dei controlli e collaudi operati sui lotti
- * stampare la documentazione interna ed esterna (certificati di Qualità)
- * introdurre e gestire gli effettivi tempi e costi di controllo
+ \* introdurre e gestire i rilievi analitici dei controlli e collaudi operati sui lotti
+ \* stampare la documentazione interna ed esterna (certificati di Qualità)
+ \* introdurre e gestire gli effettivi tempi e costi di controllo
 
 # Definizioni
 ## Rilievi di Lotto

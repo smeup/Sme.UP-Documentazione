@@ -78,15 +78,15 @@ N.B :  Nel caso la funzione venga disabilitata, la larghezza della colonna verr�
 Specifica se mostrare i valori delle totalizzazioni incolonnati se sono presenti dei raggruppamenti.  I valori possibili sono Yes/No. Il valore di default è No.
 
 ## Styles :  Definizione stili
-Definisce gli stili da applicare a colonne, righe e celle della matrice per personalizzarla. Il valore dell'attributo è una stringa del tipo Colonna=(Stile o Espressione)|Colonna=(Stile o Espressione)|.. dove Colonna è il nome del campo (o dei campi usando le macro speciali *ALL etc.) su cui applicare lo stile, Stile rappresenta il nome di uno stile già definito da applicare e Espressione una espressione logica che restituisce uno stile.
+Definisce gli stili da applicare a colonne, righe e celle della matrice per personalizzarla. Il valore dell'attributo è una stringa del tipo Colonna=(Stile o Espressione)|Colonna=(Stile o Espressione)|.. dove Colonna è il nome del campo (o dei campi usando le macro speciali \*ALL etc.) su cui applicare lo stile, Stile rappresenta il nome di uno stile già definito da applicare e Espressione una espressione logica che restituisce uno stile.
 
 es.
 Tutto in corsivo
-**Styles="*ALL=*ITALIC"**
+**Styles="\*ALL=\*ITALIC"**
 Colonna X in grassetto, Colonna Y in corsivo
-**Styles="X=*BOLD|Y=*ITALIC""**
+**Styles="X=\*BOLD|Y=\*ITALIC""**
 Colonna X in grassetto solo se Colonna Y diverso da bianco
-**Styles="X={Y EQ GT ' ';*BOLD}"**
+**Styles="X={Y EQ GT ' ';\*BOLD}"**
 
 NB :  i nomi dei campi da utilizzare dove indicato sono quelli assegnati alle colonne della matrice
 (primo campo della schiera £JAXSWK), visualizzabili nell'XML della matrice nella sezione <Griglia>,

@@ -8,7 +8,7 @@ Se previsto dal programma, la presenza di tale scelta fa in modo che il programm
  :  : FLD T$PGMB __Stampa log__
 Se impostato, attiva la produzione della stampa di controllo. Tale metodo è utilizzato in particolare come standard da tutti i servizi. Se attivato, vengono stampate tutte le aggiunte al file XML inviato su coda.
  :  : FLD T_PGMC __Stampa condizioni__
-Utilizzata dai programmi standard di stampa che prevedono parzializzazioni e ordinamento (utilizzano COPY £B£S*).
+Utilizzata dai programmi standard di stampa che prevedono parzializzazioni e ordinamento (utilizzano COPY £B£S\*).
 Permette di scegliere se stampare le condizioni impostate.
 Le opzioni possibili sono : 
 A = Si stampano le condizioni su una pagina separata.

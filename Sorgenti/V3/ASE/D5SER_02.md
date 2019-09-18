@@ -15,11 +15,11 @@ Viene resituita una matrice con una riga e due colonne :  nella prima colonna è
 
  :  : PRO.SER Cod="R2K.1" Tit="Dall'ID alle chiavi. " Fun="F(EXB;D5SER_02;R2K) 1(ID;D5COSO0F;-(O;;IDD5COSO0F;ID record))"
 
- :  : PRO.SER Cod="K2R.2" Tit="Dalle chiavi all'ID. " Fun="F(TRE;D5SER_02;K2R) 1(**;;-(O;;**;Contesto/codice)) 2(TA;D5O**;-(O;;TAD5O**;Tema)) 3(**;;-(F;;**;Codice 1)) 4(**;;-(F;;**;Codice 2)) 5(**;;-(F;;**;Codice 3)) 6(**;;-(F;;**;Data/periodo))"
+ :  : PRO.SER Cod="K2R.2" Tit="Dalle chiavi all'ID. " Fun="F(TRE;D5SER_02;K2R) 1(\*\*;;-(O;;\*\*;Contesto/codice)) 2(TA;D5O\*\*;-(O;;TAD5O\*\*;Tema)) 3(\*\*;;-(F;;\*\*;Codice 1)) 4(\*\*;;-(F;;\*\*;Codice 2)) 5(\*\*;;-(F;;\*\*;Codice 3)) 6(\*\*;;-(F;;\*\*;Data/periodo))"
 
- :  : PRO.SER Cod="CFR.COD.3" Tit="Confronti totalizzati. Confronto per codici" Fun="F(EXA;D5SER_02;CFR.COD) 1(**;;-( ;;**;Contesto)) 2(TA;D5O**;-(O;;TAD5O**;Tema)) 3(**;;-(F;;**;Codice 1)) 4(**;;-(F;;**;Codice 2)) 5(**;;-(F;;**;Codice 3)) 6(**;;-(F;;**;Data/periodo))"
+ :  : PRO.SER Cod="CFR.COD.3" Tit="Confronti totalizzati. Confronto per codici" Fun="F(EXA;D5SER_02;CFR.COD) 1(\*\*;;-( ;;\*\*;Contesto)) 2(TA;D5O\*\*;-(O;;TAD5O\*\*;Tema)) 3(\*\*;;-(F;;\*\*;Codice 1)) 4(\*\*;;-(F;;\*\*;Codice 2)) 5(\*\*;;-(F;;\*\*;Codice 3)) 6(\*\*;;-(F;;\*\*;Data/periodo))"
 
  :  : PRO.SER Cod="CFR.COD.4" Tit="Confronti totalizzati. Confronto per codici" Fun="F(EXB;D5SER_02;CFR.COD)" Ref="CFR.COD.3"
 
- :  : PRO.SER Cod="CEP.5" Tit="Controllo codici e data. " Fun="F(EXB;D5SER_02;CEP) 1(**;;-( ;;**;Contesto)) 2(TA;D5O**;-(O;;TAD5O**;Tema))"
+ :  : PRO.SER Cod="CEP.5" Tit="Controllo codici e data. " Fun="F(EXB;D5SER_02;CEP) 1(\*\*;;-( ;;\*\*;Contesto)) 2(TA;D5O\*\*;-(O;;TAD5O\*\*;Tema))"
 

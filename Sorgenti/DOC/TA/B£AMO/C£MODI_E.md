@@ -3,13 +3,13 @@ I modelli dinamici sono organizzati per scenari, ciascuno di questi risponde a p
 
 ## Scenario APP - Applicazioni
 Questo scenario serve per visualizzare tutte le relazioni che interessano tra gli oggetti principali della customizzazione di un'applicazione : 
- * tabelle
- * archivi
- * sottosettori di tabella
+ \* tabelle
+ \* archivi
+ \* sottosettori di tabella
 
 Per accedere al modello dinamico selezionare : 
- * Scenario = APP
- * Contesto = L'applicazione voluta tra quelle presenti nella finestra dei contesti attivi
+ \* Scenario = APP
+ \* Contesto = L'applicazione voluta tra quelle presenti nella finestra dei contesti attivi
 
 Si presenta la scheda del modello dinamico dell'applicazione : 
 ![C£MODI_021](http://localhost:3000/immagini/C£MODI_E/CXMODI_021.png)
@@ -17,8 +17,8 @@ Si presenta la scheda del modello dinamico dell'applicazione :
 Questo scenario serve per visualizzare tutte le relazioni tra gli oggetti principali presenti in una libreria.
 
 Per accedere al modello dinamico selezionare : 
- * Scenario = LIB
- * Contesto = La libreria voluta tra quelle presenti nella finestra dei contesti attivi
+ \* Scenario = LIB
+ \* Contesto = La libreria voluta tra quelle presenti nella finestra dei contesti attivi
 
 Si presenta la scheda del modello dinamico dell'applicazione : 
 
@@ -27,27 +27,27 @@ Si presenta la scheda del modello dinamico dell'applicazione :
 Questo scenario ha l'obiettivo di visualizzare gli ambienti (liste librerie) e le autorizzazioni applicative impostati.
 
 Per accedere al modello dinamico selezionare : 
- * Scenario = OGG
- * Contesto = Quello desiderato tra quelli attivi
+ \* Scenario = OGG
+ \* Contesto = Quello desiderato tra quelli attivi
 
 Si presenta la scheda del modello dinamico del contesto richiesto : 
 
 ![C£MODI_024](http://localhost:3000/immagini/C£MODI_E/CXMODI_024.png)
 ## Programmi
 L'obiettivo di questo scenario è quello di analizzare le relazioni esistenti tra programmi ed applicazioni e le relazioni tra programmi e altri oggetti : 
- * archivi;
- * librerie;
- * altri programmi;
- * utenti (di creazione o di modifica dei programmi);
- * P.T.F.;
- * /copy utilizzate (dentro il memebro di file MBQILEGEN).
+ \* archivi;
+ \* librerie;
+ \* altri programmi;
+ \* utenti (di creazione o di modifica dei programmi);
+ \* P.T.F.;
+ \* /copy utilizzate (dentro il memebro di file MBQILEGEN).
 
 ### API (/Copy)
 Un utilizzo particolare dello scenario PRO permette di vedere l'elenco delle /Copy utilizzate dai programmi di un'applicazione : 
- * si seleziona l'applicazione;
- * si apre il Tab "Tipo Oggetto";
- * si seleziona il tipo "MB = Membro di un file" > "MBQILEGEN";
- * viene presentata la lista delle /Copy utilizzate.
+ \* si seleziona l'applicazione;
+ \* si apre il Tab "Tipo Oggetto";
+ \* si seleziona il tipo "MB = Membro di un file" > "MBQILEGEN";
+ \* viene presentata la lista delle /Copy utilizzate.
 
 ![C£MODI_025](http://localhost:3000/immagini/C£MODI_E/CXMODI_025.png)
 Un altro modo di raggiungere il modello dinamico di una /Copy è dalla lista generale di tutte le /Copy, che può essere ottenuta selezionando la voce "Servizi e Azioni" dal menù MyLoocUp, oppure dalla scheda di un'applicazione qualsiasi.
@@ -71,8 +71,8 @@ Con dove usato di un oggetto applicativo si intende conoscere, data un'istanza d
 Una volta selezionato un archivio possiamo anche visualizzare in quali record dell'archivio stessol'oggetto è presente.
 
 Per accedere al modello dinamico selezionare : 
- * Scenario = W/U
- * Contesto = L'applicazione voluta tra quelle presenti nella finestra dei contesti attivi
+ \* Scenario = W/U
+ \* Contesto = L'applicazione voluta tra quelle presenti nella finestra dei contesti attivi
 
 Si presenta la scheda del modello dinamico del "Dove Usato" : 
 
@@ -80,13 +80,13 @@ Si presenta la scheda del modello dinamico del "Dove Usato" :
 ## Scenario DOC - Documenti
 L'obiettivo di questo scenario è quello di analizzare le relazioni esistenti tra i documenti.
 In particolare : 
- * Tutti i source file che iniziano con DOC
- * I cataloghi delle immagini, nel soirce file DOC (Nome del Modulo con desinenza _FIG)
- * Tutti i file delle immagini contenuti nella cartella del modulo
+ \* Tutti i source file che iniziano con DOC
+ \* I cataloghi delle immagini, nel soirce file DOC (Nome del Modulo con desinenza _FIG)
+ \* Tutti i file delle immagini contenuti nella cartella del modulo
 
 Per accedere al modello dinamico selezionare : 
- * Scenario = DOC
- * Contesto = L'origine del documento voluto tra quelle presenti nella finestra dei contesti attivi
+ \* Scenario = DOC
+ \* Contesto = L'origine del documento voluto tra quelle presenti nella finestra dei contesti attivi
 
 _2_NOTA BENE
 Per poter importare i file bisogna preparare un archivio contenete l'elenco dei file attraverso le funzioni dell'oggetto PATHDIR.
@@ -102,8 +102,8 @@ Eseguire le seguenti operazioni :
 ## Scenario SCP - Script
 L'obiettivo di questo scenario è quello di analizzare le relazioni esistenti tra gli script e i servizi.
 In particolare : 
- * Tutti i source file che iniziano con SCP
+ \* Tutti i source file che iniziano con SCP
 
 Per accedere al modello dinamico selezionare : 
- * Scenario = SCP
- * Contesto = L'origine del documento voluto tra quelle presenti nella finestra dei contesti attivi
+ \* Scenario = SCP
+ \* Contesto = L'origine del documento voluto tra quelle presenti nella finestra dei contesti attivi

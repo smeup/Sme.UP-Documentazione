@@ -11,20 +11,20 @@ Alla COPY £G99 è associato un deviatore funizzato, B£G99D, per agevolare le c
 ## LIS
 Lista le azioni eseguibili in questo momento su un oggetto di Sme.up.
 Esempi : 
- * Azioni di gestione (modifica, cancellazione...).
- * Azioni da B£H.
- * Navigazioni per oggetto.
- * ...e così via.
+ \* Azioni di gestione (modifica, cancellazione...).
+ \* Azioni da B£H.
+ \* Navigazioni per oggetto.
+ \* ...e così via.
 Si ricorda che la lista di azioni viene caricata dal servizio JATRE_06C sulla base dello script al suo interno oppure delle ridefinizioni per oggetto.
 
 ## ESE
 Esegue direttamente (senza passare per la scelta dalla lista) particolari tipi di azioni, nell'ipotesi che siano eseguibili da un particolare utente in un determinato momento (altrimenti non fa nulla) : 
- * Azioni di gestione (01, 02, ...).
+ \* Azioni di gestione (01, 02, ...).
 
 ## CTR
 Restituisce se per un particolare tipo/parametro di oggetto le azioni sono gestite : 
- * Alla vecchia maniera.
- * Secondo le nuove modalità (£G99MS='NEW').
+ \* Alla vecchia maniera.
+ \* Secondo le nuove modalità (£G99MS='NEW').
 Questa chiamata serve ai programmi di lista (es. BRAR01L) per decidere cosa eseguire e cosa presentare dalla casella opzioni associata alle righe di lista.
 
 ## SCA

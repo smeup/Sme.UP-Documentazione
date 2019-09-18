@@ -16,20 +16,20 @@ NOTA BENE_ :  l'utilizzo di un numero superiore di sezioni rispetto al massimo p
 # Subsezioni
 
 In una sezione è richiamabile una sola subsezione. Nel caso ne venga richiamata più di una ad eccezione della prima le altre verranno ignorate, senza alcuna segnalazione o malfunzionamento.
-Alla subsezione è attribuibile un titolo (compreso il valore *NONE), anche se non è previsto che il tiolo possa essere sovrascritto da servizio o che possa contenere variabili di loocup. Al massimo può contenere quelle da script (cioè quelle con la _&_).
+Alla subsezione è attribuibile un titolo (compreso il valore \*NONE), anche se non è previsto che il tiolo possa essere sovrascritto da servizio o che possa contenere variabili di loocup. Al massimo può contenere quelle da script (cioè quelle con la _&_).
 
 I componenti richiamabili in una subsezione sono praticamente tutti quelli che abbiamo a disposizione come : 
-* Alberi
-* Matrici
-* Input Panel
-* Sezioni Htm
-* Immagini
-* Liste di Immagini
-* OutputPanel
-* Matrice di aggiornamento
-* Calendario
-* Grafici
-* ProgressBar
+\* Alberi
+\* Matrici
+\* Input Panel
+\* Sezioni Htm
+\* Immagini
+\* Liste di Immagini
+\* OutputPanel
+\* Matrice di aggiornamento
+\* Calendario
+\* Grafici
+\* ProgressBar
 Etc.... I pochi componenti non utilizzabili in mobile sono evidenziati nello showcase (Versione mobile), se proveremo a entrare nel loro esempio ci verrà proposto un messaggio informaativo "Componente non ancora supportato in mobile".
 
 Fra i componenti citati, non è inclusa la scheda stessa. Non è infatti possibile richiamare una scheda all'interno di una subsezione.
@@ -44,12 +44,12 @@ Su tali istruzioni è possibile sfruttare le variabili di loocup normalmente pre
 E' inoltre possibile sfruttare l'attributo "Enabled" al fine di condizionare in dinamismo a particolari condizioni.
 
 Sono invece previsti alcuni limiti operativi : 
-* Per ogni evento è prevista al massimo l'esecuzione di un solo dinamismo.
-* Non tutte le forme di dinamismo sono attive, lo sono quelle previste per i componenti utilizzabili, compatibilmente con le funzionalità del device (es. è previsto il When="Click" ma non il When="DblClick").
+\* Per ogni evento è prevista al massimo l'esecuzione di un solo dinamismo.
+\* Non tutte le forme di dinamismo sono attive, lo sono quelle previste per i componenti utilizzabili, compatibilmente con le funzionalità del device (es. è previsto il When="Click" ma non il When="DblClick").
 
 Infine di particolare rilevanza e peculiare del device mobile, è il fatto di poter indicare nel dinamismo l'esecuzione di comandi specifici del device mobile. In particolare mettendo all'interno dell'attributo "Exec" una delle seguenti diciture : 
-* tel : //nnnnnn
-* mailto : //mmmmmm@mmmm.mm
+\* tel : //nnnnnn
+\* mailto : //mmmmmm@mmmm.mm
 Dove "n" sta per il numero di telefono e "m" per l'indirizzo mail, è possibile far partire una telefonata o appunto l'invio di una mail.
 
 # Variabili
@@ -57,10 +57,10 @@ Dove "n" sta per il numero di telefono e "m" per l'indirizzo mail, è possibile 
 Sono anticipato anche al punto precedente, sono gestite tutte le forme di variabili previste per il client loocup, sia quelle gestite dal server (cioè quelle con la "&"), che quelle gestite dal client (cioè quelle indicate fra parentesi quadra).
 
 Sono quindi utilizzabili le variabili : 
-* Create nello script attraverso le istruzioni S.VAR.VAL
-* Rese disponibili dai componenti specifici (es. sull'albero, T1, P1, K1, Fu o sulla matrice quelle corrispondenti ad ogni colonna)
-* Definite negli script di configurazione SCP_CLO
-* Inviate da servizio
+\* Create nello script attraverso le istruzioni S.VAR.VAL
+\* Rese disponibili dai componenti specifici (es. sull'albero, T1, P1, K1, Fu o sulla matrice quelle corrispondenti ad ogni colonna)
+\* Definite negli script di configurazione SCP_CLO
+\* Inviate da servizio
 
 #  Gestione di una scheda tramite IF
 

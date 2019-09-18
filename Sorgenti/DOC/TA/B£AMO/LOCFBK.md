@@ -16,4 +16,4 @@ Il componente FBK non essendo un componente grafico non ha setup o configurazion
 ## Schede di esempio
 Gli esempi del componente sono consultabili tramite la sezione : 
 
- :  : DEC K(Esempi) D(Sezione generale) X(F(EXD;*SCO;) 1(V2;JAGRA;FBK) 2(MB;SCP_SCH;J1GRA) 4(;;ESE)) L(1)
+ :  : DEC K(Esempi) D(Sezione generale) X(F(EXD;\*SCO;) 1(V2;JAGRA;FBK) 2(MB;SCP_SCH;J1GRA) 4(;;ESE)) L(1)

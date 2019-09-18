@@ -44,18 +44,18 @@ Si può implementare una strategia più elaborata di schedulazione, impostando i
 Questa strategia è da utilizzare (anche se non viene eseguito alcun controllo in tal senso) in presenza di risorse specifiche, in quanto la sua funzione è di "spingere" l'impegno su un dettaglio che non sia obbligatoriamente il più scarico. Ciò piò essere fatto, ovviamente, solo se l'impegno ha più di un dettaglio, vale a dire quando sono attive le risorse specifiche.
 
 In questo modo è possibile condizionare la scelta del dettaglio da eseguire in due modi diversi : 
- * quando la spinta è chiamanta con funzione 'DET' essa sostituisce il programma S5SMES_12E, di scelta del dettaglio più scarico per l'impegno ricevuto in £A01, ed il dettaglio ricevuto entra in competizione con gli altri. Il significato di questa strategia è di scegliere il dettaglio più opportuno, in base a considerazioni personali (ad esempio parcheggiate nella memoria della exit di spinta) se non produce un ritardo maggiore di un valore impostato rispetto al dettaglio più scarico.
- * quando la spinta è chiamanta con funzione 'FIN' essa riceve il dettaglio schedulato, e lo può modificare.
+ \* quando la spinta è chiamanta con funzione 'DET' essa sostituisce il programma S5SMES_12E, di scelta del dettaglio più scarico per l'impegno ricevuto in £A01, ed il dettaglio ricevuto entra in competizione con gli altri. Il significato di questa strategia è di scegliere il dettaglio più opportuno, in base a considerazioni personali (ad esempio parcheggiate nella memoria della exit di spinta) se non produce un ritardo maggiore di un valore impostato rispetto al dettaglio più scarico.
+ \* quando la spinta è chiamanta con funzione 'FIN' essa riceve il dettaglio schedulato, e lo può modificare.
 Naturalmente i due richiami sono logicamente in alterrnativa, anche se non viene fatto nessun controllo/forzatura in tal senso.
 Il programma di spinta viene richiamato inoltre
- * con funzione 'INZ' all'inizio della schedulazione.
- * con funzione 'PAR' all'inizio di ogni scelta del dettaglio
+ \* con funzione 'INZ' all'inizio della schedulazione.
+ \* con funzione 'PAR' all'inizio di ogni scelta del dettaglio
 Questi richiami danno la possibilità di preparare e modificare aree di memoria di lavoro utili al processo.
 
 Una modalità 'leggera' di utilizzare questa funzione può essere la seguente (da implementare nel richiamo FIN).
 Dopo aver determinato il dettaglio da eseguire, e posto che esso si possa eseguire su più risorse, lo si devia su un altra risorsa meno scarica se : 
- * sulla risorsa scelta originariamente ci sono altri dettagli pronti ed eseguibili solo su di essa
- * se l'esecuzione sulla nuova risorsa non produce holes nè ritardi inaccettabili.
+ \* sulla risorsa scelta originariamente ci sono altri dettagli pronti ed eseguibili solo su di essa
+ \* se l'esecuzione sulla nuova risorsa non produce holes nè ritardi inaccettabili.
 
 Attenzione :  nella exit di spinta si può ritornare un dettaglio qualsiasi, ed è quindi cura di chi scrive le exit di evitare incongruenze. Ad esempio, nella funzione "DET" si può ritornare un dettaglio estraneo all'impegno ricevuto, e nella funzione "FIN" un dettaglio non appartenente all'impegno del dettaglio scelto.
 

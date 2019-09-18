@@ -4,9 +4,9 @@ Permettere la personalizzazione del collegamento a JAVA
 ## CONTENUTO DEI CAMPI
  :  : FLD T$JA1A __Utente default__
 Si imposta il profilo utente che verrà utilizzato all'atto della connessione da JAVA. È opportuno creare un utente apposito, con le seguenti caratteristiche : 
-_7_INLMNU(*SIGNOFF)
-PWDEXPITV(*NOMAX)
-INLPGM(*NONE)
+_7_INLMNU(\*SIGNOFF)
+PWDEXPITV(\*NOMAX)
+INLPGM(\*NONE)
 In questo modo si impedisce che questo utente possa collegarsi dalla mappa di collegamento. Inoltre la password non ha scadenza, quindi essa non segue l'impostazione della variazione della password definita a livello di sistema.
 **IMPORTANTE** :  Questo Utente viene utilizzato come utente FTP di AS400 nella funzione FTP dello SMENS (£G53).
 In particolare è indispensabile per la fase di creazione cubi (CUBE_UP)

@@ -1,7 +1,7 @@
 ## Contenuto
 Suddivisione dell'importo di una riga contabile.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'MH'                               £FUNT1
  'WK' Se è nel transito             £FUNP1
 

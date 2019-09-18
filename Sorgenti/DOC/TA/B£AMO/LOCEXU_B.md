@@ -6,7 +6,7 @@ Appena dopo la creazione della matrice (generazione della matrice di visualizzaz
 
 Il servizio viene chiamato con : 
 
-- Funzione (£UIBME) *SETUP
+- Funzione (£UIBME) \*SETUP
 - Campo £UIBPA valorizzato con quanto specificato nell'attributo UpdPar nella riga G.SET.MAT della matrice. Il contenuto di tale campo è libero e può servire a passare informazioni per il corretto setup del servizio stesso, oltre che dati aggiuntivi (non contenuti nella riga di matrice) al momento dell'aggiornamento.
 
 
@@ -24,7 +24,7 @@ Il servizio deve restituire un XML contenente informazioni su :
 --- £JayFOB  :  Obbligatorio
 --- £JayFNT  :  Controllo Tipo Oggetto 1=No / 2=Viene eseguito da Loocup
 --- £JayFNC  :  Se valorizzato disabilita il controllo di consistenza del campo
---- £JayFAR  :  (autoenter o avanzamento record) Quando si conferma la cella viene richiamato il servizio di update con funzione *CHECK e nome del campo nel tag FLD di £UIBSS
+--- £JayFAR  :  (autoenter o avanzamento record) Quando si conferma la cella viene richiamato il servizio di update con funzione \*CHECK e nome del campo nel tag FLD di £UIBSS
 --- £JayFLL  :  Lunghezza Campi Numerici
 --- £JayFDD  :  Decimali Campi Numerici
 --- £JayFFM  :  Formato (LC/UC)
@@ -34,7 +34,7 @@ Il servizio deve restituire un XML contenente informazioni su :
 - Aggiornamento con controllo/conferma oppure diretto.
 -- £JayAutChk  :  se valorizzato abilita il pulsante check
 - Inizializzazione record in inserimento
--- £JayIniRow  :  se valorizzato abilita viene eseguita la chiamata con funzione *INIT per inizializzare i campi se viene eseguito un nuovo inserimento
+-- £JayIniRow  :  se valorizzato abilita viene eseguita la chiamata con funzione \*INIT per inizializzare i campi se viene eseguito un nuovo inserimento
 -- £JayFirIns  :  attiva la riga di inserimento automatica
 -- £JayAllIns  :  se attivo chiama il servizio di aggiornamento con TUTTI i record della matrice come nuovi inserimenti. Utile per riprese da Excel.
 - Presenza di eventuali altri tasti funzione, il cui comportamento sarà a discrezione del servizio.
@@ -49,15 +49,15 @@ Il servizio deve restituire un XML contenente informazioni su :
 ## Inizializzazione
 Se abilitata dal setup viene eseguita questa chiamata per inizializzare i campi di un nuovo record.
 
-- Funzione (£UIBME) *INIT
+- Funzione (£UIBME) \*INIT
 - Vanno riempite le schiere con £JayVBef / £JayNumBef con i valori alfa/numerici di ogni colonna con i valori di default. Riempite tali schiere va eseguita la routine £JAY_INIT
 
 
 ## Aggiornamento
 All'atto dell'aggiornamento vero e proprio il servizio viene chiamato con : 
 
-- Funzione (£UIBME) *UPDATE
-- Campo £UIBPA valorizzato in maniera analoga al caso del *SETUP
+- Funzione (£UIBME) \*UPDATE
+- Campo £UIBPA valorizzato in maniera analoga al caso del \*SETUP
 - Campo £UIBD1 contenente i dettagli dell'operazione di aggiornamento, descritti di seguito
 
 
@@ -66,7 +66,7 @@ Ogni Line è identificata da :
 
 - Id, Identificativo Line :  parte da 0 ad ogni sessione (ogni volta che si ricarica la matrice), identifica univocamente l'operazione
 - Op, Tipo operazione :  inserimento / modifica / cancellazione
-- Before :  valori dei campi della matrice prima dell'operazione e numero di riga (ID). Vengono passati solo i campi trattati dal servizio di aggiornamento, cioè quelli dichiarati all'atto del *SETUP
+- Before :  valori dei campi della matrice prima dell'operazione e numero di riga (ID). Vengono passati solo i campi trattati dal servizio di aggiornamento, cioè quelli dichiarati all'atto del \*SETUP
 - After :  valori dei campi modificati dall'utente
 
 
@@ -103,10 +103,10 @@ Alla fine il servizio deve restituire un XML contenente informazioni per il clie
 
 # Altre chiamate (da fare/completare)
 ## Check
-Valorizzando a '1' la variabile £JayAutChk nel SETUP della matrice si abilita un pulsante di controllo, la cui pressione fa partire una chiamata del tutto analoga a un *UPDATE ma con funzione *CHECK.
-Si può condizionare quindi il servizio per non eseguire la scrittura ma solo i controlli quando la funzione è *CHECK.
+Valorizzando a '1' la variabile £JayAutChk nel SETUP della matrice si abilita un pulsante di controllo, la cui pressione fa partire una chiamata del tutto analoga a un \*UPDATE ma con funzione \*CHECK.
+Si può condizionare quindi il servizio per non eseguire la scrittura ma solo i controlli quando la funzione è \*CHECK.
 
 ## Exit
-L'uscita dalla matrice (F12) innesca una chiamata con funzione *EXIT, che può essere gestita dal servizio per eventuali deallocazioni od operazioni simili.
+L'uscita dalla matrice (F12) innesca una chiamata con funzione \*EXIT, che può essere gestita dal servizio per eventuali deallocazioni od operazioni simili.
 
 ## Cmd (in sviluppo)

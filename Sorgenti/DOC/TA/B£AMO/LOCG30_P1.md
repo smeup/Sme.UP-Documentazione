@@ -120,7 +120,7 @@ Purtroppo il componente matrice, quello utilizzato ad esempio per elencare le ri
 - Gestione fuoco quando cambio sezione :  se ho una domanda a scelta in lista prende il fuoco
 - Modificata gestione larghezza campi di input di tipo ObjectField :  la larghezza del campo è determinata dal numero di caratteri e dalla larghezza massima della finestra
 - Modificata gestione forzatura regole, risposta e nota.
-- rimossa l'history dagli oggetti di tipo **
+- rimossa l'history dagli oggetti di tipo \*\*
 - gestito il tasto enter sugli object field :  se all'interno della manutenzione tabelle provocano il salvataggio, negli altri casi provoca il cambio di sezione
 
 
@@ -137,7 +137,7 @@ Purtroppo il componente matrice, quello utilizzato ad esempio per elencare le ri
 ## Versione 10
 
 - Corretta gestione passaggio record precedente / successivo
-- Corretta gestione icone sulla barra del titolo :  non venivano aggiornate quando si utilizzavano i pulsanti per il cambio di configurazione e riportavano *NEW all'inserimento di un nuovo elemento
+- Corretta gestione icone sulla barra del titolo :  non venivano aggiornate quando si utilizzavano i pulsanti per il cambio di configurazione e riportavano \*NEW all'inserimento di un nuovo elemento
 - wizard di script :  nel caso il formato sia "(" vengono gestite le parentesi annidate
 - Corretta gestione XML delle risposte :  se veniva specificato il formato RIS per l'input non veniva caricato l'XML delle risposte.
 - Corretta gestione unlock delle configurazioni dei questionari di tipo RE Q-
@@ -158,7 +158,7 @@ Purtroppo il componente matrice, quello utilizzato ad esempio per elencare le ri
 - bloccato salvataggio se un campo contiene un valore non valido
 - nel caso del G30 Module (le dialog sono escluse) i campi di input risultano non modificabili se mancano i tasti salva o salva con nome
 - manutenzione tabelle :  rimosse icone dalle label debli oggetti
-- manutenzione tabelle :  rimosse icone dagli object field nel caso di oggetti di tipo ** o di tipo non specificato
+- manutenzione tabelle :  rimosse icone dagli object field nel caso di oggetti di tipo \*\* o di tipo non specificato
 
 
 ## Versione 12
@@ -244,15 +244,15 @@ Il comportamento di default è che la lista è mostrata quando ho più di 5 valo
 
 ## Versione 16
 
-- Aggiunta la domanda di servizio *K1 :  consente di definire tramite regole il codice della configurazione. Questa variabile è disponibile solo per i questionari che fanno uso delle domande ausiliarie
+- Aggiunta la domanda di servizio \*K1 :  consente di definire tramite regole il codice della configurazione. Questa variabile è disponibile solo per i questionari che fanno uso delle domande ausiliarie
 - Corretta la gestione dei numeri espressi in forma scientifica.
 
 
 ## Versione 17
 
-- Motore Regole BuildUp - Rimossa la domanda *K1 (vedi Versione 16). Aggiunta in sua vece la domanda di servizio CFG_K1. Aggiunte inoltre le domande ausiliarie CFG_K2 e CFG_K3 per consentire di modificare tramite regole i codici delle chiavi 2 e 3 della configurazione. Se le chiavi di configurazione sono automatiche le regole che modificano le chiavi non hanno effetto.
+- Motore Regole BuildUp - Rimossa la domanda \*K1 (vedi Versione 16). Aggiunta in sua vece la domanda di servizio CFG_K1. Aggiunte inoltre le domande ausiliarie CFG_K2 e CFG_K3 per consentire di modificare tramite regole i codici delle chiavi 2 e 3 della configurazione. Se le chiavi di configurazione sono automatiche le regole che modificano le chiavi non hanno effetto.
 - Motore Regole BuildUp - Aggiunta la funzione setCfgDesc(espressione) che consente di impostare la descrizione associata alla configurazione. Come parametro ammette una qualunque espressione che restituisca un testo.
-- Motore Regole BuildUp - Aggiunta funzione getAuxResp(apice codice_domanda_ausiliaria_senza_asterisco apice) che restituisce il valore delle domande ausiliarie definite in BuildUp. Ad esempio per sapere il nome dell'utente che ha creato la configurazione si utilizza la regola getAuxResp('UC') :  il codice della domanda ausiliaria è *UC. Per conoscere tutte le domande ausiliarie consultare la documentazione.
+- Motore Regole BuildUp - Aggiunta funzione getAuxResp(apice codice_domanda_ausiliaria_senza_asterisco apice) che restituisce il valore delle domande ausiliarie definite in BuildUp. Ad esempio per sapere il nome dell'utente che ha creato la configurazione si utilizza la regola getAuxResp('UC') :  il codice della domanda ausiliaria è \*UC. Per conoscere tutte le domande ausiliarie consultare la documentazione.
 - Motore Regole BuildUp - Aggiunta la funzione ISEMPTY(codice_comanda) che restituisce VERO se alla domanda codice_domanda non è stata fornita una risposta.
 - Wizard Script - Aggiunta la gestione per subsezioni :  se nello script di definizione del questionario all'interno di una sezione si trovano delle righe che iniziano con " : XXXX" indico che la sezione è composta da subsezioni. Il wizard mostrerà una finestra con n tab, uno per ogni subsezione.
 - Wizard Script -  Gestire anche le domande configurate a risposta singola. Il formato dell'output è identico a quello delle domande non configurate. A differenza dell'uso in BuildUp, dove il formato della risposta cambia, l'utilizzo delle domande configurate a risposta singola negli script è solo un modo di organizzare graficamente la disposizione delle domande.

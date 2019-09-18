@@ -82,7 +82,7 @@ FGr|Forma grafica  (Se vuota assunta dall'azione)
 La scrittura dell'SQL deve essere sempre spaziata, altrimenti la derivazione dell'ordinamento non produrrà l'effetto desiderato.
 Scrivere sempre "campo = valore" e non "campo=valore"
 La Where viene utilizzata per costruire l'ordinamento nella variabile A16CM, per questo motivo descrivere i campi nella sequenza desiderata.
-E' possibile eseguire la seguente funzione per verificare il contenuto della memoria "F(EXD;*SCO;) 1([T1];[P1];[K1]) 2(MB;SCP_SCH;LOA16) 4(;;MEM) P(Scp([Scp]) Gru([Gru]) Str([Str]))"
+E' possibile eseguire la seguente funzione per verificare il contenuto della memoria "F(EXD;\*SCO;) 1([T1];[P1];[K1]) 2(MB;SCP_SCH;LOA16) 4(;;MEM) P(Scp([Scp]) Gru([Gru]) Str([Str]))"
 
 Si può definire più esecuzioni allo stesso livello, bisogna però tener presente che : 
 Le funzioni ad esso associate verranno determinate dall'oggetto definito sul livello stesso.

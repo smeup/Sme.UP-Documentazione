@@ -3,38 +3,38 @@
 Il modulo A37 è un'interfaccia che permette di inviare o ricevere dati di campo, pertanto è un costruttore che permette di interfacciare dispositivi, ricevendo dati in ingresso, richiamando pertanto programmi di exit, o inviando dati a dispositivi, pertanto impartendo comandi, in quest'ultimo caso utilizzando il provider tramite l'API specifica K10.
 
 Il costruttore A37 è costituto da 5 entità : 
-* una scheda :  LOA37
-* una servizio base :  LOA37_SE
-* script SCP_SET specifici Sme.UP o utente :  LOA37_xx
-* programmi specifici Sme.UP o utente che vengono richiamati dai dispositivi :  LOA37_xx
-* programmi specifici Sme.UP o utente che richiamano i dispositivi tramite l'API K10
+\* una scheda :  LOA37
+\* una servizio base :  LOA37_SE
+\* script SCP_SET specifici Sme.UP o utente :  LOA37_xx
+\* programmi specifici Sme.UP o utente che vengono richiamati dai dispositivi :  LOA37_xx
+\* programmi specifici Sme.UP o utente che richiamano i dispositivi tramite l'API K10
 
 ## Funzionamento
 Lo Sme.UP Provider alla sua attivazione, tramite il servizio LOA37_SE, interpreta gli script di interfaccia ai dispositivi.
 
 Negli script vengono definite le istanze della classe SESUB.A37 nel formato xx.yyy.zzz : 
-* xx è il gruppo, corrisponde al nome dello script LOA37_xx
-* yyy è la sezione definita all'interno dello script
-* zzz è la subsezione definita all'interno dello script
+\* xx è il gruppo, corrisponde al nome dello script LOA37_xx
+\* yyy è la sezione definita all'interno dello script
+\* zzz è la subsezione definita all'interno dello script
 
 ### Avvio : 
-* Chiede la lista delle reti presenti al LOA37_SE.
-* Per ogni rete, chiede lista delle SEZ presenti (tabella degli attributi del SEZ).
-* Per ogni SEZ istanzia la classe in base a  :  : A37.CLSSEZ
-* Per ogni sezione chiede la configurazione (lista di A37.CNFSEZ). Passa la conf alla classe nel metodo init(Smeup smeup)
-* Per ogni sezione chiede la lista delle SUB
-* Per ogni SUB chiede la sua configurazione (A37.SUBVAR o A37.SUBOPC)
-* Per ogni SUB chiede la struttura del suo messaggio verso AS400
+\* Chiede la lista delle reti presenti al LOA37_SE.
+\* Per ogni rete, chiede lista delle SEZ presenti (tabella degli attributi del SEZ).
+\* Per ogni SEZ istanzia la classe in base a  :  : A37.CLSSEZ
+\* Per ogni sezione chiede la configurazione (lista di A37.CNFSEZ). Passa la conf alla classe nel metodo init(Smeup smeup)
+\* Per ogni sezione chiede la lista delle SUB
+\* Per ogni SUB chiede la sua configurazione (A37.SUBVAR o A37.SUBOPC)
+\* Per ogni SUB chiede la struttura del suo messaggio verso AS400
 
 ### Messaggio dal mondo esterno : 
-* la periferica registra un evento ed il plugin che gestisce la SEZ deve generare un evento che svegli il framework.
-* crea il messaggio usando la definizione della SUB che lo descrive
-* controlla le variabili dell'msg e se non sono congruenti alla configurazione manda exception
-* chiama il metodo smeup.sendMessage()
-* Il framework deve mandare un msg all'as400
-** se tutto ok chiama F(INT;LOA37_SE;SND.MSG) 1(SE;SUB.A37;xyz.ttt.kkk) INPUT(MSG(VAR1(VAL1) VAR2(VAL2)))
-* loA37 prepara le schiere per la exit e chiama la exit
-** se la exit torna errore, o il LOA37_SE non trova la exit, o altri errori, LOA37_SE genera messaggio xml
+\* la periferica registra un evento ed il plugin che gestisce la SEZ deve generare un evento che svegli il framework.
+\* crea il messaggio usando la definizione della SUB che lo descrive
+\* controlla le variabili dell'msg e se non sono congruenti alla configurazione manda exception
+\* chiama il metodo smeup.sendMessage()
+\* Il framework deve mandare un msg all'as400
+\*\* se tutto ok chiama F(INT;LOA37_SE;SND.MSG) 1(SE;SUB.A37;xyz.ttt.kkk) INPUT(MSG(VAR1(VAL1) VAR2(VAL2)))
+\* loA37 prepara le schiere per la exit e chiama la exit
+\*\* se la exit torna errore, o il LOA37_SE non trova la exit, o altri errori, LOA37_SE genera messaggio xml
 
 All'interno dello script vengono pertanto indicate le chiamate provenienti dai dispositivi,
 oppure dal server verso i dispositivi, definendo le relative variabili di input o di output.
@@ -47,18 +47,18 @@ l'oggetto 6 contiene NR, un numero positivo che indica la qualità del pacchetto
 
 
 ### Messaggio dall'as400
-* pgm crea un messaggio e chiama la /COPY £K10 e passando la SUB.A37
-* la £K10 controlla che le variabili inviate siano dichiarate (nessuna in più, va bene in meno)
-* la £K10 crea la fun  F(INT;JA_00_51;SND.OUT) 1(SE;GRU.A37;IN) 2(SE;SEZ.A37;IN.C01)  3(SE;SUB.A37;IN.C01.L00) INPUT(MSGOUT(var1(val1) var2(val2)))
-* La copy logga le operazione effettuate (appoggiarsi al PHTRAC)
-* chiama la £G64
-** attende la risposta -> se timeout, errore
-* il JA_00_51 cerca la classe (già istanziata!) in mappa . Chiama invoke(Message msg).
-* compone la risposta in xml per la £K10
-** La risposta è un XML di matrice, speculare a quello inviato dal loa37, cioè contenente un <Messaggio> (ok, errore),  e il valore della variabili di risposta (nel caso sia prevista)
-* La £K10 , leggendo questo xml, lo traduce in una risposta per il programma rpg chiamante, quindi : 
-** messaggio con esito
-** eventuali variabili di risposta restituite in schiera
+\* pgm crea un messaggio e chiama la /COPY £K10 e passando la SUB.A37
+\* la £K10 controlla che le variabili inviate siano dichiarate (nessuna in più, va bene in meno)
+\* la £K10 crea la fun  F(INT;JA_00_51;SND.OUT) 1(SE;GRU.A37;IN) 2(SE;SEZ.A37;IN.C01)  3(SE;SUB.A37;IN.C01.L00) INPUT(MSGOUT(var1(val1) var2(val2)))
+\* La copy logga le operazione effettuate (appoggiarsi al PHTRAC)
+\* chiama la £G64
+\*\* attende la risposta -> se timeout, errore
+\* il JA_00_51 cerca la classe (già istanziata!) in mappa . Chiama invoke(Message msg).
+\* compone la risposta in xml per la £K10
+\*\* La risposta è un XML di matrice, speculare a quello inviato dal loa37, cioè contenente un <Messaggio> (ok, errore),  e il valore della variabili di risposta (nel caso sia prevista)
+\* La £K10 , leggendo questo xml, lo traduce in una risposta per il programma rpg chiamante, quindi : 
+\*\* messaggio con esito
+\*\* eventuali variabili di risposta restituite in schiera
 
 ## Definizione nello script SCP_SET
 Nel dettaglio questi sono i tag previsti nello script ed i relativi attributi principali : 
@@ -87,13 +87,13 @@ Negli script è pertanto possibile definire la ricezione di informazioni da disp
 ### DO - ENDDO
 Permettono di definire una parte di script ripetitiva per un certo oggetto (un ciclo su una lista ddi oggetti). La zona ripetiva inizia con DO finisce con un'istruzione ENDDO. Tutte le istruzioni incluse verrano ripetute per tutti gli oggetti che verrano ritornati dal programma o dalla lista indicata in questo tag. All'interno delle istruzioni potrò poi utilizzare il codice &CO.Cod per indicare dove sostiure il codice del singolo oggetto ottenuto dal loop.
 Nel caso sia defnito un **programma esterno** di caricamento gli attributi sono : 
-* Pgm :  programma che si occupa di ritornare gli oggetti per i quali le istruzioni incluse nel loop dovranno essere eseguite. Come programma di esempio vedere il programma **LOA11_01**, è stato il primo programma ad utilizzare la gestione di un loop, non è specifico per l'uso esclusivo nell'A11, pertanto è un programma di esempio distribuito che può essere usato così com'è anche nell'A37.
-* Mod :  passo funzione/metodo del programma stesso.
-* Par :  posso passare un serie di parametri al programma specifico.
+\* Pgm :  programma che si occupa di ritornare gli oggetti per i quali le istruzioni incluse nel loop dovranno essere eseguite. Come programma di esempio vedere il programma **LOA11_01**, è stato il primo programma ad utilizzare la gestione di un loop, non è specifico per l'uso esclusivo nell'A11, pertanto è un programma di esempio distribuito che può essere usato così com'è anche nell'A37.
+\* Mod :  passo funzione/metodo del programma stesso.
+\* Par :  posso passare un serie di parametri al programma specifico.
 
 Nel caso in cui voglia ottenere degli oggetti da una **lista** : 
-* Lis :  codice della lista.
-* Par :  parametro della lista.
+\* Lis :  codice della lista.
+\* Par :  parametro della lista.
 
 ### Utilizzo del programma LOA11_01 per il caricamento di un elenco di oggetti
 **Caricamento tramite SQL**
@@ -110,7 +110,7 @@ La modalità Mod="OGG" prevede che il parametro contenga degli attributi Tip() P
 
 **Caricamento di una matrice**
 Esempio : 
-     :  : DO Pgm="LOA11_01" Mod="SER" Par="F(EXB;LOA10_SE;ELE) 1(LI;CNCLI;*)" CExb="3" PExb="CNCLI" Des="Tutti i clienti da servizio"
+     :  : DO Pgm="LOA11_01" Mod="SER" Par="F(EXB;LOA10_SE;ELE) 1(LI;CNCLI;\*)" CExb="3" PExb="CNCLI" Des="Tutti i clienti da servizio"
 
 La modalità Mod="SER" prevede che il parametro contenga una funzione di albero o di matrice sulle cui righe ciclare.
 I parametri CExb e PExb indicano rispettivamente l'indice numerico della colonna sui cui valori di cella impostare il DO ed il tipo di istanza di tali valori

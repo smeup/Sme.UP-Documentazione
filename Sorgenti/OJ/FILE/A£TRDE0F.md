@@ -2,12 +2,12 @@
 
 Traduzione nelle diverse lingue delle frasi di Sme.UP.
 Queste traduzioni vengono utilizzate : 
- * Per generare/compilare oggetti in lingua (display file, message file, printer file).
- * A run time per tradurre altri oggetti di Sme.UP (ad esempio le frasi nei programmi).
+ \* Per generare/compilare oggetti in lingua (display file, message file, printer file).
+ \* A run time per tradurre altri oggetti di Sme.UP (ad esempio le frasi nei programmi).
 
 Due tipologie di frasi vengono tradotte : 
- * Frasi presenti in A£TROR0F (frasi standard o personali), con relativi contesti ed ambiti.
- * Frasi personalizzate (frasi in ambito 00 che solo in A£TRDE0F vengono copiate in ambiti >=10 al fine di personalizzare la traduzione, per una lingua specifica).
+ \* Frasi presenti in A£TROR0F (frasi standard o personali), con relativi contesti ed ambiti.
+ \* Frasi personalizzate (frasi in ambito 00 che solo in A£TRDE0F vengono copiate in ambiti >=10 al fine di personalizzare la traduzione, per una lingua specifica).
 
 ## Oggettizzazione
 Nessuna.

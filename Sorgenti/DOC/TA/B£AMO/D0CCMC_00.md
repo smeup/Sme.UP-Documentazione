@@ -11,7 +11,7 @@ Per vedere in che libreria si trova la QBATCHUI usare il comando
 - WO QBATCHUI
 Per creare la coda QBATCHD0 usare il comando
 - CRTJOBQ JOBQ(SMESYS_SM/QBATCHD0) TEXT('Coda per Costi')
-  AUTCHK(*DTAAUT)
+  AUTCHK(\*DTAAUT)
 Per associare la coda al sottosistema QBATCH usare la procedura : 
 1. Verficare il numero di sequenza disponible con il comando
    DSPSBSD SBSD(QBATCH)
@@ -36,7 +36,7 @@ E' una nuova tabella.
  :  : CMD UP FTB
  :  : FIN
 
-_7_Tabella D0*
+_7_Tabella D0\*
 E' una nuova tabella.
  :  : INI Importare la sua definizione dalla SMETAB
  :  : CMD UP FTB
@@ -50,26 +50,26 @@ E' una nuova tabella.
 
 _7_Tabella IGI
 Sono stati aggiunti i nuovi campi : 
-* T$IGIS Rilcassifica C
-* T$IGIT Rilcassifica D
-* T$IGIU Liv.Inf.Corrispondente
+\* T$IGIS Rilcassifica C
+\* T$IGIT Rilcassifica D
+\* T$IGIU Liv.Inf.Corrispondente
  :  : INI Importare la sua definizione dalla SMETAB
  :  : CMD UP FTB
  :  : FIN
 
 _7_Tabella TCO
 Sono stati aggiunti i nuovi campi : 
-* T$TCOP Liv.Costo Assunto
-* T$TCOJ Costo Totale
-* T$TCOK Natura costo
+\* T$TCOP Liv.Costo Assunto
+\* T$TCOJ Costo Totale
+\* T$TCOK Natura costo
  :  : INI Importare la sua definizione dalla SMETAB
  :  : CMD UP FTB
  :  : FIN
 
 _7_Tabella D0D
 Sono stati aggiunti i nuovi campi : 
-* D0D(19) Comp.Mat.(Liv.Inf.)
-* D0D(20) Comp.Sca.(Liv.Inf.)
+\* D0D(19) Comp.Mat.(Liv.Inf.)
+\* D0D(20) Comp.Sca.(Liv.Inf.)
  :  : INI Importare la sua definizione dalla SMETAB
  :  : CMD UP FTB
  :  : FIN
@@ -102,28 +102,28 @@ _7_Tabella D0D
  :  : DEC T(TA) P(D0D) K(££)
 
 >TABELLE PER LA GESTIONE DELLA DISTINTA NELLA DOCUMENTAZIONE DI CALCOLO
-_7_Tabella *CNAA
- :  : DEC T(TA) P(*CNAA) K(£D)
+_7_Tabella \*CNAA
+ :  : DEC T(TA) P(\*CNAA) K(£D)
 _7_Tabella BRL
  :  : DEC T(TA) P(BRL) K(£D0)
 
 >TABELLE GENERICHE D0
-_7_Tabella D0*CI
- :  : DEC T(OG) P() K(TAD0*CI)
-_7_Tabella D0*EL
- :  : DEC T(OG) P() K(TAD0*EL)
-_7_Tabella D0*ER
- :  : DEC T(OG) P() K(TAD0*ER)
-_7_Tabella D0*ET
- :  : DEC T(OG) P() K(TAD0*ET)
-_7_Tabella D0*FA
- :  : DEC T(OG) P() K(TAD0*FA)
-_7_Tabella D0*FS
- :  : DEC T(OG) P() K(TAD0*FS)
-_7_Tabella D0*FT
- :  : DEC T(OG) P() K(TAD0*FT)
-_7_Tabella D0*TR
- :  : DEC T(OG) P() K(TAD0*TR)
+_7_Tabella D0\*CI
+ :  : DEC T(OG) P() K(TAD0\*CI)
+_7_Tabella D0\*EL
+ :  : DEC T(OG) P() K(TAD0\*EL)
+_7_Tabella D0\*ER
+ :  : DEC T(OG) P() K(TAD0\*ER)
+_7_Tabella D0\*ET
+ :  : DEC T(OG) P() K(TAD0\*ET)
+_7_Tabella D0\*FA
+ :  : DEC T(OG) P() K(TAD0\*FA)
+_7_Tabella D0\*FS
+ :  : DEC T(OG) P() K(TAD0\*FS)
+_7_Tabella D0\*FT
+ :  : DEC T(OG) P() K(TAD0\*FT)
+_7_Tabella D0\*TR
+ :  : DEC T(OG) P() K(TAD0\*TR)
 
 >TABELLE PER LA GESTIONE DEGLI ERRORI
 _7_Tabella D0E
@@ -150,8 +150,8 @@ _7_Tabella B£WD0
  :  : DEC T(TA) P(B£WD0) K(90)
 
 >TABELLE PER LA GESTIONE DI CICLI E DISTINTE CONFIGURATE
-_7_Tabella *CNAA
- :  : DEC T(TA) P(*CNAA) K(£C)
+_7_Tabella \*CNAA
+ :  : DEC T(TA) P(\*CNAA) K(£C)
 _7_Tabella BRL :  Work Sme.up per costi medi
  :  : DEC T(TA) P(BRL) K(£DW)
 _7_Tabella BRL :  Work Sme.up per set'n play costi
@@ -219,11 +219,11 @@ Contiene gli inidici della IGI dove far confluire i costo dei materiali, delle l
 _7_Tabella D5S
 Tabella che gestisce i contesti dei costi.
 Sone gestiti i contesti : 
-* AR    Articolo.
-* OR    Ordine produzione.
-* DRXXX Riga documento, dove XXX è il tipo documento.
-* LO    Lotto
-* CC    Cetro di costo
+\* AR    Articolo.
+\* OR    Ordine produzione.
+\* DRXXX Riga documento, dove XXX è il tipo documento.
+\* LO    Lotto
+\* CC    Cetro di costo
  :  : DEC T(ST) K(D5S)
 
 _7_Tabella D5O
@@ -281,10 +281,10 @@ Nella calcolo costi base(ciclo e distinta), è possibile decidere in tabella D01
 Durante il calcolo del costo di un padre è pertanto necessario sapere la politica di ciascun componente.
 Per velocizzare e rendere più precisa questa informazione si è deciso di memorizzare in un flag nel D5COSO0F la politica con cui è stato calcolato un costo.
 Con seguenti valori : 
-* "A" Politca acqusito
-* "L" Politica lavorazione
-* "P" Politica produzione
-* "*" Politica mista
+\* "A" Politca acqusito
+\* "L" Politica lavorazione
+\* "P" Politica produzione
+\* "\*" Politica mista
 E' stato implementato un programma che attibuisce allo strorico di tutti i costi di tutti gli articoli presenti nel D5COSO la sua politica ad oggi.
 L'aggiornamento dello storico è facoltativo. Serve solo se si fanno risalite su costi storici. Per i nuovi costi viene automaticamente aggiornata dal calcolo
  :  : INI Eseguire il programma di aggiornamento del flag 01 nel D5COSO0F
@@ -304,10 +304,10 @@ Si consiglia di NON costruire di massa tutti i tipi costo ma solo quelli che si 
 ## Tipi costo base
 Il tipo costo base proposto da Sme_up è "I20".
 Per i suo calcolo sono necessari cicli, distinte e  i seguenti tipi costo : 
-* "A01" Aliquote
-* "I01" Ultima lavorazione
-* "I02" Ultimo acquisto
-* "I03" Ultima lavorazione di fase
+\* "A01" Aliquote
+\* "I01" Ultima lavorazione
+\* "I02" Ultimo acquisto
+\* "I03" Ultima lavorazione di fase
 come si può vedere dal set'n play del tipo costo "I20".
 Il set'n play otre ad sver costruito il tipo costo, ha generato anche tutte le sue MDV per il relativo calcolo.
 Eseguendo i due programmi di calcolo D0CO01A per la simulazione, e il D0CO01B per il calcolo batch, si trovano già tutte le impostazioni memorizzate come "AR-I20"

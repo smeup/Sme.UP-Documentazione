@@ -11,6 +11,6 @@ N.B.  :  il tipo di FORMA '1' o '2'  è un dato obbligatorio.
 
 Atri valori possono essere richiesti, immettendo un qualunque carattere accanto alle altre forme di stampa previste.
 
- * Un solo elemento per pagina; Verrà stampato ogni elemento della tabella su una nuova pagina.
- * Commenti elemento ; Verranno stampati eventuali commenti legati all'elemento di tabella.
- * Commenti settore; Verranno stampati eventuali commenti legati al settore di tabella.
+ \* Un solo elemento per pagina; Verrà stampato ogni elemento della tabella su una nuova pagina.
+ \* Commenti elemento ; Verranno stampati eventuali commenti legati all'elemento di tabella.
+ \* Commenti settore; Verranno stampati eventuali commenti legati al settore di tabella.

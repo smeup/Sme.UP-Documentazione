@@ -25,11 +25,11 @@ Dati di input della £CIR per esplosione di produzione ad eccezione della data d
 £CRB     Schiera date inizio periodo
 £CRF     Schiera date fine periodo
 £CIRNC - N.ro del componente di costo o di carico da esplodere nel seguente formato COSxx / CARxx (xx = 01 - 10) :                 è significativo solo se il metodo non è 'SING'
-£CIRBJ - Se inmpostata è la B£J che individua le risorse secondarie da scandire (è il metodo della £BRR con funzione POS),                se lasciato a blanks, si imposta *RPS. NB :  questo campo, come del resto i rimanenti campi di input, viene ripulito dopo ogni chiamata.
+£CIRBJ - Se inmpostata è la B£J che individua le risorse secondarie da scandire (è il metodo della £BRR con funzione POS),                se lasciato a blanks, si imposta \*RPS. NB :  questo campo, come del resto i rimanenti campi di input, viene ripulito dopo ogni chiamata.
 
 # Output
           Dati di ritorno della £CIR
-          *IN35  :  ON per fine scansione
+          \*IN35  :  ON per fine scansione
  £CRZ     Schiera quantità calcolata distribiuta nel tempo
  £CIRMS  'PRI'  :  se risorsa principale
    ,,    'NEW'  :  all'inizio di ogni nuovo tipo di risorsa sec
@@ -45,7 +45,7 @@ D/COPY QILEGEN,£CIRTE
 # Esempio di chiamata
 
      C                   CLEAR                   £CIRSP
-     C                   DO        *HIVAL
+     C                   DO        \*HIVAL
      C
      C                   EVAL      £CIRFU=Funzione
      C                   EVAL      £CIRME=Metodo
@@ -60,7 +60,7 @@ D/COPY QILEGEN,£CIRTE
      C                   EVAL      £CIRI1=Par.condiz.1
      C                   EVAL      £CIRNC=N.Comp.costo/carico
      C                   EXSR      £CIRT
-     C                   IF        £CIR35=*ON
+     C                   IF        £CIR35=\*ON
      C                   LEAVE
      C                   ENDIF
      C

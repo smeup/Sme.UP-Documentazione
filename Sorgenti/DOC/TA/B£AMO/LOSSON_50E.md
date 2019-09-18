@@ -11,19 +11,19 @@ Aver installato una versione V3R1 o successiva.
 
 ## PREREQUISITI PC
 
- * Il PC deve essere in dominio Active Directory 2003 o successivo, e deve essere raggiungibile il Domain Controller.
- * Deve utilizzare un S.O. Windows XP SP2 o SP3, oppure Windows 7. Non sono stati compiuti test con Windows Vista.
+ \* Il PC deve essere in dominio Active Directory 2003 o successivo, e deve essere raggiungibile il Domain Controller.
+ \* Deve utilizzare un S.O. Windows XP SP2 o SP3, oppure Windows 7. Non sono stati compiuti test con Windows Vista.
 Nessuna versione Home ha il supporto per Kerberos (non sono associabili a un dominio AD).
- * Deve essere installata una JVM 6.0 (1.6.0) a 32 bit.
- * L'autenticazione Kerberos deve essere abilitata apportando una modifica al registro di Windows. L'installazione standard di Windows disabilita questa funzionalità.
+ \* Deve essere installata una JVM 6.0 (1.6.0) a 32 bit.
+ \* L'autenticazione Kerberos deve essere abilitata apportando una modifica al registro di Windows. L'installazione standard di Windows disabilita questa funzionalità.
 Per l'attivazione sono stati predisposti due file .reg per automatizzare la modifica al registro.
 Si trovano nel tool SSO_krb, scaricabile da : 
 [http://erp.smeup.com/loocup_downloads/tools/krbtool.zip](http://erp.smeup.com/loocup_downloads/tools/krbtool.zip)
 
 oppure all'interno del DVD della DEV.
 Sono specifici per versione del sistema operativo : 
- ** per Windows 7 utilizzare il file :  attiva SSO kerberos Win-7.reg
- ** per Windows XP SP2 o SP3 utilizzare il file :  attiva SSO kerberos Win-XP.reg.
+ \*\* per Windows 7 utilizzare il file :  attiva SSO kerberos Win-7.reg
+ \*\* per Windows XP SP2 o SP3 utilizzare il file :  attiva SSO kerberos Win-XP.reg.
 Per impostare la chiave è sufficiente fare doppio click sul file.
 
 
@@ -129,12 +129,12 @@ Per verificare che il file krb5.conf sia configurato correttamente si può utili
 Va scompattato l'archivio.
 
 Nella cartella krb sono presenti i seguenti file : 
- * Jaas.conf :  file utilizzato dalle api GSS. NON MODIFICARE
- * Jaasazn.policy :  file utilizzato dalle api GSS. NON MODIFICARE
- * Krb5.conf :  il file che configura la connessione Kerberos
- * Krb.jar :  il programma che esegue la connessione (necessita della JVM 1.6.0_xx)
- * Krb.properties :  il file che indica l'ISERIES a cui accedere e attiva la modalità di debug.
- * Leggimi.txt :  contiene informazioni su come eseguire i test
+ \* Jaas.conf :  file utilizzato dalle api GSS. NON MODIFICARE
+ \* Jaasazn.policy :  file utilizzato dalle api GSS. NON MODIFICARE
+ \* Krb5.conf :  il file che configura la connessione Kerberos
+ \* Krb.jar :  il programma che esegue la connessione (necessita della JVM 1.6.0_xx)
+ \* Krb.properties :  il file che indica l'ISERIES a cui accedere e attiva la modalità di debug.
+ \* Leggimi.txt :  contiene informazioni su come eseguire i test
 
 Come per Loocup, è necessario configurare il file krb5.conf, indicando il dominio e il CD.
 A differenza di Loocup, per indicare l'ISERIES a cui connettersi bisogna utilizzare krb.properties. La proprietà debug=true abilita un output molto dettagliato sulla connessione.

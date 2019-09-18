@@ -5,8 +5,8 @@ Il software Smens e Smedg può essere installato direttamente su AS400 o sui var
 
 - Assicurarsi di avere installato sull'AS/400 l'ambiente Java : 
 -- Lanciare GO LICPGM selezionare l'opzione 10 e controllare di avere installato i programmi (XX varia a seconda del sistema) : 
---- 57XXJC1    *COMPATIBLE  AS/400 Toolbox for Java
---- 57XXJV1    *COMPATIBLE  AS/400 Developer Kit for Java
+--- 57XXJC1    \*COMPATIBLE  AS/400 Toolbox for Java
+--- 57XXJV1    \*COMPATIBLE  AS/400 Developer Kit for Java
 - Verificare la corretta esistenza dell'ambiente Java sull'AS400 aprendo una shell di comando con STRQSH e digitando il comando java -version , se il sistema è correttamente configurato il sistema dovrebbe rispondere con qualcosa di simile a  versione java "1.5.0" $  (ovviamente 1.5.0 cambierà se la JVM installata è diversa)
 
 Per sistemi di OS in versione 7.1 o successivi, potrebbe cambiare l'organizzazione dei programmi su licenza.
@@ -233,4 +233,4 @@ E' inoltre attivabile un file di trace nella cartella Smeup/trace relativa al pe
 I file PDF generati con SmeDG permettono l'impostazione di una password a protezione della modifica del documento. Il comportamento di default è quello di generare files non protetti in lettura ma bloccati in modifica. E' possibile però gestire delle eccezioni.
 Nella generazione di PDF tramite £G53 è infatti possibile impostare la password di modifica attraverso il parametro £G53MP. Tale parametro permette appunto di creare PDF con password di modifica personalizzata.
 Se tale parametro è vuoto La /copy verificherà la presenza di un valore nel capo T$JA1H della tabella JA1. Attraverso questo campo è quindi possibile definire una password di modifica per tutti i PDF generati dalla £G53. Se tale campo è vuoto viene mantenuta la password di modifica hard-coded.
-Vale sempre la regola che per disabilitare la presenza della password di modifica va usato il valore *NONE.
+Vale sempre la regola che per disabilitare la presenza della password di modifica va usato il valore \*NONE.

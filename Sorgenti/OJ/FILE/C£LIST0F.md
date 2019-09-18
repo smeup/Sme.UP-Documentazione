@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni di valori collegati ad una griglia di oggetti.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'LS'                          £FUNT1
 ## Chiave primaria
 Identificativo      (LS)      £FUNK1

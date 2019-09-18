@@ -11,7 +11,7 @@ Si possono vedere gli utilizzi nella scheda del modulo A£LING
 ## OGGETTI COLLEGATI
  :  : DEC T(TA) P(B£AMO) K(A£LING)
 
- :  : PRO.SER Cod="LIS.RIE.1" Tit="Lista. Risultato" Fun="F(EXB;V5SER_11;LIS.RIE) 1(VD;;-(O;;VD;)) P( VA(-(F;;**;Mde)) VA(-(F;;**;Std)) VA(-(F;;**;Azi)) VA(-(F;;**;Dim)) VA(-(F;;**;Mis)) VA(-(F;;**;Whe)))"
+ :  : PRO.SER Cod="LIS.RIE.1" Tit="Lista. Risultato" Fun="F(EXB;V5SER_11;LIS.RIE) 1(VD;;-(O;;VD;)) P( VA(-(F;;\*\*;Mde)) VA(-(F;;\*\*;Std)) VA(-(F;;\*\*;Azi)) VA(-(F;;\*\*;Dim)) VA(-(F;;\*\*;Mis)) VA(-(F;;\*\*;Whe)))"
 
  :  : PRO.SER Cod="LIS.RIE.2" Tit="Lista. Risultato" Fun="F(REP;V5SER_11;LIS.RIE)" Ref="LIS.RIE.1"
 

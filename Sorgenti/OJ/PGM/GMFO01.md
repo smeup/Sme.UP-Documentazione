@@ -4,9 +4,9 @@
 La foto giacenza è una immagine della giacenza che viene salvata per usi di carattere gestionale o fiscale.
 
 La foto può : 
- * essere valorizzata con un tipo / livello costo
- * essere memorizzata senza costi e valorizzata successivamente
- * essere valorizzata dinamicamente in fase di stampa.
+ \* essere valorizzata con un tipo / livello costo
+ \* essere memorizzata senza costi e valorizzata successivamente
+ \* essere valorizzata dinamicamente in fase di stampa.
 Nel creare una foto prima di tutto occorre inserire un elemento (codice della foto) nella tabella GMW, la data foto sarà libera o bloccata a seconda che in tabella sia stata inserita o meno la data.
 Se la data è libera sarà possibile memorizzare diverse foto con lo stesso codice e data diversa.
 Se è selezionata la "_2_Costruzione" e se la foto / data già esiste il sistema sovrascrive altrimenti ci sarà solo un completamento di dati (es. valorizzazione).
@@ -15,10 +15,10 @@ In fase di costruzione foto è possibile inibire la stampa che esce di default e
 
 ### Particolarità
 Compilando opportunamente la tabella GMY - sottosettore è possibile applicare regole di valorizzazione diverse per : 
- * Area / Tipo giacenza / OAV articolo
- * Area / Tipo giacenza
- * Area
- * **
+ \* Area / Tipo giacenza / OAV articolo
+ \* Area / Tipo giacenza
+ \* Area
+ \* \*\*
 _2_Nota Bene; per garantire la congruenza dei dati è opportuno costruire la foto in un momento in cui non vengono registrati movimenti di magazzino.
 
 ## Creazione foto - formato di lancio

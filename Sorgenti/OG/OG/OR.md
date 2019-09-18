@@ -8,4 +8,4 @@ e di impegni risorse
  :  : DEC T(OG) K(IR)
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(P5TEOP0F)
+ :  : DEC T(OJ) P(\*FILE) K(P5TEOP0F)

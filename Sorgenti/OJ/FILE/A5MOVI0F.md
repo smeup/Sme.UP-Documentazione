@@ -1,7 +1,7 @@
 ## Contenuto
 Movimenti dei cespiti.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'A5'                               £FUNT1
 
 ## Chiave primaria
@@ -20,7 +20,7 @@ La natura di questo movimento è definita dalla tabella :
 ## Autorizzazioni
 La classe di autorizzazione è A5MO01.
 La funzione di autorizzazione è il programma in cui si esegue il controllo : 
- * A5MO01G   -    Formato guida
+ \* A5MO01G   -    Formato guida
 
 ### Note strutturate (Tabella NSC)
 Il contenitore si assume dalla tabella A5W (Inizializzazioni A5), collegata alla causale del movimento del cespite (Tab. A5B).

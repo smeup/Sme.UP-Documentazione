@@ -63,10 +63,10 @@ Per degli esempi dettagliati sulle colonne aggiuntive riferirsi a
 ## PopUp colonne
 ![LOCEXB_071](http://localhost:3000/immagini/MBDOC_OPE-LOCEXB_A2/LOCEXB_071.png)
 Sulle colonne ci sono vari voci del PopUp : 
- * Le totalizzazioni, che sono operazioni che si possono eseguire su una colonna di tipo numerico. Queste funzioni sono :  somma, media, minimo, massimo e conta.
- * La parte relativa al grafico (Marca la colonna come asse, Marca la colonna come serie, Visualizza il grafico associato e talvolta la Funzioni statistiche della serie)
- * Colonne aggiuntive, sono le colonne che posso voler aggiungere nella matrice, quando la colonna contiene un'oggetto. Le colonne aggiuntive saranno attributi relativi all'oggetto stesso; se invece, la colonna non è tipizzata allora non c'è la possibilità di aggiungere colonne.
- * Help della colonna
+ \* Le totalizzazioni, che sono operazioni che si possono eseguire su una colonna di tipo numerico. Queste funzioni sono :  somma, media, minimo, massimo e conta.
+ \* La parte relativa al grafico (Marca la colonna come asse, Marca la colonna come serie, Visualizza il grafico associato e talvolta la Funzioni statistiche della serie)
+ \* Colonne aggiuntive, sono le colonne che posso voler aggiungere nella matrice, quando la colonna contiene un'oggetto. Le colonne aggiuntive saranno attributi relativi all'oggetto stesso; se invece, la colonna non è tipizzata allora non c'è la possibilità di aggiungere colonne.
+ \* Help della colonna
 
 
 ## Carrello

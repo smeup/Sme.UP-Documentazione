@@ -2,12 +2,12 @@
 ## Schema generale
 ![LOCBAS_041](http://localhost:3000/immagini/LOBASE_01/LOCBAS_041.png)Lo schema illustra l'architettura generale di LoocUp : 
 
- * LoocUp in qualità di interfaccia grafica si pone come strumento di comunicazione tra l'area utente, evidenziata in basso al di sotto della linea tratteggiata verde, e le macchine in alto. Il dialogo con i server avviene attraverso la chiamata di programmi RPG detti "servizi" incaricati di ascoltare ed elaborare  le richieste. Il protocollo di comunicazione è simile a quello di un Browser; è costituito infatti dalla richiesta di un servizio (invece che di una pagina Web) e dal passaggio di parametri, attraverso stringhe.
- * La risposta del Server, in genere un file XML, contiene dati da visualizzare. Le informazioni grafiche delle pagine risiedono per di più sul client. Si ottiene in
+ \* LoocUp in qualità di interfaccia grafica si pone come strumento di comunicazione tra l'area utente, evidenziata in basso al di sotto della linea tratteggiata verde, e le macchine in alto. Il dialogo con i server avviene attraverso la chiamata di programmi RPG detti "servizi" incaricati di ascoltare ed elaborare  le richieste. Il protocollo di comunicazione è simile a quello di un Browser; è costituito infatti dalla richiesta di un servizio (invece che di una pagina Web) e dal passaggio di parametri, attraverso stringhe.
+ \* La risposta del Server, in genere un file XML, contiene dati da visualizzare. Le informazioni grafiche delle pagine risiedono per di più sul client. Si ottiene in
 questo modo una comunicazione "all'osso" :  vengono trasmessi solo dati secondo i più recenti standard di comunicazione client-server.
- * Lo strumento principale di comunicazione con l'esterno è l'Interfaccia Video/Tastiera :  LoocUp fornisce strumenti molto potenti di manipolazione dei dati, tools di visualizzazione ed organizzazione, editor e programmi guida come è meglio illustrato nella sezione di Interfaccia Grafica.
- * Esiste anche un altro aggancio al mondo esterno, che è costituito dai Listener attivabili a piacimento. Si tratta di programmi ascoltatori di eventi, in grado cioè di "accorgersi" di azioni che vengono eseguite su periferiche come telefono/fax/scanner o un'altra qualsiasi apparecchiatura richiesta dall'utente o semplici cartelle. L'evento può essere scatenato anche dai server pertanto si può affermare che i Listener sono in grado di percepire sia eventi esterni che interni al sistema.
- * Gli eventi  o le azioni dell'utente su tastiera vengono raccolti e direzionati dal modulo base al modulo di comunicazione che smista le richieste direttamente al server AS400 master, oi ai Server esterni, o al gestore delle funzioni interne qualora la richiesta inoltrata non esiga informazioni remote, ma possa essere interamente soddisfatta sul client. E' il caso quest'ultimo di richieste di riorganizzazione di dati già visualizzati o di semplici calcoli sui medesimi. Le richieste possono però anche essere spedite verso server diversi dal master e raggiungibili tramite Rete. Essi possono svolgere incarichi particolari come contenere  archivii, gestire servizi di posta, o altri servizi di second'ordine. Anche in questo caso, come per i Listener, il cliente può agganciare all'architettura un proprio server predisposto a specifiche funzionalità
+ \* Lo strumento principale di comunicazione con l'esterno è l'Interfaccia Video/Tastiera :  LoocUp fornisce strumenti molto potenti di manipolazione dei dati, tools di visualizzazione ed organizzazione, editor e programmi guida come è meglio illustrato nella sezione di Interfaccia Grafica.
+ \* Esiste anche un altro aggancio al mondo esterno, che è costituito dai Listener attivabili a piacimento. Si tratta di programmi ascoltatori di eventi, in grado cioè di "accorgersi" di azioni che vengono eseguite su periferiche come telefono/fax/scanner o un'altra qualsiasi apparecchiatura richiesta dall'utente o semplici cartelle. L'evento può essere scatenato anche dai server pertanto si può affermare che i Listener sono in grado di percepire sia eventi esterni che interni al sistema.
+ \* Gli eventi  o le azioni dell'utente su tastiera vengono raccolti e direzionati dal modulo base al modulo di comunicazione che smista le richieste direttamente al server AS400 master, oi ai Server esterni, o al gestore delle funzioni interne qualora la richiesta inoltrata non esiga informazioni remote, ma possa essere interamente soddisfatta sul client. E' il caso quest'ultimo di richieste di riorganizzazione di dati già visualizzati o di semplici calcoli sui medesimi. Le richieste possono però anche essere spedite verso server diversi dal master e raggiungibili tramite Rete. Essi possono svolgere incarichi particolari come contenere  archivii, gestire servizi di posta, o altri servizi di second'ordine. Anche in questo caso, come per i Listener, il cliente può agganciare all'architettura un proprio server predisposto a specifiche funzionalità
 
 ## Modulo di comunicazione
 ![LOCBAS_032](http://localhost:3000/immagini/LOBASE_01/LOCBAS_032.png)Costituito da un pacchetto di classi java, il modulo di comunicazione, all'interno del modulo base, ha il compito di smistare le richieste effettuate da esterni e di pilotarne le risposte. La F() viene passata direttamente al modulo di trattamento delle funzioni che provvede a completare, elaborare la richiesta e riformulare la risposta. Vedi anche "Aspetti generali", "Richiamo di una funzione"
@@ -27,34 +27,34 @@ Se la risposta non contiene messaggi o non richiede ulteriori informazioni il fi
 ## Interfaccia Grafica
 ![LOCBAS_033](http://localhost:3000/immagini/LOBASE_01/LOCBAS_033.png)L'interfaccia grafica in connessione diretta con il modulo base è costituita da un pacchetto di programmi java/delphi e di componenti grafici che forniscono strumenti di dialogo con l'utente, di visualizzazione e organizzazione dei dati.
 Si possono individuare all'interno del pacchetto tre macro partizioni : 
- * la prima riguarda il contenitore detto "scheda" e le finestre grafiche dell'emulatore 5250;
- * la seconda riguarda i componenti grafici specifici, tabelle, gantt, grafici ecc... che "riempiono" le sezioni della struttura. E i tools di manutenzione  della scheda.
- * il pacchetto di programmi di gestione dell'emulatore 5250.
+ \* la prima riguarda il contenitore detto "scheda" e le finestre grafiche dell'emulatore 5250;
+ \* la seconda riguarda i componenti grafici specifici, tabelle, gantt, grafici ecc... che "riempiono" le sezioni della struttura. E i tools di manutenzione  della scheda.
+ \* il pacchetto di programmi di gestione dell'emulatore 5250.
 
 - La parte riguardante il contenitore è scritta in delphi e, per poter dialogare con il modulo base scritto in java, necessita di un "gestore di comunicazione Socket" che faccia da allacciamento tra i due linguaggi. La scelta di delphi è giustificata dalla rapidità e versatilità dei suoi componenti grafici. Il modulo Delphi a sua volta si suddivide in due sottomoduli;
  -- Modulo Smetray (gestore di schede) che fornisce il componenente contenitore, annidabile, cioè la scheda. Per la definizione della struttura   LoocUp mette a disposizione un'editor di facilissima comprensione, un tool di controllo sintattico e un wizard;
  -- Modulo Smeviclt (emulatore SDA) che riproduce i display file DSPF definiti su AS400.
  - Looc.up fornisce diversi strumenti grafici di rappresentazione e manipolazione delle informazioni. Sono tutti componenti java e perciò non hanno problemi di allacciamento con il modulo base. E' possibile facilmente introdurre nuovi componenti qualora il cliente ne facesse esplicita richiesta. Di seguito l'elenco dei componenti grafici disponibili : 
- * EXA  Grafico
- * EXB Matrice
- * EXU    Matrice modificabile
- * GNT    diagramma di Gantt
- * GND diagramma di Gantt/distinta
- * G30 questionario
- * HTM Browser
- * INP Input panel
- * MAP Immagine attiva
- * STR Stella
- * TRE albero
- * TRA albero con tab
- * TRG albero con griglia
- * GRP grafo
- * DOC  documento
- * CHT chart
+ \* EXA  Grafico
+ \* EXB Matrice
+ \* EXU    Matrice modificabile
+ \* GNT    diagramma di Gantt
+ \* GND diagramma di Gantt/distinta
+ \* G30 questionario
+ \* HTM Browser
+ \* INP Input panel
+ \* MAP Immagine attiva
+ \* STR Stella
+ \* TRE albero
+ \* TRA albero con tab
+ \* TRG albero con griglia
+ \* GRP grafo
+ \* DOC  documento
+ \* CHT chart
 
 A questa sezione appartengono anche l'editor di creazione e manutenzione della scheda.
 Per maggiori dettagli riguardo ai componenti grafici consultare la scheda 'Componenti grafici e logici'.
- * Emulatore   si tratta dei programmi di emulazione di AS400, meglio descritti nel Modulo gestore 5250 e in stretto dialogo con il modulo Smeviclt.
+ \* Emulatore   si tratta dei programmi di emulazione di AS400, meglio descritti nel Modulo gestore 5250 e in stretto dialogo con il modulo Smeviclt.
 
 ## Gestore Listener
 ![LOCBAS_034](http://localhost:3000/immagini/LOBASE_01/LOCBAS_034.png)La comunicazione con il mondo esterno non avviene solo tramite interfaccia grafica... LoocUp fornisce oltre all'ambiente grafico altri strumenti di ascolto di eventi e questi sono appunto i "Listener" o "ascoltatori di eventi".
@@ -98,9 +98,9 @@ Dal punto di vista tecnico è prevista la funzionalità UP SER utile per eseguir
 ### Composizione della Request
 In questa fase avviene il completamento dei dati mancanti della request o la sostituzione delle macro presenti nella richiesta.
 Si suddivide in tre sottofasi : 
- * **Gestione degli alias**
- * **Gompletamento variabili di tipo -**
- * **Gestione Parametri di setup**
+ \* **Gestione degli alias**
+ \* **Gompletamento variabili di tipo -**
+ \* **Gestione Parametri di setup**
 
 ### Gestione degli alias
 Al fine di facilitare la chiamata di una funzione, in LOOC.up è prevista la gestione di chiamata mediante ALIAS. L'obiettivo è quello di poter definire una sintassi di scrittura più facile da memorizzare e scrivere da parte dell'utente. Per fare un esempio posso permettere all'utente di individuare tutte e sole le azioni di menù che contencono la parola "Provvigioni" chiedendo di digitare :  "Cerca Provvigioni AZI". Se invece voglio far trovare i fornitori che contengono "OFFICINA" nella ragione sociale basterà digitare "Cerca OFFICINA FOR"
@@ -128,20 +128,20 @@ E' possibile scrivere la funzione in modo tale che l'utilizzatore possa inserire
 ### Sintassi di un parametro da richiedere
 Il carattere - può essere seguito da parametri che ne condizionano tipo e modo della richiesta secondo la sintassi seguente : 
 -(O/F;Default;Tipo Oggetto;Descrizione;C/U) che nell'ordine indicano : 
- * O=Obbligatorio. Diversamente viene accettato anche il carattere bianco
- * Default = Luogo di default in cui cercare
- * Tipo oggetto = Eventuale tipo oggetto da richiedere
- * Descrizione = Testo che appare vicino alla richiesta
- * C=Controllare, U=Non Controllare. Default C
+ \* O=Obbligatorio. Diversamente viene accettato anche il carattere bianco
+ \* Default = Luogo di default in cui cercare
+ \* Tipo oggetto = Eventuale tipo oggetto da richiedere
+ \* Descrizione = Testo che appare vicino alla richiesta
+ \* C=Controllare, U=Non Controllare. Default C
 
 **Esempio di funzione** : 
-F(EXD;*SCO;) 1(;;) P(Stringa(-) Dove(-(O;BR;TAB£A;Contesto)))
+F(EXD;\*SCO;) 1(;;) P(Stringa(-) Dove(-(O;BR;TAB£A;Contesto)))
 Sostituisce la stringa e chiede un codice di applicazione obbligatorio assumendo BR.
 
-A(LOIP_01;RIC;EMU) P(Str(-(F;;**Stringa;Stringa)) Whe(-(O;CF;TAB£A;Stringhe selezionate)) )
+A(LOIP_01;RIC;EMU) P(Str(-(F;;\*\*Stringa;Stringa)) Whe(-(O;CF;TAB£A;Stringhe selezionate)) )
 La funzione nel partire presenta due finestre consecutive in cui chiede prima una stringa(di tipo facoltativo) da ricercare e poi l'oggetto di tipo TAB£A in cui cercare assumendo CF come default. Nel presentare la finestra di ricerca mostra inoltre la stringa "Stringhe selezionate".
 
-F(EXD;*SCO;) 1(CN;CLI;-(O))
+F(EXD;\*SCO;) 1(CN;CLI;-(O))
 Chiedo il cliente per cui presentare la scheda
 
 ### Estensione sintassi - Da valutare
@@ -189,12 +189,12 @@ C'è sia un esempio secondo la sintassi della versione 2 che nella sintassi dell
 Di seguito vediamo le F in modo esplicito.
 ### Configurazione da script creato ad hoc
 Lo script va definito, secondo al solita sintassi dei questionari, in un apposito mebro del file SCP_CFG.
-F(TRE;*LAP;) SP( TQST(L-) KQST(GRA_G30) CFG(**;**;**) VM(W) )
+F(TRE;\*LAP;) SP( TQST(L-) KQST(GRA_G30) CFG(\*\*;\*\*;\*\*) VM(W) )
 
 ### Configurazione da script filtrato
 In questo caso il questionario viene definito basandosi su un insieme di sezioni di un'altro questionario. Il questionario di base è un membro del file SCP_CFG.
 Nell'esempio che segue
-F(TRE;*LAP;) SP( TQST(U-) KQST(FRM.REP) CFG(**;**;**;1) VM(W) SCPSRC(EDT_SCH)   SCPSEC(S.FRM.DOC;S.FRM.FMT;S.FRM.COV;S.FRM.IDX,S.FRM.HEA;S.FRM.FOO;S.FRM.MOD;S.FRM.LAY;S.FRM.STY))
+F(TRE;\*LAP;) SP( TQST(U-) KQST(FRM.REP) CFG(\*\*;\*\*;\*\*;1) VM(W) SCPSRC(EDT_SCH)   SCPSEC(S.FRM.DOC;S.FRM.FMT;S.FRM.COV;S.FRM.IDX,S.FRM.HEA;S.FRM.FOO;S.FRM.MOD;S.FRM.LAY;S.FRM.STY))
 apprezziamo le seguenti definizioni : 
 Tipo questionario è U-
 Codice Questionario FRM.REP
@@ -258,7 +258,7 @@ Vedi "Funzioni di base", "Lato server", "Programmi di servizio Loocup".
 **Struttura**
 F(Componente;Servizio;Funzione.metodo) 1(Tipo;Parametro;Codice) 2(...) 3() 4() 5() 6() P(Parametri specifici).
 **Esempi**
-F(EXD;*SCO;) 1(CN;CLI;000001)
+F(EXD;\*SCO;) 1(CN;CLI;000001)
 
 ## M Richiamo di una chiave di menù
 Trova la funzione associata ad una chiave di menù. La funzione associata può essere : 
@@ -415,74 +415,74 @@ In base alla funzione scrive sulla coda opportuna
 
 ### AS/400
 Distingue i seguenti casi
- * Emulazione
- ** Sulla coda ICTS ricevo una chiave di menù
- ** Ricavo il programma e lo richiamo
- ** Il programma chiamato fornisce l'output sulla coda invece che sul video
- * Funzione
- ** Sulla coda ECTS ricevo una funzione
- ** Ricavo il programma dalla tabella JAT in base alla funzione
- ** Chiamo il programma e fornisco l'XML
+ \* Emulazione
+ \*\* Sulla coda ICTS ricevo una chiave di menù
+ \*\* Ricavo il programma e lo richiamo
+ \*\* Il programma chiamato fornisce l'output sulla coda invece che sul video
+ \* Funzione
+ \*\* Sulla coda ECTS ricevo una funzione
+ \*\* Ricavo il programma dalla tabella JAT in base alla funzione
+ \*\* Chiamo il programma e fornisco l'XML
 
 ## Richiesta di collegamento da parte del CLIENT
 ### Utente
- * Chiede l'esecuzione di Looc.up con un clic su icona di Loocup.jar o Loocup.exe  che puo essere sul server oppure sul client
- * Immette identificativo del SERVER (IP AS400) / UTENTE / PASSWORD
+ \* Chiede l'esecuzione di Looc.up con un clic su icona di Loocup.jar o Loocup.exe  che puo essere sul server oppure sul client
+ \* Immette identificativo del SERVER (IP AS400) / UTENTE / PASSWORD
 ### Looc.up (Componente COM di comunicazione)
- * Legge gli ambienti attivi per l'utente (Oggetto IU per l'utente)
- * Se più di un ambiente (e non indicato in collegamento) richiede la scelta ambiente altrimenti assume l'unico ambiente presente
+ \* Legge gli ambienti attivi per l'utente (Oggetto IU per l'utente)
+ \* Se più di un ambiente (e non indicato in collegamento) richiede la scelta ambiente altrimenti assume l'unico ambiente presente
 ### AS/400
- * Imposta le librerie in base all'ambiente
- * Chiama JAJAS0SB con funzione "CON" e metodo "MAS"
- * Recupera il nome del lavoro in esecuzione (Es.abcdef)
- ** Crea la coda MSTCabcdef
- ** Riceve sulla coda MSTCabcdef il numero di tale lavoro (Es.123456)
- ** Il codice ricevuto diventa >Numero della connessione = 123456
- ** Sottomette il lavoro **LO_Ehhmmss - Gestore delle funzioni grafiche** Il nome è formato dal prefisso LO_E + l'ora + i minuti + i secondi
- *** **>**JOBQ da tabella UI1 (Consigliato BATCH)
- ** crea diverse nuove code dati nella libreria SMEUPUIDQ : 
- *** **>**ECTS123456 - Extended    Client To Server
- *** **>**ESTC123456 - Extended    Server To Client
- *** **>**ICTS123456 - Interfaccia Client To Server (n per ora tre)
- *** **>**ISTC123456 - Interfaccia Server To Client (n per ora tre)
- * Termina JAJAS0SB e JAJAC0 restituendo il nome della connessione
+ \* Imposta le librerie in base all'ambiente
+ \* Chiama JAJAS0SB con funzione "CON" e metodo "MAS"
+ \* Recupera il nome del lavoro in esecuzione (Es.abcdef)
+ \*\* Crea la coda MSTCabcdef
+ \*\* Riceve sulla coda MSTCabcdef il numero di tale lavoro (Es.123456)
+ \*\* Il codice ricevuto diventa >Numero della connessione = 123456
+ \*\* Sottomette il lavoro **LO_Ehhmmss - Gestore delle funzioni grafiche** Il nome è formato dal prefisso LO_E + l'ora + i minuti + i secondi
+ \*\*\* **>**JOBQ da tabella UI1 (Consigliato BATCH)
+ \*\* crea diverse nuove code dati nella libreria SMEUPUIDQ : 
+ \*\*\* **>**ECTS123456 - Extended    Client To Server
+ \*\*\* **>**ESTC123456 - Extended    Server To Client
+ \*\*\* **>**ICTS123456 - Interfaccia Client To Server (n per ora tre)
+ \*\*\* **>**ISTC123456 - Interfaccia Server To Client (n per ora tre)
+ \* Termina JAJAS0SB e JAJAC0 restituendo il nome della connessione
 
 ### Stato
- * I programmi JAJAS0 e JAJAS1 sono in attesa sulle code ECTS e ICTS
+ \* I programmi JAJAS0 e JAJAS1 sono in attesa sulle code ECTS e ICTS
 ### Looc.up
- * Chiede sulla coda ECTS l'XML dei menù e la emette
+ \* Chiede sulla coda ECTS l'XML dei menù e la emette
 
 ## Loop di esecuzione
 
 ## Cambio ambiente
- * Chiama JAJAC0 con messaggio "DATSES" Funzione "CHG" e ambiente scelto. Gli ambienti devono essere definiti in modo comune (ad esempio in tabelle generali)
+ \* Chiama JAJAC0 con messaggio "DATSES" Funzione "CHG" e ambiente scelto. Gli ambienti devono essere definiti in modo comune (ad esempio in tabelle generali)
 
 ## Chiusura
 ### Looc.up
- * Chiama JAJAC0 con messaggio "DATSES" Funzione "DIS"
- ** Chiama JAJAS0SB con funzione "DIS"
- *** Chiede sulla coda ECTS la chiusura di JAJAS1
- *** Chiede sulla coda ICTS la chiusura di JAJAS0
- *** Cancella tutte le code create
+ \* Chiama JAJAC0 con messaggio "DATSES" Funzione "DIS"
+ \*\* Chiama JAJAS0SB con funzione "DIS"
+ \*\*\* Chiede sulla coda ECTS la chiusura di JAJAS1
+ \*\*\* Chiede sulla coda ICTS la chiusura di JAJAS0
+ \*\*\* Cancella tutte le code create
 
 ## Note per eventuali (improbabili) malfunzionamenti
 ### Il CLIENT termina in modo anomalo
- * Lavori in BATCH su AS/400
- ** Time-out sulla tabella UI1
- *** impostato       -> Il lavoro AS/400 termina normalmente
- *** non impostato   -> I lavori devono essere eliminati (ev. allo spegnimento macchina)
- * Code
- ** Restano nella libreria
- *** schedulare un lavoro di pulizia della stessa (mediante WRKJOBSCDE)
+ \* Lavori in BATCH su AS/400
+ \*\* Time-out sulla tabella UI1
+ \*\*\* impostato       -> Il lavoro AS/400 termina normalmente
+ \*\*\* non impostato   -> I lavori devono essere eliminati (ev. allo spegnimento macchina)
+ \* Code
+ \*\* Restano nella libreria
+ \*\*\* schedulare un lavoro di pulizia della stessa (mediante WRKJOBSCDE)
  :  : INI Vuoi schedulare il lavoro di pulizia?
 
 ## Il programma RPG termina in modo anomalo
- * Lavori in BATCH su AS/400
- ** Verificare il messaggio per rimuovere la causa
- ** Eliminare manualmente il lavoro
- ** Cancellare il TASK sul client
- * Code
- ** Si elimineranno al momento della pulizia della libreria
+ \* Lavori in BATCH su AS/400
+ \*\* Verificare il messaggio per rimuovere la causa
+ \*\* Eliminare manualmente il lavoro
+ \*\* Cancellare il TASK sul client
+ \* Code
+ \*\* Si elimineranno al momento della pulizia della libreria
 
 # Analisi Performance
 ### Scopo del documento
@@ -517,36 +517,36 @@ Il tempo di creazione è espresso in milionesimi di secondo quindi un tempo di 2
 I servizi sono elencati nella tabella PGM.
 Se non si conosce quale servizio compie una determinata azione si può, da LoocUp, una volta eseguita l'azione che interessa andare ad analizzare la funzione corrente (menù di loocup, Servizi, Funzione Corrente) oppure analizzare l'ultimo XML scritto (menù di loocup Servizi, Ultimo XML Scritto) che rappresenta la richiesta inviata da LoocUp all'AS400.
 Nella prima riga dell'XML scritto c'è la funzione richiesta ad esempio : 
-Funzione richiesta : JS        FUN       EDT       *EDTAGG             MBDOC       LOBASE_015     OJ*LIB      SMEDEV         OJ*FILE     DOC
+Funzione richiesta : JS        FUN       EDT       \*EDTAGG             MBDOC       LOBASE_015     OJ\*LIB      SMEDEV         OJ\*FILE     DOC
 cioè : 
- * Tipo Messaggio :           JS
- *  Azione :                         FUN
- * Componente :                EDT
- * Servizio :                        *EDTAGG
- * Funzione.metodo :         Blank
- * Oggetto1 - tipo :             MB
- * Oggetto1 - parametro :  DOC
- * Oggetto1 - codice :        LOBASE_015
- * Oggetto2 - tipo :            OJ
- * Oggetto2 - parametro :  *LIB
- * Oggetto2 - codice :        SMEDEV
- * Oggetto3 - tipo :            OJ
- * Oggetto3 - parametro :  *FILE
- * Oggetto3 - codice :        DOC
+ \* Tipo Messaggio :           JS
+ \*  Azione :                         FUN
+ \* Componente :                EDT
+ \* Servizio :                        \*EDTAGG
+ \* Funzione.metodo :         Blank
+ \* Oggetto1 - tipo :             MB
+ \* Oggetto1 - parametro :  DOC
+ \* Oggetto1 - codice :        LOBASE_015
+ \* Oggetto2 - tipo :            OJ
+ \* Oggetto2 - parametro :  \*LIB
+ \* Oggetto2 - codice :        SMEDEV
+ \* Oggetto3 - tipo :            OJ
+ \* Oggetto3 - parametro :  \*FILE
+ \* Oggetto3 - codice :        DOC
 
-Va notato che in questo caso il servizio che si deduce (*EDTAGG) non è il servizio richiamato. Per capire quale è il servizio associato bisogna andare nella tabella JAT.
+Va notato che in questo caso il servizio che si deduce (\*EDTAGG) non è il servizio richiamato. Per capire quale è il servizio associato bisogna andare nella tabella JAT.
 Se invece dell'ultimo XML scritto si accede all'ultimo XML letto si ottiene l'XML che risponde l'AS400 a fronte della richiesta ricevuta. In questo XML la funzione richiesta si trova nel tag Service, attributo Funzione.
 Vediamo un frammento della risposta dell'AS400 a fronte della richiesta presentata sopra : 
-< Service Titolo1="Documenti / Lettura testo" Titolo2="Analisi Performance" Funzione="F(EDT;*EDTAGG;) 1(MB;DOC;LOBASE_015) 2(OJ;*LIB;SMEDEV) 3(OJ;*FILE;DOC) 4(;;) 5(;;) 6(;;) P()" Servizio="JATRE_29C"/ >
+< Service Titolo1="Documenti / Lettura testo" Titolo2="Analisi Performance" Funzione="F(EDT;\*EDTAGG;) 1(MB;DOC;LOBASE_015) 2(OJ;\*LIB;SMEDEV) 3(OJ;\*FILE;DOC) 4(;;) 5(;;) 6(;;) P()" Servizio="JATRE_29C"/ >
 
 L'attributo funzione è normalmente così composto : 
 F(Componente;Servizio;Funzione.Metodo) 1(tipo oggetto1;parametro oggetto1;codice Oggetto1) 2(tipo oggetto2; ....)
-Nel caso appena visto il servizio è definito dell'attributo Servizio perchè *EDTAGG non è il servizio.
+Nel caso appena visto il servizio è definito dell'attributo Servizio perchè \*EDTAGG non è il servizio.
 
 Note : 
- * per maggiori dettagli sulle funzioni vedi "Aspetti generali", "Funzioni".
+ \* per maggiori dettagli sulle funzioni vedi "Aspetti generali", "Funzioni".
 
- * per maggiori dettagli sulla comunicazione vedi "Aspetti generali", "Schemi applicativi"
+ \* per maggiori dettagli sulla comunicazione vedi "Aspetti generali", "Schemi applicativi"
 
 ### Su AS400
 Un singolo servizio è testabile mediante il comando UP SER, F20 e se si desidera avere il log F6.
@@ -564,15 +564,15 @@ In questo momento sono presenti due file, uno che contiene i dati delle performa
 NON VENGONO MAI SVUOTATI
 
 ## Problemi noti
- * Lentezza code
- * Code di grosse dimensioni (prossime ai 16MB)
- * Code che non vengono cancellate
- * AS400 che diventa improvvisamente lento
- * Lentezza se Looc.up installato su server
- * Lentezza nell'avvio
- * Lentezza G53
- * Lentezza JVM
- * Eccessivo utilizzo della memoria con lo schedulatore
+ \* Lentezza code
+ \* Code di grosse dimensioni (prossime ai 16MB)
+ \* Code che non vengono cancellate
+ \* AS400 che diventa improvvisamente lento
+ \* Lentezza se Looc.up installato su server
+ \* Lentezza nell'avvio
+ \* Lentezza G53
+ \* Lentezza JVM
+ \* Eccessivo utilizzo della memoria con lo schedulatore
 
 ### Problema lentezza code
 Informazioni generali in "Funzioni lato server", "Configurazione dell'AS/400".
@@ -609,13 +609,13 @@ La dimensione delle code non cala mai :  se il lettore risulta più lento la dim
 ### NOTA 2 :  nomenclatura code
 Le code seguono la seguente nomenclatura xyyynnnnnn, dove : 
 Valori possibili per x : 
- * E :  Extended, sono le code su cui viaggiano i dati e richieste di schede o componenti JAVA
- * M :  coda Master che riceve la richiesta di avvio di una sessione di emulazione dal client
- * I :  coda su cui viaggiano i dati dell'emulazione
+ \* E :  Extended, sono le code su cui viaggiano i dati e richieste di schede o componenti JAVA
+ \* M :  coda Master che riceve la richiesta di avvio di una sessione di emulazione dal client
+ \* I :  coda su cui viaggiano i dati dell'emulazione
 
 Valori possibili per yyy : 
- * CTS :  Client To Server -> richieste/dati dal client che vanno al server
- * STC :  Server To Client -> richieste/dati dal server al client
+ \* CTS :  Client To Server -> richieste/dati dal client che vanno al server
+ \* STC :  Server To Client -> richieste/dati dal server al client
 
 La parte rimanente del nome è composto da 6 cifre ed è un progressivo che identifica la coda.
 
@@ -629,18 +629,18 @@ In questa situazione la scrittura sui dischi non passa più per la cache del rai
 Per verificare questa situazione bisogna controllare che la memoria dei dischi sia in condiziona ATTIVA, oppure si deve accedere ai programmi di manutenzione.
 
 Azioni da eseguire : 
- * controllare lo stato del sistema
- * controllare lo stato dei dischi e della memoria del raid
- * visualizzare registrazioni assistenza
- * verificare il cache battery pack
+ \* controllare lo stato del sistema
+ \* controllare lo stato dei dischi e della memoria del raid
+ \* visualizzare registrazioni assistenza
+ \* verificare il cache battery pack
 
 Controllare lo stato del sistema : 
- * comando WRKSYSSTS
+ \* comando WRKSYSSTS
 >N.B. :  la memoria ASP è costituita dai dischi.
 
 Controllare lo stato dei dischi : 
- * comando WRKDSKSTS mostra lo stato dei dischi :  non devono avere un'occupazione superiore al 90%
- * F11 mostra lo stato della memoria dei dischi :  deve essere ATTIVA o ACTIVE. Se non è in questa condizione bisogna chiamare l'assistenza urgentemente perchè le prestazione dell'A400 decadono e si rischia il fermo della macchina.
+ \* comando WRKDSKSTS mostra lo stato dei dischi :  non devono avere un'occupazione superiore al 90%
+ \* F11 mostra lo stato della memoria dei dischi :  deve essere ATTIVA o ACTIVE. Se non è in questa condizione bisogna chiamare l'assistenza urgentemente perchè le prestazione dell'A400 decadono e si rischia il fermo della macchina.
 
 Procedura visualizzazione registrazioni assistenza)
  - connettersi con utente QSECOFR
@@ -662,9 +662,9 @@ Questo è dovuto al fatto che il programma vien letto dai dischi del server e de
 Una volta avviato Looc.up le informazioni scambiate con il server si riducono e le differenze di performance con loocup installato in locale dovrebbero essere minime.
 
 Se Looc.up dovesse risultare sensibilmente più lento rispetto all'installazione in locale potrebbe essere dovuto a : 
- * Server di rete sovraccarico o non sufficientemente performante
- * Rete lenta
- * Problema del sistema operativo.
+ \* Server di rete sovraccarico o non sufficientemente performante
+ \* Rete lenta
+ \* Problema del sistema operativo.
 
 ### Server di rete sovraccarico o non sufficientemente performante
 Quando Looc.up è installato sul server, si è nella situazione in cui Looc.up gira sul client e utilizza il server per depositare parte delle informazioni (file temporanei, preferiti, cache).
@@ -690,12 +690,12 @@ Non si conosce nè la causa nè la soluzione di questo problema.
 
 ### Lentezza nell'avvio
 COMPLETARE
- * Documentare i parametri
- ** startdbg :  mostra i tempi di tutte le fasi di avvio di loocup. Prerequisito è l'esecuzione di Loocup con la console Java attiva (usare Loocup.exe)
- ** nouif :  non fa caricare i font all'inizio ma solo all'apertura di un mebro di documentazione attiva
- ** nologo :  non fa caricare il logo di Loocup
- ** logco :  logga tutta la comunicazione tra Loocup e l'AS400
- ** dbg :  attiva la modalità di debug. la console di Loocup diviene visibile e vengono mostrate tutte le informazioni sul funzionamento.
+ \* Documentare i parametri
+ \*\* startdbg :  mostra i tempi di tutte le fasi di avvio di loocup. Prerequisito è l'esecuzione di Loocup con la console Java attiva (usare Loocup.exe)
+ \*\* nouif :  non fa caricare i font all'inizio ma solo all'apertura di un mebro di documentazione attiva
+ \*\* nologo :  non fa caricare il logo di Loocup
+ \*\* logco :  logga tutta la comunicazione tra Loocup e l'AS400
+ \*\* dbg :  attiva la modalità di debug. la console di Loocup diviene visibile e vengono mostrate tutte le informazioni sul funzionamento.
 
 ### In citrix
 Scaricare la versione del 20 marzo 2008
@@ -706,15 +706,15 @@ Questo è dovuto al funzionamento di Java.
 Una soluzione alternativa alla riduzione del numero di font è di inserire nella riga di comando di loocup il parametro --nouif. Questo fa sì che i font vengano caricato solo quando l'utente accede alla documentazione.
 
 ### Molte installazioni della Java Virtual Machine (JVM)
- * Disinstallare tutte le versioni della jvm presenti tranne l'ultima, solo nel caso in cui l'utente non usi altre applicazioni basate su JAVA. L'installazione standard di JAVA si predispone per scaricare e installare automaticamente le nuove versioni. Purtroppo non disinstalla le precedenti ma crea un'installazione parallela.
+ \* Disinstallare tutte le versioni della jvm presenti tranne l'ultima, solo nel caso in cui l'utente non usi altre applicazioni basate su JAVA. L'installazione standard di JAVA si predispone per scaricare e installare automaticamente le nuove versioni. Purtroppo non disinstalla le precedenti ma crea un'installazione parallela.
 Per verificare quali installazioni sono presenti seguite la procedura standard : 
- * In Windows XP :  pannello di controllo -> installazione applicazioni -> cercare Java.
- * In Windows Vista :  pannello di controllo -> Programmi e funzionalità -> cercare Java.
+ \* In Windows XP :  pannello di controllo -> installazione applicazioni -> cercare Java.
+ \* In Windows Vista :  pannello di controllo -> Programmi e funzionalità -> cercare Java.
 
 Se sono presenti più installazioni si avranno informazioni del tipo
- * J2SE Runtime Environment 5.0 update 7
- * J2SE Runtime Environment 5.0 update 9
- * Java(TM) SE Runtime Environment 6
+ \* J2SE Runtime Environment 5.0 update 7
+ \* J2SE Runtime Environment 5.0 update 9
+ \* Java(TM) SE Runtime Environment 6
 
 Le versioni della JVM sono caratterizzate da 2 numeri, il numero di versione (1.4.2, 5, 6 ...) e il numero di upgrade (1...)
 In questo caso ci sono 3 installazioni due 5.0, una è update 7 e l'altra 9 e una terza è alla versione 6 (update 0).

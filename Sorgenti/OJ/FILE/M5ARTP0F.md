@@ -1,7 +1,7 @@
 ## Contenuto
 Dati pianificazione PLANT / Articolo.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 N.A.
 
 ## Chiave primaria

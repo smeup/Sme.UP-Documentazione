@@ -17,9 +17,9 @@ La scheda RETELE è composta da alcune sottoschede :
 ### Il pulsante Aggiorna Telefonate
 Richiama il programma RETEL_01 che legge dal file SWYX delle telefonate e scrive il file RETELE0F. Nel momento dell'importazione si occupa anche di decodificare il numero in questione in questo modo : 
 
-- cerca sulla tabella BR*IN (tabella dei numeri interni) per controllare se è un numero di interno; nel caso retituisce anche CNCOL + il  codice collaboratore a cui il numero risulta associato.
+- cerca sulla tabella BR\*IN (tabella dei numeri interni) per controllare se è un numero di interno; nel caso retituisce anche CNCOL + il  codice collaboratore a cui il numero risulta associato.
 - se la radice del numero in questione è uguale alla radice telefonica aziendale (parametro AWI della categoria £CA legato all'azienda) allora estrae le cifre presenti dopo questa radice ed esegue le stesse operazioni sopra dette
-- cerca sulla tabella V§*PS per controllare se è un numero speciale (112, 113, 118 etc...)
+- cerca sulla tabella V§\*PS per controllare se è un numero speciale (112, 113, 118 etc...)
 - se non è niente di tutto ciò allora utilizza la G85 per decodificare il numero in questione e, oltre a farsi restituire la descrizione del numero, recupera anche il tipo+parametro e il codice ente intestatario del numero. __La G85 che effettua queste operazioni è ancora lenta (nonostante l'aggiunta del logico BRESCO4L con chiave numero telefonico); sarebbe utile controllare le performance della stessa per capire come poter velocizzare la decodifica del numero di telefono.
 
 

@@ -17,22 +17,22 @@
 xxSPA_nn dove xx è il nome dell'applicazione di appartenenza
 
 ### Funzioni e metodi
- * XML.GRI - Restituisce le righe della griglia
- * XML.POS/LET - Restituisce le righe della matrice
- * SPA.POS/LET - Restituisce gli spazi
- * ATT.POS/LET
+ \* XML.GRI - Restituisce le righe della griglia
+ \* XML.POS/LET - Restituisce le righe della matrice
+ \* SPA.POS/LET - Restituisce gli spazi
+ \* ATT.POS/LET
 
 # Struttura dello SCRIPT
 ## Nome dello SCRIPT
 Per ora si assume LO_MATOGG (Da definire)
 ## Elementi
 ### T.SEZ = Sezioni
- * Cod = Codice identificativo
- * Txt = Testo
- * Pgm = Programma
+ \* Cod = Codice identificativo
+ \* Txt = Testo
+ \* Pgm = Programma
 
 Una sezione può contenere un insieme di spazi omogenei per i quali cioè la struttura della  stringa è sempre uguale e definita dalle chiavi.
 ### T.SUB = Subsezioni
- * ModAtt = Modo di presentazione degli attributi di dettaglio
+ \* ModAtt = Modo di presentazione degli attributi di dettaglio
    - INT  = Tutti quelli definiti all'interno dello SCRIPT
 ### T.SUB = Sezioni

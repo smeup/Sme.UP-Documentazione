@@ -5,50 +5,50 @@ Il gruppo è l'insieme delle risorse che possono essere utilizzate, in alternati
 
 Le sezioni secondarie riportano : 
 
-* le risorse su cui sono state eseguite operazioni manuali (congelamento, forzatura) e non ancora schedulate. Qualora la schedulazione risulti particolarmente gravosa, è possibile infatti operare manualmente sulle singole risorse, ed in un secondo tempo eseguire la schedulazione globale da questa scheda. Dopo aver schedulato, questa sezione ritorna vuota
-* l'ambito su cui è stata eseguita la schedulazione
-* un bottone che evidenzia la presenza di errori
-* l'indice primario della schedulazione (scelto tra quelli calcolati, ed impostato nei parametri).
+\* le risorse su cui sono state eseguite operazioni manuali (congelamento, forzatura) e non ancora schedulate. Qualora la schedulazione risulti particolarmente gravosa, è possibile infatti operare manualmente sulle singole risorse, ed in un secondo tempo eseguire la schedulazione globale da questa scheda. Dopo aver schedulato, questa sezione ritorna vuota
+\* l'ambito su cui è stata eseguita la schedulazione
+\* un bottone che evidenzia la presenza di errori
+\* l'indice primario della schedulazione (scelto tra quelli calcolati, ed impostato nei parametri).
 Per default viene presentata la percentuale di saturazione.
 
 Da questa scheda si può, tramite i bottoni sul bordo inferiore : 
-* finire :  tutte le azioni eseguite manualmente (ordinamenti, congelamenti e forzature) andranno perdute :  viene emesso un messaggio di avvertimento con richiedsta conferma.
-* memorizzare :  ammessa solo se la sezione risorse modificate è vuota, vale a dire che l'ultima operazione eseguita è stata una schedulazione, e quindi la situazione della memoria è congruente, avendo recepito le azioni manuali impostate. Se così non è, e quindi ci sono delle azioni manuali in sospeso, viene data segnalazione ed impedita la memorizzazione.
+\* finire :  tutte le azioni eseguite manualmente (ordinamenti, congelamenti e forzature) andranno perdute :  viene emesso un messaggio di avvertimento con richiedsta conferma.
+\* memorizzare :  ammessa solo se la sezione risorse modificate è vuota, vale a dire che l'ultima operazione eseguita è stata una schedulazione, e quindi la situazione della memoria è congruente, avendo recepito le azioni manuali impostate. Se così non è, e quindi ci sono delle azioni manuali in sospeso, viene data segnalazione ed impedita la memorizzazione.
 I risultati della schedulazione (istanti di inizio e fine, risorse specifiche selezionate, azioni di congelamento e di forzatura) sono riportati sugli impegni risorse dello scenario di output.
 Se essi vi sono già presenti, vengono aggiornati, in caso contrario verranno copiati in corrispondenti record dallo scenario di input.
-* visualizzare gli indici globali della schedulazioe
-* passare all'analisi della memoria :  funzione riservata a personale tencico, per esaminare in dettaglio il contenuto della schedulazione
+\* visualizzare gli indici globali della schedulazioe
+\* passare all'analisi della memoria :  funzione riservata a personale tencico, per esaminare in dettaglio il contenuto della schedulazione
 
 Il seguente formato riporta un esempio della scheda della schedulazione. E' possibile selezionare i campi riportati nella matrice (in una exit specifica).
 Lo standard propone, tra l'altro
-* i giorni di makespan (GG Mks) :  per ogni risorsa l'intervallo (in giorni solari) tra l'inizio della schedulazione e l'ultima data in cui essa è schedulata, e la loro rappresentazione grafica, rapportata al valore massimo.
-* il numero di impegni in esecuzione (Imp.Ese.)
-* il numero di impegni non iniziati, da schedulare (Imp.Sch.)
-* la % di carico di ogni risorsa rispetto alla totalità delle risorse del gruppo, rappresentata sia numericamente sia graficamente
-* la % di saturazione di ogni risorsa, rappresentata sia numericamente sia graficamente, con colori diversi se la percentuale si abbassa (verde / giallo / rosso)
+\* i giorni di makespan (GG Mks) :  per ogni risorsa l'intervallo (in giorni solari) tra l'inizio della schedulazione e l'ultima data in cui essa è schedulata, e la loro rappresentazione grafica, rapportata al valore massimo.
+\* il numero di impegni in esecuzione (Imp.Ese.)
+\* il numero di impegni non iniziati, da schedulare (Imp.Sch.)
+\* la % di carico di ogni risorsa rispetto alla totalità delle risorse del gruppo, rappresentata sia numericamente sia graficamente
+\* la % di saturazione di ogni risorsa, rappresentata sia numericamente sia graficamente, con colori diversi se la percentuale si abbassa (verde / giallo / rosso)
 
 ![FIG_060](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_060.png)
 # Rappresentazione di dettaglio (Gantt / Incolonnata)
 Cliccando su una risorsa specifica, nella sezione principale della scheda della schedulazione, si presenta il seguente popup
 ![FIG_063](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_063.png)
 da cui si può passare alla rappresentazione di dettaglio
-* su tutte le risorse schedulate  (Gantt totale)
-* su tutte le risorse appartenenti al gruppo della risorsa selezionata (Gantt della risorsa generale), questo bottone è presente solo se è stata attivata nello scenario la distinzione tra risorse generali e specifiche
-* sulla risorsa stessa (Gantt della risorsa specifica)
+\* su tutte le risorse schedulate  (Gantt totale)
+\* su tutte le risorse appartenenti al gruppo della risorsa selezionata (Gantt della risorsa generale), questo bottone è presente solo se è stata attivata nello scenario la distinzione tra risorse generali e specifiche
+\* sulla risorsa stessa (Gantt della risorsa specifica)
 
 E' possibile inoltre impostare, nello script dei parametri BCD, due codici OAV che, se definiti, aggiungono due bottoni, la cui pressione fa passare al dettaglio di tutte le risorse (generali o specifiche, in base a quanto impostato, sempre nello script dei parametri) che hanno lo stesso valore dell'OAV della risorsa puntata.
 
 Nel seguente esempio si è scelto di poter filtrare per il responsablie del centro di lavoro a cui appartiene la macchina selezionata, o per il codice di appartenenza della macchina stessa.
 ![FIG_076](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_076.png)
 Le righe presentate si dividono in due tipi : 
-* riga riassuntiva - una per ogni risorsa specifica
-* riga di dettaglio - un per ogni fase schedulata
+\* riga riassuntiva - una per ogni risorsa specifica
+\* riga di dettaglio - un per ogni fase schedulata
 
 A sua volta la riga si divide in due parti : 
-* parte informativa, in cui è riportato il codice della risorsa e, se la riga è di dettaglio, ulteriori informazioni sulla fase
-* parte grafica, in cui per ogni fase viene riportata una cella
-** rappresentazione Gantt :  la cella ha la lunghezza proporzionale alla durata della fase, ed è collocata in sequenza temporale
-** rappresentazione Incolonnata, in cui tutte le celle hanno la stessa dimensione e sono collocate nella stessa colonna. In questa forma, la perdita dellla collocazione temporale è bilanciata dall'omogeneità delle celle e dal maggior numero di informazioni riportabili nella parte informativa.
+\* parte informativa, in cui è riportato il codice della risorsa e, se la riga è di dettaglio, ulteriori informazioni sulla fase
+\* parte grafica, in cui per ogni fase viene riportata una cella
+\*\* rappresentazione Gantt :  la cella ha la lunghezza proporzionale alla durata della fase, ed è collocata in sequenza temporale
+\*\* rappresentazione Incolonnata, in cui tutte le celle hanno la stessa dimensione e sono collocate nella stessa colonna. In questa forma, la perdita dellla collocazione temporale è bilanciata dall'omogeneità delle celle e dal maggior numero di informazioni riportabili nella parte informativa.
 
 ## Impostazioni dei campi della riga
 Si può scegliere quali campi riportare nella parte informativa della riga con la modlità standard del componente Gantt.
@@ -63,18 +63,18 @@ richiamata dal menu di popup ottenuto premendo il tasto destro in una zona vuota
 
 ![FIG_064](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_064.png)
 Tali impostazioni permettono : 
-* di non visualizzare i segnali delle date
-** al più presto
-** vincolo esterno
-** fine richiesta
-** fine schedulata
-* di entare in modo bloccato (lo spostamento delle celle deve essere attivato esplicitamente :  riferirsi alla documentazione generale del componente Gantt)
-* di entare in modo chiuso, visualizzando solo la riga riassuntiva. Questa impostazione non ha effetto in visualizzazione totale, che è sempre eseguita in tale modalità.
-* di entare in presentazione incolonnata
-* di inserire due soglie di giorni di ritardo, per visualizzare in modo diverso il ritardo stesso.
-* di evidenziare l'attrezzaggio.
-* di non presentare le risorse vuote (non caricate) :  significativa solo se si è in visualizzazione delle risorse specifiche di una risorsa generale
-* di entrare in modo chiuso se si è in visualiizzazione filtrata da un OAV.
+\* di non visualizzare i segnali delle date
+\*\* al più presto
+\*\* vincolo esterno
+\*\* fine richiesta
+\*\* fine schedulata
+\* di entare in modo bloccato (lo spostamento delle celle deve essere attivato esplicitamente :  riferirsi alla documentazione generale del componente Gantt)
+\* di entare in modo chiuso, visualizzando solo la riga riassuntiva. Questa impostazione non ha effetto in visualizzazione totale, che è sempre eseguita in tale modalità.
+\* di entare in presentazione incolonnata
+\* di inserire due soglie di giorni di ritardo, per visualizzare in modo diverso il ritardo stesso.
+\* di evidenziare l'attrezzaggio.
+\* di non presentare le risorse vuote (non caricate) :  significativa solo se si è in visualizzazione delle risorse specifiche di una risorsa generale
+\* di entrare in modo chiuso se si è in visualiizzazione filtrata da un OAV.
 
 ## Visualizzazione di tutte le risorse
 In modalità Gantt viene riportata una riga riassuntiva per ogni risorsa caricata, con le fasi schedulate una accanto all'altra in sequenza temporale. E' possibile aprire ogni risorsa per  visualiizzare le righe in dettaglio.
@@ -104,9 +104,9 @@ Le azioni generali eseguibili, dall'inteno di un dettaglio, si richiamano clicca
 Appare il seguente popup : 
 ![FIG_069](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_069.png)
 In esso è possibile
-* Alternare la presentazione Gantt e Incolonnata (nell'esempio precedente si è in Incolonnata e quindi viene proposto di passare alla visualizzazione Gantt
-* Passare alla definizione delle Impostazioni. Al ritorno, il dettaglio verrà riaggiornato con le nuove impostazioni.
-* Eseguire la schedulazione globale, al termine della quale verrà ripresentato lo stesso dettaglio, con i valori eventualmente aggornati, Questa funzione è utile dopo aver eseguito azioni manuali, per verificarne l'effetto.
+\* Alternare la presentazione Gantt e Incolonnata (nell'esempio precedente si è in Incolonnata e quindi viene proposto di passare alla visualizzazione Gantt
+\* Passare alla definizione delle Impostazioni. Al ritorno, il dettaglio verrà riaggiornato con le nuove impostazioni.
+\* Eseguire la schedulazione globale, al termine della quale verrà ripresentato lo stesso dettaglio, con i valori eventualmente aggornati, Questa funzione è utile dopo aver eseguito azioni manuali, per verificarne l'effetto.
 
 ## Formato celle
 Nel dettaglio le celle rappresentano le operazioni schedulate. La loro forma permette di individuare facilmente il loro stato.
@@ -118,16 +118,16 @@ Esse possono infatti essere :
 ![FIG_001](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_001.png)**forzate** :  vedi documentazione sulle azioni manuali
 ![FIG_004](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_004.png)
 Se è stato impostato di evidenziare l'attrezzaggio e se esso è effettivamente presente, all'interno della cella viene riportata una barra verticale.
-* nella rappresentazione GANTT, in cul la lunghezza della cella è proporzionale al tempo della fase, la barra è posizionala all'instante di fine attrezzaggio.
-* nella rappresentazione incolonnata, in cui tutte le celle hanno la medesima lunghezza, la barra è posizionata alla fine della percentuale di attrezzaggio rispetto al tempo totale. Ad esempio, se l'attrezzaggio è il 20 % del tempo totale, la barra è sempre nella stessa posizione (ad un quinto dall'inizio della cella) indipendentemente dal tempo della fase.
+\* nella rappresentazione GANTT, in cul la lunghezza della cella è proporzionale al tempo della fase, la barra è posizionala all'instante di fine attrezzaggio.
+\* nella rappresentazione incolonnata, in cui tutte le celle hanno la medesima lunghezza, la barra è posizionata alla fine della percentuale di attrezzaggio rispetto al tempo totale. Ad esempio, se l'attrezzaggio è il 20 % del tempo totale, la barra è sempre nella stessa posizione (ad un quinto dall'inizio della cella) indipendentemente dal tempo della fase.
 
 ## Segnali
 Vengono riportati inoltre dei segnali e che rappresentano gli istanti significativi per l'operazione della riga a cui appartengono.
 
 Ad esempio, se si impostano 5 giorni per l'anticipo di livello 1 e 15 giorni per l'anticipo di livello 2, si individueranno tre fasce, in cui la data fine schedulata verrà rappresentata in modo diverso : 
-* gli ordini con anticipo inferiore a 5 giorni (sotto la soglia 1)
-* gli ordini con anticipo tra 5 e 15 giorni (tra la soglia 1 e la soglia 2)
-* gli ordini con anticipo superiore a 15 giorni (sopra la soglia 2)
+\* gli ordini con anticipo inferiore a 5 giorni (sotto la soglia 1)
+\* gli ordini con anticipo tra 5 e 15 giorni (tra la soglia 1 e la soglia 2)
+\* gli ordini con anticipo superiore a 15 giorni (sopra la soglia 2)
 
 Alcuni segnali sono riportati in entrambe le forme di presentazione (Gantt e incolonnata), alcuni invece soltanto in una sola di esse :  in tal caso nel seguito di questa documentazione ne verrà data indicazione esplicita.
 

@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'I2'                               £FUNT1
 Tipo Intervallo    (V2/TI_I2)      £FUNP1
 ## Chiave primaria

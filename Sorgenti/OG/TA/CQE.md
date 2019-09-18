@@ -28,7 +28,7 @@ Indica che l'elemento assume risultato negativo
 Si vedano le tabelle CQK e CQT.
 È indicato come Responsabile della N.C. onde permettere la modifica della sua originaria causale di accettazione ed eventualmente la definizione delle azioni da eseguire sulla consegna successiva.
  :  : FLD T$CRI1 **Riclassifica 1/2/3**
-Campo controllato dalla tabella 'CQ*CR' (Riclassifica causali N.C./ACC.).
+Campo controllato dalla tabella 'CQ\*CR' (Riclassifica causali N.C./ACC.).
 Viene utilizzato nelle analisi statistiche.
  :  : FLD T$CRI2.T$CRI1 **Riclassifica 1/2/3**
  :  : FLD T$CRI3.T$CRI1 **Riclassifica 1/2/3**

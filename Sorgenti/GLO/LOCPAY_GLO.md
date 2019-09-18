@@ -1,4 +1,4 @@
-- **PAYPAL**
+- \*\*PAYPAL\*\*
 
  :  : VOC Id="00001" Txt="PAYPAL"
 

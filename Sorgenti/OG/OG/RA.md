@@ -2,4 +2,4 @@ La richiesta di acquisto è l'intenzione di acquistare un articolo, che dovrà e
 Essa contiene le informazioni dell'articolo richiesto :  il codice, la quantità, la data di consegna, ecc...
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(GARDAT0F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(GARDAT0F) L(1)

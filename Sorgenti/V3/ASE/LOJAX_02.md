@@ -25,8 +25,8 @@ L'XML verrà ritornato raggruppando i nodi per gruppo di appartenenza.
 ### Costruttori di nodi
  :  : PAR L(TAB)
 **Tipo Noto**|Descrizione
-***VAL**|Comunica i Tipi nodi attraverso la forma valori TNo(...) Dat(...) NVL(...)
-***SCP**|Riceve lo script da leggere in formato Lib(...) Fil(...) Mem(...) Flt(...), il tag dello script deve essere G.SET.TipoNodo. Tramite il valore Flt viene passata la porzione di tag che si vuole filtrare. Crea i nodi letti dallo script.
+**\*VAL**|Comunica i Tipi nodi attraverso la forma valori TNo(...) Dat(...) NVL(...)
+**\*SCP**|Riceve lo script da leggere in formato Lib(...) Fil(...) Mem(...) Flt(...), il tag dello script deve essere G.SET.TipoNodo. Tramite il valore Flt viene passata la porzione di tag che si vuole filtrare. Crea i nodi letti dallo script.
 **GE**|Riceve le colonne della griglia nella schiera**£JaxSWK**, crea i nodi GC
 **EXUEF**|Riceve i field deli fields nella schiera **£JayFldLst**, crea i nodi EXUFF
 

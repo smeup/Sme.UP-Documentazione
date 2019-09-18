@@ -8,14 +8,14 @@
  Al momento vengono supportate due inizializzazioni : 
   - Inizializzazione per file
  :  : INI SINTASSI DELLA CHIAMATA
-      * Inizializzo per file
+      \* Inizializzo per file
      C                   EVAL      £G76FU='INZ'
      C                   EVAL      £G76ME='F-'
      C                   EXSR      £G76
  :  : FIN
   - Inizializzazione per oggetto
  :  : INI SINTASSI DELLA CHIAMATA
-      * Inizializzo per oggetto
+      \* Inizializzo per oggetto
      C                   EVAL      £G76FU='INZ'
      C                   EVAL      £G76ME='O-'
      C                   EXSR      £G76
@@ -24,7 +24,7 @@
 ### Inizializzazione per file
  Con questa inizializzazione si lavora sui campi del file indicato
  :  : INI SINTASSI DELLA CHIAMATA
-      * Set del file
+      \* Set del file
      C                   EVAL      £G76FU='SET'
      C                   EVAL      £G76ME='REC'
      C                   EVAL      £G76IN='REC(File)'
@@ -36,7 +36,7 @@
  Il mapping fra OAV e campo del file viene specificato nel file
   di script SCP_G76/NomeOggetto
  :  : INI SINTASSI DELLA CHIAMATA
-      * Set dell'oggetto
+      \* Set dell'oggetto
      C                   EVAL      £G76FU='SET'
      C                   EVAL      £G76ME='REC'
      C                   EVAL      £G76IN='REC(Oggetto)'
@@ -48,7 +48,7 @@
   il titolo e l'oggetto della colonna
  L'impostazione e' multipla
  :  : INI SINTASSI DELLA CHIAMATA
-      * Set del campo/attributo
+      \* Set del campo/attributo
      C                   EVAL      £G76FU='SET'
      C                   EVAL      £G76ME='FLD'
      C                   EVAL      £G76IN='FLD(NomeCampo/Attributo)
@@ -63,7 +63,7 @@
   sia statici(campi del file) che dinamici(OAV)
  L'impostazione e' multipla
  :  : INI SINTASSI DELLA CHIAMATA
-      * Set del filtro
+      \* Set del filtro
      C                   EVAL      £G76FU='SET'
      C                   EVAL      £G76ME='FLT'
      C                   EVAL      £G76IN='FLD(NomeCampo/Attributo)
@@ -76,7 +76,7 @@
  E' possibile ordinare il recordset in base a campi del record
  L'impostazione e' multipla
  :  : INI SINTASSI DELLA CHIAMATA
-      * Set dell'ordinamento
+      \* Set dell'ordinamento
      C                   EVAL      £G76FU='SET'
      C                   EVAL      £G76ME='ORD'
      C                   EVAL      £G76IN='FLD(NomeCampo/Attributo)
@@ -89,7 +89,7 @@
   nel SET/FLD
  L'impostazione e' multipla
  :  : INI SINTASSI DELLA CHIAMATA
-      * Set del group by
+      \* Set del group by
      C                   EVAL      £G76FU='SET'
      C                   EVAL      £G76ME='GRP'
      C                   EVAL      £G76IN='FLD(NomeCampo/Attributo)
@@ -114,7 +114,7 @@
   DEC       £DEC          V1= Campo, V2=Oggetto(Opzionale, se assente da V1)
   OAV       £OAV          V1= Campo, V2=Attributo, V3=Oggetto(Opzionale, se assente da V1)
  :  : INI SINTASSI DELLA CHIAMATA
-      * Set della funzione
+      \* Set della funzione
      C                   EVAL      £G76FU='SET'
      C                   EVAL      £G76ME='FLD'
      C                   EVAL      £G76ME='FLT'
@@ -129,10 +129,10 @@
  E' possibile caricare tutti i comandi della /COPY attraverso
  un file di script. Degli esempi sono contenuti nel file SCP_G76
  :  : INI SINTASSI DELLA CHIAMATA
-      * Caricamento dello script
+      \* Caricamento dello script
      C                   EVAL      £G76FU='CAR'
      C                   EVAL      £G76ME='SCP'
-     C                   EVAL      £G76IN='LIB(*LIBL)
+     C                   EVAL      £G76IN='LIB(\*LIBL)
      C                                     FIL(NomeFile)
      C                                     MBR(Membro)'
      C                   EXSR      £G76
@@ -143,14 +143,14 @@
  La selezione puo' essere di 2 tipi : 
   - Tutti i record
  :  : INI SINTASSI DELLA CHIAMATA
-      * Selezione di tutti i campi
+      \* Selezione di tutti i campi
      C                   EVAL      £G76FU='SLC'
-     C                   EVAL      £G76ME=*BLANKS
+     C                   EVAL      £G76ME=\*BLANKS
      C                   EXSR      £G76
  :  : FIN
   - Solo un elemento per campo (distinct)
  :  : INI SINTASSI DELLA CHIAMATA
-      * Distinct dei campi
+      \* Distinct dei campi
      C                   EVAL      £G76FU='SLC'
      C                   EVAL      £G76ME='DST'
      C                   EXSR      £G76
@@ -159,9 +159,9 @@
 ### Scansione dei record
  Al termine delle procedure della selezione si puo' scorrere il resultset
  :  : INI SINTASSI DELLA CHIAMATA
-      * Scorrimento resultset
+      \* Scorrimento resultset
      C                   EVAL      £G76FU='NXT'
-     C                   EVAL      £G76ME=*BLANKS
+     C                   EVAL      £G76ME=\*BLANKS
      C                   EXSR      £G76
  :  : FIN
 
@@ -169,7 +169,7 @@
  Una volta posizionati sul record selezionato occorre reprire il valore
  dei campi selezionati
  :  : INI SINTASSI DELLA CHIAMATA
-      * Ripresa valore campo
+      \* Ripresa valore campo
      C                   EVAL      £G76FU='GET'
      C                   EVAL      £G76ME='FLD'
      C                   EVAL      £G76IN=NomeCampo
@@ -181,7 +181,7 @@
  E' possibile settare delle variabili che verranno utilizzate come
  valori per il set del filtro
  :  : INI SINTASSI DELLA CHIAMATA
-      * Set di variabile
+      \* Set di variabile
      C                   EVAL      £G76FU='SET'
      C                   EVAL      £G76ME='VAR'
      C                   EVAL      £G76IN='VAR(Nome)
@@ -191,7 +191,7 @@
  E' possibile, a scopo informativo, scandire le varibili contenute
   nella selezione
  :  : INI SINTASSI DELLA CHIAMATA
-      * Scansione variabili
+      \* Scansione variabili
      C                   EVAL      £G76FU='SCV'
      C                   EVAL      £G76ME='POS'
      C                   DO
@@ -205,7 +205,7 @@
  E' possibile scandire la struttura del resultset selezionato,
   questa funzionalita' viene utilizzata dal TSTG76 per la
   funzione VIS/REC e VIS/LST
-      * Scansione struttura
+      \* Scansione struttura
      C                   EVAL      £G76FU='SCS'
      C                   EVAL      £G76ME='POS'
      C                   DO

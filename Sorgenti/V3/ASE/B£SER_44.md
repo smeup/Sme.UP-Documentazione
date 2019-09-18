@@ -11,7 +11,7 @@ L'analisi effettuata permette di individuare :  i campi non oggettizzati od ogge
 Costruisce la matrice dei campi dei file di una applicazione o dei campi di un file evidenziando per ogni campo il tipo oggetto e la descrizione dell'oggetto, gli errori di assegnazione del tipo oggetto, proprietà aggiuntive del campo.
  :  : PRO.SER Fun="F(EXB;B£SER_44;LIS.FLD) 1(TA;B£A;APP)" Cod="00001"
 APP = Applicazione da analizzare
- :  : PRO.SER Fun="F(EXB;B£SER_44;LIS.FLD) 1(OJ;*FILE;FILE)" Cod="00002"
+ :  : PRO.SER Fun="F(EXB;B£SER_44;LIS.FLD) 1(OJ;\*FILE;FILE)" Cod="00002"
 FILE = file da analizzare
 
 
@@ -25,7 +25,7 @@ FIELD = campo del file
 ## Errori (ERR)
 ### dei campi (FLD)
 Analizza i campi di un file e crea la matrice delle incompatibilità fra i valori assegnati al campo e il suo tipo oggetto. Nel caso di tipi oggetto dinamici, il servizio risolve la dinamicità in base al tipo oggetto e ai valori dei campi condizione individuati. (vedi B£EQRY_OD)
- :  : PRO.SER Fun="F(FBK;B£SER_44;ERR.FLD) 1(OJ;*FILE;FILE)" Cod="00004"
+ :  : PRO.SER Fun="F(FBK;B£SER_44;ERR.FLD) 1(OJ;\*FILE;FILE)" Cod="00004"
 FILE = file da analizzare
 
 ## Elenco dei record (OGG)
@@ -39,6 +39,6 @@ FIELD-VAL = Coppie campo-valore usate per filtrare i record del file
 ## Dettaglio (DET)
 ### di un record (REC)
 Costruisce la matrice di dettaglio dei valori di un record di un file.
- :  : PRO.SER Fun="F(OJ;*FILE;FILE) 2(ID;FILE;NREC)" Cod="00006"
+ :  : PRO.SER Fun="F(OJ;\*FILE;FILE) 2(ID;FILE;NREC)" Cod="00006"
 FILE = File da analizzare
 NREC = Numero del record

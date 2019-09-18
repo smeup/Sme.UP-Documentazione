@@ -42,27 +42,27 @@ Compilare la videata immettendo :
 6. NOMINALE :  è il valore nominale atteso che ci si aspetta di rilevare
 7. LIMITE INFERIORE :  indica il valore minimo considerato valido per la caratteristica
 8. LIMITE SUPERIORE :  indica il valore massimo considerato valido
-9. OPERATORE A/B/C :  immettere "DI" (che indica DIPENDENTE) O "UP" (*USERPROFILE) nel primo campo e la matricola /Uutente dell'operatore nel campo adiacente. La ricerca delle matricole può essere fatta mettendo il "!" nel campo e premendo poi invio.
+9. OPERATORE A/B/C :  immettere "DI" (che indica DIPENDENTE) O "UP" (\*USERPROFILE) nel primo campo e la matricola /Uutente dell'operatore nel campo adiacente. La ricerca delle matricole può essere fatta mettendo il "!" nel campo e premendo poi invio.
 
 ### MSA per variabili :  Studio di tipo 1
 Per questo tipo di studio occorre poi compilare
-* TIPO STUDIO :  inserire il valore 1 dall'elenco precaricato
-* TIPO CONTROLLO :  "VA" che indica il controllo per variabili
+\* TIPO STUDIO :  inserire il valore 1 dall'elenco precaricato
+\* TIPO CONTROLLO :  "VA" che indica il controllo per variabili
 Per questo tipo di studio gli operatori previsti devono essere almeno 2.
-Affinché poi questa tipologia di studio offra risultati attendibili, è importante che il numero totale di valori raccolti (numero di campioni * ripetute) sia almeno pari a 50.
+Affinché poi questa tipologia di studio offra risultati attendibili, è importante che il numero totale di valori raccolti (numero di campioni \* ripetute) sia almeno pari a 50.
 
 ### MSA per variabili :  Studio di tipo 2
 Per questo tipo di studio occorre poi compilare
-* TIPO STUDIO :  inserire il valore 2 dall'elenco precaricato
-* TIPO CONTROLLO :  "VA" che indica il controllo per variabili
+\* TIPO STUDIO :  inserire il valore 2 dall'elenco precaricato
+\* TIPO CONTROLLO :  "VA" che indica il controllo per variabili
 Per questo tipo di studio gli operatori previsti devono essere almeno 2.
 Affinché poi questa tipologia di studio offra risultati attendibili, è importante che vengano svolte almeno 2 ripetute su 5 campioni.
 
 ### MSA per attributi
 
 Per questo tipo di studio occorre poi compilare
-* TIPO STUDIO :  inserire il valore 1
-* TIPO CONTROLLO :  "AT" che indica il controllo per attributi
+\* TIPO STUDIO :  inserire il valore 1
+\* TIPO CONTROLLO :  "AT" che indica il controllo per attributi
 Le risposte, sia negative che positive, devono rifarsi ai due elementi della tabella CQE sotto settore H5. Questi due elementi sono infatti quelli che vengono presi come riferimento nella compilazione delle misure.
 
 Una volta inseriti tutti i dati richiesti, premendo INVIO i campi obbligatori retroilluminati di rosso si spengono. Questo è importante perché significa che tutti i campi sono stati compilati correttamente.
@@ -122,8 +122,8 @@ Di seguito i layout specifici per le tre tipologie di MSA che vengono gestite in
 ![CQACMC_26](http://localhost:3000/immagini/CQACMC_04/CQACMC_26.png)
 ## Stampa del certificato
 Per eseguire la stampa di un documento di MSA sarà sufficiente andare nella voce di menu "Specifiche MSA Strumenti" e scegliere poi tra le voci : 
-* Stampa MSA verticale"
-* "Stampa MSA orizzontale"
+\* Stampa MSA verticale"
+\* "Stampa MSA orizzontale"
 La differenza tra le due stampe è solo il layout della pagina (orizzontale o verticale). È possibile scegliere indistintamente tra le due tipologie di stampa.
 È ovvio che a seconda della numerosità dei dati che si devono stampare (numero di campioni e di ripetute) sarà consigliata la stampa in orizzontale rispetto a quella in verticale.
 Le stampe si adattano al contenuto del documento di MSA; a seconda infatti del tipo di studio di MSA, verrà cambiato sia il titolo del certificato che la parte di dettaglio delle misure.

@@ -73,8 +73,8 @@ I conti contabili nativamente vengono presi dalle righe che sono valorizzate.
 Per maggior chiarezza ci appoggiamo ad un esempio in cui il Kit è così composto : 
 
 Codice KIT = Art. KIT, composto da : 
-* Art. A X 1
-* Art. B X 2
+\* Art. A X 1
+\* Art. B X 2
 ordine di 100 KIT.
 
 
@@ -104,7 +104,7 @@ Sulla riga KIT padre vi è fisicamente il prezzo pari a 0, e nelle righe compone
 - Riga padre  FL29=3
 - Riga figlio FL29=4
 
-Ad esempio se A ha prezzo unitario 2 e B ha prezzo 1, il codice Kit ricalcola unb prezzo unitario pari a 4, dato da (100 * 2 + 200 * 1)/100.
+Ad esempio se A ha prezzo unitario 2 e B ha prezzo 1, il codice Kit ricalcola unb prezzo unitario pari a 4, dato da (100 \* 2 + 200 \* 1)/100.
 
 
 ### Prezzo Caso C
@@ -160,11 +160,11 @@ I flag della V5K sovrascrivono per i valori specifici i flag della riga.
 - [V5K - Tipi Kit](Sorgenti/OG/TA/V5K)
 
 ### Programmi specifici
- :  : DEC T(OJ) P(*PGM) K(V5FUKIT)
+ :  : DEC T(OJ) P(\*PGM) K(V5FUKIT)
 E' il motore della gestione dei KIT.
 Va utilizzato nei flussi riga documento, chiamato in molti funzioni e metodi. Si può attivare dalla tabella V5K, il relativo programma di aggiustamento, per indurre comportamenti specifici. Si chiama VV5FUKIT_x, e viene chiamato con gli stessi metodi del V5FUKIT.
 
- :  : DEC T(OJ) P(*PGM) K(V5FUKIT1)
+ :  : DEC T(OJ) P(\*PGM) K(V5FUKIT1)
 Visualizza un Kit partendo dalla riga padre. Si può agganciare a flussi o popup, ed è nativa dalla gestione righe, F14 opzione 16.
 
 ### Configurazione consigliata

@@ -29,9 +29,9 @@ Definisce la periodicità di liquidazione dell'agente nel caso differisca rispet
  :  : FLD T$AGEJ **Piano anticipi**
 È un elemento TA/V6Z. Definisce il piano anticipi di riferimento dell'agente nel caso in cui questo sia differente rispetto al default definito nella tabella V58.
  :  : FLD T$AGEH **Data inizio rapporto**
-È un elemento D8*YYMD. Definisce la data di inizio dei rapporti con l'agente. Essa viene presa in considerazione quando di devono calcolare i contributi.
+È un elemento D8\*YYMD. Definisce la data di inizio dei rapporti con l'agente. Essa viene presa in considerazione quando di devono calcolare i contributi.
  :  : FLD T$AGEI **Data fine rapporto**
-È un elemento D8*YYMD. Definisce la data di fine dei rapporti con l'agente. Essa viene presa in considerazione quando si devono calcolare i contributi.
+È un elemento D8\*YYMD. Definisce la data di fine dei rapporti con l'agente. Essa viene presa in considerazione quando si devono calcolare i contributi.
  :  : FLD T$AGEL **Tipo Provvigioni Fattura**
 È un elemento TA/V5P. Definisce il tipo di provvigione da utilizzare per l'agente, quando deve essere ripresa una fattura e qualora questa sia differente rispetto al default definito nella tabella V58.
  :  : FLD T$AGEM **Tipo Provvigioni Nota**
@@ -47,6 +47,6 @@ gennaio verrà liquidata nel periodo corrispondente ad aprile).
  :  : FLD T$AGEP **Agente Enasarco**
 Attraverso questo campo è possibile unificare le elaborazioni dei documenti proforma  di più agenti e del calcolo contributi, tipicamente quando più codici agente corrispondono ad un solo fornitore.
 E' importante notare che : 
-* Non sono gestiti collegamenti multilivello (es. un codice collegato ad un codice che è a sua volta collegato ad un altro codice, a->-b->c)
-* Il codice di riferimento deve a sua volta aver indicato se stesso come Agente Enasarco
-* E' inoltre importante che se viene modificato/aggiunto il campo, della tabella, sarà necessario riallineare il campo P§COD1 scritto sul file V5PROV.
+\* Non sono gestiti collegamenti multilivello (es. un codice collegato ad un codice che è a sua volta collegato ad un altro codice, a->-b->c)
+\* Il codice di riferimento deve a sua volta aver indicato se stesso come Agente Enasarco
+\* E' inoltre importante che se viene modificato/aggiunto il campo, della tabella, sarà necessario riallineare il campo P§COD1 scritto sul file V5PROV.

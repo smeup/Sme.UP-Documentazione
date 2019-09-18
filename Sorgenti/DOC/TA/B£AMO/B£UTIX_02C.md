@@ -5,17 +5,17 @@ _1_E' MOLTO IMPORTANTE LEGGERE ATTENTAMENTE QUESTA DOCUMENTAZIONE PRIMA DI ESEGU
 # OBIETTIVI
 
 Questa scheda si pone questi obiettivi : 
-* Dare una traccia di massima delle azioni da eseguire
-* Fornire le funzioni necessarie all'esecuzione delle principali azioni di aggiornamento
+\* Dare una traccia di massima delle azioni da eseguire
+\* Fornire le funzioni necessarie all'esecuzione delle principali azioni di aggiornamento
 **Non si pone invece l'obiettivo di poter completare l'adeguamento al nuovo assoggettamento in modo totalmente automatico. Per tale motivo, una volta presa coscienza delle principali caratteristiche di ognuna delle azioni riportate a seguire, qualora tali specifiche non rispecchiassero la realtà aziendale si consiglia di applicare le opportune modifiche al pgm di esecuzione. 
 
 # NOTE GENERALI
 
-* Ogni azione può essere eseguita con un doppioclick o premendo il tasto invio sul nodo dell'albero posto sulla sinistra
-* All'esecuzione per tutte le azioni che comportano un aggiornamento dei dati verrà comunque richiesta un'azione di conferma prima dell'effettiva esecuzione
-* Ogni azione può anche essere eseguita più volte, senza che vi sia pericolo di aggiornamenti anomali dei dati
-* Se sul sistema sono presenti più ambienti, al netto di avere già una conoscenza precisa della struttura di tali ambienti, è necessario eseguire le azioni su ognuno degli ambienti. Se vi sono dati in comune su questi ambienti, quando l'azione su tali dati verrà ripetuta, l'effetto sarà semplicemente il fatto che non verranno riscontrati dati da aggiornare.
-* In linea generale queste azioni assumono che il codice azienda sia stato fissato nella tabella B£2. Se così non fosse sarà necessario intervenire nei programmi di esecuzione in modo opportuno.
+\* Ogni azione può essere eseguita con un doppioclick o premendo il tasto invio sul nodo dell'albero posto sulla sinistra
+\* All'esecuzione per tutte le azioni che comportano un aggiornamento dei dati verrà comunque richiesta un'azione di conferma prima dell'effettiva esecuzione
+\* Ogni azione può anche essere eseguita più volte, senza che vi sia pericolo di aggiornamenti anomali dei dati
+\* Se sul sistema sono presenti più ambienti, al netto di avere già una conoscenza precisa della struttura di tali ambienti, è necessario eseguire le azioni su ognuno degli ambienti. Se vi sono dati in comune su questi ambienti, quando l'azione su tali dati verrà ripetuta, l'effetto sarà semplicemente il fatto che non verranno riscontrati dati da aggiornare.
+\* In linea generale queste azioni assumono che il codice azienda sia stato fissato nella tabella B£2. Se così non fosse sarà necessario intervenire nei programmi di esecuzione in modo opportuno.
 
 # AZIONI
 
@@ -47,7 +47,7 @@ vengono ricercate le testate e conseguentemente le righe aperte secondo i seguen
 - Controllo utilizzo tabella IVA nelle griglie :  viene riportato l'elenco delle eventuali griglie che prevedono l'indicazione di un assoggettamento IVA. Sulla destra vengono riportati tutti campi di tabella che puntano ad un griglia e tutti gli elementi di tali tabelle che hanno come valore di griglia il codice selezionato al momento nella sezione di sinistra. Andranno poi fatte le dovute valutazioni di ogni caso.
 - Controllo utilizzo tabella IVA negli attributi :  viene riportato l'elenco delle eventuali attributi che prevedono il reperimento di un assoggettamento IVA. Verrano riportati tutti gli attributi, anche se dovrebbero essere oggetto di controllo solo gli attributi che inziano per "U/". Questo, purchè si siano mantenute le denominazioni standard. Andranno poi fatte le dovute valutazioni di ogni caso.
 - Controllo utilizzo tabella IVA nei campi di tabella  :  viene riportato l'elenco delle eventuali campi di tabella che prevedono l'indicazione di un assoggettamento IVA. Sono escluse tutte le tabelle standard già oggetto di una delle precedente azioni. La tabella SPS se segnalata, non ha un utilizzo nello standard, va quindi solo verificato se sia in utilizzo in uno dei pgm standard. Andranno poi fatte le dovute valutazioni di ogni caso.
-- Controllo Sorgenti :  tramite questa azione è possibile semplicemente lanciare la funzione di analisi dei sorgenti. Tale funzione dovrebbe essere parametrizzata in moda indicare come librerie di ricerca quelle utilizzate per le personalizzazioni, mentre come stringhe di ricerca è consigliabile eseguire la funzione più volte cercando ed esempio :  i codici iva con aliquota 21, unla dicitura "T$ALIQ", "IVA" o anche solo la dicitura "21" (poi per quest'ultimo caso nello spool prodotto le diciture "MULT", "DIV", "*21", "*121", "/21" "/121").   Oltre a questi si potrebbero cercare eventuali costanti (nome campi tabella, attributi ecc.) riscontrati dalle precedenti ricerche.
+- Controllo Sorgenti :  tramite questa azione è possibile semplicemente lanciare la funzione di analisi dei sorgenti. Tale funzione dovrebbe essere parametrizzata in moda indicare come librerie di ricerca quelle utilizzate per le personalizzazioni, mentre come stringhe di ricerca è consigliabile eseguire la funzione più volte cercando ed esempio :  i codici iva con aliquota 21, unla dicitura "T$ALIQ", "IVA" o anche solo la dicitura "21" (poi per quest'ultimo caso nello spool prodotto le diciture "MULT", "DIV", "\*21", "\*121", "/21" "/121").   Oltre a questi si potrebbero cercare eventuali costanti (nome campi tabella, attributi ecc.) riscontrati dalle precedenti ricerche.
 
 
 

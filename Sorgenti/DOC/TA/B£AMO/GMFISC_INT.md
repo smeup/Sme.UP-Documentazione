@@ -14,8 +14,8 @@ In Sme.up sono possibili due metodi per ottenere queste sintesi :
 
 - _3_Attraverso chiusure periodiche dei magazzini (tipicamente chiusure di fine mese)
 
-![GM_FISC_01](http://localhost:3000/immagini/GMFISC_INT/GM_FISC_01.png)Si ricorda che l'esecuzione di una chiusura periodica di magazzino non comporta un blocco della revisione dei movimenti, se si desidera bloccare la movimentazione bisogna manualmente inserire il blocco nella tabella B£4 con elemento *VMM o adottare un blocco attraverso date variabili.
- :  : DEC T(TA) P(B£4) K(*VMM)
+![GM_FISC_01](http://localhost:3000/immagini/GMFISC_INT/GM_FISC_01.png)Si ricorda che l'esecuzione di una chiusura periodica di magazzino non comporta un blocco della revisione dei movimenti, se si desidera bloccare la movimentazione bisogna manualmente inserire il blocco nella tabella B£4 con elemento \*VMM o adottare un blocco attraverso date variabili.
+ :  : DEC T(TA) P(B£4) K(\*VMM)
 
 
 - _3_Attraverso la ricostruzione della giacenza alla data di fine esercizio partendo dalla giacenza corrente
@@ -38,8 +38,8 @@ _2_Nota con questo modulo è anche possibile ottenere la valorizzazione di giace
 La valorizzazione per oggetto di riferimento pretende che nella tabella di personalizzazione della gestione materiali (GM1) sia attivata la funzione degli scenari in valorizzazione fiscale e che nella tabella degli scenari (GM3) sia attivata la gestione per oggetto di riferimento.
 
 # Archivi utilizzati
- :  : DEC T(OJ) P(*FILE) K(GMSIAN0F)
- :  : DEC T(OJ) P(*FILE) K(IGREPT0F)
+ :  : DEC T(OJ) P(\*FILE) K(GMSIAN0F)
+ :  : DEC T(OJ) P(\*FILE) K(IGREPT0F)
 
 # Generazione sintesi di magazzino
 Con  questa attività viene generato un archivio (>GMSIAN0F) che sintetizza,  per_3_PERIODO(solitamente l'ANNO) e_3_ARTICOLO(quantità in entrata e uscita) e relativo valore.
@@ -60,31 +60,31 @@ La costruzione sintesi da foto è necessaria quando si voglia valorizzare il mag
 
 ## Creazione Sintesi
 Le sintesi possono essere generate per>Scenari diversi, consentendo, ad esempio, di gestire oggetti di riferimento diversi o aree di aggregazione dei movimenti diverse.
-L'opzione >MULTISCENARIO è attivabile dalla Tabella GM1 e, in caso contrario, viene assunto come scenario di default l'elemento '*'.
- :  : DEC T(TA) P(GM1) K(*)
+L'opzione >MULTISCENARIO è attivabile dalla Tabella GM1 e, in caso contrario, viene assunto come scenario di default l'elemento '\*'.
+ :  : DEC T(TA) P(GM1) K(\*)
 
 Per ottenere questa sintesi bisogna quindi : 
- * verificare  che nella tabella GM3 esista l'elemento >'*' di default e, se previsto, creare altri scenari
- :  : DEC T(TA) P(GM3) K(*)
+ \* verificare  che nella tabella GM3 esista l'elemento >'\*' di default e, se previsto, creare altri scenari
+ :  : DEC T(TA) P(GM3) K(\*)
  :  : DEC T(ST) K(GM3)
 
- * creare tipo costo da utilizzare nella generazione della Sintesi
+ \* creare tipo costo da utilizzare nella generazione della Sintesi
  :  : DEC T(ST) K(TCO)
 
- * creare periodo per la generazione della Sintesi
+ \* creare periodo per la generazione della Sintesi
  :  : DEC T(ST) K(PER)
 
- * accedere alle voci di menu e selezionare quella prevista dalla propria gestione : 
- ** Creazione Sintesi magazzino da chiusura
- ** Creazione Sintesi magazzino da giacenza attuale
+ \* accedere alle voci di menu e selezionare quella prevista dalla propria gestione : 
+ \*\* Creazione Sintesi magazzino da chiusura
+ \*\* Creazione Sintesi magazzino da giacenza attuale
 
 Dopo essere stata generata, la Sintesi di magazzino può essere gestita per eventuali modifiche.
 
 # Stampa e valorizzazione sintesi
  La Valorizzazione Fiscale si ottiene valorizzando la Sintesi di magazzino.
  Tale Valorizzazione è possibile in due forme : 
- * >VALORIZZAZIONE SEMPLICE(produce solo una stampa del magazzino valorizz.)
- * >VALORIZZAZIONE ESTESA  (consente la stampa, visualizzazione o trasf. PC)
+ \* >VALORIZZAZIONE SEMPLICE(produce solo una stampa del magazzino valorizz.)
+ \* >VALORIZZAZIONE ESTESA  (consente la stampa, visualizzazione o trasf. PC)
 
 La valorizzazione della sintesi è possibile per Scenario/Magazzino Fiscale  e Periodo. _7_La valorizzazione non viene memorizzata in alcun archivio.
 

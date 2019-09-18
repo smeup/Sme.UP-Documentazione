@@ -6,14 +6,14 @@ Caratterizzare la tipologia delle risorse secondarie.
 Permette d'identificare la tipologia della risorsa secondaria.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$KYC3 **Tipo e parametro codice 3**
-Definiscono l'oggetto (elemento della tabella *CN/TT eventualmente tipizzato), che rappresenta il tipo risorsa a cui si può collegare il tipo trattato.
+Definiscono l'oggetto (elemento della tabella \*CN/TT eventualmente tipizzato), che rappresenta il tipo risorsa a cui si può collegare il tipo trattato.
  :  : FLD T$PAR3.T$KYC3 **Tipo e parametro codice 3**
 Vedi sopra
  :  : FLD T$BRKA **Parametri impliciti**
 È un elemento della tabella C£I permette di gestire opzionalmente 5 valori alfanumerici e 5 valori numerici.
  :  : FLD T$BRKB **Modello**
 Definisce il significato dei campi codice e valore.
-Se inizia con '*' è uno dei modelli standard contenuti nel programma BRRS01DE.
+Se inizia con '\*' è uno dei modelli standard contenuti nel programma BRRS01DE.
 Altrimenti è un programma specifico di cui si controlla l'esistenza.
  :  : FLD T$BRKC **Parametri Modello**
 Definisce i parametri del modello.

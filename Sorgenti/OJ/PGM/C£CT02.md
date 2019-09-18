@@ -24,16 +24,16 @@ Una volta scelto un campo mediante questo programma è possibile chiedere le con
 campo.
 
 Si distingueranno due condizioni : 
- * Numerico
- ** B1.  Valore
- ** B2.  Azione
- *** S = Sostituzione
- *** + = Somma Ecc. per altre operazioni)
- ** B3.  Condizione dell'azione
- *** % = Se +/- significa che si vuole applicare una percentuale
+ \* Numerico
+ \*\* B1.  Valore
+ \*\* B2.  Azione
+ \*\*\* S = Sostituzione
+ \*\*\* + = Somma Ecc. per altre operazioni)
+ \*\* B3.  Condizione dell'azione
+ \*\*\* % = Se +/- significa che si vuole applicare una percentuale
 
- * Alfanumerico
- ** B1.  Nuovo valore
+ \* Alfanumerico
+ \*\* B1.  Nuovo valore
 
 2.   Funzione di impostazione delle condizioni di selezione
 In base ad un campo questo programma permette di definire le seguenti condizioni : 

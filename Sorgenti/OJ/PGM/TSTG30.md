@@ -2,7 +2,7 @@
 Visualizzazione, composizione, scomposizione sequenza campi
 
 # PREREQUISITI
- D*   /COPY £G30E    per definizione schiere
+ D\*   /COPY £G30E    per definizione schiere
 
 # PARAMETRI
 - Funzione :  _campo £G30FU_
@@ -45,8 +45,8 @@ Visualizzazione, composizione, scomposizione sequenza campi
 
 - Contesto :  _campo £G30MS_
 
-* G30        I dati passati al programma vengono memorizzati nel formato predefinito della G30 (una stringa con i valori concatenati)
-* '*Blanks' I dati passati al programma vengono memorizzati nel formato predefinito dalla G11 (una schiera di valori)
+\* G30        I dati passati al programma vengono memorizzati nel formato predefinito della G30 (una stringa con i valori concatenati)
+\* '\*Blanks' I dati passati al programma vengono memorizzati nel formato predefinito dalla G11 (una schiera di valori)
 
 - Intestazione :  _campo £G30TI_
 
@@ -56,14 +56,14 @@ Titolo dele finestra di richiesta dati
 
 ## METODO DI COSTRUZIONE DELLA SCHIERA £30A
 
- * Descrizione Posizione 01-30 :  intestazione del campo
+ \* Descrizione Posizione 01-30 :  intestazione del campo
 
 **COSTRUZIONE DELL'INTESTAZIONE DINAMICA**
 Nella descrizione se si include __Dn viene inclusa la descrizione dell'n.esimo elemento
 ES : 'Pippo __D1 Pluto' è la descrizione e nel primo elemento c'è un articolo la cui descriz. è Artic_1.
 La descriz.diventerà'Pippo Artic_1 Pluto'
 
- * TpParametro Posizione 31-50  :  Tipo+Parametro (lungh. 2+18)
+ \* TpParametro Posizione 31-50  :  Tipo+Parametro (lungh. 2+18)
 Se fisso viene gestito normalmente (es.£DEC), se variabile è tipo dinamico
 
 **COSTRUZIONE DEL TIPO DINAMIC**O
@@ -94,26 +94,26 @@ VERIFICA LIMITI/VALORI -
 Parametro = xxxyyy, dove xxx e yyy sono gli
 indici della schiera £30A da contare dopo l'elemento intestatario dei limiti/Valori (deve essere il simpolo delle somma (+) )  e rappresentano il range in cui vengono controllati i lim. o valori.
 
- * Lung. Posizione 51-55  :  rappresenta la lunghezza (se tipo numerico)
+ \* Lung. Posizione 51-55  :  rappresenta la lunghezza (se tipo numerico)
 
- * D Posizione 56-56  :  indica il numero di decimali O Posizione 57-57  :  O= indica l'obbligatorietà
+ \* D Posizione 56-56  :  indica il numero di decimali O Posizione 57-57  :  O= indica l'obbligatorietà
  N= Nè obblig. nè controllo esistenza oggetto
  n= obblig. non controllato
- A= Non obbligatorio, ma accetta **
- a= obblig. ma accetta **
+ A= Non obbligatorio, ma accetta \*\*
+ a= obblig. ma accetta \*\*
  Blank= Non obblig. con controllo esist. ogg.
 
- * V Posizione 58-58  :  numero per forzare modalità
+ \* V Posizione 58-58  :  numero per forzare modalità
   (gestione=2,interrogazione=5,hidden=H)
  nel caso siamo in verifica e è presente 'R' allora il pgm fa apparire una finestra per ricercare il codice R=ricerca
 
- * Au Posizione 59-60  :  Autorizzazione D
+ \* Au Posizione 59-60  :  Autorizzazione D
 
- * Posizione 61-61  :  Se diverso da BLANKS forza nella descrizione della riga X il valore messo in £11D,X
-utile per descrivere campi numerici o ** in un loop di immissione
+ \* Posizione 61-61  :  Se diverso da BLANKS forza nella descrizione della riga X il valore messo in £11D,X
+utile per descrivere campi numerici o \*\* in un loop di immissione
 N.B. !! Non valido per righe dinamiche
 
- * Pos Posizione 62-64  :  Ordinamento
+ \* Pos Posizione 62-64  :  Ordinamento
 Se diverso da BLANKS forza in visualizzazione la posizione indicata  :  le righe BLANKS si presentano alla fine,
 nell'ordine in cui sono nella schiera
 

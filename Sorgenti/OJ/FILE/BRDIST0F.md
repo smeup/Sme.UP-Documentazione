@@ -1,7 +1,7 @@
 ## Contenuto
 Definizione dei legami tra due oggetti.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 Nessuno.
 
 ## Chiave primaria
@@ -62,8 +62,8 @@ N.A.
 
 ### Impostazioni fisse
 Sono fissati i seguenti tipi distinta : 
- * ART  -    Se distinta unica per articolo (da tabella BR1)
- * TAB  -    Struttura legami tabelle.
+ \* ART  -    Se distinta unica per articolo (da tabella BR1)
+ \* TAB  -    Struttura legami tabelle.
 
 ## CONTENUTO DEI CAMPI
 

@@ -4,21 +4,21 @@
 Gestire nel modo più semplice e libero la scrittura di una lettera contenente delle variabili.
 
 ## FUNZIONI/METODI
- *  DOC - Documentazione
- **  V/P - Video/Stampa (SV). Esplode a video o in stampa la documentazione delle lettere
- * INZ - Inizializzazione
- ** LET/MSK/VAR - Lettera/Maschera/Variabili. Inizializzazione per l'esecuzione della funzione RIT per il recupero delle righe che compongono la lettera (LET) delle maschere (MSK) e delle variabili (VAR)
- * RIT - Ritorno
- ** LET/MSK/VAR - Lettera/Maschera/Variabili. Preceduto dal lancio della funzione INZ permette di scandire le righe con che compongono appunto la lettera (LET) delle maschere (MSK) e delle variabili (VAR)
- * RIP - Ripresa
- ** LET/MSK - Lettera/Maschera. Dati in input i codici di riferimento della lettera permette di scrivere il default delle lettere e delle maschere nelle relative note al fine di poter modificarne a piacimento la composizione
- * CHK - Controllo maschera. Data in input una variabile controlla se questa sia una maschera
- * AZI - Azioni su note
- ** GC/IC/AC - Gestione/Interrogazione/Cancellazione. Dati in input i codici di riferimento della lettera permette di applicare le funzioni specifiche delle note
- * CAR - Caricamento codici di lettera
- ** INZ/RIT - Inizializzazione/Ritorno. Permette di scandire tutti i codici lettera.
- * REP - Ripresa riferimenti lettera. Dati in input i codici di riferimento della lettera ritorna i dati di riferimento della lettera (descrizione, contenitore note ecc.)
- * ELS - Elaborazione stringa. Data in input una stringa (£G69S1) permette di lanciarne l'analisi al fine di convertire le eventuali variabili in essa presenti, riprendendone i valori tramite l'esecuzione della routine £G69SR.
+ \*  DOC - Documentazione
+ \*\*  V/P - Video/Stampa (SV). Esplode a video o in stampa la documentazione delle lettere
+ \* INZ - Inizializzazione
+ \*\* LET/MSK/VAR - Lettera/Maschera/Variabili. Inizializzazione per l'esecuzione della funzione RIT per il recupero delle righe che compongono la lettera (LET) delle maschere (MSK) e delle variabili (VAR)
+ \* RIT - Ritorno
+ \*\* LET/MSK/VAR - Lettera/Maschera/Variabili. Preceduto dal lancio della funzione INZ permette di scandire le righe con che compongono appunto la lettera (LET) delle maschere (MSK) e delle variabili (VAR)
+ \* RIP - Ripresa
+ \*\* LET/MSK - Lettera/Maschera. Dati in input i codici di riferimento della lettera permette di scrivere il default delle lettere e delle maschere nelle relative note al fine di poter modificarne a piacimento la composizione
+ \* CHK - Controllo maschera. Data in input una variabile controlla se questa sia una maschera
+ \* AZI - Azioni su note
+ \*\* GC/IC/AC - Gestione/Interrogazione/Cancellazione. Dati in input i codici di riferimento della lettera permette di applicare le funzioni specifiche delle note
+ \* CAR - Caricamento codici di lettera
+ \*\* INZ/RIT - Inizializzazione/Ritorno. Permette di scandire tutti i codici lettera.
+ \* REP - Ripresa riferimenti lettera. Dati in input i codici di riferimento della lettera ritorna i dati di riferimento della lettera (descrizione, contenitore note ecc.)
+ \* ELS - Elaborazione stringa. Data in input una stringa (£G69S1) permette di lanciarne l'analisi al fine di convertire le eventuali variabili in essa presenti, riprendendone i valori tramite l'esecuzione della routine £G69SR.
 
 ## DESCRIZIONE FUNZIONAMENTO
 Tramite questa routine è in sostanza possibile modificare il layout di stampa di una serie di lettere gestite da pgm standard.

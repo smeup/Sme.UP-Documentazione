@@ -7,11 +7,11 @@ Per contro è sicuramente più immediata da far partire la comunicazione Pc orga
 Si consiglia di utilizzare sempre l'ultimo rilascio di Sme.up perchè il modulo D9 si basa su alcuni programmi di nuova concezione. Avere installato una release recente di Os400 (dalla 4.2) e di Client Access (dalla 3.2).
 È consigliabile installare le PTF dell'AS400 relative al Netserver, che variano a seconda della release dell'Os400. Per verificare quelle necessarie visitare il sito www.as400.ibm.com/netserver.
 Consigliabile anche installare il service pack del Client Access, che varia a seconda della versione che si ha installato
- * Installazione del Databeacon :  installazione e configurazione del Databeacon sul pc dal quale si faranno le estrazioni da Sme.up, con relativa licenza del cliente se presente o con licenza Demo di Softia
- * Installazione del modulo D9 di Sme.up :  portare e integrare tutti i programmi, le tabelle, i menu del modulo D9 nell'ambiente Sme.up già installato dal cliente, vedere sezione specifica.
- * Installazione Smens o utilizzo del PC Organizer :  installazione e configurazione dello Smens sull' AS400 e sui pc dal quale si faranno le estrazioni da Sme.up
- * Configurazione Netserver (solo se si utilizza il Pc Organizer) :  creazione di un'unità di rete dell'As400 che è vista dalla rete sotto Windows. È necessario configurare una parte da AS400 e una parte da Client Access.
- * Provare ad estrarre un cubo partendo da Sme.up. Se non funziona rivedere la procedura.
+ \* Installazione del Databeacon :  installazione e configurazione del Databeacon sul pc dal quale si faranno le estrazioni da Sme.up, con relativa licenza del cliente se presente o con licenza Demo di Softia
+ \* Installazione del modulo D9 di Sme.up :  portare e integrare tutti i programmi, le tabelle, i menu del modulo D9 nell'ambiente Sme.up già installato dal cliente, vedere sezione specifica.
+ \* Installazione Smens o utilizzo del PC Organizer :  installazione e configurazione dello Smens sull' AS400 e sui pc dal quale si faranno le estrazioni da Sme.up
+ \* Configurazione Netserver (solo se si utilizza il Pc Organizer) :  creazione di un'unità di rete dell'As400 che è vista dalla rete sotto Windows. È necessario configurare una parte da AS400 e una parte da Client Access.
+ \* Provare ad estrarre un cubo partendo da Sme.up. Se non funziona rivedere la procedura.
 
 La procedura completa va fatta la prima volta che si installa Cube_up. Per preparare una nuova postazione Pc per estrarre da Sme_up è sufficiente eseguire i punti 1 e 3 della procedura, ovvero installare sul Pc il Databeacon e lo Smens.
 
@@ -33,12 +33,12 @@ Si consiglia, se non è già presente, di installare sul Pc dove si usa Databeac
 	
 # Installazione del modulo D9 di Sme.up
 Per poter far funzionare il modulo D9 di Sme.up è necessario : 
- * un rilascio recente di Sme.up, che contiene tutti i sorgenti, i  programmi, i menu, le /copy D9
- * le tabelle D9 tutte
- * i file D9WK*
- * i programmi di controllo delle tabelle D9
- * determinati programmi B£ di gestione degli OAV, di decodifica oggetti e tabelle, ed alcune nuove utility, il più recenti possibili
- * alcuni nuovi oggetti (creare oggetto "V3" nella *CNTT, Valori Sme_up dinamici, elemento "*UP" nella tabella *CND1 con descrizione "formato data dinamica)
+ \* un rilascio recente di Sme.up, che contiene tutti i sorgenti, i  programmi, i menu, le /copy D9
+ \* le tabelle D9 tutte
+ \* i file D9WK\*
+ \* i programmi di controllo delle tabelle D9
+ \* determinati programmi B£ di gestione degli OAV, di decodifica oggetti e tabelle, ed alcune nuove utility, il più recenti possibili
+ \* alcuni nuovi oggetti (creare oggetto "V3" nella \*CNTT, Valori Sme_up dinamici, elemento "\*UP" nella tabella \*CND1 con descrizione "formato data dinamica)
 
 A seconda dei programmi specifici di estrazione controllare che funzionino in ambienti diversi da quelli con l'ultimo rilascio.
 Per ulteriori istruzioni leggere il capitolo Cube.up.
@@ -59,20 +59,20 @@ Procedura da attuare solo se si utilizza come tipo comunicazione Host Sme.up Net
 L'installazione si compone di una parte su AS400 e di una parte su tutti gli host (PC o server) che devono fungere da client, ovvero tutti quelli che devono direttamente comunicare con As400, per fare chiamate o per essere chiamati.
 
 Questo servizio permette di far comunicare AS400 con PC in rete, e permette di : 
- * Aprire file ed eseguire programmi sul PC
- * Eseguire FTP da e verso l'AS400
- * Mandare E-mail senza configurare un percorso dell'AS400 a internet per essere un client o un server di posta
+ \* Aprire file ed eseguire programmi sul PC
+ \* Eseguire FTP da e verso l'AS400
+ \* Mandare E-mail senza configurare un percorso dell'AS400 a internet per essere un client o un server di posta
 	
 ### Smens su AS400
 Entrare con un profilo alto QSECOFR o QPGMR. Si consiglia di riavviare il computer ed entrare da subito nei collegamenti del Client Access e fare il login come Qsecofr o Qpgmr prima di entrare in As400 o in rete.
 Da una sessione AS400 : 
 >_1_
-CRTDIR DIR('/Smeup') DTAAUT(*RX) OBJAUT(*OBJEXIST)
+CRTDIR DIR('/Smeup') DTAAUT(\*RX) OBJAUT(\*OBJEXIST)
 
 DIR	> /Smeup
-DTAAUT 	> *RX
-OBJAUT	> *OBJEXIST
-CRTOBJAUD	*SYSVAL
+DTAAUT 	> \*RX
+OBJAUT	> \*OBJEXIST
+CRTOBJAUD	\*SYSVAL
 
 
 
@@ -85,17 +85,17 @@ _1_WRKLNK
 Per modificare le autorizzazioni dell'oggetto se da problemi entrare con opzione 9 per verificare autorizzazioni ed eventualmente modificarle.
 
 Si può vedere sul PC la cartella creata in modi diversi : 
- * Creare il collegamento alla cartella Smeup con il Netserver se già avviato. Si collega da operations navigator come spiegato nella sezione configurazione Netserver.
- * Dall'unità di rete attivata da client access in risorse di rete, nome dell'As400.
- * Quando vedo la cartella Smeup dell'As400 posso copiargli dentro le cartelle "Smens" e "Lib" con tutti gli oggetti contenuti dal cd-rom di installazione. Attenzione agli attributi dei file sul cd-rom che possono essere di sola lettura. Per trasportarli èsi consiglia di creare uno Zip di tutti i file.
+ \* Creare il collegamento alla cartella Smeup con il Netserver se già avviato. Si collega da operations navigator come spiegato nella sezione configurazione Netserver.
+ \* Dall'unità di rete attivata da client access in risorse di rete, nome dell'As400.
+ \* Quando vedo la cartella Smeup dell'As400 posso copiargli dentro le cartelle "Smens" e "Lib" con tutti gli oggetti contenuti dal cd-rom di installazione. Attenzione agli attributi dei file sul cd-rom che possono essere di sola lettura. Per trasportarli èsi consiglia di creare uno Zip di tutti i file.
 	
 ### Smens su host
 Teoricamente vista la portabilità dell'ambiente Java, Smens può essere installato su vari sistemi operativi (Pc windows 95/98/2000/Nt, linux, ecc..). Per meglio spiegare il processo di installazione verrà fatto riferimento all'ambiente Windows. Per installazioni su altri tipi di host, contattare il support SME.up.
 
 Per permettere la comunicazione da As400 ad un host specifico, è necessario eseguire sull'host i seguenti passi : 
- * Installare la Java virtual machine (JDK sul cd-rom distribuita gratuitamente), che significa spostare in c : \ la cartella JDknn
- * Copiare le directory "Smens" e "Lib" nella cartella Smeup (se non esiste crearla in C : \)
- * Lanciare config.bat ed impostare le informazioni necessarie
+ \* Installare la Java virtual machine (JDK sul cd-rom distribuita gratuitamente), che significa spostare in c : \ la cartella JDknn
+ \* Copiare le directory "Smens" e "Lib" nella cartella Smeup (se non esiste crearla in C : \)
+ \* Lanciare config.bat ed impostare le informazioni necessarie
 
 Una volta installato è necessario che sia attivo quando deve comunicare con As400.
 
@@ -109,86 +109,86 @@ Procedura da attuare solo se si utilizza come tipo comunicazione Host il Pc Orga
 	
 ### Configurazione da AS400
 Prerequisiti :  entrare con profilo QSECOFR
- * Creare su AS400 profilo utente NSGUEST, password *NONE, classe utente *USER, e autorizzazioni speciali *NONE ===> CRTUSRPRF USRPRF(NSGUEST) PASSWORD() USRCLS(*USER) TEXT('Utente assunto per NETSERVER') SPCAUT(*NONE) AUT(*USE)
- * Iscrivere utente NSGUEST ad indirizzario di sistema : 
- ** WRKDIRE 1=aggiunta
- *** Utente :     NSGUEST
- *** Indirizzo :  S44xxxxx   (nome del sistema As400)
- ** Compilare i campi : 
- *** Descrizione . . . . . .   Net Server Guest
- *** Nome sist./Gruppo . . .   S44xxxxx
- *** Profilo utente  . . . .   NSGUEST
- *** ID utente rete  . . . .   NSGUEST  S44xxxxx
- ***  le altre impostazioni sono di default.	
- * Creare la Cartella condivisa "SMEC_S" nella QDLS
- ** GO FOLDER
- ** gestire le cartelle (Aggiungi 1  SMEC_S)
- *** Cartella . . . . . . . . . . . . . .   SMEC_S         Nome
- *** Descrizione cartella . . . . .    Cartella per estrazione Cubi
- *** Profilo
- *** per documenti  . . . . . . . . ______________   (lasciare bianco)
- *** ID lotto di memoria ausiliaria . . .   1              1-16
- * Entrare con l'opzione 14 sulla SMEC_S e impostare autorizzazione pubblica *ALL
+ \* Creare su AS400 profilo utente NSGUEST, password \*NONE, classe utente \*USER, e autorizzazioni speciali \*NONE ===> CRTUSRPRF USRPRF(NSGUEST) PASSWORD() USRCLS(\*USER) TEXT('Utente assunto per NETSERVER') SPCAUT(\*NONE) AUT(\*USE)
+ \* Iscrivere utente NSGUEST ad indirizzario di sistema : 
+ \*\* WRKDIRE 1=aggiunta
+ \*\*\* Utente :     NSGUEST
+ \*\*\* Indirizzo :  S44xxxxx   (nome del sistema As400)
+ \*\* Compilare i campi : 
+ \*\*\* Descrizione . . . . . .   Net Server Guest
+ \*\*\* Nome sist./Gruppo . . .   S44xxxxx
+ \*\*\* Profilo utente  . . . .   NSGUEST
+ \*\*\* ID utente rete  . . . .   NSGUEST  S44xxxxx
+ \*\*\*  le altre impostazioni sono di default.	
+ \* Creare la Cartella condivisa "SMEC_S" nella QDLS
+ \*\* GO FOLDER
+ \*\* gestire le cartelle (Aggiungi 1  SMEC_S)
+ \*\*\* Cartella . . . . . . . . . . . . . .   SMEC_S         Nome
+ \*\*\* Descrizione cartella . . . . .    Cartella per estrazione Cubi
+ \*\*\* Profilo
+ \*\*\* per documenti  . . . . . . . . ______________   (lasciare bianco)
+ \*\*\* ID lotto di memoria ausiliaria . . .   1              1-16
+ \* Entrare con l'opzione 14 sulla SMEC_S e impostare autorizzazione pubblica \*ALL
 
 ### Configurazione da Client Access
 Prerequisiti :  entrare con profilo Administrator sul PC da cui si configura il NETSERVER; è consigliato scollegare e ricollegare l'accesso ad AS400 con il Client/Access usando il profilo QSECOFR
- * Configurare NETSERVER tramite Operations Navigator : 
- ** Selezionare il percorso Rete/Server/ e selezionare la voce NETSERVER (o Server di rete); se non c'è vedere sotto la voce TCP/IP (varia a seconda della release del Client Access)
+ \* Configurare NETSERVER tramite Operations Navigator : 
+ \*\* Selezionare il percorso Rete/Server/ e selezionare la voce NETSERVER (o Server di rete); se non c'è vedere sotto la voce TCP/IP (varia a seconda della release del Client Access)
 
 >N.B. :  Se non è possibile visualizzare il percorso indicato si deve integrare l'attuale installazione del Client Access. Aprire dallla barra d'avvio il menu del Client Access, aprire accessori e selezionare la voce "Installazione selettiva" (Selective setup). Inserire il Cd di Client Access e selezionare "seleziona una fonte alternativa", e indicare il percorso del Cd fino a Install/image; oppure, se non si dispone dell Cd selezionare "utilizza il sistema S44xxxxx". Selezionare "AS400 Operations Navigator" e premere "Detttagli" o fare un doppio clic. Selezionare per sicurezza tutte le voci (basterebbe Network o Rete) e premere "Continua". Arrivare fino in fondo all'installazione e riavviare il computer. Se serve riinstallare il service pack del client access. Ora dovrebbe essere possibile visualizzare il percorso dall'Operations Navigator.
 
- ** Tasto destro del mouse scegliere proprietà
- *** Nome server : 	Q+nome sistema
- *** Nome dominio o gruppo : 	nome del dominio di rete principale della rete NT
- *** Profilo Utente : 	NSGUEST
- *** Codepage : 	850
- * Creazione condivisione tramite Operations Navigator : 
- ** aprire la voce NETSERVER o SERVER DI RETE
- ** selezionare OGGETTI CONDIVISI e con il tasto destro cliccare nuovo - file
- ** compilare la finestra di dialogo con : 
- *** nome condiviso : 	Smecs
- *** descrizione : 	Cartella Per Cubi
- *** permessi : 	Lettura/Scrittura
- *** Nessun Valore Max
- *** Percorso : 	//Qdls/Smec_S
+ \*\* Tasto destro del mouse scegliere proprietà
+ \*\*\* Nome server : 	Q+nome sistema
+ \*\*\* Nome dominio o gruppo : 	nome del dominio di rete principale della rete NT
+ \*\*\* Profilo Utente : 	NSGUEST
+ \*\*\* Codepage : 	850
+ \* Creazione condivisione tramite Operations Navigator : 
+ \*\* aprire la voce NETSERVER o SERVER DI RETE
+ \*\* selezionare OGGETTI CONDIVISI e con il tasto destro cliccare nuovo - file
+ \*\* compilare la finestra di dialogo con : 
+ \*\*\* nome condiviso : 	Smecs
+ \*\*\* descrizione : 	Cartella Per Cubi
+ \*\*\* permessi : 	Lettura/Scrittura
+ \*\*\* Nessun Valore Max
+ \*\*\* Percorso : 	//Qdls/Smec_S
 	
 ### Avvio da AS400 del Netserver
  - Verificare se dopo la configurazione il Netserver è già partito. Se si saltare la procedura di seguito, se no eseguirla.
  - La prima volta o tutte le volte che non parte il Netserver fare l'avvio manuale per la sessione in corso CALL QZLSSTRS PARM('0' X'00000000')
  - Modificare o creare programma di avvio sistema specificato in valore di sistema QSTRUPPGM, implementando l'avvio automatico del NETSERVER, all'avvio della macchina AS400 : 
-per trovare il sorgente fare DSPOBJD di tipo *PGM e nome del Qstruppgm
+per trovare il sorgente fare DSPOBJD di tipo \*PGM e nome del Qstruppgm
 
 Verificare le voci con davanti &&&&&&&&&&& nel sorgente che segue e in caso aggiungerle.
 Poi ricompilare seguendo le istruzioni del PGM
 
 Programma Qstrup_sm esempio del Pgm SME.up : 
->/******************************************************************************/
-/* ATTENZIONE :  compilare con  USRPRF(*OWNER)	*/
-/*             quindi modificare l'oggetto	*/
-/*  CHGOBJOWN OBJ(QGPL/QSTRUP_SM) OBJTYPE(*PGM) NEWOWN(QSECOFR)*/
-/**************************************************************************/
-/* 5769SS1 V4R3M0 980729    Emissione RTVCLSRC   14/11/98 14 : 28 : 42*/
-/*                                                                  	*/
-/* Nome programma . . . . . . . . . . . . .  : 	QSTRUP	PN*/
-/* Nome libreria  . . . . . . . . . . . . .  :    	QSYS	PL*/
-/* File origine originale . . . . . . . . .  : 	SN*/
-/* Nome libreria  . . . . . . . . . . . . .  : 	SL*/
-/* Membro origine originale . . . . . . . .  :   : 	SM*/
-/* Modifica file origine	*/
-/* data/ora . . . . . . . . . . . . . . .  : 	SC*/
-/* Opzione di correzione  . . . . . . . . .  : 	*NOPATCH	PO*/
-/* Profilo utente . . . . . . . . . . . . .  : 	*USER	UP*/
-/* Testo  . .  : 	TX*/
-/* Proprietario . . . . . . . . . . . . . .  : 	QSYS	OW*/
-/* ID modifica correzione . . . . . . . . .  : 	PC*/
-/* ID correzione APAR . . . . . . . . . . .  : 	PA*/
-/* Indicatore di modifica utente  . . . . .  : 	*NO	UM*/
-/*	ED*/
-/***************************************************************************/
+>/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+/\* ATTENZIONE :  compilare con  USRPRF(\*OWNER)	\*/
+/\*             quindi modificare l'oggetto	\*/
+/\*  CHGOBJOWN OBJ(QGPL/QSTRUP_SM) OBJTYPE(\*PGM) NEWOWN(QSECOFR)\*/
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+/\* 5769SS1 V4R3M0 980729    Emissione RTVCLSRC   14/11/98 14 : 28 : 42\*/
+/\*                                                                  	\*/
+/\* Nome programma . . . . . . . . . . . . .  : 	QSTRUP	PN\*/
+/\* Nome libreria  . . . . . . . . . . . . .  :    	QSYS	PL\*/
+/\* File origine originale . . . . . . . . .  : 	SN\*/
+/\* Nome libreria  . . . . . . . . . . . . .  : 	SL\*/
+/\* Membro origine originale . . . . . . . .  :   : 	SM\*/
+/\* Modifica file origine	\*/
+/\* data/ora . . . . . . . . . . . . . . .  : 	SC\*/
+/\* Opzione di correzione  . . . . . . . . .  : 	\*NOPATCH	PO\*/
+/\* Profilo utente . . . . . . . . . . . . .  : 	\*USER	UP\*/
+/\* Testo  . .  : 	TX\*/
+/\* Proprietario . . . . . . . . . . . . . .  : 	QSYS	OW\*/
+/\* ID modifica correzione . . . . . . . . .  : 	PC\*/
+/\* ID correzione APAR . . . . . . . . . . .  : 	PA\*/
+/\* Indicatore di modifica utente  . . . . .  : 	\*NO	UM\*/
+/\*	ED\*/
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
 PGM
-DCL VAR(&STRWTRS) TYPE(*CHAR) LEN(1)
-DCL VAR(&CTLSBSD) TYPE(*CHAR) LEN(20)
-DCL VAR(&CPYR) TYPE(*CHAR) LEN(90) VALUE('5769-SS1 (C) COPYRIGHT
+DCL VAR(&STRWTRS) TYPE(\*CHAR) LEN(1)
+DCL VAR(&CTLSBSD) TYPE(\*CHAR) LEN(20)
+DCL VAR(&CPYR) TYPE(\*CHAR) LEN(90) VALUE('5769-SS1 (C) COPYRIGHT
 IBM CORP 1980, 1997. LICENSED MATERIAL - PROGRAM PROPERTY OF IBM')
 QSYS/STRSBS SBSD(QSPL)
 QSYS/STRSBS SBSD(QSPL)
@@ -202,7 +202,7 @@ MONMSG MSGID(CPF0000)
 QSYS/STRCLNUP
 MONMSG MSGID(CPF0000)
 QSYS/RTVSYSVAL SYSVAL(QCTLSBSD) RTNVAR(&CTLSBSD)§
-IF COND((&CTLSBSD *NE 'QCTL      QSYS      ') *AND (&CTLSBSD *NE-'QCTL QGPL ')) THEN(GOTO CMDLBL(DONE))
+IF COND((&CTLSBSD \*NE 'QCTL      QSYS      ') \*AND (&CTLSBSD \*NE-'QCTL QGPL ')) THEN(GOTO CMDLBL(DONE))
 QSYS/STRSBS SBSD(QINTER)
 MONMSG MSGID(CPF0000)
 QSYS/STRSBS SBSD(QBATCH)
@@ -216,19 +216,19 @@ IF COND(&STRWTRS = '0') THEN(GOTO CMDLBL(NOWTRS))
 CALL PGM(QSYS/QWCSWTRS)
 MONMSG MSGID(CPF0000)
 NOWTRS : 
-/* INIZIO TASK AGGIUNTIVI  - TCP/IP HOST SERVER  */
+/\* INIZIO TASK AGGIUNTIVI  - TCP/IP HOST SERVER  \*/
 &&&&&     QSYS/STRTCP
 MONMSG MSGID(CPF0000)
-&&&&&&&     QSYS/STRTCPSVR *ALL
+&&&&&&&     QSYS/STRTCPSVR \*ALL
 MONMSG MSGID(CPF0000)
-&&&&&&&     QSYS/STRHOSTSVR *ALL
+&&&&&&&     QSYS/STRHOSTSVR \*ALL
 MONMSG MSGID(CPF0000)
-/* FINE   TASK AGGIUNTIVI  - TCP/IP HOST SERVER  */
-/* INIZIO TASK STRSBS QSNADS */
+/\* FINE   TASK AGGIUNTIVI  - TCP/IP HOST SERVER  \*/
+/\* INIZIO TASK STRSBS QSNADS \*/
 QSYS/STRSBS SBSD(QSNADS)
 MONMSG MSGID(CPF0000)
-/* FINE   TASK STRSBS QSNADS */
-/* AVVIO SERVIZIO NETSERVER */
+/\* FINE   TASK STRSBS QSNADS \*/
+/\* AVVIO SERVIZIO NETSERVER \*/
 &&&&&&&&     DLYJOB DLY(300)
 &&&&&&&&     CALL QZLSSTRS PARM('0' X'00000000')
 RETURN
@@ -237,10 +237,10 @@ ENDPGM
 
 	
 ### Verifica funzionamento Netserver
- * Selezionare Trova Computer dalla Barra avvio di Windows
- * Cercare il nome del netserver che si è creato (QSxxxxxx)
- * Se si vede e aprendolo vedo la cartella Smecs e posso portare con il drag&drop dei file all'interno, aprirli e cancellarli  significa che il Netserver è avviato e funziona correttamente
- * Se non funziona rivedere la procedura
+ \* Selezionare Trova Computer dalla Barra avvio di Windows
+ \* Cercare il nome del netserver che si è creato (QSxxxxxx)
+ \* Se si vede e aprendolo vedo la cartella Smecs e posso portare con il drag&drop dei file all'interno, aprirli e cancellarli  significa che il Netserver è avviato e funziona correttamente
+ \* Se non funziona rivedere la procedura
 	
 ### Aggiornamento PTF per Netserver
 Fare riferimenuto al sito internet dell'AS400 per la lista di PTF necessarie per la release dell'AS400 in questione. www.as400.ibm.com/netserver/infoapar.htm
@@ -250,7 +250,7 @@ In questo caso le PTF sono salvate nella libreria QDLS come SAVF, normalmenute s
 Verificare la lista delle PTF necessarie, che se eventualmenute presenti non vanno caricate...> caricare quelle che mancano.
 
 Con il comando
-_1_DSPPTF *ALL per listarle tutte
+_1_DSPPTF \*ALL per listarle tutte
 
 oppure, per listarle separate
 
@@ -261,47 +261,47 @@ DSPPTF 5769SS1 SFxxxxx
 devono essere applicate temporaneamenute, permanentemenute o superate.
 
 Dopo essersi assicurati che il file QGPL/QAPZCOVER non contenga dei membri (se ne contiene eventualmenute rinominarlo come old), restorizzare i seguenti oggetti nella libreria QGPL con : 
-RSTOBJ OBJ(*ALL) SAVLÌB(QGPL) DEV(TAPxx)
+RSTOBJ OBJ(\*ALL) SAVLÌB(QGPL) DEV(TAPxx)
 
-**************se non funziona... farlo una ad una
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*se non funziona... farlo una ad una
 >	RSTOBJ OBJ(
 	QAPZCOVER
 	QSF54003
 	........
 	QMF23628) SAVLÌB(QGPL) DEV(TAPxx)
-**************
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 Caricare le PTF con il comando : 
 LODPTF LÌCPGM       > 5769999
-       DEV            *SERVÌCE
+       DEV            \*SERVÌCE
 	SELECT       > MFxxxxx
 	MFyyyyy
 	.......
 	LODPTF LÌCPGM       > 5769SS1
-	DEV            *SERVÌCE
+	DEV            \*SERVÌCE
 	SELECT       > SFxxxxx
-**********se non funzionasse con *SERVÌCE (....) è necessario caricare le PTF una ad una....
+\*\*\*\*\*\*\*\*\*\*se non funzionasse con \*SERVÌCE (....) è necessario caricare le PTF una ad una....
 	LODPTF LÌCPGM       > 5769999
-	DEV            *SAVF
+	DEV            \*SAVF
 	SELECT       > MFxxxxx
 	SAVF           QMFxxxxx
 	QGPL
-**************
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 APYPTF LÌCPGM       > 5769999
-	RLS            *ONLY
+	RLS            \*ONLY
 	SELECT       > MFxxxxx
-	APY            *TEMP
-	DELAYED      > *YES
+	APY            \*TEMP
+	DELAYED      > \*YES
 	ÌPLAPY
-	*YES
-	*APYPERM
-	APYREQ         *NO
+	\*YES
+	\*APYPERM
+	APYREQ         \*NO
 	APYPTF LÌCPGM       > 5769SS1
-	RLS            *ONLY
+	RLS            \*ONLY
 	SELECT       > SFxxxxx
-	APY            *TEMP
-	DELAYED      > *YES
+	APY            \*TEMP
+	DELAYED      > \*YES
 	ÌPLAPY
-	*YES
-	*APYPERM
-	APYREQ         *NO
+	\*YES
+	\*APYPERM
+	APYREQ         \*NO
 

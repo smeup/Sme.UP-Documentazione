@@ -13,7 +13,7 @@ Descrizione dell'interfaccia definita per la tabella B£1
 Applicazione
 Codice dell'applicazione.
 Tale codice può essere associato mediante la B£1 a  due diverse tabelle : 
-1.   Tabella *CNAA
+1.   Tabella \*CNAA
 Solo descrittivo
 Il campo tipo oggetto si presenta con inversione di fondo.
 Sono possibili le normali interrogazioni ma non i controlli.
@@ -26,5 +26,5 @@ F6   Controllo interfacce
 Esegue per tutte le interfacce descritte in tabella B£V la verifica sopra descritta e presenta il campo lampeggiante  se l'esito ha dato risultato negativo.
 ## TABELLE COLLEGATE
 B£1   - Personalizzazione
-*CNAA - Codici ambiente applicativo *CNTT - Codici oggetti applicativi
+\*CNAA - Codici ambiente applicativo \*CNTT - Codici oggetti applicativi
 B£Vxx - Dettaglio interfacce applicative

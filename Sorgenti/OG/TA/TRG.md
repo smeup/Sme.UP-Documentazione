@@ -26,11 +26,11 @@ Un utilizzo dell'eccezione di default è la possibilità di definire che, nel ca
 Si possono impostare due criteri di risalita : 
 >**Risalita '1'**
     __Risorsa__        __Anno__
-    "**"           3000
+    "\*\*"           3000
     Collegata      3000
     Deviata        3000
     Risorsa        3000
-    "**"           Anno
+    "\*\*"           Anno
     Collegata      Anno
     Deviata        Anno
     Risorsa        Anno
@@ -38,8 +38,8 @@ Si possono impostare due criteri di risalita :
 
 >**Risalita '2'**
     __Risorsa__        __Anno__
-    "**"           3000
-    "**"           Anno
+    "\*\*"           3000
+    "\*\*"           Anno
     Collegata      3000
     Collegata      Anno
     Deviata        3000

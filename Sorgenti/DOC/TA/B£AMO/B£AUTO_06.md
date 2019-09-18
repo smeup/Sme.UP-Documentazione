@@ -15,14 +15,14 @@ Il programma che reperisce le autorizzazioni, verifica alla partenza la presenza
 ## Switch potenziale :  chi può diventare
 E' possibile impostare degli switch utente "potenziali", vale a dire utenti e gruppi che l'utente può diventare.
 Sono parametri multipli variabili per data (estremi non obbligatori), intestati al singolo utente
-* £01 = Utenti ammissibili
-* £02 = Liste di utenti ammissibili :  (è equivalente all'impostazione, in £01, di tutti gli utenti che appartengono alla lista).
-* £03 = Ruoli (o gruppi) ammissibili
+\* £01 = Utenti ammissibili
+\* £02 = Liste di utenti ammissibili :  (è equivalente all'impostazione, in £01, di tutti gli utenti che appartengono alla lista).
+\* £03 = Ruoli (o gruppi) ammissibili
 
 ## Switch effettivo :  chi diventa in un dato istante
 Sono definiti i seguenti parametri, entrambi validi per data e non sovrapponibili (ad una data ne può valere uno solo), anch'essi intestati al singolo utente.
-* £11 = Utente di switch
-* £12 = Gruppo di switch
+\* £11 = Utente di switch
+\* £12 = Gruppo di switch
 Essi possono essere valorizzati manualmente, oppure trascinando elementi validi alla data, rispettivamente utenti (dal parametro Utenti £01 e Lista Utenti £02, quest'ultimo sviluppato in tutti i suoi elementi) e gruppi Utenti (dal parametro £03).
 >>> Spiegare, nel trascinamento, come viene valorizzata la data.
 

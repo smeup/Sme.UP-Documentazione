@@ -1,7 +1,7 @@
 ## INTRODUZIONE
 
 La routine £M5S riceve il record di un consiglio di pianificazione
- :  : DEC T(OJ) P(*FILE) K(M5CONS0F)
+ :  : DEC T(OJ) P(\*FILE) K(M5CONS0F)
 ed eventualmente i parametri di pianificazione (se metodo=PAS) inel campo specifico (£M5RPA) della /copy
  :  : DEC T(MB) P(QILEGEN) K(£M5RDS)
 in caso contrario li calcola con la /copy

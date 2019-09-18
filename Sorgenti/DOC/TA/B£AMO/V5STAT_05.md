@@ -4,9 +4,9 @@
 Il file V5STAT0F ha una set di campi che sono liberi, personalizzabili dal cliente.
 
 In particolare ci sono : 
- * 10 Codici Liberi
- * 10 Numeri Liberi
- * 05 Date Libere
+ \* 10 Codici Liberi
+ \* 10 Numeri Liberi
+ \* 05 Date Libere
 
 Dei 20 flag presenti sul file, gli ultimi 10 sono personalizzabili dal cliente attraverso il pgm flaggatore V5STAT0F_F.
 

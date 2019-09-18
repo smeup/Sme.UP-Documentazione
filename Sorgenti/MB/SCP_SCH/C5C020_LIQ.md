@@ -3,9 +3,9 @@ Obiettivo di questa scheda è analizzare la liquidazione IVA relativa ad un peri
 
 ![C5C020_028](http://localhost:3000/immagini/MBDOC_SCH-C5C020_LIQ/C5C020_028.png)## Parametri di lancio
 
- * Anno :  indicare l'anno per il quale si voglia analizzare la liquidazione
- * Mese :  nel caso in cui si stia analizzando la liquidazione mensile, indicare il mese da analizzare
- * Settore Attività :  nel caso in cui si gestisca il settore di attivtà all'interno dei registri IVA indicare per quale settore analizzare i dati
+ \* Anno :  indicare l'anno per il quale si voglia analizzare la liquidazione
+ \* Mese :  nel caso in cui si stia analizzando la liquidazione mensile, indicare il mese da analizzare
+ \* Settore Attività :  nel caso in cui si gestisca il settore di attivtà all'interno dei registri IVA indicare per quale settore analizzare i dati
 
 ## Dettaglio informazioni
 

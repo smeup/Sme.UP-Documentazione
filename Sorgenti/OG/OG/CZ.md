@@ -4,4 +4,4 @@ Spostando un collo, si ottiene lo spostamento (sia fisico sia informatico) di tu
 Sinonimi :  contenitore, pallet, unità di movimentazione.
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(GMCOLL0F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(GMCOLL0F) L(1)

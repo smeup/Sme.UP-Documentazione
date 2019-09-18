@@ -1,7 +1,7 @@
 ## Contenuto
 Dati descrittivi e classificazioni dell'articolo.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'AR'                               £FUNT1
 
 ## Chiave primaria

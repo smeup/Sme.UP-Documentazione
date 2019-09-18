@@ -22,9 +22,9 @@ Step per la quantificazione :
 
 I casi particolari : 
 (per settori specifici con diverso criterio temporale di deducibilità)
-* deducibilità incrementata del 15% su industrie estrattive minerarie
-* deducibilità incrementata del 25% su autotrasporti
-* deducibilità incrementata del 11% su siderurgiche
+\* deducibilità incrementata del 15% su industrie estrattive minerarie
+\* deducibilità incrementata del 25% su autotrasporti
+\* deducibilità incrementata del 11% su siderurgiche
 
 Qualora le spese imputate a c/economico siano superiori al tetto di deducibilità prevista, l'eccedenza è ammessa in deduzione in quote costanti dal reddito dei 5 periodi successivi.
 Questo si concretizza nel modello con una variazione in aumento delle spese la cui deducibilità è rinviata ai 5 periodi successivi e in diminuzione per il recupero dei quindi derivanti dai periodi precedenti.

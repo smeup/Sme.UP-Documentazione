@@ -21,7 +21,7 @@ Gestire le funzioni di base per le tabelle.
  :  : PRO.SER Fun="F(FBK;B£SER_03;MOD.IMP) 1(OG;TA;-(O))" Cod="00005"
  :  : PRO.SER Fun="F(FBK;B£SER_03;MOD.IMP) 1(ST;;-(O))" Cod="00006"
 
-## *CN Tabella *CN
+## \*CN Tabella \*CN
 ### AAP Azioni
 ???Matrice dei programmi.
- :  : PRO.SER Fun="F(EXB;B£SER_03;*CN.AAP) 1(TA;*CNAA;-(O))" Cod="00007"
+ :  : PRO.SER Fun="F(EXB;B£SER_03;\*CN.AAP) 1(TA;\*CNAA;-(O))" Cod="00007"

@@ -63,10 +63,10 @@ La compilazione delle tabelle DEVE fare riferimento alla funzione B£AM70 median
 Selezionare poi l'azione :  "Funzione lista elementi"
 
 Mediante questa funzione è possibile : 
- * modificare la tabella nell'ambiente di lavoro (SMEUP_MOD)
- * verificare (anche in drill-down) la congruenza del contenuto ("F17" + opzione "DD")
- * confrontare con SMEMOD gli elementi della tabella (F17)
- * parcheggiare in SMEMOD gli elementi della tabella (opzione "13")
+ \* modificare la tabella nell'ambiente di lavoro (SMEUP_MOD)
+ \* verificare (anche in drill-down) la congruenza del contenuto ("F17" + opzione "DD")
+ \* confrontare con SMEMOD gli elementi della tabella (F17)
+ \* parcheggiare in SMEMOD gli elementi della tabella (opzione "13")
 Se nel compilare una tabella si incrocia una tabella di cui non si è responsabili sollecitare chi di dovere per continuare nel lavoro ...
 
 # RESPONSABILI COMPILAZIONE TABELLE (PER IL MODELLO)
@@ -89,11 +89,11 @@ Se nel compilare una tabella si incrocia una tabella di cui non si è responsabi
 | BRE   |Marazzi A.  |        -      |    V51   | CLI, FOR |
 | ...   |Milani L.   |        -      |    B£2   | Azienda |
 | BRZ   |Milani L.   |        -      |    BRE   | Azienda |
-| '*CNAA' |Milani L.   |        B£     |    -     | - |
-| '*CNAV' |Milani L.   |        B£     |    -     | - |
-| '*CNGG' |Milani L.   |        B£     |    -     | - |
-| '*CNOJ' |Milani L.   |        B£     |    -     | - |
-| '*CNTT' |Milani L.   |        B£     |    -     | - |
+| '\*CNAA' |Milani L.   |        B£     |    -     | - |
+| '\*CNAV' |Milani L.   |        B£     |    -     | - |
+| '\*CNGG' |Milani L.   |        B£     |    -     | - |
+| '\*CNOJ' |Milani L.   |        B£     |    -     | - |
+| '\*CNTT' |Milani L.   |        B£     |    -     | - |
 | IVA   |Marazzi A.  |        -      |    V51   | 20 |
 | LIN   |Milani L.   |        -      |    B£2   | quelle ISO |
 | MAF   |Milani L.   |        -      |    B£2   | 1 |

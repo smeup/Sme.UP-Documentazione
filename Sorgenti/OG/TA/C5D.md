@@ -40,7 +40,7 @@ Poichè tra le caratteristiche del tipo rata vi è quella di definire se è di t
  :  : FLD T$C5DQ **Segno Documento**
 È un elemento V2/SEGNO. Se la registrazione è di tipo 01 o 02 o 07, ne identifica il segno. Viene riportato nella testata della registrazione, all'atto dell'inizializzazione.
  :  : FLD T$C5DI **Condiz. scelta caus.**
-È un elemento TA/C5*CR. Se impostato, definisce il criterio di selezione mediante il quale vengono effettuati ricerca e controllo validità sulla causale di riga di una registrazione.
+È un elemento TA/C5\*CR. Se impostato, definisce il criterio di selezione mediante il quale vengono effettuati ricerca e controllo validità sulla causale di riga di una registrazione.
  :  : FLD T$C5DR **Suffisso programma exit di inizializzazione**
 Se impostato in questo campo il valore x, nella manutenzionde delle registrazioni contabili verrà eseguito il programma C5E501L_x, in cui è possibile implementare comportamenti specifici (controlli e forzature).
  :  : FLD T$C5DT **Suffisso programma exit di immissione**
@@ -79,14 +79,14 @@ Se impostato attiva la gestione del controllo fatture. Presenta le fonti in atte
 Per il ciclo passivo, il controllo fatture avviene completamente all'interno del flusso di gestione della registrazione contabile. Vengono presentate tutte le fonti in attesa di contabilizzazione, che possono essere modificate e scelte. Andranno a comporre le righe di contropartita della registrazione. È sempre possibile modificare la registrazione che provvede a rifasare le fonti del gestionale collegato.
  :  : FLD T$C5D9 **Competenza**
 Definisce gli automatisti relativi all'attribuzione dei costi/ricavi in funzione del principio della competenza.
-* "1"=In presenza di conti con rilevanza stanziamento, viene attivata la creazione degli stanziamenti automatici
-* "2"=In presenza di una data competenza iniziale/finale differente dalla data registrazione di almeno un mese viene attivata la creazione degli stanziamenti automatici
-* "3"=In presenza di una data competenza iniziale/finale a livello di testata o di riga differente di almeno un mese dalla data registrazione viene attivata la creazione di registrazioni automatiche di rateo/risconto distribuendo i valori in base ai mesi di competenza.
-* "4"=Forza NO, se impostato il flag di forzatura nella tabella C51 questo valore permette di gestire le eccezioni
-* "5"=Come il valore 3, ma i valori vengono distribuiti in base ai giorni invece che dei mesi di competenza.
-* "6"=Come il valore 3, ma crea la registrazioni solo se i ratei/risconti sono infraesercizio
-* "7"=Come il valore 5, ma crea la registrazioni solo se i ratei/risconti sono infraesercizio
-* " "=Vengono applicate le logiche previste dal campo della tabella C51
+\* "1"=In presenza di conti con rilevanza stanziamento, viene attivata la creazione degli stanziamenti automatici
+\* "2"=In presenza di una data competenza iniziale/finale differente dalla data registrazione di almeno un mese viene attivata la creazione degli stanziamenti automatici
+\* "3"=In presenza di una data competenza iniziale/finale a livello di testata o di riga differente di almeno un mese dalla data registrazione viene attivata la creazione di registrazioni automatiche di rateo/risconto distribuendo i valori in base ai mesi di competenza.
+\* "4"=Forza NO, se impostato il flag di forzatura nella tabella C51 questo valore permette di gestire le eccezioni
+\* "5"=Come il valore 3, ma i valori vengono distribuiti in base ai giorni invece che dei mesi di competenza.
+\* "6"=Come il valore 3, ma crea la registrazioni solo se i ratei/risconti sono infraesercizio
+\* "7"=Come il valore 5, ma crea la registrazioni solo se i ratei/risconti sono infraesercizio
+\* " "=Vengono applicate le logiche previste dal campo della tabella C51
 
 Nei primi due casi la creazione delle registrazioni di stanziamento avviene tramite il lancio di un lavoro batch
 indipendente i cui parametri di esecuzione sono modificabili tramite il comando UP GPE impostando come programma
@@ -95,10 +95,10 @@ indipendente i cui parametri di esecuzione sono modificabili tramite il comando 
 Se impostato il campo con valori da 1 a 3 (vedere tabella sottostante per il singolo significato), alla conferma di una registrazione di fattura estera viene lanciata in automatico la creazione della registrazione della fattura della dogana, riprendendo i dati della registrazione origine. Affinche l'automatismo funzioni è necessario definire l'elemento FATDG nella C5U.
 Se impostato il valore D, alla chiusura della registrazione della fattura verrà presentata una schermata per collegare il documento doganale alle rispettive fatture fornitori.
 Possibili valori : 
-* "1"=Si. Crea la registrazione della bolla doganale e la stessa è collegata alla registrazione della fattura fornitore attraverso il campo n. registrazione origine;
-* "2"=Si, Rip.Prot. Crea la registrazione della bolla doganale e la stessa è collegata alla registrazione della fattura fornitore attraverso il campo n. registrazione origine, con ripresa del protocollo;
-* "3"==Si, Rip.Pr/Doc. Crea la registrazione della bolla doganale e la stessa è collegata alla registrazione della fattura fornitore attraverso il campo n. registrazione origine, con ripresa del protocollo e del n. documento;
-* "D"=Colleg. Doc. Forn. In inserimento della registrazione della bolla doganale permette di inserire i riferimenti della/e fatture e codici fornitori a cui si riferisce attraverso dei parametri.
+\* "1"=Si. Crea la registrazione della bolla doganale e la stessa è collegata alla registrazione della fattura fornitore attraverso il campo n. registrazione origine;
+\* "2"=Si, Rip.Prot. Crea la registrazione della bolla doganale e la stessa è collegata alla registrazione della fattura fornitore attraverso il campo n. registrazione origine, con ripresa del protocollo;
+\* "3"==Si, Rip.Pr/Doc. Crea la registrazione della bolla doganale e la stessa è collegata alla registrazione della fattura fornitore attraverso il campo n. registrazione origine, con ripresa del protocollo e del n. documento;
+\* "D"=Colleg. Doc. Forn. In inserimento della registrazione della bolla doganale permette di inserire i riferimenti della/e fatture e codici fornitori a cui si riferisce attraverso dei parametri.
  :  : FLD T$C5DZ **Autostorno**
 Se impostato, la registrazione verrà automaticamente cancellata il giorno  successivo alla data di registrazione.
  :  : FLD T$C5DW **Annulla quadratura automatica**

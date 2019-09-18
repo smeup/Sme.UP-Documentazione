@@ -172,12 +172,12 @@ La procedura è la seguente :
 
 
 ### Comando di creazione OUTQ remota
-CRTOUTQ OUTQ(_2_SMESYS/SMEPD) RMTSYS(*INTNETADR) RMTPRTQ('_2_RAW') CNNTYPE(*IP) DESTTYPE(*OTHER) TRANSFORM(*NO) INTNETADR('_2_192.168.1.xxx') TEXT('_2_STAMPANTE PDF')
+CRTOUTQ OUTQ(_2_SMESYS/SMEPD) RMTSYS(\*INTNETADR) RMTPRTQ('_2_RAW') CNNTYPE(\*IP) DESTTYPE(\*OTHER) TRANSFORM(\*NO) INTNETADR('_2_192.168.1.xxx') TEXT('_2_STAMPANTE PDF')
 
 Nota :  Sperimentalmente si è notato come l'indicazione diretta dell'IP invece del nome
 simbolico generi una situazione più stabile. Si consiglia pertanto l'indicazione diretta dell'IP.
  :  : INI Creazione OUTQ remota
- :  : CMD CRTOUTQ OUTQ(SMESYS/SMEPD) RMTSYS(*INTNETADR)  RMTPRTQ(RAW) CNNTYPE(*IP) DESTTYPE(*OTHER) TRANSFORM(*NO) INTNETADR('192.168.1.xxx') TEXT('STAMPANTE PDF')
+ :  : CMD CRTOUTQ OUTQ(SMESYS/SMEPD) RMTSYS(\*INTNETADR)  RMTPRTQ(RAW) CNNTYPE(\*IP) DESTTYPE(\*OTHER) TRANSFORM(\*NO) INTNETADR('192.168.1.xxx') TEXT('STAMPANTE PDF')
  :  : FIN
 
 ### Comando di avvio OUTQ remota
@@ -194,7 +194,7 @@ Il punto 3 va eseguito n volte, una per ognuna delle code di stampa definite sul
 Se è necessario modificare la configurazione della coda una volta configurata bisogna procedere nel seguente modo (es. con OUTQ di nome _2_SMEPD) : 
 
 
-- Fermare il programma di gestione della OUTQ con ENDWTR WTR(_2_SMEPD) OPTION(*IMMED)
+- Fermare il programma di gestione della OUTQ con ENDWTR WTR(_2_SMEPD) OPTION(\*IMMED)
 - Modificare la configurazione con CHGOUTQ OUTQ(_2_SMEPD) ed accedere ai parametri con F4
 - Confermare all'uscita e, se necessario, riavviare il programma con STRRMTWTR OUTQ(_2_SMEPD)
 
@@ -206,7 +206,7 @@ Una volta modificati i file di configurazione, è possibile testare il corretto 
 Qualora si vogliano modificare le impostazioni, ovviamente con un utente AS400 con le autorizzazioni per farlo, del device stampante precedentemente configurato è necessario procedere come per qualunque altro device stampante AS400  : 
 
 - visualizzare il programma che gestisce il device stampante del sistema OS400 verrà denominato, che come esempio chiameremo '_2_SMEPD'
-WRKWTR WTR(*all) OUTQ(QUSRSYS/_2_SMEPD)
+WRKWTR WTR(\*all) OUTQ(QUSRSYS/_2_SMEPD)
 - interrompere tale programma
 - rieseguire il comando _2_CHGOUTQ con i parametri corretti
 

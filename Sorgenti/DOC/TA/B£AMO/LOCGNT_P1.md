@@ -81,10 +81,10 @@ venivano perse alcune delle informazioni di base, passate nel XML originario.
 -(DF) Inserita la possibilità di disattivare da XML alcune funzioni dello schedulatore : 
 In particolare : 
 
-* Possibilità di disabilitare la modalità dispostamento delle celle
-* Possibilità di disattivare la modalità di ridimensionamento delle celle
-* Possibilità di disattivare il SAVE su As/400 all'uscita dello schedulatore
-* Possibilità di disattivare la funzione di dettaglio di un gruppo
+\* Possibilità di disabilitare la modalità dispostamento delle celle
+\* Possibilità di disattivare la modalità di ridimensionamento delle celle
+\* Possibilità di disattivare il SAVE su As/400 all'uscita dello schedulatore
+\* Possibilità di disattivare la funzione di dettaglio di un gruppo
 
 ## Versione 9 (17 dicembre 2004)
 

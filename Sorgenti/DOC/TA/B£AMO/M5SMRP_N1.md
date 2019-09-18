@@ -17,8 +17,8 @@ Non è prevista l'applicazione cumulata con variazione pre/modifica
 | 
 
 
-* Si può modificare solo la prima riga (con "MR")
-* Si possono vedere anche le righe successive (con "VR")
+\* Si può modificare solo la prima riga (con "MR")
+\* Si possono vedere anche le righe successive (con "VR")
 
 **Qtà eccedente MRP** (sempre PN/EL)
  - Fonte presente

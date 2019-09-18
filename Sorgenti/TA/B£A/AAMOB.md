@@ -59,28 +59,28 @@ Questo documento vuole chiarire che con questa tecnologia si possono creare appl
 Tra le applicazioni che sono state sviluppate troviamo : 
 
 ### AUTOMAZIONE DELLE FORZA DI VENDITA
- * Gestione di contatti
- * Gestione degli ordini clienti
- * Amministrazione dei Punti vendita (POS)
- * Configurazione e prezzo dei prodotti
+ \* Gestione di contatti
+ \* Gestione degli ordini clienti
+ \* Amministrazione dei Punti vendita (POS)
+ \* Configurazione e prezzo dei prodotti
 
 ### SERVIZI AI CLIENTI
- * Gestione e traccia delle chiamate
- * Gestione dei clienti e dei ricambi
- * Guide di supporto tecnico e documentazione di prodotto
- * Gestione delle firme e approvazioni
+ \* Gestione e traccia delle chiamate
+ \* Gestione dei clienti e dei ricambi
+ \* Guide di supporto tecnico e documentazione di prodotto
+ \* Gestione delle firme e approvazioni
 
 ### OPERAZIONI COLLEGATE ALL'ERP
- * Inventario
- * Logistica
- * Raccolta dati di produzione
- * Invio dati all'azienda per le attività svolte o ordini ricambi.
- * Cespiti
- * Gestione fianziaria
+ \* Inventario
+ \* Logistica
+ \* Raccolta dati di produzione
+ \* Invio dati all'azienda per le attività svolte o ordini ricambi.
+ \* Cespiti
+ \* Gestione fianziaria
 
 ### APPLICAZIONI VERTICALI
- * Sanità :  Controllo e gestione della storia clinica dei pazienti.
- * Servizi di assistenza automobilistica.
- * Servizi di auditing.
- * Servizi di training :  Monitoraggio corsi e loro gestione.
- * Servizi di catering :  Prenotazione pasti e loro gestione.
+ \* Sanità :  Controllo e gestione della storia clinica dei pazienti.
+ \* Servizi di assistenza automobilistica.
+ \* Servizi di auditing.
+ \* Servizi di training :  Monitoraggio corsi e loro gestione.
+ \* Servizi di catering :  Prenotazione pasti e loro gestione.

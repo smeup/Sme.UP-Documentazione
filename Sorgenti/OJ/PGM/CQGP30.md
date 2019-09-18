@@ -6,17 +6,17 @@ Per ogni singolo dipendente (non solo dipendenti in quanto la gestione del tipo 
 ## Formato dettaglio
 ![CQ_PERS_94](http://localhost:3000/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_94.png)
 Con la gestione del formato di dettaglio sono documentati i riferimenti al passato (Ditta di provenienza, Mansione precedente), le coordinate presenti (Mansione attuale, Centro di lavoro) e le prospettive future (Mansione futura programmata, condizioni di promuovibilità).
- * _2_Mansione attuale, precedente, futura sono tabellati CQ*DA
- * _2_Centro di Lavoro, (archivio)
- * _2_Distribuzione delle Attività, è un campo tabellato CRC dove viene specificata la frazione di impegno di tempo e di risorse dedicate a ciascuno dei centri di lavoro  a cui è stato destinato il dipendente
+ \* _2_Mansione attuale, precedente, futura sono tabellati CQ\*DA
+ \* _2_Centro di Lavoro, (archivio)
+ \* _2_Distribuzione delle Attività, è un campo tabellato CRC dove viene specificata la frazione di impegno di tempo e di risorse dedicate a ciascuno dei centri di lavoro  a cui è stato destinato il dipendente
 Ad esempio : 
- ** W.C. principale :  Servizio Sviluppo Progettazione; Occupazione :  60%
- ** W.C. secondario :  Servizio Controlli Interni; Occupazione :  20%
- ** W.C. recupero :  Servizio Controllo Qualità; Occupazione :  10%
- ** W.C. riserva :  Servizio Sistema Informativo; Occupazione :  10%
- * _2_Ditta di provenienza è un campo descrittivo non controllato
- * _2_Promovibilità, è un campo tabellato CRD che specifica le possibili promozioni future per il dipendente
- * _2_Obbiettivo, Proposte, Soluzione, Esito, sono campi descrittivi non controllati che  consentono di indicare delle proposte per migliorare la situazione del dipendente, la soluzione intrapresa ed infine l'esito risultante.
+ \*\* W.C. principale :  Servizio Sviluppo Progettazione; Occupazione :  60%
+ \*\* W.C. secondario :  Servizio Controlli Interni; Occupazione :  20%
+ \*\* W.C. recupero :  Servizio Controllo Qualità; Occupazione :  10%
+ \*\* W.C. riserva :  Servizio Sistema Informativo; Occupazione :  10%
+ \* _2_Ditta di provenienza è un campo descrittivo non controllato
+ \* _2_Promovibilità, è un campo tabellato CRD che specifica le possibili promozioni future per il dipendente
+ \* _2_Obbiettivo, Proposte, Soluzione, Esito, sono campi descrittivi non controllati che  consentono di indicare delle proposte per migliorare la situazione del dipendente, la soluzione intrapresa ed infine l'esito risultante.
 
 ### Indici di posizione
 Possono inoltre essere analizzati gli indici di posizione, la scelta presenta un consuntivo dei JNDS ottenuti dal dipendente per diversi profili ad esso legati

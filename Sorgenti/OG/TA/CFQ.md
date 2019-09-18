@@ -75,7 +75,7 @@ Con questo campo viene definito il modo in cui eseguire le regole :
 - S Statico
 Sono sviluppate tutte le funzioni matematiche non è possibile utilizzare più livelli di domanda
 - D Dinamico
-Sono sviluppate tutte le funzioni matematiche standard (+,-, : ,*) è possibile utilizzare più livelli di domanda.
+Sono sviluppate tutte le funzioni matematiche standard (+,-, : ,\*) è possibile utilizzare più livelli di domanda.
  :  : FLD T$CFQC  **Formato Numeri**
 Consente di definire come i numeri devono essere restituiti.
 valori possibili : 

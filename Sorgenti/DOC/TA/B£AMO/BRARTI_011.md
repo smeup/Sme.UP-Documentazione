@@ -4,8 +4,8 @@ L'esempio ha uno scopo puramente esemplficativo, quindi certi passaggi sono pres
 
 ## Regole codifica
 Nell'esempio consideriamo di avere due tipologie di articoli : 
- * **Cuscinetti**, in cui il codice articolo è lungo 10, il prefisso e la classe materiali hanno entrambi il valore fisso "E3", nel codice articolo abbiamo poi 2 digit che sono il tipo schermo, altri 2 che rappresentano la geometria del foro ed infine c'è un progressivo lungo 4. La descrizione articolo invece viene presa dalla tabella tipo cuscinetto.
- * **Dadi**, in cui il codice articolo è lungo 30, il prefisso e la classe materiali hanno entrambi il valore fisso "E4", nel codice articolo abbiamo poi 7 digit che sono pari al codice UNI/ISO ed infine c'è un progressivo lungo 4. La descrizione articolo invece contiene nei primi 18 caratteri la descrizione del codice UNI/ISO, seguono 8 digit come codice tipo dimensione ed infine 2 digit come codice classe resistenza.
+ \* **Cuscinetti**, in cui il codice articolo è lungo 10, il prefisso e la classe materiali hanno entrambi il valore fisso "E3", nel codice articolo abbiamo poi 2 digit che sono il tipo schermo, altri 2 che rappresentano la geometria del foro ed infine c'è un progressivo lungo 4. La descrizione articolo invece viene presa dalla tabella tipo cuscinetto.
+ \* **Dadi**, in cui il codice articolo è lungo 30, il prefisso e la classe materiali hanno entrambi il valore fisso "E4", nel codice articolo abbiamo poi 7 digit che sono pari al codice UNI/ISO ed infine c'è un progressivo lungo 4. La descrizione articolo invece contiene nei primi 18 caratteri la descrizione del codice UNI/ISO, seguono 8 digit come codice tipo dimensione ed infine 2 digit come codice classe resistenza.
 
 Vedi rappresentazione schematica
 ![BRARTI_00](http://localhost:3000/immagini/BRARTI_011/BRARTI_00.png)

@@ -76,14 +76,14 @@ Si scandiscono gli impegni S5IRIS in sequenza di ordine/fase :  a rottura di ord
 Viene costruita dal programma S5SMES_01I. Contiene gil elementi di S5IRIS oggetto della schedulazione (filtrati in base alle impostazioni iniziali).
 
 Le informazioni contenute si suddividono in : 
- * informazioni generali dell'impegno risorse :  ordine, fase, quantità, articolo, cord, idoj,  vincoli esterni, priorità, date richieste, ecc...
- * tempi :  vengono ripresi dall'impegno risorse e riportati sulla DS delle alternative
- * dati dinamici :  si modificano nel corso della schedulazione
- ** stato (una fase inizialmente non pronta lo diventa quando viene schedulata la precedente)
- ** vincoli al più presto (valorizzati quando la fase diventa pronta)
- ** informazioni di schedulazione :  si modificano quando la fase è schedulata  (numero progressivo di schedulazione e numero dettaglio schedulato)
- ** forzature e congelamenti (ripresi dall'impegno e modificabili nel gantt)
- * legami con altre DS
+ \* informazioni generali dell'impegno risorse :  ordine, fase, quantità, articolo, cord, idoj,  vincoli esterni, priorità, date richieste, ecc...
+ \* tempi :  vengono ripresi dall'impegno risorse e riportati sulla DS delle alternative
+ \* dati dinamici :  si modificano nel corso della schedulazione
+ \*\* stato (una fase inizialmente non pronta lo diventa quando viene schedulata la precedente)
+ \*\* vincoli al più presto (valorizzati quando la fase diventa pronta)
+ \*\* informazioni di schedulazione :  si modificano quando la fase è schedulata  (numero progressivo di schedulazione e numero dettaglio schedulato)
+ \*\* forzature e congelamenti (ripresi dall'impegno e modificabili nel gantt)
+ \* legami con altre DS
 
 E' possibile attivare la exit
  :  : DEC T(MB) P(BCDSRC) K(S5SMX_02X) L(1)
@@ -96,13 +96,13 @@ che permette di determinare una data obiettivo nella memoria dell'ordine (DSSINT
 
 # DSRISO - Risorse primarie
 Viene costruita dal programma S5SMES_01R, che va lanciato con la funzione 'PRI' o 'SPE', a seconda che si vogliono caricare le risorse principali o specifiche (del tipo impostato nello scenario di schedulazione). Se non sono previste le risorse specifiche (il tipo è uguale al tipo principale) esse non vengono caricate, anche se esplicitamente richieste. Contiene le informazioni delle risorse, suddivise in
- * informazioni generali :  tipo, codice, descrizione, risorsa principale se specifica, efficienza, tipo schdulazione, dati di coda e sovrapposizione,
- * informazioni modificate all'atto della schedulazione di un dettaglio sulla risorsa
- ** numero del dettaglio schedulato, utile per calcolare l'attrezzaggio incrementale, o per 'tirare' un'operazione successiva.
- ** data e ora di inizio disponibilità (coincidente con la fine schedulata dell'operazione, al netto dell'attesa successiva)
- ** numero di operazioni congelate (calcolato all'inizio e diminuito di un'unità ogni volta che si schedula un'operazione congelata :  quando si azzera, la risorsa é libera).
- ** numero progressivo di schedulazione per la zona congelata (di passo 10)
- * legami tra le DS di risorsa generale e specifica
+ \* informazioni generali :  tipo, codice, descrizione, risorsa principale se specifica, efficienza, tipo schdulazione, dati di coda e sovrapposizione,
+ \* informazioni modificate all'atto della schedulazione di un dettaglio sulla risorsa
+ \*\* numero del dettaglio schedulato, utile per calcolare l'attrezzaggio incrementale, o per 'tirare' un'operazione successiva.
+ \*\* data e ora di inizio disponibilità (coincidente con la fine schedulata dell'operazione, al netto dell'attesa successiva)
+ \*\* numero di operazioni congelate (calcolato all'inizio e diminuito di un'unità ogni volta che si schedula un'operazione congelata :  quando si azzera, la risorsa é libera).
+ \*\* numero progressivo di schedulazione per la zona congelata (di passo 10)
+ \* legami tra le DS di risorsa generale e specifica
 
 Nella figura seguente è rappresentato il legame tra i puntatori delle risorse (principale e specifica) :  da ogni risorsa specifica si può passare alla principale, e da essa scorrere la catena delle risorse specifiche.
 ![FIG_016](http://localhost:3000/immagini/S5IRIS_T11/FIG_016.png)Per velocizzare l'aggancio alle risorse specifiche, vegnono create le schiere : 
@@ -121,10 +121,10 @@ La ds DSIRIS  dell'impegno conntiene una schiera dei puntatori alle sue alternat
 In assenza di alternative di fase, viene scritta dal programma S5SMES_01K e, se presente il filtro sulle risorse secondarie , completata dal programma S5SMES_02K.
 
 Ogni elemento di questa DS contiene
- * il dettaglio dei tempi :  per lo stesso impegno sono normalmente uguali (originano dalla stessa riga di ciclo), possono diversificarsi se è stato deciso di applicare la percentuale di efficienza a livello di risorsda specifica, ed inolre possono essere modificati con programmi di aggiustamento (ad esempio se alcuni tempi sono inseritii nelle risorse secondarie).
- * riferimenti all'impegno
- * riferimenti alle risorse principali e specifiche
- * legami con altre DS
+ \* il dettaglio dei tempi :  per lo stesso impegno sono normalmente uguali (originano dalla stessa riga di ciclo), possono diversificarsi se è stato deciso di applicare la percentuale di efficienza a livello di risorsda specifica, ed inolre possono essere modificati con programmi di aggiustamento (ad esempio se alcuni tempi sono inseritii nelle risorse secondarie).
+ \* riferimenti all'impegno
+ \* riferimenti alle risorse principali e specifiche
+ \* legami con altre DS
 
 Se la risorsa è a capacità infinita o non sono attive le risorse specifiche viene scritta una sola alternativa.
 In caso contrario vengono scritte tante alternative quante sono le risorse specifiche.
@@ -154,17 +154,17 @@ Un'ulteriore suddivisione è tra gli impegni secondari di risorse specifiche e d
 Per ogni alternativa viene scritto un dettaglio di schedulazione, che è l'effettivo oggetto che viene schedulato (su cui si aggiornano gli istanti di inizio e fine schedulazione), oppure eliminato (se appartiene ad una risorsa specifica diversa da quella scelta).
 In entrambi i casi viene aggiornato lo stato del dettaglio, che passa a schedulato o eliminato.
 Il dettaglio contiene i seguenti campi principali
- * puntatori all'alternativa, alla risorsa specifica, all'impegno risorse
- * numero dei gruppo
- * flag di stato
- * istanti di inizio e fine scheduiazione, e di fine attrezzaggio (se previsto il calcolo).
+ \* puntatori all'alternativa, alla risorsa specifica, all'impegno risorse
+ \* numero dei gruppo
+ \* flag di stato
+ \* istanti di inizio e fine scheduiazione, e di fine attrezzaggio (se previsto il calcolo).
 Contestualmente alla scrittura dei dettagli, vengono costruiti i gruppi di schedulazione :  per ciascuno di essi viene scritto un elemento della DSANGR.
 Questa DS contiene essenzialmente i seguenti campi
- * flag di stato
- * puntatore al primo record di dettaglio (in assoluto e non ancora schedulato). I dettagli sono infatto ordinati per gruppo, e all'interno del gruppo per : 
- * iniziati (in  ordine lifo di data ultima attività)
- * congelati (in ordine di risorsa e posizione)
- * liberi (in ordine di priorità manuale e criterio di ordinamento.
+ \* flag di stato
+ \* puntatore al primo record di dettaglio (in assoluto e non ancora schedulato). I dettagli sono infatto ordinati per gruppo, e all'interno del gruppo per : 
+ \* iniziati (in  ordine lifo di data ultima attività)
+ \* congelati (in ordine di risorsa e posizione)
+ \* liberi (in ordine di priorità manuale e criterio di ordinamento.
 In questo modo leggendo i dettagli pronti di un gruppo si ha possibilità di scorrere le code esistenti sulle varie risorse specifiche. Se un dettaglio può essere eseguito su più risorse specifiche esso viene riportato più volte (in elementi contigui).
 Il programma che riempie queste DS è S5SMES_05
 
@@ -175,15 +175,15 @@ Nella figura seguente è rappresentato il legame tra gli impegni risorse, altern
 Nella figura seguente è rappresentato il legame tra gruppo e dettagli, questi ultimi suddivisi nelle sezioni descritte in precedenza. In questa figura è rappresentata la situazione dopo aver schedulato le operazioni iniziate, e quindi i puntatori alla prima operazione del gruppo (D1) e alla prima non schedulata (D3) sono diversi.
 ![FIG_019](http://localhost:3000/immagini/S5IRIS_T11/FIG_019.png)
 Il motivo della duplicazione della memoria in alternative e dettagli, che appartenetemente sono in corrispondenza biunivoca, è duplice.
-* data la limitazione delle DS multiple, la suddivisione in più DS consente di estendere le informazioni
-* in caso di altrnative di ciclo (funzione attualmente non implementata) la corrispondenza tra alternatve e dettagli non è più biunivoca
+\* data la limitazione delle DS multiple, la suddivisione in più DS consente di estendere le informazioni
+\* in caso di altrnative di ciclo (funzione attualmente non implementata) la corrispondenza tra alternatve e dettagli non è più biunivoca
 
 # DSSINT - Sintesi
 Contengono le informazioni riassuntive per ogni ordine
- * dati generali
- * inizio e fine schedulatzione
- * situazione dei materiali (se attivato il calcolo)
- * legami con altri ordini (se attivati i legami statici)
+ \* dati generali
+ \* inizio e fine schedulatzione
+ \* situazione dei materiali (se attivato il calcolo)
+ \* legami con altri ordini (se attivati i legami statici)
 
 Nella figura seguente è rappresentato il legame tra i puntatori delle sintesi e gli impegni risorse :  da ogni impegno si  risorse si può passare alla prima sintesi, e da essa passare al primo impegno e quindi scorrere, in sequenza, tutti gli impegni dell'ordine
 ![FIG_017](http://localhost:3000/immagini/S5IRIS_T11/FIG_017.png)![FIG_016](http://localhost:3000/immagini/S5IRIS_T11/FIG_016.png)![FIG_018](http://localhost:3000/immagini/S5IRIS_T11/FIG_018.png)![FIG_018leg](http://localhost:3000/immagini/S5IRIS_T11/FIG_018leg.png)![FIG_019](http://localhost:3000/immagini/S5IRIS_T11/FIG_019.png)![FIG_017](http://localhost:3000/immagini/S5IRIS_T11/FIG_017.png)

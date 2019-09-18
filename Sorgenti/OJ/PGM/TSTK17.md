@@ -1,7 +1,7 @@
 
 ## Funzioni/Metodi
-* **SND**       Invia messaggio push
-** **APP**       ad app mobile
+\* **SND**       Invia messaggio push
+\*\* **APP**       ad app mobile
 
 ## Parametri di input
 ### Destinatario (£K17I_DT)

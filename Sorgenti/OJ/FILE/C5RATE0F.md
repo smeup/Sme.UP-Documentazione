@@ -1,7 +1,7 @@
 ## Contenuto
 Rata di pagamento (dovuto o pagato).
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'RR'                               £FUNT1
  'WK' Se è nel transito             £FUNP1
 

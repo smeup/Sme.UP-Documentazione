@@ -7,12 +7,12 @@ Per eseguire una query SQL su A/400, richiamare da linea comandi :
 L'istruzione SELECT consente la selezione dei campi che si desidera visualizzare di uno o più file.
 
 **Sintassi : **
->SELECT *|nomecampo, nomecampo,... FROM file
+>SELECT \*|nomecampo, nomecampo,... FROM file
 
 Dopo l'operatore SELECT vengono indicati i campi da visualizzare, mentre dopo l'operatore FROM i file da cui recuperare i dati.
 
-Per la selezione di tutti i campi di un file si utilizza la parola chiave *****. Es. : 
->SELECT * FROM BRENTI0F
+Per la selezione di tutti i campi di un file si utilizza la parola chiave **\***. Es. : 
+>SELECT \* FROM BRENTI0F
 
 Esegue la selezione di tutti i campi del file dell'anagrafica enti.
 
@@ -26,7 +26,7 @@ Esegue la selezione dei campi tipo e codice del file dell'anagrafica enti.
 >FETCH FIRST _ n _ ROW ONLY
 
 _ n _ indica il numero di record da restituire
->SELECT  *   FROM BRENTI0F
+>SELECT  \*   FROM BRENTI0F
 WHERE E§TRAG = 'COL'
 ORDER BY E§RAGS
  FETCH FIRST 10 ROW ONLY
@@ -45,7 +45,7 @@ Se volessimo sapere quante nazioni **diverse** abbiamo nel file clienti :
 
 
 Un altro metodo è : 
->SELECT COUNT(*) FROM (SELECT DISTINCT(Cdnaz, Cdpag) FROM Clienti) as PIPPO
+>SELECT COUNT(\*) FROM (SELECT DISTINCT(Cdnaz, Cdpag) FROM Clienti) as PIPPO
 
 Attenzione :  questa istruzione funziona solo dalla versione V4R4 in avanti.
 
@@ -65,17 +65,17 @@ Si distinguono 3 tipi di JOIN :
 L'INNER JOIN consente la selezione dei soli record che hanno una corrispondenza in entrambi i file specificati.
 
 Es. :  Se voglio fare una join su record dello stesso file si possono utilizzare gli alias : 
->SELECT * FROM C5TREG0F AS T1, C5TREG0F AS T2 WHERE T1.T5PROG=T2.T5PROG
+>SELECT \* FROM C5TREG0F AS T1, C5TREG0F AS T2 WHERE T1.T5PROG=T2.T5PROG
 
 
 L'istruzione sopra specificata è equivalente a : 
->SELECT * FROM C5TREG0F AS T1
+>SELECT \* FROM C5TREG0F AS T1
 INNER JOIN C5TREG0F AS T2
 ON T1.T5PROG=T2.T5PROG
 
 
 La parola chiave INNER può anche essere omessa : 
->SELECT * FROM C5TREG0F AS T1
+>SELECT \* FROM C5TREG0F AS T1
 JOIN C5TREG0F AS T2
 ON T1.T5PROG=T2.T5PROG
 
@@ -85,7 +85,7 @@ Il LEFT JOIN consente la selezione di tutti i record del primo file e di quelli 
 
 È anche possibile utilizzare il LEFT JOIN per farsi restituire i record non corrispondenti con una condizione nella WHERE in cui il campo su cui si esegue il join sia NULL.
 Es. : 
->SELECT ATTROBJECTS.OBJATTRDESCRIPTION,OBJTYPE, DOCUMENTS.*
+>SELECT ATTROBJECTS.OBJATTRDESCRIPTION,OBJTYPE, DOCUMENTS.\*
 FROM ATTROBJECTS
 LEFT JOIN DOCUMENTS
 ON ATTROBJECTS.OBJCODE=DOCUMENTS.OBJCODE
@@ -111,25 +111,25 @@ Seleziona i record dell'anagrafica enti raggruppandoli per tipo, codice, ragione
 L'utilizzo del GROUP BY è associato a quello di **funzioni di aggregazione** (ad esempio **COUNT()** per il conteggio, **AVG()** per eseguire la media su un campo, **SUM()** per sommare i valori di un campo, **MAX()** e **MIN()** per farsi restituire rispettivamente il valore massimo e minimo, ecc...)
 
 Se da un file statistico, ad esempio le righe di vendita, si volessero ottenere i subtotali per nazione e quindi il totale generale come con Query/400 : 
->SELECT NAZI, COUNT(*), SUM(FATT) FROM STATIS0F
+>SELECT NAZI, COUNT(\*), SUM(FATT) FROM STATIS0F
  GROUP BY NAZI
  UNION ALL
- SELECT '999 TOTALE', COUNT(*), SUM(FATT)
+ SELECT '999 TOTALE', COUNT(\*), SUM(FATT)
  FROM STATIS0F GROUP BY '999 TOTALE'
  ORDER BY 1
 
 
 Si supponga di avere una tabella con lo storico delle vendite degli ultimi n anni, in cui ogni record rappresenta una riga di bolla/fattura con cliente, articolo, quantità, data consegna, ecc... e si desidera  calcolare la media (anno x anno) delle righe consegnate per ogni giorno : 
 >SELECT ANNO, AVG(COUNTGIO) AS MEDIAANNO
-FROM (Select substring(char(DATACONS),1, 4) as ANNO, DATACONS, COUNT(*) as COUNTGIO
+FROM (Select substring(char(DATACONS),1, 4) as ANNO, DATACONS, COUNT(\*) as COUNTGIO
 from STORICO group by substring(char(DATACONS),1, 4), DATACONS) as storico group by ANNO order by ANNO
 
 
 Correlato all'operatore GROUP BY, vi è l'operatore **HAVING**, che consente di **filtrare i record di un raggruppamento.
 Es. :  per selezionare un conteggio degli enti per tipo escludendo i tipi per i quali è presente un solo record,  utilizzare il parametro HAVING : 
->SELECT E§TRAG,  Count(*)  FROM BRENTI0F
+>SELECT E§TRAG,  Count(\*)  FROM BRENTI0F
 GROUP BY E§TRAG
-HAVING count(*)>1
+HAVING count(\*)>1
 
 
 ### Operatore WHERE
@@ -143,10 +143,10 @@ Per ovviare a questo problema fare riferimento alle funzioni descritte nel parag
 
 
 **Sintassi : **
->SELECT * FROM nometabella1 WHERE nomecolonna1='Valore1' AND nomecolonna2='Valore2'
+>SELECT \* FROM nometabella1 WHERE nomecolonna1='Valore1' AND nomecolonna2='Valore2'
 
 Es. : 
->SELECT * FROM BRENTI0F WHERE E§TRAG = 'COL'
+>SELECT \* FROM BRENTI0F WHERE E§TRAG = 'COL'
 
 
 Gli operatori matematici disponibili sono i seguenti : 
@@ -175,7 +175,7 @@ WHERE campo LIKE ricerca
 
 
 Es. : 
->SELECT *
+>SELECT \*
 FROM BRENTI0F
 WHERE E§RAGS LIKE '%ANNA%' ;
 
@@ -206,7 +206,7 @@ WHERE STRIP(RAGSOC, TRAILING) LIKE '%SPA'
 L'operatore = , al contrario, non considera i blank finali.
 
 Definendo come escape il carattere punto esclamativo posso effettuare una ricerca che  seleziona tutti i clienti con il carattere Underscore nella Ragione Sociale. Es : 
->SELECT *
+>SELECT \*
 FROM BRENTI0F
 WHERE E§RAGS LIKE '%!_%' Escape '!'
 
@@ -222,12 +222,12 @@ Per selezionare tutti i clienti con il fatturato tra 1.000.000 e 5.000.000
 
 ### Operatore IN / NOT IN
 Il predicato SQL IN puo' essere usato per indicare una lista di valori consentiti in una condizione oppure per sfruttare delle subquery SQL : 
->SELECT *
+>SELECT \*
 FROM Clienti
 WHERE Pagam IN ('100', '101', '300', '301')
 
 oppure
->SELECT *
+>SELECT \*
 FROM Clienti
 WHERE Pagam IN (Select cod from Pagamenti where tipo='RB')
 
@@ -243,7 +243,7 @@ FROM tables
 WHERE EXISTS ( subquery )
 
 Nell'esempio seguente, per ogni dipendente presente nella tabella Employees vengono individuati nella tabella Orders tutti gli ordini che contengono "Washington" nel campo ShippingRegion.
->SELECT * FROM Orders WHERE ShipRegion = 'WA'
+>SELECT \* FROM Orders WHERE ShipRegion = 'WA'
 AND EXISTS (SELECT EmployeeID FROM Employees AS Emp WHERE Emp.EmployeeID = Orders.EmployeeID)
 
 
@@ -260,7 +260,7 @@ L'istruzione INSERT permette di inserire dei record in un file :
 
 **Sintassi : **
 >INSERT INTO LibreriaDestinazione/FileDestinazione
-SELECT * FROM LibreriaOrigine/FileOrigine WHERE Condizione
+SELECT \* FROM LibreriaOrigine/FileOrigine WHERE Condizione
 
 
 ### Istruzione UPDATE
@@ -285,11 +285,11 @@ L'operatore DELETE consente di cancellare fisicamente i record di un file :
 
 ### Gestione file multimembro
 Se si vuole usare un file multimembro nell'SQL prendendo in considerazione un particolare membro, è necessario seguire la seguente procedura : 
- * fare una prima istruzione SQL che crea un ALIAS del membro : 
+ \* fare una prima istruzione SQL che crea un ALIAS del membro : 
 >CREATE ALIAS nomealias FOR nomefile (nomemembro)
 
- * eseguire tutte le operazioni SQL che si vogliono fare sul membro usando come nome del file l'alias
- * eseguire come ultima operazione la cancellazione dell'alias : 
+ \* eseguire tutte le operazioni SQL che si vogliono fare sul membro usando come nome del file l'alias
+ \* eseguire come ultima operazione la cancellazione dell'alias : 
 >DROP ALIAS nomealias
 
 Quest'ultima operazione è importante in quanto l'alias è di fatto un file.
@@ -345,7 +345,7 @@ Se avessimo un campo numerico potremmo usare DIGITS(campo) all'interno del CONCA
 Per effettuare la traformazione dei valori di un campo in caratteri solo maiuscoli, si utilizza la funzione **UPPER()** oppure **UCASE().**
 Per effettuare la traformazione in caratteri solo minuscoli, utilizzare **LOWER()** o **LCASE().**
 Es. : 
->SELECT * FROM BRENTI0F
+>SELECT \* FROM BRENTI0F
 WHERE lower(E§RAGS) LIKE 'a%'
 ORDER BY E§RAGS
 
@@ -357,7 +357,7 @@ La funzione **LTRIM()** rimuove invece i soli spazi iniziali, mentre **RTRIM()**
 
 ### Campi stringa contenenti un valore con l'apice
 Può creare qualche problema la selezione di campi con il valore contenente il carattere apice, ad esempio, se sulla nostra tabella clienti dovessimo selezionare quelli con Cognome D'Amato : 
->SELECT * FROM CLIENTI
+>SELECT \* FROM CLIENTI
  WHERE COGNOME = 'D''AMATO'
 
 Per evitare che l'apostrofo interno al valore venga rilevato dal database come la chiusura della stringa, è necessario utilizzare 2 apici.
@@ -396,7 +396,7 @@ Questo esempio restituisce :
 ### Divisione e problemi con gli Integer
 Se in un'istruzione SQL eseguiamo una divisione fra due numeri interi, il risultato viene presentato come intero e quindi senza virgole. Per risolvere il problema si può usare DEC() oppure : 
 >SELECT DEC(a)/dec(b) AS C from Tabel
-SELECT 1.0*A/B AS C from TABEL
+SELECT 1.0\*A/B AS C from TABEL
 
 
 ### Operazioni sulle date
@@ -447,17 +447,17 @@ Es. :  Ordino in modo alternativo per R§DTCR, se maggiore 20070101 o data inser
 
 
 ## File di sistema
-SELECT * FROM SYSCOLUMNS = da le definizione di tutti i campi di tutti i file del sistema
-SELECT * FROM SYSTABLES  = da le definizione di tutte le tabelle di sistema
+SELECT \* FROM SYSCOLUMNS = da le definizione di tutti i campi di tutti i file del sistema
+SELECT \* FROM SYSTABLES  = da le definizione di tutte le tabelle di sistema
 
 ## Utilizzo di un cursore per la lettura di dati in SQLRPGLE
 Il recupero dei dati tramite SQL in SQLRPGLE avviene attraverso l'utilizzo di un cursore.
 Le operazioni necessarie per la lettura di record con un cursore sono le seguenti : 
- * **DECLARE** :  dichiarazione di un cursore
- * **PREPARE** :  preparazione di una istruzione SQL eseguibile a partire da una variabile stringa
- * **OPEN** :  apertura del cursore
- * **FETCH** :  spostamento tra i record risultanti
- * **CLOSE** :  chiusura del cursore
+ \* **DECLARE** :  dichiarazione di un cursore
+ \* **PREPARE** :  preparazione di una istruzione SQL eseguibile a partire da una variabile stringa
+ \* **OPEN** :  apertura del cursore
+ \* **FETCH** :  spostamento tra i record risultanti
+ \* **CLOSE** :  chiusura del cursore
 
 Le istruzioni SQL embedded in un membro di tipo SQLRPGLE sono comprese tra un'istruzione di apertura C/EXEC SQL e una di chiusura C/END-EXEC e sono caratterizzate da un tipo riga C+.
 >      C/EXEC SQL
@@ -469,17 +469,17 @@ Le istruzioni SQL embedded in un membro di tipo SQLRPGLE sono comprese tra un'is
 
 All'interno delle istruzioni SQL embedded è possibile fare riferimento a variabili host definite in RPGLE. Nell'esempio sotto riportato, nell'istruzione SQL si fa riferimento alla variabile RPG SelectStm, facendo precedere il nome della variabile da ' : '. E' importante ricordare che non è possibile utilizzare nei nomi delle variabili host caratteri speciali (come £), in quanto viene generato un errore del precompilatore SQL. Inoltre, nomi di variabili che iniziano con SQ , SQL e DNS sono da considerarsi riservati all'uso del DBMS.
 >      D SelectStm       S            200    INZ
-       *
+       \*
       C                   EVAL      SelectStm='SELECT A§ARTI FROM BRARTI0F'
-       *
+       \*
       C/EXEC SQL
       C+ PREPARE S1 from  : SelectStm
       C/END-EXEC
 
 
 Si distinguono due tipi di cursore : 
- * **SERIAL CURSOR** (supporta soltanto lo spostamento in avanti di un record alla volta);
- * **SCROLLABLE CURSOR** (consente lo spostamento avanti e indietro all'interno dei record risultanti dall'apertura del cursore).
+ \* **SERIAL CURSOR** (supporta soltanto lo spostamento in avanti di un record alla volta);
+ \* **SCROLLABLE CURSOR** (consente lo spostamento avanti e indietro all'interno dei record risultanti dall'apertura del cursore).
 
 ### Serial cursor
 Questo tipo di cursore supporta soltanto lo spostamento in avanti di un record alla volta.
@@ -555,11 +555,11 @@ Quando il cursore viene aperto, è posizionato prima della prima riga nella tabe
 
 ### Fetch
 Questo tipo di cursore consente lo spostamento avanti e indietro all'interno dei record risultanti dall'apertura del cursore in base all'opzione specificata per l'istruzione FETCH.
-Una volta raggiunta la fine o l'inizio dei dati (SQLCOD=100)* non è necessario chiudere e riaprire il cursore per accedere nuovamente ai dati.
+Una volta raggiunta la fine o l'inizio dei dati (SQLCOD=100)\* non è necessario chiudere e riaprire il cursore per accedere nuovamente ai dati.
 Se sono specificate variabili host (tramite un elenco di singole variabili separate da virgola oppure tramite una DS) con la clausola INTO, SQL esegue lo spostamento dei valori della riga corrente nelle variabili host del programma.
 In RPG, un array è una DS a ricorrenze multiple (OCCURS). Un array può essere referenziato in una istruzione FETCH soltanto quando si esegue la fetch multipla (di più righe) o in un'istruzione INSERT quando si esegue una insert a blocchi.
 
-*** NOTA : ** _ SQLCOD, SQLERM e SQLSTATE** sono variabili RPG dichiarate automaticamente dal compilatore e accessibili nelle specifiche RPG.
+**\* NOTA : ** _ SQLCOD, SQLERM e SQLSTATE** sono variabili RPG dichiarate automaticamente dal compilatore e accessibili nelle specifiche RPG.
 Es. : 
 >     C                   IF        SQLCOD=100
      C                   LEAVE
@@ -567,56 +567,56 @@ Es. :
 
 
 _1_Opzioni per l'istruzione Fetch
- * **NEXT** :   Posiziona il cursore sulla riga successiva (è l'opzione predefinita se nessuna opzione è specificata)
+ \* **NEXT** :   Posiziona il cursore sulla riga successiva (è l'opzione predefinita se nessuna opzione è specificata)
 >      C/Exec SQL
       C+                  FETCH    NEXT
       C+                    FROM   C1
       C+                    INTO  : HostVariable
       C/End-Exec
 
- * **PRIOR** :  Posiziona il cursore sulla riga precedente
+ \* **PRIOR** :  Posiziona il cursore sulla riga precedente
 >      C/Exec SQL
       C+                  FETCH    PRIOR
       C+                    FROM   C1
       C+                    INTO  : HostVariable
       C/End-Exec
 
- * **FIRST** :  Posiziona il cursore sulla prima riga
+ \* **FIRST** :  Posiziona il cursore sulla prima riga
 >      C/Exec SQL
       C+                  FETCH    FIRST
       C+                    FROM   C1
       C+                    INTO  : HostVariable
       C/End-Exec
 
- * **LAST** :   Posiziona il cursore sull'ultima riga
+ \* **LAST** :   Posiziona il cursore sull'ultima riga
 >      C/Exec SQL
       C+                  FETCH    LAST
       C+                    FROM   C1
       C+                    INTO  : HostVariable
       C/End-Exec
 
- * **BEFORE** :  Posiziona il cursore prima della prima riga
+ \* **BEFORE** :  Posiziona il cursore prima della prima riga
 >      C/Exec SQL
       C+                  FETCH     BEFORE
       C+                    FROM   C1
       C/End-Exec
 
 >N.B. :  Non è possibile specificare variabili host con la clausola INTO per l'opzione BEFORE.
- * **AFTER** :  Posiziona il cursore dopo l'ultima riga
+ \* **AFTER** :  Posiziona il cursore dopo l'ultima riga
 >      C/Exec SQL
       C+                  FETCH     AFTER
       C+                    FROM   C1
       C/End-Exec
 
 >N.B. :  Non è possibile specificare variabili host con la clausola INTO per l'opzione AFTER.
- * **CURRENT** :  Esegue la rilettura della riga corrente
+ \* **CURRENT** :  Esegue la rilettura della riga corrente
 >      C/Exec SQL
       C+                  FETCH    CURRENT
       C+                    FROM   C1
       C+                    INTO  : HostVariable
       C/End-Exec
 
- * **RELATIVE** :  Esegue il posizionamento (in base al numero specificato in una variabile host di tipo integer) in relazione al record corrente del cursore.
+ \* **RELATIVE** :  Esegue il posizionamento (in base al numero specificato in una variabile host di tipo integer) in relazione al record corrente del cursore.
  Ad esempio, se il valore della variabile host RecNum è -1, il cursore si posiziona sulla riga precedente rispetto alla riga corrente del cursore. Se RecNum è +3, il cursore si posiziona in avanti di 3 righe tra i risultati rispetto alla riga corrente.
 Specificare RecNum uguale a 0 è equivalente all'utilizzo dell'opzione CURRENT.
 >      C/Exec SQL

@@ -11,9 +11,9 @@ A discrizione dell'utente. Deve seguire le regole di scadenza impostate per il s
 Nota
 _Tipologia/autorizzazioni : _
 Se utente programmatore : 
-Classe *USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
+Classe \*USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
 Se utente solo utilizzatore : 
-Classe *PGMR. Non con possibilità limitate. Senza autorizzazioni speciali. Gruppo QPGMR.
+Classe \*PGMR. Non con possibilità limitate. Senza autorizzazioni speciali. Gruppo QPGMR.
 
 __Nota__
 il reset di una password di questi utenti deve sempre esser fatto con impostazione di password "banale" (Es. nome utente+XX) e impostazione di password scaduta.
@@ -33,7 +33,7 @@ _Password : _
 Nel caso di utenti di ruolo, deve essere non banale, non importa se non è "user friendly" tanto non sarà una password da imputare manualmente. Non deve avere scadenza.
 Nel caso di utenti finali invece dovrebbe essere "abbastanza userfriendly" in quanto andrà inserita in fase di login.
 _Tipologia/autorizzazioni : _
-Classe *USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
+Classe \*USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
 
 # Utenti di servizio
 
@@ -47,7 +47,7 @@ In questo modo dato il provider PRVL43, sappiamo subito che è un provider colle
 _Password : _
 deve essere non banale, non importa se non è "user friendly" tanto non sarà una password da imputare manualmente. Non deve avere scadenza.
 _Tipologia/autorizzazioni : _
-Classe *USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
+Classe \*USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
 
 ## Utenti per intergrazioni esterne (???)
 Utenti da utilizzare in caso di integrazioni con sistemi esterni.
@@ -56,7 +56,7 @@ _Nomenclaura : _
 _Password : _
 deve essere non banale, non importa se non è "user friendly" tanto non sarà una password da imputare manualmente. Non deve avere scadenza.
 _Tipologia/autorizzazioni : _
-Classe *USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
+Classe \*USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
 
 ## Unico utente per login Web di tipo ROLES (???)
 Esiste un unico utente per tutti i login di tipo ROLES.
@@ -66,7 +66,7 @@ _Nomenclaura : _
 _Password : _
 deve essere non banale, non importa se non è "user friendly" tanto non sarà una password da imputare manualmente. Non deve avere scadenza.
 _Tipologia/autorizzazioni : _
-Classe *USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
+Classe \*USER. Con possibilità limitate. Senza autorizzazioni speciali. Gruppo QUSER.
 _Ambienti di accesso : _
 "Uno per ogni JAU". Le JAU del CRM staranno in un a,biente, le JAU di sviluppo in un altro, ecc.
 

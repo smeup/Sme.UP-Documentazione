@@ -55,7 +55,7 @@ Nel caso del setup della creazione (**PRINT**)
 
  T(L'elaborazione di un setup avverrà in tre differenti casi : )
 - Nel caso venga richiesto un PDF di un file di documentazione **F(FRM;JATRE_34C;DOC)**.
-- Nel caso si richieda un PDF di una scheda **F(FRM;*SCO;)**.
+- Nel caso si richieda un PDF di una scheda **F(FRM;\*SCO;)**.
 - Nel caso ci sia una sezione HTM in una scheda che faccia riferimento ad un file di documentazione con un setup, eclusivamente di stile (**STYLES**), differente da quello della scheda.
 
 
@@ -63,7 +63,7 @@ Nel caso del setup della creazione (**PRINT**)
 Quando si richiederà un PDF di un file di documentazione attraverso una F(FRM;JATRE_34C;DOC) verrà cercato l'elemento _r_Setup/Program/FRM da cui si estrarranno le categorie di informazioni presenti. Le altre per completare il setup della stampa verranno prese dal file di default _9_setupdocprint.xml. Se neppure il file di default viene trovato, verrà applicato il default cablato. Le informazioni sugli stili verranno cercate nell'elemento **STY** dove ci sarà il riferimento a dove reperire il setup degli stili. Se non viene trovato il riferimento si cercherà il file di default _9_setupdocprint.xml. Se neppure il file di default non viene trovato, verrà applicato il default cablato.
 
 ### Setup del PDF di una scheda.
-Quando si richiederà un PDF di una scheda F(FRM;*SCO;) verrà cercato l'elemento _r_Setup/Program/FRM da cui si estrarranno le categorie di informazioni presenti. Le altre per completare il setup della stampa verranno prese dal file di default _9_setupdocprint.xml. Se neppure il file di default viene trovato, verrà applicato il default cablato. Le informazioni sugli stili verranno cercate nell'elemento **STY** dove ci sarà il riferimento a dove reperire il setup degli stili. Se non viene trovato il riferimento si cercherà il file di default _9_setupdocprint.xml. Se neppure il file di default non viene trovato, verrà applicato il default cablato.
+Quando si richiederà un PDF di una scheda F(FRM;\*SCO;) verrà cercato l'elemento _r_Setup/Program/FRM da cui si estrarranno le categorie di informazioni presenti. Le altre per completare il setup della stampa verranno prese dal file di default _9_setupdocprint.xml. Se neppure il file di default viene trovato, verrà applicato il default cablato. Le informazioni sugli stili verranno cercate nell'elemento **STY** dove ci sarà il riferimento a dove reperire il setup degli stili. Se non viene trovato il riferimento si cercherà il file di default _9_setupdocprint.xml. Se neppure il file di default non viene trovato, verrà applicato il default cablato.
 
 ### Setup di una sezione HTM all'interno del PDF di una scheda
 Se nel corso della generazione del PDF di una scheda si incontra una sezione HTM all'interno della quale viene visualizzato un file di documentazione, quest'ultimo, relativamente alle informazioni di stile può avere una configurazione specifica che verrà cercata come se si trattasse della stampa del singolo file di documentazione.
@@ -139,9 +139,9 @@ attributi gestiti :
 >< FRM where="inside" Exec="" show="yes" >
  < FMT Livelli="001" AllInOne="Si" OnlyXml="No" Notransform="No" NewLayoutType="No"/ >
  < DOC Foglio="A4" Orientamento="V" PagXFog="1" TMargin="070" BMargin="070" LMargin="040" RMargin="040" NoColor="No" Legenda="No" NumerSect="No" ShowSet="Yes" PathDir="cartella destinazione" NameFile="nome.pdf"/ >
- < COV Copertina="Si" InfoInCover="No" ColoreSfondoCop="R204G255B255" ColoreTestoCop="R051G051B051" TestoCov="[*USER]-[*DATE]"/ >
+ < COV Copertina="Si" InfoInCover="No" ColoreSfondoCop="R204G255B255" ColoreTestoCop="R051G051B051" TestoCov="[\*USER]-[\*DATE]"/ >
  < IDX Indice="No" ColoreTitoloInd="R255G204B204" ColoreTestoInd="R153G102B000"/ >
- < HEA PagH="Yes" ImgH="percorso immagine.jpg" TestoH="[*USER]"/ >
+ < HEA PagH="Yes" ImgH="percorso immagine.jpg" TestoH="[\*USER]"/ >
  < FOO PagF="Yes" PagFTot="Yes" ImgF="percorso immagine.jpg" TestoF="PIEDE"/ >
  < MOD SplitTable="No"/ >
  < LAY Schema=""/ >

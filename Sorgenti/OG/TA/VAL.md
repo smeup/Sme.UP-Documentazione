@@ -44,7 +44,7 @@ Il campo non è di immissione obbligatoria, con le seguenti considerazioni :
 - modulo applicativo C5 :  campo necessario;
 - modulo applicativo V5 :  se non specificato alcun valore, viene utilizzato il corrispondente campo della tabella 'V51'.
  :  : FLD T$VALF __Codice standard__
-È la sigla internazionale della valuta (elemento tabella V§*DI).
+È la sigla internazionale della valuta (elemento tabella V§\*DI).
  :  : FLD T$VAL9 __Tolleranza Co.Ge.__
 L'importo qui indicato è quello che viene preso in sostituzione al limite previsto di default per la forzatura della quadratura delle registrazioni della contabilità smeup.
 Es. ponendo di indicare 2, se la registrazione squadra per un importo <=2 unità, tale differenza verrà automaticamente corretta, mentre un importo superiore verrà segnalato come errore.

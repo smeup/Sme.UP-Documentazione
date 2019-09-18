@@ -1,17 +1,17 @@
 # Introduzione
 Le principali peculiarità della versione 2 del nuovo data entry anagrafico consistono : 
- * nella gestione dei dati in lista.
- * nella possibilità di poter accedere secondo differenti prospettive ai dati, in modo da poter focalizzare l'attenzione sui soli dati interessati al momento (es. Dati fiscali, Dati commerciali ecc.). NOTA BENE :  se non si è in una situazione in cui differenti utenti operano su differenti dati, è consigliabile lasciare autorizzata solo la prospettiva CN_P£01, viceversa la funzionalità delle prospettive può portare a confusione.
- * nella possibilità di poter gestire in unica sessione dati di differente natura (sia dall'anagrafico di base, che dalle estensioni).
- * nella possibilità di gestire in unica schermata dati con rilevanza comune e specifica (se attivato lo scenario in un'unica schermata si possono gestire più scenari, imputando un'unica volta i dati comuni a tutti gli scenari e potendo specificare i valori peculiari di ogni scenario).
- * nella possibilità di poter indicare le date di validità e le differenti valorizzazioni temporali per i dati per i quali è prevista tale possibilità.
- * nella configurabilità tramite script di ogni funzionalità.
+ \* nella gestione dei dati in lista.
+ \* nella possibilità di poter accedere secondo differenti prospettive ai dati, in modo da poter focalizzare l'attenzione sui soli dati interessati al momento (es. Dati fiscali, Dati commerciali ecc.). NOTA BENE :  se non si è in una situazione in cui differenti utenti operano su differenti dati, è consigliabile lasciare autorizzata solo la prospettiva CN_P£01, viceversa la funzionalità delle prospettive può portare a confusione.
+ \* nella possibilità di poter gestire in unica sessione dati di differente natura (sia dall'anagrafico di base, che dalle estensioni).
+ \* nella possibilità di gestire in unica schermata dati con rilevanza comune e specifica (se attivato lo scenario in un'unica schermata si possono gestire più scenari, imputando un'unica volta i dati comuni a tutti gli scenari e potendo specificare i valori peculiari di ogni scenario).
+ \* nella possibilità di poter indicare le date di validità e le differenti valorizzazioni temporali per i dati per i quali è prevista tale possibilità.
+ \* nella configurabilità tramite script di ogni funzionalità.
 
 # Attivazione
 La Versione 2 del data entry viene attivata in modo esplicito quando sulla tabella BR2 viene impostato il relativo flag, o implicitamente quando vengono attivate le funzioni di : 
- * scenario
- * data-effective
- * nominativo
+ \* scenario
+ \* data-effective
+ \* nominativo
 
  :  : DEC T(ST) K(BR2)
 
@@ -28,7 +28,7 @@ L'exit ha radice BRBR24_x ed è attivabile dalla tabella BRE.
  :  : DEC T(MB) P(BRSRC) K(BRBR24_X)
 
 # Parametri
-Il data entry V2 gestisce anche la possibilità di poter imputare i parametri in inserimento; per fare questo è però necessario indicare sull'elemento della tabella B£G nella griglia di controllo della C£E, il fatto che per il codice cliente venga accettato anche il valore **.
+Il data entry V2 gestisce anche la possibilità di poter imputare i parametri in inserimento; per fare questo è però necessario indicare sull'elemento della tabella B£G nella griglia di controllo della C£E, il fatto che per il codice cliente venga accettato anche il valore \*\*.
  :  : DEC T(ST) P() K(C£E)
 
 # Autorizzazioni
@@ -52,8 +52,8 @@ Questa autorizzazione si riconduce al fatto di aver indicato nello script dei ca
 
 
 E' consigliabile impostare le autorizzazioni nel seguente modo : 
- * Raggruppando i campi sotto max dieci categorie (una per ogni riga della classe stati).
- * Attribuendo, quando la si vuole impostare, i primi 5 valori della riga per la non visualizzazione ed i successivi 5 per la protezione (Cfr. "Configurazione dello script").
+ \* Raggruppando i campi sotto max dieci categorie (una per ogni riga della classe stati).
+ \* Attribuendo, quando la si vuole impostare, i primi 5 valori della riga per la non visualizzazione ed i successivi 5 per la protezione (Cfr. "Configurazione dello script").
  :  : DEC T(TA) P(B£P) K(CN_F)
  :  : DEC T(MB) P(SCP_SET) K(CN_F[TA.BRE]) I(**Script Campi >>)
 

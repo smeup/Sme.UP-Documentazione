@@ -13,7 +13,7 @@ Si opera in modo opposto :  applico la prima azione al primo oggetto, poi la pri
 - n oggetti di tipo J1FUN
 Nella funzione indicherò gli oggetti variabili con - :  esempio
 
-F(EXB;*SCO;) 1(-;-;-)
+F(EXB;\*SCO;) 1(-;-;-)
 
 ## Come si definiscono gli oggetti
 - n righe di tipo Oggetto

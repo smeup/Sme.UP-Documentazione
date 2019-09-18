@@ -35,8 +35,8 @@ Per ogni fase sono totalizzati i tempi e calcolate le seguenti quantità
      attività
 . 08 Coefficiente Quantità Lorda Fase Successiva
      è la quantità calcolata dalla formula : 
-     =07/06*02
-     =QtàLordaVersamentiFaseSuccessiva/CoefficienteQtàVersata*QtàBuona
+     =07/06\*02
+     =QtàLordaVersamentiFaseSuccessiva/CoefficienteQtàVersata\*QtàBuona
 . 09 Quantità Netta
      è la quantità calcolata dalla formula : 
      =02-08

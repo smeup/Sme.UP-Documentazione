@@ -10,32 +10,32 @@ L'integrazione tra i processi di qualità e quelli gestionali è l'architrave de
 Questo rapporto di collaborazione tra il sistema qualità ed il sistema gestionale è mutuo :  così come l'analisi degli indici di performance (KPI) di un fornitore legge l'informazione relativa al ritardo di consegna dalla bolla di ricevimento materiale e dall'ordine di acquisto (la data della bolla confrontata con la data richiesta dall'ordine determinano la puntualità del fornitore), allo stesso tempo il pagamento delle fatture fornitore viene bloccato dall'esito di collaudo del lotto ricevuto.
 
 I punti di collaborazione tra il sistema gestionale e l'applicazione della Qualità sono i seguenti : 
- * Integrazione di tutti gli oggetti applicativi :  articoli, fornitori, centri di lavoro, ecc...
- * Creazione dei lotti a partire dagli eventi del sistema gestionale che rappresentano l'aggregazione di materiale : 
- ** Ricevimento di materiale, sia da fornitore (acquisto, conto lavoro) che da cliente (reso Cliente)
- ** Creazione di ordini di produzione
- ** Versamento di ordini di produzione
- ** Dichiarazione di avanzamento di fase di ordine di produzione
- * Creazione di Non Conformità, con integrazione dei costi rilevati dall'archivio costi
- * Pagamento fattura fornitore bloccato dall'esito di collaudo del lotto ricevuto, e relativo solo a quantità effettivamente ricevuta
- * Workflow attivato a seguito di creazione non conformità :  può portare ad emissione nota di credito/debito
- * Movimenti di magazzino generati dall'esito del collaudo che permettono di spostare il materiale dall'area del collaudo alle aree interessate (vedi fig. 2), con criteri diversi per tipo lotto (la logistica del lotto di acquisto è diversa da quella del reso cliente, o da quella dell'ordine di produzione)
- * Una delle chiavi dei movimenti di magazzino (e quindi di giacenza) può essere il lotto :  questa è la base per poter ottenere una rintracciabilità informatica dei materiali.
+ \* Integrazione di tutti gli oggetti applicativi :  articoli, fornitori, centri di lavoro, ecc...
+ \* Creazione dei lotti a partire dagli eventi del sistema gestionale che rappresentano l'aggregazione di materiale : 
+ \*\* Ricevimento di materiale, sia da fornitore (acquisto, conto lavoro) che da cliente (reso Cliente)
+ \*\* Creazione di ordini di produzione
+ \*\* Versamento di ordini di produzione
+ \*\* Dichiarazione di avanzamento di fase di ordine di produzione
+ \* Creazione di Non Conformità, con integrazione dei costi rilevati dall'archivio costi
+ \* Pagamento fattura fornitore bloccato dall'esito di collaudo del lotto ricevuto, e relativo solo a quantità effettivamente ricevuta
+ \* Workflow attivato a seguito di creazione non conformità :  può portare ad emissione nota di credito/debito
+ \* Movimenti di magazzino generati dall'esito del collaudo che permettono di spostare il materiale dall'area del collaudo alle aree interessate (vedi fig. 2), con criteri diversi per tipo lotto (la logistica del lotto di acquisto è diversa da quella del reso cliente, o da quella dell'ordine di produzione)
+ \* Una delle chiavi dei movimenti di magazzino (e quindi di giacenza) può essere il lotto :  questa è la base per poter ottenere una rintracciabilità informatica dei materiali.
 
 ![AAP_QEM_02](http://localhost:3000/immagini/MBDOC_VIS-AAQEM/AAP_QEM_02.png)
 # Funzioni native della qualità
 Ovviamente ci sono funzioni native della qualità che creano e processano i dati in modo autonomo : 
- * la gestione dei cicli di collaudo
- * l'esecuzione dei collaudi
- * la gestione dei piani di campionamento (con già caricate circa 8000 griglie di campionamento)
- * la rilevazione dei valori misurati
- * la gestione degli strumenti di misura
- * la manutenzione degli impianti
- * la gestione delle non conformità
- * la gestione della FMEA (Failure Mode Effect Analysis)
- * la gestione degli audit
- * la gestione dell'addestramento del personale
- * le richieste di intervento
+ \* la gestione dei cicli di collaudo
+ \* l'esecuzione dei collaudi
+ \* la gestione dei piani di campionamento (con già caricate circa 8000 griglie di campionamento)
+ \* la rilevazione dei valori misurati
+ \* la gestione degli strumenti di misura
+ \* la manutenzione degli impianti
+ \* la gestione delle non conformità
+ \* la gestione della FMEA (Failure Mode Effect Analysis)
+ \* la gestione degli audit
+ \* la gestione dell'addestramento del personale
+ \* le richieste di intervento
 
 Tutti questi sono altamente parametrizzati :  significa che la loro applicabilità a gestire i processi per cui sono stati inizialmente pensati, si estende anche a processi non immaginati all'origine, semplicemente cambiando l'impostazione delle tabelle di parametrizzazione. Per esempio, il modulo "richieste di intervento" che inizialmente era pensato per gestire le azioni correttive relative alla risoluzione della non conformità, può essere utilizzato per descrivere la richiesta di identificazione di un nuovo fornitore o di un nuovo candidato per assunzione. Infatti questo modulo gestisce delle "cartoline" elettroniche che hanno un mittente (un oggetto qualsiasi, parametrizzabile) un destinatario (pure lui parametrizzabile), una griglia di 3 chiavi cui fa riferimento la cartolina, delle date di evasione richieste ed effettive, dei costi di budget ed effettivi, uno stato di esecuzione, note. Praticamente una richiesta generalizzabile per descrivere qualsiasi rapporto aziendale dove c'è uno che chiede qualcosa a qualcun altro che deve farla entro una certa data e con certi costi. Ovviamente descrive anche l'azione correttiva, ma si può utilizzare per molti altri scopi.
 

@@ -1,8 +1,8 @@
 # Scopo
- * Il modulo si occupa di codificare e gestire gli strumenti di misura presenti in azienda
- * Scadenzario strumenti
- * Gestione delle tarature, Studio MSA strumenti
- * Report
+ \* Il modulo si occupa di codificare e gestire gli strumenti di misura presenti in azienda
+ \* Scadenzario strumenti
+ \* Gestione delle tarature, Studio MSA strumenti
+ \* Report
 
 
 # Definizioni
@@ -27,7 +27,7 @@ Il Measurement System Analisys (MSA) è un insieme di procedure utilizzate in am
 ### CR3 - Inizializzazione strumenti di misura
 Tabella obbligatoria a elemento singolo
 Definisce il setup essenziale del modulo, numeratori, tipi ciclo di collaudo assunti, note, parametri e stato iniziale
- :  : DEC T(TA) P(CR3) K(*)
+ :  : DEC T(TA) P(CR3) K(\*)
 
 ### CR2 - Default strumenti di misura
 Tabella obbligatoria
@@ -47,15 +47,15 @@ Grandezza misurata serve anche da controllo di congruenza con strumento e unità
 Unità di misura
  :  : DEC T(ST) K(CQH)
 
-### *CNTT - CODICI OGGETTI APPLICATIVI
+### \*CNTT - CODICI OGGETTI APPLICATIVI
 Descrive il tipo di enti che richiedono, gestiscono, evadono,ecc.. la  richiesta di intervento (direzione tecnica, direzione commerciale, ecc..)
- :  : DEC T(ST) K(*CNTT)
+ :  : DEC T(ST) K(\*CNTT)
 
 ### CRNMS - Numeratori
  :  : DEC T(ST) K(CRNMS)
 
-### CQ*CP - Classe di precisione
- :  : DEC T(ST) K(CQ*CP)
+### CQ\*CP - Classe di precisione
+ :  : DEC T(ST) K(CQ\*CP)
 
 ### CRY   - Tipo studio MSA
 Descrive il tipo di studio valori e operatori obbligatori
@@ -65,28 +65,28 @@ Descrive il tipo di studio valori e operatori obbligatori
 Descrive l'esito della taratura
  :  : DEC T(ST) K(CQECC)
 
-### CQ*CS - Colore Strumento
+### CQ\*CS - Colore Strumento
 Non obbligatoria. Serve a dare l'immediata evidenza dello stato strumento
- :  : DEC T(ST) K(CQ*CS)
+ :  : DEC T(ST) K(CQ\*CS)
 
-### CQ*US - Utilizzo Strumento
+### CQ\*US - Utilizzo Strumento
 Non obbligatoria. Indica l'utilizzo a cui è destinato lo strumento
- :  : DEC T(ST) K(CQ*US)
+ :  : DEC T(ST) K(CQ\*US)
 
 # Processo di avviamento ed utilizzo
 ## Attività iniziale
- * Classificazione tipi di strumento
- * Classificazione procedure di riferimento
- * Classificazione delle grandezze misurate
- * Classificazione delle unità di misura
- * Impostazione numeratori e default modulo
- * Inserimento tabelle relative al modulo
- * Classificazione delle categorie strumenti
- * Immissione Matricole Strumenti
+ \* Classificazione tipi di strumento
+ \* Classificazione procedure di riferimento
+ \* Classificazione delle grandezze misurate
+ \* Classificazione delle unità di misura
+ \* Impostazione numeratori e default modulo
+ \* Inserimento tabelle relative al modulo
+ \* Classificazione delle categorie strumenti
+ \* Immissione Matricole Strumenti
 
 ## Attività periodica
- * Gestione Matricole Strumenti
- * Scadenzario Strumenti
- * Taratura Strumenti
- * MSA Strumenti
- * Stampa e interrogazioni
+ \* Gestione Matricole Strumenti
+ \* Scadenzario Strumenti
+ \* Taratura Strumenti
+ \* MSA Strumenti
+ \* Stampa e interrogazioni

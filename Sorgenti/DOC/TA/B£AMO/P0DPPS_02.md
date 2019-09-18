@@ -32,10 +32,10 @@ La stessa lista dei collaboratori ma con un filtro più ristretto viene utilizza
 La lista dei locali dove vengono trattati i dati è nel parametro X5 dell'azienda. I locali sono codificati nella tabella delle ubicazioni dei cespiti.
 
 ## Misure fisiche
-il dato viene letto nella categoria dei parametri AZI+ codice azienda, nel parametro X5  (TA P0*MA);
+il dato viene letto nella categoria dei parametri AZI+ codice azienda, nel parametro X5  (TA P0\*MA);
 a questo punto il filtro passa sulla Categoria A5E parametro B1.
-I metodi di accesso sono codificati nella tabella P0*MA
- :  : DEC T(ST) K(P0*MA)
+I metodi di accesso sono codificati nella tabella P0\*MA
+ :  : DEC T(ST) K(P0\*MA)
 
 ## Server e sistemi aziendali
 I computers, i servers ed i sistemi di collegamento con l'esterno sono codificati nei cespiti aziendali. Tramite la tabella A5D sono identificati (campo chiamato raggruppamento implicito del cespite) ed i sistemi di protezione sono caratterizzati nei parametri dell'elemento A5D.

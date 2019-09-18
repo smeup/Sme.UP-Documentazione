@@ -24,10 +24,10 @@ Definisce il livello di dettaglio con cui vengono suddivisi gli impegni risorse 
 Un'operazione  può essere : 
 - I - Iniziata
 - P - Pronta (se è la prima o se la precedente è terminata)
-- S - Iniziata la precedente   (*)
-- U - Pronta la precedente     (*)
+- S - Iniziata la precedente   (\*)
+- U - Pronta la precedente     (\*)
 - Z - Non disponibile
-Se questo campo è impostato, vengono determinati anche gli stati (*), se invece è lasciato in bianco vengono determinati solo i rimanenti stati.
+Se questo campo è impostato, vengono determinati anche gli stati (\*), se invece è lasciato in bianco vengono determinati solo i rimanenti stati.
 Questa suddivisione è utilizzata nella rappresentazione degli impegni di risorse in modalità work list.
  :  : FLD T$S5BF __Tipo schedulazione capacità inf. ril.__
 _7_Schedulazione a capacità infinita
@@ -87,9 +87,9 @@ Nella creazione degli impegni risorse, se questo campo viene impostato, essi ven
 'I' - Schedulazione all'indietro a partire dalla data fine richiesta dell'ordine
 'E' - Entrambe le schedulazioni (in avanti e all'indietro)
  :  : FLD T$S5BP __Scenario dipendente__
-Se impostato il valore '1', gli impegni risorse su questo scenario verranno rigenerati contestualmente alla rifasatura dello scenario di produzione '**'.
-Se impostato il valore '2', oltre al comportamento precedente, quando vengono memorizzati l'inizio e la fine della schedulazione fine su questo scenario, essi vengono riportati anche sullo scenario '**'. Quando gli impegni su questo scenario sono effetto di uno split a partire da quello dello scenario **, verranno riportati su quest'ultimo i valori iniziali e finali rispettivamente più basso e più alto.
-Naturalmente questo flag non è significativo sullo scenario **.
+Se impostato il valore '1', gli impegni risorse su questo scenario verranno rigenerati contestualmente alla rifasatura dello scenario di produzione '\*\*'.
+Se impostato il valore '2', oltre al comportamento precedente, quando vengono memorizzati l'inizio e la fine della schedulazione fine su questo scenario, essi vengono riportati anche sullo scenario '\*\*'. Quando gli impegni su questo scenario sono effetto di uno split a partire da quello dello scenario \*\*, verranno riportati su quest'ultimo i valori iniziali e finali rispettivamente più basso e più alto.
+Naturalmente questo flag non è significativo sullo scenario \*\*.
  :  : FLD T$S5BQ __Numeri avanzamento__
 Se impostato, vengono calcolati i numeri che caratterizzano la situazione di avanzamento dell'oggetto intestatario, quali le ore rimanenti, lo slack time, la critical ratio, ecc...
 Può assumere i seguenti valori : 
@@ -99,7 +99,7 @@ Può assumere i seguenti valori :
 Essi sono memorizzati in un elemento di D5COSO, con le seguenti impostazioni : 
 - contesti 'OR' / 'DR' / 'M5'
 - temi     '£I1' del sottosettore OR / DR / M5
-È significativo solo per lo scenario '**'.
+È significativo solo per lo scenario '\*\*'.
  :  : FLD T$S5BR __Memorizzazione ind.__
 Se impostato, gli indici della schedulazione vengono memorizzati nell'archivio indici (D5COSO).
 Viene memorizzato un elemento per scenario / origine / ambito / data.

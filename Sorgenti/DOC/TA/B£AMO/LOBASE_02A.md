@@ -3,7 +3,7 @@
 ## Configurazione comunicazione
 ### Breve descrizione
 La comunicazione tra il lato Client (PC) e il lato Server (AS400) avviene tramite appositi processi che vengono attivati al momento della connessione.
-La comunicazione tra AS400 e Client PC avviene tramite code dati (oggetto AS400 *DTAQ).
+La comunicazione tra AS400 e Client PC avviene tramite code dati (oggetto AS400 \*DTAQ).
 La configurazione del lato server consiste di fatto nella configurazione dell'ambiente di questi processi.
 I processi di comunicazione sono a tutti gli effetti dei lavori di tipo batch, e per poter funzionare hanno bisogno di definire la coda lavori nella quale vengono lanciati.
 Viene qui descritta una procedura per creare il tipico ambiente di esecuzione sul Server.
@@ -18,44 +18,44 @@ Normalmente i sottosistemi vengono creati nella libreria SMESYS.
 
 ### Parametri di creazione del sottosistema
 >.  Descrizione sottosistema . . . . > QBATCHUI      Nome
-.    Libreria . . . . . . . . . . .     SMESYS      Nome, *CURLIB
+.    Libreria . . . . . . . . . . .     SMESYS      Nome, \*CURLIB
 .  Lotti di memoria : 
 .    Identificativo di lotto  . . . > 1             1-10
-.    Ampiezza memoria . . . . . . . > *BASE         Numero, *BASE, *NOSTG...
+.    Ampiezza memoria . . . . . . . > \*BASE         Numero, \*BASE, \*NOSTG...
 .    Livello attività . . . . . . .                 Numero
 .                + per altri valori
-.  Numero massimo di lavori . . . .   *NOMAX        0-1000, *NOMAX
+.  Numero massimo di lavori . . . .   \*NOMAX        0-1000, \*NOMAX
 .  Testo 'descriz.' . . . . . . . .   'Looc.up batch subsystem'
 
 ### Comando di creazione sottosistema
-CRTSBSD SBSD(SMESYS/QBATCHUI) POOLS((1 *BASE)) TEXT('Looc.up batch subsystem')
+CRTSBSD SBSD(SMESYS/QBATCHUI) POOLS((1 \*BASE)) TEXT('Looc.up batch subsystem')
  :  : INI Creazione sottosistema
- :  : CMD ?CRTSBSD SBSD(SMESYS/QBATCHUI) POOLS((1 *BASE)) TEXT('Looc.up batch subsystem')
+ :  : CMD ?CRTSBSD SBSD(SMESYS/QBATCHUI) POOLS((1 \*BASE)) TEXT('Looc.up batch subsystem')
  :  : FIN
 
 Dopo aver creato il sottosistema è necessario definire il passo di instradamento.
 ### Parametri  del passo di instradamento
 >.  Descrizione sottosistema . . . . > QBATCHUI      Nome
-.    Libreria . . . . . . . . . . .     SMESYS      Nome, *LIBL, *CURLIB
+.    Libreria . . . . . . . . . . .     SMESYS      Nome, \*LIBL, \*CURLIB
 .  Num. seq. spec. instradamento  . > 9999          1-9999
 .  Dati di confronto : 
-.    Valore confronto . . . . . . . > *ANY
+.    Valore confronto . . . . . . . > \*ANY
 .
 .    Posizione iniziale . . . . . .                 1-80
-.  Programma da richiamare  . . . . > QCMD          Nome, *RTGDTA
-.    Libreria . . . . . . . . . . .     *LIBL       Nome, *LIBL, *CURLIB
-.  Classe . . . . . . . . . . . . .   QBATCH        Nome, *SBSD
-.   Libreria . . . . . . . . . . .                 Nome, *LIBL, *CURLIB
-.  Num. max passi instrad. attivi     *NOMAX        0-1000, *NOMAX
+.  Programma da richiamare  . . . . > QCMD          Nome, \*RTGDTA
+.    Libreria . . . . . . . . . . .     \*LIBL       Nome, \*LIBL, \*CURLIB
+.  Classe . . . . . . . . . . . . .   QBATCH        Nome, \*SBSD
+.   Libreria . . . . . . . . . . .                 Nome, \*LIBL, \*CURLIB
+.  Num. max passi instrad. attivi     \*NOMAX        0-1000, \*NOMAX
 .  ID lotto memoria . . . . . . . .   1             1-10
 
 ### Comando di creazione del passo di instradamento
-ADDRTGE SBSD(SMESYS/QBATCHUI) SEQNBR(9999) CMPVAL(*ANY) PGM(QCMD) CLS(QBATCH)
+ADDRTGE SBSD(SMESYS/QBATCHUI) SEQNBR(9999) CMPVAL(\*ANY) PGM(QCMD) CLS(QBATCH)
  :  : INI Creazione passo di instradamento
- :  : CMD ?ADDRTGE SBSD(SMESYS/QBATCHUI) SEQNBR(9999) CMPVAL(*ANY) PGM(QCMD) CLS(QBATCH)
+ :  : CMD ?ADDRTGE SBSD(SMESYS/QBATCHUI) SEQNBR(9999) CMPVAL(\*ANY) PGM(QCMD) CLS(QBATCH)
  :  : FIN
 
-**ATTENZIONE : ** Il parametro Classe viene impostato di default al valore *SBSD, modificarlo al valore QBATCH.
+**ATTENZIONE : ** Il parametro Classe viene impostato di default al valore \*SBSD, modificarlo al valore QBATCH.
 
 **IMPORTANTE : ** La principale causa del mancato funzionamento di LoocUp è dovuta alla mancanza della definizione del passi di instradamento.
 
@@ -66,7 +66,7 @@ tale libreria sia in lista librerie (normalmente essa è inserita tra la libreri
 
 ### Parametri della coda lavori
 >.  Coda lavori  . . . . . . . . . . > QBATCHUI      Nome
-.    Libreria . . . . . . . . . . . >   SMESYS      Nome, *CURLIB
+.    Libreria . . . . . . . . . . . >   SMESYS      Nome, \*CURLIB
 .  Testo 'descriz.' . . . . . . . .   'Looc.Up batch subsystem jobq'
 
 ### Comando di creazione coda lavori
@@ -77,13 +77,13 @@ CRTJOBQ JOBQ(SMESYS/QBATCHUI) TEXT('Looc.Up batch subsystem jobq')
 **IMPORTANTE : **  Il nome dalla coda lavori creata deve essere riportata nella tabella UI1
 
  :  : INI Modifica della tabella
- :  : CMD CALL B£AM30 PARM('UI1' '  ' '*              ')
+ :  : CMD CALL B£AM30 PARM('UI1' '  ' '\*              ')
  :  : FIN
 ### Esempio di tabella UI1 compilata
->.  Sme.Up V3R2           **   MANUTENZIONE TABELLE   **      S44256CA   B£AM30
+>.  Sme.Up V3R2           \*\*   MANUTENZIONE TABELLE   \*\*      S44256CA   B£AM30
 .   8/07/05                    Gestione elemento             QPADEV0051 AS
 .  Set. UI1 Main User Interface
-.  Ele. *                                                             Archivio 0
+.  Ele. \*                                                             Archivio 0
 .  Descrizione          Personalizzazione UI
 .  Ambiente             SM                 SME_up
 .  Coda lavoro          QBATCHUI           Looc.Up batch subsystem jobq
@@ -94,29 +94,29 @@ CRTJOBQ JOBQ(SMESYS/QBATCHUI) TEXT('Looc.Up batch subsystem jobq')
 Occorre associare la coda lavori creata al sottosistema precedentemente definito.
 ### Parametri del comando
 >.  Descrizione sottosistema . . . .   QBATCHUI      Nome
-.    Libreria . . . . . . . . . . .     SMESYS      Nome, *LIBL, *CURLIB
+.    Libreria . . . . . . . . . . .     SMESYS      Nome, \*LIBL, \*CURLIB
 .  Coda lavori  . . . . . . . . . .   QBATCHUI      Nome
-.    Libreria . . . . . . . . . . .     SMESYS      Nome, *LIBL, *CURLIB
-.  Num. massimo lavori attivi . . .   *NOMAX        0-1000, *NOMAX
+.    Libreria . . . . . . . . . . .     SMESYS      Nome, \*LIBL, \*CURLIB
+.  Num. massimo lavori attivi . . .   \*NOMAX        0-1000, \*NOMAX
 .  Numero sequenza  . . . . . . . .   10            1-9999
-.  Massima priorità attiva 1  . . .   *NOMAX        0-99, *NOMAX
-.  Massima priorità attiva 2  . . .   *NOMAX        0-99, *NOMAX
-.  Massima priorità attiva 3  . . .   *NOMAX        0-99, *NOMAX
-.  Massima priorità attiva 4  . . .   *NOMAX        0-99, *NOMAX
-.  Massima priorità attiva 5  . . .   *NOMAX        0-99, *NOMAX
+.  Massima priorità attiva 1  . . .   \*NOMAX        0-99, \*NOMAX
+.  Massima priorità attiva 2  . . .   \*NOMAX        0-99, \*NOMAX
+.  Massima priorità attiva 3  . . .   \*NOMAX        0-99, \*NOMAX
+.  Massima priorità attiva 4  . . .   \*NOMAX        0-99, \*NOMAX
+.  Massima priorità attiva 5  . . .   \*NOMAX        0-99, \*NOMAX
 
-**IMPORTANTE : ** Prestare particolare attenzione al valore *NOMAX del parametro Num. massimo lavori attivi.
+**IMPORTANTE : ** Prestare particolare attenzione al valore \*NOMAX del parametro Num. massimo lavori attivi.
 ### Comando di associazione della coda lavori al sottosistema
-ADDJOBQE SBSD(SMESYS/QBATCHUI) JOBQ(SMESYS/QBATCHUI) MAXACT(*NOMAX)
+ADDJOBQE SBSD(SMESYS/QBATCHUI) JOBQ(SMESYS/QBATCHUI) MAXACT(\*NOMAX)
  :  : INI Assegnazione coda lavori al sottosistema
- :  : CMD ?ADDJOBQE SBSD(SMESYS/QBATCHUI) JOBQ(SMESYS/QBATCHUI) MAXACT(*NOMAX)
+ :  : CMD ?ADDJOBQE SBSD(SMESYS/QBATCHUI) JOBQ(SMESYS/QBATCHUI) MAXACT(\*NOMAX)
  :  : FIN  _
 
 ### Avvio del sottosistema
 E' necessario avviare il sottosistema precedentemente creato.
 ## Parametri del comando
 >.  Descrizione sottosistema . . . .   QBATCHUI      Nome
-.    Libreria . . . . . . . . . . .     SMESYS      Nome, *LIBL, *CURLIB
+.    Libreria . . . . . . . . . . .     SMESYS      Nome, \*LIBL, \*CURLIB
 
 ### Comando di avvio del sottosistema
 STRSBS SBSD(SMESYS/QBATCHUI)
@@ -127,10 +127,10 @@ STRSBS SBSD(SMESYS/QBATCHUI)
 **IMPORTANTE : ** I sottosistemi NON vengono automaticamente avviati all'accensione dell'AS400. Modificare quindi il programma di avvio dell'AS400 (QSTRUP) e avviare esplicitamente il sottosistema.
 
 ### Libreria code dati
-Gli oggetti *DTAQ che vengono utilizzati per la comunicazione vengono creati nella libreria SMEUPUIDQ, la quale deve essere creata appositamente.
+Gli oggetti \*DTAQ che vengono utilizzati per la comunicazione vengono creati nella libreria SMEUPUIDQ, la quale deve essere creata appositamente.
 ## Parametri del comando di creazione della libreria
 >.  Libreria . . . . . . . . . . . . > SMEUPUIDQ     Nome
-.  Tipo libreria  . . . . . . . . .   *PROD         *PROD, *TEST
+.  Tipo libreria  . . . . . . . . .   \*PROD         \*PROD, \*TEST
 .  Testo 'descriz.' . . . . . . . . > 'Sme_Up V3R2 - Libreria standard code'
 
 **NOTA : ** Il nome della libreria è fisso e non può essere modificato.
@@ -146,7 +146,7 @@ In caso di mancato funzionamento, controllare che tutti i passi siano stati eseg
  :  : PAR F(01) L(PUN)
 -Sottosistema avviato
 -Passi di instradamento definiti
--Coda lavori associata al sottosistema (con numero lavori *NOMAX)
+-Coda lavori associata al sottosistema (con numero lavori \*NOMAX)
 -Tabella UI1 corretta
 
 
@@ -154,10 +154,10 @@ Per verificare il corretto funzionamento della coda lavori e del sottosistema cr
 
 **NOTA : ** L'utilizzo di Looc_Up prevede la corretta compilazione delle tabelle MEA relative ai menù.
 Per verificare la corretta impostazione delle tabelle MEA è possibile utilizzare il comando (da linea comandi della normale emulazione 5250) **UP SER**, impostando i parametri come evidenziato : 
->.  Sme.Up V3R2        **    Set - Play Funzioni    **         S44256CA   JASEP2
+>.  Sme.Up V3R2        \*\*    Set - Play Funzioni    \*\*         S44256CA   JASEP2
 .  Q80705                                                     QPADEV0033 AS
 .
-.  Servizio        *MNU   Menù completo            Fornito da :  JATRE_01C
+.  Servizio        \*MNU   Menù completo            Fornito da :  JATRE_01C
 .  Funzione.Metodo
 .  Componente      TRE    Albero
 .
@@ -173,11 +173,11 @@ Per verificare la corretta impostazione delle tabelle MEA è possibile utilizzar
 .
 .  Modo grafico
 .
-.  Risultato       F(TRE;*MNU;)
+.  Risultato       F(TRE;\*MNU;)
 
 
 Dovrà apparire una videata come la seguente : 
->.   Sme.Up V3R2  **  ANALISI XML DI UN PROGRAMMA  **  18/07/05 S44256CA   TSTJASX
+>.   Sme.Up V3R2  \*\*  ANALISI XML DI UN PROGRAMMA  \*\*  18/07/05 S44256CA   TSTJASX
 .                        Sviluppo di dettaglio         16 : 18 : 49 QPADEV0033 AS
 .
 .
@@ -195,10 +195,10 @@ Dovrà apparire una videata come la seguente :
 
 
 ### Alcuni utili suggerimenti
-Nella libreria SMEUPUIDQ vengono creati continuamente oggetti di tipo *DTAQ che in alcuni casi particolari (malfunzionamenti) potrebbero non venire eliminati. Si consiglia quindi di attivare periodicamente (inserendola ad esempio nelle procedure di spegnimento dell'As400) una procedura di "pulizia".
-### Esempio di procedura per l'eliminazione degli oggetti *DTAQ dalla libreria SMEUPUIDQ
+Nella libreria SMEUPUIDQ vengono creati continuamente oggetti di tipo \*DTAQ che in alcuni casi particolari (malfunzionamenti) potrebbero non venire eliminati. Si consiglia quindi di attivare periodicamente (inserendola ad esempio nelle procedure di spegnimento dell'As400) una procedura di "pulizia".
+### Esempio di procedura per l'eliminazione degli oggetti \*DTAQ dalla libreria SMEUPUIDQ
 __chiusura del sottosistema x chiudere tutti i lavori attivi__
-ENDSBS     SBS(QBATCHUI) OPTION(*IMMED)
+ENDSBS     SBS(QBATCHUI) OPTION(\*IMMED)
 __attesa di completamento dell'operazione di chiusura__
 DLYJOB     DLY(60)
 __eliminazione di tutte le code dati__
@@ -212,9 +212,9 @@ Condizione necessaria per il funzionamento di Looc.up è che la parte AS/400 sia
 Si consiglia pertanto, una volta verificati i prerequisiti di procedere nel modo seguente : 
 
 ### Verificare il collegamento
- * Programma = TSTJAC ( T JAC)
- * Messaggio = DATSES
- * Funzione = CON
+ \* Programma = TSTJAC ( T JAC)
+ \* Messaggio = DATSES
+ \* Funzione = CON
 
  - Si vede un numero di 6 cifre in OUTPUT D2
  - Verificare l'inizio dei lavori per l'utente
@@ -225,7 +225,7 @@ Si consiglia pertanto, una volta verificati i prerequisiti di procedere nel modo
 
 ### Verifiche di esecuzione delle funzioni estese
 - Immettere "UP SER" nella linea comandi
-- Inserire "F(TRE;*MNU;)" nel campo risultato e premere F21 poi F20 e scegliere un ambiente
+- Inserire "F(TRE;\*MNU;)" nel campo risultato e premere F21 poi F20 e scegliere un ambiente
 - La funzione JS deve presentare il formato XML della lista dei menù.
 
 Se la lista non si presenta significa che manca un prerequisito, oppure il programma è in errore.

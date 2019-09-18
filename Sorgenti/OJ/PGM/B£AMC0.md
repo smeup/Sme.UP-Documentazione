@@ -59,17 +59,17 @@ da cui poi si passa alla gestione di dettaglio come visto in precedenza
 
 # Annotazioni aggiuntive
 Il gestore note dovrà poter essere richiamato : 
- * direttamente da un utente abilitato mediante una chiave di menu'
- * dal formato di manutenzione stessa mediante un comando potremo passare al gestore.
+ \* direttamente da un utente abilitato mediante una chiave di menu'
+ \* dal formato di manutenzione stessa mediante un comando potremo passare al gestore.
 
 Per facilitare la stampa saranno costruite alcune routine richiamabili facilmente il modo parametrico e che gestiscono direttamente le emissioni. In tal modo quando si produce ad esempio il documento di stampa ciclo sarà possibile richiamare una routine in modo parametrico e avremo incorporata nella stampa il dettaglio delle note, con o senza intestazioni. La funzione di stampa potrà in particolare essere richiamata dall'esterno per stampare ad esempio tutte le note presenti in un contenitore per uno o per più tipi di informazione.
 
 # Esempio
 Si supponga di voler descrivere le attrezzature necessarie in un centro di lavoro per un articolo. Per l'attrezzatura vogliamo inserire il codice, una breve descrizione e tre valori numerici che possono essere caratteristici dell'attrezzatura (esempio temperatura di riscaldamento ecc.)
- * Decidiamo di utilizzare l'archivio DATI CENTRI DI LAVORO.
- * Descriviamo un tipo contenitore che chiamiamo ACL dove descriviamo che la prima chiave è "RI" (Risorsa) e la
+ \* Decidiamo di utilizzare l'archivio DATI CENTRI DI LAVORO.
+ \* Descriviamo un tipo contenitore che chiamiamo ACL dove descriviamo che la prima chiave è "RI" (Risorsa) e la
 seconda è "AR" (Articolo).
- * Descriviamo il tipo di informazione "IAT" (Informazioni attrezzi) con INTESTAZIONE : 
+ \* Descriviamo il tipo di informazione "IAT" (Informazioni attrezzi) con INTESTAZIONE : 
 >Codice    Descrizione   Val.1   Val.2   Val.3
 
 A questo punto è attiva una struttura che, dati contenitore e tipo informazione, mi richiede i due oggetti necessari (articolo e centro) gestendo tutte le funzioni di controllo e ricerca standard e permette l'associazione delle informazioni in modo semplice.

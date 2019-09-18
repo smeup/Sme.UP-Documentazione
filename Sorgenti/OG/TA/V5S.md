@@ -80,7 +80,7 @@ Condizioni di applicazione :
 7) Il calcolo è eseguito attraveso la sequente formula
    Per tutte le aliquote tranne l'ultima : 
      Moltiplicatore della spesa = Imponibile iva / Totale documento
-     Importo iva della spesa = (Importo della spesa * Moltiplicatore)
+     Importo iva della spesa = (Importo della spesa \* Moltiplicatore)
                                Gestione dell'arrotondamento secondo le specificità della valuta
    Ultima aliquota iva elaborata
      Importo iva della spesa = Importo della spesa - Distribuito

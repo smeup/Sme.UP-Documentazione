@@ -2,8 +2,8 @@
 
 ## Prerequisiti
 
-* Download del prodotto (http://www.smeup.com/Download')
-* Installazione del database, consigliato DB2Luw seguendo la procedura
+\* Download del prodotto (http://www.smeup.com/Download')
+\* Installazione del database, consigliato DB2Luw seguendo la procedura
 - [IBM DB2 Luw](Sorgenti/DOC/TA/B£AMO/MUDBMS_12)
 
 ## Procedura
@@ -18,11 +18,11 @@ Collegarsi tramite interfaccia grafica Loo.cup; è possibile cambiare i parametr
 
 ### Restore librerie
 Se non si possiede una cartella contenente la preinstallazione del sistema, occorre ricevere ed eseguire il restore da un sistema origine  tramite i comandi
- :  : DEC T(OJ) P(*CMD) K(RCVXMI)
- :  : DEC T(OJ) P(*CMD) K(RSTXMI)
+ :  : DEC T(OJ) P(\*CMD) K(RCVXMI)
+ :  : DEC T(OJ) P(\*CMD) K(RSTXMI)
 
 ### Configurazione utenti
-Il sistema viene fornito con il profilo di default QASUP, una volta eseguita la  :  : (DEC) T(MB) P(DOC) K(MUOPER_xx) I(login) L(1) è possibile creare nuovi utenti tramite il comando  :  : DEC T(OJ) P(*CMD) K(CRTUSRPRF)
+Il sistema viene fornito con il profilo di default QASUP, una volta eseguita la  :  : (DEC) T(MB) P(DOC) K(MUOPER_xx) I(login) L(1) è possibile creare nuovi utenti tramite il comando  :  : DEC T(OJ) P(\*CMD) K(CRTUSRPRF)
 Per i dettagli circa la gestione utenti si rimanda a  :  : DEC T(MB) P(DOC) K(MUOPER_xx)
 
 ### Verifica installazione

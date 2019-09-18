@@ -135,9 +135,9 @@ Ad ogni gruppo possiamo assegnare, mediante la gestione delle autorizzazioni, l'
  :  : FLD T$B£JS **Sezione Menù/Popup**
 Solo per azioni appartenenti al gruppi "A-". Se impostato questo campo l'azione verrà presentata nel gruppo qui descritto. Se tale campo non viene impostato l'azione finirà sotto "azioni specifiche dell'oggetto".
 
-* F Fly
-* S Surf
-* R Azioni rapide
+\* F Fly
+\* S Surf
+\* R Azioni rapide
 
 Le azioni rapide sono quelle che stanno sotto "dashboard" nel menù e sotto il richiamo della scheda nel popup.
  :  : FLD T$B£JA **Phone**

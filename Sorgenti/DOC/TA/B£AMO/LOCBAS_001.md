@@ -8,9 +8,9 @@ La seguente immagine mostra la struttura della rete client server di esempio che
 Questo documento mostra la struttura di una tipica installazione di Loocup in modalità server. Questa modalità di utilizzo di Loocup si propone di risolvere tutta una serie di problemi legati alla interazione tra procedure AS/400 e processi o entità esterne esterni.
 
 In particolare, attraverso una installazione server di Loocup è possibile : 
- * Raccogliere informazioni provenienti da processi o entità di terze parti operanti su sistemi esterni all'AS/400
- * Inviare informazioni o richiedere azioni a entità remote
- * Richiedere l'esecuzione su sistemi remoti di operazioni di sistema (ad esempio, operazioni di lettura o scrittura del file system, invio mail, interazioni con protocolli di sistema o altro).
+ \* Raccogliere informazioni provenienti da processi o entità di terze parti operanti su sistemi esterni all'AS/400
+ \* Inviare informazioni o richiedere azioni a entità remote
+ \* Richiedere l'esecuzione su sistemi remoti di operazioni di sistema (ad esempio, operazioni di lettura o scrittura del file system, invio mail, interazioni con protocolli di sistema o altro).
 
 L'installazione di Loocup in modalità server è tipicamente una installazione come servizio su una macchina ospitante. Attualmente la macchina ospitante può essere solo un PC con sistema operativo Windows.
 
@@ -25,8 +25,8 @@ La struttura è incentrata su quattro attori distinti :
 
 
 Un struttura di questo tipo consente varie tipologie di interazioni : 
- * **Integrazione del gestionale AS/400 verso Sistema Esterno** :  il gestionale ha bisogno per il suo funzionamento di informazioni che sono possedute da un Sistema Esterno di terze parti. Attraverso il Loocup Server il gestionale può far pervenire al sistema esterno una richiesta di lettura delle informazioni e ricevere la risposta, tipicamente in formato XML.
- * **Integrazione del Sistema Esterno verso gestionale su AS400** :  è il caso in cui è il sistema esterno che in qualche modo è in grado di notificare all'AS400 informazioni, eventi o cambio di stato.
+ \* **Integrazione del gestionale AS/400 verso Sistema Esterno** :  il gestionale ha bisogno per il suo funzionamento di informazioni che sono possedute da un Sistema Esterno di terze parti. Attraverso il Loocup Server il gestionale può far pervenire al sistema esterno una richiesta di lettura delle informazioni e ricevere la risposta, tipicamente in formato XML.
+ \* **Integrazione del Sistema Esterno verso gestionale su AS400** :  è il caso in cui è il sistema esterno che in qualche modo è in grado di notificare all'AS400 informazioni, eventi o cambio di stato.
 
 All'interno del sistema gioca un ruolo fondamentale il  modulo di interfaccia. Lo scopo di questo modulo è quello di interfacciare il Loocup Server verso un sistema esterno e garantire che i due sistemi possano scambiarsi informazioni. In pratica opera una funzione di "traduttore" tra i protocolli di richiesta e comunicazione di Loocup e quelli richiesti dal sistema esterno. Il modulo di interfaccia garantisce che tutti i sistemi esterni, qualunque essi siano, siano sempre visti da Loocup Server come oggetti omogenei e capaci di ricevere richieste e fornire risposte in un formato prefissato e standard.
 

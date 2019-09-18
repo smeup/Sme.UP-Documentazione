@@ -23,10 +23,10 @@ Se il tipo oggetto è 'OA', si imposta il codice di un OAV dell'articolo (NB :  
  :  : FLD T$M5BC __Intestazione oggetto di riferimento__
 Se impostata, viene assunta questa intestazione per l'oggetto di riferimento.
  :  : FLD T$M5BD __Scenario di rilascio__
-Se impostato, e se non è lo scenario '**', si può eseguire il rilascio dei suggerimenti da  da questo scenario.
-Per quanto riuarda lo scenario '**', il rilascio è naturalmente ammesso, a meno che sia espressamente impedito in tabella M51.
+Se impostato, e se non è lo scenario '\*\*', si può eseguire il rilascio dei suggerimenti da  da questo scenario.
+Per quanto riuarda lo scenario '\*\*', il rilascio è naturalmente ammesso, a meno che sia espressamente impedito in tabella M51.
 Riassumendo : 
-Scenario ** :  normalmente rilasciabile
+Scenario \*\* :  normalmente rilasciabile
 . Se impostato flag in tabella M51, è impedito rilascio
 . Il flag in tabelle M5B non è significativo
 Altri scenari :  normalmente non rilasciabili
@@ -87,7 +87,7 @@ Per far sì che il tipo distinta qui impostato sia utilizzato anche per il calco
  :  : FLD T$M5BV __Autopulente__
 Se impostato, prima di qualsiasi elaborazione di MRP eseguita su questo scenario, comprese quelle parziali (per singolo articolo, per gruppi di articoli e per singola commessa), lo scenario stesso viene cancellato completamente. In questo modo è possibile quindi, elaborare un MRP "pulito", vale a dire non influenzato da fonti esterne a quelle che sono frutto dell'elaborazione.
 Questa impostazione ha inoltre l'effetto che, in caso di MRP parziale, nella consultazione sono visibili solo i codici elaborati.
-NB :  questo flag NON è impostabile sullo scenario **, e quindi, implicitamente, non può essere eseguita in ambienti monoscenario.
+NB :  questo flag NON è impostabile sullo scenario \*\*, e quindi, implicitamente, non può essere eseguita in ambienti monoscenario.
  :  : FLD T$M5BW __SV Distinta per LLC__
 Se valorizzato, in questo scenario, il tipo distinta, impostando anche il presente campo, il tipo distinta verrè utilizzato, oltre alla scansione per determianre gli impegni pianifcati, anche per : 
 - calcolare il LLC (se previsto in tabella M51)
@@ -95,13 +95,13 @@ Se valorizzato, in questo scenario, il tipo distinta, impostando anche il presen
  :  : FLD T$M5BX __Escluso da pianificazione__
 Se impostato, non è possibile eseguire la pianificazione su questo scenario.
 Questa impostazione può essere utile se si vuol sfruttare il presente scenario solo come rilascio (e vi si copiano le informazioni da uno scenario di pianficazione), e non si vuole correre il rischio che una pianificazione, lanciata erroneamente su di esso, vada a sovrapporsi alle informazioni in corso di elaborazione.
-Questa impostazione NON è significativa per lo scenario **.
+Questa impostazione NON è significativa per lo scenario \*\*.
  :  : FLD T$M5BY __SV Forzatura raggruppamenti__
 E' possibile impostare in questo campo un valore che viene utilizzato come raggruppamento fabbisogni, indipendentemente dal valore impostato nella politica.
 Esso può assumenre i seguenti valori : 
 'A' - raggruppamento nel giorno (corrispondente al tipo raggruppamento ' ')
 'B' - non raggruppa (corrispondente al tipo raggruppamento '1')
-NB :  NON è possibile impostare questo campo se lo scenario  è di rilascio, oppure se è lo scenario base (**) indipendentemente dal fatto che sia di rialscio o meno.
+NB :  NON è possibile impostare questo campo se lo scenario  è di rilascio, oppure se è lo scenario base (\*\*) indipendentemente dal fatto che sia di rialscio o meno.
  :  : FLD T$M5B1 __SV Anticipi e ritardi minimi__
 Si imposta il numero di giorni al di sotto dei quali viene emesso un suggerimento di
 spostamento :  nella prima riga l'anticipo, nella seconda il ritardo, nella prima riga

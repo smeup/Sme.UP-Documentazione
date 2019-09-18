@@ -25,7 +25,7 @@ chiamata il parametro --asup
 Esempio di chiamata a linea di comando : 
 
 
-**Loocup.exe MUAS01 UTENTE *NONE 0020 --asup**
+**Loocup.exe MUAS01 UTENTE \*NONE 0020 --asup**
 
 che avvia una istanza di Looc.UP connessa al server As.UP MUAS01 con l'utente UTENTE, password richiesta in fase
 di avvio e ambiente opperativo 0020.

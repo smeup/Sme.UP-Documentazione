@@ -6,7 +6,7 @@
 
 ## OPZIONI
  I parametri richiesti sono di seguito specificati : 
- **- Libreria Sorgente        -**  se non specificata, si assume *LIBL
+ **- Libreria Sorgente        -**  se non specificata, si assume \*LIBL
  **- File     Sorgente        -** Obbligatorio  
  **- Membro   Sorgente        -**  specificare un membro o in alternativa valorizzare  il campo Lista
  **- Lista    Membri          -**  è possibile specificare una lista di Membri Sorgente.

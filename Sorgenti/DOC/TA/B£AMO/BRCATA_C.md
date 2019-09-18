@@ -6,13 +6,13 @@ File BRCATA0F
 Il catalogo è caratterizzato dalla tabella BSD tipo catalogo che modella il significato dei campi
 del record. In particolare, con questa tabella si può definire : 
 
-*    Tipo ente produttore
-*    Tipo ente distributore
-*    Parametri impliciti (C£I)
-*    Metodo ricezione(programma)
-*    Metodo invio(programma)
-*    Metodo codifica(programma)
-*    Metodo aggiornamento(programma)
+\*    Tipo ente produttore
+\*    Tipo ente distributore
+\*    Parametri impliciti (C£I)
+\*    Metodo ricezione(programma)
+\*    Metodo invio(programma)
+\*    Metodo codifica(programma)
+\*    Metodo aggiornamento(programma)
 
 
 Il file ha come chiave principale, il tipo catalogo, il tipo ente di produzione, l'ente di produzione e il codice articolo fornitore.
@@ -62,8 +62,8 @@ Un'esigenza particolare di questa gestione è l'utilizzo di campi chiave(riferim
 | C§UNMS    |Unità di misura gestione    |TAUMS                |A|    2    | 541  |542 |
 | C§PESO    |Peso                        |                     |P|   12  5 | 543  |549 |
 | C§VOLU    |Volume                      |                     |P|   12  5 | 550  |556 |
-| C§DINV    |Data inizio validità        |D8*YYMD              |P|    8  0 | 557  |561 |
-| C§AFSE    |Data fine serie             |D8*YYMD              |P|    8  0 | 562  |566 |
+| C§DINV    |Data inizio validità        |D8\*YYMD              |P|    8  0 | 557  |561 |
+| C§AFSE    |Data fine serie             |D8\*YYMD              |P|    8  0 | 562  |566 |
 | C§IDMT    |Riferimento IDOJ Master     |                     |A|   10    | 567  |576 |
 | C§QRIF    |Quantita' Rif Master        |                     |P|   11  3 | 577  |582 |
 | C§VALU    |Codice valuta               |TAVAL                |A|    4    | 583  |586 |
@@ -94,16 +94,16 @@ Un'esigenza particolare di questa gestione è l'utilizzo di campi chiave(riferim
 | C§NU08    |Numero 8                    |NR                   |P|   15  5 | 869  |876 |
 | C§NU09    |Numero 9                    |NR                   |P|   15  5 | 877  |884 |
 | C§NU10    |Numero 10                   |NR                   |P|   15  5 | 885  |892 |
-| C§DT01    |Data libera  1              |D8*YYMD              |P|    8  0 | 893  |897 |
-| C§DT02    |Data libera  2              |D8*YYMD              |P|    8  0 | 898  |902 |
-| C§DT03    |Data libera  3              |D8*YYMD              |P|    8  0 | 903  |907 |
-| C§DT04    |Data libera  4              |D8*YYMD              |P|    8  0 | 908  |912 |
-| C§DT05    |Data libera  5              |D8*YYMD              |P|    8  0 | 913  |917 |
-| C§DT06    |Data libera  6              |D8*YYMD              |P|    8  0 | 918  |922 |
-| C§DT07    |Data libera  7              |D8*YYMD              |P|    8  0 | 923  |927 |
-| C§DT08    |Data libera  8              |D8*YYMD              |P|    8  0 | 928  |932 |
-| C§DT09    |Data libera  9              |D8*YYMD              |P|    8  0 | 933  |937 |
-| C§DT10    |Data libera 10              |D8*YYMD              |P|    8  0 | 938  |942 |
+| C§DT01    |Data libera  1              |D8\*YYMD              |P|    8  0 | 893  |897 |
+| C§DT02    |Data libera  2              |D8\*YYMD              |P|    8  0 | 898  |902 |
+| C§DT03    |Data libera  3              |D8\*YYMD              |P|    8  0 | 903  |907 |
+| C§DT04    |Data libera  4              |D8\*YYMD              |P|    8  0 | 908  |912 |
+| C§DT05    |Data libera  5              |D8\*YYMD              |P|    8  0 | 913  |917 |
+| C§DT06    |Data libera  6              |D8\*YYMD              |P|    8  0 | 918  |922 |
+| C§DT07    |Data libera  7              |D8\*YYMD              |P|    8  0 | 923  |927 |
+| C§DT08    |Data libera  8              |D8\*YYMD              |P|    8  0 | 928  |932 |
+| C§DT09    |Data libera  9              |D8\*YYMD              |P|    8  0 | 933  |937 |
+| C§DT10    |Data libera 10              |D8\*YYMD              |P|    8  0 | 938  |942 |
 | C§FL01    |Flag                        |FLBRCATA0F01         |A|    2    | 943  |944 |
 | C§FL02    |Flag                        |FLBRCATA0F02         |A|    2    | 945  |946 |
 | C§FL03    |Flag                        |FLBRCATA0F03         |A|    2    | 947  |948 |
@@ -144,10 +144,10 @@ Un'esigenza particolare di questa gestione è l'utilizzo di campi chiave(riferim
 | C§FL38    |Flag                        |FLBRCATA0F38         |A|    2    |1017  |1018 |
 | C§FL39    |Flag                        |FLBRCATA0F39         |A|    2    |1019  |1020 |
 | C§FL40    |Flag                        |FLBRCATA0F40         |A|    2    |1021  |1022 |
-| C§DTIN    |Data inserimento            |D8*YYMD              |P|    8  0 |1023  |1027 |
+| C§DTIN    |Data inserimento            |D8\*YYMD              |P|    8  0 |1023  |1027 |
 | C§USIN    |Utente inserimento          |UP                   |A|   10    |1028  |1037 |
 | C§PRIN    |Programma inserimento       |                     |A|   10    |1038  |1047 |
-| C§DTAG    |Data aggiornamento          |D8*YYMD              |P|    8  0 |1048  |1052 |
+| C§DTAG    |Data aggiornamento          |D8\*YYMD              |P|    8  0 |1048  |1052 |
 | C§USAG    |Utente aggiornamento        |UP                   |A|   10    |1053  |1062 |
 | C§PRAG    |Programma aggiornamento     |                     |A|   10    |1063  |1072 |
 | C§DATI    |Dati                        |                     |A|30002    |1073  |31074 |

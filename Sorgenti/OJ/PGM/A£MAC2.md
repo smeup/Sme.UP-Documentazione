@@ -13,7 +13,7 @@ Per una maggiore comprensione delle modalità di definizione e di utilizzo delle
 Il formato richiede membro, file e libreria di origine nel quale è scritta la macro che si vuole eseguire.
 ### Destinazione
 E' la destinazione desiderata per i due membri generati dalla simulazione : 
--    Membro contenente la specifica M* con la macro scritta per esteso
+-    Membro contenente la specifica M\* con la macro scritta per esteso
 Se non immesso, assume A_M
 -    Membro contenente le specifiche generate dal precompilatore
 Se non immesso assume A_C

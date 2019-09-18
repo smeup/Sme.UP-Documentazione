@@ -10,7 +10,7 @@ Descrivere gli oggetti applicativi gestiti.
 È l'oggetto reale che sostituisce l'oggetto indicato nell'elemento, in altre parole è il deviatore di oggetti.
  :  : FLD T$B£OC **Parametro**
 È il paramentro dell'oggetto indicato nel campo "Deviazione Tipo ogg.".
-Nel caso di oggetto UFO (*D) è il programma in cui è controllato l'oggetto. In questo caso il nome del programma in questione deve essere al massimo di 8 caratteri.
+Nel caso di oggetto UFO (\*D) è il programma in cui è controllato l'oggetto. In questo caso il nome del programma in questione deve essere al massimo di 8 caratteri.
  :  : FLD T$B£OD **Gestione parametro UFO**
 Può assumere il valore ' ' o '1'.
 Nel caso si stia inserendo un oggetto UFO come deviatore, immettendo '1' in questo campo, il programma di controllo viene richiamato passando anche il parametro originale dell'oggetto.

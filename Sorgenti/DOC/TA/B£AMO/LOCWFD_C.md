@@ -33,7 +33,7 @@ Per eseguire dei test sulla funzionalità dell'appilcazione WF è stato predispo
 -Commento
  :  : 
 
- :  : TRA Name="T03" Cce="**" PosY="406" PosX="862" Des="Tipo parte 1"
+ :  : TRA Name="T03" Cce="\*\*" PosY="406" PosX="862" Des="Tipo parte 1"
     :  : REQ.EXT.C Con="&AWF.OMS%I/09=1"
     :  : FROM
    -Commento
@@ -48,7 +48,7 @@ Per eseguire dei test sulla funzionalità dell'appilcazione WF è stato predispo
        :  : LUO Name="L20" PosY="399" PosX="1253" Des="Intermedio 20"
     :  : TO
        :  : LUO Name="L04" PosY="721" PosX="877" Des="Intermedio 4"
- :  : TRA Name="T01" Dic="1" Cle="1" Cce="**" PosY="206" Pad="1" PosX="712" Azg="B" Des="Modifica articolo"
+ :  : TRA Name="T01" Dic="1" Cle="1" Cce="\*\*" PosY="206" Pad="1" PosX="712" Azg="B" Des="Modifica articolo"
     :  : DIC.FUN Fun="A(WFAZB _02;GES;02) 3(AR;;&AWF.OMS)" Des="Modifica articolo"
     :  : FROM
        :  : LUO Name="L01" PosY="107" PosX="725" Tip="I" Des="Partenza"
@@ -56,7 +56,7 @@ Per eseguire dei test sulla funzionalità dell'appilcazione WF è stato predispo
        :  : LUO Name="L03" PosY="197" PosX="880" Des="Intermedio 2"
        :  : LUO Name="L02" PosY="200" PosX="578" Des="Intermedio 1"
 -Commento
- :  : TRA Name="T02" Cce="**" PosY="406" PosX="562" Des="Unit  misura NR"
+ :  : TRA Name="T02" Cce="\*\*" PosY="406" PosX="562" Des="Unit  misura NR"
     :  : REQ.EXT.C Con="&AWF.OMS%I/07=NR"
     :  : FROM
        :  : LUO Name="L02" PosY="200" PosX="578" Des="Intermedio 1"
@@ -73,7 +73,7 @@ Per eseguire dei test sulla funzionalità dell'appilcazione WF è stato predispo
 ## Funzione di esempio
 
 Lanciare questa funzione : 
-F(WFD;*EDTLET;) 1(MB;SCP_WFA;ESE_NEW)
+F(WFD;\*EDTLET;) 1(MB;SCP_WFA;ESE_NEW)
 
 
 

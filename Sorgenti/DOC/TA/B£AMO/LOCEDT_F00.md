@@ -10,9 +10,9 @@ Dal punto di vista tecnico, in quanto componente (G.SUB.EDT), può essere facilm
 
   :  : G.SEZ Pos(1)
   :  : G.SUB.EDT Tit="..."
-  :  : D.FUN.STD F(EDT;*EDTLET;LET) 1(MB;[file];[membro]) 2(OJ;*LIB;[libreria])
+  :  : D.FUN.STD F(EDT;\*EDTLET;LET) 1(MB;[file];[membro]) 2(OJ;\*LIB;[libreria])
 
 oppure richiamato dallo spotlight secondo la forma canonica : 
 
- F(EDT;*EDTLET;LET) 1(MB;[file];[membro]) 2(OJ;*LIB;[libreria])
+ F(EDT;\*EDTLET;LET) 1(MB;[file];[membro]) 2(OJ;\*LIB;[libreria])
 

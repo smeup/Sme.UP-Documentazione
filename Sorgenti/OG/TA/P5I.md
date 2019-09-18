@@ -47,7 +47,7 @@ I valori ammessi sono :
 -    ' '   :  secondo il tipo impegno (ordine/documento);
 -    'I'   :  componenti interni;
 -    'E'   :  componenti esterni;
--    '*'   :  tutti i componenti;
+-    '\*'   :  tutti i componenti;
  :  : FLD T$P5I1 __Trattamento movimenti neutri__
 È un valore V2/SINO :  se impostato, nella nettificazione degli impegni vengono considerati anche i movimenti di magazzino neutri (che hanno in bianco l'azione sulla giacenza). Se la quantità è positiva è un prelievo, se negativa è un recupero.
  :  : FLD T$P5IM __Modalità scarico__

@@ -3,8 +3,8 @@
 ## Generalità
 La gestione degli alias permette di definire delle tabelle di trascodifica tra codici esterni a Sme.UP e i codici degli oggetti applicativi.
 Esempi possono essere : 
- * programmi di conversione; dove ad esempio gli elemnti della tabella IVA provenienti da un sistema esterno vengono trascodificati nei corrispondenti codici interni a Sme.UP
- * collegamenti elettronici con altri gestionali (EDI, sistemi di campo, ecc...); in cui ad esempio il codice destinazione Sme.UP viene convertito nel codice accettato dall'altro sistema
+ \* programmi di conversione; dove ad esempio gli elemnti della tabella IVA provenienti da un sistema esterno vengono trascodificati nei corrispondenti codici interni a Sme.UP
+ \* collegamenti elettronici con altri gestionali (EDI, sistemi di campo, ecc...); in cui ad esempio il codice destinazione Sme.UP viene convertito nel codice accettato dall'altro sistema
 
 ## Formato guida
 Per attivare la gestione alias si parte dal formato seguente : 

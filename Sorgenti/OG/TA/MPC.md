@@ -9,12 +9,12 @@ _Vista piano_ :  è una matrice costituita da colonne, che rappresentano i perio
 ## CONTENUTO DEI CAMPI
  :  : FLD T$KYC1 __Codice / parametro 1__
 Identifica il tipo della prima entità che caratterizza la vista.
-Il tipo può essere un elemento della tabella *CNTT, oppure essere una tabella specifica.
+Il tipo può essere un elemento della tabella \*CNTT, oppure essere una tabella specifica.
  :  : FLD T$PAR1 __Parametro 1__
 Identifica il parametro della prima entità che caratterizza la vista.
  :  : FLD T$KYC2 Codice / parametro 2
 Identifica il tipo della seconda entità che carratterizza la vista.
-Il tipo può essere un elemento della tabella *CNTT, oppure essere una tabella specifica.
+Il tipo può essere un elemento della tabella \*CNTT, oppure essere una tabella specifica.
  :  : FLD T$PAR2 __Parametro 2__
 Identifica il parametro della seconda entità che caratterizza la vista.
  :  : FLD T$TRG __Tipo risorsa__

@@ -15,7 +15,7 @@
 
 ## Versione 1.0.c
  - Modifica richiamo JASEP (SnP Scheda) per passare anche gli oggetti 2,3,4
- - Aggiunta Possibilità di non visualizzazione titolo TabSheet se passato *NONE come titolo e il PageControl presenta un unico Tabsheet
+ - Aggiunta Possibilità di non visualizzazione titolo TabSheet se passato \*NONE come titolo e il PageControl presenta un unico Tabsheet
  - Inserita gestione Attributo Inv in Gauge :  consente di invertire l'ordine di presentazione dei colori della scala da Verde-Giallo-Rosso a Rosso-Giallo-Verde
 
 ## Versione 1.0.g
@@ -136,23 +136,23 @@ Es. :  Columns="C$RISO|£CIRST|£CRV01"
 >N.B. :  sep equivale al carattere pipe "|"
 
 ## Versione 1.0.x
- - Inserita Funzione *CLEAR() per abblencare le variabili di un certo scope.
-La funzione *CLEAR() deve essere implementata come una variabile. Il suo scopo è quello di azzerare tutte le variabili dello scope nel quale è presente l'istruzione.
+ - Inserita Funzione \*CLEAR() per abblencare le variabili di un certo scope.
+La funzione \*CLEAR() deve essere implementata come una variabile. Il suo scopo è quello di azzerare tutte le variabili dello scope nel quale è presente l'istruzione.
 Deve essere specificata all'interno delle variabili "esplicite"
 
-Es. :  *CLEAR() NumFat(12)
+Es. :  \*CLEAR() NumFat(12)
 Vengono cancellati tutti i valori delle variabili e successivamente viene assegnato il valore 12 alla variabile NumFat
 
  - E' stato modificato l'ordine di assegnazione delle variabili.
 Versioni Precedenti : 
- * Copia Variabili di Sezione
- * Impostazione Variabili "implicite" di sezione
- * Impostazione Variabili "esplicite"
+ \* Copia Variabili di Sezione
+ \* Impostazione Variabili "implicite" di sezione
+ \* Impostazione Variabili "esplicite"
 
 Versioni dalla 1.0.x in avanti : 
- * Impostazione Variabili "esplicite"
- * Copia Variabili di Sezione
- * Impostazione Variabili "implicite" di sezione
+ \* Impostazione Variabili "esplicite"
+ \* Copia Variabili di Sezione
+ \* Impostazione Variabili "implicite" di sezione
 Questo potrebbe portare dei cambiamenti nel caso in cui una variabile con lo stesso nome sia stata impostata in "posti" diversi
 
  - Inserito Attributo FontSize nel setup del componente Label.
@@ -161,8 +161,8 @@ Se è presente un valore, viene disattivato il dimensionamento automatico del fo
  - Implementato nel setup del componente "Chart" la possibilità di forzare i nomi dei campi da utilizzare come asse e come serie di dati
 
 Sintassi : 
- * Axe="<nomecampo>"
- * Series="<nomecampo1>sep<nomecampo2>sep...sep<nomecampoN>"
+ \* Axe="<nomecampo>"
+ \* Series="<nomecampo1>sep<nomecampo2>sep...sep<nomecampoN>"
 >N.B. :  sep equivale al carattere pipe "|"
 
  - Inibito il dinamismo se la sezione origine è massimizzata per evitare AV
@@ -178,7 +178,7 @@ Sintassi :
  - Aggiunta Possibilità di Collassamento Matrice con Raggruppamento
  - Modificato Formato Xml TrafficLight e Gauge. conservata Compatibilità con versioni precedenti
  - Sostituito Componente tAbcButton con tSpeedButton standard
- - Corretto visualizzazione errata Tabsheet se da nascondere (Title=*NONE)
+ - Corretto visualizzazione errata Tabsheet se da nascondere (Title=\*NONE)
  - Attivata (da perfezionare) visualizzazione dinamica pulsanti in funzione del componente sul quale è posizionato il fuoco.
  - Corretto errore AV se presenti caratteri non UTF-8 nell'XML statico definito all'interno della scheda stessa. Viene automaticamente inserito, se mancante, un nodo di "Processing Instructions"
 
@@ -194,7 +194,7 @@ Prima era in :  UISmeup/SetVar
 Ora è in :      UISmeup/Setup/Variables/SetVar
 E' inoltre possibile specificare nodi multipli
  - Inserita Visualizzazione Totali di Raggruppamento anche nella riga di intestazione del raggruppamento in matrice
- - Corretto errore "Data Invalida" se Tipo Dati diverso da D8*DMYY o D8*YYMD  in matrice
+ - Corretto errore "Data Invalida" se Tipo Dati diverso da D8\*DMYY o D8\*YYMD  in matrice
  - Corretto errore in gestione tabelle correlate. Precedentemente venivano presentate vuote
  - Abilitata possibilità Multisort sulle intestazioni di colonna.
 Si abilita tenendo premuto il tasto <Shift> quando si seleziona la colonna.
@@ -215,26 +215,26 @@ Es. :  DftSort="C$RIS0|£CIRST,D"
  - Aggiunto parametro SelFirst in Setup Matrice,Albero,TabAlbero :  consente di selezionare immediatamente il primo record scatenando l'evento OnChange associato
 
 Sintassi : 
-* SelFirst="Yes|No"
-* Yes = Il primo record di una matrice o il primo nodo di un albero vengono automaticamente selezionati e viene automaticamente scatenato l'eventuale evento onchange associato
- * No  = Nessun elemento viene automaticamente selezionato  (default)
+\* SelFirst="Yes|No"
+\* Yes = Il primo record di una matrice o il primo nodo di un albero vengono automaticamente selezionati e viene automaticamente scatenato l'eventuale evento onchange associato
+ \* No  = Nessun elemento viene automaticamente selezionato  (default)
  - Introdotta Visualizzazione del nodo selezionato di un albero anche se il fuoco è su un altro componente
  - Aggiunto Parametro ToExcel in Setup Matrice per consentire l'inibizione dell'esportazione di una matrice in Excel.
 
 Sintassi : 
- * ToExcel="Yes|No"
- * Yes = Esportazione consentita (default)
- * No  = Esportazione non consentita
+ \* ToExcel="Yes|No"
+ \* Yes = Esportazione consentita (default)
+ \* No  = Esportazione non consentita
 
 ## Versione 1.1.d
-Implementata gestione azioni da effettuare (ACTIONS) al richiamo di una funzione con parametro TO(*REQ)
+Implementata gestione azioni da effettuare (ACTIONS) al richiamo di una funzione con parametro TO(\*REQ)
 
 ## Versione 1.1.e
  - Implementata mappatura tasti funzionali su funzioni da UIPopup se : 
    . Tipo = J1
    . Parametro = KEY
-   . Codice    = *F1..*F24
->N.B. :  Se l'attributo Exec del nodo contiene il valore *NONE, l'effetto è quello di disabilitare il tasto funzionale associato
+   . Codice    = \*F1..\*F24
+>N.B. :  Se l'attributo Exec del nodo contiene il valore \*NONE, l'effetto è quello di disabilitare il tasto funzionale associato
 
  - Corretto errore di disabilitazione funzioni di Massimizzazione Sezione se si ritornava indietro di un livello avendo un Sezione Massimizzata.
 
@@ -277,7 +277,7 @@ Questa sintassi, permette la notifica del completamento dell'azione scatenata al
  - Inserita Creazione Schede "Virtuali" nel caso di ricezione di Xml "Matrice" :  come il Grafico una matrice equivale a una scheda di una sola sezione.
 
 ## Versione 1.1.i
- - Modificata Funzione per richiamo Help Scheda da F(HTM;*EDTLET;VIS.SCH) a F(HTM;JATRE_34C;DOC.SCH) per evitare Lock arbitrari da parte delle funzioni AS/400
+ - Modificata Funzione per richiamo Help Scheda da F(HTM;\*EDTLET;VIS.SCH) a F(HTM;JATRE_34C;DOC.SCH) per evitare Lock arbitrari da parte delle funzioni AS/400
  - Corretto errore AV se richiamo PopupMenu come prima operazione su Icona Oggetto/Componente
  - Monitorati errori nel caso di ricezione Xml errato in luogo di Xml di Definizione Scheda / Matrice / Grafico
  - Corretta Caption errata nell'"hint" del bottone di Stampa Scheda
@@ -314,15 +314,15 @@ Un Albero ad Espansione Dinamica è un normale albero in cui il caricamento dei 
 Solo a quel punto è infatti possibile determinare con precisione se trattasi di nodo "foglia".
 E' bene precisare che un Albero ad Espansione Dinamica non deve necessariamente essere un insieme di alberi monolivello, ma può essere composto da alberi a livelli multipli, così come i nodi che vengono aggiunti dinamicamente all'espansione del genitore.
 La definizione di un albero dinamico coinvolge tre aspetti : 
- * Caratterizzazione dell'albero come "albero dinamico"
- * Definizione (facoltativa) della massima profondità raggiungibile in caso di espansione globale (fullexpand) dell'albero stesso per evitare problemi di "loop"
- * Definizione della funzione da richiamare al tentativo di espansione di un nodo
+ \* Caratterizzazione dell'albero come "albero dinamico"
+ \* Definizione (facoltativa) della massima profondità raggiungibile in caso di espansione globale (fullexpand) dell'albero stesso per evitare problemi di "loop"
+ \* Definizione della funzione da richiamare al tentativo di espansione di un nodo
 
 I Parametri quindi aggiunti al setup di un componente albero sono : 
- * DynExpand="Yes|No"
- * Yes = Albero ad Espansione Dinamica
- * No  = Albero "standard" (Default)
- * MaxDepth=<livellomassimo> Identifica (mediante un numero) il livello massimo sino al quale sarà possibile espandere automaticamente l'albero per evitare problemi di "loop" (Default=5)
+ \* DynExpand="Yes|No"
+ \* Yes = Albero ad Espansione Dinamica
+ \* No  = Albero "standard" (Default)
+ \* MaxDepth=<livellomassimo> Identifica (mediante un numero) il livello massimo sino al quale sarà possibile espandere automaticamente l'albero per evitare problemi di "loop" (Default=5)
 E' stato inoltre definito un evento Expand al quale associare la funzione da eseguire all'espansione di un nodo i cui figli non sono ancora stati tentativamente caricati.
 In questo evento non deve essere specificato l'attributo Where, in quanto il destinatario del risultato della funzione è lo stesso componente che ha effettuato il richiamo
 Es : 
@@ -337,9 +337,9 @@ Es :
  - Corretto errore "Access Violation" in caso di gestione eventi legata al componente TabAlbero
  - Aggiunto Attributo "Recursive" su Setup Albero. Esso consente di bloccare l'espansione di nodi figlio nel caso in cui esista un Antenato avente stesso Tipo,Parametro,Codice. Sono esclusi dalle valutazioni (e vengono quindi sempre espansi) i nodi che hanno Tipo non valorizzato.
 L'espansione del nodo riguarda sia gli alberi ad Espansione Dinamica che gli alberi ad Espansione Convenzionale. Nel caso di visualizzazione dell'albero attraverso altri componenti (es : Visualizza come... Albero/Stella) viene inviato l'Xml già normalizzato secondo il valore impostato nel parametro "Recursive" : 
- * Recursive="Yes|No"
- * Yes = Albero con ricorsione (Default)
- * No  = Albero senza ricorsione
+ \* Recursive="Yes|No"
+ \* Yes = Albero con ricorsione (Default)
+ \* No  = Albero senza ricorsione
 
 ## Versione 1.1.m
  - Inserito nuovo componente PDF. Consente di visualizzare documenti PDF all'interno di una scheda senza istanziare Internet Explorer. Ciò si è reso necessario per problemi di stabilità di Adobe Acrobat Reader 6.0 all'interno di Internet Explorer all'interno di una sottosezione di una scheda.
@@ -351,7 +351,7 @@ Es :
 
  - Modificato criterio di espansione alberi ad espansione dinamica. Quando si preme il tasto "Espandi Tutto", se vi sono nodi figli già caricati vengono ora espansi tutti (fino all'ultimo livello
   caricato) ed ogni ulteriore espansione (nodi non ancora caricati) implica l'espansione fino al livello massimo presente nell'xml ricevuto da includere nell'albero oggetto.
- - Corretto errore su mappatura tasti funzionali da F13 a F24 sulla bottoniera costruita da UIPOPUP (J1 KEY *Fxx)
+ - Corretto errore su mappatura tasti funzionali da F13 a F24 sulla bottoniera costruita da UIPOPUP (J1 KEY \*Fxx)
  - Monitorato errore in caso di distruzione componente prima della ricezione dell'xml a lui destinato
 L'errore (comunque non bloccante) occorreva quando l'utente scatenava eventi multipli (i.e. selezione dei nodi di un albero con eventi) più velocemente del tempo necessario al sistema AS/400 per la generazione e l'invio dell'Xml. Quando il documento Xml veniva ritornato al componente richiedente, il componente richiedente era già stato distrutto causando un AV
  - Corretto errore in alberi ad espansione dinamica nel caso in cui l'albero contenesse il solo root node
@@ -360,7 +360,7 @@ L'errore (comunque non bloccante) occorreva quando l'utente scatenava eventi mul
  - Corretto errore AV se "doppio click" su di un Tabsheet non ancora caricato
  - Ripristinata (era stata eliminata nella versione 1.1.m) la sostituzione delle variabili di scheda all'interno di un Xml "Dati" presente nell'Xml di definizione Scheda. La sostituzione delle variabili tuttavia non avviene nel caso in cui l'Xml "Dati" sia relativo ad una Matrice, poichè la simbologia di definizione degli "oggetti variabili" per record coincide con la simbologia di definizione delle variabili di scheda.
  - Eliminato tasto "Refresh (F5)" nel caso in cui l'Xml di scheda non provenga da un servizio, ma sia stato generato da un "programma client". L'identificazione avviene mediante l'esame della stringa di Funzione nella quale il secondo parametro identifica il servizio. Se esso è vuoto non è possibile effettuare il "Refresh".
-Es :  F(EXD;*SCO;) --> Refresh Consentito
+Es :  F(EXD;\*SCO;) --> Refresh Consentito
      F(EXB;;)     --> Refresh Disabilitato
 
 ## Versione 1.1.o
@@ -483,7 +483,7 @@ Il fuoco della tastiera viene passato correttamente alla finestra aperta.
 
 ## Versione 1.2.d 14/04/2005
  - Risolto un baco sulla matrice. In caso di assenza di tutti i campi nelle righe ora vengono aggiunti i campi mancanti vuoti.
- - Risolto un piccolo baco in un servizio AS sul caricamento delle *TBL.
+ - Risolto un piccolo baco in un servizio AS sul caricamento delle \*TBL.
  - Aggiunta al progetto una dll di servizio fuoco finestre.
  - Primo restyling della grafica della scheda per uniformarsi alla main window di Looc.up.
  - La scheda di base del componente EXD viene ora creata dinamicamente.
@@ -514,7 +514,7 @@ Le funzionalità sono così molto ampliate. E' possibile usare ogni tipo di vari
  - Ridotto il numero di bordi visibili in caso di schede indentate (schede di schede)
  - Corretto errore (index out of bounds) nel caso di tabulazione su matrice con alcuni campi non editabili
  - E' ora possibile visualizzare correttamente Menù di Popup anche su celle non editabili
- - E' ora possibile utilizzare il parametro TO(*REQ) anche nei Popup di oggetto e negli UI_popup correlati
+ - E' ora possibile utilizzare il parametro TO(\*REQ) anche nei Popup di oggetto e negli UI_popup correlati
  - Ottimizzata gestione fuochi finestre
 
 ## Versione 1.2.h 27/04/2005
@@ -572,9 +572,9 @@ Al massimizzare e minimizzare della sezione che contiene il componente il conten
  - Sistemato un Access Violation se in una formattazione condizionale veniva utilizzato uno stile senza definizione di font.
  - Aggiunto un attributo di setup che consente l'inversione nella sequenza di presentazione dei Tabsheet di un tabalbero.
 Sintassi : 
- * InvertTabs="Yes|No"
- * Yes=Viene invertito l'ordine di presentazione dei tabsheet
- * No (default)=L'ordine di presentazione dei tabsheet viene mantenuto
+ \* InvertTabs="Yes|No"
+ \* Yes=Viene invertito l'ordine di presentazione dei tabsheet
+ \* No (default)=L'ordine di presentazione dei tabsheet viene mantenuto
 
  - Risolto un problema in esportazione in Excel. Le celle alfanumeriche mancanti di dati venivano riempite con il valore precedente.
  - Aggiunta una bottoniera laterale al componente grafico. Aggiunti due pulsanti, uno per la visualizzazione della bottoniera in testa al grafico, l'altro per l'apertura del selettore di assi e serie. La visualizzazione della bottoniera laterale è condizionata dall'attributo ShowCommands che precedentemente condizionava la bottoniera superiore. Non è più possibile quindi condizionare l'emissione della bottoniera superiore da script, ma l'apertura è a richiesta dell'utente attivando il corrispondente bottone nella bottoniera laterale.
@@ -584,11 +584,11 @@ E' presente anche una barra di scorrimento la cui posizione dipende dal tipo di 
  - Aggiunto un algoritmo di selezione dinamica dei punti per serie visualizzabili in una singola pagina del componente grafico.
  - Aggiunti due attributi di setup del grafico. FitAll per non avere la paginazione e PointsPerPage per impostare un numero fisso di punti per serie per pagina.
 Sintassi : 
- * FitAll="Yes|No"
- * No (default)=viene utilizzato l'algoritmo di determinazione del numero di punti serie per pagina
- * Yes=tutti punti i punti serie vengono visualizzati su di una singola pagina
- * PointsPerPage="Numero intero"
- * Numero intero :  rappresenta il numero di punti per serie visualizzati in ogni pagina. Se il valore è superiore a 0 non viene applicato l'algoritmo di determinazione del numero di punti.
+ \* FitAll="Yes|No"
+ \* No (default)=viene utilizzato l'algoritmo di determinazione del numero di punti serie per pagina
+ \* Yes=tutti punti i punti serie vengono visualizzati su di una singola pagina
+ \* PointsPerPage="Numero intero"
+ \* Numero intero :  rappresenta il numero di punti per serie visualizzati in ogni pagina. Se il valore è superiore a 0 non viene applicato l'algoritmo di determinazione del numero di punti.
 In caso contratio viene applicato l'algoritmo.
 
  - Risolti alcuni Access Violation relativi alla pressione del tasto sinistro su bordi e header del componente matrice.
@@ -614,19 +614,19 @@ Se due colonne avevano una parte del nome uguale venivano inserite serie non cor
  -- Ogni voce è facoltativa fatta eccezione per il Nome dello stile che deve essere presente. Per le voci Fontitalic, FontUline, FontBold è possibile specificare Yes o No. Nel caso in cui venga specificato Yes, all'applicazione dello stile su una cella verrà aggiunto l'attributo corrispondente (ad esempio se la cella è già in corsivo, e si definisce uno stile che ha Yes nell'attributo Grassetto, la cella verrà visualizzata in Corsivo e Grassetto). Nel caso non venga specificato nell'XML una voce relativa ad uno di questi attributi quell'attributo non verrà applicato. Nel caso in cui venga specificato No, all'applicazione dello stile su una cella, l'attributo verrà rimosso (Ad esempio se la cella è già in grassetto, e si definisce uno stile che ha No nell'attributo Grassetto, la cella verrà visualizzata con carattere normale).
  -- E' possibile specificare gli stili anche usando la sintassi G.STY.
 Sono presenti alcuni stili di default : 
- * '*ERROR' Visualizza una cella con sfondo rosso.
- * '*BOLD' Visualizza il testo in grassetto.
- * '*UNDERLINE' Visualizza il testo sottolineato.
- * '*ITALIC' Visualizza il testo in corsivo.
+ \* '\*ERROR' Visualizza una cella con sfondo rosso.
+ \* '\*BOLD' Visualizza il testo in grassetto.
+ \* '\*UNDERLINE' Visualizza il testo sottolineato.
+ \* '\*ITALIC' Visualizza il testo in corsivo.
  -- E' possibile sostituire i valori di default di questi stili, semplicemente rimappandoli creando uno stile con lo stesso nome nello script di una scheda. Come già precedentemente accennato gli stili sono "addiditivi".
  - Ultimata la formattazione condizionale delle celle delle matrici. La sintassi, da utilizzare nel setup della matrice è la seguente : 
  -- Styles="NomeStile" dove NomeStile può essere un nome di uno stile precedentemente definito, oppure, può essere una formula condizionale che restituisce uno o nessuno stile.
- -- Le formule condizionali sono del tipo :  "Campo={CondizioneStile}|Campo2={CondizioneStile2}" dove, 'Campo' rappresenta un campo di una matrice o *ALL per indicare tutti i campi, 'CondizioneStile' rappresenta una espressione condizionale, '|' è il carattere che divide l'applicazione di uno stile da un altro. Gli stili vengono applicati in sequenza e quelli prima definiti hanno la priorità
+ -- Le formule condizionali sono del tipo :  "Campo={CondizioneStile}|Campo2={CondizioneStile2}" dove, 'Campo' rappresenta un campo di una matrice o \*ALL per indicare tutti i campi, 'CondizioneStile' rappresenta una espressione condizionale, '|' è il carattere che divide l'applicazione di uno stile da un altro. Gli stili vengono applicati in sequenza e quelli prima definiti hanno la priorità
  -- Le espressioni condizionali sono del tipo :  "Valore1 Operatore Valore2;StileTrue;StileFalse" dove, 'Valore1' e 'Valore2' possono essere valori numerici o i valore dei campi della matrice (tra parentesi quadre), 'Operatore' è un operatore logico tra :  AND, OR, NOT, EQ (uguale), GT (maggiore), LT (minore), NE (diverso), LE (minore o uguale), GE (maggiore o uguale).
 'StileTrue' (facoltativo) è il nome dello stile che verrà ritornato quando la condizione è vera , 'StileFalse' (facoltativo) è il nome dello stile che verrà ritornato quando la condizione è falsa.
 
 Esempio di formattazione condizionale : 
-Styles="£RITDS=DEFAULT|*ALL={[£RITEL] EQ XXX;*ERROR}|T$V5DS={[£RITEL] EQ FAT;Test01;Test02}|*ALL=Test04"
+Styles="£RITDS=DEFAULT|\*ALL={[£RITEL] EQ XXX;\*ERROR}|T$V5DS={[£RITEL] EQ FAT;Test01;Test02}|\*ALL=Test04"
 
  - E' stata aggiunta la possibilità di definire direttamente uno stile nell'XML della matrice. Nei nodi "Riga" e "Colonna" è sufficiente aggiungere l'attributo Style="Nomestile", dove Nomestile è il nome di uno stile di default o definito nella scheda.
- - E' stato aggiunta la possibilità di specificare *ALL nella sintassi dell'attributo "DftTotals" per indicare di mostrare i totali per tutte le colonne possibili.
+ - E' stato aggiunta la possibilità di specificare \*ALL nella sintassi dell'attributo "DftTotals" per indicare di mostrare i totali per tutte le colonne possibili.

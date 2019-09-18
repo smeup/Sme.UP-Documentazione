@@ -2,7 +2,7 @@
  :  : ATT Cod(001) Txt(Attivare il modulo) STAT(00) RESP(GR)
 01. Seguire il documento "Installazione :  oggetti richiesti" che illustra quali oggetti creare/riprendere da modello per attivare il modulo WFBASE.
  :  : ATT Cod(002) Txt(Attivare un processo d'esempio) STAT(00) RESP(GR)
-01. Riprendere da modello un elemento ESE* di tabella WFA.
+01. Riprendere da modello un elemento ESE\* di tabella WFA.
 02. Attivare il processo togliendo la spunta "Spegni inserimento" dal dettaglio dell'elemento di tabella.
  :  : ATT Cod(003) Txt(Creare un nuovo processo) STAT(00) RESP(GR) DATA(20121116) ORA(180018)
 01. Andare nella scheda del modulo WFBASE.
@@ -13,7 +13,7 @@
 05a. Aggiungere una seconda transizione;
 05b. Collegarla tramite luogo alla prima;
 05c. Ridenominare la transizione;
-05d. Assegnare una classe di esecutori di tipo '**' (tutti gli utenti).
+05d. Assegnare una classe di esecutori di tipo '\*\*' (tutti gli utenti).
 06. Scrivere due capitoli di documentazione operativa, uno per il processo e uno per la seconda transizione.
  :  : ATT Cod(004) Txt(Approfondire un tema di costruzione mediante gli script di esempio) STAT(10) RESP(GR) DATA(20121119) ORA(165538)
 

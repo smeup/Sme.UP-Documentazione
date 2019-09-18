@@ -19,16 +19,16 @@ Costruisce un albero per gli oggetti di sistema e lo posiziona nel mnu del moduo
 Costruisce un grafico in cui è evidenziata la distribuzione delgi oggetti convertiti
 
 # OGGETTI COLLEGATI
- :  : PRO.SER Cod="COM.1" Tit="Analisi componente " Fun="F(EXB;MUSER_01;COM)           P(LIBR(-(F;;OJ*LIB;Libreria)))"
+ :  : PRO.SER Cod="COM.1" Tit="Analisi componente " Fun="F(EXB;MUSER_01;COM)           P(LIBR(-(F;;OJ\*LIB;Libreria)))"
 
- :  : PRO.SER Cod="PIP.2" Tit="Analisi OS" Fun="F(EXB;MUSER_01;PIP) 1(OG;OJ;-(O;;OGOJ;Oggetto))        3(;;-(F;;;OS/DB/IL))        P(LIBR(-(F;;OJ*LIB;Libreria)))"
+ :  : PRO.SER Cod="PIP.2" Tit="Analisi OS" Fun="F(EXB;MUSER_01;PIP) 1(OG;OJ;-(O;;OGOJ;Oggetto))        3(;;-(F;;;OS/DB/IL))        P(LIBR(-(F;;OJ\*LIB;Libreria)))"
 
- :  : PRO.SER Cod="PIP.3" Tit="Analisi DB" Fun="F(EXB;MUSER_01;PIP) 1(OG;OJ;-(O;;OGOJ;Oggetto))        3(;;-(F;;;OS/DB/IL))        P(LIBR(-(F;;OJ*LIB;Libreria)))"
+ :  : PRO.SER Cod="PIP.3" Tit="Analisi DB" Fun="F(EXB;MUSER_01;PIP) 1(OG;OJ;-(O;;OGOJ;Oggetto))        3(;;-(F;;;OS/DB/IL))        P(LIBR(-(F;;OJ\*LIB;Libreria)))"
 
- :  : PRO.SER Cod="PIP.4" Tit="Analisi IL" Fun="F(EXB;MUSER_01;PIP) 1(OG;OJ;-(O;;OGOJ;Oggetto))        3(;;-(F;;;OS/DB/IL))        P(LIBR(-(F;;OJ*LIB;Libreria)))"
+ :  : PRO.SER Cod="PIP.4" Tit="Analisi IL" Fun="F(EXB;MUSER_01;PIP) 1(OG;OJ;-(O;;OGOJ;Oggetto))        3(;;-(F;;;OS/DB/IL))        P(LIBR(-(F;;OJ\*LIB;Libreria)))"
 
- :  : PRO.SER Cod="DET.5" Tit="Dettaglio oggetto" Fun="F(EXB;MUSER_01;DET)                   1(OG;OJ;-(O;;OGOJ;Oggetto))                2(TA;B£A;-(O;;TAB£A;Applicaziione))        3(;;-(F;;;OS/DB/IL))                       P(                                         LIBR(-(F;;OJ*LIB;Libreria))                OGGE(-(F;;OJ*PGM;Oggetto))                 MESS(-(F;;OJ*MSGD;Messaggio))              )"
+ :  : PRO.SER Cod="DET.5" Tit="Dettaglio oggetto" Fun="F(EXB;MUSER_01;DET)                   1(OG;OJ;-(O;;OGOJ;Oggetto))                2(TA;B£A;-(O;;TAB£A;Applicaziione))        3(;;-(F;;;OS/DB/IL))                       P(                                         LIBR(-(F;;OJ\*LIB;Libreria))                OGGE(-(F;;OJ\*PGM;Oggetto))                 MESS(-(F;;OJ\*MSGD;Messaggio))              )"
 
- :  : PRO.SER Cod="APP.6" Tit="Analisi per applicazione"                             Fun="F(EXB;MUSER_01;APP)                   1(OJ;*FILE;-(O;;OJ*FILE;File))             3(;;-(F;;;OS/DB/IL))                       P(                                         LIBR(-(F;;OJ*LIB;Libreria))                )"
+ :  : PRO.SER Cod="APP.6" Tit="Analisi per applicazione"                             Fun="F(EXB;MUSER_01;APP)                   1(OJ;\*FILE;-(O;;OJ\*FILE;File))             3(;;-(F;;;OS/DB/IL))                       P(                                         LIBR(-(F;;OJ\*LIB;Libreria))                )"
 
- :  : PRO.SER Cod="OGG.7" Tit="Oggetti dell'applicazione"                Fun="F(EXB;MUSER_01;OGG)                   1(OG;OJ;-(O;;OJ*FILE;Oggetto))             2(TA;B£A;-(O;;TAB£A;Applicaziione))        3(;;-(F;;;OS/DB/IL))                       P(                                         LIBR(-(F;;OJ*LIB;Libreria))                )"
+ :  : PRO.SER Cod="OGG.7" Tit="Oggetti dell'applicazione"                Fun="F(EXB;MUSER_01;OGG)                   1(OG;OJ;-(O;;OJ\*FILE;Oggetto))             2(TA;B£A;-(O;;TAB£A;Applicaziione))        3(;;-(F;;;OS/DB/IL))                       P(                                         LIBR(-(F;;OJ\*LIB;Libreria))                )"

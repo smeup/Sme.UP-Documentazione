@@ -22,12 +22,12 @@ Nel seguito descriviamo i dati di base necessari(risorse, cicli lavorazione ed o
        L'operazione di base è il tipo di lavorazione che viene eseguito su una macchina, ad esempio tornitura, barenatura, tempra, sbavatura, etc... .L'operazione o Task non è istanziata sull'oggetto (articolo, ordine produzione,etc..) ma definisce le caratteristiche principali che poi verranno ereditate dalla fase di lavorazione.
 ##  Cicli lavorazione
        Il Ciclo di lavorazione definisce i task che devono essere processati in una sequenza logica  per fare in modo che un Job sia completato. Il ciclo di lavorazione contiene le informazioni fondamentali all'attuazione della schedulazione che possiamo riepilogare nel seguente elenco : 
-  *Centro Lavoro
- *Tempo di lavorazione
- *Tempo Attrezzaggio
- *Tempo attesa precedente o successivo
- *Coda
- *Risorse Secondarie
+  \*Centro Lavoro
+ \*Tempo di lavorazione
+ \*Tempo Attrezzaggio
+ \*Tempo attesa precedente o successivo
+ \*Coda
+ \*Risorse Secondarie
 ## Ordini di produzione
 La schedulazione schedula gli impegni degli ordini di produzione che devono come minimo contenere l'indicazione di un articolo, la data di fine richiesta e la priorità.
 

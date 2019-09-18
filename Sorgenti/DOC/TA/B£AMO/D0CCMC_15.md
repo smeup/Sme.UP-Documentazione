@@ -3,8 +3,8 @@
 Il Costo Rimanenze Articolo è un costo che determina il valore di magazzino di una giacenza.
 
 E' diviso in due parti
-* >Costo
-* >Quantità
+\* >Costo
+\* >Quantità
 
 ## Costo
 Il costo è determinato dalla lettura del tipo costo indicato nei parameti di lancio come "Tipo costo Materiali"  : 

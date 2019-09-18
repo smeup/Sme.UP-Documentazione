@@ -6,7 +6,7 @@ Potremo ad esempio avere :
 AR = Articoli
 CL = Centri di lavoro
 .. = Ecc.
-** = Codifica libera
+\*\* = Codifica libera
  :  : FLD T$KYC2.T$KYC1 __Definizione chiavi di collegamento__
  :  : FLD T$KYC3.T$KYC1 __Definizione chiavi di collegamento__
  :  : FLD T$ARCH __Archivio che contiene le note.__
@@ -27,11 +27,11 @@ Tale valore è obbligatorio e viene assunto se non indicato.
 C.   Elenco di valori.
 Se il campo è bianco, si presenta un finestra dei soli valori ammessi, valori specificati come sottosettore del tipo
 informazione (S/S Tipo Informaz.).
-Mediante il carattere "*" è possibile indicare una scelta multipla. Immettendo, ad esempio, TA* intendo definire validi
+Mediante il carattere "\*" è possibile indicare una scelta multipla. Immettendo, ad esempio, TA\* intendo definire validi
 tutti i capitoli che iniziano con TA.
  :  : FLD T$PGGS __Programma elaborazioni speciali__
-Nel caso un codice sia '**' e ci sia specificato il nome del programma nel campo Pgm.gest.speciali, allora per la
-decodifica del campo con codice '**' e/o per la gestione della risalita delle note strutturate (nel caso non ci siano
+Nel caso un codice sia '\*\*' e ci sia specificato il nome del programma nel campo Pgm.gest.speciali, allora per la
+decodifica del campo con codice '\*\*' e/o per la gestione della risalita delle note strutturate (nel caso non ci siano
 note con le tre chiavi precisate) si utilizzerà il programma precisato.
  :  : FLD T$PGLD __Programma Lista di Distribuzione__
 Nel caso si vada a rispondere, nelle liste di distribuzione, riguardo ad un oggetto distribuito e si vogliano avere

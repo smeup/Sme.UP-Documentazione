@@ -1,7 +1,7 @@
 # Gestione archivio statistiche
 Le funzioni di gestione dell'archivio statistiche sono principalmente : 
- * Azioni di ripresa, che popolano l'archivio.
- * Azioni di cancellazione, che lo puliscono.
+ \* Azioni di ripresa, che popolano l'archivio.
+ \* Azioni di cancellazione, che lo puliscono.
 
 ## Ripresa dei dati
 Per ripresa dei dati si intende l'attività di estrazione, ai fini statistici, dei dati dagli archivi transazionali e di popolamento del file V5STAT0F.

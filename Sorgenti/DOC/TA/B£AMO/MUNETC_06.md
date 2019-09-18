@@ -39,21 +39,21 @@ produce un XML di risposta del tipo :
 ><UiSmeup Testo=" - ">
   <Service Titolo1="" Titolo2="" Funzione="F(EXB;MUJ08_SE;EXE.CMD)" Servizio="MUJ08_SE" TSep="." DSep=","/>
     <Griglia>
-      <Colonna Cod="COD000" Txt="creationInfo" Tip="" Lun="12" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD001" Txt="currentLibrary" Tip="" Lun="10" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD002" Txt="dateFormat" Tip="" Lun="10" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD003" Txt="dateSeparator" Tip="" Lun="1" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD004" Txt="jobID" Tip="" Lun="13" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD005" Txt="jobName" Tip="" Lun="10" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD006" Txt="jobNumber" Tip="" Lun="6" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD007" Txt="jobStatus" Tip="" Lun="9" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD008" Txt="jobType" Tip="" Lun="7" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD009" Txt="jobUser" Tip="" Lun="10" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD010" Txt="libraries" Tip="" Lun="9" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD011" Txt="messages" Tip="" Lun="8" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD012" Txt="switches" Tip="" Lun="8" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-      <Colonna Cod="COD013" Txt="timeSeparator" Tip="" Lun="1" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
-     <Colonna Cod="COD014" Txt="variables" Tip="" Lun="9" IO="O" Ogg="**" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD000" Txt="creationInfo" Tip="" Lun="12" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD001" Txt="currentLibrary" Tip="" Lun="10" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD002" Txt="dateFormat" Tip="" Lun="10" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD003" Txt="dateSeparator" Tip="" Lun="1" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD004" Txt="jobID" Tip="" Lun="13" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD005" Txt="jobName" Tip="" Lun="10" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD006" Txt="jobNumber" Tip="" Lun="6" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD007" Txt="jobStatus" Tip="" Lun="9" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD008" Txt="jobType" Tip="" Lun="7" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD009" Txt="jobUser" Tip="" Lun="10" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD010" Txt="libraries" Tip="" Lun="9" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD011" Txt="messages" Tip="" Lun="8" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD012" Txt="switches" Tip="" Lun="8" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+      <Colonna Cod="COD013" Txt="timeSeparator" Tip="" Lun="1" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
+     <Colonna Cod="COD014" Txt="variables" Tip="" Lun="9" IO="O" Ogg="\*\*" Dpy="" Fill="" Aut=""/>
     </Griglia>
     <Righe>
       <Riga Fld="Mon Jan 11 1|QSYS |DMY |/|66a32fe3-2495|LO_E115520|114709|Run |Batch |FORDAR |[QTEMP, P|[] |00000000| : |[org.smeu|"/>

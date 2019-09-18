@@ -4,4 +4,4 @@ Si possono codificare come enti, oltre ai clienti ed ai fornitori, anche i proba
 Sinonimi :  contatto, soggetto
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(BRENTI0F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(BRENTI0F) L(1)

@@ -2,16 +2,16 @@
 La scheda è uno strumento di business intelligence integrato in Looc.Up che permette l'analisi multidimensionale di fenomeni diversi legati all'attività dell'azienda.
 
 ##  Terminologia e processo
-* _2_Dimensioni, sono le colonne sulle quali si applica l'analisi multidimensionale. Una colonna può rappresentare ad esempio gli articoli venduti, i clienti, le provincie, gli agenti, ecc.... Le dimensioni  possono essere indipendenti (generalmente corrispondono agli oggetti Sme.Up) oppure derivate (generalmente attributi degli oggetti).
-* _2_Misure, sono i valori associati alle dimensioni ad esempio la quantità venduta o acquistata, l'importo, il costo unitario, ecc....
-* _2_Fonti, rappresentano le informazioni che vengono sottoposte ad analisi.
-* _2_Gruppi fonte, raggruppano fonti della stessa natura che vengono preparate per l'analisi nello stesso processo.
-* _2_Schemi, rappresentano i dati di una fonte con raggruppamenti e/o completamenti (dimensioni aggiuntive calcolate come attributi di dimensioni esistenti e misure aggiuntive come elaborazioni di misure esistenti) impostati nello script di configurazione.
+\* _2_Dimensioni, sono le colonne sulle quali si applica l'analisi multidimensionale. Una colonna può rappresentare ad esempio gli articoli venduti, i clienti, le provincie, gli agenti, ecc.... Le dimensioni  possono essere indipendenti (generalmente corrispondono agli oggetti Sme.Up) oppure derivate (generalmente attributi degli oggetti).
+\* _2_Misure, sono i valori associati alle dimensioni ad esempio la quantità venduta o acquistata, l'importo, il costo unitario, ecc....
+\* _2_Fonti, rappresentano le informazioni che vengono sottoposte ad analisi.
+\* _2_Gruppi fonte, raggruppano fonti della stessa natura che vengono preparate per l'analisi nello stesso processo.
+\* _2_Schemi, rappresentano i dati di una fonte con raggruppamenti e/o completamenti (dimensioni aggiuntive calcolate come attributi di dimensioni esistenti e misure aggiuntive come elaborazioni di misure esistenti) impostati nello script di configurazione.
 
 Il processo prevede : 
-* _2_Definizione dello script di impostazione, questo risiede nel file _3_SCP_SET, e comprende le parametrizzazioni che saranno utilizzate sia in fase di estrazione e completamento dei dati che in fase di analisi
-* _2_Estrazione delle informazioni, eseguita da un programma che, con logiche utente, estrae le informazioni dal database e scrive un file di lavoro. Programma ed eventuali parametri di condizionamento sono definiti nello script.
-* _2_Completamento, eseguito dal programma LOA15_GC che completa i dati estratti aggiungendo attributi di oggetti e creando nuove misure come risultato di operazioni matematiche su misure esistenti. Le informazioni vengono memorizzate in file creati in una apposita libreria, uno per ciascuna fonte più uno per ogni schema. I parametri di condizionamento del completamento sono definiti nello script.
+\* _2_Definizione dello script di impostazione, questo risiede nel file _3_SCP_SET, e comprende le parametrizzazioni che saranno utilizzate sia in fase di estrazione e completamento dei dati che in fase di analisi
+\* _2_Estrazione delle informazioni, eseguita da un programma che, con logiche utente, estrae le informazioni dal database e scrive un file di lavoro. Programma ed eventuali parametri di condizionamento sono definiti nello script.
+\* _2_Completamento, eseguito dal programma LOA15_GC che completa i dati estratti aggiungendo attributi di oggetti e creando nuove misure come risultato di operazioni matematiche su misure esistenti. Le informazioni vengono memorizzate in file creati in una apposita libreria, uno per ciascuna fonte più uno per ogni schema. I parametri di condizionamento del completamento sono definiti nello script.
 
 La composizione del nome della libreria avviene nel seguente modo a seconda di quanto impostato nella tabella **LO1**
 **SBI_yyyxxT**
@@ -23,19 +23,19 @@ Qualora >non sia valorizzato T$LO1Ala composizione del nome della libreria avvie
 **SMEUPBIxxT**
 dove  _7_xx è il codice azienda presente in B£2 (££B£2A) e il carattere T viene aggiunto qualora sia valorizzato il flag ambiente di test in B£2 (££B£2Z).
 
-* _2_Analisi, utilizzando la scheda LOA15.
+\* _2_Analisi, utilizzando la scheda LOA15.
 
 ## La scheda
 La scheda si presenta nel modo seguente : 
 
 ![LOA15_001](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_001.png)
- * Nella sotto-sezione di sinistra denominata _2_Fonti vengono elencati gruppi fonte, fonti e schemi presenti nello script di configurazione, per procedere è necessario selezionare uno schema (es. A2.F2.S3)
- * La sezione sottostante denominata in partenza _2_Azioni è sensibile allo schema selezionato e presenta : 
- ** _3_Azioni di report, queste sono le azioni da selezionare in modo che nella sezione di destra compaia una analisi
- ** _3_Azioni di fonte, sono le azioni legate alle fonti (costruzione, eliminazione, documentazione)
- * Nella sezione di destra viene presentato il tipo di report scelto
- * Il bottone _2_Aggiornamento permette di ricaricare gli script di configurazione (es. è stato definito una nuova fonte o un nuovo schema)
- * La sotto-sezione di sinistra denominata _2_Set'n play porta alle schede di impostazione, tra cui gli script di configurazione e quelli dei flussi
+ \* Nella sotto-sezione di sinistra denominata _2_Fonti vengono elencati gruppi fonte, fonti e schemi presenti nello script di configurazione, per procedere è necessario selezionare uno schema (es. A2.F2.S3)
+ \* La sezione sottostante denominata in partenza _2_Azioni è sensibile allo schema selezionato e presenta : 
+ \*\* _3_Azioni di report, queste sono le azioni da selezionare in modo che nella sezione di destra compaia una analisi
+ \*\* _3_Azioni di fonte, sono le azioni legate alle fonti (costruzione, eliminazione, documentazione)
+ \* Nella sezione di destra viene presentato il tipo di report scelto
+ \* Il bottone _2_Aggiornamento permette di ricaricare gli script di configurazione (es. è stato definito una nuova fonte o un nuovo schema)
+ \* La sotto-sezione di sinistra denominata _2_Set'n play porta alle schede di impostazione, tra cui gli script di configurazione e quelli dei flussi
 
 ## Azioni di report
 ### Matrice
@@ -118,15 +118,15 @@ Permette di leggere e/o creare-modificare la documentazione utente specifica del
 ![LOA15_026](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_026.png)
 ## Set'n Play
 Questa sottoscheda rimanda a sua volta : 
- * _2_alla scheda LOA07, per la gestione dello script di configurazione del LOA15 (per l'utilizzo vedi Help specifico)
- * _2_alla scheda LOA11, per la gestione dei flussi (per l'utilizzo vedi Help specifico)
- * _2_alla scheda LOA17, per la gestione dell'invio e-mail (per l'utilizzo vedi Help specifico)
- * _2_alla presentazione in forma di matrice delle fonti dei cubi (Tabella D9B)
- * _2_alla presentazione in forma di albero delle fonti dei cubi (Tabella D9B)
+ \* _2_alla scheda LOA07, per la gestione dello script di configurazione del LOA15 (per l'utilizzo vedi Help specifico)
+ \* _2_alla scheda LOA11, per la gestione dei flussi (per l'utilizzo vedi Help specifico)
+ \* _2_alla scheda LOA17, per la gestione dell'invio e-mail (per l'utilizzo vedi Help specifico)
+ \* _2_alla presentazione in forma di matrice delle fonti dei cubi (Tabella D9B)
+ \* _2_alla presentazione in forma di albero delle fonti dei cubi (Tabella D9B)
 
 ## Schedulare la costruzione di un LOA15
 
-Per schedulare la creazione del LOA15 BISOGNA passare dal programma LOA15_AM che serve ad impostare la £PDS con l'ambiente necessario al recupero dei  parametri (configurazioni *ENV) utilizzati nella costruzione delle fonti del LOA15 in modo che sia possibile la costruzione delle fonti schedulata tramite WRKJOBSCDE.
+Per schedulare la creazione del LOA15 BISOGNA passare dal programma LOA15_AM che serve ad impostare la £PDS con l'ambiente necessario al recupero dei  parametri (configurazioni \*ENV) utilizzati nella costruzione delle fonti del LOA15 in modo che sia possibile la costruzione delle fonti schedulata tramite WRKJOBSCDE.
 Al LOA15_AM bisogna passare come quarto parametro il codice dell'ingresso utente di UP UT5 corrispondente all'ambiente per l'utente con il quale verrà schedulato il lavoro.
 
 
@@ -139,7 +139,7 @@ Al LOA15_AM bisogna passare come quarto parametro il codice dell'ingresso utente
    CALL PGM(LOA15_AM) PARM('FON' 'COS' 'X9.F3' '0006')
 
 Si può forzale la lettura di una configurazione personale utilizzando il quinto parametro specificando il nome della stessa nell'attributo**NCfg()**oppure passare delle proprie impostazioni.
-Naturalmente l'utilizzo di questo parametro disabilita la configurazione di tipo *ENV specificata nello script della fonte.
+Naturalmente l'utilizzo di questo parametro disabilita la configurazione di tipo \*ENV specificata nello script della fonte.
 
 Esempio di chiamata
    CALL PGM(LOA15_AM) PARM('FON' 'COS' '' '0006' 'NCfg(Mia)')

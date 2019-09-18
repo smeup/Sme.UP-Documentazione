@@ -60,13 +60,13 @@ Inserendo l'opzione 2  in corrispondenza della risorsa interessata, si aprirà l
 ![P5_02_11](http://localhost:3000/immagini/MBDOC_OPE-P5PADC/P5_02_11.png)
 # Pianificazione Schedulazione PDC
 La pianificazione e schedulazione delle attività PDC parte dalla elaborazione MRP, in coda all'elaborazione MRP vengono lanciati in successione : 
- * **la rifasatura degli impegni risorse**, che allinea gli impegni risorse dei materiali PDC con quanto richiesto dai contenitori PDC in corso di esecuzione e dai contenitori PDC pianificati dall'MRP. Gli impegni risorse vengono calcolati in base ai tempi di esecuzione per macchina specificati nei cicli di produzione e ordinati in base alla  data prevista.
- * **la schedulazione delle macchine**, applicando le regole di priorità e di abbinamento previste per le macchine interessate alla schedulazione o per le macchine appartenenti al gruppo risorse predefinito.
+ \* **la rifasatura degli impegni risorse**, che allinea gli impegni risorse dei materiali PDC con quanto richiesto dai contenitori PDC in corso di esecuzione e dai contenitori PDC pianificati dall'MRP. Gli impegni risorse vengono calcolati in base ai tempi di esecuzione per macchina specificati nei cicli di produzione e ordinati in base alla  data prevista.
+ \* **la schedulazione delle macchine**, applicando le regole di priorità e di abbinamento previste per le macchine interessate alla schedulazione o per le macchine appartenenti al gruppo risorse predefinito.
 
 ## Reports di analisi
 Per verificare l'esito della schedulazione sono previsti due report principali : 
- * Stampa del GANTT della schedulazione
- * Analisi / stampa impegni risorse
+ \* Stampa del GANTT della schedulazione
+ \* Analisi / stampa impegni risorse
 
 ### Stampa GANTT schedulazione
 Questa stampa evidenzia la schedulazione dei contenitori (in corso o pianificati) presentando l'impegno sulle varie risorse in forma grafica.
@@ -121,21 +121,21 @@ Le funzioni sono :
 
 ![P5_02_21](http://localhost:3000/immagini/MBDOC_OPE-P5PADC/P5_02_21.png)
 Su ogni contenitore sono possibili le seguenti azioni : 
- * Accorpamento contenitore (si sommano le quantità di uno o più contenitori in uno solo);
- * Annullamento contenitori, per cancellare il contenitore;
- * Blocco contenitori, per bloccare l'avanzamento del contenitore;
- * Creazione contenitore (viene creato un contenitore effettivo partendo da un contenitore pianificato; l'azione scarica il materiale componente utilizzando la causale di prelievo presa dalle impostazioni generali);
- * Gestione note, per inserire o visualizzare note libere per contenitore;
- * Riempimento contenitore, per dichiarare la quantità prodotta dalla macchina;
- * Annullamento dichiarazioni, per stornare una dichiarazione precedente
- * Riempimento + Scarti, per dichiarare la quantità prodotta e quella scartata dalla macchina;
- * Sblocco contenitori, precedentemente bloccati;
- * Spostamenti + Scarti, per spostare da una ubicazione macchina all'ubicazione successiva e dichiarare contemporaneamente gli scarti;
- * Spostamenti, per spostare da una ubicazione macchina all'ubicazione successiva;
- * Stampa CDI PDC, per stampare l'etichetta del contenitore;
- * Suddivisione contenitore, per suddividere il contenitore in altri di quantità inferiore;
- * Versamento a magazzino, per versare il contenitore a magazzino;
- * Versamento a scarto.
+ \* Accorpamento contenitore (si sommano le quantità di uno o più contenitori in uno solo);
+ \* Annullamento contenitori, per cancellare il contenitore;
+ \* Blocco contenitori, per bloccare l'avanzamento del contenitore;
+ \* Creazione contenitore (viene creato un contenitore effettivo partendo da un contenitore pianificato; l'azione scarica il materiale componente utilizzando la causale di prelievo presa dalle impostazioni generali);
+ \* Gestione note, per inserire o visualizzare note libere per contenitore;
+ \* Riempimento contenitore, per dichiarare la quantità prodotta dalla macchina;
+ \* Annullamento dichiarazioni, per stornare una dichiarazione precedente
+ \* Riempimento + Scarti, per dichiarare la quantità prodotta e quella scartata dalla macchina;
+ \* Sblocco contenitori, precedentemente bloccati;
+ \* Spostamenti + Scarti, per spostare da una ubicazione macchina all'ubicazione successiva e dichiarare contemporaneamente gli scarti;
+ \* Spostamenti, per spostare da una ubicazione macchina all'ubicazione successiva;
+ \* Stampa CDI PDC, per stampare l'etichetta del contenitore;
+ \* Suddivisione contenitore, per suddividere il contenitore in altri di quantità inferiore;
+ \* Versamento a magazzino, per versare il contenitore a magazzino;
+ \* Versamento a scarto.
 
 6. **Impegni risorse in corso**    -->    per l'articolo in input visualizza gli impegni risorse derivati dai contenitori in corso di produzione.
 

@@ -16,8 +16,8 @@
 
  :  : ATT Cod(ADV) Txt(Effettuare una ricerca - Esercizio avanzato)
 01. Cercare la provincia di Brescia per descrizione "BRESCIA"
-02. Cercare la provincia di Brescia per descrizione "BRESCIA *L" per attivare il case sensitive
+02. Cercare la provincia di Brescia per descrizione "BRESCIA \*L" per attivare il case sensitive
 03. Ricercare l'espressione esatta "Contabilità analitica" racchiudendola tra doppi apici
 04. Ricercare l'espressione "Contabilità (analitica or generale)"  per trovare tutti i documenti
     che contengano la parola contabilità e una delle 2 parole analitica o generale
-05. Scrivere "Buffoli *NWS" per trovare tutte le news scritte da Silvio Buffoli
+05. Scrivere "Buffoli \*NWS" per trovare tutte le news scritte da Silvio Buffoli

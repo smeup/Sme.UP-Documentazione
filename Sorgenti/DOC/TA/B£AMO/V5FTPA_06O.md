@@ -13,7 +13,7 @@ NOTA :  prima e dopo il "|" non ci devono essere spazi.
 
 In caso si utilizzi un unico Smart Kit per più sistemi informativi è necessario che nello script di SCP_CLO in linea all'ambiente di avvio del Provider siano specificati i percorsi utilizzati da tutti gli ambienti interessati.
 
-Nel caso non venga indicata la coda dati del Provider nella tabella V50 avviene una risalita sulla tabella LOB, prima sull'elemento H80 e poi su **.
+Nel caso non venga indicata la coda dati del Provider nella tabella V50 avviene una risalita sulla tabella LOB, prima sull'elemento H80 e poi su \*\*.
 
 **ATTENZIONE : **
 Il legame tra percorso Windows e percorso linux è impostabile anche agendo sul file configuration.properties dello Smart Kit.

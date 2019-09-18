@@ -5,7 +5,7 @@ Legenda
 xxx :  settore della tabella
 yy :   subsettore della tabella
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'TA'                               £FUNT1
 xxxyy                              £FUNP1
 

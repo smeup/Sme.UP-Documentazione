@@ -13,9 +13,9 @@ La tastiera è lo strumento principale con cui interfacciarsi con l'emulatore. L
 funzioni attivabili con il mouse possono essere effettuate anche attraverso la tastiera :  nel seguito sono
 illustrate le combinazioni di tasti ed il loro significato.
 Le motivazioni che stanno alla base di questa scelta sono essenzialmente : 
- * velocità di interazione :  l'utilizzo della tastiera permette una maggiore efficienza rispetto all'uso del
+ \* velocità di interazione :  l'utilizzo della tastiera permette una maggiore efficienza rispetto all'uso del
 mouse
- * l'interfaccia segue il concetto di "grafica in più" e non " grafica invece", l'utente SME.up si è gia
+ \* l'interfaccia segue il concetto di "grafica in più" e non " grafica invece", l'utente SME.up si è gia
 creato un proprio legame mentale tra i tasti da utilizzare e le funzioni, si ha una key-recognition tra
 la funzione voluta e la tastiera.
 Il mouse rappresenta, invece, il punto di partenza per gli utenti nuovi che possiedono un background

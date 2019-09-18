@@ -2,10 +2,10 @@
 La commessa è un oggetto utilizzato per aggregare insiemi di :  ordini di produzione, acquisti, attività, movimenti, attribuzioni contabili, ecc...
 
 L'utilizzo può essere per obiettivi diversi : 
- * Gestione progetti
- * Raggruppamento di Costi/Ricavi
- * Logistica
- * Ecc...
+ \* Gestione progetti
+ \* Raggruppamento di Costi/Ricavi
+ \* Logistica
+ \* Ecc...
 
 # Gestione anagrafico commesse
 Per attivare la gestione dell'anagrafico commesse si parte dal seguente formato guida : 
@@ -27,12 +27,12 @@ Dalla lista, oppure direttamente dal formato guida, utilizzando le opzioni si ac
 ### Informazioni aggiuntive
 In funzione del tipo commessa si possono attivare delle informazioni aggiuntive raggruppate per tipologia : 
 
- * _1_Quantità e valori
+ \* _1_Quantità e valori
 
 ![BRCM01_04](http://localhost:3000/immagini/MBDOC_OGG-P_BRCM01/BRCM01_04.png)
- * _1_Date
+ \* _1_Date
 
 ![BRCM01_05](http://localhost:3000/immagini/MBDOC_OGG-P_BRCM01/BRCM01_05.png)
- * _1_Parametri interni
+ \* _1_Parametri interni
 
 ![BRCM01_06](http://localhost:3000/immagini/MBDOC_OGG-P_BRCM01/BRCM01_06.png)

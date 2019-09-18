@@ -1,9 +1,9 @@
 # Generalità
 Questa funzione permette di determinare gli importi da liquidare agli agenti in base al tipo liquidazione previsto per ognuno.
 Le tipologie di liquidazione sono : 
- * _2_sul fatturato, all'agente vengono corrisposte le provvigioni in base alle fatture procurate nel periodo preso in esame;
- * _2_sull'incassato (pagato), all'agente vengono corrisposte le provvigioni in base ai pagamenti effettuati nel periodo in esame su fatture da lui precedentemente procurate;
- * _2_sul saldato, all'agente vengono corrisposte le provvigioni in base a fatture da lui precedentemente procurate e saldate nel periodo preso in esame.
+ \* _2_sul fatturato, all'agente vengono corrisposte le provvigioni in base alle fatture procurate nel periodo preso in esame;
+ \* _2_sull'incassato (pagato), all'agente vengono corrisposte le provvigioni in base ai pagamenti effettuati nel periodo in esame su fatture da lui precedentemente procurate;
+ \* _2_sul saldato, all'agente vengono corrisposte le provvigioni in base a fatture da lui precedentemente procurate e saldate nel periodo preso in esame.
 
 Per determinare gli importi delle ultime due tipologie vengono analizzati i movimenti contabili relativi alle singole fatture procurate dall'agente. Ciò avviene tramite la /COPY £G34, che, dando in input il documento e il periodo, ne ritorna i relativi importi.
 

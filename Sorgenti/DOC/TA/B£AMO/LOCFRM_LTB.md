@@ -202,7 +202,7 @@ Attraverso la chiamata di servizio è possibile specificare i seguenti attributi
 **Esempio**
 ![PDFTAB](http://localhost:3000/immagini/LOCFRM_LTB/PDFTAB.png) :  : PAR T(Sintassi) F(04)
  :   : P.FRM
- :   : P.SUB.SER Tit="Articoli " Fun="F(EXB;*OAV;) 1(OJ;*FILE;BRARTI0F)" Dim="0.45" Cnd="COD(£OAVIN&£OAVOV) RIG(6)"
+ :   : P.SUB.SER Tit="Articoli " Fun="F(EXB;\*OAV;) 1(OJ;\*FILE;BRARTI0F)" Dim="0.45" Cnd="COD(£OAVIN&£OAVOV) RIG(6)"
 
 
 ### Le immagini
@@ -240,7 +240,7 @@ Per **formattazione inline** si intende la possibilità di cambiare il formato d
 | ** Alta intensità    **| h |
 | _  Italic             _| i |
 | _r_  Rosso sottolineato| r |
-| Normale| *blank |
+| Normale| \*blank |
 | 
 
 All'interno di un testo si può cambiare il formato del testo ponendo prima del testo oggetto del cambio una delle specifiche sopra indicate racchiuse fra _ e chiudendo la porzione di test

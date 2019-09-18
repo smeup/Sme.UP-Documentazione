@@ -63,9 +63,9 @@ Esistono due modalità per attivare l'accesso in SSO :
 
 
 ### SSO da Collegamento
-Creare o modificare un link verso Loocup.exe indicando soltanto  i parametri "IP iSeries" e "*SSO".  (vedi figura)
+Creare o modificare un link verso Loocup.exe indicando soltanto  i parametri "IP iSeries" e "\*SSO".  (vedi figura)
 Non va indicato il parametro "utente".
-Esempio :   "\percorsoServer\Loocup.exe 172.16.2.11 *SSO".
+Esempio :   "\percorsoServer\Loocup.exe 172.16.2.11 \*SSO".
 
 ![B£AUTO06](http://localhost:3000/immagini/B£AUTO_99/BXAUTO06.png)
 Con queste impostazioni, a seguito del lancio di Loocup.exe, tramite doppio click sull'icona di collegamento, l'accesso a Looc.Up sarà diretto.
@@ -81,13 +81,13 @@ N.B. Questa impostazione è valida a partire dalla richiesta di collegamento suc
 Come noto, i parametri presentati nella finestra di Login sono determinati dai parametri presenti nel link di collegamento e passati a  Loocup.exe.
 
 La valorizzazione di tali parametri a livello di link comporta quanto segue : 
-* nel caso l'unica variabile valorizzata sia l l'iSeries, il successivo collegamento avverrà  semplicemente facendo doppio click sul collegamento.
-* nel caso siano valorizzati iSeries e Utente non risulterà possibile l'accesso tramite *SSO e verrà valorizzato un messaggio di errore.
+\* nel caso l'unica variabile valorizzata sia l l'iSeries, il successivo collegamento avverrà  semplicemente facendo doppio click sul collegamento.
+\* nel caso siano valorizzati iSeries e Utente non risulterà possibile l'accesso tramite \*SSO e verrà valorizzato un messaggio di errore.
 
 ## COME DISABILITARE L'ACCESSO TRAMITE SSO
 
 - SSO da collegamento (link) a Loocup.exe;
-Modificare un link verso Loocup.exe togliendo il parametro "*SSO"
+Modificare un link verso Loocup.exe togliendo il parametro "\*SSO"
 - SSO da finestra login Looc.Up;
 Aprire la finestra di "About" e togliere il flag di spunta relativo al checkbox "Attiva SSO" : 
 
@@ -110,9 +110,9 @@ Single Sign On è una tecnologia che permette ad un utente di autenticarsi una s
 
 ## PREREQUISITI
 I prerequisiti sono i seguenti : 
-* PC in Dominio e collegato alla Lan aziendale;
-* Server di autenticazione raggiungibile nella lan;
-* Sistema Operativo  Windows XP SP2/SP3, oppure Windows 7.
+\* PC in Dominio e collegato alla Lan aziendale;
+\* Server di autenticazione raggiungibile nella lan;
+\* Sistema Operativo  Windows XP SP2/SP3, oppure Windows 7.
 Le versioni Home non supportano l'SSO con Kerberos.
 
 NB :  L'SSO non può funzionare se il collegamento all'as400 viene effettuato via IP pubblico (es. se mi collego da casa), ma bisogna collegarsi prima attraverso il client VPN SSL, che permette una volta effettuato l'accesso di entrare a tutti gli effetti nella lan aziendale e usufruire quindi delle policy di dominio.

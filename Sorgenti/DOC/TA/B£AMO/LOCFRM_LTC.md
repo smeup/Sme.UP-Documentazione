@@ -197,7 +197,7 @@ Per **formattazione inline** si intende la possibilità di cambiare il formato d
 | ** Alta intensità    **| h |
 | _  Italic             _| i |
 | _r_  Rosso sottolineato| r |
-| Normale| *blank |
+| Normale| \*blank |
 | 
 
 

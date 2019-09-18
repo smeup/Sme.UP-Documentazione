@@ -13,7 +13,7 @@ controlli congruenza limiti, impostazione valori di parzializzazione secondo gli
 precedente, impostazione di indicatori di ritorno e del codice del messaggio d'errore), si esegue la routine standard
 £PRZ, richiamata con i seguenti parametri : 
 £PRZTC :  Tipo Campo (8 caratteri)
-I primi due caratteri definiscono il tipo di campo codificato nella tabella *CN, con le seguenti aggiunte : 
+I primi due caratteri definiscono il tipo di campo codificato nella tabella \*CN, con le seguenti aggiunte : 
 '  ' Carattere libero
 'DT' Data
 'NP' Numero positivo

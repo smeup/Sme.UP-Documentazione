@@ -1,7 +1,7 @@
 # Scansione ciclo con data di validità
 La scansione di produzione esegue un filtro sulla data di validità : 
- * se data = 0 assume oggi;
- * se data = 99999999 non esegue il filtro e ritorna tutte le fasi (esegue gli altri filtri :  ciclo, configurazione, stato, ..)
+ \* se data = 0 assume oggi;
+ \* se data = 99999999 non esegue il filtro e ritorna tutte le fasi (esegue gli altri filtri :  ciclo, configurazione, stato, ..)
 
 Modalità di appartenenza di una fase ad un periodo (in scansione £CRT) : 
 

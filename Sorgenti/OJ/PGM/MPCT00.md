@@ -25,9 +25,9 @@ La partenza è una vista del piano base :  è a partire dai suoi record (coppie 
 Per i piani 1 e 2 si può scegliere di considerarli anche se assenti, mentre normalmente il confronto viene eseguito solo sui record presenti su tutti i piani.
 
 Inoltre, per tutte le viste piano, si può decidere se escludere i record che hanno, nella cella del periodo selezionato, un valore negativo oppure negativo o nullo. Le condizioni valgono contemporaneamente, es : 
- * se per il piano/vista 1 si sceglie di assumere solo i positivi
- * mentre per il piano/vista 2 si sceglie di assumere solo i valori a zero e positivi
- * se è soddisfatta la prima condizione ma non la seconda, il record viene escluso dal confronto.
+ \* se per il piano/vista 1 si sceglie di assumere solo i positivi
+ \* mentre per il piano/vista 2 si sceglie di assumere solo i valori a zero e positivi
+ \* se è soddisfatta la prima condizione ma non la seconda, il record viene escluso dal confronto.
 
 ## Risultati
 Nella sintesi viene riportata la media e la deviazione standard della serie, ottenuta come differenza percentuale tra il valore della vista 1 (oppure 2) e quello della vista base.

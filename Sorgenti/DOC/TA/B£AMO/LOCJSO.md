@@ -20,4 +20,4 @@ Al momento e' possibile visualizzare il documento in quattro modi diversi (confi
 ## Schede di esempio
 Scheda con esempi del componente, funzionante esclusivamente in WebUP
 
- :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;*SCO;) 1(V2;JAGRA;JSO) 2(MB;SCP_SCH;WETEST_JSO)) L(1)
+ :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;\*SCO;) 1(V2;JAGRA;JSO) 2(MB;SCP_SCH;WETEST_JSO)) L(1)

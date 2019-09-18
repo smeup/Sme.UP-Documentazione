@@ -11,7 +11,7 @@ Identifica il sottosettore delle causali ammesse per la dichiarazione degli even
 Se impostata, l'inizializzatore degli eventi (£P5E) forza questa causale del sottosettore definito nel campo precedente
  :  : FLD T$P5DC.T$P5DD __Tipo responsabile__
 Il tipo e il prametro individuano l'oggetto che rappresenta il responsabile (codice da immettere nella dichiarazione dell'evento).
-Se il tipo+parametro è OJ*USRPRF, l'inizializzatore degli eventi (£P5E) preimposta nel campo responsabile l'utente della sessione.
+Se il tipo+parametro è OJ\*USRPRF, l'inizializzatore degli eventi (£P5E) preimposta nel campo responsabile l'utente della sessione.
  :  : FLD T$P5DE __Categoria default__
 È un elemento della P5F, serve per definire il tipo/parametro degli oggetti dell'archivio  P5EVEN0F e i parametri impliciti
  :  : FLD T$P5DF __Sottosettore stati gestiti__

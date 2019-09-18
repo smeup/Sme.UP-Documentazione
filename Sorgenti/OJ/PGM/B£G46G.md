@@ -15,7 +15,7 @@ TOT/NEL = Totale diviso numero elementi
 - MEP Media ponderata
 TOT/NEL = Totale diviso numero elementi
 - DEV Deviazione standard
-Sommatoria((Xi-m)*(Xi-m))/N
+Sommatoria((Xi-m)\*(Xi-m))/N
 Xi = i-esimo valore
 M  = Media ponderata
 N  = Numero elementi

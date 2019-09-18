@@ -2,33 +2,33 @@
 ## Tipi di specifiche per la documentazione
 Codificando opportunamente le specifiche di commento nel sorgente di un programma, il testo associato viene interpretato correttamente dai tool di documentazione dei programmi e dalle schede relative : 
 
-| V* | Documentazione modifiche / versioni |
+| V\* | Documentazione modifiche / versioni |
 | ---|----|
-| D* | Documentazione generale di un programma. All'interno delle DDS, individua una sezione di dati |
-| HD* | Documentazione tecnica |
-| HF* | Documentazione tecnica files |
-| RD* | Documentazione routines |
+| D\* | Documentazione generale di un programma. All'interno delle DDS, individua una sezione di dati |
+| HD\* | Documentazione tecnica |
+| HF\* | Documentazione tecnica files |
+| RD\* | Documentazione routines |
 | 
 
 
 ## Tipi di specifiche per la compilazione
 Codificando opportunamente le specifiche di commento nel sorgente di un programma, il comando **CO** esegue determinate azioni in fase di compilazione : 
 
-| PRP* | Comandi da eseguire prima di compilare. Es. la creazione di file di lavoro referenziati ---|
+| PRP\* | Comandi da eseguire prima di compilare. Es. la creazione di file di lavoro referenziati ---|
 | all'interno del sorgente (altrimenti la compilazione andrebbe in errore perché il file non verrebbe trovato). |
-| COP* | Opzioni di compilazione (sovrascrivono le opzioni predefinite del compilatore di sistema) |
-| POP* | Comandi da eseguire dopo la compilazione. |
+| COP\* | Opzioni di compilazione (sovrascrivono le opzioni predefinite del compilatore di sistema) |
+| POP\* | Comandi da eseguire dopo la compilazione. |
 | 
 
 
 In queste azioni possono essere applicate alcune variabili corrispondenti ai valori inseriti
 nei parametri del comando CO stesso : 
- * &CO_MBR  :  Membro Origine
- * &CO_FILO :  File origine
- * &CO_LIBO :  Libreria Origine
- * &CO_OBJ  :  Oggetto
- * &CO_LIBD :  Libreria di destinazione
- * &CO_TIPO :  Tipo Origine
+ \* &CO_MBR  :  Membro Origine
+ \* &CO_FILO :  File origine
+ \* &CO_LIBO :  Libreria Origine
+ \* &CO_OBJ  :  Oggetto
+ \* &CO_LIBD :  Libreria di destinazione
+ \* &CO_TIPO :  Tipo Origine
 
 # Convenzioni nella denominazione dei campi video
 
@@ -73,22 +73,22 @@ nei parametri del comando CO stesso :
 
 # Utilizzo degli indicatori
 Questi i significati che normalmente vengono attributi agli indicatori : 
- * **35** :  indicatore di errore di una funzione
- * **36** :  indicatore di ricerca (segnala che la ricerca è stata effettuata)
- * **50-55** :  indicatore di comodo utilizzato per test di carattere istantaneo (un'instruzione condiziona l'indicatore e l'istruzione successiva testa tale indicatore, viene utilizzato ad esempio su CHAIN, LOOKUP, READE ecc.).
+ \* **35** :  indicatore di errore di una funzione
+ \* **36** :  indicatore di ricerca (segnala che la ricerca è stata effettuata)
+ \* **50-55** :  indicatore di comodo utilizzato per test di carattere istantaneo (un'instruzione condiziona l'indicatore e l'istruzione successiva testa tale indicatore, viene utilizzato ad esempio su CHAIN, LOOKUP, READE ecc.).
 
 Se sono inoltre presenti campi **video** : 
- * **10** :  indicatore che indica la necessità di riemettere il formato video (es. se ho fatto una ricerca accendo l'indicatore per forzare la riemissione del formato video per visualizzare la mia scelta)
- * **60** :  indicatore di errore generale (di solito va a condizionare il campo del messaggio a video)
- * **61-89** :  indicatori di errore specifico (vengono usati per condizionare gli errori dei singoli campi video)
+ \* **10** :  indicatore che indica la necessità di riemettere il formato video (es. se ho fatto una ricerca accendo l'indicatore per forzare la riemissione del formato video per visualizzare la mia scelta)
+ \* **60** :  indicatore di errore generale (di solito va a condizionare il campo del messaggio a video)
+ \* **61-89** :  indicatori di errore specifico (vengono usati per condizionare gli errori dei singoli campi video)
 
 Nell'utilizzo degli indicatori, è importante sottolineare che il loro significato si esaurisce alla successiva istruzione. Ciò significa che, una volta acceso o spento un indicatore per un particolare compito, lo stato dell'indicatore (ON o OFF) deve essere immediatamente testato.
 La visibilità di un indicatore è infatti locale rispetto all'istruzione seguente, non globale sull'intero programma.
 In questo modo non bisogna preoccuparsi di modificare lo stato di indicatori utilizzati in altre parti del programma (ad esempio, se lo stato di un indicatore acceso all'inizio del programma viene testato alla fine, potrebbe succedere che qualcuno ne modifichi lo stato in qualche punto intermedio, provocando comportamenti errati nell'esecuzione), visto che la "validità" dell'indicatore si esaurisce localmente.
 
->* Esempio di valutazione locale dello stato di un indicatore (indicatore 50)
+>\* Esempio di valutazione locale dello stato di un indicatore (indicatore 50)
 C     $KEY          LOOKUP    ARRAY                                  50
-C                   IF        *IN50=*ON
+C                   IF        \*IN50=\*ON
 C                   EXSR      FUNCTION
 C                   ENDIF
 
@@ -132,27 +132,27 @@ Per essere utilizzate dalle applicazioni le azioni devono essere inserite in un 
 
 **Esempio di Entry : **
  :  : PAR L(MON)
-*--------------------------------------------------------------*   .
+\*--------------------------------------------------------------\*   .
 I/COPY QILEGEN,£FUNDS1                                              .
 I/COPY QILEGEN,£TABB£1DS                                            .
 I/COPY QILEGEN,£PDS                                                 .
-*--------------------------------------------------------------*   .
-D* M A I N                                                          .
-*--------------------------------------------------------------*   .
+\*--------------------------------------------------------------\*   .
+D\* M A I N                                                          .
+\*--------------------------------------------------------------\*   .
 C                   EVAL      £FUND1=§FUNW1                       .
 C                   EVAL      £FUND2=§FUNW2                       .
 C                   ...
-*
+\*
 C                   SETON                                        LR .
-*--------------------------------------------------------------*   .
+\*--------------------------------------------------------------\*   .
 C/COPY QILEGEN,£INZSR                                               .
 C/COPY QILEGEN,£FUN                                                 .
-*--------------------------------------------------------------* .
-D* ROUTINE INIZIALE                                               .
-*--------------------------------------------------------------* .
+\*--------------------------------------------------------------\* .
+D\* ROUTINE INIZIALE                                               .
+\*--------------------------------------------------------------\* .
 C     £INIZI        BEGSR                                         .
-*                                                                .
-C     *ENTRY        PLIST                                         .
+\*                                                                .
+C     \*ENTRY        PLIST                                         .
 C                   PARM                    §FUNNP                .
 C                   PARM                    §FUNFU                .
 C                   PARM                    §FUNME                .
@@ -161,18 +161,18 @@ C                   PARM                    §FUNFI                .
 C                   PARM                    §FUNCM                .
 C                   PARM                    §FUNW1                .
 C                   PARM                    §FUNW2                .
-*                                                                .
-C     *LIKE         DEFINE    £FUNNP        §FUNNP                .
-C     *LIKE         DEFINE    £FUNFU        §FUNFU                .
-C     *LIKE         DEFINE    £FUNME        §FUNME                .
-C     *LIKE         DEFINE    £FUNMS        §FUNMS                .
-C     *LIKE         DEFINE    £FUNFI        §FUNFI                .
-C     *LIKE         DEFINE    £FUNCM        §FUNCM                .
-C     *LIKE         DEFINE    £FUNW1        §FUNW1                .
-C     *LIKE         DEFINE    £FUNW2        §FUNW2                .
-*                                                                  .
+\*                                                                .
+C     \*LIKE         DEFINE    £FUNNP        §FUNNP                .
+C     \*LIKE         DEFINE    £FUNFU        §FUNFU                .
+C     \*LIKE         DEFINE    £FUNME        §FUNME                .
+C     \*LIKE         DEFINE    £FUNMS        §FUNMS                .
+C     \*LIKE         DEFINE    £FUNFI        §FUNFI                .
+C     \*LIKE         DEFINE    £FUNCM        §FUNCM                .
+C     \*LIKE         DEFINE    £FUNW1        §FUNW1                .
+C     \*LIKE         DEFINE    £FUNW2        §FUNW2                .
+\*                                                                  .
 C                   ENDSR                                           .
-*--------------------------------------------------------------*
+\*--------------------------------------------------------------\*
 
 
 Parametri : 

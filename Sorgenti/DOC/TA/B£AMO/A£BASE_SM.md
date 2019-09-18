@@ -11,7 +11,7 @@ Per quanto detto in merito all'architettura di sme.UP, è tassativo che le sotto
 Per ulteriori dettagli si veda il documento apposito : 
 - [Architettura programmazione Sme.UP](Sorgenti/DOC/TA/B£AMO/A£BASE_S0)
 
-Inoltre, per quanto detto in merito alle variabili di ambiente, si ricorda che il parametro **CPYENVVAR** deve essere SEMPRE impostato a ***YES**.
+Inoltre, per quanto detto in merito alle variabili di ambiente, si ricorda che il parametro **CPYENVVAR** deve essere SEMPRE impostato a **\*YES**.
 Per ulteriori dettagli si veda il documento apposito : 
 - [Variabili di ambiente](Sorgenti/DOC/TA/B£AMO/A£BASE_SV)
 

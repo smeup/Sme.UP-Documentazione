@@ -1,7 +1,7 @@
 ## Contenuto
 Contiene tutti gli eventi, sia di produzione che relativi ad altre funzioni aziendali di cui si vuole tenere una registrazione.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'E3'                               £FUNT1
  N§TEVE 'Tipo evento'   £FUNP1
 

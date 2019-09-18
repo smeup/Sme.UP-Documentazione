@@ -16,13 +16,13 @@ Il valore assegnato al campo in B£EQRY_AO è 91. Se ad un utente viene impostat
 
 E' inoltre possibile autorizzare l'accesso alle consultazioni delle singole sezioni della scheda , es. :  vendite fatturato, Fatturato e spedito, etc, tramite la classe LO.EXD, funzione V5STAT.
 Le sezioni controllate dal valore assegnato sono attualmente le seguenti : 
- * _2_Vendite Fatturato :  valore 09
- * _2_Vendite Fatturato e spedito :  valore 09
- * _2_Ordinato residuo :  Valore 19
- * _2_Ordinato totale :  valore 19
- * _2_Backlog ordinato :  valore 29
- * _2_Acquisti Fatturato :  valore 59
- * _2_Acquisti fatturato e ricevuto :  valore 59
- * _2_Acquisti ordinato residuo :  valore 69
- * _2_Acquisti ordinato totale :  valore 69
- * _2_Menù del modulo :  valore 99
+ \* _2_Vendite Fatturato :  valore 09
+ \* _2_Vendite Fatturato e spedito :  valore 09
+ \* _2_Ordinato residuo :  Valore 19
+ \* _2_Ordinato totale :  valore 19
+ \* _2_Backlog ordinato :  valore 29
+ \* _2_Acquisti Fatturato :  valore 59
+ \* _2_Acquisti fatturato e ricevuto :  valore 59
+ \* _2_Acquisti ordinato residuo :  valore 69
+ \* _2_Acquisti ordinato totale :  valore 69
+ \* _2_Menù del modulo :  valore 99

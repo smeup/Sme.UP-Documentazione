@@ -1,14 +1,14 @@
  :  : PRO Cod(A01) Txt(Esercizi) STAT(00) RESP(SCIMAM)
 
  :  : ATT Cod(001) Txt(Il mio Desktop in Sme.UP)  STAT(10) RESP(LANSIL)
-//--***************************************************************
-//--  IL MIO DESKTOP IN SMEUP                              *
-//--***************************************************************
+//--\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+//--  IL MIO DESKTOP IN SMEUP                              \*
+//--\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 01. In SpotLight digitare "Desktop"
 Chiamiamo "SpotLight" il campo in alto a destra in Looc.UP
 Possiamo aprire il desktop e lavorare sui file lì contenuti
 Si otterrà quanto presente nella funzione (A) associata a questo esercizio
- :  : DEC T(J1) P(FUN) D(A.Il mio Desktop) K(F(EXD;*SCO;) 1(J1;PATHDIR;"(("USER.HOME"))"\Desktop))
+ :  : DEC T(J1) P(FUN) D(A.Il mio Desktop) K(F(EXD;\*SCO;) 1(J1;PATHDIR;"(("USER.HOME"))"\Desktop))
 
 02. Proprietà della matrice.
 Scopo di questo passo è presentare le proprietà fondamentali della matrice.
@@ -75,27 +75,27 @@ In particolare
 - Le proprietà evidenziate a destra e le immagini associate ad alcune proprietà (ho l'immagine del segno zodiacale che è un'immagine di una proprietà della data che sto analizzando).
 Posso vedere la scheda esemplificativa di una data nella funzione (B) delle funzioni associate a questo esercizio
 
- :  : DEC T(J1) P(FUN) D(La scheda della data OGGI) K(F(EXD;*SCO;) 1(D8;*DMYY;&OGI))
+ :  : DEC T(J1) P(FUN) D(La scheda della data OGGI) K(F(EXD;\*SCO;) 1(D8;\*DMYY;&OGI))
 
 
 
  :  : ATT Cod(002) Txt(Ricerca)  STAT(10) RESP(MOROLE)
 
 01.La Ricerca in Sme.UP
-//-- ********************** CAPITOLO 1 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 1 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 In Sme.UP è possibile effettuara una ricerca su diversi moduli e anche a livello "globale" (che approfondiremo più avanti). Per semplificare l'identificazione delle funzionalità fondamentali abbiamo pensato di creare
 una scheda "CERCA"  (che troviamo scrivendo 'cerca' nello spotlight in alto)  con un menu a sinistra dove sono elencati alcuni contesti di Sme.UP .
 
 02.Menu ad albero
-//-- ********************** CAPITOLO 2 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 2 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Nella scheda "cerca" troviamo il menu (albero) sulla sinistra con diversi contesti (ad esempio :  AR->articoli, CM->commesse ecc.-> che a loro volta hanno diverse caratteristiche come codice e descrizione ad esempio )
 Cliccando quindi su CN :  Commesse avremmo il campo di ricerca contestuale della commessa.
 Cliccando invece su "codice" (che sta sotto la commessa) potremmo cercare la commessa mettendo il codice (sempre e solo nel contesto commessa).
 
 03.Tutti i contesti
-//-- ********************** CAPITOLO 3 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 3 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 L'ultima voce del menu a sinistra (ALL :  Tutti i contesti) riguarda tutti i contesti di Sme.UP, quindi lo spotlight in questo caso diventa globale.
 

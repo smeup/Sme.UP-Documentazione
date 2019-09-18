@@ -18,17 +18,17 @@ Si possono inserire alcuni caratteri prima della specifica I per condizionare il
 /F   Individua la fine delle specifiche da trattare nnnd nnn  = lunghezza del campo
 d    = numero di posizioni decimali
 Il programmatore potrà pertanto scrivere specifiche del tipo seguente : 
-/I   I*
+/I   I\*
 I                                            CAMP02
 I                                            CAMP01
 I                                            CAMP03
-/F   I*
+/F   I\*
 Se dal formato video abbiamo la definizione dei campi CAMP01(alfanumerico di 5 caratteri) e CAMP03 (numerico di 4 con 3 decimali) avremo il seguente risultato : 
-/I   I*
+/I   I\*
 I                                        1    5 CAMP01
 I                                        6    92CAMP02
 I                                       10   133CAMP03
-/F   I*
+/F   I\*
 ## ORIGINE
 Definisce nome del file e libreria da cui dovranno essere ripresi i campi per la scelta
 L'indicazione del membro è facoltativa e permette di limitare al solo membro scelto i campi da presentare.

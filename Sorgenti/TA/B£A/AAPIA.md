@@ -3,25 +3,25 @@
 In un contesto in cui il mercato richiede forniture sempre più puntuali con tempi di risposta sempre più veloci e contemporaneamente l'azienda ha la necessità di ridurre costantemente le scorte di magazzino assicurando comunque l'alimentazione alle linee produttive e il servizio al cliente, la pianificazione materiali acquista un'importanza crescente ed è un fattore strategico per la sopravvivenza e la crescita dell'impresa.
 ## Impostazione concettuale
 La pianificazione dei materiali si inserisce in un circolo virtuoso che interessa diverse funzioni aziendali : 
- * la funzione commerciale che negli ordini di vendita inserisce date di consegna congruenti con la disponibilità materiali, a tutti i livelli e compatibili con la capacità produttiva installata (ATP)
- * la programmazione materiali che utilizza tecniche previsionali, scorte strategiche opportuni parametri e politiche di pianificazione, differenziate per tipologia di materiali per assicurare la disponibilità quando serve senza pianificare eccedenze di scorta non giustificate (MRP)
- * la produzione che assicura l'esecuzione nei tempi e quantità stabilite ed opera una schedulazione a capacità finita degli ordini di produzione rilasciati in modo da avere una alta affidabilità delle data schedulate di produzione e al contempo mantiene adeguatamente il calendario delle risorse e la definizione della capacità produttiva giornaliera onde permettere della adeguate verifiche di capacità sia a capacità finita che infinita (FCS - CRP)
- * la logistica che garantisce l'affidabilità delle giacenze e la costanza dei tempi previsti per la movimentazione
- * se giacenze, coperture e pianificazione sono corrette e la data di consegna negli ordini di vendita può essere più accurata
- * l'accuratezza delle date degli ordini, delle coperture e delle quantità in giacenza permette una migliore pianificazione
- * la pianificazione adeguata, solleva la produzione dalle situazioni di emergenza
- * la movimentazione diventa più fluida
- * e si ricomincia ....
+ \* la funzione commerciale che negli ordini di vendita inserisce date di consegna congruenti con la disponibilità materiali, a tutti i livelli e compatibili con la capacità produttiva installata (ATP)
+ \* la programmazione materiali che utilizza tecniche previsionali, scorte strategiche opportuni parametri e politiche di pianificazione, differenziate per tipologia di materiali per assicurare la disponibilità quando serve senza pianificare eccedenze di scorta non giustificate (MRP)
+ \* la produzione che assicura l'esecuzione nei tempi e quantità stabilite ed opera una schedulazione a capacità finita degli ordini di produzione rilasciati in modo da avere una alta affidabilità delle data schedulate di produzione e al contempo mantiene adeguatamente il calendario delle risorse e la definizione della capacità produttiva giornaliera onde permettere della adeguate verifiche di capacità sia a capacità finita che infinita (FCS - CRP)
+ \* la logistica che garantisce l'affidabilità delle giacenze e la costanza dei tempi previsti per la movimentazione
+ \* se giacenze, coperture e pianificazione sono corrette e la data di consegna negli ordini di vendita può essere più accurata
+ \* l'accuratezza delle date degli ordini, delle coperture e delle quantità in giacenza permette una migliore pianificazione
+ \* la pianificazione adeguata, solleva la produzione dalle situazioni di emergenza
+ \* la movimentazione diventa più fluida
+ \* e si ricomincia ....
 
 ## Punti qualificanti Fonti / Gruppo fonti
 Il fabbisogno o la copertura, come anche la scorta minima sono tutte condizioni che variano la situazione di disponibilità di un articolo nel tempo. In Marp.UP queste condizioni sono state codificate come "fonti" :  una fonte può essere costituita dalle righe ordini di vendita, un'altra può essere la previsione, un'altra ancora i fabbisogni dei componenti di produzione, altre fonti possono essere la giacenza o la scorta minima, In generale tutte le informazioni presenti in AS/400 possono concorrere alla costruzione di una fonte di disponibilità.
 Esiste una libreria di fonti codificate :  giacenza, scorta minima, fabbisogno rilasciato di produzione, fabbisogno pianificato, previsione di vendita, ordine di acquisto, ecc...; ciascuna controllata da una tabella di impostazione, nella tabella possono essere anche chiamati programmi di exit che intervengono sui valori ritornati dalla fonte. Oltre alle fonti codificate è possibile anche creare delle fonti utente che implementano regole specifiche e possono anche leggere informazioni esterne al sistema.
 Una menzione particolare meritano : 
- * scorta datata, che permette di spostare la data di fabbisogno associata alla scorta minima alla data run + lead time, in questo modo non abbiamo fabbisogni dipendenti scaduti per effetto della scorta minima
- * eccedenze pianificate, in fase di elaborazione MRP il sistema è in grado di identificare due tipologie di eccedenze :  quelle esistenti di materiale già presente e non richiesto; quelle pianificate, che al momento non sono presenti ma che potrebbero costituirsi per effetto delle lottizzazioni. Conoscere le eccedenze pianificate e valorizzarle permette una più consapevole gestione e approvazione dei suggerimenti di pianificazione
- * fabbisogni trascurati,che permette di impostare una soglia minima al di sotto della quale il suggerimento di copertura assume una fonte diversa. Questo permette di evitare suggerimenti pianificati a copertura di fabbisogni trascurabili
- * scorta trascurata, simile alla precedente, in questo caso la soglia è riferita alla copertura della scorta :  si trascura un fabbisogno di quantità minima che serve unicamente alla ricostituzione della scorta.
- * fonte bilanciata, che permette la fusione di gruppi di altre fonti e di una fonte guida, in questo modo si possono ottenere, con regole diverse, le risultanze della fusione tra previsioni e ordini acquisiti. La particolarità della fonte bilanciata è che questa fusione tra previsione e fabbisogno consolidato può essere fatta anche ai livelli inferiori di distinta, utile in particolare ad esempio per la pianificazione della materia prima di processo (alluminio, plastica, componenti chimici)
+ \* scorta datata, che permette di spostare la data di fabbisogno associata alla scorta minima alla data run + lead time, in questo modo non abbiamo fabbisogni dipendenti scaduti per effetto della scorta minima
+ \* eccedenze pianificate, in fase di elaborazione MRP il sistema è in grado di identificare due tipologie di eccedenze :  quelle esistenti di materiale già presente e non richiesto; quelle pianificate, che al momento non sono presenti ma che potrebbero costituirsi per effetto delle lottizzazioni. Conoscere le eccedenze pianificate e valorizzarle permette una più consapevole gestione e approvazione dei suggerimenti di pianificazione
+ \* fabbisogni trascurati,che permette di impostare una soglia minima al di sotto della quale il suggerimento di copertura assume una fonte diversa. Questo permette di evitare suggerimenti pianificati a copertura di fabbisogni trascurabili
+ \* scorta trascurata, simile alla precedente, in questo caso la soglia è riferita alla copertura della scorta :  si trascura un fabbisogno di quantità minima che serve unicamente alla ricostituzione della scorta.
+ \* fonte bilanciata, che permette la fusione di gruppi di altre fonti e di una fonte guida, in questo modo si possono ottenere, con regole diverse, le risultanze della fusione tra previsioni e ordini acquisiti. La particolarità della fonte bilanciata è che questa fusione tra previsione e fabbisogno consolidato può essere fatta anche ai livelli inferiori di distinta, utile in particolare ad esempio per la pianificazione della materia prima di processo (alluminio, plastica, componenti chimici)
 
 Le varie fonti impostate possono essere raggruppate in gruppi fonte, gruppi fonte diversi possono dar luogo a figure diverse di disponibilità (es. un gruppo fonte può includere anche le scorte minime, mentre un altro può non considerarle, oppure si possono comprendere o escludere le previsioni, ecc...). L'elaborazione MRP parte con un gruppo fonte generale, specificato nei parametri di lancio, ma può cambiare gruppo fonte dinamicamente durante l'elaborazione utilizzando quello previsto dalla politica associata all'articolo in esame.
 
@@ -48,9 +48,9 @@ Per l'analisi dei suggerimenti è stata realizzata una funzione di navigazione g
 ## Pianificazione multiplant
 Si può anche attivare una pianificazione multiplant in cui i vari plant sono "in serie" :  un articolo viene prodotto da un solo plant (il plant responsabile) e viene poi distribuito agli altri plant con un meccanismo di ordini di trasferimento tra plant.
 La pianificazione può essere eseguita in tre modi, ciascuno corrispondente a una diversa necessità applicativa : 
- * **Cumulata**; vene eseguita una pianificazione unica per tutti i plant impostati nel gruppo fonti di lancio. Il primo plant di questo gruppo assume il significato di plant master :  viene utilizzato per reperire i dati di pianificazione e per pianificare i nuovi ordini.
- * **Lanciata singolarmente**; si esegue una pianificazione separata per plant (il gruppo fonti deve contenere un solo plant). Ogni pianificazione sostituisce soltanto la precedente dello stesso plant.
- * **Completa**; si esegue una pianificazione completa per tutti i plant presenti nel gruppo fonti. Ogni plant viene pianificato singolarmente, con suggerimenti di trasferimento dal plant di competenza (avendo impostato opportunamente i parametri di pianificazione
+ \* **Cumulata**; vene eseguita una pianificazione unica per tutti i plant impostati nel gruppo fonti di lancio. Il primo plant di questo gruppo assume il significato di plant master :  viene utilizzato per reperire i dati di pianificazione e per pianificare i nuovi ordini.
+ \* **Lanciata singolarmente**; si esegue una pianificazione separata per plant (il gruppo fonti deve contenere un solo plant). Ogni pianificazione sostituisce soltanto la precedente dello stesso plant.
+ \* **Completa**; si esegue una pianificazione completa per tutti i plant presenti nel gruppo fonti. Ogni plant viene pianificato singolarmente, con suggerimenti di trasferimento dal plant di competenza (avendo impostato opportunamente i parametri di pianificazione
 
 ![M5_09](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5_09.png)
 ## Indici per Kernel
@@ -61,10 +61,10 @@ L'applicazione di MRP è concepita con una impostazione "client" infatti i confi
 
 ## Utilizzo come indicatore della bontà gestione
 Gli strumenti di pianificazione forniti possono essere anche utilizzati per una visione a 360° di quale sarà l'andamento dell'azienda nell'immediato futuro, infatti oltre ai materiali e alle risorse si possono controllare : 
- * l'evoluzione pianificata della valorizzazione del magazzino
- * il fabbisogno di materiali e risorse per la movimentazione e lo stoccaggio (contenitori, spazi, ripiani, ...)
- * il fabbisogno di risorse produttive secondarie (attrezzature, impianti, energia, .....)
- * e qualsiasi altra risorsa o strumento possa essere messa in relazione ad una quantità di un articolo
+ \* l'evoluzione pianificata della valorizzazione del magazzino
+ \* il fabbisogno di materiali e risorse per la movimentazione e lo stoccaggio (contenitori, spazi, ripiani, ...)
+ \* il fabbisogno di risorse produttive secondarie (attrezzature, impianti, energia, .....)
+ \* e qualsiasi altra risorsa o strumento possa essere messa in relazione ad una quantità di un articolo
 
 ## Esempi di output
 ![M5CMRP_020](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_020.png)![M5CMRP_037](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_037.png)![M5CMRP_034](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_034.png)![M5CMRP_03](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_03.png)![M5CMRP_033](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_033.png)![M5CMRP_029](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_029.png)![M5CMRP_030](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_030.png)
@@ -79,9 +79,9 @@ Ogni qualvolta i tempi di consegna consentiti dal mercato sono più stretti risp
 
 ![M5_05](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5_05.png)
 Lo strumento utilizzato per la gestione delle previsioni è l'MPS, che si basa su : 
- * viste piano
- * piano
- * azioni (processi di gestione di piani e viste)
+ \* viste piano
+ \* piano
+ \* azioni (processi di gestione di piani e viste)
 
 ## Viste piano
 Rappresentano le quantità sviluppate lungo i periodi, i periodi possono essere fino a 120 e possono avere ampiezza variabile in funzione della definizione del piano.
@@ -98,14 +98,14 @@ Eseguono tutte le funzioni di creazione delle viste da fonti esterne, o di calco
 
 ## Versatilità
 Grazie al fatto che le viste possono essere intestate ad una coppia qualsiasi di oggetti e che i periodi del piano possono avere un'ampiezza variabile, anche mista, con l'MPS possiamo rappresentare fenomeni aziendali dei più vari : 
- * lo storico ordinato o fatturato, in valore o quantità, per cliente articolo o sintetizzato per un attributo qualsiasi (es. classe materiale / zona)
- * la previsione di vendita (eventualmente ottenuta a partire dallo storico applicando regole di estrapolazione dipendenti dal trend e della stagionalità
- * il fabbisogno tempificato delle risorse legato ad un piano di produzione
- * il fabbisogno tempificato dei contenitori per l'imballo dei prodotti finiti
- * i flussi di cassa attivi e passivi
- * ecc.....
+ \* lo storico ordinato o fatturato, in valore o quantità, per cliente articolo o sintetizzato per un attributo qualsiasi (es. classe materiale / zona)
+ \* la previsione di vendita (eventualmente ottenuta a partire dallo storico applicando regole di estrapolazione dipendenti dal trend e della stagionalità
+ \* il fabbisogno tempificato delle risorse legato ad un piano di produzione
+ \* il fabbisogno tempificato dei contenitori per l'imballo dei prodotti finiti
+ \* i flussi di cassa attivi e passivi
+ \* ecc.....
 
 # Applicazioni utilizzate
 Le applicazioni Sme.UP a supporto della gestione della produzione interna sono : 
- * __Plan.UP__, per la gestione dei piani
- * __Marp.UP__ per la pianificazione dei materiali
+ \* __Plan.UP__, per la gestione dei piani
+ \* __Marp.UP__ per la pianificazione dei materiali

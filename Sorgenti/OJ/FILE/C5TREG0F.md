@@ -1,7 +1,7 @@
 ## Contenuto
 Dati generali di una registrazione contabile.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'E4'                               £FUNT1
  'WK' Se è nel transito             £FUNP1
 

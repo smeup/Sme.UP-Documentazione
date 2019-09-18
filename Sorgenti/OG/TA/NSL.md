@@ -1,7 +1,7 @@
 # NSL - LISTE DI DISTRIBUZIONE
  :  : DEC T(ST) K(NSL)
 ## N.B.
-Per il buon funzionamento dell'applicazione, codificare come primo elemento della lista NSLxx il progressivo "**". Questo
+Per il buon funzionamento dell'applicazione, codificare come primo elemento della lista NSLxx il progressivo "\*\*". Questo
 identifica il tipo standard degli elementi che saranno contenuti nella lista.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$ELEM __Progressivo__
@@ -11,7 +11,7 @@ elemento AAA001, il quale corrisponde sia ad un dipendente che ad un centro di l
  :  : FLD T$DESC __Descrizione__
 Descrizione elemento in fase di imputazione dell'elemento viene decodificata tramite un apposito PGM.
  :  : FLD T$TCEL __Tipo codice__
-Decodificato nella tabella *CNTT. Può identificare la tipologia del codice utilizzato (DI=Dipendente, CL=Cliente...).
+Decodificato nella tabella \*CNTT. Può identificare la tipologia del codice utilizzato (DI=Dipendente, CL=Cliente...).
  :  : FLD T$PCEL __Parametro__
 È un completamento del tipo codice. _9_Esempio :  se tipo codice
 è  tabella, il parametro specifica quale TA DIP tabella dipendenti.

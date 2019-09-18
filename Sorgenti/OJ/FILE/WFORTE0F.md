@@ -2,7 +2,7 @@
 Dati generali di un ordine di workflow.
 Ogni ordine è un'istanza di un processo di worklow (TAWFA).
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'F1'                               £FUNT1
 
 ## Chiave primaria
@@ -27,9 +27,9 @@ La funzione è il processo di WF.
 ## Livelli e stati
 Il livello è quello "classico" di tutti gli oggetti Sme.up (0/2/8/9).
 Per quanto riguarda lo stato distinguiamo vari concetti : 
- * Lo stato vero e proprio dell'ordine F1 (F1STAT) :  la gestione è "blindata" in un V2 (WF_06), perchè a seconda del valore assunto si hanno comportamenti diversi del motore di workflow. Ad esempio, a stato 21 (gestione libera) il motore di workflow non attiva automaticamente gli impegni all'avanzamento.
- * Lo stato di avanzamento (F1STAV) :  è un campo OPZIONALMENTE impostabile nello svolgimento di un workflow per indicare a oggetti esterni all'ordine (ad esempio altri ordini di workflow da questo dipendenti) lo stato LOGICO di questo ordine, dipendente dal processo.
- * Lo stato dell'oggetto master di un ordine spesso viene gestito dal workflow stesso :  ad esempio sarà il workflow di gestione di un articolo a impostare lo stato dell'articolo ad esso associato (in progettazione, in fase di ingegnerizzazione, a listino...).
+ \* Lo stato vero e proprio dell'ordine F1 (F1STAT) :  la gestione è "blindata" in un V2 (WF_06), perchè a seconda del valore assunto si hanno comportamenti diversi del motore di workflow. Ad esempio, a stato 21 (gestione libera) il motore di workflow non attiva automaticamente gli impegni all'avanzamento.
+ \* Lo stato di avanzamento (F1STAV) :  è un campo OPZIONALMENTE impostabile nello svolgimento di un workflow per indicare a oggetti esterni all'ordine (ad esempio altri ordini di workflow da questo dipendenti) lo stato LOGICO di questo ordine, dipendente dal processo.
+ \* Lo stato dell'oggetto master di un ordine spesso viene gestito dal workflow stesso :  ad esempio sarà il workflow di gestione di un articolo a impostare lo stato dell'articolo ad esso associato (in progettazione, in fase di ingegnerizzazione, a listino...).
 
 Tutte queste informazioni possono essere usate per prendere decisioni nello svolgimento del workflow.
 

@@ -22,7 +22,7 @@ _2_Oggetti aggiuntivi piatti
 - Fase lavoro (oggetto OP)
 - Causa difetto (tabella CQC)
 - Fase ciclo collaudo (generico)
-- Tipo ente addebito (*CNTT)
+- Tipo ente addebito (\*CNTT)
 - Tipo scarto (tabella CQE)
 - Azione correttiva (generico)
 

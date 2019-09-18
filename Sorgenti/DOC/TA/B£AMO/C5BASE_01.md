@@ -2,55 +2,55 @@
 
 ## COMPLETAMENTO TABELLE
 ### TABELLE COMUNI DI BASE
- * TABELLA B£2
+ \* TABELLA B£2
 Impostare correttamente il codice Azienda e la valuta EURO in tabella B£2
  :  : DEC T(ST) K(B£2)
- * TABELLA BRE
+ \* TABELLA BRE
 Riprendere la tabella Tipo contatto (BRE) per clienti/fornitori per aggiornare la natura ente
  :  : DEC T(ST) K(BRE)
- * TABELLA BRI
+ \* TABELLA BRI
 Verificare la presenza degli elementi £17 £18 £19 £20 £21 £24
  :  : DEC T(ST) K(BRI)
- * TABELLA BRX
+ \* TABELLA BRX
 Verificare la corretta impostazione di persona fisica/giuridica, percipiente intabelle BRX
  :  : DEC T(ST) K(BRX)
- * TABELLA PER
+ \* TABELLA PER
 Creare gli elementi della tabella PER con sottosettore azienda tramite l'utility PE8 con funzione MAN e metodo CRE
 
- * TABELLA B£4
+ \* TABELLA B£4
 Creare gli elementi della tabella B£4
 
- * TABELLE VALUTE E CAMBI
+ \* TABELLE VALUTE E CAMBI
 Riprendere da modello la tabella delle valute e dei cambi
  :  : DEC T(ST) K(VAL)
  :  : DEC T(ST) K(TCA)
- * TABELLA B£W
+ \* TABELLA B£W
 Verificare presenza stai per oggetti E4, E5, RR e MH
  :  : DEC T(ST) K(B£WE4)
  :  : DEC T(ST) K(B£WE5)
  :  : DEC T(ST) K(B£WRR)
  :  : DEC T(ST) K(B£WMH)
- * TABELLA B£Y
-Verificare presenza gruppo flag C5*
+ \* TABELLA B£Y
+Verificare presenza gruppo flag C5\*
  :  : DEC T(ST) K(B£Y)
- * TABELLA B§L
-Riprendere gli elementi C5*  di tabella per la gestione dei log
+ \* TABELLA B§L
+Riprendere gli elementi C5\*  di tabella per la gestione dei log
 
 ### TABELLE CONTABILI DI BASE
- * C51
+ \* C51
 Impostare la tabella : 
  :  : DEC T(ST) K(C51)
 
- * REGISTRI IVA
+ \* REGISTRI IVA
 Impostare la tabella : 
  :  : DEC T(ST) K(C5R&AZ)
 
- * CAUSALI REGISTRAZIONI
+ \* CAUSALI REGISTRAZIONI
 Scandire le tabelle seguenti controllandone la completezza
  :  : DEC T(ST) K(C5D&AZ)
  :  : DEC T(ST) K(C5V&AZ)
 
- * PIANO DEI CONTI
+ \* PIANO DEI CONTI
 Scandire gli elementi della seguente tabella oppure riprenderli dalla libreria dei modelli _4_SMEMOD
  :  : DEC T(ST) K(C5B)
 Ricordarsi di impostare sui conti clienti/fornitori il tipo contatto.
@@ -58,23 +58,23 @@ Per gestire i parametri del conto in fase di post-modifica deve essere definito 
  :  : DEC T(TA) P(B£H) K(M-TAC5B)
  :  : DEC T(TA) P(B£JTA) K(M002)
 
- * RICLASSIFICHE
+ \* RICLASSIFICHE
 Controllare e configurare le seguenti tabelle : 
  :  : DEC T(ST) K(C5N)
  :  : DEC T(ST) K(C5NCE)
  :  : DEC T(ST) K(C5NBA)
  :  : DEC T(ST) K(C5M)
 
- * PAGAMENTI
+ \* PAGAMENTI
 Scandire le tabelle seguenti controllandone la completezza
  :  : DEC T(ST) K(PAG&AZ)
  :  : DEC T(ST) K(C5I&AZ)
  :  : DEC T(ST) K(C5G&AZ)
  :  : DEC T(ST) K(C5E&AZ)
 
- * BANCHE
+ \* BANCHE
 Per lo standard SME.up le banche sono di due tipi
- * Insieme di tutti gli sportelli nazionali :  sono definite come enti di tipo BAN. In presenza della tabella "BAN" si deve procedere alla deviazione : 
+ \* Insieme di tutti gli sportelli nazionali :  sono definite come enti di tipo BAN. In presenza della tabella "BAN" si deve procedere alla deviazione : 
  :  : DEC T(ST) K(BAN)
 si deve deviare impostando >OCNBAN o >OBA
  :  : DEC T(TA) P(B£I) K(BAN)
@@ -87,19 +87,19 @@ E quindi fonderli nell'anagrafica aziendale
  :  : INI
  :  : CMD CALL C5N000G PARM('OF' 'X F' 'CNBAN')
  :  : FIN
- * Banche utilizzate dall'azienda
+ \* Banche utilizzate dall'azienda
 Sono definite tramite la configurazione delle tabelle : 
  :  : DEC T(ST) K(C5F)
  :  : DEC T(ST) K(C5J)
 
-* TABELLE RITENUTE
+\* TABELLE RITENUTE
 Scandire le tabelle seguenti controllandone la completezza
  :  : DEC T(ST) K(C5P)
  :  : DEC T(ST) K(C5T)
 
-*TABELLE TRACCIATI BANCARI
-Fasare tabelle tracciati trasmissione bancaria *CNT5 : 
- :  : DEC T(TA) P(*CNT5)
+\*TABELLE TRACCIATI BANCARI
+Fasare tabelle tracciati trasmissione bancaria \*CNT5 : 
+ :  : DEC T(TA) P(\*CNT5)
 
 ## COMPLETAMENTO DATI GENERALI
 

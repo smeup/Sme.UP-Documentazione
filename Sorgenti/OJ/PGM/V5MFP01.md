@@ -2,8 +2,8 @@
 Il programma costruisce la bolla di invio al fornitore a partire dalla giacenza. Il fornitore usato per filtrare la giacenza è quello indicato nella tabella del tipo riga (intestatario, spedizione, ..) e deve corrispondere all'ente responsabile della risorsa legata all'ubicazione ante.
 
 Nella tabella di lancio B£JXX è ncessario impostare nel campo "parametri aggiuntivi" : 
- * Tipo riga
- * Ubicazione
+ \* Tipo riga
+ \* Ubicazione
 
 Area di giacenza e tipo giacenza sono derivate dalla prima causale di movimentazione di scarico ("-") presente nel tipo riga. La giacenza deve essere univoca.
 La giacenza deve essere di tipo MFP :  ubicazione / fase / contenitore.

@@ -9,8 +9,8 @@ La definizione delle modalità di assegnazione dell'esecutore di un impegno vien
 
 È l'insieme di utenti che possono potenzialmente eseguire un impegno.
 Se la classe di esecutori è costituita da più utenti la definizione di chi eseguirà l'impegno può avvenire in due modi : 
- * Pull, ovvero uno degli utenti prende in carico l'impegno. A questo punto diventa l'utente esecutore dell'impegno, che non è più eseguibile dagli altri utenti.
- * Push, ovvero qualcuno abilitato decide quale utente nella classe di esecutori deve eseguire l'impegno, effettuando così un'operazione di assegnazione.
+ \* Pull, ovvero uno degli utenti prende in carico l'impegno. A questo punto diventa l'utente esecutore dell'impegno, che non è più eseguibile dagli altri utenti.
+ \* Push, ovvero qualcuno abilitato decide quale utente nella classe di esecutori deve eseguire l'impegno, effettuando così un'operazione di assegnazione.
 
 
 # Responsabile assegnazione

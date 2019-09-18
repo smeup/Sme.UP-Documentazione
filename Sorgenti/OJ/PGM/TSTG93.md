@@ -42,7 +42,7 @@ Ad eccezione del marcatore BCOLOR, che ha significato globale per tutta la cella
 - Cerchio :  indica il punto del centro del cerchio come coordinata relativa alla precedente.
 - Triangoli :  come per la barra. Il vertice è posizionato a metà dell'altezza dell'elemento.
 
-Il colore può avere valore speciale *NONE. In questo caso nello spazio occupato dall'elemento non sarà visualizzata alcuna forma.
+Il colore può avere valore speciale \*NONE. In questo caso nello spazio occupato dall'elemento non sarà visualizzata alcuna forma.
 
 Come marcatore è anche possibile utilizzare un "separatore". Ogni separatore è un marcatore particolare con le sue regole speciali indicato tramite la sintassi tipo;percentuale;colore(opzionale);spessore(in pixel opzionale);altezza(in percertuale opzionale).
  T(Esistono i seguenti separatori : )
@@ -54,7 +54,7 @@ Come marcatore è anche possibile utilizzare un "separatore". Ogni separatore è
 
 ## ESEMPI
 "R100G200B002;50,4\\SEP;80,00;R255G000B000;2\\R255G150B000;98,00"
-"SHAPE;CIRCLE\\*R000G200B000;33,3\\R255G255B051;66,5\\R220G00B00;100,0"
+"SHAPE;CIRCLE\\\*R000G200B000;33,3\\R255G255B051;66,5\\R220G00B00;100,0"
 
 # LA /COPY
 Per semplificare la composizione della stringa XML che esegue tali funzioni, è stata realizzata la routine £G93, che riceve in input le informazioni elementari, esegue le elaborazioni opportune (determinazione della scala, ec..) e torna la stringa £G93 che va semplicemente trimmata, ed n si tocchino verticalmente.
@@ -93,7 +93,7 @@ La forma vuota serve quando si vuol riempire solo lo sfondo. Ad esempio, se in u
 ### Colore
 Il colore di riempimento della forma viene determinato con questa risalita
 . Valore RGB in £G93I20.
-E' possibile inserire il codice *NONE che ha il significato di "trasparente", vale a dire che assume il colore dello sfondo. Può essere utile, tra l'altro, in caso di cella composta (strudel o scritture in ADD), per saltare alcune fette.
+E' possibile inserire il codice \*NONE che ha il significato di "trasparente", vale a dire che assume il colore dello sfondo. Può essere utile, tra l'altro, in caso di cella composta (strudel o scritture in ADD), per saltare alcune fette.
 . Se assente :  Numero colore di £ATR in £G93I03
 . Se assente :  Numero colore 16 (grigio)
 Questo campo non è significativo per la forma semaforo.
@@ -103,7 +103,7 @@ Il colore dello sfondo viene determinato con questa risalita
 . Valore RGB in £G93I21
 . Se assente :  Numero colore di £ATR in £G93I05
 . Se assente :  si lascia bianco.
-Non è significativo il colore *NONE.
+Non è significativo il colore \*NONE.
 ### £G93I04 Luce semaforo
 Par la forma semaforo, si impostano in qusto campo le luci da accendere.
 Riferirsi alla COPY £G93DS per l'elenco dei valori possibili.
@@ -160,7 +160,7 @@ Impostare 'SCA'
 ### £G93I08 Altezza strudel
 E' significativo in caso dello strudel, quando è stato passato un valore, in questo stesso campo, nella funzione INZ, per comunicare che lo strudel è ad altezza variabile.
 Si può impostare un numero da 1 a 99, che riduce percentualmente l'altezza della linea, per la fetta che si sta pssando.
-E' possibile azzerare l'altezza di una fetta impostando il colore *NONE, che rende questa fetta trasmarente :  mentre non va impostata l'altezza a zero, in quanto il client in questo caso la porterebbe a 100.
+E' possibile azzerare l'altezza di una fetta impostando il colore \*NONE, che rende questa fetta trasmarente :  mentre non va impostata l'altezza a zero, in quanto il client in questo caso la porterebbe a 100.
 ### £G93I10 Numero da riportare
 ### Colore
 E' il colore con cui verrà riempita la linea fino al numero precedente.
@@ -324,26 +324,26 @@ Il seguente è il codice con cui si ottiene questo risultato.
 C                   EVAL      £G93FU='INZ'
 C                   EVAL      £G93ME='SCA'
 C                   EVAL      £G93I01=''
-C**  Forma linea - Linea
+C\*\*  Forma linea - Linea
 C                   EVAL      £G93I02='05'
-C**  Tipo linea - Intervallo di date
+C\*\*  Tipo linea - Intervallo di date
 C                   EVAL      £G93I09='4'
-C** Inizio e fine intervallo :  la griglia costruita sarà di 3 elementi
+C\*\* Inizio e fine intervallo :  la griglia costruita sarà di 3 elementi
 C                   EVAL      £G93I11=20150101
 C                   EVAL      £G93I14=20150104
-C** Tipo griglia - Fissa in giorni
+C\*\* Tipo griglia - Fissa in giorni
 C                   EVAL      £G93I25='01'
-C** Colore asse Y (in questo esempio è nero)
+C\*\* Colore asse Y (in questo esempio è nero)
 C                   EVAL      £G93I19=18
-C** spazi (devono essere gli stessi del richiamo della cella)
+C\*\* spazi (devono essere gli stessi del richiamo della cella)
 C                   EVAL      £G93I06=2
 C                   EVAL      £G93I07=2
 C                   EXSR      £G93
-C**
+C\*\*
 C                   EVAL      £G93FU='WRI'
 C                   EVAL      £G93ME=''
 C                   EXSR      £G93
-C** il campo XG93SR (definito *LIKE di £G93SR) va concatenato a quest'ultimo
+C\*\* il campo XG93SR (definito \*LIKE di £G93SR) va concatenato a quest'ultimo
 C                   EVAL      XG93SR=£G93SR
 
 

@@ -3,7 +3,7 @@
 - Smens installato su As400 e sul server di destinazione.
 
 - Tabella JA1 con indicato Utente e Password per eseguire FTP verso As400
- :  : DEC T(TA) P(JA1) K(*) I(**>> Verifica Completezza tabella**)
+ :  : DEC T(TA) P(JA1) K(\*) I(**>> Verifica Completezza tabella**)
 
 - Tabella HOST su As400 con indicato matricola As400 con associato indirizzo IP (CFGTCP Opz 10) (ad esempio S4431CFA --> 172.16.2.100)
 

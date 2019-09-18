@@ -156,7 +156,7 @@ L'effettiva chiave univoca delle risorse secondarie è :
 
 In tal modo si possono collezionare vari oggetti per una riga di ciclo.
 Oltre alla chiave 3, si possono inserire ulteriori informazioni, la cui natura è guidata dal modello, presente sempre nella BRK.
-Oltre ai modelli standard (che iniziano con *) è possibile definirne di specifici (programmi che configurano il formato di dettaglio di manutenzione dei dati).
+Oltre ai modelli standard (che iniziano con \*) è possibile definirne di specifici (programmi che configurano il formato di dettaglio di manutenzione dei dati).
 
 Ad esempio. è possibile codificare gli attrezzi utilizzati in una riga di ciclo.
 L'impostazione della B£J è la seguente : 

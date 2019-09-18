@@ -7,7 +7,7 @@ I tempi (schiera £CRV), vengono ritornati nel seguente modo :
 -    Se l'unità di misura di presentazione (£CIRUP) è blanks, sono ritornati come sono memirizzati in archivio (in
 secondi)  :  questo modo serve nel caso in cui la schiera dei tempi dovrà essere elaborata successivamente con la £BRT,
 (ad esempio nel caso di calcolo di costi o di scansione schedulata).
--    Se l'unità di misura di presentazione (£CIRUP) è '**', sono ritornati nell'unità di misura in cui sono stati
+-    Se l'unità di misura di presentazione (£CIRUP) è '\*\*', sono ritornati nell'unità di misura in cui sono stati
 inseriti.
 -    Se l'unità di misura di presentazione (£CIRUP) è un altro valore, sono ritornati in questa unità di misura.
 ## Scansione tecnica

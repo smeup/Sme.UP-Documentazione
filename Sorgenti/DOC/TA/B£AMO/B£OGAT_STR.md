@@ -10,7 +10,7 @@ I limiti principali di questi linguaggi possono essere enucleati in questi due p
 
 - Ogni oggetto deve ereditare da un'unica classe padre, è vero che questo è stato un aggiustamento introdotto per evitare l'enorme confusione che veniva a crearsi con la multiereditarietà ed è vero che l'utilizzo di interfacce consente di superare in parte il problema, ma è pur vero che nella realtà ogni oggetto a seconda del contesto in cui viene utilizzato può essere concepito come erede di una classe piuttosto che di un'altra cioè esiste una sorta di polimorfismo trasversale alla cui rappresentazione java e come lui ogni altro linguaggio di programmazione risulta del tutto inadeguato. Un cliente ad esempio potrebbe in casi particolari anche essere un fornitore.
 
-- Le definizioni delle classi in java sono fatte su files di testo di tipo *.java, pertanto ogni precisazione introdotta alla definizione in termini di attributi e di funzioni richiede sempre l'intervento sul codice, in termini aziendali di un programmatore che aggiunge codice, compila e riaggiusta l'ambiente. Le definizioni spesso dipendono da chi le dichiara, cioè essendo astrazioni eseguite da qualcuno in un qualche contesto possono essere soggette a diversi tipi di interpretazione. Il rendere le classi su un file di testo rende difficile la modificabilità delle stesse, un prodotto object oriented deve poter consentire all'utente la modificabilità delle proprie definizioni in maniera interattiva, le definizioni stesse delle classi devono poter essere oggetti manipolabili.
+- Le definizioni delle classi in java sono fatte su files di testo di tipo \*.java, pertanto ogni precisazione introdotta alla definizione in termini di attributi e di funzioni richiede sempre l'intervento sul codice, in termini aziendali di un programmatore che aggiunge codice, compila e riaggiusta l'ambiente. Le definizioni spesso dipendono da chi le dichiara, cioè essendo astrazioni eseguite da qualcuno in un qualche contesto possono essere soggette a diversi tipi di interpretazione. Il rendere le classi su un file di testo rende difficile la modificabilità delle stesse, un prodotto object oriented deve poter consentire all'utente la modificabilità delle proprie definizioni in maniera interattiva, le definizioni stesse delle classi devono poter essere oggetti manipolabili.
 
 
 Questi limiti sono intrinseci nei linguaggi orientati ad oggetti attuali e il loro utilizzo deve sempre essere fatto con la consapevolezza dei medesimi.
@@ -79,7 +79,7 @@ L'ereditarietà è un altro elemento essenziale di una architettura che si defin
 
 ![BLV0002-01](http://localhost:3000/immagini/B£OGAT_STR/BLV0002-01.png)
 ### Ereditarietà di primo livello (Tipo Oggetto)
-Il primo livello di ereditarietà si ottiene attraverso il Tipo Oggetto come si può vedere nello schema. La tabella che contiene i tipi oggetto è la *CN sottosettore TT.
+Il primo livello di ereditarietà si ottiene attraverso il Tipo Oggetto come si può vedere nello schema. La tabella che contiene i tipi oggetto è la \*CN sottosettore TT.
 Esempi di oggetti applicativi sono : 
 
 - CN :  contatti
@@ -104,7 +104,7 @@ E' un attributo impostabile attraverso la tabella tipo_nome_oggetto; ad esempio 
 
 
 ## Oggetti deprecati e Oggetti deviati
-Lo sviluppo storico del prodotto ha portato ridefinire più volte il portafoglio degli oggetti disponibili;  si sono così creati oggetti deprecati perché sostituiti da altri o rinominati, nellatabella *CNTT compaiono ad esempio l'oggetto 'CL' Cliente o l'oggetto 'FO' Fornitore, rimpiazzatirispettivamente dalle specializzazioni 'CLI' e  'FOR' dell'oggetto CN ma utilizzati ancora ampiamente nei moduli più vecchi del prodotto come la qualità. (Ricordo che 'deprecato' non significa non utilizzato, ma semplicemente che se ne sconsiglia l'uso laddove possibile perché se ne prevede la rimozione).
+Lo sviluppo storico del prodotto ha portato ridefinire più volte il portafoglio degli oggetti disponibili;  si sono così creati oggetti deprecati perché sostituiti da altri o rinominati, nellatabella \*CNTT compaiono ad esempio l'oggetto 'CL' Cliente o l'oggetto 'FO' Fornitore, rimpiazzatirispettivamente dalle specializzazioni 'CLI' e  'FOR' dell'oggetto CN ma utilizzati ancora ampiamente nei moduli più vecchi del prodotto come la qualità. (Ricordo che 'deprecato' non significa non utilizzato, ma semplicemente che se ne sconsiglia l'uso laddove possibile perché se ne prevede la rimozione).
 La catalogazione di tutti gli oggetti deprecati è allo stato attuale delle cose 'difficoltosa'. Qua sotto elenchiamo i principali oggetti deprecati e i rispettivi rimpiazzamenti : 
 
 - CL
@@ -116,9 +116,9 @@ La catalogazione di tutti gli oggetti deprecati è allo stato attuale delle cose
 - AG
 -- TAAGE
 - PG
--- OG*PGM
+-- OG\*PGM
 - PU
--- OG*USRPRF
+-- OG\*USRPRF
 
 Per Deviazione di oggetti si intende l'operazione di reindirizzamento di un oggetto su un altro oggetto per cui ad esempio quelli che per un'azienda sono i clienti per un'altra potrebbero esserei fornitori o gli agenti, oppure all'interno della stessa azienda gli agenti potrebbero anche figurare come clienti. La mappatura di queste deviazioni è tracciata nelle tabelle B£O nel caso di oggetti generici e B£I per la deviazione di oggetti tabella 'TA'.
 La deprecazione e deviazione di un oggetto sono attributi generici dell'oggetto, pertanto sono attributi riferibili all'oggetto applicativo OG. Attualmente se si vuole sapere se un oggetto è stato rimpiazzato o agganciato ad un altro oggetto è sufficiente consultare i meta-attributi.
@@ -232,7 +232,7 @@ Si tratta delle azioni A-XX viste al punto 3 del paragrafo precedente. A differe
 
 # Creazione di un nuovo oggetto
 ## Creazione Step by Step
-- Definizione in tabella *CNTT                                            VO
+- Definizione in tabella \*CNTT                                            VO
   Nome, Significato, Lunghezza massima
 - Definizione in programma B£DEC3 del parametro                               MB DOC_VOC
   Oggetto e obbligatorietà
@@ -277,17 +277,17 @@ Il codice dell'elemento deve avere la convenzione di scrittura seguente :
 
 La descrizione deve avere la struttura seguente : 
 
-_1_&nnn*TT*PPP>CCC
+_1_&nnn\*TT\*PPP>CCC
 
 dove : 
 
  - _1_ & ; fisso per indicare che si tratta di un valore derivato da un OAV
  - _1_nnn; numero dell'elemento della tabella INT che richiama l'oggetto di cui si vuole inserire nello schema l'OAV. (es. nella tabella degli schemi analisi disponibilità INT_AD se voglio aggiungere un OAV dell'ente sarà nnn = 010)
- - _1_*TT; è il tipo oggetto (es. se si parla di ente sarà *TT = *CN)
- - _1_*PPP; può essere : 
+ - _1_\*TT; è il tipo oggetto (es. se si parla di ente sarà \*TT = \*CN)
+ - _1_\*PPP; può essere : 
  -- _3_blank, quando l'oggetto non pretende il parametro oggetto (es. per gli articoli può essere sufficiente TT = AR se si vuole un OAV comune a tutti gli articoli);
- -- _3_*PPP, dove PPP è il parametro oggetto quando questo è predefinito (es. per una causale di movimentazione sarà *TT = *TA e *PPP = *GMC);
- -- _3_&nnn, dove il parametro oggetto viene preso da un altro campo della tabella INT (es. nella tabella schemi analisi disponibilità INT_AD se voglio aggiungere un OAV di un ente prendendo un OAV dipendente dal tipo ente dovrò scrivere *PPP = &09 per derivare il tipo ente dalla tabella INT_AD)
+ -- _3_\*PPP, dove PPP è il parametro oggetto quando questo è predefinito (es. per una causale di movimentazione sarà \*TT = \*TA e \*PPP = \*GMC);
+ -- _3_&nnn, dove il parametro oggetto viene preso da un altro campo della tabella INT (es. nella tabella schemi analisi disponibilità INT_AD se voglio aggiungere un OAV di un ente prendendo un OAV dipendente dal tipo ente dovrò scrivere \*PPP = &09 per derivare il tipo ente dalla tabella INT_AD)
  - _1_>CCC; può essere : 
  -- _3_blank, nello schema sarà aggiunta la descrizione;
  -- _3_>>, nello schema sarà aggiunta la descrizione;

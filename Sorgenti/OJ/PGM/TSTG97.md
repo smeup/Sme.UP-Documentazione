@@ -1,7 +1,7 @@
 ### Funzioni e metodi
 
 - GCR Gestione carrelli.
--- CRE Crea un nuovo carrello contenente la cartella Appunti (*LAST). Se il carrello da creare esiste già, ritorna errore.
+-- CRE Crea un nuovo carrello contenente la cartella Appunti (\*LAST). Se il carrello da creare esiste già, ritorna errore.
 -- CPY Copia un intero carrello (= tutte le sue cartelle) in un altro. Se il carrello origine non esiste o se il carrello destinazione esiste già, ritorna errore.
 -- DEL Cancella un intero carrello (= tutte le sue cartelle). Se il carrello da cancellare non esiste, ritorna errore.
 -- DEC Decodifica. Verifica l'esistenza di un carrello. Se esiste ritorna tipo e codice dell'oggetto proprietario del carrello, altrimenti ritorna errore.

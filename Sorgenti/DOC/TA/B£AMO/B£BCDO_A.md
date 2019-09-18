@@ -6,8 +6,8 @@ Per motivi tecnici, in questo documento le tag di BCD sono precedute dai caratte
 Sono presenti 20 variabili alfanumeriche (_&_01, _&_02, ... _&_20) e le variabili numeriche di puntamento alle 20 aree dello script : 
 >£T01 - £T20  :  riempimento dell'area
 £A01 - £A20  :  puntatore   dell'area
-£I01 - £I20  :  numero iniziale  area ** definiscono una sezione o una
-£E01 - £E20  :  numero finale    area ** scelta
+£I01 - £I20  :  numero iniziale  area \*\* definiscono una sezione o una
+£E01 - £E20  :  numero finale    area \*\* scelta
 
 Sono presenti anche 10 flag (gestiti nei programmi come elementi di schiera) ed accessibili dallo script come (/01, /02, .. /10)
 
@@ -56,12 +56,12 @@ dove xx = campo costante (max 15 caratteri) oppure variabile _&_x o £x
 
 ## Pulizia variabili
 >..CLEAR
- .*  VR(*ALL) pulisce tutte le variabili (alfan. numeriche e flag)
- .*  VR(*ALF) pulisce le variabili alfanumeriche
- .*  VR(*FLG) pulisce i flag
- .*  VR(*NUM) pulisce le variabili numeriche
- .*  VR(_&_xx)  pulisce la variabile alfanumerica xx
- .*  VR(£yxx) pulisce la variabile numerca xx di tipo y (esempio £T03 :  pulisce il puntatore al riempimento della DS n.3)
+ .\*  VR(\*ALL) pulisce tutte le variabili (alfan. numeriche e flag)
+ .\*  VR(\*ALF) pulisce le variabili alfanumeriche
+ .\*  VR(\*FLG) pulisce i flag
+ .\*  VR(\*NUM) pulisce le variabili numeriche
+ .\*  VR(_&_xx)  pulisce la variabile alfanumerica xx
+ .\*  VR(£yxx) pulisce la variabile numerca xx di tipo y (esempio £T03 :  pulisce il puntatore al riempimento della DS n.3)
 
 
 ## Azioni su variabili numeriche
@@ -133,7 +133,7 @@ Parametri dello script
 La variabile 'parametri dello script' contiene 200 caratteri formattati in funzione di quanto impostato nello script per parametri, che si definisce (in modo facoltativo) nell'elemento B§G.
 
 Lo script deve avere la seguente struttura : 
->  Par Lun Valore_____________* Nota----------------------------------------*
+>  Par Lun Valore_____________\* Nota----------------------------------------\*
 V 001 003 ABC                  AAAAAAAAAAAAAAA
 N                              BBBBBBBBBBBBBBBBBBBBB
 V 004 010 1234567890           AAAAAAAAAAAAAAA

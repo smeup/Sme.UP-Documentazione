@@ -40,7 +40,7 @@ programma RPG.
 ## Versione 3  (14 ottobre 2004)
 
 - Corretto errore su richiesta esterna di funzioni di tipo EDT. Prima venivano accettate
-solo richieste di tipo *EDTLET e rifiutate tutte le altre.
+solo richieste di tipo \*EDTLET e rifiutate tutte le altre.
 
 - Corretta gestione delle funzioni e oggetti preferiti. La lettura del XML viene ripetuta ad
 ogni apertura del carrello per garantire che l'utente veda sempre la situazione aggiornata.
@@ -112,7 +112,7 @@ anche ai moduli esterni.
 
 - Spostato il menù di "Scheda del programma sorgente" dal menù
 servizi al menù di help. La voce di menù ha assunto la nuova descrizione
-"Scheda servizio" ed è stata collegata alla scheda dell'oggetto OJ-*PGM
+"Scheda servizio" ed è stata collegata alla scheda dell'oggetto OJ-\*PGM
 definito nel campo "Servizio" presente nella sezione "Service" del file
 XML del modulo.
 
@@ -128,7 +128,7 @@ attuali e precedenti.
 
 - Corretto preview di funzione per eliminare il problema nel salvataggio nei
 preferiti di una funzione. In precedenza veniva perso ogni riferimento all'oggetto
-di riferimento, che veniva sempre impostato a **. Corretto anche il malfunzionamento
+di riferimento, che veniva sempre impostato a \*\*. Corretto anche il malfunzionamento
 sulla modifica di una voce già preesistente.
 
 ## Versione 11 (10 febbraio 2005)

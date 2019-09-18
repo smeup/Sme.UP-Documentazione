@@ -20,7 +20,7 @@ richiamare per ognuno diessi il messaggio di secondo livello.
 - finestra messaggi di sec. livello
 . COMANDO OS/400 "CHGMSGD"
 Record video per la manutenzione del messaggio e dei suoi attributi. La manutenzione e' permessa solo ad utenti con
-classe *PGMR o *QSECOFR.
+classe \*PGMR o \*QSECOFR.
 B£DMS2    stampa messaggi
 Un programma batch per segnalare le anomalie riscontrate durante l'elaborazione differita dei dati.
 ## COPY PREVISTE NELLA FUNZIONE <£DMS>

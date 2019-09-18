@@ -22,23 +22,23 @@
   INPUT :  £MDEST -> Struttura delle informazioni.
          £MDECO -> Contesto di memorizzazione
          £MDENM -> Nome della memorizzazione
-         £MDEUS -> Utente della memorizzazione, "**" per renderlo pubblico,
-                                                "**+Gruppo" per condividerlo al proprio gruppo
+         £MDEUS -> Utente della memorizzazione, "\*\*" per renderlo pubblico,
+                                                "\*\*+Gruppo" per condividerlo al proprio gruppo
          £MDEIM -> Buffer di scrittura o lettura
-         £MDE35 -> *ON se errore in lettura o scriuttura
+         £MDE35 -> \*ON se errore in lettura o scriuttura
 
 -**"MDV"** Gestione memorizzazione Video di stato.
   Questa funzione nasce per sostituire in maniera veloce la vecchia £MDV. Se chiamata senza metodo
   assume lettura e alla successiva chiamata scrittura.
   NOTA BENE : 
-  Il Nome della memorizzazione assunto è *LAST e non è modificabile
-  -**"WRI"** Scrivi *LAST
-  -**"LET"** Leggi  *LAST dell'utente del job del suo gruppo utente o dell'utente **
-  -**"LEU"** Leggi  *LAST di un qualsiasi utente
+  Il Nome della memorizzazione assunto è \*LAST e non è modificabile
+  -**"WRI"** Scrivi \*LAST
+  -**"LET"** Leggi  \*LAST dell'utente del job del suo gruppo utente o dell'utente \*\*
+  -**"LEU"** Leggi  \*LAST di un qualsiasi utente
   INPUT :  £MDEST -> Struttura delle informazioni, lasciare vuoto oppure sovrascrivere il default.
          £MDECO -> Contesto di memorizzazione,   lasciare vuoto oppure sovrascrivere il default.
-         £MDENM -> Nome della memorizzazione,    viene sempre assunto *LAST.
+         £MDENM -> Nome della memorizzazione,    viene sempre assunto \*LAST.
          £MDEUS -> Utente della memorizzazione   lasciare vuoto oppure sovrascrivere il default.
                    (solo se il metodo non è LET)
          £MDEIM -> Buffer di scrittura o lettura
-         £MDE35 -> *ON se errore in lettura o scriuttura
+         £MDE35 -> \*ON se errore in lettura o scriuttura

@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni comuni ad un insieme di richieste per la movimentazione di articoli, sia all'interno dell'azienda, sia da/verso l'esterno.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'DM'                               £FUNT1
 
 ## Chiave primaria
@@ -21,8 +21,8 @@ Le impostazioni che condizionano questo archivio sono contenute nel settore di t
 La classe di autorizzazione è GMRM01.
 
 La funzione di autorizzazione è il programma in cui si esegue il controllo : 
- * GMOR01G   -    Formato guida
- * GMOR01L   -    Lista
+ \* GMOR01G   -    Formato guida
+ \* GMOR01L   -    Lista
 
 ## Note strutturate (Tabella NSC)
 Il contenitore si assume dalla tabella GMO (Tipo Documento Movimentazione). Se non inserito si assume DM.

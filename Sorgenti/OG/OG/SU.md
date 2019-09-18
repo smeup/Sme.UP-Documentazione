@@ -8,13 +8,13 @@ In Sme.UP l'oggetto SU, viene spesso indicato anche con lo termine "upp".
 ## Codifica
 
 Un'istanza di upp ha un codice strutturato in modo significativo. E' infatti sempre definito nel seguente modo : 
-* Due caratteri che definiscono l'applicazione di appartenenza
-* Un underscore
-* 3 caratteri alfanumerici univoci :  questi caratteri da soli identificano già di per se in modo univoco la "upp" e verrano come vedremo a seguire usati anche in tale accezione.
+\* Due caratteri che definiscono l'applicazione di appartenenza
+\* Un underscore
+\* 3 caratteri alfanumerici univoci :  questi caratteri da soli identificano già di per se in modo univoco la "upp" e verrano come vedremo a seguire usati anche in tale accezione.
 
 Avremo quindi codici simili a questi : 
-* A£_001
-* C5_002
+\* A£_001
+\* C5_002
 
 E' importante rimarcare nuovamente che gli ultimi 3 caratteri sono univoci di per loro e che quindi non esisterà mai un upp C5_001, in quanto il codice 001 è stato già usato dall'upp A£_001.
 
@@ -42,13 +42,13 @@ L'upp ha un responsabile intestatario e può avere una serie di collaboratori. I
 Sia il responsabile che i collaboratori sono indicati nello script SCP_UPP (istruzioni UPP.ANA e UPP.COL).
 
 I collaboratori possono assumere i seguenti ruoli : 
-* GEN Assistente Generale :  ha le stesse autorizzazioni del responsabile
-* TEC Assistente Tecnico :  può modificare script, programmi e tabelle
-* APP Assistente Applicativo :  può modificare gli script e le tabelle
-* DOC Responsabile Documentazione :  può modificare la documentazione
-* FOR Responsabile Formazione :  può modificare la documentazione
-* TST Responsabile Test :  non ha autorizzazioni particolari
-* RES Responsabile Informazione :  non ha autorizzazioni particolari
+\* GEN Assistente Generale :  ha le stesse autorizzazioni del responsabile
+\* TEC Assistente Tecnico :  può modificare script, programmi e tabelle
+\* APP Assistente Applicativo :  può modificare gli script e le tabelle
+\* DOC Responsabile Documentazione :  può modificare la documentazione
+\* FOR Responsabile Formazione :  può modificare la documentazione
+\* TST Responsabile Test :  non ha autorizzazioni particolari
+\* RES Responsabile Informazione :  non ha autorizzazioni particolari
 
 ## Variabili da script
 
@@ -62,41 +62,41 @@ Es. la variabile dello script di configurazione della UPP A£_000, avente codice
 
 Vediamo brevemente in rassegna alcuni dei principali sorgenti che è possibile abilitare sull'upp : 
 
-* Per l'utilizzo
-** **Scheda** :  è possibile abilitare una scheda intestata all'upp. Naturalmente nulla vieta, applicando delle desinenze di creare più di una scheda collegata all'upp.
-** **Servizi** :  è possibile abilitare uno o più servizi intestati all'upp, applicando una desinenza _nn al codice dell'UPP.
-** **Configuratore** : E' uno script che permette la definizione di uno o più questionari che potranno essere utilizzati nel seguente modo : 
-*** definire sia richieste parametri da usare nell'UPP, tramite le istruzioni di scheda G.SUB.UCF/G.SET.UCF
-*** definire dei parametri di setup che potrammo essere poi usati nei programmi e negli script per condizionare il comportamento dell'UPP. Questo si ottiene implementando un particolare configuratore con codice upp/0. I dati qui descritti saranno poi reperibili tramite l'API £K45 nei programmi e tramite le variabili _&_KU negli script (è l'equivalente di una tabella xxn codice *, calata nella dimensione della singola UPP).
-** Nel configuratore può essere impiegata una exit che permette di applicare logiche particolari di controllo e/o completamento che lo script del configuratore non permette di implementare.
-** **Script di menù** :  permette di descrivere un elenco di funzioni da presentare come menù nell'impiego dell'UPP.
-** **File** :  è possibile definire un file di database con i corrispondenti logici
-** **Valori fissi** :  qualora sia necessario definire delle tabelle descrittive, sarà possibile farlo attraverso questo script.
-** **Workflow** :  permette definire eventuali processi di workflow da impiegare nell'UPP.
-** **Layout** :  qualora si impieghino input panel o box nell'upp, tramite questi script sarà possibile definirne il layout grafico
-** **Report come pdf** :  tramite questo script sarà possibile definire dei layout di stampa
-** **Costruttori** :  sono funzionalità complesse di carattere generale, che possono essere impiegate in diversi ambiti applicativi.
+\* Per l'utilizzo
+\*\* **Scheda** :  è possibile abilitare una scheda intestata all'upp. Naturalmente nulla vieta, applicando delle desinenze di creare più di una scheda collegata all'upp.
+\*\* **Servizi** :  è possibile abilitare uno o più servizi intestati all'upp, applicando una desinenza _nn al codice dell'UPP.
+\*\* **Configuratore** : E' uno script che permette la definizione di uno o più questionari che potranno essere utilizzati nel seguente modo : 
+\*\*\* definire sia richieste parametri da usare nell'UPP, tramite le istruzioni di scheda G.SUB.UCF/G.SET.UCF
+\*\*\* definire dei parametri di setup che potrammo essere poi usati nei programmi e negli script per condizionare il comportamento dell'UPP. Questo si ottiene implementando un particolare configuratore con codice upp/0. I dati qui descritti saranno poi reperibili tramite l'API £K45 nei programmi e tramite le variabili _&_KU negli script (è l'equivalente di una tabella xxn codice \*, calata nella dimensione della singola UPP).
+\*\* Nel configuratore può essere impiegata una exit che permette di applicare logiche particolari di controllo e/o completamento che lo script del configuratore non permette di implementare.
+\*\* **Script di menù** :  permette di descrivere un elenco di funzioni da presentare come menù nell'impiego dell'UPP.
+\*\* **File** :  è possibile definire un file di database con i corrispondenti logici
+\*\* **Valori fissi** :  qualora sia necessario definire delle tabelle descrittive, sarà possibile farlo attraverso questo script.
+\*\* **Workflow** :  permette definire eventuali processi di workflow da impiegare nell'UPP.
+\*\* **Layout** :  qualora si impieghino input panel o box nell'upp, tramite questi script sarà possibile definirne il layout grafico
+\*\* **Report come pdf** :  tramite questo script sarà possibile definire dei layout di stampa
+\*\* **Costruttori** :  sono funzionalità complesse di carattere generale, che possono essere impiegate in diversi ambiti applicativi.
 
-* Per la formazione
-** **Documentazione scheda** :  documentazione che descrive il funzionamento operativo della scheda intestataria
-** **Scheda di Cruscotto** :  è possibile abilitare una scheda fatta per illustare le funzionalità dell'UPP
-** **Glossario** :  permette di descrivere il significato di un elenco di termini la cui conoscenza è necessario per l'utilizzo dell'UPP.
-** **Training** :  permette di descrivere una serie di passi da far eseguire al lettore, atti a consentire l'autoapprendimento
-** **Corsi** :  descrive la scaletta del corso (qualora si previsto) di descrizione dell'UPP
-** **Video** :  permette di settare il link ad un video che descrive l'UPP
-** **FAQ** :  definisce le FAQ relative all'utilizzo dell'UPP.
-** **Messaggi** :  permette di definire una serie di messaggi testuali che possono poi essere impiegati nell'utilizzo dell'UPP.
-** **Figure Documentazione** :  permette di definire le immagini che potranno poi essere utilizzate nella documentazione
+\* Per la formazione
+\*\* **Documentazione scheda** :  documentazione che descrive il funzionamento operativo della scheda intestataria
+\*\* **Scheda di Cruscotto** :  è possibile abilitare una scheda fatta per illustare le funzionalità dell'UPP
+\*\* **Glossario** :  permette di descrivere il significato di un elenco di termini la cui conoscenza è necessario per l'utilizzo dell'UPP.
+\*\* **Training** :  permette di descrivere una serie di passi da far eseguire al lettore, atti a consentire l'autoapprendimento
+\*\* **Corsi** :  descrive la scaletta del corso (qualora si previsto) di descrizione dell'UPP
+\*\* **Video** :  permette di settare il link ad un video che descrive l'UPP
+\*\* **FAQ** :  definisce le FAQ relative all'utilizzo dell'UPP.
+\*\* **Messaggi** :  permette di definire una serie di messaggi testuali che possono poi essere impiegati nell'utilizzo dell'UPP.
+\*\* **Figure Documentazione** :  permette di definire le immagini che potranno poi essere utilizzate nella documentazione
 
-* Per lo sviluppo
-** **Prototipi** :  tramite gli script di prototipo è possibile costruire degli output grafici a partire da una semplice definizione di script. Questi prototipi permettono quindi di produrre dati prototipali, prima che siano sviluppati programmi che si occuperanno delle logiche complesse.
-** **Scheda di Test** :  è possibile abilitare una scheda in cui verrà concentrata la possibilità di effettuare i test delle funzionalità dell'UPP
-** **Scheda Esempi** :  ha una funzionalità simile alla precedente con la differenza che mentre la precedente lascia le scelte da effettuare libere, in questa le scelte vengono prefissate al fine di porre in evidenza alcune combinazioni significative per la verifica ed il test delle funzionalità dell'Upp.
+\* Per lo sviluppo
+\*\* **Prototipi** :  tramite gli script di prototipo è possibile costruire degli output grafici a partire da una semplice definizione di script. Questi prototipi permettono quindi di produrre dati prototipali, prima che siano sviluppati programmi che si occuperanno delle logiche complesse.
+\*\* **Scheda di Test** :  è possibile abilitare una scheda in cui verrà concentrata la possibilità di effettuare i test delle funzionalità dell'UPP
+\*\* **Scheda Esempi** :  ha una funzionalità simile alla precedente con la differenza che mentre la precedente lascia le scelte da effettuare libere, in questa le scelte vengono prefissate al fine di porre in evidenza alcune combinazioni significative per la verifica ed il test delle funzionalità dell'Upp.
 
-* Per la distribuzione
-** **Documentazione applicativa** :   documentazione che descrive i passi di attivazione ed i prerequisti per il funzionamento dell'UPP.
-** **Oggetti aggiuntivi** :  permette di definire gli oggetti impiegati nell'utilizzo dell'upp ma di cui l'upp non ne è proprietaria
-** **Script di distribuzione** :  permetterà di definire istruzioni, prerequisiti ed elenco di sorgenti, necessari per installare l'upp in un ambiente in cui non è già installata.
+\* Per la distribuzione
+\*\* **Documentazione applicativa** :   documentazione che descrive i passi di attivazione ed i prerequisti per il funzionamento dell'UPP.
+\*\* **Oggetti aggiuntivi** :  permette di definire gli oggetti impiegati nell'utilizzo dell'upp ma di cui l'upp non ne è proprietaria
+\*\* **Script di distribuzione** :  permetterà di definire istruzioni, prerequisiti ed elenco di sorgenti, necessari per installare l'upp in un ambiente in cui non è già installata.
 
 
 

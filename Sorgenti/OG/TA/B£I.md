@@ -47,11 +47,11 @@ Dati collegati
 .    Tipo oggetto
 .    Parametro
  :  : FLD T$AMBA **Tipo oggetto**
-Qualsiasi ambiente definito nella tabella *CNAA come
+Qualsiasi ambiente definito nella tabella \*CNAA come
 .    A2 = ACG versione 2
 .    SE = Seltering
 .    .. = Ecc.
-Qualsiasi tipo definito nella tabella *CNTT come
+Qualsiasi tipo definito nella tabella \*CNTT come
 .    AR = Articolo
 .    RI = Risorsa
 .    .. = Ecc.
@@ -80,7 +80,7 @@ RAGMAG    Raggruppamento magazzini
  :  : FLD T$DPAI.T$DPAM **Parametri**
  :  : FLD T$DPAR.T$DPAM **Parametri**
  :  : FLD T$B£IA **Attivazione globale**
-Definisce la tabella come deviabile. Tecnicamente si modifica la definizione della tabella (TABDS). Vengono inseriti automaticamente i **/*1. In tale modo la tabella sarà trattata dai programmi come "DEVIABILE".
+Definisce la tabella come deviabile. Tecnicamente si modifica la definizione della tabella (TABDS). Vengono inseriti automaticamente i \*\*/\*1. In tale modo la tabella sarà trattata dai programmi come "DEVIABILE".
 La deviazione con nuovo gruppo di attivazione può rendersi necessaria per risolvere problemi di ricorsione qualora l'oggetto deviato chiami la gestione tabelle.
 Il diverso completamento dell'attivazione globale e specifica è rilevante solo in presenza di ambienti con definizione unica e contenuti diversi per le tabelle.
  :  : FLD T$B£IB **Attivazione specifica**

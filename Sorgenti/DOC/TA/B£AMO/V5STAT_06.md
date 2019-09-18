@@ -19,20 +19,20 @@ Riceve in entrata una "Funzione" tra le seguenti :
 ### Funzione PRE
 
 La funzione PRE può essere richiamata con i seguenti metodi : 
- * **DO** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato solo per alcuni campi (D6TIPC, D6TPRO, D6NPRO, D6TDOC, D6NDOC, D6PROG, valorizzati secondo il contesto).
+ \* **DO** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato solo per alcuni campi (D6TIPC, D6TPRO, D6NPRO, D6TDOC, D6NDOC, D6PROG, valorizzati secondo il contesto).
 
- * **FT** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato solo per alcuni campi (D6TIPC, D6TPRO, D6NPRO, D6TDOC, D6NDOC, D6PROG, valorizzati secondo il contesto).
+ \* **FT** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato solo per alcuni campi (D6TIPC, D6TPRO, D6NPRO, D6TDOC, D6NDOC, D6PROG, valorizzati secondo il contesto).
 
- * **E4** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato solo per alcuni campi (D6TIPC, D6TPRO, D6NPRO, D6TDOC, D6NDOC, D6PROG, valorizzati secondo il contesto).
+ \* **E4** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato solo per alcuni campi (D6TIPC, D6TPRO, D6NPRO, D6TDOC, D6NDOC, D6PROG, valorizzati secondo il contesto).
 
 Da D6TIPC (=Tipo Statistica) del record V5STAT, è sempre possibile determinare il tipo di statistica elaborata e condizionare eventualmente le azioni dell'EXIT.
 Se il tipo oggetto in elaborazione è DO (metodo=DO), i riferimenti sono in D6TDOC/D6NDOC. Se il tipo oggetto in elaborazione è FT (metodo=FT), i riferimenti sono in D6TPRO/D6NPRO. Se il tipo oggetto in elaborazione è E4 (metodo=E4), i riferimenti sono in D6PROG.
@@ -40,53 +40,53 @@ Se il tipo oggetto in elaborazione è DO (metodo=DO), i riferimenti sono in D6TD
 
 ### Funzione AGG
 La funziona AGG può essere richiamata con i seguenti metodi : 
- * **TES** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
- ** Il record V5TDOC è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato con i campi di testata.
+ \* **TES** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
+ \*\* Il record V5TDOC è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato con i campi di testata.
 
- * **RIG** :   Chiamato appena prima di scrivere un record riga
- ** Il record V5TDOC è valorizzato.
- ** Il record V5RDOC è valorizzato.
- ** Il record V5STAT è valorizzato con tutti i campi in attesa di scrittura.
+ \* **RIG** :   Chiamato appena prima di scrivere un record riga
+ \*\* Il record V5TDOC è valorizzato.
+ \*\* Il record V5RDOC è valorizzato.
+ \*\* Il record V5STAT è valorizzato con tutti i campi in attesa di scrittura.
 
- * **SPE** :   Chiamato appena prima di scrivere un record spesa/sconto (a fine documento)
- ** Il record V5TDOC è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato con tutti i campi in attesa di scrittura.
+ \* **SPE** :   Chiamato appena prima di scrivere un record spesa/sconto (a fine documento)
+ \*\* Il record V5TDOC è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato con tutti i campi in attesa di scrittura.
 
- * **REG** :   Chiamato dopo aver riempito i soli campi legati alla testata (a partire da Reg.E4)
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato con i campi di testata della Registrazione.
+ \* **REG** :   Chiamato dopo aver riempito i soli campi legati alla testata (a partire da Reg.E4)
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato con i campi di testata della Registrazione.
 
- * **CON** :   Chiamato appena prima di scrivere un record da Reg.'E4' o da 'C5Y'
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato con tutti i campi in attesa di scrittura.
+ \* **CON** :   Chiamato appena prima di scrivere un record da Reg.'E4' o da 'C5Y'
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato con tutti i campi in attesa di scrittura.
 
- * **QUA** :   Chiamato appena prima di scrivere un record di Quadratura Contabile '**'
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato con tutti i campi in attesa di scrittura.
+ \* **QUA** :   Chiamato appena prima di scrivere un record di Quadratura Contabile '\*\*'
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato con tutti i campi in attesa di scrittura.
 
 
 ### Funzione POST
 La funzione POST può essere richiamata con i seguenti metodi : 
- * **DO** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato con i campi della testata del documento elaborato.
+ \* **DO** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato con i campi della testata del documento elaborato.
 
- * **FT** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato con i campi della testata del documento elaborato.
+ \* **FT** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato con i campi della testata del documento elaborato.
 
- * **E4** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
- ** Il record V5TDOC NON è valorizzato.
- ** Il record V5RDOC NON è valorizzato.
- ** Il record V5STAT è valorizzato con i campi della testata del documento elaborato.
+ \* **E4** :   Chiamato dopo aver riempito i soli campi legati alla testata (a inizio documento)
+ \*\* Il record V5TDOC NON è valorizzato.
+ \*\* Il record V5RDOC NON è valorizzato.
+ \*\* Il record V5STAT è valorizzato con i campi della testata del documento elaborato.
 
 NB. Nel caso dell'elaborazione di un oggetto di tipo FT, che fa riferimento a più documenti collegati, il record V5STAT fa riferimento all'ultima testata elaborata.
 

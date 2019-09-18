@@ -20,7 +20,7 @@ I valori possibili sono :
 - ' '  Numero commessa facoltativo
 - '1'  Numero commessa obbligatorio. Richiede obbligatoriamente il numero della commessa in fase di inserimento lotto.
  :  : FLD T$TIEN **Tipo ente riferimento**
-Campo gestito nella tabella '*CNTT' (Codici oggetti applicativi). Identifica la natura dell'ente di riferimento associato al tipo lotto.
+Campo gestito nella tabella '\*CNTT' (Codici oggetti applicativi). Identifica la natura dell'ente di riferimento associato al tipo lotto.
 _9_Esempio :  Per un Reso da Cliente si metterà il riferimento all'archivio clienti 'CL'.
  :  : FLD T$OBEN **Obbligatorio ente**
 - ' '  Immissione 'Ente di Riferimento' facoltativa
@@ -75,9 +75,9 @@ Attivazione della procedura di controllo di abilitazione fornitura per l'ente di
 Controlla l'esecuzione del programma di gestione Non Conformità.
 - ' '  Esegue il Pgm di gestione standard.
 - '1'  Esegue il pgm di gestione Non conformità di Produzione.
- :  : FLD T$DFLV **Descrizione fase lavoro se fase = '**'**
-Se viene definita la descrizione della fase, quando si entra nelle non conformità e la fase è '**' viene presa questa definizione come descrizione della fase di lavoro.
-Obsoleto il default viene ora assunto dalla tabella CQ*LO con elemento = tipo lotto
+ :  : FLD T$DFLV **Descrizione fase lavoro se fase = '\*\*'**
+Se viene definita la descrizione della fase, quando si entra nelle non conformità e la fase è '\*\*' viene presa questa definizione come descrizione della fase di lavoro.
+Obsoleto il default viene ora assunto dalla tabella CQ\*LO con elemento = tipo lotto
  :  : FLD T$CQL7 **Data registrazione a magazzino**
 Determina la data da utilizzare nell'eventuale movimento di magazzino, generato a seguito del collaudo del lotto.
 Questo campo è significativo solo se vengono gestiti un'area o un magazzino di materiale al collaudo, che viene movimentato a seguito della dichiarazione di collaudo del lotto stesso. I valori possibili sono : 
@@ -95,7 +95,7 @@ Definisce il Tipo risorsa di default assunto in fase di inizializzazione lotto.
  :  : FLD T$CQLE **Ente di controllo**
 Definisce l'oggetto assunto dall' ente di controllo, esempio DI01(Dipendente), TAB£U(profilo utente)
  :  : FLD T$CQL1 **Decodifica quantità**
-Il campo è un sottosettore della tabella CQ*, se impostato il programma di gestione quantità
+Il campo è un sottosettore della tabella CQ\*, se impostato il programma di gestione quantità
 in dichiarazione collaudo, sostituisce le intestazioni standard con quelle della tabella
 Gle elementi da inserire sono nell'ordine
 1  Conforme

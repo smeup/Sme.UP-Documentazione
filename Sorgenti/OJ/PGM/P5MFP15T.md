@@ -1,12 +1,12 @@
 # Storico avanzamento contenitore MFP
 Questo programma permette la visualizzazione di tutti gli avanzamenti relativi ad un contenitore.
 Generalmente quando la quantità di un contenitore viene avanzata tra due ubicazioni/fasi del ciclo di lavorazione vengono eseguiti : 
- * un movimento di scarico della giacenza origine
- * un movimento di carico della giacenza di destinazione
- * tutte le dichiarazioni di produzione relative alla fasi di lavorazione comprese tra quella origine e quella destinazione
+ \* un movimento di scarico della giacenza origine
+ \* un movimento di carico della giacenza di destinazione
+ \* tutte le dichiarazioni di produzione relative alla fasi di lavorazione comprese tra quella origine e quella destinazione
 Quando invece la quantità viene trasferita da un contenitore in una ubicazione/fase ad un altro contenitore nella stessa ubicazione/fase vengono eseguiti solo : 
- * un movimento di scarico della giacenza origine
- * un movimento di carico della giacenza di destinazione
+ \* un movimento di scarico della giacenza origine
+ \* un movimento di carico della giacenza di destinazione
 Un avanzamento è l'insieme degli eventuali movimenti di giacenza e delle attività di produzione relativi ad uno spostamento di quantità di un contenitore.
 
 ### Formato di lancio

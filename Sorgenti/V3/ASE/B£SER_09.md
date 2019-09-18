@@ -46,7 +46,7 @@ Gli attributi possono essere filtrati in tre differenti modi :
 
  :  : PRO.SER Cod="PAR.DE0.12" Tit="Scheda Parametri. solo i parametri valorizzati" Fun="F(EXC;B£SER_09;PAR.DE0)" Ref="PAR.DET.9"
 
- :  : PRO.SER Cod="OAV.DET.13" Tit="Scheda oav. tutti gli attributi" Fun="F(EXB;B£SER_09;OAV.DET) 1(OG;;-(O;;OG;Oggetto)) P( LII(-(F;;**;Limite inferiore)) LIF(-(F;;**;Limite superiore)) GRU(-(F;;**;Gruppo)) CAT(-(F;;**;Categoria)) L01(-(F;;**;Attributo 1)) L02(-(F;;**;Attributo 2)) L03(-(F;;**;Attributo 3)) L04(-(F;;**;Attributo 4)) L05(-(F;;**;Attributo 5)) L06(-(F;;**;Attributo 6)) L07(-(F;;**;Attributo 7)) L08(-(F;;**;Attributo 8)) L09(-(F;;**;Attributo 9)) L10(-(F;;**;Attributo 10)) L11(-(F;;**;Attributo 11)) L12(-(F;;**;Attributo 12)) L13(-(F;;**;Attributo 13)) L14(-(F;;**;Attributo 14)) L15(-(F;;**;Attributo 15)) L16(-(F;;**;Attributo 16)) L17(-(F;;**;Attributo 17)) L18(-(F;;**;Attributo 18)) L19(-(F;;**;Attributo 19)) L20(-(F;;**;Attributo 20)))"
+ :  : PRO.SER Cod="OAV.DET.13" Tit="Scheda oav. tutti gli attributi" Fun="F(EXB;B£SER_09;OAV.DET) 1(OG;;-(O;;OG;Oggetto)) P( LII(-(F;;\*\*;Limite inferiore)) LIF(-(F;;\*\*;Limite superiore)) GRU(-(F;;\*\*;Gruppo)) CAT(-(F;;\*\*;Categoria)) L01(-(F;;\*\*;Attributo 1)) L02(-(F;;\*\*;Attributo 2)) L03(-(F;;\*\*;Attributo 3)) L04(-(F;;\*\*;Attributo 4)) L05(-(F;;\*\*;Attributo 5)) L06(-(F;;\*\*;Attributo 6)) L07(-(F;;\*\*;Attributo 7)) L08(-(F;;\*\*;Attributo 8)) L09(-(F;;\*\*;Attributo 9)) L10(-(F;;\*\*;Attributo 10)) L11(-(F;;\*\*;Attributo 11)) L12(-(F;;\*\*;Attributo 12)) L13(-(F;;\*\*;Attributo 13)) L14(-(F;;\*\*;Attributo 14)) L15(-(F;;\*\*;Attributo 15)) L16(-(F;;\*\*;Attributo 16)) L17(-(F;;\*\*;Attributo 17)) L18(-(F;;\*\*;Attributo 18)) L19(-(F;;\*\*;Attributo 19)) L20(-(F;;\*\*;Attributo 20)))"
 
  :  : PRO.SER Cod="OAV.DET.14" Tit="Scheda oav. tutti gli attributi" Fun="F(EXC;B£SER_09;OAV.DET)" Ref="OAV.DET.13"
 
@@ -60,7 +60,7 @@ Gli attributi possono essere filtrati in tre differenti modi :
 
  :  : PRO.SER Cod="OAV.MAT.01" Tit="Scheda oav. attributi su una riga - significato oav"  Fun="F(EXC;B£SER_09;OAV.MAT) 1(OG;;-(O;;OG;Oggetto))" Ref="OAV.MAT.01"
 
- :  : PRO.SER Cod="OAV.MAT.02" Tit="Scheda oav. attributi su una riga - dettaglio (codice e descriz.)" Fun="F(EXC;B£SER_09;OAV.MAT) 1(OG;;-(O;;OG;Oggetto))  P(Det(*))" Ref="OAV.MAT.02"
+ :  : PRO.SER Cod="OAV.MAT.02" Tit="Scheda oav. attributi su una riga - dettaglio (codice e descriz.)" Fun="F(EXC;B£SER_09;OAV.MAT) 1(OG;;-(O;;OG;Oggetto))  P(Det(\*))" Ref="OAV.MAT.02"
 
  :  : PRO.SER Cod="OAV.MAT.03" Tit="Scheda oav. attributi su una riga - dettaglio (codice)" Fun="F(EXC;B£SER_09;OAV.MAT) 1(OG;;-(O;;OG;Oggetto))  P(Det(C))" Ref="OAV.MAT.03"
 

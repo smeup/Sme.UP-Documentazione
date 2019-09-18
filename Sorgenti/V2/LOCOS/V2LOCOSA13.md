@@ -15,23 +15,23 @@ La modalità principale è la ricezione di un sql nell' INPUT.
 
 
 ### Caso 1 :  Viene passato un Q3 nell'oggetto 1 e non vi è un sql nell' INPUT
-es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDBRARTI0F;E/*JOB)
-Il servizio costruisce un sql a partire dall'oggetto ricevuto, quindi assume un select * sul file di riferimento dell'oggetto e costruisce la where in base a quanto presente nel Q3 indicato.
+es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDBRARTI0F;E/\*JOB)
+Il servizio costruisce un sql a partire dall'oggetto ricevuto, quindi assume un select \* sul file di riferimento dell'oggetto e costruisce la where in base a quanto presente nel Q3 indicato.
 
 
 ### Caso 2 :  Viene passato un Q3 nell'oggetto 1 e vi è un sql nell' INPUT
-es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDBRARTI0F;E/*JOB) INPUT(SELECT * FROM BRARTI0F WHERE A§TIAR='[K1]')
+es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDBRARTI0F;E/\*JOB) INPUT(SELECT \* FROM BRARTI0F WHERE A§TIAR='[K1]')
 Il servizio utilizza l'sql ricevuto nell' INPUT , accodando alla where eventualmente presente nell'istruzione ulteriori campi indicati nel Q3.
-In questo caso l' sql passato nell'input sia essere un select * che specificare dei campi, in quanto il Q3 si limita a "completare" la where.
+In questo caso l' sql passato nell'input sia essere un select \* che specificare dei campi, in quanto il Q3 si limita a "completare" la where.
 
 
 ### Caso 3 :  Viene passato un Q2 nell'oggetto 4 e non vi è un sql nell' INPUT
-es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDV5STAT0F;E/*JOB) 4(Q2;IDV5STAT0F;T/DFT)
+es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDV5STAT0F;E/\*JOB) 4(Q2;IDV5STAT0F;T/DFT)
 Il servizio costruisce la select in base ai campi presenti nel Q2 e costruisce la where in base a quanto presente nel Q3 eventualmente indicato. I setup di matrice presenti nel Q2 vengono utilizzati.
 
 
-### Caso 4 :  Viene passato un Q2 nell'oggetto 4 e vi è un sql di tipo "SELECT * FROM"  nell' INPUT
-es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDV5STAT0F;E/*JOB) 4(Q2;IDV5STAT0F;T/DFT) P( NRW(500)) INPUT(SELECT * FROM V5STAT0F WHERE D6TDOC='[TIPDOC]' AND D6TRIG='[TIPRIG]' AND D6CDCL='[CLIENT]'  ORDER BY D6DT03 DESC)
+### Caso 4 :  Viene passato un Q2 nell'oggetto 4 e vi è un sql di tipo "SELECT \* FROM"  nell' INPUT
+es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDV5STAT0F;E/\*JOB) 4(Q2;IDV5STAT0F;T/DFT) P( NRW(500)) INPUT(SELECT \* FROM V5STAT0F WHERE D6TDOC='[TIPDOC]' AND D6TRIG='[TIPRIG]' AND D6CDCL='[CLIENT]'  ORDER BY D6DT03 DESC)
 Il servizio costruisce la select in base ai campi presenti nel Q2 e accoda alla where eventualmente presente nell'istruzione ulteriori campi indicati nell'eventuale Q3.
 I setup di matrice presenti nel Q2 vengono utilizzati.
 
@@ -40,7 +40,7 @@ SELECT D6TIPC, D6TPOG, D6PEPR, D6TDOC, D6NDOC, D6NBOL, D6DBOL, D6NFAT, D6DFAT, D
 
 
 ### Caso 5 :  Viene passato un Q2 nell'oggetto 4 e vi è un sql con un elenco di campi specificati  nell' INPUT
-es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDV5STAT0F;E/*JOB) 4(Q2;IDV5STAT0F;T/DFT) P( NRW(500)) INPUT(SELECT D6TIPC, D6TDOC, D6NDOC FROM V5STAT0F WHERE D6TDOC='FAT' ORDER BY D6DT03 DESC)
+es. F(EXB;LOA13_SE;ESE.SQL) 1(Q3;IDV5STAT0F;E/\*JOB) 4(Q2;IDV5STAT0F;T/DFT) P( NRW(500)) INPUT(SELECT D6TIPC, D6TDOC, D6NDOC FROM V5STAT0F WHERE D6TDOC='FAT' ORDER BY D6DT03 DESC)
 Il servizio ignora completamente il Q2, sia relativamente all'elenco dei campi che ai setup di matrice associati e usa l'sql ricevuto nell'input accodando alla where eventualmente presente nell'istruzione ulteriori campi indicati nell'eventuale Q3.
 
 Esempio di SQL eseguito : 
@@ -79,20 +79,20 @@ e passare il nome utilizzato per scrivere la £G00 nel K3 della chiamata del ser
 
 ### Esempi di chiamata del servizio LOA13_SE
 **Interrogazione sul BRARTI0F con tipizzazione campi attiva e descrizioni dei campi come intestazioni di colonna
-F(EXB;LOA13_SE;ESE.SQL) 1(;;) 2(;;) P(TPZ(1)) INPUT(SELECT * FROM BRARTI0F)
+F(EXB;LOA13_SE;ESE.SQL) 1(;;) 2(;;) P(TPZ(1)) INPUT(SELECT \* FROM BRARTI0F)
 
 **Interrogazione sul BRARTI0F senza tipizzazione campi e nomi di sistema dei campi come intestazioni di colonna
-F(EXB;LOA13_SE;ESE.SQL) 1(;;) 2(;;) P(CHD(1)) INPUT(SELECT * FROM BRARTI0F)
+F(EXB;LOA13_SE;ESE.SQL) 1(;;) 2(;;) P(CHD(1)) INPUT(SELECT \* FROM BRARTI0F)
 
 **Interrogazione sul BRARTI0F con tipizzazione campi attiva e nomi di sistema dei campi come intestazioni di colonna
-F(EXB;LOA13_SE;ESE.SQL) 1(;;) 2(;;) P(CHD(1) TPZ(1)) INPUT(SELECT * FROM BRARTI0F)
+F(EXB;LOA13_SE;ESE.SQL) 1(;;) 2(;;) P(CHD(1) TPZ(1)) INPUT(SELECT \* FROM BRARTI0F)
 
 **Interrogazione sul BRARTI0F con tipizzazione campi attiva e paginazione ogni 5000 record (se non impostato 1000)
-F(EXB;LOA13_SE;ESE.SQL) 1(;;) 2(;;) P(TPZ(1) NRW(5000)) INPUT(SELECT * FROM BRARTI0F)
+F(EXB;LOA13_SE;ESE.SQL) 1(;;) 2(;;) P(TPZ(1) NRW(5000)) INPUT(SELECT \* FROM BRARTI0F)
 
 
 ### Esempio di chiamata della scheda LOA13 come sottoscheda
-F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCH;LOA13) INPUT(SQL(SELECT * FROM BRARTI0F WHERE A§TIAR='ART')  NRW(100))
+F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCH;LOA13) INPUT(SQL(SELECT \* FROM BRARTI0F WHERE A§TIAR='ART')  NRW(100))
 
 **Input** :  contiene l'istruzione SQL con la SELECT da eseguire all'interno di un attributo SQL() e tutti i parametri sopra elencati per il servizio ciascuno all'interno del proprio attributo.
 
@@ -111,9 +111,9 @@ _Di conseguenza non è possibile utilizzare il carattere ; (punto e virgola) all
 - I/O del campo
 
 
-In questo esempio alla colonna A§ARTI viene forzata come descrizione 'Codice', come oggetto '**', come codice della colonna 'C001' e come lunghezza 10 caratteri.
+In questo esempio alla colonna A§ARTI viene forzata come descrizione 'Codice', come oggetto '\*\*', come codice della colonna 'C001' e come lunghezza 10 caratteri.
 
-F(EXB;LOA13_SE;ESE.SQL) P(LVL(A)) INPUT(SELECT A§ARTI AS "Codice;**;C001;;10" FROM BRARTI0F)
+F(EXB;LOA13_SE;ESE.SQL) P(LVL(A)) INPUT(SELECT A§ARTI AS "Codice;\*\*;C001;;10" FROM BRARTI0F)
 
 **Nell'alias è possibile fare riferimento ad un altro campo per l'oggettizazione dinamica sostituendo le [ ] del riferimento al campo con le ( ).
 
@@ -130,7 +130,7 @@ Ad esempio  :  "Segue (1 / 4 - 1000 / 12025)" dove 1 / 4 indica che si è pagina
 
 E' stata aggiunta una nuova classe di autorizzazione sul comando UP.
 Si consiglia l'impostazione delle autorizzazioni in particolare relativamente alla funzione UP SQL , in modo da limitare solo alle persone autorizzate l'esecuzione di istruzioni SQL sui file. Qualora non venga creato l'elemento UP di B£P e non vengano impostate le autorizzazioni , le funzioni UP rimarranno autorizzate.
-L'impostazione predefinita (PTF B£81211) prevede l'inserimento della classe UP in B£P , autorizzazioni SI su funzione '**' e autorizzazione NO su funzione 'SQL'.
+L'impostazione predefinita (PTF B£81211) prevede l'inserimento della classe UP in B£P , autorizzazioni SI su funzione '\*\*' e autorizzazione NO su funzione 'SQL'.
 
 
 ## Autorizzazioni su istruzioni eseguite tramite comando UP SQL : 

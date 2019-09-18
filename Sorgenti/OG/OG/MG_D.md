@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'MG'                                          £FUNT1
 ## Chiave primaria
 Codice magazzino                              £FUNK1
@@ -6,7 +6,7 @@ Codice magazzino                              £FUNK1
 Il magazzino è contenuto nel settore di tabella MAG.
 Può quindi essere oggettizzato come : 
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'TA'                               £FUNT1
 ## Chiave primaria
 'MAG'    Settore di tabella        £FUNP1

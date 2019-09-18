@@ -3,10 +3,10 @@ E' stata introdotta la gestione delle "Richieste d'Offerta (RdO)" partendo dalle
 Il modulo creato permette di generare in automatico le Gare, sfruttando l'immissione delle Rda e generando un insieme di Richieste d'offerta in modo libero verso qualunque fornitore.
 Il processo guida l'azienda nella gestione / archiviazione di tutti i documenti tipicamente gestiti in modo cartaceo.
 
- * Gara
+ \* Gara
 E' un documento di V5 intestato all'Azienda, indica l'apertura di un progetto di cui si vuole tenere tracciabilità tra la Richiesta d'acquisto origine e le Offerte chieste agli enti preposti :  i fornitori (Sinonimo di Contratto da stipulare).
 
- * Offerta
+ \* Offerta
 E' un documento di V5 intestato ai fornitori dal quale ci si aspettano le informazioni utili per la fase di applicazione della Vittoria, cioè la scelta di un'Offerta rispetto alle altre (Sinonimo di Preventivo).
 I passi sono i seguenti : 
   **a -** Immissione della Richiesta d'Acquisto
@@ -29,12 +29,12 @@ Nel caso della generazione della Gara, per le Richieste d'Acquisto valgono le Au
 La classe standard di gestione dei documenti (in particolare per il tipo T$GA2B e T$GA2C) dev'essere gestita per abilitare utenti e/o gruppi di utenti nel cruscotto principale.
 Vedi con  "UP AUT"
 Classe :  V5DO01
-Utente :  **
-Funzione :  **
+Utente :  \*\*
+Funzione :  \*\*
 
 Classe :  GARDATB per funzione RC di Richiesta d'Offerta
-Utente :  **
-Funzione :  **
+Utente :  \*\*
+Funzione :  \*\*
 
 ## Default
 Stato / Livello : 
@@ -74,6 +74,6 @@ Non è necessario compilarla in ogni parte, se è attiva (nella tabella GA2) la 
  - .. .. ..
 
 ##  In sospeso
- * Nel cruscotto di gestione si deve riportare il campo T§DEDO come informativa sulla tipologia della gara (consiglio :  usare questo campo per identificare la Gara in questione)
- * Concetto di Data di Validità della Gara e della Richiesta d'Offerta
- * Chiusura della Gara (testata) gestita in modo manuale
+ \* Nel cruscotto di gestione si deve riportare il campo T§DEDO come informativa sulla tipologia della gara (consiglio :  usare questo campo per identificare la Gara in questione)
+ \* Concetto di Data di Validità della Gara e della Richiesta d'Offerta
+ \* Chiusura della Gara (testata) gestita in modo manuale

@@ -20,13 +20,13 @@ Campo che definisce l'appartenenza della nazione in esame, al gruppo così defin
 "_7_R" - Resto del mondo.
 Tutti gli elementi in aggiunta devono essere gestiti
  :  : FLD T$V§NC __Codici se Nazione CEE__
-Elemento della tabella V§*IA , utilizzato solo nel caso in cui sia necessario codificare un codice diverso da quello ISO per una nazione CEE.
+Elemento della tabella V§\*IA , utilizzato solo nel caso in cui sia necessario codificare un codice diverso da quello ISO per una nazione CEE.
  :  : FLD T$V§ND __Codice Comune Capitale__
 Indica il C.A.P. della Nazione.
  :  : FLD T$V§NE __Prefisso telefonico Nazione__
 Indica il prefisso telefonico della Nazione (campo non controllato).
  :  : FLD T$V§NF __Codice Divisa__
-Elemento della tabella V§*DI , indica il codice ISO per la codifica delle Divise.
+Elemento della tabella V§\*DI , indica il codice ISO per la codifica delle Divise.
  :  : FLD T$V§NG __Codice Corrispondente Esterno (NAZ)__
 Elemento della tabella NAZ che chiude la congruenza tra le tabelle SMEUP V§N e NAZ con l'eventuale tab.NAZ dell'applicazione contabile (ACG,.. ... .). In questo caso la V§N deve contenere l'elemento della NAZ, la quale è deviata sulla contabilità.
  :  : FLD T$V§NN __Code page Client windows__

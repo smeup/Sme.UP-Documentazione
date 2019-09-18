@@ -1,7 +1,7 @@
 # Analisi per BCD di sola interrogazione
 
 ## Tabella B§G
-In tabella B§G si aggiunge un campo di 2 caratteri (tabellarlo in una *CN/xx?). Definisce il campo di analisi :  ad esempio due Fine.UP diverse ciascuna con più B§G, ad esempio con PAR_SCP diversi.
+In tabella B§G si aggiunge un campo di 2 caratteri (tabellarlo in una \*CN/xx?). Definisce il campo di analisi :  ad esempio due Fine.UP diverse ciascuna con più B§G, ad esempio con PAR_SCP diversi.
 
 ## Archivio
 Nuovo archivio :  B£BCDM0F

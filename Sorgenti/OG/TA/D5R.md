@@ -5,7 +5,7 @@ Gestisce la modalità di ripresa di un dato (o serie di dati) in DELT_UP.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$ELEM Codice
 In funzione del sistema conferente, ad esempio per la contabilità generale è un conto o una sua parte. Può comunque essere un codice qualsiasi inserito dall'utente.
-Il codice ** indica le azioni da eseguire nel caso in cui l'elemento inserito dal programma di ripresa, non esista nella tabella.
+Il codice \*\* indica le azioni da eseguire nel caso in cui l'elemento inserito dal programma di ripresa, non esista nella tabella.
 Oltre all'elemento specificato nei parametri di ripresa, vengono eseguiti anche tutti gli elementi del tipo xxxxxx.n, dove xxxxxx è l'elemento scelto dal programma di ripresa e n è un progressivo (ex. BOF.1, BOF.2, ecc.).
 Questa possibilità è molto utile se vengono riempiti i successivi campi di contesto e tema (vedi dopo).
  :  : FLD T$DESC Descrizione
@@ -28,6 +28,6 @@ _9_Esempio :  se viene specificato AZI0, verranno eseguite tutte le azioni che i
 Utilizzato per la ripresa dalla contabilità generale. Al posto di elaborare le singole registrazioni contabili viene ritornato solo il totale per conto contabile.
 _9_Esempio :  un indice può avere la necessità di conoscere il totale per conto nel periodo, per effettuare la sua ripartizione.
  :  : FLD T$D5RE **Contesto**
-Si possono specificare un contesto ed un tema che sostituiranno quelli presenti negli elementi della tabella D5E, nel caso in cui in questi venga specificato ** (vedi help della tabella D5E).
+Si possono specificare un contesto ed un tema che sostituiranno quelli presenti negli elementi della tabella D5E, nel caso in cui in questi venga specificato \*\* (vedi help della tabella D5E).
 Può essere utile nel caso in cui si vogliano eseguire le stesse azioni (elementi della tabella D5E) su contesti e/o temi diversi, senza voler replicare queste ultime.
  :  : FLD T$D5RF.T$D5RE Tema

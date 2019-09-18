@@ -8,9 +8,9 @@ Funzioni :
 INPUT
 Data minima di arretram./suddivi.
 Data minima, al di sotto della quale non arretra nè suddivide.
-Se *BLANKS assume la data odierna.
+Se \*BLANKS assume la data odierna.
 Data minima non compresa?
-Se *BLANKS la data minima è compresa.
+Se \*BLANKS la data minima è compresa.
 Cliente
 Codice Cliente.
 Articolo

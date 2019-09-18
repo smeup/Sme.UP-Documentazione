@@ -9,8 +9,8 @@ In windows sono disponibili dei comandi che vanno installati appositamente :  KL
 
 Analoghi comandi sono offerti da JAVA :  è necessario che la cartella dove è installata sia presente nel path, oppure, nel caso si utilizzi una versione di Loocup con la JVM posizionata nella cartella di installazione, aprire una sessione dos e andare nella cartella di installazione di loocup, sottocartella jre, bin.
 Qui si possono richiamare i comandi
- * kinit :  richiede il TGT all'AD
- * klist :  mostra i Tiket memorizzati
+ \* kinit :  richiede il TGT all'AD
+ \* klist :  mostra i Tiket memorizzati
 
 
 ## WIRESHARK

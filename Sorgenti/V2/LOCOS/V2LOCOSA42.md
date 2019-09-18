@@ -19,9 +19,9 @@ Uno script avrà quindi un tag DEF.INI per indicare da quale passo partire, uno 
 L'exit (per cui è disponibile il prototipo LOA42_ES01) viene richiamata se indicata nel passo con le seguenti funzioni : 
 
  :  : PAR L(TAB)
-***LAY**|definisce la struttura di XML iniziale e di SETUP
-***CTR**|permette di eseguire controlli
-***EXE**|permette di eseguire passi finali
+**\*LAY**|definisce la struttura di XML iniziale e di SETUP
+**\*CTR**|permette di eseguire controlli
+**\*EXE**|permette di eseguire passi finali
 
 
 ### Routine disponibili
@@ -36,7 +36,7 @@ Durante la progettazione della Exit abbiamo a disposizione le seguenti routine :
 **£A42_ADD**|Utilizzarla per creare e/o modificare la struttura di un campo, comprende la variazione di valore
 
 
-### Funzione *LAY
+### Funzione \*LAY
 Tramite questa funzione è possibile apportare variazioni al layout prima che venga emesso l'input panel
 **Esempio di lettura variabile**
  :  : PAR F(04) L(N03)
@@ -66,7 +66,7 @@ C                   EVAL      £A42F_CD='MGNEW'
 C                   EXSR      £A42_ADD
 
 
-### Funzione *CTR
+### Funzione \*CTR
 Tramite questa funzione è possibile inserire controlli specifici sui campi del layout
 **Esempio di Gestione dell'errore**
  :  : PAR F(04) L(N03)
@@ -76,7 +76,7 @@ C                   EVAL      £A42F_ET=TXT(01)
 C                   EXSR      £A42_ADD
 
 
-### Funzione *EXE
+### Funzione \*EXE
 Viene eseguita in assenza di errori e prima di procedere al passo sucessivo.
 E' possibile cambiare il prossimo passo ed eseguire le procedure di fine passo più opportune
 

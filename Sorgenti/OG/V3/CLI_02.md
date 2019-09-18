@@ -16,7 +16,7 @@ TODO
 
 ## Esempi di impementazioni
 
- * C.LST Cod="CL" Txt="Connessione server primario" Add="localhost" Protocol="JAVA" Param="class=Smeup.smeui.uimainmodule.externallistener.java.client.UILoocupClientListener;Service=LOSER_11;server=172.16.2.161;type=MASTER" LoadOnStartup="1"
+ \* C.LST Cod="CL" Txt="Connessione server primario" Add="localhost" Protocol="JAVA" Param="class=Smeup.smeui.uimainmodule.externallistener.java.client.UILoocupClientListener;Service=LOSER_11;server=172.16.2.161;type=MASTER" LoadOnStartup="1"
 
- * C.LST Cod="BK" Txt="Connessione server backup" Add="localhost" Protocol="JAVA" Param="class=Smeup.smeui.uimainmodule.externallistener.java.client.UILoocupClientListener;Service=LOSER_11;server=172.16.2.101;type=BACKUP" LoadOnStartup="1"
+ \* C.LST Cod="BK" Txt="Connessione server backup" Add="localhost" Protocol="JAVA" Param="class=Smeup.smeui.uimainmodule.externallistener.java.client.UILoocupClientListener;Service=LOSER_11;server=172.16.2.101;type=BACKUP" LoadOnStartup="1"
 

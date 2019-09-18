@@ -1,14 +1,14 @@
 # Avviamento veloce delle prevsioni Holt Winters
 ## Introduzione
 La struttura del processo che porta a costruire le previsioni e a renderle disponibili per l'MRP si basa su due step fonamentali : 
- * _2_Flusso di costruzione dello storico e della funzione Holt Winters
- * _2_Flusso pre MRP che aggiusta le previsioni con le forzature manuali, le nettifica dall'ordinato e prepara il forecast che entrerà nell'MRP.
+ \* _2_Flusso di costruzione dello storico e della funzione Holt Winters
+ \* _2_Flusso pre MRP che aggiusta le previsioni con le forzature manuali, le nettifica dall'ordinato e prepara il forecast che entrerà nell'MRP.
 
 ## Prerequisiti
 Ci sono n tabelle che debbono essere allineate prima di partire. Esse sono : 
-* gli indici dell'articolo ed il tema/contesto su cui registrare nel D5COSO i risultati sintetici del calcolo (tra cui la classe previsiva)
-* la tabella MP2 che contiene le indicazioni per assegnare le classi previsive
-* la tabella C£I e B£NMP dove sono definiti i parametri interni delle viste risultato HW, utile per comprendere la stratificazione degli articoli in previsivi e non.
+\* gli indici dell'articolo ed il tema/contesto su cui registrare nel D5COSO i risultati sintetici del calcolo (tra cui la classe previsiva)
+\* la tabella MP2 che contiene le indicazioni per assegnare le classi previsive
+\* la tabella C£I e B£NMP dove sono definiti i parametri interni delle viste risultato HW, utile per comprendere la stratificazione degli articoli in previsivi e non.
 
 Per effettuare quanto sopra eseguire i seguenti comandi
 Call D5FS01A per i contesti AR ed MP
@@ -21,7 +21,7 @@ Importante :  bisogna collegare i parametri impliciti alla vista risultato del c
 
 ## Flusso HW10 - costruzione storico e Holt Winters
 Riportiamo un esempio di flusso costruzione storico : 
-![MPPIAN_049](http://localhost:3000/immagini/MPHW02/MPPIAN_049.png)Questo flusso va schedulato solo una volta ad inizio mese (*mthstr), costruisce un piano che ha come data di inizio oggi - 24 mesi, periodicità  di 36 mesi, ossia predispone le prime 24 colonne nel passato e dalla 25 alla 36 nel futuro.
+![MPPIAN_049](http://localhost:3000/immagini/MPHW02/MPPIAN_049.png)Questo flusso va schedulato solo una volta ad inizio mese (\*mthstr), costruisce un piano che ha come data di inizio oggi - 24 mesi, periodicità  di 36 mesi, ossia predispone le prime 24 colonne nel passato e dalla 25 alla 36 nel futuro.
 
 ### H010    Crea piano HW
 Programma MPAP99 con le seguenti parametrizzazioni
@@ -49,11 +49,11 @@ Questo passo utilizza il pgm MPGP02X, con le seguenti parametrizzazioni
 ![MPPIAN_055](http://localhost:3000/immagini/MPHW02/MPPIAN_055.png)Il programma esegue una cancellazione selettiva dalla vista piano di tutti gli articoli con classe previsiva > 5. __Questa cancellazione è FACOLTATIVA :  infatti, pur non essendo affidabili le previsioni degli articoli con classe maggiore di 5, esse rappresentano comunque un fabbisogno previsionale che permette di pianificare qualche copertura per quegli articoli. Se si cancellano queste previsioni si resta senza fabbisogni, a meno di inserire manualmente delle scorte minime per poter generare una copertura pianificata!
 
 Per l'impostazione della cancellazione bisogna : 
- * avere l'OAV dell'articolo J/H01 = Classe previsiva
- * impostare nella tabella C£Z tra le sintesi articolo l'OAV J/H01
- * collegare ai raggruppamenti articolo (Tab. C£S) la tabella delle sintesi C£Z che contiene l'OAV J/H01
- * memorizzare nelle parzializzazioni del programma di eliminazione selettiva dati piano MPGP02G il filtro per classe previsiva > 5
- * utilizzare la memorizzzazione come parametro in questo passo di flusso
+ \* avere l'OAV dell'articolo J/H01 = Classe previsiva
+ \* impostare nella tabella C£Z tra le sintesi articolo l'OAV J/H01
+ \* collegare ai raggruppamenti articolo (Tab. C£S) la tabella delle sintesi C£Z che contiene l'OAV J/H01
+ \* memorizzare nelle parzializzazioni del programma di eliminazione selettiva dati piano MPGP02G il filtro per classe previsiva > 5
+ \* utilizzare la memorizzzazione come parametro in questo passo di flusso
 **Inserimento in tabella C£Z_AR della classe previsiva**
 ![MPPIAN_056](http://localhost:3000/immagini/MPHW02/MPPIAN_056.png)**Collegamento in tabella C£S del sottosettore tabella sintesi C£Z**
 ![MPPIAN_057](http://localhost:3000/immagini/MPHW02/MPPIAN_057.png)**Memorizzazione parzializzazioni HWPR>5**
@@ -100,8 +100,8 @@ Questo passo utilizza il pgm MPAP03A, con le seguenti parametrizzazioni
 ## Attivazione della scorta minima Holt Winters
 
 Per attivare la lettura della scorta minima coerente con le previsioni generate da Holt Winters e con il livello di servizio desiderato per l'articolo, bisogna eseguire i seguenti passi : 
-* attivare nell'anagrafica magazzino/articolo il campo "Calcolo scorta/lotti" con il valore   " £01" che significa  :    Scorta da previsioni
-* definire una fonte disponibilità (M5E se presente o M5F se futura ) di origine SC o SD , opportunamente parametrizzata in modo che "legga" il valore calcolato da HW : 
+\* attivare nell'anagrafica magazzino/articolo il campo "Calcolo scorta/lotti" con il valore   " £01" che significa  :    Scorta da previsioni
+\* definire una fonte disponibilità (M5E se presente o M5F se futura ) di origine SC o SD , opportunamente parametrizzata in modo che "legga" il valore calcolato da HW : 
  Par     Risalita scorta minima
             Sc.inserita risalita Sc.calcolata
  A         Sc.calcolata risalita Sc.inserita

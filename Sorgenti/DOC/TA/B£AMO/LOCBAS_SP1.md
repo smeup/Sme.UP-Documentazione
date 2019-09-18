@@ -10,12 +10,12 @@ Per semplificare la configurazione sono stati portati i principali parametri all
 
 
 # Nuovi parametri
- * --cleandb :  indica la persistenza dei record nel database dei log. il formato è nnnF, dove
- **   nnnn è il un valore numerico
- ** F è il formato d per i giorni, h ore m minuti s secondi
- * --nodblog :  per disabilitare la loggatura su database
- * --intserver :  per attivre un provider in modalità interattiva, ovvero come se fosse un Loocup client. Server per poter fare manutenazione degli script (le dialog e i messaggi non sono silenziati)
- * --sbs : xxxxxxx, serve per indicare quale è il sottosistema dove funziona lo SmeupProvider, e migliorare la gestione di eventuali disconnessioni.
+ \* --cleandb :  indica la persistenza dei record nel database dei log. il formato è nnnF, dove
+ \*\*   nnnn è il un valore numerico
+ \*\* F è il formato d per i giorni, h ore m minuti s secondi
+ \* --nodblog :  per disabilitare la loggatura su database
+ \* --intserver :  per attivre un provider in modalità interattiva, ovvero come se fosse un Loocup client. Server per poter fare manutenazione degli script (le dialog e i messaggi non sono silenziati)
+ \* --sbs : xxxxxxx, serve per indicare quale è il sottosistema dove funziona lo SmeupProvider, e migliorare la gestione di eventuali disconnessioni.
 
 
 ## Business continuity

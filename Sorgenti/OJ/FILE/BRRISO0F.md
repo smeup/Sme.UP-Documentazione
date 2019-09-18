@@ -1,7 +1,7 @@
 ## Contenuto
 Dati descrittivi e classificazioni risorse/centri di lavoro.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'RI'                                  	£FUNT1
 Tipo risorsa                  (TA/BRR)  	£FUNP1
 

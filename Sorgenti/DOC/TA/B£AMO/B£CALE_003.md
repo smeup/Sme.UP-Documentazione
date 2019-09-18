@@ -33,8 +33,8 @@ Si legge il calendario base, in cui si definiscono gli orari della settimana sta
 -  Calendario di R1 di tipo T1,
 -  Se impostato in T1 il tipo risorsa deviata D1 e l'OAV di deviazione, il calendario dell'OAV di R1 (se non blanks) di tipo D1
 -  Se presente nel calendario base di R1 la risorsa collegata, il calendario della risorsa collegata di tipo T1 (Vedi NOTA di seguito per compilazione)
--  Il calendario  della risorsa ** di tipo T1.
--  Se impostato in T1 il tipo risorsa deviata D1 il calendario della risorsa ** di tipo D1.
+-  Il calendario  della risorsa \*\* di tipo T1.
+-  Se impostato in T1 il tipo risorsa deviata D1 il calendario della risorsa \*\* di tipo D1.
 
 Se non viene trovato nessun calendario base valido, la funzione termina con la segnalazione di errore.
 ### Nota
@@ -51,7 +51,7 @@ Viene assunto, per ogni giorno del mese, il primo codice orario valorizzato, nel
 -  Risorsa
 -  Risorsa deviata (se impostato in T1 l'OAV per deviazione)
 -  Risorsa collegata (se impostata nel calendario base di R1)
--  Risorsa **
+-  Risorsa \*\*
 
 
 ### Eccezioni comuni = 1
@@ -59,11 +59,11 @@ Viene assunto, per ogni giorno del mese, il primo codice orario valorizzato, nel
 -  Risorsa dell'anno
 -  Risorsa deviata dell'anno (se impostato in T1 l'OAV per deviazione)
 -  Risorsa collegata dell'anno (se impostata nel calendario base di R1)
--  Risorsa ** dell'anno.
+-  Risorsa \*\* dell'anno.
 -  Risorsa dell'anno 3000
 -  Risorsa deviata dell'anno 3000 (se impostato in T1 l'OAV per deviazione)
 -  Risorsa collegata dell'anno  3000 (se impostata nel calendario base di R1)
--  Risorsa ** dell'anno 3000
+-  Risorsa \*\* dell'anno 3000
 
 
 ### Eccezioni comuni = 2
@@ -74,8 +74,8 @@ Viene assunto, per ogni giorno del mese, il primo codice orario valorizzato, nel
 -  Risorsa deviata dell'anno 3000 (se impostato in T1 l'OAV per deviazione)
 -  Risorsa collegata dell'anno (se impostata nel calendario base di R1)
 -  Risorsa collegata dell'anno  3000 (se impostata nel calendario base di R1)
--  Risorsa ** dell'anno
--  Risorsa ** dell'anno 3000
+-  Risorsa \*\* dell'anno
+-  Risorsa \*\* dell'anno 3000
 
 ### Note
 
@@ -106,7 +106,7 @@ Viene assunto, per ogni giorno del mese, il primo codice orario valorizzato, nel
 | N | ECCEZIONE RISORSA |
 | 
 
- C(*CONT)
+ C(\*CONT)
 - Errori segnalati nelle interrogazioni
 
 
@@ -116,7 +116,7 @@ Viene assunto, per ogni giorno del mese, il primo codice orario valorizzato, nel
 | 
 | .COL Txt="Descrizione" LunAut="1" A="L" |
 | A | Trovati troppi codici orario nelle tabelle OLG. Possono essere gestiti al massimo 98 codici orario |
-| B | Nell'anagrafico risorse non è stata trovata la risorsa di default (**), oppure è priva di codici orari |
+| B | Nell'anagrafico risorse non è stata trovata la risorsa di default (\*\*), oppure è priva di codici orari |
 | C | Nel calendario annuale non è stato trovato l'anno richiesto, per il tipo di risorsa |
 | D | Il periodo richiesto supera la capacità del calendario. (Possono essere gestiti al massimo 999 giorni.) |
 | E | Nell'anagrafico risorse o nelle eccezioni è stato trovato un codice orario non valido |

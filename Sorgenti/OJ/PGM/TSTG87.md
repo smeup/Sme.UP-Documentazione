@@ -8,6 +8,6 @@ la funzione CPY2SPLF in associazione all'installazione del prodotto SmePD
 Per ulteriori dettagli riferirsi alla documentazione del componente SmePD : 
 - [Installazione&-x2f;configurazione SmePD](Sorgenti/DOC/TA/B£AMO/NSPRNT_02)
 
-# Creazione PDF mediante opzione *PDF del campo £G87WS (Oggetto WSCST)
+# Creazione PDF mediante opzione \*PDF del campo £G87WS (Oggetto WSCST)
 Tale opzione è stata eliminata.
 Per ulteriori informazioni è possibile rivolgersi all'indirizzo sviluppo@smeup.com

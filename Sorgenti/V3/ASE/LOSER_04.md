@@ -21,7 +21,7 @@ Quando un documento soddisfa le condizioni, la scansione si ferma e si aggiunge 
 Il contenuto di ogni riga che soddisfa le condizioni viene posta in matrice.
 
 ## Metodi di richiamo
-Abitualmente le variabili sono gestite da una sezione di impostazioni. E' possibile anche passare le variabili all'interno del parametro di funzione come descritto di seguito. Avremo pertanto che F(EXB;LOSER_o4;RIC.RIG) 1(OJ;*FILE;DOC) 2(PJ;*LIB;SMEDEV) P(FUL(Esempio)) ricerca tutte le righe di documentazione dove si trova la parola "esempio"
+Abitualmente le variabili sono gestite da una sezione di impostazioni. E' possibile anche passare le variabili all'interno del parametro di funzione come descritto di seguito. Avremo pertanto che F(EXB;LOSER_o4;RIC.RIG) 1(OJ;\*FILE;DOC) 2(PJ;\*LIB;SMEDEV) P(FUL(Esempio)) ricerca tutte le righe di documentazione dove si trova la parola "esempio"
 
 ## Sviluppi previsti
  :  : PAR L(LET)
@@ -34,7 +34,7 @@ Abitualmente le variabili sono gestite da una sezione di impostazioni. E' possib
 
  :  : PRO.SER Cod="IMP.UPD.2" Tit="Impostazioni. Aggiornamento" Fun="F(EXB;LOSER_04;IMP.UPD)"
 
- :  : PRO.SER Cod="RIC.MBR.3" Tit="Ricerca. Membri" Fun="F(EXB;LOSER_04;RIC.MBR) 1(OJ;*FILE;-(F;;OJ*FILE;FILE)) 2(OJ;*LIB;-(F;;OJ*LIB;LIBRERIA)) P( NAM(-(F;;**;Nel nome)) TIP(-(F;;**;Nel tipo)) DES(-(F;;**;Nel testo)) FUL(-(F;;**;Nel contenuto)))"
+ :  : PRO.SER Cod="RIC.MBR.3" Tit="Ricerca. Membri" Fun="F(EXB;LOSER_04;RIC.MBR) 1(OJ;\*FILE;-(F;;OJ\*FILE;FILE)) 2(OJ;\*LIB;-(F;;OJ\*LIB;LIBRERIA)) P( NAM(-(F;;\*\*;Nel nome)) TIP(-(F;;\*\*;Nel tipo)) DES(-(F;;\*\*;Nel testo)) FUL(-(F;;\*\*;Nel contenuto)))"
 
  :  : PRO.SER Cod="RIC.RIG.4" Tit="Ricerca. Righe nei membri" Fun="F(EXB;LOSER_04;RIC.RIG)" Ref="RIC.MBR.3"
 

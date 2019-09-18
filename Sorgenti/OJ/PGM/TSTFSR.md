@@ -17,7 +17,7 @@ D/COPY QILEGEN,£FSR
 - Metodo :  _campo £FSRME_
 Funzione GET : 
 
-- *BLANKS Recupero di un XML da un servizio.
+- \*BLANKS Recupero di un XML da un servizio.
 
 Funzione TRX : 
 
@@ -56,12 +56,12 @@ Campo di output per la funzione GET. Contiene l'XML da visualizzare / stampare /
 - Documento XML trasformato :  _campo £FSRTX_
 Campo di output per la funzione TRX. Contiene l'XML trasformato in formato testo o latex. Dimensione massima 30000.
 
-- Indicatore di errore :  _campo £FSR35 (*IN35)_
+- Indicatore di errore :  _campo £FSR35 (\*IN35)_
 Indicatore di errore di esecuzione della /COPY.
 
 # ESEMPI DI CHIAMATA
 >EVAL      £FSRFU='GET'
-EVAL      £FSRLF='F(EXB;B£SER_44;LIS.FLD) 1(OJ;*FILE;BRENTI0F) 2(;;)'
+EVAL      £FSRLF='F(EXB;B£SER_44;LIS.FLD) 1(OJ;\*FILE;BRENTI0F) 2(;;)'
 EXSR      £FSR
 
 EVAL      £FSRFU='TRX'

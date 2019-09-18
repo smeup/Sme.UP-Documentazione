@@ -6,4 +6,4 @@ Vedi
  :  : DEC T(OG) K(DM)
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(GMRRIM0F)
+ :  : DEC T(OJ) P(\*FILE) K(GMRRIM0F)

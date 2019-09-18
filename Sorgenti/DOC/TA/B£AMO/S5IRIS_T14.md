@@ -8,10 +8,10 @@ A partire da esso si determina la fine dell'operazione.
 Se essa è a capacità finita e non iniziata, al tempo di esecuzione aggiunge l'attrezzaggio (eventualmente ricalcolato con una exit specifica, in base alla differenza con quanto eseguito in precedenza sulla stessa risorsa).
 
 Se è a capacità infinita, l'operazione viene schedulata col calendario della risorsa principale, nel seguente modo
- * si avanza della coda se il tempo di carico è zero oppure se la coda ha il significato di tempo di attraversamento, impostato nel tipo coda in tabella gruppo risorsa (BRM) a cui appartiene la risorsa
- * altrimenti
- ** se iniziata si avanza con il tempo di carico
- ** se non iniziata si avanza della coda per determinare l'inizio dell'operazione, e successivamente si avanza del tempo di carico per determinare la fine dell'operazione.
+ \* si avanza della coda se il tempo di carico è zero oppure se la coda ha il significato di tempo di attraversamento, impostato nel tipo coda in tabella gruppo risorsa (BRM) a cui appartiene la risorsa
+ \* altrimenti
+ \*\* se iniziata si avanza con il tempo di carico
+ \*\* se non iniziata si avanza della coda per determinare l'inizio dell'operazione, e successivamente si avanza del tempo di carico per determinare la fine dell'operazione.
 
 Si aggiornano poi la sintesi dell'ordine, l'istante di fine occupazione della risorsa specifica, e si crea una hole se l'inizio dell'operazione è maggiore della fine dell'occupazione precedente.
 

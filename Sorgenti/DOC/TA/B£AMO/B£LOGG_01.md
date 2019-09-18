@@ -3,7 +3,7 @@ I log di loocup sono salvati in  file locali, organizzati per sessione
 Alla data del 27/11/2007, versione di test di loocup, i file di log sono stati concentrati nella cartella identificata dal percorso
 _7_%APPDATA%\Loocup\LOG.
 
-La variabile di windows %APPDATA%, corrisponde alla variabile di Loocup ***APPDATA**.
+La variabile di windows %APPDATA%, corrisponde alla variabile di Loocup **\*APPDATA**.
 
 Se il sistema operativo è Windows XP la variabile viene risolta in : 
 C : \Documents and settings\utente_di_windows\Dati Applicazioni\Loocup\

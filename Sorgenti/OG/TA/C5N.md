@@ -21,8 +21,8 @@ Si imposta insieme alla linea di destinazione :  specifica se gli importi vanno 
 Per le linee calcolate si richiede di costruire anche i livelli superiori. Se ad esempio la linea contiene l'utile, si può richiedere di sommare l'utile nel totale delle passività per quadrare con le attività.
  :  : FLD T$C5NH Linea Fittizzia
 Indica che la linea non verrà riprodotta in output. I valori 1 e 2 hanno effetto solo sulle considerazioni relative alla linea inversa : 
-* "1" :  con questo valore i conti vengono invertiti solo se l'intera sommatoria della linea risulta inversa
-* "2" :  con questo valore l'inversione viene applicata conto per conto. Vengono quindi girati tutti i singoli conti che risultano avere valore inverso.
+\* "1" :  con questo valore i conti vengono invertiti solo se l'intera sommatoria della linea risulta inversa
+\* "2" :  con questo valore l'inversione viene applicata conto per conto. Vengono quindi girati tutti i singoli conti che risultano avere valore inverso.
  :  : FLD T$C5NI Grassetto in stampa
 È un elemento V2SI/NO :  indica se la riclassifica nel pgm di stampa standard (C5NAC1L) deve essere stampata in grassetto.
  :  : FLD T$C5NL Salto pagina in stampa

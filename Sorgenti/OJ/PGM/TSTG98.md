@@ -1,10 +1,10 @@
 Qui sotto elenchiamo alcune caratteristiche della nuova routine : 
 
 - il mittente può essere impostato (anche un nome inventato) ed assume l'indirizzo del utente che invia la mail (in questo caso è, in maniera fissa, l'oav J/I01 dell'oggetto TA B£U), immettendo la
-costante '*BLANKS' assume l'indirizzo di default della £G53
+costante '\*BLANKS' assume l'indirizzo di default della £G53
 - La lista di distribuzione può essere sostituita da un indirizzo singolo specificato nei parametri
 - L'oggetto ed il testo possono essere passati esplicitamente oppure possono essere creati dei messaggi standard, utilizzando la gestione messaggi con tipo contenitore £98.
--- il tipo contenitore £98 (creato in automatico dal TSTG98) è costituito dal 1) codice messaggio (tabella B£*TE), 2) Tipo messaggio (nuovo oggetto V2B£G98), 3) Lingua (che può essere passata ed assume la ££B£2F)
+-- il tipo contenitore £98 (creato in automatico dal TSTG98) è costituito dal 1) codice messaggio (tabella B£\*TE), 2) Tipo messaggio (nuovo oggetto V2B£G98), 3) Lingua (che può essere passata ed assume la ££B£2F)
 -- Per la gestione del testo e oggetto variabile è possibile utilizzare dei campi della DS per passare delle variabili, sono stati creati i campi : 
 --- £G9801 (articolo) da utilizzare nel testo/oggetto con la sigla _&_A
 --- £G9802 (Ordine/Oggetto) da utilizzare nel testo/oggetto con la sigla _&_O

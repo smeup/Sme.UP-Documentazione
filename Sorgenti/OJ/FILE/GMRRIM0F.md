@@ -1,7 +1,7 @@
 ## Contenuto
 Richiesta di movimentazione di un articolo, con la quantità, le causali di movimenetazione, e gli altri codici eventualmente coinvolti (lotti, ubicaizoni, ecc..).
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'RM'                               £FUNT1
 
 ## Chiave primaria
@@ -24,8 +24,8 @@ Altre impostazioni generali sono contenute nel settore di tabelle GMO (Tipo docu
 La classe di autorizzazione è GMRM10.
 
 La funzione di autorizzazione è il programma in cui si esegue il controllo : 
- * GMOR10G   -    Formato guida
- * GMOR10L   -    Lista
+ \* GMOR10G   -    Formato guida
+ \* GMOR10L   -    Lista
 
 ## Note strutturate (Tabella NSC)
 N.A.

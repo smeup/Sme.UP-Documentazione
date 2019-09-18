@@ -18,7 +18,7 @@ Si hanno a disposizione due campi in >C£CONR :
 -- XX  Tipo Movimento
 -- YY  Azienda
 -- LL  Linea ammortamento
--- C   Tipo codice 2  (1=Cespite 2=Categoria 3=Default '**')
+-- C   Tipo codice 2  (1=Cespite 2=Categoria 3=Default '\*\*')
 
 - Campo Codice 2
 Può contenere il codice cespite oppure la categoria contabile e dipende dal valore (1-2-3) inserito nel settimo carattere del campo sopra descritto.
@@ -28,12 +28,12 @@ I codici dei parametri sono fissi ed identificano il conto dare/avere, il tipo r
 Ora bisogna determinare la sequenza di lettura dei record : 
 1. XXYYLL1  Specifico con cespite
 2. XXYYLL2       "     "  categoria
-3. XXYYLL3       "     "  '**'
-4. XXYY**1       "     "  cespite
-5. XXYY**2       "     "  categoria
-6. XXYY**3       "     "  '**'
-7. XX**LL   (1) (2) (3)
-8. XX****   (1) (2) (3)
+3. XXYYLL3       "     "  '\*\*'
+4. XXYY\*\*1       "     "  cespite
+5. XXYY\*\*2       "     "  categoria
+6. XXYY\*\*3       "     "  '\*\*'
+7. XX\*\*LL   (1) (2) (3)
+8. XX\*\*\*\*   (1) (2) (3)
 
 I parametri, che sono standard e che il programma di gestione si preoccuperà di creare se mancanti, sono definiti nell'elemento '£A5' della tabella >C£E e nel sottosettore >B£N/>£5.
 

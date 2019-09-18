@@ -68,7 +68,7 @@ gestione elementi tabelle. Il suo contenuto e' visualizzato anche nella
 Vincoli : 
 Non puo' essere inserito se il nome campo e' T$DESC.
 Se inserito deve essere presente in tabella.
-Settore *CN Subsettore TT
+Settore \*CN Subsettore TT
 Attivabile la ricerca alfabetica.
 Esempi : 
 Colonna :   Tipo (Significato)           Lunghezza (default)
@@ -87,7 +87,7 @@ AD  Data (odierna)AAMMGG       6 0
 GG  Data in forma GGMMAA       6 0
 GD  Data (odierna)GGMMAA       6 0
 OJ  Oggetto
-Per il dettaglio dei valori validi vedere la tabella *CNTT.
+Per il dettaglio dei valori validi vedere la tabella \*CNTT.
 Funzioni : 
 Indica la natura del campo.
 La lunghezza viene assunta per default se non e' stata indicata.
@@ -107,10 +107,10 @@ E' possibile derivare oggetti utilizzando le regole qui di seguito descritte.
  :  : PAR L(TAB) T(**Oggetti derivati**)
 - Tipo|Parametro|Comportamento
 - &&||Viene utilizzato l'ultimo oggetto valido
-- **||Viene utilizzato l'ultimo oggetto definito con tipo **OG**
+- \*\*||Viene utilizzato l'ultimo oggetto definito con tipo **OG**
 - TA|xxx==|Viene assunto il sottosettore della tabella in uso
-- TA|*****|Viene utilizzata l'ultima tabella
-- TA|xxx**|Viene utilizzato l'ultimo sottosettore di tabella
+- TA|\*\*\*\*\*|Viene utilizzata l'ultima tabella
+- TA|xxx\*\*|Viene utilizzato l'ultimo sottosettore di tabella
 
 
 ## Tabella
@@ -204,10 +204,10 @@ Funzioni :
 V :    Il pgm gestione tabelle controllera' che il valore del campo, se inserito, sia uno dei quattro Valori  ammessi.
 L :    Il pgm gestione tabelle controllera' che il  valore del campo, se inserito, sia compreso almeno tra un limite
 inferiore e il corrispondente superiore.
-OJ :   Il terzo campo deve definire il tipo di oggetto (*PGM, *FILE ecc) e il quarto la libreria in cui tale oggetto si
-deve trovare. E' ovviamente ammesso il valore *LIBL.
+OJ :   Il terzo campo deve definire il tipo di oggetto (\*PGM, \*FILE ecc) e il quarto la libreria in cui tale oggetto si
+deve trovare. E' ovviamente ammesso il valore \*LIBL.
 MB :   Il terzo elemento indica il file fisico nel quale il membro deve essere contenuto e il quarto la libreria in cui
-tale oggetto si deve trovare. E' ovviamente ammesso il valore *LIBL.
+tale oggetto si deve trovare. E' ovviamente ammesso il valore \*LIBL.
 ## Colonna Riga  Colonna  Attr. Ini campo
 Vincoli : 
 La presenza di uno dei tre campi obbliga alla presenza  della riga e della colonna.
@@ -253,7 +253,7 @@ La lunghezza non puo' superare il valore 40 e informa quanti caratteri della dec
 La riga puo' variare da 5  a 22; da 4 a 9 se il campo e' T$ELEM.
 La colonna varia da 2  a 80.
 Colonna + lunghezza non possono superare il valore 80.
-L'attributo video deve essere presente in tabella settore *CN subsettore AV ; attivabile la ricerca alfabetica.
+L'attributo video deve essere presente in tabella settore \*CN subsettore AV ; attivabile la ricerca alfabetica.
 Funzioni : 
 Consentono di individuare posizione e attributi di visualizzazione della decodifica  campo, come evidenziabile dalla
 "Prova schermo" che simula la videata del pgm di gestione elementi tabelle.
@@ -302,7 +302,7 @@ decodifica sono evidenti (intestazione comunque tra 1 e 20; decodifica tra 1 e 3
 Se l'intestazione e'<20 la lunghezza massima di un campo compilabile con decodifica, anziche' essere 18 fissa, e' (18
 + (20-lunghezza intestazione)).
 L'ccupazione delle mezzerighe, in caso di incolonnamento, tiene conto dell'eventuale valore ridotto della decodifica.
-Le scelte per gli attributi video sono ovvie; se attivi devono essere presenti nella tabella *CNAV.
+Le scelte per gli attributi video sono ovvie; se attivi devono essere presenti nella tabella \*CNAV.
 I passi di costruzione del video sono i seguenti : 
 1) Sbiancamento delle posizioni video dei campi secondo la scelta indicata.
 2) La Costruzione della mappa video (cfr. Prova schermo) senza emissione avviene distribuendo le righe del video in
@@ -359,4 +359,4 @@ decodifica sono evidenti (intestazione comunque tra 1 e 20; decodifica tra 1 e 3
 Se l'intestazione e'<20 la lunghezza massima di un campo compilabile con decodifica, anziche' essere 18 fissa, e' (18
 + (20-lunghezza intestazione)).
 L'ccupazione delle mezzerighe, in caso di incolonnamento, tiene conto dell'eventuale valore ridotto della decodifica.
-Le scelte per gli attributi video sono ovvie; se attivi devono essere presenti nella tabella *CNAV.
+Le scelte per gli attributi video sono ovvie; se attivi devono essere presenti nella tabella \*CNAV.

@@ -17,16 +17,16 @@ A scadere :
 4° Intervallo : 4   Tipo :  M   gg fisso se mese : 
 
 Analizzando l'ageing con data situazione 31/12/XX il sistema visualizzarà le colonne : 
- * Scaduto 30gg = data scadenza dal 30/11/XX al 30/12/XX
- * Scaduto 60gg = data scadenza dal 30/10/XX al 29/11/XX
- * Scaduto 90gg = data scadenza dal 30/09/XX al 29/10/XX
- * Scaduto 120gg = data scadenza dal 30/08/XX al 29/09/XX
- * Scaduto oltre 1200gg = data scadenza inferiore al 30/08/XX
- * A scadere 30gg = data scadenza dal 31/12/XX al 30/01/XX+1
- * A scadere 60gg = data scadenza dal 31/01/XX+1 al 28/02/XX+1 (o 29/02 se XX è bisestile)
- * A scadere 90gg = data scadenza dal 01/03/XX+1 al 30/03/XX+1
- * A scadere 120gg = data scadenza dal 31/03/XX+1 al 30/04/XX+1
- * A scadere Oltre 120gg = data scadenza superiore al 30/04/XX+1
+ \* Scaduto 30gg = data scadenza dal 30/11/XX al 30/12/XX
+ \* Scaduto 60gg = data scadenza dal 30/10/XX al 29/11/XX
+ \* Scaduto 90gg = data scadenza dal 30/09/XX al 29/10/XX
+ \* Scaduto 120gg = data scadenza dal 30/08/XX al 29/09/XX
+ \* Scaduto oltre 1200gg = data scadenza inferiore al 30/08/XX
+ \* A scadere 30gg = data scadenza dal 31/12/XX al 30/01/XX+1
+ \* A scadere 60gg = data scadenza dal 31/01/XX+1 al 28/02/XX+1 (o 29/02 se XX è bisestile)
+ \* A scadere 90gg = data scadenza dal 01/03/XX+1 al 30/03/XX+1
+ \* A scadere 120gg = data scadenza dal 31/03/XX+1 al 30/04/XX+1
+ \* A scadere Oltre 120gg = data scadenza superiore al 30/04/XX+1
 
 **Esempio 2 :  intervalli variabili**
 Scaduto : 
@@ -41,14 +41,14 @@ A scadere :
 4° Intervallo :        Tipo :       gg fisso se mese : 
 
 Analizzando l'ageing con data situazione 31/12/XX il sistema visualizzarà le colonne : 
- * Scaduto 15gg = data scadenza dal 15/12/XX al 30/12/XX
- * Scaduto 1m = data scadenza dal 30/11/XX al 14/12/XX
- * Scaduto 2m = data scadenza dal 30/10/XX al 29/11/XX
- * Scaduto oltre 2m = data scadenza inferiore al 30/10/XX
- * A scadere 15gg = data scadenza dal 31/12/XX al 14/01/XX+1
- * A scadere 1m = data scadenza dal 15/01/XX+1 al 30/01/XX+1
- * A scadere 2m = data scadenza dal 31/01/XX+1 al 28/02/XX+1 (o 29/02 se XX è bisestile)
- * A scadere Oltre 2m = data scadenza superiore al 28/02/XX+1 (o 29/02 se XX è bisestile)
+ \* Scaduto 15gg = data scadenza dal 15/12/XX al 30/12/XX
+ \* Scaduto 1m = data scadenza dal 30/11/XX al 14/12/XX
+ \* Scaduto 2m = data scadenza dal 30/10/XX al 29/11/XX
+ \* Scaduto oltre 2m = data scadenza inferiore al 30/10/XX
+ \* A scadere 15gg = data scadenza dal 31/12/XX al 14/01/XX+1
+ \* A scadere 1m = data scadenza dal 15/01/XX+1 al 30/01/XX+1
+ \* A scadere 2m = data scadenza dal 31/01/XX+1 al 28/02/XX+1 (o 29/02 se XX è bisestile)
+ \* A scadere Oltre 2m = data scadenza superiore al 28/02/XX+1 (o 29/02 se XX è bisestile)
 
 **Esempio 3 :  utilizzo gg fisso**
 Scaduto : 
@@ -59,12 +59,12 @@ A scadere :
 2° Intervallo : 2   Tipo :  M   gg fisso se mese : 5
 
 Analizzando l'ageing con data situazione 31/12/XX il sistema visualizzarà le colonne : 
- * Scaduto 30gg = data scadenza dal 05/11/XX al 30/12/XX
- * Scaduto 60gg = data scadenza dal 05/10/XX al 04/11/XX
- * Scaduto oltre 60gg = data scadenza inferiore al 05/10/XX
- * A scadere 30gg = data scadenza dal 31/12/XX al 05/01/XX+1
- * A scadere 60gg = data scadenza dal 06/01/XX+1 al 05/02/XX+1
- * A scadere Oltre 60gg = data scadenza superiore al 05/02/XX+1
+ \* Scaduto 30gg = data scadenza dal 05/11/XX al 30/12/XX
+ \* Scaduto 60gg = data scadenza dal 05/10/XX al 04/11/XX
+ \* Scaduto oltre 60gg = data scadenza inferiore al 05/10/XX
+ \* A scadere 30gg = data scadenza dal 31/12/XX al 05/01/XX+1
+ \* A scadere 60gg = data scadenza dal 06/01/XX+1 al 05/02/XX+1
+ \* A scadere Oltre 60gg = data scadenza superiore al 05/02/XX+1
 
 **Esempio 4 :  utilizzo gg fisso con fine mese**
 Scaduto : 
@@ -75,12 +75,12 @@ A scadere :
 2° Intervallo : 2   Tipo :  M   gg fisso se mese : 31
 
 Analizzando l'ageing con data situazione 15/12/XX il sistema visualizzarà le colonne : 
- * Scaduto 30gg = data scadenza dal 30/11/XX al 14/12/XX
- * Scaduto 60gg = data scadenza dal 31/10/XX al 29/11/XX
- * Scaduto oltre 60gg = data scadenza inferiore al 31/10/XX
- * A scadere 30gg = data scadenza dal 15/12/XX al 31/01/XX+1
- * A scadere 60gg = data scadenza dal 01/02/XX+1 al 28/02/XX+1 (o 29/02 se XX è bisestile)
- * A scadere Oltre 60gg = data scadenza superiore al 28/02/XX+1 (o 29/02 se XX è bisestile)
+ \* Scaduto 30gg = data scadenza dal 30/11/XX al 14/12/XX
+ \* Scaduto 60gg = data scadenza dal 31/10/XX al 29/11/XX
+ \* Scaduto oltre 60gg = data scadenza inferiore al 31/10/XX
+ \* A scadere 30gg = data scadenza dal 15/12/XX al 31/01/XX+1
+ \* A scadere 60gg = data scadenza dal 01/02/XX+1 al 28/02/XX+1 (o 29/02 se XX è bisestile)
+ \* A scadere Oltre 60gg = data scadenza superiore al 28/02/XX+1 (o 29/02 se XX è bisestile)
 
 **Esempio 5 :  analisi per mese**
 Scaduto : 
@@ -95,16 +95,16 @@ A scadere :
 4° Intervallo : 3   Tipo :  M   gg fisso se mese : 31
 
 Analizzando l'ageing con data situazione 15/12/XX il sistema visualizzarà le colonne : 
- * Scaduto 0gg=  data scadenza dal 01/12/XX al 14/12/XX
- * Scaduto 30gg = data scadenza dal 01/11/XX al 30/11/XX
- * Scaduto 60gg = data scadenza dal 01/10/XX al 31/11/XX
- * Scaduto 90gg = data scadenza dal 01/09/XX al 30/09/XX
- * Scaduto oltre 90gg = data scadenza inferiore al 01/09/XX
- * A scadere 0gg = data scadenza dal 15/12/XX al 31/12/XX
- * A scadere 30gg = data scadenza dal 01/01/XX+1 al 31/01/XX+1
- * A scadere 60gg = data scadenza dal 01/02/XX+1 al 28/02/XX+1 (o 29/02 se XX è bisestile)
- * A scadere 90gg = data scadenza dal 01/03/XX+1 al 31/03/XX+1
- * A scadere Oltre 90gg = data scadenza superiore al 31/03/XX+1
+ \* Scaduto 0gg=  data scadenza dal 01/12/XX al 14/12/XX
+ \* Scaduto 30gg = data scadenza dal 01/11/XX al 30/11/XX
+ \* Scaduto 60gg = data scadenza dal 01/10/XX al 31/11/XX
+ \* Scaduto 90gg = data scadenza dal 01/09/XX al 30/09/XX
+ \* Scaduto oltre 90gg = data scadenza inferiore al 01/09/XX
+ \* A scadere 0gg = data scadenza dal 15/12/XX al 31/12/XX
+ \* A scadere 30gg = data scadenza dal 01/01/XX+1 al 31/01/XX+1
+ \* A scadere 60gg = data scadenza dal 01/02/XX+1 al 28/02/XX+1 (o 29/02 se XX è bisestile)
+ \* A scadere 90gg = data scadenza dal 01/03/XX+1 al 31/03/XX+1
+ \* A scadere Oltre 90gg = data scadenza superiore al 31/03/XX+1
 
 ## CONTENUTO DEI CAMPI
  :  : FLD T$ELEM **Codice**

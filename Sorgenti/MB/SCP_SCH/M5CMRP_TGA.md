@@ -3,8 +3,8 @@ La scheda permette una visualizzazione compatta dei risultati dell'MRP fino a un
 L'opzione "Raggruppamento" permette di selezionare diversi livelli di sintesi.
 L'opzione "Modalità di analisi" indica invece quali valori considerare nella rappresentazione : 
 
-* ' ' :  considera fonti esistenti, rilasciate (allo stato attuale), pianificate;
-* '1' :  come ' ', in più simula l'applicazione di suggeriementi di modifica e cancellazione sulle fonti rilasciate.
+\* ' ' :  considera fonti esistenti, rilasciate (allo stato attuale), pianificate;
+\* '1' :  come ' ', in più simula l'applicazione di suggeriementi di modifica e cancellazione sulle fonti rilasciate.
 
 
 

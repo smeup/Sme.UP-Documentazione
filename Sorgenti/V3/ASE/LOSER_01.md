@@ -67,7 +67,7 @@ Funzioni fittizie per la dimostrazione del funzionamento delle autorizzazioni su
 
  :  : PRO.SER Cod="FEM.19" Tit="Funzioni/metodo di un servizio. " Fun="F(TRE;LOSER_01;FEM) 1(V3;ASE;-(O;;V3ASE;Servizio))"
 
- :  : PRO.SER Cod="COM.20" Tit="Componenti supportati. " Fun="F(TRE;LOSER_01;COM) 1(V3;ASE;-(O;;V3ASE;Servizio)) 2(**;;-(O;;**;Funzione/metodo))"
+ :  : PRO.SER Cod="COM.20" Tit="Componenti supportati. " Fun="F(TRE;LOSER_01;COM) 1(V3;ASE;-(O;;V3ASE;Servizio)) 2(\*\*;;-(O;;\*\*;Funzione/metodo))"
 
  :  : PRO.SER Cod="PAR.21" Tit="Parametri. " Fun="F(EXB;LOSER_01;PAR)" Ref="COM.20"
 

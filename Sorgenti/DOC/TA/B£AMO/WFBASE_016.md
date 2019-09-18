@@ -3,9 +3,9 @@ WFORTE0F, WFIMPE0F, WFATTI0F, WFHIST0F, WFPROM0F e relativi logici
 
 # Files sorgente
 Definizioni funzionali dei processi : 
-   :  : DEC T(OJ) P(*FILE) K(SCP_WFA)
+   :  : DEC T(OJ) P(\*FILE) K(SCP_WFA)
 Istruzioni da presentare passo-passo agli utenti che eseguono i workflow : 
-   :  : DEC T(OJ) P(*FILE) K(DOC_WFA)
+   :  : DEC T(OJ) P(\*FILE) K(DOC_WFA)
 
 # Tabelle
 
@@ -32,13 +32,13 @@ Devono essere compilati applicazione (WF in B£A) e modulo (WFBASE in B£AMO) :
 
 ## Oggetti
 
-In CN*TT devono essere codificati F1, F2, F3, F4, F5, F6 : 
-   :  : DEC T(TA) P(*CNTT) K(F1)
-   :  : DEC T(TA) P(*CNTT) K(F2)
-   :  : DEC T(TA) P(*CNTT) K(F3)
-   :  : DEC T(TA) P(*CNTT) K(F4)
-   :  : DEC T(TA) P(*CNTT) K(F5)
-   :  : DEC T(TA) P(*CNTT) K(F6)
+In CN\*TT devono essere codificati F1, F2, F3, F4, F5, F6 : 
+   :  : DEC T(TA) P(\*CNTT) K(F1)
+   :  : DEC T(TA) P(\*CNTT) K(F2)
+   :  : DEC T(TA) P(\*CNTT) K(F3)
+   :  : DEC T(TA) P(\*CNTT) K(F4)
+   :  : DEC T(TA) P(\*CNTT) K(F5)
+   :  : DEC T(TA) P(\*CNTT) K(F6)
 
 Devono essere costruiti gli oav di F1, F2, F4.
 

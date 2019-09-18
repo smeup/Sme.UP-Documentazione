@@ -85,19 +85,19 @@ Ribadiamo l'estrema importanza di questo fatto onde evitare grossi problemi.
 ## Creazione utente di collegamento specifico
 Per quanto detto in merito alla compatibilità con ambienti precedenti, in caso si stia aggiornando una release V3R1 o precedente è necessario eseguire alcuni passi preliminari prima di poter effettuare il primo collegamento.
 E' quindi necessario : 
-* Creare una JOBD V5R1 (es. SMEJOBD51 con librerie standard V5R1 e librerie cliente da aggiornare)
-* Creare un nuovo utente (es. SME51) con associata la JOBD V5R1 precedentemente creata
-** Tale utente deve avere impostato come"programma iniziale" (INLPGM) il valore *NONE
-* Collegarsi con il nuovo utente creato
-* Eseguire la chiamata CALL B£QQX01 che consente di : 
-** Creare i file
-** Popolarli
-** Mediante UP UT5 creare un ambiente V5R1 e associarlo all'utente creato (SME51)
-*** In caso quest'ultimo comando non funzioni, utilizzarlo dopo aver eseguito le due Pre-PTF della release V4R1
-* Modificare il profilo utente inserendo come programma iniziale il B£QQ50 (o B£UT50)
-* Scollegarsi, ricollegarsi e a quel punto procedere come di consueto
+\* Creare una JOBD V5R1 (es. SMEJOBD51 con librerie standard V5R1 e librerie cliente da aggiornare)
+\* Creare un nuovo utente (es. SME51) con associata la JOBD V5R1 precedentemente creata
+\*\* Tale utente deve avere impostato come"programma iniziale" (INLPGM) il valore \*NONE
+\* Collegarsi con il nuovo utente creato
+\* Eseguire la chiamata CALL B£QQX01 che consente di : 
+\*\* Creare i file
+\*\* Popolarli
+\*\* Mediante UP UT5 creare un ambiente V5R1 e associarlo all'utente creato (SME51)
+\*\*\* In caso quest'ultimo comando non funzioni, utilizzarlo dopo aver eseguito le due Pre-PTF della release V4R1
+\* Modificare il profilo utente inserendo come programma iniziale il B£QQ50 (o B£UT50)
+\* Scollegarsi, ricollegarsi e a quel punto procedere come di consueto
 
-In alternativa alla creazione di utente con INLPGM *NONE è possibile mettere in linea "manualmente" le librerie V5R1 e poi eseguire la CALL B£QQX01
+In alternativa alla creazione di utente con INLPGM \*NONE è possibile mettere in linea "manualmente" le librerie V5R1 e poi eseguire la CALL B£QQX01
 
 ## Ulteriori Pre-PTF
 A questo punto in base al rilascio di partenza è necessario eseguire Pre-PTF specifiche

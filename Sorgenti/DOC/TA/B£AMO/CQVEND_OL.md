@@ -79,7 +79,7 @@ livello indicato nella medesima tabella
 ### Programmi prerequisiti
 Definiti attraverso la gestione legami area/tema/sintesi sono i programmi
 che determinano la base dati dinamica. I programmi che determinano la
-base per la valutazione standard sono CQVEN*
+base per la valutazione standard sono CQVEN\*
 
 - [Rating](Sorgenti/DOC/TA/B£AMO/CQVEND_01)
 

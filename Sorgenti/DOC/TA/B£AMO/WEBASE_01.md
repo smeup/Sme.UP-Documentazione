@@ -125,9 +125,9 @@ L'accesso ai settaggi è fornito dalla form Main Config (nel medesimo contesto d
 
 - [Configurazione Main](Sorgenti/DOC/TA/B£AMO/WEBASE_013)
 
-* Sfondi :  è possibile specificare lo sfondo del login e lo sfondo delle pagine interne. Vedere il file configuration.properties
-* Loghi :  è possibile specificare un logo per ogni modulo di login e lo sfondo delle pagine interne. Vedere il file configuration.properties
-* Css :  è possibile definire un proprio file css che verrà aggiunto a quello standard, permettendo così di ridefinire la maggior parte delle regole grafiche. Questo tipo di personalizzazione necessita di competenze specifiche sui fogli di stile CSS.
+\* Sfondi :  è possibile specificare lo sfondo del login e lo sfondo delle pagine interne. Vedere il file configuration.properties
+\* Loghi :  è possibile specificare un logo per ogni modulo di login e lo sfondo delle pagine interne. Vedere il file configuration.properties
+\* Css :  è possibile definire un proprio file css che verrà aggiunto a quello standard, permettendo così di ridefinire la maggior parte delle regole grafiche. Questo tipo di personalizzazione necessita di competenze specifiche sui fogli di stile CSS.
 
 Alcuni esempi di WebUP in diversi stili ed ambiti applicativi : 
 ![WEBASE_054](http://localhost:3000/immagini/WEBASE_01/WEBASE_054.png)
@@ -137,15 +137,15 @@ Alcuni esempi di WebUP in diversi stili ed ambiti applicativi :
 ## Header personalizzato
 Webup da la possibilità di definire un Header personalizzato al posto della barra standard che compare di default nella parte alta della pagina.
 Dopo aver attivato la modalità di sviluppo da terminale, per inserire il proprio header personalizzato è necessario : 
-* accedere alla pagina delle configurazioni (icona dell'ingranaggio che si trova in alto a destra)
-* attivare l'opzione custom header enabled
-* disabilitare l'opzione Menu enabled
-* inserire il codice html personalizzato nella parte "Optional header" dedicata a tale scopo
+\* accedere alla pagina delle configurazioni (icona dell'ingranaggio che si trova in alto a destra)
+\* attivare l'opzione custom header enabled
+\* disabilitare l'opzione Menu enabled
+\* inserire il codice html personalizzato nella parte "Optional header" dedicata a tale scopo
 **Funzioni disponibili nel customer header**
 Per comunicare con WebUP sono state definite delle funzioni javascript. Alcune di queste funzionalità sono : 
-* back
-* lettura titolo della scheda
-* lettura delle variabili webup
+\* back
+\* lettura titolo della scheda
+\* lettura delle variabili webup
 **Back**
 Per navigare all'interno di webup e tornare ad una scheda precedentemente visualizzata, è sufficiente richiamare la funzione javascript back all'interno del codice html personalizzato.
 Esempio
@@ -153,8 +153,8 @@ Esempio
 
 **Titolo della scheda**
 Il titolo di una scheda può essere reperito attraverso un meccanismo di funzioni javascript che : 
-* indica a webup quale funzione richiamare ad ogni cambio scheda per l'impostazione del titolo (funzione smeupCustomHeaderSetup() richiamata al load della pagina);
-* esegue l'assegnazione del titolo all'elemento html opportuno.
+\* indica a webup quale funzione richiamare ad ogni cambio scheda per l'impostazione del titolo (funzione smeupCustomHeaderSetup() richiamata al load della pagina);
+\* esegue l'assegnazione del titolo all'elemento html opportuno.
 Esempio
 
 <h1 class="title"/>
@@ -176,7 +176,7 @@ Nota :  la funzione smeupCustomerHeaderSetup(..) imposta la funzione di callback
 La funzione javascript da chiamare per ottenere il valore di una variabile è smeupGetVariableValue(); indicando il nome della variabile da leggere e la funzione di callback da chiamare per recepire il valore della variabile richiesto.
 
 Esempio
-smeupGetVariableValue(&-91;{name : 'variable', value  : '*LOGINMODULE'}, {name : 'callback', value  : 'setTitle'}&-93;);
+smeupGetVariableValue(&-91;{name : 'variable', value  : '\*LOGINMODULE'}, {name : 'callback', value  : 'setTitle'}&-93;);
 
 # Incompatibilità note
 

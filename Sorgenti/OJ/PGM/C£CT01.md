@@ -34,6 +34,6 @@ Il formato di dettaglio permette una manutenzione controllata e con decodifica d
 
 ## CONDIZIONI SPECIALI
 ### Condizioni iniziali
-La condizione ****** se presente viene verificata come all'inizio e definisce le obbligatorietà,
+La condizione \*\*\*\*\*\* se presente viene verificata come all'inizio e definisce le obbligatorietà,
 
 ### Condizioni finali

@@ -5,10 +5,10 @@
 Il Single sign-on (SSO) è un sistema che permette all'utente di autenticarsi una sola volta e di accedere a tutte le risorse informatiche alle quali è abilitato.
 Tra i diversi sistemi disponibili Kerberos è quello che risponde meglio alle nostre esigenze.
 I principali vantaggi di Kerberos sono : 
- * semplificazione della gestione delle password :  maggiore è il numero delle password da gestire, maggiore è la possibilità che vengano utilizzate pass- word simili le une alle altre e facili da memorizzare, abbassando così il livello di sicurezza;
- * semplificazione della gestione delle autorizzazioni agli accessi ai vari servizi;
- * compatibilità con i più diffusi sistemi operativi;
- * sicurezza anche su reti insicure.
+ \* semplificazione della gestione delle password :  maggiore è il numero delle password da gestire, maggiore è la possibilità che vengano utilizzate pass- word simili le une alle altre e facili da memorizzare, abbassando così il livello di sicurezza;
+ \* semplificazione della gestione delle autorizzazioni agli accessi ai vari servizi;
+ \* compatibilità con i più diffusi sistemi operativi;
+ \* sicurezza anche su reti insicure.
 
 ## Kerberos
 ### Principi di funzionamento
@@ -91,15 +91,15 @@ Una volta autenticati sulla rete, l'applicazione web chiederà, per ogni session
 The JavaTM Authentication and Authorization Service(JAAS)[2] è un'API presente nel JRE standard a partire dalla versione 1.4 di java. L'architettura di JAAS prevede la possibilità di intercambiare i meccanismi di autenticazione.
 Questo permette alle applicazioni Java di rimanere indipendenti dalla sottostanti tecnologie di autenticazione. Tecnologie nuove o aggiornate possono essere inserite senza dover modificare l'applicazione. La particolare implementazione del meccanismo di autenticazione può essere definita in un file di configurazione (per noi Kerberos).
 Il codice di base per la nostra implementazione in Loocup è tratto da un tutorial in rete [5] : 
-import javax.security.auth.*;
-import javax.security.auth.callback.*;
-import javax.security.auth.login.*;
+import javax.security.auth.\*;
+import javax.security.auth.callback.\*;
+import javax.security.auth.login.\*;
 import com.sun.security.auth.callback.TextCallbackHandler;
 
-/**
- * This JaasAcn application attempts to authenticate a user
- * and reports whether or not the authentication was successful.
- */
+/\*\*
+ \* This JaasAcn application attempts to authenticate a user
+ \* and reports whether or not the authentication was successful.
+ \*/
 public class JaasAcn {
 
   public static void main(String[] args) {
@@ -195,19 +195,19 @@ Come server IMAP in particolare abbiamo usato Dovecot[4] perché è lo stesso us
 I principali browser utilizzano il protocollo SPNEGO per realizzare SSO. In particolare il protocollo è  supportato da Internet Explorer, Firefox, Safari. Non è supportato per il momento da Chrome.
 ### Internet Explorer
 I passaggi fondamentali per abilitare SSO su Internet Explorer[12] possono variare a seconda delle combinazioni Browser/versione-di-Windows ma in generale sono i seguenti : 
- * In Internet Explorer Strumento -> Opzioni Internet (in inglede Tools -> Internet Options).
- * Clicca sulla scheda Protezione (in inglese Security).
- * Clicca Rete Locale -> Siti (in inglese Local intranet -> Sites).
- * Assicurarsi che "Includi tutti i siti che non usano il proxy" (in inglese "Include all sites that bypass the proxy server") sia selezionato.
- * Cliccare su Avanzate (in inglese Advanced) e aggiungere il nome del sito a cui ci si deve autenticare.
- * Cliccare se OK.
+ \* In Internet Explorer Strumento -> Opzioni Internet (in inglede Tools -> Internet Options).
+ \* Clicca sulla scheda Protezione (in inglese Security).
+ \* Clicca Rete Locale -> Siti (in inglese Local intranet -> Sites).
+ \* Assicurarsi che "Includi tutti i siti che non usano il proxy" (in inglese "Include all sites that bypass the proxy server") sia selezionato.
+ \* Cliccare su Avanzate (in inglese Advanced) e aggiungere il nome del sito a cui ci si deve autenticare.
+ \* Cliccare se OK.
 
 ### Firefox
 
- * Apri firefox, and digita "about : config" nella barra delle url. Appariranno tutte le voci di configurazione di Firefox.
- * Vai alla voce "network.negotiate-auth.trusted-uris".
+ \* Apri firefox, and digita "about : config" nella barra delle url. Appariranno tutte le voci di configurazione di Firefox.
+ \* Vai alla voce "network.negotiate-auth.trusted-uris".
 Imposta il valore ">" cliccando due volte sulla voce e digitando ">" nel dialog che appare.
- * Ora vai alla vode "network.negotiate-auth.delegation-uris"
+ \* Ora vai alla vode "network.negotiate-auth.delegation-uris"
 Imposta il valore ">" cliccando due volte sulla voce e digitando ">" nel dialog che appare.
 
 ### SPNEGO
@@ -232,14 +232,14 @@ http://download-llnw.oracle.com/javase/1.5.0/docs/guide/security/jgss/tutorials/
 Si noti che anche per Windows 7 bisogna impostare una chiave nel registry.
 GLOSSARIO
 
- * Principal :  qualsiasi utente, computer e servizi forniti dai server deve essere definito come come Kerberos Principal.
- * Instance :  le Instance sono usate dai servizi Principal e dai Principal amministrativi.
- * Realm :  è il nome univoco del contesto a cui appartengono i Principal. Di solito corrisponde al dominio DNS trasformato in lettere maiuscole.
- * Key Distribution Center :  (KDC) consiste di tre parti, un database di tutti i Principal, il server di autenticazione e il server dei ticket granting ticket. Per ciascuno realm ci deve essere un KDC.
- * Ticket Granting Ticket :  è fornito da un server di autenticazione (AS), il Ticket Granting Ticket è crittato con la password dell'utente che è nota solo all'utente e al KDC.
- * Ticket Granting Server :  fornisce i Ticket ai client su richiesta.
- * Ticket :  conferma l'identità di due Principal. Uno è l'utente e l'altro è il servizio richiesto dall'utente. I Ticket stabiliscono una chiave di crittografia usata per una comunicazione sicura durante una sessione autenticata.
- * Keytab File :  file estratto dal database dei Principal del KDC e conteniene la chiave di crittografia per un servizio o per un host.
+ \* Principal :  qualsiasi utente, computer e servizi forniti dai server deve essere definito come come Kerberos Principal.
+ \* Instance :  le Instance sono usate dai servizi Principal e dai Principal amministrativi.
+ \* Realm :  è il nome univoco del contesto a cui appartengono i Principal. Di solito corrisponde al dominio DNS trasformato in lettere maiuscole.
+ \* Key Distribution Center :  (KDC) consiste di tre parti, un database di tutti i Principal, il server di autenticazione e il server dei ticket granting ticket. Per ciascuno realm ci deve essere un KDC.
+ \* Ticket Granting Ticket :  è fornito da un server di autenticazione (AS), il Ticket Granting Ticket è crittato con la password dell'utente che è nota solo all'utente e al KDC.
+ \* Ticket Granting Server :  fornisce i Ticket ai client su richiesta.
+ \* Ticket :  conferma l'identità di due Principal. Uno è l'utente e l'altro è il servizio richiesto dall'utente. I Ticket stabiliscono una chiave di crittografia usata per una comunicazione sicura durante una sessione autenticata.
+ \* Keytab File :  file estratto dal database dei Principal del KDC e conteniene la chiave di crittografia per un servizio o per un host.
 
 NOTE
 (1)In realtà queste informazioni sarebbero reperibili dal DNS[7]. Probabilmente "Krb5LoginModule" non interroga il DNS. Il programmatore potrebbe inserire del codice JNDI per automatizzare la richiesta rendendo più semplice la configurazione di Kerberos.

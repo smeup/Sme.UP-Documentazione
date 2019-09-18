@@ -27,7 +27,7 @@ E' significativo nel caso di flusso batch
  :  : FLD T$L,1 **Limite / Azione**
 Elenco di azioni che devono essere applicate durante il flusso. È possibile specificare fino ad un massimo di 5 azioni, oppure mettendo un prefisso che ne specifica il gruppo, si possono identificare tutte le azioni con lo stesso prefisso.
 _9_Esempio  : 
-- D5*             esegue tutte le azioni con prefisso D5
+- D5\*             esegue tutte le azioni con prefisso D5
 - FA010          esegue l'azione specifica
  :  : FLD T$B£HA **Programma di abbandono Flusso**
 Indica il nome del programma che dev'essere applicato quando il flusso non viene completato correttamente. Ad esempio nei flussi delle spedizioni, se l'utente esegue delle operazioni che non vengono completate (non seleziona nessuna riga da spedire), il programma in questione (V5AT11R) si preoccupa di ripristinare la situazione precedente.

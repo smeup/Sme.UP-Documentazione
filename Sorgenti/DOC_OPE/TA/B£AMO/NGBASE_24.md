@@ -12,17 +12,17 @@ In Negoziando andremo a gestire le Distinte Base utilizzate dal Conto Lavorazion
 
 In Negoziando sono disponibili le seguenti funzioni per la Gestione e le Analisi delle Distinte Base, dal _Menu>Principale>Gestione Distinta Base_ : 
 
- * Gestione Distinta Base
- * Duplicazione Distinta Base
- * Sostituzione di Massa Componenti Distinta Base
- * Inserimento di Massa Componenti Distinta Base
- * Generazione Articoli e Distinta Base per Varianti
- * Aggiornamento Distinta Base con Varianti
- * Riallineamento Distinta Base
- * Generazione Movimenti di Magazzino da Articoli di Produzione
- * Esplosione/Implosione Distinta Base
- * Analisi Scheda Costo Distinta Base
- * Aggiornamento Costi Distinta Base
+ \* Gestione Distinta Base
+ \* Duplicazione Distinta Base
+ \* Sostituzione di Massa Componenti Distinta Base
+ \* Inserimento di Massa Componenti Distinta Base
+ \* Generazione Articoli e Distinta Base per Varianti
+ \* Aggiornamento Distinta Base con Varianti
+ \* Riallineamento Distinta Base
+ \* Generazione Movimenti di Magazzino da Articoli di Produzione
+ \* Esplosione/Implosione Distinta Base
+ \* Analisi Scheda Costo Distinta Base
+ \* Aggiornamento Costi Distinta Base
 
 ## Gestione Distinta Base
 
@@ -35,21 +35,21 @@ Dal _Menu>Principale>Gestione Distinta Base>Gestione Distinta Base_ viene richie
 (Questa stessa funzione può essere richiamata anche direttamente dalla Gestione Anagrafica Articoli)
 Dopo aver confermato apparirà una schermata con i soliti tasti funzionali di Negoziando. Premere F6 Inserisci per aggiungere tutti i componenti che formano l'articolo inserito prima. Verrà richiesto di indicare : 
 
- * Sequenza. Sarà l'ordine in base al quale verranno elencati a video i vari componenti. Deve essere univoca nell'ambito della distinta
- * Articolo. Codice Articolo del Componente
- * Coefficiente di Impiego. La Quantità che verrà utilizzata per arrivare al prodotto finito
- * Data Inizio/Fine Validità
- * Costo Unitario
- * Valuta Costo
- * Unità di Misura
- * % Sfrido. Rappresenta la percentuale di scarto della lavorazione del materiale
+ \* Sequenza. Sarà l'ordine in base al quale verranno elencati a video i vari componenti. Deve essere univoca nell'ambito della distinta
+ \* Articolo. Codice Articolo del Componente
+ \* Coefficiente di Impiego. La Quantità che verrà utilizzata per arrivare al prodotto finito
+ \* Data Inizio/Fine Validità
+ \* Costo Unitario
+ \* Valuta Costo
+ \* Unità di Misura
+ \* % Sfrido. Rappresenta la percentuale di scarto della lavorazione del materiale
 
 ## Duplicazione Distinta Base
 
 Dal _Menu>Principale>Gestione Distinta Base>Duplicazione Distinta Base_ è possibile Copiare la Distinta Base di un Articolo, attribuendola ad un altro. Nella maschera principale verrà richiesto di indicare : 
 
- * Articolo di Riferimento. L'Articolo con la Distinta Base che si intende Duplicare
- * Articolo per Generazione Distinta. L'Articolo al quale verrà attribuità la Distinta duplicata
+ \* Articolo di Riferimento. L'Articolo con la Distinta Base che si intende Duplicare
+ \* Articolo per Generazione Distinta. L'Articolo al quale verrà attribuità la Distinta duplicata
 
 Confermare e attendere la notifica di avvenuta duplicazione
 
@@ -58,9 +58,9 @@ Confermare e attendere la notifica di avvenuta duplicazione
 Con la funzione in oggetto è possibile sostituire in una volta sola un Componente contenuto in più Distinte Base. Dal _Menu>Principale>Gestione Distinta Base>Sostituzione di Massa Componenti Distinta Base indicare il Componente da Sostituire e premere Invio
 A questo punto il sistema visualizzerà l'elenco di tutte le DB che contengono quel Componente. Sarà possibile : 
 
- * F2 Selezionare Tutto
- * F3 Deselezionare Tutto
- * F9 Selezionare un Record
+ \* F2 Selezionare Tutto
+ \* F3 Deselezionare Tutto
+ \* F9 Selezionare un Record
 
 Dopo aver confermato la scelta, apparirà la Richiesta del Nuovo Componente che andrà a Sostituire il precedente. Dopo aver premuto Invio, apparirà una Notifica che riporta quali DB verranno aggiornate col Nuovo Componente. Confermare per Continuare, altrimenti premere Esc.
 
@@ -117,8 +117,8 @@ Viene richiesta inizialmente conferma e, al termine dell'elaborazione, viene dat
 
 La procedura di generazione dei Movimenti genera 2 movimenti di Magazzino : 
 
- * Uno per lo Scarico degli Articoli di Produzione (ex :  E.BICI.BLU.BIMBO)
- * Uno per il Carico dell'Articolo principale (ex :  EDB_BICI - Colore BLU - Taglia BIMBO)
+ \* Uno per lo Scarico degli Articoli di Produzione (ex :  E.BICI.BLU.BIMBO)
+ \* Uno per il Carico dell'Articolo principale (ex :  EDB_BICI - Colore BLU - Taglia BIMBO)
 
 **Per la generazione di tali movimenti di Magazzino è necessario definire nella Configurazione di Negoziando il Tipo Documento e le Causali da utilizzare (vedi annotazioni successive)
 
@@ -127,13 +127,13 @@ La procedura di generazione dei Movimenti genera 2 movimenti di Magazzino :
 La funzione permette di analizzare le composizioni delle Distinte Base valutando eventualmente la disponibilità degli Articoli necessari alla Produzione dell'Articolo Finito
 _Dal Menu>Principale>Gestione Distinta Base>Esplosione/Implosione Distinta Base_. All'attivazione della funzione vengono richiesti : 
 
- * Codice Articolo
- * Tipo Richiesta che potrà essere : 
- ** Esplosione Singolo Livello. Viene visualizzata la Composizione dell'Articolo Padre. Se viene impostato il Campo Quantità Richiesta, il Sistema calcolerà quanti Pezzi mi occorrono per creare Tot. Articoli
- ** Esplosione a Scalare. Se anche un Componente ha a sua volta una Distinta Base, vedrò anche tutta la sua Composizione
- ** Implosione a Scalare. E' il processo inverso, quindi indicherò il Codice Articolo di un Componente
- ** Implosione Singolo Livello
- * Disponibilità. Indicare SI se si intende avere informazioni riguardo la Disponibilità degli articoli. In questo caso, dopo aver dato Conferma, verrà richiesto di indicare (facoltativamente) la Quantità Richiesta di riferimento
+ \* Codice Articolo
+ \* Tipo Richiesta che potrà essere : 
+ \*\* Esplosione Singolo Livello. Viene visualizzata la Composizione dell'Articolo Padre. Se viene impostato il Campo Quantità Richiesta, il Sistema calcolerà quanti Pezzi mi occorrono per creare Tot. Articoli
+ \*\* Esplosione a Scalare. Se anche un Componente ha a sua volta una Distinta Base, vedrò anche tutta la sua Composizione
+ \*\* Implosione a Scalare. E' il processo inverso, quindi indicherò il Codice Articolo di un Componente
+ \*\* Implosione Singolo Livello
+ \* Disponibilità. Indicare SI se si intende avere informazioni riguardo la Disponibilità degli articoli. In questo caso, dopo aver dato Conferma, verrà richiesto di indicare (facoltativamente) la Quantità Richiesta di riferimento
 
 Vengono sempre visualizzati : 
 Livello/Articolo/Descrizione/Coefficiente di Impiego/Unità di Misura/ Quantità Totale.
@@ -149,24 +149,24 @@ E' sempre disponibile il tasto funzionale F5 per stampare l'elenco visualizzato.
 Questa funzione permette di analizzare i Costi complessivi di articoli che hanno una Distinta Base.
 All'attivazione della funzione dal _Menu>Principale>Gestione Distinta Base>Analisi Scheda Costo Distinta Base vengono richiesti : 
 
- * Codice Negozio (per la determinazione del Prezzo di Vendita)
- * Codice Articolo
- * Tipo Richiesta che potrà essere : 
- ** Esplosione a Scalare
- ** Esplosione Singolo Livello
- * Valuta da utilizzare per la visualizzazione degli Importi
+ \* Codice Negozio (per la determinazione del Prezzo di Vendita)
+ \* Codice Articolo
+ \* Tipo Richiesta che potrà essere : 
+ \*\* Esplosione a Scalare
+ \*\* Esplosione Singolo Livello
+ \* Valuta da utilizzare per la visualizzazione degli Importi
 
- * Informazioni per la Valorizzazione. E' possibile decidere come Valorizzare il Costo della Distinta Base, secondo un Valore Primario e, volendo, uno Secondario ed è possibile scegliere  tra
- ** Costo Standard
- ** Costo Medio
- ** Costo Medio Ponderato
- ** Listino di Vendita
- ** Listino d'Acquisto
+ \* Informazioni per la Valorizzazione. E' possibile decidere come Valorizzare il Costo della Distinta Base, secondo un Valore Primario e, volendo, uno Secondario ed è possibile scegliere  tra
+ \*\* Costo Standard
+ \*\* Costo Medio
+ \*\* Costo Medio Ponderato
+ \*\* Listino di Vendita
+ \*\* Listino d'Acquisto
 
 Se viene indicato un Listino, verrà poi richiesto il Codice e il Tipo Prezzi : 
- * Normale
- * Promozionale
- * Entrambi
+ \* Normale
+ \* Promozionale
+ \* Entrambi
 
 L'elenco degli articoli è ordinato (e raggruppato) in base alle impostazioni definite nella Configurazione di Negoziando (vedi annotazioni successive).
 Per la determinazione del Costo Unitario viene utilizzato (se presente) il valore indicato nella Gestione della Distinta Base, in caso contrario il Costo viene determinato sulla base delle informazioni di selezione iniziale (Pannello Valorizzazione).
@@ -181,29 +181,29 @@ Per utilizzare le funzioni di gestione della Distinta Base occorre impostare la 
 
 Verranno richiesti : 
 
- * Gestione Distinta Base. Indicare SI
- * Consenti Qta Componenti a Zero. Valore che riguarda più che altro il settore Alimentare
+ \* Gestione Distinta Base. Indicare SI
+ \* Consenti Qta Componenti a Zero. Valore che riguarda più che altro il settore Alimentare
 
 Tra le Informazioni per Generazione Articoli e Distinte Base per Varianti indicare : 
 
- * Prefisso per Nuovi Articoli da Generare
- * Usa Codice Articolo Origine da Posizione
- * Numero Caratteri Articolo Origine da Utilizzare
- * Tipo Esplosione per Varianti
- ** Esplicita. I nuovi codici conterranno Colore/Taglia
- ** Progressivo. I nuovi Codici saranno seguiti da 001,002,003 etc..
- * Carattere di Separazione tra Articolo/Colore/Taglia. Esempio :  nel caso di Generazione Articoli a partire da EDB_GIACCA Colori BLU/NER Taglie 41/42, se utilizzassimo il Punto come Carattere di Separazione, avremmo questi nuovi codici : 
+ \* Prefisso per Nuovi Articoli da Generare
+ \* Usa Codice Articolo Origine da Posizione
+ \* Numero Caratteri Articolo Origine da Utilizzare
+ \* Tipo Esplosione per Varianti
+ \*\* Esplicita. I nuovi codici conterranno Colore/Taglia
+ \*\* Progressivo. I nuovi Codici saranno seguiti da 001,002,003 etc..
+ \* Carattere di Separazione tra Articolo/Colore/Taglia. Esempio :  nel caso di Generazione Articoli a partire da EDB_GIACCA Colori BLU/NER Taglie 41/42, se utilizzassimo il Punto come Carattere di Separazione, avremmo questi nuovi codici : 
 E.GIACCA.BLU.41 - E.GIACCA.BLU.42 - E.GIACCA.BLU.43 etc
- * Generazione Codici a Barre Automatici SI/NO
- * Codice Marchio per Generazione Automatica. Dalla Tabella MARC - Marchi
- * Codice Stato da Attribuire ai Nuovi Articoli. Dalla Tabella SART - Stato Articolo
+ \* Generazione Codici a Barre Automatici SI/NO
+ \* Codice Marchio per Generazione Automatica. Dalla Tabella MARC - Marchi
+ \* Codice Stato da Attribuire ai Nuovi Articoli. Dalla Tabella SART - Stato Articolo
 
 Tra le Informazioni per la Generazione Movimenti di Magazzino : 
 
- * Tipo Documento di Magazzino. Dalla Tabella TDMA
- * Causale per Scarico Articoli di Produzione. Tabella CAMA - Causali di Magazzino
- * Causale per Carico Articoli gestiti a Taglia/Colore. Tabella CAMA - Causali di Magazzino
+ \* Tipo Documento di Magazzino. Dalla Tabella TDMA
+ \* Causale per Scarico Articoli di Produzione. Tabella CAMA - Causali di Magazzino
+ \* Causale per Carico Articoli gestiti a Taglia/Colore. Tabella CAMA - Causali di Magazzino
 
- * Tipo Ordinamento per Stampa Scheda Costo. E' possibile scegliere tra diversi Valori
+ \* Tipo Ordinamento per Stampa Scheda Costo. E' possibile scegliere tra diversi Valori
 
 

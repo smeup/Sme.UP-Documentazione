@@ -27,11 +27,11 @@ Quando il mouse è dentro il perimetro della figura, ma non è sopra il pallino 
 ### Gruppo pulsanti creazione elementi grafici
 ![LOCWFD_05](http://localhost:3000/immagini/MBDOC_OPE-LOCWFD_A/LOCWFD_05.png)
 E' composto da : 
- * Pulsante per la creazione di una transizione
- * Pulsante per la creazione di un luogo iniziale
- * Pulsante per la creazione di un luogo
- * Pulsante per la creazione di un luogo finale
- * Pulsante per la creazione di un arco.
+ \* Pulsante per la creazione di una transizione
+ \* Pulsante per la creazione di un luogo iniziale
+ \* Pulsante per la creazione di un luogo
+ \* Pulsante per la creazione di un luogo finale
+ \* Pulsante per la creazione di un arco.
 Quando uno dei primi 4 pulsanti è selezionato consente di creare una transizioni o un arco. Per la creazione posizionarsi con il mouse nell'area del workflow e cliccare. Ad ogni click comparirà un elemento grafico del tipo selezionato. L'elemento avrà un nome e una descrizione predefinita, ad esempio TR_1 :  Nuova transizione, TR_2 ecc ecc. Si può cambiare il codice e la descrizione agendo direttamente sull'etichetta che compare sotto l'elemento grafico, tramite un doppio click, l'etichetta diventerà editabile e consentirà la modifica. Il termine della modifica averrà o con il tasto enter o cliccando esternamente. Va posta attenzione alla sintassi :  il codice termina con il simbolo dei " : " e  quanto segue è la descrizione.
 Attenzione inoltre ai luoghi non collegati a transizioni :  tutti questi elementi grafici nel momento in cui il grafico viene salvato (e quindi convertito in script) vengono persi.
 Per la creazione di archi si può, una volta selezionato l'apposito pulsante, posizionarsi nel centro di una transizione e un luogo, premere il tasto destro e trascinare fino al luogo o alla transizione da collegare.  Analoga procedura si può seguire quando si è in modalità di selezione.
@@ -39,42 +39,42 @@ Per la creazione di archi si può, una volta selezionato l'apposito pulsante, po
 ### Gruppo pulsanti di gestione degli allineamenti
 ![LOCWFD_06](http://localhost:3000/immagini/MBDOC_OPE-LOCWFD_A/LOCWFD_06.png)
 E' composto da : 
- * Pulsante per allineare a destra
- * Pulsante per allineare a sinistra
- * Pulsante per allineare sulla mezzeria verticale
- * Pulsante per allineare in alto
- * Pulsante per allineare in basso
- * Pulsante per allineare sulla mezzeria orizzontale
+ \* Pulsante per allineare a destra
+ \* Pulsante per allineare a sinistra
+ \* Pulsante per allineare sulla mezzeria verticale
+ \* Pulsante per allineare in alto
+ \* Pulsante per allineare in basso
+ \* Pulsante per allineare sulla mezzeria orizzontale
 **NOTA** Tutti questi pulsanti si attivano solo quando sono stati selezionati 2 o più elementi grafici
 
 
 ### Gruppo di pulsanti per la gestione degli spostamenti
 ![LOCWFD_07](http://localhost:3000/immagini/MBDOC_OPE-LOCWFD_A/LOCWFD_07.png)
 E' composto da : 
- * Sposta a sinistra
- * Sposta a destra
- * Sposta in basso
- * Sposta in alto
+ \* Sposta a sinistra
+ \* Sposta a destra
+ \* Sposta in basso
+ \* Sposta in alto
 Questi pulsanti agiscono su uno o più elementi grafici
 
 ### Gruppo di pulsanti per la gestione delle posizioni relative
 ![LOCWFD_08](http://localhost:3000/immagini/MBDOC_OPE-LOCWFD_A/LOCWFD_08.png)
 E' composto da : 
- * Pulsante per allontanare due o più luoghi e  o transizioni
- * Pulsante per avvicinare due o più luoghi e  o transizioni
+ \* Pulsante per allontanare due o più luoghi e  o transizioni
+ \* Pulsante per avvicinare due o più luoghi e  o transizioni
 Questi pulsanti si attivano solo se sono selezionati due o più elementi grafici, ogni click aumenta o diminuisce la distanza dal baricentro della selezione
 
 
 ### Altri pulsanti
 ![LOCWFD_09](http://localhost:3000/immagini/MBDOC_OPE-LOCWFD_A/LOCWFD_09.png)Sono 3 gruppi : 
- * Gruppo pulsanti gestione Zoom e griglia : 
- ** Pulsante per definire il fattore di Zoom.
- ** Pulsante per mostrare/nascondere la griglia di allineamento
- * Gruppo pulsanti  gestione esportazione
- ** E' composto dal pulsante per la esportazione. Consente di salvare il workflow in un file esterno all'AS400, scegliendo tra vari formati, compreso quello di SmeUp.
- * Gruppo pulsanti gestione undo e redo
- ** Undo
- ** Redo
+ \* Gruppo pulsanti gestione Zoom e griglia : 
+ \*\* Pulsante per definire il fattore di Zoom.
+ \*\* Pulsante per mostrare/nascondere la griglia di allineamento
+ \* Gruppo pulsanti  gestione esportazione
+ \*\* E' composto dal pulsante per la esportazione. Consente di salvare il workflow in un file esterno all'AS400, scegliendo tra vari formati, compreso quello di SmeUp.
+ \* Gruppo pulsanti gestione undo e redo
+ \*\* Undo
+ \*\* Redo
 
 
 ## Il visualizzatore di ordini

@@ -9,9 +9,9 @@ Il legame tra ordini è tanti a tanti, vale a dire che un ordine puè essere con
 La fase dell'ordine 'assieme' viene resa non pronta se è la prima in assoluto e non è iniziata. Viene posta in stato '4' (nella memoria BCD) se soddisfa ad entrambe queste condizioni, ed ha un un vincolo di inizio dalla fine di altri ordini. Per la schdulazione, questo stato è equivalente al '3' :  viene differenziato per evidenziare il tipo di 'non pronto'.
 
 Tra livelli diversi
-* NON viene calcolata la sovrapposizione
-* NON viene applicato l'accostamento (sa standard sia utente)
-* Viene applicata all'ultima fase dell'ordine del livello inferiore l'attesa successiva.
+\* NON viene calcolata la sovrapposizione
+\* NON viene applicato l'accostamento (sa standard sia utente)
+\* Viene applicata all'ultima fase dell'ordine del livello inferiore l'attesa successiva.
 Questo perché la fine (data e ora) dell'ordine (nell'elemento di sintesi) è la fine dell'ultima fase a cui si aggiunge l'attesa successiva, ed è questo istante che  costituisce il vincolo per l'ordine assieme.
 
 Si trattano due livelli di ordini 'passanti', vale a dire composti solo di operazioni a capacità infinita.
@@ -28,5 +28,5 @@ I livelli passanti sono dati dal numero di repliche -1. Se si volessero aumentar
 
 
  :  : REM
-*** QUI METTERE UNA FIGURA CON I LEGAMI TRA LE DS DI MEMORIA ****
+\*\*\* QUI METTERE UNA FIGURA CON I LEGAMI TRA LE DS DI MEMORIA \*\*\*\*
  :  : REM.END

@@ -2,9 +2,9 @@
 Attività di un ordine di workflow.
 
 ## Oggettizzazione
- * £FUNT1 :  'F4'
- * £FUNP1 :  niente
- * £FUNK1 (lungo 10) :  il numero di attività (CHIAVE PRIMARIA) F4NURE.
+ \* £FUNT1 :  'F4'
+ \* £FUNP1 :  niente
+ \* £FUNK1 (lungo 10) :  il numero di attività (CHIAVE PRIMARIA) F4NURE.
 
 ## Impostazioni fisse
 Nessuna.

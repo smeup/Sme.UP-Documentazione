@@ -30,5 +30,5 @@ decimale, tipologia data) specifiche per l'utente
  :  : FLD T$B£UP **SV.Plant Utente**
 Flag riservato per lo sviluppo delle applicazioni MULTImagazzino.
 
- :  : FLD T$B£UQ **Disabilita *LAST**
-Impostando questo flag viene disabilitata la risalita *LAST del job.
+ :  : FLD T$B£UQ **Disabilita \*LAST**
+Impostando questo flag viene disabilitata la risalita \*LAST del job.

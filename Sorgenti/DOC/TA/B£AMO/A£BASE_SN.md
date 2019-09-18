@@ -36,14 +36,14 @@ Tramite questa /COPY è possibile semplificare la scrittura dei file PDF che ven
 
 Sono a disposizione una serie di PRINTER file standard definibili internamente ai programma.
 
- :  : DEC T(OJ) P(*FILE) K(PRT132)
- :  : DEC T(OJ) P(*FILE) K(PRT132A)
- :  : DEC T(OJ) P(*FILE) K(PRT198)
- :  : DEC T(OJ) P(*FILE) K(PRT198_01)
- :  : DEC T(OJ) P(*FILE) K(PRT198S)
- :  : DEC T(OJ) P(*FILE) K(PRT1982)
- :  : DEC T(OJ) P(*FILE) K(PRT80)
- :  : DEC T(OJ) P(*FILE) K(PRT80C)
+ :  : DEC T(OJ) P(\*FILE) K(PRT132)
+ :  : DEC T(OJ) P(\*FILE) K(PRT132A)
+ :  : DEC T(OJ) P(\*FILE) K(PRT198)
+ :  : DEC T(OJ) P(\*FILE) K(PRT198_01)
+ :  : DEC T(OJ) P(\*FILE) K(PRT198S)
+ :  : DEC T(OJ) P(\*FILE) K(PRT1982)
+ :  : DEC T(OJ) P(\*FILE) K(PRT80)
+ :  : DEC T(OJ) P(\*FILE) K(PRT80C)
 
 In relazione ai printer sono disponibili una serie /COPY che riportare all'interno   del printer una serie di variabili di intestazione standard (sistema informativo, data    utente, ora di elaborazione ecc.)
 
@@ -72,7 +72,7 @@ Tramite le funzioni di OVL è possibile associare allo spool prodotto da una par
 
 # Configurazione cosa di stampa per stampanti Zebra
 Esempio di comando per la creazione dell'OUTQ : 
-CRTOUTQ OUTQ(SMESYS/ZEBRA) RMTSYS(*INTNETADR) RMTPRTQ(LPT1) AUTOSTRWTR(1) CNNTYPE(*IP) DESTTYPE(*OTHER) TRANSFORM(*YES) MFRTYPMDL(*WSCST) WSCST(QSYS/QWPDEFAULT) INTNETADR('192.168.1.xxx') TEXT('Coda di stampa Zebra')
+CRTOUTQ OUTQ(SMESYS/ZEBRA) RMTSYS(\*INTNETADR) RMTPRTQ(LPT1) AUTOSTRWTR(1) CNNTYPE(\*IP) DESTTYPE(\*OTHER) TRANSFORM(\*YES) MFRTYPMDL(\*WSCST) WSCST(QSYS/QWPDEFAULT) INTNETADR('192.168.1.xxx') TEXT('Coda di stampa Zebra')
 
 # Configurazione Info Print Server
 
@@ -81,67 +81,67 @@ L'info Print server è un software per la creazione di file PDF partendo da uno 
 Come primo passo è necessario creare una stampante PDF (CRTDEVPRT) con le seguenti caratteristiche : 
 
 >Descrizione unità  . . . . . . . .  :   DEVD              PDFPRT
-Opz. . . . . . . . . . . . . . . .  :   OPTION            *BASIC
-Categoria dell'unità . . . . . . .  :                     *PRT
+Opz. . . . . . . . . . . . . . . .  :   OPTION            \*BASIC
+Categoria dell'unità . . . . . . .  :                     \*PRT
 
-Classe unità . . . . . . . . . . .  :   DEVCLS            *LAN
-Tipo unità . . . . . . . . . . . .  :   TYPE              *IPDS
+Classe unità . . . . . . . . . . .  :   DEVCLS            \*LAN
+Tipo unità . . . . . . . . . . . .  :   TYPE              \*IPDS
 Modello unità  . . . . . . . . . .  :   MODEL             0
-Collegamento LAN . . . . . . . . .  :   LANATTACH         *IP
-Stampa con funzioni avanzate . . .  :   AFP               *YES
+Collegamento LAN . . . . . . . . .  :   LANATTACH         \*IP
+Stampa con funzioni avanzate . . .  :   AFP               \*YES
 Numero porta . . . . . . . . . . .  :   PORT              67
-In linea a IPL . . . . . . . . . .  :   ONLINE            *YES
+In linea a IPL . . . . . . . . . .  :   ONLINE            \*YES
 Font . . . . . . . . . . . . . . .  :   FONT
   Identificativo . . . . . . . . .  :                       011
-  Dimensione punto . . . . . . . .  :                       *NONE
-Alimentazione moduli . . . . . . .  :   FORMFEED          *CONT
-Cassetto per separatori  . . . . .  :   SEPDRAWER         *FILE
+  Dimensione punto . . . . . . . .  :                       \*NONE
+Alimentazione moduli . . . . . . .  :   FORMFEED          \*CONT
+Cassetto per separatori  . . . . .  :   SEPDRAWER         \*FILE
 
-Programma separatore . . . . . . .  :   SEPPGM            *NONE
-Messaggio errore di stampante  . .  :   PRTERRMSG         *INQ
-Coda messaggi  . . . . . . . . . .  :   MSGQ              *CTLD
+Programma separatore . . . . . . .  :   SEPPGM            \*NONE
+Messaggio errore di stampante  . .  :   PRTERRMSG         \*INQ
+Coda messaggi  . . . . . . . . . .  :   MSGQ              \*CTLD
 Coda messaggi attuale  . . . . . .  :                     QSYSOPR
   Libreria . . . . . . . . . . . .  :                       QSYS
 Tempificatore di attivazione . . .  :   ACTTMR            170
-Configurazione immagine  . . . . .  :   IMGCFG            *NONE
+Configurazione immagine  . . . . .  :   IMGCFG            \*NONE
 Num. max richieste in sospeso  . .  :   MAXPNDRQS         6
-Stampa durante conversione . . .  :     PRTCVT            *YES
-Tempific. richiesta di stampa  . .  :   PRTRQSTMR         *NOMAX
+Stampa durante conversione . . .  :     PRTCVT            \*YES
+Tempific. richiesta di stampa  . .  :   PRTRQSTMR         \*NOMAX
 Definizione moduli . . . . . . . .  :   FORMDF            F1C10110
-  Libreria . . . . . . . . . . . .  :                       *LIBL
+  Libreria . . . . . . . . . . . .  :                       \*LIBL
 
-Identificativo carattere . . . . .  :   CHRID             *SYSVAL
+Identificativo carattere . . . . .  :   CHRID             \*SYSVAL
 Ubicazione remota  . . . . . . . .  :   RMTLOCNAME
   Nome o indirizzo . . . . . . . .  :                       127.0.0.1
 Oggetto definito dall'utente . . .  :   USRDFNOBJ         PDF
-  Libreria . . . . . . . . . . . .  :                       *QGPL
-  Tipo oggetto . . . . . . . . . .  :                       *PSFCFG
-Progr. trasf. dati . . . . . . . .  :   USRDTATFM         *NONE
-Pr.un.di contr.def. ut.  . . . . .  :   USRDRVPGM         *NONE
-Nome ubicazione dipendente . .  :       DEPLOCNAME        *NONE
+  Libreria . . . . . . . . . . . .  :                       \*QGPL
+  Tipo oggetto . . . . . . . . . .  :                       \*PSFCFG
+Progr. trasf. dati . . . . . . . .  :   USRDTATFM         \*NONE
+Pr.un.di contr.def. ut.  . . . . .  :   USRDRVPGM         \*NONE
+Nome ubicazione dipendente . .  :       DEPLOCNAME        \*NONE
 Assegnato a : 
 Nome lavoro  . . . . . . . . . . .  :                     PDFPRT
   Utente . . . . . . . . . . . . .  :                       QSPLJOB
   Numero . . . . . . . . . . . . .  :                       143887
-Pubblicate . . . . . . . . . . . .  :                     *NO
+Pubblicate . . . . . . . . . . . .  :                     \*NO
 Informazioni di pubblicazione  . .  :   PUBLISHINF
-  Supporto fronte/retro  . . . . .  :                       *UNKNOWN
-  Colore supporto  . . . . . . . .  :                       *UNKNOWN
-  Pagine nere per minuto . . . . .  :                       *UNKNOWN
-  Pagine colore per minuto . . . .  :                       *UNKNOWN
-  Ubicazione . . . . . . . . . . .  :                       *BLANK
+  Supporto fronte/retro  . . . . .  :                       \*UNKNOWN
+  Colore supporto  . . . . . . . .  :                       \*UNKNOWN
+  Pagine nere per minuto . . . . .  :                       \*UNKNOWN
+  Pagine colore per minuto . . . .  :                       \*UNKNOWN
+  Ubicazione . . . . . . . . . . .  :                       \*BLANK
 
-  Flussi di dati supportati  . . .  :                       *UNKNOWN
-Testo  . . . . . . . . . . . . . .  :   TEXT              *BLANK
+  Flussi di dati supportati  . . .  :                       \*UNKNOWN
+Testo  . . . . . . . . . . . . . .  :   TEXT              \*BLANK
 
 
 E' necessario poi compilare il programma B£PDFMAP (file source SMESRC) in QGPL (obbligatoria la compilazione, non copiare l'oggetto).
 
 Successivamente bisogna creare l'oggetto  di tipo PSFCFG : 
-CRTPSFCFG PSFCFG(QGPL/PDF) PDFGEN(*STMF) PDFDIR('/GMMPDF') PDFMAPPGM(QGPL/B£PDFMAP)
+CRTPSFCFG PSFCFG(QGPL/PDF) PDFGEN(\*STMF) PDFDIR('/GMMPDF') PDFMAPPGM(QGPL/B£PDFMAP)
 
 A questo punto è necessario avviare il device precedentemente creato : 
-WRKCFGSTS CFGTYPE(*DEV) CFGD(PDFPRT)
+WRKCFGSTS CFGTYPE(\*DEV) CFGD(PDFPRT)
 In questo momento PDFPRT dovrebbe apparire VARIED OFF, usare l'opzione 1 per attivarla
 
 Effettuare una stampa di prova. Potrebbe essere necessario rispondere al messaggio di caricamento moduli prima di poter stampare correttamente.

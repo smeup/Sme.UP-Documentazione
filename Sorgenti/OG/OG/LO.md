@@ -4,4 +4,4 @@ contestualmente (all'interno o dai fornitori).
 Sinonimi :  partita
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(CQLOTT0F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(CQLOTT0F) L(1)

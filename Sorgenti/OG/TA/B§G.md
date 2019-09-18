@@ -13,7 +13,7 @@ In caso di lancio in ambiente LOOCUP senza forzatura di emulazione, deve essere 
  :  : FLD T$B§GC **File SRC script**
 È il file SRC in cui è presente lo script, se a blanks si assume 'SCP_BCD'
  :  : FLD T$B§GD **Libreria script**
-È la libreria in cui è presente il file SRC dello script, se a blanks si assume '*LIBL'
+È la libreria in cui è presente il file SRC dello script, se a blanks si assume '\*LIBL'
  :  : FLD T$B§GE **Settore di dati input**
 Se impostato, i dati di input di questo script verranno richiesti in un configuratore £G30 e descritti in questo settore di tabella (preferibilmente un settore di sola definizione tracciato :  nel campo tabella a elemento fisso si imposta 'L').
  :  : FLD T$B§GF **Forza interattivo**
@@ -26,24 +26,24 @@ _7_Nota Tecnica
 La coppia dei campi 'Forza interattivo' e 'Forza emulazione' permette di stabilire, all'interno dei programmi richiamati in uno script BCD, il modo in cui vengono eseguiti, come esposto nella seguente tabella.
 >.                           ! Lancio da ! Lancio da !
 .                           !   5250    ! Loocup    !
-.----*-----------*----------*---*---*---*---*---*---*------------------------------
+.----\*-----------\*----------\*---\*---\*---\*---\*---\*---\*------------------------------
 .    ! Forza     ! Forza    ! I ! B ! L ! I ! B ! L ! <-- Tipo del lavoro (£INZJT)
 .    !Interattivo!Emulazione! I ! B ! L ! I ! B ! L ! <-- Tipo del lavoro (£INZJT)
-.----*-----------*----------*---*---*---*---*---*---*------------------------------
+.----\*-----------\*----------\*---\*---\*---\*---\*---\*---\*------------------------------
 . 1) !   ' '     !  ' '     !   !   !   !   !   !   ! Non ammesso :  un lavoro non può
 .    !           !          !   !   !   !   !   !   ! essere potenzialmente un
 .    !           !          !   !   !   !   !   !   ! servizio e non essere
 .    !           !          !   !   !   !   !   !   ! obbligatoriamente interattivo
 .----+-----------+----------+---+---+---+---+---+---+------------------------------
-. 2) !   ' '     !  '1'     ! * ! * !   !   ! * ! * ! Se 'B' è un lavoro 'realmente' batch
+. 2) !   ' '     !  '1'     ! \* ! \* !   !   ! \* ! \* ! Se 'B' è un lavoro 'realmente' batch
 .    !           !          !   !   !   !   !   !   ! Se 'I' o 'L' è un lavoro interattivo
 .----+-----------+----------+---+---+---+---+---+---+------------------------------
-. 3) !   '1'     !  ' '     ! * !   !   !   ! * !   ! Se 'B' è un servizio grafico
+. 3) !   '1'     !  ' '     ! \* !   !   !   ! \* !   ! Se 'B' è un servizio grafico
 .    !           !          !   !   !   !   !   !   ! Se 'I' è un lavoro interattivo
 .----+-----------+----------+---+---+---+---+---+---+------------------------------
-. 4) !   '1'     !  '1'     ! * !   !   !   !   ! * ! È sempre un lavoro interattivo
+. 4) !   '1'     !  '1'     ! \* !   !   !   !   ! \* ! È sempre un lavoro interattivo
 .    !           !          !   !   !   !   !   !   !
-.----*-----------*----------*---*---*---*---*---*---*------------------------------
+.----\*-----------\*----------\*---\*---\*---\*---\*---\*---\*------------------------------
 
 
 
@@ -64,7 +64,7 @@ In questo modo si può eseguire uno script con parametri diversi, semplicemente 
  :  : FLD T$B§GK **File SRC script dei parametri**
 È il file SRC in cui è presente lo script dei parametri, se a blanks si assume 'SCP_BCD'
  :  : FLD T$B§GL **Libreria script dei parametri**
-È la libreria in cui è presente il file SRC con lo script dei parametri, se a blanks si assume '*LIBL'
+È la libreria in cui è presente il file SRC con lo script dei parametri, se a blanks si assume '\*LIBL'
  :  : FLD T$B§GM **Suffisso Richeste utente**
 Normalmente le informazioni necessarie per l'esecuzione del motore vengono reperite tramite la funzione standard £G67,
 che presenta un formato di richiesta con i campi del "settore dei dati di input" definito in questo elemento.

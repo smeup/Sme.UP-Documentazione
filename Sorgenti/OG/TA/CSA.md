@@ -23,14 +23,14 @@ _r_I sette flags di ciascun campo sono suddivisi in due gruppi.
 2° flag - lavor.esterne           1 - c. variabile
                                   2 - c. fisso
                                   3 - entrambi costi
-3° flag - lavoro    _R_*           1 - c. variabile
+3° flag - lavoro    _R_\*           1 - c. variabile
                                   2 - c. fisso
                                   3 - entrambi costi
-4° flag - macchina  _R_*           1 - c. variabile
+4° flag - macchina  _R_\*           1 - c. variabile
                                   2 - c. fisso
                                   3 - entrambi costi
 .
-                    _R_* La gestione del lavoro flag 3 e 4 nel caso di calcolo utilizzando
+                    _R_\* La gestione del lavoro flag 3 e 4 nel caso di calcolo utilizzando
                         la tabella D0C viene rimodulata. Il flag 4 non viene gestito ed il
                         flag 3 assume il valore seguent :   _5_1 - Costi del livello
                                                           _5_2 - c. fisso
@@ -71,14 +71,14 @@ _r_I sette flags di ciascun campo sono suddivisi in due gruppi.
 2° flag - lavor.esterne           1 - c. variabile
                                   2 - c. fisso
                                   3 - entrambi costi
-3° flag - lavoro    _R_*           1 - c. variabile
+3° flag - lavoro    _R_\*           1 - c. variabile
                                   2 - c. fisso
                                   3 - entrambi costi
-4° flag - macchina  _R_*           1 - c. variabile
+4° flag - macchina  _R_\*           1 - c. variabile
                                   2 - c. fisso
                                   3 - entrambi costi
 .
-                    _R_* La gestione del lavoro flag 3 e 4 nel caso di calcolo utilizzando
+                    _R_\* La gestione del lavoro flag 3 e 4 nel caso di calcolo utilizzando
                         la tabella D0C viene rimodulata. Il flag 4 non viene gestito ed il
                         flag 3 assume il valore seguent :   _5_1 - Costi del livello
                                                           _5_2 - c. fisso

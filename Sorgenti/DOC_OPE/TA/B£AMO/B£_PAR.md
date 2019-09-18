@@ -32,13 +32,13 @@ Esempio :
 
 viene presentata la lista dei clienti che hanno nel campo provincia un valore compreso tra blank e RRRRRR.
 
-Se il limite finale è asterisco ('*') per convenzione si intende fino alla fine.
+Se il limite finale è asterisco ('\*') per convenzione si intende fino alla fine.
 Esempio : 
 
 |  Nam="Tabella2" |
 | Limiti|Iniziale|Finale |
 | ---|----|----|
-| Provincia|BBB|* |
+| Provincia|BBB|\* |
 | 
 
 viene presentata la lista dei clienti che hanno nel campo provincia un valore maggiore o uguale a BBB.
@@ -54,7 +54,7 @@ Esempio :
 
 viene presentata la lista dei clienti che hanno nel campo provincia il valore AN.
 
-Se limite iniziale e finale sono  bianchi vengono impostati a blank e *.
+Se limite iniziale e finale sono  bianchi vengono impostati a blank e \*.
 Esempio : 
 
 |  Nam="Tabella4" |
@@ -68,7 +68,7 @@ diventa
 |  Nam="Tabella5" |
 | Limiti|Iniziale|Finale |
 | ---|----|----|
-| Provincia||* |
+| Provincia||\* |
 | 
 
 
@@ -80,7 +80,7 @@ Esempi :
 |  Nam="Tabella6" |
 | Scansione|| |
 | ---|----|----|
-| |Descrizione|*SPA |
+| |Descrizione|\*SPA |
 | 
 
 Presenta tutti i clienti dove la descrizione finisce con i caratteri SPA
@@ -89,7 +89,7 @@ Presenta tutti i clienti dove la descrizione finisce con i caratteri SPA
 |  Nam="Tabella7" |
 | Scansione|| |
 | ---|----|----|
-| |Descrizione|SA* |
+| |Descrizione|SA\* |
 | 
 
 Presenta tutti i clienti dove la descrizione inizia con i caratteri SA
@@ -98,7 +98,7 @@ Presenta tutti i clienti dove la descrizione inizia con i caratteri SA
 |  Nam="Tabella8" |
 | Scansione|| |
 | ---|----|----|
-| |Descrizione|*SA* |
+| |Descrizione|\*SA\* |
 | 
 
 Presenta tutti i clienti dove la descrizione contiene i caratteri SA in una posizione qualsiasi

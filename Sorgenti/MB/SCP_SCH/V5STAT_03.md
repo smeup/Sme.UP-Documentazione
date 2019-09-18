@@ -7,8 +7,8 @@ L'analisi di Pareto sta alla base della classificazione ABC che applicata al fat
 
 ### Utilizzo della scheda
 Per attivare l'analisi si devono scegliere : 
- * l'_2_asse :  si seleziona l'oggetto di riferimento del quale si vogliono rappresentare i valori (es. per cliente, per regione, per articolo, ecc....)
- * il _2_valore, che deve essere mostrato.
+ \* l'_2_asse :  si seleziona l'oggetto di riferimento del quale si vogliono rappresentare i valori (es. per cliente, per regione, per articolo, ecc....)
+ \* il _2_valore, che deve essere mostrato.
 
 Facciamo un esempio :  partendo dalla sezione "Vendite Fatturato" si voglia analizzare il fatturato (importo netto) per regione.
 Si sceglie nell'asse la regione e nel valore l'importo netto : 

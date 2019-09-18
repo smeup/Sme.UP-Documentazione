@@ -19,9 +19,9 @@ Viene eseguita la £G61 sul lavoro corrente (funzione BAS), se il lavoro risulta
 La £G61 non fa tutto il "giro" del £INZJT; inoltre sulla funzione JOB (dati di un lavoro specifico) non sarebbe nemmeno in grado di farlo, perché bisognerebbe fare la £CRI non sul lavoro corrente (da cui viene eseguita la £G61) ma su un altro.
 
 ## Problemi derivati
- * Non ho modo di sapere se un lavoro batch è stato lanciato da un 5250 interattivo o da una emulazione loocup. In questo modo non siamo in grado (ad esempio) di reindirizzare i messaggi di completamento lavoro verso loocup piuttosto che la console.
- * Dal punto di vista del £INZJT, LO_Exxx e LO_Txxx non vengono riconosciuti come lavori loocup.
- * La G61 non distingue un lavoro batch da un lavoro loocup.
+ \* Non ho modo di sapere se un lavoro batch è stato lanciato da un 5250 interattivo o da una emulazione loocup. In questo modo non siamo in grado (ad esempio) di reindirizzare i messaggi di completamento lavoro verso loocup piuttosto che la console.
+ \* Dal punto di vista del £INZJT, LO_Exxx e LO_Txxx non vengono riconosciuti come lavori loocup.
+ \* La G61 non distingue un lavoro batch da un lavoro loocup.
 
 ## Possibili soluzioni (sviluppi futuri)
 Si potrebbero introdurre due nuovi campi simili (oppure modificare i valori assunti dai campi in questione) : 

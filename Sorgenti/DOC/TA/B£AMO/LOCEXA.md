@@ -29,5 +29,5 @@ Gli esempi del componente exa sono consultabili tramite due sezioni differenti :
 - una sezione generale, che contiene esempi validi per Looc.UP e per Web.UP,
 - una sezione più specifica per il web.
 
- :  : DEC K(Esempi) D(Sezione generale) X(F(EXD;*SCO;) 1(V2;JAGRA;EXA) 2(MB;SCP_SCH;J1GRA) 4(;;ESE)) L(1)
- :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;*SCO;) 1(V2;JAGRA;EXA) 2(MB;SCP_SCH;WETEST_EXA)) L(1)
+ :  : DEC K(Esempi) D(Sezione generale) X(F(EXD;\*SCO;) 1(V2;JAGRA;EXA) 2(MB;SCP_SCH;J1GRA) 4(;;ESE)) L(1)
+ :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;\*SCO;) 1(V2;JAGRA;EXA) 2(MB;SCP_SCH;WETEST_EXA)) L(1)

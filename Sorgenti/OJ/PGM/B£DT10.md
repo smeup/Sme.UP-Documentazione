@@ -21,7 +21,7 @@ TABEL I = Tabelle di interrogazione
 TABEL 0 = Tabelle base
 +-------+             +-------+ ! TABDS !    <---->    :  TABDC  : 
 +-------+             +-------+ ! ! !
-TABELy  <----* ! *----> TABELx
+TABELy  <----\* ! \*----> TABELx
 !            v          !
 !          TABEL0       !
 !            !          !
@@ -81,7 +81,7 @@ E' il valore assegnato alla "FUNZIONE" per le autorizzazioni alla tabella.
 Valgono le seguenti condizioni particolari : 
 -    Se il campo non è bianco si assume questo come valore. In tal modo possiamo dare un unico codice "FUNZIONE" ad un insieme di tabelle che vogliamo considerare come gruppo.
 -    Se il campo è bianco si assume come "FUNZIONE" il nome del settore.
--    Se indicato il nome settore seguito dai caratteri "**" si intende usare come nome funzione il nome dello specifico sottosettore in manutenzione.
+-    Se indicato il nome settore seguito dai caratteri "\*\*" si intende usare come nome funzione il nome dello specifico sottosettore in manutenzione.
 -    Se indicato il nome settore seguito dal carattere "-" significa che le autorizzazioni sono definite a livello di elemento. Il codice elemento sarà concatenato al nome del settore e avremo :  xxx-yyyyyy. Dove xxx è il settore e yyyyyy è l'elemento.
 NB.  L'autorizzazione si applica fino ad un massimo di 6 caratteri.
 Le autorizzazioni possono essere definite anche a livello di sottosettore. Posso ad esempio vincolare uno ed un solo sottosettore. Se il sottosettore è protetto assume tale protezione, diversamente usa quelle standard del settore.
@@ -97,7 +97,7 @@ Si veda quanto detto nell'introduzione circa la separazione delle tabelle in pi�
 Previsto per tabelle particolarmente complesse che meritino una gestione con un programma specifico. Tale programma dovrà esistere al momento della codifica del settore.
 ## TABELLA DI PERSONALIZZAZIONE
 Indica che tale tabella è costituita da un solo elemento
-"*              ".
+"\*              ".
 Il programma di gestione, se richiesto un settore con tale caratteristica, evita la richiesta del codice elemento e passa direttamente alla gestione.
 NB.  Il carattere "L" inserito in questo campo definisce la tabella come di sola definizione. Ciò significa che non verrà costruito il formato video. Tale tipo di tabella potrà essere utilizzata da parte dell'utente per definire un tracciato record a piacere e da questo creare la DS di definizione.
 ## GESTIONE SETTORE E GESTIONE ELEMENTO

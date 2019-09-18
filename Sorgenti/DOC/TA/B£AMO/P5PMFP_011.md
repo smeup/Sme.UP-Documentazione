@@ -1,43 +1,43 @@
 # Implementazioni e installazione
 ## Archivi
-  * **P5TEOP0F**
- ** E' stata introdotta la nuova quantità K§QT05. Rappresenta la quantità totale dei contenitori dell'ordine. Quantità pianificata e giacenza.
- ** E' stato introdotto il flag K§FL05. Identifica il tipo di ordine MFP
- * **GMCOLL0F**
- ** Ogni contenitore è legato ad un ordine di produzione.
- ** Sono state introdotte le quantità Z§QTAO e Z§QTAC. Rappresentano la quantità pianificata e riempita del contenitore.
- ** Sono stati introdotti i flag : 
- *** Z§FLG3 :  tipo contenitore MFP
- *** Z§FLG4 :  Saldo pianificato
- *** Z§FLG5 :  Contenitore pieno
- *** Z§FLG6 :  Contenitore scarti
+  \* **P5TEOP0F**
+ \*\* E' stata introdotta la nuova quantità K§QT05. Rappresenta la quantità totale dei contenitori dell'ordine. Quantità pianificata e giacenza.
+ \*\* E' stato introdotto il flag K§FL05. Identifica il tipo di ordine MFP
+ \* **GMCOLL0F**
+ \*\* Ogni contenitore è legato ad un ordine di produzione.
+ \*\* Sono state introdotte le quantità Z§QTAO e Z§QTAC. Rappresentano la quantità pianificata e riempita del contenitore.
+ \*\* Sono stati introdotti i flag : 
+ \*\*\* Z§FLG3 :  tipo contenitore MFP
+ \*\*\* Z§FLG4 :  Saldo pianificato
+ \*\*\* Z§FLG5 :  Contenitore pieno
+ \*\*\* Z§FLG6 :  Contenitore scarti
 
 ## Tabelle
-  * **P5M**; Nuova tabella che gestisce le diverse tipologie di avanzamento MFP
-  * **P5H**; Nuova tabella che gestisce le diverse azioni di avanzamento MFP
-  * **P51**; Aggiunto il numeratore MF
-  * **P5T**; Aggiunto la tipologia di avanamento MFP
-  * **GMF**; Gestita la nuova chiave collo in giacenza
-  * **GMU**; Gestione campo tipo ubicazione MFP
-  * **GM*SQ**; Aggiunta la chiave di giacenza collo
+  \* **P5M**; Nuova tabella che gestisce le diverse tipologie di avanzamento MFP
+  \* **P5H**; Nuova tabella che gestisce le diverse azioni di avanzamento MFP
+  \* **P51**; Aggiunto il numeratore MF
+  \* **P5T**; Aggiunto la tipologia di avanamento MFP
+  \* **GMF**; Gestita la nuova chiave collo in giacenza
+  \* **GMU**; Gestione campo tipo ubicazione MFP
+  \* **GM\*SQ**; Aggiunta la chiave di giacenza collo
 
 ## Procedura di installazione
 ### Menù
 Nel menù Y1 sono presenti le voci principali degli oggetti conivolti nel processo MFP
 
 ### OAV - Risorse RI
- * Creare OAV Ubicazione Ante
- ** Tipo oggetto base - RI
- ** Codice attributo - J/012
- ** Descrizione attr. - Ubicazione Ante
- ** Tipo attributo - UB
- ** Programma di calcolo - B£OA_RI
- * Creare OAV Ubicazione Post
- ** Tipo oggetto base - RI
- ** Codice attributo - J/013
- ** Descrizione attr. - Ubicazione Post
- ** Tipo attributo - UB
- ** Programma di calcolo - B£OA_RI
+ \* Creare OAV Ubicazione Ante
+ \*\* Tipo oggetto base - RI
+ \*\* Codice attributo - J/012
+ \*\* Descrizione attr. - Ubicazione Ante
+ \*\* Tipo attributo - UB
+ \*\* Programma di calcolo - B£OA_RI
+ \* Creare OAV Ubicazione Post
+ \*\* Tipo oggetto base - RI
+ \*\* Codice attributo - J/013
+ \*\* Descrizione attr. - Ubicazione Post
+ \*\* Tipo attributo - UB
+ \*\* Programma di calcolo - B£OA_RI
 
 **Eseguire TSTOAV con funzione/metodo GES/01**
  :  : INI Eseguire TSTOAV con funzione/metodo GES/01
@@ -46,7 +46,7 @@ Nel menù Y1 sono presenti le voci principali degli oggetti conivolti nel proces
 
 ### Controllo tabelle
 Inserire o modificare le definizioni delle seguenti tabelle
- * P5M, P5H, P51, P5T, GMF, GMU
+ \* P5M, P5H, P51, P5T, GMF, GMU
 
 **Gestione definizioni tabelle**
  :  : INI Gestione definizioni tabelle
@@ -65,9 +65,9 @@ Inserire o modificare le definizioni delle seguenti tabelle
  :  : CMD CALL PGM(B£AR16) PARM('02' 'P51' '' '')
  :  : FIN
 **Nuovo elemento "C=Collo"**
- :  : DEC T(ST) K(GM*SQ)
+ :  : DEC T(ST) K(GM\*SQ)
  :  : INI Nuovo elemento "C=Collo"
- :  : CMD CALL PGM(B£AR16) PARM('02' 'GM*' 'SQ' '')
+ :  : CMD CALL PGM(B£AR16) PARM('02' 'GM\*' 'SQ' '')
  :  : FIN
 **Creare aree :  WIP lavorazione, WIP C/lavoro terzista**
  :  : DEC T(ST) K(GMR)
@@ -76,17 +76,17 @@ Inserire o modificare le definizioni delle seguenti tabelle
  :  : FIN
 **Creare tipi giacenza**
  :  : DEC T(ST) K(GMQ)
- * Tipi giacenza
- ** WIP lavorazione (Ubicazione, Fase, collo)
- ** WIP C/Lavoro Terzista (Terzista, Fase, Collo)
+ \* Tipi giacenza
+ \*\* WIP lavorazione (Ubicazione, Fase, collo)
+ \*\* WIP C/Lavoro Terzista (Terzista, Fase, Collo)
  :  : INI Creare tipi giacenza
  :  : CMD CALL PGM(B£AR16) PARM('02' 'GMQ' '' '')
  :  : FIN
 **Creare forme di presentazione**
  :  : DEC T(ST) K(GMF)
- * Forme di presentazione magazzino
- ** WIP interno. Chiavi :  C/M/A/R/T/X/Y, e fissare area e tipo giacenza dove X è l'ubicazione e Y la fase
- ** WIP C/Lavoro Terzista. Chiavi :  C/M/A/R/T/X/Y, e fissare area e tipo giacenza dove X è il fornitore e Y la fase
+ \* Forme di presentazione magazzino
+ \*\* WIP interno. Chiavi :  C/M/A/R/T/X/Y, e fissare area e tipo giacenza dove X è l'ubicazione e Y la fase
+ \*\* WIP C/Lavoro Terzista. Chiavi :  C/M/A/R/T/X/Y, e fissare area e tipo giacenza dove X è il fornitore e Y la fase
  :  : INI Creare forme di presentazione
  :  : CMD CALL PGM(B£AR16) PARM('02' 'GMF' '' '')
  :  : FIN
@@ -169,8 +169,8 @@ Negli ordini di produzione si devono aggiungere delle funzioni oggetto (F10) ad 
  :  : FIN
 **Gestione tipi riga documenti**
  :  : DEC T(ST) K(V5BDP)
- *  Creare tipo riga uscita MFP
- * Creare tipo riga entrata MFP con parametro conto lavoro
+ \*  Creare tipo riga uscita MFP
+ \* Creare tipo riga entrata MFP con parametro conto lavoro
  :  : INI Gestione tipi riga
  :  : CMD CALL PGM(B£AR16) PARM('02' 'V5B' 'DP' '')
  :  : FIN
@@ -237,8 +237,8 @@ Come azione K0900
 
 ### Flusso CP506 - Entrata merci da conto lavoro con Radio/Frequenza
 ![P5PMFP_36](http://localhost:3000/immagini/P5PMFP_011/P5PMFP_36.png)Questo flusso prevede di eseguire l'entrata merci attraverso la lettura del bar-code dei contenitori, a titolo di esempio sono stati inseriti due passi di flusso, che normalmente sono alternativi : 
- * __lettura di contenitori bar-code "estern" (non presenti nel file colli)__, si ipotizza di avere dei contenitori provenienti dal fornitore con etichette proprie, non fornite da noi,  in cui il codice contenitore comprende codice fornitore + codice articolo + progressivo, alla fine del processo il flusso crea un collo MFP a cui associa come alias il bar-code esterno
- * __lettura di contenitori bar-code MFP__, si ipotizza di avere di ritorno dal fornitore gli stessi contenitori usciti, in questo caso i colli sono di tipo MFP e sono sottoposti ai normali controlli MFP.
+ \* __lettura di contenitori bar-code "estern" (non presenti nel file colli)__, si ipotizza di avere dei contenitori provenienti dal fornitore con etichette proprie, non fornite da noi,  in cui il codice contenitore comprende codice fornitore + codice articolo + progressivo, alla fine del processo il flusso crea un collo MFP a cui associa come alias il bar-code esterno
+ \* __lettura di contenitori bar-code MFP__, si ipotizza di avere di ritorno dal fornitore gli stessi contenitori usciti, in questo caso i colli sono di tipo MFP e sono sottoposti ai normali controlli MFP.
 
 Per completare il processo è previsto un successivo flusso da terminale con il quale si riprende il documento appena creato e si conferma l'entrata merci.
 

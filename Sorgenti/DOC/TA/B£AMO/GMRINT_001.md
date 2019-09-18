@@ -1,27 +1,27 @@
 ## INTRODUZIONE
 La tracciabilità lotti è la fuzione che, partendo dai movimenti di magazzino (con i loro campi di articolo, lotto e numeri ordini/documenti) permette di rispondere alle seguenti domande : 
- * _2_Dato un lotto (o altre informazioni che permettono di risalire ad esso)
- ** _3_quali lotti di articoli componenti sono entrati nella sua realizzazione
- ** _3_in quali lotti di articoli assiemi è entrato a far parte
+ \* _2_Dato un lotto (o altre informazioni che permettono di risalire ad esso)
+ \*\* _3_quali lotti di articoli componenti sono entrati nella sua realizzazione
+ \*\* _3_in quali lotti di articoli assiemi è entrato a far parte
 
 ## ESEMPIO DI UTILIZZO
 Un utilizzo possibile è il seguente : 
- * Un cliente rende un articolo difettoso (facendo riferimento al numero di DDT o al lotto)
- * Si esegue un'analisi tecnica per risalire al componente che ha provocato il difetto
- * Si trova (con la funzione a) il lotto di questo componente
- * Si trovano (con la funzione b) tutti i lotti in cui è entrato questo lotto. Essi possono essere
- ** Ancora giacenti in azienda. In questo caso ne viene presentata la rimanenza.
- ** Già spediti. In questo caso vengono presentati i movimenti di spedizione con gli estremi del Cliente, della DDT, ecc...
+ \* Un cliente rende un articolo difettoso (facendo riferimento al numero di DDT o al lotto)
+ \* Si esegue un'analisi tecnica per risalire al componente che ha provocato il difetto
+ \* Si trova (con la funzione a) il lotto di questo componente
+ \* Si trovano (con la funzione b) tutti i lotti in cui è entrato questo lotto. Essi possono essere
+ \*\* Ancora giacenti in azienda. In questo caso ne viene presentata la rimanenza.
+ \*\* Già spediti. In questo caso vengono presentati i movimenti di spedizione con gli estremi del Cliente, della DDT, ecc...
 
 ## PREREQUISITI
 Sui movimenti devono essere presenti il lotto, e l'ordine/documento a cui appartiene (informazione che viene riportata automaticamente nei prelievi e versamenti pianificati).
 
 Sulle causali di magazzino va inoltre impostato il campo 'natura movimento', che indica se esso è
- * un'entrata
- * un'uscita
- * un prelievo
- * un versamento
- * un trasferimento
+ \* un'entrata
+ \* un'uscita
+ \* un prelievo
+ \* un versamento
+ \* un trasferimento
 Nel motore di tracciabilità questa informazione viene utilizzata leggendo il valore di tabella, non è infatti riportata nei movimenti di magazzino.
 
 Con riferimento alla rimanenza, precisiamo invece che per la tracciabilità non è necessaria (anche se molto consigliata) la tenuta della giacenza per lotto, in quanto la tracciabilità non è una
@@ -35,21 +35,21 @@ Si basa sulla /COPY £GNE che esegue la tracciabilità del lotto sia in salita s
 Essa può venire richiamata sia in scansione, sia in visualizzazione. In questo secondo caso, essa è sensibile all'ambiente :  se chiamata in  modalità 5250 (interattivo) presenta una lista £G18, se in modailtà Loocup (batch) presenta una matrice.
 
 ## FUNZIONI REALIZZATE
- * _2_movimenti del livello
- * _2_salita (analitica :  tutti i movimenti)
- * _2_salita sintetica (vedi oltre per la spiegazione di questa modalità)
- * _2_discesa (analitica :  tutti i movimenti)
- * _2_discesa sintetica (vedi oltre per la spiegazione di questa modalità)
+ \* _2_movimenti del livello
+ \* _2_salita (analitica :  tutti i movimenti)
+ \* _2_salita sintetica (vedi oltre per la spiegazione di questa modalità)
+ \* _2_discesa (analitica :  tutti i movimenti)
+ \* _2_discesa sintetica (vedi oltre per la spiegazione di questa modalità)
 
 ## OGGETTO DI PARTENZA
- * _2_un articolo, si parte da tutti i suoi movimenti con un lotto valorizzato
- * _2_un articolo e un lotto, si parte dai movimenti della coppia articolo/lotto
- * _2_un ordine di produzione o_2_ una riga di documento di ciclo esterno, si parte dai movimenti dell'articolo intestatario e si considerano tutti i movimenti con un lotto valorizzato che hanno : 
- ** nel caso di ordine di produzione, l'ordine selezionato nel campo N.Ordine 1 oppure N.Ordine 2
- ** nel caso di riga di documento, il documento selezionato (tipo, numero e riga) nel campo N.Ordine 1, N.Ordine 2 oppure N.documento interno.
- * _2_un oggetto (tipo e codice) verosimilmente il tipo è CL o FO
- * _2_un flag che specifica se si passa un lotto di fornitura o di derivazione
- * _2_il codice del lotto (di fornitura o di derivazione), si parte dai lotti individuati dalla tripletta tipo ogg/ogg/lotto e per ciascuno di essi si estraggono i movimenti.
+ \* _2_un articolo, si parte da tutti i suoi movimenti con un lotto valorizzato
+ \* _2_un articolo e un lotto, si parte dai movimenti della coppia articolo/lotto
+ \* _2_un ordine di produzione o_2_ una riga di documento di ciclo esterno, si parte dai movimenti dell'articolo intestatario e si considerano tutti i movimenti con un lotto valorizzato che hanno : 
+ \*\* nel caso di ordine di produzione, l'ordine selezionato nel campo N.Ordine 1 oppure N.Ordine 2
+ \*\* nel caso di riga di documento, il documento selezionato (tipo, numero e riga) nel campo N.Ordine 1, N.Ordine 2 oppure N.documento interno.
+ \* _2_un oggetto (tipo e codice) verosimilmente il tipo è CL o FO
+ \* _2_un flag che specifica se si passa un lotto di fornitura o di derivazione
+ \* _2_il codice del lotto (di fornitura o di derivazione), si parte dai lotti individuati dalla tripletta tipo ogg/ogg/lotto e per ciascuno di essi si estraggono i movimenti.
 
 L'analisi tracciabilità _2_ non chiede mai il plant, in quanto essa è trasversale su tutti plant nei quali il lotto transita.
 
@@ -81,14 +81,14 @@ Ricordo che la rintracciabilità è puramente qualitativa :  se in un ordine di 
 **ATTENZIONE :  quando si parla di entrata ed uscita si fa riferimento SEMPRE alla natura del movimento presente nella sua causale.
 
 La _2_discesa sintetica presenta, dato un lotto di partenza
- * i movimenti di uscita del lotto di partenza
- * i movimenti degli altri lotti collegati al lotto di partenza (ottenuti come risultato dalla discesa analitica), posto che siano di entrata
- * la rimanenza in azienda del lotto di partenza (ottenuta come differenza tra entrate e uscita)
+ \* i movimenti di uscita del lotto di partenza
+ \* i movimenti degli altri lotti collegati al lotto di partenza (ottenuti come risultato dalla discesa analitica), posto che siano di entrata
+ \* la rimanenza in azienda del lotto di partenza (ottenuta come differenza tra entrate e uscita)
 
 La _2_salita sintetica presenta, dato un lotto di partenza
- * i movimenti di entrata del lotto di partenza
- * i movimenti degli altri lotti collegati al lotto di partenza (ottenuti come risultato dalla discesa analitica), posto che siano di uscita
- * la rimanenza in azienda di ogni lotto, in modo da evidenziare ciò che, del lotto di partenza, è ancora in azienda (al suo livello, e ai livelli superiori).
+ \* i movimenti di entrata del lotto di partenza
+ \* i movimenti degli altri lotti collegati al lotto di partenza (ottenuti come risultato dalla discesa analitica), posto che siano di uscita
+ \* la rimanenza in azienda di ogni lotto, in modo da evidenziare ciò che, del lotto di partenza, è ancora in azienda (al suo livello, e ai livelli superiori).
 
 In sostanza, le funzioni sintetiche considerano l'azienda (compresi i suoi terzisti) come una 'scatola nera', e ne riportano l'interazione con il mondo esterno.
 
@@ -98,5 +98,5 @@ Nella discesa e salita sintetica, i movimenti vengono riportati una sola volta, 
 E' presente inoltre il programma di lancio della navigazione tracciabilità (GMRN02G), inserito a menu, predisposto per eseguire la presentazione sia in ambito 5250, sia in ambito Loocup, in base all'ambiente di esecuzione. In modalità Loocup si presenta il bottone di lancio, che reperisce le informazioni all'ultimo Enter. Loocup infatti non comunica direttamente con il formato video ma con il programma, che conosce quanto digitato a video al momento  dell'Enter.
 
 Da ogni elemento della lista della tracciabilità si può proseguire in navigazione : 
- * in ambiente 5250 scegliendo l'opzione di lista
- * in ambiente Loocup, dal menu popup dell'oggetto lotto, scegliendo l'opzione tracciabilità (questa modalità è quindi attiva in qualsiasi punto dell'applicazione viene riconosciuto l'oggetto lotto).
+ \* in ambiente 5250 scegliendo l'opzione di lista
+ \* in ambiente Loocup, dal menu popup dell'oggetto lotto, scegliendo l'opzione tracciabilità (questa modalità è quindi attiva in qualsiasi punto dell'applicazione viene riconosciuto l'oggetto lotto).

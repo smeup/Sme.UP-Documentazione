@@ -35,11 +35,11 @@ Permette di definire caratteristiche specifiche quando si presenta. Abbiamo :
 --    Attrezzature
 --    Modalità di pagamento
 --    Altra tabella a piacere
--    Il valore ** indica che è ammesso un valore di opzione non controllato. Si userà tale valore per indicare un'opzione libera.
+-    Il valore \*\* indica che è ammesso un valore di opzione non controllato. Si userà tale valore per indicare un'opzione libera.
  :  : FLD T$B£ND **Parametro tipo oggetto**
 Alcuni tipi di oggetto permettono l'indicazione di un sottotipo.
 Questo è in particolare il caso della tabella.
-Si possono utilizzare le parole chiave *1 e *2 per usare come parametro variabile il codice 1 o il codice 2. Ad esempio per gestire il parametro dell'oggetto UB, se il plant è variabile ed è indicato sul codice 1, si può imputare *1.
+Si possono utilizzare le parole chiave \*1 e \*2 per usare come parametro variabile il codice 1 o il codice 2. Ad esempio per gestire il parametro dell'oggetto UB, se il plant è variabile ed è indicato sul codice 1, si può imputare \*1.
  :  : FLD T$B£NE **Gestione valore**
 Indica il tipo di controllo per il campo.
 -    Bianco    = il campo non viene presentato
@@ -60,29 +60,29 @@ Campo libero. Permette di specificare una condizione di selezione per il singolo
 Campo libero. Permette di specificare una sequenza di ordinamento dei parametri, diversa da quella definita attraverso il codice del parametro. I programmi di gestione dei paramentri presenteranno a video i parametri ordinati, secondo l'ordine derivante dalla concatenazione della sequenza con il codice del parametro. Se questo campo ha valore blanks verrà ovviamente utilizzato l'ordinamento definito dal codice del parametro.
  :  : FLD T$B£NP **Livello di protezione**
 Dipende da come è impostata la categoria parametri : 
-* se è attiva la protezione per stati allora al livello di protezione possiamo assegnare un valore variabile fra 01 e 99, definito nella tabella degli stati.
+\* se è attiva la protezione per stati allora al livello di protezione possiamo assegnare un valore variabile fra 01 e 99, definito nella tabella degli stati.
 Se il valore è presente, il programma di presentazione dei parametri, verificherà l'autorizzazione assegnata all'utente nella classe "STATI", e nella funzione "PA";
-* se è attiva le protezione PLC, allora le autorizzazioni sono controllate dalla classe "PLC-C£CONR" e dalla funzione = elemento della C£E, il livello di protezione deve essere un valore compreso tra 01 e 05 (corrispondente al gruppo autorizzazione).
+\* se è attiva le protezione PLC, allora le autorizzazioni sono controllate dalla classe "PLC-C£CONR" e dalla funzione = elemento della C£E, il livello di protezione deve essere un valore compreso tra 01 e 05 (corrispondente al gruppo autorizzazione).
  :  : FLD T$B£NQ **Risalita**
-Indica se per il parametro richiesto la funzione che restituisce il valore deve risalire al codice "**", quando al parametro non è assegnato un valore.
+Indica se per il parametro richiesto la funzione che restituisce il valore deve risalire al codice "\*\*", quando al parametro non è assegnato un valore.
 Questa risalita, se impostata, ha la precedenza su quella definita nella categoria parametri.
 La ricerca nei parametri viene effettuata secondo questi passi : 
 __Tipo risalita 1__
  Codice 1       Codice 2
- **           Codice 2
+ \*\*           Codice 2
 __Tipo risalita 2__
  Codice 1       Codice 2
- Codice 1         **
+ Codice 1         \*\*
 __Tipo risalita A__
  Codice 1       Codice 2
- **           Codice 2
- Codice 1         **
- **             **
+ \*\*           Codice 2
+ Codice 1         \*\*
+ \*\*             \*\*
 __Tipo risalita B__
  Codice 1       Codice 2
- Codice 1         **
- **           Codice 2
- **             **
+ Codice 1         \*\*
+ \*\*           Codice 2
+ \*\*             \*\*
  :  : FLD T$B£NK **Suffisso controllo parametro**
 Se specificato, attiva la gestione di controlli specifici esterni sul singolo parametro, chiamando il programma C£CR01D_x, dove x è il suffisso specificato.
 La gestione controllo esterno, è fornita in : 

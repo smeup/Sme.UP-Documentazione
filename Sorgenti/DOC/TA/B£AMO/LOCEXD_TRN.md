@@ -1,24 +1,24 @@
  :  : PRO Cod(A01) Txt(Esercizi) STAT(00) RESP(SCIMAM)
 
  :  : ATT Cod(001) Txt(Creazione di una scheda)  STAT(10) RESP(SCIMAM)
-//--***************************************************************
-//--  CREAZIONE DI UNO SCRIPT DI SCHEDA        *
-//--***************************************************************
+//--\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+//--  CREAZIONE DI UNO SCRIPT DI SCHEDA        \*
+//--\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 01. La SCHEDA in SmeUP
-//-- ********************** CAPITOLO 1 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 1 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Con la parola SCHEDA in SmeUP ci si riferisce ad una specie di contenitore che ci permette di visualizzare i componenti grafici all'interno di LoocUp o WebUP, riuscendo a definirne la posizione ed il contenuto.
 La scheda viene costruita scrivendo uno script (chiamato script di scheda) che viene poi interpretato da un programma che lo trasforma in XML per essere dato in pasto al  componente EXD in grado di visualizzare a video in maniera corretta il contenuto.
 
 Per una documentazione più approfondita si rimanda alla funzione A dell'esercizio corrente.
- :  : DEC T(J1) P(FUN) D(A. Documentazione SCHEDA) K(F(EXD;*SCO;) 1(MB;DOC;LOCEXD_B) 2(MB;SCP_SCH;OGDOCU) P(TPM(SIN) POP(1) PRF(1)))
+ :  : DEC T(J1) P(FUN) D(A. Documentazione SCHEDA) K(F(EXD;\*SCO;) 1(MB;DOC;LOCEXD_B) 2(MB;SCP_SCH;OGDOCU) P(TPM(SIN) POP(1) PRF(1)))
 
 Per visualizzare il componente scheda, arrivabile anche tramite la pressione tasto F1 per avere informazioni, è visionabile tramite la funzione B dell'esercizio corrente
- :  : DEC T(J1) P(FUN) D(B. Il componente SCHEDA) K(F(EXD;*SCO;) 1(V2;JAGRA;EXD))
+ :  : DEC T(J1) P(FUN) D(B. Il componente SCHEDA) K(F(EXD;\*SCO;) 1(V2;JAGRA;EXD))
 
 02. Aprire un oggetto di tipo scheda
-//-- ********************** CAPITOLO 2 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 2 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 NB :  !!!  PER ESEGUIRE QUESTO ESERCIZIO ESSERE SICURI DI ESSERSI COLLEGATI AL SERVER DI SVILUPPO + W (OVVERO LO SVIU) !!!
 
@@ -35,7 +35,7 @@ Si noti inoltre che TUTTI  gli script di scheda si trovano all'interno del file 
                    - il codice "WETEST_SEM" (ovvero lo script di scheda del semaforo dello showcase)
 
 Il risultato finale dovrebbe essere come quello nella funzione B dell'esercizio corrente
- :  : DEC T(J1) P(FUN) D(C. Scheda Semaforo) K(F(EXD;*SCO;) 1(MB;SCP_SCH;WETEST_SEM))
+ :  : DEC T(J1) P(FUN) D(C. Scheda Semaforo) K(F(EXD;\*SCO;) 1(MB;SCP_SCH;WETEST_SEM))
 
 02.B. Aprire uno script di scheda in WebUP
 Metodo utilizzabile anche in LoocUP ma che reputo più corretto utilizzare in WebUp
@@ -45,7 +45,7 @@ Metodo utilizzabile anche in LoocUP ma che reputo più corretto utilizzare in We
 Il risultato finale dovrebbe essere come quello nella funzione B dell'esercizio corrente
 
 03. Copiare uno script di scheda
-//-- ********************** CAPITOLO 3 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 3 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Una consuetudine spesso utilizzata da compiere quando si intende creare una nuova scheda è quella di copiarne una già esistente nel proprio ambiente di lavoro, dopodichè applicare le proprie modifiche solo a quella nella propria libreria. Vediamo quindi i passi di come si può copiare una scheda esistente nella propria zona di lavoro.
 
@@ -61,7 +61,7 @@ Dopo aver completato il passo 2 (ed essere quindi sulla scheda del semaforo) :
 
 
 04. Visualizzare una scheda
-//-- ********************** CAPITOLO 4 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 4 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Per visualizzare il risultato dello script di una scheda basta digitare nello spotlight
 "SCH <nomeDellaScheda>"
@@ -70,7 +70,7 @@ Nel nostro caso "SCH SCH_PROVA"
 
 
 05. Editare uno script di scheda
-//-- ********************** CAPITOLO 5 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 5 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Prima di inziare a modificare uno script, è bene sapere che all'interno di una scheda si ha la definizione di : 
  1- Un layout grafico
@@ -103,7 +103,7 @@ Esempio :
  G.SEZ Pos(B) Dim(50%)
 
 NB :  Avendo solamente diviso la scheda principale in sezioni e non avendoci inserito nessun componente, non sarà possibile vedere nulla, se non delle "righe divisorie".
- :  : DEC T(J1) P(FUN) D(ES_05.A.1 - Risultato) K(F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_A_001))
+ :  : DEC T(J1) P(FUN) D(ES_05.A.1 - Risultato) K(F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_A_001))
 
 05.A.2. Esercizio 2 - Creazione 2 sezioni orizzontali
     1- Inserire la prima sezione con G.SEZ
@@ -120,7 +120,7 @@ Esempio :
   G.SEZ Pos(2)
 
 NB :  Avendo solamente diviso la scheda principale in sezioni e non avendoci inserito nessun componente, non sarà possibile vedere nulla, se non delle "righe divisorie".
- :  : DEC T(J1) P(FUN) D(ES_05.A.2 - Risultato) K(F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_A_002))
+ :  : DEC T(J1) P(FUN) D(ES_05.A.2 - Risultato) K(F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_A_002))
 
 05.A.3. Esercizio 3 - Creazione sezioni avanzate
 L'idea è quella di avere più sezioni con un layout ben preciso.
@@ -149,7 +149,7 @@ Esempio :
   G.SEZ Pos(B3)
 
 NB :  Avendo solamente diviso la scheda principale in sezioni e non avendoci inserito nessun componente, non sarà possibile vedere nulla, se non delle "righe divisorie".
- :  : DEC T(J1) P(FUN) D(ES_05.A.3 - Risultato) K(F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_A_003))
+ :  : DEC T(J1) P(FUN) D(ES_05.A.3 - Risultato) K(F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_A_003))
 
 05.B. Creazione di una subsezione
 Dopo aver creato una sezione, per creare una subsezione bisogna inserire il comando :  "G.SUB.<tipocomponente>" dove il tipo di componente è (al momento della scrittura di questo articolo) uno fra quelli proposti in calce.
@@ -206,7 +206,7 @@ Path (PAT)
 05.B.1. Esercizio 1 - Creazione di subsezioni di tipo label
     1- Dopo aver effettuato uno fra gli esercizi del punto 05.A
     2- Inserire il componente Field all'interno delle sezioni create precedentemente con G.SUB.FLD
-    3- Obbligatorio dare un titolo ad ogni subsezione con il comando Tit="<titolo>", nel caso non lo si voglia dare inserire "*NONE"
+    3- Obbligatorio dare un titolo ad ogni subsezione con il comando Tit="<titolo>", nel caso non lo si voglia dare inserire "\*NONE"
 
 Esempio : 
 (Si noti che per il codice sottostante necessita dei due punti iniziali ad ogni istruzione per funzionare)
@@ -222,12 +222,12 @@ Esempio :
   .SEZ Pos(B3)
       G.SUB.FLD Tit="Field B3"
 
- :  : DEC T(J1) P(FUN) D(ES_05.B.1 - Risultato) K(F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_B_001))
+ :  : DEC T(J1) P(FUN) D(ES_05.B.1 - Risultato) K(F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_B_001))
 
 05.B.2. Esercizio 2 - Creazione di subsezione di tipo bottone
     1- Dopo aver effettuato uno fra gli esercizi del punto 05.A
     2- Inserire il componente Bottone all'interno di due sezioni verticali che dividono lo schermo con G.SUB.BTN
-    3- Obbligatorio dare un titolo ad ogni subsezione con il comando Tit="<titolo>", nel caso non lo si voglia dare inserire "*NONE"
+    3- Obbligatorio dare un titolo ad ogni subsezione con il comando Tit="<titolo>", nel caso non lo si voglia dare inserire "\*NONE"
     4- Inserire ora altre tre sezioni in ogni sezione del punto 2. Le tre sezioni devono essere disposte parallelamente.
     5- Anche in questo caso inserire un componente bottone per ogni sezione creata.
     4- Inserire un campo D.OGG per indicare i dati da inserire nel botone e nel parametro inserire D(<label bottone>)
@@ -262,7 +262,7 @@ Esempio :
       G.SUB.BTN Tit="Bottone B2C"
         D.OGG D(Bottone 8)
 
- :  : DEC T(J1) P(FUN) D(ES_05.B.2 - Risultato) K(F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_B_002))
+ :  : DEC T(J1) P(FUN) D(ES_05.B.2 - Risultato) K(F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_B_002))
 
 05.C. Riempire i componenti con dati fittizzi
 Per comprendere al meglio l'utilizzo dell'inserimento di dati fittizzi nei componenti si rimanda al capitolo sui prototipi : 
@@ -302,13 +302,13 @@ Esempio :
          D.FUN.STD F(EXB;B£SER_46;WRK.SCP) 1(MB;SCP_SET;WETEST_BOX) 2(;;BOX_011)
 
 NB :  Non tutti i componenti grafici sono compatbili con LoocUP, alcuni sono solo visualizzabili in WebUP (come ad esempio i box)
- :  : DEC T(J1) P(FUN) D(ES_05.D.1 - Risultato) K(F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_D_001))
+ :  : DEC T(J1) P(FUN) D(ES_05.D.1 - Risultato) K(F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_D_001))
 
 
 05.D.2. Esercizio 2 - Utilizzo di altri componenti con settaggi
     1- Dopo aver letto il capitolo sui prototipi vediamo ora come aggiungere il settaggio dei componenti
     2- Inserire il componente "FLD" all'interno di una sezione con G.SUB.FLD
-    3- Dare come titolo "*NONE"
+    3- Dare come titolo "\*NONE"
     4- Inserire un G.SET.FLD per identificare che richiede come parametro obbligatorio il tipo. Diciamoc che vogliamo creare un calendario Typ="Cal"
     5- Creare ora un'altra sezione affiancata a quella già inserita
     7- Inserire un altro  componente di tipo FLD
@@ -331,7 +331,7 @@ Esempio :
          D.FUN.STD F(EXB;B£SER_46;WRK.SCP) 1(MB;SCP_SET;WETEST_BOX) 2(;;BOX_011)
 
 NB :  Non tutti i componenti grafici sono compatbili con LoocUP, alcuni sono solo visualizzabili in WebUP.
- :  : DEC T(J1) P(FUN) D(ES_05.D.2 - Risultato) K(F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_D_002))
+ :  : DEC T(J1) P(FUN) D(ES_05.D.2 - Risultato) K(F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_D_002))
 
 05.E. Creazione di una subsezione con stili di scheda
 Dopo aver visto l'utilizzo degli SCP_SET per utilizzarli come metodo per prototipizzare i dati, nei membri SCP_SET è possibile inoltre inserire altri ulteriori settaggi come per esemio l'utilizzo degli stili.
@@ -356,7 +356,7 @@ Esempio :
 
 
 NB :  Non tutti i componenti grafici sono compatbili con LoocUP, alcuni sono solo visualizzabili in WebUP.
- :  : DEC T(J1) P(FUN) D(ES_05.E.1 - Risultato) K(F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_E_001))
+ :  : DEC T(J1) P(FUN) D(ES_05.E.1 - Risultato) K(F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCHESE;SCH_STR) 4(;;ES_E_001))
 
 05.F. Creazione di subsezioni con dinamismi
 E' possibile associare ad un componente un dinamismo che faccia far qualcosa da qualche parte.
@@ -384,19 +384,19 @@ I possibili dinamismi sono per esempio :
 
 
  :  : ATT Cod(002) Txt(Liste in SmeUP)  STAT(10) RESP(SCIMAM)
-//-- ********************** CAPITOLO 1 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 1 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 01. Cosa è una lista?
 In SmeUP una lista è un'insieme di oggetti che più genericamente possiamo identificare attraverso la matematica insiemistica.
 Quindi la lista prende il concetto di sottoinsieme di un insieme (in questo caso di oggetti), che può essere l'insieme vuoto, l'insieme stesso o parte di esso.
 
 Altra documentazione visionabile in "Funzioni dell'esercizio"
- :  : DEC T(J1) P(FUN) D(Documentazione Liste) K(F(EXD;*SCO;) 1(MB;DOC_OGG;OG_LI) 2(MB;SCP_SCH;OGDOCU))
+ :  : DEC T(J1) P(FUN) D(Documentazione Liste) K(F(EXD;\*SCO;) 1(MB;DOC_OGG;OG_LI) 2(MB;SCP_SCH;OGDOCU))
 
 
 
 02. Creazione di una lista
-//-- ********************** CAPITOLO 2 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 2 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Ci sono sostanzialmente tre modi per inserire una lista.
 02.A. Creazione da ricerca
@@ -425,7 +425,7 @@ Il terzo metodo prevede di crearne una nuova da una già creata
 Successivamente vedremo come popolarla
 
 03. Operazioni sulle liste
-//-- ********************** CAPITOLO 3 **********************
+//-- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* CAPITOLO 3 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 03.A. Aggiungere dati ad una lista
   1- Scegliamo di creare una lista di collaboratori che vogliono partecipare ad una partita di calcetto.

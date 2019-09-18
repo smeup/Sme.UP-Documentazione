@@ -3,17 +3,17 @@
 Il modulo A39 è un'intefaccia che permette di pubblicare webservice, pertanto è un costruttore che permette di rendere pubbliche delle funzioni Sme.UP, eseguibili dall'esterno.
 
 Il costruttore A39 è costituto da 3 entità : 
-* una scheda :  LOA39
-* una servizio base :  LOA39_SE
-* script SCP_SET specifici Sme.UP o utente :  LOA39_xx
+\* una scheda :  LOA39
+\* una servizio base :  LOA39_SE
+\* script SCP_SET specifici Sme.UP o utente :  LOA39_xx
 
 ## Funzionamento
 Lo Sme.UP Provider tramite il servizio LOA39_SE, interpreta gli script di interfaccia alle funzioni Sme.UP attribuendo un nome al webservice, che identifica univocamente una funzione.
 
 Negli script vengono definite le istanze della classe SESUB.A39 nel formato xx.yyy.zzz : 
-* xx è il gruppo, corrisponde al nome dello script LOA39_xx
-* yyy è la sezione definita all'interno dello script
-* zzz è la subsezione definita all'interno dello script
+\* xx è il gruppo, corrisponde al nome dello script LOA39_xx
+\* yyy è la sezione definita all'interno dello script
+\* zzz è la subsezione definita all'interno dello script
 
 All'interno dello script vengono pertanto indicate le funzioni pubblicate come web service e le relative variabili di input, che possono essere trasformate dal provider, come definito nella pre trasformazione. L'output restituito al provider è il risultato della funzione stessa e può essere dal provider trasformato come definito nella post trasformazione.
 

@@ -13,9 +13,9 @@ Prevede l'esecuzione di un programma (ODUT05) che legge il documento txt acquisi
 
 ## Stati acquisizione
 
-* 01 Ho letto e riconosciuto il numero e la data
-* 02 Ho individuato il fornitore
-* 10 Ho individuato l'importo della fattura
-* 15 Ho individuato la presenza di una registrazione contabile associabile al documento scannerizzato (è possibile che gli importi non coincidano)
-* 20 Ho individuato la registrazione e gli importi coincidono
+\* 01 Ho letto e riconosciuto il numero e la data
+\* 02 Ho individuato il fornitore
+\* 10 Ho individuato l'importo della fattura
+\* 15 Ho individuato la presenza di una registrazione contabile associabile al documento scannerizzato (è possibile che gli importi non coincidano)
+\* 20 Ho individuato la registrazione e gli importi coincidono
 

@@ -1,9 +1,9 @@
 # BRS - Criteri di selezione
  :  : DEC T(ST) K(BRS)
 ## OBIETTIVI
- *     Descrivere un metodo da utilizzare nella scansione di distinta e ciclo per : 
- **    decidere se un componente/operazione è valido;
- **    modificare il contenuto di alcuni campi della riga in elaborazione per distinta/ciclo.
+ \*     Descrivere un metodo da utilizzare nella scansione di distinta e ciclo per : 
+ \*\*    decidere se un componente/operazione è valido;
+ \*\*    modificare il contenuto di alcuni campi della riga in elaborazione per distinta/ciclo.
 ## SOTTOSETTORI
 Non gestiti
 ## ESEMPI

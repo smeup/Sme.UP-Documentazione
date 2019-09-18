@@ -45,7 +45,7 @@ Per la chiamata della funzione, l'unico oggetto necessario è _9_l'oggetto1, in 
 
  :  : PRO.SER Cod="SOL.SIN.1" Tit="Solleciti. Sintesi" Fun="F(EXB;C5SER_12;SOL.SIN)"
 
- :  : PRO.SER Cod="SOL.EST.2" Tit="Solleciti. Estrazione" Fun="F(MAT;C5SER_12;SOL.EST) 2(CN;;-(F;;CN;Contatto)) P( MET(-(F;;**;Metodo)) KEY(-(F;;NR;Chiavi)))"
+ :  : PRO.SER Cod="SOL.EST.2" Tit="Solleciti. Estrazione" Fun="F(MAT;C5SER_12;SOL.EST) 2(CN;;-(F;;CN;Contatto)) P( MET(-(F;;\*\*;Metodo)) KEY(-(F;;NR;Chiavi)))"
 
  :  : PRO.SER Cod="SOL.EST.3" Tit="Solleciti. Estrazione" Fun="F(EXA;C5SER_12;SOL.EST)" Ref="SOL.EST.2"
 

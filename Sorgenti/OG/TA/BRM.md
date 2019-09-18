@@ -40,11 +40,11 @@ E' un elemento V2_S5_TB.
 Definisce le modalità di elaborazione concorrente di impegni diversi sulla stessa risorsa.
 E' a disposizione di estensioni specifiche alla schedulazione fine.
  :  : FLD T$BRML **Classe schedulazione**
-E' un elemento TA/*CNS5
+E' un elemento TA/\*CNS5
 E' a disposizione dei programmi specifici di schedulazione BCD per implementare strategie particolari sulle risorse
 principali con un valore specifico di questo campo (ad esempio attivare il tiro).
  :  : FLD T$BRMO **Classe batch**
-E' un elemento TA/*CNS6
+E' un elemento TA/\*CNS6
 Definisce il batch a cui appartengono le risorse di questo gruppo (presse, forni, ecc..)
 Il sistema costriurà i batch in modo omogeeneo, raggruppando impegni che hanno risorse principali il cui gruppo
 ha lo stesso valore di questo campo.

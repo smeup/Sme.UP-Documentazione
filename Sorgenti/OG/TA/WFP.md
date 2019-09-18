@@ -2,14 +2,14 @@
 ## CONTENUTO DEI CAMPI
  :  : FLD T$WFPA **Tipo data riferim.**
 E' la data utilizzata come data di riferimento per il calcolo della data ora di emissione del promemoria (tramite i valori del V2/WF_24) : 
- * 0 - Data libera;
- * 1 - Data attivazione impegno;
- * 2 - Data rich.esec.impegno;
- * 3 - Data rich.esec.ordine.
+ \* 0 - Data libera;
+ \* 1 - Data attivazione impegno;
+ \* 2 - Data rich.esec.impegno;
+ \* 3 - Data rich.esec.ordine.
  :  : FLD T$WFPB **Modalità calcolo**
 La data ora di emissione del promemoria può essere calcolata in due modi (V2 WF_23)
- * 1 - Orario assoluto  :  la data ora di emissione viene indicata direttamente nel record del promemoria.
- * 2 - Tempo prima della data riferim.  :  la data ora di emissione viene ricalcolata in base alla  data di riferimento (sul record vengono indicati giorni, ore e minuti di anticipo rispetto alla  data di riferimento ai quali emettere la notifica).
+ \* 1 - Orario assoluto  :  la data ora di emissione viene indicata direttamente nel record del promemoria.
+ \* 2 - Tempo prima della data riferim.  :  la data ora di emissione viene ricalcolata in base alla  data di riferimento (sul record vengono indicati giorni, ore e minuti di anticipo rispetto alla  data di riferimento ai quali emettere la notifica).
  :  : FLD T$WFPC **Rimanda di minuti**
 Minuti dopo i quali posporre il promemoria se l'utente sceglie l'azione "Ricordamelo dopo"
  :  : FLD T$WFPD **Contenitore note**

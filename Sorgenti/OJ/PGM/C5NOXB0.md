@@ -12,13 +12,13 @@ Nel campo 'Tipi rapporto' è necessario indicare per quali tipologie di rapporti
 
 ### Impostazioni
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle Impostazioni che riportano i seguenti campi : 
- * Ordinamento :  permette di definire l'ordinamento di visualizzazione dei record; le scelte disponibili sono per tipo rapporto/banca oppure per banca/tipo rapporto.
- * Impostazioni generali : permette di definire le impostazioni della stampa e visualizzare o meno a inizio stampa la pagina delle impostazioni.
+ \* Ordinamento :  permette di definire l'ordinamento di visualizzazione dei record; le scelte disponibili sono per tipo rapporto/banca oppure per banca/tipo rapporto.
+ \* Impostazioni generali : permette di definire le impostazioni della stampa e visualizzare o meno a inizio stampa la pagina delle impostazioni.
 
 ### Tasti funzionali
-* F06 Conferma. Conferma l'esecuzione della funzione
-* F11 Parametri esecuzione. Permette di definire i parametri di lancio della stampa
-* F17 Impostazioni. Permette di accedere alla schermata delle impostazioni.
+\* F06 Conferma. Conferma l'esecuzione della funzione
+\* F11 Parametri esecuzione. Permette di definire i parametri di lancio della stampa
+\* F17 Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 ## Output
 La stampa prodotta attraverso questa funzione avrà il seguente aspetto : 
@@ -26,9 +26,9 @@ La stampa prodotta attraverso questa funzione avrà il seguente aspetto :
 ![C5D030_028](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOXB0/C5D030_028.png)
 Nella parte superiore della stampa sono riportati i parametri di lancio; in particolare, è possibile visualizzare la Data situazione e la Data previsione.
 All'interno dei record per ogni rapporto bancario sono riportati i seguenti campi : 
- * Saldo effettivo in avere o in dare alla data situazione
- * Saldo simulato in avere o in dare alla data situazione
- * Saldo totale in avere o in dare alla data situazione che deriva dalla somma dei primi due valori
- * Valore dei movimenti previsti in avere nell'arco di tempo che va dalla data situazione alla data previsione
- * Valore dei movimenti previsti in dare nell'arco di tempo che va dalla data situazione alla data previsione
- * Valore del saldo totale alla data previsione
+ \* Saldo effettivo in avere o in dare alla data situazione
+ \* Saldo simulato in avere o in dare alla data situazione
+ \* Saldo totale in avere o in dare alla data situazione che deriva dalla somma dei primi due valori
+ \* Valore dei movimenti previsti in avere nell'arco di tempo che va dalla data situazione alla data previsione
+ \* Valore dei movimenti previsti in dare nell'arco di tempo che va dalla data situazione alla data previsione
+ \* Valore del saldo totale alla data previsione

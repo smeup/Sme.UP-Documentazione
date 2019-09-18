@@ -38,15 +38,15 @@ Il componente gestisce i seguenti eventi :
 ## Attributi
 Le funzionalità, le impostazioni e gli attributi del componente sono consultabili attraverso il configuratore e la sua documentazione.
 
- :  : DEC K(Clicca qui.) D(Apri il configuratore per vedere tutte le possibilità.) X(F(INT;JA_00_01;GES.EDT) 1(RE;L-;EDT_SCH) 2(**;;&AM.LL) 3(OJ;*USRPRF;&AM.UT) 4(**;;DOCSETUP) P(SECLS(G.SET.EXU))) L(1)
+ :  : DEC K(Clicca qui.) D(Apri il configuratore per vedere tutte le possibilità.) X(F(INT;JA_00_01;GES.EDT) 1(RE;L-;EDT_SCH) 2(\*\*;;&AM.LL) 3(OJ;\*USRPRF;&AM.UT) 4(\*\*;;DOCSETUP) P(SECLS(G.SET.EXU))) L(1)
 
 ## Schede di esempio
 Gli esempi del componente EXU sono consultabili tramite due sezioni differenti : 
 - una sezione generale, che contiene esempi validi per Looc.UP e per Web.UP,
 - una sezione più specifica per il web.
 
- :  : DEC K(Esempi) D(Sezione generale) X(F(EXD;*SCO;) 1(V2;JAGRA;EXU) 2(MB;SCP_SCH;J1GRA) 4(;;ESE)) L(1)
- :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;*SCO;) 1(V2;JAGRA;TRE) 2(MB;SCP_SCH;WETEST_EXU)) L(1)
+ :  : DEC K(Esempi) D(Sezione generale) X(F(EXD;\*SCO;) 1(V2;JAGRA;EXU) 2(MB;SCP_SCH;J1GRA) 4(;;ESE)) L(1)
+ :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;\*SCO;) 1(V2;JAGRA;TRE) 2(MB;SCP_SCH;WETEST_EXU)) L(1)
 
 ## Documenti applicativi
 - [Introduzione](Sorgenti/DOC/TA/B£AMO/LOCEXU_A)

@@ -5,23 +5,23 @@ sostituire xxC. con  :  : C.
 
 xxC.SEZ Cod="Variable"
 Funzione di avvio del provider :  è la scheda di controllo
-xxC.VAR Cod="*SFunction" Value="F(EXD;*SCO;) 1(;;) 2(MB;SCP_SCH;LO_SRV_BC) P(LOMODE(LOSER))"
+xxC.VAR Cod="\*SFunction" Value="F(EXD;\*SCO;) 1(;;) 2(MB;SCP_SCH;LO_SRV_BC) P(LOMODE(LOSER))"
 
 
 Indirizzo di loocup service provider :  va specificato il valore "" per evitare che il provider chieda sè stesso i file.
 xxC.VAR Cod="J8_SERVER" Txt="Service Provider" Value=""
 
 Path accessibili da remoto :  qui vanno raccolti tutti i path a cui gli utenti dovranno accedere, indipendentemente dall'azienda del singolo utente.
-xxC.VAR Cod="PROVIDER_PATHS" Txt="Path accettati dal server remoto" Value="\\srv001.smeup.com\Comuni Gruppo\;\\srv001.smeup.com\azienda1\;\\srv001.smeup.com\azienda2\;\\srv001.smeup.com\azienda3\;[*APPDATA];[*TMP];\\srv002\QUECOM\Commerciale\Clienti;[IMG.STD]"
+xxC.VAR Cod="PROVIDER_PATHS" Txt="Path accettati dal server remoto" Value="\\srv001.smeup.com\Comuni Gruppo\;\\srv001.smeup.com\azienda1\;\\srv001.smeup.com\azienda2\;\\srv001.smeup.com\azienda3\;[\*APPDATA];[\*TMP];\\srv002\QUECOM\Commerciale\Clienti;[IMG.STD]"
 Questa configurazione consente agli utenti l'accesso alle seguenti cartelle : 
- * \\srv001.smeup.com\Comuni Gruppo\
-* \\srv001.smeup.com\azienda1\
- * \\srv001.smeup.com\azienda2\
- * \\srv001.smeup.com\azienda3\
- * [*APPDATA]
- * [*TMP]
- * \\srv002\QUECOM\Commerciale\Clienti
- * [IMG.STD]
+ \* \\srv001.smeup.com\Comuni Gruppo\
+\* \\srv001.smeup.com\azienda1\
+ \* \\srv001.smeup.com\azienda2\
+ \* \\srv001.smeup.com\azienda3\
+ \* [\*APPDATA]
+ \* [\*TMP]
+ \* \\srv002\QUECOM\Commerciale\Clienti
+ \* [IMG.STD]
 
 Gli utenti poi, accederanno solamente a determinate cartelle in funzione delle variabili definite nel loro SCP_CLO.
 
@@ -36,68 +36,68 @@ da eliminare
 # Installazione e configurazione di Sme.UP Provider
 
 Con l'**upgrade del 25/11/2014** sono state introdotte importanti novità : 
- * Si è passati all'utilizzo di Java Versione 1.7
- * si può gestire la comunicazione in HTTPS
- * è stata incrementata la sicurezza. E' possibile attivare : 
- ** il controllo temporale sulla richiesta :  solo a richieste ricevute entro un arco temporale viene data risposta
- ** un meccanismo per impedire l'alterazione della richiesta
+ \* Si è passati all'utilizzo di Java Versione 1.7
+ \* si può gestire la comunicazione in HTTPS
+ \* è stata incrementata la sicurezza. E' possibile attivare : 
+ \*\* il controllo temporale sulla richiesta :  solo a richieste ricevute entro un arco temporale viene data risposta
+ \*\* un meccanismo per impedire l'alterazione della richiesta
 
 Sia l'HTTPS che gli altri due meccanismi di controllo sono configurabili tramite gli script SCP_CLO.
 
 ## Prerequisiti
- * Indirizzo IP statico
- * Firewall
- * Server Windows adeguatamente dimensionato in funzione del carico.
- * Adeguata infrastruttura di rete per poter rendere accessibile su internet/intranet la porta HTTP/HTTPS
- * Un utente di dominio Windows dedicato
- * Un utente AS400 dedicato
+ \* Indirizzo IP statico
+ \* Firewall
+ \* Server Windows adeguatamente dimensionato in funzione del carico.
+ \* Adeguata infrastruttura di rete per poter rendere accessibile su internet/intranet la porta HTTP/HTTPS
+ \* Un utente di dominio Windows dedicato
+ \* Un utente AS400 dedicato
 
 ## Possibili installazioni
 Smeup provider può essere installato sia con interfaccia grafica, utile nel caso in cui svolga funzioni anche di server batch (es. per l'esecuzione di flussi), in questo caso le schede consentono di monitorare queste attività. Può essere anche installato come un servizio di Windows.
 
 
 ## Installazione con interfaccia grafica
- * scaricare dal sito la versione di Loocup **Sme.Up Provider**
- * installare con amministratore della macchina o in generale porre attenzione ai requisiti
- * copiare i file LOOCUP_SCP\startserver.cmd e LOOCUP_SCP\stopserver.cmd in una cartella a scelta
- * modificare i due file con i parametri, come spiegato all'interno dei file stessi
- * schedulare la partenza/spegnimento nelle operazioni pianificate di windows agli orari che si ritengono più opportuni. In ogni caso ricordarsi di : 
- ** avviare il provider dopo l'AS400
- ** spegnere il provider  prima dell'AS400.
+ \* scaricare dal sito la versione di Loocup **Sme.Up Provider**
+ \* installare con amministratore della macchina o in generale porre attenzione ai requisiti
+ \* copiare i file LOOCUP_SCP\startserver.cmd e LOOCUP_SCP\stopserver.cmd in una cartella a scelta
+ \* modificare i due file con i parametri, come spiegato all'interno dei file stessi
+ \* schedulare la partenza/spegnimento nelle operazioni pianificate di windows agli orari che si ritengono più opportuni. In ogni caso ricordarsi di : 
+ \*\* avviare il provider dopo l'AS400
+ \*\* spegnere il provider  prima dell'AS400.
 
 **Nota** - i parametri di avvio : 
 Looc.UP Provider viene avviato dal file **startserver.cmd** attraverso l'eseguibile Smeupgo.exe
 I parametri sono
- * **AS400**  :   Server AS400 Smeup
- * **UTENTE**  :   Utente di avvio (vedere il paragrafo configurazione)
- * **PASSWORD**  :   La password
- * **INGRESSO UTENTE**  :  Ambiente di esecuzione
- * **--server : CODA : PORTA_SERVER**   :  Definisce la coda di comunicazione con l'as400 e la porta di comunicazione dei client loocup
- * **--http(s):PORTA_HTTP(S)** : Definisce l'attivazione della modalità http(s) (obbligatoria) e la porta di accesso all'http(s) (opzionale, se non specificata assume 9090)
+ \* **AS400**  :   Server AS400 Smeup
+ \* **UTENTE**  :   Utente di avvio (vedere il paragrafo configurazione)
+ \* **PASSWORD**  :   La password
+ \* **INGRESSO UTENTE**  :  Ambiente di esecuzione
+ \* **--server : CODA : PORTA_SERVER**   :  Definisce la coda di comunicazione con l'as400 e la porta di comunicazione dei client loocup
+ \* **--http(s):PORTA_HTTP(S)** : Definisce l'attivazione della modalità http(s) (obbligatoria) e la porta di accesso all'http(s) (opzionale, se non specificata assume 9090)
 
 
 Altri parametri sono
- * **--loglevel : xxxxx** :  dove xxxxx può valere
- ** **DEBUG** :  massimo dettaglio nei log, utile in una fase iniziale o a fronte di segnalazioni di errori
- ** **INFO** :  modalità di funzionamento normale.
- ** **WARN** :  vengono loggate solo le condizioni di avviso
- ** **ERR** :  vengono loggate solo le condizioni di errore
- ** **OFF** :  nessun log. Impostazione sconsigliata :  vengono mantenuti solo i file di log degli ultimi 8 giorni. Tutti quelli più vecchi vengono automaticamente eliminati all'avvio del provider.
+ \* **--loglevel : xxxxx** :  dove xxxxx può valere
+ \*\* **DEBUG** :  massimo dettaglio nei log, utile in una fase iniziale o a fronte di segnalazioni di errori
+ \*\* **INFO** :  modalità di funzionamento normale.
+ \*\* **WARN** :  vengono loggate solo le condizioni di avviso
+ \*\* **ERR** :  vengono loggate solo le condizioni di errore
+ \*\* **OFF** :  nessun log. Impostazione sconsigliata :  vengono mantenuti solo i file di log degli ultimi 8 giorni. Tutti quelli più vecchi vengono automaticamente eliminati all'avvio del provider.
 
 NOTA :  Loocup è composto da tre moduli e i log del modulo emulatore e di quello grafico (scheda) non sono influenzati dal parametro loglevel :  questi due componenti mantengono sempre la stessa modalità di loggatura.
 
 ## Installazione come servizio
- * scaricare dal sito la versione di Loocup **Sme.Up Provider**
- * installare con amministratore della macchina o in generale porre attenzione ai requisiti
- * scaricare serverplugin dai plugin
- * scompattare il contenuto dell'archivio dentro la cartella di installazione di Loocup, facendo sovrascrivere i file presenti. Al termine dell'operazione, verificare che nella cartella di installazione di loocup siano presenti i file
- ** warapper.exe
- ** ServiceInstall.bat
- ** ServiceUninstall.bat
- ** ServiceStart.bat
- ** ServiceStop.bat
- ** ServiceRestart.bat
- * la cartella serviceNT
+ \* scaricare dal sito la versione di Loocup **Sme.Up Provider**
+ \* installare con amministratore della macchina o in generale porre attenzione ai requisiti
+ \* scaricare serverplugin dai plugin
+ \* scompattare il contenuto dell'archivio dentro la cartella di installazione di Loocup, facendo sovrascrivere i file presenti. Al termine dell'operazione, verificare che nella cartella di installazione di loocup siano presenti i file
+ \*\* warapper.exe
+ \*\* ServiceInstall.bat
+ \*\* ServiceUninstall.bat
+ \*\* ServiceStart.bat
+ \*\* ServiceStop.bat
+ \*\* ServiceRestart.bat
+ \* la cartella serviceNT
 
 Per configurare il provider, andare nella cartella serviceNT, conf e aprire il file wrapper.conf con un editor di testo e modificare le parti tra parentesi quadre.
 
@@ -108,8 +108,8 @@ dopo aver modificato questo file, installare il provider come servizio facendo d
 Aprire il gestore dei servizio (Pannello di controllo, Strumenti di amministrazione, servizi) e verificare che SmeupProvider sia presente.
 
 Per l'avvio e lo spegnimento del provider, aggiungere due voci nelle operazioni pianificate : 
- * per l'avvio il comando da utilizzare è il seguente :  **sc start SmeupProvider**
- * per lo spegnimento il comando da utilizzare è il seguente :  **sc stop SmeupProvider**
+ \* per l'avvio il comando da utilizzare è il seguente :  **sc start SmeupProvider**
+ \* per lo spegnimento il comando da utilizzare è il seguente :  **sc stop SmeupProvider**
 
 **NOTA** : Tutti i file che contengono **Smens** nel nome servono all'installazione di questo prodotto e non all'installazione di SmeupProvider.
 
@@ -184,7 +184,7 @@ Specificare nelle variabili
 
 **PROVIDER_KEYMANAGER_PWD**  la password del key manager
 
-***SFunction** -  E' la funzione di avvio dell'utente server. Si consiglia di valorizzarla con  F(EXD;*SCO;) 2(MB;SCP_SCH;LO_SRV_BC) P(LOMODE(LOSER))
+**\*SFunction** -  E' la funzione di avvio dell'utente server. Si consiglia di valorizzarla con  F(EXD;\*SCO;) 2(MB;SCP_SCH;LO_SRV_BC) P(LOMODE(LOSER))
 
 
 ### La configurazione del provider come fornitore di file
@@ -196,9 +196,9 @@ NB :  va evitato l'utilizzo di variabili per la definizione dei vari percorsi, m
 
 ### Configurazione dei client Looc.UP
 SCP_CLO per i client Looc.UP : 
- * Definire la variabile J8_SERVER con smeup;SERVER_WINDOWS : porta;
- * OBSOLETA Definire la variabile J8_SECRET formata da una sequenza di caratteri casuali
- * J8_PROTOCOL (OPZIONALE) definisce il protocollo da utilizzare per dialogare con il server. valori ammessi HTTP/HTTPS. Default è HTTPS. Definire questa variabile solo quando si utilizza l'HTTP.
+ \* Definire la variabile J8_SERVER con smeup;SERVER_WINDOWS : porta;
+ \* OBSOLETA Definire la variabile J8_SECRET formata da una sequenza di caratteri casuali
+ \* J8_PROTOCOL (OPZIONALE) definisce il protocollo da utilizzare per dialogare con il server. valori ammessi HTTP/HTTPS. Default è HTTPS. Definire questa variabile solo quando si utilizza l'HTTP.
 
 Utilizzando il protocollo HTTPS sarà necessario utilizzare un certificato. Per poter utilizzare quello distribuito con l'installazione di Loocup è necessario abilitare l'utilizzo di certificati non validi tramite la variabile J8_SELFSIGNED con valore "1".
 
@@ -242,9 +242,9 @@ Si consiglia di utilizzare il protocollo HTTPS in quanto, a  differenza del prot
 
 Sono poi possibili 3 configurazioni a sicurezza crescente : 
 
- * Viene pubblicata una porta del server windows
- * Come sopra ma il server viene messo in DMZ
- * Si crea una macchina linux che fa da proxy verso il server windows. Il server Linux va messo in DMZ e fa da ponte tra la porta raggiungibile da internet e la porta su cui ascolta il provider.
+ \* Viene pubblicata una porta del server windows
+ \* Come sopra ma il server viene messo in DMZ
+ \* Si crea una macchina linux che fa da proxy verso il server windows. Il server Linux va messo in DMZ e fa da ponte tra la porta raggiungibile da internet e la porta su cui ascolta il provider.
 
 
 ##  Funzioni di Debug e Controllo
@@ -253,8 +253,8 @@ L'accesso è sempre dalla scheda di debug.
 Per il client andare nella sottoscheda "Smeup Provider - risorse remote"
 Per il provider selezionare la sottoscheda "Server", poi  "Smeup Provider".
 
- * In Looc.UP premere CTRL-F9 oppure Start->Funzioni di controllo->Scheda di debug
- * Scegliere il tab "**Sme.UP Provider**"
+ \* In Looc.UP premere CTRL-F9 oppure Start->Funzioni di controllo->Scheda di debug
+ \* Scegliere il tab "**Sme.UP Provider**"
 
 Nel cruscotto si vede lo stato delle variabili in gioco.
 Se la comunicazione con il provider avviene in HTTPS, l'unica variabile che deve essere definita è la J8_SERVER.
@@ -270,9 +270,9 @@ Nell'immagine seguente possiamo vedere la risposta del provider
 ![LOCBAS_048](http://localhost:3000/immagini/LOCBAS_SPE/LOCBAS_048.png)
 ### Cosa fare se non si ha una DEV aggiornata?
 Vanno aggiornati i seguenti script di scheda : 
- * LOCEXD_DBG
- * LO_SRV_BC
- * LO_SPR
+ \* LOCEXD_DBG
+ \* LO_SRV_BC
+ \* LO_SPR
 
 Dalla V3R2 in poi e' necessario aggiornare anche il membro MB SCP_MNU LORRES.
 

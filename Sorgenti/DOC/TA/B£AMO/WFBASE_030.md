@@ -8,8 +8,8 @@ Per requisiti che possono variare fuori dall'avanzamento del workflow è necessa
 
 L'attivazione di un impegno con requisito esterno è una normale attivazione (flaggata con F4FL10='1'), avviene quando sia i requisiti sui luoghi che quelli esterni sono soddisfatti.
 La disattivazione può essere : 
- * Una normale disattivazione, quando vengono rimossi token dai luoghi in entrata, per cui i requisiti sui luoghi non sono più soddisfatti (F4AZIO='5').
- * Una disattivazione dei requisiti esterni (F4AZIO='9').
+ \* Una normale disattivazione, quando vengono rimossi token dai luoghi in entrata, per cui i requisiti sui luoghi non sono più soddisfatti (F4AZIO='5').
+ \* Una disattivazione dei requisiti esterni (F4AZIO='9').
 
 ## Requisiti esterni e presa in carico
 
@@ -20,8 +20,8 @@ Se un requisito esterno dovesse eventualmente interrompere tra presa in carico e
 ## Requisiti esterni e file WFHIST0F
 
 Pre 26/10/2012 : 
- * Lo stato dei requisiti esterni veniva salvato sul file WFHIST0F.
- * Era presente un vincolo per cui non potevano essere utilizzati requisiti esterni su transizioni iniziali.
+ \* Lo stato dei requisiti esterni veniva salvato sul file WFHIST0F.
+ \* Era presente un vincolo per cui non potevano essere utilizzati requisiti esterni su transizioni iniziali.
 Post 26/10/2012 : 
- * Il file WFHIST0F non viene più usato per la storicizzazione dei requisiti esterni :  l'evoluzione dei requisiti esterni viene calcolata scandendo le attività nel WFATTI0F.
- * Il vincolo sulle transizioni iniziali è stato rimosso.
+ \* Il file WFHIST0F non viene più usato per la storicizzazione dei requisiti esterni :  l'evoluzione dei requisiti esterni viene calcolata scandendo le attività nel WFATTI0F.
+ \* Il vincolo sulle transizioni iniziali è stato rimosso.

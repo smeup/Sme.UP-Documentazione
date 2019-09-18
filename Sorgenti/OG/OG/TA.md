@@ -4,4 +4,4 @@ eventualmente appartenente ad un sottosettore
  :  : DEC T(OG) K(SS)
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(TABEL00F)
+ :  : DEC T(OJ) P(\*FILE) K(TABEL00F)

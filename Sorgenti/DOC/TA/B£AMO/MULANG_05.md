@@ -51,12 +51,12 @@
 I valori di default vengono generalemnte indicati tramite attributi dell'annotazione java @DataDef _value_ oppure _values_ se il dato è multiplo
 
 _value_ può assumere i seguenti valori : 
-* numerico se campo numerico
-* alfanumerico se campo alfanumerico
-* valore speciale del tipo *BLANK, *HIVAL, *ZEROS, ...
+\* numerico se campo numerico
+\* alfanumerico se campo alfanumerico
+\* valore speciale del tipo \*BLANK, \*HIVAL, \*ZEROS, ...
 
 i campi alfanumerici non vogliono apici a racchiuderne il valore, salvo nel caso in cui si voglia indicare una stringa con valore coincidente con speciale, esempio : 
-- '*BLANKS', '*HIVAL'
+- '\*BLANKS', '\*HIVAL'
 
 nel caso il campo sia multiplo, il valore dell'attributo _value_ verrà assegnato a tutti gli elementi del campo multiplo; i valori dell'attributo _values_ verranno invece assegnati allo specifico indice del campo multiplo
 

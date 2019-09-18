@@ -2,10 +2,10 @@
 Il programma carica in un file di WORK le righe che andranno a comporre il documento di rientro del C/Lavoro.
 
 Nella tabella di lancio B£JXX è ncessario impostare nel campo "parametri aggiuntivi" : 
- * Tipo riga
- * Ubicazione
- * Unità di Movimentazione
- * Tipo Collo
+ \* Tipo riga
+ \* Ubicazione
+ \* Unità di Movimentazione
+ \* Tipo Collo
 
 ## Formato video
 ![P5PMFP_58](http://localhost:3000/immagini/MBDOC_OGG-P_V5AT51C/P5PMFP_58.png)

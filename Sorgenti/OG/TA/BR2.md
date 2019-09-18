@@ -30,10 +30,10 @@ L'unico svantaggio di questa opzione è che la gestione di un ente provoca l'all
 collegati tramite il nominativo.
  :  : FLD T$BR2H Controllo Dati Indirizzo
 Se viene attivato questo flag è nel data entry V2 viene attivato il controll dei campi indirizzo : 
-* CAP
-* Codice Comune
-* Provincia
-* Codice Regione
+\* CAP
+\* Codice Comune
+\* Provincia
+\* Codice Regione
 
  :  : FLD T$BR2I Exit Dich. Intento
 Se viene attivato questo flag e viene compilata la exit BRIN01D_A, alla fine dell'aggiornamento del

@@ -25,4 +25,4 @@ In entrambi i casi, al dinamismo vengono aggiunte le seguenti variabili :
 ## Schede di esempio
 Scheda d'esempio, esclusiva per WebUP
 
- :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;*SCO;) 1(V2;JAGRA;FLD) 2(MB;SCP_SCH;WETEST_FLD)) L(1)
+ :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;\*SCO;) 1(V2;JAGRA;FLD) 2(MB;SCP_SCH;WETEST_FLD)) L(1)

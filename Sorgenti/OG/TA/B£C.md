@@ -23,11 +23,11 @@ identificazione di riga e colonna di una matrice
 Partendo da una matrice bianca (base), si esegue una sequenza di passi ognuno dei quali costruisce una matrice (del passo), che viene parzialmente trasferita nella matrice base fino ad ottenere il risultato.
 Nella matrice base, la prima riga rappresenta il campo (codice, configurazione ecc.) eventualmente da controllare, le altre righe possono essere la descrizione, il disegno o ogni altra funzione derivabile dalle scelte effettuate.
 ## DETTAGLIO DEI METODI
-### *OGG =    Oggetto
+### \*OGG =    Oggetto
 .     Significato
-Questo metodo permette di effettuare determinate operazioni su oggetti di tipo *CNTT come il controllo dell'appartenenza o la ricerca di elementi.
+Questo metodo permette di effettuare determinate operazioni su oggetti di tipo \*CNTT come il controllo dell'appartenenza o la ricerca di elementi.
 .     Struttura del parametro
-a    Car 1 -2  Tipo Oggetto da *CNTT  (Obblig.)
+a    Car 1 -2  Tipo Oggetto da \*CNTT  (Obblig.)
 b    Car 3 -12 Parametro funzione dell'oggetto.
 c    Car 13-30 Elemento funzione di passo ab (Non Obblig.)
 Se presente e valido si posseggono già tutte le informazioni che servono per costruire la risposta, senza bisogno di fare la domanda (stesso caso della domanda implicita).
@@ -39,10 +39,10 @@ AR
 Codice
 Descrizione oggetto
 Dati dell'elemento di tabella (presente se tipo oggetto=TA)
-### *GRUPPO=  Gruppo passi
+### \*GRUPPO=  Gruppo passi
 .     Significato
-Questo metodo permette di gestire in un unico formato le azioni collegate e contraddistinte dal metodo *GRUPPO; le risposte alle domande vengono richieste in un'unica videata all'inizio della conversazione con il costruttore.
-I controlli gestiti sono su oggetti di tipo *CNTT.
+Questo metodo permette di gestire in un unico formato le azioni collegate e contraddistinte dal metodo \*GRUPPO; le risposte alle domande vengono richieste in un'unica videata all'inizio della conversazione con il costruttore.
+I controlli gestiti sono su oggetti di tipo \*CNTT.
 Se oggetto di tipo NR, per gestire un numero con decimali devo specificare nel parametro        il numero di decimali significativi.
 .     Struttura del parametro
 a    Car 1 -2  Tipo Oggetto (Obblig.)
@@ -55,11 +55,11 @@ AR
 Codice
 Descrizione oggetto
 Dati dell'elemento di tabella (presente se tipo oggetto=TA)
-### *DOI =    Domanda implicita
+### \*DOI =    Domanda implicita
 .     Significato
 Questo metodo permette di effettuare una domanda implicita, cioè di leggere la risposta dalla matrice base senza effettuare la domanda a video.
 .     Struttura del parametro
-a    Car 1 -2  Tipo Oggetto da *CNTT (Obblig.)
+a    Car 1 -2  Tipo Oggetto da \*CNTT (Obblig.)
 b    Car 3 -12 Parametro funzione dell'oggetto.
 c    Car 13-30  : /x/yy/zz/, dove : 
 x=   Riga
@@ -73,7 +73,7 @@ TACLS         /1/01/02/
 Codice
 Descrizione oggetto
 Dati dell'elemento di tabella (presente se tipo oggetto=TA)
-### *CAR =    Carattere
+### \*CAR =    Carattere
 .     Significato
 Permette la costruzione di particolari stringhe e costanti.
 Le possibilità e i relativi significati sono descritte nel campo parametro.
@@ -90,7 +90,7 @@ NR
 .    Struttura della matrice del passo
 1.......10........20........30......
 Valore risultante
-### *CONSTR :   Controllo di stringa
+### \*CONSTR :   Controllo di stringa
 .     Significato
 Questo metodo verifica la correttezza di una stringa. La tipologia della stringa va inserita nel campo parametro.
 .     Struttura del parametro
@@ -99,14 +99,14 @@ a Carattere Alfabetico Non Obbligatorio
 - Carattere Obbligatorio Blanks.
 N Carattere Numerico Obbligatorio.
 n Carattere Numerico non obbligatorio.
-* Carattere qualsiasi.
+\* Carattere qualsiasi.
 .    _9_Esempio
 AAA-NNN   ->   3 lettere, un bianco e 3 numeri
 .    Struttura della matrice del passo
 1.......10........20........30......
 Valore risultante
 Se la stringa non è corretta appare una finestra nella quale vengono evidenziati i caratteri non corretti.
-### *TAB :      Elemento di tabella
+### \*TAB :      Elemento di tabella
 .     Significato
 Permette di Parzializzare sugli elementi di una tabella
 .     Struttura del parametro
@@ -117,7 +117,7 @@ CLS  /A/A99999/ -> Tutti gli elementi di CLS (sottosettore blanks) che iniziano 
 1.......10........20........30......
 Codice       Descrizione oggetto
 Dati dell'elemento di tabella.
-### *PRGOG :    Progressivo di un oggetto
+### \*PRGOG :    Progressivo di un oggetto
 .     Significato
 Permette di ottenere il prossimo progressivo da assegnare un un codice data la sua parte iniziale.
 .     Struttura del parametro
@@ -142,7 +142,7 @@ Prossimo progressivo fra i codici articolo che iniziano con la radice che si tro
 .    Struttura della matrice del passo
 1.......10........20........30......
 RadiceProgressivo.
-### *DOMPAR :   Domande di gruppo derivate da parametro
+### \*DOMPAR :   Domande di gruppo derivate da parametro
 .    Significato
 Presenta le domande che sono catalogate in un parametro.
 Ciò permette di rendere le domande dipendenti da un modello che l'utente sceglie implicitamente o esplicitamente in un
@@ -150,7 +150,7 @@ passo precedente.
 Ad _9_esempio : 
 -    Chiedo il modello di sedia
 -    Dai parametri del modello (codificato come articolo e coincidente con il gruppo distinta) derivo le domande rilevanti e le presento.
-Le domande che si possono inserire nel passo devono essere con metodo *TAB, *OGG, *RISPAR.
+Le domande che si possono inserire nel passo devono essere con metodo \*TAB, \*OGG, \*RISPAR.
 .    Specificità
 Se la categoria dei parametri indicata ha associato una tabella di condizionamento "C£N", la presentazione delle domande avviene per sezioni successive condizionate dalle risposte alle domande precedenti. Si procede nel modo seguente : 
 1)   Associare una condizione "SE" alla domanda interessata
@@ -171,9 +171,9 @@ Leggere il parametro "YYY" per l'oggetto derivato dalla riga 1 a partire da colo
 .    Struttura della matrice del passo
 1.......10........20........30......
 Nessuna
-### *RISPAR :   Risposte controllate mediante un parametro
+### \*RISPAR :   Risposte controllate mediante un parametro
 .    Significato
-Condiziona i valori possibili di una risposta, compresa in un gruppo del metodo "*DOMPAR", ai soli valori presenti, per uno specifico parametro di un oggetto.
+Condiziona i valori possibili di una risposta, compresa in un gruppo del metodo "\*DOMPAR", ai soli valori presenti, per uno specifico parametro di un oggetto.
 .    Sruttura del parametro
 -    Categoria parametri
 -    Codice parametro all'interno della categoria
@@ -183,8 +183,8 @@ XXXYYY$10115
 Leggere il parametro "YYY" per l'oggetto derivato dalla riga 1 a partire da colonna 02 per 15 posizioni all'interno della categoria parametri "XXX" ed utilizzare i valori associati come unici valori ammessi per la domanda.
 .    Struttura della matrice del passo
 1.......10........20........30......
-Come per *TAB se il parametro ha associato una tabella, diversamente come *OGG.
-### *PRGCRN :   Progressivo da tabella CRN
+Come per \*TAB se il parametro ha associato una tabella, diversamente come \*OGG.
+### \*PRGCRN :   Progressivo da tabella CRN
 .    Significato
 Costruisce un progressivo di un oggetto a partire dalla tabella CRN.
 Se viene specificato il Tipo/Parametro di verifica il numeratore (Presente in CRN) viene decrementato fino al primo progressivo valido per quel Tipo/Parametro Oggetto.
@@ -192,7 +192,7 @@ Successivamente viene aggiornato il numeratore in tabella CRN.
 .    Sruttura del parametro
 -    S.S. tabella CRN
 -    Codice numeratore
--    Tipo oggetto per verifica (TAB *CNTT)
+-    Tipo oggetto per verifica (TAB \*CNTT)
 -    Parametro per Verifica
 .   _9_Esempio
 XXYYYYYYZZKKKKKKKKKK
@@ -200,7 +200,7 @@ Ricava il progressivo dal S.S. XX della tabella CRN elemento YYYYYY e esegue le 
 .    Struttura della matrice del passo
 1.......10........20........30......
 Progressivo come da tabella CRN.
-### *DOMGRU :   Domanda di Gruppo
+### \*DOMGRU :   Domanda di Gruppo
 .    Significato
 Permette di associare ad una domanda (Passo B£C) un insieme di domande.
 .    Sruttura del parametro
@@ -213,7 +213,7 @@ Vengono effettuate le domande (TAB B£C) presenti nel sottosettore XX comprese t
 .    Struttura della matrice del passo
 1.......10........20........30......
 Nessuna
-### *VERUNI :   Verifica univocità parametri
+### \*VERUNI :   Verifica univocità parametri
 .    Significato
 Permette di verificare l'univocità dei parametri legati ad un oggetto. Se l'univocità non è soddisfatta verranno presentati tutti gli oggetti trovati ed un successivo messaggio. Impostando il parametro della tabella il messaggio sarà di tipo informativo (non accetta duplicazioni, il flusso verrà abbandonato) o con conferma (accetta duplicazioni, il flusso potrà proseguire in funzione della risposta).
 .    Struttura del parametro
@@ -223,7 +223,7 @@ Permette di verificare l'univocità dei parametri legati ad un oggetto. Se l'uni
 Nessuna
 ## CONTENUTO DEI CAMPI
  :  : FLD T$B£CM **Programma/Metodo**
-Se il campo inizia con il carattere '*' è un metodo già fornito, altrimenti è un programma.
+Se il campo inizia con il carattere '\*' è un metodo già fornito, altrimenti è un programma.
 Programma : 
 In questo campo va inserito il programma da chiamare (tutti i programmi applicabili devono avere la stessa struttura di chiamata).
 _9_Esempio
@@ -231,7 +231,7 @@ _9_Esempio
 -    Programma che controlla elementi di tabella
 -    Programma che gestisce le varianti della risposta ad una domanda di configurazione.
 Metodo : 
-In questo caso va digitato il tipo di metodo utilizzato dall'elemento di tabella. I metodi sono identificati dal loro inizio con *. I metodi attualmente sviluppati sono descritti di seguito.
+In questo caso va digitato il tipo di metodo utilizzato dall'elemento di tabella. I metodi sono identificati dal loro inizio con \*. I metodi attualmente sviluppati sono descritti di seguito.
  :  : FLD T$B£CP **Parametro**
 In questo campo va inserito il tipo di parametro da gestire.
 Le possibilità e la tipologia cambiano a seconda del METODO utilizzato come descritto di seguito.

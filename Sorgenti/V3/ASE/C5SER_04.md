@@ -20,7 +20,7 @@ SRP.DEN|TP|RIS|Rischio
 SRP.DEN|TP||Esposizione
 
 
- :  : PRO.SER Cod="SRA.DEN.1" Tit="Scadenze Attive. Dettaglio per ente" Fun="F(EXB;C5SER_04;SRA.DEN) 1(LI;CNCLI;-(F;;LICNCLI;Tipo)) 2(;;-(F;;;Codice)) 3(D8;*YYMD;-(F;;D8*YYMD;Data)) P( TP(-(F;;**;Tipo scadenze)) SC(-(F;;Q2RR;Schema)) PE(-(F;;V3C5SPE;Pertinenza)) CO(-(F;;V3C5SCO;Condizione)) NR(-(F;;V2SI/NO;Netto Ritenuta)) CU(-(F;;V2SI/NO;Cumulazione effetti)) PO(-(F;;V2SI/NO;Escludi effetti presentati)) DT(-(F;;D8*YYMD;Data situazione)))"
+ :  : PRO.SER Cod="SRA.DEN.1" Tit="Scadenze Attive. Dettaglio per ente" Fun="F(EXB;C5SER_04;SRA.DEN) 1(LI;CNCLI;-(F;;LICNCLI;Tipo)) 2(;;-(F;;;Codice)) 3(D8;\*YYMD;-(F;;D8\*YYMD;Data)) P( TP(-(F;;\*\*;Tipo scadenze)) SC(-(F;;Q2RR;Schema)) PE(-(F;;V3C5SPE;Pertinenza)) CO(-(F;;V3C5SCO;Condizione)) NR(-(F;;V2SI/NO;Netto Ritenuta)) CU(-(F;;V2SI/NO;Cumulazione effetti)) PO(-(F;;V2SI/NO;Escludi effetti presentati)) DT(-(F;;D8\*YYMD;Data situazione)))"
 
  :  : PRO.SER Cod="SRA.DEN.2" Tit="Scadenze Attive. Dettaglio per ente" Fun="F(EXC;C5SER_04;SRA.DEN)" Ref="SRA.DEN.1"
 
@@ -62,7 +62,7 @@ SRP.DEN|TP||Esposizione
 
  :  : PRO.SER Cod="PAR.SIA.21" Tit="Partite. Sintesi aperte" Fun="F(FRM;C5SER_04;PAR.SIA)" Ref="PAR.SIN.16"
 
- :  : PRO.SER Cod="PAR.DET.22" Tit="Partite. Dettaglio" Fun="F(EXB;C5SER_04;PAR.DET) 1(CN;;-(O;;CN;Soggetto)) 2(D8;*YYMD;-(O;;D8*YYMD;Data Documento)) 3(**;;-(O;;**;N° Documento))"
+ :  : PRO.SER Cod="PAR.DET.22" Tit="Partite. Dettaglio" Fun="F(EXB;C5SER_04;PAR.DET) 1(CN;;-(O;;CN;Soggetto)) 2(D8;\*YYMD;-(O;;D8\*YYMD;Data Documento)) 3(\*\*;;-(O;;\*\*;N° Documento))"
 
  :  : PRO.SER Cod="PAR.DET.23" Tit="Partite. Dettaglio" Fun="F(EXC;C5SER_04;PAR.DET)" Ref="PAR.DET.22"
 

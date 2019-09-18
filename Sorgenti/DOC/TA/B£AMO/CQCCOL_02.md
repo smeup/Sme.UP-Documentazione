@@ -1,11 +1,11 @@
 ## Obiettivo
- * Gestire Cicli di Collaudo con chiave variabile configurabile da utente.
- * Possibilità di gestire al contempo controlli per articolo, configurazione prodotto, articolo fornitore, macchina articolo fase, a seconda della tipologia lotto.
+ \* Gestire Cicli di Collaudo con chiave variabile configurabile da utente.
+ \* Possibilità di gestire al contempo controlli per articolo, configurazione prodotto, articolo fornitore, macchina articolo fase, a seconda della tipologia lotto.
 
 ## Tabelle Interessate
 _2_CQ1
 Definisce la versione dei Cicli di Collaudo da utilizzare (se non specificato, si assume 'SM' :  Cicli di Collaudo versione con tipo variabile; al contrario, se si intende usare la versione con articolo, mettere 'CQ').
- :  : DEC T(TA) P(CQ1) K(*)
+ :  : DEC T(TA) P(CQ1) K(\*)
 _2_CRJ
 Definisce i tipi ciclo esistenti, descrivendone le caratteristiche principali.
  :  : DEC T(TA) P(CRJ) K(ART)
@@ -22,10 +22,10 @@ Definisce la struttura e i numeratori del numero identificativo di record degli 
  :  : DEC T(TA) P(CRNCQ) K(CCO2)
 _2_C£I
 Definisce la struttura dei dati della parte variabile del file
- :  : DEC T(TA) P(C£I) K(*)
+ :  : DEC T(TA) P(C£I) K(\*)
 _2_CR1
 Attiva o meno la verifica che i rilievi obbligatori siano dichiarati
- :  : DEC T(TA) P(CR1) K(*)
+ :  : DEC T(TA) P(CR1) K(\*)
 
 ## Dati Campionamento/articolo
 Abilita o meno la gestione dei dati Piani Campionamento.
@@ -33,9 +33,9 @@ _2_ Tipo Parametro OAV Risalita
 La risalita avviene in questo modo : 
 
  - Dato il tipo ciclo def. in tab CQL, si valorizzano le chiavi con i valori del lotto. Si cerca il ciclo di quel tipo con quelle chiavi. Il modo con cui si valorizzano le chiavi è definito (cablato) nel pgm B£ICQC0. Se, ad esempio, la prima chiave della griglia è AR, il pgm B£ICQC0 sostituisce al primo codice il valore dell'articolo del lotto (T$ARTI); se la chiave è CN-FOR verrà sostituito l'ente di addebito (T$COEA)
- - Se non viene trovato un ciclo con queste chiavi, si sostituisce il valore generico (**) alle chiavi e si cerca questo stesso tipo ciclo con le nuove chiavi
+ - Se non viene trovato un ciclo con queste chiavi, si sostituisce il valore generico (\*\*) alle chiavi e si cerca questo stesso tipo ciclo con le nuove chiavi
  - Se il ciclo non viene ancora trovato, si prova a sostituire alle chiavi i valori dei rispettivi OAV (impostati in tab CRJ) e si cerca il tipo ciclo di risalita (T$CRJK) con le nuove chiavi
- - Se il ciclo non viene ancora trovato, si sostituisce il valore generico (**) alle chiavi
+ - Se il ciclo non viene ancora trovato, si sostituisce il valore generico (\*\*) alle chiavi
  - Se non viene trovato, si ricomincia da capo, provando le risalite tramite gli OAV definiti nel tipo ciclo di risalita.
 In pratica si percorre una catena di elementi della CRJ, continuando a sostituire alle chiavi i valori dell'oav e cercando il ciclo del tipo def in T$CRJK .
 Attenzione a non creare un loop infinito!
@@ -46,8 +46,8 @@ Se presente un valore diverso da ' ' , viene lanciato il programma di aggiustame
 Per maggiori informazioni sulla modalità di utilizzo del programma, leggere le note riportate nel sorgente del programma prototipo (CQCM50_X).
 
 ## Archivi Interessati
- :  : DEC T(OJ) P(*FILE) K(CQRICI0F)
- :  : DEC T(OJ) P(*FILE) K(CQCON20F)
+ :  : DEC T(OJ) P(\*FILE) K(CQRICI0F)
+ :  : DEC T(OJ) P(\*FILE) K(CQCON20F)
 
 _2_ Gli archivi di appoggio della gestione sono differenti da quelli della gestione precedente.
 In caso si desideri utilizzare la nuova gestione, è necessario scrivere dei programmi di conversione (vedi programmi di conversione prototipo CQRICI_V21, per archivio cicli CQCON2_V21, per rilievi e misure).
@@ -99,8 +99,8 @@ L'obiettivo di questa exit è quello di costruire fasi con valori variabili desc
 ### Esempio 01      >>** **Verificare conformità lotto XXXXXXXXXX con ogg : **
 Tipo Lotto      AG
 Articolo        A
-Configurazione  **
-Possiede  . Ciclo di Collaudo (tipo YD1) con terza chiave cliente **
+Configurazione  \*\*
+Possiede  . Ciclo di Collaudo (tipo YD1) con terza chiave cliente \*\*
            . Associato alla tabella CQL sono previsti tipo e parametro
            . primario e secondario che descrivono il significato delle
            . chiavi varibili del lotto qualità (Articolo,campo libero1)
@@ -109,16 +109,16 @@ Possiede  . Ciclo di Collaudo (tipo YD1) con terza chiave cliente **
            . associare al lotto i controlli da effettuarsi.
 
 ## Verifiche oggetti
- :  : DEC T(OJ) P(*FILE) K(CQRICI0F)
- :  : DEC T(OJ) P(*FILE) K(CQCON20F)
+ :  : DEC T(OJ) P(\*FILE) K(CQRICI0F)
+ :  : DEC T(OJ) P(\*FILE) K(CQCON20F)
 
- :  : DEC T(OJ) P(*PGM) K(B£ICQC0) Formatta chiavi Ciclo di Collaudo.
- :  : DEC T(OJ) P(*PGM) K(B£ICQC_SM) Interfaccia Ciclo di Collaudo.
- :  : DEC T(OJ) P(*PGM) K(B£ICQC_CQ) Interfaccia Ciclo di Collaudo.
- :  : DEC T(OJ) P(*PGM) K(CQCM50G) Gestione Ciclo di Collaudo.
+ :  : DEC T(OJ) P(\*PGM) K(B£ICQC0) Formatta chiavi Ciclo di Collaudo.
+ :  : DEC T(OJ) P(\*PGM) K(B£ICQC_SM) Interfaccia Ciclo di Collaudo.
+ :  : DEC T(OJ) P(\*PGM) K(B£ICQC_CQ) Interfaccia Ciclo di Collaudo.
+ :  : DEC T(OJ) P(\*PGM) K(CQCM50G) Gestione Ciclo di Collaudo.
 
  :  : DEC T(TA) P(CRJ) K(ART)
- :  : DEC T(TA) P(B£G) K(*)
+ :  : DEC T(TA) P(B£G) K(\*)
  :  : DEC T(TA) P(CQL) K(AG)
 
 ## Esecuzione

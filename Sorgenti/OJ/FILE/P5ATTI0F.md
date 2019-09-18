@@ -1,7 +1,7 @@
 ## Contenuto
 In questo file sono memorizzati le attività produttive e non produttive che implicano una registrazione di tempi e/o quantità nell'ambito delle attività aziendali.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'E2'                               £FUNT1
 
 ## Chiave primaria

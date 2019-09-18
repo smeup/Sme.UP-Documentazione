@@ -5,37 +5,37 @@
 In generale l'Inventario di Magazzino è una procedura sistematica mediante la quale viene accertata l'esistenza di beni, in un determinato luogo e ad una data definita, in corrispondenza della quale non dovrebbero avvenire movimenti. Obiettivo fondamentale dell'Inventario di magazzino è quello di confermare o rettificare la Quantità Contabile dei beni perchè corrisponda a quella Fisica. Qualora così non fosse, bisognerà apportare le rettifiche necessarie.
 La condizione ottimale per l'effettuazione di un Inventario sarebbe a fine anno e a negozio chiuso, con applicazione delle Rettifiche Inventariali al 31/12, così da chiudere l'esercizio appena trascorso.
 
- * Se l'Inventario viene eseguito al mattino a negozio chiuso, la **Data dell'inventario** dovrà essere quella del **giorno precedente**, visto che gli ultimi movimenti contabili risalgono a quella data
- * Se al mattino il negozio è aperto e vengono registrate delle vendite e il negozio viene chiuso la sera per effettuare l'Inventario, allora la **Data** sarà quella del **Giorno Stesso**
- * E' altamente sconsigliato effettuare un Inventario a Negozio aperto, si rischierebbe di vendere Merce non ancora conteggiata. Se proprio fosse necessario effettuarlo in questa condizione, è fondamentale assicurarsi di vendere merce già contata, altrimenti ricordarsi di conservare il cartellino dell'articolo per poterlo aggiungere all'Inventario.
+ \* Se l'Inventario viene eseguito al mattino a negozio chiuso, la **Data dell'inventario** dovrà essere quella del **giorno precedente**, visto che gli ultimi movimenti contabili risalgono a quella data
+ \* Se al mattino il negozio è aperto e vengono registrate delle vendite e il negozio viene chiuso la sera per effettuare l'Inventario, allora la **Data** sarà quella del **Giorno Stesso**
+ \* E' altamente sconsigliato effettuare un Inventario a Negozio aperto, si rischierebbe di vendere Merce non ancora conteggiata. Se proprio fosse necessario effettuarlo in questa condizione, è fondamentale assicurarsi di vendere merce già contata, altrimenti ricordarsi di conservare il cartellino dell'articolo per poterlo aggiungere all'Inventario.
 
 ## Descrizione
 
 La procedura permette la gestione degli Inventari di Magazzini e di Punti Vendita.
 Il Menu dedicato agli Inventari **Principale>Inventari** è così suddiviso : 
 
- * Gestione Inventario
- * Inventari per Zona
- ** Scarico Dati da Terminalino
- ** Registrazione Manuale Dati Inventario
- ** Visualizzazione Zone con Articoli Inesistenti
- ** Selezione Conta Attiva
- ** Analisi Confronto Conte
- ** Analisi Inventari di Zona
- ** Analisi Avanzamento Inventario
- ** Conferma Dati Inventario
- ** Gestione Articoli Inesistenti
- * Eventi Inventariali
- ** Gestione Modelli Eventi Inventariali
- ** Gestione Eventi Inventariali
- * Analisi Differenze Inventariali
- * Creazione Movimenti di Rettifica Inventariale
- * Stampa Differenze Inventariali Applicate
- * Riapertura Inventari
- * Analisi Valorizzazione Magazzino
- * Stampa Scheda Fiscale di Magazzino
- * Analisi Valorizzazione Magazzino per Fascia di Prezzo
- * Stampa Scheda Fiscale di Magazzino per Fascia di Prezzo
+ \* Gestione Inventario
+ \* Inventari per Zona
+ \*\* Scarico Dati da Terminalino
+ \*\* Registrazione Manuale Dati Inventario
+ \*\* Visualizzazione Zone con Articoli Inesistenti
+ \*\* Selezione Conta Attiva
+ \*\* Analisi Confronto Conte
+ \*\* Analisi Inventari di Zona
+ \*\* Analisi Avanzamento Inventario
+ \*\* Conferma Dati Inventario
+ \*\* Gestione Articoli Inesistenti
+ \* Eventi Inventariali
+ \*\* Gestione Modelli Eventi Inventariali
+ \*\* Gestione Eventi Inventariali
+ \* Analisi Differenze Inventariali
+ \* Creazione Movimenti di Rettifica Inventariale
+ \* Stampa Differenze Inventariali Applicate
+ \* Riapertura Inventari
+ \* Analisi Valorizzazione Magazzino
+ \* Stampa Scheda Fiscale di Magazzino
+ \* Analisi Valorizzazione Magazzino per Fascia di Prezzo
+ \* Stampa Scheda Fiscale di Magazzino per Fascia di Prezzo
 
 ## Gestione Inventario
 
@@ -45,19 +45,19 @@ E' da tenere presente che un inventario di stato **Introdotto** è considerato d
 
 Sono a disposizione i seguenti tasti funzionali : 
 
- * F6 per Inserimento
- * Invio per Modifica
- * F4 Annullamento
- * F5 Visualizza
- * F8 Tutti/Da Inviare. Questo tasto permette di visualizzare tutti gli Inventari esistenti per il Negozio, indipendentemente dallo Stato. Premere di nuovo F8 per tornare alla visualizzazione normale.
- * F9 Cambia Stato. Questo tasto permette di modificare lo Stato dell'Inventario. Con la pressione del Tasto l'Inventario passerà da **Stato Introdotto**a **Da Inviare** e viceversa
- * F11 Documento. Questo tasto funzionale permette di inserire gli articoli nell'Inventario a partire da un Documento esistente. Viene richiesto di indicare i riferimenti del Documento di Vendita da utilizzare, quindi
- ** Magazzino di Emissione
- ** Tipo
- ** Periodo
- ** N° Documento
+ \* F6 per Inserimento
+ \* Invio per Modifica
+ \* F4 Annullamento
+ \* F5 Visualizza
+ \* F8 Tutti/Da Inviare. Questo tasto permette di visualizzare tutti gli Inventari esistenti per il Negozio, indipendentemente dallo Stato. Premere di nuovo F8 per tornare alla visualizzazione normale.
+ \* F9 Cambia Stato. Questo tasto permette di modificare lo Stato dell'Inventario. Con la pressione del Tasto l'Inventario passerà da **Stato Introdotto**a **Da Inviare** e viceversa
+ \* F11 Documento. Questo tasto funzionale permette di inserire gli articoli nell'Inventario a partire da un Documento esistente. Viene richiesto di indicare i riferimenti del Documento di Vendita da utilizzare, quindi
+ \*\* Magazzino di Emissione
+ \*\* Tipo
+ \*\* Periodo
+ \*\* N° Documento
 Verrà richiesta conferma prima di scaricare la Qta di Articoli presenti nel Documento
- * F12 F12 Terminalino. Questo tasto funzionale permette di inserire gli articoli nell'Inventario scaricando un Terminalino o utilizzando uno scarico precedentemente effettuato
+ \* F12 F12 Terminalino. Questo tasto funzionale permette di inserire gli articoli nell'Inventario scaricando un Terminalino o utilizzando uno scarico precedentemente effettuato
 Se lo scarico del terminalino era già stato effettuato in precedenza indicarne i riferimenti, quindi Periodo e Numero, altrimenti lasciare in bianco per lo Scarico Immediato e in questo caso verrà richiesto di collegare il terminalino
 Al termine dell'Elaborazione viene presentato l'elenco degli articoli compresi nello scarico stesso.
 Sono a disposizione i tasti funzionali F6 Inserimento, Invio Modifica ed F4 Annullamento per le gestione delle righe dello scarico.
@@ -66,32 +66,32 @@ Con il tasto F9 sarà possibile visualizzare il Totale delle Quantità dello Sca
 Ora che abbiamo descritto i tasti funzionali, torniamo alla Gestione dell'Inventario
 Premere F6 Inserisci per aggiungere un nuovo Inventario. Verranno richiesti innanzitutto i Dati di Testata : 
 
- * Data Inventario. E' consigliabile effettuare l'Inventario a Negozio Chiuso o al Mattino (prima dell'Apertura) o alla Sera (dopo la chiusura).
- ** Nel caso l'Inventario venga effettuato al Mattino indicare come Data Inventario la Data del giorno Precedente alla sua effettuazione.
- ** Nel caso venga effettuato alla Sera indicare come Data Inventario la Data del giorno della sua effettuazione.
- ** Nel caso (fortemente sconsigliato) di Inventario a Negozio Aperto indicare la Data del giorno Precedente alla sua effettuazione e assicurarsi di inserire nell'Inventario anche tutti gli articoli eventuali venduti (ma non ancora contati)
- * Responsabile Inventario
- * Quantità Prevista. Col tasto F8 la Quantità Prevista verrà automaticamente calcolata dal programma sulla base della Giacenza Contabile alla Data specificata come Data dell'Inventario.
- * Numero Zone
- * Tipologia Inventario. Può essere : 
- ** Globale
- ** Rotazione (solo Articoli Rilevati). In questo caso le funzioni di Analisi Differenze Inventariali e Creazione Movimenti di Rettifica Inventariale terranno in considerazione solo gli
+ \* Data Inventario. E' consigliabile effettuare l'Inventario a Negozio Chiuso o al Mattino (prima dell'Apertura) o alla Sera (dopo la chiusura).
+ \*\* Nel caso l'Inventario venga effettuato al Mattino indicare come Data Inventario la Data del giorno Precedente alla sua effettuazione.
+ \*\* Nel caso venga effettuato alla Sera indicare come Data Inventario la Data del giorno della sua effettuazione.
+ \*\* Nel caso (fortemente sconsigliato) di Inventario a Negozio Aperto indicare la Data del giorno Precedente alla sua effettuazione e assicurarsi di inserire nell'Inventario anche tutti gli articoli eventuali venduti (ma non ancora contati)
+ \* Responsabile Inventario
+ \* Quantità Prevista. Col tasto F8 la Quantità Prevista verrà automaticamente calcolata dal programma sulla base della Giacenza Contabile alla Data specificata come Data dell'Inventario.
+ \* Numero Zone
+ \* Tipologia Inventario. Può essere : 
+ \*\* Globale
+ \*\* Rotazione (solo Articoli Rilevati). In questo caso le funzioni di Analisi Differenze Inventariali e Creazione Movimenti di Rettifica Inventariale terranno in considerazione solo gli
 Articoli Rilevati.
- ** Parziale (solo Articoli Presenti nell'Evento Inventariale legato all'Inventario). In questo caso le funzioni di Analisi Differenze Inventariali e Creazione Movimenti di Rettifica Inventariale terranno in considerazione solo gli Articoli Presenti
+ \*\* Parziale (solo Articoli Presenti nell'Evento Inventariale legato all'Inventario). In questo caso le funzioni di Analisi Differenze Inventariali e Creazione Movimenti di Rettifica Inventariale terranno in considerazione solo gli Articoli Presenti
 nell'evento inventariale abbinato all'inventario.
 Per la gestione degli inventari parziali si rimanda alla sezione specifica descritta in seguito nel presente manuale.
- * Codice Workflow (solo se attiva gestione).E' possibile intervenire sullo stato del workflow in base alle transizioni effettuabili.
+ \* Codice Workflow (solo se attiva gestione).E' possibile intervenire sullo stato del workflow in base alle transizioni effettuabili.
 
 Premere Invio per passare alla gestione delle Righe.
 Vengono inizialmente elencati gli articoli presenti con le relative quantità, se si entra in modalità di Modifica
 Sono a disposizione i seguenti tasti funzionali : 
 
- * F6 Inserisci
- * Invio Modifica
- * F4 Elimina
- * F5 Visualizza
- * F8 Ordinamento
- * F9 Ricerca Articolo
+ \* F6 Inserisci
+ \* Invio Modifica
+ \* F4 Elimina
+ \* F5 Visualizza
+ \* F8 Ordinamento
+ \* F9 Ricerca Articolo
 
 Premendo F6 Inserisci o Invio Modifica si entra nella gestione delle Righe Articolo dell'Inventario.
 Indicare l'Articolo da Inserire/Modificare e la relativa quantità e premere Invio per conferma dell'inserimento/variazione.
@@ -110,16 +110,16 @@ Ricordarsi di premere F9 Cambia Stato se l'Inventario è terminato.
 L'Elaborazione degli Inventari per Zona permette una migliore gestione dell'Inventario in quanto è possibile appunto suddividere il Magazzino per Zone ed effettuare delle conte più specifiche degli Articoli e quindi più controllate.
 Per la gestione degli Inventari per Zona sono a disposizione le seguenti funzioni : 
 
- * Inventari per Zona
- * Scarico Dati da Terminalino
- * Registrazione Manuale Dati Inventario
- * Visualizzazione Zone con Articoli Inesistenti
- * Selezione Conta Attiva
- * Analisi Confronto Conte
- * Analisi Inventari di Zona
- * Analisi Avanzamento Inventario
- * Conferma Dati Inventario
- * Gestione Articoli Inesistenti
+ \* Inventari per Zona
+ \* Scarico Dati da Terminalino
+ \* Registrazione Manuale Dati Inventario
+ \* Visualizzazione Zone con Articoli Inesistenti
+ \* Selezione Conta Attiva
+ \* Analisi Confronto Conte
+ \* Analisi Inventari di Zona
+ \* Analisi Avanzamento Inventario
+ \* Conferma Dati Inventario
+ \* Gestione Articoli Inesistenti
 
 ## Inventari per Zona - Scarico Dati da Terminalino
 
@@ -133,9 +133,9 @@ Dopo la selezione dell'Inventario viene richiesto di collegare il terminalino
 Se nell'Elaborazione del file ricevuto dal terminalino non è stato possibile effettuare una distinzione delle zone, tutti gli articoli vengono considerati appartenenti alla stessa zona e vengono richieste le
 informazioni mancanti : 
 
- * Nr. Terminalino
- * Zona
- * Squadra
+ \* Nr. Terminalino
+ \* Zona
+ \* Squadra
 
 Al termine dell'Elaborazione il programma visualizza l'Elenco degli scarichi effettuati (suddivisi per zona).
 Sono a disposizione i tasti funzionali F7 Stampa Complessiva e F8 Stampa Articoli Errati
@@ -147,19 +147,19 @@ Dopo la selezione iniziale viene presentato l'Elenco delle Zone (e relative cont
 Premendo F6 Inserisci o Invio Modifica si entra nella gestione della Zona.
 Vengono richieste le informazioni di Testata della zona. : 
 
- * Nr. Terminalino
- * Zona
- * Squadra
- * Progressivo Conta. Viene controllato il numero indicato. Nel caso di inserimento deve essere indicato un valore inesistente immediatamente successivo all'ultimo valore imputato.
- * Note
- * Tipo Conta. E' possibile definire se : 
- ** Dettagliata. Non occorre indicare la Quantità Totale e premendo Invio si passerà alla gestione degli Articoli della zona.
- ** Totalizzata. In questo caso occorrerà solo indicare la Quantità Totale, non è prevista la gestione degli Articoli.
+ \* Nr. Terminalino
+ \* Zona
+ \* Squadra
+ \* Progressivo Conta. Viene controllato il numero indicato. Nel caso di inserimento deve essere indicato un valore inesistente immediatamente successivo all'ultimo valore imputato.
+ \* Note
+ \* Tipo Conta. E' possibile definire se : 
+ \*\* Dettagliata. Non occorre indicare la Quantità Totale e premendo Invio si passerà alla gestione degli Articoli della zona.
+ \*\* Totalizzata. In questo caso occorrerà solo indicare la Quantità Totale, non è prevista la gestione degli Articoli.
 
 Dopo aver premuto Invio alla richiesta di informazioni di testata della Zona (se zona di tipo Dettagliata e se in Modalità Modifica) si passa alla gestione delle Righe della Zona.
 Vengono elencati gli articoli presenti nella zona.
 
-N.B. Gli articoli che hanno ******** nel campo Descrizione (e che non hanno Articolo/Colore/Taglia) sono articoli **errati**, cioè codici a barre letti con il terminalino ma che non esistono negli archivi anagrafici di Negoziando.
+N.B. Gli articoli che hanno \*\*\*\*\*\*\*\* nel campo Descrizione (e che non hanno Articolo/Colore/Taglia) sono articoli **errati**, cioè codici a barre letti con il terminalino ma che non esistono negli archivi anagrafici di Negoziando.
 
 ## Inventari di Zona - Visualizzazione Zone con Articoli Inesistenti
 
@@ -188,22 +188,22 @@ Verrà Visualizzato l'Elenco di tutti gli Articoli presenti e le Quantità delle
 Questa funzione permette di effettuare analisi sugli Inventari di Zona. Dal _Menu>Principale>Inventari>Inventari per Zona>Analisi Inventari di Zona_
 La funzione richiede inizialmente la selezione dell'Inventario. All'Attivazione vengono richiesti i parametri di selezione : 
 
- * Da Zona a Zona
- * Da Terminalino a Terminalino
- * Da Squadra a Squadra
- * Da Rilevazione a Rilevazione
- * Solo Conte Attive SI/NO
- * Solo Conte Rilevate SI/NO
- * Valorizza Zone SI/NO
- * Ordinamento
- ** Numero Rilevazione
- ** Zona/Progressivo Conta
- * Tipo Valorizzazione Primaria/Secondaria
- ** Costo Standard
- ** Costo Medio
- ** Costo Medio Ponderato
- ** Listino d'Acquisto
- ** Listino di Vendita. Se viene selezionato, apparirà anche la Richiesta del Codice Listino
+ \* Da Zona a Zona
+ \* Da Terminalino a Terminalino
+ \* Da Squadra a Squadra
+ \* Da Rilevazione a Rilevazione
+ \* Solo Conte Attive SI/NO
+ \* Solo Conte Rilevate SI/NO
+ \* Valorizza Zone SI/NO
+ \* Ordinamento
+ \*\* Numero Rilevazione
+ \*\* Zona/Progressivo Conta
+ \* Tipo Valorizzazione Primaria/Secondaria
+ \*\* Costo Standard
+ \*\* Costo Medio
+ \*\* Costo Medio Ponderato
+ \*\* Listino d'Acquisto
+ \*\* Listino di Vendita. Se viene selezionato, apparirà anche la Richiesta del Codice Listino
 
 Dopo la selezione dei parametri viene presentata a video l'Analisi richiesta.
 Sono evidenziate le Zone, le Conte, il Numero di Righe e Quantità OK, il Numero di Righe e Quantità Errate, etc...

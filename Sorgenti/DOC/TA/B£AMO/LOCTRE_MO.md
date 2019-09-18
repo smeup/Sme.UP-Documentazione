@@ -8,9 +8,9 @@ La sintassi di definizione è la medesima prevista per l'utilizzo del componente
 
 A seguire, verranno evidenziate i principali attributi che possono essere sfruttati anche per il device mobile. Per gli attributi assenti si può assumere che questi non siano supportati e vengano quindi ignorati.
 
-* RowHeight (Altezza righe) :  in ambiente mobile, risulta di particolare importanza, in quanto permette di aumentare/diminuire in modo sensibile, il numero di elementi presenti contemporaneamente su una schermata.
-* NodeText (Testo del Nodo) :  è possibile sfruttare tutti valori previsti per l'attributo (al fine di visualizzare solo il codice, solo il testo o entrambi).
-* CellStyle (Stile Celle) :  è un attributo tipico del device mobile. Tale attributo è principalmente utile sul componente matrice, dove permette di vedere visualizzare in vario modo le celle della matrice, mentre può risultare utile sull'albero per attivare o meno la visualizzazione delle icone. In questo senso risultano quindi di particolare rilevanza i cellstyle "LS03|PS03" (senza icona) e "LS05|PS05" (con icona).
+\* RowHeight (Altezza righe) :  in ambiente mobile, risulta di particolare importanza, in quanto permette di aumentare/diminuire in modo sensibile, il numero di elementi presenti contemporaneamente su una schermata.
+\* NodeText (Testo del Nodo) :  è possibile sfruttare tutti valori previsti per l'attributo (al fine di visualizzare solo il codice, solo il testo o entrambi).
+\* CellStyle (Stile Celle) :  è un attributo tipico del device mobile. Tale attributo è principalmente utile sul componente matrice, dove permette di vedere visualizzare in vario modo le celle della matrice, mentre può risultare utile sull'albero per attivare o meno la visualizzazione delle icone. In questo senso risultano quindi di particolare rilevanza i cellstyle "LS03|PS03" (senza icona) e "LS05|PS05" (con icona).
 
  :  : DEC T(VO) P(L_EDT_SCH) K(CellStyle) L(1)
 
@@ -22,22 +22,22 @@ Viceversa come per il client loocup, l'immagine dell'icona viene reperita contro
 # Alberi multilivello
 
 Gli alberi multilivello sono gestiti, ma a differenza di quello che avviene sul client loocup ogni livello corrisponde ad una differente videata. Es. prendendo questa struttura : 
-* titolo 1
-** azione 1
-** azione 2
-** azione 3
-* titolo 2
-** azione 4
-** azione 5
+\* titolo 1
+\*\* azione 1
+\*\* azione 2
+\*\* azione 3
+\* titolo 2
+\*\* azione 4
+\*\* azione 5
 Sul client loocup, l'intera struttura sarà interamente visibile all'interno della sezione, viceversa in ambiente mobile in verrà presentata una sezione in cui saranno presenti solo i titoli, e solo al click su uno dei due titoli verranno presentate le corrispondenti azioni : 
 Vedrò quindi una situazione del genere : 
-* titolo 1 >
-* titolo 2 >
+\* titolo 1 >
+\* titolo 2 >
 Al click su titolo 1 verrà presentata la videata (che copre la precedente) con i livelli successivi : 
-* < titolo 1
-** azione 1 >
-** azione 2 >
-** azione 3 >
+\* < titolo 1
+\*\* azione 1 >
+\*\* azione 2 >
+\*\* azione 3 >
 
 # Paginazione
 

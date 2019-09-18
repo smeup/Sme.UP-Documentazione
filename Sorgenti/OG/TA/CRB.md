@@ -17,7 +17,7 @@ Qtà rilevata in UM Mag
 N. lotto
 Flag di modifica dichiarazione
 Indicatore fallimento
-*In52  Off    OK
+\*In52  Off    OK
 On     fallimento
 Elenco File Utilizzati
 ANMG201L  Anagrafica magazzino      (ACG)
@@ -26,17 +26,17 @@ MOMA201L  Movimenti di magazzino    (ACG)
 MWMV200F  Movimentazione di massa   (ACG)
 .
 FLUSSO : 
-* Registra i movimenti magazzino della dichiaraz. di collaudo * Verifica se il collaudo ha scartato qualche pezzo
+\* Registra i movimenti magazzino della dichiaraz. di collaudo \* Verifica se il collaudo ha scartato qualche pezzo
 C                     Z-ADDT§QSCA    SCARTI 153
-*
+\*
 C           U$QRIL    SUB  SCARTI    BUONA  153
 C           U$QRIL    SUB  T§QLOT    DELTA  153
-*
-* T§QLOT  quantità dichiarata
-* U$QRIL  quantità rilevata
-* SCARTI  quantità scartata
-* BUONA   quantità buona
-* DELTA   delta quantità
+\*
+\* T§QLOT  quantità dichiarata
+\* U$QRIL  quantità rilevata
+\* SCARTI  quantità scartata
+\* BUONA   quantità buona
+\* DELTA   delta quantità
 MOVIMENTI EFFETTUABILI : 
 1)  Q.tà Lotto è riportata da Collaudo a Magazzino
 T$CCQ1 e T$CCQ2

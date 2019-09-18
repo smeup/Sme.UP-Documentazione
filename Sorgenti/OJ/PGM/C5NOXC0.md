@@ -15,13 +15,13 @@ Confermando il formato guida è possibile accedere al formato lista.
 
 ### Impostazioni
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle Impostazioni che riportano i seguenti campi : 
- * Ometto dettaglio :  attraverso questo campo è possibile visualizzare o meno il dettaglio per rapporto bancario. Omettendo il dettaglio, quindi, verranno resituite solamente le informazioni a livello di banca e non a livello di rapporto bancario.
- * Ordinamento :  permette di definire l'ordinamento di visualizzazione dei record; le scelte disponibili sono per tipo rapporto/banca oppure per banca/tipo rapporto.
- * Tipi rapporti :  consente di visualizzare i soli rapporti di portafoglio, tutti i rapporti esclusi quelli di portafoglio oppure l'elenco completo dei rapporti bancari.
- * Solo valorizzati :  permette di visualizzare solamente i rapporti per cui si abbia un residuo non nullo.
- * Separazione simulati :  attraverso questo campo è possibile vedere i saldi suddivisi tra registrazioni simuate e registrazioni definitive :  sarà, quindi, possibile visualizzare l'utilizzo imputabile a registrazioni simulate, l'utilizzo per registrazioni defnitive e l'utilizzo totale.
- * Data situazione :  questo campo permette di definire quale data considerare come data situazione; in particolare è possibile scegliere di considerare sempre la data valuta oppure di considerare la data scadenza per i rapporti di portafoglio e la data operazione per quelli non di portafoglio.
- * Separazione Dare/Avere :  consente di visualizzare l'utilizzo di un rapporto suddiviso in dare e avere; in particolare è possibile avere la separazione tra dare e avere solo sul totale generale riportato in fondo alla schermata, sul totale di ogni banca oppure per ogni rapporto bancario.
+ \* Ometto dettaglio :  attraverso questo campo è possibile visualizzare o meno il dettaglio per rapporto bancario. Omettendo il dettaglio, quindi, verranno resituite solamente le informazioni a livello di banca e non a livello di rapporto bancario.
+ \* Ordinamento :  permette di definire l'ordinamento di visualizzazione dei record; le scelte disponibili sono per tipo rapporto/banca oppure per banca/tipo rapporto.
+ \* Tipi rapporti :  consente di visualizzare i soli rapporti di portafoglio, tutti i rapporti esclusi quelli di portafoglio oppure l'elenco completo dei rapporti bancari.
+ \* Solo valorizzati :  permette di visualizzare solamente i rapporti per cui si abbia un residuo non nullo.
+ \* Separazione simulati :  attraverso questo campo è possibile vedere i saldi suddivisi tra registrazioni simuate e registrazioni definitive :  sarà, quindi, possibile visualizzare l'utilizzo imputabile a registrazioni simulate, l'utilizzo per registrazioni defnitive e l'utilizzo totale.
+ \* Data situazione :  questo campo permette di definire quale data considerare come data situazione; in particolare è possibile scegliere di considerare sempre la data valuta oppure di considerare la data scadenza per i rapporti di portafoglio e la data operazione per quelli non di portafoglio.
+ \* Separazione Dare/Avere :  consente di visualizzare l'utilizzo di un rapporto suddiviso in dare e avere; in particolare è possibile avere la separazione tra dare e avere solo sul totale generale riportato in fondo alla schermata, sul totale di ogni banca oppure per ogni rapporto bancario.
 
 
 ## Formato lista

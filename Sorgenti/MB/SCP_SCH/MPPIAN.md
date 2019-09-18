@@ -3,10 +3,10 @@ La scheda è studiata per interrogare, modificare, confrontare i valori contenut
 
 ![MPPIAN_071](http://localhost:3000/immagini/MBDOC_SCH-MPPIAN/MPPIAN_071.png)
 La sezione di sinistra della scheda permette di analizzare i dati presenti seguendo percorsi diversi a seconda che si entri per : 
- * _2_piani, vengono presentati tutti i piani esistenti, eventualmente filtrati se già è stata fatta una selezione precedente
- * _2_viste, vengono presentate tutte le viste esistenti, eventualmente filtrate se già è stata fatta una selezione precedente (es. se è stato in precedenza selezionato un piano, in questa sezione vediamo solo le viste del piano selezionato)
- * _2_famiglie, vengono presentate tutte le famiglie esistenti, eventualmente filtrate se già è stata fatta una selezione precedente
- * _2_tipi oggetto, vengono presentati tutti i tipi oggetto esistenti, eventualmente filtrati se già è stata fatta una selezione precedente
+ \* _2_piani, vengono presentati tutti i piani esistenti, eventualmente filtrati se già è stata fatta una selezione precedente
+ \* _2_viste, vengono presentate tutte le viste esistenti, eventualmente filtrate se già è stata fatta una selezione precedente (es. se è stato in precedenza selezionato un piano, in questa sezione vediamo solo le viste del piano selezionato)
+ \* _2_famiglie, vengono presentate tutte le famiglie esistenti, eventualmente filtrate se già è stata fatta una selezione precedente
+ \* _2_tipi oggetto, vengono presentati tutti i tipi oggetto esistenti, eventualmente filtrati se già è stata fatta una selezione precedente
 
 _1_Nota Bene;  il meccanismo del filtro si applica a tutte le selezioni successive che possono essere fatte, es. se ho selezionato un piano e passando alle viste seleziono una vista se passo ai tipi oggetto vedo solo i tipi oggetto della vista del piano.
 

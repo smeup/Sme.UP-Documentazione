@@ -15,6 +15,6 @@ carattere. Ad esempio voglio ricavare un file AS/400 a partire da un documento E
   . I tipi NUMERO e DATA vengono verificati ed elaborati. Ad esempio trasforma le date VARIABILI in date normali
 
 ## ESEMPI
-Riga per INI -> TACLS;CNCLI;D8*YYMD;
+Riga per INI -> TACLS;CNCLI;D8\*YYMD;
          ELB    010;AAA001;20050102;
          ELB    020;AAA002;20050101;

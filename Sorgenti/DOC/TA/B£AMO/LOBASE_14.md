@@ -4,7 +4,7 @@
 Per ogni oggetto di smeup sono previste le cosiddette "risorse". Le risorse di un oggetto sono principalmente : 
 
 
-- Immagine :  gestita tramite risalita, a partire dall'istanza, poi alla classe ed infine all'oggetto generico **, questo perchè è obbligatoria e non può non esistere. L'estensione consigliata ed impostata a standard per le immagini è .PNG
+- Immagine :  gestita tramite risalita, a partire dall'istanza, poi alla classe ed infine all'oggetto generico \*\*, questo perchè è obbligatoria e non può non esistere. L'estensione consigliata ed impostata a standard per le immagini è .PNG
 - Folder :  la carella dell'oggetto, dove è possibile trovare tutti i file relativi ad esso; questa può anche non esistere
 - Preview :  è un file che rappresenta l'oggetto nella sua essenza,  una sorta di anteprima dell'oggetto. Ad esempio il pdf di un oggetto FT (fattura) o il link alla pagina web Youtube di un video. Per la maggior parte degli oggetti la preview corrisponde all'immagine
 
@@ -36,7 +36,7 @@ La logica che sta dietro agli script è la seguente :
 1- Ogni sezione dello script definisce quali sono Immagine, Preview e Folder dell'oggetto, rispondendo alle domande "Come ci arrivo?", "Qual'è l'oggetto", "Qual'è la risalita delle immagini"
 
 2- Se, dato un oggetto, non viene trovata la sezione corrispondente, si risale alla classe e dalla classe al default.
-Ad esempio, chiedendo CN CLI, se non esiste la sezione CNCLI si risale a CN, se non esiste CN si risale ad **
+Ad esempio, chiedendo CN CLI, se non esiste la sezione CNCLI si risale a CN, se non esiste CN si risale ad \*\*
 
 3- E' possibile definire delle condizioni di selezione per la sezione. Ad esempio, i CN il cui codice inizia per "A".
 

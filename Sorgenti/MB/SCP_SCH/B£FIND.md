@@ -9,8 +9,8 @@ Nel caso si inserisca una stringa di più parole, verranno ricercate voci che co
 I risultati restituiti sono limitati ai primi 1000 record.
 
 ## Parole chiave
-Come impostazione predefinita il motore di ricerca non fa distinzione tra maiuscole e minuscole. Per effettuare una ricerca che consideri le maiuscole e minuscole presenti nella stringa aggiungere la parola chiave ***L** nel campo di input.
-Sono disponibili anche delle parole chiave per indicare il contesto di ricerca direttamente nel campo di input :  esse si compongono tramite _* seguito dal codice del contesto_ (ad esempio *DOC per la Documentazione).
+Come impostazione predefinita il motore di ricerca non fa distinzione tra maiuscole e minuscole. Per effettuare una ricerca che consideri le maiuscole e minuscole presenti nella stringa aggiungere la parola chiave **\*L** nel campo di input.
+Sono disponibili anche delle parole chiave per indicare il contesto di ricerca direttamente nel campo di input :  esse si compongono tramite _\* seguito dal codice del contesto_ (ad esempio \*DOC per la Documentazione).
 
 ## Calcolo del Rating
 Il rating di un risultato viene calcolato nel seguente modo : 

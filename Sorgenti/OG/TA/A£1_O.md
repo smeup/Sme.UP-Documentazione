@@ -4,7 +4,7 @@
 Definisce i parametri che guidano la gestione delle traduzioni in lingua.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$ELEM **Codice**
-È un campo fisso '*'
+È un campo fisso '\*'
  :  : FLD T$DESC **Descrizione**
 Bianco
 
@@ -18,7 +18,7 @@ Se selezionato, quando viene scritto un nuovo record in A£TRDE0F se manca la tr
 Se selezionato, per alcuni oggetti viene automaticamente estratto l'A£TROR0F e preparato il relativo A£TRDE0F per le lingue gestite a sistema (dalla exit definita in T$A£1F).
 Attenzione :  funziona per l'estrazione (quindi inserimento, copia, modifica degli oggetti), non per la cancellazione :  lo spegnimento delle frasi cancellate avverrà alla prima riestrazione di massa.
 Al momento sono gestiti : 
- * Elementi di tabella.
+ \* Elementi di tabella.
 
  :  : FLD T$A£1J Exit estrazione frasi
 Indica la exit di default del programma A£TR01 per l'estrazione delle frasi.

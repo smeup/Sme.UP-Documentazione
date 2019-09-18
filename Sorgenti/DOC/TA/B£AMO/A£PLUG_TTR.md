@@ -1,6 +1,6 @@
 # Riferimenti : 
- * A. Marazzi
- * A. Zanchi
+ \* A. Marazzi
+ \* A. Zanchi
 
 # INTRODUZIONE
 L'obiettivo è quello di arrivare con la massima efficienza alla attivazione di Sme.up presso un cliente.
@@ -21,13 +21,13 @@ Tutte le notti la SMEUP_FIL viene rigenerata dalla ricompilazione dei SRCDB dell
 In un secondo passaggio (pgm B£UT11ECL) alcuni file vengono "popolati"
 ## AUTORIZZAZIONI FONDAMENTALI
 Vengono fornite tutte le classi di autorizzazioni previste
- * Il gruppo utenti "ADM" è abilitato a tutto
- * L'utente amministratore (es. SMEUPADM fornito dall'installazione) è iscritto al gruppo "ADM" quindi, appena collegato, è operativo a 360 gradi
+ \* Il gruppo utenti "ADM" è abilitato a tutto
+ \* L'utente amministratore (es. SMEUPADM fornito dall'installazione) è iscritto al gruppo "ADM" quindi, appena collegato, è operativo a 360 gradi
 ## DEVIAZIONI
 A seguito di alcuni aggiornamenti, alcune tabelle sono state "ridirette" su altri oggetti : 
- * tab. BAN deviata su oggetto "BA" (e quindi su "CN.BAN")
- * tab. BAP deviata su tabella "C5F" (dopo l'introduzione di Keep.up)
- * tab. CRW deviata su tabella "V5D" (quando Q9000 è in ambiente Sme.up)
+ \* tab. BAN deviata su oggetto "BA" (e quindi su "CN.BAN")
+ \* tab. BAP deviata su tabella "C5F" (dopo l'introduzione di Keep.up)
+ \* tab. CRW deviata su tabella "V5D" (quando Q9000 è in ambiente Sme.up)
 ## AZIENDA
 ## DEFINIZIONI TABELLE
 Vengono forniti tutti i settori (e sottosettori) che Sme.up tratta in maniera esplicita, ovvero quelli che referenzia attraverso i suoi programmi.
@@ -144,14 +144,14 @@ Il contenuto delle tabelle V§.. è conservato in TABELM0F di SMEMOD L'attività
 ---- MAIL-SERVER
 --- Accensioni/Spegnimenti
 -- procedure di BACK.UP
---- *Elenco librerie
---- *Periodicità
---- *LIB in SAVLIB
---- *SAVF
+--- \*Elenco librerie
+--- \*Periodicità
+--- \*LIB in SAVLIB
+--- \*SAVF
 -- procedure di CLEAN.UP
 --- CLEANUP
 --- RGZPFM
---- File QHST*
+--- File QHST\*
 -- procedure di TEST.UP
 --- Librerie SME_TST
 --- Librerie SMEDATTST

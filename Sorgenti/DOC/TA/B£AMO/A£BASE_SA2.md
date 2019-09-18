@@ -32,8 +32,8 @@ Si potranno quindi trovare, ad esempio, sia i file xxSRC (come nella SMESRC) che
 _Naturalmente nella SMEDEV si troveranno solamente sorgenti e oggetti dei file che hanno subito delle modifiche dall'ultimo rilascio.
 
 **ECCEZIONE**
-Nei file **DOC*** ci sono i sorgenti della documentazione; vengono copiati integralmente nella SMEDEV all'atto del rilascio perché il sistema non fa la risalita.
-Lo stesso avviene per il file dei messaggi e altri sorgenti interpretati come i file **SCP*** degli script :  la ricerca dei membri viene fatta in una specifica libreria perché cercare in tutte non sarebbe accettabile in termini di performance.
+Nei file **DOC\*** ci sono i sorgenti della documentazione; vengono copiati integralmente nella SMEDEV all'atto del rilascio perché il sistema non fa la risalita.
+Lo stesso avviene per il file dei messaggi e altri sorgenti interpretati come i file **SCP\*** degli script :  la ricerca dei membri viene fatta in una specifica libreria perché cercare in tutte non sarebbe accettabile in termini di performance.
 
 # Librerie dei clienti
 Nelle librerie dei clienti si trovano i seguenti file : 
@@ -42,7 +42,7 @@ Nelle librerie dei clienti si trovano i seguenti file :
 | ---|----|
 | SRC | Programmi specifici o _exit_ (le exit a volte si trovano in SRC_E) |
 | SRCDB | Sorgenti di file di dati personalizzati |
-| SRC_x1 | Interfacce con altri gestionali (contengono solo i sorgenti perché vanno ricompilati presso il cliente. Applicativi codificati in tabella *CNTTAA). I sorgenti delle interfacce standard si trovano nella SMESRC |
+| SRC_x1 | Interfacce con altri gestionali (contengono solo i sorgenti perché vanno ricompilati presso il cliente. Applicativi codificati in tabella \*CNTTAA). I sorgenti delle interfacce standard si trovano nella SMESRC |
 | SCP_SCH | Contiene gli script delle schede di Looc.Up personalizzate del cliente |
 | 
 
@@ -54,25 +54,25 @@ Utilizzare i branch
  :  : DEC T(SU) P(BAS) K(A£_103)
 
 Le annotazioni delle modifiche nei pgm standard vanno sempre riportate in testa al sorgente nel modo riportato di seguito, dove :  gg/mm/aa=data di modifica, nn.mm=versione rilascio alla data di modifica, xx=Utente che ha effettuato la modifica, e nella Breve descrizione va descritta la modifica
-> V* ==============================================================
- V* MODIFICHE Ril.  T Au Descrizione
- V* gg/mm/aa  nn.mm i xx Breve descrizione
- V* ==============================================================
- V* 13/09/05   V2R1      PF Creazione Programma
- V* ==============================================================
+> V\* ==============================================================
+ V\* MODIFICHE Ril.  T Au Descrizione
+ V\* gg/mm/aa  nn.mm i xx Breve descrizione
+ V\* ==============================================================
+ V\* 13/09/05   V2R1      PF Creazione Programma
+ V\* ==============================================================
 
 
 In modo simile vanno annotate le personalizzazioni fatte per il cliente : 
-> V* ==============================================================
- V* PERSONALIZZAZIONI Ril.  T Au Descrizione
- V* gg/mm/aa  nn.mm i xx Breve descrizione
- V* ==============================================================
+> V\* ==============================================================
+ V\* PERSONALIZZAZIONI Ril.  T Au Descrizione
+ V\* gg/mm/aa  nn.mm i xx Breve descrizione
+ V\* ==============================================================
 
 
 In aggiunta le modifiche di personalizzazione vanno bene evidenziate all'interno del sorgente, all'inizio e alla fine delle modifiche, come riportato di seguito.
-> C* I.MOD.cli                xx inizio modifica  (con cli che indica il cliente)
+> C\* I.MOD.cli                xx inizio modifica  (con cli che indica il cliente)
     ...
- C* F.MOD                    xx fine modifica (con cli che indica il cliente)
+ C\* F.MOD                    xx fine modifica (con cli che indica il cliente)
 
 
 Su una modifica importante, è buona abitudine effettuare un salvataggio della versione originale : 

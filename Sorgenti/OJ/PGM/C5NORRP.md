@@ -117,10 +117,10 @@ Sono disponibili due videate di parzializzazioni; per accedere alla seconda vide
 
 ### Tasti funzionali
 
- * F06 :  Conferma. Permette di confermare ed eseguire la funzione
- * F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della funzione; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch.
- * F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
- * F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
+ \* F06 :  Conferma. Permette di confermare ed eseguire la funzione
+ \* F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della funzione; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch.
+ \* F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
+ \* F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 ### Memorizzazioni
 
@@ -140,17 +140,17 @@ Per ogni partita è riportata l'indicazione del numero della partita (ovvero del
 
 Per ogni partita sono disponibili le seguenti opzioni : 
 ![C5D010_030](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORRP/C5D010_030.png)
- * _2_56 - Per partita :  permette di visualizzare il dettaglio della singola partita, mostra quindi una vista della sola partita raggruppando data registrazione e pagamento.
- * _2_57 - Per scadenza :  permette di aprire una vista sulla partita dettagliando per scadenza.
- * _2_58 - Per data :  mostra una vista per data, ordinando per data registrazione.
+ \* _2_56 - Per partita :  permette di visualizzare il dettaglio della singola partita, mostra quindi una vista della sola partita raggruppando data registrazione e pagamento.
+ \* _2_57 - Per scadenza :  permette di aprire una vista sulla partita dettagliando per scadenza.
+ \* _2_58 - Per data :  mostra una vista per data, ordinando per data registrazione.
 
 Sulle singole rate sono invece disponibili le seguenti opzioni : 
 ![C5D010_026](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORRP/C5D010_026.png)
- * _2_P - pareggia residuo minimo :  la "P" deve esser eposta su almeno 2 rate di dovuto per poterle pareggiare. Per esempio se ho due rate una da 100 e una da -50, mettendo la P sulle 2 rate queste vengono chiuse per il valore minimo 50.
- * _2_R - pareggia residuo massimo :  la "R" posta su almeno 2 rate di dovuto permette di pareggiarle al valore assoluto massimo, ovvero al contrario dell'opzione sopra. Quindi se riproponiamo l'esempio presentato sopra, avendo 2 rate una da 100 e una da -50 l'importo per il quale verranno chiuse le rate è il più alto (100 nel nostro esempio).
- * _2_S - scollega pagato :  questa opzione scollega la rata di pagato collegata ad una di dovuto.
- * _2_16 - Scontabilizza emissione effetto :  permette di cancellare la registrazione di contabilizzazione dell'effetto nel portafoglio effetti aziendale, ovviamente prima che sia stata fatta la distinta.
- * _2_SR - Scadenzario residuo :  permette di aprire lo scadenziario residuo relativo a quel soggetto.
+ \* _2_P - pareggia residuo minimo :  la "P" deve esser eposta su almeno 2 rate di dovuto per poterle pareggiare. Per esempio se ho due rate una da 100 e una da -50, mettendo la P sulle 2 rate queste vengono chiuse per il valore minimo 50.
+ \* _2_R - pareggia residuo massimo :  la "R" posta su almeno 2 rate di dovuto permette di pareggiarle al valore assoluto massimo, ovvero al contrario dell'opzione sopra. Quindi se riproponiamo l'esempio presentato sopra, avendo 2 rate una da 100 e una da -50 l'importo per il quale verranno chiuse le rate è il più alto (100 nel nostro esempio).
+ \* _2_S - scollega pagato :  questa opzione scollega la rata di pagato collegata ad una di dovuto.
+ \* _2_16 - Scontabilizza emissione effetto :  permette di cancellare la registrazione di contabilizzazione dell'effetto nel portafoglio effetti aziendale, ovviamente prima che sia stata fatta la distinta.
+ \* _2_SR - Scadenzario residuo :  permette di aprire lo scadenziario residuo relativo a quel soggetto.
  * _2_01 - Inserisci registrazione :  permette di accedere al data entry della prima nota e inserire una nuova registrazione.
 
  * _2_02 - Modifica registrazione :  permette di entrare in modifica della registrazione relativa alla scadenza su cui si digita l'opzione.

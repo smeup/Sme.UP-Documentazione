@@ -26,29 +26,29 @@ CAR       Caricamento
 CARVIS    Caricamento con visualizzazione Sql
 
 _La funzione RND permette la creazione di una lista casuale di oggetti scelti tra il totale degli oggetti trovati. Quando
-il metodo è *Blanks allora il numero di oggetti nella lista corrisponde al numero prescelto dall'utente, mentre quando si
+il metodo è \*Blanks allora il numero di oggetti nella lista corrisponde al numero prescelto dall'utente, mentre quando si
 utilizza il metodo MAX anche il numero di oggetti viene reperito in maniera casuale.
 
 
 - Metodo :  _campo £G60ME_
 
 Funzione RND : 
- * *Blanks   Caricamento casuale normale
- * MAX        Caricamento casuale fino ad un numero massimo
+ \* \*Blanks   Caricamento casuale normale
+ \* MAX        Caricamento casuale fino ad un numero massimo
 
 Funzione CAR e CARVIS : 
- *  *Blanks       Per codice / compreso / avanti
- *   _SG_RP     Per codice / compreso / indietro
- *   _SG_RD    Per codice / escluso  / avanti
- *   _SL_RP     Per codice / escluso  / indietro
- * DE_SL_RD  Per descr. / compresa / avanti
- * DE_SG_RP  Per descr. / compresa / indietro
- * DE_SG_RD  Per descr. / esclusa  / avanti
- * DE_SL_RP   Per descr. / esclusa  / indietro
- * DC_SL_RD  Desc.R.Cod / compresa / avanti
- * DC_SG_RP  Desc.R.Cod / compresa / indietro
- * DC_SG_RD  Desc.R.Cod / esclusa  / avanti
- * DC_SL_RP  Desc.R.Cod / esclusa  / indietro
+ \*  \*Blanks       Per codice / compreso / avanti
+ \*   _SG_RP     Per codice / compreso / indietro
+ \*   _SG_RD    Per codice / escluso  / avanti
+ \*   _SL_RP     Per codice / escluso  / indietro
+ \* DE_SL_RD  Per descr. / compresa / avanti
+ \* DE_SG_RP  Per descr. / compresa / indietro
+ \* DE_SG_RD  Per descr. / esclusa  / avanti
+ \* DE_SL_RP   Per descr. / esclusa  / indietro
+ \* DC_SL_RD  Desc.R.Cod / compresa / avanti
+ \* DC_SG_RP  Desc.R.Cod / compresa / indietro
+ \* DC_SG_RD  Desc.R.Cod / esclusa  / avanti
+ \* DC_SL_RP  Desc.R.Cod / esclusa  / indietro
 
 - Tipo :  Tipo oggetto da selezionare _campo £G60T1_
 
@@ -64,15 +64,15 @@ Funzione CAR e CARVIS :
 
 La /copy £G60 riceve una schiera £60F che costituisce il filtro.
 Gli elementi della schiera sono strutturati secondo la DS £G60DS : 
- * DS di appoggio sottodefinizione schiere di filtri
+ \* DS di appoggio sottodefinizione schiere di filtri
 D £G60DS          DS
- * Tipo Filtro
+ \* Tipo Filtro
 D  £G60TF                 1      2
- * Codice Filtro
+ \* Codice Filtro
 D  £G60CF                 3     17
- * Tipo Accesso
+ \* Tipo Accesso
 D  £G60TA                18     19
- * Valore di filtro
+ \* Valore di filtro
 D  £G60VF                20     34
 
 il campo £G60TF può contenere i valori 'CS', in questo caso la variabile £G60CF è il campo di un file, oppure 'OA' in questo caso la variabile £G60CF è un OAV dell'oggetto.
@@ -121,9 +121,9 @@ EVAL      Descr_Oggetti_Selezionati = £60D
 
 # NOTE
 _1_
- * Se viene impostato un ordinamento(£60O) prevale sempre
+ \* Se viene impostato un ordinamento(£60O) prevale sempre
 sull'ordinamento di metodo(£G60ME)
- * Se viene impostato un ordinamento(£60O) £G60K1 viene utilizzato per
-puntare la paginazione, deve essere quindi un codice esistene o *BLANKS
- * Per parzializzare un valore = *blanks utilizzare '-'
+ \* Se viene impostato un ordinamento(£60O) £G60K1 viene utilizzato per
+puntare la paginazione, deve essere quindi un codice esistene o \*BLANKS
+ \* Per parzializzare un valore = \*blanks utilizzare '-'
 

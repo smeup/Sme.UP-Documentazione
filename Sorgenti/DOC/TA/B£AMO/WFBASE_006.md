@@ -9,14 +9,14 @@ Mediante la classe WFORTE è possibile specificare le autorizzazioni sugli ordin
 ## Su schede del modulo
 Viene utilizzata la classe standard LO.EXD per accendere/spegnere determinate sottoschede per gli utenti. Sono gestiti, oltre allo standard 05 come default su tutte le schede, i seguenti valori.
 Con funzione WFUTEN, per la scheda principale del workflow : 
- * 19 per accendere gli "Impegni attivi globali";
- * 29 per accendere gli "Impegni assegnabili".
+ \* 19 per accendere gli "Impegni attivi globali";
+ \* 29 per accendere gli "Impegni assegnabili".
 Con funzione F1_BASE, per le sottoschede della scheda di un ordine di workflow : 
- * 19 per accendere gli "Impegni attivi globali";
- * 29 per accendere gli "Impegni assegnabili".
+ \* 19 per accendere gli "Impegni attivi globali";
+ \* 29 per accendere gli "Impegni assegnabili".
 Con funzione F2_BASE, per le sottoschede della scheda dell'impegno di workflow : 
- * 19 per accendere gli "Impegni attivi globali";
- * 29 per accendere gli "Impegni assegnabili".
+ \* 19 per accendere gli "Impegni attivi globali";
+ \* 29 per accendere gli "Impegni assegnabili".
 Si ricorda che il default per tutte le schede dovrebbe essere 09/19/29/39/49/59/69/79/89/99, quindi di base tutte le schede sono abilitate.
 
 

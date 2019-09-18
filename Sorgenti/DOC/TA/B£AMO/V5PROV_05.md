@@ -2,35 +2,35 @@
 Al fine di poter attribuire i costi, nonchè i contributi in funzione del loro periodo di competenza (e non in funzione della registrazione della fattura agente) sono state introdotte delle funzioni di contabilizzazione apposite.
 
 Le contabilizzazioni previste sono : 
- * Contabilizzazione Provvigioni, suddivisa fra : 
- ** Costo (contabilizza i costi provvigioni in funzione della loro competenza)
- ** Liquidato (contabilizza le fatture da ricevere per le provvigioni liquidate in un periodo)
+ \* Contabilizzazione Provvigioni, suddivisa fra : 
+ \*\* Costo (contabilizza i costi provvigioni in funzione della loro competenza)
+ \*\* Liquidato (contabilizza le fatture da ricevere per le provvigioni liquidate in un periodo)
 
- * Contabilizzazione Contributi, suddivisa fra : 
- ** Enasarco
- ** FIRR
- ** ISC
+ \* Contabilizzazione Contributi, suddivisa fra : 
+ \*\* Enasarco
+ \*\* FIRR
+ \*\* ISC
 
 La contabilizzazione di Enasarco FIRR viene "flaggata" separatamente sul record del piano contributi (D5COSO0F), in modo da essere trattata al momento della contabilizzazione della fattura agente.
 
 Questi programi di contabilizzazione utilizzano la tecnica delle registrazioni automatiche (tab. C5U) e, in particolare : 
- * Costo
- ** COPRO   Costo Provvigioni :  definisce conto/tipo registrazione/causale da utilizzare per imputare il costo. L'elemento può avere come desinenza il tipo provvigione.
- ** COAGE   Contributo Provvigioni :  definisce il conto da utilizzare come contropartita
- * Liquidato
- ** PRPRO   Costo Provvigioni :  definisce conto/tipo registrazione/causale da utilizzare per imputare l'attesa fatture.
- ** PRAGE   Liquidato per Agente :  definisce il conto da utilizzare come contropartita (normalmente coincide con il COAGE)
+ \* Costo
+ \*\* COPRO   Costo Provvigioni :  definisce conto/tipo registrazione/causale da utilizzare per imputare il costo. L'elemento può avere come desinenza il tipo provvigione.
+ \*\* COAGE   Contributo Provvigioni :  definisce il conto da utilizzare come contropartita
+ \* Liquidato
+ \*\* PRPRO   Costo Provvigioni :  definisce conto/tipo registrazione/causale da utilizzare per imputare l'attesa fatture.
+ \*\* PRAGE   Liquidato per Agente :  definisce il conto da utilizzare come contropartita (normalmente coincide con il COAGE)
 
 Per la contabilizzazione dei contributi si utilizzano questi elementi : 
- * Contributi
- ** ENAAZ   Enasarco azienda :  definisce tipo registrazione/causale da utilizzare per la contabilizzazione dell'enasarco, nonchè il conto da utilizzare per imputare l'enasarco a carico azienda
- ** ENAAC   Enasarco azienda :  definisce il conto da utilizzare per la contropartita dell'enasarco azienda
- ** ENAAN   Anticipo enasarco :  definisce il conto da utilizzare per l'enasarco anticipato dall'azienda
- ** ENACN   Contropartita Anticipo enasarco :  definisce il conto da utilizzare come contropartita dell'enasarco azienda
- ** ENASA   Enasarco :  definisce il conto da utilizzare per l'imputazione dell'enasarco a carico dell'agente
- ** ENACO   Contropartita Enasarco :   definisce il conto da utilizzare come contropartita dell'enasarco. Tale conto verrà stornato alla contabilizzazione della fattura.
- ** FIRR    Firr :  definisce conto/tipo registrazione da utilizzare per l'imputazione del FIRR
- ** FIRC    Contropartita Firr :   definisce il conto da utilizzare come contropartita del FIRR
+ \* Contributi
+ \*\* ENAAZ   Enasarco azienda :  definisce tipo registrazione/causale da utilizzare per la contabilizzazione dell'enasarco, nonchè il conto da utilizzare per imputare l'enasarco a carico azienda
+ \*\* ENAAC   Enasarco azienda :  definisce il conto da utilizzare per la contropartita dell'enasarco azienda
+ \*\* ENAAN   Anticipo enasarco :  definisce il conto da utilizzare per l'enasarco anticipato dall'azienda
+ \*\* ENACN   Contropartita Anticipo enasarco :  definisce il conto da utilizzare come contropartita dell'enasarco azienda
+ \*\* ENASA   Enasarco :  definisce il conto da utilizzare per l'imputazione dell'enasarco a carico dell'agente
+ \*\* ENACO   Contropartita Enasarco :   definisce il conto da utilizzare come contropartita dell'enasarco. Tale conto verrà stornato alla contabilizzazione della fattura.
+ \*\* FIRR    Firr :  definisce conto/tipo registrazione da utilizzare per l'imputazione del FIRR
+ \*\* FIRC    Contropartita Firr :   definisce il conto da utilizzare come contropartita del FIRR
 
 # Elementi C5U
  :  : DEC T(TA) P(C5U&AZ) K(COPRO) I(>>)

@@ -19,21 +19,21 @@
  soddisfatte anche in due righe diverse dello stesso membro sorgente.
 
 ## Azioni eseguibili
- * 'X ' - Passa agli elementi della lista selezionata (visualizzazione dei membri)
- * '02' - Permette di inserire o modificare una breve nota che verrà esposta sulla destra
- * '04' - Elimina la lista (viene richiesto di confermare con F06)
- * '05' - Alias di 'X'
- * 'DA' - Differenza Insiene A (A-B), crea una lista dei membri non presenti ove imputato DB
- * 'DB' - Differenza Insiene B (A-B), vedi sopra
- * 'UA' - Unione Insieme A (A-B) U (B-A), crea una lista di tutti i membri ove imputato UA e UB
- * 'UB' - Unione Insieme B (A-B) U (B-A), vedi sopra
- * 'RT' - Ricerca RETURN, crea una lista dei membri che contengono RETURN
- * '? ' - Scelta tra le opzioni ammesse
- * '??' - Caratteristiche delle azioni ammesse
- * '!!' - Azioni Utente
- * '91' - Dati della £FUND1
- * '92' - Caratteristiche della riga
- * '% ' - Funzioni di Stringa
+ \* 'X ' - Passa agli elementi della lista selezionata (visualizzazione dei membri)
+ \* '02' - Permette di inserire o modificare una breve nota che verrà esposta sulla destra
+ \* '04' - Elimina la lista (viene richiesto di confermare con F06)
+ \* '05' - Alias di 'X'
+ \* 'DA' - Differenza Insiene A (A-B), crea una lista dei membri non presenti ove imputato DB
+ \* 'DB' - Differenza Insiene B (A-B), vedi sopra
+ \* 'UA' - Unione Insieme A (A-B) U (B-A), crea una lista di tutti i membri ove imputato UA e UB
+ \* 'UB' - Unione Insieme B (A-B) U (B-A), vedi sopra
+ \* 'RT' - Ricerca RETURN, crea una lista dei membri che contengono RETURN
+ \* '? ' - Scelta tra le opzioni ammesse
+ \* '??' - Caratteristiche delle azioni ammesse
+ \* '!!' - Azioni Utente
+ \* '91' - Dati della £FUND1
+ \* '92' - Caratteristiche della riga
+ \* '% ' - Funzioni di Stringa
 
 
 ## F17 Filtro
@@ -41,9 +41,9 @@
 
 ### Tipo Lista
  I tipo di liste ad oggi gestite sono : 
- * SCASCA - Scansione UP SCA (prodotta dall'utility UP SCA);
- * SCASRC - Scansione controllo sorgenti;
- * CMPMAS - Compilazione massiva (prodotta dall'utility B£UT11).
+ \* SCASCA - Scansione UP SCA (prodotta dall'utility UP SCA);
+ \* SCASRC - Scansione controllo sorgenti;
+ \* CMPMAS - Compilazione massiva (prodotta dall'utility B£UT11).
 
 ### Utente
  Permette di selezionare l'utente che ha eseguito a scansione, in modo da condividere il

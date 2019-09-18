@@ -49,7 +49,7 @@ Indica se si vuole attivare la gestione della sequenza.
 Se impostato ed il codice ha un gruppo ciclo (sia questo un gruppo ciclo proprio o un gruppo ciclo ereditato dal gruppo distinta,vedi campo T$BRTF Gruppo ciclo autonomo), verrà utilizzato SEMPRE il ciclo associato al gruppo, anche se l'articolo stesso dovesse avere un ciclo proprio.
 N.B. Il comportamento standard della routine di scansione del ciclo prevede di utilizzare il ciclo proprio dell'articolo, quando questo è presente, anche nel caso in cui sia presente il gruppo ciclo. Questo campo forza la routine di scansione a considerare in ogni caso il ciclo del gruppo.
  :  : FLD T$BRTG **Ambiente ciclo**
-È un elemento della tabella *CN/AA :  se impostato, questo ambiente si sovrappone all'ambiente originale definito nella tabella di impostazioni (B£1) per la scansione del ciclo. In questo modo si possono codificare i cicli su diversi ambienti.
+È un elemento della tabella \*CN/AA :  se impostato, questo ambiente si sovrappone all'ambiente originale definito nella tabella di impostazioni (B£1) per la scansione del ciclo. In questo modo si possono codificare i cicli su diversi ambienti.
 Può essere utile, ad esempio, definire ambienti 'proprietari' (X1/X9), con cui scandire il ciclo delle risorse critiche, ottenuto realizzando l'opportuno programma di interfaccia. Questo programma reperisce le informazioni in modo totalmente eterogeneo (ad esempio sui parametri dell'oggetto, sui legami, su archivi personali) e le restituisce normalizzate alle funzioni che eseguono la scansione del ciclo.
 **Nota tecnica**
 La ridirezione dell'ambiente nello standard è eseguita nel programma di scansione dell'ambiente SM :  B£ICIR_SM. Se si vuol eseguire una ridirezione a partire da un altro ambiente occorre modificare il programma di scansione prendendo come esempio quanto fatto in quel programma.
@@ -69,7 +69,7 @@ Se questo campo viene impostato, nella scansione del ciclo logistico (operazioni
      1= è attivata la gestione delle testate dei cicli.
         Se il ciclo alternativo è 'P', deve esistere in testata.
         Se il ciclo alternativo è 'S', deve esistere in testata se non lasciato in bianco.
-     2= il codice ciclo è valido se è un codice assegnato all'articolo "**". Tale tecnica è
+     2= il codice ciclo è valido se è un codice assegnato all'articolo "\*\*". Tale tecnica è
         utilizzata se si vogliono distinguere, ad esempio, solo il ciclo base e il ciclo esterno
         oppure un ciclo non più valido per i costi, per tutti gli articoli
  :  : FLD T$BRTB **Tipo Operazione proposta**

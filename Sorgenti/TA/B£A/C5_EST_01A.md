@@ -4,7 +4,7 @@ In generale l'aliquota SBT è del 6%
 
 
 ## Fonti
-* Web
- ** http://en.wikipedia.org/wiki/Value-added_tax-United_States
- ** http://taxfoundation.org/state-tax-climate/michigan
- ** http://www.michigan.gov/taxes/0,1607,7-238-43533-154440--,00.html
+\* Web
+ \*\* http://en.wikipedia.org/wiki/Value-added_tax-United_States
+ \*\* http://taxfoundation.org/state-tax-climate/michigan
+ \*\* http://www.michigan.gov/taxes/0,1607,7-238-43533-154440--,00.html

@@ -1,3 +1,3 @@
 # Descrizione
 
-## Oggetto OJ*FILE
+## Oggetto OJ\*FILE

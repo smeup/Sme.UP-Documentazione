@@ -27,7 +27,7 @@ Il Q9000 mette a disposizione un modulo dedicato specificatamente alla gestione 
 A questo modulo si accede in modo diretto oppure tramite altri moduli ad esso collegati :  vedi ad esempio il caso della "Dichiarazione delle prove, controlli e collaudi" dove è possibile in caso di riscontro di non conformità collegarsi direttamente al modulo per effettuarne la registrazione (si rimanda per i particolari al capitolo 10, prove, controlli, collaudi).
 Operativamente, quando vengono riscontrate non conformità, durante ad esempio, una fase di autocontrollo da parte di un operatore su un certo lotto ci si collega con il modulo di Gestione Non Conformità nella sezione omonima attivando la seguente schermata : 
 Formato guida
-Smeup                **    GESTIONE NON CONFORMITA'   **
+Smeup                \*\*    GESTIONE NON CONFORMITA'   \*\*
 Scelta
 Codice Lotto Interno  :      T3NT00006
 Numero Documento . .  :       86640010
@@ -37,7 +37,7 @@ contingenti :
 Da questo punto ci si collega con tutte le non conformità riscontrate sul lotto, oppure per quel documento,
 documentate fino a quel momento : 
 --------------------------------------------------------------------
-Smeup               **    GESTIONE NON CONFORMITA'   ** 2/03/95                     Lista Documenti
+Smeup               \*\*    GESTIONE NON CONFORMITA'   \*\* 2/03/95                     Lista Documenti
 X=Scelta
 S Documento  Data   Articolo    Tipo Nr Lotto Int.NrOrd.F.Lav.F.Col.
 ..86640010  280295 14915500161 DFO T3NT00006            100     100
@@ -46,14 +46,14 @@ S Documento  Data   Articolo    Tipo Nr Lotto Int.NrOrd.F.Lav.F.Col.
 -Qualsiasi non conformità riscontrata su quel lotto viene proposta con una serie di informazioni di riepilogo sul lotto stesso (il modulo è in collegamento con l'anagrafica dei lotti) e sulle caratteristiche delle non conformità (tipo, fase di lavorazione e collaudo, se esistono). Questo tipo di legame tra il lotto e le non conformità rilevate è di fondamentale importanza per il soddisfacimento della norma che richiede una chiara documentazione sui prodotti, macchine, lotti coinvolti dalle difettosità riscontrate.
 E' possibile entrare in variazione nelle singole sezioni del documento per aggiornare o modificare i dati raccolti.
 Nel caso in cui si debba registrare una nuova non conformità relativa ad un lotto, è richiesto di specificare la fase di lavorazione e collaudo nella quale si è riscontrata la difettosità.
-E' previsto inoltre che ad un lotto per cui non sia esplicitamente collegata una fase di collaudo o lavoro (vedi il caso di lotti di acquisto o di prodotti finiti ai quali non è imputabile una singola fase) inserire un codice Jolly (**) che permetta di identificare univocamente la non conformità.
+E' previsto inoltre che ad un lotto per cui non sia esplicitamente collegata una fase di collaudo o lavoro (vedi il caso di lotti di acquisto o di prodotti finiti ai quali non è imputabile una singola fase) inserire un codice Jolly (\*\*) che permetta di identificare univocamente la non conformità.
 Questo è un chiaro esempio del grado di flessibilità ed adattabilità del Q9000, e che è richiesto ad un software che non sia di intralcio ma di supporto alle fasi operative.
 Vediamo adesso come viene realizzata dal programma la registrazone della non conformità, che prescrive la norma.
 2/03/95                     Immissione
 Codice Articolo   :  14915500161     Articolo  00672
 Classe Funzionale :  CF-2       Planner  :     Esp.Mod. :      Reparto : 
-Fase Lavorazione  :  **        ....................
-Fase Collaudo  .  :  **2       ....................
+Fase Lavorazione  :  \*\*        ....................
+Fase Collaudo  .  :  \*\*2       ....................
 Codice Difetto .  :                                       Imp.Carat : 
 Classe Difetto .  :                                       Gravita'  : 
 Causa del Difetto :                                       Caus.Acc. : 
@@ -177,7 +177,7 @@ al tipo di difetto per quella causa specifica. Se supponiamo che un difetto si p
  :                                                              : 
  :  Codice Articolo  :  14917500309     Articolo  00681           : 
  :  Esponente Mod.   :                                            : 
- :  Fase Lavoro . .  :  **                                        : 
+ :  Fase Lavoro . .  :  \*\*                                        : 
  :  Codice Difetto   :  ARR-SE        ARROTONDATURA DENTE ERRATA  : 
  :                                                              : 
  :  Cd Causa   Ac Sq Azione                                     : 
@@ -307,7 +307,7 @@ Norma specifica al punto (4.14.3) Azioni Preventive che chiede al fornitore di a
 procedure per prevenire il ripresentarsi di situazioni di non conformità. Questo collegamento che il Q9000 è in grado
 di realizzare, rappresenta sicuramente un importante supporto alla filosofia della prevenzione.
 Qui di seguito è riportata la videata conclusiva di riepilogo della dichiarazione delle non conformità.
-Smeup            ** RIEPILOGO QTA' LOTTO-NON CONFORMI ** 3/03/95
+Smeup            \*\* RIEPILOGO QTA' LOTTO-NON CONFORMI \*\* 3/03/95
 S Cd Difetto Cl Causa Dif.Qtà Scart.Qtà NonCon.Qtà Selez.Qtà Rilav.
 ARR-SE     MN BLO-ECC
 CIL-IM     IM CON-DIF     20,000
@@ -336,15 +336,15 @@ Come sempre vi è poi la possibilità di allegare un insieme di in formazioni li
 strumento delle note libere. E' riportato un esempio  : 
 ------------------------------------------------------------------ 3/03/95                 NON CONFORMITA'
 Lotto           A3N&00001
-f.l.+f.c.       **    010                                 Liv.sup
+f.l.+f.c.       \*\*    010                                 Liv.sup
 CC=Copia  EE=Elim.  In=Inser  P =Prima  A = Dopo  G =Gest.
 Op  NOTE LIBERE - NON CONFORMITA'                               F
-=========================================================   *
-RICHIESTA/E PER PROSSIMA FORNITURA                          *
-----------------------------------                          * x -) Allegare il Certificato di Qualità e Conformità x
+=========================================================   \*
+RICHIESTA/E PER PROSSIMA FORNITURA                          \*
+----------------------------------                          \* x -) Allegare il Certificato di Qualità e Conformità x
 -) Allegare il Certificato di Origine della Materia Prima x -) Allegare Analisi Chimica e/o Analisi Metallurgica.
 x -) Nessuna Richiesta
-=========================================================   *
+=========================================================   \*
 Termina qui il primo modulo dedicato alla gestione delle non conformità.
 ## (4.13.2) ESAME E TRATTAMENTO DEL PRODOTTO NON CONFORME
 Devono essere definte le resonsabilità per l'esame del prodotto non conforme e l'autorità per le relative decisioni.
@@ -374,7 +374,7 @@ delle non conformità" l'intervento di un ente competente perche analizzi la sit
 Il pacchetto effettua il collegamento con il modulo delle richieste di intervento lasciando la massima libertà di
 decidere quale tipo di azione attivare. In genere si richiede l'utilizzo della deroga di cui si riporta qui di seguito
 un'esempio : 
-Smeup             ** IMMISSIONE RICHIESTE D'INTERVENTO ** 3/03/95                        Immissione
+Smeup             \*\* IMMISSIONE RICHIESTE D'INTERVENTO \*\* 3/03/95                        Immissione
 Progressivo Richiesta  :  EDVT950022   Origine Richiesta  :  CQAM40
 Ente Richiedente  . .  :  DI / 004655       Fornitore  00039
 Obiettivo/Soluz.prop.  :  RISOLUZIONE DEL PROBLEMA
@@ -404,24 +404,24 @@ Azione          EDVT950022
 Liv.sup
 CC=Copia  EE=Elim.  In=Inser  P =Prima  A = Dopo  G =Gest.
 Op  NOTE LIBERE - RICHIESTE INTERVENTO                            F
-===========================================================   *
-Problematica / Richiesta                                      *
+===========================================================   \*
+Problematica / Richiesta                                      \*
 Durezza rilevata dopo rettifica su 30 ralle. Si propone la
 fornitore il motivo del difetto rilevato.
-===========================================================   *
-Obiettivo / Proposta                                          *
-===========================================================   *
-Soluzione Adottata                                            *
+===========================================================   \*
+Obiettivo / Proposta                                          \*
+===========================================================   \*
+Soluzione Adottata                                            \*
 Selezionare l'intero lotto oppure rieseguire  il trattamento di tempra in atmosfera controllata di carbonio.
 Le ralle sotto i 61HRC non si possono assolutamente accettare.
-===========================================================   *
+===========================================================   \*
 Nei campi che registrano lo stato del prodotto non conforme viene segnalata la condizione di deroga.
 A questo punto termina la fase di immissione della richiesta di intervento e inizia la gestione vera e propria da
 parte dell'ente designato. Quest'ultimo, consultando l'insieme delle richieste a lui rivolte (vedi anche capitolo 4),
 si collega con la deroga specifica tramite il modulo di Gestione delle richieste di intervento ed entra in variazione
 per completare le informazioni che devono essere fornite al responsabile di evasione. Ecco cosa compare all'ente che
 gestisce la richiesta di deroga : 
-Smeup          **  GESTIONE RICHIESTE D'INTERVENTO  ** 3/03/95                    Variazione
+Smeup          \*\*  GESTIONE RICHIESTE D'INTERVENTO  \*\* 3/03/95                    Variazione
 Progressivo Richiesta  :  EDVT950022   Origine Richiesta  :  CQAM40 _
 Ente Richiedente  . .  :  FO / 004655       Fornitore  00039
 Priorità di evasione   :  A                 Priorità massima
@@ -439,7 +439,7 @@ di preventivo relativi al tempo ed al costo per l'evasione (questi dati sono mas
 dell'operatore che ha innoltrato la richiesta).
 Nella successiva schermata (alla quale ha accesso esclusivo l'ente chegestisce la richiesta) viene inserità
 un'ulteriore serie di dati : 
-Smeup          **  GESTIONE RICHIESTE D'INTERVENTO  ** 3/03/95                  Variazione
+Smeup          \*\*  GESTIONE RICHIESTE D'INTERVENTO  \*\* 3/03/95                  Variazione
 Progressivo Richiesta  :  EDVT950022   Origine Richiesta  :  CQAM40
 Obiettivo/Soluz.prop.  :  RIS.PROB
 Richiesta Collegata .  :  .. RDLV950002   Ric.Evas.R.I. :   7/03/95

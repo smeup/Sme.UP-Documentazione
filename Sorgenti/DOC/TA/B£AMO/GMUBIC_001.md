@@ -11,6 +11,6 @@ _B_Mappa ubicazioni
  creazione dei codici.
  Es. se ho codificato  per_2_Colori,_3_Colonne, _4_Righedovrò avere una tabella
      che contiene le File possibili, una i Livelli e una i Colori.
-    :  : DEC T(ST) K(GM*U1) I(_2_Tabella Colori   >>)
-    :  : DEC T(ST) K(GM*U2) I(_3_Tabella Colonne  >>)
-    :  : DEC T(ST) K(GM*U3) I(_4_Tabella Righe    >>)
+    :  : DEC T(ST) K(GM\*U1) I(_2_Tabella Colori   >>)
+    :  : DEC T(ST) K(GM\*U2) I(_3_Tabella Colonne  >>)
+    :  : DEC T(ST) K(GM\*U3) I(_4_Tabella Righe    >>)

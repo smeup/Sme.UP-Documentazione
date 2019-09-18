@@ -75,7 +75,7 @@ Risposta :
 <Riga Fld="Ambiente|Azienda|AZ|01|SMEA s.r.l"/>
 <Riga Fld="Ambiente|Magazzino|TAMAG|1|Sede SMEA"/>
 <Riga Fld="Ambiente|Esercizio|TAPER01||"/>
-<Riga Fld="Ambiente|Data utente|D8*YYMD|20120223|Giovedì 23 Febbraio 2012 / Set 08"/>
+<Riga Fld="Ambiente|Data utente|D8\*YYMD|20120223|Giovedì 23 Febbraio 2012 / Set 08"/>
 <Riga Fld="Ambiente|Lingua|TAV§L||"/>
 <Riga Fld="Sessione|Numero|  |584077|"/>
 <Riga Fld="Sessione|Tipo lavoro|  |B|"/>
@@ -113,7 +113,7 @@ Si noti la parte /table/json che ha sostituito /xml
   }, {
     "v"  :  [ ";;Ambiente", ";;Esercizio", "OG;;TAPER01", "TA;PER01;", "TA;PER01|;" ]
   }, {
-    "v"  :  [ ";;Ambiente", ";;Data utente", "OG;;D8*YYMD", "D8;*YYMD;20120223", "D8;*YYMD|20120223;Giovedì 23 Febbraio 2012 / Set 08" ]
+    "v"  :  [ ";;Ambiente", ";;Data utente", "OG;;D8\*YYMD", "D8;\*YYMD;20120223", "D8;\*YYMD|20120223;Giovedì 23 Febbraio 2012 / Set 08" ]
   }, {
     "v"  :  [ ";;Ambiente", ";;Lingua", "OG;;TAV§L", "TA;V§L;", "TA;V§L|;" ]
   }, {

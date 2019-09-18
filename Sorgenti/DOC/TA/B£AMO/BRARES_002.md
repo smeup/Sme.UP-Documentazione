@@ -2,12 +2,12 @@
 In realtà multiplant, specialmente se attivato l'MRP multiplant (sia in modalità singola sia in modalità completa) in tabella M51
 - [Modalità pianifi.multimagazzino](Sorgenti/OG/V2/M5TPM)
 risulta utlie definire il legame tra ente e articolo, e la priorità di un ente, di norma impostata nell'archivio
- :  : DEC T(OJ) P(*FILE) K(BRARES0F)
+ :  : DEC T(OJ) P(\*FILE) K(BRARES0F)
 a livello di singolo plant, in quanto, specie nel caso di plant molto distanti tra di loro, l'assegnazione dell'ente preferenziale di articoli comuni può diversificarsi (il fornitore di viti in Lombardia è verosimile che non sia lo stesso di quello in Polonia).
 Inoltre può essere utile diversificare l'assegnazione in base al tipo di ordine (fornitura piena o conto lavoro).
 
 A questi scopi è presente un archivio di estensione del precedente
- :  : DEC T(OJ) P(*FILE) K(BRAREP0F)
+ :  : DEC T(OJ) P(\*FILE) K(BRAREP0F)
 che permette di aggiungere l'informazione (a livello di singolo plant, e/o di tipo fornitura)
  :  : DEC T(VO) P(F.BRAREP0F) K(EPPOLF)
 e  di sovrascrivere le seguenti informazioni (sempre a livello di singolo plant, e/o di tipo fornitura)
@@ -23,11 +23,11 @@ L'attivazione di questo archivio (ed il livello di sovrapposizione rispetto a qu
 Se inserito, in C£F, un valore di sviluppo verticale, nel formato di dettaglio dell'archivio ente/articolo viene presentato il campo di input "Sviluppo verticale" che permette il passaggio alla gestione dell'archivio estensioni.
 Viene presentata la lista delle estensioni presenti, che si possono modificare, o aggiungerne di nuove.
 Nel successivo formato di dettaglio si inseriscono i campi : 
-* Plant, se attivo sviluppo per plant o totale (campo obbligatorio)
-* Politica per fornitura, se attivo sviluppo per politica fornitura o totale (campo obbligatorio)
-* Priorità (campo facoltativo)
-* Quota di copertura fabbisogni (campo facoltativo)
-* Ente da escludere (campo facoltativo)
+\* Plant, se attivo sviluppo per plant o totale (campo obbligatorio)
+\* Politica per fornitura, se attivo sviluppo per politica fornitura o totale (campo obbligatorio)
+\* Priorità (campo facoltativo)
+\* Quota di copertura fabbisogni (campo facoltativo)
+\* Ente da escludere (campo facoltativo)
 
 ## Modo di risalita
 La risalita, se è attivato in tabella lo sviluppo, è eseguita nella routine
@@ -35,10 +35,10 @@ La risalita, se è attivato in tabella lo sviluppo, è eseguita nella routine
 nella sola funzione "ENP" (ente preferenziale, in tutti i suoi metodi) a cui si passa l'informazione del plant nel campo £FUNK3 (se assente si assume il plant di competenza dell'articolo) e l'informazione se fornitura o lavorazione in £FUNK4 (se assente si assume l'informazione dalla politica master).
 
 Il reperimento delle informazioni avviene nel seguente modo : 
-* Si leggono tutti i BRARES dell'oggetto di livello n.
-* Se non ne è stato trovato nessuno si risale a livello n+1 (determinando preventivamente il nuovo oggetto di risalita).
-* Se invece è stato trovato almeno un record di BRARES, ed è attiva l'estensione al BRAREP, si legge, per ogni BRARES, il relativo BRAREP (impostando il plant e/o il tipo fornitura ricevuti) dello stesso livello. Se si trova il record, se è impostato il flag di esclusione, viene invalidato il BRARES di partenza, altrimenti gli si sovrappone priorità e % di copertura fabbisogni.
-* Si determina infine la preferenza/ordinamento tra tutti i BRARES del livello n (eventualmente corretti con le informazioni dei BRAREP) e si esce, sia che siano stati trovati record validi, sia che siano state trovate soltanto esclusioni.
+\* Si leggono tutti i BRARES dell'oggetto di livello n.
+\* Se non ne è stato trovato nessuno si risale a livello n+1 (determinando preventivamente il nuovo oggetto di risalita).
+\* Se invece è stato trovato almeno un record di BRARES, ed è attiva l'estensione al BRAREP, si legge, per ogni BRARES, il relativo BRAREP (impostando il plant e/o il tipo fornitura ricevuti) dello stesso livello. Se si trova il record, se è impostato il flag di esclusione, viene invalidato il BRARES di partenza, altrimenti gli si sovrappone priorità e % di copertura fabbisogni.
+\* Si determina infine la preferenza/ordinamento tra tutti i BRARES del livello n (eventualmente corretti con le informazioni dei BRAREP) e si esce, sia che siano stati trovati record validi, sia che siano state trovate soltanto esclusioni.
 
 Si opera quindi sempre sull'insieme dei record al livello più basso in cui si trovano informazioni. L'esclusione non fa risalire di un livello, in quanto si potrebbe trovare lo stesso ente. Ammettere la risalita solo quando l'ente è diverso, vorrebbe dire non avere un chiaro controllo delle informazioni che contribuiscono a produrre il risultato.
 L'esclusione va quindi bilanciata con un'inclusione con la stessa chiave (e naturalmente un ente diverso). Riferirsi all'esempio sottostante (caso del plant 003) per un'esposizione dettagliata.

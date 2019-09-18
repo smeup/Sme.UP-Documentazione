@@ -2,14 +2,14 @@
 
 ## Generalità
 La gestione degli esponenti di modifica permette di associare a degli oggetti applicativi un elemento aggiuntivo che rappresenta l'esponente di modifica, con questa funzione possiamo collegare all'abbinamento oggetto/esponente informazioni varie : 
- * numero disegno
- * numero di modifica
- * date caratteristiche (data creazione, data approvazione, data entrata in vigore, ecc....)
+ \* numero disegno
+ \* numero di modifica
+ \* date caratteristiche (data creazione, data approvazione, data entrata in vigore, ecc....)
 
 Esempi si utilizzi dell'esponente di modifica possono essere : 
- * l'indice di revisione degli articoli
- * le revisioni delle offerte al cliente
- * ecc....
+ \* l'indice di revisione degli articoli
+ \* le revisioni delle offerte al cliente
+ \* ecc....
 
 L'informazione dell'esponente associato agli articoli viene gestita negli ordini di produzione.
 

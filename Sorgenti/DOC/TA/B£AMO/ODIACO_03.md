@@ -3,7 +3,7 @@ Per il funzionamento del modulo bisogna impostare le seguenti tabelle :
 
 _3_Tabella OD1 :  Configurazione Documentale
 Definisce i parametri generali relativi al modulo documentale
- :  : DEC T(TA) P(OD1) K(*)
+ :  : DEC T(TA) P(OD1) K(\*)
 
 _3_Tabella ODB :  Nome Documentale
 Definisce i parametri generali relativi al documentale COMPED
@@ -83,12 +83,12 @@ Con oggetto DO il funizzato può essere chiamato nel programma di stampa fattura
 
 Nella routine TL1
 
-C*----------------------------------------------------------------
-D* Archivia
-C*----------------------------------------------------------------
+C\*----------------------------------------------------------------
+D\* Archivia
+C\*----------------------------------------------------------------
 C     ARCHIVI            BEGSR
- *
-C                              IF        U$ARCH<>*BLANKS
+ \*
+C                              IF        U$ARCH<>\*BLANKS
 C                              EVAL      £FUNPG='V5OD01E'
 C                              EVAL      £FUNFU='ARC'
 C                              EVAL      £FUNME='FA '
@@ -97,7 +97,7 @@ C                              EVAL      £FUNP1=T§TDOC
 C                              EVAL      £FUNK1=T§NDOC
 C                              EXSR      £FUN02
 C                             ENDIF
- *
+ \*
 C                             ENDSR
 
 Con oggetto FT puoi essere messo direttamente in un passo di flusso post contabilizzazione.

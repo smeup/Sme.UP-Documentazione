@@ -33,7 +33,7 @@
 - Risolti alcuni problemi relativi all'esportazione in excel con excel 2000 ed excel 2003.
 - Aggiunta l'emissione di un messaggio di avviso al caricamento di una matrice particolarmente grande.
 - Sviluppato il componente G18 (in fase di test) in grado di visualizzare una G18 in scheda.
-- Risolti alcuni problemi sulla matrice di aggiornamento, in particolare all'emissione del comando *EXIT.
+- Risolti alcuni problemi sulla matrice di aggiornamento, in particolare all'emissione del comando \*EXIT.
 
 ## Versione V2R3M071026-02I Stable 04/03/2008
 
@@ -83,7 +83,7 @@
 ## Versione V2R3M071026-01O Stable 14/12/2007
 
 - Risolto un problema sulla visualizzazione delle matrici. In alcuni casi non venivano caricate a causa dello swap su disco.
-- Aggiunta la possibilità di riferirsi a tre variabili di default negli script di scheda :  *CARDID, *SUBCARDID e *SELFID che restituiscono rispettivamente gli identificativi della Scheda, Sottoscheda e Sottosezione correnti.
+- Aggiunta la possibilità di riferirsi a tre variabili di default negli script di scheda :  \*CARDID, \*SUBCARDID e \*SELFID che restituiscono rispettivamente gli identificativi della Scheda, Sottoscheda e Sottosezione correnti.
 - Modificato il Drag 'n Drop in modo da gestire il Drop (dove abilitato) anche su "spazi vuoti" della sezione e non solo su oggetti. Sono state anche irrobustite determinate procedure in modo da correggere ed evitare errori.
 - Aggiunta al grafico la possibilità di elaborare le serie numeriche runtime e di posizionare i pannelli riassuntivi in fase di setup (Attributo PanelPos). E' stata anche aggiunta la possibilità di mostrare nei mark delle serie i valori in percentuale (PercYValue).
 
@@ -96,7 +96,7 @@
 ## Versione V2R3M071026-01I Stable 06/12/2007
 
 - Risolto un problema con l'esportazione della matrice in excel. In presenza di raggruppamenti e formule personalizzate i totali e subtotali non erano calcolati correttamente.
-- Modificata l'applicazione dell'attributo SelectRow="*LAST" nella matrice in modo da posizionarsi sull'ultima riga anche in caso di riordinamento dei record.
+- Modificata l'applicazione dell'attributo SelectRow="\*LAST" nella matrice in modo da posizionarsi sull'ultima riga anche in caso di riordinamento dei record.
 - Ultimata la gestione degli shortcut di carrello nella matrice ed input panel. E' possibile utilizzare le combinazioni ALT+C, ALT+O, ALT+W per copiare un oggetto nel carrello e la combinazione ALT+V per incollare l'ultimo oggetto dal carrello.
 
 ## Versione V2R3M071026-01G Stable 30/11/2007
@@ -123,7 +123,7 @@
 - Aggiunta la possibilità di specificare se un dinamismo di una sezione è sincrono (usando l'attributo Sync="Yes"). Il dinamismo disabilita il componente che ha fatto scattare l'evento fino al caricamento completo della sezione che riceve il dinamismo.
 - Eseguite numerose correzioni sulla gestione dei fogli (sezioni) e della loro distruzione.
 - Modificati i popup di servizio della matrice di aggiornamento in modo da mostrare tra le voci anche l'inserimento del record e da disabilitare determinate voci in caso di selezione multipla se la matrice di aggiornamento non è in modalità deferred.
-- Ora è possibile richiamare le funzioni (di default o ridefinite nella scheda) associate ai tasti F1-F24 nell'XML, semplicemente specificandole nell'attributo Exec. (Es :  Exec="*F03")
+- Ora è possibile richiamare le funzioni (di default o ridefinite nella scheda) associate ai tasti F1-F24 nell'XML, semplicemente specificandole nell'attributo Exec. (Es :  Exec="\*F03")
 - Aggiunta la possibilità di definire dei "dinamismi" nelle  pagine HTML del browser incluso nella scheda, analogamente ai link UILINK. Riferirsi alla sezione esempi per ulteriori informazioni.
 - Risolti alcuni problemi relativi alla sezione HTM in particolare all'handler della tastiera.
 

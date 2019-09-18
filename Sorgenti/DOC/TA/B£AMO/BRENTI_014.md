@@ -20,15 +20,15 @@ L'interfaccia funzionerà di conseguenza sempre in riferimento alla date di vali
 Per ogni soggetto deve sempre esistere almeno un record che abbia data iniziale 0 e uno (che può anche essere lo stesso) che abbia data finale 31/12/9999
 
 # Attivazione
- * Definizione dei dati che si vogliono storicizzare per ogni tipo contatto.
+ \* Definizione dei dati che si vogliono storicizzare per ogni tipo contatto.
     I dati più idonei ad essere storicizzati sono : 
- ** Dati descrittivi
- ** Dati geografici
- ** Dati fiscali
- ** Categoria contabile
- * Tali dati vanno impostati indicando il campo o l'estensione nello script relativo ad ogni tipo contatto (radice "CN_F" + Tipo contatto). Per la compilazione si faccia riferimento alla documentazione di "Configurazione dello script".
- * Con questa funzionalità verrà automaticamente attivato anche il data entry a formato esteso, per tale motivo è necessario controllare che la sua parametrizzazione sia corretta (Cfr. "Configurazione Data Entry V2").
- * Una volta eseguita la suddetta configurazione, perchè il controllo della data venga attivato dall'interfaccia è necessario attivare il relativo flag nella tabella BR2.
+ \*\* Dati descrittivi
+ \*\* Dati geografici
+ \*\* Dati fiscali
+ \*\* Categoria contabile
+ \* Tali dati vanno impostati indicando il campo o l'estensione nello script relativo ad ogni tipo contatto (radice "CN_F" + Tipo contatto). Per la compilazione si faccia riferimento alla documentazione di "Configurazione dello script".
+ \* Con questa funzionalità verrà automaticamente attivato anche il data entry a formato esteso, per tale motivo è necessario controllare che la sua parametrizzazione sia corretta (Cfr. "Configurazione Data Entry V2").
+ \* Una volta eseguita la suddetta configurazione, perchè il controllo della data venga attivato dall'interfaccia è necessario attivare il relativo flag nella tabella BR2.
 
  :  : DEC T(ST) K(BR2)
 

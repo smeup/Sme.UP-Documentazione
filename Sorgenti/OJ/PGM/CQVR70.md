@@ -12,17 +12,17 @@ Compilando uno o una coppia dei campi di input il programma presenta la lista de
 
 Nella colonna "?" vengono visualizate le varie valutazioni, se si è entrato in modifica si possono anche modificare, viene richiesta anche la data della valotazione, con F21 si può impostare la data odierna.
 
-In funzione del modo in cui si entra nel dettaglio (ovvero del numero di codici definiti nella maschera di ingresso) viene presentata la valutazione corrispondente alla combinazione specificata, e nelle colonne   "C1/C2/**", "C1/**/**", "**/**/**", vengono mostrate, se presenti le valutazioni ai livelli superiori.
+In funzione del modo in cui si entra nel dettaglio (ovvero del numero di codici definiti nella maschera di ingresso) viene presentata la valutazione corrispondente alla combinazione specificata, e nelle colonne   "C1/C2/\*\*", "C1/\*\*/\*\*", "\*\*/\*\*/\*\*", vengono mostrate, se presenti le valutazioni ai livelli superiori.
 
 Vediamo di chiarire il concetto con l'esempio considerato in cui sono state specificate due chiavi : 
- * codice del fornitore;
- * codice dell'articolo;
- * il terzo codice legato alla fase ed esponente di modifica, è stato impostato a (**).
+ \* codice del fornitore;
+ \* codice dell'articolo;
+ \* il terzo codice legato alla fase ed esponente di modifica, è stato impostato a (\*\*).
 
 Il programma attiva una ricerca di "risalita", come si diceva prima, e recupera dall'archivio le valutazioni relative al : 
- * fornitore generico (**/**/**) riportandole nell'ultima colonna
- * le valutazioni relative allo specifico fornitore (C1/**/**) nella penultima colonna
- * le valutazioni della combinazione (C1/C2/**) accanto all'indice con la relativa descrizione della valutazione.
+ \* fornitore generico (\*\*/\*\*/\*\*) riportandole nell'ultima colonna
+ \* le valutazioni relative allo specifico fornitore (C1/\*\*/\*\*) nella penultima colonna
+ \* le valutazioni della combinazione (C1/C2/\*\*) accanto all'indice con la relativa descrizione della valutazione.
 
 Con l'opzione 02 modifica, l'Ente della Qualità responsabile della gestione degli indici può impostare o aggiornare le valutazioni riportate con nuovi valori tabellati. Ad ogni indice statico infatti é legata una tabella (Tabella CRI) di possibili valutazioni da assegnare (il cui riferimento si trova nella tabella del'indice) :  ad ogni singola  valutazione sono associati i valori che vengono poi moltiplicati per il peso dell'indice.
 

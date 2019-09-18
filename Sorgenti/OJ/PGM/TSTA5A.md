@@ -46,7 +46,7 @@ D A5CESP E DS EXTNAME(A5CESP0F)
 £A5AFI :  File messaggio ritorno (10)
 £A5ACM :  Ultimo Comando (2)
 IN35 - On=Errore
-*IN36 - On=Eseguita ricerca
+\*IN36 - On=Eseguita ricerca
 
 £FUND1 :  DS generale di input
 

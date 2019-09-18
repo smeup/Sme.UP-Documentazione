@@ -5,7 +5,7 @@
  :  : FLD T$DESC Descrizione
 È la descrizione della sintesi.
  :  : FLD T$KYC1 __Codice 1/2/3__
-È definito dal tipo oggetto *CNTT, più il relativo parametro, se previsto.
+È definito dal tipo oggetto \*CNTT, più il relativo parametro, se previsto.
  :  : FLD T$KYC2.T$KYC1 __Codice 2__
  :  : FLD T$KYC3.T$KYC1 __Codice 3__
  :  : FLD T$IGSA __Associa i totali/Gruppo/Prefisso__

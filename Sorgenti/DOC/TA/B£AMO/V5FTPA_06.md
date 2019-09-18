@@ -5,8 +5,8 @@ L'inclusione di allegati nel file XML FatturaPA/B2B non è obbligatoriamente pre
 Si è comunque ritenuto di implementare l'inclusione di allegati nell'XML da inviare.
 
 ## Prequisiti
-* Attivare l'exit del pgm di estrazione. In questo senso l'unica cosa di cui si deve occupare l'exit, è la costruzione dell'indirizzo a cui trovare il file. L'inclusione del file nell'xml avverrà poi tramite un'elaborazione standard
-* I file da allegare possono trovarsi o su l'IFS o su un server esterno. Nel caso in cui si trovino su un server esterno, andrà eseguita un'attività di configurazione descritta a seguire.
+\* Attivare l'exit del pgm di estrazione. In questo senso l'unica cosa di cui si deve occupare l'exit, è la costruzione dell'indirizzo a cui trovare il file. L'inclusione del file nell'xml avverrà poi tramite un'elaborazione standard
+\* I file da allegare possono trovarsi o su l'IFS o su un server esterno. Nel caso in cui si trovino su un server esterno, andrà eseguita un'attività di configurazione descritta a seguire.
 
 ## Aggiungere allegati alla fattura tramite exit
 Nel programma standard di estrazione delle fatture per la fatturazione elettronica (V5ED04B) NON è prevista la creazione del tracciato EDFEIT19 con un percorso predefinito per gli allegati da includere.
@@ -27,18 +27,18 @@ Per il consulente applicativo è necessario settare una variabile di SCP_CLO. Un
 La variabile cambia a seconda che il provider sia Linux o Windows.
 
 Per un provider linux (tutti gli smartkit lo sono) è la variabile PROVIDER_MAPPING. La variabile va così settata : 
-* C.VAR Cod="PROVIDER_MAPPING" TVal="J5" PVal="TPRV/A;P" Value="MAP(WIN(xxxxxxx) LIN(/mnt/share_0)|WIN(yyyyyyy) LIN(/mnt/share_1))"
+\* C.VAR Cod="PROVIDER_MAPPING" TVal="J5" PVal="TPRV/A;P" Value="MAP(WIN(xxxxxxx) LIN(/mnt/share_0)|WIN(yyyyyyy) LIN(/mnt/share_1))"
 In WIN dove vedo xxxxxx e yyyyyy vanno i percorsi stile windows cui dovrà poter accedere, mentre
 LIN costituisce solo una rimappatura di questa cartella. Si usa come modello fisso /mnt/share_n, dove n è un numero progressivo che può andare da 0 in avanti. Il "|" è il carattere che permette di suddivinare i percorsi che voglio, vengano presi in considerazione.
 
 Per un provider windows è la variabile PROVIDER_PATHS. Qui le cose sono più semplici in Value, va solo messo il percorso o l'elenco dei percorsi divisi da ";" cui il provider dovrà poter accedere. La variabile va quindi così settata : 
-* C.VAR Cod="PROVIDER_PATHS" Txt="Path accettati dal server remoto" Value="\\SRV005.smeup.com\XRILASCIO;\\SRV005\XRILASCIO"
+\* C.VAR Cod="PROVIDER_PATHS" Txt="Path accettati dal server remoto" Value="\\SRV005.smeup.com\XRILASCIO;\\SRV005\XRILASCIO"
 
 Una volta settati questi percorsi, sarà necessario che chi gestisce il provider, venga contattato e faccia le attività che abilitino il provider a questi percorsi. Per quanto riguarda il caso Linux (smartkit) sarà necessario montare il percorso Windows. Di questo si occupa chi gestisce lo smartkit.
 
 Il Provider accederà ai soli percorsi (e alle sottocartelle) specificate nella variabile.
 
-Nel caso non venga indicata la coda dati del Provider nella tabella V50 avviene una risalita sulla tabella LOB, prima sull'elemento H80 e poi su **.
+Nel caso non venga indicata la coda dati del Provider nella tabella V50 avviene una risalita sulla tabella LOB, prima sull'elemento H80 e poi su \*\*.
 
 **ATTENZIONE : **
 Il legame tra percorso Windows e percorso linux è impostabile anche agendo sul file configuration.properties dello Smart Kit.

@@ -19,8 +19,8 @@ Riportiamo per comodità i prerequisiti :
 -- 5722CE3 Client Encryption 128-bit (optional for Client side encryption)
 -- 5722DG1 IBM HTTP Server for iSeries (optional for additional scenarios)
 -- 5722XE1 iSeries Access for Windows
-- Autorizzazioni *SECOFR per l'utente che configura il servizio (deve avere solo i diritti di *IOSYSCFG e *ALLOBJ)
-- Valore di sistema QRMTSIGN impostato a *VERIFY
+- Autorizzazioni \*SECOFR per l'utente che configura il servizio (deve avere solo i diritti di \*IOSYSCFG e \*ALLOBJ)
+- Valore di sistema QRMTSIGN impostato a \*VERIFY
 - iSeries configurato per utilizzare gli stessi DNS Server utilizzati da AD (sconsigliato utilizzare la tabella host).
 - Corretta impostazione dei valori di sistema QTIME e QTIMZON
 - Configurazione del server NTP (servizio tcp/ip SNTP) in modo che l'adattamento ora sia automatico (meglio configurarlo con il server dns interno AD)
@@ -42,18 +42,18 @@ Al fine di effettuare i legami utenti iSeries-utenti dominio Active Directory, �
 Per conoscere gli utenti di del dominio Active Directory, è necessario collegarsi al Domain Controller, con un desktop remoto di console, avviare la console, poi selezionare Utenti e computer di Active Directory , selezionare il dominio e poi xxxx_Users, dove xxxx è il nome del dominio.
 Questo elenco si può anche esportare in un file di testo.
 
-Per conoscere gli utenti dell'iSeries WRKUSRPRF USRPRF(*ALL), se si ha SmeUp up fun, OJ, *USRPRF
+Per conoscere gli utenti dell'iSeries WRKUSRPRF USRPRF(\*ALL), se si ha SmeUp up fun, OJ, \*USRPRF
 
 
 ## PARTE iSeries : 
 
 Nelle pagine seguenti sono illustrati nell'ordine : 
 
- * I comandi da richiamare per verificare i prerequisiti
- * La configurazione della tabella host
- * La configurazione del realm
- * La procedura per configurare l'EIM
- * I riferimenti ai manuali IBM
+ \* I comandi da richiamare per verificare i prerequisiti
+ \* La configurazione della tabella host
+ \* La configurazione del realm
+ \* La procedura per configurare l'EIM
+ \* I riferimenti ai manuali IBM
 
 ### Controllo prerequisiti
 
@@ -81,7 +81,7 @@ Cfgtcp opzione 12 :
 ## Implementazione
 
 ### operazioni preliminari
-Collegarsi in Operation Navigator con uno user con diritti ***SECOFR** (o con un utente con i diritti sopra elencati)
+Collegarsi in Operation Navigator con uno user con diritti **\*SECOFR** (o con un utente con i diritti sopra elencati)
 
 ![LOBASE_129](http://localhost:3000/immagini/LOSSON_50B/LOBASE_129.png)
 Controllare ed eventualmente completare la tabella host iSeries
@@ -91,26 +91,26 @@ Immettere una password per il Tivoli :
 ![LOBASE_131](http://localhost:3000/immagini/LOSSON_50B/LOBASE_131.png)
 ### Configurazione Dominio accesso REALM e  i5/OS NetServer
 
-**NOTA** :  Nonostante si utilizzi un utente con dirittti *SECOFR, è capitato che l'Operation Navigator non consenta l'accesso al EIM. Provare allora a disintallare e reinstallare l'Operation Navigator.
+**NOTA** :  Nonostante si utilizzi un utente con dirittti \*SECOFR, è capitato che l'Operation Navigator non consenta l'accesso al EIM. Provare allora a disintallare e reinstallare l'Operation Navigator.
 ![LOBASE_132](http://localhost:3000/immagini/LOSSON_50B/LOBASE_132.png)
 ![LOBASE_133](http://localhost:3000/immagini/LOSSON_50B/LOBASE_133.png)![LOBASE_134](http://localhost:3000/immagini/LOSSON_50B/LOBASE_134.png)![LOBASE_135](http://localhost:3000/immagini/LOSSON_50B/LOBASE_135.png)
 ![LOBASE_136](http://localhost:3000/immagini/LOSSON_50B/LOBASE_136.png)![LOBASE_137](http://localhost:3000/immagini/LOSSON_50B/LOBASE_137.png)
 ![LOBASE_156](http://localhost:3000/immagini/LOSSON_50B/LOBASE_156.png)
- * inserire la password che si vuole utilizzare e confermarla
- * cliccare su next
+ \* inserire la password che si vuole utilizzare e confermarla
+ \* cliccare su next
 
 ![LOBASE_157](http://localhost:3000/immagini/LOSSON_50B/LOBASE_157.png)
-* E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
-* Cliccare su next
+\* E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
+\* Cliccare su next
 
 ![LOBASE_158](http://localhost:3000/immagini/LOSSON_50B/LOBASE_158.png)
- * Verificare che tutte le informazioni siano coerenti con quanto inserito
- * Cliccare su finish
+ \* Verificare che tutte le informazioni siano coerenti con quanto inserito
+ \* Cliccare su finish
 
 Collegarsi  al Domani controller Microsoft
- * Copiare il file .bat creato sopra sul server microsoft
- * Lanciare il file appena  copiato
- * Verranno creati tutti gli utenti necessari per far si da fare accesso all'IFS utilizzando il SSO
+ \* Copiare il file .bat creato sopra sul server microsoft
+ \* Lanciare il file appena  copiato
+ \* Verranno creati tutti gli utenti necessari per far si da fare accesso all'IFS utilizzando il SSO
 
 Come da figura qui sotto riportata
 
@@ -119,28 +119,28 @@ Passare a iNavigator
 
 ![LOBASE_160](http://localhost:3000/immagini/LOSSON_50B/LOBASE_160.png)
 Sempre da iNavigator : 
- * Selezionare Network Servers  Tcp/ip
- * Cliccare con il tasto DX su i5/OS NetServer
- * Selezionare proprietà
+ \* Selezionare Network Servers  Tcp/ip
+ \* Cliccare con il tasto DX su i5/OS NetServer
+ \* Selezionare proprietà
 
 ![LOBASE_161](http://localhost:3000/immagini/LOSSON_50B/LOBASE_161.png)
- * Selezionare la scheda security
- * Verificare che l'authentication method sia impostato a Passwords/Network authentication
+ \* Selezionare la scheda security
+ \* Verificare che l'authentication method sia impostato a Passwords/Network authentication
 
 A questo punto IFS è funzionante anche dopo il cambio di password da windows.
 
 ### Creazione utenti del DC
  Per automatizzare la creazione degli utenti di dominio necessari al dialogo iSeries - DC, utilizzare la seguante procedura : 
-![LOBASE_138](http://localhost:3000/immagini/LOSSON_50B/LOBASE_138.png) * E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
- * Cliccare su next
+![LOBASE_138](http://localhost:3000/immagini/LOSSON_50B/LOBASE_138.png) \* E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
+ \* Cliccare su next
 
-![LOBASE_139](http://localhost:3000/immagini/LOSSON_50B/LOBASE_139.png) * Verificare che tutte le informazioni siano coerenti con quanto inserito
- * Cliccare su finish
+![LOBASE_139](http://localhost:3000/immagini/LOSSON_50B/LOBASE_139.png) \* Verificare che tutte le informazioni siano coerenti con quanto inserito
+ \* Cliccare su finish
 
 Collegarsi  al Domani controller Microsoft
- * Copiare il file .bat creato sopra sul server microsoft
- * Lanciare il file appena  copiato
- * Verranno creati tutti gli utenti necessari per far si da fare accesso all'IFS utilizzando il SSO
+ \* Copiare il file .bat creato sopra sul server microsoft
+ \* Lanciare il file appena  copiato
+ \* Verranno creati tutti gli utenti necessari per far si da fare accesso all'IFS utilizzando il SSO
 
 Come da figura qui sotto riportata
 

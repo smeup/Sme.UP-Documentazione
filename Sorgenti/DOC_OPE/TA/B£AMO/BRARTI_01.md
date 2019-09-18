@@ -30,9 +30,9 @@ Ciascun filtro è comunque dotato di una documentazione che ne spiega il signifi
 A questa si può accedere premendo il tasto funzionale F1 dopo aver posizionato il cursore del mouse sul campo di cui si vuole leggere la documentazione.
 
 Data l'importanza dei surf per codice e descrizione, riportiamo di seguito le istruzioni per il corretto utilizzo di alcuni campi filtro specifici di queste due navigazioni : 
-** Posizionamento codice :  digitando in questo campo un codice articolo, o solo una sua parte, sarà possibile visualizzare tutti gli articoli a partire da o fino a quel valore inserito.
+\*\* Posizionamento codice :  digitando in questo campo un codice articolo, o solo una sua parte, sarà possibile visualizzare tutti gli articoli a partire da o fino a quel valore inserito.
    Il risultato è quindi sensibile al tipo di ordinamento che si è deciso di imposatre nel campo A/D (ascendente o discendente)
-** Cod/descrizione contiene :  usato in abbinamento agli altri campi, questo filtro permette di estrarre gli articoli che hanno o nel codice o nella descrizione quanto viene inserito dentro qui.
+\*\* Cod/descrizione contiene :  usato in abbinamento agli altri campi, questo filtro permette di estrarre gli articoli che hanno o nel codice o nella descrizione quanto viene inserito dentro qui.
 
 # Il popup delle opzioni :  il menù di un articolo
 

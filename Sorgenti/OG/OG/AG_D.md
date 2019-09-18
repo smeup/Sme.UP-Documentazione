@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'AG'                                          £FUNT1
 ## Chiave primaria
 Codice Agtente                                £FUNK1
@@ -6,7 +6,7 @@ Codice Agtente                                £FUNK1
 L'agente è contenuto nel settore di tabella AGE.
 Può quindi essere oggettizzato come : 
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'TA'                               £FUNT1
 ## Chiave primaria
 'AGE'    Settore di tabella        £FUNP1

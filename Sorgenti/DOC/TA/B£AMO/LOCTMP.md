@@ -42,4 +42,4 @@ A ciascun dinamismo vengono associate le variabili dell'elemento cliccato, piu' 
 ## Schede di esempio
 Scheda d'esempio, esclusiva per WebUP
 
- :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;*SCO;) 1(V2;JAGRA;TMP) 2(MB;SCP_SCH;WETEST_TMP)) L(1)
+ :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;\*SCO;) 1(V2;JAGRA;TMP) 2(MB;SCP_SCH;WETEST_TMP)) L(1)

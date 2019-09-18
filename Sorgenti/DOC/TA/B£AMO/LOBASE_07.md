@@ -30,11 +30,11 @@ C.PAT Cod="ICO" Txt="Icone" Type="TREE" Value="PERCORSO_IMG"
 Il percorso può essere relativo o assoluto. Nel primo caso va concepito a partire dalla directory di installazione di LoocUp.
 
 ## Caratteri non consentiti nei path
-Qualora gli identificativi dell'oggetto di cui si sta ricercando l'icona contengano caratteri non consentiti in un percorso di file system, tali caratteri andranno sostituiti con il carattere meno (-). Quindi l'icona dell'oggetto di tipo ** sarà contenuto nella cartella --. Gli oggetti di tipo OJ-*USRPRF avranno le loro icone nella cartella -USRPRF contenuta nella cartella OJ.
+Qualora gli identificativi dell'oggetto di cui si sta ricercando l'icona contengano caratteri non consentiti in un percorso di file system, tali caratteri andranno sostituiti con il carattere meno (-). Quindi l'icona dell'oggetto di tipo \*\* sarà contenuto nella cartella --. Gli oggetti di tipo OJ-\*USRPRF avranno le loro icone nella cartella -USRPRF contenuta nella cartella OJ.
 
 
 ## Casi particolari
-Se viene ricercata l'icona dell'oggetto TA, *CNTT; XX, ci si riconduce alla ricerca dell'icona dell'oggetto (XX; ; )
+Se viene ricercata l'icona dell'oggetto TA, \*CNTT; XX, ci si riconduce alla ricerca dell'icona dell'oggetto (XX; ; )
 Se viene ricercata l'icona dell'oggetto (OG, OG, XX)  o dell'oggetto (OG,   ; XX) ci si riconduce alla ricerca dell'icona dell'oggetto (XX; ; )
 Se viene ricercata l'icona dell'oggetto (OG, XX, YY) ci si riconduce alla ricerca dell'icona dell'oggetto (XX, YY, )
 
@@ -64,7 +64,7 @@ Nell'esempio in figura possiamo notare dove sono posizionate le icone nel filesy
 Di seguito vediamo gli schemi per identificare l'icona di un oggetto
 
 ![LOBASE_120](http://localhost:3000/immagini/LOBASE_07/LOBASE_120.png)
-![LOBASE_121](http://localhost:3000/immagini/LOBASE_07/LOBASE_121.png)OG;XX;YYY - TA;*CNTT;XX)
+![LOBASE_121](http://localhost:3000/immagini/LOBASE_07/LOBASE_121.png)OG;XX;YYY - TA;\*CNTT;XX)
 
 ![LOBASE_121](http://localhost:3000/immagini/LOBASE_07/LOBASE_121.png)
  :  : PAR F(03)
@@ -101,7 +101,7 @@ In alternativa è possibile assegnare altre icone al componente assegnando all'a
 
 - icone dirette (es.  :  con i="M1")
 - riferite ad oggetti (es.  :  con i="CN;CLI;001")
-- specificando il pathfile (es.  :  con Tipo="J1" Parametro="PATHFILE" e i="[*ICON_PATH]\Verde.gif")
+- specificando il pathfile (es.  :  con Tipo="J1" Parametro="PATHFILE" e i="[\*ICON_PATH]\Verde.gif")
 
 
  :  : I.XML
@@ -110,7 +110,7 @@ In alternativa è possibile assegnare altre icone al componente assegnando all'a
 ...
 <Oggetto Tipo="" Parametro="" Codice="" Testo="" i="CN;CLI;001"  />
 ...
-<Oggetto Tipo="J1" Parametro="PATHFILE" Codice="" Testo="" i="[*ICON_PATH]\Verde.gif"  />
+<Oggetto Tipo="J1" Parametro="PATHFILE" Codice="" Testo="" i="[\*ICON_PATH]\Verde.gif"  />
 ...
  :  : I.XML.END
 
@@ -136,7 +136,7 @@ In alternativa è possibile assegnare altre icone al componente assegnando all'a
 
 - icone dirette (es.  :  con i="M1")
 - riferite ad oggetti (es.  :  con i="CN;CLI;001")
-- specificando il pathfile (es.  :  con Tipo="J1" Parametro="PATHFILE" e i="[*ICON_PATH]\Verde.gif")
+- specificando il pathfile (es.  :  con Tipo="J1" Parametro="PATHFILE" e i="[\*ICON_PATH]\Verde.gif")
 
 
  :  : I.XML
@@ -144,7 +144,7 @@ In alternativa è possibile assegnare altre icone al componente assegnando all'a
 ...
 <Oggetto Tipo="" Parametro="" Codice="" Testo="Cliente" i="M1" />
 <Oggetto Tipo="" Parametro="" Codice="" Testo="Cliente" i="CN;CLI;001" />
-<Oggetto Tipo="J1" Parametro="PATHFILE" Codice="" Testo="Cliente" i="[*ICON_PATH]\Verde.gif" />
+<Oggetto Tipo="J1" Parametro="PATHFILE" Codice="" Testo="Cliente" i="[\*ICON_PATH]\Verde.gif" />
 ...
 </Oggetto>
  :  : I.XML.END

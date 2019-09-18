@@ -1,5 +1,5 @@
-* Costi Aliquote
+\* Costi Aliquote
 
-* Costi Lav.Est.Pieno
+\* Costi Lav.Est.Pieno
 
-* Costi Lav.Est.Fase
+\* Costi Lav.Est.Fase

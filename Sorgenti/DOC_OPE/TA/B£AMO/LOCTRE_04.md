@@ -4,9 +4,9 @@ Cliccando con il tasto destro sulla linguetta della scheda contenente un albero 
 ![LOCTRE_028](http://localhost:3000/immagini/MBDOC_OPE-LOCTRE_04/LOCTRE_028.png)
 All'interno di questo menù le voci specifiche dell'albero sono : 
 
-  * Visualizza come
- ** Albero :  apre la visualizzazione ad 'Albero' del componente
- ** Stella :  apre la visualizzazione a 'Stella' del componente
+  \* Visualizza come
+ \*\* Albero :  apre la visualizzazione ad 'Albero' del componente
+ \*\* Stella :  apre la visualizzazione a 'Stella' del componente
 
 Per gli altri comandi del PopUp di scheda si veda : 
 - [Operatività PopUp](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXD_04)

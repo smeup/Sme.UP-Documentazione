@@ -1,7 +1,7 @@
 ## Contenuto
 Solleciti a fronte di una rata.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'C3'                               £FUNT1
 
 ## Chiave primaria

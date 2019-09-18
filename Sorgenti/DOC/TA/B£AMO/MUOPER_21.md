@@ -1,5 +1,5 @@
 # Descrizione
 
-## Oggetto OJ*CMD
+## Oggetto OJ\*CMD
 
 ## Oggetto J1CMD

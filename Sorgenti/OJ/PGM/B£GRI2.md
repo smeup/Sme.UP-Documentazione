@@ -1,7 +1,7 @@
 # Gestione Risalite
 Questa funzione permette di accedere alla gestione di archivi dove le informazioni possono essere poste a lievllo di dettaglio oppure ad un livello più generico, il programma che recupera le informazioni partirà dal livello di massimo dettaglio stabilito e "risalirà" via via ai livelli di dettaglio minore fino alla intercettazione dell'informazione cercata.
 
-Nella definizione dei livelli di risalita si può definire il livello di massima generalizzaizone dove i due codici sono definiti generici "**" in questo modo si ha la sicurezza che in ogni caso il programma recupera l'informazione anche quando non è stabilita ad uno qualsiasi dei livelli di dettaglio.
+Nella definizione dei livelli di risalita si può definire il livello di massima generalizzaizone dove i due codici sono definiti generici "\*\*" in questo modo si ha la sicurezza che in ogni caso il programma recupera l'informazione anche quando non è stabilita ad uno qualsiasi dei livelli di dettaglio.
 
 # Formato guida
 

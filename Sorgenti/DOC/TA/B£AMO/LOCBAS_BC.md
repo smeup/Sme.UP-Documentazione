@@ -196,18 +196,18 @@ Per configurare il sistema di BC è necessario specificare nel file di setup SCP
 Le variabili da settare sono le seguenti : 
 
 
-**..****C.VAR**  _Cod**="*BCServerIP" Txt="IP server primario" Value="172.16.2.213" TVal="" PVal=""
-**..****C.VAR**  _Cod**="*BCServerPort" Txt="Porta server primario" Value="9990" TVal="" PVal=""
-**..****C.VAR**  _Cod**="*BCClientCode" Txt="Nome client" Value="TSTCLI" TVal="" PVal=""
+**..****C.VAR**  _Cod**="\*BCServerIP" Txt="IP server primario" Value="172.16.2.213" TVal="" PVal=""
+**..****C.VAR**  _Cod**="\*BCServerPort" Txt="Porta server primario" Value="9990" TVal="" PVal=""
+**..****C.VAR**  _Cod**="\*BCClientCode" Txt="Nome client" Value="TSTCLI" TVal="" PVal=""
 
-**..****C.VAR**   Cod="*BCServerPath" Txt="Path server primario" Value="X : \programmi\Loocup_test" TVal="" PVal=""
-**..****C.VAR**   Cod="*BCServerName" Txt="Nome server primario" Value="SRVTST" TVal="" PVal=""
-**..****C.VAR**   Cod="*BCAS400IP" Txt="IP AS/400 Primario" Value="172.16.2.11" TVal="" PVal=""
-**..****C.VAR** Cod="*BCBackupServerIP" Txt="IP server backup" Value="10.67.7.63" TVal="" PVal=""
-**..****C.VAR**Cod="*BCBackupServerPort" Txt="Porta server backup" Value="9999" TVal="" PVal=""
-**..****C.VAR**Cod="*BCBackupServerPath" Txt="Path server backup" Value="\\10.67.7.63\LoocupServer" TVal="" PVal=""
-**..****C.VAR** Cod="*BCBackupServerName" Txt="Nome server backup" Value="SERVER" TVal="" PVal=""
-**..****C.VAR** Cod="*BCBackupAS400IP" Txt="IP AS/400 Backup" Value="10.67.7.55" TVal="" PVal=""
+**..****C.VAR**   Cod="\*BCServerPath" Txt="Path server primario" Value="X : \programmi\Loocup_test" TVal="" PVal=""
+**..****C.VAR**   Cod="\*BCServerName" Txt="Nome server primario" Value="SRVTST" TVal="" PVal=""
+**..****C.VAR**   Cod="\*BCAS400IP" Txt="IP AS/400 Primario" Value="172.16.2.11" TVal="" PVal=""
+**..****C.VAR** Cod="\*BCBackupServerIP" Txt="IP server backup" Value="10.67.7.63" TVal="" PVal=""
+**..****C.VAR**Cod="\*BCBackupServerPort" Txt="Porta server backup" Value="9999" TVal="" PVal=""
+**..****C.VAR**Cod="\*BCBackupServerPath" Txt="Path server backup" Value="\\10.67.7.63\LoocupServer" TVal="" PVal=""
+**..****C.VAR** Cod="\*BCBackupServerName" Txt="Nome server backup" Value="SERVER" TVal="" PVal=""
+**..****C.VAR** Cod="\*BCBackupAS400IP" Txt="IP AS/400 Backup" Value="10.67.7.55" TVal="" PVal=""
 
 
 Il primo blocco di variabili sono le stesse di quelle utilizzate per attivare un Looc.Up come client.

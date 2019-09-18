@@ -54,10 +54,10 @@ Digitando il tasto F13 o selezionando il relativo bottone è possibile accedere 
 
 ### Tasti funzionali
 
- * F06 :  Conferma. Permette di confermare ed eseguire la stampa
- * F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della stampa; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch e congelare la stampa.
- * F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
- * F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
+ \* F06 :  Conferma. Permette di confermare ed eseguire la stampa
+ \* F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della stampa; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch e congelare la stampa.
+ \* F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
+ \* F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 ### Memorizzazioni
 
@@ -115,13 +115,13 @@ Per ognuno dei conti visualizzati sono disponibili le seguenti opzioni :
 
 ### Tasti funzionali
 
- * F01 :  Permette di ricercare una stringa all'interno della videata
- * F05 :  Esegue l'aggiornamento della videata
- * F06 :  Permette di confermare l'assegnazione/rimozione di conti a linee.
- * F09 :  Permette di posizionarsi sulla prima pagina del formato lista
- * F10 :  Permette di posizionarsi sull'ultima pagina del formato lista
- * F13 :  Parzializzazioni. Permette di definire dei filtri per la visualizzazione dei dati
- * F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
+ \* F01 :  Permette di ricercare una stringa all'interno della videata
+ \* F05 :  Esegue l'aggiornamento della videata
+ \* F06 :  Permette di confermare l'assegnazione/rimozione di conti a linee.
+ \* F09 :  Permette di posizionarsi sulla prima pagina del formato lista
+ \* F10 :  Permette di posizionarsi sull'ultima pagina del formato lista
+ \* F13 :  Parzializzazioni. Permette di definire dei filtri per la visualizzazione dei dati
+ \* F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 ## Come assegnare uno o più conti a una riclassifica
 

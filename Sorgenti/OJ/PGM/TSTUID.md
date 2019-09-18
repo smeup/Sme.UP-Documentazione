@@ -9,7 +9,7 @@ C/COPY QILEGEN,£UIDDS
 
 ### Funzione
 
-- ' '(*blanks)  :  Lancio di una funzione LOOCUP tramite una stringa     in cui è definita la chiamata
+- ' '(\*blanks)  :  Lancio di una funzione LOOCUP tramite una stringa     in cui è definita la chiamata
 - FUN   :  Lancio di funzione LOOCUP tramite stringa UIBDS
 - PGM   :  Lancio di funzione LOOCUP tramite programma
 
@@ -25,7 +25,7 @@ La funzione viene eseguita ed il controllo torna automaticamente  all'emulazione
 
 ## Dettaglio funzioni
 
-### 1) ' '(*blanks)
+### 1) ' '(\*blanks)
 Questa funzione si occupa di lanciare una funzione LOOCUP passando in input una stringa in cui viene costruita la chiamata. La stringa viene passata alla funzione tramite il comando **COMANDO**
 
 ### 2) FUN

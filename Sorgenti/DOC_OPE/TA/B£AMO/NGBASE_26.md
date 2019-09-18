@@ -13,32 +13,32 @@ All'attivazione della funzione viene presentato l'elenco delle Analisi Variazion
 
 Sono a disposizione i seguenti tasti funzionali : 
 
- * Invio Per Stampare l'Elenco delle Variazioni e/o le Etichette
- * F4 Cancella Elenco Variazioni
- * F5 Visualizza Variazioni Prezzo
- * F6 Crea Elenco Variazioni
- * F7 Crea Previsione Variazioni
- * F8 Crea Tabella Stampa Frontalini
- * F9 Schedulazione. Per la preparazione automatica degli Elenchi
+ \* Invio Per Stampare l'Elenco delle Variazioni e/o le Etichette
+ \* F4 Cancella Elenco Variazioni
+ \* F5 Visualizza Variazioni Prezzo
+ \* F6 Crea Elenco Variazioni
+ \* F7 Crea Previsione Variazioni
+ \* F8 Crea Tabella Stampa Frontalini
+ \* F9 Schedulazione. Per la preparazione automatica degli Elenchi
 
 ## Creazione Elenco Variazioni
 
 La funzione permette di generare l'elenco delle Variazioni Prezzi di Vendita intervenute sugli Articoli rispetto all'ultima data di Creazione dell'Elenco (dello stesso tipo, quindi con gli stessi Parametri di selezione).
 Premere F6 Crea Elenco Variazioni ed indicare : 
 
- * Tipo Creazione. E' possibili scegliere tra
- ** Prezzi di Vendita Negozio. Per ottenere l'elenco dei nuovi Prezzi di Vendita indipendentemente dal Listino su cui sono intervenute le variazioni. bbligatorio specificare il Codice del Punto Vendita di riferimento
- ** Listino. Nel caso in cui si intenda ottenere l'Elenco delle Variazioni Prezzo di un Listino specifico.
- * Codice Listino. Specificare un Codice Listino se il Tipo Creazione sarà di Tipo Listino
- * Negozio.
+ \* Tipo Creazione. E' possibili scegliere tra
+ \*\* Prezzi di Vendita Negozio. Per ottenere l'elenco dei nuovi Prezzi di Vendita indipendentemente dal Listino su cui sono intervenute le variazioni. bbligatorio specificare il Codice del Punto Vendita di riferimento
+ \*\* Listino. Nel caso in cui si intenda ottenere l'Elenco delle Variazioni Prezzo di un Listino specifico.
+ \* Codice Listino. Specificare un Codice Listino se il Tipo Creazione sarà di Tipo Listino
+ \* Negozio.
 
 Nel caso di selezione di **Prezzi di Vendita Negozio** il programma analizzerà i Prezzi di Vendita dei Listini definiti sull'Anagrafica del Magazzino nello stesso ordine in cui vengono analizzati per la
 determinazione dei Prezzi di Vendita in Cassa e cioè : 
 
- * Listino Saldi
- * Listino Speciale 2
- * Listino Speciale 1
- * Listino di Vendita
+ \* Listino Saldi
+ \* Listino Speciale 2
+ \* Listino Speciale 1
+ \* Listino di Vendita
 
 Verrà utilizzato il primo prezzo trovato.
 
@@ -65,27 +65,27 @@ Questa funzione permette la Stampa dell'Elenco delle Variazioni Prezzo e/o la St
 
 Vengono richieste informazioni generiche utilizzate sia per la Stampa dell'Elenco, che per la Stampa delle Etichette
 
- * Stampa Nuovi Prezzi SI/NO. Indicando NO a questa richiesta verranno esclusi gli Articoli per i quali è stato attribuito per la prima volta un Prezzo di Vendita.
- * Stampa Solo Articoli in Giacenza SI/NO
- * Codice Negozio per Verifica Giacenza. Questo dato è obbligatorio nel caso si sia impostato SI alla richiesta Stampa Solo Articoli in Giacenza o alla richiesta Stampa Etichette
+ \* Stampa Nuovi Prezzi SI/NO. Indicando NO a questa richiesta verranno esclusi gli Articoli per i quali è stato attribuito per la prima volta un Prezzo di Vendita.
+ \* Stampa Solo Articoli in Giacenza SI/NO
+ \* Codice Negozio per Verifica Giacenza. Questo dato è obbligatorio nel caso si sia impostato SI alla richiesta Stampa Solo Articoli in Giacenza o alla richiesta Stampa Etichette
 
 **Informazioni per Stampa Elenco**
 
- * Stampa Elenco Differenze SI/NO
- * Template. E' possibile indicare eventualmente il nome di un Template precedentemente salvato con la funzione generica delle stampe di Negoziando
- * Altre selezioni (oltre Template) SI/NO
+ \* Stampa Elenco Differenze SI/NO
+ \* Template. E' possibile indicare eventualmente il nome di un Template precedentemente salvato con la funzione generica delle stampe di Negoziando
+ \* Altre selezioni (oltre Template) SI/NO
 
 **Informazioni per Stampa Etichette Articoli in Giacenza**
 
 Vengono proposte le normali informazioni richieste in tutti i punti di Negoziando in cui è possibile stampare le etichette articolo e cioè : 
 
- * Stampa Etichette SI/NO
- * Stampante da Utilizzare
- * Stampa Prezzi di Vendita SI/NO
- * Codice Listino
- * Codice Tipo Etichetta
- * Modalità di Utilizzo dell'Etichetta specificata
- * Destinatario Etichetta. Richiesta visibile solo nel caso in cui sia attiva questa gestione
+ \* Stampa Etichette SI/NO
+ \* Stampante da Utilizzare
+ \* Stampa Prezzi di Vendita SI/NO
+ \* Codice Listino
+ \* Codice Tipo Etichetta
+ \* Modalità di Utilizzo dell'Etichetta specificata
+ \* Destinatario Etichetta. Richiesta visibile solo nel caso in cui sia attiva questa gestione
 E' da tenere presente che le etichette verranno stampate nella quantità relativa alla Giacenza per Articolo/Colore/Taglia.
 
 ## Schedulazione
@@ -98,17 +98,17 @@ Prima di effettuare la schedulazione è necessario aver memorizzato almeno le Im
 (Le Impostazioni andranno memorizzate anche per la Stampa, se si intende schedularla).
 **Per memorizzare le Impostazioni di Creazione Elenco : **
 
- * Premere F6 Crea Elenco Variazioni
- * Definire i Valori di Selezione
- * Premere Tasto Destro sulla Barra del Titolo della Finestra di Creazione Elenco Variazioni Prezzo
- * Selezionare Gestione Impostazioni e poi Salva con Nome
+ \* Premere F6 Crea Elenco Variazioni
+ \* Definire i Valori di Selezione
+ \* Premere Tasto Destro sulla Barra del Titolo della Finestra di Creazione Elenco Variazioni Prezzo
+ \* Selezionare Gestione Impostazioni e poi Salva con Nome
 
 **Per memorizzare le Impostazioni per la Stampa dell'Elenco : **
 
- * Premere Invio Stampa Variazioni Prezzo
- * Definire i Valori di Selezione
- * Premere Tasto Destro sulla Barra del Titolo della finestra
- * Selezionare Gestione Impostazioni e Salva con Nome
+ \* Premere Invio Stampa Variazioni Prezzo
+ \* Definire i Valori di Selezione
+ \* Premere Tasto Destro sulla Barra del Titolo della finestra
+ \* Selezionare Gestione Impostazioni e Salva con Nome
 Nel caso di Schedulazione della Stampa che prevede la Stampa dell'Elenco occorrerà definire obbligatoriamente il nome del Template di stampa.
 
 Dopo aver premuto il tasto di Schedulazione, compilare la richiesta iniziale con i Codici di Impostazione richiamabili col Tasto F1 posizionandosi sul campo giallo. La funzione prosegue con le normali

@@ -82,8 +82,8 @@ Queste variabili sono definite tramite la tabella B§V e non posseggono un ogget
  T(Sono assunte direttamente dal programma e assumono i seguenti nomi)
 - UT Utente (UP)
 - AZ Azienda (CNAZI)
-- DT Data sistema (D8*YYMD)
-- DF Data sistema formattata (D8*DMYY)
+- DT Data sistema (D8\*YYMD)
+- DF Data sistema formattata (D8\*DMYY)
 - HR Ora sistema (I2D)
 
 
@@ -289,15 +289,15 @@ Utilizzando operatore "Doppiouguale" è possibile assegnare un valore ad una var
 ### Struttura libera
 N d= O;V : S|A
 
- * _2_Nome della variabile N Obbligatorio
- * _2_Operatore Doppio uguale d= Facoltativo
- * _2_Oggetto in forma Tipo e parametro O Obbligatorio se definito Oggetto
- * _2_Separatore ; Obbligatorio
- * _2_Valore V Obbligatorio
- * _2_Separatore  :  Facoltativo
- * _2_Significato S Facoltativo
- * _2_Separatore (Pipe) "|" Facoltativo
- * _2_Alias A Facoltativo
+ \* _2_Nome della variabile N Obbligatorio
+ \* _2_Operatore Doppio uguale d= Facoltativo
+ \* _2_Oggetto in forma Tipo e parametro O Obbligatorio se definito Oggetto
+ \* _2_Separatore ; Obbligatorio
+ \* _2_Valore V Obbligatorio
+ \* _2_Separatore  :  Facoltativo
+ \* _2_Significato S Facoltativo
+ \* _2_Separatore (Pipe) "|" Facoltativo
+ \* _2_Alias A Facoltativo
 
 ### Struttura tramite tag "VAR"
  T(Attributi)

@@ -105,7 +105,7 @@ Se impostato, mostra la riga della fonte anche se con valore a zero, unicamente 
 Sono significativi per le fonti interne per le quali è impostato lo stato. Se inseriti (se non impostato lo stato massimo viene assunto '99'), sono un'ulteriore parzializzazione per fonti di questo tipo.
  :  : FLD T$C6FP.T$C6FO Stato massimo
  :  : FLD T$C6FR **Riclassifica**
-È un elemento della tabella 'C6*RF' :  viene usato nell'analisi disponibilità riepilogata. Per maggiori dettagli, riferirsi alla documentazione del campo corrispondente nella tabella C6E (fonti esistenti).
+È un elemento della tabella 'C6\*RF' :  viene usato nell'analisi disponibilità riepilogata. Per maggiori dettagli, riferirsi alla documentazione del campo corrispondente nella tabella C6E (fonti esistenti).
  :  : FLD T$C6FS **Ordinamento riclassifica**
 È usato nelle analisi riepilogate. Per maggiori dettagli, riferirsi alla documentazione del campo corrispondente nella tabella C6E (fonti esistenti).
  :  : FLD T$C6F1 **Data limite**

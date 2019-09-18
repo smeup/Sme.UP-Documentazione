@@ -5,7 +5,7 @@ Descrivere il significato dei campi legati alla griglia.
 Collegare questi campi alle tabelle o ad archivi dati.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$KYC1 **Codice 1**
-È un elemento della tabella *CNTT e specifica il tipo della chiave.
+È un elemento della tabella \*CNTT e specifica il tipo della chiave.
  :  : FLD T$KYC2.T$KYC1 **Codice 2**
  :  : FLD T$KYC3.T$KYC1 **Codice 3**
  :  : FLD T$PAR1 __Parametro codice 1__

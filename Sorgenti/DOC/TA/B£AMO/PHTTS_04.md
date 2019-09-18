@@ -12,18 +12,18 @@ I video condividono una DS di dati. Nella DS inserisco tutti i dati/oggetti che 
 Un video viene visto come una serie di righe. Nei programmi le righe sono identificate tramite la schiera SK_OUT. Gli elementi della schiera sono le righe (fino a 4 o 16 righe).
 
 ### Ciclo di vita del video
-* F_INZ  :  funzione richiamata solo se il video è il primo di una sequenza. Utile per inizializzare la schiera dei dati
-* F_PRE  :  funzione utile per precaricare i dati nel video prima dell'emissione.
-* F_POS  :  funzione chiamata dopo l'emissione del video per controllare o per eseguire funz. esterne
+\* F_INZ  :  funzione richiamata solo se il video è il primo di una sequenza. Utile per inizializzare la schiera dei dati
+\* F_PRE  :  funzione utile per precaricare i dati nel video prima dell'emissione.
+\* F_POS  :  funzione chiamata dopo l'emissione del video per controllare o per eseguire funz. esterne
 
 Il metodo F_INZ pur essendo presente in tutti i video viene richiamata solo nel video iniziale.
 Il metodo F_PRE carica i dati da inserire nei campi video. Attenzione non può essere utilizzata per richiamare funzioni su slave differenti perchè non comunica con il PHMAN0.
 
 F_POS  è composta da vari richiami tra cui : 
-* CTR_VID (faccio i controlli) in cui ho
-** P$IN35 indica che è in erore
-** P$INOUT indica di emettere il video
-* ESE_FUN esecuzione di scritture su file specifici(ad es. dichiarazioni del P5ATTI)
+\* CTR_VID (faccio i controlli) in cui ho
+\*\* P$IN35 indica che è in erore
+\*\* P$INOUT indica di emettere il video
+\* ESE_FUN esecuzione di scritture su file specifici(ad es. dichiarazioni del P5ATTI)
 
 ## Particolarità nel flusso
 Attenzione se è necessario chiamare un altro slave per richiedere informazioni o per lanciare funzioni specifiche è necessario usare la schiera SK_UTE.

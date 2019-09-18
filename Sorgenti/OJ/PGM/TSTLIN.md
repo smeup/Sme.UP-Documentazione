@@ -35,14 +35,14 @@ _1_NOTA 2 :  la £LIN riceve in ingresso una schiera di max 300 elementi lunghi 
 (da inserire in £inizi)
 
 C £INIZI BEGSR
-* Inizializzazione schiere interne in lingua
-C ££B£2I IFNE *BLANKS
+\* Inizializzazione schiere interne in lingua
+C ££B£2I IFNE \*BLANKS
 C EXSR £INIZL
 C ENDIF
 C ENDSR
- *---------------------------------------------------------------
- * inizializzazione schiere interne in lingua
- *---------------------------------------------------------------
+ \*---------------------------------------------------------------
+ \* inizializzazione schiere interne in lingua
+ \*---------------------------------------------------------------
 
 C £INIZL BEGSR
 C MOVEL<nome sch>£LINNC P

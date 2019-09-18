@@ -1,8 +1,8 @@
 # Scheda della scheda
 ## Suggerimenti di LS
- * Nella sottoscheda "altre funzioni" farei una sezione che presenta i soli TAB (in forma di albero) presenti. FATTO
+ \* Nella sottoscheda "altre funzioni" farei una sezione che presenta i soli TAB (in forma di albero) presenti. FATTO
 Se le autorizzazioni non ci sono non vedo nemmeno la scelta.
- * La prima pagina potrebbe essere disegnata di sole informazioni generali tipo i semafori, il numero di righe e/o di sottoschede ecc. Potremmo anche definire tutte queste cose come OAV dell'oggetto membro SCP_SCH (in futuro). Nella prima pagina dovrebbe trovare posto una sezione tipo "errori presenti" quando facciamo il programma di controllo degli errori. FATTO
+ \* La prima pagina potrebbe essere disegnata di sole informazioni generali tipo i semafori, il numero di righe e/o di sottoschede ecc. Potremmo anche definire tutte queste cose come OAV dell'oggetto membro SCP_SCH (in futuro). Nella prima pagina dovrebbe trovare posto una sezione tipo "errori presenti" quando facciamo il programma di controllo degli errori. FATTO
 
 
 - La chiamata alle funzioni dovrebbe essere senza l'assegnazione random dei valori agli oggetti (anche se non è importante)

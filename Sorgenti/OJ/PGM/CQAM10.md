@@ -1,8 +1,8 @@
 # Obiettivo
 Definire in funzione : 
- * della quantità del lotto in accettazione e/o collaudo;
- * del tipo di controllo da eseguire;
- * del Livello di qualità atteso; la numerosità del campione da prelevare per eseguire il controllo statistico sulla conformità ed accettabilità  del lotto
+ \* della quantità del lotto in accettazione e/o collaudo;
+ \* del tipo di controllo da eseguire;
+ \* del Livello di qualità atteso; la numerosità del campione da prelevare per eseguire il controllo statistico sulla conformità ed accettabilità  del lotto
 
 Il programma permette l'inserimento delle tabelle dei piani di campionamento in accordo con le normative UNI 5xxxx-YY, MIL.STD.105D, etc.
 

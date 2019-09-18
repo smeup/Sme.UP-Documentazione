@@ -64,5 +64,5 @@ TST.STS|XMLO|TTEE_DR_CMA|Come sopra, se config. multipla valori negli attributi
 
  :  : PRO.SER Cod="REC.SBL.15" Tit="Record. Rilascia configurazione/record (sblocca" Fun="F(G30;CFSER_02;REC.SBL)" Ref="STR.RIS.2"
 
- :  : PRO.SER Cod="TST.STS.16" Tit="Rilascia configurazione/record (sblocca). Rilascia configurazione/record (sblocca" Fun="F(G30;CFSER_02;TST.STS) 1(RE;;-(O;;RE;)) P( XMLO(-(F;;**;Tipo XML in Output(se non Q-))))"
+ :  : PRO.SER Cod="TST.STS.16" Tit="Rilascia configurazione/record (sblocca). Rilascia configurazione/record (sblocca" Fun="F(G30;CFSER_02;TST.STS) 1(RE;;-(O;;RE;)) P( XMLO(-(F;;\*\*;Tipo XML in Output(se non Q-))))"
 

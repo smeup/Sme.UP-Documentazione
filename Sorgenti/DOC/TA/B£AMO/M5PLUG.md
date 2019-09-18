@@ -1,15 +1,15 @@
 ## Passi sequenziali per impostazione snella di base
 
-- Inserire tabella M5B, elemento ** (scenario di base)	
+- Inserire tabella M5B, elemento \*\* (scenario di base)	
 -  definire in M5F le fonti pianificate di acquisto, produzione e Conto lavoro, APN OPN e CPN
-- FASARE M5**P E COLLEGARE I PROGRAMMI DI RILASCIO OPPORTUNI A APN E OPN
+- FASARE M5\*\*P E COLLEGARE I PROGRAMMI DI RILASCIO OPPORTUNI A APN E OPN
 - Definire in M5F le fonti pianificate di impegno produzione e C/lavoro IPN e ILP
 - Definire nelle politiche M5A le due politiche fondamentali per acquisti e produzione, A01 e P01
 - Definire la fonte PPR punto di riordino in M5E
 - Impostare tabella M51 :  le politiche fondamentali di produzione ed acquisto A01 e p01 che pianificano rispettivamente APN e OPN/IPN
 - Impostare tabella M51 :  il ricalcolo livello minimo è consigliato.
-- Impostare calendario risorsa CDL **
-- Impostare tabella MAG con magazzino fondamentale dove è riportata CDL **
+- Impostare calendario risorsa CDL \*\*
+- Impostare tabella MAG con magazzino fondamentale dove è riportata CDL \*\*
 - Definire almeno la fonte fabbisogno principale negativa, OCA in M5F
 - Definire almeno una fonte di giacenza esistente, meglio se tutte le aree di disponibilità in tab M5E, Gxx
 - Definire il gruppo fonti MRP, che comprende le fonti Gxx, APN, OPN, CPN, IPN, ILP, OCA

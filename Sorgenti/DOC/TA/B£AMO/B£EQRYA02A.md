@@ -1,19 +1,19 @@
 # Avvio della funzione ricerca in finestra
 La principale funzione di ricerca può essere avviata dall'utente a partire da qualsiasi campo di imputazione oggettizzato, tramite l'indicazione nel primo carattere di uno dei seguenti caratteri "speciali" predisposti in smeup per identificare la volontà di eseguire una ricerca  : 
-* "** : **" per lanciare la query ordinata per il codice dell'oggetto di riferimento, con possibilità di indicare un filtro sul contenuto di codice/descrizione
-* "**!**" per lanciare la query ordinata per il codice dell'oggetto di riferimento, con possibilità di indicare un filtro sul posizionamento per codice
-* "**?**" per lanciare la query ordinata per descrizione dell'oggetto di riferimento (se l'oggetto non prevede una ricerca per descrizione verrà eseguita la ricerca per codice) con possibilità di indicare un filtro sul posizionamento per codice
-* "**+**" per lanciare una delle altre query di ricerca eventualmente previste per l'oggetto oltre a quelle per codice e descrizione.
-* "**/**" questo carattere, salvo sia esplicitamente espresso, ha valenza particolare solo sulle date, per le quali permette la costruzione guidata delle forme dinamiche (es. &OGI00 corrisponde alla data odierna). Per i restanti casi il comportamento è del tutto simile a quello del carattere "+".
+\* "** : **" per lanciare la query ordinata per il codice dell'oggetto di riferimento, con possibilità di indicare un filtro sul contenuto di codice/descrizione
+\* "**!**" per lanciare la query ordinata per il codice dell'oggetto di riferimento, con possibilità di indicare un filtro sul posizionamento per codice
+\* "**?**" per lanciare la query ordinata per descrizione dell'oggetto di riferimento (se l'oggetto non prevede una ricerca per descrizione verrà eseguita la ricerca per codice) con possibilità di indicare un filtro sul posizionamento per codice
+\* "**+**" per lanciare una delle altre query di ricerca eventualmente previste per l'oggetto oltre a quelle per codice e descrizione.
+\* "**/**" questo carattere, salvo sia esplicitamente espresso, ha valenza particolare solo sulle date, per le quali permette la costruzione guidata delle forme dinamiche (es. &OGI00 corrisponde alla data odierna). Per i restanti casi il comportamento è del tutto simile a quello del carattere "+".
 
 ![B£EQRY_01](http://localhost:3000/immagini/B£EQRYA02A/BXEQRY_01.png)
 A seguire, a tale carattere speciale, sarà inoltre possibile indicare dei caratteri che potranno poi essere interpretati dalla particolare query di ricerca. Si menziona qui in particolare che : 
-* i caratteri che seguono i "** : **" vengono utilizzati come filtro all'interno dei caratteri che definiscono il codice e la descrizione (es.  : BICI, verranno cercati i codici che nel codice stesso o nella descrizione contengono tale parola)
-* i caratteri che seguono il "**!**" vengono utilizzati come posizionamento sulla ricerca per codice (es. !003, vengono presentati tutti i codici >= a 003)
-* i caratteri che seguono il "**?**" vengono utilizzati come posizionamento sulla ricerca per descrizione (es. ?BICI, vengono presentati tutti i codici aventi descrizione >= a BICI)
-* i caratteri che seguono il "**+**" possono indicare alternativamente : 
-** il codice di una particolare ricerca, tale codice può essere a sua volta seguito da uno o più parametri di puntamento della ricerca, suddivisi dal carattere "**.**", qualora la ricerca lo preveda. In alternativa al codice "." possono essere utilizzate le parentesi tonde **()** , qualora sorga ad esempio la necessità di indicare dei parametri che contengano a loro volta il carattere "."
-** direttamente i parametri della ricerca predisposta come default. Se i parametri sono multipli questi possono essere suddivisi dal carattere ".". Come descritto poc'anzi in alternativa al punto possono essere utilizzate le parentesi tonde. E' importante notare che per quel che riguarda la determinazione della query di default, viene fatta la seguente risalita :  se è stata impostata una query di default grafica viene presa in considerazione quella, viceversa viene presa in considerazione la ricerca di default dell'emulazione.
+\* i caratteri che seguono i "** : **" vengono utilizzati come filtro all'interno dei caratteri che definiscono il codice e la descrizione (es.  : BICI, verranno cercati i codici che nel codice stesso o nella descrizione contengono tale parola)
+\* i caratteri che seguono il "**!**" vengono utilizzati come posizionamento sulla ricerca per codice (es. !003, vengono presentati tutti i codici >= a 003)
+\* i caratteri che seguono il "**?**" vengono utilizzati come posizionamento sulla ricerca per descrizione (es. ?BICI, vengono presentati tutti i codici aventi descrizione >= a BICI)
+\* i caratteri che seguono il "**+**" possono indicare alternativamente : 
+\*\* il codice di una particolare ricerca, tale codice può essere a sua volta seguito da uno o più parametri di puntamento della ricerca, suddivisi dal carattere "**.**", qualora la ricerca lo preveda. In alternativa al codice "." possono essere utilizzate le parentesi tonde **()** , qualora sorga ad esempio la necessità di indicare dei parametri che contengano a loro volta il carattere "."
+\*\* direttamente i parametri della ricerca predisposta come default. Se i parametri sono multipli questi possono essere suddivisi dal carattere ".". Come descritto poc'anzi in alternativa al punto possono essere utilizzate le parentesi tonde. E' importante notare che per quel che riguarda la determinazione della query di default, viene fatta la seguente risalita :  se è stata impostata una query di default grafica viene presa in considerazione quella, viceversa viene presa in considerazione la ricerca di default dell'emulazione.
 
 ![B£EQRY_02](http://localhost:3000/immagini/B£EQRYA02A/BXEQRY_02.png)
 Va inoltre osservato che ove sia stato previsto, se alla sinistra del campo di imputazione è stata prevista un'icona, il click con il mouse sull'icona attiva la funzione di ricerca.
@@ -24,8 +24,8 @@ In qualsiasi campo di imputazione è inoltre previsto l'utilizzo del tasto funzi
 
 # La risoluzione della ricerca
 Data indicazione della volontà di eseguire una ricerca, questa potrà essere risolta in due modalità : 
-* Una specifica della singola classe
-* Una generale di tutte le classi che non hanno una ricerca specifica.
+\* Una specifica della singola classe
+\* Una generale di tutte le classi che non hanno una ricerca specifica.
 
 Nel primo caso rientrano solo alcune classi particolari per le quali viene prevista una forma di ricerca particolare. Rientrano in questa casistica le date e gli oggetti esterni (cartelle e file di server)
 
@@ -118,7 +118,7 @@ Questo l'elenco degli oggetti che ancora oggi prevedono delle ricerche speciali 
  :  : DEC T(OG) K(LO)
  :  : DEC T(OG) K(MT)
  :  : DEC T(OG) K(TA)
- :  : DEC T(OG) K(OJ*FILE)
+ :  : DEC T(OG) K(OJ\*FILE)
  :  : DEC T(OG) K(OR)
  :  : DEC T(OG) K(UB)
 

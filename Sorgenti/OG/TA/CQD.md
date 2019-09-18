@@ -19,7 +19,7 @@ L'insufficiente gioco nell'accoppiamento, sempre in presa con :  spinotto, cusci
 Se l'insufficienza di gioco è tale da comportare grippaggi nel primo periodo di funzionamento con possibili danneggiamenti al cambio, il difetto è da considerarsi ad un livello di gravità 9.
 Se l'insufficienza di gioco può portare unicamente a problemi di indurimenti, rumorosità, usura precoce,ecc., ma non compromette la funzionalità del cambio, il difetto è da considerarsi ad un livello di gravità 1.
  :  : FLD T$RCL1 **Riclassifica 1/2/3**
-Campo controllato dalla tabella 'CQ*RD' (Riclassifica Difetti).
+Campo controllato dalla tabella 'CQ\*RD' (Riclassifica Difetti).
 Viene utilizzato nelle analisi statistiche.
  :  : FLD T$RCL2.T$RCL1 **Riclassifica 1/2/3**
  :  : FLD T$RCL3.T$RCL1 **Riclassifica 1/2/3**

@@ -61,10 +61,10 @@ Sono disponibili due videate di parzializzazioni; per accedere alla seconda vide
 
 ### Tasti funzionali
 
- * F06 :  Conferma. Permette di confermare ed eseguire la funzione
- * F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della funzione; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch.
- * F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
- * F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
+ \* F06 :  Conferma. Permette di confermare ed eseguire la funzione
+ \* F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della funzione; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch.
+ \* F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
+ \* F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 ### Memorizzazioni
 
@@ -81,42 +81,42 @@ Per ogni ente per il quale vengono trovati dati disallineati sono riportati :
 - Un riquadro relativo a rate per le quali i dati bancari non corrispondono a quelli anagrafici
 - Un riquadro relativo a documenti per i quali i dati bancari non corrispondono a quelli anagrafici
 Nel primo riquadro troviamo i seguenti record : 
- * Codice e ragione sociale dell'ente
- * Banca anagrafica principale
- * Eventuali banche anagrafiche aggiuntive
- * Dettaglio rate disallineate. In particolare per ogni rata sono riportati : 
- ** Data scadenza
- ** Tipologia di pagamento
- ** Importo
- ** Ente cessionario
- ** Banca aziendale (tabella C5F)
- ** Banca cliente (ABICAB)
- ** Conto corrente
- ** IBAN
- ** Codice SWIFT
+ \* Codice e ragione sociale dell'ente
+ \* Banca anagrafica principale
+ \* Eventuali banche anagrafiche aggiuntive
+ \* Dettaglio rate disallineate. In particolare per ogni rata sono riportati : 
+ \*\* Data scadenza
+ \*\* Tipologia di pagamento
+ \*\* Importo
+ \*\* Ente cessionario
+ \*\* Banca aziendale (tabella C5F)
+ \*\* Banca cliente (ABICAB)
+ \*\* Conto corrente
+ \*\* IBAN
+ \*\* Codice SWIFT
 Nel secondo riquadro troviamo i seguenti record : 
- * Codice e ragione sociale dell'ente
- * Banca anagrafica principale
- * Eventuali banche anagrafiche aggiuntive
- * Dettaglio documenti disallineati. In particolare per ogni documento sono riportati : 
- ** Data scadenza
- ** Tipologia di pagamento
- ** Importo
- ** Ente cessionario
- ** Banca aziendale (tabella C5F)
- ** Banca cliente (ABICAB)
- ** Conto corrente
- ** IBAN
- ** Codice SWIFT
- ** Codice Pagamento
+ \* Codice e ragione sociale dell'ente
+ \* Banca anagrafica principale
+ \* Eventuali banche anagrafiche aggiuntive
+ \* Dettaglio documenti disallineati. In particolare per ogni documento sono riportati : 
+ \*\* Data scadenza
+ \*\* Tipologia di pagamento
+ \*\* Importo
+ \*\* Ente cessionario
+ \*\* Banca aziendale (tabella C5F)
+ \*\* Banca cliente (ABICAB)
+ \*\* Conto corrente
+ \*\* IBAN
+ \*\* Codice SWIFT
+ \*\* Codice Pagamento
 
 ### Opzioni
 
 Per ogni record relativo a rate disallineate sono disponibili le seguenti opzioni : 
- * _2_AL - Allineamento rata.Permette di allineare i dati bancari della rata a quelli riportati sulla banca anagrafica principale.
+ \* _2_AL - Allineamento rata.Permette di allineare i dati bancari della rata a quelli riportati sulla banca anagrafica principale.
  :  : I.INC.MBR Fil(DOC_OGG) Mem(P_C5NOCN5O)
 
 Per ogni record relativo a documenti disallineati sono disponibili le seguenti opzioni : 
- * _2_AL - Allineamento rata.Permette di allineare i dati bancari del documento a quelli riportati sulla banca anagrafica principale.
- * _2_02 - Modifica Documento.Permette di entrare in modifica del documento.
- * _2_05 - Visualizza Documento.Permette di entrare in visualizzazione del documento.
+ \* _2_AL - Allineamento rata.Permette di allineare i dati bancari del documento a quelli riportati sulla banca anagrafica principale.
+ \* _2_02 - Modifica Documento.Permette di entrare in modifica del documento.
+ \* _2_05 - Visualizza Documento.Permette di entrare in visualizzazione del documento.

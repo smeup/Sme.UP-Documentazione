@@ -5,17 +5,17 @@
 Lo schedulatore As.UP è una funzionalità che consente l'esecuzione temporizzata di specifici comandi e procedure. Lo
 schedulatore As.UP si basa sull'integrazione tra tre elementi di sistema
 
-***Lo schedulatore di sistema operativo (Chron nel caso di Linux)**
+\***Lo schedulatore di sistema operativo (Chron nel caso di Linux)**
 
 Consente la schedulazione dei singoli eventi
 
-***Lo SmeupProvider**
+\***Lo SmeupProvider**
 
 Mette a disposizione il webservice che, invocato dallo schedulatore, consente di inviare al server As.UP il
 comando da eseguire. Per la configurazione dello SmeupProvider e dell'accesso al WebService vedi la
 documentazione specifica per questo prodotto.
 
-***Il server As.UP**
+\***Il server As.UP**
 
 E' il server che eseguirà fisicamente il comando schedulato
 
@@ -23,18 +23,18 @@ E' il server che eseguirà fisicamente il comando schedulato
 
 Programmi di sistema necessari al funzionamento dello schedulatore : 
 
-***Bash**
-***Cron**
-***Crontab**
-***Curl**
+\***Bash**
+\***Cron**
+\***Crontab**
+\***Curl**
 
 Script As.UP (script bash di accesso Cron specifici per As.UP. Vanno installati nella cartella utente e autorizzati come eseguibili) : 
 
-***listcron**
-***addcron**
-***removecron**
-***call_ws**
-***cronlog**
+\***listcron**
+\***addcron**
+\***removecron**
+\***call_ws**
+\***cronlog**
 
 ## 2) Comandi di gestione Cron
 
@@ -69,26 +69,26 @@ I processi As.UP sono inseriti come righe con il seguente formato :
 
 dove : 
 
-***mm** :  minuti (* per tutti i minuti)
-***hh** :  ore (* per tutte le ore)
-***dd** :  giorno del mese (numero 1-31, * per tutti)
-***MM** :  mese (numero 1-12, * per tutti)
-***DD** :  giorno della settimana (mon, tue, wed, thu, fri, sat, sun, * per tutti i giorni)
-***asupProvider** :  indirizzo IP dell'As.UP provider che fornisce il webservice per esecuzione comandi (XMLStatelessService)
-***port** :  porta di accesso al webservice (9090 per default)
-***system** :  indirizzo server As.UP
-***user** :  utente di sottomissione del comando su As.UP
-***pwd** :  password per utente As.UP
-***cmd** :  comando As.UP da eseguire (deve essere tra doppi apici)
-***id** :  codice processo schedulato (codice 6 cifre univoco)
-***name** :  nome del processo schedulato
-***description** :  descrizione del processo schedulato (tra doppi apici)
+\***mm** :  minuti (\* per tutti i minuti)
+\***hh** :  ore (\* per tutte le ore)
+\***dd** :  giorno del mese (numero 1-31, \* per tutti)
+\***MM** :  mese (numero 1-12, \* per tutti)
+\***DD** :  giorno della settimana (mon, tue, wed, thu, fri, sat, sun, \* per tutti i giorni)
+\***asupProvider** :  indirizzo IP dell'As.UP provider che fornisce il webservice per esecuzione comandi (XMLStatelessService)
+\***port** :  porta di accesso al webservice (9090 per default)
+\***system** :  indirizzo server As.UP
+\***user** :  utente di sottomissione del comando su As.UP
+\***pwd** :  password per utente As.UP
+\***cmd** :  comando As.UP da eseguire (deve essere tra doppi apici)
+\***id** :  codice processo schedulato (codice 6 cifre univoco)
+\***name** :  nome del processo schedulato
+\***description** :  descrizione del processo schedulato (tra doppi apici)
 
 Esempio : 
 
-**00 * * 8 mon sh call_ws asuptest.smeup.com 9090 MUAS01 FORDAR FORDAR 001 "CALL MUAPI01" SCD001MUAPI01 "Test"
+**00 \* \* 8 mon sh call_ws asuptest.smeup.com 9090 MUAS01 FORDAR FORDAR 001 "CALL MUAPI01" SCD001MUAPI01 "Test"
 
-Esegue il comando "CALL MUAPI01" al minuto 00 (mm=00) di tutte le ore (hh=*) di tutti i giorni (dd=*) del mese di agosto (MM=8) che cadono di lunedi (DD=mon).
+Esegue il comando "CALL MUAPI01" al minuto 00 (mm=00) di tutte le ore (hh=\*) di tutti i giorni (dd=\*) del mese di agosto (MM=8) che cadono di lunedi (DD=mon).
 La richiesta comando viene inviata al web service (XMLStatelessService) attivo sullo SmeupProvider asuptest.smeup.com sulla porta 9090 e sarà indirizzata al
 server As.Up contrassegnato dal codice MUAS01 con l'utente FORDAR.
 

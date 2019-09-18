@@ -7,9 +7,9 @@ Legare alla procedura un responsabile emittente e la data di emissione.
  :  : FLD T$DOCU **Tipo Documento/proc.**
 Campo controllato dalla tabella 'CQ0' (Tipo documento - Gestione). Identifica la tipologia del documento e le modalità di gestione dello stesso.
  :  : FLD T$NORM **Riferim.norma I/E**
-Campo controllato dalla tabella 'CQ*RP' (Riferimento Norma int./esterna). Identifica la Norma di riferimento per la procedura.
+Campo controllato dalla tabella 'CQ\*RP' (Riferimento Norma int./esterna). Identifica la Norma di riferimento per la procedura.
  :  : FLD T$SEZI __Sezione Manuale__
-Campo controllato dalla tabella 'CQ*SZ' (Sezioni Manuale Qualità). Identifica la Sezione di riferimento per la procedura.
+Campo controllato dalla tabella 'CQ\*SZ' (Sezioni Manuale Qualità). Identifica la Sezione di riferimento per la procedura.
  :  : FLD T$ENTE **Ente Emittente**
 Campo controllato dalla tabella, legata all'archivio settato dalla tabella. Normalmente viene collegata con l'archivio dei Centri o Servizi. Esso definisce il settore o l'ente responsabile che ha emesso la norma.
  :  : FLD T$DATA **Data prima emissione**
@@ -27,6 +27,6 @@ Questo campo può assumere i seguenti valori :
 ' '  Non permette la gestione o la modifica della norma visualizzata a terminale.
 'X'  Permette di modificare il contenuto della norma visualizzata a terminale.
  :  : FLD T$RIC1 **Riclassifica 1/2/3**
-Campo controllato nella tabella 'CQ*RQ' (Riclassifica procedure qualità). Permette di riclassificare in vario modo la procedura.
+Campo controllato nella tabella 'CQ\*RQ' (Riclassifica procedure qualità). Permette di riclassificare in vario modo la procedura.
  :  : FLD T$RIC2.T$RIC1 **Riclassifica 1/2/3**
  :  : FLD T$RIC3.T$RIC1 **Riclassifica 1/2/3**

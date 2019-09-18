@@ -8,17 +8,17 @@ Ad esempio la sezione "video formativi" può avere più di un elemento di dettag
 
 ## aggiunta di una nuova sezione
 Per aggiungere una nuova sezione è necessario : 
- * Aggiungerla nel B£G15G
- * Aggiungere nel programma LOSER_04 un elemento nella schiera FUM indicante : 
- ** Codice
- ** File che contiene i membri relativi
- ** Suffisso dei membri
- ** Descrizione
- ** DET/GEN (uno o più membri per modulo)
- ** Modulo di apprtenenza
- ** Sottoscheda specifica per la gestione del dettaglio
- * Definire la scheda di dettaglio
- * Scrivere la documentazione relativa
+ \* Aggiungerla nel B£G15G
+ \* Aggiungere nel programma LOSER_04 un elemento nella schiera FUM indicante : 
+ \*\* Codice
+ \*\* File che contiene i membri relativi
+ \*\* Suffisso dei membri
+ \*\* Descrizione
+ \*\* DET/GEN (uno o più membri per modulo)
+ \*\* Modulo di apprtenenza
+ \*\* Sottoscheda specifica per la gestione del dettaglio
+ \* Definire la scheda di dettaglio
+ \* Scrivere la documentazione relativa
 
 La documentazione si trova in un membro del file DOC, il cui nome è composto dal nome file (definito precedentemente) con suffisso _cod (dove cod è il codice della sezione).
 La scheda di dettaglio si trova nel membro MB+nomefile. Il nomefile è quello definito precedentemente nella schiera.

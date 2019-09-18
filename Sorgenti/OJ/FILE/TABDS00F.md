@@ -6,7 +6,7 @@ In questo file risiedono due oggetti :  il settore e il subesettore
 xxx :  settore della tabella
 yy :   subsettore della tabella
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'ST' Settore                       £FUNT1
 'SS' Subsettore                    £FUNT1
 

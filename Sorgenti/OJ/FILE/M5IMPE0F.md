@@ -6,7 +6,7 @@ Hanno il campo numero sessione valorizzato
 - "provvisori confermati" che sono il consolidamento dei precedenti quando l'ATP viene calcolato per una riga documento. Questi impegni devono essere presenti nel gruppo fonti della disponibilità libera, per evitare che essa venga utilizzata, in sequenza, per più di una datazione. Rappresentano quindi la disponibilità libera allocata ad una riga di documento datata con ATP. Essi vengono cancellati prima di ogni MRP (se totale nella loro globalità, se parziale unicamente quelli degli articoli coinvolti nella pianificazione), in quanto verranno sostituiti da impegni pianificati della stessa quantità.
 Hanno il campo numero sessione vuoto.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 N.A.
 
 ## Chiave primaria

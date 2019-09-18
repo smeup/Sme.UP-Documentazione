@@ -25,7 +25,7 @@ In particolare :
 
 
 ## Esempio
-F(EXB;*SCO;) 1(ST;;-(O;V5D;ST;Testo a piacere))
+F(EXB;\*SCO;) 1(ST;;-(O;V5D;ST;Testo a piacere))
 imposta il campo per : 
 Chiedere obbligatoriamente e controllare un oggetto ST (Settore)
 assumendo : 

@@ -1,7 +1,7 @@
 ## Miglioramenti
 Nuova funzione OAV.STR
 -    Scandisce gli OAV con codice1 (OG;;classe)
--    Escude tutti quelli non di databese (** NR D8 ecc)
+-    Escude tutti quelli non di databese (\*\* NR D8 ecc)
 -    Per gli altri presenta gli OAV J/002 File associato e J/020 Libreria
 
 ## TO DO

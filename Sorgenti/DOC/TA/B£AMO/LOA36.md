@@ -1,21 +1,21 @@
 ## Obiettivo
 Semplificare la gestione dei dati di un oggetto attraverso la configurazione di un input panel, o di una matrice, indipendentemente dal device utilizzato.
 E' un strumento costituito da 3 componenti : 
-* un'interfaccia grafica :  Costruttore A36.
-* i driver oggetto :  Copy £K89.
-* gli attributi dell'oggetto. Copy £OAV.
+\* un'interfaccia grafica :  Costruttore A36.
+\* i driver oggetto :  Copy £K89.
+\* gli attributi dell'oggetto. Copy £OAV.
 
 ## Costruzione di una gestione
 I Passi per costruire una gestione sono : 
-* Costruire la finestra.
-* Attivare la finestra.
-* Introdurre assunzioni, controlli, aggiornamenti specifici.
+\* Costruire la finestra.
+\* Attivare la finestra.
+\* Introdurre assunzioni, controlli, aggiornamenti specifici.
 
 ## Prerequisiti
 Esistenza del pgm B£K89_xx dove xx è il tipo oggetto e verifica del fatto che tale pgm sia stato rilasciato a standard tramite la matrice di controllo interrogabile in questo modo : 
-* richiamando la scheda del costruttore A36 (oggetto V2LOCOS A36)
-* selezionando il tab "Scheda esempi A36"
-* selezionando il tab "Situazione K89 Rilasciati".
+\* richiamando la scheda del costruttore A36 (oggetto V2LOCOS A36)
+\* selezionando il tab "Scheda esempi A36"
+\* selezionando il tab "Situazione K89 Rilasciati".
 Solo se il pgm è qui presente flaggato significa che è stato rilasciato a standard, viceversa si tratta di un work in progress.
 Se si sta trattando un oggetto X specifico cliente, si rimanda per prima cosa alla documentazione della /COPY £K89.
 
@@ -35,21 +35,21 @@ Se non presente alcun SCP_LAY vengono campi presentati tutti i campi gestibili d
 Per la documentazione specifica delle proprietà gestite nello script vedere in appendice.
 
 Per testare/verificare un particolare SCP_LAY prima di attivarlo, si consiglia di usare la scheda di test seguendo i seguenti passaggi : 
-* richiamando la scheda del costruttore A36 (oggetto V2LOCOS A36)
-* selezionando il tab "Scheda esempi A36"
-* selezionando il tab "Test Input Panel" .
+\* richiamando la scheda del costruttore A36 (oggetto V2LOCOS A36)
+\* selezionando il tab "Scheda esempi A36"
+\* selezionando il tab "Test Input Panel" .
 A questo punto inserite i parametri "Tipo oggetto", "Parametro oggetto", "Codice oggetto", "Azione", "TipFld"=LAY e "CodFlt" il nome dell'SCP_LAY e confermare.
 Viene a questo punto aperta la finestra di test.
 E' importante tenere conto dei diversi device e valutare se prevedere SCP_LAY differenti in base alle potenzialità/caratteristiche di ogni device (webup, loocup, phone e tablet). Come si vedrà poi negli script di configurazione SCP_A36 e SCP_A36PER sarà possibile condizionare l'utilizzo di un scp_lay piuttosto che un altro attraverso il test sulla variabile _&_CO.DEV nella attributo del Cnz del tag VAR.
 
 Visti i primi effetti si può poi operare l'aggiunta di eventuali caratteristiche grafiche degli attributi che si vogliono usare. In questo senso è però importante notare che le proprietà con cui viene presentato un campo posso dipendere da vari dati/elaborazioni : 
-* Definizione dell'OAV
-* Definizione del campo di database, quando l'OAV fa riferimento ad un campo di database
-* Considerazioni effettuate dal pgm B£K89_xx
-* Da caratteristiche della classe intestataria dell'oggetto OAV definite attraverso la classe K04 (es. il livello di un CNCLI ha come oggetto di riferimento TAB£W00, è quindi la K04 del TAB£W00 ad essere presa in considerazione). E' da tenere a sua volta conto che la K04 prevede un exit tramite cui ad esempio posso condizionare il trattamento di una particolare classe oggetto.
+\* Definizione dell'OAV
+\* Definizione del campo di database, quando l'OAV fa riferimento ad un campo di database
+\* Considerazioni effettuate dal pgm B£K89_xx
+\* Da caratteristiche della classe intestataria dell'oggetto OAV definite attraverso la classe K04 (es. il livello di un CNCLI ha come oggetto di riferimento TAB£W00, è quindi la K04 del TAB£W00 ad essere presa in considerazione). E' da tenere a sua volta conto che la K04 prevede un exit tramite cui ad esempio posso condizionare il trattamento di una particolare classe oggetto.
 Tali caratteristiche possono essere sovrascritte nell'SCP_LAY oppure attraverso il pgm di exit che si potrà attivare come riportato a seguire negli script SCP_A36 ed SCP_A36PER. A senso utilizzare l'SCP_LAY o il pgm di exit a seconda di più considerazioni : 
-* Se ho più formati e voglio centralizzare tutte le forzature in un unico punto, cioè l'exit, senza doverle replicare per ogni scp_lay che utilizzo (compresi quelli standard)
-* Se devo fare del considerazioni articolare per decidere cosa fare (es. leggere tabelle o altri file per decidere che proprietà forzare, es. se il campo deve essere visibile, protetto o nascosto).
+\* Se ho più formati e voglio centralizzare tutte le forzature in un unico punto, cioè l'exit, senza doverle replicare per ogni scp_lay che utilizzo (compresi quelli standard)
+\* Se devo fare del considerazioni articolare per decidere cosa fare (es. leggere tabelle o altri file per decidere che proprietà forzare, es. se il campo deve essere visibile, protetto o nascosto).
 
 ## Attivazione finestra
 L'utilizzo di una finestra così costruita attraverso l'SCP_LAY va fissata in uno script SCP_A36 se si sta trattando una finestra standard o in uno script SCP_A36PER se si sta trattando una finestra non standard in un TAG VAR.
@@ -57,30 +57,30 @@ L'utilizzo di una finestra così costruita attraverso l'SCP_LAY va fissata in un
 Ogni oggetto ha il suo script SCP_A36. Il nome del membro è l'oggetto (Per gli oggetti ID sarà IDXX dove XX corrisponde al programma specifico B£K89_XX)
 E' strutturato su 3 livelli :  Azione, Nome, Varianti.
 **AZI (AZIONE)**
-Ogni richiamo della gestione cerca nel setup l'azione corrispondente. Se non è presente risale sull'azione fittizia "**".
+Ogni richiamo della gestione cerca nel setup l'azione corrispondente. Se non è presente risale sull'azione fittizia "\*\*".
 Se non presente lo script o non trova alcun Setup viene richiamata la gestione con tutte i parametri di default dell'azione..
 **NAM (NOME)**
-All'interno dell'azione viene cercato il Setup con il nome ricevuto nella variabile "NamSet" se non ricevuto risale sul default "**".
+All'interno dell'azione viene cercato il Setup con il nome ricevuto nella variabile "NamSet" se non ricevuto risale sul default "\*\*".
 (Per l'azione "00", azione derivata dall'azione "01" con attivazione  pre-immissione, è la varibile "NamSetA00")
 **VAR (VARIANTE)**
 All'interno dell'azione/nome viene attivato il Setup della prima variante che soddisfa le condizioni indicate nel campo "Cnz" .
 Se una variante non ha condizioni è ritenuta valida.
 Per questo bisogna prestare attenzione alla sequenza con cui si mettono le varianti. Se dovesse essere aggiunta come prima variante, una variante senza condizioni risultando sempre valida andrebbe a inibire tutte le successive.
 Nelle condizioni si possono usare : 
-* qualsiasi OAV dell'oggetto
-* tipo oggetto "PAR"
-* azienda "AZI"
-* utente "UTE"
-* gruppo utenti "GRU"
-* device "DEV"
-* componente grafico "GRA" (Input panel/Matrice)
+\* qualsiasi OAV dell'oggetto
+\* tipo oggetto "PAR"
+\* azienda "AZI"
+\* utente "UTE"
+\* gruppo utenti "GRU"
+\* device "DEV"
+\* componente grafico "GRA" (Input panel/Matrice)
 Le condizioni possono essere anche multiple sia in AND che un OR.
 Per un maggiore dettaglio si veda cmq la documentazione del wizard del campo Cnz del tag VAR.
 
 **AZIONE 00**
 L'azione "00" è un'azione virtuale di pre immissione. Virtuale perchè non viene chiamata direttamente nel A36 ma si attiva in modo automatico nell'azione "01" di immissione.
 Quando si esegue l'azione di immissione il programma cerca prima nell'azione "00" se esiste un setup valido. In caso affermativo esegue l'azione "00" di pre-immissione con il corrispondente setup.
-All'interno del setup delle azioni "00" il parametro "NamSuc" contiene il nome del prossimo Setup dell'azione "00" da eseguire. E così via. Costruendo un flusso di finestre. Per terminare il flusso e passare alla vera azione di immissione è necessario mettere  *FINE" nel parametro "NamSuc", Il parametro "NamSuc" può anche essere impostato nel programma di exit.
+All'interno del setup delle azioni "00" il parametro "NamSuc" contiene il nome del prossimo Setup dell'azione "00" da eseguire. E così via. Costruendo un flusso di finestre. Per terminare il flusso e passare alla vera azione di immissione è necessario mettere  \*FINE" nel parametro "NamSuc", Il parametro "NamSuc" può anche essere impostato nel programma di exit.
 
 Per la documentazione specifica delle proprietà gestite nello script vedere in appendice
 Gli SCP_A36 standard si trovano nel sorgente SCP_A36 della SMEDEV
@@ -93,10 +93,10 @@ Il 3° livello separa i nomi disponibile per l'azione.
 Il 4° e ultimo livello separa le varianti disponibili per il nome.
 Espandere fino alla foglie, da dove si  entrare nella scheda di gestione dello script.
 Un volta in gestione aggiungere la variante che attiva il setup con la finestra di esempio.
-Se si vuole attivare solo per un'azione deve essere messa sotto quella azione, altrimenti se si vuole attivare per tutte le azioni va messa sotto l'azione "**".
+Se si vuole attivare solo per un'azione deve essere messa sotto quella azione, altrimenti se si vuole attivare per tutte le azioni va messa sotto l'azione "\*\*".
 Esempio di attivazione della finestra AR_TEST quando la classe materiale è "001" per tutte le azione come default
- :  : AZI Cod="**"
- :  : NAM Cod="**" Txt="Default"
+ :  : AZI Cod="\*\*"
+ :  : NAM Cod="\*\*" Txt="Default"
  :  : VAR Cod="AR_TEST" Txt="Articoli TEST" Cnz="&CO.I/10 = 001" TipFlt="LAY" CodFlt="AR_TEST"
 (Se  :  : AZI e  :  : NAM sono già presenti aggiungere solo  :  : VAR)
 A questo punto rieseguendo la scheda di test senza i parametri "TipFlt" e "CodFlt" con un articolo di classe materiale "001" si apre automaticamente la nuova finestra.
@@ -119,10 +119,10 @@ Quando si uliizza una azione automatica l'azione viene trasformata automaticamen
 Le azioni automatiche sono 4 :  "11", "12", "13", "14".
 La loro diversità consiste solo nell'eventuale attivazione dei bottni di copia o cancella nel caso
 l'azione effettiva diventi "02" modifica.
-* "11" azione "01"/"02", nel caso "02" non vengono attivati i bottoni di copia e cancella
-* "12" azione "01"/"02", nel caso "02"  vengono attivati i bottoni di copia e cancella
-* "13" azione "01"/"02", nel caso "02"  viene attivato solo il bottone di copia
-* "14" azione "01"/"02", nel caso "02"  viene attivato solo il bottone di cancella
+\* "11" azione "01"/"02", nel caso "02" non vengono attivati i bottoni di copia e cancella
+\* "12" azione "01"/"02", nel caso "02"  vengono attivati i bottoni di copia e cancella
+\* "13" azione "01"/"02", nel caso "02"  viene attivato solo il bottone di copia
+\* "14" azione "01"/"02", nel caso "02"  viene attivato solo il bottone di cancella
 
 ### A36 come sottoscheda
 l'A36 può essere inserito come sottoscheda all'interno di una scheda.
@@ -165,9 +165,9 @@ Per quel che riguarda la posizione, di default è in basso a destra.
 
 | Bottone|Testo|Inserimento|Modifica|Copia|Cancellazione|Visualizzazione|Style|Posizione|Bottone|Test---|----|----|----|----|----|----|----|----|
 | o|Icona|Note |
-| F03|Esci|1|1|1|1|1||In alto destra|No||J1;KEY;*F03| |
+| F03|Esci|1|1|1|1|1||In alto destra|No||J1;KEY;\*F03| |
 | F06|conferma/conferma eliminazione/conferma e apri|1|1|1|1||||||No| |
-| F07|Righe/gestione righe/gestione campi||1|||1|*BTNROW|In alto a destra|||No|Solo per gli oggetti che lo prevedono le righe, TR c'è solo sull'UP DEF |
+| F07|Righe/gestione righe/gestione campi||1|||1|\*BTNROW|In alto a destra|||No|Solo per gli oggetti che lo prevedono le righe, TR c'è solo sull'UP DEF |
 | F07|Conferma e apri|Yes|||||||||No| |
 | F08|Conferma e nuovo|Yes|||||||||No| |
 | F09|Undo|1|1|1||||Basso Dx||No|VO;COD_VER;000099| |
@@ -176,7 +176,7 @@ Per quel che riguarda la posizione, di default è in basso a destra.
 | F12|Indietro|1|1|1|1|1||Basso Dx||No|VO;COD_VER;000008| |
 | F14|modifica|||||Yes|||||No| |
 | F15|copia||Yes|||Yes|||||No| |
-| F16|Elimina||Yes|||Yes|*BTNDEL||||No| |
+| F16|Elimina||Yes|||Yes|\*BTNDEL||||No| |
 | F17|Set'n'play|1|1|1|1|1||Alto Dx|No|No|VO;COD_VER;000117|Solo se User Level 01 |
 | F18|Controllo||Yes|||Yes||Alto Dx|No||No| |
 | 
@@ -186,7 +186,7 @@ Per quel che riguarda la posizione, di default è in basso a destra.
 
 | Bottone|Testo|Attivazione|Style|Posizione|Bottone|Testo|Icona|Note |
 | ---|----|----|----|----|----|----|----|----|
-| F03|Esci|1||In Alto a Destra|No||J1;KEY;*F03| |
+| F03|Esci|1||In Alto a Destra|No||J1;KEY;\*F03| |
 | F06|Conferma|1|||||VO;COD_VER;000111/000020| |
 | F09|Undo|1|||||VO;COD_VER;000099| |
 | F12|Indietro|1||In Basso a Destra|||VO;COD_VER;000008| |
@@ -196,21 +196,21 @@ Per quel che riguarda la posizione, di default è in basso a destra.
 
 ### Parametri di input
 I parametri di input sono : 
-* Il tipo oggetto :  Obbligatorio
-* Il parametro oggetto :  Obbligatorio in funzione del tipo oggetto, e se previsto dall'oggetto, sempre in immissione
-* Il codice oggetto :  Sempre obbligatorio tranne per l'immissione
-* l'azione :  Obbligatoria
-* Tutti gli altri parametri di input sono facoltativi. Per alcuni viene assunto un default, che diventa fondamentale per quelli che sono necessari al funzionamento dello strumento.
-* Il tipo, parametro e codice vengono passati nell'oggetto 1 :  1(&OG.T1;&OG.P1;&OG,K1) Tutti gli altri parametri vengono passati nel P() o nell' INPUT().
+\* Il tipo oggetto :  Obbligatorio
+\* Il parametro oggetto :  Obbligatorio in funzione del tipo oggetto, e se previsto dall'oggetto, sempre in immissione
+\* Il codice oggetto :  Sempre obbligatorio tranne per l'immissione
+\* l'azione :  Obbligatoria
+\* Tutti gli altri parametri di input sono facoltativi. Per alcuni viene assunto un default, che diventa fondamentale per quelli che sono necessari al funzionamento dello strumento.
+\* Il tipo, parametro e codice vengono passati nell'oggetto 1 :  1(&OG.T1;&OG.P1;&OG,K1) Tutti gli altri parametri vengono passati nel P() o nell' INPUT().
 
 ### Bottone Set'n play
 Il bottone set'n play è una documentazione interattiva della finestra. Permette di capire come è stata costruita, e di seguire ogni passo della gestione.
 E' composto da : 
 
 **Parametri (Input/Setup)**
-* Input
+\* Input
 Visualizza i parametri di input passati nella chiamata della scheda A36. La regola è di mantenere le chiamate A36 il più semplice e pulite possibili e demandare il passaggio di eventuali parametri allo script di setup SCP_A36.
-* Setup (da funzione SET della £K89)
+\* Setup (da funzione SET della £K89)
 Visualizza i parametri di input dopo aver eseguito la lettura del Setup SCP_A36.
 Oltre ai parametri di input indica anche il setup utilizzato. Variabili :  FilSet, MemSet, AziSet, NamSet e VarSet.
 I valori di setup dello script completano e mai sostituiscono quelli passati direttamente nel richiamo della scheda.

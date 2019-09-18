@@ -35,7 +35,7 @@ Il programma che ritorna l'autorizzazione è B£AUA6F (Funizzato)
 - Oggetto - Classe dell'oggetto da autorizzare (Es :  CNCLI, AR, mentre ARTIP e CN non sono validi :  il parametro è obbligatorio se lo è per la classe, e obbligatoriamente nullo se facoltatico).
 - Istanza - Istanza dell'oggetto da autorizzare
 - OAV  codice dell'OAV da autorizzare (I/01, J/02)
--- Implicito - se non è presente il valore (AO£VAL),  l'OAV deve restituire la funzione su cui testare il le autorizzazioni (il campo AO£GRA deve essere valorizzato con '**')
+-- Implicito - se non è presente il valore (AO£VAL),  l'OAV deve restituire la funzione su cui testare il le autorizzazioni (il campo AO£GRA deve essere valorizzato con '\*\*')
 -- Esplicito - se è presente il valore (AO£VAL), in base alla corrispondenza tra l'OAV e il valore indicato utilizza la funzione indicata sul campo AO£GRA
 - Valore - valore dell'OAV
 - Gruppo - gruppo per protezione (in base alla classe)
@@ -71,9 +71,9 @@ Se l'istanza ricevuta è presente, la funzione è quello impostata sul record de
 
 Se trova OAV espliciti (con AO£VAL valorizzato), assume la funzione del primo valore che se soddisfa la condizione :  in pratica tratta questi OAV in OR.
 
-Se trova OAV impliciti  (con AO£VAL uguale blanks)  se AO£GRA  è uguale a '**' assume come funzione il valore dell'OAV  del primo che trova. E' quindi inutile codificare più di un OAV implicito.
+Se trova OAV impliciti  (con AO£VAL uguale blanks)  se AO£GRA  è uguale a '\*\*' assume come funzione il valore dell'OAV  del primo che trova. E' quindi inutile codificare più di un OAV implicito.
 
-Sia nel caso di OAV impliciti che espliciti, se AO£GRA  contiene '**', '**' viene sostituito con il valore dell'OAV.
+Sia nel caso di OAV impliciti che espliciti, se AO£GRA  contiene '\*\*', '\*\*' viene sostituito con il valore dell'OAV.
 
 Se non è riuscito a determinare una funzione, assume quella definito nel record con la sola classe (se presente), altrimenti assume funzione blanks.
 

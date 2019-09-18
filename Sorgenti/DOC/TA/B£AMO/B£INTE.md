@@ -3,13 +3,13 @@ SME.up in termini generali vede gli oggetti e ne esegue le funzioni disponibili.
 Diremo che esistono le interfacce per un ambiente se sono state scritti i programmi che sentono le chiamate di SME.up e rispondono opportunamente dopo aver letto gli archivi opportuni (o richiamato le funzioni di ogni ambiente)
 
 ## Esempi di interfacce
- * Articoli (verifica, ricerca, scansione, ecc)
- * Clienti
- * Fornitori
- * Conti contabili
- * Registrazioni contabili
- * Distinta base
- * Ecc.
+ \* Articoli (verifica, ricerca, scansione, ecc)
+ \* Clienti
+ \* Fornitori
+ \* Conti contabili
+ \* Registrazioni contabili
+ \* Distinta base
+ \* Ecc.
 
 ## Esempi di utilizzo delle funzioni
 - Interrogo la distinta base in SME.up, la distinta base è gestita in ACG ma gli articoli sono stati personalizzati. La distinta è fornita dall'ambiente "A7", le decodifiche degli articoli sono fornite dall'ambiente "XX" (Personalizzato). Il programma di interrogazione è in SME.up, la distinta può essere vista nella scheda standard di LOOC.up, presentarsi in modo grafico o essere utilizzata nel calcolo fabbisogni dell'MPS.

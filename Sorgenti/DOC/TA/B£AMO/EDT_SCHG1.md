@@ -3,8 +3,8 @@ Le sezioni sono il punto di partenza nella composizione delle schede, esse infat
 le finestre di cui la scheda è composta.
 
 # Parametri
- * uno
- * due
+ \* uno
+ \* due
 
 Questa specifica si parametrizza nel seguente modo : 
 

@@ -1,6 +1,6 @@
 # Preparazione
  - Impostare correttamente la tabella EUR per fissare data e divise
- :  : DEC T(TA) P(EUR) K(*)
+ :  : DEC T(TA) P(EUR) K(\*)
 
  - I programmi di conversione possono funzionare in modalità di simulazione producendo la sola stampa di controllo. Impostare pertanto le tabelle di controllo programmi nel modo desiderato
  :  : DEC T(TA) P(PGM) K(C5UT0501)
@@ -10,9 +10,9 @@
  - Eseguire il salvataggio della situazione di partenza : 
  -- della libreria di contabilità completa
  -- in ogni caso almeno degli archivi sottoelencati, tenendo conto che i programmi non gestiscono la ripartenza
- :  : DEC T(OJ) P(*FILE) K(C5TREG0F)
- :  : DEC T(OJ) P(*FILE) K(C5RREG0F)
- :  : DEC T(OJ) P(*FILE) K(C5RATE0F)
+ :  : DEC T(OJ) P(\*FILE) K(C5TREG0F)
+ :  : DEC T(OJ) P(\*FILE) K(C5RREG0F)
+ :  : DEC T(OJ) P(\*FILE) K(C5RATE0F)
 
 # Azioni di analisi correttezza dati
  :  : INI Controllo quadratura importi tra righe e rate

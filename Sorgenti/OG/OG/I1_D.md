@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'I1'                               £FUNT1
 Tipo istante       (V2/TI_I1)      £FUNP1
 ## Chiave primaria

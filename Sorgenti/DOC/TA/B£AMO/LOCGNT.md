@@ -25,7 +25,7 @@ Tipo di XML utilizzato :  XML Griglia.
 
 Gli esempi del componente gantt sono consultabili solo per la versione Web.UP
 
- :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;*SCO;) 1(V2;JAGRA;GNT) 2(MB;SCP_SCH;WETEST_GNT)) L(1)
+ :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;\*SCO;) 1(V2;JAGRA;GNT) 2(MB;SCP_SCH;WETEST_GNT)) L(1)
 
 ## Altre risorse
 

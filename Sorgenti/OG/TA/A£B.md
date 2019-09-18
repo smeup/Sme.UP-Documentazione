@@ -26,24 +26,24 @@ Non gestiti
 Può assumere i seguenti valori : 
   :  Formato DMY
 1 :  Formato MDY
-* :  In questo caso non viene forzato nessun formato data, rimane quindi valido quello di sistema o
+\* :  In questo caso non viene forzato nessun formato data, rimane quindi valido quello di sistema o
    quello impostato tramite il campo T$A£BE (JOB attrib da lingua)
  :  : FLD T$A£BC **Separatore decimale**
 Lasciando il campo ' ' la virgola separa gli interi dai numeri decimali, impostando '1' viene invertito il
 significato con il '.' (punto).
-Il valore speciale * invece non forza nessun separatore decimale, rimane quindi valido quello di sistema o
+Il valore speciale \* invece non forza nessun separatore decimale, rimane quindi valido quello di sistema o
 quello impostato tramite il campo T$A£BE (JOB attrib da lingua)
  :  : FLD T$A£BD **Lingua OS400**
 Imposta l'eventuale lingua in cui verranno visualizzate tutte le informazioni di sistema operativo
  :  : FLD T$A£BE **JOB attrib da lingua**
 E' possibile specificare la lingua da cui ricavare (e successivamente impostarea livello di JOB) i
 seguenti valori : 
-- Formato data (solo se impostato * in T$A£BB - Formato data)
+- Formato data (solo se impostato \* in T$A£BB - Formato data)
 - Separatore data
 - Carattere separazione ora
 - Identificatore lingua (non la lingua di traduzione!!!!)
 - Identificatore nazione o regione
-- Formato decimale (solo se impostato * in T$A£BC - Separatore decimale)
+- Formato decimale (solo se impostato \* in T$A£BC - Separatore decimale)
 
 Attenzione che per il corretto funzionamento di questa opzione deve essere installata sul sistema la
 relativa lingua secondaria (e quindi la libreria QSYS29xx e il file CPX8416 in essa contenuto)

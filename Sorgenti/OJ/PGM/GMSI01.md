@@ -3,7 +3,7 @@ L'interrogazione seguente è una funzione di sintesi delle varie interrogazioni 
 
 ![GMBASE_04](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI01/GMBASE_04.png)Sono possibili le seguenti scelte : 
 
-- _2_analisi disponibilità, (per l'utilizzo vedi il documento specifico) sono opzionali forma e gruppo fonti, altrimenti si usano la forma DET ed il gruppo fonti **
+- _2_analisi disponibilità, (per l'utilizzo vedi il documento specifico) sono opzionali forma e gruppo fonti, altrimenti si usano la forma DET ed il gruppo fonti \*\*
 - _2_Righe documento, presenta le righe documento (deve essere specificato il tipo documento) del livello in input per l'articolo dato
 - _2_Impegni, dell'articolo, possono essere impegni :  interni, a fronte di produzione interna; esterni a fronte di conto lavoro, risorse legate alla produzione interna
 - _2_Schede, se si seleziona questa forma si apre la finestra per l'impostazione delle schede movimenti (l'uso è stato spiegato nell'interrogazione movimenti)

@@ -9,7 +9,7 @@ Occorre definire una colonna aggiuntiva (nello stesso modo in cui viene definita
 
 Gli eventuali campi della tabella coinvolti nella formula devono essere specificati nel formato "[nomecampo]".
 Esempio : 
-'<Colonna Cod="T$MED1" Txt="Media1" Tip="" Lun="10" IO="O" Ogg="NR" Formula="[T$X01C]/[T$X01D]"/>' '<Colonna Cod="T$MED2" Txt="Media2" Tip="" Lun="10" IO="O" Ogg="NR" Formula="([T$X01C]/[T$X01D])+5*[T$MED1]"/>'
+'<Colonna Cod="T$MED1" Txt="Media1" Tip="" Lun="10" IO="O" Ogg="NR" Formula="[T$X01C]/[T$X01D]"/>' '<Colonna Cod="T$MED2" Txt="Media2" Tip="" Lun="10" IO="O" Ogg="NR" Formula="([T$X01C]/[T$X01D])+5\*[T$MED1]"/>'
 Dove T$X01C e T$X01D sono due campi della tabella.
 
 ### Come specificare una formula nel setup di una matrice
@@ -21,7 +21,7 @@ Dove :  DescrittoreFormula(x)="<CodiceColonna>;<TitoloColonna>;<Formula>;<Lunghe
 CodiceColonna non deve essere già presente tra i campi della matrice. Decimali è ovviamente facoltativo; nel caso di colonne alfanumeriche lasciarlo in bianco.
 
 Esempio (analogo al precedente) : 
-Formulas="T$MED1;Media1; [T$X01C]/[T$X01D];10;0;NR|T$MED2;Media2;([T$X01C]/[T$X01D])+5*[T$MED1];10;0;NR"
+Formulas="T$MED1;Media1; [T$X01C]/[T$X01D];10;0;NR|T$MED2;Media2;([T$X01C]/[T$X01D])+5\*[T$MED1];10;0;NR"
 
 La risoluzione delle formule, a livello di singolo record, avviene all'atto della costruzione della tabella in memoria. Nel caso quindi di Matrici di Aggiornamento non verrà aggiornato il valore di una colonna calcolata se modificati I valori delle colonne coinvolte.
 Come si vede dagli esempi, una formula può fare riferimento ad altre colonne "calcolate"

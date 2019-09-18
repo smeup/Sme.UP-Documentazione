@@ -66,9 +66,9 @@ In alternativa nelle list box si può anche schiacciare il bottone trova, indica
 
 
 
-### Uso del carattere "*" : 
-- Come risultato di questa ricerca (A*) si ottengono tutti i dati che iniziano con "A".
-- Come risultato di questa ricerca (*ia*) si ottengono tutti i dati nei quali è presente la combinazione di lettere "ia".
+### Uso del carattere "\*" : 
+- Come risultato di questa ricerca (A\*) si ottengono tutti i dati che iniziano con "A".
+- Come risultato di questa ricerca (\*ia\*) si ottengono tutti i dati nei quali è presente la combinazione di lettere "ia".
 - Stesso procedimento avviene per la ricerca di numeri, con la piccola aggiunta di due simboli, e cioè del ">" o del "<".
 
 

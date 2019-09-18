@@ -4,4 +4,4 @@ Attualmente non è stata prevista nessuna funzione di copia automatica, che è d
 E' invece previsto che la consultazione possa essere eseguita su questi impegni.
 
 Per tutte le informazioni, riferirsi alla documentazione del file orginario
- :  : DEC T(OJ) P(*FILE) K(M5IMPE0F)
+ :  : DEC T(OJ) P(\*FILE) K(M5IMPE0F)

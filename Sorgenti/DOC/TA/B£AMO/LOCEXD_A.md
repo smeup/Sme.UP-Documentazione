@@ -10,10 +10,10 @@ Nata come strumento per visualizzare i dati di un oggetto di Sme.up, quindi lega
 In parallelo sono state aggiunte diverse funzionalità per quanto riguarda la dinamicità tra le varie sezioni che compongono una scheda :  è possibile operare delle scelte sui dati mostrati in una sezione per condizionare i dati mostrati in altre sezioni (selezionare un cliente da una lista per vederne gli ordini attivi, ad esempio).
 
 È quindi possibile, ora, utilizzare la scheda per realizzare dei veri e propri "cruscotti" di controllo; accanto alle classiche schede cliente, articolo, ecc., si possono implementare schede più generali, come ad esempio : 
- * Scheda riepilogativa di tutti gli ordini di vendita attivi
- * Scheda delle statistiche degli agenti
- * Scheda degli indici di andamento dell'azienda
- * Schede di andamento della produzione
+ \* Scheda riepilogativa di tutti gli ordini di vendita attivi
+ \* Scheda delle statistiche degli agenti
+ \* Scheda degli indici di andamento dell'azienda
+ \* Schede di andamento della produzione
 
 ## Come accedere ad esempi di scheda
 
@@ -23,39 +23,39 @@ In parallelo sono state aggiunte diverse funzionalità per quanto riguarda la di
 # Associazione scheda oggetto
 Una scheda è individuata dal nome del suo script, salvato in un membro di file AS/400.
 Distinguiamo due categorie di schede, a seconda del nome dello script ad esse associato : 
- * Schede generiche
- * Schede di oggetto
+ \* Schede generiche
+ \* Schede di oggetto
 
 ## Schede generiche
 Uno script di scheda può avere un nome qualsiasi; la scheda corrispondente può essere lanciata come una normale funzione di LOOC.up, quindi : 
- * Dalla barra dei menù di Looc.up, Servizi / Funzione libera
- * Dai menù di Looc.up (quindi elemento della TAMEA)
- * Da una voce dei Preferiti
- * Da un altro componente di Looc.up, come un albero o un'altra scheda
+ \* Dalla barra dei menù di Looc.up, Servizi / Funzione libera
+ \* Dai menù di Looc.up (quindi elemento della TAMEA)
+ \* Da una voce dei Preferiti
+ \* Da un altro componente di Looc.up, come un albero o un'altra scheda
 
-La funzione da chiamare è del tipo F(EXD;*SCO;) 1(...;...;...) 2(...;...;...) 3(...;...;...) 4(...;...;...) P(...), dove : 
- * EXD è il componente scheda
- * *SCO il servizio (programma JATRE_18C) che fornisce l'XML al componente in seguito all'interpretazione di uno script
- * negli Oggetti da 1 a 4 va specificato, secondo varie modalità, quale script elaborare
- * P è una stringa attraverso cui possono essere passati ulteriori parametri il cui valore condizionerà l'esecuzione dello script.
- *INPUT è un ulteriore stringa in cui gli si possono passare parametri aggiuntivi
+La funzione da chiamare è del tipo F(EXD;\*SCO;) 1(...;...;...) 2(...;...;...) 3(...;...;...) 4(...;...;...) P(...), dove : 
+ \* EXD è il componente scheda
+ \* \*SCO il servizio (programma JATRE_18C) che fornisce l'XML al componente in seguito all'interpretazione di uno script
+ \* negli Oggetti da 1 a 4 va specificato, secondo varie modalità, quale script elaborare
+ \* P è una stringa attraverso cui possono essere passati ulteriori parametri il cui valore condizionerà l'esecuzione dello script.
+ \*INPUT è un ulteriore stringa in cui gli si possono passare parametri aggiuntivi
 
 ## Schede associate ad un oggetto
 Le schede il cui nome di script corrisponde a un Tipo-Parametro di Sme.up sono un sottocaso delle schede generiche :  sono associate agli oggetti di quel tipo e, in aggiunta alle modalità di lancio delle schede generiche, possono essere richiamate : 
- * Dall'F4 nella schermata iniziale di LOOC.up specificando un oggetto e dando OK;
- * Da qualunque punto in LOOC.up in cui un campo sia riconosciuto come oggetto, cliccando su "scheda oggetto" nelle azioni presentate con il clic del tasto destro su un oggetto.
+ \* Dall'F4 nella schermata iniziale di LOOC.up specificando un oggetto e dando OK;
+ \* Da qualunque punto in LOOC.up in cui un campo sia riconosciuto come oggetto, cliccando su "scheda oggetto" nelle azioni presentate con il clic del tasto destro su un oggetto.
 
 Dato un oggetto, viene cercato uno script dal nome corrispondente al "Tipo-Parametro" dell'oggetto; se c'è non viene cercato uno script dal nome "Tipo"; se anche questo manca viene utilizzato lo script dell'oggetto OGOG, se definito, oppure uno script di default.
 
 ## Sottoschede
 All'interno di ciascuna scheda è possibile definire sottoschede richiamabili dalla scheda di appartenenza o da altre schede. Per il richiamo di sottoschede si distinguono due casi : 
- * La sottoscheda appartiene alla scheda origine : 
+ \* La sottoscheda appartiene alla scheda origine : 
 In questo caso il caricamento avviene semplicemente con il comando
  :  : D.SCH Nam(NOME_SOTTOSCHEDA)
 
- * La sottoscheda appartiene ad una scheda diversa da quella di origine
+ \* La sottoscheda appartiene ad una scheda diversa da quella di origine
 In questo caso il caricamento avviene invece con il comando
- :  : D.FUN.STD F(EXD;*SCO;) 2(MB;SCP_SCH;NOME_SCHEDA) 4(;;NOME_SOTTOSCHEDA)
+ :  : D.FUN.STD F(EXD;\*SCO;) 2(MB;SCP_SCH;NOME_SCHEDA) 4(;;NOME_SOTTOSCHEDA)
 
 # Esecuzione di una scheda
 Tipicamente una scheda di oggetto viene eseguita su una particolare istanza dell'oggetto a cui è associata, indicata nel parametro Oggetto 1 :  la struttura dei dati mostrati è comune (impostata nello script di scheda), cambiano i valori presentati.
@@ -64,13 +64,13 @@ Ulteriori oggetti o opzioni possono essere passati nel parametro P(...) e libera
 
 ## Esempi
 Schede generiche : 
- * Un cruscotto di controllo che mostra tutti gli ordini attivi di un'azienda, richiamato con F(EXD;*SCO;) 2(MB;SCP_SCH;ORDINI)
- * La stessa scheda, filtrata sugli ordini dell'agente 00 :  F(EXD;*SCO;) 2(MB;SCP_SCH;ORDINI) P(AGE(00))
- * La stessa scheda, filtrata sugli ordini dell'agente 00 e del cliente 000001 :  F(EXD;*SCO;) 1(CN;CLI;000001) 2(MB;SCP_SCH;ORDINI) P(AGE(00)). In questo caso nella scheda sono disponibili per la visualizzazione anche gli OAV del cliente in esame.
+ \* Un cruscotto di controllo che mostra tutti gli ordini attivi di un'azienda, richiamato con F(EXD;\*SCO;) 2(MB;SCP_SCH;ORDINI)
+ \* La stessa scheda, filtrata sugli ordini dell'agente 00 :  F(EXD;\*SCO;) 2(MB;SCP_SCH;ORDINI) P(AGE(00))
+ \* La stessa scheda, filtrata sugli ordini dell'agente 00 e del cliente 000001 :  F(EXD;\*SCO;) 1(CN;CLI;000001) 2(MB;SCP_SCH;ORDINI) P(AGE(00)). In questo caso nella scheda sono disponibili per la visualizzazione anche gli OAV del cliente in esame.
 
 Schede di oggetto : 
- * La scheda del cliente 000001, richiamata con F(EXD;*SCO;) 1(CN;CLI;000001)
- * La scheda dei dati di base dell'articolo A01, richiamata con F(EXD;*SCO;) 1(AR;;A01) 3(;;BAS)
+ \* La scheda del cliente 000001, richiamata con F(EXD;\*SCO;) 1(CN;CLI;000001)
+ \* La scheda dei dati di base dell'articolo A01, richiamata con F(EXD;\*SCO;) 1(AR;;A01) 3(;;BAS)
 
 # Perchè usare la scheda
 ## Modularità

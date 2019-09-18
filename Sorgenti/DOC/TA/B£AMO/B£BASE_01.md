@@ -75,21 +75,21 @@ La definizione del nuovo oggetto avviene tramite C.NEW, per esempio :
  :  : C.NEW Pos="M" Ogg="CNNOM" Txt="Account"
 Per casi specifici in cui un oggetto può avere diverse funzioni di creazione si può usare  :  : C.MNU indicando la funzione specifica, come in questi 2 casi di esempio sullo
 stesso oggetto E3£C1 : 
- :  : C.MNU Pos="M" Txt="Telefonata" Fun="F(EXD;*SCO;) 1(E3;£C1;) 2(MB;SCP_SCH;LOA36)
-INPUT(InzDat(N§CAEV(003) N§CTEV(£F1))) P(AziExe(01) FunFin(Reload) &PA.*ALL)"
- :  : C.MNU Pos="M.A" Txt="Mail" Fun="F(EXD;*SCO;) 1(E3;£C1;) 2(MB;SCP_SCH;LOA36)
-INPUT(InzDat(N§CAEV(003) N§CTEV(£F1))) P(AziExe(01) FunFin(Reload) &PA.*ALL)"
+ :  : C.MNU Pos="M" Txt="Telefonata" Fun="F(EXD;\*SCO;) 1(E3;£C1;) 2(MB;SCP_SCH;LOA36)
+INPUT(InzDat(N§CAEV(003) N§CTEV(£F1))) P(AziExe(01) FunFin(Reload) &PA.\*ALL)"
+ :  : C.MNU Pos="M.A" Txt="Mail" Fun="F(EXD;\*SCO;) 1(E3;£C1;) 2(MB;SCP_SCH;LOA36)
+INPUT(InzDat(N§CAEV(003) N§CTEV(£F1))) P(AziExe(01) FunFin(Reload) &PA.\*ALL)"
 
 ## Gestione delle azioni "Nuovo"
 Le azioni sugli oggetti sono definite nel file SCP_SET nel membro B£GES0. C'è anche la possibilità
 di definire azioni personalizzate nel membro B£GES0_U.
 Le azioni vengono definite tramite  :  : AZI.FUN indicando Ese="01", per esempio : 
- :  : AZI.FUN Cod="RN" Ese="01" Fun="F(EXD;*SCO;) 1(RN;;) 2(MB;SCP_SCH;LOA36) P(AziExe(01))"
+ :  : AZI.FUN Cod="RN" Ese="01" Fun="F(EXD;\*SCO;) 1(RN;;) 2(MB;SCP_SCH;LOA36) P(AziExe(01))"
 Eventuali parametri specifici per la creazione di un nuovo oggetto da un oggetto master possono
 essere definiti tramite  :  : AZI.NEW, per esempio : 
  :  : AZI.NEW Cod="CNNOM" Inp="InzDat(R1COEN(&OG.K2))"
 Dai 2 esempi di cui sopra la funzione di creazione di un oggetto RN partendo da un CNNOM sarà : 
-F(EXD;*SCO;) 1(RN;;) 2(MB;SCP_SCH;LOA36) P(AziExe(01)) INPUT(InzDat(R1COEN(&OG.K2)))
+F(EXD;\*SCO;) 1(RN;;) 2(MB;SCP_SCH;LOA36) P(AziExe(01)) INPUT(InzDat(R1COEN(&OG.K2)))
 dove in &OG.K2 verrà inserito il codice oggetto del CNNOM.
 
 Nota :  per ovviare a problemi di performance le autorizzazioni sono gestite a livello di esecuzione

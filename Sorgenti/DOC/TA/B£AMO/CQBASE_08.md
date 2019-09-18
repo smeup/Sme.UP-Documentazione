@@ -1,13 +1,13 @@
 # Oggettizzazione
 
 A partire dal rilascio V2R3 è stata cambiata l'oggettizzazione degli oggetti DQ per garantirne le proprietà minime come oggetti Sme.up e standardizzarne i comportamenti : 
- * Prima :  il codice dell'oggetto era dato dal campo G§ACO1, ovvero una sottochiave del record CQDOMA. Questo non garantisce l'univocità degli oggetti, infatti si possono avere più documenti con lo stesso codice 1 (che differiscono ad esempio per il codice 2 o il livello di modifica).
- * Ora :  il codice dell'oggetto è il campo G§NUDO, che svolge le funzioni di numeratore (e quindi IDOJ) del file CQDOMA0F.
+ \* Prima :  il codice dell'oggetto era dato dal campo G§ACO1, ovvero una sottochiave del record CQDOMA. Questo non garantisce l'univocità degli oggetti, infatti si possono avere più documenti con lo stesso codice 1 (che differiscono ad esempio per il codice 2 o il livello di modifica).
+ \* Ora :  il codice dell'oggetto è il campo G§NUDO, che svolge le funzioni di numeratore (e quindi IDOJ) del file CQDOMA0F.
 
 Il parametro non è cambiato, è sempre il tipo documento.
 
 ## G§NUDO
-Il vincolo che il campo G§NUDO sia IDOJ del file CQDOMA0F è debole, ovvero non è forzato *UNIQUE sul file.
+Il vincolo che il campo G§NUDO sia IDOJ del file CQDOMA0F è debole, ovvero non è forzato \*UNIQUE sul file.
 Questo per garantire la compatibilità con il passato :  il numeratore è calcolato dalla tabella CRNDO, nome elemento=tipo documento.
 Due documenti di tipo diverso, quindi, possono fare riferimento a due elementi diversi di tabella CRN :  tipicamente gli elementi della tabella CRNDO sono compilati con il tipo documento come prefisso, ma quando non è così è possibile avere due documenti con lo stesso numeratore.
 Per aggirare questo possibile problema nelle future installazioni ed evitare che l'univocità dipenda dal fatto che sia compilata bene la tabella CRNDO è stata aggiunta la possibilità di specificare in tabella CR1 un unico elemento della CRNDO da usare per generare i numeratori di TUTTI i documenti, di qualsiasi tipo.

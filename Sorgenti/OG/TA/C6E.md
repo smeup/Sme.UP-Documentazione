@@ -11,7 +11,7 @@ Indica il codice della fonte.
  :  : FLD T$C6EB **Parametro 1/2 Fonte**
 Assumono un significato diverso in funzione dell'origine fonte : 
 _Se l'origine è AP (altra applicazione)  : _
-Il primo parametro è la sigla del'applicazione (elemento della tabella '*CNAA').
+Il primo parametro è la sigla del'applicazione (elemento della tabella '\*CNAA').
 Il secondo parametro è controllato dal programma specifico B£TC6E_xx, dove xx è la sigla dell'applicazione.
 _Se l'origine è UT (fonte utente)  : _
 Sono un programma ed un parametro di condizionamento, per interfacciare fonti esterne a SMEUP.
@@ -27,6 +27,6 @@ Se impostato, mostra la riga della fonte anche se con valore zero.
  :  : FLD T$C6EI **Suffisso programma aggiustamento**
 Se impostato, è il suffisso x del programma C5C6D0G_x, che viene lanciato all'atto della scrittura di questo tipo, per modificarne il comportamento.
  :  : FLD T$C6EL **Riclassifica**
-È un elemento della tabella 'C5*RF' :  viene usato nell'analisi disponibilità riepilogata. Se impostato, verranno raggruppate per questo campo. Se non impostato verrà assunta come riclassifica l'azione fonte della stessa tabella.
+È un elemento della tabella 'C5\*RF' :  viene usato nell'analisi disponibilità riepilogata. Se impostato, verranno raggruppate per questo campo. Se non impostato verrà assunta come riclassifica l'azione fonte della stessa tabella.
  :  : FLD T$C6EM **Ordinamento riclassifica**
 È usato nelle analisi disponibilità riepilogata :  all'interno della riclassifica impostata nel campo fonti, verranno presentate ordinate per questo campo. Se non impostato verrà assunto come ordinamento fonte.

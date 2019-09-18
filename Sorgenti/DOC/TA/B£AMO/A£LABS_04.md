@@ -28,7 +28,7 @@ Questi tre tipi di attività potranno ripetersi anche su ogni altro progetto.
 
 # Come evidenziare le funzioni che sono sotto sviluppo
 Quando voglio dire che l'attività è in fase di lavoro, invece di scrivere la funzione metterò il richiamo alla scheda : 
-F(EXD;*SCO;) 1(TA;B£AMO;modulo in sviluppo) 2(MB;SCP_SCH;A£LABS_ATT) 4(;;DETATT)
+F(EXD;\*SCO;) 1(TA;B£AMO;modulo in sviluppo) 2(MB;SCP_SCH;A£LABS_ATT) 4(;;DETATT)
 Nel campo di input metterò : 
 
 - PRO() Progetto

@@ -54,7 +54,7 @@ COSRIG -----> COSTRUZIONE RIGA
  EVAL £G25FU='Funzione'
  EVAL £G25FI=NomeFile
  EVAL £G25SC=Schema
- Z-ADD Lung_Riga £G25LN C* EXSR £G25
+ Z-ADD Lung_Riga £G25LN C\* EXSR £G25
 
  Output : 
  EVAL Titoli1=£G25R1

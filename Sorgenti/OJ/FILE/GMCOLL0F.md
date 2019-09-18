@@ -1,7 +1,7 @@
 ## Contenuto
 Dati anagrafici dei colli.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'CZ'                               £FUNT1
 
 ## Chiave primaria

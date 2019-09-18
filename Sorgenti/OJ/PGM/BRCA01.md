@@ -3,8 +3,8 @@ Gestire i cambi giornalieri verso la valuta di riferimento
 
 # Formato guida
 ![BRCAMB_005](http://localhost:3000/immagini/MBDOC_OGG-P_BRCA01/BRCAMB_005.png)Oltre alle opzioni consuete questo programma prevede anche : 
- * _2_PR - Progressione, mostra una visualizzazione grafica, a partire dalla data in input in avanti della variazione del cambio
- * _2_RG - Regressione, mostra una visualizzazione grafica, a partire dalla data in input all'indietro della variazione del cambio
+ \* _2_PR - Progressione, mostra una visualizzazione grafica, a partire dalla data in input in avanti della variazione del cambio
+ \* _2_RG - Regressione, mostra una visualizzazione grafica, a partire dalla data in input all'indietro della variazione del cambio
 
 # Formato lista
 ![BRCAMB_006](http://localhost:3000/immagini/MBDOC_OGG-P_BRCA01/BRCAMB_006.png)

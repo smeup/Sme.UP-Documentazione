@@ -6,14 +6,14 @@ essere utilizzata all'interno di una scheda o chiamata da menù.
 ## Utilizzo di un set di query
 Se si desidera utilizzare un set di query per un determinato oggetto, è possibile includere
 o linkare la seguente funzione : 
-F(EXD;*SCO;) 1(OG;;[OG]) 2(MB;SCP_SCH;C_Q1) 4(;;ESE)
+F(EXD;\*SCO;) 1(OG;;[OG]) 2(MB;SCP_SCH;C_Q1) 4(;;ESE)
 
 La scheda è disponibile per l'oggetto OG (sezione query), accessibile quindi da F4.
 
 ## Utilizzo di una singola query
 Se si desidera utilizzare una singola query per un determinato oggetto, è possibile includere
 o linkare la seguente funzione : 
-F(EXD;*SCO;) 1(Q1;[OG];[Q1]) 2(MB;SCP_SCH;Q1) 4(;;ESE)
+F(EXD;\*SCO;) 1(Q1;[OG];[Q1]) 2(MB;SCP_SCH;Q1) 4(;;ESE)
 
 La scheda è disponibile per l'oggetto Q1 (sezione esecuzione), accessibile quindi da F4.
 

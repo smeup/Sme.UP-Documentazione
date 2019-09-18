@@ -7,19 +7,19 @@ La scheda è generica e quindi può essere applicata a fenomeni diversi :  uno d
 All'apertura la scheda si presenta nel modo seguente : 
 
 ![LOA03_001](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA03/LOA03_001.png)
- * Nella sezione denominata _2_valori vengono elencati i valori disponibili per l'analisi (nell'esempio quantità, importo, costo, margine, ecc...). Affinchè nella parte di destra vengano visualizzati dei valori deve essere selezionato un elemento (es. Importo netto).
- * Nella sotto-sezione denominata _2_verticale deve essere scelto l'oggetto, o uno dei suoi attributi (OAV) da utilizzare per la rappresentazione verticale dei valori
- * Nella sotto-sezione denominata _2_orizzontale deve essere scelto l'oggetto, o uno dei suoi attributi (OAV) da utilizzare per la rappresentazione orizzontale dei valori
- * Nella sotto-sezione denominata _2_schemi sono già predisposte alcune combinazioni di elementi verticale / orizzontale di frequente utilizzo
- * Nella sezione di destra, _2_gestione di un piano vengono presentate le diverse analisi possibili. Le stesse visualizzazioni sono visibili cliccando il tab "Gestione di un piano" della scheda.
+ \* Nella sezione denominata _2_valori vengono elencati i valori disponibili per l'analisi (nell'esempio quantità, importo, costo, margine, ecc...). Affinchè nella parte di destra vengano visualizzati dei valori deve essere selezionato un elemento (es. Importo netto).
+ \* Nella sotto-sezione denominata _2_verticale deve essere scelto l'oggetto, o uno dei suoi attributi (OAV) da utilizzare per la rappresentazione verticale dei valori
+ \* Nella sotto-sezione denominata _2_orizzontale deve essere scelto l'oggetto, o uno dei suoi attributi (OAV) da utilizzare per la rappresentazione orizzontale dei valori
+ \* Nella sotto-sezione denominata _2_schemi sono già predisposte alcune combinazioni di elementi verticale / orizzontale di frequente utilizzo
+ \* Nella sezione di destra, _2_gestione di un piano vengono presentate le diverse analisi possibili. Le stesse visualizzazioni sono visibili cliccando il tab "Gestione di un piano" della scheda.
 
 ## Gestione di un piano
 Questa sezione della scheda è preposta alla visualizzazione, nei vari formati, del risultato della selezione eseguita su Valori, Verticale, Orizzontale.
 
 ### Visualizzazione Valore scelto
 Viene mostrato il valore scelto nella sezione "Valori" in una tabella con sviluppo : 
- * verticale per l'oggetto scelto nella sottosezione Verticale
- * orizzontale per l'oggetto scelto nella sottosezione Orizzontale
+ \* verticale per l'oggetto scelto nella sottosezione Verticale
+ \* orizzontale per l'oggetto scelto nella sottosezione Orizzontale
 
 ![LOA03_002](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA03/LOA03_002.png)
 ### Visualizzazione Grafico

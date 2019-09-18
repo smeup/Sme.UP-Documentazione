@@ -17,10 +17,10 @@ Le voci di menù _H_Oggetti per esempi** e **Costruzione dati di esmepio** coinv
 # FUNZIONI/METODI
 
 Tra i vari metodi che il servizio espone, si notino : 
-* LIS.CLS (Lista Classi)
-* LIS.PRF (Lista Preferiti)
-* GEN.SCG
-* GEN.SCP
-* GEN.FUN
+\* LIS.CLS (Lista Classi)
+\* LIS.PRF (Lista Preferiti)
+\* GEN.SCG
+\* GEN.SCP
+\* GEN.FUN
 
 # PROTOTIPI

@@ -10,26 +10,26 @@ Abitualmente questo programma viene richiamato dalle funzioni di ricevimento e g
 
 ## Algoritmo di calcolo
 Le tabelle utilizzate dall'algoritmo di determinazione del piano di campionamento sono : 
- * CQ1 (Tabella di personalizzazione) determina : 
- ** Il piano di campionamento ed il livello di collaudo assunti per default
- ** Il piano di campionamento ed il livello di cllaudo per un lotto in prima fornitura
- ** Il piano di campionamento ed il livello di collaudo per un lotto ricevuro da un fornitore non omologato o non abilitato alla fornitura di quel particolare
- ** I programmi da utilizzare per la determinazione della classe funzionale dell'articolo e della classe di abilitazione del fornitore.
- * CQV (Classe di abilitazione del fornitore) determina : 
- ** La classe funzionale massima per cui il fornitore è abilitato (vedi esempio successivo)
- ** La classe funzionale massima dell'articolo fornito che può essere collaudato in FREE PASS
- * CQQ (Classe funzionale del prodotto) determina : 
- ** Il piano di campionamento ed il livello di collaudo assunti per l'articolo (se non specificato viene utilizzato quello presente in CQ1)
- ** Il piano di campionamento ed il livello di collaudo di prima fornitura per l'articolo (se non specificato viene utilizzato quello presente in CQ1)
- ** Il piano di campionamento ed il livello di collaudo da utilizzare nel caso di fornitore non omologato o non abilitato (se non specificato viene utilizzato quello presente in CQ1) piano di campionamento e/o del livello di collaudo tramite questo algoritmo
- ** Abilitazione od interdizione al collaudo in FREE PASS
- ** Il piano di campionamento ed il livello di collaudo da utilizzare nonchè della frequenza del collaudo nel caso di lotti in FREE PASS (per esempio collaudare il lotto con il piano U3B al livello II dopo 10 lotti consecutivi collaudati in FREE PASS
- * CQB (Esito controllo collaudo) determina : 
- ** L'obbligatorietà al declassamento del piano di campionamento
- ** L'obbligatorietà al declassamento del livello di collaudo
- * CQR (Regole di commutazione P.d.C.) determina : 
- ** La regola che determina il passaggio ad un piano di campionamento o ad un livello di collaudo più leggeri (per esempio per il piano di campionamento U2B si potrebbe specificare il passaggio al piano U2A nel caso in cui l'esito del collaudo sia stato conforme per gli ultimi 5 lotti consecutivi)
- ** La regola che determina il passaggio ad un piano di campionamento o ad un livello di collaudo più pesanti (per esempio per il piano di campionamento U2A si potrebbe specificare il passaggio al piano U2B nel caso in cui l'esito del collaudo sia stato non conforme per 2 degli ultimi 5 lotti ricevuti)
+ \* CQ1 (Tabella di personalizzazione) determina : 
+ \*\* Il piano di campionamento ed il livello di collaudo assunti per default
+ \*\* Il piano di campionamento ed il livello di cllaudo per un lotto in prima fornitura
+ \*\* Il piano di campionamento ed il livello di collaudo per un lotto ricevuro da un fornitore non omologato o non abilitato alla fornitura di quel particolare
+ \*\* I programmi da utilizzare per la determinazione della classe funzionale dell'articolo e della classe di abilitazione del fornitore.
+ \* CQV (Classe di abilitazione del fornitore) determina : 
+ \*\* La classe funzionale massima per cui il fornitore è abilitato (vedi esempio successivo)
+ \*\* La classe funzionale massima dell'articolo fornito che può essere collaudato in FREE PASS
+ \* CQQ (Classe funzionale del prodotto) determina : 
+ \*\* Il piano di campionamento ed il livello di collaudo assunti per l'articolo (se non specificato viene utilizzato quello presente in CQ1)
+ \*\* Il piano di campionamento ed il livello di collaudo di prima fornitura per l'articolo (se non specificato viene utilizzato quello presente in CQ1)
+ \*\* Il piano di campionamento ed il livello di collaudo da utilizzare nel caso di fornitore non omologato o non abilitato (se non specificato viene utilizzato quello presente in CQ1) piano di campionamento e/o del livello di collaudo tramite questo algoritmo
+ \*\* Abilitazione od interdizione al collaudo in FREE PASS
+ \*\* Il piano di campionamento ed il livello di collaudo da utilizzare nonchè della frequenza del collaudo nel caso di lotti in FREE PASS (per esempio collaudare il lotto con il piano U3B al livello II dopo 10 lotti consecutivi collaudati in FREE PASS
+ \* CQB (Esito controllo collaudo) determina : 
+ \*\* L'obbligatorietà al declassamento del piano di campionamento
+ \*\* L'obbligatorietà al declassamento del livello di collaudo
+ \* CQR (Regole di commutazione P.d.C.) determina : 
+ \*\* La regola che determina il passaggio ad un piano di campionamento o ad un livello di collaudo più leggeri (per esempio per il piano di campionamento U2B si potrebbe specificare il passaggio al piano U2A nel caso in cui l'esito del collaudo sia stato conforme per gli ultimi 5 lotti consecutivi)
+ \*\* La regola che determina il passaggio ad un piano di campionamento o ad un livello di collaudo più pesanti (per esempio per il piano di campionamento U2A si potrebbe specificare il passaggio al piano U2B nel caso in cui l'esito del collaudo sia stato non conforme per 2 degli ultimi 5 lotti ricevuti)
 
 Esempio di Classe Funzionale Classe di Abilitazione
 >CLASSE FUNZIONALE PRODOTTO

@@ -51,7 +51,7 @@ Per indicare una schiera :
 .                                            \_ la inizializzo con
 .                                               un valore
 .     DVAR2             S                   LIKE(VAR1)
-.                                            \_ equivale a un DEFN *LIKE
+.                                            \_ equivale a un DEFN \*LIKE
 .
 
 
@@ -60,7 +60,7 @@ Per ulteriori approfondimenti leggere i capitoli inerenti l'argomento.
 ## Espressioni
 Le espressioni sono dei gruppi di comandi / operatori che possono essere scritte nel fattore 2 esteso (rendendo il codice più flessibile e leggibile) su più righe, senza la necessità di utilizzare caratteri di continuazione.
 >     C                   IF        $A=3 AND ($AZIO='R' OR $AZIO='r')
-     C                             AND *IN45=*ON
+     C                             AND \*IN45=\*ON
 
 
 Possono essere utilizzate solo se l'operazione supporta il fattore 2 esteso.
@@ -71,9 +71,9 @@ Le funzioni interne sono comandi (quali SUBST, SCAN, EQUAL, ...) che iniziano co
 
 
 ## Operandi particolari
-Oltre ai vari +, -, / (diviso), * (moltiplica), <, >, <> (diverso), >=, <=, AND, OR, NOT, alcuni particolari sono : 
->. ** -> elevamento a potenza
-.     C                   EVAL      CUBO=2**3
+Oltre ai vari +, -, / (diviso), \* (moltiplica), <, >, <> (diverso), >=, <=, AND, OR, NOT, alcuni particolari sono : 
+>. \*\* -> elevamento a potenza
+.     C                   EVAL      CUBO=2\*\*3
 
 avrà come risultato 8 nella variabile CUBO.
 + -> se utilizzato fra stringhe esegue un concatenamento.
@@ -83,24 +83,24 @@ avrà come risultato la stringa 'Pippo, Paperino' in TESTO.
 
 ## Parole chiave
 Le parole chiave del linguaggio sono rimaste sostanzialmente le stesse, eccetto per alcune varianti : 
- * SETOF -> SETOFF
- * SELEC -> SELECT
- * LOKUP -> LOOKUP
- * UPDAT -> UPDATE
- * REDPE -> READPE
- * DEFN  -> DEFINE
- * DELET -> DELETE
- * EXCPT -> EXCEPT
- * OCUR  -> OCCUR
+ \* SETOF -> SETOFF
+ \* SELEC -> SELECT
+ \* LOKUP -> LOOKUP
+ \* UPDAT -> UPDATE
+ \* REDPE -> READPE
+ \* DEFN  -> DEFINE
+ \* DELET -> DELETE
+ \* EXCPT -> EXCEPT
+ \* OCUR  -> OCCUR
 
 Le opzioni che prima si mettevano in posizione 53 ('P' per pulizia campo, 'H' per arrotondamento, 'N' per lettura senza allocazione) devono adesso essere specificate fra parentesi dopo l'operazione.
 Es. :  MOVEL(P), DIV(H), CHAIN(N).
 
 Alle operazioni di confronto ne sono state aggiunte altre che permettono di sfruttare il fattore 2 esteso, esplicitando su una stessa riga più confronti logici e raggruppandoli tramite parentesi : 
- * WHEN
- * IF
- * DOW
- * DOU
+ \* WHEN
+ \* IF
+ \* DOW
+ \* DOU
 
 Esempio
 >.     C                   IF        $A=3 AND ($AZIO='R' OR $AZIO='r')
@@ -109,15 +109,15 @@ Esempio
 E' stata aggiunta l'istruzione FOR, che permette di eseguire dei cicli decidendo il passo di incremento.
 > .    C                   EVAL      FATT=1
  .    C                   FOR       X = 1 TO N
- .    C                   EVAL      FATT = FATT * X
+ .    C                   EVAL      FATT = FATT \* X
  .    C                   ENDFOR
 
 Esegue il calcolo di n fattoriale.
 La sintassi è : 
- * FOR  Indice = valore_iniziale BY incremento TO|DOWNTO limite_finale
- * incremento :  passo di incremento
- * TO :  incremento viene sommato a valore_iniziale
- * DOWNTO :  incremento viene sottratto a valore_iniziale
+ \* FOR  Indice = valore_iniziale BY incremento TO|DOWNTO limite_finale
+ \* incremento :  passo di incremento
+ \* TO :  incremento viene sommato a valore_iniziale
+ \* DOWNTO :  incremento viene sottratto a valore_iniziale
 
 Esempio per trovare in una stringa STR l'ultima posizione di 'H'.
 >.     C                   FOR       X = %LEN(STR) DOWNTO 1
@@ -226,9 +226,9 @@ L'errore è segnalato a causa di una doppia definizione :  (A) e (B). Nel caso i
 .     D  SCK01                        10    DIM(20)
 
 Con questa codifica verranno definite le variabili : 
- * CMP01, campo alfanumerico dl 10
- * SCK01, schiera di 20 elementi alfanumerici lunghi 10
- * DSTOT, struttura dati che costituisce l'insieme dei due.
+ \* CMP01, campo alfanumerico dl 10
+ \* SCK01, schiera di 20 elementi alfanumerici lunghi 10
+ \* DSTOT, struttura dati che costituisce l'insieme dei due.
 
 Per quanto riguarda la lunghezza di una DS, si possono verificare due casi : 
  - nel caso essa non sia specificata, verrà determinata come somma dei suoi sottocampi;
@@ -258,7 +258,7 @@ _Esempi di definizioni_
 .     D  CAMPO6                       15    OVERLAY(CAMPO2 : 16)
 .                      equivalente alla specifica precedente
 .                                                          \
-.     D  CAMPO6                       15    OVERLAY(CAMPO2 : *NEXT)
+.     D  CAMPO6                       15    OVERLAY(CAMPO2 : \*NEXT)
 .
 .Per indicare una DS esterna
 .     DBRARTI         E DS                  EXTNAME(BRARTI0F)
@@ -281,8 +281,8 @@ _Esempi di definizioni_
 E' necessario prestare maggiore cura nella definizione dei campi numerici, poichè se in un'operazione aritmetica di EVAL il risultato è troppo grande, viene emesso un errore (CPF) di overflow.
 
 È stato portato a 00 il livello di gravità di alcuni errori sui file : 
- * file definito, ma non usato;
- * file definito in modo più ampio di quanto effettivamente usato (ad esempio dichiarato in aggiornamento, ma solo letto).
+ \* file definito, ma non usato;
+ \* file definito in modo più ampio di quanto effettivamente usato (ad esempio dichiarato in aggiornamento, ma solo letto).
 
 In compilazione viene controllato che la somma dei sottocampi di una DS non superi la lunghezza della DS stessa.
 
@@ -294,18 +294,18 @@ Non è necessaria una variabile per l'apertura condizionale di un file :  esiste
 
 Ora il numero relativo di record viene sempre aggiornato anche nelle letture per blocchi di record (per esempio con un file in input primario) e l'operazione FREE non è più supportata.
 Dal momento che sono state spostate le posizioni delle parole chiave per le ricerche "alla posizione...", sono richieste le seguenti modifiche : 
- * Nome routine (fattore 1) -> da 18 a 12
- * Codice operazione -> da 28 a 26
- * Fattore 2 -> da 33 a 36
- * Risultato -> da 43 a 50
+ \* Nome routine (fattore 1) -> da 18 a 12
+ \* Codice operazione -> da 28 a 26
+ \* Fattore 2 -> da 33 a 36
+ \* Risultato -> da 43 a 50
 
 # Parametri di compilazione
 ## ACTGRP
 Il ACTGRP parola chiave consente di specificare il gruppo di attivazione del programma è associato a quando è chiamato.
 
-Se ACTGRP (*CALLER) è specificata, allora il programma viene attivato nella attivazione del chiamante gruppo.
+Se ACTGRP (\*CALLER) è specificata, allora il programma viene attivato nella attivazione del chiamante gruppo.
 
-Se ACTGRP (*NEW) è specificata, allora il programma viene attivato in un nuovo gruppo di attivazione ogni volta che il pgm viene richiamato. Il gruppo viene creato/cancellato ogni volta che il pgm viene richiamato/terminato, che il pgm sia che il pgm si chiuda in LR che il pgm si chiuda in RT (perciò è come se il pgm si chiudesse sempre in LR).
+Se ACTGRP (\*NEW) è specificata, allora il programma viene attivato in un nuovo gruppo di attivazione ogni volta che il pgm viene richiamato. Il gruppo viene creato/cancellato ogni volta che il pgm viene richiamato/terminato, che il pgm sia che il pgm si chiuda in LR che il pgm si chiuda in RT (perciò è come se il pgm si chiudesse sempre in LR).
 
 Se ACTGRP (Nome) è specificata, allora il programma viene attivato nella attivazione gruppo di attivazione specificato. Il gruppo di attivazione viene creto nel momento in cui il pgm viene richiamato per la prima volta e rimane attivo fintanto che il lavoro termina o che viene eseguito il comando RCLACTGRP in un momento in cui l'ACTGRP non risulta attivo.
 Perciò che il pgm che lo ha creato si chiuda in LR o in RT non ha effetto sull'ACTGRP mentre ha effetto sul richiamo del pgm stesso :  anche se l'actgrp esiste già se il pgm si chiude in RT il pgm non verrà riaperto, mentre lo sarà se il pgm si chiude in LR.
@@ -321,22 +321,22 @@ Eventuali costanti testuali individuate dal compilatore all'interno delle specif
 >N.B. :  i tipi schiera sono oggetti V2 A£TSK. Basandosi su questa definizione, in fase di compilazione (con CO) viene creata automaticamente la routine £INIZTR.
 
 ### Esclusione automatismi
-In caso il programma debba essere escluso completamente dagli automatismi delle traduzione, è possibile utilizzare l'opzione di compilazione (COP*) ***NOLI** .
+In caso il programma debba essere escluso completamente dagli automatismi delle traduzione, è possibile utilizzare l'opzione di compilazione (COP\*) **\*NOLI** .
 Utilizzando questa opzione : 
- * Non vengono estratte le costanti
- * Non viene controllata l'eventuale presenza di costanti nelle specifiche C
- * Non viene aggiunta la routine di traduzione £INIZTR
- * Non viene controllata la tipizzazione delle schiere
-Se invece il programma necessita di una gestione manuale delle traduzioni, è possibile utilizzare l'opzione di compilazione (COP*) ***NOA£B** .
+ \* Non vengono estratte le costanti
+ \* Non viene controllata l'eventuale presenza di costanti nelle specifiche C
+ \* Non viene aggiunta la routine di traduzione £INIZTR
+ \* Non viene controllata la tipizzazione delle schiere
+Se invece il programma necessita di una gestione manuale delle traduzioni, è possibile utilizzare l'opzione di compilazione (COP\*) **\*NOA£B** .
 Utilizzando questa opzione : 
- * Vengono estratte le costanti
- * Viene controllata la tipizzazione delle schiere
- * Viene controllata l'eventuale presenza di costanti nelle specifiche C
- * Non viene aggiunta la routine di traduzione £INIZTR
+ \* Vengono estratte le costanti
+ \* Viene controllata la tipizzazione delle schiere
+ \* Viene controllata l'eventuale presenza di costanti nelle specifiche C
+ \* Non viene aggiunta la routine di traduzione £INIZTR
 
 ## Utilizzo degli actgrp specifici
-Di default i pgm smeup dovrebbero essere compilati con DFTACTGRP(*NO) e ACTGRP(*CALLER). Qualora però si vogliano cambiare tali definizioni, oltre a dover implementare le relative istruzioni di compilazione (es. COP* DFTACTGRP(*NO) ACTGRP(*NEW)) vanno utilizzate delle /COPY alternative rispetto alla £INIZH.
-- £INIZHAN ACTGRP(*NEW)
+Di default i pgm smeup dovrebbero essere compilati con DFTACTGRP(\*NO) e ACTGRP(\*CALLER). Qualora però si vogliano cambiare tali definizioni, oltre a dover implementare le relative istruzioni di compilazione (es. COP\* DFTACTGRP(\*NO) ACTGRP(\*NEW)) vanno utilizzate delle /COPY alternative rispetto alla £INIZH.
+- £INIZHAN ACTGRP(\*NEW)
 - £INIZHNN ACTGRP(Nome)
 
 ## Utilizzo delle annotazioni
@@ -349,7 +349,7 @@ Sono state attivate le seguenti annotazioni :
 
 ### Trace
 Attraverso queste annotazioni, gestite in RPG come commenti, è possibile attivare la registrazione della traccia. L'utilizzo della traccia deve essere fatto quando si vuole inserire un monitor delle performance.
-L'attivazione della traccia avviene durante la compilazione, attraverso apposito parametro oppure attraverso l'opzione *TRACE da impostare nei parametri di compilazione (COP*), in
+L'attivazione della traccia avviene durante la compilazione, attraverso apposito parametro oppure attraverso l'opzione \*TRACE da impostare nei parametri di compilazione (COP\*), in
 questa maniera la traccia è aggiunta solo quando è necessario monitorizzare le performance.
 
 Il parametro della annotazione **@StartTrace** è il momento **M(<NomeMomento>)**
@@ -371,21 +371,21 @@ Il parametro della annotazione **@StartLog** è il momento **M(<NomeMomento>)**
 Il nome momento viene convertito in una variabile che contiene il tempo di inizio della traccia, per questo motivo non inserire spazi o cartteri speciali nel nome.
 
 I parametri della annotazione **@StopLog** sono i seguenti : 
-*  **M(**<NomeMomento>**)**
-*  **LIBE(**<Testo>**)**
-*  **ORIG(**<Origine>**)**
-*  **WEFU(**<funzione>**)**
-*  **WEME(**<Metodo>**)**
-*  **TPO1(**<1 oggetto>**)**
-*  **CDO1(**<1 istanza>**)**
-*  **TPO1(**<2 oggetto>**)**
-*  **CDO1(**<2 istanza>**)**
-*  **TPO1(**<3 oggetto>**)**
-*  **CDO1(**<3 istanza>**)**
-*  **TPO1(**<4 oggetto>**)**
-*  **CDO1(**<4 istanza>**)**
-*  **TPO1(**<5 oggetto>**)**
-*  **CDO1(**<5 istanza>**)**
+\*  **M(**<NomeMomento>**)**
+\*  **LIBE(**<Testo>**)**
+\*  **ORIG(**<Origine>**)**
+\*  **WEFU(**<funzione>**)**
+\*  **WEME(**<Metodo>**)**
+\*  **TPO1(**<1 oggetto>**)**
+\*  **CDO1(**<1 istanza>**)**
+\*  **TPO1(**<2 oggetto>**)**
+\*  **CDO1(**<2 istanza>**)**
+\*  **TPO1(**<3 oggetto>**)**
+\*  **CDO1(**<3 istanza>**)**
+\*  **TPO1(**<4 oggetto>**)**
+\*  **CDO1(**<4 istanza>**)**
+\*  **TPO1(**<5 oggetto>**)**
+\*  **CDO1(**<5 istanza>**)**
 Il nome momento deve essere lo stesso utilizzato nello @StartLog, da cui deriva il tempo trascorso tra l'inizio e la chiusura della traccia.
 Se non definita un'origine verrà assunto '???'.
 Il testo non deve contenere apici singoli e si possono aggiungere fariabili attraverso la seguente nomenlcatura

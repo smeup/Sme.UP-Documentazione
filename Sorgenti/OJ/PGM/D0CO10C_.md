@@ -1,2 +1,2 @@
-* Situazioni gestibili nella Exit
+\* Situazioni gestibili nella Exit
 

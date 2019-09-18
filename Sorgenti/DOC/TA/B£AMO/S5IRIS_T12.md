@@ -38,8 +38,8 @@ Dalla matrice delle risorse si può invece uscire, decidendo qundi di non salvar
 
 # Forzature e congelamenti
 Le forzature e i congelamenti sono riportati sulla DS di S5IRIS, in due versioni : 
- * i dati originali
- * i dati di sessione
+ \* i dati originali
+ \* i dati di sessione
 Nella costruzione iniziale di DSIRIS vengono entrambi riempiti con i valori di S5IRIS.
 I dati di sessione vengono poi aggiornati con le azioni nel Gantt.
 All'atto della rischedulazione vengono salvati sulla DSFORZ (programma S5SMES_03), all'interno della fase di reinizializzazione delle DS, e quindi, dopo la ricostruzione dell'IRIS, vengono riempiti, sempre nell'IRIS, a partire da questa DS (nel programma S5SMES_01F).

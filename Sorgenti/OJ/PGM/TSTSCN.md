@@ -6,9 +6,9 @@ Ricerca di una stringa (£SCN01) all'interno di un'altra stringa(£SCN02). E' po
 ## PARAMETRI DI INPUT
 - Stringa da ricercare :  _campo £SCN01_
 
-- £SCN01=XX* :  controlla se la stringa/sottostringa da esaminare inizia con XX. Se la ricerca da esito positivo viene restituita la posizione di XX all'interno della stringa £SCN02.
-- £SCN01=*XX* :  controlla se la stringa/sottostringa da esaminare contiene XX. Se la ricerca da esito positivo viene restituita la posizione di XX all'interno della sottostringa.
-- £SCN01=*XX :  controlla se la stringa/sottostringa da esaminare termina con XX. Se la ricerca da esito positivo viene restituita la posizione di XX all'interno della stringa £SCN02.
+- £SCN01=XX\* :  controlla se la stringa/sottostringa da esaminare inizia con XX. Se la ricerca da esito positivo viene restituita la posizione di XX all'interno della stringa £SCN02.
+- £SCN01=\*XX\* :  controlla se la stringa/sottostringa da esaminare contiene XX. Se la ricerca da esito positivo viene restituita la posizione di XX all'interno della sottostringa.
+- £SCN01=\*XX :  controlla se la stringa/sottostringa da esaminare termina con XX. Se la ricerca da esito positivo viene restituita la posizione di XX all'interno della stringa £SCN02.
 
 - Stringa da esaminare :  _campo £SCN02_
 
@@ -34,13 +34,13 @@ Posizione iniziale in cui e stata trovata la stringa
 - 1 :  Stringa non trovata
 
 # ESEMPI DI CHIAMATA
->EVAL      £SCN01='A*'
+>EVAL      £SCN01='A\*'
 EVAL      £SCN02='BAAAAAFDGG'
 EXSR      £SCN
-Valore di £SCN97=*BLANKS
+Valore di £SCN97=\*BLANKS
 Valore di £SCN99=1
 
-EVAL      £SCN01='A*'
+EVAL      £SCN01='A\*'
 EVAL      £SCN02='BAAAAAFDGG'
 EVAL      £SCN03=2
 EVAL      £SCN04=5

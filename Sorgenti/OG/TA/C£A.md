@@ -4,11 +4,11 @@
 Permettere di raggruppare delle regole in una categoria. Ad una categoria di regole possono essere associati due tipi di oggetti.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$KYC1 **Tipo codice 1**
-Specifica di che tipo è il primo codice associato alla categoria. È un elemento della tabella *CNTT.
+Specifica di che tipo è il primo codice associato alla categoria. È un elemento della tabella \*CNTT.
  :  : FLD T$PAR1 **Parametro tipo codice 1**
 Se indicata una tabella nel tipo, permette di definire il nome di tale tabella.
  :  : FLD T$KYC2 **Tipo codice 2**
-Specifica di che tipo è il secondo codice associato alla categoria. È un elemento della tabella *CNTT.
+Specifica di che tipo è il secondo codice associato alla categoria. È un elemento della tabella \*CNTT.
  :  : FLD T$PAR2 **Parametro tipo codice 2**
 Se indicata una tabella nel tipo, permette di definire il nome di tale tabella.
  :  : FLD T$SSRE **Sottosettore regole**

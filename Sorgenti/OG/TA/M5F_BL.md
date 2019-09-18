@@ -15,7 +15,7 @@ Parametro 1 :
 .              fonte alla data.
 .              Viene ritornata la data di inizio o di fine periodo a seconda di
 .              quanto impostato nella fonte guida.
-.              *** Attenzione
+.              \*\*\* Attenzione
 .              Particolare cura deve essere prestata quando si utilizza una fonte
 .              bilanciata, non a livello di prodotto finito, all'interno dell'MRP.
 .              In questo caso possono essere presenti impegni pianificati (a fronte
@@ -28,7 +28,7 @@ Parametro 1 :
 .              Per far ciò si deve codificare una seconda fonte futura, di impegno
 .              pianificato, che ha l'impegno come fonte origine, nella quale si
 .              imposta che il livello trattato sia '8'.
-.              ***
+.              \*\*\*
 Parametro 2 : 
 -    Pos.1     Tipo bilanciamento (obbligatorio)
 -    Pos.2     Primo periodo :  se impostato, trascura la fonte guida fino al periodo

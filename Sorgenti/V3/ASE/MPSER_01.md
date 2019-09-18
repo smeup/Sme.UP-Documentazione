@@ -28,7 +28,7 @@ Se la vista ha una sola chiave l'albero è vuoto.
 Nell'"Oggetto1" è necessario inserire il piano, mentre nell'"Oggetto2" è necessario inserire la vista, nell'"Oggetto3" è necessario inserire il codice della chiave1 a cui fare riferimento.
 ### Metodo 1D2
 Costruisce un albero ad un solo livello i cui nodi sono dati dagli oggetti in Chiave1 del piano-vista specificati e associati all'oggetto in Chiave2 in inupt.
-Se la vista ha una sola chiave e in input passo *BLANKS come oggetto della Chiave2, l'albero risultante è formato da tutti gli oggetti in Chiave1 associati a quel piano-vista.
+Se la vista ha una sola chiave e in input passo \*BLANKS come oggetto della Chiave2, l'albero risultante è formato da tutti gli oggetti in Chiave1 associati a quel piano-vista.
 Nell'"Oggetto1" è necessario inserire il piano, mentre nell'"Oggetto2" è necessario inserire la vista, nell'"Oggetto3" è necessario inserire il codice della Chiave2 a cui fare riferimento.
 
 ## Visualizzazione dati contenuti nel piano-vista (DAT)
@@ -165,18 +165,18 @@ TP90 1 FFF TAMPP                                                       Piano
 TP90 2 FFF TAMPC                                                       Vista
 TP90 3 FFF                                                             Ogg. in chiave1
 TP90 4 FFF                                                             Ogg. in chiave2
-TP90 5 FFF TAMP*TP                                                     Famiglia
+TP90 5 FFF TAMP\*TP                                                     Famiglia
 TP95 1 OOO TAMPP                                                       Piano
 TP95 2 OOO TAMPC                                                       Vista
 TP95 3 OFO                                                             Ogg. in chiave
 TP96 1 OOO                                                             Ogg. in esame
 TP96 2 FFF TAA£Q                                                       Periodicità
-TP96 3 FFF TAMP*TP                                                     Famiglia
+TP96 3 FFF TAMP\*TP                                                     Famiglia
 TP96 6 FFF OG                                                          Ogg. associato
 TP97 1 OOO                                                             Ogg. in esame
 TP98 1 OOO                                                             Ogg. in esame
 TP98 2 FFF TAA£Q                                                       Periodicità
-TP98 3 FFF TAMP*TP                                                     Famiglia
+TP98 3 FFF TAMP\*TP                                                     Famiglia
 TP98 4 FFF TAMPP                                                       Piano
 TP98 5 FFF TAMPC                                                       Vista
 TP98 6 FFF OG                                                          Ogg. associato

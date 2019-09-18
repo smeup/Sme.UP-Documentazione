@@ -53,15 +53,15 @@ Quando codifico un indirizzo Ricevente (indirizzo di destinazione del messaggio 
 
 Anche il metodo di comunicazione deve essere a sua volta  codificato nella tabella **EDM** e può assumere i seguenti comportamenti : 
 
-- **Metodo *PRT /FILE DI STAMPA**
+- **Metodo \*PRT /FILE DI STAMPA**
   Con questo metodo il messaggio trasmesso viene trasformato in un File di stampa, nel parametro del metodo si deve definire la coda  di  stampa su cui emetterlo. Il File  di  stampa  coincide  con il tracciato del messaggio sull'archivio EDSEND0f.
-- **Metodo *FLR /CARTELLA AS400**
+- **Metodo \*FLR /CARTELLA AS400**
   Con  questo metodo il  messaggio  trasmesso viene trasformato in un Documento  (Es.  File  di  testo  su AS400) contenuto in una cartella AS400. In questo caso nel parametro del metodo definisco il nome della cartella. Il Documento scritto coincide con il  tracciato del messaggio sull'archivio EDSEND0f.
-- **Metodo *DIR /DIRETTO**
+- **Metodo \*DIR /DIRETTO**
   Questo è il metodo utilizzato per  trasferire messaggi tra società diverse con librerie diverse, ma che utilizzano entrambe il modulo Mail.up di Smeup e sullo stesso AS400.
 Con questo metodo il messaggio trasmesso viene trasformato automaticamente in un messaggio ricevuto  (archivio EDRECI0F), nella libreria definita sul parametro del metodo.
 In questo caso è assolutamente  indispensabile che il codice del messaggio trasmesso e il codice del messaggio ricevuto siano uguali.
-- **Metodo *RMT /SISTEMA REMOTO**
+- **Metodo \*RMT /SISTEMA REMOTO**
   Questo è il metodo utilizzato  per  trasferire messaggi da un ambiente con sistema  operativo  AS400  ad  un ambiente con sistema operativo diverso o comunque non collegato all'Ente Emittente.
   Con questo metodo il messaggio trasmesso viene trasformato in una struttura di dati esterna.
   E'  quindi  necessario  fornire nei parametri del metodo il Nome dell'Host (Sistema  remoto  che  riceverà  i  dati trasmessi), il nome del file e il percorso.

@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'V3'                               £FUNT1
  'xxxxx'                            £FUNP1
 ## Chiave primaria

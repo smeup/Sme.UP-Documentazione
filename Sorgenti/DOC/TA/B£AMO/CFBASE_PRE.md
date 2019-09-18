@@ -8,7 +8,7 @@ Looc.up.
 
 # Compilazione / visualizzazione configurazioni
 Looc.up o browser di ultima generazione : 
- * Internet Explorer 6, Mozilla 1.6, Opera 7
+ \* Internet Explorer 6, Mozilla 1.6, Opera 7
 
 ## LATO SERVER - SOLO SE COMPILAZIONE CON BROWSER
 E' richiesta la presenza di un Web Server (o HTTP Server) e di un Application Server

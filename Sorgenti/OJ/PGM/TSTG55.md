@@ -34,7 +34,7 @@ caso in cui i costi siano salvati nell'archivio D5COSO) può avere una natura as
 collegata.
 La /COPY restituisce la somma di tutti i valori che hanno la stessa natura o natura collegata.
 Si può specificare se bisogna considerare gli elementi singoli della tabella IGI o le sue riclassifiche (elementi che
-iniziano per A o per B) mettendo o *blanks o 'A' o 'B' nel campo Elemento
+iniziano per A o per B) mettendo o \*blanks o 'A' o 'B' nel campo Elemento
 ### IGI (£G55EI).
 Esempio : 
 Natura    Descrizione              Natura collegata

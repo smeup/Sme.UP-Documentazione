@@ -1,7 +1,7 @@
 ## Contenuto
 Il file V5STAT0F è un file estratto dagli archivi transazionali per analisi di tipo statistico sul ciclo attivo/passivo
 I valori sono sommabili algebricamente, per cui una nota di accredito o uno sconto sono espressi con un valore negativo.
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'V2'                               £FUNT1
  'V5STA'                               £FUNP1
 ## Chiave primaria
@@ -79,7 +79,7 @@ E' il tipo oggetto intestatario della riga
 Può essere di tipo
 - AR / TAV5S / ....... derivato dalle righe dei documenti V5
 - E4, se la riga costituisce un'integrazione contabile da C5
-- '**', se la riga rappresenta una quadratura contabile
+- '\*\*', se la riga rappresenta una quadratura contabile
  :  : FLD D6CDOG **Livello**
 E' il codice oggetto intestatario della riga
  :  : FLD D6TPSP **Livello**

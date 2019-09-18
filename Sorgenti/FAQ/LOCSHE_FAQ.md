@@ -1,17 +1,17 @@
 
-- **E' possibile visualizzare un dato sullo SpreadSheet come un numero con X **
+- \*\*E' possibile visualizzare un dato sullo SpreadSheet come un numero con X \*\*
 
  :  : VOC Id="10001" Txt="E' possibile visualizzare un dato sullo SpreadSheet come un numero con X decimali?"
 
 Sì basta definire il formato numerico e il numero di decimali sulla cella del corrispondente template Excel.
 
-- **E' possibile visualizzare una variabile Sme.UP sullo SpreadSheet, ad esempi**
+- \*\*E' possibile visualizzare una variabile Sme.UP sullo SpreadSheet, ad esempi\*\*
 
- :  : VOC Id="10002" Txt="E' possibile visualizzare una variabile Sme.UP sullo SpreadSheet, ad esempio la variabile *SYSTEM?"
+ :  : VOC Id="10002" Txt="E' possibile visualizzare una variabile Sme.UP sullo SpreadSheet, ad esempio la variabile \*SYSTEM?"
 
-Sì basta scrivere nella cella del corrispondente template Excel :  ${smeupvars.eval('[*SYSTEM]')}
+Sì basta scrivere nella cella del corrispondente template Excel :  ${smeupvars.eval('[\*SYSTEM]')}
 
-- **Come è possibile mostrare dati sullo SpreadSheet provenienti dal server e **
+- \*\*Come è possibile mostrare dati sullo SpreadSheet provenienti dal server e \*\*
 
  :  : VOC Id="10003" Txt="Come è possibile mostrare dati sullo SpreadSheet provenienti dal server e far si che le modifiche sullo SpreadSheet siano propagate sul server?"
 

@@ -8,18 +8,18 @@ Come procedura accessoria iniziale dovrà essere prevista la trasmissione dei do
 
 ## Cos'è il prodotto AOP (Advanced Output Production)
 AOP è uno strumento nato per implementare le seguenti funzionalità : 
-* emissione di documenti ad alto contenuto grafico
-* invio come allegati e-mail dei documenti prodotti
-* archiviazione in repositories dei documenti prodotti
-* stampa cartacea dei documenti prodotti
+\* emissione di documenti ad alto contenuto grafico
+\* invio come allegati e-mail dei documenti prodotti
+\* archiviazione in repositories dei documenti prodotti
+\* stampa cartacea dei documenti prodotti
 AOP non si occupa di : 
-* Gestione fax
-* Postalizzazione cartacea
-* Archiviazione sostitutiva
-* Archiviazione relazionale
-* Archiviazione outsourcing
-* Store&forward Fax
-* Trasmissione e ricezione SMS
+\* Gestione fax
+\* Postalizzazione cartacea
+\* Archiviazione sostitutiva
+\* Archiviazione relazionale
+\* Archiviazione outsourcing
+\* Store&forward Fax
+\* Trasmissione e ricezione SMS
 
 Tale prodotto è un applicazione server avviabile, su ambiente Windows, sia in modalità interattiva sia come servizio, che svolge le attività suddette ricevendo i file dati tramite una cartella che viene monitorata.
 Le attività svolte da AOP sono definite tramite un file dati che viene fornito da Sme UP ERP. Tale file fornisce i dati relativi ad uno o più documenti e le azioni che andranno applicate a tali dati. Il file di interfaccia è un file con una estenzione ben specifica :  S00. Tale file è a tutti gli effetti un file XML con un dtd definito.
@@ -27,7 +27,7 @@ Le attività svolte da AOP sono definite tramite un file dati che viene fornito 
 ## Attivazione
 Attaverso la tabella di impostazione B£5.
 In tale tabella è presente il campo **Attiva funzioni AOP**
- :  : DEC T(TA) P(B£5) K(*)
+ :  : DEC T(TA) P(B£5) K(\*)
 
 ## Configurazione
 La configurazione del modello AOP risiede nello script SCP_AOP
@@ -42,35 +42,35 @@ Il nome della configurazione e l'indirizzamento verso AOP è governato dalla GPE
 ### Descrizione del formato S00
 Il file S00 di interscanbio con AOP ha una struttura ben definita.
 Qui di seguito la spiegazione di tale struttura : 
-* Versione XML
-* EndPoint che processerà l'XML
-* Alias (a.k.a. Dominio)
-* Contenitore dei dati da elaborare (Production)
-** Esecuzioni (Performs)
-*** Singola esecuzione (Perform)
-**** Azioni (Actions)
-***** Singola azione (Action)
-**** Lavori (DataJobs)
-***** Singolo lavoro (DataJob)
-****** Dichiarazione del modello di layout da utilizzare (LayoutModelAlias)
-****** Pagine del lavoro (JobPages).
-******* Singola pagine del lavoro (JobPage) Il concetto di documento che diventerà PDF è qui!!!
-******** Tabella (BodyRecords)
-********* Riga di tabella (BodyRecord)
-********** Lista campi (RecordFields)
-*********** Singolo Campo (RecordField)
-************* Nome Campo (RecordFieldName)
-************* Valore Campo (RecordFieldContent)
-******** Lista Variabili (Variables)
-********* Singola Variabile (Variable)
-********** Nome Variabile (VariableName)
-********** Valore Variabile (VariableContent)
+\* Versione XML
+\* EndPoint che processerà l'XML
+\* Alias (a.k.a. Dominio)
+\* Contenitore dei dati da elaborare (Production)
+\*\* Esecuzioni (Performs)
+\*\*\* Singola esecuzione (Perform)
+\*\*\*\* Azioni (Actions)
+\*\*\*\*\* Singola azione (Action)
+\*\*\*\* Lavori (DataJobs)
+\*\*\*\*\* Singolo lavoro (DataJob)
+\*\*\*\*\*\* Dichiarazione del modello di layout da utilizzare (LayoutModelAlias)
+\*\*\*\*\*\* Pagine del lavoro (JobPages).
+\*\*\*\*\*\*\* Singola pagine del lavoro (JobPage) Il concetto di documento che diventerà PDF è qui!!!
+\*\*\*\*\*\*\*\* Tabella (BodyRecords)
+\*\*\*\*\*\*\*\*\* Riga di tabella (BodyRecord)
+\*\*\*\*\*\*\*\*\*\* Lista campi (RecordFields)
+\*\*\*\*\*\*\*\*\*\*\* Singolo Campo (RecordField)
+\*\*\*\*\*\*\*\*\*\*\*\*\* Nome Campo (RecordFieldName)
+\*\*\*\*\*\*\*\*\*\*\*\*\* Valore Campo (RecordFieldContent)
+\*\*\*\*\*\*\*\* Lista Variabili (Variables)
+\*\*\*\*\*\*\*\*\* Singola Variabile (Variable)
+\*\*\*\*\*\*\*\*\*\* Nome Variabile (VariableName)
+\*\*\*\*\*\*\*\*\*\* Valore Variabile (VariableContent)
 
 ## /copy £AOP
 Per generalizzare la costruzione del modello AOP è stata progettata la relativa api "AOP".
 Esistono ad oggi due modalità di generazione del modello AOP : 
-* Attraverso una funzione che restituisce un xml di tipo "Matrice"
-* Attraverso il passaggio diretto delle variabili
+\* Attraverso una funzione che restituisce un xml di tipo "Matrice"
+\* Attraverso il passaggio diretto delle variabili
 
 Ora vediamo in dettaglio le funzioni della api £AOP che permettono di comporre da programma l'XML.
  :  : PAR L(TAB)
@@ -99,19 +99,19 @@ Sequenza|Funzione|Descrizione
 Se si vuole aggiungere più pagine nel documento AOP bisogna rieseguire i passi dal livello 002 all livello 005.
 
 Nel file SCP_AOP esiste un membro per ogni tipo documento (template) AOP. Il nome del membro è identico al nome del template. Dentro questo membro sono definite le variabili di inizializzazione del file S00 che vengono appunto riportate nel file ogni volta che di un documento di un tipo viene lanciata la generazione : 
-* AIve :  versione
-* AIep :  nome Endpoint AOP
-* AIdo :  Dominio AOP
-* AMmo :  Nome modulo
-* APnm :  Nome stampante
-* ASpe :  Percorso file da generare
-* ASnm :  Nome file da generare
-* ASpw :  Password modifica del PDF
-* AIsa :  System Administrator database
-* AIut :  Utente di sistema
-* AIpw :  password Alut
-* AIpg :  Exit da utilizzare per comporre i comandi FTP di invio dell'xml al server AOP
-* AIe3 :  Abilita la registrazione degli eventi per la verifica dell'esito delle azioni AOP
+\* AIve :  versione
+\* AIep :  nome Endpoint AOP
+\* AIdo :  Dominio AOP
+\* AMmo :  Nome modulo
+\* APnm :  Nome stampante
+\* ASpe :  Percorso file da generare
+\* ASnm :  Nome file da generare
+\* ASpw :  Password modifica del PDF
+\* AIsa :  System Administrator database
+\* AIut :  Utente di sistema
+\* AIpw :  password Alut
+\* AIpg :  Exit da utilizzare per comporre i comandi FTP di invio dell'xml al server AOP
+\* AIe3 :  Abilita la registrazione degli eventi per la verifica dell'esito delle azioni AOP
 
 I campi sono definiti nello script SCP_CFG/EDT_AOP
 
@@ -153,13 +153,13 @@ Come precedentemente accennato si faccia riferimento al programma di stampa fatt
 
 ## Architettura della soluzione AOP
 ![B£STAM_01](http://localhost:3000/immagini/B£STAM_07/BXSTAM_01.png)Vista l'importanza delle stampe generate da Sme.UP, si consiglia l'utilizzo di un server fisico o virtuale dedicato al ruolo AOP avente le seguenti caratteristiche : 
-* Sistema Operativo :  Windows Server 2008 o superiori (nel caso che il volume di stampe sia basso può essere utilizzato anche un sistema operativo client Windows XP o Windows 7)
-* Ram :  2 Gb o più
-* .Net framework 4.0 redistributable
-* Ruolo FTP Server
-* Ruolo Print and Document Services
-* SQL Express 2008R2 con strumenti di amministrazione, installato come Default Instance con Mixed Authentication.
-* N° di Server AOP :  uno per ogni sede del cliente, solo nel caso di un numero basso di stampe sul remoto, si può testare l'utilizzo di un solo server che vede le stampanti remote.
+\* Sistema Operativo :  Windows Server 2008 o superiori (nel caso che il volume di stampe sia basso può essere utilizzato anche un sistema operativo client Windows XP o Windows 7)
+\* Ram :  2 Gb o più
+\* .Net framework 4.0 redistributable
+\* Ruolo FTP Server
+\* Ruolo Print and Document Services
+\* SQL Express 2008R2 con strumenti di amministrazione, installato come Default Instance con Mixed Authentication.
+\* N° di Server AOP :  uno per ogni sede del cliente, solo nel caso di un numero basso di stampe sul remoto, si può testare l'utilizzo di un solo server che vede le stampanti remote.
 
 ## L'editor AOP
 La manutenzione dei modelli di layout passa attraverso l'utilizzo dell'editor a support del server.
@@ -186,11 +186,11 @@ Questa documentazione è prodotta per l'installazione su di un Windows Server 20
 
 ### PREREQUISITI
 Software
-* Windows 2008 minimo
-* .Net framework 4.0 redistributable
-* Ruolo FTP Server
-* Ruolo Print and Document Services
-* SQL Express 2008R2 con strumenti di amministrazione, installato come Default Instance con Mixed Authentication.
+\* Windows 2008 minimo
+\* .Net framework 4.0 redistributable
+\* Ruolo FTP Server
+\* Ruolo Print and Document Services
+\* SQL Express 2008R2 con strumenti di amministrazione, installato come Default Instance con Mixed Authentication.
 
 ### INSTALLAZIONE
 **Utenze, Group memberhip e User Right assignements**
@@ -198,11 +198,11 @@ E' necessario creare un'utenza nel dominio e non di dominio al quale appartiene 
 User :  Medusa
 Password :  Medusa2011
 Tale utenza deve essere membro dei seguenti gruppi locali al server o di dominio : 
-* Print Operators
-* Remote Desktop users
+\* Print Operators
+\* Remote Desktop users
 Deve anche avere i seguenti diritti locali (Local Security Policies) sul server in questione : 
-* Allow logon locally
-* Logon as a Service
+\* Allow logon locally
+\* Logon as a Service
 Se la condivisione dove vengono memorizzati i PDF risiede sullo AS400 deve essere anche creato un utente AS400 con medesimo nome e password ed i diritti completi sulla share IFS ed eventuale percorso.
 
 **File System**
@@ -210,23 +210,23 @@ Creare sulla root di uno dei dischi (normalmente C : \) una cartelle AOP.
 Assegnare all'utenza Medusa i diritti di Full Control sulla cartella appena creata.
 Copiare l'intero contenuto della cartella AOP master sulla cartella AOP del nuovo server.
 Copiare i files (non le cartelle) contenuti in C : \AOP\Production\system in : 
-* C : \windows\System32
-* C : \Windows\SysWOW64 (vale solo per windows 2008)
+\* C : \windows\System32
+\* C : \Windows\SysWOW64 (vale solo per windows 2008)
 
 ### INIZIALIZZAZIONE DB
 Aprire SQL Server Management studio ed eseguire le query oppure se sql è associato lanciare direttamente questi file : 
-* C : \AOP\SQLScripts\CreateDatabase
-* C : \AOP\SQLScripts\DatabaseStructure
-* C : \AOP\SQLScripts\Update
+\* C : \AOP\SQLScripts\CreateDatabase
+\* C : \AOP\SQLScripts\DatabaseStructure
+\* C : \AOP\SQLScripts\Update
 
 
 
 ### CONFIGURAZIONE
-* Sito FTP :  Creare un nuovo sito FTP che punti a C : \AOP\Production\FTPBase configurando i permessi di accesso in lettura e scrittura all'utente <DOMINIO AD>\Medusa
-* Generare Licenza :  Lanciare il file C : \AOP\Production\AOPLicencer.exe
-** Cliccare su Genera e fornire i dati al personale Medusa che ritornerà una KEY che andrà messa nel parametro  AOPAuthCode che troverete al punto 6.3.1
-** Il codice di identificativo applicazione deve essere messo nella variabile AOPUId che troverete al punto 6.3.1.
-* Configurazione Medusa :  E' necessario modificare manualmente due file di configurazione come illustrato nei due punti seguenti.
+\* Sito FTP :  Creare un nuovo sito FTP che punti a C : \AOP\Production\FTPBase configurando i permessi di accesso in lettura e scrittura all'utente <DOMINIO AD>\Medusa
+\* Generare Licenza :  Lanciare il file C : \AOP\Production\AOPLicencer.exe
+\*\* Cliccare su Genera e fornire i dati al personale Medusa che ritornerà una KEY che andrà messa nel parametro  AOPAuthCode che troverete al punto 6.3.1
+\*\* Il codice di identificativo applicazione deve essere messo nella variabile AOPUId che troverete al punto 6.3.1.
+\* Configurazione Medusa :  E' necessario modificare manualmente due file di configurazione come illustrato nei due punti seguenti.
 
 Le parti in  blu si riferiscono a nomi e percorsi, quelle in  arancione alla configurazione con autenticazione SQL (non trattata in questo documento)
 

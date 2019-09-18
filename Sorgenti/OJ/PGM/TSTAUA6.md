@@ -8,7 +8,7 @@ Ciò permetterà ad esempio di proteggere la singola informazione di un record o
 # SOLUZIONE
 Realizzeremo un programma che data una classe di sicurezza, restituisca, in funzione dell'utente, 10 possibili condizioni di accesso, il cui significato e' in funzione della classe di sicurezza (ovvero dell'applicazione).
 
-Se non sono definite condizioni per un utente, il programma legge le condizioni relative al gruppo di utenti, e in mancanza anche di queste si utilizzano le condizioni di DEFAULT definite per l'utente "**"
+Se non sono definite condizioni per un utente, il programma legge le condizioni relative al gruppo di utenti, e in mancanza anche di queste si utilizzano le condizioni di DEFAULT definite per l'utente "\*\*"
 
 Ogni condizione avrà 10 possibili contenuti.
 
@@ -25,7 +25,7 @@ Possiamo separare le seguenti aree :
 -- Fino al costo industriale
 -- Fino al costo pieno
 - Modifica costi
--- ** = tutti
+-- \*\* = tutti
 -- AC = di acquisto
 -- LE = solo lavorazioni esterne
 - Ecc.
@@ -35,7 +35,7 @@ Dato un utente avremo :
 >UTENTE1         Sc      Opzioni
 1. Calcolo      NO      SI NO
 2. Interrog.    04      01 02 03 04
-3. Modifica     **      AC LE
+3. Modifica     \*\*      AC LE
 
 Nella scrittura del programma si potranno usare tutti i condizionamenti necessari.
 
@@ -71,7 +71,7 @@ Ricerca l'utente e il suo gruppo di appartenenza.
 Cerca la prima definizione di autorizzazione valida fra : 
 .    UTENTE/CLASSE
 .    GRUPPO/CLASSE
-.    "**"/CLASSE
-.    "**"/"**"
+.    "\*\*"/CLASSE
+.    "\*\*"/"\*\*"
 Fornisce : 
 valori di 2 caratteri

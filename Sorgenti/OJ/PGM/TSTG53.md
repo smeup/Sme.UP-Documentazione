@@ -95,8 +95,8 @@ Compilando i parametri necessari, viene generato un documento PDF seguendo la lo
 del file. Può assumere i seguenti valori : 
 
 - ' ' :  la password non va passata e resta quella di default (gestita in file di configurazione con risalita prima sul campo T$JA1H della tabella JA1 e successivaente sul valore hard-coded nel componente)
-- '*NONE' :  la password di protezione del documento viene DISABILITATA
-- diverso da ' ' e da '*NONE' :  sul documento viene impostata la nuova password
+- '\*NONE' :  la password di protezione del documento viene DISABILITATA
+- diverso da ' ' e da '\*NONE' :  sul documento viene impostata la nuova password
 
 ## SPLPDF
  _7_Crea un Pdf   partendo da un file di spool che facoltativamente può utilizzare un file di layout per il documento(overlay). In questo caso, sempre in una cartella di IFS, è necessario avere un file di tipo pdf che funga appunto da layout.
@@ -139,14 +139,14 @@ _r_ATTENZIONE :  se si utilizza la chiamata Batch (£G53BT) per la funzione/meto
 del file. Può assumere i seguenti valori : 
 
 - ' ' :  la password non va passata e resta quella di default (gestita in file di configurazione con risalita prima sul campo T$JA1H della tabella JA1 e successivaente sul valore hard-coded nel componente)
-- '*NONE' :  la password di protezione del documento viene DISABILITATA
-- diverso da ' ' e da '*NONE' :  sul documento viene impostata la nuova password
+- '\*NONE' :  la password di protezione del documento viene DISABILITATA
+- diverso da ' ' e da '\*NONE' :  sul documento viene impostata la nuova password
 
 generazione da uno spool appena creato (tutti i campi non specificati sono blanks)
  EVAL      £G53FU='SPLPDF'
  EVAL      £G53ME='GEN'
  EVAL      £G53SF='NOME SPOOL'
- EVAL      £G53JA='*'
+ EVAL      £G53JA='\*'
  EVAL      £G53PR='SMEDOC/WORK'
  EVAL      £G53PD='SMEDOC/WORK'
  EVAL      £G53DE='NOMEPDF.PDF'
@@ -192,8 +192,8 @@ generazione da uno spool appena creato (tutti i campi non specificati sono blank
 del file. Può assumere i seguenti valori : 
 
 - ' ' :  la password non va passata e resta quella di default (gestita in file di configurazione con risalita prima sul campo T$JA1H della tabella JA1 e successivaente sul valore hard-coded nel componente)
-- '*NONE' :  la password di protezione del documento viene DISABILITATA
-- diverso da ' ' e da '*NONE' :  sul documento viene impostata la nuova password
+- '\*NONE' :  la password di protezione del documento viene DISABILITATA
+- diverso da ' ' e da '\*NONE' :  sul documento viene impostata la nuova password
 
 della mail
 ## MAILTO / MAILTE
@@ -201,7 +201,7 @@ Permette di inviare una email da As400 (metodo As400) o da un Host indicato (met
 Tali file vengono cancellati al termine di ogni elaborazione.
 Per quel che riguarda l'utilizzo degli indirizzi è possibile indicarli in modo non esplicito tramite le seguenti regole : 
 
-- *USER viene automaticamente cercato l'indirizzo collegato all'utente corrente. L'indirizzo viene ricercato nell'ente indicato nella B£U corrispondente all'utente.
+- \*USER viene automaticamente cercato l'indirizzo collegato all'utente corrente. L'indirizzo viene ricercato nell'ente indicato nella B£U corrispondente all'utente.
 -  _&_TipoOggettoParametroOggetto.Codice(.Funzione aziendale). In questo modo la G53 richiama la G85 che restituisce la lista degli indirizzi mail dell'ente specificato (es. _&_TAAGE.xx per la mail di un agente, _&_AZ.xx.2000 per mail aziendale dell'ufficio commerciale, _&_CNCLI.xx per la mail di un cliente)
 - _&_SSNSL.CodiceSottosettore viene costruita la mailing list corrispondente alla definizione della lista di distribuzione.
 
@@ -498,7 +498,7 @@ Tali valori sono rappresentati da :
 Vengono inoltre gestite quattro unità di misura espresse in CPI che sono espresse attraverso i seguenti simboli : 
 - - che rappresenta i 15 CPI, in alternativa usare il caratterer 4;
 - § che rappresenta i 12 CPI, in alternativa usare il caratterer 3;
-- * che rappresenta i 10 CPI, in alternativa usare il caratterer 2;
+- \* che rappresenta i 10 CPI, in alternativa usare il caratterer 2;
 - & che rappresente i 6 CPI, in alternativa usare il caratterer 1.
 E' anche possibile esprimere l'unità di misura, utile per l'altezza righe, di 6 LPI attraverso il seguente simbolo : 
 - % rappresenta la dimensione di 6 LPI, in alternativa usare il caratterer 0 (zero);

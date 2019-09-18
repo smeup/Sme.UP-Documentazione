@@ -1,7 +1,7 @@
 ## Contenuto
 Dati delle richieste di acquisto del ciclo esterno.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'RA'                               £FUNT1
 
 ## Chiave primaria

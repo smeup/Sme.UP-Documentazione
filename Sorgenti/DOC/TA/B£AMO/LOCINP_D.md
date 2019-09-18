@@ -2,7 +2,7 @@
 
 Durante la gestione dell'input panel è possibile reinviare al client alcune caratteristiche grafiche che permettono di modificare la struttura di visualizzazione dell'input panel.
 
-Questo si ottiene inviando nell'xml di ritorno da una chiamata *UPDATE oltre che il normale xml di risposta alle domande anche l'xml della griglia, di setup e se è stato utilizzato un formato video, il buffer degli indicatori del file video.
+Questo si ottiene inviando nell'xml di ritorno da una chiamata \*UPDATE oltre che il normale xml di risposta alle domande anche l'xml della griglia, di setup e se è stato utilizzato un formato video, il buffer degli indicatori del file video.
 
 In merito a questo va inoltre considerato che è opportuno che tale struttura venga inviata non ad ogni chiamata, ma solo al cambiare di una sua caratteristica.
 
@@ -27,11 +27,11 @@ La definizione del setup, può essere aggiornata per queste caratteristiche :
 Il buffer del formato video può essere aggiornato negli indicatori. E' tramite questa caratteristica che può essere pilotata la caratteristica grafica dei campi in presenza del formato video. E' quindi implicito che quando si vuole intervenire dinamicamente su tale caratteristica i campi che vogliono essere modificati, vadano tutti forzati come campi di input/output nella griglia.
 
  :  : R02 Esempio
- :  : R02     C                   MOVEL(P)  *OFF          *IN
- :  : R02     C                   EVAL      *IN(41)=XINO1
- :  : R02     C                   EVAL      *IN(42)=XINO2
- :  : R02     C                   EVAL      *IN(43)=XINO3
- :  : R02     C                   MOVEA(P)  *IN           A99
+ :  : R02     C                   MOVEL(P)  \*OFF          \*IN
+ :  : R02     C                   EVAL      \*IN(41)=XINO1
+ :  : R02     C                   EVAL      \*IN(42)=XINO2
+ :  : R02     C                   EVAL      \*IN(43)=XINO3
+ :  : R02     C                   MOVEA(P)  \*IN           A99
  :  : R02     C                   EVAL      £JAXCP='<Buffer><REC '
  :  : R02     C                             +'in="'+A99+'"'
  :  : R02     C                             +' /></Buffer>'

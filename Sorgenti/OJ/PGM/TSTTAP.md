@@ -86,7 +86,7 @@ Si ponga di aver creato la seguente sequenza di livelli :
 
 EVAL      £TAPPar='NomeAttributo'.TpParam=' "Valore" '
 	
->     C                   EVAL      £TAPPar='Scadenza.D8*YYMD="'                        .
+>     C                   EVAL      £TAPPar='Scadenza.D8\*YYMD="'                        .
      C                             +%TRIM(%EDITW(S5SCAD : '    /  /  '))+'" '                 .
      C                             +'Pagamento.TAPAG="'+%TRIM(S5COPA)+'" '
 
@@ -138,7 +138,7 @@ _1_Esempi di chiamata :
      C                   EVAL      £TAPME='ADD'
      C                   EVAL      £TAPLiv=<'numerolivello'>
      C                   EVAL      £TAPTRi=<'TipoRiga'>
-     C                   EVAL      £TAPTra=*BLANKS
+     C                   EVAL      £TAPTra=\*BLANKS
      C                   EVAL      £TAPPar=<'NomeAttributo'.TpParam=' "Valore" '>
      C                   EVAL      £TAPSTr=<'StringaLog'>
      C                   EXSR      £TAP

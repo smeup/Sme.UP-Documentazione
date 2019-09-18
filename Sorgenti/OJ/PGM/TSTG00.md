@@ -15,7 +15,7 @@
   ESEMPIO : 
         1)scrittura di un record di B£MEDE
      C                   EVAL      £G00FU='OUT'
-     C                   EVAL      £G00ME=*BLANKS
+     C                   EVAL      £G00ME=\*BLANKS
      C                   EVAL      £G00TS='CHIAVE'
      C                   EVAL      £G00RE='DATI DA TRAFERIRE 30'000 BYTE'
      C                   EXSR      £G00
@@ -26,7 +26,7 @@
 
         2)lettura di un record di B£MEDE
      C                   EVAL      £G00FU='IN'
-     C                   EVAL      £G00ME=*BLANKS
+     C                   EVAL      £G00ME=\*BLANKS
      C                   EVAL      £G00TS='CHIAVE'
      C                   EXSR      £G00
      C
@@ -49,7 +49,7 @@
 
   Tramite queste funzioni è possibile scrivere/leggere/cancellare dati nella SMELDA del lavoro.
   Ogni gruppo di dati che viene scritto deve essere riconscibile da un tipo record. Il tipo record
-  ** contiene le variabili d'ambiente fisse.
+  \*\* contiene le variabili d'ambiente fisse.
 
   Variabili di input :  £G00TS -> tipo record
   Variabili di input/output :  £G00RE -> record di dati (fino a 30000 caratteri)
@@ -66,7 +66,7 @@
   Variabili di input/output :  £G00ST (e relativi sottocampi)
 
   Queste funzioni rappresentano una semplificazione della lettura/aggiornamento delle informazioni
-  standard della SMELDA (tipo record = **).
+  standard della SMELDA (tipo record = \*\*).
 
   **SET** :  permette di gestire interattivamente il setup delle informazioni standard della SMELDA
   **IN**  :  permette di leggere la DS delle informazioni standard della SMELDA (questa funzione non si
@@ -85,7 +85,7 @@
 
   **LDA** :  forza la rilettura della dtaara LDA nel pgm di gestione della £G00
   **CPY** :  permette di copiare la SMELDA del lavoro corrente su un'altro lavoro (es. per la sottomissione lavori batch)
-  **CLO** :  viene pulita l'area dati corrente ed il tipo record ** viene memorizzato per essere riutilizzato
+  **CLO** :  viene pulita l'area dati corrente ed il tipo record \*\* viene memorizzato per essere riutilizzato
              al prossimo login dell'utente corrente sull'ambiente corrente
   **RGZ** :  riorganizzazione delle aree; tramite questa funzione vengono cancellate le aree dati collegate
              a lavori non più attivi (es. perchè la sessione è caduta prima che sia stata lanciata la funzione CLO)
@@ -135,7 +135,7 @@
 
   La SMELDA di un lavoro viene fisicamente memorizzata nel file B£MEDE0F con le seguenti chiavi : 
   - METIPA="REM-£G00JB"
-  - MECODI=Tipo record ("**" per £G00ST)
+  - MECODI=Tipo record ("\*\*" per £G00ST)
   - MECOD1=Nome Utente
   - MECOD2=Nome Lavoro
   - MECOD3=N° Lavoro

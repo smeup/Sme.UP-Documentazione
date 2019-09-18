@@ -2,7 +2,7 @@
 ### Elemento "Keys"
 Contiene in sottoelementi K1, K2, K3 le chiavi di riferimento del documento. Ogni chiave contiene gli attributi Tipo, Parametro, Codice e Testo
 ### Limiti
-- Non gestisce ancora la risalita sui tipi **
+- Non gestisce ancora la risalita sui tipi \*\*
 ### Esempio
  :  : I.XML
 <Key>

@@ -3,8 +3,8 @@
 ## FILE / LIBRERIA
 Si deve specificare il file contenente i membri di cui si vuole produrre la documentazione. Se non si specifica la libreria il programma utilizzerà come parametro la lista librerie.
 ## INTESTAZIONE
-E' possibile specificare la costante che verrà stampata su tutte le pagine della documentazione prodotta. Se non si specifica nulla viene assunto il contenuto  "**
-DOCUMENTAZIONE TECNICA **".
+E' possibile specificare la costante che verrà stampata su tutte le pagine della documentazione prodotta. Se non si specifica nulla viene assunto il contenuto  "\*\*
+DOCUMENTAZIONE TECNICA \*\*".
 Il dettaglio delle scelte si riferisce in particolare ai membri di programma RPG. Per altri membri si parlerà genericamente di documentazione generale.
 ## DOCUMENTAZIONE GENERALE
 Tipo RPG : 
@@ -12,14 +12,14 @@ Tutte le righe con tipo colonna D (documentazione) che precedono la prima specif
 Tipo TXT : 
 Tutte le righe.
 Tipo CLP : 
-Tutte le righe di commendo dove i primi caratteri sono /*D.
+Tutte le righe di commendo dove i primi caratteri sono /\*D.
 ## DOCUMENTAZIONE DI DETTAGLIO
 Sviluppo delle routine e di tutte le righe con tipo colonna
 D (Documentazione) nell'ordine con cui si incontrano.
 Il corpo del programma, ovvero tutte le specifiche di calcolo che precedono la prima routine verrà chiamato MAIN.
 ## ELENCO ROUTINES
 Stampa in ordine alfabetico di tutte le ROUTINE presenti nel programma.
-Le routine sono riconosciute dal codice operativo BEGSR e si assume come loro descrizione l'ultima riga con tipo colonna D preceduta da R (Cioè RD*).
+Le routine sono riconosciute dal codice operativo BEGSR e si assume come loro descrizione l'ultima riga con tipo colonna D preceduta da R (Cioè RD\*).
 ## ELENCO  "/COPY RICHIAMATE"
 Stampa in ordine alfabetico di tutti i pezzi di programma che sono incorporati al momento della compilazione, con l'indicazione del file da cui sono ripresi.
 ## ELENCO PROGRAMMI RICHIAMATI

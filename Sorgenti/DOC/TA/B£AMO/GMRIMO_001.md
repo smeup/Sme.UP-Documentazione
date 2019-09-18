@@ -1,18 +1,18 @@
 # Installazione Richieste di movimentazione
 Per attivare le richieste di movimentazione è necessario : 
- * _2_definire il numeratore delle Richieste
+ \* _2_definire il numeratore delle Richieste
  :  : DEC T(ST) K(CRNGM)
- * _2_caratterizzare il tipo di testata delle Richieste
+ \* _2_caratterizzare il tipo di testata delle Richieste
  :  : DEC T(ST) K(GMO)
- * _2_caratterizzare il tipo di riga delle Richieste
+ \* _2_caratterizzare il tipo di riga delle Richieste
  :  : DEC T(ST) K(GMZ)
- * _2_definire le causali di movimentazione utilizzate dalle Richieste, affinchè agiscano , a seconda dell'utilizzo, sia sulla quantità _7_ATTESA che sulla quantità _7_ALLOCATA
+ \* _2_definire le causali di movimentazione utilizzate dalle Richieste, affinchè agiscano , a seconda dell'utilizzo, sia sulla quantità _7_ATTESA che sulla quantità _7_ALLOCATA
  :  : DEC T(ST) K(GMC)
 
 Se si attiva il motore inferenziale
- * _2_definire il flusso del motore inferenziale
+ \* _2_definire il flusso del motore inferenziale
  :  : DEC T(ST) K(GMH)
- * _2_definire i passi di esecuzione del motore inferenziale
+ \* _2_definire i passi di esecuzione del motore inferenziale
  :  : DEC T(ST) K(GMK)
 
 ## Tabelle generazione R.M.
@@ -24,8 +24,8 @@ Utilizzate per creare le R.M. da impegni ordine di produzione o da impegni docum
 Il motore inferenziale serve per determinare, attraverso iterazioni successive di regole utente, l'ubicazione di versamento oppure l'ubicazione di prelievo
 
 Il motore di basa su 2 tabelle principali : 
- * Tabella GMH (flussi di esecuzione del motore)
- * Sottosettori della tabella GMK (azioni del motore)
+ \* Tabella GMH (flussi di esecuzione del motore)
+ \* Sottosettori della tabella GMK (azioni del motore)
  :  : DEC T(ST) K(GMH)
  :  : DEC T(ST) K(GMK)
 

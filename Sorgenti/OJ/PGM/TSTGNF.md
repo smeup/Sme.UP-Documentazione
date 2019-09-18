@@ -2,20 +2,20 @@
 Introduciamo in alcuni processi aziendali controlli preventivi che impediscono il formarsi di giacenze negative. I controlli sono fatti in modo che attraverso una specifica classe di autorizzazione sia possibile impedire o segnalare la possibilità di creare una giacenza negativa.
 
 ## Elenco Processi Aziendali coinvolti
-  * Movimenti Magazzino Manuali
-  * Flussi Entrata
-   ** Entrata Conto Lavoro Pieno
-  * Flussi Uscita Materiale
-   ** Spedizione Conto Lavoro
-   ** Resi Riparazione
-   ** Resi Materiale Non conforme
-   ** Vendita Ricambi
-   ** Vendita da Conto Deposito Cliente
-  * Richieste Movimentazione
-  * Prelievi Commessa
-  * Prelievi Ordini Officina
-  * Prelievi Kit
-  * Stampa Ddt
+  \* Movimenti Magazzino Manuali
+  \* Flussi Entrata
+   \*\* Entrata Conto Lavoro Pieno
+  \* Flussi Uscita Materiale
+   \*\* Spedizione Conto Lavoro
+   \*\* Resi Riparazione
+   \*\* Resi Materiale Non conforme
+   \*\* Vendita Ricambi
+   \*\* Vendita da Conto Deposito Cliente
+  \* Richieste Movimentazione
+  \* Prelievi Commessa
+  \* Prelievi Ordini Officina
+  \* Prelievi Kit
+  \* Stampa Ddt
 
 # Componente per controllo negativi
 E' disponibile una /copy che consente di centralizzare i comportamenti di controllo della giacenza negativa. Questa /copy che si chiama £GNF è stata utilizzata nelle exit e nei programmi personalizzati coinvolti nei processi applicativi descritti in precedenza.
@@ -24,21 +24,21 @@ La /copy £GNF viene distribuita come routine standard "as is", come strumento p
 La sua fornitura e distribuzione, ha come scopo fornire all'installatore uno strumento standard da utilizzare a livello di interfaccia utente per il suddetto controllo, ed è a carico dell'installatore curare l'interfaccia interattiva in caso di giacenza negativa.
 
  ## Dati Input
-  * DS GMTRAN
-  * Quantità giacente prima del movimento richiesto
+  \* DS GMTRAN
+  \* Quantità giacente prima del movimento richiesto
  ## Dati Output
-  * Esito Controllo
-   ** La decodifica è stata raccolta in messaggi nel file MSGGM
-   *** GM00042 non si creano negativi :  ok
-   *** GM00043 si creano negativi, ma l'utente è autorizzato :  si può proseguire
-   *** GM00044 si creano negativi e l'utente NON è autorizzato :  funzione bloccata
+  \* Esito Controllo
+   \*\* La decodifica è stata raccolta in messaggi nel file MSGGM
+   \*\*\* GM00042 non si creano negativi :  ok
+   \*\*\* GM00043 si creano negativi, ma l'utente è autorizzato :  si può proseguire
+   \*\*\* GM00044 si creano negativi e l'utente NON è autorizzato :  funzione bloccata
  ## Funzioni / Metodi
-  * SING - Singolo articolo
-  * INIZ - Inizializzazione gruppo articoli (utile ad esempio per scarico da impegni)
-  * RIGA - Transazione articolo
-  * FINE - Fine elaborazione
-    ** Blanks
-    ** PRES  presentazione movimenti che generano negativi
+  \* SING - Singolo articolo
+  \* INIZ - Inizializzazione gruppo articoli (utile ad esempio per scarico da impegni)
+  \* RIGA - Transazione articolo
+  \* FINE - Fine elaborazione
+    \*\* Blanks
+    \*\* PRES  presentazione movimenti che generano negativi
 
 # Classe Autorizzazione
 Attraverso la classe autorizzazione ABILITA funzione GMGNF0, è possibile specificare l'abilitazione di un utente a generare giacenze negative.

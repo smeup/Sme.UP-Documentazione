@@ -20,18 +20,18 @@ l'esecuzione.
 In caso venga indicata una cartelle esistente, verrà impedita l'operazione di restore.
 Questo per evitare possibili sovrascritture e perdite di dati.
 Se la cartella esiste già, si consiglia di seguire i seguenti passi : 
-* effettuare il restore in una cartella nuova
-* salvare le informazioni personali presenti nelle cartelle "vecchie" (ad esmepio eventuali font   personalizzati)
-* cancellare le corrispondenti cartelle originali (dopo averne fatta una copia di backup)
-* copiare le cartelle nella posizione deisderata
-* riportare nelle nuove cartelle le informazioni personali precedentemente salvate
+\* effettuare il restore in una cartella nuova
+\* salvare le informazioni personali presenti nelle cartelle "vecchie" (ad esmepio eventuali font   personalizzati)
+\* cancellare le corrispondenti cartelle originali (dopo averne fatta una copia di backup)
+\* copiare le cartelle nella posizione deisderata
+\* riportare nelle nuove cartelle le informazioni personali precedentemente salvate
 
 ## IASP libreria di destinazione
 In questo campo va indicato l'eventuale IASP in cui è presente la libreria o le cartelle IFS di
 destinazione. I valori accettati sono i seguenti : 
 
-* Blank / *DFT verrà usato il default di sistema
-* Nome dello IASP
+\* Blank / \*DFT verrà usato il default di sistema
+\* Nome dello IASP
 
 ## File con settori ed elementi di tabella
 E' possibile restorare i file necessari per effettuare un allineamento dei file tabelle (settori ed elementi) già installati sul sistema.
@@ -40,16 +40,16 @@ Successivamente vanno indicati queli file restorare :
 TABDS00F/TABDC00F e/o TABEL00F e/o TABELV0F e/o TABELA0F
 Per quanto riguarda TABDS, TABDC, TABELV e TABELA è sufficiente mettere una X nel campo relativo e verranno restorati i file precedentemente salvati dal modello.
 Per quanto riguarda il file TABEL00F è invece possibile effettuare una doppia scelta : 
-* 1 per restorare il file salvato dal modello
-* 2 per restorare il file salvato dall'ambiente di sviluppo
+\* 1 per restorare il file salvato dal modello
+\* 2 per restorare il file salvato dall'ambiente di sviluppo
 Il file salvato dall'ambiente di sviluppo contiene molti più elementi di quello del modello, però la bontà di tali elementi non è garantita.
 
 ## Smens / Smedg
 E' possibile restorare tutti i file e le cartelle necessarie al corretto funzionamento dei componenti esterni Smens e Smedg. Ricordiamo che tali componenti sono quelli utilizzati dalla £G53 per creazione PDF, invio mail ecc.
 E' necessario indicare nell'apposito campo quali componenti si vogliono ripristinare : 
-* 1         Tutto (SMENS+SMEDG)
-* 2         Solo SMENS
-* 3         Solo SMEDG
+\* 1         Tutto (SMENS+SMEDG)
+\* 2         Solo SMENS
+\* 3         Solo SMEDG
 Dato che tali componenti vanno installati sull'IFS, è obbligatorio specificare la cartella in cui andranno copiati.
 Tale cartella deve avere una struttura particolare, quindi in caso venga indicato un percorso non standard, si verrà avvisati dei possibili malfunzionamenti.
 Per ulteriori dettagli in merito consultare l'apposita documentazione : 

@@ -9,7 +9,7 @@ Indica il numero di rate in cui si sviluppa la modalità di pagamento.
 **NB** :  si intende rate costanti. In caso contrario bisogna compilare la tabella C5I.
 Il campo è obbligatorio.
  :  : FLD T$PAG3 __Gener.Rate Bloccate__
-È un elemento della tabella C5*BP ed è un campo facoltativo.
+È un elemento della tabella C5\*BP ed è un campo facoltativo.
 Se viene impostato il programma di generazione rate, queste verranno create _r_BLOCCATE
 con la causale specificata nel campo.
  :  : FLD T$PAGL __Tipo Intervallo__

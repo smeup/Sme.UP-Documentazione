@@ -13,7 +13,7 @@ Codice del grado di accertamento della causa del difetto da utilizzare per la No
  :  : FLD T$NPNC **Tipo Non Conformità**
 Codice del tipo Non conformità da utilizzare per la Non Conformità (campo controllato nella tabella CQE)
  :  : FLD T$NPAT **Tipo Addebito/Accredito**
-Codice del tipo di addebito/accredito da utilizzare per la Non Conformità (campo controllato nella tabella CQ*AD)
+Codice del tipo di addebito/accredito da utilizzare per la Non Conformità (campo controllato nella tabella CQ\*AD)
  :  : FLD T$NPAS **Stato Addebito/Accredito**
 Codice dello stato dell'addebito/accredito da utilizzare per la Non Conformità (campo controllato nella tabella CQX)
  :  : FLD T$NPFL **Descrizione Fase Lavoro**

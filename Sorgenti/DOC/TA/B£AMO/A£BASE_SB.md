@@ -16,7 +16,7 @@ Di seguito **alcuni** dei sorgenti disponibili :
 
 # La stesura del codice
 ## Definizioni
-In testa si trova l'elenco delle modifiche, contrassegnate come specifiche **V***, interpretate nella scheda Modello Dinamico di Looc.up.
+In testa si trova l'elenco delle modifiche, contrassegnate come specifiche **V\***, interpretate nella scheda Modello Dinamico di Looc.up.
 Per informazioni sul Modello Dinamico, fare riferimento all'apposito paragrafo del documento sotto riportato : 
 - [Lavorare con i programmi](Sorgenti/DOC/TA/B£AMO/A£BASE_SD)
 
@@ -28,8 +28,8 @@ per l'inclusione delle specifiche di compilazione contenute nella /copy **£INIZ
 >I/COPY QILEGEN,£TABB£1DS
 
 La /copy **£TABB£1DS** definisce le 2 DS : 
- * B£1$DS  :  utilizzata per salvare i riferimenti degli applicativi a cui puntano gli oggetti (es. cliente, fornitore, articolo) e dell'ambiente.
- * B£2$DS  :  utilizzata per salvare campi eterogenei (es. azienda, divisa, magazzino).
+ \* B£1$DS  :  utilizzata per salvare i riferimenti degli applicativi a cui puntano gli oggetti (es. cliente, fornitore, articolo) e dell'ambiente.
+ \* B£2$DS  :  utilizzata per salvare campi eterogenei (es. azienda, divisa, magazzino).
 
 >I/COPY QILEGEN,£PDS
 
@@ -42,10 +42,10 @@ Al di sotto della specifica relativa alla £PDS posso definire delle variabili i
 
 
 A volte però risulta ancora necessario utilizzare la dichiarazione in specifiche C, come nel caso in cui ci sia bisogno di dichiarare delle variabili all'interno di /COPY di specifiche C.
->C* Dichiarazione variabili locali
+>C\* Dichiarazione variabili locali
 C     'A'           IFEQ      'B'
-C                   MOVEL     *BLANKS       £MDVNA            1
-C                   MOVEL     *BLANKS       £MDVAP            8
+C                   MOVEL     \*BLANKS       £MDVNA            1
+C                   MOVEL     \*BLANKS       £MDVAP            8
 C                   ENDIF
 
 Per la definizione delle DS utilizzare in modo esteso l'istruzione **LIKE** per la definizione dinamica a partire dai campi dei file di dati.

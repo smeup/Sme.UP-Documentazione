@@ -65,6 +65,6 @@ Le immagini dei profili  utente sono un caso particolare e vanno elencate nella 
 
 
 ## Caratteri non consentiti nel percorso delle immagini
-Qualore gli identificativi dell'oggetto di cui si sta ricercando l'immagine contengano catarreti non consentiti in un percorso di file system, tali caratteri andranno sostituiti con il carattere meno (-). Quindi l'immagine dell'oggetto di tipo ** sarà contenuto nella cartella --. Gli oggetti di tipo OJ-*USRPRF avranno le loro immagini nella cartella -USRPRF contenuta nella cartella OJ.
+Qualore gli identificativi dell'oggetto di cui si sta ricercando l'immagine contengano catarreti non consentiti in un percorso di file system, tali caratteri andranno sostituiti con il carattere meno (-). Quindi l'immagine dell'oggetto di tipo \*\* sarà contenuto nella cartella --. Gli oggetti di tipo OJ-\*USRPRF avranno le loro immagini nella cartella -USRPRF contenuta nella cartella OJ.
 
 

@@ -34,20 +34,20 @@ XFNFSE - N.ro congelamento
 
 # Modalità esecutiva
 Nel programma di caricamento DSIRIS a partire da S5IRIS
- :  : DEC T(OJ) P(*PGM) K(S5SMES_01I)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_01I)
 I campi dell'archivio vengono copiati in (G)
 Alla prima costruzione della DS (quando questo programma non è richiamato per rischedulazione) oppure se l'impegno è iniziato, i campi (G) vengono copiati in (S). Il motivio per cui questa operazione viene eseguita anche in rischedulazione, se l'impegno è in corso, deriva dal fatto che su di esso può essere stato dichiarato un avanzamento dopo il primo richiamo, che fa divenatre l'impegno in corso, cosa che ha la precedenza su congelamenti e forzature.
 In tutti i programmi vengono utilizzati i campi (S) :  il motivo che, ad ogni caricamento, vengono riportati i campi (G) è puramente documentativo. In questo modo si potrebbe rispondere alla domanda :  che modifiche sono state fatte in questa sessione?
 In particolare, le forzature e i congelamenti (inseriti, variati o eliminati) vengono registrati nei campi (S) nel programma di interazione con il GANTT
- :  : DEC T(OJ) P(*PGM) K(S5SMES_D4)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_D4)
 
 Successivamente, sempre nella fase iniziale di caricamento, se presenti forzature (almeno un elemento in DSFORZ), viene eseguito il programma di aggiornamento forzature
- :  : DEC T(OJ) P(*PGM) K(S5SMES_01F)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_01F)
 Viene scandito DSFORZ e, per ogni elemento, viene letto il corrispondente elemento di DSIRIS e si copiano i campi da (A) a (S).
 All'inizio, dopo il primo caricamento di DSIRIS, D0FORZ è vuota, quindi questa funzione viene eseguita solo dal secondo richiamo (di rischedulazione), successivamente alla reinizializzazione DS che andiamo ad illustrare.
 
 Quando si chiede la rischedulazione, come primo passo viene eseguita la reinizializzazione delle DS
- :  : DEC T(OJ) P(*PGM) K(S5SMES_03)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_03)
 In questo programma viene ricostruita DSFORZ a partire dai campi (S), in modo da essere disponibili per l'aggiornamento forzature. Dopo di ciò, sempre in questo programma, viene eliminato DSIRIS.
 
 Ci si ricollega poi al normale caricamento iniziale : 
@@ -91,7 +91,7 @@ Essa è stata implementata per la gestione del "Vincolo esterno al più presto",
 # Gestione vincolo esterno al più presto (VPP)
  :  : DEC T(MB) P(BCDSRC) K(PAR_SCP) L(1)
 E' stato realizzato a questo scopo il programma
- :  : DEC T(OJ) P(*PGM) K(S5SMES_65)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_65)
 che ha le seguenti funzioni : 
 INZ - Per inizializzare la DS di memorizzazione (lanciato da S5SMES_01I prima della lettura degli impegni, se è il primo richiamo, e da S5SMES_03)
 MEM - Per memorizzare il VPP presente in S5IRSE (lanciato sempre da S5SMES_01I per ogni impegno letto)

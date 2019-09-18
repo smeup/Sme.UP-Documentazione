@@ -11,7 +11,7 @@ Indica se l'opzione aggiuntiva alla risposta deve essere controllata come oggett
 -    Attrezzature
 -    Modalità di pagamento
 -    Altra tabella a piacere
-Il valore ** indica che è ammesso un valore di opzione non controllato. Si userà tale valore per indicare una opzione libera.
+Il valore \*\* indica che è ammesso un valore di opzione non controllato. Si userà tale valore per indicare una opzione libera.
  :  : FLD T$C£RP **Parametro tipo opzione**
 Se indicata una tabella permette di definire il nome di tale tabella.
  :  : FLD T$C£RO **Gestione opzione N/O**

@@ -25,9 +25,9 @@ PASSI COMPLETAMENTO 1° INSTALLAZIONE
 **Eseguire l'installazione di loocup
 - [Installazione client Looc.UP](Sorgenti/DOC/TA/B£AMO/LOBASE_031)
 
-# Impostazione UTENTE SMEUPADM a classe *PGMR
+# Impostazione UTENTE SMEUPADM a classe \*PGMR
  :  : INI Eseguire il comando chgusrprf
- :  : CMD ?CHGUSRPRF USRPRF(SMEUPADM) USRCLS(*PGMR) SPCAUT(*USRCLS)
+ :  : CMD ?CHGUSRPRF USRPRF(SMEUPADM) USRCLS(\*PGMR) SPCAUT(\*USRCLS)
  :  : FIN
 
 

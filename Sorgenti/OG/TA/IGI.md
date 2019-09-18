@@ -13,7 +13,7 @@ I numeri di un oggetto sono definiti dal parametro, che identifica  il tipo di o
 
  :  : PAR F(01) L(TAB)
 - Tipo valore|'NO'|
-- Parametro|'DRBOF' Tabella *CNTT
+- Parametro|'DRBOF' Tabella \*CNTT
 - Formula/parametro|'002'
 
 
@@ -91,12 +91,12 @@ Il valore è calcolato tramite un Pgm esterno (Exit), scritto per la specifica e
 _7_'FL' Formula di valori precedenti
 Calcolate le diverse tipologie di valori, è possibile scrivere una formula che li metta in relazione.
 _9_Esempio :  se nell'elemento 01 è stata ripresa la quantità spedita e nell'elemento 02 il costo unitario, per il calcolo del
-costo totale la formula sarà V01*V02.
+costo totale la formula sarà V01\*V02.
 
  :  : PAR F(01) L(TAB)
 - Tipo valore|'FL'
 - Parametro|
-- Formula|V01*V02
+- Formula|V01\*V02
 
 Nelle formule è possibile utilizzare anche le parentesi.
 
@@ -106,7 +106,7 @@ Valgono le medesime considerazioni del tipo FL, con la sola differenza che i val
  :  : PAR F(01) L(TAB)
 - Tipo valore|'FT'
 - Parametro|SSD5O+Elemento D5O
-- Formula|V01*V02
+- Formula|V01\*V02
 
 
 _7_'OA' OAV di un oggetto della chiave

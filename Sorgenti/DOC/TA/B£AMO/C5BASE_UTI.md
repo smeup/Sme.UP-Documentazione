@@ -158,7 +158,7 @@ l'inidcazione dei campi che non sono inseriti in modo congruo.
  :  : FIN
 
 ### C5UT18 Analisi insoluti per agente
-Analisi delle rate di pagato inserite in pratica che hanno esito (flag 19 diverso da *blanks)
+Analisi delle rate di pagato inserite in pratica che hanno esito (flag 19 diverso da \*blanks)
 con totale per agente
  :  : INI . Sorgente
  :  : CMD CALL B£VED0 PARM('C5UT18' '' '' '' '0')

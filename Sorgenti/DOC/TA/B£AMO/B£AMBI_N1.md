@@ -1,6 +1,6 @@
 # Modalità applicazione multiazienda con condivisione archivi
- * __Condivisi__; articoli / distinte / tabelle
- * __Specifici__; TABELP (B£1 - Nome azienda, B£2)
+ \* __Condivisi__; articoli / distinte / tabelle
+ \* __Specifici__; TABELP (B£1 - Nome azienda, B£2)
 
 Se le singole aziende sono monoplant si imposta nella B£2 di ciascuna di esse il MAG stesso che contribuirà a costituire le specificità (nelle risalite).
 

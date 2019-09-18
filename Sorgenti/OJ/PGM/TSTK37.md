@@ -19,7 +19,7 @@
  S - Stringa
  B - Booleano
  N - Numerico
- * - null (indica il valore null per qualsiasi dei 3 tipi precedenti)
+ \* - null (indica il valore null per qualsiasi dei 3 tipi precedenti)
 
  Per il tipo Stringa e Booleano il valore verrà restituito nel campo £K37O_AL. Il campo £K37O_M5  puà contenere il valore CONT per indicare che il valore continua, è pertanto rieseguire l'API  con gli stessi parametri per avere il resto del valore, se invece il campo £K37O_MS contiene FINE  è stato letto tutto il valore.
  Per il tipo Numerico il valore verrà restituito nel campo £K37O_NU

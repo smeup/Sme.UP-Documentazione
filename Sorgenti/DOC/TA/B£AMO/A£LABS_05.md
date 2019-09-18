@@ -15,9 +15,9 @@ Fun per la gestione
 
 ### Oggetto
 Scheda di test con : 
-* una lista di oggetti cablati
-* oggetti random
-* scegliere classe e istanza
+\* una lista di oggetti cablati
+\* oggetti random
+\* scegliere classe e istanza
 
 ### Associazioni
 Lo script A£LABS_05 contiene le associazioni tra le 3 entità.

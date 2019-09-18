@@ -1,9 +1,9 @@
 # Presentazione
 
 Descriviamo di seguito le modalità disponibili per rendere più flessibili i processi di workflow : 
- * Spegnimento di alcuni impegni tramite le funzioni di salto impegni.
- * Errori sull'ordine :  ordini da riportare in una situazione di consistenza, ad esempio per improprio avanzamento da parte di un utente, tramite le funzioni di annullamento attività.
- * Eccezioni di processo :  ordini che richiedono comportamenti non previsti/prevedibili dal modello iniziale di workflow.
+ \* Spegnimento di alcuni impegni tramite le funzioni di salto impegni.
+ \* Errori sull'ordine :  ordini da riportare in una situazione di consistenza, ad esempio per improprio avanzamento da parte di un utente, tramite le funzioni di annullamento attività.
+ \* Eccezioni di processo :  ordini che richiedono comportamenti non previsti/prevedibili dal modello iniziale di workflow.
 
 ## Salto impegni
 
@@ -11,9 +11,9 @@ Descriviamo di seguito le modalità disponibili per rendere più flessibili i pr
 In questo modo è possibile disegnare dei processi completi (che comprendano la maggior parte delle casistiche) e fare sì che in fase di esecuzione vengano ridotti solo al necessario.
 
 Se un impegno viene saltato : 
- * Non viene presentato ai relativi utenti per l'esecuzione.
- * Lascia traccia nel log delle attività, scrivendo delle attività particolari di "Salto impegno".
- * Non vengono eseguite le sue conseguenze esterne.
+ \* Non viene presentato ai relativi utenti per l'esecuzione.
+ \* Lascia traccia nel log delle attività, scrivendo delle attività particolari di "Salto impegno".
+ \* Non vengono eseguite le sue conseguenze esterne.
 
 ### Salto automatico
 
@@ -35,22 +35,22 @@ Per motivi di consistenza se si annulla un'attività vengono annullate automatic
 ### Annullamento da utente qualsiasi
 
 Un'attività è annullabile da parte di un utente se : 
- * L'attività è stata eseguita dall'utente;
- * L'attività è annullabile;
- * Tutte le attività successive sono annullabili.
+ \* L'attività è stata eseguita dall'utente;
+ \* L'attività è annullabile;
+ \* Tutte le attività successive sono annullabili.
 
 Un'attività è annullabile se : 
- * È stata eseguita dall'utente;
- * Se attività di PRC/DIC è previsto (tramite opportuno flag) che sia annullabile;
- * Se attività di assegnazione o riassegnazione è sempre annullabile.
- * Se attività automatica è sempre annullabile.
+ \* È stata eseguita dall'utente;
+ \* Se attività di PRC/DIC è previsto (tramite opportuno flag) che sia annullabile;
+ \* Se attività di assegnazione o riassegnazione è sempre annullabile.
+ \* Se attività automatica è sempre annullabile.
 
 Un utente può fare cominciare l'annullamento solo dalle attività che ha eseguito.
 
 L'annullamento utente può essere eseguito, quando consentito dalle regole appena esposte : 
- * Dalla scheda di un impegno in esecuzione, in basso a destra (ad esempio per annullare una presa in carico);
- * Dalla sottoscheda "Attività" della scheda utente di workflow;
- * Dalla sotto-scheda "Log attività" della scheda di un ordine di workflow.
+ \* Dalla scheda di un impegno in esecuzione, in basso a destra (ad esempio per annullare una presa in carico);
+ \* Dalla sottoscheda "Attività" della scheda utente di workflow;
+ \* Dalla sotto-scheda "Log attività" della scheda di un ordine di workflow.
 
 ### Annullamento da utente master
 
@@ -68,6 +68,6 @@ Questo offre come benefici, se non l'automatizzazione di certe azioni o il contr
 ### Modalità libera
 Per ordini "anomali", ovvero nei quali la sequenza delle operazioni non rispetta l'insieme di casistiche previsto in fase di modellazione del processo, una soluzione consiste nello "sblocco" dell'ordine in modalità libera.
 Nell'ordine : 
- * Un utente master (O2 sulla classe WFORTE per il processo) può sbloccare l'ordine dalla sottoscheda "Gestione master" della scheda dell'ordine (operazione NON REVERSIBILE!).
- * Da quel momento gli impegni non vengono più attivati dal motore di workflow, ma da esso resi eventualmente "attivabili" (solo come segnalazione) :  dalla stessa scheda di sblocco si può attivare/disattivare gli impegni al momento opportuno con un doppio click.
+ \* Un utente master (O2 sulla classe WFORTE per il processo) può sbloccare l'ordine dalla sottoscheda "Gestione master" della scheda dell'ordine (operazione NON REVERSIBILE!).
+ \* Da quel momento gli impegni non vengono più attivati dal motore di workflow, ma da esso resi eventualmente "attivabili" (solo come segnalazione) :  dalla stessa scheda di sblocco si può attivare/disattivare gli impegni al momento opportuno con un doppio click.
 

@@ -6,8 +6,8 @@ Questa tabella serve per definire le fonti per la totalizzazione del costo di un
 L'elemento definisce una fonte.
 Le fonti attualmente gestite sono :  Movimenti, Documenti, Ordini produzione e lotti.
 Oltre a definire l'origine la fonte ne detemina le caratteistiche : 
-* l'azione che indica se agisce su quantità, valore o entrambi;
-* il segno che indica se agisce in modo positivo o negativo nella totalizzazione.
+\* l'azione che indica se agisce su quantità, valore o entrambi;
+\* il segno che indica se agisce in modo positivo o negativo nella totalizzazione.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$DESC DESCRIZIONE
 Si inserisce la descrizione della fonte.

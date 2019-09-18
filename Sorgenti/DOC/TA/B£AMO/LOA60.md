@@ -2,10 +2,10 @@
 La finalità delle notifiche è quella di poter generare un avviso visualizzabile tramite un'apposita funzione presente in Loocup, Webup e Mobile.
 
 La notifica è l'insieme delle seguenti caratteristiche : 
-* oggetto scatenante
-* Responsabile dell'oggetto
-* Istante
-* Numerosità
+\* oggetto scatenante
+\* Responsabile dell'oggetto
+\* Istante
+\* Numerosità
 
 Distinguiamo tra **notifiche in pull**, generate in base ad una temporizzazione e a delle regole, e **notifiche in push**, inviate puntualmente da un programma all'accadere di qualcosa.
 Una notifica è in push se nel tag **A60.COS** l'attributo Cos="", mentre se è impostato il suffisso del programma costruttore da richiamare è in pull.
@@ -17,9 +17,9 @@ Il tipo notifica è un oggetto di tipo SESUB.A60 ,  che corrisponde a una subsez
 Attraverso il Tag **A60.COS** si definiscono le logiche di generazione delle notifiche.
 E' resa disponibile la variabile &RES (responsabile) da utilizzare nel tag A60.PRE
 Sono stati predisposti i seguenti costruttori : 
-* 01 - Comandi SQL
-* 02 - Fonti della reportistica (A15)
-* 03 - Membri sorgenti
+\* 01 - Comandi SQL
+\* 02 - Fonti della reportistica (A15)
+\* 03 - Membri sorgenti
 
 ### Comandi SQL
 - [Comandi SQL](Sorgenti/DOC/TA/B£AMO/LOA60_01)
@@ -32,7 +32,7 @@ Sono stati predisposti i seguenti costruttori :
 
 ## Schedulare la costruzione
 Il programma LOA60_LM esegue la costruzione di ciascun motore di notifica (ciascun SE SUB.A60) in base all'intervallo previsto per ciascun motore.
-Il lancio del programma (CALL LOA60_LM) va schedulato su una coda *NOMAX per ciascun ambiente per il quale si desideri costruire le notifiche.
+Il lancio del programma (CALL LOA60_LM) va schedulato su una coda \*NOMAX per ciascun ambiente per il quale si desideri costruire le notifiche.
 
 ## Notifiche in push
 Un tipo notifica è definito come "in push" se non ha il costruttore valorizzato.
@@ -95,7 +95,7 @@ Qualora si utilizzi una funzione specifica è necessario che la stessa decrement
 ## Disabilitare le notifiche client per un utente
 Per disabilitare le notifiche Web.UP e Looc.UP per un utente (tipicamente per gli utenti utilizzati per accessi web condivisi o per gli utenti di servizio dei provider) si può intervenire sullo script di SCP_CLO dell'utente.
 .. Disattivo notifiche
-..  :  : C.VAR Cod="*NOTIFICATION" Txt="Notifiche" Value=""
+..  :  : C.VAR Cod="\*NOTIFICATION" Txt="Notifiche" Value=""
 
 ## Note
 La funzione "SND" del LOA60_SE invia al client tutte le notifiche presenti per un utente come messaggi di tipo NOTIF.

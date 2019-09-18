@@ -1,11 +1,11 @@
 ## SERVIZI AS400
 Nel menù servizi è compresa la voce 'Servizi AS400', che comprende alcune funzionalità di accesso all'AS400 in forma grafica.
 Tali funzionalità sono : 
- * Cambio password
- * Gestione stampanti
- * Spool di stampa
- * Lista lavori
- * Messaggi di sistema
+ \* Cambio password
+ \* Gestione stampanti
+ \* Spool di stampa
+ \* Lista lavori
+ \* Messaggi di sistema
 
 Non avendo ancora una gestione delle stampe AS400 nativa di Looc.UP, temporanamente ci appoggiamo a questi tool grafici, che sono però nativi del Client Access (IBM iSeries Access per Windows).
 L'installazione minimale è descritta in : 

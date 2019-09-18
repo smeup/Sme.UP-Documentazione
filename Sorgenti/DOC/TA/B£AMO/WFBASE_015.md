@@ -4,10 +4,10 @@ La definizione di una rete di Petri viene effettuata in uno script collegato al 
 
 # Componenti elementari
 I componenti elementari che descrivono un processo sono i seguenti : 
- * Transizione :  rappresenta un compito da eseguire, graficamente è descritta con un rettangolo.
- * Luogo :  rappresenta una posizione a cui può essere giunto un processo, graficamente descritto con un cerchio.
- * Arco (orientato) collega una transizione ad un luogo, o viceversa; graficamente viene descritto da una freccia.
- * Token :  rappresenta lo stato di attivazione di un luogo; graficamente è un pallino nero all'interno del luogo. NB :  in un dato istante possono essere presenti più token su luoghi diversi in una rete di Petri.
+ \* Transizione :  rappresenta un compito da eseguire, graficamente è descritta con un rettangolo.
+ \* Luogo :  rappresenta una posizione a cui può essere giunto un processo, graficamente descritto con un cerchio.
+ \* Arco (orientato) collega una transizione ad un luogo, o viceversa; graficamente viene descritto da una freccia.
+ \* Token :  rappresenta lo stato di attivazione di un luogo; graficamente è un pallino nero all'interno del luogo. NB :  in un dato istante possono essere presenti più token su luoghi diversi in una rete di Petri.
 
 Un processo deve iniziare e terminare con dei luoghi.
 
@@ -16,8 +16,8 @@ Vediamo di seguito un semplice esempio di processo, costituito dai luoghi L01, L
 Un processo viene eseguito eseguendo alcune o tutte le transizioni che lo compongono (svolgimento dei compiti previsti).
 
 L'esecuzione di una transizione si compone di due elementi : 
- * I requisiti per cui essa può avvenire. In prima istanza una transizione può scattare quando tutti i luoghi in ingresso sono attivi (presenza di token).
- * Le conseguenze prodotte quando essa avviene :  vengono eliminati tutti i token dei luoghi precedenti, ed aggiunti a tutti i luoghi a cui essa punta.
+ \* I requisiti per cui essa può avvenire. In prima istanza una transizione può scattare quando tutti i luoghi in ingresso sono attivi (presenza di token).
+ \* Le conseguenze prodotte quando essa avviene :  vengono eliminati tutti i token dei luoghi precedenti, ed aggiunti a tutti i luoghi a cui essa punta.
 
 All'inizio del processo tutti i luoghi di partenza contengono un token. Nell'esempio illustrato in queste condizioni la transizione T01 è eseguibile, perchè il suo luogo in ingresso (L01) contiene un token.
 
@@ -42,19 +42,19 @@ L'esecuzione di T01 e di T02 sposta i token, rispettivamente, da L01 a L03 e da 
 ![WF-FIG0008](http://localhost:3000/immagini/WFBASE_015/WF-FIG0008.png)All'esecuzione della transizione T01 il processo può chiedere all'utente di scegliere in quale luogo, L02 o L03, mettere il token :  nel primo caso viene attivata la transizione T02, la cui esecuzione riattiverà la T01 (eseguendo quindi un loop), mentre nel secondo la T03.
 
 Si noti che configurazioni alternative della transizione T01 potrebbero implicare : 
- * tutti i luoghi (L02, L03) vengono riempiti automaticamente dall'esecuzione della transizione T01 :  in questo modo T02 e T03 si attivano contemporaneamente.
- * i luoghi (uno o più) in cui deve essere posto il token vengono calcolati automaticamente dal motore di workflow, eventualmente sulla base di ragionamenti complessi.
+ \* tutti i luoghi (L02, L03) vengono riempiti automaticamente dall'esecuzione della transizione T01 :  in questo modo T02 e T03 si attivano contemporaneamente.
+ \* i luoghi (uno o più) in cui deve essere posto il token vengono calcolati automaticamente dal motore di workflow, eventualmente sulla base di ragionamenti complessi.
 
 Queste diverse configurazioni non sono rappresentate graficamente (sono impostazioni di script) ma danno luogo a comportamenti diversi dei processi.
 
 
 # In pratica
 
- * Si definisce un processo, compilando in uno script la rete di Petri che lo definisce.
- * Si possono così istanziare degli ordini di workflow sulla base del modello definito
- ** un ordine è costituito da più impegni, ognuno modellato da una transizione nella rete di Petri del processo
- ** si attivano gli impegni per cui è attiva (eseguibile) la relativa transizione nella rete di Petri
- ** l'esecuzione di un impegno è l'esecuzione della relativa transizione, per cui viene aggiornata la rete di Petri relativa all'ordine e viene effettuato così l'avanzamento (si attivano gli impegni successivi)
+ \* Si definisce un processo, compilando in uno script la rete di Petri che lo definisce.
+ \* Si possono così istanziare degli ordini di workflow sulla base del modello definito
+ \*\* un ordine è costituito da più impegni, ognuno modellato da una transizione nella rete di Petri del processo
+ \*\* si attivano gli impegni per cui è attiva (eseguibile) la relativa transizione nella rete di Petri
+ \*\* l'esecuzione di un impegno è l'esecuzione della relativa transizione, per cui viene aggiornata la rete di Petri relativa all'ordine e viene effettuato così l'avanzamento (si attivano gli impegni successivi)
 
 
 # Accenno alle estensioni

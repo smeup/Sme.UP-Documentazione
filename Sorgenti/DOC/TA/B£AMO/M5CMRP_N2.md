@@ -38,8 +38,8 @@
 _2_Dati significativi che bastano ad individuare il tipo riga
 
 _1_Tipo riga
- * - = Non presente
- * _1_G = Giacenza
- * _1_O = Ordine in corso
- * _1_I = Impegno
- * _1_P = Ordine pianificato
+ \* - = Non presente
+ \* _1_G = Giacenza
+ \* _1_O = Ordine in corso
+ \* _1_I = Impegno
+ \* _1_P = Ordine pianificato

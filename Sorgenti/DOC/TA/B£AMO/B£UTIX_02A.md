@@ -17,50 +17,50 @@ Le operazioni con una data di effettuazione inferiore alla data di introduzione 
  Se ciò non è possibile, i documenti dovranno essere modificati manualmente in modo che, ove richiesto, riportino l'assoggettamento al 22 prima che vengano stampati e/o contabilizzati.
 
 # I Dati sensibili da adeguare nello standard
-* Introduzione nella tabella degli assoggettamenti IVA dei codici al 22%.
+\* Introduzione nella tabella degli assoggettamenti IVA dei codici al 22%.
  E' obbligatorio il mantenimento degli assoggettamenti al 21%. Si consiglia inoltre di predisporre una tabella della corrispondenza fra vecchi e nuovi codici. Per chi intende seguire la procedura SMEUP di adeguamento (citata nel seguito) dovrà inserire questa informazione negli Alias.
 
- * Aggiornamento di tutti i dati da cui viene derivato l'assoggettamento iva nella registrazione dei
+ \* Aggiornamento di tutti i dati da cui viene derivato l'assoggettamento iva nella registrazione dei
  documenti e della contabilità : 
- ** Gli assoggettamenti indicati nelle tabelle V51, C51, BRA, C6S, G9S
- ** Le anagrafiche delle articoli
- ** Le anagrafiche degli enti
- ** Estensioni anagrafiche £14 (Dati specifici per modello)
- ** Parametri standard della tabella C5D (Per la creazione dei documenti di autofattura)
- * Vanno poi controllati gli elementi della tabella C5U che iniziano per "IVA". Questi elementi di tabella possono presentare nel 6° e nel 7° carattere un codice della tabella IVA. Se uno di questi codici corrisponde a quelli con aliquota al 21% andranno creati gli elementi della C5U aventi nei caratteri 6/7 il nuovo codice iva corrispondente al 22%.
+ \*\* Gli assoggettamenti indicati nelle tabelle V51, C51, BRA, C6S, G9S
+ \*\* Le anagrafiche delle articoli
+ \*\* Le anagrafiche degli enti
+ \*\* Estensioni anagrafiche £14 (Dati specifici per modello)
+ \*\* Parametri standard della tabella C5D (Per la creazione dei documenti di autofattura)
+ \* Vanno poi controllati gli elementi della tabella C5U che iniziano per "IVA". Questi elementi di tabella possono presentare nel 6° e nel 7° carattere un codice della tabella IVA. Se uno di questi codici corrisponde a quelli con aliquota al 21% andranno creati gli elementi della C5U aventi nei caratteri 6/7 il nuovo codice iva corrispondente al 22%.
 
- * Aggiornamento dei documenti che dovranno essere elaborati con la nuova aliquota : 
- ** Gli ordini aperti, attivi e passivi, valutando se sia opportuno, per le righe evase parzialmente, applicare una suddivisione netta fra quanto già evaso ed il residuo, saldando la riga e riaprendone una nuova per il solo residuo.
- ** Le bolle se successive alla data di introduzione della nuova aliquota. Per questi documenti andranno aggiornati sia i dati di testata che di riga.
- * Se per vari motivi sono stati contabilizzati documenti con aliquota errata questi andranno scontabilizzati, e corretti/ricontabilizzati o in alternativa stralciati e ricreati ex-novo.
+ \* Aggiornamento dei documenti che dovranno essere elaborati con la nuova aliquota : 
+ \*\* Gli ordini aperti, attivi e passivi, valutando se sia opportuno, per le righe evase parzialmente, applicare una suddivisione netta fra quanto già evaso ed il residuo, saldando la riga e riaprendone una nuova per il solo residuo.
+ \*\* Le bolle se successive alla data di introduzione della nuova aliquota. Per questi documenti andranno aggiornati sia i dati di testata che di riga.
+ \* Se per vari motivi sono stati contabilizzati documenti con aliquota errata questi andranno scontabilizzati, e corretti/ricontabilizzati o in alternativa stralciati e ricreati ex-novo.
 
 ## Caso particolare della tabella V5S
 Dall'elenco precedente è stata volutamente esclusa la casistica della tabella V5S (spese/sconti). Per questa ci sono alcune considerazioni particolari da fare se negli elementi è stata indicata un'aliquota al 21%. Istruzioni sulla risoluzione di questa casistica verranno rese disponibili all'indirizzo che verrà indicato di seguito. Si consiglia di verificare se si rientra nella casistica e nel caso di allinearsi a tali istruzioni non appena saranno disponibili.
 
 ### Adeguamento delle personalizzazioni
 Per le eventuali logiche personali si danno invece queste indicazioni : 
- * Verificare presenza di campi utente su tabelle standard che prevedano campi che fanno riferimento alla tabella IVA e conseguente verifica dell'utilizzo di tali campi
- * Verificare presenza di tabelle personali che prevedano campi che fanno riferimento alla tabella IVA e conseguente verifica dell'utilizzo di tali campi
- * Elementi di tabella che contengono riferimenti alla tabella IVA e conseguente verifica dell'utilizzo di tali elementi (es. caso della B£G che può avere molteplici implicazioni)
- * Controllo di programmi personali o personalizzati che contengano riferimenti espliciti ad elementi della IVA o anche solo all'aliquota 21.
+ \* Verificare presenza di campi utente su tabelle standard che prevedano campi che fanno riferimento alla tabella IVA e conseguente verifica dell'utilizzo di tali campi
+ \* Verificare presenza di tabelle personali che prevedano campi che fanno riferimento alla tabella IVA e conseguente verifica dell'utilizzo di tali campi
+ \* Elementi di tabella che contengono riferimenti alla tabella IVA e conseguente verifica dell'utilizzo di tali elementi (es. caso della B£G che può avere molteplici implicazioni)
+ \* Controllo di programmi personali o personalizzati che contengano riferimenti espliciti ad elementi della IVA o anche solo all'aliquota 21.
 
 ## Due Casi Frequenti di Personalizzazione
 
 ### Utilizzo dell'Assoggettamento IVA nel CORD
 Se è stato utilizzato l'assoggettamento IVA nel CORD viene consigliato nel pgm di adeguamento di inserire le specifiche riportate di seguito, PRIMA dell'istruzione d'aggiornamento della testata :  V5TDOC.
 
-> * i.mod.CORD
+> \* i.mod.CORD
 D V5TDOC        E DS                  EXTNAME(V5TDOC0F) INZ
- * f.mod.CORD
+ \* f.mod.CORD
 ...
- * i.mod.CORD
+ \* i.mod.CORD
 C                   EVAL      £V5LFU='A'
 C                   EVAL      £V5LME=''
 C                   EVAL      £FUNP1=T§TDOC
 C                   EVAL      £V5LL1='2'
 C                   EVAL      £V5LIM=T§TMOD
 C                   EXSR      £V5L
-C                   IF        NOT(*IN35)
+C                   IF        NOT(\*IN35)
 C                   EVAL      V5A$DS=£V5LT1
 C                   ELSE
 C                   CLEAR                   V5A$DS
@@ -69,7 +69,7 @@ C                   CALL      'V5DO01O'
 C                   PARM      'COS'         XXFUNZ           10
 C                   PARM      T$V5AG        XXMETO           10
 C                   PARM                    V5TDOC
- * f.mod.CORD
+ \* f.mod.CORD
 
 
 ### Documento Pre-Bolla

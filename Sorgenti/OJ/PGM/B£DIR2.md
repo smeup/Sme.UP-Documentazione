@@ -1,5 +1,5 @@
 # Obiettivo
-Permettere la manutenzione dell'archivio che definisce le caratteristiche della risorsa, ed in particolare la sua disponibilità per ciascun giorno della settimana e per i 5 tipi di giorni particolari (che corrispondono ai codici 1-5 nell'archivio calendario annuale). Non è necessario descrivere le condizioni di ogni risorsa poichè in mancanza di tale definizione, l'applicazione passa a leggere le condizioni generiche legate alla risorsa '**'
+Permettere la manutenzione dell'archivio che definisce le caratteristiche della risorsa, ed in particolare la sua disponibilità per ciascun giorno della settimana e per i 5 tipi di giorni particolari (che corrispondono ai codici 1-5 nell'archivio calendario annuale). Non è necessario descrivere le condizioni di ogni risorsa poichè in mancanza di tale definizione, l'applicazione passa a leggere le condizioni generiche legate alla risorsa '\*\*'
 
 # Dettaglio formati
 ## Formato guida

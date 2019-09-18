@@ -3,7 +3,7 @@
 ### Generalità
 In Sme.up i listini sono basati su una struttura di dati che ne permette un utilizzo estremamente libero quando risulta necessario associare ad un gruppo di dati dei valori, dei codici e/o dei numeri.
 L'applicazione più comune è l'associazione a  articolo / ente di un prezzo unitario e fino a 4 possibili sconti, il tutto con una data ed una quantità di fornitura di validità.
-Per comodità di spiegazione nella documentazione faremo riferimento ad un listino di acquisto, dove in genere esiste un prezzo per un determinato articolo fornito da un particolare fornitore (la principale differenza possibile con i listini di vendita è che in genere nella vendita esiste un prezzo stabilito per articolo con delle eccezioni per particolari clienti, questa particolarità è compresa nella possibilità di descrivere un listino sia per codici cliente specificati che per codici cliente generici "**").
+Per comodità di spiegazione nella documentazione faremo riferimento ad un listino di acquisto, dove in genere esiste un prezzo per un determinato articolo fornito da un particolare fornitore (la principale differenza possibile con i listini di vendita è che in genere nella vendita esiste un prezzo stabilito per articolo con delle eccezioni per particolari clienti, questa particolarità è compresa nella possibilità di descrivere un listino sia per codici cliente specificati che per codici cliente generici "\*\*").
 
 ### Definizioni
  :  : T04 Area
@@ -17,7 +17,7 @@ Sul listino si stabilisce anche il grado di autorizzazione necessario per la sua
 Ogni Fornitore / Cliente deve avere un listino associato, altrimenti il listino viene chiesto in fase di creazione dell'ordine.
 
  :  : T04 Categoria
-Classifica il tipo di listino, ad esempio la categoria dei listini di acquisto e quella dei listini di vendita, è definita nella tabella C£*_CL.
+Classifica il tipo di listino, ad esempio la categoria dei listini di acquisto e quella dei listini di vendita, è definita nella tabella C£\*_CL.
 A livello  di tipologia documento (V5D) o tipologia ente (BRE) si può definire una categoria che sarà utilizzata come condizione di validità nel listino. Ai clienti, ad esempio, potrò assegnare solo listini di vendita ecc..
 
  :  : T04 Sezione

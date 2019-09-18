@@ -1,23 +1,23 @@
 # Definizione della giacenza
  Per creare una giacenza,e permetterne le attività successive, è necessario : 
- * _2_Definire l'AREA o le AREEdi magazzino di cui si vuole avere la giacenza.
+ \* _2_Definire l'AREA o le AREEdi magazzino di cui si vuole avere la giacenza.
  :  : DEC T(ST) K(GMR)
 
- * _2_Definire i TIPI GIACENZA, ovvero il  grado  di dettaglio con cui voglio interrogare le giacenze di un articolo in una particolare area.
+ \* _2_Definire i TIPI GIACENZA, ovvero il  grado  di dettaglio con cui voglio interrogare le giacenze di un articolo in una particolare area.
 _R_Il tipo giacenza è l'elemento che deve essere  definito sulle causali di movimentazione, affinchè le giacenze vengano movimentate correttamente.
  :  : DEC T(ST) K(GMQ)
  :  : DEC T(ST) K(GMC)
 Le chiavi di giacenza tipiche sono : 
- ** _9_CONFIGURAZIONE
- ** _9_UBICAZIONE
- ** _9_LOTTO
- ** _9_ENTE(Cliente / Fornitore)
- ** _9_FASE DI LAVORAZIONE
- ** _9_COMMESSA
- ** _9_COLLO
+ \*\* _9_CONFIGURAZIONE
+ \*\* _9_UBICAZIONE
+ \*\* _9_LOTTO
+ \*\* _9_ENTE(Cliente / Fornitore)
+ \*\* _9_FASE DI LAVORAZIONE
+ \*\* _9_COMMESSA
+ \*\* _9_COLLO
 E' possibile definire>4chiavi di giacenza libere, più una fissa che è il collo.
 
- * _2_Definire la FORMA DI INTERROGAZIONEdella giacenza (cioè il logico di interrogazione dell'archivio giacenza GMQUAN0F).
+ \* _2_Definire la FORMA DI INTERROGAZIONEdella giacenza (cioè il logico di interrogazione dell'archivio giacenza GMQUAN0F).
  :  : DEC T(ST) K(GMF)
 
 # Interrogazione giacenza

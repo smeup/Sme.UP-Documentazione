@@ -5,7 +5,7 @@ Gestire i connettori con IUNGO
 V5 Per i documenti
 ## INTRODUZIONE
 L'elemento di tabella è  : 
-- ** = default
+- \*\* = default
 - Per SS V5 = SSV5A+MODELLO
 ## CONTENUTO DEI CAMPI
  :  : FLD T$DESC Descrizione

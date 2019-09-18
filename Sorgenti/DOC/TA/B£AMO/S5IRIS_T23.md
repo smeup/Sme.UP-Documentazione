@@ -14,13 +14,13 @@ Nel seguito esponiamo, per ognuna di queste fasi, le exit che vengono richiamate
 #  Preparazione dati di input
 
 ## Istante Partenza Disponibilità Risorsa
- :  : DEC T(OJ) P(*PGM) K(S5SMES_T1) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_T1) L(1)
 Per ogni risorsa viene eseguito (all'atto del caricamento iniziale delle risorse, S5SMES_01R) S5SMES_T1 di calcolo istante di partenza di disponibilità risorsa. Questo programma viene lanciato anche da S5SMES_03 (di reinizializzazione campi risorse).
 L'istante di partenza di disponibilità risorsa può essere variato (ritardato) per ogni singola risorsa tramite la exit S5SMX_16x, che riceve la risorsa in £A02 e può modificare direttamente il relativo elemento di DSRISO nei campi data e ora inizio disponibilità risorsa.
 
 
 ##  Costruzione DSIRIS e DSSINT
- :  : DEC T(OJ) P(*PGM) K(S5SMES_01I) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_01I) L(1)
 
 Il programma S5SMES_01I lancia : 
 
@@ -36,7 +36,7 @@ Al termine del loop di caricamento lancia S5SMES_07 (di gestione appuntamenti tr
 
 ## Alternative
 
- :  : DEC T(OJ) P(*PGM) K(S5SMES_01K) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_01K) L(1)
 
 lancia : 
 
@@ -45,7 +45,7 @@ lancia :
 
 ## Completamento Inizializzazione
 
- :  : DEC T(OJ) P(*PGM) K(S5SMES_06) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_06) L(1)
  lancia  in sequenza  le exit : 
 
  :  : DEC T(MB) P(BCDSRC) K(S5SMX_05X) L(1)
@@ -74,7 +74,7 @@ La prima è la selezione dei dettagli degli impegni in corso, e dei dettagli deg
 La seconda è il vero e proprio motore di schedulazione
 
 ## Selezione dettagli
- :  : DEC T(OJ) P(*PGM) K(S5SMES_11E) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_11E) L(1)
 viene richiamato per N volte per quanti sono gli impegni non schedulati nel passo precedente, e ad ogni richiamo sceglie il miglior dettaglio da schedulare, lancia le seguenti exit : 
 
 Prima del loop sugli impegni pronti (all'inizio di ogni richiamo) lancia : 
@@ -116,7 +116,7 @@ Questa spinta finale può essere utilizzata in una scelta "minimale" della risor
 
 
 ## Schedulazione dettaglio
- :  : DEC T(OJ) P(*PGM) K(S5SMES_16) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_16) L(1)
 
 La funzione di schedulazione del dettaglio scelto si compone di vari programmi, per comprendere il loop di schedulazione in tiro (sia manuale sia batch) :  il programma di partenza di questa funzione è S5SMES_16.
 
@@ -138,7 +138,7 @@ con funzione FIN, prima di aggiornare, sulla DSRISP se RSV, l'istante di fine di
 viene lanciato (con funzione APP) in questa fase per rendere pronte le prime fasi dei livelli superiori quando tutti i livelli inferiori sono conclusi, che vengono rese pronte all'istante più alto della fine dei livelli inferiori. È possibile, in questo programma, al posto della sovrapposizione tra livelli standard, una sovrapposizione utente, tramite la exit S5SMX_26x, lanciata con funzione SOV, per ogni impegno di livello superiore che è stato reso pronto dal dettaglio schedulato, ricevendo l'impegno stesso in £A01 e una schiera (con il relativo riempimento) di tutte le sintesi (completate) di livello inferiore di cui era in attesa.
 
 ## Tiro
- :  : DEC T(OJ) P(*PGM) K(S5SMES_15) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_15) L(1)
 Il programma che esegue il tiro è S5SMES_15, lancia la exit : 
 
 
@@ -149,7 +149,7 @@ In presenza di batch, il tiro viene comunque lanciato dal dettaglio (£A05) dell
 
 
 # Operazioni finali
- :  : DEC T(OJ) P(*PGM) K(S5SMES_19) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_19) L(1)
 Il programma di azioni finali (S5SMES_19), lancia all'inizio l'exit S5SMX_13x, che può eseguire qualsiasi azione sulla memoria, e quindi la restante parte del programma può tenerne conto.
 In cascata viene eseguito il programma di calcolo indici (S5SMES_20) che può lanciare l'exit S5SMX_22x, di calcolo degli indici utente (dal 61 al 90) e di eventuale esclusione di tutti gli indici dalla presentazione. Riferirsi al commento interno di questa exit per i dettagli implementativi.
 
@@ -159,7 +159,7 @@ I programmi di presentazione matrici e Gantt lanciano la exit S5SMX_06x, che per
 Riferirsi all'help interno a questa exit per l'elenco dei programmi di presentazione interessati e alle modalità di colloquio.
 
 # Gantt di dettaglio
- :  : DEC T(OJ) P(*PGM) K(S5SMES_D4) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_D4) L(1)
 Nel Gantt di dettaglio (S5SMES_D4) in cui l'utente può modificare i risultati della schedulazione (modifica della risorsa specifica, variazione all'ordine di schedulazione) si possono richiamare le seguenti exit : 
 
 
@@ -171,12 +171,12 @@ Questa exit è attiva solo se in assenza di risorse specifiche. Riceve, in £A02
 Riceve, in £A02 la risorsa su cui si vuol spostare e in £A05 il dettaglio che si vuole spostare (da cui si ricava immediatamente la risorsa in cui è attualmente schedulato). Riempiendo una stringa verrà prodotto un messaggio di avvertimento con quella stringa, che dovrà essere confermato per eseguire lo spostamento. Ritornando inoltre nel messaggio "NO" si ha l'effetto che lo spostamento verrà impedito (sempre dandone segnalazione nel messaggio).
 
 # Visualizzazione andamento RSV
- :  : DEC T(OJ) P(*PGM) K(S5SMES_DO) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_DO) L(1)
 Il programma S5SMES_DO che presenta, in vari modi, le RSV, tra le sue possibilità ha quella di elencare, per ogni RSV, l'andamento della disponibilità residua nel tempo. Per far questo, chiama il programma che ritorna questa informazione (S5SMES_74). Se il calcolo RSV non è standard, a sua volta questo programma esegue la exit S5SMX_24x, che ritorna questo valore calcolato in modo personale- Presumibilmente questa exit sarà un passaggio alla mongolfiera che sovrintende al calcolo delle RSV non standard, in analogia a quanto accade per il caso standard, in cui viene chiamato S5SMES_76 che a sua volta chiama la mongolfiera standard delle RSV S5SMES_77. Si passa alla exit la risorsa secondaria £A16, e si ricevono, in sequenza, nella DS £S5DS01 gli istanti di inizio e fine in cui la disponibilità non varia, e, ovviamente, il suo valore.
 
 
 # Memorizzazione risultati su disco
- :  : DEC T(OJ) P(*PGM) K(S5SMES_25) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(S5SMES_25) L(1)
 Nel programma S5SMES_25, di aggiornamento degli impegni risorse con i della schedulazione (istanti di inizio, fine e di vincolo, durata attrezzaggio, ecc..) è possibile richiamare la exit S5SMX_08x in vari punti, con le seguenti funzioni : 
 INZ - all'inizio della memorizzazione
 PRE - prima dell'aggiornamento di S5IRIS con in £A05 il dettaglio e la DSIRIS già modificata ma non ancora scritta. Se si vuol ottenere la before image basta agganciare il record di S5IRS con l'IDOJ ricevuto (salvando la DSIRIS perché non venga sovrascritta).

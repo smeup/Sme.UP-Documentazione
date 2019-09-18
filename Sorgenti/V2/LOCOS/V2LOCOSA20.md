@@ -29,11 +29,11 @@ Ad ogni setup deve essere assegnato un nome.
 ## Comunicazione
 La comunicazione del Setup avviene attraverso il parametro INPUT della funzione (£UIBD1) nel quale viene passato l'intero XML di setup. Esso viene quindi depurato di eventuali nodi diversi, mantenendo il solo nodo <Setup>.
 
-## Il Setup dell'utente *JOB
-Il setup attualmente in uso viene identificato con utente *JOB. Su questo setup possono essere eseguite tutte le normali operazioni di gestione dei setup.
+## Il Setup dell'utente \*JOB
+Il setup attualmente in uso viene identificato con utente \*JOB. Su questo setup possono essere eseguite tutte le normali operazioni di gestione dei setup.
 
-## Ultimo utilizzo *LAST
-La MDV  dell'ultimo utilizzo viene identificata con nome *LAST. Su questa MDV possono essere eseguite tutte le normali operazioni di gestione della MDV.
+## Ultimo utilizzo \*LAST
+La MDV  dell'ultimo utilizzo viene identificata con nome \*LAST. Su questa MDV possono essere eseguite tutte le normali operazioni di gestione della MDV.
 
 ## Autorizzazioni USRLVL
  :  : DEC T(TA) P(B£P) K(USRLVL)

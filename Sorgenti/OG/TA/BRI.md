@@ -47,7 +47,7 @@ Alcuni elementi sono predefiniti a standard, di seguito ne viene riportato l'ele
 
 ## CONTENUTO DEI CAMPI
  :  : FLD T$BRIA **Estens. a Elem.fisso**
-Indica (se inserito il carattere 1) che il codice di accesso è '*' ed è fisso, questo tipo di estensione è singolo.
+Indica (se inserito il carattere 1) che il codice di accesso è '\*' ed è fisso, questo tipo di estensione è singolo.
  :  : FLD T$BRIT **Tipo codice**
 Se il campo precedente è lasciato bianco identifica l'oggetto da inserire nell'estensione.
  :  : FLD T$BRIP **Parametro codice**
@@ -66,9 +66,9 @@ _Modalità standard_
 _Risalita_
 Key1     Key2
 ' '  :  Nessuna risalita
-'1'  :  Generalizza Key1                   **
-'2'  :  Generalizza Key2                            **
-'3'  :  Generalizza Key1+Key2              **       **
+'1'  :  Generalizza Key1                   \*\*
+'2'  :  Generalizza Key2                            \*\*
+'3'  :  Generalizza Key1+Key2              \*\*       \*\*
 Composizione   key1            key2
 ' '  :           Articolo        Tipo ciclo+ciclo+fase+val.iniz.
 '1'  :            ""                 ""        ""       ""

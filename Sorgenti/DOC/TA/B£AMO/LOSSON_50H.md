@@ -27,13 +27,13 @@ schedule that you back up your iSeries security data.
 ### The EIM domain on the iSeries LDAP directory server
 The EIM domain is implemented in an LDAP directory. If you use the directory server
 integrated in OS/400, it stores information in the following locations : 
- *  The database library (QUSRDIRDB by default), which contains the directory servers
+ \*  The database library (QUSRDIRDB by default), which contains the directory servers
 contents. The name of the library can be found in iSeries navigator Network -> Servers ->
 TCP/IP -> Directory Server -> Properties.
- * The QDIRSRV2 library, which is used to store publishing information (not used by EIM).
- * The QUSRSYS library, which stores various items in objects beginning with QGLD
-(specify QUSRSYS/QGLD* to save them).
- *  If you configure the directory server to log directory changes, a database library called
+ \* The QDIRSRV2 library, which is used to store publishing information (not used by EIM).
+ \* The QUSRSYS library, which stores various items in objects beginning with QGLD
+(specify QUSRSYS/QGLD\* to save them).
+ \*  If you configure the directory server to log directory changes, a database library called
 QUSRDIRCL that the change log uses.
 Important :  Correct object authorities of the Network Authentication Service objects and
 EIM objects are essential for your system and network security. To maintain them after the
@@ -52,9 +52,9 @@ Another approach, from an availability perspective, is to use LDAP replication. 
 the OS/400 directory server has the capability to replicate data between a master server and
 one or more read-only replica servers. You can find more on replication in the IBM Redbooks
 on LDAP : 
- * Implementation and Practical Use of LDAP on the iSeries Server, SG24-6193
- * Understanding LDAP, SG24-4986
- * LDAP Implementation Cookbook, SG24-5110
+ \* Implementation and Practical Use of LDAP on the iSeries Server, SG24-6193
+ \* Understanding LDAP, SG24-4986
+ \* LDAP Implementation Cookbook, SG24-5110
 ### The iSeries EIM configuration
 Except for the data in the EIM domain in the LDAP directory, EIM uses configuration
 information you enter when you run the EIM configuration wizard. This configuration data
@@ -66,27 +66,27 @@ You restore it simply by restoring the QSYS user profile object.
 Example A-1 is a sample CL program that will save your data that relates to Network
 Authentication Service, LDAP, and EIM.
 > T(Example :  A-1)
-/******************************************************************************/
-/* SAVSSOOBJ - Save SSO objects (and more) */
-/* Parm :  Device to which the objects are saved, */
-/* i.e. DEV parameter for various SAV... commands */
-/* */
-/* Saves the following :  */
-/* - OS/400 security data including EIM configuration in the QSYS *USRPRF */
-/* - LDAP configuration and Network Authentication Service objects from IFS */
-/* - LDAP objects from QUSRSYS (their name start with QGLD) */
-/* - All default LDAP libraries. */
-/* You may need too change the following in the SAVLIB command :  */
-/* * Change the name of the LDAP database library, if you changed */
-/* the default name in DIrectory Server Properties */
-/* * Remove the name of the QUSRDIRCL library if you have not set up */
-/* the logging of changes. */
-/* * Remove the name of the QDIRSRV2 library if you are not using */
-/* directory publishing */
-/******************************************************************************/
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+/\* SAVSSOOBJ - Save SSO objects (and more) \*/
+/\* Parm :  Device to which the objects are saved, \*/
+/\* i.e. DEV parameter for various SAV... commands \*/
+/\* \*/
+/\* Saves the following :  \*/
+/\* - OS/400 security data including EIM configuration in the QSYS \*USRPRF \*/
+/\* - LDAP configuration and Network Authentication Service objects from IFS \*/
+/\* - LDAP objects from QUSRSYS (their name start with QGLD) \*/
+/\* - All default LDAP libraries. \*/
+/\* You may need too change the following in the SAVLIB command :  \*/
+/\* \* Change the name of the LDAP database library, if you changed \*/
+/\* the default name in DIrectory Server Properties \*/
+/\* \* Remove the name of the QUSRDIRCL library if you have not set up \*/
+/\* the logging of changes. \*/
+/\* \* Remove the name of the QDIRSRV2 library if you are not using \*/
+/\* directory publishing \*/
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
 
 PGM PARM(&DEV)
-DCL VAR(&DEV) TYPE(*CHAR) LEN(10) /* PARM :  Device for save commands */
-/* Establish error handling */
+DCL VAR(&DEV) TYPE(\*CHAR) LEN(10) /\* PARM :  Device for save commands \*/
+/\* Establish error handling \*/
 
 

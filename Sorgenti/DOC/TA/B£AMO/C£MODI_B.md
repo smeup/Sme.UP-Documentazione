@@ -15,9 +15,9 @@ E' possibile classificare diversi tipi di relazione con cui si può interrogare 
 
 Poichè il ragionamento si esprime attraverso un linguaggio, esiste un corrispettivo linguistico delle relazioni che è costituito dalla "proposizione", componente elementare del discorso.
 Ogni proposizione è caratterizzata da almeno tre elementi : 
- * il soggetto, che è un elemento del primo insieme,
- * il complemento, che è un elemento del secondo insieme
- * il verbo che qualifica il tipo di relazione.
+ \* il soggetto, che è un elemento del primo insieme,
+ \* il complemento, che è un elemento del secondo insieme
+ \* il verbo che qualifica il tipo di relazione.
 
 Il verbo è determinante per caratterizzare e qualificare il tipo di relazione (ad ognuno si può quindi far corrispodere un tipo di verbo).
 

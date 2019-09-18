@@ -10,7 +10,7 @@ Il formato guida è il seguente :
 ![B£UT54_01](http://localhost:3000/immagini/MBDOC_OGG-P_B£UT54/BXUT54_01.png)
 Inserire : 
 
-- **Gruppo autorizzazione**, è un elemento della tabella B£*_GU e rappresenta il gruppo utente per cui costruire il menu specifico. Tutti gli utenti appartenenti al gruppo assumeranno lo stesso menù.
+- **Gruppo autorizzazione**, è un elemento della tabella B£\*_GU e rappresenta il gruppo utente per cui costruire il menu specifico. Tutti gli utenti appartenenti al gruppo assumeranno lo stesso menù.
 - **Codice menù da autorizzare**, è il sottosettore della tabella MEA in cui sono descritte le azioni appartenenti al menu da autorizzare.
 - **Azione iniziale - Azione finale**, campi non obbligatori, se compilati flitrano la lista delle azioni.
 - **Menù iniziale di riferimento**, campo non obbligatorio, è utile quando abbiamo azioni mea in sottosettori diversi dove ad esempio il menù principale è nel sottosettore 00 mentre i menù secondari sono in altri sottosettori, per applicazione; vedi il paragrafo note tecniche per la spiegazione del funzionamento.
@@ -32,13 +32,13 @@ Se si esce senza premere F6 o F15 gli aggiornamenti vengono persi.
 # Note tecniche
 Questo genere di autorizzazioni viene attribuito attraverso il parametro multiplo __xx__, presente nella categoria __MEA__. Se il parametro non esiste il programma crea automaticamente l'elemento xx nella tabella B£N_ME.
 
-Quando è gestita l'autorizzazione per la singola azione l'oggetto dei parametri è il codice azione con prefisso il sottosettore (es. BR0101 Gestione articoli), mentre quando è autorizzato l'intero menù allora l'oggetto dei parametri è il sottosettore seguito da due asterischi, es. V5**.
+Quando è gestita l'autorizzazione per la singola azione l'oggetto dei parametri è il codice azione con prefisso il sottosettore (es. BR0101 Gestione articoli), mentre quando è autorizzato l'intero menù allora l'oggetto dei parametri è il sottosettore seguito da due asterischi, es. V5\*\*.
 
 **Per fare in modo che vengano usati questi menù nella gestione ambienti deve essere impostato il tipo accesso G = Menù SMEUP :  Parametri Gruppo B£U.
 
 Quando le azioni di menu sono su più sottosettori diversi della tabella MEA (esempio sottosettore 00 = Menù principale, C5 = Menù Contabilità, V5 = Menù Acquisti, ....), per gestire le abilitazioni anche sui menù di livello inferiore, la tabella MEA che richiama il sottosettore del Menù di livello inferiore deve essere compilata come segue : 
-![B£UT54_03](http://localhost:3000/immagini/MBDOC_OGG-P_B£UT54/BXUT54_03.png) * Programma/Azione, deve essere il codice del sottosettore
- * Parametro, fisso &UG (User group)
+![B£UT54_03](http://localhost:3000/immagini/MBDOC_OGG-P_B£UT54/BXUT54_03.png) \* Programma/Azione, deve essere il codice del sottosettore
+ \* Parametro, fisso &UG (User group)
 
 In questi casi, che sono quelli consigliati nel modello di installazione TTR, volendo autorizzare ad esempio le azioni della gestione materiali (menù GM) bisogna autorizzare le azioni mettendo nel codice menù da autorizzare "GM" e poi autorizzare l'azione che richiama il menù mettendo nel codice menù da autorizzare "00". **Se si utilizza il campo menù iniziale di riferimento si possono gestire entrambe le autorizzazioni contemporaneamente, nell'esempio di cui sopra metteremo GM nel campo menù da autorizzare e 00 nel campo menù iniziale di riferimento, si presenterà la lista delle azioni presenti nel menù GM e con l'autorizzazione si attiveranno insieme sia le autorizzioni sulle azioni dentro il menù GM sia l'autorizzazione nel menù 00 per l'azione che richiama il menù gestione materiali.
 L'automatismo opera sia quando l'autorizzazione viene data che quando viene tolta.

@@ -19,8 +19,8 @@ Viene calcolato il residuo alla data di ogni singola fase con lo schema come seg
 
 
 La valorizzazione del WIP quindi sarà
- * 450 alla fase 2
- * 150 alla fase 3
+ \* 450 alla fase 2
+ \* 150 alla fase 3
 
 Trovate  le quantità ci resta la valorizzazione, che a questo punto dovrà essere fatta utilizzando un costo precedentemente memorizzato.
 Qui ci sono 2 opzioni :  un costo articolo alla fase o un costo "ordine di produzione" alla fase.
@@ -32,11 +32,11 @@ Ricapitolando per ottenere un buon risultato è necessario avere una dichiarazio
 Da notare che è previsto il caso in cui la cronologia delle dichiarazioni (o della effettiva effettuazione della stessa) di avanzamento. Il programma gestisce con il calcolo sopra spiegato, anche delle giacenze (di wip) negative rendendo la somma della giacenza wip dell'ordine corretta, anche se esteticamente non bello.
 
 ## PREREQUISITI
- * Gestione della tabella D5X
- * Creazione contesto nella tabella D5S con elemento TAD5X
- * Creazione Sottosetotre £3 della tabella D5O , e l'elemento WIP (vedere da standard)
- * Sottosettore igi£3 e relativi elementi
- * Costo alla fase di articolo o ordine di produzione
+ \* Gestione della tabella D5X
+ \* Creazione contesto nella tabella D5S con elemento TAD5X
+ \* Creazione Sottosetotre £3 della tabella D5O , e l'elemento WIP (vedere da standard)
+ \* Sottosettore igi£3 e relativi elementi
+ \* Costo alla fase di articolo o ordine di produzione
 
 ## Formato principale
 

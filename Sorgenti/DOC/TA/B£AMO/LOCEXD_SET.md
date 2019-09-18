@@ -8,7 +8,7 @@ Tali setup vengono memorizzati su AS/400 nel file B£MEDE0F con i seguenti campi
 - MECODI  GRA_<TipoSottosezione> Es :  GRA_MAT
 - METIPO  blank
 - MECOD1  <NomeMembroScriptScheda>/<IdSottosezione> Es :  ESE1B/MATSTILI
-- MECOD2  Nome Utente (** = tutti)
+- MECOD2  Nome Utente (\*\* = tutti)
 - MECOD3  Nome del setup salvato
 
 Non è garantita l'univocità del campo MECOD1 che contiene l'identificazione della sezione al quale il setup appartiene.

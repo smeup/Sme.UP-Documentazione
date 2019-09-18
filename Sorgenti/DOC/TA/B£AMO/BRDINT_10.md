@@ -41,29 +41,29 @@ i+operazioni+intracomunitarie/Dichiarazioni+di+intento/Modello/) O(GD)
 Il modello è composto da un _Frontespizio_ riportante le informazioni generali della dichiarazione e da un _Quadro A_ riportante i dettagli del plafond disponibile.
 
 In particolare, all'interno del Frontespizio sono riportati i seguenti riquadri : 
- * Numero e Anno di dichiarazione :  è il numero progressivo assegnato dal dichiarante alla dichiarazione e l'anno di riferimento.
- * Dati del dichiarante :  è necessario indicare, oltre al proprio codice fiscale e partita IVA, i seguenti dati : 
- ** se il dichiarante è una persona fisica, il cognome, il nome, il sesso, la data di nascita, il Comune di nascita e la sigla della provincia. In caso di nascita all'estero, nello spazio riservato all'indicazione del Comune va riportato solo lo Stato estero di nascita;
-** se il dichiarante è un soggetto diverso da persona fisica, va indicata la denominazione o la ragione sociale. La denominazione va riportata senza abbreviazioni, a eccezione della natura giuridica che va indicata in forma contratta (esempio :  S.a.s. per Società in accomandita semplice).
- * Dati relativi al rappresentante firmatario della dichiarazione :  questo riquadro va compilato solo nel caso in cui chi sottoscrive la dichiarazione sia un soggetto diverso dal dichiarante. In questo caso è necessario indicare il codice fiscale della persona fisica che sottoscrive la dichiarazione, il "Codice carica" corrispondente e i dati anagrafici richiesti. Il "Codice carica" è lo stesso riportato all'interno dello spesometro (tabella BR*CL). Se la dichiarazione è presentata da una società per conto del dichiarante, va compilato anche il campo "Codice fiscale società" e va indicato il "Codice carica" corrispondente al rapporto tra la società che presenta la dichiarazione e il dichiarante (es. la società che presenta la dichiarazione in qualità di rappresentante negoziale del dichiarante indica il codice carica 1).
- * Recapiti :  Possono essere indicati i recapiti telefonici e l'indirizzo e-mail del dichiarante (o del rappresentante) per eventuali richieste di chiarimenti sui dati esposti nella dichiarazione da parte dell'Agenzia delle Entrate.
-* Integrativa :  Nell'ipotesi in cui, _prima di effettuare l'operazione_, si intenda rettificare o integrare i dati di una dichiarazione già presentata (ad esclusione dei dati relativi al plafond, indicati nel quadro A), è necessario inviare una nuova dichiarazione, barrando la casella "Integrativa" e indicando il numero di protocollo della dichiarazione che si intende integrare. La dichiarazione integrativa **sostituisce** la dichiarazione integrata.
-* Dichiarazione :  Il dichiarante indica se intende avvalersi della facoltà, prevista per i soggetti che hanno effettuato cessioni all'esportazione od operazioni assimilate, di effettuare acquisti o importazioni senza applicazione dell'IVA, l'anno di riferimento e la tipologia del prodotto o del servizio. Il sistema definirà se si tratta di un acquisto o di un'importazione in funzione del repporto fiscale compilato sull'anagrafica del fornitore. Se il fronitore è identificato come 'Dogana' verrà flaggato il campo IMPORTAZIONI in caso contrario verrà flaggato il campo ACQUISTI. Nel caso di importazioni di beni la dichiarazione d'intento deve essere presentata in dogana per ogni singola operazione specificando il relativo importo (Ris. Min. Finanze 27/07/1985, n. 355235). Il dichiarante dovrà compilare : 
- ** il campo 1, se la dichiarazione d'intento si riferisce ad una sola operazione, specificando il relativo importo;
- ** il campo 2, se la dichiarazione d'intento si riferisce ad una o più operazioni fino a concorrenza dell'importo ivi indicato;
- ** i campi 3 e 4, se la dichiarazione d'intento si riferisce alle operazioni comprese in un determinato periodo (che non può comunque eccedere l'anno solare) da specificare.
- * Destinatario della dichiarazione :  Il campo "Dogana" è barrato nel caso di importazioni. Nei campi relativi all' "Altra parte contraente" il dichiarante indica i dati del cedente o fornitore destinatari
+ \* Numero e Anno di dichiarazione :  è il numero progressivo assegnato dal dichiarante alla dichiarazione e l'anno di riferimento.
+ \* Dati del dichiarante :  è necessario indicare, oltre al proprio codice fiscale e partita IVA, i seguenti dati : 
+ \*\* se il dichiarante è una persona fisica, il cognome, il nome, il sesso, la data di nascita, il Comune di nascita e la sigla della provincia. In caso di nascita all'estero, nello spazio riservato all'indicazione del Comune va riportato solo lo Stato estero di nascita;
+\*\* se il dichiarante è un soggetto diverso da persona fisica, va indicata la denominazione o la ragione sociale. La denominazione va riportata senza abbreviazioni, a eccezione della natura giuridica che va indicata in forma contratta (esempio :  S.a.s. per Società in accomandita semplice).
+ \* Dati relativi al rappresentante firmatario della dichiarazione :  questo riquadro va compilato solo nel caso in cui chi sottoscrive la dichiarazione sia un soggetto diverso dal dichiarante. In questo caso è necessario indicare il codice fiscale della persona fisica che sottoscrive la dichiarazione, il "Codice carica" corrispondente e i dati anagrafici richiesti. Il "Codice carica" è lo stesso riportato all'interno dello spesometro (tabella BR\*CL). Se la dichiarazione è presentata da una società per conto del dichiarante, va compilato anche il campo "Codice fiscale società" e va indicato il "Codice carica" corrispondente al rapporto tra la società che presenta la dichiarazione e il dichiarante (es. la società che presenta la dichiarazione in qualità di rappresentante negoziale del dichiarante indica il codice carica 1).
+ \* Recapiti :  Possono essere indicati i recapiti telefonici e l'indirizzo e-mail del dichiarante (o del rappresentante) per eventuali richieste di chiarimenti sui dati esposti nella dichiarazione da parte dell'Agenzia delle Entrate.
+\* Integrativa :  Nell'ipotesi in cui, _prima di effettuare l'operazione_, si intenda rettificare o integrare i dati di una dichiarazione già presentata (ad esclusione dei dati relativi al plafond, indicati nel quadro A), è necessario inviare una nuova dichiarazione, barrando la casella "Integrativa" e indicando il numero di protocollo della dichiarazione che si intende integrare. La dichiarazione integrativa **sostituisce** la dichiarazione integrata.
+\* Dichiarazione :  Il dichiarante indica se intende avvalersi della facoltà, prevista per i soggetti che hanno effettuato cessioni all'esportazione od operazioni assimilate, di effettuare acquisti o importazioni senza applicazione dell'IVA, l'anno di riferimento e la tipologia del prodotto o del servizio. Il sistema definirà se si tratta di un acquisto o di un'importazione in funzione del repporto fiscale compilato sull'anagrafica del fornitore. Se il fronitore è identificato come 'Dogana' verrà flaggato il campo IMPORTAZIONI in caso contrario verrà flaggato il campo ACQUISTI. Nel caso di importazioni di beni la dichiarazione d'intento deve essere presentata in dogana per ogni singola operazione specificando il relativo importo (Ris. Min. Finanze 27/07/1985, n. 355235). Il dichiarante dovrà compilare : 
+ \*\* il campo 1, se la dichiarazione d'intento si riferisce ad una sola operazione, specificando il relativo importo;
+ \*\* il campo 2, se la dichiarazione d'intento si riferisce ad una o più operazioni fino a concorrenza dell'importo ivi indicato;
+ \*\* i campi 3 e 4, se la dichiarazione d'intento si riferisce alle operazioni comprese in un determinato periodo (che non può comunque eccedere l'anno solare) da specificare.
+ \* Destinatario della dichiarazione :  Il campo "Dogana" è barrato nel caso di importazioni. Nei campi relativi all' "Altra parte contraente" il dichiarante indica i dati del cedente o fornitore destinatari
 della dichiarazione.
 
 All'interno del Quadro A sono invece riportati i quadri : 
- * Tipo di plafond :  il dichiarante indica la natura del plafond :  Fisso o Mobile.
- * Operazioni che concorrono alla formazione del plafond :  Se, alla data di trasmissione della dichiarazione d'intento, la dichiarazione annuale IVA è stata già presentata, va barrata la casella 1 "Dichiarazione annuale IVA presentata" e _non_ è necessario indicare quali operazioni concorrono alla formazione del plafond (caselle da 2 a 5). Se la dichiarazione annuale IVA non è stata ancora presentata occorre barrare almeno una delle caselle da 2 a 5 del rigo A2, indicando quali operazioni hanno concorso alla formazione del plafond : 
- ** la casella 2, per le esportazioni di beni (art. 8, primo comma, lettere a) e b) del d.P.R. 633/72);
- ** la casella 3, per le cessioni intracomunitarie di beni;
- ** la casella 4, per le cessioni di beni effettuate nei confronti di operatori sammarinesi;
- ** la casella 5, per le operazioni assimilate alle cessioni all'esportazione.
+ \* Tipo di plafond :  il dichiarante indica la natura del plafond :  Fisso o Mobile.
+ \* Operazioni che concorrono alla formazione del plafond :  Se, alla data di trasmissione della dichiarazione d'intento, la dichiarazione annuale IVA è stata già presentata, va barrata la casella 1 "Dichiarazione annuale IVA presentata" e _non_ è necessario indicare quali operazioni concorrono alla formazione del plafond (caselle da 2 a 5). Se la dichiarazione annuale IVA non è stata ancora presentata occorre barrare almeno una delle caselle da 2 a 5 del rigo A2, indicando quali operazioni hanno concorso alla formazione del plafond : 
+ \*\* la casella 2, per le esportazioni di beni (art. 8, primo comma, lettere a) e b) del d.P.R. 633/72);
+ \*\* la casella 3, per le cessioni intracomunitarie di beni;
+ \*\* la casella 4, per le cessioni di beni effettuate nei confronti di operatori sammarinesi;
+ \*\* la casella 5, per le operazioni assimilate alle cessioni all'esportazione.
 Nell'ipotesi in cui il dichiarante abbia effettuato operazioni straordinarie che hanno concorso alla formazione, anche parziale, del plafond disponibile, deve barrare la casella 6 operazioni straordinarie.
-* Impegno alla Presentazione Telematica :  Vanno indicati il codice fiscale dell'intermediario, la data dell'impegno alla presentazione telematica unitamente alla sottoscrizione dell'intermediario.
+\* Impegno alla Presentazione Telematica :  Vanno indicati il codice fiscale dell'intermediario, la data dell'impegno alla presentazione telematica unitamente alla sottoscrizione dell'intermediario.
 
 
 ## Modifica dei dati contenuti nella comunicazione e nella dichiarazione d'intento.
@@ -77,8 +77,8 @@ Le modifiche introdotte con il decreto semplificazioni (Dlgs 175/2014) comportan
 ## Applicazione in SmeUP
 
 All'interno del modulo delle dichiarazioni di intento sono disponibili le funzioni per : 
- * Emettere nuove dichiarazioni di intento e caricare dichiarazioni ricevute
- * Trasmettere le dichiarazioni di intento generate con la funzione precedente generando, oltre al file da comunciare tramite Entratel, le stampe dei moduli ministeriali
- * Stampare il libro cespiti delle dichiarazioni emesse e ricevute
+ \* Emettere nuove dichiarazioni di intento e caricare dichiarazioni ricevute
+ \* Trasmettere le dichiarazioni di intento generate con la funzione precedente generando, oltre al file da comunciare tramite Entratel, le stampe dei moduli ministeriali
+ \* Stampare il libro cespiti delle dichiarazioni emesse e ricevute
 
 Per dettagli circa le modalità operative delle singole funzioni si prega di consultare la documentazione operativa distribuita insieme all'aggiornamento dei programmi.

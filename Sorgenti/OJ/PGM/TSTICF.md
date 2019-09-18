@@ -51,7 +51,7 @@ Dalla £IR1 sono deternimanti i nomi dei campi con relativa posizione iniziale e
  sempre aggiornata anche la corrispondente area dati locale (SMELDA - £G00).
 
 ## 'ATT' Attiva
- Dati i riferimenti di una configurazione, questa viene copiata nella configurazione *JOB
+ Dati i riferimenti di una configurazione, questa viene copiata nella configurazione \*JOB
 
 ## 'RID' Deriva IDOJ
  Data un record di configurazione, ne ritorna il relativo IDOJ (£ICFRP=Record)

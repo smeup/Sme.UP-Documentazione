@@ -1,9 +1,9 @@
 # LIBRERIA
 I pgm di tutte le conversioni sono contenuti nella libreria**SMECON** (la versione aggiornata di pgm è disponibile sull'SRVAMM.SMEUP.COM); per ogni conversione è predisposto un file sorgente apposito il cui codice è dato da : 
 "codice ambiente partenza" + "_" + "codice ambiente arrivo" .
-I codici degli ambienti sono fissi e sono codificati dalla tabella *CNAA, perciò ad esempio il file sorgente delle conversioni da ACG a SMEUP è denominato A7_SM.
+I codici degli ambienti sono fissi e sono codificati dalla tabella \*CNAA, perciò ad esempio il file sorgente delle conversioni da ACG a SMEUP è denominato A7_SM.
 
- :  : DEC T(ST) P() K(*CNAA)
+ :  : DEC T(ST) P() K(\*CNAA)
    In tale file è possibile trovare i seguenti tipi di sorgenti : 
    - Programmi
    - File
@@ -72,9 +72,9 @@ Per quel che riguarda la conversione delle tabelle viene spesso utilizzata come 
 
 ## Parametrizzazione
  I pgm possono ricevere due tipi di parametri entrambi passati tramite l'LDA : 
- * Parametri di impostazione specifici :  in questi parametri viene impostata la £FUNPS dell'elemento della B£J che lancia il programma. Le posizioni dell'LDA che vengono occupate partono dalla posizione 151 per 200 caretteri.
+ \* Parametri di impostazione specifici :  in questi parametri viene impostata la £FUNPS dell'elemento della B£J che lancia il programma. Le posizioni dell'LDA che vengono occupate partono dalla posizione 151 per 200 caretteri.
 
- * Parametri di impostazione generale :  sono un lascito della vecchia gestione delle conversioni che per motivi di compatibilità con il passato sono rimaste attivate :  praticamente in questi parametri vengono impostate le variabili di ambiente _&_££ a partire dalla 1 alla 9. Questi sono memorizzati nella posizioni dell'LDA dalla posizione 300 per 66 caratteri.
+ \* Parametri di impostazione generale :  sono un lascito della vecchia gestione delle conversioni che per motivi di compatibilità con il passato sono rimaste attivate :  praticamente in questi parametri vengono impostate le variabili di ambiente _&_££ a partire dalla 1 alla 9. Questi sono memorizzati nella posizioni dell'LDA dalla posizione 300 per 66 caratteri.
 
 # FILE
 Sono file logici creati appositamente per la conversione, questi vengono infatti solitamente compilati e cancellati run-time durante l'esecuzione della conversione stessa (vengono creati nella QTEMP del lavoro).

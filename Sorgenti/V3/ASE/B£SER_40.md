@@ -40,7 +40,7 @@ LIS.LIS
 LIS.ELE
 .SCH     Schema                         Q2                      015
 IMP.G40
-.G40     Codice £G40                    **                      015
+.G40     Codice £G40                    \*\*                      015
 .TIM     Tipo importazione              .VTIM                   001
 
  :  : LIS

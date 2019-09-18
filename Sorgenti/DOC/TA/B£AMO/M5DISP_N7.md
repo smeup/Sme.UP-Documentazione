@@ -7,18 +7,18 @@ Le metafonti impostate attualmente sono :
 la fonte bilanciata
 - [&-x2a; M5F - BL - Bilanciata](Sorgenti/OG/TA/M5F_BL)
 che esegue il programma
- :  : DEC T(OJ) P(*PGM) K(M5M5D6G)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5D6G)
 
 la disponibilità libera
 - [&-x2a; M5F - DL - Disponib.libera](Sorgenti/OG/TA/M5F_DL)
 che esegue i programmi
- :  : DEC T(OJ) P(*PGM) K(M5M5D1G)
- :  : DEC T(OJ) P(*PGM) K(M5M5D2G)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5D1G)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5D2G)
 
 il fabbisogno giornaliero
 - [&-x2a; M5F - FG - Fabbisogno giornaliero](Sorgenti/OG/TA/M5F_FG)
 che esegue il programma
- :  : DEC T(OJ) P(*PGM) K(M5M5D6G)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5D6G)
 
 Nel creare nuove metafonti bisogna prestare attenzione a due ordini di problemi : 
 la ricorsione (problema tecnico)

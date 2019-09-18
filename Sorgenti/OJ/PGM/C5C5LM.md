@@ -28,10 +28,10 @@ Alla conferma della registrazione automaticamente per il conto CONTO01 si creer√
 L'utilizzo di codici variabili nel modello permette di costruire righe di analitica che non sono esplicitamente definite nel modello, ma dipendono dalla tipologia del codice variabile e dal contenuto dei valori che ricevono.
 
 I codici variabili possono essere di quattro tipologie : 
- * _7_Indici di distribuzione
- * _7_Lista oggetto
- * _7_Parametri
- * _7_Utente
+ \* _7_Indici di distribuzione
+ \* _7_Lista oggetto
+ \* _7_Parametri
+ \* _7_Utente
 
 Con un '+' sul campo ne viene guidata la costruzione.
 

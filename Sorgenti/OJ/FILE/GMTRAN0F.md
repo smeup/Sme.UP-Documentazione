@@ -1,16 +1,16 @@
 ## Contenuto
 Stesso tracciato del file GMMOVI0F con in coda i seguenti quattro campi : 
- * M§BATC     Lotto transazione
- * M§NRTR     Numero transazione
- * M§CDMS     Codice messaggio di errore
- * M§FIMS     File messaggi
+ \* M§BATC     Lotto transazione
+ \* M§NRTR     Numero transazione
+ \* M§CDMS     Codice messaggio di errore
+ \* M§FIMS     File messaggi
 
 M§BATC e M§NRTR servono per identificare e raggruppare i records relativi a una transazione.
 M§CDMS e M§FIMS descrivono eventuali errori.
 
 Il file è utilizzato come driver di scrittura dei movimenti di magazzino che saranno applicati all'ambiente definito in tabella B£1. Nel caso in cui l'ambiente movimenti di magazzino sia Sme.up l'applicazione dei movimenti avverrà col programma GMTR00_SM.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 
 ## Chiave primaria
 

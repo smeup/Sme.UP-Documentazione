@@ -7,7 +7,7 @@ Per ogni articolo trattato contiene :
 - un record per ogni impegno pianificato (fabbisogno pianificato), scritto nel processo di pianificazione.
 - un record per ogni suggerimento pianificato di eccedenza, scritto nel processo di pianificazione.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'M5'                               £FUNT1
 
 ## Chiave primaria
@@ -24,7 +24,7 @@ H§NORI.
 Storicamente il riferimento origine era univoco per plant. Nella realizzazione dell'MRP multiplant è diventato univoco in assoluto, quindi ha assunto in pratica la valenza di IDOJ.
 
 ## Tabella guida
-Alcuni campi di questo archivio sonmo tipizzati dalla tabella M51 Elemento ** e M5B (scenario) : 
+Alcuni campi di questo archivio sonmo tipizzati dalla tabella M51 Elemento \*\* e M5B (scenario) : 
  :  : DEC T(ST) K(M51)
  :  : DEC T(ST) K(M5B)
 Alcuni comportamenti sono assunti dalla tabella M5A (politiche di pianificazione) : 
@@ -82,7 +82,7 @@ N.A.
  :  : FLD H§SCEN **Scenario**
 E' una partizione dell'archivio, ciascuna di esse rappresenta una singola pianificazione, in modo tale che possono essere presenti (e confrontate) diverse pianificazioni.
 L'attivazione di più scenari si imposta in M51. Nello scenario, in tabella M5B, sono presenti impostazioni aggiuntive o sostitutive rispetto a quelle di M51.
-Se gli scenari non sono attivi, viene assunto come unico scenario '**', che quindi deve essere sempre presente.
+Se gli scenari non sono attivi, viene assunto come unico scenario '\*\*', che quindi deve essere sempre presente.
 
  :  : FLD H§STAT **Stato**
 Viene assunto dal livello impostato

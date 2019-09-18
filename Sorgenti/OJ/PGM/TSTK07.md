@@ -1,8 +1,8 @@
 ## Obiettivo
 Gestire xxxx di un oggetto
-* History
-* Backup
-* Work
+\* History
+\* Backup
+\* Work
 
 ## Funzioni
 'SAV'     Salvatggio

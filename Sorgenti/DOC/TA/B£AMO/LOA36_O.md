@@ -4,17 +4,17 @@ Semplificare la gestione dei dati di un oggetto attraverso la configurazione di 
 
 E' un strumento costituito da 3 componenti : 
 
-* un'interfaccia grafica :  Costruttore A36.
-* i driver oggetto :  Copy £K89.
-* gli attributi dell'oggetto. Copy £OAV.
+\* un'interfaccia grafica :  Costruttore A36.
+\* i driver oggetto :  Copy £K89.
+\* gli attributi dell'oggetto. Copy £OAV.
 
 L'intera struttura si basa principalmente sugli OAV
 
 ## Costruzione di una gestione
 I Passi per costruire una gestione sono : 
-* Costruire la finestra.
-* Attivare la finestra.
-* Introdurre assunzioni, controlli, aggiornamenti specifici.
+\* Costruire la finestra.
+\* Attivare la finestra.
+\* Introdurre assunzioni, controlli, aggiornamenti specifici.
 
 ### Costruzione finestra
 Per costruire una finestra è necessario definire la lista dei campi che si vuole trattare a video.
@@ -36,10 +36,10 @@ Il 3° livello separa i nomi disponibile per l'azione.
 Il 4° e ultimo livello separa le varianti disponibili per il nome.
 Espandere fino alla foglie, da dove si puo entrare nella scheda di gestione dello script.
 Un volta in gestione aggiungere la variante che attiva il setup con la finestra di esempio.
-Se si vuole attivare solo per un'azione deve essere messa sotto quella azione, altrimenti se si vuole attivare per tutte le azioni va messa sotto l'azione "**".
+Se si vuole attivare solo per un'azione deve essere messa sotto quella azione, altrimenti se si vuole attivare per tutte le azioni va messa sotto l'azione "\*\*".
 Esempio di attivazione della finestra AR_TEST quando la classe materiale è "001" per tutte le azione come default
- :  : AZI Cod="**"
- :  : NAM Cod="**" Txt="Default"
+ :  : AZI Cod="\*\*"
+ :  : NAM Cod="\*\*" Txt="Default"
  :  : VAR Cod="AR_TEST" Txt="Articoli TEST" Cnz="&CO.I/10 = 001" TipFlt="LAY" CodFlt="AR_TEST"
 (Se  :  : AZI e  :  : NAM sono già presenti aggiungere solo  :  : VAR)
 A questo punto rieseguendo la scheda di test senza i parametri "TipFlt" e "CodFlt" con un articolo di classe materiale "001" si apre automaticamente la nuova finestra.
@@ -49,11 +49,11 @@ agire sempre su quelli SCP_A36PER che si trovano nella libreria del cliente.
 ### Assunzioni, Controlli, Aggiornamenti specifici
 Per gestire assunzioni, controlli, o aggiornamenti specifici è necessario utilizzare un programma di exit. La struttura dei dati è costituita da schiere. Vedere la specifica documentazione.
 Le più importanti sono : 
-* £89I_NM contiene il nome del campo. Deve essere univoco. Permette di intercettare l'indice di schiera corrispondente al campo su cui vogliamo agire.
-* £89I_OA contiene l'OAV
-* £89I_CF contiene il corrispondente nome del campo del DB in gestione
-* £89I_AL contiene il valore alfanumerico
-* £89I_NU contiene il valore numerico
+\* £89I_NM contiene il nome del campo. Deve essere univoco. Permette di intercettare l'indice di schiera corrispondente al campo su cui vogliamo agire.
+\* £89I_OA contiene l'OAV
+\* £89I_CF contiene il corrispondente nome del campo del DB in gestione
+\* £89I_AL contiene il valore alfanumerico
+\* £89I_NU contiene il valore numerico
 Vedere programma prototipo B£K89_XXYY dove sono documentate tutte le funzioni ammesse e sono
 presenti degli esempi di utilizzo
 
@@ -99,9 +99,9 @@ Per quel che riguarda la posizione, di default è in basso a destra.
 
 | Bottone|Testo|Inserimento|Modifica|Copia|Cancellazione|Visualizzazione|Style|Posizione|Bottone|Test---|----|----|----|----|----|----|----|----|
 | o|Icona|Note |
-| F03|Esci|1|1|1|1|1||In alto destra|No||J1;KEY;*F03| |
+| F03|Esci|1|1|1|1|1||In alto destra|No||J1;KEY;\*F03| |
 | F06|conferma/conferma eliminazione/conferma e apri|1|1|1|1||||||No| |
-| F07|Righe/gestione righe/gestione campi||1|||1|*BTNROW|In alto a destra|||No|Solo per gli oggetti che lo prevedono le righe, TR c'è solo sull'UP DEF |
+| F07|Righe/gestione righe/gestione campi||1|||1|\*BTNROW|In alto a destra|||No|Solo per gli oggetti che lo prevedono le righe, TR c'è solo sull'UP DEF |
 | F07|Conferma e apri|Yes|||||||||No| |
 | F08|Conferma e nuovo|Yes|||||||||No| |
 | F09|Undo|1|1|1||||Basso Dx||No|VO;COD_VER;000099| |
@@ -110,7 +110,7 @@ Per quel che riguarda la posizione, di default è in basso a destra.
 | F12|Indietro|1|1|1|1|1||Basso Dx||No|VO;COD_VER;000008| |
 | F14|modifica|||||Yes|||||No| |
 | F15|copia||Yes|||Yes|||||No| |
-| F16|Elimina||Yes|||Yes|*BTNDEL||||No| |
+| F16|Elimina||Yes|||Yes|\*BTNDEL||||No| |
 | F17|Set'n'play|1|1|1|1|1||Alto Dx|No|No|VO;COD_VER;000117|Solo se User Level 01 |
 | F18|Controllo||Yes|||Yes||Alto Dx|No||No| |
 | 
@@ -121,7 +121,7 @@ Per quel che riguarda la posizione, di default è in basso a destra.
 
 | Bottone|Testo|Attivazione|Style|Posizione|Bottone|Testo|Icona|Note |
 | ---|----|----|----|----|----|----|----|----|
-| F03|Esci|1||In Alto a Destra|No||J1;KEY;*F03| |
+| F03|Esci|1||In Alto a Destra|No||J1;KEY;\*F03| |
 | F06|Conferma|1|||||VO;COD_VER;000111/000020| |
 | F09|Undo|1|||||VO;COD_VER;000099| |
 | F12|Indietro|1||In Basso a Destra|||VO;COD_VER;000008| |
@@ -131,21 +131,21 @@ Per quel che riguarda la posizione, di default è in basso a destra.
 
 ## Parametri di input
 I parametri di input sono : 
-* Il tipo oggetto :  Obbligatorio
-* Il parametro oggetto :  Obbligatorio in funzione del tipo oggetto, e se previsto dall'oggetto, sempre in immissione
-* Il codice oggetto :  Sempre obbligatorio tranne per l'immissione
-* l'azione :  Obbligatoria
-* Tutti gli altri parametri di input sono facoltativi. Per alcuni viene assunto un default, che diventa fondamentale per quelli che sono necessari al funzionamento dello strumento.
-* Il tipo, parametro e codice vengono passati nell'oggetto 1 :  1(&OG.T1;&OG.P1;&OG,K1) Tutti gli altri parametri vengono passati nel P() o nell' INPUT().
+\* Il tipo oggetto :  Obbligatorio
+\* Il parametro oggetto :  Obbligatorio in funzione del tipo oggetto, e se previsto dall'oggetto, sempre in immissione
+\* Il codice oggetto :  Sempre obbligatorio tranne per l'immissione
+\* l'azione :  Obbligatoria
+\* Tutti gli altri parametri di input sono facoltativi. Per alcuni viene assunto un default, che diventa fondamentale per quelli che sono necessari al funzionamento dello strumento.
+\* Il tipo, parametro e codice vengono passati nell'oggetto 1 :  1(&OG.T1;&OG.P1;&OG,K1) Tutti gli altri parametri vengono passati nel P() o nell' INPUT().
 
 ## Bottone Set'n play
 Il bottone set'n play è una documentazione interattiva della finestra. Permette di capire come è stata costruita, e di seguire ogni passo della gestione.
 E' composto da : 
 
 ### Parametri (Input/Setup)
-* Input
+\* Input
 Visualizza i parametri di input passati nella chiamata della scheda A36. La regola è di mantenere le chiamate A36 il più semplice e pulite possibili e demandare il passaggio di eventuali parametri allo script di setup SCP_A36.
-* Setup (da funzione SET della £K89)
+\* Setup (da funzione SET della £K89)
 Visualizza i parametri di input dopo aver eseguito la lettura del Setup SCP_A36.
 Oltre ai parametridi input indica anche il setup utilizzato. Variabili :  FilSet, MemSet, AziSet, NamSet e VarSet.
 I valori di setup dello script completano e mai sostituiscono quelli passati direttamente nel richiamo della scheda.
@@ -184,19 +184,19 @@ Presenta la lista di tutti i campi disponibili per l'oggetto in gestione con le 
 E' uno script che determina quale setup attivare nel richiamo della gestione
 Ogni oggetto ha il suo script SCP_A36. Il nome del membro è l'oggetto (Per gli oggetti ID sarà IDXX dove XX corrisponde al programma specifico B£K89_XX)
 E' strutturato su 3 livelli :  Azione, Nome, Varianti.
-* AZI (AZIONE)
-Ogni richiamo della gestione cerca nel setup l'azione corrispondente. Se non è presente risale sull'azione fittizia "**".
+\* AZI (AZIONE)
+Ogni richiamo della gestione cerca nel setup l'azione corrispondente. Se non è presente risale sull'azione fittizia "\*\*".
 Se non presente lo script o non trova alcun Setup viene richiamata la gestione con tutte i parametri di default dell'azione..
-* NAM (NOME)
-All'interno dell'azione viene cercato il Setup con il nome ricevuto nella variabile "NamSet" se non ricevuto risale sul default "**".
-* VAR (VARIANTE)
+\* NAM (NOME)
+All'interno dell'azione viene cercato il Setup con il nome ricevuto nella variabile "NamSet" se non ricevuto risale sul default "\*\*".
+\* VAR (VARIANTE)
 All'interno dell'azione/nome viene attivato il Setup della prima variante che soddisfa le condizioni indicate nel campo "Cnz" .
 Se una variante non ha condizioni è ritenuta valida.
 Per questo bisogna prestare attenzione alla sequenza con cui si mettono le varianti. Se dovesse essere aggiunta come prima variante, una variante senza condizioni risultando sempre valida andrebbe a inibire tutte le successive.
-* AZIONE 00
+\* AZIONE 00
 L'azione "00" è un'azione virtuale di pre immissione. Virtuale perchè non viene chiamata direttamente nel A36 ma si attiva in modo automatico nell'azione "01" di immissione.
 Quando si esegue l'azione di immissione il programma cerca prima nell'azione "00" se esiste un setup valido. In caso affermativo esegue l'azione "00" di pre-immissione con il corrispondente setup.
-All'interno del setup delle azioni "00" il parametro "NamSuc" contiene il nome del prossimo Setup dell'azione "00" da eseguire. E così via. Costruendo un flusso di finestre. Per terminare il flusso e passare alla vera azione di immissione è necessario mettere  *FINE" nel parametro "NamSuc", Il parametro "NamSuc" può anche essere impostato nel programma di exit.
+All'interno del setup delle azioni "00" il parametro "NamSuc" contiene il nome del prossimo Setup dell'azione "00" da eseguire. E così via. Costruendo un flusso di finestre. Per terminare il flusso e passare alla vera azione di immissione è necessario mettere  \*FINE" nel parametro "NamSuc", Il parametro "NamSuc" può anche essere impostato nel programma di exit.
 Per la documentazione specifica delle proprietà gestite nello script vedere in appendice
 Gli SCP_A36 standard si trovano nel sorgente SCP_A36 della SMEDEV
 Gli SCP_A36 personalizzati si trovano nel sorgente SCP_A36PER della libreria sorgenti dell'azienda.
@@ -235,37 +235,37 @@ Documentazione sviluppo
 
 ## Esempi
 
-* Modifica articolo di tipo P01.
+\* Modifica articolo di tipo P01.
 Finestra specifica per il tipo articolo P01.
-* Modifica articolo di tipo P02.
+\* Modifica articolo di tipo P02.
 Finestra specifica per il tipo articolo P02.
 
 Si possono costruire finestre specifiche per : 
-* qualsiasi OAV dell'oggetto,
-* tipo oggetto,
-* utente,
-* gruppo utenti,
-* device,
-* componente grafico (Input panel/Matrice)
+\* qualsiasi OAV dell'oggetto,
+\* tipo oggetto,
+\* utente,
+\* gruppo utenti,
+\* device,
+\* componente grafico (Input panel/Matrice)
 Le condizioni possono essere anche multiple sia in AND che un OR.
 
-* Visualizzazione articolo.
+\* Visualizzazione articolo.
 Con i bottoni "Modifica", "Copia", "Cancella" si può passare direttamente alle corrispondenti azioni dell'oggetto. Il bottone "gestione errori" presenta una finestra con i soli campi in errore.
 I bottoni sono totalmente configurabili sia nella loro attivazione che nel testo e icona.
 
-* Immissione articoli P01. Con configurazione da setup.
+\* Immissione articoli P01. Con configurazione da setup.
 E' possibile costruire una configurazione di finestre prima di arrivare alla vera finestra di immissione.
 In questo esempio le finestre seguono una sequenza stabilita nello script di setup.
 La sequenza può seguire un percorso fisso o un percorso variabile in funzione delle risposte date nelle finestre precedenti. Limitate alle possibili varianti definite nel setup.
 
-* immissione articoli P02. Con configurazione da exit
+\* immissione articoli P02. Con configurazione da exit
 In questo caso le finestre seguono una sequenza variabile stabilita nel programma di exit. Con la maggiore flessibilità data dalla programmazione. Tutte le possibili finestre devono essere
 definite nel Setup e saranno attivate dal programma di exit.
 
-* Gestione in matrice.
+\* Gestione in matrice.
 In questo caso viene presentata una matrice di gestione.
 
-* Utilizzo A36 come sottoscheda
+\* Utilizzo A36 come sottoscheda
 In questo caso l'A36 viene utilizzato come sottoscheda.
 
 ## Scheda di esempi/test

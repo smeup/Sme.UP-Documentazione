@@ -8,7 +8,7 @@ la realizzazione di B£BCD08 di scelta sessione (da fare solo in grafica)
 # Attività
 Aggiungere l'ambiente alla tabella B§G.
 E' un campo obbligatorio?
-E' un campo libero oppure un elemento di tabella (ad esempio *CN/??)
+E' un campo libero oppure un elemento di tabella (ad esempio \*CN/??)
 
 Creare il file B£BCDM0F
 Decidere i suoi logici.
@@ -52,7 +52,7 @@ temporaneo (vedere bene se il batch è compreso)
 Elenco programmi con mongolifiere standard che sono usate in interrogazione.
 NB :  per ciascuno ho elencato la condizione di PAR_SCP per eseguirli
 
-INDICI ***** FATTO *********************************************************************************
+INDICI \*\*\*\*\* FATTO \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 Programma S5SMES_20
 Memoria :  schiere XXNUMW e XXESCL
 Per provare si potrebbe, all'inizio,dopo aver ripristinato le memorie (indici compresi),
@@ -87,14 +87,14 @@ Memorizzare direttamente le schiere X2CORS, X2CDOG e X2PGML (tutte :  sono di XX
 Bisogna poi memorizzare le DS di S5SMES_77x, in base alla schiera X2PGML. Occorre vedere bene
 il prefisso del
 Programma S5SMES_77
-DSPINT estensione di DSDEGR (prima pulirlo all'interno del 77)   *
+DSPINT estensione di DSDEGR (prima pulirlo all'interno del 77)   \*
 . in write memorizzarlo se primo campo non a zero
-DSINTR riempito per NRINTR                                       *
-DSOCRS riempito per NROCRS                                       *
-DSIORS riempito per NRIORS                                       *
-DSXRSC estensione di DSIORS                                      *
+DSINTR riempito per NRINTR                                       \*
+DSOCRS riempito per NROCRS                                       \*
+DSIORS riempito per NRIORS                                       \*
+DSXRSC estensione di DSIORS                                      \*
 
-****************************************************************************************************
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 CROR MODIFICATI
 Programma S5SMES_22        (DA TESTARE)
@@ -116,7 +116,7 @@ AZIONI SU GRUPPO DI TIRO ... mah ... vedere se il D4 lo presenta ....
 Programma S5SMES_62        (DA TESTARE)
 Impostazioni XMDVSCE :  è nell'F17 del D4 (farlo sempre?)
 Memoria :  DSIMIN (non serve il riempimento in quanto è un'estensione orizzontale di DSIRIS)
-Per sicurezza, quando si memorizza la DS, se *IN01 è OFF eseguire prima la COSMEM che la
+Per sicurezza, quando si memorizza la DS, se \*IN01 è OFF eseguire prima la COSMEM che la
 costruisce
 
 MULTIPOSTAZIONE E PARALLELISMO RIGIDO
@@ -130,7 +130,7 @@ Memorie :  DSXRIS (non serve il riempimento in quanto è un'estensione orizzonta
 MFP ... per ora sospesa ...
 
 
-****************************************************************************************************
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 BATCH
 Programma S5SMES_50        (FATTO)  :  In SVI si usa la B§G -> BCH

@@ -90,7 +90,7 @@
  dove xxxxxx è l'elemento scelto dal programma di ripresa e n è un progressivo (ex. BOF.1, BOF.2).
  Nella tabella D5R (vedi help per maggiori delucidazioni) è scritto il sottosettore della
  tabella D5E e il prefisso degli elementi della D5E da eseguire (ex. AAA01 esegue tutti gli
- elementi che iniziano per AAA01).N.B. NON BISOGNA METTERE L'* DOPO IL PREFISSO.
+ elementi che iniziano per AAA01).N.B. NON BISOGNA METTERE L'\* DOPO IL PREFISSO.
  Nei singoli passi di ripresa (elementi della D5E) è scritto : 
  - il contesto (tabella D5S) che si vuole scrivere
  - il tema (tabella D5O) che si vuole scrivere

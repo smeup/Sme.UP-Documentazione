@@ -55,10 +55,10 @@ scelta utente.
 La funzione >VAR (Variare) crea i nuovi valori della colonna "Risultato", applicando la variazione percentuale pari al valore inserito nella finestra di lancio a una delle colonne "Risultato" / "Origine" / "Riferimento", in base alla scelta utente.
 
 La funzione >DIS (Distribuire) crea i nuovi valori della colonna "Risultato", distribuendo il valore inserito nella finestra di lancio secondo una delle seguenti regole : 
- * in funzione dell'origine (utilizzando la colonna "Origine" come curva di distribuzione);
- * in funzione del riferimento (utilizzando la colonna "Riferimento" come curva di distribuzione);
- * in funzione del peso di periodo (utilizzando come curva di distribuzione il peso relativo dato dal numero dei giorni lavorativi di ogni periodo);
- * in funzione del numero periodi.
+ \* in funzione dell'origine (utilizzando la colonna "Origine" come curva di distribuzione);
+ \* in funzione del riferimento (utilizzando la colonna "Riferimento" come curva di distribuzione);
+ \* in funzione del peso di periodo (utilizzando come curva di distribuzione il peso relativo dato dal numero dei giorni lavorativi di ogni periodo);
+ \* in funzione del numero periodi.
 
 La funzione >RIP (Ripresa) riporta nella colonna "Risultato" i valori presenti nella colonna "Origine" o in quella "Riferimento", in base alla scelta utente.
 

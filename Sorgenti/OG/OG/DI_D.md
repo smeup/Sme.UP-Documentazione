@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'DI'                                          £FUNT1
 Codice azienda (AZ)                           £FUNP1
 

@@ -34,7 +34,7 @@ Ambiente di sviluppo & demo del modello (MxySVI)
 Ambiente del modello (Mxy)
 	SMEMOD£xy	Libreria dati alla v4r1 (poi v5r1)
 	SME_£xy	Libreria sorgenti e oggetti del modello £xy (es. SME_£01 per la GOMMA)
-	SME*4.1	Librerie standard Sme.UP v4r1 (poi v5r1)
+	SME\*4.1	Librerie standard Sme.UP v4r1 (poi v5r1)
 
 ## Convenzione rilascio modello
 

@@ -25,7 +25,7 @@ La documentazione risiede in membri di testo presenti in file DOC_xxx. Ciascun f
 
 ## Responsabile di un manuale
 Il programma di composizione del manuale ricerca anche il responsabile e lo stampa nella copertina del documento. Ogni oggetto Sme.up può essere intestato ad un responsabile e ad uno o più assistenti. L'elenco dei responsabili è cablato in fondo al programma B£AR22.
- :  : DEC T(OJ) P(*PGM) K(B£AR22) L(1)
+ :  : DEC T(OJ) P(\*PGM) K(B£AR22) L(1)
 
 ## Come si modifica la documentazione
 Si utilizza il componente grafico di Loocup per la gestione dei testi : 

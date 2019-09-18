@@ -85,7 +85,7 @@ Tutte le immagini e le icone degli oggetti sono reperite attraverso un algoritmo
 **Sme.UP Provider** può eseguire un flusso (elenco di fun) attraverso il componente interno FLU. Oltre all'esecuzione, esistono servizi per gestire i flussi eseguiti o in esecuzione. I flussi hanno un'alta valenza applicativa :  sono come dei CL composti da fun. Si può ad esempio, con un click, ciclare sui clienti con sollecito, lanciare la generazione di un sollecito, archiviarlo in pdf e inviare un'email al cliente a al responsabile del cliente.
 
 ### D- Variabili
-**Sme.UP Provider** gestisce e mantiene delle variabili che possono essere di inizializzazione o calcolate runtime :  ad esempio, se volessi sapere l'ora, potrei chiedere a **Sme.UP Provider di risolvere la variabile *NOW, se volessi sapere l'indirizzo ip dell'as400, chiederei la variabile *SERVER
+**Sme.UP Provider** gestisce e mantiene delle variabili che possono essere di inizializzazione o calcolate runtime :  ad esempio, se volessi sapere l'ora, potrei chiedere a **Sme.UP Provider di risolvere la variabile \*NOW, se volessi sapere l'indirizzo ip dell'as400, chiederei la variabile \*SERVER
 Oggetti Applicativi Client
 **Sme.UP Provider** gestisce oggetti che esistono solo al suo interno e che non possono essere trattati dall'AS400. In particolare, ne definisce e ritorna gli OAV. Ad esempio, si può chiedere a **Sme.UP Provider** la dimensione di un file, la cartella in cui è contento, la data di modifica, come OAV codificato (J/02, I/04 ecc...) e con servizi generici. In questo modo questi oggetti possono essere trattati allo stesso modo degli oggetti applicativi su as400.
 

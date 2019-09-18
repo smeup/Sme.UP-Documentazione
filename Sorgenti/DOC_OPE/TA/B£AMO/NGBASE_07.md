@@ -4,9 +4,9 @@
 
 Questa funzione permette di gestire l'emissione, l'attivazione e l'utilizzo delle Tessere Regalo. Sono ammesse tipologie diverse che permettono di predeterminare gli importi delle Tessere oppure stabilirli caso per caso in fase di Attivazione. Gli importi caricati sulle tessere possono essere utilizzati anche parzialmente. Le tessere possono essere a esaurimento oppure ricaricabili. La singola tessera può essere gestita sull'intera catena, su un insieme di negozi o limitata al punto vendita di attivazione.
 Le operazioni per la generazione prevedono i seguenti passi : 
- * Configurazione :  definizione delle specifiche del lotto di tessere che si intende generare;
- * Produzione :  generazione dei numeri delle singole tessere. Questi numeri andranno eventualmente comunicati alla tipografia per la stampa sulla tessera fisica;
- * Distribuzione :  attribuzione dei lotti di tessere al punto vendita.
+ \* Configurazione :  definizione delle specifiche del lotto di tessere che si intende generare;
+ \* Produzione :  generazione dei numeri delle singole tessere. Questi numeri andranno eventualmente comunicati alla tipografia per la stampa sulla tessera fisica;
+ \* Distribuzione :  attribuzione dei lotti di tessere al punto vendita.
 Le tessere sono a questo punto disponibili nei punti vendita per essere Attivate (vendute a cliente), Utilizzate e Ricaricate.
 Sono poi disponibili gli strumenti per tracciare ogni singolo movimento delle tessere.
 
@@ -17,42 +17,42 @@ Dal Menu di _Negoziando>Principale>Anagrafiche di Base>Gestione Tabelle>GFTP Tip
 Premere Invio=Conferma ed in seguito F6=Inserisci per creare una nuova tipologia.
 Inserire il Codice Tipologia, es. 001 e confermare.
 Verranno richiesti : 
- * Descrizione Tipologia
- * Prefisso Tessera :  i primi 4 caratteri del codice tessera, valori compresi tra 1000 e 9999. Sono ammesse tipologie differenti con lo stesso prefisso
- * Giorni di validità tessera :  per quanti giorni la tessera è valida a partire dalla sua attivazione (consegna al cliente)
- * Tessera a Importo Prefissato :  SI= la tessera viene generata con un valore predefinito; NO= il valore viene determinato in fase di attivazione
- * Tessera Ricaricabile  :  SI=la tessera può essere ricaricata (anche senza essere esaurita); NO=una volta esaurito il credito non è più valida
- * Emissione Live :  permette di attivare le tessere tramite un WebService (vedi InfoCenter)
- * Importo Minimo Caricabile : sse la tessera è Ricaricabile, imposta l'importo minimo che la tessera deve raggiungere dopo una ricarica. Quindi, l'importo che il cliente ricarica, sommato all'eventuale residuo, deve essere pari o superiore a quanto indicato nel campo.
- * Importo Massimo Caricabile : sse la tessera è Ricaricabile, imposta l'importo massimo che la tessera può raggiungere dopo una ricarica. Quindi, l'importo che il cliente ricarica, sommato all'eventuale residuo, deve essere inferiore o pari a quanto indicato nel campo
- * Articolo per movimenti di Magazzino :  articolo che viene utilizzato nei movimenti di magazzino per tenere traccia dei movimenti di tutte le tessere appartenenti a questa tipologia. Dato che normalmente non è necessario interrogare la giacenza di questo articolo, è opportuno utilizzarne uno NON GESTITO a magazzino (vedi Anagrafica Articoli)
- * Causale per Movimenti di Magazzino : creare una Causale di Magazzino da associare ai movimenti di vendita e di utilizzo delle Gift (che avrà segno negativo, visto che scarica il magazzino). La ricarica, invece, avrà segno positivo (vedi _I_Principale>Anagrafiche di base>Gestione Tabelle, Tabella CAMA Causali di Magazzino)
- * Modalità Emissione : 
- ** Inclusa nello Scontrino=la transazione viene inserita nello scontrino fiscale come vendita a fronte di un corrispettivo, quindi la chiusura Z Fiscale terrà conto anche di questo importo. __Gli importi caricati in questa modalità potranno essere utilizzati solo a diminuzione dell'importo dovuto all'interno dello scontrino come RESO ARTICOLO (righe con quantità negativa)
- ** Scontrino Non Fiscale=lo scontrino relativo alla Gift sarà uno scontrino NON Fiscale, riporterà solo una nota con la descrizione della transazione.Se nello stesso scontrino c'è anche la vendita normale di un articolo, quella verrà stampata per prima su scontrino fiscale, seguirà poi un commento che riporta la transazione relativa  all'emissione della Gift. __Gli importi caricati potranno essere utilizzati negli Scontrini di Cassa soltanto come forma di Pagamento.
+ \* Descrizione Tipologia
+ \* Prefisso Tessera :  i primi 4 caratteri del codice tessera, valori compresi tra 1000 e 9999. Sono ammesse tipologie differenti con lo stesso prefisso
+ \* Giorni di validità tessera :  per quanti giorni la tessera è valida a partire dalla sua attivazione (consegna al cliente)
+ \* Tessera a Importo Prefissato :  SI= la tessera viene generata con un valore predefinito; NO= il valore viene determinato in fase di attivazione
+ \* Tessera Ricaricabile  :  SI=la tessera può essere ricaricata (anche senza essere esaurita); NO=una volta esaurito il credito non è più valida
+ \* Emissione Live :  permette di attivare le tessere tramite un WebService (vedi InfoCenter)
+ \* Importo Minimo Caricabile : sse la tessera è Ricaricabile, imposta l'importo minimo che la tessera deve raggiungere dopo una ricarica. Quindi, l'importo che il cliente ricarica, sommato all'eventuale residuo, deve essere pari o superiore a quanto indicato nel campo.
+ \* Importo Massimo Caricabile : sse la tessera è Ricaricabile, imposta l'importo massimo che la tessera può raggiungere dopo una ricarica. Quindi, l'importo che il cliente ricarica, sommato all'eventuale residuo, deve essere inferiore o pari a quanto indicato nel campo
+ \* Articolo per movimenti di Magazzino :  articolo che viene utilizzato nei movimenti di magazzino per tenere traccia dei movimenti di tutte le tessere appartenenti a questa tipologia. Dato che normalmente non è necessario interrogare la giacenza di questo articolo, è opportuno utilizzarne uno NON GESTITO a magazzino (vedi Anagrafica Articoli)
+ \* Causale per Movimenti di Magazzino : creare una Causale di Magazzino da associare ai movimenti di vendita e di utilizzo delle Gift (che avrà segno negativo, visto che scarica il magazzino). La ricarica, invece, avrà segno positivo (vedi _I_Principale>Anagrafiche di base>Gestione Tabelle, Tabella CAMA Causali di Magazzino)
+ \* Modalità Emissione : 
+ \*\* Inclusa nello Scontrino=la transazione viene inserita nello scontrino fiscale come vendita a fronte di un corrispettivo, quindi la chiusura Z Fiscale terrà conto anche di questo importo. __Gli importi caricati in questa modalità potranno essere utilizzati solo a diminuzione dell'importo dovuto all'interno dello scontrino come RESO ARTICOLO (righe con quantità negativa)
+ \*\* Scontrino Non Fiscale=lo scontrino relativo alla Gift sarà uno scontrino NON Fiscale, riporterà solo una nota con la descrizione della transazione.Se nello stesso scontrino c'è anche la vendita normale di un articolo, quella verrà stampata per prima su scontrino fiscale, seguirà poi un commento che riporta la transazione relativa  all'emissione della Gift. __Gli importi caricati potranno essere utilizzati negli Scontrini di Cassa soltanto come forma di Pagamento.
 
 Configuriamo ora le Causali Movimenti Regalo, ovvero differenziamo quali siano le operazioni che vengono svolte con le Tessere, suddivise per 4 tipologie.
 Dal Menu di Negoziando_Principale>Anagrafiche di Base>Gestione Tabelle>GFCA Causali Movimenti Tessere Regalo
 
 Premere Invio=Conferma ed in seguito F6=Inserisci per creare una nuova Causale, attribuendole un Codice
 Definire : 
- * Descrizione Causale
- * Tipo Causale :  scegliere una tra le 4 tipologie (Attivazione/Ricarica/Utilizzo/Annullamento)
+ \* Descrizione Causale
+ \* Tipo Causale :  scegliere una tra le 4 tipologie (Attivazione/Ricarica/Utilizzo/Annullamento)
 
 ## Circolarità delle Tessere Regalo
 
 Con la definizione della Metodologia di Circolarità ed eventualmente dell' Elenco di Circolarità vengono determinati i criteri di utilizzo delle tessere al di fuori del negozio di attivazione. Tali regole devono essere impostate sull'Anagrafica dei Magazzini che utilizzeranno le Tessere.
 In _Principale>Anagrafiche di Base>Gestione Anagrafica Magazzini_
 Selezionare il magazzino sul quale definire la circolarità, premere 3 volte Invio e a questo punto definire l'ultima parte della videata : 
- * Metodologia Circolarità : 
- ** Solo negozio emittente :  La tessera potrà essere utilizzata solo nel Negozio in cui è stata attivata.
- ** Solo Punti Vendita della Società :  La tessera potrà essere utilizzata solo nei Negozi che appartengono alla stessa Società del Negozio che ha attivato la tessera
- ** Da Elenco :  La Tessere potrà essere utilizzata solo nei Negozi che appartengono all'Elenco Negozi indicato nella richiesta successiva
- * Elenco Circolarità :  lista dei negozi in cui la tessera può essere utllizzata (vedi Elenchi/Composizioni)
- * Giorni di Validità Tessere Regalo :  per quanti giorni la tessera è valida a partire dalla sua attivazione (*)
- * Importo Minimo Carica Tessere Regalo :  se la tessera è Ricaricabile, imposta l'importo minimo della ricarica (*)
- * Importo Minimo Carica Tessere Regalo :  se la tessera è Ricaricabile, imposta l'importo massimo della ricarica (*)
-(*) questi 3 campi sono gli stessi già impostati precedentemente in _Principale>Anagrafiche di Base>Gestione Tabelle, tabella GFTP Tipologie Tessere Regalo. Vengono utilizzati se in GFTP sono stati lasciati in bianco.
+ \* Metodologia Circolarità : 
+ \*\* Solo negozio emittente :  La tessera potrà essere utilizzata solo nel Negozio in cui è stata attivata.
+ \*\* Solo Punti Vendita della Società :  La tessera potrà essere utilizzata solo nei Negozi che appartengono alla stessa Società del Negozio che ha attivato la tessera
+ \*\* Da Elenco :  La Tessere potrà essere utilizzata solo nei Negozi che appartengono all'Elenco Negozi indicato nella richiesta successiva
+ \* Elenco Circolarità :  lista dei negozi in cui la tessera può essere utllizzata (vedi Elenchi/Composizioni)
+ \* Giorni di Validità Tessere Regalo :  per quanti giorni la tessera è valida a partire dalla sua attivazione (\*)
+ \* Importo Minimo Carica Tessere Regalo :  se la tessera è Ricaricabile, imposta l'importo minimo della ricarica (\*)
+ \* Importo Minimo Carica Tessere Regalo :  se la tessera è Ricaricabile, imposta l'importo massimo della ricarica (\*)
+(\*) questi 3 campi sono gli stessi già impostati precedentemente in _Principale>Anagrafiche di Base>Gestione Tabelle, tabella GFTP Tipologie Tessere Regalo. Vengono utilizzati se in GFTP sono stati lasciati in bianco.
 
 ## Utilità
 ## Produzione Tessere Regalo
@@ -60,13 +60,13 @@ Selezionare il magazzino sul quale definire la circolarità, premere 3 volte Inv
 Con la presente funzione è possibile produrre le tessere regalo, ovvero creare una serie di numeri di tessera abbinati opzionalmente a un valore in contanti, in funzione della tipologia selezionata. L'operazione può essere ripetuta più volte sulla stessa tipologia di tessera :  la numerazione prosegue generando sempre nuovi numeri.
 Dal Menu>_Principale>Gestione Tessere Regalo>Utilità>Produzione Tessere Regalo_
 Vengono richiesti : 
- * Codice Tipologia Tessere :  (vedi sopra Configurazione, da Tabella GFTP)
- * Codice Valuta :  la valuta
- * Importo Tessera :  l'importo della tessera. Il campo compare solo se la tipologia selezionata prevede l'Importo Prefissato.
- * Numero Tessere da Produrre :  il numero di Numeri progressivi che verranno generati in questa sessione. La numerazione è strutturata nel seguente modo : 
- ** prefisso tessera (4 cifre) :  impostato nella Tipologia tessera
- ** numero progressivo (8 cifre) :  progressivo all'interno del prefisso specificato
- ** numerazione casuale (4 cifre) :  generata per evitare che possano essere utilizzati indebitamente numeri di tessera senza essere titolari della tessera stessa
+ \* Codice Tipologia Tessere :  (vedi sopra Configurazione, da Tabella GFTP)
+ \* Codice Valuta :  la valuta
+ \* Importo Tessera :  l'importo della tessera. Il campo compare solo se la tipologia selezionata prevede l'Importo Prefissato.
+ \* Numero Tessere da Produrre :  il numero di Numeri progressivi che verranno generati in questa sessione. La numerazione è strutturata nel seguente modo : 
+ \*\* prefisso tessera (4 cifre) :  impostato nella Tipologia tessera
+ \*\* numero progressivo (8 cifre) :  progressivo all'interno del prefisso specificato
+ \*\* numerazione casuale (4 cifre) :  generata per evitare che possano essere utilizzati indebitamente numeri di tessera senza essere titolari della tessera stessa
 
 Premere F6=Crea Tessere, verificare il messaggio che appare e confermare la creazione
 Una volta generate le tessere, apparirà un messaggio di conferma.
@@ -78,9 +78,9 @@ Ogni tessera, anche se generata in sede, va assegnata a un singolo negozio dove 
 Questa funzione quindi permette di memorizzare sull'archivio anagrafico delle tessere il codice del negozio al quale è stata inviata la tessera e la data dell'invio.
 Dal Menu _Principale>Gestione Tessere Regalo>Utilità>DistribuzioneTessere Regalo_
 Vengono richiesti : 
- * Range di Tessere (DA/A) da aggiornare :  il primo e l'ultimo numero (il più basso e il più alto) delle tessere da distribuire.
- * Codice Negozio di Distribuzione
- * Data di Distribuzione
+ \* Range di Tessere (DA/A) da aggiornare :  il primo e l'ultimo numero (il più basso e il più alto) delle tessere da distribuire.
+ \* Codice Negozio di Distribuzione
+ \* Data di Distribuzione
 
 Dopo aver premuto il tasto Invio il programma controlla se per alcune/tutte le tessere indicate sia già stata effettuata la distribuzione o se le tessere siano già state attivate. Il programma segnala l'eventuale presenza di tessere già distribuite e, dietro conferma, modifica negozio e data con i dati della distribuzione corrente. Il programma segnala anche tessere già Attivate ma su queste NON effettua l'aggiornamento del Negozio/Data di Distribuzione.
 Dopo la verifica appena descritta il programma richiederà conferma dell'Aggiornamento dei dati sull'archivio anagrafico delle tessere, quindi premere OK per procedere.
@@ -90,27 +90,27 @@ Dopo la verifica appena descritta il programma richiederà conferma dell'Aggiorn
 Questa funzione permette di effettuare analisi sulle tessere attivate
 Dal Menu>_Principale>Gestione Tessere Regalo>Utilità>Analisi Tessere Regalo Attivate_
 Vengono richieste obbligatoriamente : 
- * Da Data attivazione
- * A Data attivazione
+ \* Da Data attivazione
+ \* A Data attivazione
 E' poi possibile specificare (facoltativamente) per analisi specifiche : 
- * Codice Negozio
- * Codice Società
- * Codice Elenco di Negozi
- * Tipologia Tessera
- * Importo Originale Tessera
- * Codice Valuta
+ \* Codice Negozio
+ \* Codice Società
+ \* Codice Elenco di Negozi
+ \* Tipologia Tessera
+ \* Importo Originale Tessera
+ \* Codice Valuta
 
 Una volta effettuate le selezioni e premuto invio verrà visualizzato un Riepilogo delle Tessere Regalo Attivate : 
 I dati vengono riepilogati per Codice Negozio / Tipologia Tessera / Importo Tessera / CodiceValuta.
 Vengono visualizzati : 
- * Numero Tessere Attivate
- * Importo Tessere Attivate
- * Numero Tessere Ricaricate
- * Importo Tessere Ricaricate
- * Numero Transazioni
- * Importo Tessere Utilizzate
- * Numero Tessere Residuo
- * Importo Tessere Residuo
+ \* Numero Tessere Attivate
+ \* Importo Tessere Attivate
+ \* Numero Tessere Ricaricate
+ \* Importo Tessere Ricaricate
+ \* Numero Transazioni
+ \* Importo Tessere Utilizzate
+ \* Numero Tessere Residuo
+ \* Importo Tessere Residuo
 Tramite il tasto F6 è possibile esportare queste informazioni in un Foglio Excel.
 
 ## Analisi Tessere Regalo Distribuite
@@ -120,12 +120,12 @@ Dal Menu _Principale>Gestione Tessere Regalo>Utilità>Analisi Tessere Regalo Dis
 I parametri di selezione di questa analisi sono identici a quelli della precedente
 Anche qui i dati vengono riepilogati per Codice Negozio / Tipologia Tessera / Importo Tessera / Codice Valuta.
 Vengono visualizzati : 
- * Numero Tessere Distribuite
- * Importo Tessere Distribuite
- * Numero Tessere Attivate
- * Importo Tessere Attivate
- * Numero Tessere Disponibili
- * Importo Tessere Disponibili
+ \* Numero Tessere Distribuite
+ \* Importo Tessere Distribuite
+ \* Numero Tessere Attivate
+ \* Importo Tessere Attivate
+ \* Numero Tessere Disponibili
+ \* Importo Tessere Disponibili
 Anche qui, tramite il tasto F6 è possibile esportare queste informazioni in un Foglio Excel
 
 ## Analisi Dettaglio Tessere Regalo
@@ -198,49 +198,49 @@ E' da tenere presente che per attivare questo Servizio occorre attivare Negozian
 Dal Menu _Utilità>Configurazione>Negoziando InfoCenter Live_
 Nella Scheda Servizi Live
 Definire : 
- * Attivazione Richieste Tessere Regalo (SI/NO) = SI
- * Codice Reparto Cassa da utilizzare per l'emissione dello Scontrino = Reparto cassa abbinato all'aliquota IVA attribuita alla vendita della Tessera
+ \* Attivazione Richieste Tessere Regalo (SI/NO) = SI
+ \* Codice Reparto Cassa da utilizzare per l'emissione dello Scontrino = Reparto cassa abbinato all'aliquota IVA attribuita alla vendita della Tessera
 Nella Scheda Info Tessere Regalo
 
 Utilizzando il tasto F1 per accedere alla tabella GFCA Causali Movimenti Tessere Regalo descritta in precedenza : 
 
- * Codice Causale per Attivazione
- * Codice Causale per Ricarica
- * Codice Causale per Utilizzo
- * Codice Causale per Annullamento
+ \* Codice Causale per Attivazione
+ \* Codice Causale per Ricarica
+ \* Codice Causale per Utilizzo
+ \* Codice Causale per Annullamento
 Poi
- * Codice Articolo (Facoltativo) per l'eventuale scrittura dei Movimenti di Magazzino (vedi Configurazione Tabella GFTP, Articolo per movimenti di Magazzino)
+ \* Codice Articolo (Facoltativo) per l'eventuale scrittura dei Movimenti di Magazzino (vedi Configurazione Tabella GFTP, Articolo per movimenti di Magazzino)
 
 Impostiamo anche i Codici Messaggio Fine Scontrino. Sono diciture libere che vengono stampate in calce allo scontrino in cui viene utilizzata la tessera.
- * Messaggio Generico :  su tutti gli scontrini con tessera, se non sono definiti i campi successivi
- * Messaggio per Attivazione :  in calce alle attivazioni
- * Messaggio per Ricarica :  in calce alle ricariche
- * Messaggio per Utilizzo :  in calce agli utilizzi
+ \* Messaggio Generico :  su tutti gli scontrini con tessera, se non sono definiti i campi successivi
+ \* Messaggio per Attivazione :  in calce alle attivazioni
+ \* Messaggio per Ricarica :  in calce alle ricariche
+ \* Messaggio per Utilizzo :  in calce agli utilizzi
 Questa selezione è differenziata per scontrini Fiscali e NON Fiscali stampati in base alla modalità di Emissione della tessera (vedi Configurazione Tabella GFTP, Modalità Emissione)
 
 Per la costruzione dei messaggi fare riferimento alla tabella Commenti (Principale>Anagrafiche di base>Gestione Commenti)
 
 N.B.
 Nella definizione dei record della tabella Commenti per il Codice Messaggio di Fine Scontrino, per i messaggi con Tipologia Commento=Commento per Stampa Informazioni Tessere Regalo su Scontrino, è possibile utilizzare le seguenti variabili : 
- * %CODTES% stampa il Codice della Tessera (12 caratteri iniziali+ 'XXXX')
- * %TESSERA% stampa il Codice della Tessera (tutti i caratteri)
- * %DTSCTESS% stampa la Data della Scadenza
- * %SALPRE% stampa il Saldo Precedente
-* %IMPCAR% stampa l'Importo Caricato sulla Tessera
-* %IMPUTI% stampa l'Importo Utilizzato della Tessera
-* %SALFIN% stampa il Saldo Finale della Tessera
-* %DATORA% stampa la Data e l'Ora
+ \* %CODTES% stampa il Codice della Tessera (12 caratteri iniziali+ 'XXXX')
+ \* %TESSERA% stampa il Codice della Tessera (tutti i caratteri)
+ \* %DTSCTESS% stampa la Data della Scadenza
+ \* %SALPRE% stampa il Saldo Precedente
+\* %IMPCAR% stampa l'Importo Caricato sulla Tessera
+\* %IMPUTI% stampa l'Importo Utilizzato della Tessera
+\* %SALFIN% stampa il Saldo Finale della Tessera
+\* %DATORA% stampa la Data e l'Ora
 
 ## Altre Configurazioni per l'Utilizzo in Cassa
 
 Elenchiamo altre possibilità di configurazione
 Dal Menu _Utilità>Configurazione>Gestione Configurazione Applicativa>Cassa-Slave>Altri Parametri (3)
- * Blocca Modalità Pagamenti Tessere regalo se Scontrino sole Tessere Regalo :  impostato a SI non permette di accettare Tessere con Modalità Emissione 'Scontrino NON fiscale' come pagamento se nello scontrino ci sono solo attivazioni di Tessere
- * Escludi Importi con decimali nell'Attivazione/Ricarica Tessere Regalo : impostato a SI, in fase di Attivazione o Ricarica obbliga ad accettare solo importi interi
- * Richiedi Modalità di Utilizzo Tessera Regalo : 
- ** NO=fanno fede gli importi precaricati in fase di generazione tessera, che deve essere a Importo Prefissato. La selezione tra attivazione e utilizzo viene effettuata col tasto RESO (vedi ATTIVAZIONE E UTILIZZO TESSERA)
- ** SI=viene proposto/richiesto l'importo per l'attivazione/utilizzo/ricarica al momento in cui la tessera viene passata in cassa
- * Aggiungi SubTotale dopo utilizzo Tessera Regalo :  impostando a SI viene inserita automaticamente una riga di SubTotale nello Scontrino dopo la lettura di una tessera.
+ \* Blocca Modalità Pagamenti Tessere regalo se Scontrino sole Tessere Regalo :  impostato a SI non permette di accettare Tessere con Modalità Emissione 'Scontrino NON fiscale' come pagamento se nello scontrino ci sono solo attivazioni di Tessere
+ \* Escludi Importi con decimali nell'Attivazione/Ricarica Tessere Regalo : impostato a SI, in fase di Attivazione o Ricarica obbliga ad accettare solo importi interi
+ \* Richiedi Modalità di Utilizzo Tessera Regalo : 
+ \*\* NO=fanno fede gli importi precaricati in fase di generazione tessera, che deve essere a Importo Prefissato. La selezione tra attivazione e utilizzo viene effettuata col tasto RESO (vedi ATTIVAZIONE E UTILIZZO TESSERA)
+ \*\* SI=viene proposto/richiesto l'importo per l'attivazione/utilizzo/ricarica al momento in cui la tessera viene passata in cassa
+ \* Aggiungi SubTotale dopo utilizzo Tessera Regalo :  impostando a SI viene inserita automaticamente una riga di SubTotale nello Scontrino dopo la lettura di una tessera.
 
 ## Tastiera di Cassa e Funzionalità
 

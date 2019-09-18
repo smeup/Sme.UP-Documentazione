@@ -2,17 +2,17 @@
 Serve per descrivere adeguatamente un prodotto, quando questo può essere fornito in diverse varianti, senza dover essere costretti a moltiplicare le distinte e i cicli.
 
 La configurazione può essere vista sotto due aspetti : 
- * _2_la descrizione del prodotto, che ne specifica le caratteristiche e le qualità
- * _2_la costruzione del prodotto, che definisce il ciclo e la distinta necessari alla realizzazione del prodotto
+ \* _2_la descrizione del prodotto, che ne specifica le caratteristiche e le qualità
+ \* _2_la costruzione del prodotto, che definisce il ciclo e la distinta necessari alla realizzazione del prodotto
 
 ## Descrizione del prodotto
 In anagrafico articoli dovrà essere indicato il _2_"Criterio di configurazione", che è un elemento della tabella BRC a cui si rimanda per una descrizione più approfondita.
  :  : DEC T(ST) K(BRC)
 In base alle impostazioni della tabella BRC viene stabilito : 
- * il tipo di configurazione adottato (orizzontale / verticale),
- * nel caso di configurazione orizzontale il metodo di formattazione del codice configurazione,
- * se il codice configurazione è obbligatorio in anagrafico articoli (esiste una configurazione preferenziale) oppure solo nei documenti,
- * il questionario da utilizzare quando deve essere definita una nuova configurazione
+ \* il tipo di configurazione adottato (orizzontale / verticale),
+ \* nel caso di configurazione orizzontale il metodo di formattazione del codice configurazione,
+ \* se il codice configurazione è obbligatorio in anagrafico articoli (esiste una configurazione preferenziale) oppure solo nei documenti,
+ \* il questionario da utilizzare quando deve essere definita una nuova configurazione
 
 ## Costruzione del prodotto
 ### Gestione distinta
@@ -21,15 +21,15 @@ Nella determinazione della distinta di produzione un legame è configurato quand
 Il legame diventa configurato quando c'è un valore nel campo _2_"Criterio di configurazione", che è un elemento della tabella BRS a cui si rimanda per una descrizione più approfondita.
  :  : DEC T(ST) K(BRS)
 Nella tabella BRS viene stabilito : 
- * il programma da utilizzare come criterio di selezione; (**Nota**; in BRSRC c'è una serie di programmi BRSCOxxx utilizzabili quali criteri di configurazione oppure come esempio per lo sviluppo di programmi utente per implementare logiche particolari)
- * il parametro di controllo del programma di cui sopra
+ \* il programma da utilizzare come criterio di selezione; (**Nota**; in BRSRC c'è una serie di programmi BRSCOxxx utilizzabili quali criteri di configurazione oppure come esempio per lo sviluppo di programmi utente per implementare logiche particolari)
+ \* il parametro di controllo del programma di cui sopra
 
 ### Gestione ciclo
 Ha un trattamento del tutto analiogo a quello spiegato per la distinta.
 
 ## Memorizzazione delle configurazioni
 Le configurazioni possono essere memorizzate nel file C£VARI0F
- :  : DEC T(OJ) P(*FILE) K(C£VARI0F)
+ :  : DEC T(OJ) P(\*FILE) K(C£VARI0F)
 La memorizzazione è controllata dalla tabella C£B a cui si rimanda per una trattazione più approfondita
  :  : DEC T(ST) K(C£B)
 l'opportuno elemento della C£B deve essere richiamato nel modello di configurazione (tabella BRC).

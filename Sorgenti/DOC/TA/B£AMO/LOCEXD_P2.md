@@ -66,7 +66,7 @@
 
 - Aggiunta la gestione di nuove celle grafiche per la matrice. In particolare la gestione dell'oggetto J4PIE che crea un grafico a torta o semplicemente un ellisse nella cella. Vedere la documentazione.
 - Risolto un problema nell'utilizzo dell'attributo SelRow nella matrice se specificato un raggruppamento di default.
-- Aggiunta la possibilità di associare il valore *LAST all'attributo SelRow della matrice, per selezionare l'ultima riga.
+- Aggiunta la possibilità di associare il valore \*LAST all'attributo SelRow della matrice, per selezionare l'ultima riga.
 - Risolto un problema che si verificava alla pressione dei tasti toolbar della matrice di aggiornamento.
 - Ora quando viene richiesto un report viene impostato come titolo del report il titolo della sezione.
 
@@ -104,7 +104,7 @@ Gli attributi da impostare nel nodo <Search> sono :
 -- Type="Direct|Indirect"  : 
 --- Direct=Ricerca "Standard" fornita da altri componenti (Java od Emulatore);
 --- Indirect=Ricerca "via Scheda" (accessibile dalle sole schede)
--- Funzione="<funzione>" :  Funzione da richiamare per eseguire la ricerca. Occorre specificare se desiderato nel parametro *CALLERFLDS le mappature (separate da ;) tra i nomi dei campi di destinazione e i nomi dei campi ritornati dalla ricerca stessa
+-- Funzione="<funzione>" :  Funzione da richiamare per eseguire la ricerca. Occorre specificare se desiderato nel parametro \*CALLERFLDS le mappature (separate da ;) tra i nomi dei campi di destinazione e i nomi dei campi ritornati dalla ricerca stessa
 - Inserito Parser Xml nella composizione dei messaggi di risposta ricerche per evitare problemi su caratteri speciali
 - E' stato creato un nuovo attributo nel setup delle matrici che consente la customizzazione dei messaggi di Hint.
 Nell'attributo DetailHintText è possibile definire un proprio testo da visualizzare utilizzando i nomi dei campi del record corrente
@@ -231,7 +231,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 - Modificata la gestione dei colori della cella di tipo grafico. Ora è possibile definire colore e spessore anche per i separatori.
 - Risolto un problema che generava un xml non valido in alcuni casi durante la paginazione dell'albero.
 - Rifinito la generazione dell'immagine della cella grafica.
-- Aggiunti gli attributi di colore cablati,  *DPYELLOW,*DPRED,*DPGREEN,*DPBLU,*DPSELECTION per usare le sfumature di colore identiche ai campi della matrice anche nell'XML di definizione delle celle grafiche.
+- Aggiunti gli attributi di colore cablati,  \*DPYELLOW,\*DPRED,\*DPGREEN,\*DPBLU,\*DPSELECTION per usare le sfumature di colore identiche ai campi della matrice anche nell'XML di definizione delle celle grafiche.
 
 ## Versione V2R2M061003-04F Stable 05/12/2006
 
@@ -239,7 +239,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 - Modificata la gestione dei colori della cella di tipo grafico. Ora è possibile definire colore e spessore anche per i separatori.
 - Risolto un problema che generava un xml non valido o cmq sbagliato in alcuni casi durante la paginazione. In particolare nell'albero.
 - Fissato un errore durante la generazione dell'immagine della cella grafica.
-- Aggiunti gli attributi di colore cablati (ad esempio, *DPYELLOW) per dare anche nell'XML di definizione delle celle graficheall'utente la possibilità di utilizzare le sfumature di colore identiche a quelle usate come default nei campi della matrice.
+- Aggiunti gli attributi di colore cablati (ad esempio, \*DPYELLOW) per dare anche nell'XML di definizione delle celle graficheall'utente la possibilità di utilizzare le sfumature di colore identiche a quelle usate come default nei campi della matrice.
 
 ## Versione V2R2M061003-03G Stable 01/12/2006
 
@@ -384,7 +384,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 - Risolto un problema di caratteri non validi nei nomi di campi dell'Input Panel.
 - Risolto un problema nella stampa della matrice. Venivano riportati erroneamente anche i valori numerici a 0 che non sono visibili nella matrice stessa.
 - Realizzata la parte di interazione con la nuova gestione dei Setup in modo da applicare correttamente un setup dopo che è stato scelto nel pannello di gestione.
-- Ristrutturato completamente l'expression solver, in quanto la sintassi era rimasta limitata. E' ora possibile specificare gli operandi usando gli apici. Questo consente di confrontare frasi contenenti spazi ed altri caratteri altrimenti non validi. E' anche possibile usare *BLANK nei confronti per indicare un operando nullo. La nuova sintassi affianca quella vecchia MA non può essere usata contemporaneamente.
+- Ristrutturato completamente l'expression solver, in quanto la sintassi era rimasta limitata. E' ora possibile specificare gli operandi usando gli apici. Questo consente di confrontare frasi contenenti spazi ed altri caratteri altrimenti non validi. E' anche possibile usare \*BLANK nei confronti per indicare un operando nullo. La nuova sintassi affianca quella vecchia MA non può essere usata contemporaneamente.
 - Risolto un problema sulla matrice in caso di caricamento di setup multipli. Non veniva scelto il setup corretto sotto alcune condizioni.
 - Aggiunta la gestione dei pulsanti di salvataggio con nome e apertura nella bottoniera dei setup.
 - Aggiunte le funzioni per il richiamo delle nuove modalità di apertura, salvataggio e gestione dei setup.
@@ -401,7 +401,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 - Risolto un problema di caratteri non validi nei nomi di campi dell'Input Panel.
 - Risolto un problema nella stampa della matrice. Venivano riportati erroneamente anche i valori numerici a 0 che non sono visibili nella matrice stessa.
 - Realizzata la parte di interazione con la nuova gestione dei Setup in modo da applicare correttamente un setup dopo che è stato scelto nel pannello di gestione.
-- Ristrutturato completamente l'expression solver, in quanto la sintassi era rimasta limitata. E' ora possibile specificare gli operandi usando gli apici. Questo consente di confrontare frasi contenenti spazi ed altri caratteri altrimenti non validi. E' anche possibile usare *BLANK nei confronti per indicare un operando nullo. La nuova sintassi affianca quella vecchia MA non può essere usata contemporaneamente.
+- Ristrutturato completamente l'expression solver, in quanto la sintassi era rimasta limitata. E' ora possibile specificare gli operandi usando gli apici. Questo consente di confrontare frasi contenenti spazi ed altri caratteri altrimenti non validi. E' anche possibile usare \*BLANK nei confronti per indicare un operando nullo. La nuova sintassi affianca quella vecchia MA non può essere usata contemporaneamente.
 - Risolto un problema sulla matrice in caso di caricamento di setup multipli. Non veniva scelto il setup corretto sotto alcune condizioni.
 - Aggiunta la gestione dei pulsanti di salvataggio con nome e apertura nella bottoniera dei setup.
 - Aggiunte le funzioni per il richiamo delle nuove modalità di apertura, salvataggio e gestione dei setup.
@@ -502,7 +502,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 - Aggiunto l'attributo LabelAngle nel setup di grafico in modo da specificare l'orientamento delle etichette dell'asse orizzontale del grafico.
 - Aggiunta la gestione dei tasti funzionali nel componente InputPanel.
 - Aggiunta la gestione del fuoco all'interno del componente Inputpanel tramite tasto TAB.
-- Aggiunta la variabile *ALLSH in ogni sezione che contiene le informazioni di tutte le variabili della sezione stessa.
+- Aggiunta la variabile \*ALLSH in ogni sezione che contiene le informazioni di tutte le variabili della sezione stessa.
 - Risolto un problema sull'utilizzo del TitleLock sui dinamismi.
 - Risolto un problema relativo alla presenza di caratteri particolari (<>=) nelle celle aggiornabili di una matrice.
 - Aggiunto il passaggio della variabile Tx nel componente bottoniera.
@@ -519,7 +519,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 - Aggiunto l'attributo LabelAngle nel setup di grafico in modo da specificare l'orientamento delle etichette dell'asse orizzontale del grafico.
 - Aggiunta la gestione dei tasti funzionali nel componente InputPanel.
 - Aggiunta la gestione del fuoco all'interno del componente Inputpanel tramite tasto TAB.
-- Aggiunta la variabile *ALLSH in ogni sezione che contiene le informazioni di tutte le variabili della sezione stessa.
+- Aggiunta la variabile \*ALLSH in ogni sezione che contiene le informazioni di tutte le variabili della sezione stessa.
 - Risolto un problema sull'utilizzo del TitleLock sui dinamismi.
 - Risolto un problema relativo alla presenza di caratteri particolari (<>=) nelle celle aggiornabili di una matrice.
 - Aggiunto il passaggio della variabile Tx nel componente bottoniera.
@@ -572,7 +572,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 ## Versione V2R2M060410-02A Beta 10/04/2006
 
 - Aggiunto l'attributo EnableRefresh per disabilitare il menù aggiorna nella specifica G.SUB di sottosezione.
-- Aggiunta la possibilità di modificare il comportamento del pulsante di chiusura delle finestre della scheda tramite la definizione di una voce J1-KEY-*CLOSE nella specifica I.POP.
+- Aggiunta la possibilità di modificare il comportamento del pulsante di chiusura delle finestre della scheda tramite la definizione di una voce J1-KEY-\*CLOSE nella specifica I.POP.
 - Aggiunto l'attributo Enabled nella specifica G.DIN in modo da potere disabilitare o abilitare il dinamismo tramite variabili.
 - La scheda utilizza le icone definite nel filesystem quando si riferisce ad un oggetto che ne fa parte.
 - Risolto un problema sulla risoluzione delle variabili nella funzione da eseguire di un bottone. Veniva erroneamente effettuata la sostituzione prima dell'esecuzione dell'evento di pressione del tasto.
@@ -588,7 +588,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 ## Versione V2R2M060410-01A Stable 10/04/2006
 
 - Aggiunto l'attributo EnableRefresh per disabilitare il menù aggiorna nella specifica G.SUB di sottosezione.
-- Aggiunta la possibilità di modificare il comportamento del pulsante di chiusura delle finestre della scheda tramite la definizione di una voce J1-KEY-*CLOSE nella specifica I.POP.
+- Aggiunta la possibilità di modificare il comportamento del pulsante di chiusura delle finestre della scheda tramite la definizione di una voce J1-KEY-\*CLOSE nella specifica I.POP.
 - Aggiunto l'attributo Enabled nella specifica G.DIN in modo da potere disabilitare o abilitare il dinamismo tramite variabili.
 - La scheda utilizza le icone definite nel filesystem quando si riferisce ad un oggetto che ne fa parte.
 - Risolto un problema sulla risoluzione delle variabili nella funzione da eseguire di un bottone. Veniva erroneamente effettuata la sostituzione prima dell'esecuzione dell'evento di pressione del tasto.
@@ -615,7 +615,7 @@ Nell'attributo DetailHintText è possibile definire un proprio testo da visualiz
 - Aggiunto la possibilità di usare nodi action all'interno dell'xml di ogni componente e non solo nel componente VIR.
 - Aggiunta al componente INP la tipizzazione, la trasparenza dell'icona oggetto che viene legata al campo di input corrispondente.
 - Aggiunta l'oggettizzazione, le icone, i popupmenu e i colori al nuovo componente INPl. E' stata introdotta anche la gestione dell'EditCode come nell'emulatore.
-- Aggiunto il caricamento della variabili di ambiente del sistema operativo alla partenza del modulo delphi. E' quindi possibile fare riferimento alle variabili all'interno di script di scheda usando la sintassi [*nomevariabile].
+- Aggiunto il caricamento della variabili di ambiente del sistema operativo alla partenza del modulo delphi. E' quindi possibile fare riferimento alle variabili all'interno di script di scheda usando la sintassi [\*nomevariabile].
 - La gestione delle Action è stata cambiata in modo da potere richiamare una funzione di refresh di una sezione che esegua una funzione scelta dal servizio invece di originale del componente.
 - Risolto un problema nell'esportazione in Excel di una matrice. Ora non si verifica più il caso di mancata chiusura del processo excel una volta chiuso il foglio di calcolo. L'apertura del foglio di calcolo esportato ora viene eseguita dopo il salvataggio dello stesso.
 - Risolto un problema sull'apertura di Excel durante la fase di riconoscimento della versione. Il processo rimaneva aperto ma inutilizzabile.

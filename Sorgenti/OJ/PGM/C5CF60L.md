@@ -36,11 +36,11 @@
            Non viene eseguito su mancantiche sono già collegati ad
            altre registrazioni.
     02 = Dettaglio - Modifica
-         . modifica dettaglio riga (*)
+         . modifica dettaglio riga (\*)
     04 = Dettaglio - Cancella
-         . cancella dettaglio riga(*)
+         . cancella dettaglio riga(\*)
     05 = Dettaglio - Visualizza
-         . visualizza dettaglio riga(*)
+         . visualizza dettaglio riga(\*)
     12 = Dett.Seq. - Modifica
          . modifica dettaglio righe in sequenza senza passare a
            gestione lista dettaglio se pià di una riga
@@ -51,13 +51,13 @@
          . visualizza dettaglio righe in sequenza senza passare a
            gestione lista dettaglio se pià di una riga
     LI = Dettaglio - Lista campi
-         . lista campi dettaglio riga(*)
+         . lista campi dettaglio riga(\*)
     NC = Inserisci non conformità
          . inserimento non conformità (se attiva gestione)
     MO = Origine   - Modifica
-         . modifica riga origine se autorizzati (*)
+         . modifica riga origine se autorizzati (\*)
     VO = Origine   - Visualizza
-         . visualizza riga origine (*)
+         . visualizza riga origine (\*)
     MT = Origine(T)- Modifica
          . modifica testata origine se autorizzati
            (per le fonti con testata)
@@ -68,7 +68,7 @@
          . visualizza lista campi testata registrazione
     VF = Fonte
          . visualizza tabella fonte
-    (*) se presente più di una riga opzione gestita a lista dettaglio
+    (\*) se presente più di una riga opzione gestita a lista dettaglio
 
 >TASTI FUNZIONALI
     F05=Ricostr.

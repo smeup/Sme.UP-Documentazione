@@ -24,5 +24,5 @@ Sistemata l'inclusione dei file attaverso la specifica _B_DEC per i problemi che
 - Gestione del parametro **TitSez** nelle specifiche _B_G.SEZ**per poter passare il titolo alla sezione (sembra però che il JATRE adibito alla costruzione del XML non lo passi a Loocup)
 ## Sch Generator subv. 2.4 - Modifica 1 Febbraio 2006
 
-- Gestito valore ***NONE** nei titoli delle sottosezioni per non dare il titolo.
+- Gestito valore **\*NONE** nei titoli delle sottosezioni per non dare il titolo.
 - Gestito scaling delle immagini nelle specifiche _B_D.IMG.OGG :  se l'immagine ha dimensioni maggiori del foglio la restringe a quelle del foglio, altrimenti mantiene le dimensioni dell'immagine senza stretcharla.

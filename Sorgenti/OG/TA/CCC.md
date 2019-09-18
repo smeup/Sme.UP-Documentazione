@@ -29,7 +29,7 @@ _9_Esempio :       Consegna mensile     =   1 ,3
 Consegna settimanale =   -X--X--
 Suddivide la quantità in quattro consegne :  il Martedì ed il Venerdì della 1° e 3° settimana del mese.
 ## CASO 5
-Tipo consegna  : '*BLANKS'      Consegna mensile non significativa.
+Tipo consegna  : '\*BLANKS'      Consegna mensile non significativa.
 Consegna settimanale diversa da 0
 Cadenza con giorni fissi.
 Suddivide la quantità (settimanale) nei giorni impostati nel campo consegne settimanali.

@@ -13,16 +13,16 @@ I conti con cui vengono contabilizzati i movimenti registrati sui cespiti vengon
 
 Per facilitare l'impostazione e l'analisi di questi conti, all'interno del modulo Operazioni Contabili (A5OPCO) sono disponibili tre interrogazioni : 
 
- * Conti per categoria :  permette di analizzare i conti impostati sulla tabella A5A
+ \* Conti per categoria :  permette di analizzare i conti impostati sulla tabella A5A
 
 ![A5OPCO_005](http://localhost:3000/immagini/A5OPCO_03/A5OPCO_005.png)
- * Impostazione Conti /Causali Generiche :  permette di analizzare le causali/conti definiti a livello generale. In questo gruppo potrebbero, ad esempio, rientrare i conti elle plus/minusvalenze così come le causali utilizzate nella rilevazione degli ammortamenti.
+ \* Impostazione Conti /Causali Generiche :  permette di analizzare le causali/conti definiti a livello generale. In questo gruppo potrebbero, ad esempio, rientrare i conti elle plus/minusvalenze così come le causali utilizzate nella rilevazione degli ammortamenti.
 
 ![A5OPCO_001](http://localhost:3000/immagini/A5OPCO_03/A5OPCO_001.png)
- * Impostazione Conti /Causali per Categoria :  permette di analizzare le causali/conti specificati a livello di categoria
+ \* Impostazione Conti /Causali per Categoria :  permette di analizzare le causali/conti specificati a livello di categoria
 
 ![A5OPCO_002](http://localhost:3000/immagini/A5OPCO_03/A5OPCO_002.png)
- * Impostazione Conti /Causali per Cespite :  permette di analizzare le causali/conti specificati a livello di singolo cespite.
+ \* Impostazione Conti /Causali per Cespite :  permette di analizzare le causali/conti specificati a livello di singolo cespite.
 ![A5OPCO_003](http://localhost:3000/immagini/A5OPCO_03/A5OPCO_003.png)
 Per ulteriori dettagli sulle tre schede si rimanda alla relativa documentazione.
 
@@ -48,15 +48,15 @@ In fase di attivazione dei collegamenti A5 - C5 si consiglia di procedere in que
 ## Contabilizzazione vendite
 
 Per gestire in modo automatico le rilevazioni contabili relative alle vendite/alienazioni si consiglia di procedere in questo modo : 
-* All'interno della registrazione contabile della vendita utilizzare come contropartita del cliente un conto transitorio
-* Impostare a livello generale : 
-** Come conto dare del capitale venduto il conto transitorio
-** Come conto avere del fondo venduto il conto transitorio
-** Come conto dare delle plusvalenze il conto transitorio
-** Come conto avere delle plusvalenze il conto relativo alle plusvalenze
-** Come conto avere delle minusvalenze il conto transitorio
-** Come conto dare delle minusvalenze il conto relativo alle minusvalenze
-* Impostare sulle categorie/cespiti i relativi conti di costo storico (capitale) e fondo.
+\* All'interno della registrazione contabile della vendita utilizzare come contropartita del cliente un conto transitorio
+\* Impostare a livello generale : 
+\*\* Come conto dare del capitale venduto il conto transitorio
+\*\* Come conto avere del fondo venduto il conto transitorio
+\*\* Come conto dare delle plusvalenze il conto transitorio
+\*\* Come conto avere delle plusvalenze il conto relativo alle plusvalenze
+\*\* Come conto avere delle minusvalenze il conto transitorio
+\*\* Come conto dare delle minusvalenze il conto relativo alle minusvalenze
+\* Impostare sulle categorie/cespiti i relativi conti di costo storico (capitale) e fondo.
 
 Terminata la configurazione sarà possibile eseguire la contabilizzazione automatica della vendita del cespite che porterà a zero il saldo del conto transitorio e rileverà i relativi valori di costo storico, fondo e plus/minusvalenza utilizzando la funzione _Contabilizzazione Vendite disponibile all'interno del modulo Cespiti :  operazioni contabili.
 

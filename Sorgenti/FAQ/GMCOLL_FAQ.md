@@ -1,4 +1,4 @@
-- **Sai cos'è la movimentazione per UdC/UdM (Unità di carico/Unità di moviment**
+- \*\*Sai cos'è la movimentazione per UdC/UdM (Unità di carico/Unità di moviment\*\*
 
  :  : VOC Id="SKIA0010" Txt="Sai cos'è la movimentazione per UdC/UdM (Unità di carico/Unità di movimentazione?"
 Una modalità di movimentazione di magazzino che, attraverso lo spostamento delle UdC (UdM), esegue la movimentazione di magazzino degli articoli/quantità contenuti nella UdC.
@@ -8,17 +8,17 @@ Esempio si possono utilizzare le UdC per :
 - spostare da magazzino all'area di spedizione
 - alimentare la lina di produzione (trasferimento da ubicazione di magazzino a ubicazione bordo-linea)
 
-- **Conosci il significato di contenitore padre?**
+- \*\*Conosci il significato di contenitore padre?\*\*
 
  :  : VOC Id="SKIA0020" Txt="Conosci il significato di contenitore padre?"
 Nella gestione per unità di movimentazione è prevista la possibilità di utilizzare contenitori di contenitori in modo da comporre una distinta di contenitori (es. pallet e scatole) dove il contenitore che contiene gli altri è il contenitore padre.
 
-- **Sai quando è utile avere la giacenza per collo?**
+- \*\*Sai quando è utile avere la giacenza per collo?\*\*
 
  :  : VOC Id="SKIA0030" Txt="Sai quando è utile avere la giacenza per collo?"
 Quando si ha la necessità di identificare univocamente una giacenza. Per esempio in una gestione a Radio Frequenza. Dove sparando il numero di collo si vuole determinare automaticamente tutte le informazioni di giacenza per semplificare i processi di prelievo e/o trsferimento materiali. Naturamenente bisogna prestare attenzione a che un collo sia prelevato interamente.  Se necessario un prelievo parziale bisonga creare un nuovo collo per la parte prelevata o residua.
 
-- **Sai quali sono le tabelle guida?**
+- \*\*Sai quali sono le tabelle guida?\*\*
 
  :  : VOC Id="SKIA0040" Txt="Sai quali sono le tabelle guida?"
 La tabella principale è la GMD (Tipo collo) che definisce le specifiche del collo (collegamento a oggetti SmeUP, parametri, note, numerazione, ...)
@@ -28,7 +28,7 @@ Per una informazione più completa vedi documentazione tabelle :
 - [GMD - Tipo collo](Sorgenti/OG/TA/GMD)
 - [GMB - Unita  di movimentazione](Sorgenti/OG/TA/GMB)
 
-- **Sai quali sono gli archivi di riferimento?**
+- \*\*Sai quali sono gli archivi di riferimento?\*\*
 
  :  : VOC Id="SKIA0050" Txt="Sai quali sono gli archivi di riferimento?"
 L'anagrafico di colli è il file GMCOLL0F.
@@ -39,54 +39,54 @@ Per una informazione più completa vedi documentazione files :
 - [GMCOLL0F Colli](Sorgenti/OJ/FILE/GMCOLL0F)
 - [GMCOCO0F Giacenze per Packing list (prova Query](Sorgenti/OJ/FILE/GMCOCO0F)
 
-- **Sai come collegare un documento ad un collo?**
+- \*\*Sai come collegare un documento ad un collo?\*\*
 
  :  : VOC Id="SKIA0060" Txt="Sai come collegare un documento ad un collo?"
 Nella tabella GMD ad un tipo collo in questione si possono abbinare 2 enti di riferimento e 2 tipi documento.
 
-- **Sai come impostare la codifica guidata di un collo?**
+- \*\*Sai come impostare la codifica guidata di un collo?\*\*
 
  :  : VOC Id="SKIA0070" Txt="Sai come impostare la codifica guidata di un collo?"
 In tabella GMD c'è la possibilità di inserire un numeratore colli (tab. CRNGM) oppure l'elemento di tab. B£F con la domanda iniziale per il flusso costruzione codice colli.
 
-- **Sai come evitare di avere i dettagli  giacenze per collo in GMQUAN?**
+- \*\*Sai come evitare di avere i dettagli  giacenze per collo in GMQUAN?\*\*
 
  :  : VOC Id="SKIA0080" Txt="Sai come evitare di avere i dettagli  giacenze per collo in GMQUAN?"
 In tabella GMD si può impostare se il contenuto colli viene gestito a dettaglio in GMQUAN.
 La stessa impostazione si ha con il "gruppo flag" :  flag 1. Il gruppo flag vince sulla tabella GMD.
 
-- **Sai perchè evitare di avere i dettagli  giacenze per collo in GMQUAN?**
+- \*\*Sai perchè evitare di avere i dettagli  giacenze per collo in GMQUAN?\*\*
 
  :  : VOC Id="SKIA0090" Txt="Sai perchè evitare di avere i dettagli  giacenze per collo in GMQUAN?"
 Per avere il dettaglio del contenuto di un collo non è necessario gestire in GMQUAN le giacenze per collo :  si attiva la gestione del dettaglio in GMCOCO. In questo modo la gestione delle giacenze ne risulta alleggerita. Il dettaglio contenuto nel collo è necessario per la gestione della packing list.
 
-- **Sai come associare parametri esterni ad un collo?**
+- \*\*Sai come associare parametri esterni ad un collo?\*\*
 
  :  : VOC Id="SKIA0100" Txt="Sai come associare parametri esterni ad un collo?"
 Inserendo la categoria parametri in tab. GMD.
 
-- **Sai come associare parametri interni ad un collo?**
+- \*\*Sai come associare parametri interni ad un collo?\*\*
 
  :  : VOC Id="SKIA0110" Txt="Sai come associare parametri interni ad un collo?"
 Inserendo la categoria parametri impliciti (tab. C£I) in tab. GMD.
 
-- **Sai come associare date particolari ad un collo?**
+- \*\*Sai come associare date particolari ad un collo?\*\*
 
  :  : VOC Id="SKIA0120" Txt="Sai come associare date particolari ad un collo?"
 Inserendo in tab. GMD il prefisso degli elementi di tab. C£JCZ dove sono descritti i significati delle date implicite.
 La stessa impostazione si ha con il "gruppo flag" :  flag 2. Il gruppo flag vince sulla tabella GMD.
 
-- **Sai come associare etichette diverse a colli diversi?**
+- \*\*Sai come associare etichette diverse a colli diversi?\*\*
 
  :  : VOC Id="SKIA0130" Txt="Sai come associare etichette diverse a colli diversi?"
 In tab. GMB per un tipo UdM si può inserire un elemento della tab. GMP che richiama uno specifico programma di stampa etichette.
 
-- **Conosci l'esistenza della Copy K35?**
+- \*\*Conosci l'esistenza della Copy K35?\*\*
 
  :  : VOC Id="SKIA0140" Txt="Conosci l'esistenza della Copy K35?"
 La /Copy K35 è una /copy generalizzata che permette la creazione di un collo, il suo "riempimento" con un articolo / quantità, la movimentazione.
 
-- **Sai qual'è la tabella di riferimento per la K35?**
+- \*\*Sai qual'è la tabella di riferimento per la K35?\*\*
 
  :  : VOC Id="SKIA0150" Txt="Sai qual'è la tabella di riferimento per la K35?"
 La tabella GNK, nella quale sono definite tutte le azioni previste nell'utilizzo della K35.
@@ -94,7 +94,7 @@ La tabella GNK, nella quale sono definite tutte le azioni previste nell'utilizzo
 Per una informazione più completa vedi documentazione tabella : 
  :  : DEC T(MB) P(DOC_OGG) K(TA_GNK)
 
-- **Sai quali sono le principali azioni catalogate?**
+- \*\*Sai quali sono le principali azioni catalogate?\*\*
 
  :  : VOC Id="SKIA0160" Txt="Sai quali sono le principali azioni catalogate?"
 - Creazione collo

@@ -137,10 +137,10 @@ Per maggiori dettagli sull'utilizzo delle memorizzazioni video si veda il seguen
 
 ### Tasti funzionali
 
- * F06 :  Conferma. Permette di confermare ed eseguire la funzione
- * F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della funzione; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch.
- * F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
- * F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
+ \* F06 :  Conferma. Permette di confermare ed eseguire la funzione
+ \* F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della funzione; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch.
+ \* F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
+ \* F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 ### Memorizzazioni
 
@@ -155,19 +155,19 @@ All'interno del formato lista è possibile visualizzare l'elenco delle registraz
 
 ![C5C010_074](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_074.png)
 Nella parte superiore della videata sono riportate alcune informazioni generali relative all'oggetto in analisi e alle opzioni definite nel formato guida; in particolare abbiamo : 
- * Codice e descrizione azienda
- * Codice e descrizione divisione
- * Saldo alla data iniziale del mastrino; quindi interrogando un mastrino dal 01/07/200X vedrò il saldo al 01/07/200X
- * Esercizio impostato nel formato guida
- * Estremi impostati nel formato guida relativamente alla data registrazione; se non viene impostato nessun limite il sistema in automatico imposta dal primo gennaio dell'esercizio indicato nel formato guida al 31/12/9999
- * Valore del saldo alla data impostata nel formato guida; se non viene impostata una specifica data di saldo viene evidenziato il saldo al 31/12/9999
+ \* Codice e descrizione azienda
+ \* Codice e descrizione divisione
+ \* Saldo alla data iniziale del mastrino; quindi interrogando un mastrino dal 01/07/200X vedrò il saldo al 01/07/200X
+ \* Esercizio impostato nel formato guida
+ \* Estremi impostati nel formato guida relativamente alla data registrazione; se non viene impostato nessun limite il sistema in automatico imposta dal primo gennaio dell'esercizio indicato nel formato guida al 31/12/9999
+ \* Valore del saldo alla data impostata nel formato guida; se non viene impostata una specifica data di saldo viene evidenziato il saldo al 31/12/9999
 
 Le informazioni visualizzate per ogni record del mastrino sono divisibili in due gruppi :  informazioni descrittive e valori. Le informazioni descrittive sono fisse e riportano : 
- * Pertinenza e condizione della registrazione contabile
- * Società intercompany associata alla registrazione
- * Data Registrazione
- * Data documento
- * Numero documento per mastrini di enti/Causale contabile per mastrini di conti
+ \* Pertinenza e condizione della registrazione contabile
+ \* Società intercompany associata alla registrazione
+ \* Data Registrazione
+ \* Data documento
+ \* Numero documento per mastrini di enti/Causale contabile per mastrini di conti
 
 Per quanto riguarda i valori questi variano in funzione delle impostazioni definite come documentato all'interno di questo mauale.
 
@@ -215,11 +215,11 @@ Per ognuna delle registrazioni presenti all'interno del mastrino sono disponibil
 
 ### Tasti funzionali
 
- * F01 :  Permette di ricercare una stringa all'interno della videata
- * F05 :  Esegue l'aggiornamento della videata
- * F09 :  Permette di posizionarsi sulla prima pagina del mastrino
- * F10 :  Permette di posizionarsi sull'ultima pagina del mastrino
- * F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
- * F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
+ \* F01 :  Permette di ricercare una stringa all'interno della videata
+ \* F05 :  Esegue l'aggiornamento della videata
+ \* F09 :  Permette di posizionarsi sulla prima pagina del mastrino
+ \* F10 :  Permette di posizionarsi sull'ultima pagina del mastrino
+ \* F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
+ \* F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 

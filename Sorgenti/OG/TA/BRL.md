@@ -28,11 +28,11 @@ Se questo campo è valorizzato, è possibile inserire un legame di distinta con 
 Se questo campo è valorizzato, in caso di abbandono con il tasto F12 durante la modifica di una distinta, verrà richiesta conferma.
 La conferma verrà richiesta inoltre per ogni operazione che possa comportare una perdita dei dati non memorizzati.
  :  : FLD T$BRL8 **Tipo Assieme**
-Definisce il tipo oggetto dell'assieme. Questo campo è controllato dalla tabella *CNTT. Per il tipo distinta ART, questo campo viene assunto al valore AR (Articolo). L'assunzione al valore AR avviene anche nel caso in cui questo campo venga lasciato vuoto.
+Definisce il tipo oggetto dell'assieme. Questo campo è controllato dalla tabella \*CNTT. Per il tipo distinta ART, questo campo viene assunto al valore AR (Articolo). L'assunzione al valore AR avviene anche nel caso in cui questo campo venga lasciato vuoto.
  :  : FLD T$BRL9 **Parametro Assieme**
 Parametro associato al tipo definito nel campo precedente.
  :  : FLD T$BRLA **Tipo Componente**
-Definisce il tipo oggetto del componente. Questo campo è controllato dalla tabella *CNTT. Per il tipo distinta ART, questo campo viene assunto al valore AR (Articolo). L'assunzione al valore AR avviene anche nel caso in cui questo campo venga lasciato vuoto.
+Definisce il tipo oggetto del componente. Questo campo è controllato dalla tabella \*CNTT. Per il tipo distinta ART, questo campo viene assunto al valore AR (Articolo). L'assunzione al valore AR avviene anche nel caso in cui questo campo venga lasciato vuoto.
  :  : FLD T$BRLB **Parametro Componente**
 Parametro associato al tipo definito nel campo precedente.
  :  : FLD T$BRLM **Stato di nascita**
@@ -72,7 +72,7 @@ Nelle funzioni di esplosione e implosione non al livello, il ramo si interrompe 
  :  : FLD T$BRLD **Suffisso programma di controllo**
 Se impostato un valore x, nella manutenzione della distinta viene eseguito il programma BRDI06D_x, in cui si possono introdurre controlli specifici, in aggiunta a quelli eseguiti dal programma standard.
  :  : FLD T$BRLE **Ambiente distinta**
-È un elemento della tabella *CN/AA :  se impostato, questo ambiente si sovrappone all'ambiente originale definito nella tabella di impostazioni (B£1) per la scansione della distinta.
+È un elemento della tabella \*CN/AA :  se impostato, questo ambiente si sovrappone all'ambiente originale definito nella tabella di impostazioni (B£1) per la scansione della distinta.
 In questo modo si possono codificare le distinte su diversi ambienti. Può essere utile, ad esempio, definire ambienti 'proprietari' (X1/X9) con cui scandire la distinta di pianificazione, ottenuta realizzando l'opportuno programma d'interfaccia. Questo programma reperirà le informazioni in modo totalmente eterogeneo (ad esempio sui parametri dell'oggetto, sui legami, su archivi personali) e le restituirà normalizzate alle funzioni che eseguono la scansione della distinta.
 _Nota tecnica_
 La ridirezione dell'ambiente nello standard è eseguita nel programma di scansione dell'ambiente SM :  B£IDIB_SM. Se si vuol eseguire una ridirezione a partire da un altro ambiente occorre modificare il programma di scansione prendendo come esempio quanto fatto in quel programma.

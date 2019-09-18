@@ -150,7 +150,7 @@ Sempre sulla sinistra vengono mostrate tutte le funzioni necessarie alla gestion
 ### La Scheda del Configuratore
 L'accesso alle funzioni del configuratore avviene mediante un'apposita scheda (CFBASE).
 
-Questa scheda è accessibile dal menù delle applicazioni di Loocup con il seguente percorso :  Menù Ingresso utente, *AP :  Applicazioni, LOOC_Up Graphic Environment, Schede, configuratore.
+Questa scheda è accessibile dal menù delle applicazioni di Loocup con il seguente percorso :  Menù Ingresso utente, \*AP :  Applicazioni, LOOC_Up Graphic Environment, Schede, configuratore.
 
 Verrà visualizzata la seguente scheda (Figura 12) : 
 

@@ -13,9 +13,9 @@ Il campo 'Tipo rapporto' non è significativo per questa interrogazione in quant
 Il campo 'Codice banca' viene compilato nel caso in cui si voglia visualizzare solamente il castelletto di una specifica banca.
 
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle Impostazioni che riportano i seguenti campi : 
- * Ometto dettaglio :  attraverso questo campo è possibile visualizzare o meno il dettaglio per rapporto bancario. Omettendo il dettaglio, quindi, verranno resituite solamente le informazioni a livello di banca e non a livello di rapporto bancario.
- * Ordinamento :  permette di definire l'ordinamento di visualizzazione dei record; le scelte disponibili sono per tipo rapporto/banca oppure per banca/tipo rapporto.
- * Solo valorizzati :  permette di visualizzare solamente i rapporti con valori non nulli.
+ \* Ometto dettaglio :  attraverso questo campo è possibile visualizzare o meno il dettaglio per rapporto bancario. Omettendo il dettaglio, quindi, verranno resituite solamente le informazioni a livello di banca e non a livello di rapporto bancario.
+ \* Ordinamento :  permette di definire l'ordinamento di visualizzazione dei record; le scelte disponibili sono per tipo rapporto/banca oppure per banca/tipo rapporto.
+ \* Solo valorizzati :  permette di visualizzare solamente i rapporti con valori non nulli.
 
 Confermando il formato guida è possibile accedere al formato lista.
 
@@ -26,11 +26,11 @@ All'interno del formato lista è possibile visualizzare per ogni rapporto bancar
 ## Formato dettaglio
 Per ognuno dei record visualizzato nel formato lista sono disponibili alcune opzioni : 
 
- * 02 Modifica elemento tabella :  permette di accedere in modifica all'elemento della C5J che definisce il rapporto bancario
- * 05 Interrogazione elemento tabella :  permette di accedere in visualizzazione all'elemento della C5J che definisce il rapporto bancario
- * 22 Gestione parametri :  visualizza e permette di modificare i parametri dell'elemento della C5J che definisce il rapporto bancario
- * 32 Gestione condizioni :  visualizza il formato guida per la gestione delle condizioni del rapporto selezionato
- * CS Castelletto :  sui rapporti di salvo buon fine permette di visualizzare l'evoluzione del castelletto
- * MC Estratto conto :  consente di visualizzare il mastrino del conto contabile associato al rapporto bancario ordinato per data registrazione
- * MI Scalare interessi :  se per il rapporto bancario selezionato sono impostati i parametri per il calcolo dello scalare interessi questo viene visualizzato alla selezione di questa opzione.
- * MV Proiezione in valuta :  consente di visualizzare il mastrino del conto contabile associato al rapporto bancario ordinato per data valuta
+ \* 02 Modifica elemento tabella :  permette di accedere in modifica all'elemento della C5J che definisce il rapporto bancario
+ \* 05 Interrogazione elemento tabella :  permette di accedere in visualizzazione all'elemento della C5J che definisce il rapporto bancario
+ \* 22 Gestione parametri :  visualizza e permette di modificare i parametri dell'elemento della C5J che definisce il rapporto bancario
+ \* 32 Gestione condizioni :  visualizza il formato guida per la gestione delle condizioni del rapporto selezionato
+ \* CS Castelletto :  sui rapporti di salvo buon fine permette di visualizzare l'evoluzione del castelletto
+ \* MC Estratto conto :  consente di visualizzare il mastrino del conto contabile associato al rapporto bancario ordinato per data registrazione
+ \* MI Scalare interessi :  se per il rapporto bancario selezionato sono impostati i parametri per il calcolo dello scalare interessi questo viene visualizzato alla selezione di questa opzione.
+ \* MV Proiezione in valuta :  consente di visualizzare il mastrino del conto contabile associato al rapporto bancario ordinato per data valuta

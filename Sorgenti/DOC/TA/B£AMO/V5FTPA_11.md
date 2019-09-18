@@ -2,7 +2,7 @@
 # Scrittura dati della fattura
 La procedura di generazione e invio degli xml delle fatture elettroniche prevede la scrittura di un file di transito che contiene in diversi tracciati tutte le informazioni contenute nella fattura.
 **$EDSEND0F è il file di transito da scrivere.**
-**I tracciati dei file EDFEIT* sono utilizzati come DS esterna contenente i dati che vanno nel campo varying R$DATI del $EDSEND0F. 
+**I tracciati dei file EDFEIT\* sono utilizzati come DS esterna contenente i dati che vanno nel campo varying R$DATI del $EDSEND0F. 
 La creazione dei file xml avviene su IFS e i file xml vengono poi inviati ad Abletech tramite webservice attraverso lo Smart Kit FE.
 Il savf P_FENS è salvato per V5R4 e contiene file, programmi e i sorgenti.
 Le istruzioni di installazione si trovano nel membro README del file sorgente DOC.
@@ -122,8 +122,8 @@ Nel file **Tracciato_FatturaPA_versione_1.2.1 - campi gestiti.xls** sono indicat
 Gli oggetti distribuiti nel savf **P_FENS** sono compilati a V5R4.
 
 In caso abbiate necessità di compilare il pgm $B£G02B è necessario farlo compilando il sorgente in interattivo dopo aver fatto il bind tramite i comandi sotto riportati.
- * CRTBNDDIR BNDDIR(QTEMP/APRB64) TEXT('APR_BASE64 Binding Directory')
- * ADDBNDDIRE BNDDIR(APRB64) OBJ( (QSYSDIR/QAXIS10HT *SRVPGM))
+ \* CRTBNDDIR BNDDIR(QTEMP/APRB64) TEXT('APR_BASE64 Binding Directory')
+ \* ADDBNDDIRE BNDDIR(APRB64) OBJ( (QSYSDIR/QAXIS10HT \*SRVPGM))
 
 Qualora non riusciste a compilare il pgm per assenza della PTF IBM che contiene il service program QAXIS10HT, il pacchetto funzionerà comunque correttamente utilizzando funzioni alternative, anche se con delle performance inferiori.
 
@@ -144,7 +144,7 @@ In caso vengano rilevati errori (ad esempio campi obbligatori mancanti) lo stato
 
 - Se il ciclo attivo è gestito con i **documenti V5** di Sme.UP ERP va configurato uno **Smart Kit Sme.UP**, comunicando quindi al consulente di infrastruttura oltre a utente e pqssword anche il codice ambiente.
 - Se il cliente ha la **contabilità di Sme.UP ERP, ma il ciclo attivo non è gestito con i documenti V5** di Sme.UP ERP, va configurato uno **Smart Kit Sme.UP** (utente con programma iniziale B£QQ50, JOBD con librerie SMEUP, Smart Kit configurato con un Ambiente associato tramite UP UT5 all'utente di collegamento) aggiungendo nello **script SCP_CLO** dell'utente dello Smart Kit l'attivazione del plugin necessario per le funzioni non Smeup utilizzate per l'invio fatture tramite il pacchetto NON Smeup.
-- Se il cliente **non utilizza Sme.UP ERP** va configurato uno **Smart Kit NON Sme.UP** (l'utente con programma iniziale *NONE, JOBD QDFTJOBD, Smart Kit configurato senza impostare l'ambiente).
+- Se il cliente **non utilizza Sme.UP ERP** va configurato uno **Smart Kit NON Sme.UP** (l'utente con programma iniziale \*NONE, JOBD QDFTJOBD, Smart Kit configurato senza impostare l'ambiente).
 
 
 ## Invio fatture tramite pacchetto NON Smeup in ambienti con Contabilità Sme.UP
@@ -181,7 +181,7 @@ In caso la trasmissione venga eseguita con successo viene restituito da Abletech
 | .COL Txt="CONTENUTO" LunAut="1" |
 | E$TIP1 | Tipo parametro cod.1   | 'OGFT'| |
 | E$COD1 | Codice 1| registro iva| |
-| E$TIP2 | Tipo parametro cod.2   | '**'| |
+| E$TIP2 | Tipo parametro cod.2   | '\*\*'| |
 | E$COD2 | Codice 2| numero fatture| |
 | E$SCD2 | Suffisso Codice 2| ''| |
 | E$LIVE | Livello| '2'| |
@@ -200,8 +200,8 @@ Per interrogare i log di cominicazione eseguire la call al pgm **$V5FE92G** impo
 
 # LIMITAZIONI : 
 La versione corrente ha alcune limitazioni : 
-* permette in incorporare nell'xml solo allegati che si trovano su IFS
-* il numero fattura ha lunghezza massima 15 per il ciclo attivo.
+\* permette in incorporare nell'xml solo allegati che si trovano su IFS
+\* il numero fattura ha lunghezza massima 15 per il ciclo attivo.
 
 # INTERROGAZIONE ESITI : 
 Permette di verificare lo stato della singola fattura inviata ad Abletech.
@@ -234,25 +234,25 @@ Nello specifico applicativo, il programma esegue un web service di primo livello
 # DOWNLOAD FE PASSIVA : 
 ## INSTALLAZIONE
 Nuovo database che contiene l'elenco delle fatture scaricate
-* XFATPA0F
+\* XFATPA0F
 Nuovo database che contiene i dati delle fatture passive elaborate
-* $EDRECI0F con i relativi logici
+\* $EDRECI0F con i relativi logici
 Nuovi programmi : 
-* $C5_093LOG
-* $C5FE93A
-* $C5FE93B
-* $C5FE93C
-* $C5FE93D
-* $C5FE93E
-* $C5FE93K
-* $C5FE93M
-* $B£K19G
-* $B£K19_001
-* $TSTK19
+\* $C5_093LOG
+\* $C5FE93A
+\* $C5FE93B
+\* $C5FE93C
+\* $C5FE93D
+\* $C5FE93E
+\* $C5FE93K
+\* $C5FE93M
+\* $B£K19G
+\* $B£K19_001
+\* $TSTK19
 Programmi da aggiornare : 
-* $B£K11G
-* $EDEDT0
-* $EDFUC0T
+\* $B£K11G
+\* $EDEDT0
+\* $EDFUC0T
 
 
 |  Nam="FILE XFATPA0F" |
@@ -281,13 +281,13 @@ Programmi da aggiornare :
 Oltre a questi campi ci sono 10 campi liberi alfa, 10 campi liberi numerici e 10 campi liberi date.
 ## PROCEDURE
 Per questo argomento sono stati sviluppate 3 nuove funzioni : 
-* $C5FE93A :  esegue download elenco fatture degli ultimi 3 mesi. L'elenco delle fatture viene scritto nel file XFATPA0F a parità di partita iva, codice fiscale, tipo documento, data documento, numero documento. Il programma non ha parametri di ingresso
-* $C5FE93C :  programma che legge il file XFATPA0F ove il percorso (campo XFPERC) sia uguale a blank e richiama per ogni identificativo fattura il programma $C5FE93B. Il programma non ha parametri di ingresso
-* $C5FE93B :  dato l'identificativo fattura esegue il download dei file di dettaglio. Questo programma ha come parametro di ingresso l'identifativo fattura lungo 36 Alfa
-* $C5FE93D :  programma che legge il file XFATPA0F ove il codice registrazione (campo XFPROG) sia uguale a blank, verifica se la fattura è già stata elaborata richiamando il $C5FE93K e richiama per ogni fattura non ancora elaborata il programma $C5FE93E, passando il percorso del file XML (XFPERC) nel campo $K19XMLF e nel campo $K19PARA l'identificativo SdI, l'identificativo Abletech e la data ricezione. Il programma non ha parametri di ingresso
-* $C5FE93E :  dato il percorso del file XML della fattura ne esegue l'elaborazione scrivendo il file $EDRECI0F con gli stessi tracciati EDFEIT* utilizzati per le fatture attive. Questo programma ha come parametro di ingresso il percorso dell'XML e un campo opzionale parametro in cui indicare l'identificativo SdI, l'identificativo Abletech e la data ricezione. Come campi di output restituisce un messaggio e un indicatore di errore.
-* $C5FE93K :  dato il nome del file XML della fattura verifica se è già stato elaborato e scritto su $EDRECI0F.
-* $C5FE93M :  Esempio di programma che legge i file contenuti in una cartella su IFS verifica se il file xml è già stato elaborato richiamando il $C5FE93K e richiama per ogni fattura non ancora elaborata il programma $C5FE93E, passando il percorso del file XML nel campo $K19XMLF . Il pgm $C5FE93M è pensato per gestire il caso di file fattura scaricati direttamente dal cassetto fiscale o in altro modo rispetto al download da Abletech tramite lo smart kit. Il pgm $C5FE93E è in grado di elaborare solo file XML. Se la fattura è in formato .p7m è necessario estrarre l'XML per poterlo elaborare (operazione effettuata dallo smart kit nel caso di download da Abletech).
+\* $C5FE93A :  esegue download elenco fatture degli ultimi 3 mesi. L'elenco delle fatture viene scritto nel file XFATPA0F a parità di partita iva, codice fiscale, tipo documento, data documento, numero documento. Il programma non ha parametri di ingresso
+\* $C5FE93C :  programma che legge il file XFATPA0F ove il percorso (campo XFPERC) sia uguale a blank e richiama per ogni identificativo fattura il programma $C5FE93B. Il programma non ha parametri di ingresso
+\* $C5FE93B :  dato l'identificativo fattura esegue il download dei file di dettaglio. Questo programma ha come parametro di ingresso l'identifativo fattura lungo 36 Alfa
+\* $C5FE93D :  programma che legge il file XFATPA0F ove il codice registrazione (campo XFPROG) sia uguale a blank, verifica se la fattura è già stata elaborata richiamando il $C5FE93K e richiama per ogni fattura non ancora elaborata il programma $C5FE93E, passando il percorso del file XML (XFPERC) nel campo $K19XMLF e nel campo $K19PARA l'identificativo SdI, l'identificativo Abletech e la data ricezione. Il programma non ha parametri di ingresso
+\* $C5FE93E :  dato il percorso del file XML della fattura ne esegue l'elaborazione scrivendo il file $EDRECI0F con gli stessi tracciati EDFEIT\* utilizzati per le fatture attive. Questo programma ha come parametro di ingresso il percorso dell'XML e un campo opzionale parametro in cui indicare l'identificativo SdI, l'identificativo Abletech e la data ricezione. Come campi di output restituisce un messaggio e un indicatore di errore.
+\* $C5FE93K :  dato il nome del file XML della fattura verifica se è già stato elaborato e scritto su $EDRECI0F.
+\* $C5FE93M :  Esempio di programma che legge i file contenuti in una cartella su IFS verifica se il file xml è già stato elaborato richiamando il $C5FE93K e richiama per ogni fattura non ancora elaborata il programma $C5FE93E, passando il percorso del file XML nel campo $K19XMLF . Il pgm $C5FE93M è pensato per gestire il caso di file fattura scaricati direttamente dal cassetto fiscale o in altro modo rispetto al download da Abletech tramite lo smart kit. Il pgm $C5FE93E è in grado di elaborare solo file XML. Se la fattura è in formato .p7m è necessario estrarre l'XML per poterlo elaborare (operazione effettuata dallo smart kit nel caso di download da Abletech).
 
 # RIAVVIO SMART KIT : 
 Il programma da richiamare è il $V5FE94G che visualizza il nome dello smart kit e se attivo/non
@@ -298,9 +298,9 @@ Dopo aver premuto F06, premendo invio è possibile verificare se lo smart kit è
 
 
 # SUGGERIMENTI PER ADEGUAMENTO A VERSIONI SUCCESSIVE : 
-* Spostare i file dati in una libreria separata.
-* Creare una libreria in cui mettere le personalizzazioni (i pgm modificati e la exit $V5CFG_U)
-* In questo modo a fronte di aggiornamenti è possibile confrontare con opzione 54 solo i sorgenti della libreria di personalizzazione (per identificare i pgm da adeguare) e per il resto semplicemente sostituire la P_FENS con la versione aggiornata.
+\* Spostare i file dati in una libreria separata.
+\* Creare una libreria in cui mettere le personalizzazioni (i pgm modificati e la exit $V5CFG_U)
+\* In questo modo a fronte di aggiornamenti è possibile confrontare con opzione 54 solo i sorgenti della libreria di personalizzazione (per identificare i pgm da adeguare) e per il resto semplicemente sostituire la P_FENS con la versione aggiornata.
 
 
 ## LISTA LIBRERIE CONSIGLIATA per l'utente che esegue estrazione e invio fatture
@@ -311,10 +311,10 @@ P_FENS (libreria contentente i pgm distribuiti standard)
 QGPL
 
 ## Impostazioni utente Smart Kit
->     Programma iniziale . . . . . . . . . . . .  :    *NONE
+>     Programma iniziale . . . . . . . . . . . .  :    \*NONE
        Libreria . . . . . . . . . . . . . . . .  : 
      Menu iniziale  . . . . . . . . . . . . . .  :    MAIN
-       Libreria . . . . . . . . . . . . . . . .  :      *LIBL
+       Libreria . . . . . . . . . . . . . . . .  :      \*LIBL
       Descrizione lavoro . . . . . . . . . . . .  :    QDFTJOBD
         Libreria . . . . . . . . . . . . . . . .  :      QGPL
 

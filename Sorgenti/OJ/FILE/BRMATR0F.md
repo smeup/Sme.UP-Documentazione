@@ -1,7 +1,7 @@
 ## Contenuto
 Dati della matricola di un oggetto.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'MT'                          £FUNT1
 
 ## Chiave primaria

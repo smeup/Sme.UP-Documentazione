@@ -15,9 +15,9 @@ Vedi T$V6ZA
  :  : FLD T$V6ZC **Tipo Provvigioni**
 Indica il tipo provvigione da attribuire all'anticipo.
 **NOTA BENE** :  questo campo è fondamentale per identificare, attraverso il campo tipo imponibile, indicabile nella tabella del tipo, se l'anticipo rappresenta : 
-* un minimo garantito (l'anticipo verrà conguagliato solo per l'importo delle provvigioni l'importo in eccesso non verrà mai conguagliato).
-* un importo fisso (l'anticipo non verrà in assoluto, mai conguagliato)
-* un anticipo (l'anticipo verrà sempre conguagliato e l'eccesso rispetto all'importo delle provvigioni viene riportato al periodo di conguaglio successivo).
+\* un minimo garantito (l'anticipo verrà conguagliato solo per l'importo delle provvigioni l'importo in eccesso non verrà mai conguagliato).
+\* un importo fisso (l'anticipo non verrà in assoluto, mai conguagliato)
+\* un anticipo (l'anticipo verrà sempre conguagliato e l'eccesso rispetto all'importo delle provvigioni viene riportato al periodo di conguaglio successivo).
 Tale indicazione si traduce nella valorizzazione del flag 12 della provvigione a valore 3, 4 o 1.
 
 **NOTA BENE 2** :  questo campo è inoltre fondamentale per comprendere se in un dato periodo l'anticipo è già stato calcolato o meno. In caso di esecuzioni multiple della liquidazione, solo la presenza di una provvigione con il tipo qui indicato disattiva il ricalcolo dell'anticipo. E' quindi opportuno che ogni tipo anticipo abbia un suo tipo provvigione specifico.

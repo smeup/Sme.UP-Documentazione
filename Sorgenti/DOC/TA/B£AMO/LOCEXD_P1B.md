@@ -40,7 +40,7 @@
 - Aggiunta la gestione delle autorizzazioni nel menù principale della scheda. Verranno abilitate solo le voci per cui l'utente dispone autorizzazione.
 - Risolto un problema di esportazione delle celle numeriche con decimali da matrice ad Excel 2003. Veniva perso il separatore decimale.
 - Risolto un problema sui bottoni principali della scheda che apparivano o scomparivano in maniera  +non corretta alla selezione di alcune sezioni prive di certe funzionalità.
-- Risolto un problema sul dinamismo su sezioni con Title *NONE. Allo scattare del dinamismo veniva visualizzato una etichetta vuota invece che farla somparire.
+- Risolto un problema sul dinamismo su sezioni con Title \*NONE. Allo scattare del dinamismo veniva visualizzato una etichetta vuota invece che farla somparire.
 
 ## Versione 1.4.a 01/06/2005 (Sviluppo)
 
@@ -54,7 +54,7 @@
 - Aggiunta la gestione delle autorizzazioni nel menù principale della scheda. Verranno abilitate solo le voci per cui l'utente dispone autorizzazione.
 - Risolto un problema di esportazione delle celle numeriche con decimali da matrice ad Excel 2003. Veniva perso il separatore decimale.
 - Risolto un problema sui bottoni principali della scheda che apparivano o scomparivano in maniera non corretta alla selezione di alcune sezioni prive di certe funzionalità.
-- Risolto un problema sul dinamismo su sezioni con Title *NONE. Allo scattare del dinamismo veniva visualizzato una etichetta vuota invece che farla somparire.
+- Risolto un problema sul dinamismo su sezioni con Title \*NONE. Allo scattare del dinamismo veniva visualizzato una etichetta vuota invece che farla somparire.
 - Predisposta la scheda per gestire le autorizzazioni anche a livello della bottoniera principale come per il menù principale. Verranno abilitati solo i controlli per cui l'utente dispone autorizzazione.
 - Predisposta la scheda per gestire le autorizzazioni su tutte le voci del popup menù delle sottosezioni.
 
@@ -259,7 +259,7 @@
 
 - Aggiunto l'attributo ShowCmdBar nella script della sottosezione che influisce sulla posizione della della barra dei setup di sezione. I valori possibili sono AUTO/YES/NO/GLOBAL/GLOBALAUTO. Il valore di default è AUTO.
 - Disabilitata la voce Visualizza XML sia nel popup di sezione sia nel menù principale nel caso in cui sia presente il caricamento differito e non sia ancora stato caricato l'XML : 
-- Modificata la gestione delle date in matrice. Le date in formato diverso da D8*YYMD e D8*DMYY sono trattate come stringhe.
+- Modificata la gestione delle date in matrice. Le date in formato diverso da D8\*YYMD e D8\*DMYY sono trattate come stringhe.
 - Modificata la commandbar dei setup in modo da potere essere più customizzabile. Risolto un problema che impediva la corretta visualizzasione dei pulsanti da POPUP nella main bar.
 - Rilasciata la prima versione del gestore dei setup multipli di componente dell'utente.
 - Aggiunto la voce nel popup di sottosezione, relativa al gestore dei setup utente.
@@ -269,7 +269,7 @@
 
 - Aggiunto l'attributo ShowCmdBar nella script della sottosezione che influisce sulla posizione della della barra dei setup di sezione. I valori possibili sono AUTO/YES/NO/GLOBAL/GLOBALAUTO. Il valore di default è AUTO.
 - Disabilitata la voce Visualizza XML sia nel popup di sezione sia nel menù principale nel caso in cui sia presente il caricamento differito e non sia ancora stato caricato l'XML : 
-- Modificata la gestione delle date in matrice. Le date in formato diverso da D8*YYMD e D8*DMYY sono trattate come stringhe.
+- Modificata la gestione delle date in matrice. Le date in formato diverso da D8\*YYMD e D8\*DMYY sono trattate come stringhe.
 - Modificata la commandbar dei setup in modo da potere essere più customizzabile. Risolto un problema che impediva la corretta visualizzasione dei pulsanti da POPUP nella main bar.
 - Rilasciata la prima versione del gestore dei setup multipli di componente dell'utente.
 - Aggiunto la voce nel popup di sottosezione, relativa al gestore dei setup utente.
@@ -466,7 +466,7 @@
 - Risolto un AV che si verificava se era presente un campo sbagliato con oggetto variabile nella matrice.
 - Risolto un problema che generava un AV sulla stampa di alcuni grafici il cui XML conteneva caratteri non ISO.
 - Corretto un problema di comunicazione Delphi-Java.
-- Modificata la bottoniera principale di smetray. E' ora possibile definire una sezione particolare all'interno della scheda (tramite l'attributo Type(*KETYBOTTOM)), il cui contenuto viene visualizzato all'interno della barra dei pulsanti. In questo modo definendo più sezioni di tipo BTN all'interno di questa è possibile visualizzare dei bottoni analoghi agli ormai obsoleti bottoni UIPOPUP ma che mantengono tutte le proprietà legate alla bottoniera (Dinamismi, Setup etc. etc.).
+- Modificata la bottoniera principale di smetray. E' ora possibile definire una sezione particolare all'interno della scheda (tramite l'attributo Type(\*KETYBOTTOM)), il cui contenuto viene visualizzato all'interno della barra dei pulsanti. In questo modo definendo più sezioni di tipo BTN all'interno di questa è possibile visualizzare dei bottoni analoghi agli ormai obsoleti bottoni UIPOPUP ma che mantengono tutte le proprietà legate alla bottoniera (Dinamismi, Setup etc. etc.).
 - Aggiunta la voce di menù di sezione "Visualizza come Nuova Scheda" che apre una scheda in nuova finestra.
 - E' stato realizzato un restyling grafico di tutto smetray, che rimuove bordi e imperfezioni grafiche delle etichette di sottosezione.
 - Aggiunta la funzionalità di "Colonna calcolata" nelle matrici. E' stato aggiunto nell'xml di definizione di una colonna un attributo Formula in cui si può specificare una operazione ad eseguire. Il sistema è anche in grado di recuperare i valori dei campi di altre colonne e usarli nelle formule.

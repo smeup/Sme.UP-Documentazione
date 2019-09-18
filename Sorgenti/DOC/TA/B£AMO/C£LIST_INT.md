@@ -6,7 +6,7 @@ LISTINI ACQUISTI
 LISTINI TRASPORTI
 LISTINI PROVVIGIONI
 Questi elementi sono contenuti nella tabella : 
-   :  : DEC T(ST) K(C£*CL)
+   :  : DEC T(ST) K(C£\*CL)
 
 Successivamente devono essere definiti i Tipi  Listino utilizzati nel ciclo attivo, Ciclo passivo o altro.
 Esempi : 

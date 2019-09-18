@@ -1,7 +1,7 @@
 # TABDC00F  Definizioni campi di un settore
 Informazioni relative al tracciato delle tabelle.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'CS'                                  £FUNT1
 'T/' + 'Settore di tabella'            £FUNP1
 

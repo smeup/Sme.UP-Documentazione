@@ -4,7 +4,7 @@
 Definire gli algoritmi di calcolo per il trattamento dei rilievi analitici, eseguiti sulle caratteristiche di un oggetto, (albero a gomito, pistone, scheda elettronica, etc.) facente parte di un lotto di collaudo o di produzione.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$TPRI **Tipo rilievo**
-Campo controllato dalla tabella 'CQ*TM' (Tipo misura). Esso serve principalmente a differenziare, nelle caratteristiche di un oggetto, le misure per 'Attributi' (aspetto superficiale, ammaccature, etc.), da quelle per 'Variabili' (lunghezza, peso, etc.).
+Campo controllato dalla tabella 'CQ\*TM' (Tipo misura). Esso serve principalmente a differenziare, nelle caratteristiche di un oggetto, le misure per 'Attributi' (aspetto superficiale, ammaccature, etc.), da quelle per 'Variabili' (lunghezza, peso, etc.).
  :  : FLD T$CAMP **Campo numerico**
 Questo campo viene utilizzato per differenziare, nelle caratteristiche di un oggetto, le misure Descrittive (Osservazioni) da quelle Numeriche 'Valori'. Il campo può assumere i valori : 
 - ' '  La caratteristica da misurare si intende descrittiva, (Attributo).

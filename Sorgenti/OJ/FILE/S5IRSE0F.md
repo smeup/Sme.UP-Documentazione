@@ -1,14 +1,14 @@
 ## Contenuto
 Questo archivio contiene gli impegni risorse secondari legati ad un impegno risorse primario (IR), contenuto nel seguente archivio
- :  : DEC T(OJ) P(*FILE) K(S5IRIS0F)
+ :  : DEC T(OJ) P(\*FILE) K(S5IRIS0F)
 e scandendo gli sviluppi operazione di tipo risorse produttive secondarie (RPS) della fase dell'IR, contenuti nel seguente archivio
- :  : DEC T(OJ) P(*FILE) K(BRRIPS0F)
+ :  : DEC T(OJ) P(\*FILE) K(BRRIPS0F)
 E' costruito automaticamente nella funzione di rifasatura degli impegni primari.
 A differenza degli impegni primari, questo è un archivio totalmente ricostruito :  non sono previste riprese di dati precedenti.
 E' attivo per gli impegni di produzione, di riga di ciclo esterno, di contenitori FP, di ordini pianificati.
 Non è attivo per contenitori PCD.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 N.A.
 
 ## Chiave primaria
@@ -63,21 +63,21 @@ N.A.
 ## Note particolari
 Questo archivio viene costruito se impostato il flag specifico di tabella P5S.
 La partenza è dal programma di costruzione impegni risorse, in base all'oggetto intestatario (rispettivamente ordine di produzione o riga di ciclo esterno, ordine pianificato o collo MFP)
- :  : DEC T(OJ) P(*PGM) K(P5FURIT)
- :  : DEC T(OJ) P(*PGM) K(M5FURIT)
- :  : DEC T(OJ) P(*PGM) K(P5MFP02)
+ :  : DEC T(OJ) P(\*PGM) K(P5FURIT)
+ :  : DEC T(OJ) P(\*PGM) K(M5FURIT)
+ :  : DEC T(OJ) P(\*PGM) K(P5MFP02)
 Viene eseguito il programma generale di pulizia : 
- :  : DEC T(OJ) P(*PGM) K(S5FUPUL)
+ :  : DEC T(OJ) P(\*PGM) K(S5FUPUL)
 E quindi il programma guida di costruzione
- :  : DEC T(OJ) P(*PGM) K(S5FUSEC)
+ :  : DEC T(OJ) P(\*PGM) K(S5FUSEC)
 Esso lancia, per ogni elemento di tabella BRK, per la scrittura effettiva del record di risorse secondarie, il programma S5FUSEC_x, se il suffisso x è presente in tabella BRK ed è presente il programma.
 A standard sono forniti i seguenti programmi, che partono da quanto impostato in BRRIPS
- :  : DEC T(OJ) P(*PGM) K(S5FUSEC_A)
- :  : DEC T(OJ) P(*PGM) K(S5FUSEC_B)
+ :  : DEC T(OJ) P(\*PGM) K(S5FUSEC_A)
+ :  : DEC T(OJ) P(\*PGM) K(S5FUSEC_B)
 E' possibile inoltre scrivere programmi specifici che utilizzano altre origini (parametri, ecc...), ma sempre guidati da una BRK, partendo dal prototipo
  :  : DEC T(MB) P(S5SRC) K(S5FUSEC_X)
 A tale scopo è fornito l'inizializzatore standard, a cui si passa l'elemento di BRK e il record di S5IRIS
- :  : DEC T(OJ) P(*PGM) K(S5FUINZ).
+ :  : DEC T(OJ) P(\*PGM) K(S5FUINZ).
 Al termine del loop di esecuzione dei programmi di BRK, viene eseguito, se presente, il programma S5FUSECU, di cui si fornisce un prototipo
  :  : DEC T(MB) P(S5SRC) K(S5FUSECU)
 che riceve il record di S5IRIS.

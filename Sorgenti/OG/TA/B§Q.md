@@ -25,7 +25,7 @@ Nei questionari standard proposti, i vincoli vengono per esempio attivati sul lo
 
  :  : FLD T$B§Q4 __Impostazione livelli __
 Attraverso questo flag è possibile impostare la modalità di visualizzazione del questionario.
-* '1' = modalità fissa tale per cui il questionario viene caricato già aperto. Scegliendo quindi questo valore vengono visualizzati tutti i capitoli e tutti i relativi paragrafi in modalità fissa (non sensibili a dinamismi).
+\* '1' = modalità fissa tale per cui il questionario viene caricato già aperto. Scegliendo quindi questo valore vengono visualizzati tutti i capitoli e tutti i relativi paragrafi in modalità fissa (non sensibili a dinamismi).
 Esempio :   C/P/D fisso aperto
   CAPITOLO 1
    PARAGRAFO 1
@@ -34,7 +34,7 @@ Esempio :   C/P/D fisso aperto
    PARAGRAFO 1
    PARAGRAFO 2
 
-* '2' = modalità aperta, con possibilità di chiusura dei paragrafi. In questo modo il questionario viene caricato aperto (come nel primo caso), ma è possibile collassare i capitoli nascondendo i relativi paragrafi. Il questionario risultante è quindi sensibile a dinamismi di apertura/chiusura.
+\* '2' = modalità aperta, con possibilità di chiusura dei paragrafi. In questo modo il questionario viene caricato aperto (come nel primo caso), ma è possibile collassare i capitoli nascondendo i relativi paragrafi. Il questionario risultante è quindi sensibile a dinamismi di apertura/chiusura.
 Esempio :  C/P/D aperto con possibilità di chiusura
   Caricamento iniziale :      Cliccando sul capitolo 2 :    Cliccando sul capitolo 1 : 
     CAPITOLO 1                CAPITOLO 1                  CAPITOLO 1
@@ -44,7 +44,7 @@ Esempio :  C/P/D aperto con possibilità di chiusura
      PARAGRAFO 1
      PARAGRAFO 2
 
-* '3' = modalità chiusa, con possibilità di apertura dei paragrafi. In questo modo il questionario viene caricato chiuso ed è possibile aprire i capitoli che interessano  sempre con un clic : 
+\* '3' = modalità chiusa, con possibilità di apertura dei paragrafi. In questo modo il questionario viene caricato chiuso ed è possibile aprire i capitoli che interessano  sempre con un clic : 
 relativi paragrafi. Il questionario risultante è quindi sensibile a dinamismi di apertura/chiusura.
 Esempio :  C/P/D chiuso con possibilità di apertura
   Caricamento iniziale :      Cliccando sul capitolo 1 :    Cliccando sul capitolo 2 : 
@@ -55,16 +55,16 @@ Esempio :  C/P/D chiuso con possibilità di apertura
                                                            PARAGRAFO 1
                                                            PARAGRAFO 2
 
-* '4' = modalità con capitoli nascosti. Anche se presenti nel questionario, questa modalità permette di NON visualizzare i capitoli nel questionario, visualizzando così solo i paragrafi.
+\* '4' = modalità con capitoli nascosti. Anche se presenti nel questionario, questa modalità permette di NON visualizzare i capitoli nel questionario, visualizzando così solo i paragrafi.
 Il questionario risultante non risulta sensibile a dinamismi
 Esempio :  C/P/D con capitoli nascosti
     PARAGRAFO 1
     PARAGRAFO 2
     PARAGRAFO 1
     PARAGRAFO 2
-* '5' =  Questionario in cui vengono gestiti solo i paragrafi e le domande
+\* '5' =  Questionario in cui vengono gestiti solo i paragrafi e le domande
 P/D
-* '6' = Nel questionario sono presenti solo le domande.
+\* '6' = Nel questionario sono presenti solo le domande.
 D
 
  :  : FLD T$B§Q5 __Note Generali __
@@ -86,8 +86,8 @@ Se impostato, il flag permette di avere un caricamento automatico della prima se
 
  :  : FLD T$B§QA __Modello informativo__
 Questo flag influenza la gamma di colori da utilizzare nel questionario. Quando infatti vengono fornite le risposte alle varie domande, il paragrafo corrispondente viene marcato da una icona che può essere : 
- * BLU :  se il flag in questiona vale "1" e se quindi non è possibile attribuire un  significato    positivo o negativo alle risposte date;
- * ROSSA o VERDE :  se questo flag è lasciato *blanks. In questo modo l'icona del paragrafo diventa    rossa se la risposta fornita è diversa da quella attesa, verde in caso di conformità.
+ \* BLU :  se il flag in questiona vale "1" e se quindi non è possibile attribuire un  significato    positivo o negativo alle risposte date;
+ \* ROSSA o VERDE :  se questo flag è lasciato \*blanks. In questo modo l'icona del paragrafo diventa    rossa se la risposta fornita è diversa da quella attesa, verde in caso di conformità.
 
  :  : FLD T$B§QD __B£H per personalizzazioni__
 In questo campo deve essere indicato il nome dell'elemento di B£H che deve essere usato per accedere al sottosettore di B£J nel quale devono essere indicati eventuali bottoni personalizzati da aggiungere alla scheda standard del configuratore.

@@ -1,7 +1,7 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'D8'                                          £FUNT1
-Formato Data (elemento di tabella *CND1)      £FUNP1
-Se assente viene assunto il valore '*DMYY'.
+Formato Data (elemento di tabella \*CND1)      £FUNP1
+Se assente viene assunto il valore '\*DMYY'.
 
 ## Chiave primaria
 Valore della data                             £FUNK1

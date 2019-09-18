@@ -7,15 +7,15 @@ Tipo Richiesta.
  :  : FLD T$DESC Descrizione
 Descrizione.
  :  : FLD T$TIOG __Tipo Oggetto della Richiesta__
-Elemento della tabella *CNTT che indica l'oggetto richiesto.
+Elemento della tabella \*CNTT che indica l'oggetto richiesto.
  :  : FLD T$PAOG __Parametro Oggetto Richiesta__
 Parametro.
  :  : FLD T$TIOR __Tipo Fornitore Suggerito__
-Elemento della tabella *CNTT che indica il tipo di Fornitore suggerito.
+Elemento della tabella \*CNTT che indica il tipo di Fornitore suggerito.
  :  : FLD T$GARN __Parametro Fornitore Suggerito__
 Parametro Fornitore Suggerito
  :  : FLD T$TIRI __Tipo Oggetto Origine__
-Elemento della tabella *CNTT che indica il tipo di oggetto da cui ha avuto origine la richiesta. (Es. Budget)
+Elemento della tabella \*CNTT che indica il tipo di oggetto da cui ha avuto origine la richiesta. (Es. Budget)
  :  : FLD T$PARI __Parametro Oggetto Origine__
 Parametro.
  :  : FLD T$OROB __Origine obbligatoria__

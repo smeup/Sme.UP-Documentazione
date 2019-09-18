@@ -90,7 +90,7 @@ la virgola per l'impostazione dei decimali.
 
  Esempi : 
 _______ £TN_________    £TNUPD                    £TNUNR
-       A2 0/1.AA4,-        ..                           2014-   *NB
+       A2 0/1.AA4,-        ..                           2014-   \*NB
                1-          ..                              1
 111.222.333.444,555        ..               111222333444,555
    111222333.444,55        ..                111222333444,55
@@ -99,7 +99,7 @@ _______ £TN_________    £TNUPD                    £TNUNR
               00,00        ..                              0
             (blank)        ..                              0
 
-*NB : 
+\*NB : 
 Se l'ultimo carattere della stringa è uno tra 'èJKLMNOPQR' la copy
 lo interpreta come un carattere non editato e aggiunge alla
 stringa rispettivamente (0-,1-,2-,3-,4-,5-,6-,7-,8- o 9-)

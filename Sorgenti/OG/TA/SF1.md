@@ -4,7 +4,7 @@
 Riunire tutte le condizioni di impostazione ambiente per la schedulazione fine.
 ## CONTENUTO DEI CAMPI
  :  : FLD T$ELEM Codice
-Valore fisso = *
+Valore fisso = \*
  :  : FLD T$DESC Descrizione
  :  : FLD T$CATR __Causale attrezzaggio__
 Viene controllata sulla tabella CAP ed utilizzata dall'azione AT.

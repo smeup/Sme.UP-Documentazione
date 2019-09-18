@@ -9,8 +9,8 @@ Eseguire la ricerca alfabetica relativa se richiesto
 ££UBIM :  Codice magazzino
 
 # Output
-*IN35  :  se On = Ubicazione   errata
-*IN36  :  se On = eseguita ricerca alfabetica
+\*IN35  :  se On = Ubicazione   errata
+\*IN36  :  se On = eseguita ricerca alfabetica
 ££UBI  :  codice Ubicaz.  scelta (se eseguita ricerca)
 ££UBID :  descrizione Ubicazione
 ....... da estendere in seguito

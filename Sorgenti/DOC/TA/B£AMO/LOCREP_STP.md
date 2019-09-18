@@ -95,10 +95,10 @@ E' stata inserita la gestione del valore infinito (N/0) ed indeterminato (0/0) n
 A titolo esemplificativo riportiamo la procedura per la personalizzazione di uno dei loghi del report : 
 
 Per variare la copertina o loghi : 
-* verificare se nella PER c'è già uno script in SCP_SET che si chiama K09_PER, se non c'è copiare quello della SMEDEV (e svuotarlo)
-* in questo script metti queste specifiche : 
-** K09.SEZ Ogg="VOCOD_SEL"
-** K09.PIG Pth="percorso completo del file eventualmente comprensivo di variabili &"
-* riavvia loocup
-* da menù in alto UP Rosso, strumenti, cache, svuota cache client
-* come sopra svuota cache immagini
+\* verificare se nella PER c'è già uno script in SCP_SET che si chiama K09_PER, se non c'è copiare quello della SMEDEV (e svuotarlo)
+\* in questo script metti queste specifiche : 
+\*\* K09.SEZ Ogg="VOCOD_SEL"
+\*\* K09.PIG Pth="percorso completo del file eventualmente comprensivo di variabili &"
+\* riavvia loocup
+\* da menù in alto UP Rosso, strumenti, cache, svuota cache client
+\* come sopra svuota cache immagini

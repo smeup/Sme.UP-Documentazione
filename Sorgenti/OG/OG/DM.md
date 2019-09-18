@@ -5,4 +5,4 @@ Vedi
  :  : DEC T(OG) K(RM)
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(GMTRIM0F)
+ :  : DEC T(OJ) P(\*FILE) K(GMTRIM0F)

@@ -3,9 +3,9 @@ Formato scheda
 ![B£TABE_017](http://localhost:3000/immagini/MBDOC_SCH-ST_FT/BXTABE_017.png)
 ## Comparazione elementi di tabella (TABELx0F)
 Date 2 librerie, la scheda permette di comparare : 
- * gli elementi di un settore di tabella (ricevuto nell'oggetto 1)
- * La definizione di un settore
- * la definizione dei campi di un settore
+ \* gli elementi di un settore di tabella (ricevuto nell'oggetto 1)
+ \* La definizione di un settore
+ \* la definizione dei campi di un settore
 
 L'impostazione delle librerie da confrontare avviene tramite il richiamo di un apposito configuratore (attivato con l'apposito bottone "F18 Configurazione")
 Qualora non si siano impostate le 2 librerie da confrontare, il confronto assume il **Modello** (libreria SMEMOD e file TABELM0F) come libreria 1 e l'**ambiente** (il file TABELx in lista librerie relativo al settore da confrontare in base all'archivio di appartenenza specificato nella definizione del settore) come libreria 2.

@@ -2,4 +2,4 @@ Il settore di tabella  definisce, all'interno dell'archivio generale delle tabel
 Sono settori di tabella, ad esempio, le causali di magazzino, i tipi di ordine di produzione, ecc...
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(TABDS00F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(TABDS00F) L(1)

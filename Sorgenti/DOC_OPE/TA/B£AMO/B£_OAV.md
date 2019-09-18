@@ -52,20 +52,20 @@ Il codice dell'elemento deve avere la convenzione di scrittura seguente :
 - da 101 a 199 per valori numerici
 
 La descrizione deve avere la struttura seguente : 
-_2_&nnn*TT*PPP >CCC
+_2_&nnn\*TT\*PPP >CCC
 
 dove : 
- * _2_ &, fisso per indicare che si tratta di un valore derivato da un OAV
- * _2_ nn, numero dell'elemento della tabella INT che richiama l'oggetto di cui si vuole inserire nello schema l'OAV decurtato del primo 0. (es. nella tabella degli schemi analisi disponibilità INT_AD se voglio aggiungere un OAV dell' ente sarà nnn = 10)
- * _2_ *TT, è il tipo oggetto (es. se si parla di ente sarà *TT = *CN)
- * _2_ *PPP, può essere : 
- ** _3_blank, quando l'oggetto non pretende il parametro oggetto (es. per gli articoli può essere sufficiente TT = AR se si vuole un OAV comune a tutti gli articoli)
- ** _3_*PPP, dove PPP è il parametro oggetto quando questo è predefinito (es. per una causale di movimentazione sarà *TT = *TA e *PPP = *GMC)
- **_3_&nnn, dove il parametro oggetto viene preso da un altro campo della tabella INT (es. nella tabella schemi analisi disponibilità INT_AD se voglio aggiungere un OAV di un ente prendendo un OAV dipendente dal tipo ente dovrò scrivere *PPP = &09 per derivare il tipo ente dalla tabella INT_AD)
- * _2_  >CCC, può essere : 
- ** _3_blank, nello schema sarà aggiunta la descrizione
- ** _3_>>, nello schema sarà aggiunta la descrizione
- ** _3_>CCC, in questo caso CCC è il codice dell'OAV (es. >U/001 aggiunge alo schema un OAV di tipo utente e che ha codice U/001)
+ \* _2_ &, fisso per indicare che si tratta di un valore derivato da un OAV
+ \* _2_ nn, numero dell'elemento della tabella INT che richiama l'oggetto di cui si vuole inserire nello schema l'OAV decurtato del primo 0. (es. nella tabella degli schemi analisi disponibilità INT_AD se voglio aggiungere un OAV dell' ente sarà nnn = 10)
+ \* _2_ \*TT, è il tipo oggetto (es. se si parla di ente sarà \*TT = \*CN)
+ \* _2_ \*PPP, può essere : 
+ \*\* _3_blank, quando l'oggetto non pretende il parametro oggetto (es. per gli articoli può essere sufficiente TT = AR se si vuole un OAV comune a tutti gli articoli)
+ \*\* _3_\*PPP, dove PPP è il parametro oggetto quando questo è predefinito (es. per una causale di movimentazione sarà \*TT = \*TA e \*PPP = \*GMC)
+ \*\*_3_&nnn, dove il parametro oggetto viene preso da un altro campo della tabella INT (es. nella tabella schemi analisi disponibilità INT_AD se voglio aggiungere un OAV di un ente prendendo un OAV dipendente dal tipo ente dovrò scrivere \*PPP = &09 per derivare il tipo ente dalla tabella INT_AD)
+ \* _2_  >CCC, può essere : 
+ \*\* _3_blank, nello schema sarà aggiunta la descrizione
+ \*\* _3_>>, nello schema sarà aggiunta la descrizione
+ \*\* _3_>CCC, in questo caso CCC è il codice dell'OAV (es. >U/001 aggiunge alo schema un OAV di tipo utente e che ha codice U/001)
 
 Esempio : 
 

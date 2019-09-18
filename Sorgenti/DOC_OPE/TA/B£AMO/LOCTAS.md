@@ -33,10 +33,10 @@ ALT+5 esegue A(B£G99D;GES;05) - Visualizzazione
 ## ALT e carattere
 I comandi con i rispettivi richiami sono : 
 
-ALT+C esegue A(B£G971;APP;) - aggiunge nella cartella *LAST del carrello
+ALT+C esegue A(B£G971;APP;) - aggiunge nella cartella \*LAST del carrello
 ALT+O esegue A(B£G971;GEN;)
-ALT+W esegue A(B£G971;WRK;) - aggiunge nella cartella *WORK del carrello
-ALT+V esegue A(B£G971;RIT;) - Ritorno elementi dalla cartella *LAST del carrello
+ALT+W esegue A(B£G971;WRK;) - aggiunge nella cartella \*WORK del carrello
+ALT+V esegue A(B£G971;RIT;) - Ritorno elementi dalla cartella \*LAST del carrello
 
 
 _1_Attenzione :  alcuni di questi short cut vanno in conflitto con i tasti di selezione rapidi della barra comandi di loocup.

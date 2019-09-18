@@ -1,4 +1,4 @@
-# B§B - Corrispondenze * conversione
+# B§B - Corrispondenze \* conversione
  :  : DEC T(ST) K(B§B)
 ## Sottosettore
 Il sottosettore contiene il tipo oggetto da convertire (es AR nel caso si tratti di conversione di articoli). Il sottosettore può essere bianco nel caso la conversione avvenga da u n file ad una o piu tabelle.

@@ -51,8 +51,8 @@ Attivato dalla lista giacenze attraverso l'opzione 05, presenta la situazione di
 
 ![GM_11_08](http://localhost:3000/immagini/MBDOC_OGG-P_GMQU01/GM_11_08.png)Facendo riferimento ai campi di input di destra : 
 
-- quelli senza (*), inserendo un carattere qualsiasi, premettono di vedere il dettaglio del dato di riga (es. se c'è della qtà allocata si può vedere l'elenco delle richieste di movimentazione che hanno allocato quella qtà, mentre nel magazzino si aprono le funzioni oggetto del magazzino 09)
-- quelli con (*) oltre al tipo di interrogazione valido anche per le altre righe, se il carattere è "M" mostra i movimenti dell'oggetto (es. i movimenti dell'articolo, oppure i movimenti del lotto)
+- quelli senza (\*), inserendo un carattere qualsiasi, premettono di vedere il dettaglio del dato di riga (es. se c'è della qtà allocata si può vedere l'elenco delle richieste di movimentazione che hanno allocato quella qtà, mentre nel magazzino si aprono le funzioni oggetto del magazzino 09)
+- quelli con (\*) oltre al tipo di interrogazione valido anche per le altre righe, se il carattere è "M" mostra i movimenti dell'oggetto (es. i movimenti dell'articolo, oppure i movimenti del lotto)
 
 
 ## Movimentazione da lista giacenza

@@ -51,7 +51,7 @@ I dati saranno analizzati secondo le seguenti aggregazioni :
 - Per modulo e periodo, mediando le risposte delle persone
 - Per singola voce e periodo, mediando le risposte delle persone.
 
-I valori sui moduli saranno aggregati in modalità lineare (somma semplice) ed ottendeno la percentuale rispetto al totale teorico (numero di domande * 6), evitando di pesare le risposte in quanto la comprensione del grado di conoscenza ha più senso farla rispetto alla media dei valori delle altre persone, o rispetto al valore che una persona ha ottenuto in diverse date, per comprendere se il trend è in miglioramento.
+I valori sui moduli saranno aggregati in modalità lineare (somma semplice) ed ottendeno la percentuale rispetto al totale teorico (numero di domande \* 6), evitando di pesare le risposte in quanto la comprensione del grado di conoscenza ha più senso farla rispetto alla media dei valori delle altre persone, o rispetto al valore che una persona ha ottenuto in diverse date, per comprendere se il trend è in miglioramento.
 
 ## Modalità di compilazione dello Skill
 La modalità di compilazione avviene attraverso una matrice in cui verrà esposta la domanda e richiesta una valutazione da 1 a 6.
@@ -130,7 +130,7 @@ Passo|Descrizione|Nota
  ||Valore  del parametro - Risposta alla domanda
 3|Gestione del questionario|Non esiste una gestione standar del questionario, per questa ragione bisogna creare una propria scheda di utilizzo.
  ||Richiamre la seguente scheda passando i parametri necessari alla gestione del questionario
- ||F(EXD;*SCO;) 1(VO;.1.;) 2(2(MB;SCP_SCH;C£CONR_VA) 4(;;GES) P(NUMP_EL(.2.) USER(.3.) RND(.4.))
+ ||F(EXD;\*SCO;) 1(VO;.1.;) 2(2(MB;SCP_SCH;C£CONR_VA) 4(;;GES) P(NUMP_EL(.2.) USER(.3.) RND(.4.))
  ||Significato dei parametri : 
  ||.1. = Nome del questionario
  ||.2. = Nome del parametro
@@ -140,11 +140,11 @@ Passo|Descrizione|Nota
 L'oggetto intestatario ".3." è facoltativo nei seguenti casi : 
  :  : PAR L(TAB)
 Oggetto|Descrizione
-OJ*USRPRF|Utente sistema
+OJ\*USRPRF|Utente sistema
 UT|Utente sistema
 TAB£U|Utente applicativo
 UP|Utente applicativo
 CNCOL|Collaboratore derivato dall'utente
-<**>|Oggetto univoco, Creato in automatico dal sistema
+<\*\*>|Oggetto univoco, Creato in automatico dal sistema
 
 Se il questionario finisce con la sigla "_SKI" allora sarà presentata la sola domanda V21.

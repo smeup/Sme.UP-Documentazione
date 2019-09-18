@@ -1,8 +1,8 @@
 # Sme.App V 3.00 (marzo 2014)
 Sme.App rispetto alla versione precendente è caratterizzata da : 
-* Piccole revisioni grafiche.
-* Dinamica dell'applicazione completamente rivista, si basa ora su script di scheda di Looc.UP.
-* Consente non solo la consultazione ma anche la modifica dei dati del nostro ERP.
+\* Piccole revisioni grafiche.
+\* Dinamica dell'applicazione completamente rivista, si basa ora su script di scheda di Looc.UP.
+\* Consente non solo la consultazione ma anche la modifica dei dati del nostro ERP.
 
 Sme.App è scaricabile dall'Apple Store.
 Sme.App, è disponibile per i dispositivi IOS iphone e ipad.
@@ -28,13 +28,13 @@ Chiunque scarichi l'app potrà accedere all' ambiente demo, al suo interno trove
 **Segue lo script di questa prima schermata**
 
  :  : TBL Nam="TRE1" Tit="Image List di Scelta" Com="TRE"
-   :  : DAT Tip="OG" Par="" Cod="FT" Txt="Fatturato" Fun="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_02)"
-   :  : DAT Tip="TA" Par="PAG" Cod="" Txt="Portafoglio" Fun="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_03)"
-   :  : DAT Tip="RR" Txt="Scaduto" Fun="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_04)"
-   :  : DAT Tip="E1" Txt="Disponibilità" Fun="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_05)"
-   :  : DAT Tip="CF" Txt="Aiuto" Fun="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://www.smeup.com/mobile/aiuto_demo.html))"
-   :  : DAT Tip="DO" Txt="Company Profile" Fun="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://mobile.smeup.com/demo/images/companyprofile.pdf))"
-   :  : DAT Tip="**" Txt="Informazioni su Sme.Up" Fun="F(EXD;*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://www.smeup.com/mobile/info.html))"
+   :  : DAT Tip="OG" Par="" Cod="FT" Txt="Fatturato" Fun="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_02)"
+   :  : DAT Tip="TA" Par="PAG" Cod="" Txt="Portafoglio" Fun="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_03)"
+   :  : DAT Tip="RR" Txt="Scaduto" Fun="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_04)"
+   :  : DAT Tip="E1" Txt="Disponibilità" Fun="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_05)"
+   :  : DAT Tip="CF" Txt="Aiuto" Fun="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://www.smeup.com/mobile/aiuto_demo.html))"
+   :  : DAT Tip="DO" Txt="Company Profile" Fun="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://mobile.smeup.com/demo/images/companyprofile.pdf))"
+   :  : DAT Tip="\*\*" Txt="Informazioni su Sme.Up" Fun="F(EXD;\*SCO;) 2(MB;SCP_SCH;MODEMO_00) 4(;;DOCHTM) P(HTMURL(http://www.smeup.com/mobile/info.html))"
 
 
 ## Login
@@ -52,10 +52,10 @@ Trattandosi di dati reali si raccomanda la massima discrezione.
 
 Siamo ora in grado di utilizzare l' applicazione e di farla apprezzare. Possiamo utilizzare le due modalità descritte, disponibili 24 per 7, esclusivamente in modalità "on line". I dati che esponiamo sono forniti dalle nostre "FUN". Quello che  siamo in grado di ottenere attraverso Looc.up, tendenzialmente lo potremo esporre sulla nostra app.
 Questa versione supporta i seguenti componenti : 
-* Alberi
-* Matrici
-* Input panel
-* sezioni htm
+\* Alberi
+\* Matrici
+\* Input panel
+\* sezioni htm
 
 Per approfondimenti vedi il seguente documento : 
 - [Sme.App V 3.00 specifiche tecniche](Sorgenti/DOC/TA/B£AMO/MOBASE_V3T)
@@ -67,14 +67,14 @@ Alla domanda del cliente che chiede l'utilizzo della app. con i dati del proprio
 
 ## Il progetto prevede almeno le seguenti attività : 
 
-* analisi dei dati da presentare nell'applicazione;
-* selezione delle funzioni Sme.UP e definizione delle implementazioni;
-* definizione della sequenza di navigazione;
-* definizione dell'infrastruttura;
-* realizzazione dell'applicazione in ambiente Looc.up;
-* configurazione del server;
-* test e collaudo;
-* rilascio;
+\* analisi dei dati da presentare nell'applicazione;
+\* selezione delle funzioni Sme.UP e definizione delle implementazioni;
+\* definizione della sequenza di navigazione;
+\* definizione dell'infrastruttura;
+\* realizzazione dell'applicazione in ambiente Looc.up;
+\* configurazione del server;
+\* test e collaudo;
+\* rilascio;
 
 
 Queste attività sono le medesime che abbiamo sviluppato al nostro interno per quanto detto in precedenza.

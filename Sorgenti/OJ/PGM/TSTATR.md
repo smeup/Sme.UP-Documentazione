@@ -51,12 +51,12 @@ Per colorare le righe, ad esempio, di una G18 :
 
 2) chimata standard
 
-*C                     MOVEL     valore1   £AT,1
-*C                     MOVEL     valore2   £AT,2
-*C                     MOVEL     valore3   £AT,3
-*C                     MOVEL     valore4   £AT,4
-*C                     EXSR      £ATRC
-*C                     MOVEL     £ATRVA    ATR
+\*C                     MOVEL     valore1   £AT,1
+\*C                     MOVEL     valore2   £AT,2
+\*C                     MOVEL     valore3   £AT,3
+\*C                     MOVEL     valore4   £AT,4
+\*C                     EXSR      £ATRC
+\*C                     MOVEL     £ATRVA    ATR
 
 # Note particolari
 

@@ -9,7 +9,7 @@
  :  : FIN
 ###
  :  : INT 3) Conoscere gli utilizzi delle specifiche funzioni
- ** In sviluppo ***
+ \*\* In sviluppo \*\*\*
  Viene tenuta traccia solo di alcune specifiche funzioni,
  quando sono state utilizzate e che oggetti coinvolgono
  :  : FIN

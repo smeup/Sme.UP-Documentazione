@@ -3,40 +3,40 @@ Gestisce una serie di funzioni per ubicazione :  gestione anagrafica, interrogaz
 In alternativa alla chiamata a programma, con le stasse funzioni e metodo può essere chiamato come funizzato, passando le chiavi dovute :  per le funzioni INT usare £FUNPG=GMGMU1, per tutte le altre £FUNPG=GMGMU0
 
 # Funzioni e metodi
- * Funzione - "GES  "    :  Gestione ubicazione
- ** Metodo   - "01"      :  Immissione
- ** Metodo   - "02"      :  Modifica
- ** Metodo   - "03"      :  Copia
- ** Metodo   - "04"      :  Annullamento
- ** Metodo   - "05"      :  Visualizza
- * Funzione - "VER  "    :  Verifiche
- ** Metodo   - "STA"     :  Stato (bloccata/vuota)
- ** Metodo   - "ART"     :  Esiste già l'articolo
- ** Metodo   - "LOT"     :  Esiste già articolo / lotto
- * Funzione - "INT  "    :  Interrogazioni
- ** Metodo   - "TPU"     :  Ubicazioni di un tipo ubicaz.
- ** Metodo   - "TPG"     :  Ubicazioni di un tipo gestione
- ** Metodo   - "UBI"     :  Contenuto dell'ubicazione
- * Funzione - "SCU  "    :  Scansioni ubicazioni
- ** Metodo   - "UBI"     :  Contenuto dell'ubicazione
- * Funzione - "SCT  "    :  Scansioni per tipo ubicazione
- ** Metodo   - "ALL"     :  Tutte
- ** Metodo   - "ALLCON"  :  Tutte con contenuto
- ** Metodo   - "VUO"     :  Vuote
- * Funzione - "SCG  "    :  Scansioni per tipo gestione
- ** Metodo   - "ALL"     :  Tutte
- ** Metodo   - "ALLCON"  :  SV - Tutte con contenuto
- ** Metodo   - "VUO"     :  Vuote
- * Funzione - "SCP  "    :  Scansioni per cod.appartenenza
- ** Metodo   - "ALL"     :  Tutte
- ** Metodo   - "ALLCON"  :  Tutte con contenuto
- ** Metodo   - "VUO"     :  Vuote
- * Funzione - "SCTUTG"   :  Scansioni per T.Ubicaz. e T.Gestione
- ** Metodo   - "ALL"     :  Tutte
- ** Metodo   - "ALLCON"  :  SV - Tutte con contenuto
- ** Metodo   - "VUO"     :  Vuote
- * Funzione - "SCA   "   :  Scansioni per articolo
- ** Metodo   - "ART"     :  Tutte
+ \* Funzione - "GES  "    :  Gestione ubicazione
+ \*\* Metodo   - "01"      :  Immissione
+ \*\* Metodo   - "02"      :  Modifica
+ \*\* Metodo   - "03"      :  Copia
+ \*\* Metodo   - "04"      :  Annullamento
+ \*\* Metodo   - "05"      :  Visualizza
+ \* Funzione - "VER  "    :  Verifiche
+ \*\* Metodo   - "STA"     :  Stato (bloccata/vuota)
+ \*\* Metodo   - "ART"     :  Esiste già l'articolo
+ \*\* Metodo   - "LOT"     :  Esiste già articolo / lotto
+ \* Funzione - "INT  "    :  Interrogazioni
+ \*\* Metodo   - "TPU"     :  Ubicazioni di un tipo ubicaz.
+ \*\* Metodo   - "TPG"     :  Ubicazioni di un tipo gestione
+ \*\* Metodo   - "UBI"     :  Contenuto dell'ubicazione
+ \* Funzione - "SCU  "    :  Scansioni ubicazioni
+ \*\* Metodo   - "UBI"     :  Contenuto dell'ubicazione
+ \* Funzione - "SCT  "    :  Scansioni per tipo ubicazione
+ \*\* Metodo   - "ALL"     :  Tutte
+ \*\* Metodo   - "ALLCON"  :  Tutte con contenuto
+ \*\* Metodo   - "VUO"     :  Vuote
+ \* Funzione - "SCG  "    :  Scansioni per tipo gestione
+ \*\* Metodo   - "ALL"     :  Tutte
+ \*\* Metodo   - "ALLCON"  :  SV - Tutte con contenuto
+ \*\* Metodo   - "VUO"     :  Vuote
+ \* Funzione - "SCP  "    :  Scansioni per cod.appartenenza
+ \*\* Metodo   - "ALL"     :  Tutte
+ \*\* Metodo   - "ALLCON"  :  Tutte con contenuto
+ \*\* Metodo   - "VUO"     :  Vuote
+ \* Funzione - "SCTUTG"   :  Scansioni per T.Ubicaz. e T.Gestione
+ \*\* Metodo   - "ALL"     :  Tutte
+ \*\* Metodo   - "ALLCON"  :  SV - Tutte con contenuto
+ \*\* Metodo   - "VUO"     :  Vuote
+ \* Funzione - "SCA   "   :  Scansioni per articolo
+ \*\* Metodo   - "ART"     :  Tutte
 
 # Input
 £GMUFU :  funzione
@@ -81,16 +81,16 @@ In alternativa alla chiamata a programma, con le stasse funzioni e metodo può e
 /COPY £GMUDS
 
 # Esempio di chiamata di scansione
->      *
+>      \*
      C                   EVAL      £GMUFU = 'SCU'
      C                   EVAL      £GMUME = 'UBI'
-     C                   EVAL      £GMUMS = *BLANKS
+     C                   EVAL      £GMUMS = \*BLANKS
      C                   CLEAR                   £FUND1
      C                   EVAL      £FUNT1 = 'UB'
      C                   EVAL      £FUNP1 = PLANT
      C                   EVAL      £FUNK1 = CODICE_UBICAZIONE
-     *
-1    C                   DO        *HIVAL
+     \*
+1    C                   DO        \*HIVAL
      C                   EXSR      £GMU
 1    C                   IF        £GMUMS='FINE'
      C                   LEAVE
@@ -98,10 +98,10 @@ In alternativa alla chiamata a programma, con le stasse funzioni e metodo può e
 1e   C                   ENDDO
 
 # Esempio di chiamata di gestione
->      *
+>      \*
      C                   EVAL      £GMUFU = 'GES'
      C                   EVAL      £GMUME = '02'
-     C                   EVAL      £GMUMS = *BLANKS
+     C                   EVAL      £GMUMS = \*BLANKS
      C                   CLEAR                   £FUND1
      C                   EVAL      £FUNT1 = 'UB'
      C                   EVAL      £FUNP1 = PLANT

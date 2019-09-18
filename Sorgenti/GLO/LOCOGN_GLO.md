@@ -1,4 +1,4 @@
-- **Organigramma**
+- \*\*Organigramma\*\*
 
  :  : VOC Id="OGN_001" Txt="Organigramma"
 

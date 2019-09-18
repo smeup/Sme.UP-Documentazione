@@ -10,7 +10,7 @@ Per ogni approfondimento riguardo alla scheda e ai suoi componenti, rifarsi allo
 
 ## Esempi LOA18
 Per poter usare il LOA18 occorre specificare nei parametri di lancio il tipo di **visualizzazione** e i **parametri** : 
-D.FUN.STD F(EXD;*SCO;) 2(MB;SCP_SCH;LOA18) 4(;;A01) P(TPaOgg([A]) NomLis([B]) NomCar([C]) Id([n]))
+D.FUN.STD F(EXD;\*SCO;) 2(MB;SCP_SCH;LOA18) 4(;;A01) P(TPaOgg([A]) NomLis([B]) NomCar([C]) Id([n]))
 
 Le visualizzazioni sono quelle specificate precedentemente.
 

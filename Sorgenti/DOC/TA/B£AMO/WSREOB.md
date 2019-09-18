@@ -13,7 +13,7 @@ o v2 locos a38
 
 Per recuperare gli script che definiscono gli oggetti e gli OAV remoti chiamare : 
 
-F(TRE;*TBL;) 1(MB;SCP_WSI;)
+F(TRE;\*TBL;) 1(MB;SCP_WSI;)
 
 Gli script che iniziano per V5 definiscono oggetti remoti, quelli che iniziano con OA_ definiscono OAV remoti.
 

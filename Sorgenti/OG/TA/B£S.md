@@ -20,4 +20,4 @@ Valore ammesso come risposta.
  :  : FLD VPT,9.VPT,1 Valori ammessi 01/10
  :  : FLD VPT,10.VPT,1 Valori ammessi 01/10
  :  : FLD T$B£SA **Valore assunto**
-Deve essere uno dei 10 valori ammessi. Utilizzato in particolare per creare le autorizzazioni assunte (Utente=** e funzione = **) automaticamente, qualora mancanti all'interno del programma di riorganizzazione delle autorizzazioni. Se manca il valore assunto, viene assunto il primo dei 10 valori ammessi.
+Deve essere uno dei 10 valori ammessi. Utilizzato in particolare per creare le autorizzazioni assunte (Utente=\*\* e funzione = \*\*) automaticamente, qualora mancanti all'interno del programma di riorganizzazione delle autorizzazioni. Se manca il valore assunto, viene assunto il primo dei 10 valori ammessi.

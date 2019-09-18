@@ -92,8 +92,8 @@ Metodi :
 **O                          **Posizione 57-57** :  O= indica l'obbligatorietà
                                                N= Nè obblig. nè controllo esistenza oggetto
                                                n= obblig. non controllato
-                                               A= Non obbligatorio, ma accetta **
-                                               a= obblig. ma accetta **
+                                               A= Non obbligatorio, ma accetta \*\*
+                                               a= obblig. ma accetta \*\*
                                                Blank= Non obblig. con controllo esist. ogg.
 **V                          **Posizione 58-58** :  numero per forzare  modalità
                                                (gestione=2,interrogazione=5,hidden=H)
@@ -103,7 +103,7 @@ Metodi :
 **Au                         **Posizione 59-60** :  Autorizzazione
 **D                          **Posizione 61-61** :  Se diverso da BLANKS forza nella descrizione
                                                della riga X il valore messo in £11D,X
-                                               utile per descrivere campi numerici o **
+                                               utile per descrivere campi numerici o \*\*
                                                in un loop di immissione
                              N.B. !!           Non valido per
                                                righe dinamiche

@@ -9,4 +9,4 @@ Nel controllo di gestione i dati ripresi da altre applicazioni, vengono cataloga
 Le azioni di interrogazione, manutenzione e stampa possono essere indirizzate su uno qualsiasi di tali contenitori.
 ## INFORMAZIONI COLLEGATE
 Si rinvia alla documentazione relativa alla gestione DATA BASE se tale applicazione è installata, per approfondimenti sulla creazione, gestione dei membri di un file da parte dell'utente.
-(Documenti B£GFI*)
+(Documenti B£GFI\*)

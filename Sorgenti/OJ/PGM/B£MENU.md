@@ -4,26 +4,26 @@ Le funzioni sono raggruppate in menù secondo diverse modalità; anche i menù s
 
 I diversi criteri di organizzazione delle azioni (diverse tipologie di menù) sono identificati dal campo "Programma azione" : 
 
-***AP "Applicazione"**
+**\*AP "Applicazione"**
 Si tratta della impostazione con cui viene fornito il sistema. I menù di tipo applicazione corrispondono esattamente ai sottosettori della tabella MEA e le voci che li compongono non sono altro che gli elementi della MEA del sottosettore corrispondente. Ad esempio tutti gli elementi della MEA che sono presenti nel sottosettore BR sono del modulo Brec.up, il menù che li richiama ha "BR" nel campo "Parametro".
 
 Normalmente con questa impostazione si usano degli elementi di "titolo" per raggruppare azioni omogenee, questi elementi di titolo hanno "T" nel campo Tipo azione. In Looc.up le azioni raggruppate da titolo vengono presentate come cartelle, esiste un metodo per visualizzare in Looc.up le cartelle e le sotto cartelle :  quando il Tipo azione è T se il campo programma azione ha una "L" seguita da un numero (es. 03) tutte le azioni successive fino al prossimo titolo, vengono presentate in una sottocartella al livello 3, se il titolo successivo ha un livello diverso (es. 01) tutte le azioni successive vengono presentate in una sottocartella a livello 1.
 
-***UL "User List"**
-Con questo metodo l'utente si può creare il proprio menù raggruppando tutte le azioni di suo interesse. Tecnicamente viene creata una MDV (ambiente = B£MENU e utente = **nome) dove "nome" è il nome dato dall'utente in fase di costruzione del menù.
-_R_Modalità di creazione dei menù *UL
+**\*UL "User List"**
+Con questo metodo l'utente si può creare il proprio menù raggruppando tutte le azioni di suo interesse. Tecnicamente viene creata una MDV (ambiente = B£MENU e utente = \*\*nome) dove "nome" è il nome dato dall'utente in fase di costruzione del menù.
+_R_Modalità di creazione dei menù \*UL
     -- Nel campo Opzione a sinistra delle azioni si inserisce un "+" (più) per selezionare, se si vuole deselezionare un'azione inserire un "-" (meno). Confermare la scelta con -INVIO-
     -- Per vedere la lista delle azioni selezionate premere F7  dalla lista si possono ancora escludere le azioni dalla selezione
-    -- Con F6 si apre una finestra dove associare il nome al gruppo creato. Nel campo "Gruppo" inserire "*UL" e nel campo "Menù" digitare il nome scelto
+    -- Con F6 si apre una finestra dove associare il nome al gruppo creato. Nel campo "Gruppo" inserire "\*UL" e nel campo "Menù" digitare il nome scelto
     -- Confermare l'inserimento con F6.
 
 _1_ATTENZIONE
 Ogni volta che si conferma con F6 si perdono tutte le impostazioni confermate in precedenza :  restano valide solo le ultime
 
 _r_Casi Particolari
-***USER** (è una MDV memorizzata con nome -*)
-***LAST** (è una MDV memorizzata con nome .*)
-***MAIN** (Carica tuttii i tipi di menù esistenti)
+**\*USER** (è una MDV memorizzata con nome -\*)
+**\*LAST** (è una MDV memorizzata con nome .\*)
+**\*MAIN** (Carica tuttii i tipi di menù esistenti)
 
  :  : INI Gestione MDV
  :  : CMD CALL B£MDV0
@@ -58,7 +58,7 @@ _r_F09 Il comando fa avanzare la lista delle azioni al gruppo successivo (es. se
 
 _r_F10 Il comando fa avanzare la lista delle azioni di un gruppo al menù successivo (es. se sono presentate le azioni BR con F10 si passa alle azioni C£) In pratica si scorrono tutti i valori del secondo campo in alto a sinistra.
 
-_r_F16 Il comando porta al menù principale delle applicazioni (*AP 00).
+_r_F16 Il comando porta al menù principale delle applicazioni (\*AP 00).
 
 # Generazione dei menù
 Per generare le voci di menù standard è sufficiente lanciare l'esecuzione del pgm B£MNU0 il quale cancellerà e riscriverà tutti i sottosettori della tabella MEA corrispondenti agli elementi della tabella B£A (in questa rigenerazione solo le voci con codice alfabetico che vengono riconosciute come personalizzazioni non vengono toccate). Il pgm può anche essere richiamato passando la singola applicazione
@@ -99,7 +99,7 @@ Non viene permesso l'abbandono dei menù.
 
 ### Menù Sme_up
 Se trovato viene caricato il menù richiesto, altrimenti vengono caricati tutti i gruppi esistenti. Non viene permesso l'abbandono dei menù.
-  CALL B£MENU PARM('00' 'X' '*AP')
+  CALL B£MENU PARM('00' 'X' '\*AP')
 
 # Eccezioni in ambiente Looc.up
 Non sono caricati i menu di tipo

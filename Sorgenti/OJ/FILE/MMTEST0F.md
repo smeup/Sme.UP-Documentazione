@@ -1,7 +1,7 @@
 ## Contenuto
 Dati descrittivi e classificazioni dell'impianto.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
  'IM'                               £FUNT1
 
 ## Chiave primaria
@@ -21,8 +21,8 @@ Le impostazioni che condizionano questo archivio sono contenute nel settore di t
 La classe di autorizzazione è MMAM10.
 
 La funzione di autorizzazione è il programma in cui si esegue il controllo : 
- * MMAM01G   -    Formato guida
- * MMAM01L   -    Lista richiamata dal formato guida
+ \* MMAM01G   -    Formato guida
+ \* MMAM01L   -    Lista richiamata dal formato guida
 
 ## Note strutturate (Tabella NSC)
 Il contenitore si assume dalla tabella MMT (tipo impianto), se non inserito si assume MMT.

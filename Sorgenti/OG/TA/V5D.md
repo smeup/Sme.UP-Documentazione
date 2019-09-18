@@ -7,7 +7,7 @@ Definire le caratteristiche del tipo documento utilizzato nella gestione cicli e
 Identifica il codice del tipo documento.
  :  : FLD T$DESC
  :  : FLD T$V5DM __Ambiente__
-È un elemento della tabella *CN/AA, che definisce l'ambiente di appartenenza dei documenti di questo tipo. Se lasciato in bianco viene assunto 'SM'.
+È un elemento della tabella \*CN/AA, che definisce l'ambiente di appartenenza dei documenti di questo tipo. Se lasciato in bianco viene assunto 'SM'.
  :  : FLD T$V5DS __S/S Mod.Documento__
 È un sottosettore della tabella V5A, che raggruppa i modelli documenti appartenenti a questo tipo.
  :  : FLD T$V5DD __Modello Doc.Assunto__
@@ -25,7 +25,7 @@ Nome del programma di stampa specifico per stampare il tipo documento definito. 
  :  : FLD T$V5D3 __Tipo Ente Fatturaz.__
 È un elemento della tabella BRE. Indica il tipo ente a cui è intestata la fattura collegata al documento.
  :  : FLD T$V5D4 __Categoria listini__
-È un elemento della tabella C£*/CL che, se valorizzato, serve da filtro sui listini ammessi (deve coincidere con la categoria listini inserita nella tabella listino C£L).
+È un elemento della tabella C£\*/CL che, se valorizzato, serve da filtro sui listini ammessi (deve coincidere con la categoria listini inserita nella tabella listino C£L).
  :  : FLD T$V5DA __Sez. provvig. testata__
 È un elemento della tabella C£V, che definisce la sezione usata nel reperimento dei valori delle provvigioni di testata.
  :  : FLD T$V5DR __S/S stati gestiti__

@@ -3,8 +3,8 @@
 ## Procedura definizione progetto
 
 Sono disponibili due aree di accesso ai progetti : 
-* la gestione dei dati logistici (voce di menù Progetti o Gestione Progetti)
-* la visualizzazione dei Gantt dei progetti attivi (voce di menù Schedulatore)
+\* la gestione dei dati logistici (voce di menù Progetti o Gestione Progetti)
+\* la visualizzazione dei Gantt dei progetti attivi (voce di menù Schedulatore)
 
 L'area "Progetti" permette di impostare i dati, definire le fasi, le aree di lavoro(CDL),  i tempi per la schematizzazione del progetto...
 L'area "Schedulatore" lancia il motore di schedulazione per i progetti attivi mettendo in sequenza le attività, calcolando i tempi ed impegnando le risorse stabilite. Da questo si ottiene il Gantt di progetto.
@@ -24,8 +24,8 @@ Selezionandone un record (doppio click sul progetto), si apre una nuova scheda i
 Nella lista dei progetti gli stati 80/81/82 indicano che il progetto è in stato chiuso/concluso. Questo significa che lo schedulatore non considererà più le sue fasi. Per visualizzare solo i progetti attivi è quindi possibile filtrare per gli stati <80. Attenzione ai progetti in stato 00 (non creati/modelli).
 Esistono due stati "speciali" /non attivi : 
 
-* lo stato 04 nel caso in cui un progetto è stato inserito ma viene considerato come modello e quindi da non schedulare.
-* lo stato 05 nel caso in cui un progetto è definito come progetto **interno**, in cui posso è possibile dichiarare le ore ma  tale progetto non deve essere tra quelli  schedulabili.
+\* lo stato 04 nel caso in cui un progetto è stato inserito ma viene considerato come modello e quindi da non schedulare.
+\* lo stato 05 nel caso in cui un progetto è definito come progetto **interno**, in cui posso è possibile dichiarare le ore ma  tale progetto non deve essere tra quelli  schedulabili.
 
 
 ### Milestone
@@ -41,10 +41,10 @@ Per sospendere una MF devo specificare come stato il valore 81 . Lo schedulator
 Per rifasare un progetto dopo le modifiche su MF, MI, Fasi etc. (qualsiasi modifica ma specialmente quelle che coinvolgono cambiamenti o cancellazione di risorse, ore, date, etc) devo eseguire il comando : 
 "Rifasatura impegno progetti". La finestra che si aprirà, andrà compilata nel modo seguente : 
 
-* Tipo Documento :  BC
-* N° Documento :  inserire il codice commessa visto dal sistema (Es. BC090007)
-* Impegni risorse :  contrassegnare con X
-* Opzione "con pulizia" da contrassegnare con X"
+\* Tipo Documento :  BC
+\* N° Documento :  inserire il codice commessa visto dal sistema (Es. BC090007)
+\* Impegni risorse :  contrassegnare con X
+\* Opzione "con pulizia" da contrassegnare con X"
 
 e poi confermare con F6.
 
@@ -84,8 +84,8 @@ Quando viene dichiarato il 100% delle ore allora termina la MF e scompare dal Ga
 
 Durante le dichiarazioni occorre tenere conto delle seguenti due possibilità : 
 
-* la fase è stata "eseguita" nelle ore stabilite come budget
-* la fase è stata "eseguita" totalmente rispetto alle ore stabilite inizialmente (budget)
+\* la fase è stata "eseguita" nelle ore stabilite come budget
+\* la fase è stata "eseguita" totalmente rispetto alle ore stabilite inizialmente (budget)
 
 Nel primo caso va a vantaggio del progetto e tutto verrà anticipato. Nel secondo caso devo invece intervenire modificando le ore di budget della fase e dichiarare le ore effettivamente fatte a consuntivo. Così facendo aggiorno la schedulazione del progetto. Esiste un meccanismo di memorizzazione dei cambiamenti delle ore di budget che permette di tenere traccia dei vari accorgimenti che vengono man mano fatti differentemente a quanto stabilito inizialmente.
 

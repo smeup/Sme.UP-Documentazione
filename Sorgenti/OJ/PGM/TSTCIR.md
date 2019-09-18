@@ -18,7 +18,7 @@ Interrogazione CICLI di LAVORO prevista nella tabella di personalizzazione appli
 Input : 
 £CIRPG   :  se non blanks lancia il programma con questo suffisso :  serve nel caso in cui ci siano due scansioni di ciclo attive contemporaneamente nella stessa applicazione (lanciate da programmi diversi).
 
-Output :  *IN35  :  se On = fine scansione
+Output :  \*IN35  :  se On = fine scansione
 
 # Prerequisiti
      /COPY QILEGEN,£BRTE
@@ -26,10 +26,10 @@ Output :  *IN35  :  se On = fine scansione
 
 # Esempio di chiamata
 
-*scansione cicli di un dato articolo
+\*scansione cicli di un dato articolo
 
      C                   CLEAR                   £CIRSP        (START)
-     C                   DO        *HIVAL
+     C                   DO        \*HIVAL
      C
      C                   EVAL      £CIRFU='EC'
      C                   EVAL      £CIRME='1'
@@ -37,7 +37,7 @@ Output :  *IN35  :  se On = fine scansione
      C                   EVAL      £CIRCG=CONFIGURAZIONE
      C                   EVAL      £CIRQT=QUANTITà
      C                   EXSR      £CIR
-     C                   IF        £CIR35=*ON                   INDICATORE ERRORE
+     C                   IF        £CIR35=\*ON                   INDICATORE ERRORE
      C                   LEAVE
      C                   ENDIF
 

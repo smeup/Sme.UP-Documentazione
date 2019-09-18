@@ -11,9 +11,9 @@ Dal punto di vista tecnico, in quanto componente (G.SUB.TED), può essere facilm
 
   :  : G.SEZ Pos(1)
   :  : G.SUB.TED Tit="..."
-  :  : D.FUN.STD F(TED;*EDTLET;LET) 1(MB;[file];[membro]) 2(OJ;*LIB;[libreria])
+  :  : D.FUN.STD F(TED;\*EDTLET;LET) 1(MB;[file];[membro]) 2(OJ;\*LIB;[libreria])
 
 oppure richiamato dallo spotlight secondo la forma canonica : 
 
- F(TED;*EDTLET;LET) 1(MB;[file];[membro]) 2(OJ;*LIB;[libreria])
+ F(TED;\*EDTLET;LET) 1(MB;[file];[membro]) 2(OJ;\*LIB;[libreria])
 

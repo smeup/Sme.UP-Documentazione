@@ -29,9 +29,9 @@
 **£C5IEZ** - Esercizio limite :  ha un funzionamento simile alla data registrazione limite con la differenza che invece che basarsi sulla data si basa sull'esercizio
 **£C5IRP** - Inizializza progressivo :  tra i campi di output c'è un progressivo del saldo, questo può fare riferimento ad una sola partita oppure ad una serie di partite nel caso richiami in successione la £C5I per più partite; se valorizzato il progressivo verrà inizializzato tutte le volte che cambia la partita
 **£C5IVP** - Costo partita :  tra i campi di output è possibile far calcolare un determinato costo teorico calcolato in funzione delle dilazioni avvenute nei pagamenti ed al costo del denaro indicato nella tabella C51. I costi sono di tre tipi : 
- * Costo del pagamento :  si basa sul n° dei giorni compresi fra la data documento e la data scadenza
- * Costo del ritardo :  si basa sul n° dei giorni compresi fra la data scadenza e la data di pagamento o la data di rifemento nel caso in cui la rata sia ancora aperta
- * Costo incasso :  è dato dalla sommatoria dei precedenti due valori
+ \* Costo del pagamento :  si basa sul n° dei giorni compresi fra la data documento e la data scadenza
+ \* Costo del ritardo :  si basa sul n° dei giorni compresi fra la data scadenza e la data di pagamento o la data di rifemento nel caso in cui la rata sia ancora aperta
+ \* Costo incasso :  è dato dalla sommatoria dei precedenti due valori
 **£C5ISR** - Filtro sulle ritenute :  se valorizzato indica di escludere dalla partita gli importi relativi alle ritenute attuate sui soggetti
 **£C5IGP** - Gruppi partite :  se valorizzato le partite verranno presentate in modo che risaltino i collegamenti che esistono fra partite positive e negative (fatture/note d'accredito) :  tali collegamenti vengono determinati in funzione del fatto che le rate della partita positiva e quelle di una rata negativa abbiamo le rispettive rate di pagamento associate alla stessa riga di registrazione (con una riga ho cioè chiuso sia la fattura che la nota). In questi casi con attivato tale flag al posto delle rate di pagamento verrà indicato il riferimento alla rata della partita di segno opposto che è stata chiusa.
 **£C5IVC** - Valuta di conto :  Indica che l'importo da prendere in considerazione non è l'importo in valuta ma l'importo in valuta di conto.

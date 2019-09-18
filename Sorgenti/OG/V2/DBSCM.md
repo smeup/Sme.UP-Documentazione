@@ -14,7 +14,7 @@ Sono ritornati i legami sempre validi e quelli validi per interno.
 ### 'X' ESTERNI
 Sono ritornati i legami sempre validi e quelli validi per esterno.
 
-### '*' ENTRAMBI
+### '\*' ENTRAMBI
 Sono ritornati tutti i legami.
 
 ### 'P' DA POLITICA PIANIFICAZIONE

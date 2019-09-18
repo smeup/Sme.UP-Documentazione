@@ -3,32 +3,32 @@ Descrive come personalizzare le variabili, la funzione iniziale, la posizione di
 
 # Risalita configurazioni
 Le configurazioni si possono differenziare per : 
- * Utente
- * Gruppo di appartenenza
- * Ambiente (B£B)
- * Azienda
- * Per tutti
+ \* Utente
+ \* Gruppo di appartenenza
+ \* Ambiente (B£B)
+ \* Azienda
+ \* Per tutti
 Nota :  I livelli Ambiente e Azienda diventano doppi in caso l'ambiente sia di test.
 
 Sono scritte su AS400 nei membri del file SCP_CLO. Hanno i seguenti nomi : 
- * Utente
- * G_ + Gruppo utente
- * A_ + Ambiente
- * S_ + Azienda _T (solo per ambienti di test)
- * S_ + Azienda
- * S_ALL _T (solo per ambienti di test)
- * S_ALL
- * DEFAULT (da non personalizzare MAI)
+ \* Utente
+ \* G_ + Gruppo utente
+ \* A_ + Ambiente
+ \* S_ + Azienda _T (solo per ambienti di test)
+ \* S_ + Azienda
+ \* S_ALL _T (solo per ambienti di test)
+ \* S_ALL
+ \* DEFAULT (da non personalizzare MAI)
 
 __ESEMPIO__
 Se sono presenti i seguenti membri : 
- * XX
- * G_SVILU
- * A_SVI
- * S_01_T
- * S_01
- * S_ALL
- * DEFAULT
+ \* XX
+ \* G_SVILU
+ \* A_SVI
+ \* S_01_T
+ \* S_01
+ \* S_ALL
+ \* DEFAULT
 
 otterrò che : 
 
@@ -53,10 +53,10 @@ otterrò che :
 
 
 **NOTE** : 
- * In ogni setup saranno anche presenti le voci cablate nel programma (JACFG1) che si occupa della costruzione del setup.
- * Le voci sono sempre in aggiunta.
- * Hanno precedenza le voci definite nei membri più specifici.
- * Il gruppo di appartenenza dell'utente viene letto dalla tabella B£U dell'ambiente selezionato e se si associa parte del setup al gruppo bisogna avere l'accortezza di riportare nella B£U dell'ambiente i record degli utenti.
+ \* In ogni setup saranno anche presenti le voci cablate nel programma (JACFG1) che si occupa della costruzione del setup.
+ \* Le voci sono sempre in aggiunta.
+ \* Hanno precedenza le voci definite nei membri più specifici.
+ \* Il gruppo di appartenenza dell'utente viene letto dalla tabella B£U dell'ambiente selezionato e se si associa parte del setup al gruppo bisogna avere l'accortezza di riportare nella B£U dell'ambiente i record degli utenti.
 
 ## Sintassi degli script
 Gli script sono divisi per sezioni :  una riservata alla definizione dei server, una alle variabili, una ai percorsi e una alle voci dei menù la struttura sarà pertanto del tipo : 
@@ -84,23 +84,23 @@ Le variabili sono d'ambiente e una volta caricato il client non sono modificabil
 Sono di due tipi :  di sistema e di setup. Quelle di setup possono avere valori predefiniti.
 
 Variabili di sistema : 
- * ***COD_CONN** :  Codice connessione AS/400
- * ***SESSION_ID** :  Codice sessione
- * ***SYSTEM** :  Codice server AS/400
- * ***USER** :  Utente
- * ***VERSION** :  Versione client loocup
+ \* **\*COD_CONN** :  Codice connessione AS/400
+ \* **\*SESSION_ID** :  Codice sessione
+ \* **\*SYSTEM** :  Codice server AS/400
+ \* **\*USER** :  Utente
+ \* **\*VERSION** :  Versione client loocup
 
 Variabili di setup che assumono valori di default : 
- * *IMAGE_PATH :  Specifica la cartella dove recuperare le immagini. Valore di default **cartella istallazione loocup\LOOCUP_IMG\ambiente**
- * *ICON_PATH** :  Specifica la cartella dove recuperare le icone. Valore di default **cartella istallazione loocup\LOOCUP_ICO_n
- * *SEARCH_MODE :   Specifica la modalità di ricerca oggetti. Valore predefinito _H_ADVANCED
- * *SFUNCTION :   Specifica la funzione iniziale da chiamare dopo che LoocUp è stato avviato.
+ \* \*IMAGE_PATH :  Specifica la cartella dove recuperare le immagini. Valore di default **cartella istallazione loocup\LOOCUP_IMG\ambiente**
+ \* \*ICON_PATH** :  Specifica la cartella dove recuperare le icone. Valore di default **cartella istallazione loocup\LOOCUP_ICO_n
+ \* \*SEARCH_MODE :   Specifica la modalità di ricerca oggetti. Valore predefinito _H_ADVANCED
+ \* \*SFUNCTION :   Specifica la funzione iniziale da chiamare dopo che LoocUp è stato avviato.
 
 Sono visualizzabili nella finestra principale di LoocUp e comprendono oltre ai due tipi sopra definiti anche tutti i percorsi :  ogni definizione di percorso viene convertita in una variabile.
 
 ## Documentazione particolare
 Per approfondire il funzionamento del programma JACFG1 vedere il documento seguente : 
- :  : DEC T(OJ) P(*PGM) K(JACFG1)
+ :  : DEC T(OJ) P(\*PGM) K(JACFG1)
 
 # Impostazione colore  di base che dovrà avere Looc.UP
 
@@ -115,7 +115,7 @@ Per ulteriori dettagli è possibile riferirsi alla documentazione della configur
 
 Se il rilascio di Sme.UP è un V4R1 antecedente al 27/10/2015 oppure una versione precedente alla V4R1, è possibile agire in modo "manuale".
 
-E' sufficiente definire la variabile ***HEADERCOLOR** all'interno dello script **SCP_CLO** più opportuno (a seconda che si voglia impostare il colore sull'ambiente o su altro).
+E' sufficiente definire la variabile **\*HEADERCOLOR** all'interno dello script **SCP_CLO** più opportuno (a seconda che si voglia impostare il colore sull'ambiente o su altro).
 La variabile deve avere un valore nella forma __RxxxGyyyBzzz__.
 
 _Nota_

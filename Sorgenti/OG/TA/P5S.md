@@ -26,7 +26,7 @@ Il tipo e parametro del ciclo di variazione definiscono la natura dell'oggetto i
  :  : FLD T$P5SH.T$P5SG
  :  : FLD T$P5SI __Scenario di schedulazione__
 Questo campo è significativo SOLO nella gestione impegni risorse base (SM) :  è lo scenario da cui si reperiscono le informazioni per il completamento degli impegni risorse stessi.
-Nella gestione degli impegni risorse avanzata (S2), lo scenario per la produzione è fisso a '**', e quindi questo campo non è significativo.
+Nella gestione degli impegni risorse avanzata (S2), lo scenario per la produzione è fisso a '\*\*', e quindi questo campo non è significativo.
 Gli eventuali altri scenari sono riservati per la simulazione.
  :  : FLD T$P5SL __Rifasatura impegni__
 Definisce la modalità di rifasatura degli impegni di risorse dopo la manutenzione o l'annullamento del ciclo del documento.

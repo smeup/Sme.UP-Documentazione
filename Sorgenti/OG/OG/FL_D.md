@@ -1,4 +1,4 @@
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'FL'                               £FUNT1
  xxxxxxxxnn                        £FUNP1
  dove xxxxxxxx è il nome dell'archivio

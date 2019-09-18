@@ -14,8 +14,8 @@ Questo è un estratto dello script dell'oggetto remoto V5GDR (File di Google Dri
  :  : AUT Sub="GO.A01.001" Var="Content-Type(application/x-www-form-urlencoded)" Pay="client_secret=xxx&grant_type=refresh_token&refresh_token=xxxx" Ind="access_token" Ind="access_token"
 
  :  : DAT Sub="GO.A07.001" Var="Authorization(Bearer &AUT) Accept(application/json) IdFolder(xxx)"
- :  : COD Ind="files(*)\id" Hsh="1"
- :  : DES Ind="files(*)\name"
+ :  : COD Ind="files(\*)\id" Hsh="1"
+ :  : DES Ind="files(\*)\name"
 
  :  : SEZ Cod="DEC"
  :  : AUT Sub="GO.A01.001" Var="Content-Type(application/x-www-form-urlencoded)" Pay="client_secret=xxx&grant_type=refresh_token&refresh_token=xxxx" Ind="access_token" Ind="access_token"

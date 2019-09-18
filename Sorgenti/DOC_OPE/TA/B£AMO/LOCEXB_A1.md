@@ -18,9 +18,9 @@ Esistono sostanzialmente due tipi di matrici, differenziate dal fatto che siano 
 ### Tipizzazione componente
 Tipizzazione è sinonimo di oggettizzazione, ovvero, quando un campo è associato ad un oggetto applicativo si dice tipizzato od oggettizzato.
 La tipizzazione è indicata mediante dei colori, in generale si utilizzano questi tre colori : 
-* Bianco :  nessuna tipizzazione. Queste celle contengono descrizioni non oggettizzate. Il menù di PopUp su questa cella, quindi, consentirà solamente di copiare o incollare la cella.
-* Giallo :  indica che il contenuto del campo è un oggetto Sme.UP. Le azioni possibili su questa cella dipenderanno dal tipo di oggetto contenuto. Cliccando su una cella contentente un oggetto Sme.UP è, in ogni caso, possibile accedere alla scheda dell'oggetto stesso.
-* Verde :  indica che la cella contiene un valore numerico.
+\* Bianco :  nessuna tipizzazione. Queste celle contengono descrizioni non oggettizzate. Il menù di PopUp su questa cella, quindi, consentirà solamente di copiare o incollare la cella.
+\* Giallo :  indica che il contenuto del campo è un oggetto Sme.UP. Le azioni possibili su questa cella dipenderanno dal tipo di oggetto contenuto. Cliccando su una cella contentente un oggetto Sme.UP è, in ogni caso, possibile accedere alla scheda dell'oggetto stesso.
+\* Verde :  indica che la cella contiene un valore numerico.
 
 La tipizzazione di una matrice può essere per colonna o per cella; può essere definita a livello di cella, quando la colonna contiene oggetti eterogenei. Ogni cella, in questo caso, avrà uno specifico menù di popup. Tipicamente l'oggettizzazione è effettuata per colonna, quindi nella stessa colonna è presente sempre lo stesso Tipo/Parametro oggetto; in questo caso l'icona del tipo è presente accanto all'intestazione della colonna.
 
@@ -92,29 +92,29 @@ Per accedere al popup generale della matrice è sufficiente cliccare con il tast
 ![LOCEXB_093](http://localhost:3000/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_093.png)
 ![LOCEXB_092](http://localhost:3000/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_092.png)
 Le funzioni disponibili per l'utente all'interno del popup della matrice sono : 
- * Aggiorna. Aggiorna l'intera sezione in cui è contenuta la matrice.
- * Ricarica dati. Ricarica i dati visualizzati all'intenro della matrice.
- * Ingrandisci. Espande a pagina intera la sezione in cui è contenuta la matrice.
- * Impostazioni. Permette di accedere alla gestione dei setup della matrice.
- * Visualizza come. Permette di esportare i dati contenuti nella matrice in diversi formati.
- * Stampa della sezione. Permette di stampare il contenuto della matrice.
- * Screenshot della sezione. Esegue uno screenshot dei dati visualizzati.
+ \* Aggiorna. Aggiorna l'intera sezione in cui è contenuta la matrice.
+ \* Ricarica dati. Ricarica i dati visualizzati all'intenro della matrice.
+ \* Ingrandisci. Espande a pagina intera la sezione in cui è contenuta la matrice.
+ \* Impostazioni. Permette di accedere alla gestione dei setup della matrice.
+ \* Visualizza come. Permette di esportare i dati contenuti nella matrice in diversi formati.
+ \* Stampa della sezione. Permette di stampare il contenuto della matrice.
+ \* Screenshot della sezione. Esegue uno screenshot dei dati visualizzati.
 
 Nei capitoli successivi di questo documento verranno analizzate le funzioni disponibili all'interno degli altri popup disponibili.
 
 ## Shortcut
 
 I tasti funzionali più significativi sulla matrice : 
- * F09 :  esplode completamente una matrice in cui siano presenti dei gruppi
- * F10 :  implode completamente una matrice in cui siano presenti dei gruppi
- * F17 :  apre il Gestore setup
+ \* F09 :  esplode completamente una matrice in cui siano presenti dei gruppi
+ \* F10 :  implode completamente una matrice in cui siano presenti dei gruppi
+ \* F17 :  apre il Gestore setup
 
 I comandi rapidi sul componente sono : 
- * ALT+D :  se digitato nel momento in cui è selezionanta una riga apre il dettaglio del record
- * CTRL+F10 :  mostra le colonne nascoste della matrice
- * CTRL+F :  permette di aprire un box all'interno del quale è possibile digitare una stringa che verrà poi ricercata ed evidenziata all'interno delle celle della matrice.
- * CTRL+C :  se digitato quando sono selezionati uno o più record ne esegue la copia
- * CTRL+V :  permette di incollare righe copiate se la matrice è di aggiornamento.
+ \* ALT+D :  se digitato nel momento in cui è selezionanta una riga apre il dettaglio del record
+ \* CTRL+F10 :  mostra le colonne nascoste della matrice
+ \* CTRL+F :  permette di aprire un box all'interno del quale è possibile digitare una stringa che verrà poi ricercata ed evidenziata all'interno delle celle della matrice.
+ \* CTRL+C :  se digitato quando sono selezionati uno o più record ne esegue la copia
+ \* CTRL+V :  permette di incollare righe copiate se la matrice è di aggiornamento.
 
 
 ## Setup

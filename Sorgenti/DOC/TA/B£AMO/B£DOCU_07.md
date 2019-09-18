@@ -68,7 +68,7 @@ Ipotesi di lavoro
 - Sviluppo (xx_SVI  in DOC_BOK)
 -- Scansione dei moduli
 
-*********** DA QUI NOTE DI GALDINI *****************************************************************
+\*\*\*\*\*\*\*\*\*\*\* DA QUI NOTE DI GALDINI \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Il vocabolario di Sme.UP
 
@@ -90,7 +90,7 @@ Per gli acronimi questo non succede. Si potrebbe mettere nel glossario dell'appl
 al termine come acronimo, però bisogerebbe capire quando risolverlo e quando tarscurarlo.
 
 
-****************************************************************************************************
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 
 

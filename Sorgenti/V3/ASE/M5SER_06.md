@@ -10,7 +10,7 @@ Presenta una matrice con una riga per articolo (articolo/oggetto di rottura, se 
 ## Analisi su una periodicità (PER)
 Presenta una matrice con una riga per articolo (articolo/oggetto di rottura, se utilizzato) e una serie di colonne rappresentanti l'evoluzione nel tempo della disponibilità calcolata dall'MRP lungo un certo periodo.
 
- :  : PRO.SER Cod="GRU.1" Tit="Analisi raggruppata a una data. " Fun="F(EXB;M5SER_06;GRU) 1(TA;M5B;-(O;;TAM5B;Scenario)) 2(TA;MAG;-(O;;TAMAG;Magazzino)) 3(D8;*YYMD;-(O;;D8*YYMD;Data massima di analisi)) P( TIP(-(F;;;Tipo raggruppamento)) AGG(-(F;;;Suff.pgm.aggiustamento)) PAR(-(F;;;Param.pgm.aggiustamento)) MOD(-(F;;;Modalità analisi)))"
+ :  : PRO.SER Cod="GRU.1" Tit="Analisi raggruppata a una data. " Fun="F(EXB;M5SER_06;GRU) 1(TA;M5B;-(O;;TAM5B;Scenario)) 2(TA;MAG;-(O;;TAMAG;Magazzino)) 3(D8;\*YYMD;-(O;;D8\*YYMD;Data massima di analisi)) P( TIP(-(F;;;Tipo raggruppamento)) AGG(-(F;;;Suff.pgm.aggiustamento)) PAR(-(F;;;Param.pgm.aggiustamento)) MOD(-(F;;;Modalità analisi)))"
 
- :  : PRO.SER Cod="PER.2" Tit="Analisi su un periodo. " Fun="F(EXB;M5SER_06;PER) 1(TA;M5B;-(O;;TAM5B;Scenario)) 2(TA;MAG;-(O;;TAMAG;Magazzino)) 3(TA;A£Q;-(O;;TAA£Q;Periodicità)) 4(D8;*YYMD;-(F;;D8*YYMD;Data di inizio analisi)) P( AGG(-(F;;;Suff.pgm.aggiustamento)) PAR(-(F;;;Param.pgm.aggiustamento)) MOD(-(F;;;Modalità analisi)))"
+ :  : PRO.SER Cod="PER.2" Tit="Analisi su un periodo. " Fun="F(EXB;M5SER_06;PER) 1(TA;M5B;-(O;;TAM5B;Scenario)) 2(TA;MAG;-(O;;TAMAG;Magazzino)) 3(TA;A£Q;-(O;;TAA£Q;Periodicità)) 4(D8;\*YYMD;-(F;;D8\*YYMD;Data di inizio analisi)) P( AGG(-(F;;;Suff.pgm.aggiustamento)) PAR(-(F;;;Param.pgm.aggiustamento)) MOD(-(F;;;Modalità analisi)))"
 

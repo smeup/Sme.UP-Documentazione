@@ -4,69 +4,69 @@ Tali azioni vanno eseguite operando manualmente nel formato di dettaglio.
 
 Ricordo che il formato di dettaglio può essere visualizzato nei seguenti modi.
 
-* Gantt
-** Una risorsa specifica
-** Tutte le risorse specifiche di una risorsa generale
-** Tutte le risorse :  la riga riassuntiva delle operazioni di ciascuna risorsa è valorizzata
-* Incolonnato
-** Una risorsa specifica
-** Tutte le risorse specifiche di una risorsa generale
-** Tutte le risorse :  la riga riassuntiva delle operazioni di ciascuna risorsa è vuota
+\* Gantt
+\*\* Una risorsa specifica
+\*\* Tutte le risorse specifiche di una risorsa generale
+\*\* Tutte le risorse :  la riga riassuntiva delle operazioni di ciascuna risorsa è valorizzata
+\* Incolonnato
+\*\* Una risorsa specifica
+\*\* Tutte le risorse specifiche di una risorsa generale
+\*\* Tutte le risorse :  la riga riassuntiva delle operazioni di ciascuna risorsa è vuota
 
 Per una descrizione completa delle modalità di presentazione riferirsi al documento : 
 - [Analisi risultati](Sorgenti/DOC_OPE/TA/B£AMO/S5IRIS_RIS)
 
 Le azioni eseguibili sono le seguenti : 
-* Forzatura
+\* Forzatura
 Si fissa la risorsa specifica su cui eseguire un'operazione. La sequenza di schedulazione è demandata al motore. In pratica, questa azione corrisponde all'assegnazione di un filtro di risorsa specifica all'operazione.
-* Congelamento
+\* Congelamento
 Si fissa che tutte le celle fino a quella selezionata, verranno eseguite su quella risorsa specifica, nell'ordine in cui sono state schedulate.
 Il congelamento non fissa in modo assoluto la schedulazione, non definisce infatti l'istante in cui inizierà un'operazione, ma in modo relativo :  la sequenza in cui verranno eseguite le operazioni a partire dalla data di inizio della schedulazione. Se infatti, dopo aver congelato, non si dicharano avanzamenti, ma si rischedula a partire da una data successiva, la sequenza su di ogni risorsa sarà la stessa, ma con date più alte.
 Il congelamento agisce a valle delle operazioni in corso, che sono schedulate per prime.
-* Ordinamento
+\* Ordinamento
 Si modifica l'ordine di schedulazione delle operazioni congelate
 
 La lista delle operazioni schedulate su di una risorsa si divide in tre zone successive : 
-* zona delle operazioni in corso
+\* zona delle operazioni in corso
 Se ce n'è più d'una, vengono ordinate in ordine inverso di dichiarazione (a partire dalla più recente) :  si assume infatti che le precedenti sono state interrotte per validi motivi e quindi si rispetta questa volontà.
-* zona congelata
+\* zona congelata
 le operazioni sono ordinate nel modo deciso dll'utente, che può fissare la sequenza proposta dalla schedulazione oppure modificarla.
-* zona libera
+\* zona libera
 contiene sia operazioni forzate sia operazioni libere. L'ordinamento è deciso dallo schedulatore.
 
 Una cella si trova in uno di questi stati (identificati dala forma)
-* Iniziata
+\* Iniziata
 
-![FIG_003](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_003.png)* Libera
+![FIG_003](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_003.png)\* Libera
 
-![FIG_002](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_002.png)* Congelata
+![FIG_002](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_002.png)\* Congelata
 
-![FIG_001](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_001.png)* Forzata
+![FIG_001](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_001.png)\* Forzata
 
 ![FIG_004](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_004.png)
 Le azioni si dividono, per la modalità operativa di esecuzione in : 
-* Statiche :  si eseguono puntando una cella e selezionando il menu popup.
-* Dinamiche :  si eseguono trascinando una cella in una posizione significativa
+\* Statiche :  si eseguono puntando una cella e selezionando il menu popup.
+\* Dinamiche :  si eseguono trascinando una cella in una posizione significativa
 
 # Azioni statiche
 Le azioni statiche si eseguono puntando una cella e selezionando il menu popup.
 Esse, a loro volta, si dividono in
-* Azioni dirette :  eseguite sul primo livello di popup.
-* Scelte specifiche :  eseguite scendendo a più livelli nel popup.
+\* Azioni dirette :  eseguite sul primo livello di popup.
+\* Scelte specifiche :  eseguite scendendo a più livelli nel popup.
 
 ## Azioni dirette
 Le azioni dirette si eseguono cliccando l'opzione nel popup, e sono indipendenti dalla forma di presentazione.
 Le opzioni presentate dipendono dalla situzione dell'operazione selezionata
-* Iniziata
-** nessuna opzione
-* Libera
-** congelamento ON - congela la schedulazione fino all'operazione selezionata (compresa)
-** forzatura ON - forza l'operazione selezionata sulla risorsa in cui si trova
-* Congelata
-** congelamento OFF - elimina il congelamento a partire dall'operazione selezionata (compresa) fino all'ultima congelata. Eventuali forzature successive vengono mantenute
-* Forzata
-** congelamento ON - congela la schedulazione fino all'operazione selezionata (compresa)
-** Forzatura OFF - elimina la forzatura dall'operazione selezionata.
+\* Iniziata
+\*\* nessuna opzione
+\* Libera
+\*\* congelamento ON - congela la schedulazione fino all'operazione selezionata (compresa)
+\*\* forzatura ON - forza l'operazione selezionata sulla risorsa in cui si trova
+\* Congelata
+\*\* congelamento OFF - elimina il congelamento a partire dall'operazione selezionata (compresa) fino all'ultima congelata. Eventuali forzature successive vengono mantenute
+\* Forzata
+\*\* congelamento ON - congela la schedulazione fino all'operazione selezionata (compresa)
+\*\* Forzatura OFF - elimina la forzatura dall'operazione selezionata.
 
 Dopo aver eseguito l'azione, viene ripresentato il formato di dettaglio con la forma delle celle interessate aggiornata.
 
@@ -88,14 +88,14 @@ Questa azione consiste nell'eseguire in modo automatico un trascinamento obliquo
 paragrafo per la rappresentazione grafica dei suoi effetti
 
 Sono stati realizzati alcuni accorgimenti grafici per migliorare la comprensione.
-* La risorsa specifica su cuila fase è schedulata è preceduta da una freccia
-* Le altre risorse specifiche sono precedute dal simbolo di spunta
-* Il colore verde identifica le risorse del filtro di risorse specifiche
-* Il colore verde identifica le risorse non del filtro
-* Il colore rosso identifica un'anomalia
-* Le risorse non selezionabili sono in bassa intensità
-* Le risorse del filtro sono in grassetto
-* Le altre risorse (non del filtro ma selezionabili) sono in carattere normale
+\* La risorsa specifica su cuila fase è schedulata è preceduta da una freccia
+\* Le altre risorse specifiche sono precedute dal simbolo di spunta
+\* Il colore verde identifica le risorse del filtro di risorse specifiche
+\* Il colore verde identifica le risorse non del filtro
+\* Il colore rosso identifica un'anomalia
+\* Le risorse non selezionabili sono in bassa intensità
+\* Le risorse del filtro sono in grassetto
+\* Le altre risorse (non del filtro ma selezionabili) sono in carattere normale
 
 Nel seguito diamo alcuni esempi di queste rappresentazioni.
 
@@ -206,13 +206,13 @@ Ad ogni cella del Gantt corrisponde una cella sulla riga riassuntiva della stess
 
 Si può spostare sulla riga riassuntiva, una cella del dettaglio del Gantt o di un'altra riga riassuntiva.
 Le possibilità ammesse sono le seguenti
-* spostamento di una cella di una riga riassuntiva nella stessa riga riassuntiva
-* spostamento di una cella di dettaglio nella propria riga riassuntiva.
+\* spostamento di una cella di una riga riassuntiva nella stessa riga riassuntiva
+\* spostamento di una cella di dettaglio nella propria riga riassuntiva.
 
 Queste modalità sono equivalenti allo spostamento orizzontale di una cella, con il controllo che lo spostamento sia significativo (oltrepassi almeno un'altra cella) e valido (non preceda le fasi iniziate).
 
-* spostamento di una cella di una riga riassuntiva in un'altra riga riassuntiva
-* spostamento di una cella di dettaglio in una riga riassuntiva diversa dalla propria
+\* spostamento di una cella di una riga riassuntiva in un'altra riga riassuntiva
+\* spostamento di una cella di dettaglio in una riga riassuntiva diversa dalla propria
 
 In queste modalità, se la cella viene spostata a destra dell'ultima cella della riga riassuntiva, si ha l'effetto di forzarla sulla risorsa della riga riassuntiva d'arrivo.
 Negli altri casi si esegue il normale congelamento, sempre sulla risorsa della riga riassuntiva d'arrivo, fino al punto in cui si ha trascinto la cella.

@@ -22,7 +22,7 @@
 <Utente>
 <Attributi>
 <Tipo Contenuto="Alfanumerico (OJ)" Scopo="TIPO per chiave identificativa Utente" Obbligatorio="SI"/>
-<Parametro Contenuto="Alfanumerico (*USRPRF)" Scopo="PARAMETRO per chiave identificativa Utente" Obbligatorio="SI"/>
+<Parametro Contenuto="Alfanumerico (\*USRPRF)" Scopo="PARAMETRO per chiave identificativa Utente" Obbligatorio="SI"/>
 <Codice Contenuto="Alfanumerico" Scopo="CODICE per chiave identificativa Utente" Obbligatorio="SI"/>
 <Testo Contenuto="Alfanumerico" Scopo="Testo descrittivo" Obbligatorio="SI"/>
 </Attributi>
@@ -37,7 +37,7 @@
 </Funzione>
 <CfgKey3>
 <Attributi>
-<Tipo Contenuto="Alfanumerico (**)" Scopo="TIPO per chiave identificativa CfgKey3" Obbligatorio="SI"/>
+<Tipo Contenuto="Alfanumerico (\*\*)" Scopo="TIPO per chiave identificativa CfgKey3" Obbligatorio="SI"/>
 <Parametro Contenuto="Alfanumerico" Scopo="PARAMETRO per chiave identificativa CfgKey3" Obbligatorio="SI"/>
 <Codice Contenuto="Alfanumerico (STANDARD)" Scopo="CODICE per chiave identificativa CfgKey3" Obbligatorio="SI"/>
 <Testo Contenuto="Alfanumerico" Scopo="Testo descrittivo" Obbligatorio="SI"/>

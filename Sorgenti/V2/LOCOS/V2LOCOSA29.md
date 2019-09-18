@@ -1,13 +1,13 @@
 ## Obiettivo
 Rappresentare una serie di oggetti su si una mappa.
 Le rappresentazioni possibili sono : 
-* URL , vengono rappresentati gli oggetti su di una mappa statica. La mappa si autoregola in funzione degli oggetti presenti
-* PERCORSO , vengono rappresentati gli oggetti su di una mappa dinamica e gli stessi legati fra loro in ordine cronologico.
-* BROWSER , la mappa viene costruita in locale. Questa tecnica permette una personalizzazione della mappa.
+\* URL , vengono rappresentati gli oggetti su di una mappa statica. La mappa si autoregola in funzione degli oggetti presenti
+\* PERCORSO , vengono rappresentati gli oggetti su di una mappa dinamica e gli stessi legati fra loro in ordine cronologico.
+\* BROWSER , la mappa viene costruita in locale. Questa tecnica permette una personalizzazione della mappa.
 
 ## Limitazioni
-* Sono gestiti al massimo 100 oggetti.
-* La rappresentazione si basa su Google.
+\* Sono gestiti al massimo 100 oggetti.
+\* La rappresentazione si basa su Google.
 
 ## Struttura Script
 L'installatore deve definire la propria struttura di rappresentazione nello script che deve risiedere nel sorgente**SCP_SET**.

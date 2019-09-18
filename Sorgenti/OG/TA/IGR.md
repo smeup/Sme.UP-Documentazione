@@ -21,7 +21,7 @@ Base della ripresa  S02  Cliente è funzione della IGS
  - N°fattura (Tipo primo)
  Base della ripresa  L02  Libero alfanumerico 2
  - Attributo
- - Tipo oggetto        **
+ - Tipo oggetto        \*\*
  - Parametro ogg.
  - Classe materiale (Tipo derivato)
 Base della ripresa  S03      Articolo è funzione della IGS

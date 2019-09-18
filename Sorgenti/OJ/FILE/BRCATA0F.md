@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni di articoli, codificati e non appartenenti a enti esterni.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'CT'                               £FUNT1
 
 ## Chiave primaria

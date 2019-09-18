@@ -18,11 +18,11 @@ Esiste anche una tabella per la gestione delle festività
 Viene presentata la maschera con i soliti tasti funzionali, premendo F6=Inserisci é possibile aggiungere una nuova festività.
 E' possibile gestire diversi tipi di festività : 
 
- * indicando solo il Codice Festività, la Descrizione, il Giorno ed il Mese è possibile inserire una festività che cade sempre nello stesso giorno e vale ovunque, come il Natale
- * Indicando l'Anno, il Codice Festività, il Giorno ed il Mese è possibile descrivere una festività che vale solo per il periodo indicato in quel determinato giorno/mese (Es. Pasqua 2008, Pasqua 2009)
- * Indicando Nazione, Codice Festività, Giorno e Mese è possibile indicare una festività che vale solo per una specifica nazione in quel determinato giorno/mese (Es. Festa della Repubblica)
- * Indicando Negozio, Anno, Giorno e Mese è possibile indicare una festività che vale solo per uno specifico negozio in quel periodo  in quel determinato giorno/mese
- * Indicando Negozio, Giorno e Mese è possibile indicare una festività che vale solo per uno specifico negozio in quel determinato giorno/mese (Es. Festa Patronale Reggio Calabria).
+ \* indicando solo il Codice Festività, la Descrizione, il Giorno ed il Mese è possibile inserire una festività che cade sempre nello stesso giorno e vale ovunque, come il Natale
+ \* Indicando l'Anno, il Codice Festività, il Giorno ed il Mese è possibile descrivere una festività che vale solo per il periodo indicato in quel determinato giorno/mese (Es. Pasqua 2008, Pasqua 2009)
+ \* Indicando Nazione, Codice Festività, Giorno e Mese è possibile indicare una festività che vale solo per una specifica nazione in quel determinato giorno/mese (Es. Festa della Repubblica)
+ \* Indicando Negozio, Anno, Giorno e Mese è possibile indicare una festività che vale solo per uno specifico negozio in quel periodo  in quel determinato giorno/mese
+ \* Indicando Negozio, Giorno e Mese è possibile indicare una festività che vale solo per uno specifico negozio in quel determinato giorno/mese (Es. Festa Patronale Reggio Calabria).
 Questi dati verranno letti durante la fase di generazione del calendario del negozio e, in automatico, in quella data il negozio verrà segnalato come chiuso.
 
 ## Gestione Calendari Negozi
@@ -32,13 +32,13 @@ Questi dati verranno letti durante la fase di generazione del calendario del neg
 In questa maschera viene visualizzato il calendario dei vari negozi. Alla selezione della funzione vengono richiesti il codice del Negozio e una data per applicare un filtro. Se non viene specificato nessun negozio, è possibile vedere il calendario di tutti i Negozi.
 Da questa maschera è possibile inserire/modificare/cancellare un record dal calendario, ma anche : 
 
- * F8= impostare un Periodo di Chiusura. Verranno richieste le date del periodo che si vuole impostare e, una volta data la conferma, il Motivo della Chiusura. A questo punto le giornate di chiusura verranno visualizzate in blu. L'applicazione di massa delle chiusure è comunque condizionata all'assenza di Chiusure di Cassa registrate dal punto vendita. Nel caso in cui per una o più date siano presenti Chiusure di Cassa, verrà segnalato all'utente che in tali date non verrà aggiornato lo stato di Apertura/Chiusura del punto vendita.
- * F9= impostare un Periodo di Apertura. Verranno richieste le date del periodo che si vuole impostare, i relativi orari di Apertura/Chiusura e se si tratta di un'apertura straordinaria o meno.
- * F7=Generare il Calendario. Premendo il tasto apparirà una maschera dove viene rihiesto : 
- ** Codice Negozio
- ** Calendario Base. E' il calendario che abbiamo precedentemente inserito nella Tabella CALB, ed è da questo calendario che verranno prelevati gli orari di apertura
- ** Data Inizio e Data Fine del calendario da Generare
- * F11=Eliminare il Periodo
+ \* F8= impostare un Periodo di Chiusura. Verranno richieste le date del periodo che si vuole impostare e, una volta data la conferma, il Motivo della Chiusura. A questo punto le giornate di chiusura verranno visualizzate in blu. L'applicazione di massa delle chiusure è comunque condizionata all'assenza di Chiusure di Cassa registrate dal punto vendita. Nel caso in cui per una o più date siano presenti Chiusure di Cassa, verrà segnalato all'utente che in tali date non verrà aggiornato lo stato di Apertura/Chiusura del punto vendita.
+ \* F9= impostare un Periodo di Apertura. Verranno richieste le date del periodo che si vuole impostare, i relativi orari di Apertura/Chiusura e se si tratta di un'apertura straordinaria o meno.
+ \* F7=Generare il Calendario. Premendo il tasto apparirà una maschera dove viene rihiesto : 
+ \*\* Codice Negozio
+ \*\* Calendario Base. E' il calendario che abbiamo precedentemente inserito nella Tabella CALB, ed è da questo calendario che verranno prelevati gli orari di apertura
+ \*\* Data Inizio e Data Fine del calendario da Generare
+ \* F11=Eliminare il Periodo
 
 Se per il punto vendita sono presenti le informazioni relative alla Chiusura di Cassa per una certa data, la variazione del record sarà possibile solo limitatamente agli Orari di Apertura/Chiusura, ma
 non per lo Stato di Apertura/Chiusura. Un messaggio informerà l'utente del limite relativo alla modifica.
@@ -68,8 +68,8 @@ La tabella dei calendari dei negozi viene distribuita dalla sede verso i negozi 
 Dalla procedura di Controllo delle Chiusure di Cassa è sempre possibile modificare, se necessario, lo stato di Apertura/Chiusura di un Punto Vendita.
 Premere F3 per modificare lo stato : 
 
- * Da Negozio Aperto a Negozio Chiuso
- * Da Negozio Chiuso a Negozio Aperto
+ \* Da Negozio Aperto a Negozio Chiuso
+ \* Da Negozio Chiuso a Negozio Aperto
 
 E' anche possibile indicare delle annotazioni in merito all'apertura/chiusura, analogamente a quanto avviene nella Gestione Calendari Negozi.
 Premere F6 per confermare la modificare dello stato di Apertura/Chiusura del Negozio/Data selezionato.

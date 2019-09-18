@@ -16,7 +16,7 @@ Parametro 1 :
 .              di impegno materiale (la si deriva dall'informazione presente nel
 .              legame di distinta base; se assente si imposta la prima operazione
 .              in assoluto).
-.              La data viene assunta dal record dello scenario base '**' se esso è
+.              La data viene assunta dal record dello scenario base '\*\*' se esso è
 .              presente e se la data non è a zero. In caso contrario si mantiene la
 .              data di impegno. Si può impostare uno dei seguenti valori : 
 .              _7_'1' - data inizio schedulazione a capacità finita.

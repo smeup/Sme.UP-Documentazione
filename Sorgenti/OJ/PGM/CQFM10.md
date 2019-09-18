@@ -7,9 +7,9 @@ _2_Gestione della griglia di riferimento estendibile oltre che agli articoli anc
 I campi evidenziati sono tabellati (CQ0) perché la FMEA può essere fatta su di un prodotto, un processo un cliente, un ente, etc.., e quindi offre la possibilità di creare un qualsiasi tipo di documento che permette di gestire quelle informazioni di base che sono collegate all'oggetto dell'analisi.
 
 ## Formato inserimento dati
-![CQ_FMEA_03](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM10/CQ_FMEA_03.png) * _2_identificazione leader e partecipanti
- * _2_identificazione responsabile
- * _2_identificazione prodotto, famiglia, parametro :  Il tipo e l'obbligarietà di questi 3 campi evidenziati dipende dal tipo griglia impostato osssia dal tipo documento scelto.
+![CQ_FMEA_03](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM10/CQ_FMEA_03.png) \* _2_identificazione leader e partecipanti
+ \* _2_identificazione responsabile
+ \* _2_identificazione prodotto, famiglia, parametro :  Il tipo e l'obbligarietà di questi 3 campi evidenziati dipende dal tipo griglia impostato osssia dal tipo documento scelto.
 
 Con -INVIO- si passa alle funzioni che consentono all'operatore di legare l'analisi dei componenti al loro gruppo di appartenenza. Supponiamo che il prodotto su cui vogliamo fare la FMEA sia una presa di forza (PTO) , un gruppo potrebbe essere un componente al primo livello mentre il componente potrebbe essere uno degli articoli che entrano in questo ( esplosione scalare ), un gruppo potrebbe essere il servizio sviluppo prodotto  ed il componente un dipendente di esso, etc...
 
@@ -19,9 +19,9 @@ Questo formato, come i successivi, è strutturato in modo da riportare automatic
 
 _2_Selezione Gruppo/Componente (opzione 1)
 Il gruppo ed il componente possono essere selezionati in questi modi : 
- * '!'  Collegamento con anagrafica articoli o enti ordinati per  codice
- * '?'  Collegamento con anagrafica articoli o enti ordinati per descrizione
- * '/' Collegamento con distinta base dell'articolo su cui si sta facendo la FMEA
+ \* '!'  Collegamento con anagrafica articoli o enti ordinati per  codice
+ \* '?'  Collegamento con anagrafica articoli o enti ordinati per descrizione
+ \* '/' Collegamento con distinta base dell'articolo su cui si sta facendo la FMEA
 
 La fase di immissione del componente si completa con la definizione della funzione e della criticità del componente riempiendo i due campi tabellati evidenziati nel formato successivo
 
@@ -29,8 +29,8 @@ La fase di immissione del componente si completa con la definizione della funzio
 ![CQ_FMEA_05](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM10/CQ_FMEA_05.png)Il Q9000 permette, una volta effettuata l'immissione dei singoli componenti, di definire per ciascun componente i suoi difetti e, per ogni difetto, gli effetti e le cause con relativo indice di priorità di rischio. La filosofia che sta alla base del Q9000 per il calcolo dell'indice di priorità (dato dal prodotto della probabilità, per la rilevabilità, per la gravità) è che la rilevabilità  dipende dal difetto, la gravità dipende dagli effetti e la probabilità dalla causa.
 
 Il Q9000  per la scelta dei difetti da attribuire al singolo componente prevede le seguenti modalità : 
- * '!' Collegamento con tabella CQD in cui sono inseriti i difetti i riscontrati finora in azienda
- * '/'  Collegamento con l'archivio che gestisce le non conformità' :  mi viene fornito l'elenco delle non conformità rilevate sull'articolo di cui si sta facendo la FMEA
+ \* '!' Collegamento con tabella CQD in cui sono inseriti i difetti i riscontrati finora in azienda
+ \* '/'  Collegamento con l'archivio che gestisce le non conformità' :  mi viene fornito l'elenco delle non conformità rilevate sull'articolo di cui si sta facendo la FMEA
 
 ### Dichiarazione difetti
 Con l'opzione 6 si possono inserire i difetti, i difetti sono codificati nella tabella CQD da cui possono essere selezionati.
@@ -68,11 +68,11 @@ _1_Formato inserimento probabilità del difetto_1_
 Il risultato di questa operazione è la priorità di rischio.
 In questa prima fase di immissione, in genere non vengono inserite le misure previste od eventuali azioni correttive.
 Supponendo di immettere più cause per un difetto il documento che produce il programma è del tipo in figura in cui vengono riportati tutti i suoi legami ossia : 
- * documento su cui è registrata la FMEA,
- * prodotto,
- * gruppo,
- * componente,
- * difetto a cui si riferiscono queste cause.
+ \* documento su cui è registrata la FMEA,
+ \* prodotto,
+ \* gruppo,
+ \* componente,
+ \* difetto a cui si riferiscono queste cause.
 
 _1_Riassunto dati FMEA_1_
 ![CQ_FMEA_13](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM10/CQ_FMEA_13.png)

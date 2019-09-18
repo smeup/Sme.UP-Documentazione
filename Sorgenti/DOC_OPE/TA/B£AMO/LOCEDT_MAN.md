@@ -1,6 +1,6 @@
 # Manuale di utilizzo dell'editor di Loocup
 ## Cenni generali
-L'editor di Loocup ha il compito di permettere l'editazione degli script (> files SCP_*  ), delle note, delle regole del configuratore. A tale scopo mette a disposizione le principali funzioni di editing e di ricerca nel testo presenti negli altri editor. Per l'editing dei file di script l'editor mette a disposizione una visualizzazione coadiuvata da highlight; inoltre, sempre per questi tipi di files l'editing può essere effettuato avvalendosi di funzioni di wizard che facilitano la composizione sintattica delle specifiche.
+L'editor di Loocup ha il compito di permettere l'editazione degli script (> files SCP_\*  ), delle note, delle regole del configuratore. A tale scopo mette a disposizione le principali funzioni di editing e di ricerca nel testo presenti negli altri editor. Per l'editing dei file di script l'editor mette a disposizione una visualizzazione coadiuvata da highlight; inoltre, sempre per questi tipi di files l'editing può essere effettuato avvalendosi di funzioni di wizard che facilitano la composizione sintattica delle specifiche.
 ## Cosa trovi nella finestra dell'editor
 Dalla versione **2.0** dell'editor ogni pannello di testo aperto riporta una label che identifica il file che si sta editando. Se il pannello è aperto in scrittura la label avrà scritta blu, se il testo è read only la label avrà scritta rossa. Inoltre ad indicare la modalità read only del testo c'è una bordatura blu attorno all'area di visualizzazione del testo.
 ### Il menu di finestra
@@ -45,13 +45,13 @@ Quando l'editor sta gestendo dei file di documentazione è attiva la funzione di
 - Salva con Nome :     F6
 - Salva :     F7
 - Elimina :     F8
-- Compila :     F9 (*)
+- Compila :     F9 (\*)
 - Esamina/Copia :     F15
-- Richiamo Wizard :     CTRL+W (*)
-- Preview :     CTRL+P (*)
+- Richiamo Wizard :     CTRL+W (\*)
+- Preview :     CTRL+P (\*)
 
 
-**(*)** :  nelle situazioni dove è previsto
+**(\*)** :  nelle situazioni dove è previsto
 
 ## Utilizzo Shortcut stile WIKIPEDIA
 In data 22/11/2006 è stata introdotta una nuova modalità di inserimento di elenchi in stile WIKI cioè usando semplici caratteri in modo da accelerare la creazione di documentazione.
@@ -59,23 +59,23 @@ Una volta che questa modalità diventerà abbastanza consolidata si provvederà 
 
 ### Elenchi puntati/numerati stile WIKI
 Per iniziare un elenco basta  inserire a inizio riga la seguente serie di caratteri : 
-' * '  (spazio-asterisco-spazio) e nome del valore del punto elenco (nel caso di elenchi puntati)
+' \* '  (spazio-asterisco-spazio) e nome del valore del punto elenco (nel caso di elenchi puntati)
 ' - ' (spazio-diesis-spazio) e nome del valore del punto elenco (nel caso di elenchi numerati)
 
 e man mano incrementare il numero di simboli se si vuole cambiare livelli. Per concludere l'elenco aggiungo uno spazio bianco.
 
 Esempio elenco puntato : 
 
- ' * ' Primo punto
+ ' \* ' Primo punto
 
- ' ** ' Secondo punto con un testo molto lungo per testare i ritorni a capo ed eventuali problemi di
+ ' \*\* ' Secondo punto con un testo molto lungo per testare i ritorni a capo ed eventuali problemi di
 
- ' *** ' Terzo punto
+ ' \*\*\* ' Terzo punto
 
 Diventa : 
- * Primo punto
- ** Secondo punto con un testo molto lungo per testare i ritorni a capo ed eventuali problemi di
- *** Terzo punto
+ \* Primo punto
+ \*\* Secondo punto con un testo molto lungo per testare i ritorni a capo ed eventuali problemi di
+ \*\*\* Terzo punto
 
 Esempio elenco numerato : 
  ' - ' Primo punto elenco numerato

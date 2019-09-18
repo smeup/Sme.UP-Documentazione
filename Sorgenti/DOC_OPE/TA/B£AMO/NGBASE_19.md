@@ -6,10 +6,10 @@ Il tasto F1 su questi campi richiama la seguente feature
 ![CalcoloDate01](http://localhost:3000/immagini/MBDOC_OPE-NGBASE_19/CalcoloDate01.png)
 che restituisce una data con il seguente meccanismo.
 Partendo come base di calcolo dalla data inserita in Inizio Calcolo da Data o, se non compilata, dalla data di sistema, si seleziona : 
- * il tipo di Periodo (Giorno, Settimana, Mese o Anno);
- * il numero di periodi di spostamento;
- * Precedente o Successivo per determinare se ci si muove indietro o avanti nel tempo;
- * Inizio o Fine per indicare se la data è quella dell'inizio o della fine del periodo prescelto.
+ \* il tipo di Periodo (Giorno, Settimana, Mese o Anno);
+ \* il numero di periodi di spostamento;
+ \* Precedente o Successivo per determinare se ci si muove indietro o avanti nel tempo;
+ \* Inizio o Fine per indicare se la data è quella dell'inizio o della fine del periodo prescelto.
 
 Vediamo qualche esempio.
 

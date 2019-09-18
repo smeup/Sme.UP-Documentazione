@@ -6,7 +6,7 @@ Nel codice dello schema è insita una specifica struttura che implica l'apparten
 Il gruppo di appartenenza indica a quale sottoinsieme degli elementi della tabella INT lo schema fa riferimento :  il gruppo è identificato dal primo carattere dell'elemento della tabella
  INT (es. se uno schema appartiene al gruppo A significa che nello schema posso utilizzare tutti elementi della tabella INT che iniziano per A).
  La serie al contrario indica con quale n° fra i 5 possibili schemi che posso esistere in un determinato gruppo lo schema viene identificato.
-Tale n° si riscontra nelle colonne indicate all'interno dell'elemento della tabella INT sotto l'intestazione "** SCHEMI INTERR. **".
+Tale n° si riscontra nelle colonne indicate all'interno dell'elemento della tabella INT sotto l'intestazione "\*\* SCHEMI INTERR. \*\*".
 
 > | Schema | Gruppo |  Serie |
 
@@ -53,16 +53,16 @@ Tale n° si riscontra nelle colonne indicate all'interno dell'elemento della tab
  è possibile introdurre nello schema dei campi calcolati in base ad attributi di oggetti utilizzati
  nello schema stesso.
 
- "&" + xxx + "*" + Tipo + "*" + Parametro + ">" + Codice OAV
+ "&" + xxx + "\*" + Tipo + "\*" + Parametro + ">" + Codice OAV
 
  Dove xxx è n° del campo dello schema che da il codice dell'oggetto dell'OAV.
 
  Se voglio che invece del valore dell'attributo mi venga ritornato la descrizione dell'attributo è
  sufficiente indicare due segni maggiori prima dell'OAV.
 Es.
- "&" + xxx + "*" + Tipo + "*" + Parametro + ">>" + Codice OAV
+ "&" + xxx + "\*" + Tipo + "\*" + Parametro + ">>" + Codice OAV
 
- NOTA BENE :  anche se il parametro è blank va comunque sempre indicato anche il secondo "*"
+ NOTA BENE :  anche se il parametro è blank va comunque sempre indicato anche il secondo "\*"
 
 
 

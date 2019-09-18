@@ -3,10 +3,10 @@ Gestione le informazioni relative agli avvisi di pagamento ricevute tramite home
 
 # ATTRIBUZIONE AUTOMATICA (CORRISPONDENTE ALLA VOCE DI MENU SPUNTA AUTOMATICA)
 Lanciando questa funzione per ogni avviso ancora in stato "attivo" viene lanciata una ricerca sulle scadenze passive aperte, ed in caso di corrispondenza perfetta (corrispondenza data dal soggetto reperito tramite il riferimento fiscale dell'avviso, dalla scadenza, dal tipo di pagamento e dall'importo), vengono automaticamente eseguite le seguenti azioni : 
- * cambio stato dell'avviso "da presentare" a "presentato"
- * indicazione sull'avviso dell'IDOJ della rata corrispondente
- * riporto dei dati dell'avviso sulla rata corrispondente
- * creazione automatica delle relativa pratica di ritiro riba, sul rapporto di c/c della banca riportata sull'avviso e con data pratica, la scadenza dell'avviso (Se un pratica con queste caratteristiche esiste già la rata viene aggiunta a tale pratica).
+ \* cambio stato dell'avviso "da presentare" a "presentato"
+ \* indicazione sull'avviso dell'IDOJ della rata corrispondente
+ \* riporto dei dati dell'avviso sulla rata corrispondente
+ \* creazione automatica delle relativa pratica di ritiro riba, sul rapporto di c/c della banca riportata sull'avviso e con data pratica, la scadenza dell'avviso (Se un pratica con queste caratteristiche esiste già la rata viene aggiunta a tale pratica).
 
 La relazione che si instaura fra l'avviso e la rata viene mantenuta anche successivamente, perciò una deselezione della rata associata dalla pratica di presentazione comporta automaticamente l'invesione dello stato dell'avvisO che torna allo stato da "presentare".
 

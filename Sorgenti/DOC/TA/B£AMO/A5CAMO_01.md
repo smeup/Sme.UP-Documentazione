@@ -9,12 +9,12 @@ Sono, invece, esclusi dal beneficio i beni utilizzati in base ad un contratto di
 La maggiorazione del 150% si traduce in un incremento del costo fiscalmente ammortizzabile che potrà essere dedotta solo a partire dall'esercizio in cui il bene sarà entrato in funzione e interconnesso
 
 Quindi per essere iperammortizzabile un cespite deve avere queste caratteristiche : 
- * Deve essere un bene _nuovo_
- * Deve essere un bene _strumentale_ all'attività dell'impresa
- * Deve essere incluso negli elenchi dell'allegato A alla legge 232/2016
- * Deve essere acquistato dall'azienda anche tramite leasing
- * Deve essere entrato in funzione
- * Deve essere interconnesso
+ \* Deve essere un bene _nuovo_
+ \* Deve essere un bene _strumentale_ all'attività dell'impresa
+ \* Deve essere incluso negli elenchi dell'allegato A alla legge 232/2016
+ \* Deve essere acquistato dall'azienda anche tramite leasing
+ \* Deve essere entrato in funzione
+ \* Deve essere interconnesso
 
 
 ## FAQ

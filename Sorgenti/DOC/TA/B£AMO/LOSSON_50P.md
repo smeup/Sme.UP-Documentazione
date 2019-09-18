@@ -25,8 +25,8 @@ Segue un dettaglio relativo alle diverse fasi di autenticazione (completamente t
 Una volta completata la verifica delle credenziali il client può usufruire del servizio (ad esempio un servizio di posta, un database ecc.).
 
 ## GLOSSARIO
- * **KDC - Key Distribution Center** :  consiste di tre parti, un database di tutti i Principal, il server di autenticazione e il server dei ticket granting ticket. Per ciascuno realm ci deve essere un KDC.
- * **Principal** :  qualsiasi utente, computer e servizi forniti dai server deve essere definito come come Kerberos Principal.
- * **TGT - Ticket Granting Ticket** :  è fornito da un server di autenticazione (AS), il Ticket Granting Ticket è crittato con la password dell'utente che è nota solo all'utente e al KDC.
- * **TGS - Ticket Granting Server** :  fornisce i Ticket ai client su richiesta.
- * **Ticket** :  conferma l'identità di due Principal. Uno è l'utente e l'altro è il servizio richiesto dall'utente. I Ticket stabiliscono una chiave di crittografia usata per una comunicazione sicura durante una sessione autenticata.
+ \* **KDC - Key Distribution Center** :  consiste di tre parti, un database di tutti i Principal, il server di autenticazione e il server dei ticket granting ticket. Per ciascuno realm ci deve essere un KDC.
+ \* **Principal** :  qualsiasi utente, computer e servizi forniti dai server deve essere definito come come Kerberos Principal.
+ \* **TGT - Ticket Granting Ticket** :  è fornito da un server di autenticazione (AS), il Ticket Granting Ticket è crittato con la password dell'utente che è nota solo all'utente e al KDC.
+ \* **TGS - Ticket Granting Server** :  fornisce i Ticket ai client su richiesta.
+ \* **Ticket** :  conferma l'identità di due Principal. Uno è l'utente e l'altro è il servizio richiesto dall'utente. I Ticket stabiliscono una chiave di crittografia usata per una comunicazione sicura durante una sessione autenticata.

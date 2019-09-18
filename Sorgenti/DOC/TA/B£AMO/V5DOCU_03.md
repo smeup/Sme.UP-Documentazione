@@ -17,10 +17,10 @@ E' possibile impostare "n" tipi riga tanti quanti tipi oggetto vogliamo gestire,
 ## GENERAZIONE ORDINE ACQUISTO
 La generazione dell'ordine di acquisto viene fatta attraverso un classico flusso di estrazione "V5"
 Si noti che l'estrazione può essere filtrata per  : 
-  * buyer
-  * fornitore
-  * stato approvazione rda
-  * oggetto
+  \* buyer
+  \* fornitore
+  \* stato approvazione rda
+  \* oggetto
 Dato che la conferma può originare  "n" testate di ordine fornitore, il flusso contiene un passo in cui inserire un programma XV5XX funizzato, che riceve nei parametri FUNT1/P1/K1 la testata V5 al fine di lanciare, ad esempio, il collegamento dell'ordine alla rda, la generazione dell'ordine Work-flow, la stampa dell'ordine a fornitore, etc...
 Il programma XV5RDA_ESE è un esempio applicativo.
 

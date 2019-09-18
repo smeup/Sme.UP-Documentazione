@@ -12,7 +12,7 @@ solo attraverso la condivisione di servizi.
 ## Eclipse Cloud Development
 
 Il framework Eclipse Cloud Development (d'ora in avanti identificato come ECD) è un modello proposto dall'infrastruttura
-Eclipse per la condivisione degli oggetti di tipo sorgente (identificati oggetti di tipo OJ*SRCF). Questo framework fornisce le
+Eclipse per la condivisione degli oggetti di tipo sorgente (identificati oggetti di tipo OJ\*SRCF). Questo framework fornisce le
 le seguenti funzionalità : 
 
 

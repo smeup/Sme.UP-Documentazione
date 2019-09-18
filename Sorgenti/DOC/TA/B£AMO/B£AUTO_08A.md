@@ -21,7 +21,7 @@ In questa scheda posso :
 Supponiamo di voler proteggere la modifica o la visibilità di un cliente in base alla filiale di riferimento. Procederemo nel modo seguente : 
 
 - Creiamo un OAV U/xxx del cliente che restituisca 'ENABLED' se l'utente di esecuzione del lavoro £PDSNU è abilitato a vedere il cliente e 'DISABLED' se non è abilitato
-- Aggiungiamo una riga nel AUTOOG0F con  AO£CLA  (Classe) 'OGG.MAS' , AO£TIP  (Tipo oggetto) 'CN',   AO£PAR (Parametro oggetto) 'CLI', AO£COD (Codice oggetto)  '' ,   AO£ATT (Attributo) 'U/xxx' ,  AO£VAL (Valore attributo) '', AO£GRA     (Funzione autorizzaz.) '**'
+- Aggiungiamo una riga nel AUTOOG0F con  AO£CLA  (Classe) 'OGG.MAS' , AO£TIP  (Tipo oggetto) 'CN',   AO£PAR (Parametro oggetto) 'CLI', AO£COD (Codice oggetto)  '' ,   AO£ATT (Attributo) 'U/xxx' ,  AO£VAL (Valore attributo) '', AO£GRA     (Funzione autorizzaz.) '\*\*'
 - Nell'UP AUT aggiungiamo un record con classe 'OGG.MAS' e funzione 'ENABLED' con valori massimi (99, 89, 79 ...)
 - Nell'UP AUT aggiungiamo un record con classe 'OGG.MAS' e funzione 'DISABLED' con valori minimi (91, 81, 71 ...)
 - Attiviamo "nuova gestione azioni" in B£2 con valore '1'

@@ -1,20 +1,20 @@
 # Generalità
 Il modulo "CALE" permette di costruire e di gestire il calendario della disponibilità di una Risorsa in funzione della sua periodicità, in particolare da la possibilità all'utente di definire i codici orario che devono essere rispettati per quel "Tipo Risorsa".
 Le funzioni a disposizione sono le seguenti : 
- * Gestione dei calendari
- ** Annuale
- ** Settimanale
- ** delle Eccezioni
+ \* Gestione dei calendari
+ \*\* Annuale
+ \*\* Settimanale
+ \*\* delle Eccezioni
 
 e le operazioni di : 
- * Interrogazione
- * Stampa
- * Definizione della Periodicità.
+ \* Interrogazione
+ \* Stampa
+ \* Definizione della Periodicità.
 
 I calendari a disposizione sono strutturati in modo diverso : 
- * Calendario Annuale, è suddiviso per mesi e giorni (matrice di 12 righe per 31 colonne);
- * Calendario delle Eccezioni, è di tipo mensile;
- * Calendario Settimanale, definisce i giorni lavorativi della settimana con l'aggiunta di 5 possibili giorni speciali.
+ \* Calendario Annuale, è suddiviso per mesi e giorni (matrice di 12 righe per 31 colonne);
+ \* Calendario delle Eccezioni, è di tipo mensile;
+ \* Calendario Settimanale, definisce i giorni lavorativi della settimana con l'aggiunta di 5 possibili giorni speciali.
 
 ![B£CALE_013](http://localhost:3000/immagini/B£CALE_002/BXCALE_013.png)
 Per come è strutturato, è possibile definire un calendario di disponibilità per la singola risorsa oppure per una tipologia di risorse, evitando il meccanismo di dover ripetere più volte la definizione dello stesso per le risorse simili (con la stessa disponibilità). Nello schema di dettaglio è possibile vedere come sono collegati i calendari di base, quali tabelle sono relazionate, le risorse collegate e le funzioni disponibili.
@@ -32,8 +32,8 @@ La proiezione del calendario Annuale (mese, giorno) fornisce il Codice Orario co
 Il calendario Annuale è formato dalla matrice che specifica per mese/giorno il Codice Orario : 
 
 ![B£CALE_015](http://localhost:3000/immagini/B£CALE_002/BXCALE_015.png)I valori accettati sono i seguenti : 
- * >F indica un giorno festivo;
- * >1, 2, 3, 4, 5 indica l'applicazione del relativo Giorno Speciale.
+ \* >F indica un giorno festivo;
+ \* >1, 2, 3, 4, 5 indica l'applicazione del relativo Giorno Speciale.
 
 Un qualsiasi carattere nella colonna "DET" di dettaglio permette di visualizzare il codice orario per tutti i giorni del mese in esame.
 A questo punto non resta che compilare la matrice, inserendo per ogni mese i codici validi per i giorni festivi (carattere F) oppure speciali (solo codici numerici), facendo attenzione al fatto che il codice inserito è il primo applicato a tutte le risorse aziendali.
@@ -45,20 +45,20 @@ Sfruttando il metodo della risalita è possibile far ereditare a un gruppo di ri
 
 ## Il Calendario Settimanale
 Il calendario settimanale descrive il comportamento della settimana tipica e contiene i seguenti codici : 
- * il Tipo Risorsa;
- * la Risorsa;
- * la Risorsa Collegata;
- * il Codice Orario;
- * la Percentuale del coefficiente di utilizzo;
- * la Quantità di risorse impiegate.
+ \* il Tipo Risorsa;
+ \* la Risorsa;
+ \* la Risorsa Collegata;
+ \* il Codice Orario;
+ \* la Percentuale del coefficiente di utilizzo;
+ \* la Quantità di risorse impiegate.
 Inoltre è possibile definire i Giorni Speciali (max 5) le cui caratteristiche sono impostate nella tabella OLG.
 
 **Esempio di impostazione del calendario settimanale di una risorsa**
 ![B£CALE_016](http://localhost:3000/immagini/B£CALE_002/BXCALE_016.png)
 Nell'orario Settimanale si specificano per Tipo e Codice Risorsa i seguenti dati : 
- * Risorsa Collegata, solo se la risorsa appartiene ad un gruppo con caratteristiche simili ( in questo caso i Codici Orario si lasciano "blank" dato che le informazioni necessarie si prenderanno da quest'ultima);
- * Codice Orario, dei giorni settimanali;
- * Giorni Speciali, con relativa descrizione e codice orario (nella determinazione della disponibilità risorsa, se presenti nel calendario annuale dei giorni speciali (1, 2, 3, 4, 5), nel calendario settimanale saranno considerati i codici orari assegnati ai rispettivi giorni speciali).
+ \* Risorsa Collegata, solo se la risorsa appartiene ad un gruppo con caratteristiche simili ( in questo caso i Codici Orario si lasciano "blank" dato che le informazioni necessarie si prenderanno da quest'ultima);
+ \* Codice Orario, dei giorni settimanali;
+ \* Giorni Speciali, con relativa descrizione e codice orario (nella determinazione della disponibilità risorsa, se presenti nel calendario annuale dei giorni speciali (1, 2, 3, 4, 5), nel calendario settimanale saranno considerati i codici orari assegnati ai rispettivi giorni speciali).
 
 # Eccezioni
 Il calendario delle Eccezioni è nato per descrivere tutte quelle situazioni che non possono essere coperte dalla definizione del calendario settimanale e dell'anno con i giorni festivi e quelli speciali.
@@ -83,22 +83,22 @@ In Sme.up la periodicità permette di descrivere periodi di ampiezza costante (g
 Uno degli utilizzi è nella gestione del Master Production Schedule (MPS), dove i periodi hanno ampiezza variabile (giorni nel breve, settimane nel medio, mesi nel lungo termine).
 Un tema conseguente è quello di poter inserire delle quantità cumulate per periodo e distribuirle nei componenti del periodo stesso (es. :  inserire quantità mensili e distribuirle nei giorni lavorativi o nelle settimane del mese).
 Questo strumento permette di verificare : 
- * come vengono costruiti i periodi dati (risorsa, periodicità, periodo iniziale);
- * la distribuzione, nei vari periodi, delle quantità inserite.
+ \* come vengono costruiti i periodi dati (risorsa, periodicità, periodo iniziale);
+ \* la distribuzione, nei vari periodi, delle quantità inserite.
 
 ![B£CALE_022](http://localhost:3000/immagini/B£CALE_002/BXCALE_022.png)
 Con le opzioni di sinistra è possibile : 
- * verificare la descrizione di dettaglio del periodo (vedi esempio)
- * data una quantità settimanale o mensile inserita nel periodo, verificare la sua distribuzione nei vari periodi (vedi esempio).
+ \* verificare la descrizione di dettaglio del periodo (vedi esempio)
+ \* data una quantità settimanale o mensile inserita nel periodo, verificare la sua distribuzione nei vari periodi (vedi esempio).
 
 ![B£CALE_023](http://localhost:3000/immagini/B£CALE_002/BXCALE_023.png)
 **Esempio distribuzione quantità mensile nei periodi**
 ![B£CALE_024](http://localhost:3000/immagini/B£CALE_002/BXCALE_024.png)
 # Tabelle particolari
 Le tabelle a cui fa riferimento il Calendario sono OLG, A£Q e TRG : 
- * O L G (Orario di Lavoro Giornaliero). Contiene i possibili orari definiti dall'utente secondo le proprie esigenze. Sono quindi codificati i possibili orari normali (turno normale 8-17, doppio turno, 3 turni, festivo, ecc...), ma anche le possibili eccezioni. Ogni elemento della tabella contiene, oltre alla descrizione dettagliata del singolo elemento, l'orario di inizio e di fine di ogni intervallo, che costiuisce il codice orario (sono possibili fino a 6 intervalli). Si noti che gli orari sono espressi in Centesimi e non in ore (es. :  le ore sei e mezza vengono indicate con 6,50).
- * A £ Q. la tabella in esame elenca le Periodicità disponibili che possono essere scelte, aggiunte, adattate, a seconda delle necessità aziendali. Si noti che nella tabella in esame non esiste un vincolo sul periodo :  qualunque combinazione scelta viene accettata e applicata di conseguenza.
- * T R G. questa tabella mostra l'elenco del Tipo Risorsa che dev'essere scelto con la relativa descrizione.
+ \* O L G (Orario di Lavoro Giornaliero). Contiene i possibili orari definiti dall'utente secondo le proprie esigenze. Sono quindi codificati i possibili orari normali (turno normale 8-17, doppio turno, 3 turni, festivo, ecc...), ma anche le possibili eccezioni. Ogni elemento della tabella contiene, oltre alla descrizione dettagliata del singolo elemento, l'orario di inizio e di fine di ogni intervallo, che costiuisce il codice orario (sono possibili fino a 6 intervalli). Si noti che gli orari sono espressi in Centesimi e non in ore (es. :  le ore sei e mezza vengono indicate con 6,50).
+ \* A £ Q. la tabella in esame elenca le Periodicità disponibili che possono essere scelte, aggiunte, adattate, a seconda delle necessità aziendali. Si noti che nella tabella in esame non esiste un vincolo sul periodo :  qualunque combinazione scelta viene accettata e applicata di conseguenza.
+ \* T R G. questa tabella mostra l'elenco del Tipo Risorsa che dev'essere scelto con la relativa descrizione.
 
 # Ricalcolo calendario
 La funzione di Ricalcolo del calendario, utilizzata solo dallo Schedulatore PF400, nasce per risolvere i problemi di Performance del ciclo produttivo e permette di collegare il calendario con tutte le risorse appartenenti alla fase di schedulazione.

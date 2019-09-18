@@ -25,8 +25,8 @@ Per l'inventario fisico possono essere usati dei supporti :
 
 
 # Archivi utilizzati
- :  : DEC T(OJ) P(*FILE) K(GMDAIN0F)
- :  : DEC T(OJ) P(*FILE) K(GMRIIN0F)
+ :  : DEC T(OJ) P(\*FILE) K(GMDAIN0F)
+ :  : DEC T(OJ) P(\*FILE) K(GMRIIN0F)
 
 # Tabelle utilizzate
  :  : DEC T(ST) K(GMI)

@@ -24,10 +24,10 @@ Questa attribuzione può avvenire contemporaneamente all'estrazione delle richie
 Una volta definito il viaggio questo dovrà passare attraverso una serie di elaborazioni che permettano di fare in modo che il viaggio parta in modo corretto alla data e all'ora prevista di partenza.
 
 Queste fasi si possono così sintetizzare : 
- * Invio dei dati relativi al viaggio allo spedizioniere
- * Esecuzione delle richieste di movimentazione (prelievi)
- * Gestione della packing list (confenzionamento)
- * Creazione del documento di trasporto
+ \* Invio dei dati relativi al viaggio allo spedizioniere
+ \* Esecuzione delle richieste di movimentazione (prelievi)
+ \* Gestione della packing list (confenzionamento)
+ \* Creazione del documento di trasporto
 
 Tutte queste fasi sono monitorate e gestite dal programma relativo alle attività sui viaggi
 ### PGM  Attività Viaggi

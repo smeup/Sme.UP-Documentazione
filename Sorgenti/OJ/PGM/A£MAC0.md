@@ -7,24 +7,24 @@ Scopo di tale funzione è di realizzare richiami compatti alle routines standard
 2.   Aumentare la leggibilità. I comandi da richiamare possono essere impostati in una forma del tipo : 
 OVRDBF (TABEL,TABEL01L)
 3.   Diminuire le possibilità di errori banali
-4.   Ottenere gli stessi vantaggi di modificabilità esterna di parti di programma comune. (decidere di gestire il carattere * nelle parzializzazioni ABC* uguale da ABC ad ABC999999)
+4.   Ottenere gli stessi vantaggi di modificabilità esterna di parti di programma comune. (decidere di gestire il carattere \* nelle parzializzazioni ABC\* uguale da ABC ad ABC999999)
 ## Esempio
 Si supponga di dover eseguire un programma che dopo aver controllato i limiti impostati a video sui valori VALINI e VALFIN, esegue una apertura del membro MEM1 del file FIL1 con nome NOM1.
 Per ogni record letto, si eseguono le decodifiche della tabella TA1 e del centro di costo.
 Avremo : 
 C              CRTFMT     BEGSR
-M* IMPLIM (VALINI,VALFIN)      Impostazione limiti
-M* CORLIM (VALINI,VALFIN,61)   Controllo se inf > sup e indic
+M\* IMPLIM (VALINI,VALFIN)      Impostazione limiti
+M\* CORLIM (VALINI,VALFIN,61)   Controllo se inf > sup e indic
 C                         ENDSR
-C*
+C\*
 C              APEFIL     BEGSR
-M* OVRDBF (NOM1,FIL1,MEM1,OPEN)
+M\* OVRDBF (NOM1,FIL1,MEM1,OPEN)
 C                         ENDSR
-C*
+C\*
 C              LETREC     BEGSR
 C                         READ NOM1
-M* £LETSM ('TA1',F$ELTA,DESTAB,51)
-M* £IFCDC (F$CDC,DESCDC,52)
+M\* £LETSM ('TA1',F$ELTA,DESTAB,51)
+M\* £IFCDC (F$CDC,DESCDC,52)
 C                         ENDSR
 ## FORMATO DI RICHIESTA PARAMETRI
 Il formato richiede membro, file e libreria di origine nel quale sono scritte le macro e la destinazione corrispondente per l'espansione e la creazione dell'RPG.
@@ -67,18 +67,18 @@ Se presente il carattere K, il parametro viene considerato come una costante e p
 -    Condizione
 Utilizzato per condizionare il tipo di controllo da eseguire sul parametro.
 ### Specifiche di tipo M
-M* xxx/xxx/xxx (PARAM.1, param.2, param.3 + param.4)
+M\* xxx/xxx/xxx (PARAM.1, param.2, param.3 + param.4)
 -    xxx/xxx/xxx = individuazione della macro mediante libreria/file/membro.
-Libreria/file sono facoltativi. Se non specificati si assumono *LIBL e file QMACGEN
+Libreria/file sono facoltativi. Se non specificati si assumono \*LIBL e file QMACGEN
 -    Membro
 E' il nome della macro da esplodere con inizio a posizione 9
 -    Parametri.
 Se i parametri sono scritti in maiuscolo significa che sono obbligatori, viceversa sono facoltativi)
 ### Specifiche di tipo C
-C        &1       IFEQ *BLANK                        -&3
-C                 MOVEL*BLANK'    &2                 &1
+C        &1       IFEQ \*BLANK                        -&3
+C                 MOVEL\*BLANK'    &2                 &1
 C                 ELSE                               &1
-C                 MOVEL*ALL'9'    &2                 &1
+C                 MOVEL\*ALL'9'    &2                 &1
 C                 END                                &1
 C        &1       CAT  &2 : 1       &3
 Trasferite nel programma finale contengono : 
@@ -93,12 +93,12 @@ Si inserisce una specifica di tipo M seguita dal nome della macro e dalle variab
 . Costante (racchiusa fra apici)
 . Se il parametro contiene il carattere ',' o il carattere '/' o delle parentesi tonde, nella chiamata della macro dovrà essere compreso tra i simboli minore '<' e maggiore '>'.
 Es.
-M* Nome_macro ( <PAR1,IND> ,  PAR 2 , PAR 3 )
+M\* Nome_macro ( <PAR1,IND> ,  PAR 2 , PAR 3 )
 NB : Sia i parametri che le costanti possono avere una lunghezza massima di 8 caratteri, compresi gli apici per le costanti.
 ### Numerazione parametri
 Se il parametro è mancante, si deve inserire comunque la virgola che lo precede, ad esempio yyy1,,,yyy4.
 ### Continuazione riga
-Una funzione macro può continuare su più righe. Per indicare che la riga continua si può inserire un carattere + e continuare con una nuova riga di tipo M*
+Una funzione macro può continuare su più righe. Per indicare che la riga continua si può inserire un carattere + e continuare con una nuova riga di tipo M\*
 
 ## TECNICA DI ESPANSIONE DELLE MACRO
 La sostituzione dei parametri viene eseguita con le seguenti regole : 

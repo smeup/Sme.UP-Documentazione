@@ -23,7 +23,7 @@
 ## PARAMETRI DI OUTPUT
  Descrizione del capo richiesto **£IR4DC**
  Oggetto     del capo richiesto **£IR4OC**
- Errore                         **£IR435, *IN35**
+ Errore                         **£IR435, \*IN35**
 
 # ESEMPI DI CHIAMATA
 # NOTE

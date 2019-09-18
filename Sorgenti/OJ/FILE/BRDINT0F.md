@@ -1,7 +1,7 @@
 ## Contenuto
 Record relativi alle dichiarazioni d'intento emesse (verso i fornitori) e ricevute (dai clienti). Con date e riferimenti caratteristici.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 Nessuno.
 
 ## Chiave primaria
@@ -17,8 +17,8 @@ Classi autorizzazione BRIN01G.
 
 ## Note strutturate (Tabella NSC)
  Il contenitore si assume dal parametro AWA della categoria £CA dell'azienda.
- Chiave 1  - OJ*FILE (BRDINT0F)
- Chiave 2  - ** (D§IDOJ)
+ Chiave 1  - OJ\*FILE (BRDINT0F)
+ Chiave 2  - \*\* (D§IDOJ)
  Chiave 3 -  N.A.
 
 ## Parametri (Tabella C£E)

@@ -1,7 +1,7 @@
 ## Contenuto
 Piano di ammortamento dei cespiti gestiti, definito a vari livelli di risatita.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'A1'                               £FUNT1
 
 ## Chiave primaria

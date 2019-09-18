@@ -11,14 +11,14 @@ Ad oggi ci sono qundi ventun repliche, per cui il livello massimo trattato dall'
 
 ##  Descrizione dell'algoritmo
 Si parte impostando il record di fabbisogno dell'assieme, nel programma guida
- :  : DEC T(OJ) P(*PGM) K(M5M5H0)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5H0)
 si imposta il livello 00 e si lancia il programma di nettificazione rispetto alla disponibilità libera
- :  : DEC T(OJ) P(*PGM) K(M5M5HE_00)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5HE_00)
 che, se la disponibilità libera (entro il tempo di approvvigionamento) non copre la quantità richiesta, scrive un ordine a partire dalla data inizio atp.
 Se non è un primo livello, avanza i livelli superiori a partire dalla fine dell'ordine (consumando la disponibilità libera che incontra)
- :  : DEC T(OJ) P(*PGM) K(M5M5HI)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5HI)
 ed eventualmente allineando i livelli inferiori (fino a quello in corso) se è stata trovata disponibilità libera nell'avanzamento.
- :  : DEC T(OJ) P(*PGM) K(M5M5HA_00)
+ :  : DEC T(OJ) P(\*PGM) K(M5M5HA_00)
 Dopo di ciò, si aumenta di uno il livello in corso, e per ogni componente si  lancia la copia del programma di nettificazione del livello relativo, ed il processo riprende ciclicamente, fino a raggiungere le foglie, oppure quando un intero livello è coperto da disponibilità libera.
 
 Come azione finale, è possibile eseguire un compattamento "al più tardi" che appiattisce i rami non critici alla data fine dei rami critici corrispondenti, con lo scopo di consumare un'eventuale disponibilità libera più avanti nel tempo, liberando quella più precoce (e quindi più preziosa per successivi ATP).
@@ -35,7 +35,7 @@ Come azione finale, è possibile eseguire un compattamento "al più tardi" che a
 . |          M5M5HE_lv
 . |          - avanza la data del lead time
 . |          - scrive la disponibilità libera
-. |          - nettifica :  se è coperto ---------> ** FINE **
+. |          - nettifica :  se è coperto ---------> \*\* FINE \*\*
 . |          - passa il numero dell'assieme
 . |               |
 . |     --->-------
@@ -64,7 +64,7 @@ Come azione finale, è possibile eseguire un compattamento "al più tardi" che a
 . |               |
 . |         - rilegge il record
 . |         - se non c'è più
-. |           o se ha quantità 0 ----> ** FINE **
+. |           o se ha quantità 0 ----> \*\* FINE \*\*
 . |             vuol dire che è stato tolto in discesa dall'assieme
 . |             che ha trovato disponibilità nell'avanzamento
 . |         - se è ancora valido
@@ -73,13 +73,13 @@ Come azione finale, è possibile eseguire un compattamento "al più tardi" che a
 . |         - esplode la distinta a un livello
 . |         - imposta lv = lv +1
 . |         - per ogni componente
-. |         - finiti i componenti (sì)---> ** FINE **
+. |         - finiti i componenti (sì)---> \*\* FINE \*\*
 . |             (no)
 . |               |
 . -----<-----------
 .
 .
-.          *** FINE ***
+.          \*\*\* FINE \*\*\*
 .              |
 .          (è sempre in M5M5H0)
 .          - calcolo disponibilità pronta

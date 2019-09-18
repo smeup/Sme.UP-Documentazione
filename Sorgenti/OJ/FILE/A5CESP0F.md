@@ -1,7 +1,7 @@
 ## Contenuto
 Dati descrittivi e classificazioni del cespite.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'CE'                               £FUNT1
 
 ## Chiave primaria
@@ -24,9 +24,9 @@ Essa contiene, tra l'atro, un elemento della tabella Inizializzazione cespite (A
 La classe di autorizzazione è A5CE01.
 
 La funzione di autorizzazione è il programma in cui si esegue il controllo : 
- * A5CE01G   -    Formato guida
- * A5CE01L   -    Lista richiamata dal formato guida
- * A5CE01LA  -    Lista richiamata dalla ricerca. Se si vuol permettere la manutenzione dalla ricerca (inserimento, variazione) si autorizza a questo livello.
+ \* A5CE01G   -    Formato guida
+ \* A5CE01L   -    Lista richiamata dal formato guida
+ \* A5CE01LA  -    Lista richiamata dalla ricerca. Se si vuol permettere la manutenzione dalla ricerca (inserimento, variazione) si autorizza a questo livello.
 
 ### Note strutturate (Tabella NSC)
 Il contenitore si assume dalla tabella A5W (Inizializzazioni A5), collegata alla categoria fiscale del cespite (Tab. A5A).

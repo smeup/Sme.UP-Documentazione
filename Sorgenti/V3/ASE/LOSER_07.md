@@ -14,7 +14,7 @@ le sottoschede, le sezioni e le subsezioni di uno script, in base all'elemento s
 - SCH.SCH :  elenca le sottoschede presenti nello script di scheda;
 - SCH.SEZ :  elenca le sezioni presenti in una sottoscheda precedentemente selezionata;
 - SCH.SUB :  elenca le sottosezioni (i componenti grafici) presenti in una sezione precedentemente selezionata.
-- SCH.SCO :  elenca le schede chiamate all'interno dello script in esame. L'identificazione viene effettuata tramite la ricerca delle parole chiave *SCO e JATRE_18. Sono considerate valide per il richiamo le chiamate a funzione che non contengono variabili statiche o dinamiche.
+- SCH.SCO :  elenca le schede chiamate all'interno dello script in esame. L'identificazione viene effettuata tramite la ricerca delle parole chiave \*SCO e JATRE_18. Sono considerate valide per il richiamo le chiamate a funzione che non contengono variabili statiche o dinamiche.
 Cliccando due volte sulla riga della matrice, si apre la scheda corrispondente.
 
 

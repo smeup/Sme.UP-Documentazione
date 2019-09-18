@@ -20,12 +20,12 @@ Inoltre sempre nell elemento della tabella CQ0 va messo 1 sia su Gestione Modifi
 Vanno definiti anche due elementi nella tabella NSC delle note strutturate : 
    :  : DEC T(ST) K(NSC)
 il primo elemento che comparirà nel campo Contenitore Docum. dovrà avere : 
- * __**__ appartenente alla tabella : 
+ \* __\*\*__ appartenente alla tabella : 
 
- :  : DEC T(ST) K(*CNTT)
+ :  : DEC T(ST) K(\*CNTT)
 
 nel campo Codice 1.
- * __Q9000-DOCU__ appartenente alla tabella : 
+ \* __Q9000-DOCU__ appartenente alla tabella : 
 
  :  : DEC T(ST) K(NSA)
 
@@ -35,7 +35,7 @@ nel campo Archivio
  :  : DEC T(ST) K(NSL)
 
 nel campo S/S Lista Distrib.
- * __DCU__ appartenente alla tabella : 
+ \* __DCU__ appartenente alla tabella : 
 
  :  : DEC T(ST) K(NSC)
 
@@ -66,10 +66,10 @@ Si stampa del benestare del collaudo che sono i dati del ciclo fusi su quello de
 V R su una fase del ciclo di collaudo e poi si mettono dentro i valori rilevati
 
 Autorizzazioni   da verificare prima di partire
- * CQNC01_SVI
- * PLC-CQNC01
- * cqnc01
- * cqri10
+ \* CQNC01_SVI
+ \* PLC-CQNC01
+ \* cqnc01
+ \* cqri10
 
 ### Da segnalare : 
 Il tipo ordine che viene riportato nella non conformità  è quello che viene riportato nel tipo lotto che non è quello della v5d che è di 3 caratteri che se vengono utilizzati tutti non si faserà mai

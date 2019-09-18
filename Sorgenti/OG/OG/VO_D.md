@@ -4,7 +4,7 @@
  - Descrizione della voce (35 caratteri)
  - Contenuto della voce (testo libero)
 
-### SIGLA OGGETTO in TA/*CNTT
+### SIGLA OGGETTO in TA/\*CNTT
  'VO'                               £FUNT1
 
 ### CHIAVE PRIMARIA

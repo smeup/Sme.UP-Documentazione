@@ -7,7 +7,7 @@ Richiamando il programma B£UT11 (compilazione di massa) e scegliendo l'opzione 
 
 Normalmente se si indica un file di una libreria vengono creati i membri riordinati in un file di una libreria definiti dall'utente.
 
-Quando si sceglie *ALL (Tutti i files) si ottengono le strutture di controllo.
+Quando si sceglie \*ALL (Tutti i files) si ottengono le strutture di controllo.
 Per ogni membro vengono evidenziati : 
 - Libreria
 - File

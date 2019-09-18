@@ -37,27 +37,27 @@ Per maggiori informazioni sulla schedulazione a capacità infinita si rimanda al
 - [Schedulazione a Capacità Infinita](Sorgenti/DOC/TA/B£AMO/S5_001)
 
 Guardiamo ora nel dettaglio le diverse tipologie di esplorazione dei cicli : 
-** __11= Esplosione tecnica__  :  è l'esplorazione che permette di visualizzare tutte le fasi del ciclo di lavoro che servono per realizzare un singolo prodotto. Questa esplosione non è sensibile alla data di validità delle fasi e permette di consultare il ciclo così come definito a livello teorico.
-** __12= Esplosione di produzione__ : è l'esplorazione che permette di visualizzare tutte le fasi del ciclo di lavoro che servono per realizzare un singolo prodotto. Questa è sensibile alla data di validità delle fasi :  verranno visualizzate solo le fasi che sono valide rispetto alla data impostata nel filtro. Se omessa, come data limite verrà assunta la data del giorno.
-** __21= Implosione tecnica__ :  è l'esplorazione che permette di visualizzare tutte le fasi dei cicli tecnici che possono essere svolte da una precisa risorsa. Come il metodo 11, anche in questo caso la data di validità non viene presa in considerazione.
-** __22= Implosione di produzione__ : è l'esplorazione che permette di visualizzare tutte le fasi dei cicli tecnici che possono essere svolte da una precisa risorsa e che sono compatibili con la data di validità impostatata nel filtro. Se omessa, viene assunta come data di validità limite quella del giorno.
-** __31= Schedulata al più presto__ :  permette di visualizzare le fasi di un ciclo in modo che queste vengano svolte il prima possibile (schedulate cioè al più presto) sulle macchine.
-** __32= Schedulata al più tardi__ :  permette di visualizzare le fasi di un ciclo pianificate al più tardi sulle varie risorse.
+\*\* __11= Esplosione tecnica__  :  è l'esplorazione che permette di visualizzare tutte le fasi del ciclo di lavoro che servono per realizzare un singolo prodotto. Questa esplosione non è sensibile alla data di validità delle fasi e permette di consultare il ciclo così come definito a livello teorico.
+\*\* __12= Esplosione di produzione__ : è l'esplorazione che permette di visualizzare tutte le fasi del ciclo di lavoro che servono per realizzare un singolo prodotto. Questa è sensibile alla data di validità delle fasi :  verranno visualizzate solo le fasi che sono valide rispetto alla data impostata nel filtro. Se omessa, come data limite verrà assunta la data del giorno.
+\*\* __21= Implosione tecnica__ :  è l'esplorazione che permette di visualizzare tutte le fasi dei cicli tecnici che possono essere svolte da una precisa risorsa. Come il metodo 11, anche in questo caso la data di validità non viene presa in considerazione.
+\*\* __22= Implosione di produzione__ : è l'esplorazione che permette di visualizzare tutte le fasi dei cicli tecnici che possono essere svolte da una precisa risorsa e che sono compatibili con la data di validità impostatata nel filtro. Se omessa, viene assunta come data di validità limite quella del giorno.
+\*\* __31= Schedulata al più presto__ :  permette di visualizzare le fasi di un ciclo in modo che queste vengano svolte il prima possibile (schedulate cioè al più presto) sulle macchine.
+\*\* __32= Schedulata al più tardi__ :  permette di visualizzare le fasi di un ciclo pianificate al più tardi sulle varie risorse.
 Nelle esplorazioni con schedulazione, è possibile visualizzare anche il gant che mostra, per ciascuna fase, l'occupazione in termini di tempo della risorsa abbinata a ogni singola fase. Tale occupazione dipende in modo proporzionale dalla quantità di prodotto da realizzare e dalla durata della singola operazione.
 
 A seconda di quello che si sceglie come modalità di esplorazione, sia essa implosione o esplosione, si avrà la possibilità di impostare alcuni filtri piuttosto che altri.
 **1.**Con una scansione __tecnica** possiamo impostare le informazioni di base legate ai cicli.
 In questo caso i filtri su cui è possibile agire sono : 
-** Ciclo :  è un campo di fondamentale importanza per quei cicli per i quali è stato impostato il prefisso e la gestione tramite testata;
-** Quantità :  funge da moltiplicatore e serve per vedere i tempi del ciclo moltiplicati per la quantità qui inserita.
-** Stato legami :  per filtrare le fasi che sono in uno stato particolare.
-** Ums :  per convertire i valori da una unità di misura a un'altra.
-** CCar :  codice di carico, usato nella determinazione dei tempi e dei costi.
-** Schema :  per cambiare le colonne delle informazioni che vengono caricate nella sezione centrale della scheda.
+\*\* Ciclo :  è un campo di fondamentale importanza per quei cicli per i quali è stato impostato il prefisso e la gestione tramite testata;
+\*\* Quantità :  funge da moltiplicatore e serve per vedere i tempi del ciclo moltiplicati per la quantità qui inserita.
+\*\* Stato legami :  per filtrare le fasi che sono in uno stato particolare.
+\*\* Ums :  per convertire i valori da una unità di misura a un'altra.
+\*\* CCar :  codice di carico, usato nella determinazione dei tempi e dei costi.
+\*\* Schema :  per cambiare le colonne delle informazioni che vengono caricate nella sezione centrale della scheda.
 **2.** Con una scansione __di produzione** possiamo eventualmente scegliere di vedere anche altri campi oltre a quelli appena citati.
 Esempi di questi filtri aggiuntivi sono : 
-**Logistica :  è un flag che permette di visualizzare per ogni fase, tutti i materiali a essa abbinati.
-**Esponente di modifica e Configurazione :  sono informazioni legate all'articolo.
+\*\*Logistica :  è un flag che permette di visualizzare per ogni fase, tutti i materiali a essa abbinati.
+\*\*Esponente di modifica e Configurazione :  sono informazioni legate all'articolo.
 
 Ciascuno di questi filtri è dotato di una documentazione che ne spiega il significato, l'utilità e lo scopo. A questa si può accedere premendo il tasto funzionale F1 con il cursore del mouse posizionato sul filtro specifico : 
 

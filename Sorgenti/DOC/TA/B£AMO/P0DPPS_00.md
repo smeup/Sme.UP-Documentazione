@@ -19,8 +19,8 @@ _3_Tabelle interessate
 | P01|Personalizzazione P0 |
 | P0G|Tabella Archivi Informatici	 |
 | P0H |Tabella Archivi cartacei	 |
-| P0*MA|Metodi accesso	 |
-| P0*PC|PC caratteristiche	 |
+| P0\*MA|Metodi accesso	 |
+| P0\*PC|PC caratteristiche	 |
 | A5E|Ubicazione cespite	 |
 | A5D|Classe Implicita	 |
 | 

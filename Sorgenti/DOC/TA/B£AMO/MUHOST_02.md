@@ -10,9 +10,9 @@ In alternativa non è possibile ingrandire un file system, ma occorre creare e m
 
 ### Troppi file aperti
 
-* verificare il numero max con il comando :  ulimit -n
-* impostare il numero massimo con il comando :  ulimit -n nnnnn (es 16384)
-* per impostare il limite in modo permanente editare il file /etc/security/limits.conf
+\* verificare il numero max con il comando :  ulimit -n
+\* impostare il numero massimo con il comando :  ulimit -n nnnnn (es 16384)
+\* per impostare il limite in modo permanente editare il file /etc/security/limits.conf
 
 ### Caratteri speciali in copia+incolla cartelle da client Windows
 // TODO

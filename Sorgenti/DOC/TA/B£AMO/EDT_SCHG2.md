@@ -12,7 +12,7 @@ tipologie presentano dei parametri in comune.
 
 ## Tit - Intestazione
 
-Nome della subsezione. Può anche contenere il valore *NONE nel caso non voglia visualizzare
+Nome della subsezione. Può anche contenere il valore \*NONE nel caso non voglia visualizzare
 l'etichetta della subsezione.
 
 Obbligatorio = SI
@@ -20,7 +20,7 @@ Default = Nullo
 
 ## Id  - Identificativo
 
-Questa campo serve per identificare la subsezione nel caso sia stato utilizzato il codice *NONE
+Questa campo serve per identificare la subsezione nel caso sia stato utilizzato il codice \*NONE
 per la subsezione, o nel caso voglia utilizzare la stessa intestazione per più subsezioni.
 
 Obbligatorio = NO

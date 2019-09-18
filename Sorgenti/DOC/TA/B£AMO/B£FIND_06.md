@@ -5,7 +5,7 @@ Per ogni oggetto è stato creato uno strumento di analisi delle ricerche.
 ## Descrizioni degli attributi
 E' possibile modificare la descrizione degli attributi per le ricerche. Di norma viene usata la descrizione standard dei file o degli OAV, ma c'è la possibilità di cambiarla per semplificarla o evitare ambiguità. I record vengono scritti sul C£LING0F con le seguenti chiavi : 
 
-T§TIPO :  '**' + oggetto (Es. CNCLI)
+T§TIPO :  '\*\*' + oggetto (Es. CNCLI)
 T§CODI :  codice dell'attributo (Es. E§FL19)
 T§LING :  lingua derivata dalla tabella B£2
 
@@ -16,7 +16,7 @@ I preferiti possono essere a livello di utente (C/COL) o a livello di gruppo (G/
 I valori sono salvati sul B£MEDE0F con le seguenti chiavi : 
 
 METIPA :  'TAB£U'
-MECODI :  Nome utente per i 'C/COL' o '**' per i 'G/COL'
+MECODI :  Nome utente per i 'C/COL' o '\*\*' per i 'G/COL'
 MECOD1 :  'CARRELLO'
 MECOD2 :  'OA' + oggetto + '.COL' (Es. OACNCLI.COL)
 
@@ -26,7 +26,7 @@ Questa selezione permette di escludere questi attributi dall'elenco nelle parzia
 I valori sono salvati sul B£MEDE0F con le seguenti chiavi : 
 
 METIPA :  'TAB£U'
-MECODI :  '**'
+MECODI :  '\*\*'
 MECOD1 :  'CARRELLO'
 MECOD2 :  'OA' + oggetto + '.COLE' (Es. OACNCLI.COLE)
 
@@ -43,7 +43,7 @@ T§LING :  lingua derivata dalla tabella B£2
 Queste descrizioni sono archiviate nel file C£ALIA0F ed la normalizzazione varia da oggetto ad oggetto secondo le regole usate dalla /Copy £K40. Le chiavi di scrittura sul file sono le seguenti : 
 E$TIP1 :  oggetto (Es. OG)
 E$COD1 :  codice oggetto (Es. CNCLI)
-E$TIP2 :  '**'
+E$TIP2 :  '\*\*'
 E$COD2 :  Codice elemento codice oggetto (Es. codice cliente)
 E$ALIA :  '£DE'
 E$SCD2 :  Codice Azienda

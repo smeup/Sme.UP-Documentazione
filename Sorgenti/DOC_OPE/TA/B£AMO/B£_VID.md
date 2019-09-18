@@ -77,7 +77,7 @@ Con questa schermata si limitano / ricercano i record da presentare nella lista.
 Se presente l'ordinamento, si definisce anche il modo con cui i record selezionati saranno ordinati.
 Per ragioni di performance, scegliendo ordinamenti diversi da quello di default, vengono prestese anche le opportune parzializzazioni (es. :  nella videata di parzializzazione dei centri di lavoro, se si vuole ordinare per centro di costo, deve essere impostata una parzializzazione per centro di costo).
 Se presente lo schema, si possono scegliere i campi da visualizzare in lista.
-Se presente la scansione, la ricerca dei record da presentare può essere fatta anche per caratteri contenuti nel codice (es. :  inserendo *AUT* nella scansione descrizione, vengono presentati tutti i centri di lavoro che hanno le 3 lettere >AUT all'interno dela descrizione).
+Se presente la scansione, la ricerca dei record da presentare può essere fatta anche per caratteri contenuti nel codice (es. :  inserendo \*AUT\* nella scansione descrizione, vengono presentati tutti i centri di lavoro che hanno le 3 lettere >AUT all'interno dela descrizione).
 Alcune gestioni richiedono l'utilizzo di parzializzazioni superiori a quelle consentite da una unica videata di selezione :  in questi casi con >F13__ si passa alle __"Altre parzializzazioni".
 Tutte le parzializzazioni impostate possono essere identificate con un codice identificativo e memorizzate.
 - [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)

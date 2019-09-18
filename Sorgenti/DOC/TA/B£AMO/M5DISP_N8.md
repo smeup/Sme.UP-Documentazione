@@ -3,8 +3,8 @@ Riportiamo di seguito una serie di aspetti a cui prestare attenzione nell'utiliz
 # Quantità
 
 Su fonti di copertura futura (ordini di produzione, acquisto, conto lavoro) impostare : 
- * Quantità residua in £M5DQT;
- * Quantità originale in £M5DQO, al fine di permettere all'MRP la corretta emissione di suggerimenti di riduzione.
+ \* Quantità residua in £M5DQT;
+ \* Quantità originale in £M5DQO, al fine di permettere all'MRP la corretta emissione di suggerimenti di riduzione.
 
 # Date
 
@@ -13,8 +13,8 @@ Su fonti di copertura futura (ordini di produzione, acquisto, conto lavoro) se n
 # Campi per navigazione (implosione/esplosione)
 
 Al fine di consentire una corretta navigazione tra i fabbisogni e le coperture è necessario : 
- * Impostare nel campo tipo documento (£M5DTD) i valori '*AS' per le coperture (ordini) e '*CO' per i fabbisogni (impegni).
- * Impostare in maniera congruente i campi numero documento e numero riga (£M5DND e £M5DRG).
+ \* Impostare nel campo tipo documento (£M5DTD) i valori '\*AS' per le coperture (ordini) e '\*CO' per i fabbisogni (impegni).
+ \* Impostare in maniera congruente i campi numero documento e numero riga (£M5DND e £M5DRG).
 
 # Campi per navigazione (implosione/esplosione)
 

@@ -24,7 +24,7 @@ Operatore logico di selezione.
 Valore di selezione.
  :  : FLD T$B§OR **App.SmeUP**
 Impostando questo parametro, nelle ricerche grafiche, si abilitano : 
-* schemi T/*
-* schemi Q/*
-* altre ricerche di Surf
+\* schemi T/\*
+\* schemi Q/\*
+\* altre ricerche di Surf
 _r_N.B : Questa opzione può essere abilitata solo se l'oggetto è standard e il database è si SmeUP.

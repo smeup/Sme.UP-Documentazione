@@ -53,9 +53,9 @@ In questo campo si definisce il suffisso del nome del programma GMFO01E_x (dove 
 La rilevanza del richiamo è data dalla funzione espletata dal "programma specifico", se interna ai soli movimenti e giacenze di magazzino, o se estesa ad altre aree applicative (quindi da non rieseguire ad ogni estrazione di Foto).
  :  : FLD T$GM1O __Scenari in valorizzazione fiscale__
 È un elemento V2 SI/NO. Se impostato, vengono attivati diversi ambienti di valorizzazione fiscale (sui diversi scenari) :  in questo caso, prima dell'esecuzione di ogni funzione riguardante la valorizzazione, viene richiesto lo scenario.
-Gli scenari vengono impostati nella tabella GM3 e lo scenario assunto è '**'.
+Gli scenari vengono impostati nella tabella GM3 e lo scenario assunto è '\*\*'.
 Va ricordato che non è necessaria la presenza dello scenario assunto :  in mancanza, si considera che siano vuoti tutti i suoi campi.
-Nello scenario vengono impostate le modalità della valorizzazione. In particolare viene fissato l'oggetto intestatario della valorizzazione, e se non presente o non presente alcun scenario (quindi assunto '**') l'oggetto intestatario sarà 'AR' (articolo).
+Nello scenario vengono impostate le modalità della valorizzazione. In particolare viene fissato l'oggetto intestatario della valorizzazione, e se non presente o non presente alcun scenario (quindi assunto '\*\*') l'oggetto intestatario sarà 'AR' (articolo).
  :  : FLD T$GM1Q __Revis. mov. a storno__
 È un elemento V2 SI/NO. Definisce se la modalità generale di revisione dei movimenti di magazzino è di tipo "con movimento di storno", oppure diretta sul movimento di magazzino interessato.
 Ha rilevanza in caso di "Scollegamento documenti" oppure "Revisione movimenti di magazzino". Nel caso di impostazione per "storno", assume i seguenti comportamenti : 
@@ -90,7 +90,7 @@ Se impostato, in stampe e interrogazioni dell'archivio giacenze, vengono rappres
  :  : FLD T$GM1Z __Contr.Inserim. GMC__
 Se impostato (valore 1), si attiva il controllo in fase di inserimento delle causali di magazzino, tabella GMC, della codifica della causale stessa. La causale dovrà essere composta nella forma XXYY dove : 
 XX=Area di magazzino.
-YY=Causale della transazione (deve essere un elemento della tabella GM*CM).
+YY=Causale della transazione (deve essere un elemento della tabella GM\*CM).
 Inoltre, è possibile inserire causali "neutre" (che non utilizzano nessuna area, quindi di tipo statistico) inserendo la sigla fissa 'ST' al posto dell'area. In questo caso l'inserimento di YY è libero.
  :  : FLD T$GM1X __Gest.risalite(+=ges)__
 In questo campo è possibile cambiare la modalità di risalita di alcuni dati magazzino/articolo.

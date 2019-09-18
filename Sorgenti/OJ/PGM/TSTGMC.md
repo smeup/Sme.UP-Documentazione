@@ -2,15 +2,15 @@
 Restituire la giacenza ad una certa data
 
 # Funzioni e metodi
- * Funzione - "INI  "   :  A inizio giornata
- ** Metodo   - "AVA"    :  In avanti da 0  a data richiesta
- ** Metodo   - "IND"    :  Da oggi a data richiesta
- * Funzione - "FIN  "   :  A fine  giornata
- ** Metodo   - "AVA"    :  In avanti da 0  a data richiesta
- ** Metodo   - "IND"    :  Da oggi a data richiesta
+ \* Funzione - "INI  "   :  A inizio giornata
+ \*\* Metodo   - "AVA"    :  In avanti da 0  a data richiesta
+ \*\* Metodo   - "IND"    :  Da oggi a data richiesta
+ \* Funzione - "FIN  "   :  A fine  giornata
+ \*\* Metodo   - "AVA"    :  In avanti da 0  a data richiesta
+ \*\* Metodo   - "IND"    :  Da oggi a data richiesta
 
 # Input
-Attenzione :  mettere '*' sulle chiavi giacenza 1/4 se si vuole considerare tutti i valori!
+Attenzione :  mettere '\*' sulle chiavi giacenza 1/4 se si vuole considerare tutti i valori!
 £GMCFU :  funzione
 £GMCME :  metodo
 £FUNK2 :  Articolo

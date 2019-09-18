@@ -6,9 +6,9 @@ Questa tabella guida alla definizione dei tipi di ciclo di collaudo della relati
  La risalita avviene in questo modo : 
   -1- Dato il tipo ciclo definito in tab CQL si valorizzano le chiavi con i valori del lotto. Si cerca il ciclo di quel tipo con quelle chiavi.
 Il modo con cui si valorizzano le chiavi è definito (cablato) nel pgm B£ICQC0. Se, ad esempio, la prima chiave della griglia è AR, il pgm B£ICQC0 sostituisce al primo codice il valore dell'articolo del lotto (T$ARTI); se la chiave è CN-FOR verrà sostituito l'ente di addebito (T$COEA)... ecc...
-  -2- Se non viene trovato un ciclo con queste chiavi, si sostituisce il valore generico (**) alle chiavi e si cerca questo stesso tipo ciclo con le nuove chiavi.
+  -2- Se non viene trovato un ciclo con queste chiavi, si sostituisce il valore generico (\*\*) alle chiavi e si cerca questo stesso tipo ciclo con le nuove chiavi.
   -3- Se non viene ancora trovato si provano a sostituire i valori dei rispettivi OAV (impostati in tab CRJ) alle chiavi e si cerca il tipo ciclo di risalita (T$CRJK) con queste nuove chiavi.
-  -4- Se non viene ancora trovato si sostituisce il valore generico (**) alle chiavi.
+  -4- Se non viene ancora trovato si sostituisce il valore generico (\*\*) alle chiavi.
   -5- Se non trovato si ricomincia da capo, provando le risalite tramite gli OAV definiti nel tipo ciclo di risalita. In pratica si percorre una catena di elementi della CRJ, continuando a sostituire alle chiavi i valori dell'OAV e cercando il ciclo del tipo def in T$CRJK .
 _7_Attenzione a non creare un loop infinito!
  N.B. Se nei campi T$CRJD,T$CRJG o T$CRJJ al posto dell'OAV scrivo 'STOP', quando faccio una risalita su un nuovo tipo ciclo il relativo codice, non viene riportato (viene perso).
@@ -20,7 +20,7 @@ Non gestiti
  :  : FLD T$CRJA **Tipo Griglia**
 È un elemento della tabella B£G. Definisce gli oggetti del Ciclo di Collaudo
 NB. Se previsti in griglia gli oggetti sono obbligatori anche se non indicato espressamente dall tab. B£G, in caso non si
-    voglia specificare un valore preciso usare i caratteri "**".
+    voglia specificare un valore preciso usare i caratteri "\*\*".
  :  : FLD T$CRJD **OAV Risalita 1**
 Leggere all'inizio di questo documento come funzionano le risalite sugli OAV.
 Inserire l'OAV del primo oggetto della griglia definita in T$CRJA

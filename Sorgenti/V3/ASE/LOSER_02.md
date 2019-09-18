@@ -19,14 +19,14 @@ Costruisce un oggetto. È equivalente alla funzione LAB (mantenuta per compatibi
 - alberi monoelemento
 
 # SCHEDE CONTENENTI ESEMPI DI CHIAMATE
- :  : DEC T(**) I(Componenti grafici) O(I) X({F(EXD;*SCO;) 2(MB;SCP_SCH;ESE1B) 4(;;GRA)}) O(I)
- :  : DEC T(**) I(Testi formattati) X({F(EXD;*SCO;) 2(MB;SCP_SCH;ESE1B) 4(;;TXT)}) O(I)
+ :  : DEC T(\*\*) I(Componenti grafici) O(I) X({F(EXD;\*SCO;) 2(MB;SCP_SCH;ESE1B) 4(;;GRA)}) O(I)
+ :  : DEC T(\*\*) I(Testi formattati) X({F(EXD;\*SCO;) 2(MB;SCP_SCH;ESE1B) 4(;;TXT)}) O(I)
 
  :  : PRO.SER Cod="GAU.1" Tit="Cruscotto. " Fun="F(EXB;LOSER_02;GAU) P( MIN(-(F;;NR;Minimo)) SG1(-(F;;NR;Soglia 1)) SG2(-(F;;NR;Soglia 2)) MAX(-(F;;NR;Massimo)) VAL(-(F;;NR;Valore)) INV(-(F;;V2SI/NO;Inversione)))"
 
  :  : PRO.SER Cod="SEM.2" Tit="Semaforo. " Fun="F(EXB;LOSER_02;SEM) P( SG1(-(F;;NR;Soglia 1)) SG2(-(F;;NR;Soglia 2)) VAL(-(F;;NR;Valore)))"
 
- :  : PRO.SER Cod="LAB.3" Tit="Label. " Fun="F(EXB;LOSER_02;LAB) 1(**;;-(F;;**;Oggetto label)) P( TXT(-(F;;**;Testo)) FUN(-(F;;J1FUN;Funzione)))"
+ :  : PRO.SER Cod="LAB.3" Tit="Label. " Fun="F(EXB;LOSER_02;LAB) 1(\*\*;;-(F;;\*\*;Oggetto label)) P( TXT(-(F;;\*\*;Testo)) FUN(-(F;;J1FUN;Funzione)))"
 
  :  : PRO.SER Cod="OGG.4" Tit="Oggetto. " Fun="F(EXB;LOSER_02;OGG)" Ref="LAB.3"
 

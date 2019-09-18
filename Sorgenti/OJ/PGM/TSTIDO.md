@@ -4,14 +4,14 @@ Gestire tramite le sue viste logiche ogni accesso al file V5TDOC0F.
 ### FUNZIONI
 -    Indicano quale operazione si vuole eseguire.
 -    Le funzioni disponibili sono : 
- * SL   esegue una SETLL
- * SG   esegue una SETGT
- * RD   esegue una READ
- * RP   esegue una READP
- * CHA   esegue una CHAIN
- * RE   esegue una READE
- * RPE   esegue una REDPE
- * SLRE   esegue una SETLL & READE
+ \* SL   esegue una SETLL
+ \* SG   esegue una SETGT
+ \* RD   esegue una READ
+ \* RP   esegue una READP
+ \* CHA   esegue una CHAIN
+ \* RE   esegue una READE
+ \* RPE   esegue una REDPE
+ \* SLRE   esegue una SETLL & READE
 
 Esiste poi la funzione BLANK (' ') che, a partire da un Tipo Documento, gestisce la ricerca (se richiesta tramite !/?) e la decodifica sul campo Nr. Documento; esegue poi la lettura sulla vista logica principale V5TDOC0L, tramite CHAIN con chiavi Tipo documento - Numero documento.
 La funzione Blank NON ha metodi.

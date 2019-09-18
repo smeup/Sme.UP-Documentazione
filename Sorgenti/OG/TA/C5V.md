@@ -27,7 +27,7 @@ Definisce la natura della transazione dal punto di vista della produzione dei do
 È un elemento V2/SI/NO. Se impostato, all'atto dell'inserimento della registrazione viene permesso di lasciare l'importo a zero.
 È usato, ad esempio, nella registrazione di fatture in garanzia, nelle quali imponibile, importo e imposta sono obbligatoriamente a zero.
  :  : FLD T$C5VG **Condiz. scelta caus.**
-È un elemento TA/C5*CR. Se impostato, definisce il criterio di selezione mediante il quale viene effettuata la ricerca ed il controllo validità sulla causale di riga di una registrazione.
+È un elemento TA/C5\*CR. Se impostato, definisce il criterio di selezione mediante il quale viene effettuata la ricerca ed il controllo validità sulla causale di riga di una registrazione.
  :  : FLD T$C5VH **Oscillazione Manuale**
 È un elemento V2/SI/NO. Se impostato, permette l'omissione dei controlli di Cambio/Valuta sulla riga contabile cui la causale viene associata in modo da poter inserire righe di oscillazione manuali.
  :  : FLD T$C5VI **Tipologia movimento finanziario**

@@ -8,8 +8,8 @@ Si ricorda che, in caso di ammortamenti diretti, come conto relativo al fondo am
 ## Opzioni
 Tramite le opzioni è possibile gestire la categoria specifica e, quindi, anche variare i conti impostati sulla stessa.
 All'interno del fly sono disponibili le funzioni : 
-* Cespiti :  calcolo e movimenti che permette di visualizzare i movimenti dei cespiti inclusi nella categoria selezionata
-* Cespiti :  operazioni contabili che permette di visualizzare i conti eventualmente impostati all'interno dei parametro £A5 sulla categoria selezionata (e che sono prioritari rispetto a quelli definiti all'interno della tabella A5A)
+\* Cespiti :  calcolo e movimenti che permette di visualizzare i movimenti dei cespiti inclusi nella categoria selezionata
+\* Cespiti :  operazioni contabili che permette di visualizzare i conti eventualmente impostati all'interno dei parametro £A5 sulla categoria selezionata (e che sono prioritari rispetto a quelli definiti all'interno della tabella A5A)
 
 
 

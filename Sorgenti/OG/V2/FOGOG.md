@@ -4,7 +4,7 @@
 ## Blb - SelectBooleanButton (V2SI/NO)
 ## Spn - Spinner (NR)
 ## Sld - Slider (NR)
-## Cal - Calendar (D8*YYMD-I2)
+## Cal - Calendar (D8\*YYMD-I2)
 ## Clp - Colorpiker (J1COL)
 ## Acp - Autocomplete (AR,CN...)
 ## Edt - Editor (J1TXT)

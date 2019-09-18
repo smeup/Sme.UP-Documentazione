@@ -6,7 +6,7 @@ Contiene la descrizione delle fonti di estrazione per Cube_up.
  :  : FLD T$D9BA **Programma D9AP_xxy**
 Contiene il suffisso dei 2 programmi specifici per l'estrazione dell'archivio trattato. I suffissi numerici (01,02,03,...) competono agli archivi propri di Smeup, quelli preceduti da una X (X1,X2,X3,...) sono personalizzazioni su archivi esterni a SMEUP.
 Segue elenco completo estrattori presenti. Selezionare opzione "HE" per visualizzare l'help specifico.
- :  : DEC T(OJ) P(*PGM) K(D9AP_[V3.PFC]C) I( Estrattore >>)
+ :  : DEC T(OJ) P(\*PGM) K(D9AP_[V3.PFC]C) I( Estrattore >>)
  :  : FLD T$D9BB **Parametri origine**
 Contiene i parametri origine specifici per il programma specificato nel campo del prefisso. Essi variano a seconda dell'estrazione, per visualizzarli inserire un '+' all'inizio del campo.
  :  : FLD T$D9B1 **Dimensioni (Gerarchia 1-10)**

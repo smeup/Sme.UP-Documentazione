@@ -20,7 +20,7 @@ Oltre alle impostazioni sulla singola elaborazione si possono definire delle imp
 
 # Scelta
 In questo formato si inseriscono il programma da eseguire e l'utente che lo immette, che devono essere oggetti presenti nel sistema.
-L'inserimento di '**' identifica l'utente o il programma generico.
+L'inserimento di '\*\*' identifica l'utente o il programma generico.
 
 Nel formato di dettaglio si inseriscono i parametri di esecuzione e le autorizzazioni alla modifica : 
 accanto ai campi da inserire vengono proposti i valori assunti dai livelli superiori, secondo
@@ -35,13 +35,13 @@ l'ordine seguente :
 | 
 | .COL Txt="Programma" LunAut="1" A="L" |
 |  1 | Utente | Programma |
-|  2 | ** | Programma |
-|  3 | Utente | ** |
-|  4 | ** | ** |
+|  2 | \*\* | Programma |
+|  3 | Utente | \*\* |
+|  4 | \*\* | \*\* |
 | 
 
 
-Se il parametro esecuzione è " " va a livello superiore. Se rimane comunque " " prende il valore della *JOBD.
+Se il parametro esecuzione è " " va a livello superiore. Se rimane comunque " " prende il valore della \*JOBD.
 
 _2_Autorizzazione : 
  :  : PAR (L(PUN)

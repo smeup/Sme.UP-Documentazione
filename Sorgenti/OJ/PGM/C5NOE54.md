@@ -65,10 +65,10 @@ Per maggiori dettagli sull'utilizzo delle memorizzazioni video si veda il seguen
 
 ### Tasti funzionali
 
- * F06 :  Conferma. Permette di confermare ed eseguire la funzione
- * F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della funzione; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch, come eseguire la stampa, ecc.
- * F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
- * F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
+ \* F06 :  Conferma. Permette di confermare ed eseguire la funzione
+ \* F11 :  Parametri esecuzione. Permette di impostare i parametri per l'esecuzione della funzione; in particolare è possibile definire se eseguire il lavoro in modalità interattiva oppure batch, come eseguire la stampa, ecc.
+ \* F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
+ \* F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 ### Memorizzazioni
 
@@ -99,12 +99,12 @@ In particolare se viene indicato un Tipo Calcolo per partita il sistema proceder
 
 ### Tasti funzionali
 
- * F01 :  Permette di ricercare una stringa all'interno della videata
- * F05 :  Esegue l'aggiornamento della videata
- * F04 :  Permette di eseguire una stampa della lista visualizzata in PDF o in spool di stampa
- * F09 :  Permette di posizionarsi sulla prima pagina del mastrino
- * F10 :  Permette di posizionarsi sull'ultima pagina del mastrino
- * F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
- * F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
+ \* F01 :  Permette di ricercare una stringa all'interno della videata
+ \* F05 :  Esegue l'aggiornamento della videata
+ \* F04 :  Permette di eseguire una stampa della lista visualizzata in PDF o in spool di stampa
+ \* F09 :  Permette di posizionarsi sulla prima pagina del mastrino
+ \* F10 :  Permette di posizionarsi sull'ultima pagina del mastrino
+ \* F13 :  Parzializzazioni. Permette di definire dei filtri per l'estrazione dei dati
+ \* F17 :  Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 

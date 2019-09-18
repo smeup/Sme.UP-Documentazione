@@ -67,26 +67,26 @@ Esempio di PAR
 # Le liste
  :  : R01 Specifica PAR che deve essere chiusa dalla specifica PAR.END
 Il linguaggio permette di comporre delle liste, anche annidate. Esse possono avere come indicatori punti, numeri o lettere.
- * I singoli item delle lista devono essere una riga nuova che comincia con un trattino e uno spazio ("_2_- ")
- * Le liste supportano gli stessi formati dei paragrafi :  F(01), F(02), F(03) e F(04) che rappresentano gli stessi effetti di stile.
- * Nel caso di liste ordinate (numerate o letterali) è supportata la variabile C che permette di indicare : 
- ** se continuare la numerazione o "letterazione" prendendola dall'elenco precedente _2_*CONT
- ** se iniziare l'elenco da una specifica lettera o numero
- * Vengono gestiti anche tre differenti tipi di lista tramite la variabile L
+ \* I singoli item delle lista devono essere una riga nuova che comincia con un trattino e uno spazio ("_2_- ")
+ \* Le liste supportano gli stessi formati dei paragrafi :  F(01), F(02), F(03) e F(04) che rappresentano gli stessi effetti di stile.
+ \* Nel caso di liste ordinate (numerate o letterali) è supportata la variabile C che permette di indicare : 
+ \*\* se continuare la numerazione o "letterazione" prendendola dall'elenco precedente _2_\*CONT
+ \*\* se iniziare l'elenco da una specifica lettera o numero
+ \* Vengono gestiti anche tre differenti tipi di lista tramite la variabile L
 
 ## Puntate
 ### Esempi
 Tipo puntato : 
- * Riga 3.p
- * Riga 3.p
- ** Nested 1
- * Riga 3.p
+ \* Riga 3.p
+ \* Riga 3.p
+ \*\* Nested 1
+ \* Riga 3.p
 Sintassi : 
 ** : ** : PAR T(Tipo puntato) L(PUN)
- * Riga 3.p
- * Riga 3.p
- ** Nested 1
- * Riga 3.p
+ \* Riga 3.p
+ \* Riga 3.p
+ \*\* Nested 1
+ \* Riga 3.p
 ** : ** : PAR.END
 
 ## Numerate
@@ -141,10 +141,10 @@ L(LET)
 # Le tabelle
  :  : R01 Specifica TAB che deve essere chiusa dalla specifica TAB.END
 La sintassi è simile alle liste : 
- * _2_Nota, c'è un tag aggiuntivo rispetto alle liste che permette di qualificare le colonne (es. la dimensione) e la loro intestazione ed è il tag ..TAB.COL che deve essere specificato per ogni colonna. _2_Attenzione, per una corretta gestione nella stampa Latex l'ultima colonna deve avere _1_Allineamento = "L".
- * Ogni riga di contenuto contiene i valori delle celle separati da pipe (**|**)
- * Nella specifica TAB viene gestito il parametro _1_R, che determina la percentuale di riduzione della larghezza della tabella rispetto alla larghezza pagina (default 60%)
- * Nella specifica TAB.COL viene gestito il parametro _1_Lun, che determina la percentuale di larghezza della colonna rispetto alla larghezza pagina (se manca o se = 0 il parametro Lun viene saltato e si utilizzano Allineamento e LunAut. _2_Nota Bene la somma dei parametri Lun della varie colonne non può essere superiore al parametro R della tabella.
+ \* _2_Nota, c'è un tag aggiuntivo rispetto alle liste che permette di qualificare le colonne (es. la dimensione) e la loro intestazione ed è il tag ..TAB.COL che deve essere specificato per ogni colonna. _2_Attenzione, per una corretta gestione nella stampa Latex l'ultima colonna deve avere _1_Allineamento = "L".
+ \* Ogni riga di contenuto contiene i valori delle celle separati da pipe (**|**)
+ \* Nella specifica TAB viene gestito il parametro _1_R, che determina la percentuale di riduzione della larghezza della tabella rispetto alla larghezza pagina (default 60%)
+ \* Nella specifica TAB.COL viene gestito il parametro _1_Lun, che determina la percentuale di larghezza della colonna rispetto alla larghezza pagina (se manca o se = 0 il parametro Lun viene saltato e si utilizzano Allineamento e LunAut. _2_Nota Bene la somma dei parametri Lun della varie colonne non può essere superiore al parametro R della tabella.
 
 ## Con colonne omogenee
 ### Esempi
@@ -226,25 +226,25 @@ oppure
 La specifica DEC permette di rappresentare delle chiamate funzione.
 
 La specifica DEC supporta i seguenti parametri : 
- * **T** :  tipo oggetto
- * **P** :  parametro oggetto
- * **K** :  codice oggetto
- * **D** :  descizione dell' oggetto
- * **I** :  intestazione del link
- * **X** :  eventuale funzione da richiamare sul click anzichè il default
- * **O** :  configurazione dell' output del link :  essa può assumere uno o più di dei seguenti valori : 
- ** **T** riporta il tipo del documento linkato nel link
- ** **P** riporta il parametro del documento linkato nel link
- ** **K** riporta il codice del documento linkato nel link
- ** **I** riporta il campo I nel link
- ** **D** riporta il campo D nel link
- ** **G** riporta l'immagine dell'oggetto T-P-K nel link
- ** **R** non permette l'inclusione del file puntato nella generazione del PDF
+ \* **T** :  tipo oggetto
+ \* **P** :  parametro oggetto
+ \* **K** :  codice oggetto
+ \* **D** :  descizione dell' oggetto
+ \* **I** :  intestazione del link
+ \* **X** :  eventuale funzione da richiamare sul click anzichè il default
+ \* **O** :  configurazione dell' output del link :  essa può assumere uno o più di dei seguenti valori : 
+ \*\* **T** riporta il tipo del documento linkato nel link
+ \*\* **P** riporta il parametro del documento linkato nel link
+ \*\* **K** riporta il codice del documento linkato nel link
+ \*\* **I** riporta il campo I nel link
+ \*\* **D** riporta il campo D nel link
+ \*\* **G** riporta l'immagine dell'oggetto T-P-K nel link
+ \*\* **R** non permette l'inclusione del file puntato nella generazione del PDF
 
 La funzione di default è la chiamata della scheda dell'oggetto T-P-K.
 In alcuni casi però il comportamento si discosta da tale standard : 
- * Nei tipi oggetto **MB-DOC**, infatti viene richiamato il file di documentazione.
- * Nei tipi oggetto **J1-PATHFILE** viene richiamato il file PC.
+ \* Nei tipi oggetto **MB-DOC**, infatti viene richiamato il file di documentazione.
+ \* Nei tipi oggetto **J1-PATHFILE** viene richiamato il file PC.
 
 >N.B. :  nel caso di tipo di ogggetto _1_MB-DOC,  bisogna considerare le seguenti caratteristiche : 
  - viene riportata **sempre e solo** la descrizione del membro. **Il parametro O, in questo caso, viene trascurato.
@@ -257,7 +257,7 @@ In alcuni casi però il comportamento si discosta da tale standard :
  :  : DEC T(AR) P() K(A01) I(Funzione su articolo)
 
  :  : DEC T(AR) P() K(A01) D(G) I(Prova override funzione di default) X({M(EMU;ESE;AZI) 1(TA;MEABR;0101) P() G() SP() SG() NOTIFY()}) O(I)
- :  : DEC I(Esempio Funzione) X(F(TRE;*MNU;)) O(I)
+ :  : DEC I(Esempio Funzione) X(F(TRE;\*MNU;)) O(I)
 
  :  : PAR F(04) T(Sintassi)
  :  : DEC T(AR) P() K(A01) D(G) I(Prova override funzione di default) X({M(EMU;ESE;AZI) 1(TA;MEABR;0101) P() G() SP() SG() NOTIFY()}) O(I)

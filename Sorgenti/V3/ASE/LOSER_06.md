@@ -66,9 +66,9 @@ IMP            Importazione   N
 
  :  : RIG
 LIS.LIS
-.*TOG.1  Cliente                        CNCLI                F  020
-.*TOG.2  Commessa obbligatoria          CM                   O  020
-.*TOG.3  Articolo                       AR                   O  020
+.\*TOG.1  Cliente                        CNCLI                F  020
+.\*TOG.2  Commessa obbligatoria          CM                   O  020
+.\*TOG.3  Articolo                       AR                   O  020
 .LISLIS1 uno                            .VTextAlign             020
 .LISLIS2 due                            CNAZI                   020
 LIS.ELE

@@ -15,20 +15,20 @@ In caso di anagrafiche da convertire si rimanda alla documentazione del modulo B
  T(_1_Azioni sulle tabelle)
 - TA B£1 :  compilare A7/ A8 su Clienti, fornitori, articoli
 
-  :  : DEC T(TA) P(B£1) K(*) D(B£1 PERSONALIZZAZIONE B£ >>) I(B£1 PERSONALIZZAZIONE B£ >>)
- C(*CONT)
+  :  : DEC T(TA) P(B£1) K(\*) D(B£1 PERSONALIZZAZIONE B£ >>) I(B£1 PERSONALIZZAZIONE B£ >>)
+ C(\*CONT)
 - TA B§O :  codifica oggetti deviati (CNCLI, CNFOR, ecc) compilando nome file, campo_1, campo descrizione. Rispettivamente
 ANCL200F, CDCLI, RASCL
 ANFO200F, CDFOR, RASFO
 
   :  : DEC T(TA) P(B§O) K(CNCLI) D(B§O Relazione oggetto-database >>)  I(B§O Relazione oggetto-database >>)
   :  : DEC T(TA) P(B§O) K(CNFOR) D(B§O Relazione oggetto-database >>) I(B§O Relazione oggetto-database >>)
- C(*CONT)
+ C(\*CONT)
 - TA BRE :  Su clienti e fornitori indicare codice interfaccia e Ambiente x interfaccia ente/articolo
 
   :  : DEC T(TA) P(BRE) K(CLI)  D(BRE Tipo contatto >>)  I(BRE Tipo contatto >>)
   :  : DEC T(TA) P(BRE) K(FOR)  D(BRE Tipo contatto >>)  I(BRE Tipo contatto >>)
- C(*CONT)
+ C(\*CONT)
 - TA B£I :  deviare la tabella Banche. Indicare l'oggetto O, tipo e parametro oggetto CN BAN e flaggare l'attivazione come globale e specifica.
 Nel caso in cui la gestione dell'elemento BAN nella tabella B£I restituisse un messaggio di errore verificare l'esistenza della definizione della tabella BAN.
 Se assente crearla con l'UP DEF.
@@ -54,7 +54,7 @@ Quindi :
 -- B£ICSM  Interfaccia anagrafico
 -- B£ICA8 clienti
 -- B£IFA8 fornitori
--- B£IR*  ricerche clienti e fornitori (/copy £IRCA8, /copy £IRFA8) sotto Loocup
+-- B£IR\*  ricerche clienti e fornitori (/copy £IRCA8, /copy £IRFA8) sotto Loocup
 - Correggere le /copy £IRCA8 e £IRFA8
 
 
@@ -76,17 +76,17 @@ _4_Verifiche di presenza
  Se assenti impostare librerie con documento "Verifiche ambiente DEMO"
  Le impostazioni vengono acquisite al prossimo ingresso
 > Principali archivi di dati
-  :  : DEC T(OJ) P(*FILE) K(ANPA200F) I(Articoli          >>)
-  :  : DEC T(OJ) P(*FILE) K(ANCL200F) I(Clienti           >>)
-  :  : DEC T(OJ) P(*FILE) K(ANFO200F) I(Fornitori         >>)
-  :  : DEC T(OJ) P(*FILE) K(ANCO200F) I(Conti / Vedi nota >>)
-  :  : DEC T(OJ) P(*FILE) K(KPJBA) I(*NONE)
+  :  : DEC T(OJ) P(\*FILE) K(ANPA200F) I(Articoli          >>)
+  :  : DEC T(OJ) P(\*FILE) K(ANCL200F) I(Clienti           >>)
+  :  : DEC T(OJ) P(\*FILE) K(ANFO200F) I(Fornitori         >>)
+  :  : DEC T(OJ) P(\*FILE) K(ANCO200F) I(Conti / Vedi nota >>)
+  :  : DEC T(OJ) P(\*FILE) K(KPJBA) I(\*NONE)
 > Principali programmi
-  :  : DEC T(OJ) P(*PGM) K(B£IAA8)   I(*NONE)
-  :  : DEC T(OJ) P(*PGM) K(B£ICA8)   I(*NONE)
-  :  : DEC T(OJ) P(*PGM) K(B£ICE_A8) I(*NONE)
-  :  : DEC T(OJ) P(*PGM) K(B£IE4_A8) I(*NONE)
-  :  : DEC T(OJ) P(*PGM) K(B£IE5_A8) I(*NONE)
+  :  : DEC T(OJ) P(\*PGM) K(B£IAA8)   I(\*NONE)
+  :  : DEC T(OJ) P(\*PGM) K(B£ICA8)   I(\*NONE)
+  :  : DEC T(OJ) P(\*PGM) K(B£ICE_A8) I(\*NONE)
+  :  : DEC T(OJ) P(\*PGM) K(B£IE4_A8) I(\*NONE)
+  :  : DEC T(OJ) P(\*PGM) K(B£IE5_A8) I(\*NONE)
 
 _4_Oggetti gestiti
   :  : DEC T(TA) P(B£I) K(C5B) I(_7_Conti **(F A8 Programma C5PDC_A8))
@@ -112,10 +112,10 @@ _4_Esecuzione dei TEST
 
 _4_Compilazione programmi in libreria SMEUP_EXT
  :  : INI _7_Compilazione di tutti i programmi (BASE)
- :  : CMD CALL B£UT11 PARM('B£*' 'SRC_A8' 'SMESRC')
+ :  : CMD CALL B£UT11 PARM('B£\*' 'SRC_A8' 'SMESRC')
  :  : FIN
 
  :  : INI _7_Compilazione di tutti i programmi (IN SVILUPPO)
- :  : CMD CALL B£UT11 PARM('*ALL' 'SRC_A8' 'SMEDEV')
+ :  : CMD CALL B£UT11 PARM('\*ALL' 'SRC_A8' 'SMEDEV')
  :  : FIN
  :  : REM.END

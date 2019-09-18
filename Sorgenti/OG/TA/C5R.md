@@ -29,9 +29,9 @@ Tramite questo campo viene condizionata l'interfaccia dell'oggetto FT (Fattura).
 
  :  : FLD T$C5RK **Fonte Interfaccia SM**
 Se l'interfaccia dell'oggetto FT è SM, è possibile condizionare la fonte dati dell'oggetto fattura : 
-* " " Assunto :  di default le fatture del ciclo attivo vengono ricercate nei documenti, mentre quelle del ciclo passivo e dei corrispettivi nella contabilità.
-* "1" Contabilità :  forza che le fatture del registro vengano ricercate nella contabilità
-* "2" Documenti :  forza che le fatture del registro vengano ricercate nei documenti
+\* " " Assunto :  di default le fatture del ciclo attivo vengono ricercate nei documenti, mentre quelle del ciclo passivo e dei corrispettivi nella contabilità.
+\* "1" Contabilità :  forza che le fatture del registro vengano ricercate nella contabilità
+\* "2" Documenti :  forza che le fatture del registro vengano ricercate nei documenti
 
  :  : FLD T$C5RL **Split Payment**
 Questo campo ha rilevanza solo sui registri d'acquisto. Indica che le fatture in essa registrate rientrano nel regime dello split payment e che per tale motivo su di essere verrà rilevata anche l'iva vendite. In questo caso sarà infatti inoltre necessario creare un registro vendite che abbia come origine il registro acquisti di partenza.

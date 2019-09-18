@@ -82,7 +82,7 @@ Stabilisce se, in caso di immissione della testata del documento, debba essere e
 - 1 = Documento con testate e righe. Viene proposta l'immissione di righe, e se non presenti, viene segnalato con la proposta di eliminare la testata, con l'eventuale recupero del numero sul numeratore;
 - 2 = Documento di sola testata, non viene proposta né permessa l'immissione di righe.
  :  : FLD T$V5A0 __Tipo condizionamento righe__
-È un elemento (non controllato) della tabella V5*, sottosettore 'CR'.
+È un elemento (non controllato) della tabella V5\*, sottosettore 'CR'.
 Se impostato, vengono accettati solo i tipi riga che hanno un condizionamento uguale a questo. Se lasciato vuoto, non viene eseguito nessun controllo.
 Si può quindi impostare la congruenza del documento.
 _9_Esempio :  ad un documento di vendita (modello V1) si vogliono assegnare righe sia di vendita (tipo riga R1) sia di conto visione (tipo riga R2), mentre ad un documento di conto visione (modello V2) si vogliono assegnare solo righe di conto visione. In questo caso si devono impostare i condizionamenti nel

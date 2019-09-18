@@ -1,7 +1,7 @@
 ## Associazione di funzioni ad un formato video
 Si crea un campo video nascosto W$£FUN, lungo 1024, in cui si scrivono tag XML che daranno origine a bottoni con chiamate a funzioni di Looc.up.
 I tag XML, scritti consecutivamente nel campo, sono : 
-**Oggetto Testo="Descrizione" Exec="F(TRE;*LIS;) 1(ST;;D5S)" i="M11"**
+**Oggetto Testo="Descrizione" Exec="F(TRE;\*LIS;) 1(ST;;D5S)" i="M11"**
 dove
 **Testo** contiene la descrizione che compare sul bottone in Looc.up
 **Exec**  contiene la chiamata alla funzione di Looc.up
@@ -22,12 +22,12 @@ In modo analogo a quando si emette un formato video (comando EXFMT) è possibile
 - **RELOO (Esecuzione e ritorno)** :  La funzione viene eseguita ed il controllo torna automaticamente  all'emulazione, senza il bisogno di interazione.
 
 
- :  : DEC T(OJ) P(*PGM) K(JAEMU1)
+ :  : DEC T(OJ) P(\*PGM) K(JAEMU1)
 
 ## Chiamare un programma non "funizzato"
 Usare il programma funizzato B£FU01X passando come parametro il comando CALL PgmXXX e i suoi parametri
 
 ## Funzione da lanciare al termine del programma (RFunction)
- :  : DEC T(OJ) P(*PGM) K(JAEMU1)
+ :  : DEC T(OJ) P(\*PGM) K(JAEMU1)
 
 ![LOCBAS_038](http://localhost:3000/immagini/LOCEMU_01/LOCBAS_038.png)

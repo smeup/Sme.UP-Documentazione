@@ -52,9 +52,9 @@ Viene restituito un XML di questo tipo :
 </Base>
 
 Il nodo Oggetto ha i seguenti attributi : 
- * Codice :  è Il codice di connessione univoco che andrà usato in tutte le richieste successive
- * J8_HASH_KEY :  è la chiave di hash (se definita)
- *  ProviderTime :  è l'ora in cui il provider ha risposto, riportata al GMT. Serve per determinare le differenze temporali tra il client e il provider.
+ \* Codice :  è Il codice di connessione univoco che andrà usato in tutte le richieste successive
+ \* J8_HASH_KEY :  è la chiave di hash (se definita)
+ \*  ProviderTime :  è l'ora in cui il provider ha risposto, riportata al GMT. Serve per determinare le differenze temporali tra il client e il provider.
 
 ### Metodo 2 :  check
 Serve per verificare se una sessione è ancora attiva.
@@ -107,10 +107,10 @@ http(s)://indirizzo_provider:porta/XMLService?codcon=codice_connessione&fun=F(EX
 Casi particolari : 
 Se riceve come fun = PING, non richiama l'AS400 ma azzera il timeout sulla sessione.
 Se la richiesta è di tipo
- * F(G53;....
- * F(EXC;....
- * F(FRM;...
- * F(REP;...
+ \* F(G53;....
+ \* F(EXC;....
+ \* F(FRM;...
+ \* F(REP;...
 non viene restituito l'XML ma viene eseguita la funzione come se fosse un'azione grafica e il file generato viene restituito al chiamante.
 
 
@@ -134,10 +134,10 @@ non viene restituito l'XML ma viene eseguita la funzione come se fosse un'azione
 
 
 **Paginazione**
-Nel caso il risultato di una chiamata ad una FUN fosse un XML con paginazione, per ottenere le "n" pagine di dati successive, occorre effettuare "n" chiamate alla FUN contenuta nell'attributo Exec del nodo XML di tag  <UIPopup> che ha Codice="*NEXT" ,  vediamo un esempio : 
+Nel caso il risultato di una chiamata ad una FUN fosse un XML con paginazione, per ottenere le "n" pagine di dati successive, occorre effettuare "n" chiamate alla FUN contenuta nell'attributo Exec del nodo XML di tag  <UIPopup> che ha Codice="\*NEXT" ,  vediamo un esempio : 
 
 La seguente FUN restituisce un xml con paginazione : 
-F(EXB;LOA10_SE;EQR) 1(;;) 2(;;) INPUT(Q1Tip(TA) Q1Par(B£AMO) Q1Qry(*KEY) Qry(Yes) Focus() NAg())
+F(EXB;LOA10_SE;EQR) 1(;;) 2(;;) INPUT(Q1Tip(TA) Q1Par(B£AMO) Q1Qry(\*KEY) Qry(Yes) Focus() NAg())
 
 come si può notare, la porzione di XML sottostante mostra la relativa FUN da chiamare (nodo Oggetto Testo="SEGUE") per ottenere i successivi record : 
 ...
@@ -146,7 +146,7 @@ come si può notare, la porzione di XML sottostante mostra la relativa FUN da ch
 </Righe>
 -<UIPopup>
 <Oggetto Testo="F07=INSERIMENTO".../>
-<Oggetto Testo="SEGUE" Fld="" Exec="F(EXB;LOA10_SE;EQR) 1(TA;B£AMO;) INPUT(Q1Tip(TA) Q1Par(B£AMO) Q1Qry(*KEY) Qry(Yes) Focus() NAg() PAG_NRI(100) QRPAG(CQBASE)) SS(Context(B£EQRY_SEA/List) CGr(EXB) ID({FBBBD136-6CDB-400D-ADCC-6DFF85021D13}) CONAP(B£))" Codice="*NEXT" Parametro="KEY" Tipo="J1" Leaf="" Mode="EXT.PAG" Nome=""/>
+<Oggetto Testo="SEGUE" Fld="" Exec="F(EXB;LOA10_SE;EQR) 1(TA;B£AMO;) INPUT(Q1Tip(TA) Q1Par(B£AMO) Q1Qry(\*KEY) Qry(Yes) Focus() NAg() PAG_NRI(100) QRPAG(CQBASE)) SS(Context(B£EQRY_SEA/List) CGr(EXB) ID({FBBBD136-6CDB-400D-ADCC-6DFF85021D13}) CONAP(B£))" Codice="\*NEXT" Parametro="KEY" Tipo="J1" Leaf="" Mode="EXT.PAG" Nome=""/>
 <Oggetto Testo="BASE" .../>
 <Oggetto Testo="F13=GESTIONE FILTRO" .../>
 <Oggetto Testo="F22=SET'N PLAY {01}" .../>
@@ -155,7 +155,7 @@ come si può notare, la porzione di XML sottostante mostra la relativa FUN da ch
 
 richiamando quindi la FUN contenuta nell'attributo Exec="....", e aggiungendo nel P il PAG(YES), si otterranno i dati della pagina successiva.
 Ovviamente l'XML potrebbe a sua volta contenere nuovamente la FUN da rilanciare per la successiva pagina.
-Nel caso in cui invece esista il nodo UIPopup, con Codice="*NEXT" ma senza Exec, dovrà essere rilancata la fun iniziale, indicando sempre PAG(YES) nel P.
+Nel caso in cui invece esista il nodo UIPopup, con Codice="\*NEXT" ma senza Exec, dovrà essere rilancata la fun iniziale, indicando sempre PAG(YES) nel P.
 
 ## CommandService
 Riceve una fun ed esegue il comando relativo. Se il comando è di aprire una scheda, si avrà l'effetto che sul provider verrà aperta la relativa scheda. Questo servizio va pertanto utilizzato solo in quei casi in cui il comando è senza emissione di grafica.
@@ -188,10 +188,10 @@ http(s)://indirizzo_provider:porta/CommandService?codcon=codice_connessione&fun=
 ##  ResourceService :  servizio per la gestione delle risorse remote.
 Con risorse remote si intendono file raggiungibili da SmeupProvider tramite protocollo SMB.
 ResourceService espone le seguenti funzionalità : 
- * Consente di restituire un file al chiamate (se è nei path a cui è stato autorizzato tramite la variabile PROVIDER_PATHS)
- * elencare il contenuto di una cartella
- * cancellare un file e o cartelle (se sono  nei path a cui è stato autorizzato tramite la variabile PROVIDER_PATHS)
- * verificare l'esistenza di file e o cartelle
+ \* Consente di restituire un file al chiamate (se è nei path a cui è stato autorizzato tramite la variabile PROVIDER_PATHS)
+ \* elencare il contenuto di una cartella
+ \* cancellare un file e o cartelle (se sono  nei path a cui è stato autorizzato tramite la variabile PROVIDER_PATHS)
+ \* verificare l'esistenza di file e o cartelle
 
 esempio di chiamata : 
 http(s)://indirizzo_provider:porta/ResourceService?codcon=codice_connessione&path=\\server001\azienda01\clienti\C0010\offerte\offerta01.doc&timestamp=0150203155433&hash=sgnfkcqcweafhjjhdfcjhsfdgjhugjh
@@ -276,12 +276,12 @@ Funzionamento
 ## L'algoritmo di calcolo dell'hash
 
 Il calcolo dell'hash è eseguito usando
-* **l'algoritmo di hashing**, SHA1.
-* **il character encoding** UTF-8 (da verificare)
-* codice di connessione parametro **codcon**
-* timestamp parametro **timestamp**
-* **un segreto condiviso** tra le due applicazioni, secondo quanto definito nel file di configurazione
-* i parametri facoltativi
+\* **l'algoritmo di hashing**, SHA1.
+\* **il character encoding** UTF-8 (da verificare)
+\* codice di connessione parametro **codcon**
+\* timestamp parametro **timestamp**
+\* **un segreto condiviso** tra le due applicazioni, secondo quanto definito nel file di configurazione
+\* i parametri facoltativi
 
 L'ordine in cui vengono concatenati i campi
 Suppondendo, ad esempio, di utilizzare **SHA1**, **UTF-8**, ed il segreto condiviso  **WEBUP91818$** ( modificato di comune accordo tra chi implementa il client chi implementa il server), avremmo il seguente algoritmo in pseudo codice : 

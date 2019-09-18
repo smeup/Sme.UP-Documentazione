@@ -28,7 +28,7 @@ _3_Criterio = Xpp
 _3_Criterio = AApp
 
 - AA = area
-- pp = Causale movimento.E'un Codice NUMERICO codificato nella tabella GM*CM dove i numeri che vanno da 00 a 49 sono causali di Carico magazzino mentre i restanti (50-99) sono causali di Scarico. Inoltre si considerano simmetrici i numeri 1/51 23/73 e quindi il primo è l'esatto contrario dell'altro(esempio 01=acquisto 51=reso fornitore 03=Versamento esterno 53=Prelievo esterno)
+- pp = Causale movimento.E'un Codice NUMERICO codificato nella tabella GM\*CM dove i numeri che vanno da 00 a 49 sono causali di Carico magazzino mentre i restanti (50-99) sono causali di Scarico. Inoltre si considerano simmetrici i numeri 1/51 23/73 e quindi il primo è l'esatto contrario dell'altro(esempio 01=acquisto 51=reso fornitore 03=Versamento esterno 53=Prelievo esterno)
 
 
 # Tipo giacenza

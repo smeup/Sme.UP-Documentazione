@@ -65,7 +65,7 @@ La funzione creata va posta in una sezione o subsezione di tipo EXB.
 ### Esempio di accesso ad un file CSV
 Per testare l'accesso ai dati di un file in formato CSV, copiare le ter righe seguenti in un file di testo e salvarlo con estensione CSV.
  :  : PAR
-CodiceCliente|CNCLI|15;Descrizione|**|35;Data|D8DDMMYY|8
+CodiceCliente|CNCLI|15;Descrizione|\*\*|35;Data|D8DDMMYY|8
 C0001;Primo cliente;12092005
 C0002;Secondo cliente;24082006
 

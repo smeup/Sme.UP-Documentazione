@@ -9,7 +9,7 @@ Essendo un archivio eccezioni, si immettono solo i valori che si vogliono modifi
 ## Tipo risorsa gestita
 Codice controllato sulla tabella TRG.
 ## Codice risorsa
-Viene controllato sull'anagrafico opportuno, in funzione del tipo di risorsa. I codici che iniziano con '**' non vengono controllati.
+Viene controllato sull'anagrafico opportuno, in funzione del tipo di risorsa. I codici che iniziano con '\*\*' non vengono controllati.
 
 ## Periodo
 Mese e anno per cui si intendono definire delle eccezioni.

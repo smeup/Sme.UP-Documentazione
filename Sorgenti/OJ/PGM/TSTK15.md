@@ -34,7 +34,7 @@ Per ulteriori dettagli sul significato delle variabili si rimanda alla documenta
 
 ## Variabili da SCP_CLO
 
-Per il caricamento automatico delle variabili url e mod sono state previste le variabili standard da SCP_CLO *WEBUP.URL e *WEBUP.MOD, in modo da poterne centralizzare la gestione ed eventualmente gestirne di diverse per i singoli ambienti applicativi.
+Per il caricamento automatico delle variabili url e mod sono state previste le variabili standard da SCP_CLO \*WEBUP.URL e \*WEBUP.MOD, in modo da poterne centralizzare la gestione ed eventualmente gestirne di diverse per i singoli ambienti applicativi.
 
 ## Nota
 Per la creazione del link viene utilizzato il timestamp con data e ora UTC, in formato yyyyMMddhhmmss, pertanto per eventuali test è stata prevista in input la variabile t(...)

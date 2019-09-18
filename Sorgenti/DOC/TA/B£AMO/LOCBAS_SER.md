@@ -139,9 +139,9 @@ Quindi la stringa di avvio diventa semplicemente :
 
 e nella SCP_CLO si inseriranno le variabili : 
 
-**..****C.VAR**  _Cod**="*BCServerIP" Txt="IP server primario" Value="172.16.2.213" TVal="" PVal=""
-**..****C.VAR**  _Cod**="*BCServerPort" Txt="Porta server primario" Value="9990" TVal="" PVal=""
-**..****C.VAR**  _Cod**="*BCClientCode" Txt="Nome client" Value="TSTCLI" TVal="" PVal=""
+**..****C.VAR**  _Cod**="\*BCServerIP" Txt="IP server primario" Value="172.16.2.213" TVal="" PVal=""
+**..****C.VAR**  _Cod**="\*BCServerPort" Txt="Porta server primario" Value="9990" TVal="" PVal=""
+**..****C.VAR**  _Cod**="\*BCClientCode" Txt="Nome client" Value="TSTCLI" TVal="" PVal=""
 
 che definiscono IP del server, porta e codice da assegnare al client (anche qui è comunque consigliato non specificare il codice).
 
@@ -157,15 +157,15 @@ inserita nel SCP_CLO
 ### Parametri aggiuntivi per la funzionalità di Business Continuity
 Per completezza dell'informazioni citiamo anche le seguenti variabili, utilizzate per la funzionalità di business continuity.
 
-**..****C.VAR**   Cod="*BCServerPath" Txt="Path server primario" Value="X : \programmi\Loocup_test" TVal="" PVal=""
-**..****C.VAR**   Cod="*BCServerName" Txt="Nome server primario" Value="SRVTST" TVal="" PVal=""
-**..****C.VAR**   Cod="*BCAS400IP" Txt="IP AS/400 Primario" Value="172.16.2.11" TVal="" PVal=""
+**..****C.VAR**   Cod="\*BCServerPath" Txt="Path server primario" Value="X : \programmi\Loocup_test" TVal="" PVal=""
+**..****C.VAR**   Cod="\*BCServerName" Txt="Nome server primario" Value="SRVTST" TVal="" PVal=""
+**..****C.VAR**   Cod="\*BCAS400IP" Txt="IP AS/400 Primario" Value="172.16.2.11" TVal="" PVal=""
 
-**..****C.VAR** Cod="*BCBackupServerIP" Txt="IP server backup" Value="10.67.7.63" TVal="" PVal=""
-**..****C.VAR**Cod="*BCBackupServerPort" Txt="Porta server backup" Value="9999" TVal="" PVal=""
-**..****C.VAR**Cod="*BCBackupServerPath" Txt="Path server backup" Value="\\10.67.7.63\LoocupServer" TVal="" PVal=""
-**..****C.VAR** Cod="*BCBackupServerName" Txt="Nome server backup" Value="SERVER" TVal="" PVal=""
-**..****C.VAR** Cod="*BCBackupAS400IP" Txt="IP AS/400 Backup" Value="10.67.7.55" TVal="" PVal=""
+**..****C.VAR** Cod="\*BCBackupServerIP" Txt="IP server backup" Value="10.67.7.63" TVal="" PVal=""
+**..****C.VAR**Cod="\*BCBackupServerPort" Txt="Porta server backup" Value="9999" TVal="" PVal=""
+**..****C.VAR**Cod="\*BCBackupServerPath" Txt="Path server backup" Value="\\10.67.7.63\LoocupServer" TVal="" PVal=""
+**..****C.VAR** Cod="\*BCBackupServerName" Txt="Nome server backup" Value="SERVER" TVal="" PVal=""
+**..****C.VAR** Cod="\*BCBackupAS400IP" Txt="IP AS/400 Backup" Value="10.67.7.55" TVal="" PVal=""
 
 
 ## Identificazione di un client Looc.Up

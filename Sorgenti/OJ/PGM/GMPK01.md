@@ -1,9 +1,9 @@
 # Generalità
 Per la gestione di una packing esistono diverse modalità che dipendono dai parametri di chiamata del programma o dalle opzioni scelte : 
- * _2_Costruzione packing list progressiva dal bar-code degli articoli (_1_Opzione = PC), con questa modalità si prevede di creare i dati del collo, successivamente attribuire al collo i vari articoli inserendo codice e quantità, al riempimento del collo se ne crea uno nuovo e si riprende il ciclo fino alla conclusione
- * _2_Preparazione manuale packing list (_1_Opzione = PM), prevede la creazione di un collo e subito dopo la presentazione della lista articoli da imballare, per ogni articolo si inserisce la qtà imballata fino al riempimento del collo, poi si passa alla creazione del successivo e si riprende il ciclo.
- * _2_Gestione packing list (_1_Opzione = PK), permette la visualizzazione completa della packing list
- * _2_Gestione packing list libera, questa è la gestione completa in cui le opzioni del formato guida sono libere e permettono di fare tutto quanto visto in precedenza oltre a cose sue specifiche.
+ \* _2_Costruzione packing list progressiva dal bar-code degli articoli (_1_Opzione = PC), con questa modalità si prevede di creare i dati del collo, successivamente attribuire al collo i vari articoli inserendo codice e quantità, al riempimento del collo se ne crea uno nuovo e si riprende il ciclo fino alla conclusione
+ \* _2_Preparazione manuale packing list (_1_Opzione = PM), prevede la creazione di un collo e subito dopo la presentazione della lista articoli da imballare, per ogni articolo si inserisce la qtà imballata fino al riempimento del collo, poi si passa alla creazione del successivo e si riprende il ciclo.
+ \* _2_Gestione packing list (_1_Opzione = PK), permette la visualizzazione completa della packing list
+ \* _2_Gestione packing list libera, questa è la gestione completa in cui le opzioni del formato guida sono libere e permettono di fare tutto quanto visto in precedenza oltre a cose sue specifiche.
 
 # Costruzione Packing List Progressiva
 Si presenta il formato iniziale seguente con preimpostata l'opzione PC : 
@@ -29,10 +29,10 @@ Con il tasto F15 si può vedere la packing list al punto di completamento in cui
 Nella packing list vediamo la lista dei colli presenti, con peso netto e peso lordo (calcolati) e sotto a ciascun collo l'elenco degli contenuti, per ogni articolo è indicata la qtà presente nel collo, la qtà totale da imballare, la qtà totale imballata.
 
 Nella packing list sono previste : 
- * Modifica collo
- * Cancellazione collo
- * Modifica articolo
- * Cancellazione articolo
+ \* Modifica collo
+ \* Cancellazione collo
+ \* Modifica articolo
+ \* Cancellazione articolo
 
 ### Modifica collo
 Se selezionata si apre il formato di dettaglio del collo dove possono essere modificati i suoi dati caratteristici : 

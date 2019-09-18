@@ -7,7 +7,7 @@ User profile    :  IPTTS
 
 # Creazione oggetti su AS400
 ## Profilo utente
-CRTUSRPRF USRPRF(IPTTS) PASSWORD(*USRPRF) PWDEXP(*NO)
+CRTUSRPRF USRPRF(IPTTS) PASSWORD(\*USRPRF) PWDEXP(\*NO)
 Specificare una jobd adeguata. Normalmente si usa la stessa assegnata agli utenti finali.
 
 ## Tabelle di configurazione
@@ -46,15 +46,15 @@ La prima configurazione va fatta tramite telnet, utilizzando l'indirizzo IP cabl
 __Attenzione__ :  l'indirizzo IP cablato è modificabile tramite l'impostazione degli switch sul retro del master stesso.
 Fare riferimento alla documentazione ufficiale PHS per i dettagli.
 
- * TELNET '140.150.20.128'
- ** Impostare indirizzo di rete del master : 
+ \* TELNET '140.150.20.128'
+ \*\* Impostare indirizzo di rete del master : 
 >???1WC192.168.000.200
- ** Impostare indirizzo di rete dell'AS400 : 
+ \*\* Impostare indirizzo di rete dell'AS400 : 
 >???1WF192.168.000.100
- ** Impostare il funzionamento in TCP/IP : 
+ \*\* Impostare il funzionamento in TCP/IP : 
 >???1WE1
- ** Uscire dal telnet, spegnere il master e riaccenderlo
- ** Dopo circa un minuto, tramite wrkactjob, verificare che un lavoro intestato all'utente IPTTS sia attivo.
+ \*\* Uscire dal telnet, spegnere il master e riaccenderlo
+ \*\* Dopo circa un minuto, tramite wrkactjob, verificare che un lavoro intestato all'utente IPTTS sia attivo.
 
 ## Completamento della configurazione
 I parametri non impostati tramite telnet vengono letti direttamente dalle tabelle PHM e PHN.

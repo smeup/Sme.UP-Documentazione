@@ -43,7 +43,7 @@ Le domande che dovrà inserire saranno le caratteristiche che desidera rendere p
 -
 - ripetizione di tag sezione
 
-Se il modulo ha una configurazione di default lo sviluppatore del modulo dovrà salvare una setup che ha come chiavi **-**-**, in questo modo esisterà un setup di default. L'utente potrà poi decidere di personalizzare le impostazioni di base creando i propri setup.
+Se il modulo ha una configurazione di default lo sviluppatore del modulo dovrà salvare una setup che ha come chiavi \*\*-\*\*-\*\*, in questo modo esisterà un setup di default. L'utente potrà poi decidere di personalizzare le impostazioni di base creando i propri setup.
 Lo sviluppatore, al momento del caricamento del modulo dovrà prevedere la chimata al servizio JA_SET con funzione.metodo "ACT.GET", che restituirà l'XML del setup e a questo punto potrà utilizzare le informazioni presenti.
 
 ### Uso senza questionario
@@ -64,8 +64,8 @@ Se il setup è di tipo libero (non ho associato un questionario) avrò che l'ogg
 Dato che il questionario raggruppa setup omogenei avrò che l'utente vede 3 chiavi (contesto, utente e nome ) ma può agire solo sull'ultima. Solo chi è autorizzato può modificare i setup di default e/o quelli di altri utenti. Il questionario è definito dal modulo di cui si sta definendo il setup.
 
 ## Setup di default
-Il setup di default ha come nome (chiave 3) il valore "**".
-Impostare come default un setup significa pertanto salvarlo con nome "**".
+Il setup di default ha come nome (chiave 3) il valore "\*\*".
+Impostare come default un setup significa pertanto salvarlo con nome "\*\*".
 Il setup di default è quello letto (se esiste) quando viene caricato un modulo.
 Quando un modulo richiede il setup di default fornisce come chiavi : 
 
@@ -75,16 +75,16 @@ Quando un modulo richiede il setup di default fornisce come chiavi :
 
 Il setup viene cercato dal servizio CFSER_02 usando un meccanismo di risalita mantenendo fissato il questionario.
  T(Sequenza ricerca Setup)
-- contesto-utente-**
-- contesto-**-**
-- **-**-**
+- contesto-utente-\*\*
+- contesto-\*\*-\*\*
+- \*\*-\*\*-\*\*
 
 
-La lista di setup per un determinato modulo è composta dai setup specifici per l'utente e da quelli generici (identificati da **) : 
+La lista di setup per un determinato modulo è composta dai setup specifici per l'utente e da quelli generici (identificati da \*\*) : 
 
-- contesto ** utente ** nome **  - setup valido per tutti i contesti e per tutti gli utenti
-- contesto xxxxx utente ** nome ** - setup valido per il contesto xxxxx e per tutti gli utenti
-- contesto xxxxx utente yy nome ** - setup di default per il contesto xxxxx e per l'utente yy
+- contesto \*\* utente \*\* nome \*\*  - setup valido per tutti i contesti e per tutti gli utenti
+- contesto xxxxx utente \*\* nome \*\* - setup valido per il contesto xxxxx e per tutti gli utenti
+- contesto xxxxx utente yy nome \*\* - setup di default per il contesto xxxxx e per l'utente yy
 - contesto xxxxx utente yy nome setup_A - setup alternativo per il contesto xxxxx e per l'utente yy
 - contesto xxxxx utente yy nome setup_B - setup alternativo per il contesto xxxxx e per l'utente yy
 - contesto xxxxx utente yy nome setup_C - setup alternativo per il contesto xxxxx e per l'utente yy
@@ -95,12 +95,12 @@ La lista di setup per un determinato modulo è composta dai setup specifici per 
 - Il setup di default per tutti i contesti e per tutti gli utenti.
 
 Ad esempio posso salvare un default per tutti gli alberi (componente TRE, pertanto questionario associato RE L- GRA_TRE) e che vale per tutti i contesti e per tutti gli utenti.
-L'utente yyy che lavorerà sugli alberi (questionario REL-GRA_TRE) dei menu (contesto *MNU) potrà personalizzare il setup di default generico e crearne uno apposito per sè.
+L'utente yyy che lavorerà sugli alberi (questionario REL-GRA_TRE) dei menu (contesto \*MNU) potrà personalizzare il setup di default generico e crearne uno apposito per sè.
 
  T(Il setup di default che andrà a salvare avrà come chiavi : )
-- contesto :  *MNU
+- contesto :  \*MNU
 - utente :    yyy
-- nome :  **
+- nome :  \*\*
 
 
 
@@ -179,7 +179,7 @@ I pulsanti Salva, Salva con nome e Elimina, sono abilitati dal setup letto da AS
 Se il setup letto è nullo o non è stato passato, allora varranno i vincoli di lock definiti nel parametro.
 
  :  : I.RUL   Descrizione                                  Para Comp Tipi Au
-*ALL      Tutti
+\*ALL      Tutti
 ACT       Azioni per eseguire il test                            TP10
 .SAV       salva il setup                              PA20      TP10
 .SAS       rinomina il setup                           PA20      TP10
@@ -219,8 +219,8 @@ C CCCCCCCC
  :  : RCO          2         3         4         5         6         7
 CO10 G30
  :  : ROG      TpPa1       TpPa2       TpPa3       TpPa4       TpPa5       Descrizione
-TP10 1 OOO REL-        **                                              Questionario
-TP10 2 OFF **                                                          Contesto
+TP10 1 OOO REL-        \*\*                                              Questionario
+TP10 2 OFF \*\*                                                          Contesto
 TP10 3 OOF UP                                                          Utente
-TP10 4 OFF **                                                          Nome setup
+TP10 4 OFF \*\*                                                          Nome setup
  :  : I.RUL.END

@@ -4,8 +4,8 @@ Scopo della /COPY G56 è l'esecuzione di operazioni matematiche su numeri, serie
 NB :  questo è unicamente un modo di inserire automaticamente la seconda serie, che potrebbe essere inserita manualmente, senza che nulla cambi nei risultati.
 
 E' possibile calcolare : 
- * __funzioni scalari__ :  viene ritornato un numero, o un insieme di numeri di significato diverso. Un esempio del primo caso è la media di una serie. Un esempio del secondo caso è la regressione lineare di due serie, il cui risultato è costituito da due numeri :  il coefficiente angolare e l'ordinata all'origine della retta interpolatrice.
- * __funzioni vettoriali__ :  viene ritornata una serie di numeri con significato omogeneo. E' possibile calcolare funzioni vettoriali anche sui numeri :  un esempio è la scomposizione in numeri primi. Nel caso di funzioni vettoriali su serie, la serie di output può avere lo stesso numero di elementi dell'ingresso, o un numero diverso.
+ \* __funzioni scalari__ :  viene ritornato un numero, o un insieme di numeri di significato diverso. Un esempio del primo caso è la media di una serie. Un esempio del secondo caso è la regressione lineare di due serie, il cui risultato è costituito da due numeri :  il coefficiente angolare e l'ordinata all'origine della retta interpolatrice.
+ \* __funzioni vettoriali__ :  viene ritornata una serie di numeri con significato omogeneo. E' possibile calcolare funzioni vettoriali anche sui numeri :  un esempio è la scomposizione in numeri primi. Nel caso di funzioni vettoriali su serie, la serie di output può avere lo stesso numero di elementi dell'ingresso, o un numero diverso.
 Un esempio del primo caso è l'interpolazione lineare :  viene ritornata una serie che contiene le ordinate della retta interpolatrice in corrispondenza ai valori della prima serie.
 Un esempio del secondo caso è la previsione con il metodo Holt Wilters :  viene ritornato un numero di elementi pari a quello della serie di input sommato al numero di periodi di previsione.
 In taluni casi, le funzioni vettoriali ritornano, come "effetto collaterale", anche degli scalari. Un esempio è ancora la previsione Holt Winters, in cui vengono ritornati gli indici di bontà della previsione stessa.
@@ -51,12 +51,12 @@ Posizione primo elemento non a zero
 Posizione ultimo elemento non a zero
 Mediana
 Indicatori di process capability : 
-* CP
-* CPL
-* CPU
-* CPK
-* CPM
-* CPKM
+\* CP
+\* CPL
+\* CPU
+\* CPK
+\* CPM
+\* CPKM
 
 ### Funzioni vettoriali di una serie
 Ritorno. (1)
@@ -67,13 +67,13 @@ Cambio segno
 Valore assoluto
 Statistica Hotelling - In questo caso si passano le N serie di seguito. Il numero di variabili corrisponde al numero delle serie. Si deve passare inoltre, nel valore numerico 1, il numero di elementi di ogni serie e, nel valore numerico 2, il numero di variabili (attualmente è gestito solo il caso di 3 variabili). Il numero di elementi da passare è dato dal prodotto di questi due numeri.
 Ad esempio, con le tre serie :  1,3,4,6; 4,2,5,8; 7,8,6,3, si passano i seguenti valori : 
- * Serie di input :  1,3,4,6,4,2,5,6,7,8,6,3
- * N.elementi serie :  12
- * Numeri di input :  4,3
+ \* Serie di input :  1,3,4,6,4,2,5,6,7,8,6,3
+ \* N.elementi serie :  12
+ \* Numeri di input :  4,3
 Ritorna una serie di N elementi pari alla lunghezza di ogni serie, (nel caso dell'esempio 4) che costituisce la statistica Hotelling della previsione.
 Ritorna anche i seguenti numeri : 
- * n. elementi fuori limite
- * limite della serie
+ \* n. elementi fuori limite
+ \* limite della serie
 
 ### Funzioni scalari di due serie
 Numero elementi (1)
@@ -123,22 +123,22 @@ Nei periodi di storia viene calcolata una previsione "passata" e viene confronta
 **Coefficienti Holt Winters (HW)**
 Ritorna una serie di N elementi (dove N è tre volte la storia) contenente i coefficienti di livello, trend e stagionalità della sere HW predcedentemente calcolata, per ogni periodo della storia.
 Ad esempio, con una storia di 24 periodi, la serie di output contiene : 
-* Posizioni 1 - 24  :  livello degli elementi 1 - 24
-* Posizioni 25 - 48  :  trend degli elementi 1 - 24
-* Posizioni 49 - 72  :  stagionalità degli elementi 1 - 24
+\* Posizioni 1 - 24  :  livello degli elementi 1 - 24
+\* Posizioni 25 - 48  :  trend degli elementi 1 - 24
+\* Posizioni 49 - 72  :  stagionalità degli elementi 1 - 24
 NB :  le posizioni partono dall'inizio, e quindi possono non avere esatta corrispondenza con la serie HW. Ad esempio, con una frontiera al periodo 36, ed una storia di 24 periodi, il primo periodo della storia, nella serie HW è il 13, mentre nella presente serie dei coefficienti è il 1.
 Vengono ritornati inoltre i seguenti numeri, che sono gli estremi delle tre sottoserie.
-* Numero 1 - 1
-* Numero 2 - 24
-* Numero 3 - 25
-* Numero 4 - 48
-* Numero 5 - 49
-* Numero 6 - 72
+\* Numero 1 - 1
+\* Numero 2 - 24
+\* Numero 3 - 25
+\* Numero 4 - 48
+\* Numero 5 - 49
+\* Numero 6 - 72
 **Statistica Hotelling da Holt Winter (HW)**
 Questa funzione/metodo va lanciata dopo il calcolo Holt Winters.
 Ritorna una serie di N elementi pari alla storia, che costituisce la statistica Hotelling della previsione. Ritorra anche i seguenti numeri : 
- * n. elementi fuori limite
- * limite della serie
+ \* n. elementi fuori limite
+ \* limite della serie
 **Previsione con metodo interpolazione lineare (IL)**
 Implementa il metodo di previsione della domanda determinando la retta che interpola linearmente (con il metodo dei minimi quadrati) l'input, e calcolandone i valori per i punti di previsione. E' obbligatorio che le serie di input siano, esplicitamente o implicitamente, a passo unitario. Devono essere impostati i seguenti dati di input : 
  - Vedi HW. In questo metodo la periodicità non è utilizzatat direttamente. La si inserisce per omogeneità  e per matenere gli stessi defalut di HW. Non viene dato errore se si passa il valore 1.
@@ -168,9 +168,9 @@ Ritorna una serie, in cui, in ogni elemento, viene calcolata la differenza tra i
 ## Utilizzo della /COPY
 ### Funzione INZ (inizializzazione)
 La si lancia una volta per comunicare che si sta per elaborare una nuova serie, ed il tipo di serie (singolo numero, semplice, doppia, ecc ...); in questa funzione si inizializzano : 
-* le schiere interne del programma
-* tutti i campi di input
-* tutti i campi di output
+\* le schiere interne del programma
+\* tutti i campi di input
+\* tutti i campi di output
 
 ### Funzione CAR (caricamento)
 La si lancia per caricare le serie di input; si passa il numero di elementi :  se non impostato, si assume l'ultimo elemento non vuoto, si può richiamare più volte :  i nuovi dati si accodano ai precedenti; in questa funzione si inizializzano (al ritorno del richiamo) i campi di input passati. La caratterizzazione alfanumerica di ogni elemento della serie è comune alle due serie :  il valore viene messo nella posizione del numero corrispondente, e ricopre il precedente. Nel caricamento alternato si deve impostare, come numero di elementi, il numero di coppie. Ad esempio, se la prima serie è 1,2,3 e la seconda 8,7,6, per passarle con metodo A_12, si passa la serie 1,8,2,7,3,6, ed il numero di elementi 3.
@@ -204,11 +204,11 @@ Deve esserci congruenza tra il metodo della funzione INZ e la funzione di calcol
 | .COL Cod="A02" Txt="Funzione Fxx" LunAut="1" A="L" |
 | - NUM|F01     F02 |
 | - SIN|F03     F04 |
-| - DOP|F03 (*) F04 (*) F05  F06 |
-| - DOPUNI|F03 (*) F04 (*) F05  F06 |
+| - DOP|F03 (\*) F04 (\*) F05  F06 |
+| - DOPUNI|F03 (\*) F04 (\*) F05  F06 |
 | 
 
- (*) :  funzioni eseguite sulla prima serie delle due
+ (\*) :  funzioni eseguite sulla prima serie delle due
 
 Negli altri casi viene acceso l'indicatore 35 e ritornato il messaggio di incongruenza tra inizializzazione ed esecuzione.
 

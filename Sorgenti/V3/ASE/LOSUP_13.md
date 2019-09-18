@@ -83,15 +83,15 @@ In questo caso è necessario disabilitare il controllo di consistenza.
 **NELLA ROUTINE FSETUP DEL PGM DI CONTROLLO nomefile_A IMPOSTARE A '1' LA VARIABILE**
 **£JayDisCon PER DISABILITARE IL CONTROLLO DI CONSISTENZA SU TUTTI I CAMPI.**
 
->     C*--------------------------------------------------------------*
-    RD*    SETUP (Completamento definizione campi)
-     C*--------------------------------------------------------------*
-     C* Completa la schiera di definizione dei campi
+>     C\*--------------------------------------------------------------\*
+    RD\*    SETUP (Completamento definizione campi)
+     C\*--------------------------------------------------------------\*
+     C\* Completa la schiera di definizione dei campi
      C     FSETUP        BEGSR
      C ....
      C ....
      C                   EVAL      £JayDisCon='1'
-     C*
+     C\*
      C                   ENDSR
 
 
@@ -109,19 +109,19 @@ campi del file.
 D £Lou13DSFld     DS                                                       DS Campo
 D  £Lou13FNM                    10                                          Nome
 D  £Lou13FIO                     1                                          B/O/I/H/K
-D* O=Obbligatorio; N=Non obbligatorio
+D\* O=Obbligatorio; N=Non obbligatorio
 D  £Lou13FOB                     1                                          Obbligatorio (O)
-D* A=AS400; B=No controllo; C=Loocup
+D\* A=AS400; B=No controllo; C=Loocup
 D  £Lou13FNT                     1                                          Controllo
 D  £Lou13FAR                     1                                          Avanzamento record
 D  £Lou13FFM                    10                                          Formato (LC/UC)
 D  £Lou13FOG                    20                                          Tipo/parametro
 D  £Lou13FDV                    40                                          Default value
-D* DI=Data ins.; DM=Data mod.; OI=Ora ins.; OM=Ora mod.;
-D* UI=Utente ins.; UM=Utente mod.; UA=Utente ins./mod.;
-D* GI=Origine ins.; GM=Origine mod.; GA=Origine ins./mod.;
+D\* DI=Data ins.; DM=Data mod.; OI=Ora ins.; OM=Ora mod.;
+D\* UI=Utente ins.; UM=Utente mod.; UA=Utente ins./mod.;
+D\* GI=Origine ins.; GM=Origine mod.; GA=Origine ins./mod.;
 D  £Lou13TPC                     2                                          Tipo campo speciale
-D* A=Controlla B=No controllo
+D\* A=Controlla B=No controllo
 D  £Lou13FNC                     1                                          Contr. consistenza
 
 

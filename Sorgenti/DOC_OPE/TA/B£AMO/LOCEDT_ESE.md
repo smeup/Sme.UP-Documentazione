@@ -3,8 +3,8 @@
 IMG P([IMG : J1;FUN;F(SPC;B£SER_43B;TST.IMG) 1(J1;GRA;SPC) 2(TA;V§R;) P(Typ(FRE))]) R(60)
 **In attesa di escluderli solo per latex tolgo  :   :  perchè bloccano la generazione dei manuali**
 Ora alcune righe con degli spazi davanti : 
- * riga 1
- * riga 2
+ \* riga 1
+ \* riga 2
 
 Questa parte è precedente al_4_primo titoloe non viene visualizzata se la modalità di richiamo è**HELP** di scheda.
 _4_XX
@@ -44,7 +44,7 @@ questo è minore <, questo è l'altro <
 
 # Esempi di PARAGRAFI di liste
 Lista con cambio formato : 
- * Lista con _5_cambio formato interno
+ \* Lista con _5_cambio formato interno
 
 Tipo 1 - numeri : 
  - Riga 1.n
@@ -83,12 +83,12 @@ Tipo 2 - lettere - CONT :
  - Riga 2.l
 
 Tipo 3 - puntato : 
- * Riga 3.p
- * Riga 3.p
- ** Nested 1
- ** Nested 2
- * Riga 3.p
- * Riga 3.p
+ \* Riga 3.p
+ \* Riga 3.p
+ \*\* Nested 1
+ \*\* Nested 2
+ \* Riga 3.p
+ \* Riga 3.p
 
 # Esempi di titoli
 # - Titolo di livello 1  1
@@ -167,19 +167,19 @@ OG
 
 # Elenchi puntati/numerati stile WIKI
 Per iniziare un elenco basta  inserire a inizio riga la seguente serie di caratteri : 
-' * '  (spazio-asterisco-spazio) e nome del valore del punto elenco (nel caso di elenchi puntati)
+' \* '  (spazio-asterisco-spazio) e nome del valore del punto elenco (nel caso di elenchi puntati)
 ' - ' (spazio-diesis-spazio) e nome del valore del punto elenco (nel caso di elenchi numerati)
 e man mano incrementare il numero di simboli se si vuole cambiare livelli. Per concludere l'elenco aggiungo uno spazio bianco.
 
 Esempio elenco puntato : 
- ' * ' Primo punto
- ' ** ' Secondo punto con un testo molto lungo per testare i ritorni a capo ed eventuali problemi di
- ' *** ' Terzo punto
+ ' \* ' Primo punto
+ ' \*\* ' Secondo punto con un testo molto lungo per testare i ritorni a capo ed eventuali problemi di
+ ' \*\*\* ' Terzo punto
 
 Diventa : 
- * Primo punto
- ** Secondo punto con un testo molto lungo per testare i ritorni a capo ed eventuali problemi di
- *** Terzo punto
+ \* Primo punto
+ \*\* Secondo punto con un testo molto lungo per testare i ritorni a capo ed eventuali problemi di
+ \*\*\* Terzo punto
 
 Esempio elenco numerato : 
  ' - ' Primo punto elenco numerato
@@ -214,11 +214,11 @@ unico formato video che presenta una serie di opzioni disponibili all'utente, co
 ## Formato video guida
 ![CQDOCU_02](http://localhost:3000/immagini/MBDOC_OPE-LOCEDT_ESE/CQDOCU_02.png)
 Le opzioni disponibili sono : 
- * 01 Aggiunta :  per immettere un nuovo documento;
- * 02 Modifica :  per modificare, approvare, rilasciare e distribuire un documento;
- * 03 Copia :  per creare un nuovo documento con caratteristiche simili ad uno già creato;
- * 04 Annullamento :  per eliminare un documento;
- * 05 Interrogazione :  per visualizzare un documento.
+ \* 01 Aggiunta :  per immettere un nuovo documento;
+ \* 02 Modifica :  per modificare, approvare, rilasciare e distribuire un documento;
+ \* 03 Copia :  per creare un nuovo documento con caratteristiche simili ad uno già creato;
+ \* 04 Annullamento :  per eliminare un documento;
+ \* 05 Interrogazione :  per visualizzare un documento.
 
 ## Tipo documento
 Per poter accedere in modo corretto alle funzioni si deve precisare quale è il TIPO DOCUMENTO che si vuole gestire; il TIPO DOCUMENTO è codificato nella tabella CQ0 (si veda eventualmente la descrizione della tabella CQ0).
@@ -229,10 +229,10 @@ Con questa possibilità la gestione sarà personalizzata in funzione di quel tip
 ![CQDOCU_03](http://localhost:3000/immagini/MBDOC_OPE-LOCEDT_ESE/CQDOCU_03.png)
 ### Note particolari
 L'opzione di modifica permette di effettuare una molteplicità di operazioni : 
- * modificare la parte relativa all'immissione
- * approvare il documento una volta immesso
- * rilasciare il documento una volta approvato
- * distribuire il documento
+ \* modificare la parte relativa all'immissione
+ \* approvare il documento una volta immesso
+ \* rilasciare il documento una volta approvato
+ \* distribuire il documento
 
 Tutte queste operazioni sono assoggettate alle autorizzazioni che ogni singolo utente può avere o non avere.
 Gli utenti che non possono ne approvare ne rilasciare un documento non vedranno nella prima videata del DETTAGLIO il tasto funzionale F15 che permette di passare alla seconda videata che gestisce l'approvazione, il rilascio e la distribuzione.

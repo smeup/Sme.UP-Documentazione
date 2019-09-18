@@ -27,4 +27,4 @@ Allo scattare del dinamismo, vengono generate tutte le variabili di riga relativ
 ## Schede di esempio
 Scheda d'esempio, esclusiva per WebUP
 
- :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;*SCO;) 1(V2;JAGRA;TML) 2(MB;SCP_SCH;WETEST_TML)) L(1)
+ :  : DEC K(Esempi) D(Sezione specifica per il web) X(F(EXD;\*SCO;) 1(V2;JAGRA;TML) 2(MB;SCP_SCH;WETEST_TML)) L(1)

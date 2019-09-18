@@ -3,16 +3,16 @@ Il metodo Holt Winters (HW) si applica ad una serie storica per ottenere una pre
 In fase di messa a punto, per verificarne l'efficacia, esso può essere utilizzato in controllo, vale a dire facendogli fare una previsione per periodi passati, di cui si dispongono già i valori effettivi.
 
 Definiamo : 
- * __Frontiera__, l'ultimo periodo della serie che si assume come storia. Le previsioni iniziano dal periodo successivo. La frontiera non coincide con l'ultimo periodo della serie nel caso del controllo e, come vedremo, nell'autofit;
- * __Periodicità__, il numero di periodi in seguito a cui si assume che la serie presenti una ripetitività;
- * __Storia__, il numero di periodi passati su cui si fonda la previsione. Per il metodo HW è necessaria (e sufficiente) una storia pari a due periodicità;
- * __Numero di periodi di previsione__, il numero di periodi futuri (da quello successivo alla frontiera in poi) per cui si calcola la previsione;
- * __Numero di periodi iniziali__, il numero di periodi, a partire dal primo periodo della storia, su cui si esegue un'interpolazione lineare per ottenere i dati di "innesco" del calcolo. Può essere al massimo pari alla periodicità; un valore minore riduce il peso della storia nel calcolo.
+ \* __Frontiera__, l'ultimo periodo della serie che si assume come storia. Le previsioni iniziano dal periodo successivo. La frontiera non coincide con l'ultimo periodo della serie nel caso del controllo e, come vedremo, nell'autofit;
+ \* __Periodicità__, il numero di periodi in seguito a cui si assume che la serie presenti una ripetitività;
+ \* __Storia__, il numero di periodi passati su cui si fonda la previsione. Per il metodo HW è necessaria (e sufficiente) una storia pari a due periodicità;
+ \* __Numero di periodi di previsione__, il numero di periodi futuri (da quello successivo alla frontiera in poi) per cui si calcola la previsione;
+ \* __Numero di periodi iniziali__, il numero di periodi, a partire dal primo periodo della storia, su cui si esegue un'interpolazione lineare per ottenere i dati di "innesco" del calcolo. Può essere al massimo pari alla periodicità; un valore minore riduce il peso della storia nel calcolo.
 
 Il metodo HW si basa su tre valori, tutti nella stessa unità di misura della serie, che si determinano alla frontiera : 
- * __Livello __ --> valore medio della previsione nei periodi futuri;
- * __Trend __ --> variazione (che si assume costante) della previsione rispetto al periodo precedente. Se positivo indica una crescita, se negativo una diminuzione;
- * __Stagionalità __ --> una serie di "P" valori (dove "P" è la periodicità) che indica, rispetto al livello, la variazione della previsione dovuta a fenomeni ripetitivi).
+ \* __Livello __ --> valore medio della previsione nei periodi futuri;
+ \* __Trend __ --> variazione (che si assume costante) della previsione rispetto al periodo precedente. Se positivo indica una crescita, se negativo una diminuzione;
+ \* __Stagionalità __ --> una serie di "P" valori (dove "P" è la periodicità) che indica, rispetto al livello, la variazione della previsione dovuta a fenomeni ripetitivi).
 
 La **previsione del periodo "N"** (da 1 al numero di periodi di previsione) è data da : 
 
@@ -39,34 +39,34 @@ A questo proposito facciamo presente che il sistema comunque calcola sempre i va
 
 **ESEMPI**
 Riportiamo alcuni esempi di previsioni, con le seguenti assunzioni : 
- * Il periodo della serie è il mese.
- * La periodicità è di 12 periodi.
- * La storia è di 24 periodi (12 x 2).
- * Il numero di periodi di previsione è 12.
+ \* Il periodo della serie è il mese.
+ \* La periodicità è di 12 periodi.
+ \* La storia è di 24 periodi (12 x 2).
+ \* Il numero di periodi di previsione è 12.
 
 **A) Previsione con una serie di 24 periodi**
 E' la condizione minima per eseguire l'HW.
- * Si può impostare solo l'autofit senza arretramento.
- * In alternativa si fissano i valori dei tre fattori di smorzamento.
- * Vengono calcolate le previsioni per i periodi dal 25 al 36.
+ \* Si può impostare solo l'autofit senza arretramento.
+ \* In alternativa si fissano i valori dei tre fattori di smorzamento.
+ \* Vengono calcolate le previsioni per i periodi dal 25 al 36.
 
 **B) Previsione con una serie di 36 periodi**
- * La frontiera è al periodo 36, quindi è possibile eseguire l'autofit "normale", in quanto c'è possibilità di separate i periodi di trainining (i primi 24 mesi) e quelli di test (gli ultimi dodici).
- * In alternativa si fissano i valori dei tre fattori di smorzamento, con la frontiera al periodo 36 e una storia di 24 periodi, ottenendo la previsione per i periodi dal 37 al 48.
- * In questa situazione, sarebbe possibile utilizzare tutti i 36 periodi di storia (nel calcolo finale, non nell'autofit), ma i risultati non sembrano differire significativamente da quelli ottenuti impostando per la storia il valore normale di 24 periodi.
+ \* La frontiera è al periodo 36, quindi è possibile eseguire l'autofit "normale", in quanto c'è possibilità di separate i periodi di trainining (i primi 24 mesi) e quelli di test (gli ultimi dodici).
+ \* In alternativa si fissano i valori dei tre fattori di smorzamento, con la frontiera al periodo 36 e una storia di 24 periodi, ottenendo la previsione per i periodi dal 37 al 48.
+ \* In questa situazione, sarebbe possibile utilizzare tutti i 36 periodi di storia (nel calcolo finale, non nell'autofit), ma i risultati non sembrano differire significativamente da quelli ottenuti impostando per la storia il valore normale di 24 periodi.
 
 **C) Controllo con una serie di 36 periodi**
 In questo caso si vuole controllare, dall'esterno, l'attendibilità della previsione.
- * Si deve fissare la frontiera al periodo 24, in modo che il sistema preveda i periodi dal 25 al 36, impostando comunque che la serie storica è composta di 36 periodi.
- * Ci si riconduce quindi al caso A), e quindi è possibile unicamente l'autofit senza arretramento.
- * In più, dato che il sistema riconosce che è stata fornita una serie storica anche nel futuro (periodi dal 25 al 36) calcola i CB previsionali, confrontando questi valori con quelli calcolati per gli stessi periodi.
- * Dato che vengono comunque calcolati i CB consuntivi, il sistema è in grado di calcolare anche i CB totali, che utilizzano le due serie nella loro completezza  (dal periodo 1 al 36, sia per la per la serie storica che per quella previsionale, composta dai periodi dall'1 al 24 per la previsione nel "passato" e da quelli dal 25 al 36 per la previsione nel "futuro").
+ \* Si deve fissare la frontiera al periodo 24, in modo che il sistema preveda i periodi dal 25 al 36, impostando comunque che la serie storica è composta di 36 periodi.
+ \* Ci si riconduce quindi al caso A), e quindi è possibile unicamente l'autofit senza arretramento.
+ \* In più, dato che il sistema riconosce che è stata fornita una serie storica anche nel futuro (periodi dal 25 al 36) calcola i CB previsionali, confrontando questi valori con quelli calcolati per gli stessi periodi.
+ \* Dato che vengono comunque calcolati i CB consuntivi, il sistema è in grado di calcolare anche i CB totali, che utilizzano le due serie nella loro completezza  (dal periodo 1 al 36, sia per la per la serie storica che per quella previsionale, composta dai periodi dall'1 al 24 per la previsione nel "passato" e da quelli dal 25 al 36 per la previsione nel "futuro").
 
 **D) Controllo con una serie di 48 periodi**
 Anche in questo caso si vuole controllare, dall'esterno, l'attendibilità della previsione.
- * Si deve fissare la frontiera al periodo 36, in modo che il sistema preveda i periodi dal 37 al 48, impostando comunque che la serie storica è composta di 48 periodi, mentre la storia è di 24.
- * Ci si riconduce quindi al caso B), pertanto è possibile utilizzare l'autofit "normale".
- * Le ulteriori considerazioni (calcolo dei CB previsionali e totali) sono le stesse del caso C).
+ \* Si deve fissare la frontiera al periodo 36, in modo che il sistema preveda i periodi dal 37 al 48, impostando comunque che la serie storica è composta di 48 periodi, mentre la storia è di 24.
+ \* Ci si riconduce quindi al caso B), pertanto è possibile utilizzare l'autofit "normale".
+ \* Le ulteriori considerazioni (calcolo dei CB previsionali e totali) sono le stesse del caso C).
 
 ![B£MATE_014](http://localhost:3000/immagini/B£MATE_01/BXMATE_014.png)![B£MATE_015](http://localhost:3000/immagini/B£MATE_01/BXMATE_015.png)![B£MATE_016](http://localhost:3000/immagini/B£MATE_01/BXMATE_016.png)
 ## Holt Winters :  esposizione dettagliata

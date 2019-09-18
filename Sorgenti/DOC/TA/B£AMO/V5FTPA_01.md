@@ -2,14 +2,14 @@
 
 ## Il processo
 Il processo di fatturazione elettronica verso la Pubblica Amministrazione e i Privati prevede i seguenti passaggi.
- * Generazione XML conforme a specifiche. SmeUP generà un XML per ogni singola fattura (non è prevista la possibilità di gestire lotti di fatture)
- * Firma del file (obbligatoria solo per PA) :  la firma può essere in  formato CAdES-BES (CMS Advanced Electronic Signatures) oppure in formato XAdES-BES (XML Advanced Electronic Signatures). Il software utilizzato per apporre la firma deve essere in grado di valorizzare il parametro "signing time", che riporta la data e l'ora, ed anche la "time zone" e che assume il significato di riferimento temporale. Non è invece necessaria l' apposizione della marca temporale. In base al formato di firma adottato, l'estensione del file assume il valore ".xml.p7m" (per la firma CAdES-BES) oppure ".xml" (per la firma XAdES-BES).
- * Invio a Sdi. Le possibili modalità di trasmissione sono : 
- ** Invio manuale tramite il sito web http://www.fatturapa.gov.it/ ;
- ** Invio tramite web-services (SDICoop) ;
- ** Invio tramite Posta Elettronica Certificata (PEC) ;
- ** Invio tramite FTP (SDIFTP) ;
- ** Invio tramite Porta di dominio (SPCoop) .
+ \* Generazione XML conforme a specifiche. SmeUP generà un XML per ogni singola fattura (non è prevista la possibilità di gestire lotti di fatture)
+ \* Firma del file (obbligatoria solo per PA) :  la firma può essere in  formato CAdES-BES (CMS Advanced Electronic Signatures) oppure in formato XAdES-BES (XML Advanced Electronic Signatures). Il software utilizzato per apporre la firma deve essere in grado di valorizzare il parametro "signing time", che riporta la data e l'ora, ed anche la "time zone" e che assume il significato di riferimento temporale. Non è invece necessaria l' apposizione della marca temporale. In base al formato di firma adottato, l'estensione del file assume il valore ".xml.p7m" (per la firma CAdES-BES) oppure ".xml" (per la firma XAdES-BES).
+ \* Invio a Sdi. Le possibili modalità di trasmissione sono : 
+ \*\* Invio manuale tramite il sito web http://www.fatturapa.gov.it/ ;
+ \*\* Invio tramite web-services (SDICoop) ;
+ \*\* Invio tramite Posta Elettronica Certificata (PEC) ;
+ \*\* Invio tramite FTP (SDIFTP) ;
+ \*\* Invio tramite Porta di dominio (SPCoop) .
 Sme.UP Erp consente l'invio tramite web-services grazie all'integrazione con la soluzione di firma digitale, invio e conservazione sostitutiva di Abletech, nostro partner già accreditato presso il Sistema di Interscambio.
 Le altre modalità di invio non sono direttamente interfacciate, ma possono essere gestite a partire dal file xml generato da Sme.UP Erp, provvedendo autonomamente in modo manuale alla firma elettronica, all'invio al SdI e alla conservazione sostitutiva.
 Il SdI prende in carico il file ed entro 5 giorni ne esegue un controllo formale verificando anche che la fattura non sia stata precedentemente già inviata. Se il file supera i controlli la fattura risulta emessa e il file viene inoltrato al destinatario della fattura, in base al codice univoco di identificazione dell'ufficio se si tratta di una PA, del codice intermediario o della pec nel caso di fattura B2B. Se il fiel non risulta conforme viene inviato un esito di Scarto e la fattura risulta NON emessa.

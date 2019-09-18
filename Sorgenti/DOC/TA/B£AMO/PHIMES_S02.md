@@ -37,17 +37,17 @@ _2_PASSI INSTALLAZIONE
 -- att. il cod. utente serve solo per permettere l'accesso DIRECT alla postazione, gli operatori che lavoreranno sulla macchina si identificheranno tramite il loro cod. operatore/cod. dipendente
 
 _2_Configurazione connessione con le macchine e interfaccia MACCHINE-SMEUP
-* Configurazione di un server Windows con Smeup Provider versione V5R1 per comunicazione con SmeUP ERP
-* Istallazione e configurazione software Kepware con relativo plugin IOT Gateway (https://www.kepware.com/en-us/products/kepserverex/advanced-plug-ins/iot-gateway/documents/iot-gateway-manual.pdf)
-* Configurazione connettori con le macchine (in base alla tipologia del collegamento previsto (OPC DA/OPC UA/PLC/MODBUS) deve essere configurato il connettore specifico del KEPWARE.
-** KEPWARE permette di definire un' interfaccia generica di accesso a diverse tipologie di macchine e protocolli)
-* Creazione script A37 di variabili macchine lato SMEUP. La suddivisione dello script viene fatto in base al reparto/tipologie di macchina/linee o altro e viene stabilito/condiviso in fase di configurazione durante le prime riunioni con il personale IIOT di SmeUP
-** Tutti i dati in INPUT/OUTPUT vengono gestiti tramite elenchi di variabili/TAG definiti nel LOA37_XY creato a partire dal LOA37_£H di esempio. E' possibile interagire con queste variabili sia in modalità push che pull e sia in lettura che scrittura.
-** In SmeUP tutte le variabili del campo (riferite anche con il termine TAG) sono gestite tramite questo framework chiamato in modo semplice A37. Questo modo generalizza la modalità con cui SmeUp gestisce macchinari di tipologie differenti
-** Ogni macchina può restituire in OUTPUT segnali segnali on/off, pezzi fatti, pezzi scartati, eventuale moltiplicatore oltre a dati di processo quali temperature, velocità media, dati di pressione o altro.
-** Inoltre ogni macchina potrebbe avere a disposizione tag in INPUT a cui passare informazioni quali il cod. di attrezzatura attualmente in uso, articolo/part-program , ordine di produzione, ciclo standard previsto (info utili in caso di certificazione Industry 4.0). Queste informazioni passate al PLC o alla macchina normalmente sono poi visualizzate sul pannello operatore.
-* In questa una fase iniziale è importante identificare quali sono i valori che devono essere recepiti e quali possono essere scritti sulla macchina (la possibilità di scrivere dati sulla macchina dipende dalle possibilità date dal fornitore in fase di installazione o quelle che possono essere poi modificate durante la configurazione con SmeUP ERP)
-* Una volta definite le variabili che arrivano dalla macchina queste devono essere configurate sul parametro £MA associato alla macchina.
+\* Configurazione di un server Windows con Smeup Provider versione V5R1 per comunicazione con SmeUP ERP
+\* Istallazione e configurazione software Kepware con relativo plugin IOT Gateway (https://www.kepware.com/en-us/products/kepserverex/advanced-plug-ins/iot-gateway/documents/iot-gateway-manual.pdf)
+\* Configurazione connettori con le macchine (in base alla tipologia del collegamento previsto (OPC DA/OPC UA/PLC/MODBUS) deve essere configurato il connettore specifico del KEPWARE.
+\*\* KEPWARE permette di definire un' interfaccia generica di accesso a diverse tipologie di macchine e protocolli)
+\* Creazione script A37 di variabili macchine lato SMEUP. La suddivisione dello script viene fatto in base al reparto/tipologie di macchina/linee o altro e viene stabilito/condiviso in fase di configurazione durante le prime riunioni con il personale IIOT di SmeUP
+\*\* Tutti i dati in INPUT/OUTPUT vengono gestiti tramite elenchi di variabili/TAG definiti nel LOA37_XY creato a partire dal LOA37_£H di esempio. E' possibile interagire con queste variabili sia in modalità push che pull e sia in lettura che scrittura.
+\*\* In SmeUP tutte le variabili del campo (riferite anche con il termine TAG) sono gestite tramite questo framework chiamato in modo semplice A37. Questo modo generalizza la modalità con cui SmeUp gestisce macchinari di tipologie differenti
+\*\* Ogni macchina può restituire in OUTPUT segnali segnali on/off, pezzi fatti, pezzi scartati, eventuale moltiplicatore oltre a dati di processo quali temperature, velocità media, dati di pressione o altro.
+\*\* Inoltre ogni macchina potrebbe avere a disposizione tag in INPUT a cui passare informazioni quali il cod. di attrezzatura attualmente in uso, articolo/part-program , ordine di produzione, ciclo standard previsto (info utili in caso di certificazione Industry 4.0). Queste informazioni passate al PLC o alla macchina normalmente sono poi visualizzate sul pannello operatore.
+\* In questa una fase iniziale è importante identificare quali sono i valori che devono essere recepiti e quali possono essere scritti sulla macchina (la possibilità di scrivere dati sulla macchina dipende dalle possibilità date dal fornitore in fase di installazione o quelle che possono essere poi modificate durante la configurazione con SmeUP ERP)
+\* Una volta definite le variabili che arrivano dalla macchina queste devono essere configurate sul parametro £MA associato alla macchina.
 
 _2_UTILIZZO £PHI
 - [Eventi&-x2f;Attività MES](Sorgenti/DOC/TA/B£AMO/PHIMES_S04)

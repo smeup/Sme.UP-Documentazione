@@ -6,9 +6,9 @@ L'esecuzione di questi ordini può essere un requisito per impegni successivi de
 # Note tecniche
 
 Per creare sottoworkflow vincolanti su un processo master è necessario : 
- * Conseguenza esterna su processo master :  crea il sottoprocesso;
- * Conseguenza esterna su processo derivato, al suo termine :  avanza lo stato del processo e allinea processo master;
- * Requisito esterno su una transizione del processo master, per renderla attivabile solo se i sottoprocessi sono terminati.
+ \* Conseguenza esterna su processo master :  crea il sottoprocesso;
+ \* Conseguenza esterna su processo derivato, al suo termine :  avanza lo stato del processo e allinea processo master;
+ \* Requisito esterno su una transizione del processo master, per renderla attivabile solo se i sottoprocessi sono terminati.
 
 Come esempio si guardino il workflow ESE_008 e derivati.
 

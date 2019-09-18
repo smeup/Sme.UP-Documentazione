@@ -31,8 +31,8 @@ E' possibile fornire all'input panel diversi tipi di XML dei dati :
 E' possibile fornire questi tipi di XML al componente tramite una o più funzioni, come avviene per gli altri componenti.
 Ad esempio : 
  :  : PAR F(04)
-..D.FUN.STD F(DSP;;LET) 1(OJ;*FILE;TESTPNL)
-..D.FUN.STD F(EXB;*TBL;) 1(TA;X01;)
+..D.FUN.STD F(DSP;;LET) 1(OJ;\*FILE;TESTPNL)
+..D.FUN.STD F(EXB;\*TBL;) 1(TA;X01;)
 
 La prima chiamata a funzione restituisce l'Xml Video mentre la seconda un Xml in formato matrice che contiene i dati.
 Non è obbligatorio che vengano effettuate entrambe le chiamate. Ad esempio se venisse scelta solo la seconda, il componente INP autogenererebbe il suo video a partire dalla griglia dei dati. Mentre se venisse utilizzata solo la prima funzione verrebbe creato un input panel non collegato ai dati, ma comunque completo di ogni dinamismo associato ai suoi eventi, a partire dal formato video scelto.

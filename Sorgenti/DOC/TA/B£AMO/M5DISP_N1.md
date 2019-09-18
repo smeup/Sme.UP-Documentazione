@@ -2,12 +2,12 @@
 Si può impostare un gruppo fonti oppure scegliere le fonti una ad una in modo specifico per ogni lancio.
 
 ## Forme previste
- * **Dettaglio per data**; viene riportato ogni evento, prima le fonti attuali (ordinate per il parametro di ordinamento della tabella), poi quelle future (ordinate per data e parametro di ordinamento)
- * **Dettaglio per fonte**; come dettaglio per data, ordinata però per fonte (parametro di ordinamento della tabella) e all'interno di ogni fonte per data
- * **Riepilogo per giorno**; viene riportata una riga per ogni giorno e all'intero per fonte
- * **Riepilogo per fonte**; viene riportata una riga per ogni fonte
- * **Sintesi per giorno**; viene riportata una riga per ogni giorno
- * **Sintesi per articolo**; viene riportata una riga per ogni articolo
+ \* **Dettaglio per data**; viene riportato ogni evento, prima le fonti attuali (ordinate per il parametro di ordinamento della tabella), poi quelle future (ordinate per data e parametro di ordinamento)
+ \* **Dettaglio per fonte**; come dettaglio per data, ordinata però per fonte (parametro di ordinamento della tabella) e all'interno di ogni fonte per data
+ \* **Riepilogo per giorno**; viene riportata una riga per ogni giorno e all'intero per fonte
+ \* **Riepilogo per fonte**; viene riportata una riga per ogni fonte
+ \* **Sintesi per giorno**; viene riportata una riga per ogni giorno
+ \* **Sintesi per articolo**; viene riportata una riga per ogni articolo
 
 Per eseguire la stampa occorre avere nella B£Q_AR l'elemento £01 così impostato
 >Set. B£Q FORME DI RAPPRESENTAZIONE      Sub. AR FORME STAMPA PER ARTICOLI

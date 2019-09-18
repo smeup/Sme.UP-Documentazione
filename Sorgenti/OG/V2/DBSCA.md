@@ -27,7 +27,7 @@ Se questa opzione non è sceglibile, significa che in tabella P51 non è attiva 
 ### 'B' DI LEGAME
 Vengono considerati solo gli scarti di legame.
 
-### '*' ENTRAMBI
+### '\*' ENTRAMBI
 Vengono considerati entrambi gli scarti.
 Ricordo che in questo caso l'eventuale arrotondamento dell'unità di misura viene applicato separatamente per lo scarto
 di assieme e per quello di legame.

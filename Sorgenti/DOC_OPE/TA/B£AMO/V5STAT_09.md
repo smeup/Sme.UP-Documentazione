@@ -8,8 +8,8 @@ Primo per selezionare i dati da analizzare applichiamo un filtro per "Dati geogr
 Dopo aver impostato il filtro, è possibile interrogare la scheda per "Andamento nel tempo" > "Importo netto".
 
 Una volta entrati è possibile scegliere il tipo di valore della vista che si vuole visualizzare, in questo caso l' "Importo netto" e quindi impostare il resto delle condizioni di interrogazione in questo modo : 
- * come parametro verticale :  anno
- * come parametro orizzontale :  trimeste
+ \* come parametro verticale :  anno
+ \* come parametro orizzontale :  trimeste
 
 ![V5STAT_029](http://localhost:3000/immagini/MBDOC_OPE-V5STAT_09/V5STAT_029.png)
 Selezionando come "Valore" l'"Aumento - percentuale su precedente - Importo netto" otteniamo le variazioni percentuali : 
@@ -24,9 +24,9 @@ Utlizziamo l'Analisi di Pareto" e selezioniamo con asse l'"ente intestatario" e 
 ## Visualizzare i margini per provincia / classe contabile articolo
 Per analizzare il margine l'interrogazione più appropriata è :  "Analisi tabellare" per "Articolo/Ente".
 Si impostino i seguenti parametri
- * Valore :  margine
- * Verticale :  cliente - provincia
- * Orizzontale :  articolo - classe contabile
+ \* Valore :  margine
+ \* Verticale :  cliente - provincia
+ \* Orizzontale :  articolo - classe contabile
 
 ![V5STAT_033](http://localhost:3000/immagini/MBDOC_OPE-V5STAT_09/V5STAT_033.png)
 ### Controllare la registrazione cui appartiene la riga con il massimo importo negativo nel 2009

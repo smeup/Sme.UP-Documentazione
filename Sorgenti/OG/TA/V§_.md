@@ -1,5 +1,5 @@
-# V§* - TABELLE STANDARD
- :  : DEC T(ST) K(V§*)
+# V§\* - TABELLE STANDARD
+ :  : DEC T(ST) K(V§\*)
 ## OBIETTIVO
 Questa tabella è prevista per contenere alcuni valori che sono condizioni dell'applicazione o per qualsiasi uso simile l'utente voglia farne.
 ## SOTTOSETTORI

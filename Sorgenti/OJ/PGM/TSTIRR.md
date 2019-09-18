@@ -17,8 +17,8 @@
 £IRRFI :  File   messaggio ritorno (10)
 £IRRCM :  Ultimo Comando
 £IRRRO :  N.ro Record di output
-*IN35  :  se On = Codice errato
-*IN36  :  se On = eseguita ricerca alfabetica
+\*IN35  :  se On = Codice errato
+\*IN36  :  se On = eseguita ricerca alfabetica
 C5RATA :  DS valorizzata
 
 
@@ -26,21 +26,21 @@ C5RATA :  DS valorizzata
 DC5RATE         E DS                  EXTNAME(C5RATE0F) INZ
 
 # Esempio di chiamata
->C*                  Z-ADD     N_campi       £IRRNK
-C*                  MOVEL     'Funzione'    £IRRFU
-C*                  MOVEL     'Metodo'      £IRRME
-C*                  MOVEL     Ambiente      £IRRAM
-C*                  MOVEL     Contesto      £IRRCO
-C*                  MOVEL     ID_Rata       £IRRID
- *
-C*                  EXSR      £IRR
- *
-C*                  IF        NOT(*IN35)
-C*  36              MOVEL     £IRRID        Campo_Id_Rata
-C*                  MOVEL     £IRRDE        Campo_descr
-C*                  ENDIF
+>C\*                  Z-ADD     N_campi       £IRRNK
+C\*                  MOVEL     'Funzione'    £IRRFU
+C\*                  MOVEL     'Metodo'      £IRRME
+C\*                  MOVEL     Ambiente      £IRRAM
+C\*                  MOVEL     Contesto      £IRRCO
+C\*                  MOVEL     ID_Rata       £IRRID
+ \*
+C\*                  EXSR      £IRR
+ \*
+C\*                  IF        NOT(\*IN35)
+C\*  36              MOVEL     £IRRID        Campo_Id_Rata
+C\*                  MOVEL     £IRRDE        Campo_descr
+C\*                  ENDIF
 
 
 # Note particolari
-£IRRNK :  Numero di campi che si vuole utilizzare nella ricerca (es. se si accede alla vista logica con chiavi AZIE,DIVI,TREG  e si valorizza solo AIZE il programma esclude dalla chiave i campi BLANK e lavora con chiave parziale (nell'es. = AZIE).Se si volesse usare una chiave formata da AZIE e da LIVE=*BLANKS allora si ponga £IRRNK=2).
+£IRRNK :  Numero di campi che si vuole utilizzare nella ricerca (es. se si accede alla vista logica con chiavi AZIE,DIVI,TREG  e si valorizza solo AIZE il programma esclude dalla chiave i campi BLANK e lavora con chiave parziale (nell'es. = AZIE).Se si volesse usare una chiave formata da AZIE e da LIVE=\*BLANKS allora si ponga £IRRNK=2).
 Non valorizzare £IRRNK per lasciare al programma il compito di stabilire il numero di chiavi da usare £IRRNK viene inserito nell'ultimo char di £IRRME al richiamo dell'interfaccia

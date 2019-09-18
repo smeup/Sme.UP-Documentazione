@@ -2,8 +2,8 @@
 Il calcolo e il trattamento dei tempi sono la base della schedulazione :  nel seguito viene descritto in dettaglio il processo, dal calcolo, all'utilizzo fino alla memorizzazione dei risultati.
 
 # Determinazione dei componenti di carico
-Si passano alla routine BRT i dieci tempi del ciclo, il tipo tempo e il codice di carico (V2/BR*CR (in modo esplicito o, in assenza, ricavato dalla risorsa).
-Essa calcola le 10 componenti di carico (V2/BR*CA)
+Si passano alla routine BRT i dieci tempi del ciclo, il tipo tempo e il codice di carico (V2/BR\*CR (in modo esplicito o, in assenza, ricavato dalla risorsa).
+Essa calcola le 10 componenti di carico (V2/BR\*CA)
 02 - Attrezzaggio
 03 - Carico
 

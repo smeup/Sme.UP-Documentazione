@@ -20,8 +20,8 @@ _B_Tabella B£C - Dettaglio elementi
 
  Elemento**CE001
    Descrizione      :   Azienda
-   Programma/Metodo :   *DOI
-   Parametro        :   ** /2/01/05
+   Programma/Metodo :   \*DOI
+   Parametro        :   \*\* /2/01/05
    Azione 1         :   101   2  101
    Azione 2         :   103   3  107
 
@@ -30,7 +30,7 @@ _B_Tabella B£C - Dettaglio elementi
 
  Elemento**CE002
    Descrizione      :   Gruppo/Conto
-   Programma/Metodo :   *CAR
+   Programma/Metodo :   \*CAR
    Parametro        :   COxxyy
    Azione 1         :   101   4  103
    Azione 2         : 
@@ -40,7 +40,7 @@ _B_Tabella B£C - Dettaglio elementi
 
  Elemento**CE003
    Descrizione      :   Progressivo scheda
-   Programma/Metodo :   *PRGOG
+   Programma/Metodo :   \*PRGOG
    Parametro        :   CE/C/101/09/05/N
    Azione 1         :   101  14  101
    Azione 2         : 
@@ -62,7 +62,7 @@ _B_Struttura del codice - secondo esempio
 
  Elemento**CE001
    Descrizione      :   Anno
-   Programma/Metodo :   *OGG
+   Programma/Metodo :   \*OGG
    Obbligatorio     :   1
    Parametro        :   P8A
    Azione 1         :   101   4  101
@@ -73,7 +73,7 @@ _B_Struttura del codice - secondo esempio
 
  Elemento**CE002
    Descrizione      :   Progressivo
-   Programma/Metodo :   *PRGOG
+   Programma/Metodo :   \*PRGOG
    Parametro        :   CE/C/101/04/05/N
    Azione 1         :   101  14  101
    Azione 2         : 
@@ -97,7 +97,7 @@ _B_Struttura del codice - terzo esempio
 
  Elemento**CE001
    Descrizione      :   Azienda
-   Programma/Metodo :   *OGG
+   Programma/Metodo :   \*OGG
    Parametro        :   AZ
    Obbligatorio     :   1
    Azione 1         :   101   2  101
@@ -108,7 +108,7 @@ _B_Struttura del codice - terzo esempio
 
  Elemento**CE002
    Descrizione      :   Anno
-   Programma/Metodo :   *OGG
+   Programma/Metodo :   \*OGG
    Parametro        :   P8A
    Obbligatorio     :   1
    Azione 1         :   103   2  103
@@ -119,7 +119,7 @@ _B_Struttura del codice - terzo esempio
 
  Elemento**CE003
    Descrizione      :   Categoria cespite
-   Programma/Metodo :   *OGG
+   Programma/Metodo :   \*OGG
    Parametro        :   TAA5A
    Obbligatorio     :   1
    Azione 1         :   101   3  105
@@ -130,7 +130,7 @@ _B_Struttura del codice - terzo esempio
 
  Elemento**CE004
    Descrizione      :   Progressivo
-   Programma/Metodo :   *PRGOG
+   Programma/Metodo :   \*PRGOG
    Parametro        :   CE/C/101/08/04/N
    Obbligatorio     : 
    Azione 1         :   101  14  101

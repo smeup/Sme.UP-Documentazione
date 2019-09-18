@@ -3,8 +3,8 @@ _Analisi degli strumenti disponibili per la realizzazione del client_
 Il documento ha lo scopo di fornire un'analisi degli strumenti a disposizione per l'implementazione del meccanismo di interfaccia fra il sistema Sme.UP ERP e l'Autorità Fiscale e Doganale del Ministero delle Finanze del Portogallo (di seguito denominata AT).
 ## Strumenti
 Il panorama delle soluzioni a disposizione identifica due tecnologie candidate : 
-* Client realizzato direttamente su iSeries
-* Client SOAP realizzato in linguaggio Java e attivo su Sme.UP Provider
+\* Client realizzato direttamente su iSeries
+\* Client SOAP realizzato in linguaggio Java e attivo su Sme.UP Provider
 ### Client su iSeries
 Le soluzioni percorribili da questo punto di vista sono più di una.
 Una prevede l'utilizzo del pacchetto HTTPAPI, che sono librerie installabili su iSeries (http://www.scottklement.com/httpapi/) e che permettono l'accesso al protocollo HTTP direttamente da Sme.UP ERP su iSeries.

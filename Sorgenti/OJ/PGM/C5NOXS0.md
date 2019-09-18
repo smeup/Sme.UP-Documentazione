@@ -15,16 +15,16 @@ Il campo 'Codice banca' viene compilato nel caso in cui si vogliano visualizzare
 
 ### Impostazioni
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle Impostazioni che riportano i seguenti campi : 
- * Ometto dettaglio :  attraverso questo campo è possibile visualizzare o meno il dettaglio per rapporto bancario. Omettendo il dettaglio, quindi, verranno resituite solamente le informazioni a livello di banca e non a livello di rapporto bancario.
- * Ordinamento :  permette di definire l'ordinamento di visualizzazione dei record; le scelte disponibili sono per tipo rapporto/banca oppure per banca/tipo rapporto.
- * Solo valorizzati :  permette di visualizzare solamente i rapporti con valori non nulli.
- * Separazione simulati :  attraverso questo campo è possibile vedere le informazioni suddivise tra registrazioni simulate e registrazioni definitive :  sarà, quindi, possibile visualizzare l'evoluzione dei saldi che considera le sole registrazioni definitve, quella che considera solo le simulate e quella totale.
- * Separazione stimati :  permette di visualizzare su due righe il saldo imputabile a sole registrazioni attive e il saldo imputabile sia a registrazioni attive che simulate.
- * Data trattata :  permette di impostare come data analizzata la data valuta o la data operazione
- * Saldo disponibile :  consente di visualizzare sia il saldo liquido che quello disponibile (ovvero la somma tra fido e saldo liquido).
- * Presenta interessi :  consente di visualizzare per ogni rapporto bancario il valore degli interessi impostato nell'anagrafica del rapporto stesso.
- * Conto fronteggiato :  permette di visualizzare il rapporto bancario collegato a quello visualizzato in lista. Ad esempio se nella tabella C5J ho indicato su un rapporto di conto corrente il rapporto di salvo buon fine collegato potrò visualizzare sia l'evoluzione dei saldi del rapporto di conto corrente che quella del salvo buon fine.
- * Divisore :  permette di definire se dividere i dati visualizzati in migliaia o milioni oppure se vederli interi.
+ \* Ometto dettaglio :  attraverso questo campo è possibile visualizzare o meno il dettaglio per rapporto bancario. Omettendo il dettaglio, quindi, verranno resituite solamente le informazioni a livello di banca e non a livello di rapporto bancario.
+ \* Ordinamento :  permette di definire l'ordinamento di visualizzazione dei record; le scelte disponibili sono per tipo rapporto/banca oppure per banca/tipo rapporto.
+ \* Solo valorizzati :  permette di visualizzare solamente i rapporti con valori non nulli.
+ \* Separazione simulati :  attraverso questo campo è possibile vedere le informazioni suddivise tra registrazioni simulate e registrazioni definitive :  sarà, quindi, possibile visualizzare l'evoluzione dei saldi che considera le sole registrazioni definitve, quella che considera solo le simulate e quella totale.
+ \* Separazione stimati :  permette di visualizzare su due righe il saldo imputabile a sole registrazioni attive e il saldo imputabile sia a registrazioni attive che simulate.
+ \* Data trattata :  permette di impostare come data analizzata la data valuta o la data operazione
+ \* Saldo disponibile :  consente di visualizzare sia il saldo liquido che quello disponibile (ovvero la somma tra fido e saldo liquido).
+ \* Presenta interessi :  consente di visualizzare per ogni rapporto bancario il valore degli interessi impostato nell'anagrafica del rapporto stesso.
+ \* Conto fronteggiato :  permette di visualizzare il rapporto bancario collegato a quello visualizzato in lista. Ad esempio se nella tabella C5J ho indicato su un rapporto di conto corrente il rapporto di salvo buon fine collegato potrò visualizzare sia l'evoluzione dei saldi del rapporto di conto corrente che quella del salvo buon fine.
+ \* Divisore :  permette di definire se dividere i dati visualizzati in migliaia o milioni oppure se vederli interi.
 
 ### Tasti funzionali
 
@@ -51,11 +51,11 @@ Attraverso il tasto F1 è possibile effettuare una ricerca all'interno della lis
 ## Formato dettaglio
 Per ognuno dei rapporti bancari visualizzato nel formato lista sono disponibili alcune opzioni : 
 
- * 02 Modifica elemento tabella :  permette di accedere in modifica all'elemento della C5J che definisce il rapporto bancario
- * 05 Interrogazione elemento tabella :  permette di accedere in visualizzazione all'elemento della C5J che definisce il rapporto bancario
- * 22 Gestione parametri :  visualizza e permette di modificare i parametri dell'elemento della C5J che definisce il rapporto bancario
- * 32 Gestione condizioni :  visualizza il formato guida per la gestione delle condizioni del rapporto selezionato
- * CS Castelletto :  sui rapporti di salvo buon fine permette di visualizzare l'evoluzione del castelletto
- * MC Estratto conto :  consente di visualizzare il mastrino del conto contabile associato al rapporto bancario ordinato per data registrazione
- * MI Scalare interessi :  se per il rapporto bancario selezionato sono impostati i parametri per il calcolo dello scalare interessi questo viene visualizzato alla selezione di questa opzione.
- * MV Proiezione in valuta :  consente di visualizzare il mastrino del conto contabile associato al rapporto bancario ordinato per data valuta
+ \* 02 Modifica elemento tabella :  permette di accedere in modifica all'elemento della C5J che definisce il rapporto bancario
+ \* 05 Interrogazione elemento tabella :  permette di accedere in visualizzazione all'elemento della C5J che definisce il rapporto bancario
+ \* 22 Gestione parametri :  visualizza e permette di modificare i parametri dell'elemento della C5J che definisce il rapporto bancario
+ \* 32 Gestione condizioni :  visualizza il formato guida per la gestione delle condizioni del rapporto selezionato
+ \* CS Castelletto :  sui rapporti di salvo buon fine permette di visualizzare l'evoluzione del castelletto
+ \* MC Estratto conto :  consente di visualizzare il mastrino del conto contabile associato al rapporto bancario ordinato per data registrazione
+ \* MI Scalare interessi :  se per il rapporto bancario selezionato sono impostati i parametri per il calcolo dello scalare interessi questo viene visualizzato alla selezione di questa opzione.
+ \* MV Proiezione in valuta :  consente di visualizzare il mastrino del conto contabile associato al rapporto bancario ordinato per data valuta

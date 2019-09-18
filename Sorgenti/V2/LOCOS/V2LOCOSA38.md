@@ -5,18 +5,18 @@ Il caso principale è il consumo di web service SOAP o REST.
 La richiesta di una chiamata ad un webservice tramite il provider avviene con l'API specifica K11.
 
 Il costruttore A38 è costituto da 4 entità : 
-* una scheda :  LOA38
-* una servizio base :  LOA38_SE
-* script SCP_SET specifici Sme.UP o utente :  LOA38_xx
-* programmi specifici Sme.UP o utente che richiamano i webservice tramite l'API K11
+\* una scheda :  LOA38
+\* una servizio base :  LOA38_SE
+\* script SCP_SET specifici Sme.UP o utente :  LOA38_xx
+\* programmi specifici Sme.UP o utente che richiamano i webservice tramite l'API K11
 
 ## Funzionamento
 Lo Sme.UP Provider alla sua attivazione, tramite il servizio LOA38_SE, interpreta gli script di di interfaccia ai web service.
 
 Negli script vengono definite le istanze della classe SESUB.A38 nel formato xx.yyy.zzz : 
-* xx è il gruppo, corrisponde al nome dello script LOA38_xx
-* yyy è la sezione definita all'interno dello script
-* zzz è la subsezione definita all'interno dello script
+\* xx è il gruppo, corrisponde al nome dello script LOA38_xx
+\* yyy è la sezione definita all'interno dello script
+\* zzz è la subsezione definita all'interno dello script
 
 All'interno dello script vengono pertanto indicate le chiamate web service pubblicate e le variabili di input e di output.
 
@@ -68,9 +68,9 @@ Per la peculiarità dell'integrazione dei webservice normalmente l'interfaccia �
 # Autorizzazioni
 
 E' possibile autorizzare tramite la classe d'autorizzazione A38, applicare un'autorizzazione all'esecuzione di una subsezione. L'autorizzazione può essere definita a 3 livelli : 
-* Per l'intero script, indicando nella funzione il codice del gruppo (istanza dell'oggetto SEGRU.A38)
-* Per una sezione, indicando nella funzione il codice della sezione (istanza dell'oggetto SESEZ.A38)
-* Per singola subsezione, indicando nella funzione il codice della subsezione (istanza dell'oggetto SESUB.A38)
+\* Per l'intero script, indicando nella funzione il codice del gruppo (istanza dell'oggetto SEGRU.A38)
+\* Per una sezione, indicando nella funzione il codice della sezione (istanza dell'oggetto SESEZ.A38)
+\* Per singola subsezione, indicando nella funzione il codice della subsezione (istanza dell'oggetto SESUB.A38)
 
 E' importante notare, che il controllo dei tre livelli si ferma alla prima verifica per cui il valore dell'autorizzazione per l'utente risulta essere "NO". Questo significa che quando viene disautorizzato un livello più alto, non verranno prese in considerazione le eccezioni di livello inferiore (es. se disautorizzo una sezione, ma setto come autorizzata una subsezione appartenente a quella sezione, quest'ultima autorizzazione non verrà controllata, vincerà il fatto che l'utente NON è autorizzato alla sezione).
 

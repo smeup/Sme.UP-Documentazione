@@ -49,10 +49,10 @@ Definizione tramite script dei campi/estensioni di ogni tipo contatto dei campi 
  :  : DEC T(TA) P(B£P) K(TABRG[SS.BRG]) I(**Classe Autorizzazione scenari >>)
 
 Verificare che il file delle transazioni anagrafiche sia diverso per ogni ambiente e fondere anch'esso in un unico file (in questo caso il file dovrebbe essere sempre vuoto perciò basta che esista un unico file per tutti gli ambienti).
- :  : DEC T(TA) P(BR2) K(*)
+ :  : DEC T(TA) P(BR2) K(\*)
 
 - Attivazione degli scenari nellta tabella BR2
- :  : DEC T(TA) P(BR2) K(*)
+ :  : DEC T(TA) P(BR2) K(\*)
 
 # Parametri per scenario
 ## Configurazione
@@ -73,7 +73,7 @@ c) Esistono parametri specifici per gli scenari differenti sia nella definizione
  :  : DEC T(ST) P() K(B£G)
  :  : DEC T(ST) P() K(BRG[SS.BRG])
 
-Si ricorda inoltre che per poter gestire i parametri già in fase di inserimento del data entry è necessario indicare nella griglia della categoria parametri il fatto che venga accettato il valore **.
+Si ricorda inoltre che per poter gestire i parametri già in fase di inserimento del data entry è necessario indicare nella griglia della categoria parametri il fatto che venga accettato il valore \*\*.
 
 ## Utilizzo
 I parametri dei tipi contatto vanno poi richiamati nei programmi in funzione della configurazione predisposta (es. se si vuol leggere un parametro comune si deve utilizzare la categoria della BRE/BRZ, se si vuol leggere un parametro specifico di uno scenario si deve leggere la relativa categoria passando o meno anche la seconda chiave).

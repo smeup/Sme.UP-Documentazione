@@ -4,9 +4,9 @@ Questa scheda permette l'esplorazione del tracciato di un file con la possibilit
 ## Formato scheda
 ![B£BASE_065](http://localhost:3000/immagini/MBDOC_SCH-OJFILE_T/BXBASE_065.png)
 La scheda si suddivide i 3 sottoschede : 
- * _2_campi, è la sottoscheda che si presenta di default, presenta il tracciato dell'archivio con il riferimento agli oggetti Sme.Up. Il doppio click su una riga sposta alla sottoscheda valori di un campo riempita con i valori presenti del campo selezionato.
- * _2_tutti gli errori presenti
- * _2_valori di un campo
+ \* _2_campi, è la sottoscheda che si presenta di default, presenta il tracciato dell'archivio con il riferimento agli oggetti Sme.Up. Il doppio click su una riga sposta alla sottoscheda valori di un campo riempita con i valori presenti del campo selezionato.
+ \* _2_tutti gli errori presenti
+ \* _2_valori di un campo
 
 ## Tutti gli errori presenti
 Il programma scorre tutti i record dell'archivio e per ciascuno controlla la validità del contenuto, vengono presentati i campi e relativi valori errati ed il numero di occorrenze dell'errore.

@@ -7,7 +7,7 @@
  :  : FLD T$IGLA __Programma__
 È una Exit che permette una gestione utente nella creazione della totalizzazione. Se non specificata, è attivato il Pgm. IGCO02.
  :  : FLD T$IGLB __Parametro__
-Il risultato della totalizzazione può essere scritto in due archivi :  IGREPT lo storico IGSTOR o entrambe *ALL
+Il risultato della totalizzazione può essere scritto in due archivi :  IGREPT lo storico IGSTOR o entrambe \*ALL
  :  : FLD T$IGLC __Scenario__
 Definito l'archivio di memorizzazione della totalizzazione, è possibile separare i risultati in membri diversi, permettendo di migliorare le prestazioni in interrogazione/stampa e di gestire al meglio operazioni di riorganizzazione/salvataggio dati.
  :  : FLD T$IGLJ __Inizializzazione__

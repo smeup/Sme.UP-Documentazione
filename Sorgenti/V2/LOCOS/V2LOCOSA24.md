@@ -57,7 +57,7 @@ NoD|Tutti|Dinamismo, se separato dal carattere virgola comanda più dinamismi co
 FSz|Tutti|Dimensione del Font
 Sea|Tutti|funzione A() per eseguire la ricerca utente
 VEr|Tutti|Visualizza Barra dei messaggi di errore
-Fun|Tutti|Funzione da eseguire, per passare le variabili racchiuse fra parentesi qudarate bisogna utilizzare il formato **(*(**Variabile**)*)**
+Fun|Tutti|Funzione da eseguire, per passare le variabili racchiuse fra parentesi qudarate bisogna utilizzare il formato **(\*(**Variabile**)\*)**
 Ctr|Tutti|Nome controllo esterno, riceve tutti i parametri
 MCt|Tutti|Medodo di controllo
 Con|Tutti|Contesto di persistenza - definisce una chiave per la quale viene memorizzato sia come MDE che come G00 l'ultimo valore imputato per quella chiave

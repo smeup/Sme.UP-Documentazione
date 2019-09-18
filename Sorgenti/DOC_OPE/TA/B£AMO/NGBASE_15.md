@@ -15,10 +15,10 @@ All'attivazione della Configurazione Applicativa viene richiesto di indicare il 
 effettuato l'accesso alla funzione (i valori sono naturalmente modificabili).
 E' possibile definire la Configurazione per : 
 
- * Tutti i Nodi e tutti gli Utenti = Lasciare in bianco sia il Codice Nodo che il Codice Utente. Questa impostazione varrà per tutti i Nodi e tutti gli Utenti nell'ambito di qualsiasi utilizzo di Negoziando (salvo definizioni specifiche).
- * Singolo Nodo = Indicare il Codice Nodo e lasciare in bianco il Codice Utente. Questa impostazione varrà per tutti gli Utenti del Nodo (salvo definizioni specifiche). Se alcuni Valori di Configurazione vengono visualizzati con un simbolo rosso, questo significa che sono stati modificati a livello di Nodo e Utente lasciati in Bianco
- * Nodo/Utente = Indicare sia il Codice Nodo che il Codice Utente. Questa impostazione varrà solo per il singolo Utente nell'ambito del Nodo di utilizzo di Negoziando. Se alcuni Valori di Configurazione vengono visualizzati con un simbolo verde, questo significa che sono stati modificati a livello di Singolo Nodo
- * Singolo Utente = Indicare il Codice Utente e lasciare in bianco il Codice Nodo. Questa impostazione varrà solo per il singolo Utente nell'ambito di qualsiasi utilizzo di Negoziando (salvo definizioni specifiche).
+ \* Tutti i Nodi e tutti gli Utenti = Lasciare in bianco sia il Codice Nodo che il Codice Utente. Questa impostazione varrà per tutti i Nodi e tutti gli Utenti nell'ambito di qualsiasi utilizzo di Negoziando (salvo definizioni specifiche).
+ \* Singolo Nodo = Indicare il Codice Nodo e lasciare in bianco il Codice Utente. Questa impostazione varrà per tutti gli Utenti del Nodo (salvo definizioni specifiche). Se alcuni Valori di Configurazione vengono visualizzati con un simbolo rosso, questo significa che sono stati modificati a livello di Nodo e Utente lasciati in Bianco
+ \* Nodo/Utente = Indicare sia il Codice Nodo che il Codice Utente. Questa impostazione varrà solo per il singolo Utente nell'ambito del Nodo di utilizzo di Negoziando. Se alcuni Valori di Configurazione vengono visualizzati con un simbolo verde, questo significa che sono stati modificati a livello di Singolo Nodo
+ \* Singolo Utente = Indicare il Codice Utente e lasciare in bianco il Codice Nodo. Questa impostazione varrà solo per il singolo Utente nell'ambito di qualsiasi utilizzo di Negoziando (salvo definizioni specifiche).
 
 **N.B.Se l'elaborazione viene effettuata in Negozio, non sarà possibile definire configurazioni per altri Nodi. Il campo del Codice Nodo verrà compilato automaticamente in grigio chiaro e non sarà possibile modificarlo.
 

@@ -25,7 +25,7 @@
       _7_Emulatore
   13. Gestione Schemi, Non viene documentato il tasto funzionale F06=Nuovo Schema
       _7_JAXML1A
-  14. Se il valore del campo contiene caratteri speciali \/ : *?"<>| va in errore il retrieve delle icone
+  14. Se il valore del campo contiene caratteri speciali \/ : \*?"<>| va in errore il retrieve delle icone
       _7_Emulatore
   15. Aggancio a Gestore Java Stack
       _7_Emulatore
@@ -246,7 +246,7 @@
   79. Campi Packed in Subfile
       Diversi Subfile contengono l'immagine del record!
       Es :  Navigazione su Documenti V5FUC0L
-      Aggiunta Conversione di x'1F' e x'0A' nel formato '[*nnn*]'
+      Aggiunta Conversione di x'1F' e x'0A' nel formato '[\*nnn\*]'
       _7_Emulatore
   80. Non funziona la paginazione se non ci si trova in un Subfile
       _7_Emulatore
@@ -302,13 +302,13 @@ _2_
   94. Aggiunta Azione di default definita in Popup se click su Icona
       Oggetto
       _7_Emulatore
-  95. Aggiunta Deregistrazione Emulatore da Stack se *ERR o *EOF
-      (*EOF solo se prima frame)
+  95. Aggiunta Deregistrazione Emulatore da Stack se \*ERR o \*EOF
+      (\*EOF solo se prima frame)
       _7_Emulatore
   96. Aggiunta Gestione Intestazioni Multilinea Miste
       (Parte Variabili/Parte Costanti)
       _7_Emulatore
-  97. Corretta Chiusura Finestre Emulatore se ricevuto *ERR
+  97. Corretta Chiusura Finestre Emulatore se ricevuto \*ERR
       _7_Emulatore
   98. Unificate Tipo e Algoritmo icone Oggetti con Java
       _7_Emulatore
@@ -327,7 +327,7 @@ _2_
       CLocC = RTNCRSLOC a livello Campo
       CLocP = RTNCRSLOC a livello Pozsizionamento all'interno del campo
       _7_JAXML1A, Emulatore
- 104. Prodotta la tabella JA*IS contenente il nome del formato video
+ 104. Prodotta la tabella JA\*IS contenente il nome del formato video
       avente un subfile senza intervento esterno (chiave £SFLINT)
       _7_?
  105. Aggiunta evidenziazione Campi di Input
@@ -366,7 +366,7 @@ _2_
  118. Aumentata Lunghezza Colonne Subfile (+1 Carattere) e allineata
       lunghezza colonne alla matrice
       _7_Emulatore
- 119. Aggiunta Visualizzazione Oggetto OJ*FILE in intestazione
+ 119. Aggiunta Visualizzazione Oggetto OJ\*FILE in intestazione
       _7_Emulatore
  120. Inibita possibilità di modifica campi protetti
       _7_Emulatore
@@ -679,7 +679,7 @@ _2_
       _7_Emulatore
  225. Aggiunto Monitoraggio AV in fase di Abilitazione/Disabilitazione form
       per cercare di risolvere gli AV in chiusura applicazione probabilmente
-      dovuti da problemi di sincronizzazione nella ricezione delle frame HIDE e *EOF
+      dovuti da problemi di sincronizzazione nella ricezione delle frame HIDE e \*EOF
       _7_Emulatore
  226. Corretto errore in cancellazione automatica cache all'apertura dell'applicazione
       quando non erano ancora conosciuti Sistema e Ambiente
@@ -807,7 +807,7 @@ _2_
       il path del direttorio temporaneo conteneva due backslash consecutivi
       impendendo l'esecuzione dell'emulatore.
       _7_Emulatore
- 272. Migliorata la serializzazione della ricezione della frame di *EOF
+ 272. Migliorata la serializzazione della ricezione della frame di \*EOF
       che causa la distruzione dell'Handler e di tutte le form. Precedentemente
       poteva essere eseguita contemporamente alla frame di HIDE e causare degli AV
       _7_Emulatore
@@ -952,8 +952,8 @@ _2_
  312. Aggiunta Impostazione Visualizzazione Intestazione Colonne su Impostazioni Griglie
       _7_Emulatore
  313. Aggiunte Definizioni Costanti Mnemoniche in configurazione : 
-       *WINBCK = Colore Standard Sfondo Finestre
-       *WINTXT = Colore Standard Testo
+       \*WINBCK = Colore Standard Sfondo Finestre
+       \*WINTXT = Colore Standard Testo
  314. Aggiunta possibilità di specificare dimensione carattere se video a 132 colonne
       nel nodo General/FontSize132
       _7_Emulatore

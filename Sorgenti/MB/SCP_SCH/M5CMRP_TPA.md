@@ -2,8 +2,8 @@
 La scheda permette una visualizzazione dell'evoluzione nel tempo dei risultati dell'MRP, presentando per ogni articolo le disponibilità alla fine dei periodi di una periodicità indicata.
 L'opzione "Modalità di analisi" indica quali valori considerare nella rappresentazione : 
 
-* ' ' :  considera fonti esistenti, rilasciate (allo stato attuale), pianificate;
-* '1' :  come ' ', in più simula l'applicazione di suggeriementi di modifica e cancellazione sulle fonti rilasciate.
+\* ' ' :  considera fonti esistenti, rilasciate (allo stato attuale), pianificate;
+\* '1' :  come ' ', in più simula l'applicazione di suggeriementi di modifica e cancellazione sulle fonti rilasciate.
 
 L'opzione "Data inizio" permette di specificare il giorno a partire dal quale calcolare l'insieme di periodi.
 

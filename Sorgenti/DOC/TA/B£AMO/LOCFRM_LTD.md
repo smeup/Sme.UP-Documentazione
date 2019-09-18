@@ -109,6 +109,6 @@ Per gli schemi, invece, si riserva un formalismo particolare :  ognuno deve esse
 Nella inclusione delle immagini si deve tener conto di come saranno visualizzate nei book in formato pdf che saranno creati, l'obiettivo è di non saturare la pagina ma al contempo di mantenere una certa leggibilità.
 
 Come regola generale : 
- * le immagini delle schermate intere  dovranno essere impostate per uscire con una larghezza pari al 60% della larghezza pagina :  R (60) e centrate :  A(C) (es. :  IMG P(...\TAB£A\C£\C£PARA\C£_05_02.png) R(60) A(C))
- * le immagini di schemi e grafici dovranno essere impostate per uscire con una larghezza pari al 60% della larghezza pagina :  R (60)
- * le immagini di parti di schermate intere  dovranno essere impostate per uscire con una larghezza minore - fare attenzione ad immagini molto piccole (es. bottoni) perchè al di sotto di un minimo il sistema non opera più nessuna riduzione
+ \* le immagini delle schermate intere  dovranno essere impostate per uscire con una larghezza pari al 60% della larghezza pagina :  R (60) e centrate :  A(C) (es. :  IMG P(...\TAB£A\C£\C£PARA\C£_05_02.png) R(60) A(C))
+ \* le immagini di schemi e grafici dovranno essere impostate per uscire con una larghezza pari al 60% della larghezza pagina :  R (60)
+ \* le immagini di parti di schermate intere  dovranno essere impostate per uscire con una larghezza minore - fare attenzione ad immagini molto piccole (es. bottoni) perchè al di sotto di un minimo il sistema non opera più nessuna riduzione

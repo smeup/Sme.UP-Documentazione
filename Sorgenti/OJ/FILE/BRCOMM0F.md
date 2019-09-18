@@ -1,7 +1,7 @@
 ## Contenuto
 Informazioni di quantità, date e classificazioni delle commesse.
 
-## Codice Oggetto (in TA/*CNTT)
+## Codice Oggetto (in TA/\*CNTT)
 'CM'                               £FUNT1
 
 ## Chiave primaria

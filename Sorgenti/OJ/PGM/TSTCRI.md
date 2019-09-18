@@ -47,10 +47,10 @@ Nessuno
 
 # Esempio di chiamata
 
- C*                  EVAL      £CRIPG=Nome_programma
- C*                  EVAL      £CRIFU='Funzione'
- C*                  EVAL      £CRIME='Metodo'
- C*                  EXSR      £CRI
+ C\*                  EVAL      £CRIPG=Nome_programma
+ C\*                  EVAL      £CRIFU='Funzione'
+ C\*                  EVAL      £CRIME='Metodo'
+ C\*                  EXSR      £CRI
 
 # Oggetti collegati
 

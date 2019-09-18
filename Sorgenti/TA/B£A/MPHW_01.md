@@ -531,7 +531,7 @@ Per la previsione HW sono stati scritti nuovi indici di D5COSO. Sono stati quind
  :  : I.INC.MBR Fil(DOC_VOC) Mem(D5_AR_£P1 )
 
 ## Classe previsiva articolo
-Ad ogni articolo/plant oggetto di previsione, viene assegnata una classe previsiva in base alle impostazioni immesse in tabella MP2 (settore **). La classe previsiva viene ritornata come OAV dell'articolo/plant, e come OAV dell'articolo (nel planti di competenza).
+Ad ogni articolo/plant oggetto di previsione, viene assegnata una classe previsiva in base alle impostazioni immesse in tabella MP2 (settore \*\*). La classe previsiva viene ritornata come OAV dell'articolo/plant, e come OAV dell'articolo (nel planti di competenza).
 
 ## Scorta minima e calcolo / utilizzo scorta minima dinamica
 Come "sottoprodotto" della previsione HW è stato implementato il calcolo dinamico della scorta minima, che è stato utilizzato nell'analisi disponibilità (nel ritorno della scorta minima e della scorta datata). La routine £GMA di ritorno dati articolo/plant può ricevere il parametro di modalità di calcolo e risalita scorta minima. E' stato realizzato un nuovo OAV per la scelta della risalita

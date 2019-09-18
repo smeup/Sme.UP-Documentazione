@@ -25,7 +25,7 @@ Per ogni Settore si definiscono :
 
 - **Programma di Controllo** (previsto per le tabelle particolarmente complesse caratterizzate da una gestione con un programma specifico). Tale programma deve esistere al momento della codifica del settore (es. :  per la tabella OLG di gestione degli orari di lavoro ci deve essere un programma che controlli che la somma degli intervalli di lavoro sia inferiore a 24 h);
 
-- **Tabella a elemento Fisso** (le tabelle particolari devono avere un solo elemento, per ottenere il quale è necessario inserire * in questo campo, indicante il relativo codice identificativo **;
+- **Tabella a elemento Fisso** (le tabelle particolari devono avere un solo elemento, per ottenere il quale è necessario inserire \* in questo campo, indicante il relativo codice identificativo \*\*;
 
 - **Gestione subsettore** :  permette di impostare in sede di definizione tabella se questa sarà una tabella forzatamente con sottosettori oppure forzatamente senza oppure a discrezione utente;
 
@@ -101,7 +101,7 @@ L'utente deve indicare la libreria, il file e il nome della /copy della tabella 
 È attivabile una ricerca alfabetica, digitando il carattere "!","?" nel nome del campo.
 
 **2) Tipologia**
-Indica la natura del campo e viene ricercata nella tabella >*cn/tt.
+Indica la natura del campo e viene ricercata nella tabella >\*cn/tt.
 Ad un campo può essere associato qualsiasi oggetto :  un fornitore, un cliente, una tabella, un numero, un oggetto dell'as/400, ecc...
 Si noti che il tipo di campo è  : 
 
@@ -170,7 +170,7 @@ Se si cancella un campo lungo 13 per evitare problemi nei programmi dove è usat
 
 # Deviazione Tabelle
 Questa modalità permette a Sme_up di leggere nativamente tabelle appartenenti ad altri gestionali come se fossero tabelle proprie (es. Sme_up può leggere la tabella Valute di PROJ come se fosse la propria tabella >VAL)
-Per deviare una tabella su un'altra si deve impostare, nella definizione della tabella da deviare, "**" come applicazione specifica.
+Per deviare una tabella su un'altra si deve impostare, nella definizione della tabella da deviare, "\*\*" come applicazione specifica.
 
 
 ![B£_TAB_07](http://localhost:3000/immagini/B£TABE_02/BX_TAB_07.png)

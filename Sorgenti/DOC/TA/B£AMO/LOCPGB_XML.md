@@ -21,9 +21,9 @@
      <Riga Fld="CASFRA|20.1"/>
      <Riga Fld="ALBGRA|black;45"/>
      <Riga Fld="DELGIO|-C01BAF;75"/>
-     <Riga Fld="PARFRA|R200G100B002;89\\*LAB;LIVELLO SERBATOIO"/>
-     <Riga Fld="CARLUC|R200G100B002;22\\*LAB;"/>
-     <Riga Fld="MINCLA|orange;91\\*LAB;Arancione"/>
+     <Riga Fld="PARFRA|R200G100B002;89\\\*LAB;LIVELLO SERBATOIO"/>
+     <Riga Fld="CARLUC|R200G100B002;22\\\*LAB;"/>
+     <Riga Fld="MINCLA|orange;91\\\*LAB;Arancione"/>
    </Righe>
    <UIPopup/>
  <Setup>

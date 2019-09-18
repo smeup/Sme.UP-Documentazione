@@ -3,16 +3,16 @@ Rendere più semplici le funzioni di lettura e scrittura dei paragrafi.
 Per paragrafo si intente una stringa che può estendersi su più righe del sorgente unite fra loro tramite il carattere **+**.
 ## Metodi di lettura
 Attraverso questa API si possono eseguire le operazioni di lettura dei seguenti documenti : 
-* Sorgente
-* Note
-* Help di programma
-* Help di tabella
-* Documenti x oggetto
-* Help di scheda
-* Help di archivio
+\* Sorgente
+\* Note
+\* Help di programma
+\* Help di tabella
+\* Documenti x oggetto
+\* Help di scheda
+\* Help di archivio
 ## Metodi di scrittura
 Attraverso questa API si possono eseguire le operazioni di scrittura dei seguenti documenti : 
-* Sorgente
+\* Sorgente
 ## Modalità di comunicazione
 Gli attributi vengono passati all'api attraverso il buffer di comunicazione (G90SO)
 
@@ -110,6 +110,6 @@ G90IP     | Identificativo del paragrafo da gestire, inteso come numero progress
 
 ## Gestione dei paragrafi
 Per poter gestire in maniera corretta i paragrafi bisogna tener presente le seguenti regole : 
-* Se si richiede l'aggiunta di un paragrafo, questo sarà aggiunto popo il paragrafo di riferimento (G90IP)
-* Se di richiede la modifica o la cancellazione di un paragrafo, questo deve essere passato nel paragrafo di   riperimento (G90IP)
-* Se viene passato l'immagine originale, verrà rieseguita la lettura del paragrafo per controllarne l'integrità.
+\* Se si richiede l'aggiunta di un paragrafo, questo sarà aggiunto popo il paragrafo di riferimento (G90IP)
+\* Se di richiede la modifica o la cancellazione di un paragrafo, questo deve essere passato nel paragrafo di   riperimento (G90IP)
+\* Se viene passato l'immagine originale, verrà rieseguita la lettura del paragrafo per controllarne l'integrità.

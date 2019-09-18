@@ -10,10 +10,10 @@ Attraverso la videata si può passare a visualizzare la lista degli oggetti dist
 Requisito principale del formato guida è l'immissione del tipo di contenuto relativo agli oggetti. L'importanza di questo campo è legata alla specifica dei tre codici che individuano gli oggetti. Il "tipo contenuto" è reperibile nella tabella NSC.
 
 Il contenuto della lista è parzializzato mediante la posizione di alcuni limiti tra cui : 
- * i codici che individuano l'oggetto;
- * il tipo informazione;
- * la lista di distribuzione;
- * l'utente che ha effettuato la distribuzione;
+ \* i codici che individuano l'oggetto;
+ \* il tipo informazione;
+ \* la lista di distribuzione;
+ \* l'utente che ha effettuato la distribuzione;
 
 Inoltre è possibile elencare solo gli oggetti che hanno un determinato stato relativo alle risposte. Ad esempio attraverso le parzializzazioni si può sapere quali oggetti distribuiti dall'utente Rossi non hanno ancora ricevuto una risposta.
 

@@ -12,7 +12,7 @@ Non previsti funzioni e metodi standard
  **Input : **
 
 - £CKON  :  Nome oggetto
-- £CKOT  :  Tipo oggetto (*FILE, *PGM, *USRPRF, etc.)
+- £CKOT  :  Tipo oggetto (\*FILE, \*PGM, \*USRPRF, etc.)
 - £CKOL  :  Libreria dove cercare oggetto _?/! In libreria cerca e restituisce la libreria dove si trova l'oggetto
 - £CKOM  :  Membro (se file) -> se blank non controlla esistenza membro
 

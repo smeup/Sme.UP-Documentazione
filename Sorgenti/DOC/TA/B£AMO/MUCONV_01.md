@@ -11,22 +11,22 @@ Il processo di conversione prevede anche un'analisi dei sorgenti e la rilevazion
 Il processo di esportazione ha origine con il comando "MU" (MUOS02C), eseguito su un oggetto presente in una libreria.
 In base al tipo dell'oggetto del programma viene effettuato uno switch su un programma specifico.
 
- :  : DEC T(OJ)  P(*PGM) K(MUOS02)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_01)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_02)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_03)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_04)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_05)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_06)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_07)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_08)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_09)
- :  : DEC T(OJ)  P(*PGM) K(MUOS02_10)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_01)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_02)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_03)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_04)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_05)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_06)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_07)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_08)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_09)
+ :  : DEC T(OJ)  P(\*PGM) K(MUOS02_10)
 
 Il risultato dell'esportazione, ovvero il file .xmi viene depositato in una cartella dell'IFS.
 La cartella base è la "SmeMult", e nella tabella MU1 viene definito un path specifico di release.
 Esiste un programma di utilità che restituisce il path iniziale : 
-  :  : DEC T(OJ)  P(*PGM) K(MUUT01)
+  :  : DEC T(OJ)  P(\*PGM) K(MUUT01)
 ES :  "/SmeMult/asup_x.x.x"
 
 Tale cartella è organizzata in sottocartelle che prendono il nome della libreria dell'oggetto che si sta convertendo;
@@ -38,18 +38,18 @@ E' stato creato un programma __MUPA03__ che si occupa del parsing di un sorgente
 Tale programma funziona similmente ad un parser SAX, ovvero attraverso una gestione ad eventi.
 Sono stati creati una serie di tag che identificano diversi eventi.
 Qualche esempio : 
-* Datastructure;
-* Annotazioni;
-* File;
-* If;
-* etc;
+\* Datastructure;
+\* Annotazioni;
+\* File;
+\* If;
+\* etc;
 
 Il programma MUPA03 è stato creato in maniera tale che possa rimanere neutro,
 e preoccuparsi solamente di lanciare eventi mentre esegue la parserizzazione.
 Sono stati creati dei "listener" al MUPA03 per la gestione degli eventi : 
 
- :  : DEC T(OJ)  P(*PGM) K(MUPA03_01)
- :  : DEC T(OJ)  P(*PGM) K(MUPA03_03)
+ :  : DEC T(OJ)  P(\*PGM) K(MUPA03_01)
+ :  : DEC T(OJ)  P(\*PGM) K(MUPA03_03)
 
 __MUPA03_01__
 Questo programma, di fatto, è quello che scrive il risutato della parserizzazione di un sorgente RPG.
@@ -65,13 +65,13 @@ Questo programma è adibito al controllo dei "metadati" di un sorgente, vengono 
 E' stato creato un nuovo comando _b_MU (MUOS02C) che permette la conversione di un oggetto as400.
 Il comando si applica agli oggetti presenti in una libreria ed alle librerie stesse.
 Questo comando riceve : 
-* una funzione ed un metodo (al momento è presente soltato la funzione "CON");
-* il tipo oggetto;
-* la libreria;
-* il nome oggetto;
-* il path IFS dove posizionare il file .XMI;
-* la libreria destinazione (se diversa da quella originale);
-* flag per conversione progressiva (un oggetto viene convertito solo se è stato modificato rispetto all'ultima conversione effetuata);
+\* una funzione ed un metodo (al momento è presente soltato la funzione "CON");
+\* il tipo oggetto;
+\* la libreria;
+\* il nome oggetto;
+\* il path IFS dove posizionare il file .XMI;
+\* la libreria destinazione (se diversa da quella originale);
+\* flag per conversione progressiva (un oggetto viene convertito solo se è stato modificato rispetto all'ultima conversione effetuata);
 
 ### Documentazione messaggi relativi alla conversione
 **Validi per tutti i tipi oggetti**
@@ -88,7 +88,7 @@ Questo comando riceve :
 | 
 
 
-**Validi per OJ*CMD**
+**Validi per OJ\*CMD**
 
 |  Nam="Lista Messaggi" |
 | 
@@ -102,7 +102,7 @@ Questo comando riceve :
 | 
 
 
-**Validi per OJ*MSGF**
+**Validi per OJ\*MSGF**
 
 |  Nam="Lista Messaggi" |
 | 
@@ -116,7 +116,7 @@ Questo comando riceve :
 | 
 
 
-**Validi per OJ*FILE**
+**Validi per OJ\*FILE**
 
 |  Nam="Lista Messaggi" |
 | 
@@ -137,7 +137,7 @@ Questo comando riceve :
 | 
 
 
-**Validi per OJ*PGM e OJ*MODULE**
+**Validi per OJ\*PGM e OJ\*MODULE**
 
 |  Nam="Lista Messaggi" |
 | 

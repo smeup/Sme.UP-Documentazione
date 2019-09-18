@@ -2,16 +2,16 @@
 Esegue la scansione dei movimenti di magazzino e restiuisce riepiloghi dei movimenti
 
 # Funzioni e metodi
- * Funzione - "DET  "   :  Scansione dettagliata
- ** Metodo   - "AVA"    :  In avanti da inizio a data fine
- ** Metodo   - "IND"    :  Da data fine a data inizio
- * Funzione - "GIO  "   :  Situazione giornaliera
- ** Metodo   - "AVA"    :  In avanti da inizio a data fine
- ** Metodo   - "IND"    :  Da data fine a data inizio
- * Funzione - "RIE  "   :  Sintesi per periodo
- ** Metodo   - "   "    :  Totale
- ** Metodo   - "MOV"    :  Per tipo movimento
- ** Metodo   - "IND"    :  Indici
+ \* Funzione - "DET  "   :  Scansione dettagliata
+ \*\* Metodo   - "AVA"    :  In avanti da inizio a data fine
+ \*\* Metodo   - "IND"    :  Da data fine a data inizio
+ \* Funzione - "GIO  "   :  Situazione giornaliera
+ \*\* Metodo   - "AVA"    :  In avanti da inizio a data fine
+ \*\* Metodo   - "IND"    :  Da data fine a data inizio
+ \* Funzione - "RIE  "   :  Sintesi per periodo
+ \*\* Metodo   - "   "    :  Totale
+ \*\* Metodo   - "MOV"    :  Per tipo movimento
+ \*\* Metodo   - "IND"    :  Indici
 
 # Input
 £GMDFU :  funzione
@@ -73,7 +73,7 @@ IGMMOVI    E DSGMMOVI0F
 /COPY £GMDDS
 
 # Esempio di chiamata
->      *
+>      \*
      C                   MOVEL(P)  'DET'         £GMDFU
      C                   MOVEL(P)  'AVA'         £GMDME
      C                   CLEAR                   £GMDMS
@@ -82,8 +82,8 @@ IGMMOVI    E DSGMMOVI0F
      C                   MOVEL(P)  ARTICOLO      £FUNK2
      C                   Z-ADD     DATAINI       £GMDDI
      C                   Z-ADD     DATAFIN       £GMDDF
-     *
-1    C                   DO        *HIVAL
+     \*
+1    C                   DO        \*HIVAL
      C                   EXSR      £GMD
 1    C                   IF        £GMDMS='FINE'
      C                   LEAVE

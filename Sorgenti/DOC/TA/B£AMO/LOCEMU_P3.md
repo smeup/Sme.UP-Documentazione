@@ -15,7 +15,7 @@
 
 ## Versione V2R3M071026-01R Stable (Rilasciata il 28-03-2008)
 
-- I titoli delle finestre vengono definiti dinamicamente sulla base delle impostazioni della variabile *TITFIN, definibile nell'SCP_CLO.
+- I titoli delle finestre vengono definiti dinamicamente sulla base delle impostazioni della variabile \*TITFIN, definibile nell'SCP_CLO.
 
 ## Versione V2R3M071026-01Q Stable (Rilasciata il 04-03-2008)
 

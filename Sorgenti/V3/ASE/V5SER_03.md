@@ -49,7 +49,7 @@ Metodo|Parametro|Valore|Significato
 
  :  : PRO.SER Cod="VIA.RDO.6" Tit="Viaggio. Righe Documento Aperte" Fun="F(EXB;V5SER_03;VIA.RDO)" Ref="VIA.RIC.1"
 
- :  : PRO.SER Cod="STA.NRS.7" Tit="Statistiche. Numeri su Spedizionieri" Fun="F(EXB;V5SER_03;STA.NRS) P( PE(-(F;;**;Periodo)) NR(-(F;;NR;Numero Viaggio)))"
+ :  : PRO.SER Cod="STA.NRS.7" Tit="Statistiche. Numeri su Spedizionieri" Fun="F(EXB;V5SER_03;STA.NRS) P( PE(-(F;;\*\*;Periodo)) NR(-(F;;NR;Numero Viaggio)))"
 
  :  : PRO.SER Cod="STA.NRS.8" Tit="Statistiche. Numeri su Spedizionieri" Fun="F(EXA;V5SER_03;STA.NRS)" Ref="STA.NRS.7"
 

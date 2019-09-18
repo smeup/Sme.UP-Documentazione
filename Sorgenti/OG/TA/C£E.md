@@ -30,7 +30,7 @@ Se presente una categoria di parametri, questa viene utilizzata nelle funzioni d
 **Caratteristiche**
 1.   Le categorie associate per la risalita devono avere uguali il sottosettore dei valori.
 2.   La risalita è attiva solo per gli oggetti (AR=Articolo e CN=Contatti/Enti RI=Risorse). Il tipo di informazione con cui risalire viene derivato dalla griglia della categoria stessa.
-3.   Nel caso in cui la griglia accetti **, il riferimento superiore di una categoria può essere la categoria stessa.
+3.   Nel caso in cui la griglia accetti \*\*, il riferimento superiore di una categoria può essere la categoria stessa.
 In questo caso cambia solo il codice (risalita standard)
 _9_Esempio
 XX1  =    Categoria per Cliente/Articolo
@@ -41,9 +41,9 @@ Agente(TAAGE)/Articolo
 Agente(TAAGE)/Classe prodotto(TACLS)
 Se risale a XX3
 XX3  =    Può essere, successivamente
-Agente/**
-**/Classe prodotto
-**/**
+Agente/\*\*
+\*\*/Classe prodotto
+\*\*/\*\*
 Il programma usa il primo che contiene dei dati
  :  : FLD T$C£EP **Programma specifico di visualizzazione**
 Permette di indicare un programma che verrà utilizzato tutte le volte che si richiede interrogazione. Ciò, al fine di ottimizzare il modo con cui i parametri si presentano all'utente finale.
@@ -59,5 +59,5 @@ tramite il tasto funzionale F6
 
  :  : FLD T$C£EJ   Tipo Gest.Autorizz.     
 Permette di definire se i parametri sono autorizzati attraverso : 
-* classe STATI - funzione PA
-* classe PLC-C£CONR funzione = cat. parametri (elemento C£E). E' prerequisito l'attivazione della protezione campo sulla tabella B£2.
+\* classe STATI - funzione PA
+\* classe PLC-C£CONR funzione = cat. parametri (elemento C£E). E' prerequisito l'attivazione della protezione campo sulla tabella B£2.

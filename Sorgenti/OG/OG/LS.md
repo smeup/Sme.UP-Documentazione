@@ -4,4 +4,4 @@ Può essere utilizzato, ad esempio, per registare gli sconti per famiglia di art
 validi per un periodo di tempo (campagna), e per scaglioni di quantità ordinata.
 
 Scheda oggetto
- :  : DEC T(OJ) P(*FILE) K(C£LIST0F) L(1)
+ :  : DEC T(OJ) P(\*FILE) K(C£LIST0F) L(1)

@@ -35,7 +35,7 @@ C/COPY QILEGEN,£G08
 
 
 ### Posizionamento riga e colonna : _ campo riga £G08RI   campo colonna £G08CI_
-*  Posizione in cui vengono inserite le varie scelte
+\*  Posizione in cui vengono inserite le varie scelte
 
 ###  Modello :   _Campo £G08MO _Modello visualizzazione
  :  : PAR

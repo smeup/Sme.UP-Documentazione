@@ -2,17 +2,17 @@
 Il programma carica in un file di WORK le righe che andranno a comporre il documento di rientro del C/Lavoro.
 
 Nella tabella di lancio B£JXX è ncessario impostare nel campo "parametri aggiuntivi" : 
- * Tipo riga
- * Ubicazione
- * Unità di Movimentazione
- * Tipo Collo
+ \* Tipo riga
+ \* Ubicazione
+ \* Unità di Movimentazione
+ \* Tipo Collo
 
 ## Formato video
 ![P5PMFP_56](http://localhost:3000/immagini/MBDOC_OGG-P_V5AT51B/P5PMFP_56.png)
 ## Scrittura file di lavoro
 In questo programma di esempio il codice letto con il terminale R/F è il barcode di un collo esterno alla gestione MFP da cui sono derivati i campi fornitore e articolo : 
- * fornitore :  caratteri dal  1 al 15
- * articolo :  caratteri dal 16 al 30
+ \* fornitore :  caratteri dal  1 al 15
+ \* articolo :  caratteri dal 16 al 30
 
 La quantità deve essere inserita manualmente
 

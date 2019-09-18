@@ -20,13 +20,13 @@ L'elemento £TD identifica i parametri espliciti standard per il TODO
 
 ### B£NH3 -  Parametri Variabili - Sottosettore H3 - Elementi £T1-7
 I seguenti elementi indicano i parametri standard per il TODO
-* £T1               Descrizione
-* £T2               Commenti
-* £T3               Attività
-* £T4               Url
-* £T5               Tag
-* £T6               Partecipanti via mail
-* £T7               Todo list
+\* £T1               Descrizione
+\* £T2               Commenti
+\* £T3               Attività
+\* £T4               Url
+\* £T5               Tag
+\* £T6               Partecipanti via mail
+\* £T7               Todo list
 
 ### CRNH3 - £TDO  Numeratori Sottosettore H3 -Elemento £TDO
 L'elemento £TDO standard identifica il numeratore per l'oggetto TODO
