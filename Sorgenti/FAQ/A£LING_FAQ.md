@@ -1,9 +1,9 @@
-- \*\*Sai quali sono gli archivi di riferimento per le traduzioni di Sme.UP?\*\*
+- **Sai quali sono gli archivi di riferimento per le traduzioni di Sme.UP?**
 
  :  : VOC Id="SKIA0010" Txt="Sai quali sono gli archivi di riferimento per le traduzioni di Sme.UP?"
 Sono i file A£TROR0F e A£TRDE0F.
 
-- \*\*Sai qual è l'iter di traduzione di Sme.UP?\*\*
+- **Sai qual è l'iter di traduzione di Sme.UP?**
 
  :  : VOC Id="SKIA0020" Txt="Sai qual è l'iter di traduzione di Sme.UP?"
 È composto dai seguenti step : 
@@ -13,7 +13,7 @@ Sono i file A£TROR0F e A£TRDE0F.
 \* Traduzione dell'archivio A£TRDE0F.
 \* Generazione degli oggetti necessari in lingua -  :  : DEC T(VO) P(A£LING_GLO) K(00007)
 
-- \*\*Sai quali oggetti vengono tradotti?\*\*
+- **Sai quali oggetti vengono tradotti?**
 
  :  : VOC Id="SKIA0030" Txt="Sai quali oggetti vengono tradotti?"
 Sono tradotti i seguenti oggetti : 
@@ -28,12 +28,12 @@ Sono tradotti i seguenti oggetti :
 Per approfondimenti vedere la documentazione : 
 - [Estrazione dell&-x27;italiano e frasi gestite](Sorgenti/DOC/TA/B£AMO/A£LING_210)
 
-- \*\*Sai come impostare la localizzazione di uno Sme.UP?\*\*
+- **Sai come impostare la localizzazione di uno Sme.UP?**
 
  :  : VOC Id="SKIA0040" Txt="Sai come impostare la localizzazione di uno Sme.UP?"
 Vedere la documentazione della tabella A£B.
 
-- \*\*Sai cosa sono gli ambiti?\*\*
+- **Sai cosa sono gli ambiti?**
 
  :  : VOC Id="SKIA0050" Txt="Sai cosa sono gli ambiti?"
 Si veda la voce di glossario : 
@@ -41,19 +41,19 @@ Si veda la voce di glossario :
 E la documentazione : 
 - [Introduzione](Sorgenti/DOC/TA/B£AMO/A£LING_010)
 
-- \*\*Sai come impostare ambiti e librerie di un sistema?\*\*
+- **Sai come impostare ambiti e librerie di un sistema?**
 
  :  : VOC Id="SKIA0060" Txt="Sai come impostare ambiti e librerie di un sistema?"
 Si veda la documentazione : 
 - [Installazione&-x3a; setup degli ambienti](Sorgenti/DOC/TA/B£AMO/A£LING_110)
 
-- \*\*Sai cosa sono i contesti?\*\*
+- **Sai cosa sono i contesti?**
 
  :  : VOC Id="SKIA0070" Txt="Sai cosa sono i contesti?"
 Si veda la voce di glossario : 
  :  : DEC T(VO) P(A£LING_GLO) K(00002).
 
-- \*\*Sai come popolare le frasi da tradurre?\*\*
+- **Sai come popolare le frasi da tradurre?**
 
  :  : VOC Id="SKIA0080" Txt="Sai come popolare le frasi da tradurre?"
 In due modi : 
@@ -62,7 +62,7 @@ In due modi :
 Si veda il documento : 
 - [Preparazione dell&-x27;archivio delle lingue](Sorgenti/DOC/TA/B£AMO/A£LING_310)
 
-- \*\*Sai come generare gli oggetti in lingua?\*\*
+- **Sai come generare gli oggetti in lingua?**
 
  :  : VOC Id="SKIA0090" Txt="Sai come generare gli oggetti in lingua?"
 Si veda il documento : 

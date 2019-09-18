@@ -1,14 +1,14 @@
-- \*\*Cosa è il componente EML?\*\*
+- **Cosa è il componente EML?**
 
  :  : VOC Id="00001" Txt="Cosa è il componente EML?"
  E' il componente che permette di visualizzare il contenuto di email.
 
-- \*\*E' possibile visualizzare anche gli allegati?\*\*
+- **E' possibile visualizzare anche gli allegati?**
 
  :  : VOC Id="00010" Txt="E' possibile visualizzare anche gli allegati?"
 Sì, è possibile visualizzare e scaricare anche gli allegati connessi alla mail.
 
-- \*\*E' possibile visualizzare anche mail in locale oltre che tramite serivizio in\*\*
+- **E' possibile visualizzare anche mail in locale oltre che tramite serivizio in**
 
  :  : VOC Id="00020" Txt="E' possibile visualizzare anche mail in locale oltre che tramite serivizio interno?"
 Sì, c'è la possibilità di indicare anche la lettura di una mail in locale, l'importante che abbia un

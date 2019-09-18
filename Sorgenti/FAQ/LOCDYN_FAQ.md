@@ -1,4 +1,4 @@
-- \*\*Che differenza c'è tra un componente SUB, SCH e un DYN?\*\*
+- **Che differenza c'è tra un componente SUB, SCH e un DYN?**
 
  :  : VOC Id="00001" Txt="Che differenza c'è tra un componente SUB, SCH e un DYN?"
 In uno script di scheda, una sezione può essere composta da una o più subsezioni (sub), ognuna contenente un componente specifico.
@@ -12,13 +12,13 @@ Definendo un seub come G.SUB.DYN il client sa che la sua forma dovrà cambiare a
 Può essere visto come una specie di segnaposto per un altro componente.
 Questo componente potrà essere diverso nel tempo :  prima un albero, poi una scheda .. etc
 
-- \*\*Perchè non tutte le sub contengono componenti DYN?\*\*
+- **Perchè non tutte le sub contengono componenti DYN?**
 
  :  : VOC Id="00002" Txt="Perchè non tutte le sub contengono componenti DYN?"
 Il componente DYN fornisce una grande possibilità in alcune soluzioni, ma introduce una complessità maggiore da gestire sia nella definizione delle schede che nella visualizzazione lato client.
 Spesso il comportamento voluto di una scheda può essere definito con componenti specifici e bene definiti, senza sfruttare il meccanismo introdotto dal componente DYN.
 
-- \*\*Posso evitare di utilizzare un componente DYN?\*\*
+- **Posso evitare di utilizzare un componente DYN?**
 
  :  : VOC Id="00003" Txt="Posso evitare di utilizzare un componente DYN?"
 La scelta di utilizzare un componente rispetto ad un altro, dipende dalla funzionalità che si vuole ottenere nella scheda e da come si struttura l'interazione da parte dell'utente.

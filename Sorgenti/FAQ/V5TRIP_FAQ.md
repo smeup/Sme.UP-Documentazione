@@ -1,8 +1,8 @@
-- \*\*Sai qual è l'archivio principale dei viaggi?\*\*
+- **Sai qual è l'archivio principale dei viaggi?**
 
  :  : VOC Id="SKIT0005" Txt="Sai qual è l'archivio principale dei viaggi?"
 L'archivio è il V5TRIP0F.
-- \*\*Sai quali sono le tabelle principali da Implementare?\*\*
+- **Sai quali sono le tabelle principali da Implementare?**
 
  :  : VOC Id="SKIT0010" Txt="Sai quali sono le tabelle principali da Implementare?"
 Le tabelle sono : 
@@ -10,7 +10,7 @@ V5T Tipo Viaggio
 V55 Parametri Accantonamento e spedizione
 GMO Tipo documento movimentazione
 GMZ Tipo riga movimentazione
-- \*\*Sai come si imposta un Flusso di spedizione da viaggio?\*\*
+- **Sai come si imposta un Flusso di spedizione da viaggio?**
 
  :  : VOC Id="SKIT0015" Txt="Sai come si imposta un Flusso di spedizione da viaggio?"
 Il Flusso per emettere i documenti di spedizione (Bolle) da un viaggio prevede i seguenti passi : 
@@ -19,7 +19,7 @@ Il Flusso per emettere i documenti di spedizione (Bolle) da un viaggio prevede i
 3. gestione testata Bolla (pgm V5DO15X, funzione DE, metodo 02);
 4. stampa Bolla / Fattura (pgm V5BOFA)
 5. collegamento magazzino (pgm V5DO15X, funzione CO).
-- \*\*Sai qual è la classe di autorizzazione per la gestione dei viaggi?\*\*
+- **Sai qual è la classe di autorizzazione per la gestione dei viaggi?**
 
  :  : VOC Id="SKIT0020" Txt="Sai qual è la classe di autorizzazione per la gestione dei viaggi?"
 La classe di autorizzazione è la V5TR01.

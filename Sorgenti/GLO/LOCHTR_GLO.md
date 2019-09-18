@@ -1,4 +1,4 @@
-- \*\*Espansione dinamica\*\*
+- **Espansione dinamica**
 
  :  : VOC Id="HTR_001" Txt="Espansione dinamica"
 
