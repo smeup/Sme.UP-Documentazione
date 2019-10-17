@@ -1,8 +1,6 @@
 # Componente Bottoniera
 
-## Abstract
-Il componente Bottoniera (BTN) serve per mostrare uno o più bottoni, ai quali è possibile associare delle
-funzioni da lanciare alla pressione.
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCBTN_F00)
 
 ## Funzionalità principali
 - [Visualizzazione dati](Sorgenti/DOC/TA/B£AMO/LOCBTN_F01)

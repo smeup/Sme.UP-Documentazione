@@ -1,9 +1,6 @@
 # Componente Json
 
-## Abstract
-
-Il componente Json permette di visualizzare un documento JSON.
-
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCJSO_F00)
 
 ## Funzionalità
 - [Modalita&-x27;](Sorgenti/DOC/TA/B£AMO/LOCJSO_F01)

@@ -1,9 +1,6 @@
 # Componente Spotlight
 
-## Abstract
-
-Lo spotlight è un componente grafico che permette di gestire la digitazione di una stringa di caratteri che può poi essere utilizzata al fine di scatenare una certa funzionalità.
-
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCSPL_F00)
 
 ## Funzionalità
 - [Eseguire comandi o ricerche](Sorgenti/DOC/TA/B£AMO/LOCSPL_F01)

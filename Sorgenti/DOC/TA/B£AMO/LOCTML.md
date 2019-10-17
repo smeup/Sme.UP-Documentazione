@@ -1,9 +1,6 @@
 # Componente Timeline
 
-## Abstract
-
-Componente utlizzato per visualizzare eventi in ordine cronologico.
-
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCTML_F00)
 
 ## Funzionalità
 - [Eventi](Sorgenti/DOC/TA/B£AMO/LOCTML_F01)

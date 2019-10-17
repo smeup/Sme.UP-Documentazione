@@ -215,4 +215,4 @@ Negli altri casi viene acceso l'indicatore 35 e ritornato il messaggio di incong
 Si passano i dati di input specifici della funzione (numeri e e stringa, che vengono puliti dopo il richiamo). Questa impostazione ha l'effetto di inizializzare tutti i campi di output. Se la serie di output non è finita (ha un numero di elementi maggiore di quello della schirea di passaggio) viene tornato il messaggio CONT :  occorre richiamare la routine (con la stessa funzione), lasciando il messaggio CONT. Negli altri casi ritorna il messaggio vuoto. La schiera dei numeri e dei significati (come effetto collaterale di un ritorno di un vettore) viene ritornata tutte le volte. Idem per la stringa di output.
 
 ## Descrizione formule utilizzate
- :  : I.INC.MBR Fil(DOC_VOC) Mem(B£MATE_GLO)
+- [Funzioni matematiche](Sorgenti/MB/DOC_VOC/B£MATE_GLO)

@@ -1,9 +1,6 @@
 # Componente Immagine
 
-## Abstract
-
-Componente utlizzato per visualizzare un'immagine, dato il suo tipo, parametro e codice.
-
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCIMG_F00)
 
 ## Funzionalità
 - [Impostazioni grafiche](Sorgenti/DOC/TA/B£AMO/LOCIMG_F01)

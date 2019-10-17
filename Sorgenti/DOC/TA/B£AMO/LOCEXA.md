@@ -1,8 +1,6 @@
 # Componente grafico
 
-## Abstract
-
-E' utilizzato per disegnare un grafico, utilizzando dei dati in formato griglia.
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCEXA_F00)
 
 ## Funzionalità
 - [Tipo di grafico](Sorgenti/DOC/TA/B£AMO/LOCEXA_F01)

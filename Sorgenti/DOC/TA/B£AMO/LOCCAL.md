@@ -1,8 +1,6 @@
 # Componente CAL
 
-## Abstract
-
-Questo componente permette di visualizzare eventi su un calendario. Si puo' utilizzare una visualizzazione per mese o per settimana.
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCCAL_F00)
 
 ## Funzionalità
 - [Modalita&-x27; di visualizzazione](Sorgenti/DOC/TA/B£AMO/LOCCAL_F01)

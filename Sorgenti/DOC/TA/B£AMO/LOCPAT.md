@@ -1,10 +1,5 @@
 # Componente Path
-# Abstract
-Il componente Path serve per visualizzare lo stato di avanzamento di un processo.
-Nella sua configurazione base, ciascun evento puo' trovarsi in uno di questi 3 stati : 
-1) Completato
-2) In corso
-3) Non completato
+- [Abstract del componente PAT](Sorgenti/DOC/TA/B£AMO/LOCPAT_F00)
 
 ## Funzionalità principali
 - [Esporre i dati](Sorgenti/DOC/TA/B£AMO/LOCPAT_F01)

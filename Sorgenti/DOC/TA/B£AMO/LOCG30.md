@@ -1,12 +1,6 @@
 # Componente G30
 
-## Abstract
-
-Questo componente ha una rappresentazione grafica disponibile solamente in Looc.Up.
-L'interfaccia grafica è specifica e non è possibile utilizzarlo all'interno di una sezione, di una scheda o dentro Webup.
-
-Per utilizzarlo dentro WebUp è necessario appoggiarsi al servizio interno JA_00_53.
-Nello showcase fare riferimento agli esempi dell' Input Panel, confiuratori Q-.
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCG30_F00)
 
 - [Introduzione](Sorgenti/DOC/TA/B£AMO/LOCG30_A)
 - [Manuale](Sorgenti/DOC/TA/B£AMO/LOCG30_B)

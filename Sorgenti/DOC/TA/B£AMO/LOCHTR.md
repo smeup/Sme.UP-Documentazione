@@ -1,11 +1,5 @@
 # Componente HorizontalTree
-## Abstract
-
-L'albero orizzontale è la rappresentazione del classico albero, ma con uno sviluppo orizzontale.
-
-Questo componente può essere utilizzato principalmente per : 
-- organizzare le informazioni gerarchicamente
-- gestire menù di opzioni/selezioni
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCHTR_F00)
 
 ## Funzionalità
 - [Visualizzare i dati](Sorgenti/DOC/TA/B£AMO/LOCHTR_F01)

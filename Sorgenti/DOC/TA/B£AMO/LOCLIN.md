@@ -1,10 +1,6 @@
 # Componente Line
 
-## Abstract
-
-Il componente Line è semplicemente una rappresentazione grafica di una linea.
-Esso è utilizzato per separare dei contentuti (componenti) all'interno di una scheda.
-
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCLIN_F00)
 
 ## Funzionalità
 - [Stili personalizzabili](Sorgenti/DOC/TA/B£AMO/LOCLIN_F01)

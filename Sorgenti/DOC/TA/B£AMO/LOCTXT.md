@@ -1,10 +1,6 @@
 # Componente Txt
 
-## Abstract
-Si tratta del componente incaricato di visualizzare testo libero, sia passato direttamente, sia tramite un URL.
-Viene inserito in una sub-sezione di una scheda
-In Looc.UP sfrutta un componente di visualizzazione interno.
-
+- [Abstract](Sorgenti/DOC/TA/B£AMO/LOCTXT_F00)
 
 ## Funzionalità principali
 - [Visualizzazione dati](Sorgenti/DOC/TA/B£AMO/LOCKNO_F01)

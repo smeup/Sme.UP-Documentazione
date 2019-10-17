@@ -8,15 +8,7 @@ Di seguito vengono riportate le funzionalità che rientrano in questa categoria.
 
 Le matrici, costituiscono una delle principali forme di interrogazioni a disposizione dell'utente. Su di esse l'utente può apportare varie modifiche che può puoi salvarsi.
 
-## Documenti operativi
-- [Matrice in generale](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB_A1)
-- [Colonne matrice](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB_A2)
-- [Righe matrice](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB_A3)
-- [Celle matrice](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB_A4)
-- [Matrice raggruppamento](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB_A5)
-- [Bottoniera matrice](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB_A6)
-- [FAQ matrice](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB_A7)
-- [Copertina di una Matrice](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB_A8)
+- [Matrice](Sorgenti/DOC_OPE/TA/B£AMO/LOCEXB)
 
 # Le esportazioni pdf/excel della matrice
 
