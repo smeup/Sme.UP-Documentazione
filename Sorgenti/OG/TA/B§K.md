@@ -23,21 +23,21 @@ Tramite questo campo è possibile fissare l'utilizzo della scheda personale "sta
 Tale scheda è identificata dallo script avente nomescriptstandard+"_X". Es. per gli articoli abbiamo AR_X, per il modulo degli articoli BRARTI_X.
 
 Tale campo può assumere i seguenti valori : 
-\* 1 = Scheda. La scheda personale viene presentata in sostituzione della scheda standard, quando viene eseguita la funzione "scheda oggetto".
-\* 2 = Scheda + F20. L'opzione è simile a quella del punto precedente con la sola differenza che viene aggiunto alla scheda il tasto funzione F20 che permette di richiamare il menù dell'oggetto.
-\* 3 = Specifiche Menù. Tramite questo valore, la scheda personale verrà automaticamente aggiunta alla voce di menù "Specifiche" (se assente apparirà in automatico) del menù dell'oggetto.
-\* 4 = Scheda Dashboard. La scheda personale verrà presentata come scheda dashboard nel menù dell'oggetto.
+-  1 = Scheda. La scheda personale viene presentata in sostituzione della scheda standard, quando viene eseguita la funzione "scheda oggetto".
+-  2 = Scheda + F20. L'opzione è simile a quella del punto precedente con la sola differenza che viene aggiunto alla scheda il tasto funzione F20 che permette di richiamare il menù dell'oggetto.
+-  3 = Specifiche Menù. Tramite questo valore, la scheda personale verrà automaticamente aggiunta alla voce di menù "Specifiche" (se assente apparirà in automatico) del menù dell'oggetto.
+-  4 = Scheda Dashboard. La scheda personale verrà presentata come scheda dashboard nel menù dell'oggetto.
 
  :  : FLD T$B§KC **Scheda Iniziale**
 Se la scheda dell'oggetto o del modulo è in modalità hypermenu, è possibile condizionare la modalità di presentazione di una scheda sulla sezione di destra.
 Si possono impostare i seguenti valori : 
-\* 'N' = La sezione rimane vuota
-\* 'Y' = Viene presentata la voce "Dashboard" all'atto del caricamento della scheda
-\* 'I' = Viene presentata la voce "Info" all'atto del caricamento della scheda
-\* ' ' = Assunto. Per le istanze di oggetti e moduli, viene assunto il valore impostato nell'elemento \*ALL, rispettivamente del sottosettore £O e £M.
+-  'N' = La sezione rimane vuota
+-  'Y' = Viene presentata la voce "Dashboard" all'atto del caricamento della scheda
+-  'I' = Viene presentata la voce "Info" all'atto del caricamento della scheda
+-  ' ' = Assunto. Per le istanze di oggetti e moduli, viene assunto il valore impostato nell'elemento \*ALL, rispettivamente del sottosettore £O e £M.
 Con questa impostazione, ad esempio : 
-\* Sottosettore £O, elemento AR     :  Valore 'Y'
-\* Sottosettore £O, elemento \*ALL   :  Valore 'N'
+-  Sottosettore £O, elemento AR     :  Valore 'Y'
+-  Sottosettore £O, elemento \*ALL   :  Valore 'N'
 si ottiene il seguete comportamento : 
 Per gli articoli i dashboard viene presentato al caricamento
 Per tutti gli altri oggetti viene presentato a richiesta.

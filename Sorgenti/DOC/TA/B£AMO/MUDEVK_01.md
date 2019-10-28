@@ -107,13 +107,13 @@ più di plugin sviluppati dal progetto Eclipse con l'aggiunta di alcuni plugin s
 
 Una volta registrato il repository P2 di Eclipse installare le seguenti categorie di plugin : 
 
-\* Category
-\*\* ECF  (da http://download.eclipse.org/rt/ecf/3.11.0/site.p2)
-\*\* DTP  (da http://download.eclipse.org/datatools/updates/1.12)
-\*\* As.UP Parser tools (da As.UP project)
-\*\* AJDT (da  http://download.eclipse.org/tools/ajdt/45/dev/update/)
-\*\* Net4J (da Eclipse Modeling Project)
-\*\* As.UP EMF tools (da As.UP project)
+-  Category
+- \* ECF  (da http://download.eclipse.org/rt/ecf/3.11.0/site.p2)
+- \* DTP  (da http://download.eclipse.org/datatools/updates/1.12)
+- \* As.UP Parser tools (da As.UP project)
+- \* AJDT (da  http://download.eclipse.org/tools/ajdt/45/dev/update/)
+- \* Net4J (da Eclipse Modeling Project)
+- \* As.UP EMF tools (da As.UP project)
 
 ## B) Ambiente per lo sviluppo di plugins As.UP
 
@@ -140,8 +140,8 @@ Registrare in Eclipse il seguente repository P2
 
 Una volta registrato il repository installare i plugin registrati nella seguente categoria : 
 
-\* Category
-\*\* As.UP features for system
+-  Category
+- \* As.UP features for system
 
 
 ## C) Ambiente di sviluppo per parser
@@ -168,8 +168,8 @@ Registrare in Eclipse il seguente repository P2
 
 Una volta registrato il repository installare i plugin registrati nella seguente categoria : 
 
-\* Category
-\*\* As.UP Parser Tools
+-  Category
+- \* As.UP Parser Tools
 
 
 ## D) Ambiente applicativo As.UP
@@ -207,13 +207,13 @@ più di plugin sviluppati dal progetto Eclipse con l'aggiunta di alcuni plugin s
 
 Una volta registrato il repository P2 in Eclipse installare le seguenti categorie di plugin : 
 
-\* Category
-\*\* DTP  (da http://download.eclipse.org/datatools/updates/1.12)
-\*\* Eclipse ECF Plugin  (da http://download.eclipse.org/rt/ecf/3.11.0/site.p2)
-\*\* Net4J Eclipse Plugin(da Eclipse Modeling Project)
-\*\* As.UP Parser tools (da As.UP project)
-\*\* As.UP EMF tools (da As.UP project)
-\*\* AJDT (da  http://download.eclipse.org/tools/ajdt/45/dev/update/)
+-  Category
+- \* DTP  (da http://download.eclipse.org/datatools/updates/1.12)
+- \* Eclipse ECF Plugin  (da http://download.eclipse.org/rt/ecf/3.11.0/site.p2)
+- \* Net4J Eclipse Plugin(da Eclipse Modeling Project)
+- \* As.UP Parser tools (da As.UP project)
+- \* As.UP EMF tools (da As.UP project)
+- \* AJDT (da  http://download.eclipse.org/tools/ajdt/45/dev/update/)
 
 ### D.2.2) Repository per l'installazione del framework di base di As.UP
 
@@ -225,8 +225,8 @@ Repository da registrare :
 
 Una volta registrato il repository installare i plugin registrati nella seguente categoria : 
 
-\* Category
-\*\* As.UP features for system
+-  Category
+- \* As.UP features for system
 
 ### D.2.3) Repository per l'installazione dei componenti di As.UP di Sme.UP
 
@@ -238,8 +238,8 @@ Repository da registrare :
 
 Una volta registrato il repository installare i plugin registrati nella seguente categoria : 
 
-\* Category
-\*\* As.UP MU gen features
+-  Category
+- \* As.UP MU gen features
 
 ## Gestione dei sorgenti e versioning
 
@@ -265,9 +265,9 @@ seguente documento :
 
 I sorgenti del progetto As,UP sono suddivisi in tre distinti repository GitHUB (identificati dalla sintassi del protocollo GIT) : 
 
-\*  **git@github.com : smeup/asup.git** :  repository pubblico che contiene i sorgenti del frameworl base As.UP
-\*  **git@github.com : smeup/smeup-mu.git** :  repository privato che contiene i sorgenti del framework As.UP legati al gestionale Sme.UP
-\*  **git@github.com : smeup/smeup-gen.git** :  repository privato che contiene i sorgenti ottenuti dal processo di conversione del gestionale Sme.UP
+-   **git@github.com : smeup/asup.git** :  repository pubblico che contiene i sorgenti del frameworl base As.UP
+-   **git@github.com : smeup/smeup-mu.git** :  repository privato che contiene i sorgenti del framework As.UP legati al gestionale Sme.UP
+-   **git@github.com : smeup/smeup-gen.git** :  repository privato che contiene i sorgenti ottenuti dal processo di conversione del gestionale Sme.UP
 
 I primi due repository contengono i sorgenti del framework As.UP e interessano quindi gli
 sviluppatori interessati allo sviluppo architetturale del framework. Per poter essere

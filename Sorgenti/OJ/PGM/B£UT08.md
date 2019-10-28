@@ -10,14 +10,14 @@ E' possibile filtrare per tipo membro e inoltre è possibile includere/escludere
 
 ## Cosa cercare
 E' possibile cercare : 
-\* testo in tutto il sorgente
-\* testo in modifiche
-\* testo sotto forma di espressioni
+-  testo in tutto il sorgente
+-  testo in modifiche
+-  testo sotto forma di espressioni
 
 E' possibile indicare 3 stringhe di testo in
-\* AND (opzione A) :  in questo caso tutte le stringhe devono essere presenti sulla stessa riga
-\* OR (opzione O) :  in questo caso deve essere presente almeno una stringa
-\* AND di membro (opzione M) :  in questo caso devono essere presenti tutte le stringhe ma non necessariamente sulla stessa riga
+-  AND (opzione A) :  in questo caso tutte le stringhe devono essere presenti sulla stessa riga
+-  OR (opzione O) :  in questo caso deve essere presente almeno una stringa
+-  AND di membro (opzione M) :  in questo caso devono essere presenti tutte le stringhe ma non necessariamente sulla stessa riga
 
 E' inoltre possibile affinare la ricerca tramite altre opzioni : 
 Case sensitive, includere le righe di commento.

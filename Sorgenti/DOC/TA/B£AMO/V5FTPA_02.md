@@ -32,20 +32,20 @@ Compilare il campo Modello Cont.F.E.B2B indicando la causale da utilizzare per l
 ### Parametri £CA
 
 Compilare i parametri dell'azienda (categoria £CA) sotto elencati : 
-\* ABA  Capitale sociale (facoltativo)
-\* ABI  Numero Autorizz.Bollo :  si consiglia la compilazione per facilitare il reperimento del dato nel caso in cui si voglia inserire nelle note del documento questa informazione
-\* ABL  Ufficio Registro Imprese (obbligatorio)
-\* ABM  Numero REA (obbligatorio)
-\* ABN  Socio Unico (facoltativo)
-\* ABO  Stato liquidazione (obbligatorio)
-\* ABP  Regime fiscale (obbligatorio)
-\* AWJ  Tipo Rappr.Fiscale
-\* AWK  Cod. Rappr.Fiscale :  questo campo e il precedente vanno compilati solo se l'azienda è un rappresentante fiscale di un soggetto estero. Dovrebbe essere una casistica molto rara
-\* AWL  Tipo Sogg.Emitt. x FE
-\* AWM  Cod.Sogg.Emitt. x FE :  questo campo e il precedente vanno compilati solo se l'azienda emette fatture per conto di altri cedenti. Ad esempio potremmo avere il caso di un'azienda che emette in prima persona le fatture dei suoi agenti. In questo caso il cedente è l'agente ma la fattura viene emessa dall'azienda (che è il cessionario). Il campo è solo a titolo informativo. Attualmente non è gestito nei tracciati
-\* AWS  Attiva Fattura B2B :  indica da che data l'azienda aderisce alla fatturazione elettronica B2B, valido solo se antecedente al 01/01/2019. Dal 01/01/19 si consideranno attive tutte le cessioni verso soggetti italiani
-\* AWT Tipo Ente Trasmittente x FE
-\* AWU Cod. Ente Trasmittente x FE :  questo campo e il precedente vanno valorizzati nel caso in cui ci si avvalga di un intermediario per l'invio dei file al Sdi. In questi due campi va riportato l'ente che effettua la trasmissione. Ad esempio se la trasmissione viene effettuata da Able Tech in questi campi andrà indicato il tipo FOR e il codice fornitore di Able Tech.
+-  ABA  Capitale sociale (facoltativo)
+-  ABI  Numero Autorizz.Bollo :  si consiglia la compilazione per facilitare il reperimento del dato nel caso in cui si voglia inserire nelle note del documento questa informazione
+-  ABL  Ufficio Registro Imprese (obbligatorio)
+-  ABM  Numero REA (obbligatorio)
+-  ABN  Socio Unico (facoltativo)
+-  ABO  Stato liquidazione (obbligatorio)
+-  ABP  Regime fiscale (obbligatorio)
+-  AWJ  Tipo Rappr.Fiscale
+-  AWK  Cod. Rappr.Fiscale :  questo campo e il precedente vanno compilati solo se l'azienda è un rappresentante fiscale di un soggetto estero. Dovrebbe essere una casistica molto rara
+-  AWL  Tipo Sogg.Emitt. x FE
+-  AWM  Cod.Sogg.Emitt. x FE :  questo campo e il precedente vanno compilati solo se l'azienda emette fatture per conto di altri cedenti. Ad esempio potremmo avere il caso di un'azienda che emette in prima persona le fatture dei suoi agenti. In questo caso il cedente è l'agente ma la fattura viene emessa dall'azienda (che è il cessionario). Il campo è solo a titolo informativo. Attualmente non è gestito nei tracciati
+-  AWS  Attiva Fattura B2B :  indica da che data l'azienda aderisce alla fatturazione elettronica B2B, valido solo se antecedente al 01/01/2019. Dal 01/01/19 si consideranno attive tutte le cessioni verso soggetti italiani
+-  AWT Tipo Ente Trasmittente x FE
+-  AWU Cod. Ente Trasmittente x FE :  questo campo e il precedente vanno valorizzati nel caso in cui ci si avvalga di un intermediario per l'invio dei file al Sdi. In questi due campi va riportato l'ente che effettua la trasmissione. Ad esempio se la trasmissione viene effettuata da Able Tech in questi campi andrà indicato il tipo FOR e il codice fornitore di Able Tech.
 
 I parametri sopra elencati vengono creati in automatico (senza necessità di fasatura tabelle) dal programma  C£CRFS01 .
 

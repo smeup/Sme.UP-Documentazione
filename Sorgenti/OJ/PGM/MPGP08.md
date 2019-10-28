@@ -28,7 +28,7 @@ Nella lista sono presentate le seguenti informazioni :
  \* collegati (entità diverse da quelle della vista piano in input, ma appartenenti alle altre viste piano collegate).
 
 Sono possibili le seguenti attività : 
-\* sostituire la vista di riferimento (quella compilata nel formato guida) con una di quelle listate (la sostituzione si ottiene inserendo una "X" in corrispondenza di uno dei campi di input posti a
+-  sostituire la vista di riferimento (quella compilata nel formato guida) con una di quelle listate (la sostituzione si ottiene inserendo una "X" in corrispondenza di uno dei campi di input posti a
 sinistra della colonna intestata "Codice")
 
 >N.B. :  sono intercambiabili solo le viste piano con la stessa coppia di entità presenti nello stesso ordine (codice 1 / codice 2).

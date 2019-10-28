@@ -5,6 +5,6 @@
  :  : DEC T(MB) P(DOC) K(WECONV)
 
 # DOCUMENTAZIONE PARTICOLARE
-- [Configurazione Virtual Servers Payara](Sorgenti/DOC/TA/B£AMO/WEBASE_01)
+- [Installazione e configurazione](Sorgenti/DOC/TA/B£AMO/WEBASE_01)
 - [Architettura e componenti](Sorgenti/DOC/TA/B£AMO/WEBASE_02)
 - [Visione Web.up](Sorgenti/TA/B£A/WE_001)

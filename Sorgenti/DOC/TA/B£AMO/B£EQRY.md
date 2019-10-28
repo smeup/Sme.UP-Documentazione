@@ -1,7 +1,7 @@
 ## Documenti applicativi
-- [Le Funzioni di Ricerca - Configurare l&-x27;ambiente](Sorgenti/DOC/TA/B£AMO/B£EQRY_A01)
+- [Le Funzioni di Ricerca - Configurare l'ambiente](Sorgenti/DOC/TA/B£AMO/B£EQRY_A01)
 - [La Funzione di Ricerca - Operatività](Sorgenti/DOC/TA/B£AMO/B£EQRY_A02)
-- [Aggiungere&-x2f;Modificare gli Schemi della Finestra](Sorgenti/DOC/TA/B£AMO/B£EQRY_A03)
+- [Aggiungere/Modificare gli Schemi della Finestra](Sorgenti/DOC/TA/B£AMO/B£EQRY_A03)
 - [Utilizzare Uno Schema in un Servizio Generico](Sorgenti/DOC/TA/B£AMO/B£EQRY_A04)
 - [Aggiungere Nuove Query di Ricerca](Sorgenti/DOC/TA/B£AMO/B£EQRY_A05)
 - [Utilizzare Una Query in Scheda](Sorgenti/DOC/TA/B£AMO/B£EQRY_A06)

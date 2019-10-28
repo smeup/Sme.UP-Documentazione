@@ -42,7 +42,7 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Immagini (\\Smeup\SmeImg)
 
 ### Programma
-- [Dettaglio programma](Sorgenti/OG/OG/PG)
+- [Programma](Sorgenti/OG/OG/PG)
  - Sorgente
  - Documentazione
  - Documentazione interna di sviluppo
@@ -77,7 +77,7 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Nota, associata all'elemento, che ne spiega perchè è stato creato quel particolare elemento e le regole collegate.
 
 ### Utente
-- [Dettaglio Utente](Sorgenti/OG/OG/UP)
+- [Utente](Sorgenti/OG/OG/UP)
  - Ingressi
  - Menubar
 
@@ -97,15 +97,15 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Lista dei valori presenti
 
 ### Valore fisso V2
-- [Dettaglio Valori fissi SME.up](Sorgenti/OG/OG/V2)
+- [Valori fissi SME.up](Sorgenti/OG/OG/V2)
  - Documentazione
 
 ### Flag di archivio
-- [Dettaglio Flag di archivio](Sorgenti/OG/OG/FL)
+- [Flag](Sorgenti/OG/OG/FL)
  - Documentazione
 
 ### Valore fisso V3
-- [Dettaglio Valori dinamici SME.up](Sorgenti/OG/OG/V3)
+- [Valori dinamici SME.up](Sorgenti/OG/OG/V3)
  - Documentazione
 
 ### Configurazione
@@ -123,7 +123,7 @@ Nel seguito riportiamo gli oggetti interessati alla documentazione e, per ciascu
  - Scheda autorizzazioni ?????
 
 ### Oggetto
-- [Creare un nuovo oggetto](Sorgenti/OG/OG/OG)
+- [Oggetto](Sorgenti/OG/OG/OG)
  - Documentazione
  - Attributi (OAV)
  - Opzioni di Popup

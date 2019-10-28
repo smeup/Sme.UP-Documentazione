@@ -1,9 +1,9 @@
 # Repository P2
 
 Un repository P2 è un contenitore software, finalizzato alla distribuzione software Eclipse based : 
-\* Eclipse IDE
-\* Equinox P2
-\* Maven
+-  Eclipse IDE
+-  Equinox P2
+-  Maven
 
 Elenco repository disponibili
 

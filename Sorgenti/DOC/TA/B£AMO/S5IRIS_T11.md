@@ -175,8 +175,8 @@ Nella figura seguente è rappresentato il legame tra gli impegni risorse, altern
 Nella figura seguente è rappresentato il legame tra gruppo e dettagli, questi ultimi suddivisi nelle sezioni descritte in precedenza. In questa figura è rappresentata la situazione dopo aver schedulato le operazioni iniziate, e quindi i puntatori alla prima operazione del gruppo (D1) e alla prima non schedulata (D3) sono diversi.
 ![FIG_019](http://localhost:3000/immagini/S5IRIS_T11/FIG_019.png)
 Il motivo della duplicazione della memoria in alternative e dettagli, che appartenetemente sono in corrispondenza biunivoca, è duplice.
-\* data la limitazione delle DS multiple, la suddivisione in più DS consente di estendere le informazioni
-\* in caso di altrnative di ciclo (funzione attualmente non implementata) la corrispondenza tra alternatve e dettagli non è più biunivoca
+-  data la limitazione delle DS multiple, la suddivisione in più DS consente di estendere le informazioni
+-  in caso di altrnative di ciclo (funzione attualmente non implementata) la corrispondenza tra alternatve e dettagli non è più biunivoca
 
 # DSSINT - Sintesi
 Contengono le informazioni riassuntive per ogni ordine

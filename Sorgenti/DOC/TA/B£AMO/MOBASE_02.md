@@ -9,16 +9,16 @@ Successivamente, sarà necessario configurare all'interno di Smeup Mobile,  una 
  :  : PAR
 SmeUP Mobile è reperibile in  : 
 
-\* Apple Store per dispositivi Apple basati su IOS (IPhone, IPad)
-\*\* Scaricabile da : https://itunes.apple.com/it/app/smeup-mobile/id1015849340
-\* Google Play per dispositivi basati su Android
-\*\* Scaricabile da https://play.google.com/store/apps/details?id=com.smeup.SmeUPMobile
+-  Apple Store per dispositivi Apple basati su IOS (IPhone, IPad)
+- \* Scaricabile da : https://itunes.apple.com/it/app/smeup-mobile/id1015849340
+-  Google Play per dispositivi basati su Android
+- \* Scaricabile da https://play.google.com/store/apps/details?id=com.smeup.SmeUPMobile
 
 # Accesso a Demo
 Una volta scaricata, l'App è immediatamente utilizzabile in modalità >Demo attraverso 2 connessioni preconfigurate e pronte all'uso.
 Avremo quindi   : 
-\*>Demo - No Login
-\*>Demo - User Login
+- >Demo - No Login
+- >Demo - User Login
  :  : PAR
 come in figura  : 
 

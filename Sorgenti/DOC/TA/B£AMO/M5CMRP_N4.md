@@ -5,18 +5,18 @@
 L'oggetto di rottura è un codice che si accoda allo scenario, al plant e all'articolo per costutiure l'insieme degli oggetti su cui si esegue la pianificazione.
 
 L'MRP di Smeup gestisce i seguenti oggetti di rottura : 
-\* Configurazione
-\* Commessa
-\* Ente
-\* Esponente di modifica
+-  Configurazione
+-  Commessa
+-  Ente
+-  Esponente di modifica
 Tutti questi campi sono presenti nell'archivio della pianificazione
  :  : DEC T(OJ) P(\*FILE) K(M5CONS0F)
 
 Per attivare questa funzione è necessario inserire in tabella M51 uno dei precedenti oggetti.
 Si deve quindi stabilire quali articoli sono gesatiti a rottura.
 Ci sono due possibilità : 
-\* Si imposta un flag in tabella M51, che fa sì che tutti i codici siano gestiti a rottura.
-\* Si imposta un flag sulla politica master (M5A) degli articoli che si vogliono gestire a rottura. Questo campo è superfluo se è stato impostato il precedente.
+-  Si imposta un flag in tabella M51, che fa sì che tutti i codici siano gestiti a rottura.
+-  Si imposta un flag sulla politica master (M5A) degli articoli che si vogliono gestire a rottura. Questo campo è superfluo se è stato impostato il precedente.
  :  : DEC T(ST) K(M51)
  :  : DEC T(ST) K(M5A)
 
@@ -69,8 +69,8 @@ Anche in questo caso, come per la commessa, l'ente dell'ordine pianificato viene
 
 ## Esponente di modifica
 Questo oggetto di rottura fa eccezione per due aspetti : 
-\* Sugli impegni pianificati a standard non viene trasferito l'esponente di modifica dell'assieme, ma viene ricalcolato
-\* La catena di oggetti di rottura, oltre ad essere interrotta, scendendo nei livelli può essere ripristinata
+-  Sugli impegni pianificati a standard non viene trasferito l'esponente di modifica dell'assieme, ma viene ricalcolato
+-  La catena di oggetti di rottura, oltre ad essere interrotta, scendendo nei livelli può essere ripristinata
 
 L'esponente di modifica del componente viene determinato nel seguente modo : 
 Se l'assieme è gestito a rottura viene determinata la data di ingresso del suo esponente di modifica, che viene utilizzata per calcolare l'esponente di modifica del componente valido a quella data.

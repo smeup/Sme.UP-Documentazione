@@ -68,4 +68,4 @@ Per la definizione della sequenza dei campi dello schema nella simulazione della
 - [INT - Parametri interrogazione standard](Sorgenti/OG/TA/INT)
 
 Gli schemi di interrogazione usati sono definiti nella tabella delle interrogazioni :  per accedere alla tabella nella riga di comando digitare **UP TAB**, nel settore indicare INT (interrogazioni) e nel campo subsettore l'oggetto a cui si riferisce l'interrogazione.
-- [Gestione schemi interrogazione (INT](Sorgenti/OJ/PGM/TSTG25)
+- [Gestione schemi interrogazione (INT)](Sorgenti/OJ/PGM/TSTG25)

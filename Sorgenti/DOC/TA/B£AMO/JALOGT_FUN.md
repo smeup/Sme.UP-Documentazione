@@ -19,7 +19,7 @@ Tutte le operazioni loggate vengono scritte in un file
 
 # Attivazione
 Per attivare la funzione di log e necessario impostare le seguenti tabelle : 
-\* Attivazione funzione
+-  Attivazione funzione
  :  : DEC T(ST) K(JA1)
 
  \* Funzione da tracciare

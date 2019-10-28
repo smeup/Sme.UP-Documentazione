@@ -10,4 +10,7 @@ Un questionario è quindi costituito da almeno due parti fondamentali :  una pri
 Come già accennato, il questionario si compone di almeno due parti. Una prima, relativa all'elenco delle domande proprie del questionario che possono essere strutturate in capitoli e paragrafi e una seconda destinata invece alla compilazione delle risposte. A queste due parti occorre aggiungerne almeno un'altra che permette di selezionare le domande (e quindi lo specifico questionario) a cui si deve rispondere. Questa sezione si presenta quindi come una sezione di input nella quale devono essere impostati o scelte le informazioni utili alla selezione delle domande.
 Di seguito alcune videate su come appaiono le sezioni in Looc.UP. Le videate sono relative alla _Quality check-list_, ovvero il questionario della qualità utile alla registrazione dei risultati dei collaudi.
 
-![LOA34_01](http://localhost:3000/immagini/MBDOC_OGG-LOA34_01/LOA34_01.png)![LOA34_02](http://localhost:3000/immagini/MBDOC_OGG-LOA34_01/LOA34_02.png)![LOA34_03](http://localhost:3000/immagini/MBDOC_OGG-LOA34_01/LOA34_03.png)
+FIG M(V2LOCOS) P(LOA34_01) A(C)
+FIG M(V2LOCOS) P(LOA34_02) A(C)
+FIG M(V2LOCOS) P(LOA34_03) A(C)
+![LOA34_01](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOS341/LOA34_01.png)![LOA34_02](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOS341/LOA34_02.png)![LOA34_03](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOS341/LOA34_03.png)

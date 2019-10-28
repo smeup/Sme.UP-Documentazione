@@ -17,8 +17,8 @@ E' importante notare che se non viene specificato alcuni dinamismo la sezione sp
 Le funzionalità si possono poi scatenare al semplice invio o tramite visualizzazione di bottoni specifici.
 
 A tale stringa possono agganciarsi funzionalità di questo tipo : 
-\* Un testo watermark che dia indicazione di cosa può scrivere
-\* Un testo precompilato
+-  Un testo watermark che dia indicazione di cosa può scrivere
+-  Un testo precompilato
 
 ## Formato dati
 Tipo di XML utilizzato :  Xml di matrice.

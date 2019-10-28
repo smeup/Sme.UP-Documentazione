@@ -3,6 +3,6 @@
 Parametro 1 : 
 E'la sigla dell'applicazione (elemento della tabella '\*CNAA').
 Parametro 2 : 
-E' controllato dal programma specifico B£TC6E_xx, dove xx è la sigla
+E' controllato dal programma specifico B£TM5F_xx, dove xx è la sigla
 dell'applicazione.
 

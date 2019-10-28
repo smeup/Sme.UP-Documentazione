@@ -45,8 +45,8 @@ Visualizzazione, composizione, scomposizione sequenza campi
 
 - Contesto :  _campo £G30MS_
 
-\* G30        I dati passati al programma vengono memorizzati nel formato predefinito della G30 (una stringa con i valori concatenati)
-\* '\*Blanks' I dati passati al programma vengono memorizzati nel formato predefinito dalla G11 (una schiera di valori)
+-  G30        I dati passati al programma vengono memorizzati nel formato predefinito della G30 (una stringa con i valori concatenati)
+-  '\*Blanks' I dati passati al programma vengono memorizzati nel formato predefinito dalla G11 (una schiera di valori)
 
 - Intestazione :  _campo £G30TI_
 

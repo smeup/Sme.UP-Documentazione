@@ -22,8 +22,8 @@ I log di performance sono identificati fra gli altri tramite l'estensione ".PR".
 I dati in essi contenuti saranno interrogabili e gestibili tramite le schede specifiche.
 
 In base a quanto descritto è importante notare questi due aspetti : 
-\* Visto che i dati vengono memorizzati sul client, anche se la configurazione viene attivata per tutti gli utenti, nelle interrogazioni avrò la possibilità di vedere solo i log del client su cui sono.
-\* I dati pur essendo manutenzionabili tramite le schede vengono comunque automaticamente eliminati ogni 7 giorni.
+-  Visto che i dati vengono memorizzati sul client, anche se la configurazione viene attivata per tutti gli utenti, nelle interrogazioni avrò la possibilità di vedere solo i log del client su cui sono.
+-  I dati pur essendo manutenzionabili tramite le schede vengono comunque automaticamente eliminati ogni 7 giorni.
 
 Per questi motivi è possibile utilizzare nella scheda una  funzione che permette di copiare i file di log dalla cartella dell'utente ad una cartella di installazione di loocup (nell'assunzione che loocup sia installato su un server disponibile a più utenti). Per questo motivo nelle interogazioni è predisposta sia l'interrogazione della cartella di log dell'utente che quella di installazione di loocup.
 

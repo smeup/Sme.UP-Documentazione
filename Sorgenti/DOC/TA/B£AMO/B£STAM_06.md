@@ -77,7 +77,7 @@
 **Stampe PDF**
 
 **INTRODUZIONE**
-- [PDF Setup](Sorgenti/DOC/TA/B£AMO/LOCFRM_PD)
+- [PDF proprietario](Sorgenti/DOC/TA/B£AMO/LOCFRM_PD)
 **SETUP SPECIFICO**
 - [PDF Setup](Sorgenti/DOC/TA/B£AMO/LOCFRM_PDS)
 
@@ -94,7 +94,7 @@
 
 
 **Stampe LTX**
-- [LATEX - Da doc. attiva a PDF](Sorgenti/DOC/TA/B£AMO/LOCFRM_LT)
+- [Book e presentazioni LATEX](Sorgenti/DOC/TA/B£AMO/LOCFRM_LT)
 
 - Analisi dei prerequisiti per la generazione
 - Lancio batch

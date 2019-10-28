@@ -215,8 +215,8 @@ Es. :  DftSort="C$RIS0|£CIRST,D"
  - Aggiunto parametro SelFirst in Setup Matrice,Albero,TabAlbero :  consente di selezionare immediatamente il primo record scatenando l'evento OnChange associato
 
 Sintassi : 
-\* SelFirst="Yes|No"
-\* Yes = Il primo record di una matrice o il primo nodo di un albero vengono automaticamente selezionati e viene automaticamente scatenato l'eventuale evento onchange associato
+-  SelFirst="Yes|No"
+-  Yes = Il primo record di una matrice o il primo nodo di un albero vengono automaticamente selezionati e viene automaticamente scatenato l'eventuale evento onchange associato
  \* No  = Nessun elemento viene automaticamente selezionato  (default)
  - Introdotta Visualizzazione del nodo selezionato di un albero anche se il fuoco è su un altro componente
  - Aggiunto Parametro ToExcel in Setup Matrice per consentire l'inibizione dell'esportazione di una matrice in Excel.

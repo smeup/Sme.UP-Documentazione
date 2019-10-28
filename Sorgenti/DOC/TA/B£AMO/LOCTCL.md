@@ -3,7 +3,7 @@
 
 ## Funzionalità
 - [Visualizzare i dati](Sorgenti/DOC/TA/B£AMO/LOCTCL_F01)
-- [Impostare l&-x27;algoritmo di calcolo](Sorgenti/DOC/TA/B£AMO/LOCTCL_F02)
+- [Impostare l'algoritmo di calcolo](Sorgenti/DOC/TA/B£AMO/LOCTCL_F02)
 - [Impostare limiti e soglie](Sorgenti/DOC/TA/B£AMO/LOCTCL_F03)
 - [Dinamismi](Sorgenti/DOC/TA/B£AMO/LOCTCL_F04)
 - [Dimensioni](Sorgenti/DOC/TA/B£AMO/LOCTCL_F05)

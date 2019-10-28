@@ -54,7 +54,7 @@ Per attivarla si deve :
 
 
 ## Riferimenti di documentazione
-- [&-x2a; M5A - Politica di riordino                 (1)](Sorgenti/OG/TA/M5A)
+- [\* M5A - Politica di riordino](Sorgenti/OG/TA/M5A)
  :  : DEC T(MB) P(QILEGEN) K(£V5U)
 - [BRARES0F Dati articolo per esterno](Sorgenti/OJ/FILE/BRARES0F)
  :  : DEC T(MB) P(QILEGEN) K(£G26)

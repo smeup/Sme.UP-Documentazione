@@ -1,1 +1,1 @@
-- [Enti&-x2f;Articolo per plant](Sorgenti/DOC/TA/B£AMO/BRARES_002)
+- [Enti/Articolo per plant](Sorgenti/DOC/TA/B£AMO/BRARES_002)

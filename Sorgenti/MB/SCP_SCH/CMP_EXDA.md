@@ -64,8 +64,8 @@ che le contiene tutte.
 In questo modo tutte le variabili sono richiamabili attraverso la forma &IN.nome_variabile.
 
 Nell'esempio, è possibile scegliere tra due esempi : 
-\* A :  Sono utilizzabili le variabili A=Pippo, B=Pluto, C=XXX e la variabile SER_VAR che è composta da entrambe.
-\* B :  Sono utilizzabili le variabili A=Topolino e B=Paperoga, e la variabile SER_VAR che è composta da entrambe.
+-  A :  Sono utilizzabili le variabili A=Pippo, B=Pluto, C=XXX e la variabile SER_VAR che è composta da entrambe.
+-  B :  Sono utilizzabili le variabili A=Topolino e B=Paperoga, e la variabile SER_VAR che è composta da entrambe.
 
 Nella parte inferiore dello schermo è visibile il contenuto della variabile SER_VAR.
 
@@ -79,7 +79,7 @@ che le contiene tutte.
 In questo modo tutte le variabili sono richiamabili attraverso la forma [nome_variabile].
 
 Nell'esempio, è possibile scegliere tra due esempi : 
-\* A :  Sono utilizzabili le variabili A=Pippo, B=Pluto, C=XXX e la variabile SER_VAR che è composta da entrambe.
-\* B :  Sono utilizzabili le variabili A=Topolino e B=Paperoga, e la variabile SER_VAR che è composta da entrambe.
+-  A :  Sono utilizzabili le variabili A=Pippo, B=Pluto, C=XXX e la variabile SER_VAR che è composta da entrambe.
+-  B :  Sono utilizzabili le variabili A=Topolino e B=Paperoga, e la variabile SER_VAR che è composta da entrambe.
 
 Nella parte inferiore dello schermo sono visibili tutte e 4 le possibili variabili.

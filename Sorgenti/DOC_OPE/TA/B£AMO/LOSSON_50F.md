@@ -93,7 +93,7 @@ SSO da collegamento (link) a Loocup.exe; Modificare un link verso Loocup.exe tog
 | 
 | .COL Txt="Per disattivare" LunAut="1" |
 | Utente | Imposto SSO in finestra accesso | Accesso diretto | Non posso modificare l'utente d'accesso a meno di disattivare SSO e quindi avere riproposta la maschera di login | About dentro Looc.Up (togli flag) |
-| Sviluppatore | \*SSO nel link | Accesso diretto | Posso modificare l'utente d'accesso togliendo  \*SSO prima di lanciare l'esecuzione | Rimuovere \*SSO dal link |
+| Sviluppatore | \*SSO nel link | Accesso diretto | Posso modificare l'utente d'accesso togliendo  - SSO prima di lanciare l'esecuzione | Rimuovere \*SSO dal link |
 | Sviluppatore | Utente nel link | Richiesta Password | Per attivare SSO devo rifarmi alle condizioni sopra indicate | Niente (a meno che SSO non sia attivo) |
 | 
 

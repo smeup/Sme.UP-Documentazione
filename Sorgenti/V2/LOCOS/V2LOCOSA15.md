@@ -2,16 +2,16 @@
 La scheda è uno strumento di business intelligence integrato in Looc.Up che permette l'analisi multidimensionale di fenomeni diversi legati all'attività dell'azienda.
 
 ##  Terminologia e processo
-\* _2_Dimensioni, sono le colonne sulle quali si applica l'analisi multidimensionale. Una colonna può rappresentare ad esempio gli articoli venduti, i clienti, le provincie, gli agenti, ecc.... Le dimensioni  possono essere indipendenti (generalmente corrispondono agli oggetti Sme.Up) oppure derivate (generalmente attributi degli oggetti).
-\* _2_Misure, sono i valori associati alle dimensioni ad esempio la quantità venduta o acquistata, l'importo, il costo unitario, ecc....
-\* _2_Fonti, rappresentano le informazioni che vengono sottoposte ad analisi.
-\* _2_Gruppi fonte, raggruppano fonti della stessa natura che vengono preparate per l'analisi nello stesso processo.
-\* _2_Schemi, rappresentano i dati di una fonte con raggruppamenti e/o completamenti (dimensioni aggiuntive calcolate come attributi di dimensioni esistenti e misure aggiuntive come elaborazioni di misure esistenti) impostati nello script di configurazione.
+-  _2_Dimensioni, sono le colonne sulle quali si applica l'analisi multidimensionale. Una colonna può rappresentare ad esempio gli articoli venduti, i clienti, le provincie, gli agenti, ecc.... Le dimensioni  possono essere indipendenti (generalmente corrispondono agli oggetti Sme.Up) oppure derivate (generalmente attributi degli oggetti).
+-  _2_Misure, sono i valori associati alle dimensioni ad esempio la quantità venduta o acquistata, l'importo, il costo unitario, ecc....
+-  _2_Fonti, rappresentano le informazioni che vengono sottoposte ad analisi.
+-  _2_Gruppi fonte, raggruppano fonti della stessa natura che vengono preparate per l'analisi nello stesso processo.
+-  _2_Schemi, rappresentano i dati di una fonte con raggruppamenti e/o completamenti (dimensioni aggiuntive calcolate come attributi di dimensioni esistenti e misure aggiuntive come elaborazioni di misure esistenti) impostati nello script di configurazione.
 
 Il processo prevede : 
-\* _2_Definizione dello script di impostazione, questo risiede nel file _3_SCP_SET, e comprende le parametrizzazioni che saranno utilizzate sia in fase di estrazione e completamento dei dati che in fase di analisi
-\* _2_Estrazione delle informazioni, eseguita da un programma che, con logiche utente, estrae le informazioni dal database e scrive un file di lavoro. Programma ed eventuali parametri di condizionamento sono definiti nello script.
-\* _2_Completamento, eseguito dal programma LOA15_GC che completa i dati estratti aggiungendo attributi di oggetti e creando nuove misure come risultato di operazioni matematiche su misure esistenti. Le informazioni vengono memorizzate in file creati in una apposita libreria, uno per ciascuna fonte più uno per ogni schema. I parametri di condizionamento del completamento sono definiti nello script.
+-  _2_Definizione dello script di impostazione, questo risiede nel file _3_SCP_SET, e comprende le parametrizzazioni che saranno utilizzate sia in fase di estrazione e completamento dei dati che in fase di analisi
+-  _2_Estrazione delle informazioni, eseguita da un programma che, con logiche utente, estrae le informazioni dal database e scrive un file di lavoro. Programma ed eventuali parametri di condizionamento sono definiti nello script.
+-  _2_Completamento, eseguito dal programma LOA15_GC che completa i dati estratti aggiungendo attributi di oggetti e creando nuove misure come risultato di operazioni matematiche su misure esistenti. Le informazioni vengono memorizzate in file creati in una apposita libreria, uno per ciascuna fonte più uno per ogni schema. I parametri di condizionamento del completamento sono definiti nello script.
 
 La composizione del nome della libreria avviene nel seguente modo a seconda di quanto impostato nella tabella **LO1**
 **SBI_yyyxxT**
@@ -23,7 +23,7 @@ Qualora >non sia valorizzato T$LO1Ala composizione del nome della libreria avvie
 **SMEUPBIxxT**
 dove  _7_xx è il codice azienda presente in B£2 (££B£2A) e il carattere T viene aggiunto qualora sia valorizzato il flag ambiente di test in B£2 (££B£2Z).
 
-\* _2_Analisi, utilizzando la scheda LOA15.
+-  _2_Analisi, utilizzando la scheda LOA15.
 
 ## La scheda
 La scheda si presenta nel modo seguente : 

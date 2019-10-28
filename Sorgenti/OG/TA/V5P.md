@@ -30,12 +30,12 @@ il numero ottenuto da tale numeratore
  :  : FLD T$V5PJ  Tipo imponibile
 E' un valore V2/V5TPR. Definisce il significato del record provvigionale
 Questo campo è molto importante in quanto alcuni valori attivano un trattamento particolare della provvigione corrispondente : 
-\* 1 Provvigione :  va utilizzato quando la provvigione è originata da una particolare fattura clienti
-\* 2 Minimo garantito :  individua un anticipo che potrà essere conguagliato solo se le provvigioni saranno di importo superiore
-\* 6 Note credito :  va utilizzato quando la provvigione è originata da una particolare nc clienti
-\* 7 Note debito :  va utilizzato quando la provvigione è originata da una particolare nota addebito
-\* 9 Anticipo :  individua un anticipo che dovrà essere conguagliato o restituito
-\* 0 Fisso :  individua un importo corrisposto che originato da documenti, che non verrà mai congualiato
+-  1 Provvigione :  va utilizzato quando la provvigione è originata da una particolare fattura clienti
+-  2 Minimo garantito :  individua un anticipo che potrà essere conguagliato solo se le provvigioni saranno di importo superiore
+-  6 Note credito :  va utilizzato quando la provvigione è originata da una particolare nc clienti
+-  7 Note debito :  va utilizzato quando la provvigione è originata da una particolare nota addebito
+-  9 Anticipo :  individua un anticipo che dovrà essere conguagliato o restituito
+-  0 Fisso :  individua un importo corrisposto che originato da documenti, che non verrà mai congualiato
 I restanti valori possono essere considerati a scopo puramente descrittivo.
  :  : FLD T$V5PK  Desc.Fissa Pro-Forma
 E' un valore V2/SI/NO. Se impostato fa si che nella generazione delle righe del documento di attesa fattura dell'agente venga forzata come descrizione di riga la descrizione del tipo provvigione (solo se il livello di dettaglio previsto è l'agente e non un livello più basso).

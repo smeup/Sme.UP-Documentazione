@@ -12,8 +12,8 @@ Quando, all'interno della schedulazione, si interviene manualmente per modificar
 
 # Impostazioni
 L'attivazione dei batch è impostata a livello di risorsa principale, attribuendogli un gruppo risorsa che abbia valorizzati i due flag che li definiscono : 
-\* Classe batch :  definisce le condizioni di raggruppabilità degli impegni risorse per comoprre un batch
-\* Tipo batch :  definisce il modo in cui vengono datati, nella schedulazione fine, gli impegni risorse appartenetti ad un batch.
+-  Classe batch :  definisce le condizioni di raggruppabilità degli impegni risorse per comoprre un batch
+-  Tipo batch :  definisce il modo in cui vengono datati, nella schedulazione fine, gli impegni risorse appartenetti ad un batch.
 Se quindi si vuol diversificare la modalità con cui si raggruppano gli impegni, si definiscono più classi batch, e conseguentemente più gruppi risorse.Il tipo batch va impostato in base alle caratteristiche tecnologiche del processo che si descrive.
 Si possono avere quindi, gruppi risorsa con classi batch diverse ed uguale tipo batch (ad esempio presse diverse che hanno modalità diverse di composizione dei batch ma con lo stesso modo di datazione).
 Non è invece consistente avere gruppi risorsa con la stessa classe batch ma diversi tipi batch, in quanto si potrebbero costruire batch con impegni che presentano diverse modalità di datazione.
@@ -37,11 +37,11 @@ E' memorizzato nel flag 14 di S5IRIS
 ## Famiglia batch
 Individua tutti gli impegni che potenzialmente potrebbero essere riuniti per comporre un batch. Dà luogo alla compatibilità statica (condizione necessaria, precedente al processo di costruzione).
 E' composta logicamente dai seguenti campi di S5IRIS
-\* Scenario (fisso \*\*)
-\* Tipo origine
-\* Classe batch (Flag 18) :  non è ridondante, rispetto al campo successivo di risorsa principale (che apaprtiene ad un gruppo risorsa, che a sua volta contiene una class batch), in quanto potrebbe essere stato pulito dalla exit di S5IRIS0F.
-\* Tipo e codice risorsa principale
-\* Codice libero 4 e Codice libero 5. Questi campi vengono riempiti dall'exit S5BCH01_x, dove x è la classe batch.
+-  Scenario (fisso \*\*)
+-  Tipo origine
+-  Classe batch (Flag 18) :  non è ridondante, rispetto al campo successivo di risorsa principale (che apaprtiene ad un gruppo risorsa, che a sua volta contiene una class batch), in quanto potrebbe essere stato pulito dalla exit di S5IRIS0F.
+-  Tipo e codice risorsa principale
+-  Codice libero 4 e Codice libero 5. Questi campi vengono riempiti dall'exit S5BCH01_x, dove x è la classe batch.
  :  : DEC T(MB) P(S5SRC) K(S5BCH01_X) L(1)
  E' quindi possibile decidere che, ad esempio, l'elemento di compatibilità è lo stampo dell'articolo. Se l'exit è assente, questi codici rimangono vuoti :  ciò significa che tutti gli impegni di questa risorsa possono essere raggruppati in un batch (ad esempio in un processo di lavaggio tutti gli impegni possono essere raggruppati fino all limite del volume, caso che sarà trattato nel seguito nella compatibilità dinamica). Naturalmente è sempre possibile riempire i codici liberi 4 e 5 nell'exit generale di S5IRIS, ma in questo caso, oltre a rendere la compatibilità più nascosta, se il riempimento avviene in modo differenziato per le diverse classi batch, si dovranno introdurre comportamenti cablati in modo esplicito.
 Tecnicamente è la parte iniziale (fino al campo libero 5 compreso) del logico
@@ -51,11 +51,11 @@ Tecnicamente è la parte iniziale (fino al campo libero 5 compreso) del logico
 Individua gli impegni che compongono un batch. In sostanza è un sinonimo di quest'ultimo termine.
 Viene costruito (essenzialmente il codice dell'oggetto di raggruppamento) nella composizione del batch (automatica o manuale, come verrà esposto nel seguito).
 E' composto dai seguenti campi di S5IRIS
-\* Scenario (fisso \*\*)
-\* Tipo origine
-\* Tipo oggetto di raggruppamento (fisso "IR")
-\* Parametro oggetto di raggruppamento (fisso bianco)
-\* Codice oggetto di raggruppamento :  è l'IDOJ dell'impegno master (vedi sotto) del raggruppamento
+-  Scenario (fisso \*\*)
+-  Tipo origine
+-  Tipo oggetto di raggruppamento (fisso "IR")
+-  Parametro oggetto di raggruppamento (fisso bianco)
+-  Codice oggetto di raggruppamento :  è l'IDOJ dell'impegno master (vedi sotto) del raggruppamento
 Tecnicamente è la parte iniziale (fino al campo oggetto di raggruppamento compreso) del logico
  :  : DEC T(OJ) P(\*FILE) K(S5IRIS8L)
 

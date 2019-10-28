@@ -1,11 +1,11 @@
 ## Sviluppare Sme.Up
 - [Architettura programmazione Sme.UP](Sorgenti/DOC/TA/B£AMO/A£BASE_S0)
 - [Variabili di ambiente](Sorgenti/DOC/TA/B£AMO/A£BASE_SV)
-- [Utilizzo dell&-x27;RPGLE](Sorgenti/DOC/TA/B£AMO/A£BASE_S1)
+- [Utilizzo dell'RPGLE](Sorgenti/DOC/TA/B£AMO/A£BASE_S1)
 - [Funzioni del linguaggio ILE](Sorgenti/DOC/TA/B£AMO/A£BASE_S2)
-- [Convenzioni - Oggetti Sme.UP](Sorgenti/DOC/TA/B£AMO/A£BASE_SA)
-- [Lab. Sviluppo - Creazione nuovo](Sorgenti/DOC/TA/B£AMO/A£BASE_SE)
-- [Informazioni relative al sorgente di un programma](Sorgenti/DOC/TA/B£AMO/A£BASE_SB)
+- [Convenzioni di sviluppo](Sorgenti/DOC/TA/B£AMO/A£BASE_SA)
+- [Convenzioni laboratorio di sviluppo](Sorgenti/DOC/TA/B£AMO/A£BASE_SE)
+- [Un buon programma](Sorgenti/DOC/TA/B£AMO/A£BASE_SB)
 - [Struttura dei programmi](Sorgenti/DOC/TA/B£AMO/A£BASE_SC)
 - [Lavorare con i programmi](Sorgenti/DOC/TA/B£AMO/A£BASE_SD)
  :  : DEC T(MB) P(DOC) K(A£BASE_SL)
@@ -14,7 +14,7 @@
 - [Le News](Sorgenti/DOC/TA/B£AMO/A£BASE_SK)
 - [Creazione di una PTF](Sorgenti/DOC/TA/B£AMO/A£BASE_SP)
 - [PTF di Sme.up](Sorgenti/DOC/TA/B£AMO/B£GPTF)
-- [Lancio&-x2f;Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
+- [Lancio/Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
 - [I programmi di stampa](Sorgenti/DOC/TA/B£AMO/A£BASE_SN)
 - [Utilizzo dei Messaggi](Sorgenti/DOC/TA/B£AMO/A£BASE_SO)
 ## Convenzioni e tecniche
@@ -27,20 +27,20 @@
 - [Utilizzo tecniche OVL](Sorgenti/DOC/TA/B£AMO/A£BASE_01G)
 - [Trasferimento dati tra AS400](Sorgenti/DOC/TA/B£AMO/A£BASE_01H)
 - [Trigger](Sorgenti/DOC/TA/B£AMO/A£BASE_01L)
-- [Utilizzare l&-x27;SQL](Sorgenti/DOC/TA/B£AMO/A£BASE_01M)
+- [Utilizzare l'SQL](Sorgenti/DOC/TA/B£AMO/A£BASE_01M)
 - [Utilizzare le API](Sorgenti/DOC/TA/B£AMO/A£BASE_01N)
 - [Identificare i lavori](Sorgenti/DOC/TA/B£AMO/A£BASE_01O)
 - [Utilizzo printer files](Sorgenti/DOC/TA/B£AMO/A£BASE_01P)
 - [Utiliz.stampante locale su AS remoto](Sorgenti/DOC/TA/B£AMO/A£BASE_01Q)
 - [Connessioni a Reti VPN aziendali](Sorgenti/DOC/TA/B£AMO/A£BASE_01R)
 - [Client Access e Operation Navigator](Sorgenti/DOC/TA/B£AMO/A£BASE_01S)
-- [Trasferimento file da una libreria all&-x27;altra](Sorgenti/DOC/TA/B£AMO/A£BASE_01T)
+- [Trasferimento file da una libreria all'altra](Sorgenti/DOC/TA/B£AMO/A£BASE_01T)
 - [Controllo autenticazioni negate](Sorgenti/DOC/TA/B£AMO/A£BASE_01V)
 ## Ricompilazioni programmi compatibi su AS/400
 - [Convertitore programmi](Sorgenti/DOC/TA/B£AMO/LOCONV_01)
-- [Conversione a ILE (V2R1](Sorgenti/DOC/TA/B£AMO/B£R210_01)
+- [Conversione a ILE (V2R1)](Sorgenti/DOC/TA/B£AMO/B£R210_01)
 ### Formati video
-- [Limitazioni su convertitore](Sorgenti/DOC/TA/B£AMO/LOCONV_02)
+- [Conv. video - Descrizione del convertitore](Sorgenti/DOC/TA/B£AMO/LOCONV_02)
 - [Limitazioni su convertitore](Sorgenti/DOC/TA/B£AMO/LOCONV_026)
 - [Conv. video - Prerequisiti](Sorgenti/DOC/TA/B£AMO/LOCONV_021)
 - [Conv. video - Componenti grafici gestiti](Sorgenti/DOC/TA/B£AMO/LOCONV_022)
@@ -50,7 +50,7 @@
 ## Ambiente grafico Looc.UP
 - [Documentazione applicazione](Sorgenti/DOC/TA/B£AMO/LOBASE)
 ## Installazione Sme.Up/Looc.Up
-- [Installazione Sme.UP&-x2f;Looc.UP](Sorgenti/DOC/TA/B£AMO/A£BASE_INS)
+- [Installazione Sme.UP/Looc.UP](Sorgenti/DOC/TA/B£AMO/A£BASE_INS)
 - [IASP](Sorgenti/DOC/TA/B£AMO/A£BASE_IAS)
 ## Guida gestione progetti
 - [Premessa](Sorgenti/DOC/TA/B£AMO/A£BASE_P0A)

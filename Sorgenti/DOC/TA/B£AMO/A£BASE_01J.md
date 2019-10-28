@@ -1,12 +1,12 @@
 ## Modificare la struttura di un file Sme.UP
 Per modificare la struttura di un file è necessario seguire i seguenti passi : 
 
-\* Modificare il suo sorgente (presente nel source SRCDB).
-\* Segnare la modifica nel membro "documentativo" AAAFIL
-\* Adeguare e ricompilare tutti i programmi che usano quel file
-\* Scrivere un programma di conversione ove necessario
-\* Scrivere un'apposita PTF (anche a scopo documentativo)
-\* Scrivere un'apposita Nota Tecnica
+-  Modificare il suo sorgente (presente nel source SRCDB).
+-  Segnare la modifica nel membro "documentativo" AAAFIL
+-  Adeguare e ricompilare tutti i programmi che usano quel file
+-  Scrivere un programma di conversione ove necessario
+-  Scrivere un'apposita PTF (anche a scopo documentativo)
+-  Scrivere un'apposita Nota Tecnica
 
 Normalmente queste modifiche vengono fatte in fase di nuovo rilascio dell'applicativo per evitare complicazioni.
 

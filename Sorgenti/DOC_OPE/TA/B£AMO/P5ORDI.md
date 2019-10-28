@@ -4,4 +4,4 @@
 - [Valorizzazione Ordini Produzione](Sorgenti/OJ/PGM/P5OR90)
 - [Valorizzazione WIP](Sorgenti/OJ/PGM/P5OR95)
 - [Fasatura ordini](Sorgenti/OJ/PGM/P5FS01)
-- [Split dell&-x27;ordine di produzione](Sorgenti/OJ/PGM/P5OR07)
+- [Split dell'ordine di produzione](Sorgenti/OJ/PGM/P5OR07)

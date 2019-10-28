@@ -13,6 +13,10 @@ _&_ = _&_amp;
 < = _&_lt;
 > = _&_gt;
 
+## ALTRE CONVERSIONI SPECIFICHE
+Il secondo parametro delle RxSOS e RxSOC indica l'eventuale conversione specifica, se blank la conversione XML di cui sopra, gli altri valori possibili sono H=HTML, P=PIPE ("|" conversione in "_$_PIPE_$_") e Q=Quadre ("[" in "&-91;" e "]" in "&-93;").
+
+
 # PARAMETRI
 
 ## PARAMETRI DI INPUT
@@ -21,11 +25,11 @@ _&_ = _&_amp;
  :  : PAR
 1) RxATT   :  Estrae attributi tra due caratteri
    - Il cointenuto da estrarre deve essere compreso tra due caratteri :      un carattere di aperura ed uno di chiusura. Es. (   ) oppure '   '
-2) RxVAL   :  Estrae attributi tra " "
+2) RxVAL   :  Estrae il valore di un attributo da una stringa XML (tra " ")
 3) RxELE   :  Estrae il contenuto di un elemento richiesto
 4) RxATV   :  Lista attributi/valori di un TAG
-5) RxSOS   :  Sostituzione caratteri speciali
-6) RxSOC   :  Estrae il valore di un attributo da una stringa XML
+5) RxSOS   :  Sostituzione da caratteri speciali a entità XML (o altra conversione specifica)
+6) RxSOC   :  Sostituzione da entità XML a caratteri speciali (o altra conversione specifica)
 7) RxLATE  :  Sostituzione elementi all'interno di una stringa
 7) RxSPL   :  Split di una stringa su più righe con '|'
 

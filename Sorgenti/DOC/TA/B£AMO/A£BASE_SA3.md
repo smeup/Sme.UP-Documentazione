@@ -34,20 +34,20 @@ Le modifiche effettuate durante lo sviluppo vengono invece indicate nel membro S
 
 ## Il buon file
 I nuovi file Sme.UP dovrebbero avere tutti questi campi : 
-\* Dati statistici di inserimento
-\*\* Origine
-\*\* Data (di sistema)
-\*\* Ora (di sistema)
-\*\* Utente
-\* Dati statistici di ultima modifica
-\*\* Origine
-\*\* Data (di sistema)
-\*\* Ora (di sistema)
-\*\* Utente
-\* 10 Campi alfanumerici liberi
-\* 10 Campi numerici liberi
-\* 10 Campi per date se pertinenti (di tipo alfanumerico)
-\* 40 Campi flag
+-  Dati statistici di inserimento
+- \* Origine
+- \* Data (di sistema)
+- \* Ora (di sistema)
+- \* Utente
+-  Dati statistici di ultima modifica
+- \* Origine
+- \* Data (di sistema)
+- \* Ora (di sistema)
+- \* Utente
+-  10 Campi alfanumerici liberi
+-  10 Campi numerici liberi
+-  10 Campi per date se pertinenti (di tipo alfanumerico)
+-  40 Campi flag
 
 # Programmi
 I programmi riguardanti la gestione di un file vengono codificati nel seguente modo : 

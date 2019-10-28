@@ -1,14 +1,14 @@
 # Shortcut
 ## Generali
-\* F01 = Help
-\* F05 = Ricarica
-\* F11 = Richiesta dati (se presente)
-\* F13 = Filtri (se attivi)
-\* F18 = Configurazione (se presente)
-\* F12= Annulla
-\* F21 = Riga Comando
-\* F23 = Chiudi Loocup
-\* Alt+F9 = Scheda Utente
+-  F01 = Help
+-  F05 = Ricarica
+-  F11 = Richiesta dati (se presente)
+-  F13 = Filtri (se attivi)
+-  F18 = Configurazione (se presente)
+-  F12= Annulla
+-  F21 = Riga Comando
+-  F23 = Chiudi Loocup
+-  Alt+F9 = Scheda Utente
 
  :  : TAG Id="LOCEXD"
 ## Scheda

@@ -66,9 +66,9 @@ Per i conti di mastro su soggetti, se indicato permette di forzare il suo utiliz
  :  : FLD T$C5BX **Cambio Traduzione Valuta**
 Questo conto ha rilevanza solo qualora per l'ambiente, da tabella C57, sia prevista la gestione del bilancio in una valuta di traduzione.
 Nel qual caso attraverso questo è campo è possibile specificare un metodo di traduzione specifico per il conto, che fa eccezione rispetto al criterioni indicato nella tabella C57 (es. in tabella indico che sui patrimoniali applicao il cambio corrente, ma su un conto di patrimonio netto lascio il cambio storico). Valori possibili solo : 
-\* 1. Cambio corrente :  forza per il conto la traduzione del saldo al cambio corrente
-\* 2. Cambio storico :  forza per il conto l'utilizzo del saldo calcolato dalla somma dei singoli  movimenti calcolati al cambio della data dell'operazione (data documento o data registrazione)
-\* 3. Cambio medio :  forza per il conto la traduzione del saldo al cambio medio (attraverso il il tipo cambio indicato nella tabella C57).
+-  1. Cambio corrente :  forza per il conto la traduzione del saldo al cambio corrente
+-  2. Cambio storico :  forza per il conto l'utilizzo del saldo calcolato dalla somma dei singoli  movimenti calcolati al cambio della data dell'operazione (data documento o data registrazione)
+-  3. Cambio medio :  forza per il conto la traduzione del saldo al cambio medio (attraverso il il tipo cambio indicato nella tabella C57).
  :  : FLD T$C5BZ **Rilevanza provvigioni**
 Se attivo e se utilizzato in una registrazione di fattura fornitore, se l'intestatario risulta esse un agente, nel modulo provvigioni, la registrazione verrà presa in considerazione per il controllo di quadratura coge/provvigioni.
  :  : FLD T$C5B1 **Costo/Ricavo Bancario**

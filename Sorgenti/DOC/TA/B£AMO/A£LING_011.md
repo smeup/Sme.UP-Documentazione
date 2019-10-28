@@ -59,11 +59,11 @@ D) Creazione Oggetti
 Per prima cosa bisogna estrarre le frasi in italiano che occorre tradurre in modo tale che vadano a popolare il database A£TROR0F.
 Opportunamente preparate le exit e specificate nella tabelle A£1, è possibile estrarre tutte le frasi di una serie di oggetti tramite la voce di menù "Estrazione italiano"
 In questa modalità è possibile estrarre tutte le frasi relative ai seguenti tipi oggetto : 
-\* TAB= tabelle (elementi, settori, campi)
-\* MSG= File di messaggi
-\* DB= File di database (tranne le tabelle), (es. campi, OAV, ...)
-\* SRC= File Video, file stampa, programmi (DSPF, PRTF, PGM)
-\* SCP= Script
+-  TAB= tabelle (elementi, settori, campi)
+-  MSG= File di messaggi
+-  DB= File di database (tranne le tabelle), (es. campi, OAV, ...)
+-  SRC= File Video, file stampa, programmi (DSPF, PRTF, PGM)
+-  SCP= Script
 
 relativi ad un file di una libreria.
 

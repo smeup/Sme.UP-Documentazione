@@ -90,7 +90,7 @@ All'atto del ricevimento, per gli  articoli  a cui è  stata  assegnata la  _9_C
 
 La_9_Classe funzionale viene  assegnata ad un articolo o attraverso la sua >Classe articolo(Tabella CLS), oppure, se l'articolo non ha alcuna>Classe articolo, viene assunta la_9_Classe funzionaledi default_9_\*\*.
 
-Nella>Classe articolodi default ,>\*\*,è  stata  associata  la_9_Classe funzionale \*\*, per cui se si assegna agli articoli la>Classe articolo '\*\*', per ogni articolo non vengono creati lotti .
+Nella>Classe articolodi default ,>\*\*,è  stata  associata  la_9_Classe funzionale - \*, per cui se si assegna agli articoli la>Classe articolo '\*\*', per ogni articolo non vengono creati lotti .
  :  : DEC T(TA) P(CLS) K(\*\*) I(CLASSE ARTICOLO >>)
 
 La tabella  che  sovrintende al_3_movimento dei materialirelativamente alla Gestione qualità è la CRP : 

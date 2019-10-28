@@ -15,7 +15,7 @@ Path accessibili da remoto :  qui vanno raccolti tutti i path a cui gli utenti d
 xxC.VAR Cod="PROVIDER_PATHS" Txt="Path accettati dal server remoto" Value="\\srv001.smeup.com\Comuni Gruppo\;\\srv001.smeup.com\azienda1\;\\srv001.smeup.com\azienda2\;\\srv001.smeup.com\azienda3\;[\*APPDATA];[\*TMP];\\srv002\QUECOM\Commerciale\Clienti;[IMG.STD]"
 Questa configurazione consente agli utenti l'accesso alle seguenti cartelle : 
  \* \\srv001.smeup.com\Comuni Gruppo\
-\* \\srv001.smeup.com\azienda1\
+-  \\srv001.smeup.com\azienda1\
  \* \\srv001.smeup.com\azienda2\
  \* \\srv001.smeup.com\azienda3\
  \* [\*APPDATA]

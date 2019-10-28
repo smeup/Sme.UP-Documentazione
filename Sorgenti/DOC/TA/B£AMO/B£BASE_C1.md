@@ -11,7 +11,7 @@ La struttura del controller è suddivisa in 3 livelli :
 A questo livello sono controllate le informazioni di base dell'oggetto selezionato. Attraverso la tipizzazione dei campi, descritta sul database, viene verificata la consistenza del dato segnalando l'incosistenza qualora la stessa non fosse più valida.
 ### Livello 2
 A questo livello vengono estesi i controlli di obbligatorietà dei campi. Per abilitare questa proprietà bisogna costruire l'exit di validazione con il seguente costrutto : 
-\* nome del database seguito dalla costante '_N'
+-  nome del database seguito dalla costante '_N'
 ### Livello 3
 A questo livello vengono estesi i controlli anche alle specificità del cliente. Per abilitare questa proprietà bisogna aver abilitato il livello 2, il richiamo alla specificità deve risiedere nella stessa exit del livello 2.
 Si fa notare che nella exit non deve essere presente l'apertura di un video, pena il malfunzionamento del controllore.

@@ -10,9 +10,9 @@ Descriveremo di seguito le funzioni nell'ordine del processo suggerito (creazion
 L'attività utilizza la funzione "Ambienti Applicativi (B£B)" che permette di definire la lista librerie utilizzata da un ambiente, l'impostazione è la stessa utilizzata in precedenza con la tabella B£B (si possono inserire sia librerie che gruppi di librerie, questi ultimi caratterizzati dal prefisso \*\*, anche i gruppi di librerie vengono gestiti con questa stessa funzione) : 
 ![B£UT55_10](http://localhost:3000/immagini/MBDOC_OGG-P_B£UT55/BXUT55_10.png)F6 per inserire un nuovo ambiente, per la gestione di un ambiente esistente sono valide le opzioni consuete (02 = Modifica, 03 = Copia, ....) : 
 ![B£UT55_11](http://localhost:3000/immagini/MBDOC_OGG-P_B£UT55/BXUT55_11.png)**Nota**; Nella gestione ambienti, oltre alla lista delle librerie e gruppi sono presenti anche 2 campi ulteriori : 
-\* __Localizzazione__, in questo campo può essere inserito un elemento della tab. A£B dove sono presenti le impostazioni di localizzazione (lingua, separatori decimali, formato data; ...)
-\* __Encoding__, qui possono essere impostati i parametri di codifica dei dati negli archivi
-\* __Colore__, qui è possibile indicare il colore di base che dovrà avere Looc.UP in questo ambiente (il colore va indicato nella forma RxxxGyyyBzzz).
+-  __Localizzazione__, in questo campo può essere inserito un elemento della tab. A£B dove sono presenti le impostazioni di localizzazione (lingua, separatori decimali, formato data; ...)
+-  __Encoding__, qui possono essere impostati i parametri di codifica dei dati negli archivi
+-  __Colore__, qui è possibile indicare il colore di base che dovrà avere Looc.UP in questo ambiente (il colore va indicato nella forma RxxxGyyyBzzz).
 
 ## Defninizione gruppi di accesso
 I gruppi di accesso vengono usati per attribuire ad un insieme di utenti gli stessi ambienti con le stesse modalità. I gruppi di accesso non vanno confusi con i gruppi utente che invece servono, all'interno di un ambiente, per assegnare a più utenti autorizzazioni comuni.
@@ -77,9 +77,9 @@ L'inserimento in lista è assicurato dal sistema operativo, però in questo modo
 Per avere un'installazione meno invasiva (per quanto riguarda la SMESYS) è possibile utilizzare la gestione speciale.
 Con questa scelta il sistema richiede quali siano le librerie di sistema Sme.UP. I programmi di inizializzazione di Sme.UP si preoccupano poi di metterle in linea.
 Questa è un'installazione meno invasiva. E' però necessario utilizzare alcune accortezze.
-\* Tutte le JOBD utilizzate da job Sme.UP devono contenere la libreria di sistema
-\* I lavori schedulati devono tassativamente essere eseguiti con impostazione "schedulazione Sme.UP" (che incapsula il comando effettivamente schedulato nel comando B£QQ01).
-\* Tutti i SBMJOB devono essere eseguiti con il comando B£QQ01 oppure vanno incapsulati nel comando B£QQ02.
+-  Tutte le JOBD utilizzate da job Sme.UP devono contenere la libreria di sistema
+-  I lavori schedulati devono tassativamente essere eseguiti con impostazione "schedulazione Sme.UP" (che incapsula il comando effettivamente schedulato nel comando B£QQ01).
+-  Tutti i SBMJOB devono essere eseguiti con il comando B£QQ01 oppure vanno incapsulati nel comando B£QQ02.
 Tecnicamente l'informazione di quali siano le librerie da mettere in linea viene salvata in una variabile di ambiente (SMESYSLIBL) con visibilità di sistema.
 
 In caso di necessità è anche possibile utilizzare una gestione mista :  alcune librerie possono essere messe in QSYSLIBL (gestione normale) e altre in SMESYSLIBL (gestione speciale).

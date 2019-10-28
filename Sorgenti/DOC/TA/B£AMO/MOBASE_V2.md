@@ -1,7 +1,7 @@
 # Sme.App V 2.00  (marzo 2013)
 Sme.App è un esempio di applicazione mobile che  : 
-\* contribuisce a rafforzare il Brand Sme.UP dando la percezione concreta di essere al passo con l'innovazione tecnologica;
-\* fornisce una dashboard con informazioni relative all'andamento aziendale.
+-  contribuisce a rafforzare il Brand Sme.UP dando la percezione concreta di essere al passo con l'innovazione tecnologica;
+-  fornisce una dashboard con informazioni relative all'andamento aziendale.
 Le informazioni di riferimento sono ricavate da : 
 -  moduli applicativi Sme.UP
 - **"Impresa Virtuale"** (applicazione web con cui i clienti avranno accesso a documenti, informazioni commerciali ed amministrative).
@@ -57,29 +57,29 @@ DI seguito un esempio di come abbiamo lavorato per produrre l'analisi dello scad
 
 ## scaduto
 
-\* anzianità scaduto
-\* F(EXB;LOA15_SE;LIS.PAR) 1(;;PR.04.01) 2(;;04) P(PAR2(1)) INPUT()
+-  anzianità scaduto
+-  F(EXB;LOA15_SE;LIS.PAR) 1(;;PR.04.01) 2(;;04) P(PAR2(1)) INPUT()
 
 ![004](http://localhost:3000/immagini/MOBASE_V2/004.png)
-\* dimensioni dello scaduto
-\* F(TRE;LOA15_SE;LIS.DIM) 1(;;PR.04.01) 2(;;) INPUT()
+-  dimensioni dello scaduto
+-  F(TRE;LOA15_SE;LIS.DIM) 1(;;PR.04.01) 2(;;) INPUT()
 ![005](http://localhost:3000/immagini/MOBASE_V2/005.png)
-\* scaduto per agente
-\* F(EXB;LOA15_SE;LIS.PAR) 1(;;PR.04.01) 2(;;03) P(ParRic(1)) INPUT(WHR(BTCD04 = '020'))
+-  scaduto per agente
+-  F(EXB;LOA15_SE;LIS.PAR) 1(;;PR.04.01) 2(;;03) P(ParRic(1)) INPUT(WHR(BTCD04 = '020'))
 ![006](http://localhost:3000/immagini/MOBASE_V2/006.png)
 ## NOTA BENE
 Alla domanda del cliente che chiede l'utilizzo della app. con i dati del proprio gestionale dobbiamo rispondere che è necessario fare nascere un progetto.
 
 ## Il progetto prevede almeno le seguenti attività : 
 
-\* analisi dei dati da presentare nell'applicazione;
-\* selezione delle funzioni Sme.UP e definizione delle implementazioni;
-\* definizione della sequenza di navigazione;
-\* definizione dell'infrastruttura;
-\* realizzazione dell'applicazione in ambiente Looc.up;
-\* configurazione del server;
-\* test e collaudo;
-\* rilascio;
+-  analisi dei dati da presentare nell'applicazione;
+-  selezione delle funzioni Sme.UP e definizione delle implementazioni;
+-  definizione della sequenza di navigazione;
+-  definizione dell'infrastruttura;
+-  realizzazione dell'applicazione in ambiente Looc.up;
+-  configurazione del server;
+-  test e collaudo;
+-  rilascio;
 
 
 Queste attività sono le medesime che abbiamo sviluppato al nostro interno per quanto detto in precedenza.

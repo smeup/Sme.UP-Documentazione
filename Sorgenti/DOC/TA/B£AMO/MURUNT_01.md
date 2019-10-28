@@ -5,9 +5,9 @@ Con applicazione intendiamo un aggregato di componenti, moduli e servizi softwar
 # File configurazione Application.xmi
 
 Caratteristiche di un applicazione sono : 
-\* Nome :  Nome dell'applicazione, applicazioni con lo stesso nome costituiscono un cluster
-\* Text :  Descrizione dell'applicazione
-\* Port :  All'interno di un cluster indirizzamento logico di un nodo
+-  Nome :  Nome dell'applicazione, applicazioni con lo stesso nome costituiscono un cluster
+-  Text :  Descrizione dell'applicazione
+-  Port :  All'interno di un cluster indirizzamento logico di un nodo
 
 A un'applicazione possono essre collegati servizi di tipo 'hook' per gestirne il ciclo di vita
 (vedi servizi di tipo hook), ad esempio per attivare disattivare funzionalità di sistema quali

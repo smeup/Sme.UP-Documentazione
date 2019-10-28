@@ -78,6 +78,6 @@ Sono possibili le seguenti funzioni :
 
 
 **Nota 1**; in alternativa alla attribuzione esplicita, utilizzando questa funzione, di nazione e holding di appartenenza a ciascun cliente possiamo utilizzare gli attributi oggetto esistenti per il cliente : 
-\* nell'elemento di tabella C£S di cui sopra si compila il campo "Attributi oggetto" con il sottosettore della tabella C£Z dove andremo a definire quali sono questi attributi (es. CL)
-\* nella tabella C£Z sottosettore CL inseriamo n. elementi, uno per ciascun attributo del cliente che vogliamo usare  e nell'elemento specifichiamo del campo "Codice attributo" l'attributo stesso (es.  I/15 per la nazione e U/HOLD per l'holding di appartenenza)
-\* riferirsi alla documentazione delle tabelle C£S e C£Z
+-  nell'elemento di tabella C£S di cui sopra si compila il campo "Attributi oggetto" con il sottosettore della tabella C£Z dove andremo a definire quali sono questi attributi (es. CL)
+-  nella tabella C£Z sottosettore CL inseriamo n. elementi, uno per ciascun attributo del cliente che vogliamo usare  e nell'elemento specifichiamo del campo "Codice attributo" l'attributo stesso (es.  I/15 per la nazione e U/HOLD per l'holding di appartenenza)
+-  riferirsi alla documentazione delle tabelle C£S e C£Z

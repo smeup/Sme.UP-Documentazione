@@ -18,17 +18,17 @@ Di seguito un video che illustra l'installazione
 ![LOCBAS_049](http://localhost:3000/immagini/LOCBAS_SPI/LOCBAS_049.png)
 I passi minimi per cominciare sono i seguenti : 
 
-\* Installare Sme.UP Provider
-\* Creare/Scegliere un utente AS400 Dedicato
-\* Creare il membro SCP_CLO/<Nome dell'utente scelto> nella libreria delle personalizzazioni del cliente (chiedere al responsabile applicativo), copiando SMEDEV/SCP_CLO/SMEUPPR_ES
-\* Avviare Sme.UP Provider
-\* Eseguire i test di primo avvio (vedi paragrafo "Passi per la prima esecuzione" per verificare che tutto sia stato fatto correttamente)
+-  Installare Sme.UP Provider
+-  Creare/Scegliere un utente AS400 Dedicato
+-  Creare il membro SCP_CLO/<Nome dell'utente scelto> nella libreria delle personalizzazioni del cliente (chiedere al responsabile applicativo), copiando SMEDEV/SCP_CLO/SMEUPPR_ES
+-  Avviare Sme.UP Provider
+-  Eseguire i test di primo avvio (vedi paragrafo "Passi per la prima esecuzione" per verificare che tutto sia stato fatto correttamente)
 
 
 ## Requisiti minimi di sistema
 
  \* Server Windows __con sistema operativo supportato da Microsoft__, adeguatamente dimensionato in funzione del carico.
-\*\* Non sono supportati WIndows XP, Windows Server 2003 e tutti i precedenti
+- \* Non sono supportati WIndows XP, Windows Server 2003 e tutti i precedenti
  \* Adeguata infrastruttura di rete per poter rendere accessibile su internet/intranet la porta HTTP/HTTPS
  \* Un utente Windows dedicato
  \* Un utente AS400 dedicato
@@ -178,8 +178,8 @@ Il file wrapper.conf è stato riorganizzato per rendere più agevole gestire la 
 **N.B.** :  I vecchi file wrapper.conf **CONTINUANO A FUNZIONARE CORRETTAMENTE**
 
 La gestione delle variabili di configurazione è stata divisa in due parti : 
-\* la parte di dichiarazione delle variabili
-\* la parte di utilizzo delle variabili
+-  la parte di dichiarazione delle variabili
+-  la parte di utilizzo delle variabili
 
 All'inizio del file è presente l'elenco delle variabili gestite
 **Parametri di avvio OBBLIGATORI**
@@ -310,34 +310,54 @@ Per motivi di sicurezza, ai seguenti utenti il login dal provider è sempre impe
 
 **PROVIDER_HASH_KEY**  Chiave usata dal server per calcolare il checksum dei parametri. E' un valore alfanumerico libero, di almento 32 caratteri.
 
+
+**\*SFunction** -  E' la funzione di avvio dell'utente server. Si consiglia di valorizzarla con  F(EXD;\*SCO;) 2(MB;SCP_SCH;LO_SRV_BC) P(LOMODE(LOSER))
+
+
+### Pubblicazione di Webservice e funzionamento in HTTPS - ambiente di produzione
+Il provider è in grado di funzionare in https e viene distribuito anche un keystore che contiene un vertificato self signed, quindi valido solo per eseguire test.
+
+Nel caso in cui si voglia pubblicare un provider, esponendo ad esempio un webservice su https, si consiglia di utilizzare un reverse proxy es. "apache" oppure con "nginx".
+Vantaggi : 
+- installazione certificato più semplice
+- riutilizzabile per più server web interni (ad esempio uno per test e uno per produzione)
+
+Requisiti
+piccolo server su cui installare il reverse proxy (si consiglia una macchina virtuale linux in dmz).
+
+Inoltre il reverse proxy in dmz aumenta di molto la sicurezza :  verso l'interno viene aperta solamente la porta di comunicazione con il provider, mentre se si mette il provider in dmz, è necessario aprire verso l'interno tutte le porte necessarie alla comunicazione con l'AS400, esponendo anche questo ad attacchi dall'esterno.
+
+Nel caso in cui il provider venisse messo in DMZ, non sarebbe possibile accedere ai server in lan, o ne aumenterebbe la vulnerabilità.
+
+
+### Pubblicazione di Webservice e funzionamento in HTTPS - ambiente di test
+Far funzionare il provider in https è possibile, ma si sconsiglia la sua pubblicazione.
+Pubblicare un provider può avere senso solamente per un periodo molto limitato o in una fase di test.
+**In produzione risulta una soluzione molto pericolosa, in quanto fonte di vulnerabilità.**
+
+Per fini di test viene distribuito un keystore contenente un certificato self digned (quindi non valido)
+Si trova nella cartella di installazione di Looc.UP sottocartella LOOCUP_SET\SPR\SSL, contentuto nel file providertest.jks.
+
+Questo certificato NON è valido :  se ad esempio si prova ad accedere con un browser sarà necessario acquisirlo manualmente.
+E' possibile farsi rilasciare un certificato valido, da apposite società (ad es. www.trustitalia.it).
+
+Affinchè il certificato rilasciato possa essere utilizzato dal provider è necessario registrarlo nel Keystore della macchina su cui gira il provider.
+
+Il certificato va aggiunto al keystore.
+
+Per la creazione del keystore e la registrazione del certificato, in ambiente Windows, si può utilizzare keytool.exe (si trova nella cartella di installazione di Java, oppure nella cartella di installazione del provider in jre\bin).
+
+Per l'utilizzo di Keytool e/o la gestione dei certificati fare riferimento alla documentazione disponibile online.
+
+Il nuovo keystore andrà posizionato sempre nella cartella  LOOCUP_SET\SPR\SSL.
+
+Specificare nelle variabili
+
 **PROVIDER_CERT_NAME** Il nome del certificato (se https - vedere paragrafo "Gestione Certificati"). Il certificato providertest distribuito da Sme.UP è SOLO AI FINI DI TEST
 
 **PROVIDER_KEYSTORE_PWD** la password del keystore  (se https - vedere paragrafo "Gestione Certificati"). Il certificato providertest distribuito da Sme.UP è SOLO AI FINI DI TEST
 
 **PROVIDER_KEYMANAGER_PWD**  la password del key manager  (se https - vedere paragrafo "Gestione Certificati"). Il certificato providertest distribuito da Sme.UP è SOLO AI FINI DI TEST
-
-**\*SFunction** -  E' la funzione di avvio dell'utente server. Si consiglia di valorizzarla con  F(EXD;\*SCO;) 2(MB;SCP_SCH;LO_SRV_BC) P(LOMODE(LOSER))
-
-
-### La gestione dei certificati
-
-Con il provider viene distribuito il certificato providertest.
-Si trova nella cartella di installazione di Looc.UP sottocartella LOOCUP_SET\SPR\SSL
-
-Questo certificato NON è valido :  se ad esempio si prova ad accedere con un browser sarà necessario acquisirlo manualmente.
-E' possibile farsi rilasciare un certificato valido, da apposite società (ad es. www.trustitalia.it).
-
-Affinchè il certificato rilasciato (o autoprodotto) possa essere utilizzato dal provider è necessario registrarlo nel Keystore della macchina su cui gira il provider.
-
-Per registrare il certificato visionare la documentazione al link seguente : 
-NOTA :  Se JAVA non risulta presente, non è necessario installarla :  i comandi per gestire i certificati sono nella cartella di installazione di **Loocup\jre\bin**
- :  : DEC T(J1) P(URL) [https://knowledge.verisign.com/support/code-signing-support/index?page=content&id=AR185&actp=LIST+
-](https://knowledge.verisign.com/support/code-signing-support/index?page=content&id=AR185&actp=LIST+
-)
-&viewlocale=en_US) D(Documentazione di versign) I(Documentazione di versign) L(1)
-
-Il nuovo certificato andrà posizionato sempre nella cartella  LOOCUP_SET\SPR\SSL.
-Specificare nelle variabili
 
 ### La configurazione del provider come fornitore di file (oggetti J8 e J9)
 Se il provider funge anche da fornitore di file ( documenti, pdf, immagini ecc), e' necessario configurare la variabile **PROVIDER_PATHS**.

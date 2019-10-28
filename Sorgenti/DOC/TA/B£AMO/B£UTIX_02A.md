@@ -17,7 +17,7 @@ Le operazioni con una data di effettuazione inferiore alla data di introduzione 
  Se ciò non è possibile, i documenti dovranno essere modificati manualmente in modo che, ove richiesto, riportino l'assoggettamento al 22 prima che vengano stampati e/o contabilizzati.
 
 # I Dati sensibili da adeguare nello standard
-\* Introduzione nella tabella degli assoggettamenti IVA dei codici al 22%.
+-  Introduzione nella tabella degli assoggettamenti IVA dei codici al 22%.
  E' obbligatorio il mantenimento degli assoggettamenti al 21%. Si consiglia inoltre di predisporre una tabella della corrispondenza fra vecchi e nuovi codici. Per chi intende seguire la procedura SMEUP di adeguamento (citata nel seguito) dovrà inserire questa informazione negli Alias.
 
  \* Aggiornamento di tutti i dati da cui viene derivato l'assoggettamento iva nella registrazione dei

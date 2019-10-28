@@ -5,10 +5,10 @@ Obiettivo di questa scheda è analizzare e gestire le fideiussioni aperte dall'a
 
 ## Dettaglio informazioni
 All'interno della scheda sono disponibili le sezioni : 
-\* Aperte :  riporta il dettaglio delle fideiussioni con stato _Aperto_. Le fideiussioni aperte possono essere : 
-\*\* Scadute se la data di lancio della scheda è successiva alla data di fine fideiussione. In questo caso sarà possibile entrare in modifica della fideiussione e impostare il livello 8 - Chiuso
-\*\* A scadere se la data di lancio della scheda è precedente alla data di fine fideiussione o se quest'ultima non è compilata
-\* Tutte :  riporta il dettaglio di tutte le fideiussioni. In questa sezione sarà necessario indicare una data inizio/fine che filtrerà le fideiussioni visualizzate in base alla data inizio della fideiussione.
+-  Aperte :  riporta il dettaglio delle fideiussioni con stato _Aperto_. Le fideiussioni aperte possono essere : 
+- \* Scadute se la data di lancio della scheda è successiva alla data di fine fideiussione. In questo caso sarà possibile entrare in modifica della fideiussione e impostare il livello 8 - Chiuso
+- \* A scadere se la data di lancio della scheda è precedente alla data di fine fideiussione o se quest'ultima non è compilata
+-  Tutte :  riporta il dettaglio di tutte le fideiussioni. In questa sezione sarà necessario indicare una data inizio/fine che filtrerà le fideiussioni visualizzate in base alla data inizio della fideiussione.
 
 ## Opzioni
 

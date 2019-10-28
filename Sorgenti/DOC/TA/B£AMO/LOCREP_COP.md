@@ -34,10 +34,10 @@ T01(Titolo uno) T02(Titolo due) T03(Titolo tre) T04(Titolo quattro) Img(Percorso
 A titolo esemplificativo riportiamo la procedura per la personalizzazione di uno dei loghi del report : 
 
 Per variare la copertina o loghi : 
-\* verificare se nella PER c'è già uno script in SCP_SET che si chiama K09_PER, se non c'è copiare quello della SMEDEV (e svuotarlo)
-\* in questo script metti queste specifiche : 
-\*\* K09.SEZ Ogg="VOCOD_SEL"
-\*\* K09.PIG Pth="percorso completo del file eventualmente comprensivo di variabili &"
-\* riavvia loocup
-\* da menù in alto UP Rosso, strumenti, cache, svuota cache client
-\* come sopra svuota cache immagini
+-  verificare se nella PER c'è già uno script in SCP_SET che si chiama K09_PER, se non c'è copiare quello della SMEDEV (e svuotarlo)
+-  in questo script metti queste specifiche : 
+- \* K09.SEZ Ogg="VOCOD_SEL"
+- \* K09.PIG Pth="percorso completo del file eventualmente comprensivo di variabili &"
+-  riavvia loocup
+-  da menù in alto UP Rosso, strumenti, cache, svuota cache client
+-  come sopra svuota cache immagini

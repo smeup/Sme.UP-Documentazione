@@ -2,4 +2,4 @@
  :  : DEC T(MB) P(DOC) K([TA.B£AMO.PH.PHBASE]) I(_7_Modulo di FIEL.up    >>)
 
 # Altra documentazione
-- [Collegamento con Provider&-x3a; controllo accessi](Sorgenti/DOC/TA/B£AMO/PROVI_01)
+- [Collegamento con Provider :  controllo accessi](Sorgenti/DOC/TA/B£AMO/PROVI_01)

@@ -18,8 +18,8 @@
 £IE4FI :  File   messaggio ritorno (10)
 £IE4CM :  Ultimo Comando
 £IE4RO :  N.ro record di output
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 C5TREG :  DS valorizzata
 
 # Prerequisiti

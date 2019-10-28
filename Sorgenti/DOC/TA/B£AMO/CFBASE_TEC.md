@@ -1,4 +1,5 @@
-## Caratteristiche tecniche fondamentali
+# Caratteristiche tecniche fondamentali
+
 Dopo aver presentato a grandi linee le funzionalità di Build.up ci possiamo addentrare più a fondo nella comprensione dei meccanismi di funzionamento di questo programma.
 
 Prima di affrontare la questione della creazione di un configuratore è necessario capire la struttura base di questo componente e quali sono gli oggetti principali che lo compongono. La Figura 2 riassume graficamente lo schema costruttivo di un configuratore generico.
@@ -23,7 +24,7 @@ Si possono individuare nel configuratore cinque elementi fondamentali :
 | 
 
 
-### La Struttura Estesa
+## La Struttura Estesa
 Nella figura 3 trovate la struttura estesa del questionario : 
 
 ![CFBASE_025](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_025.png)Figura 3 :  La struttura del questionario estesa.
@@ -45,7 +46,7 @@ Un questionario può inoltre essere definito all'interno di script, rendendo pi�
 
 La nuova struttura impone un vincolo sul formato e sul luogo delle risposte raccolte :  venendo menol'assunto che il codice di una domanda sia univoco all'interno di un questionario si ha che le risposte descrivono un albero che segue la struttura del questionario. Le risposte risulteranno così suddivise per sezione.
 
-## Le Domande
+# Le Domande
 Le domande all'interno del configuratore sono oggetti applicativi. Il loro inserimento quindi consiste nella compilazione di un questionario. Ogni domanda, infatti, possiede degli attributi e la creazione di una domanda implica la configurazione della domanda stessa. Le domande, dopo essere state configurate sono salvate su AS400.
 
 Oltre alle domande "tradizionali", alle quali l'utente deve dare solo una risposta, Build.up implementa un altro tipo di definizione domande :  le domande configurate. Se un utente ha bisogno di ordinare un prodotto deve sicuramente poter specificare il nome del modello; è possibile però che abbia la necessità di specificare una quantità, scegliere una tipologia di sconto o inserire la data entro il quale vuole che il prodotto sia consegnato. Invece di fare quattro domande diverse, come dovrebbe fare se avesse a disposizione solo le domande "tradizionali", può avvalersidelle domande configurate; esse consentono di chiedere informazioni legate al prodotto che si vuole configurare su una sola riga, memorizzando una sola domanda su AS400 anche se in realtà le domande sono di più.
@@ -135,7 +136,7 @@ Si può scegliere una delle seguenti opzioni :
 
 Tabella 3 :  Valori campo Parametro Presentazione
 
-## Le Sezioni
+# Le Sezioni
 Un questionario è diviso in sezioni che contengono domande; solitamente le sezioni raggruppano domande di significato omogeneo, anche se all'utente è lasciata completa libertà di scelta. Le sezioni sono memorizzate in un settore di tabella dell'AS400 chiamata CFS.
 
 Le domande possono essere associate alle sezioni in vari modi (descritti in seguito). Esse possonoessere viste come dei contenitori di domande. Quali tipi di domande debbano contenere è deciso al momento della configurazione delle sezioni. Essendo a loro volta degli oggetti, infatti, quandovengono create, le sezioni devono essere configurate; perciò, la creazione di una sezione è ancora la compilazione di un questionario.
@@ -177,7 +178,7 @@ _2_Tipo ripetizione e Numero o Domanda :  specifica come la sezione è ripetibil
 
 _2_Questionario legato :  è il codice del questionario da cui verranno estratte le sezioni.
 
-## Il Questionario
+# Il Questionario
 Dopo aver creato le domande e le sezioni non resta che configurare un questionario che le contenga. Le sezioni possono essere associate al questionario in modi differenti (descritti in seguito). Il questionario può essere considerato un raccoglitore di sezioni, che a loro volta, come detto prima, sono dei raccoglitori di domande.
 
 Anche il questionario, come le domande e le sezioni, è un oggetto applicativo e per essere definito deve essere configurato. I questionari sono salvati su AS400 all'interno di un settore di tabella chiamato CFQ.
@@ -272,7 +273,7 @@ _2_Motore Regole :  Mantenuto per compatibilità con le versioni precedenti alla
 ![CFBASE_041](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_041.png)Figura 7b - L'ordine di esecuzione delle regole quando viene fornita una risposta
 
 
-## Il linguaggio delle Regole
+# Il linguaggio delle Regole
 Questo linguaggio di regole non è case sensitive e non fa quindi differenza tra lettere minuscole e lettere maiuscole (quindi la funzione AddVal è la stessa sia se invocata come "ADDVAL" che come "addval"). Inoltre non è posizionale e non tiene conto degli eventuali spazi bianchi compresi nelle chiamate alle procedure
 
 Tutte le regole sono espresse utilizzando i seguenti costrutti : 
@@ -295,7 +296,7 @@ Le parentesi quadre prima dell'istuzione ALLORA non fanno parte della sintassi. 
 
 Le lettere "E" e "O" sono utilizzate per indicare due operatori booleani And e Or.
 
-## La condizione booleana
+# La condizione booleana
 La condizione booleana ha la seguente forma : 
 
 (**condizione booleana** )
@@ -350,10 +351,10 @@ _2_Espressione :  è una struttura del tipo operando1 operatore operando2. Opera
 
 Range è definito come 'VALORE1'..'VALORE2'
 
-## Le Funzioni
+# Le Funzioni
 Le funzioni che questo linguaggio delle regole può implementare sono le seguenti : 
 
-### Le funzioni sui valori e di filtro
+## Le funzioni sui valori e di filtro
 
 - _2_AddVal (cod_domanda; valore (o range)) :  aggiungo un valore o un gruppo di valori alla domanda selezionata.
 - _2_RmvVal (cod_domanda; valore) :  rimuovo un valore o un gruppo di valori alla domanda selezionata.
@@ -364,7 +365,7 @@ Le funzioni che questo linguaggio delle regole può implementare sono le seguent
 - _2_ResetFiltro(cod_domanda) :  annullo il filtro
 
 
-### Le funzioni sui messaggi
+## Le funzioni sui messaggi
 
 - _2_AddMsgT(testo) emette un messaggio bloccante :  la compilazione si arresta.
 - _2_AddMsgW(testo) emette un messaggio di avviso.
@@ -372,39 +373,51 @@ Le funzioni che questo linguaggio delle regole può implementare sono le seguent
 - _2_ClrMsg ( ) rimuove tutti i messaggi della sezione alla quale la regola appartiene.
 
 
-### Le funzioni matematiche
+## Le funzioni matematiche
 Operano tutte su parametri numerici.
 
-- _2_abs(VAR) Restituisce il valore assoluto di VAR.
-- _2_acos(VAR) Restituisce l'arcocoseno dell'angolo VAR in radianti da 0 a PI
-- _2_asin(VAR) Restituisce l'arco seno dell'angolo VAR da -PI/2 a PI/2
-- _2_atan(VAR) Restituisce l'arco tangente dell'angolo VAR da -PI/2 a PI/2
-- _2_ceil(VAR) Approssima VAR all'intero successivo. Es. Ceil('12.23') = 13.
-- _2_cos(VAR)  Restituisce il coseno di VAR.
-- _2_exp(VAR)  Restituisce il numero di Eulero elevato alla potenza di VAR.
-- _2_floor(VAR) Approssima VAR all'intero precedente. Es. Flor('12,77') = 12.
-- _2_log(VAR) Restituisce il logaritmop naturale di VAR.
-- _2_max(VAR_A, VAR_B) Restituisce massimo tra i due valori
-- _2_min(VAR, VAR_B) Restituisce il minimo tra i due valori.
-- _2_pow(VAR, VAR_B) Eleva VAR alla potenza di VAR_B
+- _2_abs(espressione) Restituisce il valore assoluto di espressione.
+- _2_acos(espressione) Restituisce l'arcocoseno dell'angolo espressione in radianti da 0 a PI
+- _2_asin(espressione) Restituisce l'arco seno dell'angolo espressione da -PI/2 a PI/2
+- _2_atan(espressione) Restituisce l'arco tangente dell'angolo espressione da -PI/2 a PI/2
+- _2_ceil(espressione) Approssima espressione all'intero successivo. Es. Ceil('12.23') = 13.
+- _2_cos(espressione)  Restituisce il coseno di espressione.
+- _2_exp(espressione)  Restituisce il numero di Eulero elevato alla potenza di espressione.
+- _2_floor(espressione) Approssima espressione all'intero precedente. Es. Flor('12,77') = 12.
+- _2_log(espressione) Restituisce il logaritmop naturale di espressione.
+- _2_max(espressione_A, espressione_B) Restituisce massimo tra i due valori
+- _2_min(espressione, espressione_B) Restituisce il minimo tra i due valori.
+- _2_pow(espressione, espressione_B) Eleva espressione alla potenza di espressione_B
 - _2_random() Genera un numero casuale compreso tra 0 e 1
-- _2_sin(VAR) Restituisce seno di VAR
-- _2_sqrt(VAR) Restituisce la radice quadrata di VAR
-- _2_tan(VAR) Restituisce la tangente di VAR
+- _2_round(espressione) Approssima espressione all'intero più vicino. Es. Round('12.23') = 12. Round('12.5') = 13.
+- _2_sin(espressione) Restituisce seno di espressione
+- _2_sqrt(espressione) Restituisce la radice quadrata di espressione
+- _2_tan(espressione) Restituisce la tangente di espressione
 - _2_toDegrees(angRad) Converte un angolo espresso in gradi in radianti
 - _2_toRadians(angDeg) Converte un angolo espresso in radianti in gradi.
 
 
-### Le funzioni sulle stringhe o di conversione
+## Le funzioni sulle stringhe o di conversione
 
 - _2_concat(String a, String b) restituisce la stringa formata dal concatenamento di a e b
 - _2_substring(String A, Number B, Number C) restituisce la sottostringa di A che inizia dall'indice B e termina all'indice C escluso :  esempio substring('ABCDEF',0,3) = ABC; substring('ABCDEF',2,3) = C
 - _2_substringFrom(String A, Number B) restituisce la sottostringa di A che inizia dall'indice B e va fino alla fine. Esempio substringFrom('ABCDE';2)=CDE
 - _2_number2string(a[,b,c]) converte il numero a  in una stringa. Esempio number2string('12345.6789') restituisce '123456.6789'. Se vengono specificati anche i parametri b e c allora il numero viene convertito in una stringa lunga b con c decimali, senza uso della virgola come separatore dei decimali. Esempio number2string('12345.6789'; '7', '2') restituisce 1234567 mentre - _2_number2string('12345.6789'; '10','2') restituisce '0001234567'
-- _2_string2number() converte una stringa formattata secondo lo standard AS400 in numero. Esempio string2number('1234567'; '5'; '2' ) restituisce 123,45
+- _2_string2number(espressione;numero_cifre;numero_decimali) converte una stringa formattata secondo lo standard AS400 in numero. Esempio string2number('1234567'; '5'; '2' ) restituisce 123,45
+- _2_trim(espressione) : esegue il trim (destro e sinistro) del risultato dell'espressione
+- _2_ltrim(espressione) : esegue il trim (sinistro) del risultato dell'espressione
+- _2_rtrim(espressione) : esegue il trim (destro) del risultato dell'espressione
+- _2_length(espressione) :  restituisce la lunghezza (il numero di caratteri) di una risposta
+- _2_charAt(espressione, posizione) :  restituisce il carattere di una data posizione (0 based, ovvero il primo carattere ha indice 0)
+- _2_ceilasstring(espressione) :  esegue il ceil e lo converte in una stringa
+- _2_roundasstring(espressione) :  esegue il round e lo converte in una stringa
+- _2_floorasstring(espressione) :  esegue il floor e lo converte in una stringa
+- _2_as400Code2Number(espressione; numero_cifre; numero_decimali) :  converte un numero in formato AS400, in un numero naturale. es As400Code2Number( '0000123456', '10','5') restituisce 12,345
+- _2_number2as400code(espressione; numero_cifre; numero_decimali) :  converte un numero in formato naturale, in formato AS400
 
 
-### Le funzioni di accesso alle risposte multiple e/o configurate
+
+## Le funzioni di accesso alle risposte multiple e/o configurate
 
 - _2_getResponseAtIndex(cod_domanda; indice) restituisce la risposta della domanda di dato indice :  si usa con le domande a risposta multipla.
 - _2_getRespAt(cod_domanda; indice) forma abbreviata della precedente.
@@ -412,6 +425,20 @@ Operano tutte su parametri numerici.
 - _2_getNRRespAt(cod_domanda; indice) forma abbreviata della precedente.
 - _2_getDescRespAt(cod_domanda; indice) restituisce la descrizione della risposta di dato indice.
 - _2_getDescResp( cod_domanda) restituisce la descrizione della risposta (se la domanda è a risposta multipla restituisce la descrizione della prima risposta).
+
+
+## Le funzioni di modifica delle risposte multiple e/o configurate
+
+- _2_setResponseAt(cod_domanda; nuova_risposta; indice_risposta) consente di variare una risposta di dato indice.
+- _2_setRespAt(cod_domanda; nuova_risposta; indice_risposta) consente di variare una risposta di dato indice. E' un alias dell'istruzione precedente.
+
+
+## Altre funzioni
+
+- _2_IsEmpty(cod_domanda) restituisce vero se alla domanda identificata da cod_domanda non è stata fornita nessuna risposta.
+- _2_setNota(cod_domanda; testo_nota) aggiunge una nota ad una domanda. Per il testo della nota sono ammesse le sole lettere e i numeri.
+- _2_isEmptyNota(cod_domanda) restituisce true se una domanda ha la nota vuota
+- _2_setExtDesc(cod_domanda/sezione; descrizione estesa; PRE/POS;'false' ) aggiunge una descrizione estesa ad una domanda/sezione, in sopra o sotto la domanda/sezione (PRE/POS) . Per le descrizioni estese sono ammesse le sole lettere e i numeri. Con descrizioni estese, si intendopno dei testi che si possono mettere prima o dopo una domanda o una sezione (una specie di help).
 - _2_getObjDesc(tipo; parametro; codice) restituisce la decodifica dell'oggetto identificato dalla terna tipo-parametro-codice. Tipo parametro codice sono espressioni.
 - _2_getAuxResp('nome domanda ausliaria senza asterisco') restituisce la risposta ausiliaria. Le domande ausiliarie sono le seguenti : 
 -- \*DE è la descrizione della configurazione
@@ -423,23 +450,22 @@ Operano tutte su parametri numerici.
 -- \*IM l'ora di modifica
 -- \*UM è l'utente che ha modificato
 Esempio getAuxResp('UM') restituisce il codice dell'utente che ha modificato la configurazione. Queste informazioni ausiliarie sono disponibili solo se nel questionario si specifica di aggiungere queste informazioni.
+-_2_setCfgDesc(espressione) :  imposta la descrizione della configurazione (è la variabile \*DE)
 - _2_getLoocupVarValue('cod_LoocupVariable') restituisce il valore della variabile di ambiente di Loocup. Le variabili di ambiente includono i dati relativi all'applicazione (es. posizione icone), i dati relativi alla macchina e i dati della JVM utilizzata. Maggiori dettagli sono disponibili nella documentazione di LoocUp.
+- _2_setLoocupVarValue('codice_variabile', espressione) :  imposta una variabile di LoocUp con il risultato dell'espressione
 
 
-### Le funzioni di modifica delle risposte multiple e/o configurate
-
-- _2_setNota(cod_domanda; testo_nota) aggiunge una nota ad una domanda. Sono ammesse le sole lettere e i numeri.
-- _2_setRespAt(cod_domanda; nuova_risposta; indice_risposta) consente di variare una risposta di dato indice.
 
 
-### Le funzioni di test
-_2_IsEmpty(cod_domanda) restituisce vero se alla domanda identificata da cod_domanda non è stata fornita nessuna risposta.
 
-## I Commenti
+## Le funzioni di debug
+_2_printVal('testo'; cod_domanda) stampa nel log un messaggio composto da testo concatenato con il valore della domanda
+
+# I Commenti
 E' possibile inserire dei commenti alle regole. Queste porzioni di testo non vengono interpretate dal sistema, ma servono solo all'utente per documentare il lavoro fatto.
 Per inserire dei commenti è sufficiente farli precedere dalla stringa '//' (doppia barra); tutto quello compreso tra tale stringa e la fine della riga è considerato commento.
 
-## I Messaggi
+# I Messaggi
 Build.up permette la visualizzazione di messaggi di testo definibili dall'utente. Esistono tre tipi di messaggi :  bloccanti (identificati dalla lettera "T" ), di avviso ("W") e informativi ("I").
 
 I primi, quando vengono emessi, bloccano l'esecuzione del questionario ed obbligano l'utente a correggere le risposte sbagliate date in precedenza. I messaggi di avviso, invece, comunicano all'utente che i valori immessi potrebbero non essere corretti, ma lasciano proseguire la compilazione del questionario. Infine il terzo tipo di messaggio (informativo) serve per comunicare all'utente informazioni aggiuntive di carattere generale.
@@ -458,7 +484,7 @@ Ecco alcuni esempi del loro utilizzo :
 
 La funzione CLRMSG ( ) rimuove tutti i messaggi della sezione alla quale la regola appartiene.
 
-## L'editor delle regole
+# L'editor delle regole
 Per facilitare l'inserimento e la manutenzione delle regole del questionario è stato sviluppato un apposito editor ed il suo aspetto è mostrato in Figura 8 : 
 
 ![CFBASE_028](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_028.png)Figura 8 - L'editor delle regole
@@ -471,7 +497,7 @@ l grande vantaggio di questo editor sta nella presenza del "Wizard", ossia di un
 
 ![CFBASE_035](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_035.png)Figura 9 - Il wizard dell'editor delle regole con la finestra di selezione degli operatori
 
-### La messa a punto delle regole
+## La messa a punto delle regole
 
 In LoocUp non esiste un debugger interattivo vi è però la possibilità di visualizzare tutte le operazioni compiute.
 Durante la compilazione viene, di default, tenuta traccia delle azioni compiute dalle regole. Questa traccia è visibile dalla finestra di compilazione di LoocUp. I pulsanti preposti sono quelli che riportano una pergamena.
@@ -482,7 +508,7 @@ Esistono due modi di visualizzarla :  in una tabella non riordinabile (molto vel
 
 L'esportazione in EXCEL risulta molto utile quanto non si capisce quale regole abbia agito su una determinata domanda.
 
-## Correlazione tra oggetti e regole
+# Correlazione tra oggetti e regole
 Per creare un questionario occorre, oltre che definire sezioni e domande, scrivere le regole. E' attraverso di esse che si riesce a dare al configuratore un comportamento dinamico, attivando o disattivando la visualizzazione di sezioni e di domande, o svolgendo funzioni particolari. Le regole legano tra loro gli oggetti che costituiscono un configuratore (li correlano), confrontandoli o modificandone i valori.
 
 Ad esempio, una regola potrebbe dover confrontare i valori di Oggetto1 e Oggetto2 e impostare il valore di un terzo oggetto chiamato Oggetto3. Al crescere della complessità del questionario aumenta, però, in proporzione, anche la possibilità che lo stesso oggetto compaia in più regole. E' facile quindi arrivare ad avere una struttura "ingarbugliata" del questionario, costituita da numerosissimi legami invisibili tra oggetti e regole. Il questionario, inoltre, non ha una struttura che, una volta realizzata, rimane tale per sempre. Viene sottoposto continuamente a modifiche e aggiornamenti perché il prodotto che viene configurato può avere nuove varianti, o certe sue parti possono finire fuori produzione ecc... Chi implementa questi cambiamenti ha quindila necessità di avere a disposizione strumenti che lo aiutino nell'apportare tali modifiche.
@@ -510,7 +536,7 @@ L'idea è quella di poter "guardare" la tabella da diversi punti di vista, ognun
 
 Se per esempio si vuole sapere in quali regole compare l'oggetto XXXX basta scegliere nell'ordine le colonne "Oggetto" e "Regola". A questo punto compare l'elenco di tutti gli oggetti presenti nelle regole; se espandiamo la riga dell'oggetto XXXX troviamo tutte le righe della tabella originale che avevano tale oggetto nella propria regola, ordinate per regola.
 
-## Integrazione col sistema gestionale
+# Integrazione col sistema gestionale
 Quando si progetta un configuratore bisogna tenere presente che un suo prerequisito fondamentale deve essere la possibilità di interfacciarsi col sistema gestionale esistente nell'azienda. Interfacciarsi significa dare allo strumento la possibilità di estrarre, immettere, o elaborare informazioni significative per la gestione dell'azienda stessa. Uno strumento che raccoglie semplicemente informazioni (magari le risposte ad alcune domande) e le salva, per esempio, in un foglio Excel ha un'utilità relativa. Esso richiede comunque la presenza di un operatore che, leggendo tale documento, inserisce le informazioni nel posto giusto del sistema informativo. Questa fase del processo di introduzione dei dati (ad esempio un ordine di acquisto) può essere lunga e soprattutto non esente da errori. Un errore in questo punto vanifica tutto il lavoro compiuto per presentare una configurazione corretta. Anche l'impiego della configurazione nel gestionale dovrebbe dunque essere automatizzata.
 
 A questo punto riteniamo doveroso fare una precisazione. Quando si costruisce uno strumento come il configuratore e si decidono quali funzionalità deve svolgere e quali problemi deve risolvere, bisogna considerare che i suoi utilizzatori finali possono essere di diversa natura e avere necessità differenti. Per questo motivo lo strumento che si realizza sarà composto sia da parti standard che da parti che dovranno essere soggette a personalizzazioni sulla base delle caratteristiche del cliente (o del suo sistema gestionale).
@@ -521,7 +547,7 @@ Quando si costruisce un questionario, infatti, si inserisce nel configuratore un
 
 La parte del configuratore, legata all'integrazione col gestionale, che non è standardizzabile è il processo che, partendo dalla raccolta delle risposte ad un questionario di configurazione di un prodotto porta, ad esempio, alla costruzione di una distinta base. Questo limite è dovuto al fatto che aziende differenti gestiscono la loro distinta base in modi differenti.
 
-## Il Questionario visto da Looc.up
+# Il Questionario visto da Looc.up
 Anche il configuratore utilizza Looc.up come strumento di interfaccia verso l'utente.
 
 Chi scrive questionari utilizzerà questo client grafico visibile in Figura 14.
@@ -532,7 +558,7 @@ Sempre sulla sinistra vengono mostrate tutte le funzioni necessarie alla gestion
 
 ![CFBASE_029](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_029.png)Figura 11 - La gestione del questionario in Looc.up
 
-### La Scheda del Configuratore
+## La Scheda del Configuratore
 L'accesso alle funzioni del configuratore avviene mediante un'apposita scheda (CFBASE).
 
 Questa scheda è accessibile dal menù delle applicazioni di Loocup con il seguente percorso :  Menù Ingresso utente, \*AP :  Applicazioni, LOOC_Up Graphic Environment, Schede, configuratore.
@@ -555,7 +581,7 @@ In questo documento analizzeremo solo quelli definiti dall'utente.
 Per accedere alle funzioni disponibili sul questionario bisogna selezionarne uno dall'elenco di sinistra.
 Sulla destra verrà caricata la scheda del questionario (RE) : 
 
-### La scheda del questionario
+## La scheda del questionario
 E' composta da tre sotto schede :  una dedicata alla manutenzione della struttura del questionario (è la prima visibile e riporta la dicitura "Questionario"), una dedicata alla gestione delle configurazioni (riporta la dicitura "Configurazioni") e una dedicata alla manutenzione delle regole (riporta la dicitura "Regole").
 
 In figura 13 possiamo vedere le 3 schede con in primo piano quella del questionario.
@@ -563,7 +589,7 @@ In figura 13 possiamo vedere le 3 schede con in primo piano quella del questiona
 ![CFBASE_036](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_036.png)Figura 13 - La scheda del questionario.
 
 Analizziamo in dettaglio le 3 schede.
- :  : T04 La sottoscheda del questionario
+### La sottoscheda del questionario
 La sottoscheda del questionario consente la navigazione e la manutenzione del questionario e di tutti i suoi componenti logici (sezioni, domande e valori).
 
 Le prime informazioni che compaiono sono gli attributi del questionario (Figura 13).
@@ -571,7 +597,7 @@ Le prime informazioni che compaiono sono gli attributi del questionario (Figura 
 Per ogni oggetto contenuto è attivo un menù di popup sensibile al contesto. In figura 13 si vede il popup di una sezione :  le ultime due voci consentono di aggiungere una pre o post regola.
 Se queste sono già definite per la sezioni in questione si entrerà in manutenzione.
 
- :  : T04 La sottoscheda delle regole
+### La sottoscheda delle regole
 
 Con un doppio click sul talloncino delle regole si ottiene che la scheda vada a pieno schermo : 
 
@@ -584,7 +610,7 @@ In basso un pulsante che consente la manutenzione.
 
 Per aggiungere nuove regole su sezioni o domande ci si posiziona sulla scheda del questionario e con il tasto destro si accede a queste funzioni.
 
- :  : T04 La sottoscheda della configurazione
+### La sottoscheda della configurazione
 
 La sottoscheda elle configurazioni, visibile in figura 15, riporta sulla sinistra l'elenco delle configurazioni create, e sulla parte destra l'elenco delle risposte.
 
@@ -593,7 +619,7 @@ Posizionandosi su una configurazione e utilizzando il tasto destro, sotto la voc
 ![CFBASE_026](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_026.png)Figura 15 - La sotto scheda della configurazione e il popup di gestione
 
 
-### la compilazione di un questionario
+## la compilazione di un questionario
 Compilare un questionario porta alla creazione di una configurazione.
 
 La creazione di una nuova configurazione avviene con il tasto F8 mentre la modifica di una precedentemente salvata avviene con la voce "Gestione questionario" e poi  "Gestione (Imm/Cop/Del)"  del popup della configurazione.
@@ -605,11 +631,11 @@ La creazione di una nuova configurazione avviene con il tasto F8 mentre la modif
 ![CFBASE_022](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_022.png)visualizza la storia di esecuzione in tabella non ordinabile, visualizza in tabella ordinabile e filtrabile)
 ![CFBASE_021](http://localhost:3000/immagini/CFBASE_TEC/CFBASE_021.png)regole, attiva ricerca all'interno delle regole, traduci le regole in italiano, esegui controllo su ricerca domande e/o sezioni duplicate)
 
-## La compilazione su WEB
-### Prerequisiti.
+# La compilazione su WEB
+## Prerequisiti.
 Buildup è integrato in WEB-Up e pertanto necessario avere un Web-Server con installato WEB-Up. Per le ulteriori informazioni si rimanda alla documentazione di WEB-Up.
 
-### L'interfaccia WEB.
+## L'interfaccia WEB.
 La compilazione su WEB è simile a quella che avviene in LoocUp. Visto l'ambiente nel quale ci si trova viene disattivata la traccia di esecuzione delle regole. Mancano anche i pulsanti relativi ai possibili controlli (duplicazione domande, controllo sintattico, rigenerazione motore regole).
 
 Nella figura 17 si può vedere l'interfaccia della finestra di compilazione : 
@@ -624,7 +650,7 @@ L'interfaccia è facilmente personalizzabile attraverso la modifica di fogli di 
 
 Si possono anche aggiungere o rimuovere pulsanti secondo specifiche esigenze.
 
-## Glossario
+# Glossario
 _2_Application Server. È un server che riceve la richiesta di una pagina che deve ancora essere creata; esegue del codice coinvolgendo solitamente anche altri moduli, quali ad esempio un database server e scrive il risultato della richiesta in una pagina HTML (quindi statica) che restituisce al web server che l'ha richiesta.
 
 _2_Colloquio di configurazione. Durante la fase iniziale del processo di configurazione si svolge la raccolta delle informazioni sulle caratteristiche del prodotto richieste dal cliente. Questa fase prevede un colloquio, denominato appunto "colloquio di configurazione", tra commerciale e cliente in cui il cliente risponde a domande che riguardano le diverse possibilità di scelta previste, le risposte date permettono la completa specificazione del prodotto.
@@ -655,7 +681,7 @@ _2_Web server. Viene detto anche HTTP Server, è un programma che, avendo ricevu
 
 _2_Web.up. È un modulo aggiuntivo di Sme.up. E' pensato per fornire strumenti di aiuto all'inserimento di dati prelevati dal database aziendale in pagine HTML.
 
-## Conclusioni
+# Conclusioni
 Questa breve presentazione del prodotto Build.up ha mostrato le principali caratteristiche del programma nella speranza di offrire una panoramica d'insieme che possa rendere giustizia alle effettive qualità del pacchetto proposto.
 
 La versione attuale di Build.up rappresenta quanto di meglio è oggi ottenibile nel settore dei configuratori :  la struttura fortemente modulare di Build.up, tipica di tutti i prodotti di SME.up, lascia comunque aperte molte strade di sviluppo e miglioramento e rende più agevole la manutenzione del pacchetto stesso anche in funzione delle nuove tecnologie che si renderanno disponibili in futuro.

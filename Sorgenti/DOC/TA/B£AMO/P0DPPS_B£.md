@@ -1,5 +1,5 @@
 ## Documenti applicativi
-- [Finalità del DPPS (ex B£DPPS_01](Sorgenti/DOC/TA/B£AMO/P0DPPS_B£1)
+- [Finalità del DPPS (ex B£DPPS_01)](Sorgenti/DOC/TA/B£AMO/P0DPPS_B£1)
  :  : DEC T(MB) P(DOC_DPPS) K(DPPS00_00)
  :  : DEC T(MB) P(DOC_DPPS) K(DPPS01_00)
  :  : DEC T(MB) P(DOC_DPPS) K(DPPS02_00)

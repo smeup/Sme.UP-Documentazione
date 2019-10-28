@@ -200,8 +200,8 @@ Per interrogare i log di cominicazione eseguire la call al pgm **$V5FE92G** impo
 
 # LIMITAZIONI : 
 La versione corrente ha alcune limitazioni : 
-\* permette in incorporare nell'xml solo allegati che si trovano su IFS
-\* il numero fattura ha lunghezza massima 15 per il ciclo attivo.
+-  permette in incorporare nell'xml solo allegati che si trovano su IFS
+-  il numero fattura ha lunghezza massima 15 per il ciclo attivo.
 
 # INTERROGAZIONE ESITI : 
 Permette di verificare lo stato della singola fattura inviata ad Abletech.
@@ -234,25 +234,25 @@ Nello specifico applicativo, il programma esegue un web service di primo livello
 # DOWNLOAD FE PASSIVA : 
 ## INSTALLAZIONE
 Nuovo database che contiene l'elenco delle fatture scaricate
-\* XFATPA0F
+-  XFATPA0F
 Nuovo database che contiene i dati delle fatture passive elaborate
-\* $EDRECI0F con i relativi logici
+-  $EDRECI0F con i relativi logici
 Nuovi programmi : 
-\* $C5_093LOG
-\* $C5FE93A
-\* $C5FE93B
-\* $C5FE93C
-\* $C5FE93D
-\* $C5FE93E
-\* $C5FE93K
-\* $C5FE93M
-\* $B£K19G
-\* $B£K19_001
-\* $TSTK19
+-  $C5_093LOG
+-  $C5FE93A
+-  $C5FE93B
+-  $C5FE93C
+-  $C5FE93D
+-  $C5FE93E
+-  $C5FE93K
+-  $C5FE93M
+-  $B£K19G
+-  $B£K19_001
+-  $TSTK19
 Programmi da aggiornare : 
-\* $B£K11G
-\* $EDEDT0
-\* $EDFUC0T
+-  $B£K11G
+-  $EDEDT0
+-  $EDFUC0T
 
 
 |  Nam="FILE XFATPA0F" |
@@ -281,13 +281,13 @@ Programmi da aggiornare :
 Oltre a questi campi ci sono 10 campi liberi alfa, 10 campi liberi numerici e 10 campi liberi date.
 ## PROCEDURE
 Per questo argomento sono stati sviluppate 3 nuove funzioni : 
-\* $C5FE93A :  esegue download elenco fatture degli ultimi 3 mesi. L'elenco delle fatture viene scritto nel file XFATPA0F a parità di partita iva, codice fiscale, tipo documento, data documento, numero documento. Il programma non ha parametri di ingresso
-\* $C5FE93C :  programma che legge il file XFATPA0F ove il percorso (campo XFPERC) sia uguale a blank e richiama per ogni identificativo fattura il programma $C5FE93B. Il programma non ha parametri di ingresso
-\* $C5FE93B :  dato l'identificativo fattura esegue il download dei file di dettaglio. Questo programma ha come parametro di ingresso l'identifativo fattura lungo 36 Alfa
-\* $C5FE93D :  programma che legge il file XFATPA0F ove il codice registrazione (campo XFPROG) sia uguale a blank, verifica se la fattura è già stata elaborata richiamando il $C5FE93K e richiama per ogni fattura non ancora elaborata il programma $C5FE93E, passando il percorso del file XML (XFPERC) nel campo $K19XMLF e nel campo $K19PARA l'identificativo SdI, l'identificativo Abletech e la data ricezione. Il programma non ha parametri di ingresso
-\* $C5FE93E :  dato il percorso del file XML della fattura ne esegue l'elaborazione scrivendo il file $EDRECI0F con gli stessi tracciati EDFEIT\* utilizzati per le fatture attive. Questo programma ha come parametro di ingresso il percorso dell'XML e un campo opzionale parametro in cui indicare l'identificativo SdI, l'identificativo Abletech e la data ricezione. Come campi di output restituisce un messaggio e un indicatore di errore.
-\* $C5FE93K :  dato il nome del file XML della fattura verifica se è già stato elaborato e scritto su $EDRECI0F.
-\* $C5FE93M :  Esempio di programma che legge i file contenuti in una cartella su IFS verifica se il file xml è già stato elaborato richiamando il $C5FE93K e richiama per ogni fattura non ancora elaborata il programma $C5FE93E, passando il percorso del file XML nel campo $K19XMLF . Il pgm $C5FE93M è pensato per gestire il caso di file fattura scaricati direttamente dal cassetto fiscale o in altro modo rispetto al download da Abletech tramite lo smart kit. Il pgm $C5FE93E è in grado di elaborare solo file XML. Se la fattura è in formato .p7m è necessario estrarre l'XML per poterlo elaborare (operazione effettuata dallo smart kit nel caso di download da Abletech).
+-  $C5FE93A :  esegue download elenco fatture degli ultimi 3 mesi. L'elenco delle fatture viene scritto nel file XFATPA0F a parità di partita iva, codice fiscale, tipo documento, data documento, numero documento. Il programma non ha parametri di ingresso
+-  $C5FE93C :  programma che legge il file XFATPA0F ove il percorso (campo XFPERC) sia uguale a blank e richiama per ogni identificativo fattura il programma $C5FE93B. Il programma non ha parametri di ingresso
+-  $C5FE93B :  dato l'identificativo fattura esegue il download dei file di dettaglio. Questo programma ha come parametro di ingresso l'identifativo fattura lungo 36 Alfa
+-  $C5FE93D :  programma che legge il file XFATPA0F ove il codice registrazione (campo XFPROG) sia uguale a blank, verifica se la fattura è già stata elaborata richiamando il $C5FE93K e richiama per ogni fattura non ancora elaborata il programma $C5FE93E, passando il percorso del file XML (XFPERC) nel campo $K19XMLF e nel campo $K19PARA l'identificativo SdI, l'identificativo Abletech e la data ricezione. Il programma non ha parametri di ingresso
+-  $C5FE93E :  dato il percorso del file XML della fattura ne esegue l'elaborazione scrivendo il file $EDRECI0F con gli stessi tracciati EDFEIT\* utilizzati per le fatture attive. Questo programma ha come parametro di ingresso il percorso dell'XML e un campo opzionale parametro in cui indicare l'identificativo SdI, l'identificativo Abletech e la data ricezione. Come campi di output restituisce un messaggio e un indicatore di errore.
+-  $C5FE93K :  dato il nome del file XML della fattura verifica se è già stato elaborato e scritto su $EDRECI0F.
+-  $C5FE93M :  Esempio di programma che legge i file contenuti in una cartella su IFS verifica se il file xml è già stato elaborato richiamando il $C5FE93K e richiama per ogni fattura non ancora elaborata il programma $C5FE93E, passando il percorso del file XML nel campo $K19XMLF . Il pgm $C5FE93M è pensato per gestire il caso di file fattura scaricati direttamente dal cassetto fiscale o in altro modo rispetto al download da Abletech tramite lo smart kit. Il pgm $C5FE93E è in grado di elaborare solo file XML. Se la fattura è in formato .p7m è necessario estrarre l'XML per poterlo elaborare (operazione effettuata dallo smart kit nel caso di download da Abletech).
 
 # RIAVVIO SMART KIT : 
 Il programma da richiamare è il $V5FE94G che visualizza il nome dello smart kit e se attivo/non
@@ -298,9 +298,9 @@ Dopo aver premuto F06, premendo invio è possibile verificare se lo smart kit è
 
 
 # SUGGERIMENTI PER ADEGUAMENTO A VERSIONI SUCCESSIVE : 
-\* Spostare i file dati in una libreria separata.
-\* Creare una libreria in cui mettere le personalizzazioni (i pgm modificati e la exit $V5CFG_U)
-\* In questo modo a fronte di aggiornamenti è possibile confrontare con opzione 54 solo i sorgenti della libreria di personalizzazione (per identificare i pgm da adeguare) e per il resto semplicemente sostituire la P_FENS con la versione aggiornata.
+-  Spostare i file dati in una libreria separata.
+-  Creare una libreria in cui mettere le personalizzazioni (i pgm modificati e la exit $V5CFG_U)
+-  In questo modo a fronte di aggiornamenti è possibile confrontare con opzione 54 solo i sorgenti della libreria di personalizzazione (per identificare i pgm da adeguare) e per il resto semplicemente sostituire la P_FENS con la versione aggiornata.
 
 
 ## LISTA LIBRERIE CONSIGLIATA per l'utente che esegue estrazione e invio fatture

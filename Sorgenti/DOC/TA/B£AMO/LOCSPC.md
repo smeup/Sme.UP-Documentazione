@@ -7,4 +7,4 @@ Allo stato attuale, l'utilizzo di questo componente è da considerare deprecato.
 
 
 - [Introduzione](Sorgenti/DOC/TA/B£AMO/LOCSPC_A)
-- [Batch variable control](Sorgenti/DOC/TA/B£AMO/LOCSPC_B)
+- [Tipi di grafico](Sorgenti/DOC/TA/B£AMO/LOCSPC_B)

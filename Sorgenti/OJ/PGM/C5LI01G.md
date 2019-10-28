@@ -9,7 +9,7 @@ periodica.
  \* Trimestre :  inserire il trimestre a cui si riferiscono i dati da manutenere
  \* Liquidazione Gruppo :  settare il campo qualora si vogliano manutenere i dati relativi alla    liquidazione del gruppo
  \* Sezione :  è possibile filtrare i quadri visualizzati nella successiva videata
-\* Campo filtro _ n _  :  nel caso in cui sia stata specificata una sezione è possibile effettuare tre filtri sui valori dei righi del quadro stesso. Ad esempio nel caso in cui si sia scelta la sezione VP, sarà possibile filtrare per mese/trimestre, ecc.
+-  Campo filtro _ n _  :  nel caso in cui sia stata specificata una sezione è possibile effettuare tre filtri sui valori dei righi del quadro stesso. Ad esempio nel caso in cui si sia scelta la sezione VP, sarà possibile filtrare per mese/trimestre, ecc.
 
 # Dettaglio
 Confermando la videata di lancio verrà presentato il dettaglio dei record estratti per la

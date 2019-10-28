@@ -11,5 +11,5 @@ Le risorse vengono raccolte in librerie distinter per tipo oggetto
 # URI
 Le risorse vengono identificate in base ad una URI
 esempi di uri per risorsa sono : 
-\* asup : //SRVLAB/QSYS/Command
-\* asup : //SRVLAB/SMEDEV/Program
+-  asup : //SRVLAB/QSYS/Command
+-  asup : //SRVLAB/SMEDEV/Program

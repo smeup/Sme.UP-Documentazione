@@ -1,25 +1,18 @@
-- **Salto pagina**
+### **Salto pagina**
 
- :  : VOC Id="NPG" Txt="Salto pagina"
 Sta ad indicare l'esecuzione di un salto pagina.
 
-- **Include file di schema**
+### **Include file di schema**
 
- :  : VOC Id="INC" Txt="Include file di schema"
 Sta ad identificare l'include di un file di schema, per effettuare la sovrapposizione dell'output con un file PDF che rappresenta il modulo elettronico.
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|INC |
+Posiz. 0|INC |
 | Posiz. 11|Pagina da selezionare nel PDF multipagina |
 | Posiz. 24|Nome del file del file da includere (path completo) |
 | 
@@ -29,23 +22,17 @@ Dalla posizione 24 in poi va indicato il path del file da includere che verrà u
 __Esempio__
  :  : >INC........1............/Smedoc/Moduli/Fattura.pdf
 
-- **Importazione di un immagine**
+### **Importazione di un immagine**
 
- :  : VOC Id="PAG" Txt="Importazione di un immagine"
 Sta ad indicare la specifica per importare un'iimagine.
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|PAG |
+Posiz. 0|PAG |
 | Posiz. 24|coordinate (assolute nel foglio) StartX;StartY;EndX;EndY ed a seguire nome file immagine da includere |
 | 
 
@@ -54,24 +41,18 @@ Dalla posizione 24 in poi vanno indicate le coordinate (assolute nel foglio) Sta
 __Esempio__
 >PAG.....................18;796;577;817;\\192.168.1.201\img\AZ\01.JPG
 
-- **Riga di testo**
+### **Riga di testo**
 
- :  : VOC Id="ROW" Txt="Riga di testo"
 Sta ad indicare la definizione di una riga ed il testo in essa contenuto.
 Dalla posizione 3 alla 24 vanno inseriti i flag che definiscono il formato del testo nella pagina con il seguente ordine (i valori possibili per ogni singolo flag sono riportati di seguito).
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|ROW |
+Posiz. 0|ROW |
 | Posiz. 3| Tipo Font |
 | Posiz. 4| Dimensione Font |
 | Posiz. 5| Stile Font |
@@ -89,24 +70,18 @@ La Posiz. 8 può servire (assegnandogli il valore F) per omettere lo spaziatore 
 __Esempio__
 >ROWCA-AC?BA.............Testo della riga
 
-- **Rettangolo**
+### **Rettangolo**
 
- :  : VOC Id="BOX" Txt="Rettangolo"
 Sta ad indicare la definizione di un rettangolo (BOX appunto) e l'eventuale etichetta in esso contenuto.
 Dalla posizione 3 alla 24 vanno inseriti i flag che definiscono il formato del testo nella pagina con il seguente ordine (i valori possibili per ogni singolo flag sono riportati di seguito).
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|BOX |
+Posiz. 0|BOX |
 | Posiz. 3|Tipo Font |
 | Posiz. 4|Dimensione Font |
 | Posiz. 5|Stile Font |
@@ -123,24 +98,18 @@ Dalla posizione 24 in poi vanno indicate le coordinate (assolute nel foglio) Sta
 __Esempio__
 >BOXCA-AC?BA...........333;679;571;690;Testo nel box
 
-- **Rettangolo con angoli arrotondati**
+### **Rettangolo con angoli arrotondati**
 
- :  : VOC Id="ROX" Txt="Rettangolo con angoli arrotondati"
 Sta ad indicare la definizione di un rettangolo con gli angoli arrotondati (Round bOX appunto) e l'eventuale etichetta in esso contenuto.
 Dalla posizione 3 alla 24 vanno inseriti i flag che definiscono il formato del testo nella pagina con il seguente ordine (i valori possibili per ogni singolo flag sono riportati di seguito).
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|ROX |
+Posiz. 0|ROX |
 | Posiz. 3|Tipo Font |
 | Posiz. 4|Dimensione Font |
 | Posiz. 5|Stile Font |
@@ -158,24 +127,18 @@ Per una questione di raggio di curvatura degli angoli le dimensioni devono esser
 __Esempio__
  :  : >ROXCA-AC?BA...........333;679;571;690;Testo nel box ad angoli arrotondati
 
-- **Testo racchiuso in un rettangolo**
+### **Testo racchiuso in un rettangolo**
 
- :  : VOC Id="BTX" Txt="Testo racchiuso in un rettangolo"
 Sta ad indicare la definizione di testo racchiuso in un rettangolo.
 Dalla posizione 3 alla 24 vanno inseriti i flag che definiscono il formato del testo nella pagina con il seguente ordine (i valori possibili per ogni singolo flag sono riportati di seguito).
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|BTX |
+Posiz. 0|BTX |
 | Posiz. 3|Tipo Font |
 | Posiz. 4|Dimensione Font |
 | Posiz. 5|Stile Font |
@@ -192,24 +155,18 @@ Dalla posizione 24 in poi vanno indicate le coordinate (assolute nel foglio) Sta
 __Esempio__
 >BTXHB-AC BB.............18;752;186;766;Testo nel box
 
-- **Testo racchiuso in un rettangolo con angoli arrotondati**
+### **Testo racchiuso in un rettangolo con angoli arrotondati**
 
- :  : VOC Id="RTX" Txt="Testo racchiuso in un rettangolo con angoli arrotondati"
 Sta ad indicare la definizione di testo racchiuso in un rettangolo con angoli arrotondati.
 Dalla posizione 3 alla 24 vanno inseriti i flag che definiscono il formato del testo nella pagina con il seguente ordine (i valori possibili per ogni singolo flag sono riportati di seguito).
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|RTX |
+Posiz. 0|RTX |
 | Posiz. 3|Tipo Font |
 | Posiz. 4|Dimensione Font |
 | Posiz. 5|Stile Font |
@@ -226,24 +183,18 @@ Dalla posizione 24 in poi vanno indicate le coordinate (assolute nel foglio) Sta
 __Esempio__
 >RTXHB-AC BB.............18;752;186;766;Testo nel box
 
-- **Riga diagonale**
+### **Riga diagonale**
 
- :  : VOC Id="LIN" Txt="Riga diagonale"
 Sta ad indicare la definizione di una riga diagonale.
 Dalla posizione 3 alla 24 vanno inseriti i flag che definiscono il formato del testo nella pagina con il seguente ordine (i valori possibili per ogni singolo flag sono riportati di seguito).
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|LIN |
+Posiz. 0|LIN |
 | Posiz. 10|Colore bordi |
 | Posiz. 24|Coordinate (assolute nel foglio) StartX;StartY;EndX;EndY partenza ed arrivo della riga |
 | 
@@ -253,24 +204,18 @@ Dalla posizione 24 in poi vanno indicate le coordinate (assolute nel foglio) Sta
 __Esempio__
 >LIN.....................18;752;186;752
 
-- **Testo libero**
+### **Testo libero**
 
- :  : VOC Id="TXT" Txt="Testo libero"
 Sta ad indicare la definizione di un testo libero da inserire ovunque del documento PDF.
 Dalla posizione 3 alla 24 vanno inseriti i flag che definiscono il formato del testo nella pagina con il seguente ordine (i valori possibili per ogni singolo flag sono riportati di seguito).
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|TXT |
+Posiz. 0|TXT |
 | Posiz. 3|Tipo Font |
 | Posiz. 4|Dimensione Font |
 | Posiz. 5|Stile Font |
@@ -287,24 +232,18 @@ Dalla posizione 24 in poi vanno indicate le coordinate (assolute nel foglio) Sta
 __Esempio__
 >TXTCA-AC?BA.............18;752;186;752;Testo libero
 
-- **Barcode**
+### **Barcode**
 
- :  : VOC Id="BCD" Txt="Barcode"
 Sta ad indicare la definizione di un'immagine Barcode da inserire nel PDF.
 Dalla posizione 3 alla 24 vanno inseriti i flag che definiscono il formato del testo nella pagina con il seguente ordine (i valori possibili per ogni singolo flag sono riportati di seguito).
 
 __Formato__
 
-| - **Cod.**
+| ### **Cod.**
 
+### **Descr.**
 
-| .COL Txt="Cod." Lun="0" A="L" |
-| ---|----|
-| - **Descr.**
-
-
-| .COL Txt="Descr." Lun="0" LunAut="1" |
-| Posiz. 0|BCD |
+Posiz. 0|BCD |
 | Posiz. 3|Tipo Barcode |
 | Posiz. 4|Dimensione Font |
 | Posiz. 5|Stile Font |
@@ -326,9 +265,8 @@ Per un Barcode ruotato :
 E' inseribile un barcode in una riga di tipo ROW con lo stesso meccanismo con cui si cambia lo stile inline (vedere spiegazione nella sezione relativa alla specifica ROW) :  quindi con la specifica [[BCDC5AM6?JB.9780201615883]] inserita in un punto di una riga di tipo ROW si ottiene il barcode nella riga di testo e, venendo inserito direttamente nella riga, non vanno espresse le coordinate assolute del foglio per il posizionamento.
 Nel caso del barcode la posizione che gestisce il Tipo Font (posiz. 3) è utilizzata per identificare la codifica del barcode (CODE39, EAN13, UPC, etc.). Vedere alle sezione TIPO BARCODE i valori da utilizzare per utilizzare per visualizzare i vari tipi di barcode.
 
-- **Definizione colori personalizzati**
+### **Definizione colori personalizzati**
 
- :  : VOC Id="RGB" Txt="Definizione colori personalizzati"
 Permette di specificare dei colori personalizzati da utilizzare nel documento che si vuole generare. I colori saranno utilizzabili dal momento in cui vengono definiti in avavnti nel documento che si vuole generare, quindi è consigliabile definirli ad inizio documento. Se dovessero essere ridefiniti, la modifica avrà luogo dal momento della loro ridefinizione in avanti.
 
 __Formato ed esempio__

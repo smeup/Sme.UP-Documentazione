@@ -19,8 +19,8 @@ Eseguire la ricerca alfabetica relativa se richiesto
 £IE5FI :  File messaggio ritorno (10)
 £IE5CM :  Ultimo Comando
 £IE5RO :  N.ro Record di output
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 C5RREG :  DA Valorizzata
 
 # Prerequisiti

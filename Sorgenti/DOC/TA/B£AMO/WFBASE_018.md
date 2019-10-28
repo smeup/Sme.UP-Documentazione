@@ -111,6 +111,6 @@ Possono servire a :
 
 Si dividono in : 
  \* Programmi di dichiarazione :  ricevono in input l'impegno (F2), sulla base del risultato dell'elaborazione si occupano di chiamare la £WFC per istanziare un'attività (F4).
-\* Conseguenze esterne :  Vengono eseguiti come risultato dell'esecuzione di un'attività. Ricevono in input l'attività appena eseguita (F4)
+-  Conseguenze esterne :  Vengono eseguiti come risultato dell'esecuzione di un'attività. Ricevono in input l'attività appena eseguita (F4)
 
 Una serie di programmi standard sono già presenti in WFSRC; la documentazione delle loro funzionalità e chiamate è in testa al sorgente.

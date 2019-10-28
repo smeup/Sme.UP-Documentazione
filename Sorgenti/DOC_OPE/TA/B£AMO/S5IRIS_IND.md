@@ -1,11 +1,11 @@
 La schedulazione calcola una serie di indici globali, che possono essere visualizzati dalla scheda ed opzionalmente memorizzati in un record dell'archivio D5COSO se impostato nel campo specifico della tabella dello scenario (S5B).
 La chiave di memorizzazione è : 
-\* Contesto = "TAS5B"
-\* Tema = "£I1"
-\* Codice = Scenario (di output, se impostato, altrimenti quello di input)
-\* Codice 1 = Tipo impegno risorse
-\* Codice 2 = Ambito
-\* Data = Data di esecuzione
+-  Contesto = "TAS5B"
+-  Tema = "£I1"
+-  Codice = Scenario (di output, se impostato, altrimenti quello di input)
+-  Codice 1 = Tipo impegno risorse
+-  Codice 2 = Ambito
+-  Data = Data di esecuzione
 
 ![FIG_059](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_IND/FIG_059.png)
 Gli indici sono i seguenti : 

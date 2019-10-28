@@ -12,10 +12,10 @@ Per lettura normalizzata si intende dire che si tiene conto delle cosiddette "co
 £MUSIN :  Indicatore generico
 £MUSCA :  Continuation line
 
-\* **Funzione 'LET' - Lettura sorgente**
-\*\* __Metodo 'SETLL' - Lettura prima riga__;
-\*\* __Metodo 'READ'  - Lettura avanti__;
-\*\* __Metodo 'READP' - Lettura indietro__;
+-  **Funzione 'LET' - Lettura sorgente**
+- \* __Metodo 'SETLL' - Lettura prima riga__;
+- \* __Metodo 'READ'  - Lettura avanti__;
+- \* __Metodo 'READP' - Lettura indietro__;
 
 # Output
 £MUS35 :  On=Errore

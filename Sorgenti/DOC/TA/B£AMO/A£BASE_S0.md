@@ -143,15 +143,15 @@ Questo perché la probabilità che alcuni file restino "aperti" nel precedente a
 ### Esecuzione "comandi" in un diverso sistema informativo
 Vista l'impossibilità di effettuare un cambio ambiente in un programma, è stato creato un comando apposito (B£QQ01) che __consente di sottomettere un comando con una lista librerie diversa da quella del job sottomettente. Tale sottomissione può essere bloccante o meno. Se è bloccante, il job lanciante resta in attesa del completamento, altrimenti prosegue normalmente.
 Questi sono i parametri che è possibile specificare nel comando : 
-\* B£B£B :  B£B da utilizzare (parametro obbligatorio)
-\* B£CMD :  comando da eseguire (parametro obbligatorio)
-\* B£JOBQ :  JOBQ in cui eseguire il comando. Se tale campo viene lasciato blank, l'esecuzione del comando diventa bloccante, ossia il programma che esegue il comando B£QQ01 attende che il comando termini prima di proseguire.
-\* B£MSGQ :  MSGQ del lavoro
-\* B£JOB :  Nome JOB
-\* B£USER :  Utente di esecuzione del comando
+-  B£B£B :  B£B da utilizzare (parametro obbligatorio)
+-  B£CMD :  comando da eseguire (parametro obbligatorio)
+-  B£JOBQ :  JOBQ in cui eseguire il comando. Se tale campo viene lasciato blank, l'esecuzione del comando diventa bloccante, ossia il programma che esegue il comando B£QQ01 attende che il comando termini prima di proseguire.
+-  B£MSGQ :  MSGQ del lavoro
+-  B£JOB :  Nome JOB
+-  B£USER :  Utente di esecuzione del comando
 Tale comando ha attualmente alcune limitazioni : 
-\* non consente di ricevere una risposta dal comando eseguito
-\* non consente di eseguire operazioni "interattive" all'interno del comando eseguito (essendo eseguito appunto in un lavoro batch)
+-  non consente di ricevere una risposta dal comando eseguito
+-  non consente di eseguire operazioni "interattive" all'interno del comando eseguito (essendo eseguito appunto in un lavoro batch)
 
 ### Gestione ambienti non Sme.UP e lavori sottomessi
 Un discorso analogo va fatto per i comandi (e i programmi) sottomessi o eseguiti da ambienti non Sme.UP (come ad esempio i moduli base non Sme.UP - ACG, Gruppo Pro ecc. -).

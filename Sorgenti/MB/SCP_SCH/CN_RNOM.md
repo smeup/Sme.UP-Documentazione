@@ -1,8 +1,8 @@
 # Introduzione
 Tramite questa scheda è possibile eseguire le azioni necessarie per : 
-\* Ricerca
-\* Selezione
-\* Creazione
+-  Ricerca
+-  Selezione
+-  Creazione
 di un nominativo.
 
 # Struttura della scheda
@@ -14,14 +14,14 @@ In tale scansione non viene inoltre controllata la differenza fra caratteri minu
 ![BRENTI_21](http://localhost:3000/immagini/MBDOC_SCH-CN_RNOM/BRENTI_21.png)
 ## Sezione Elenco Nominativi
 In questa sezione ho l'elenco dei nominativi che risultano corrispondere alle domande poste nella sezione di richiesta parametri. L'operatività di tale sezione cambia a questo punto a seconda che sia entrato : 
-\* In ricerca di un qualsiasi nominativo
-\* In ricerca di un nomativo corrispondente ad un altro contatto (es. Cliente o Fornitore)
+-  In ricerca di un qualsiasi nominativo
+-  In ricerca di un nomativo corrispondente ad un altro contatto (es. Cliente o Fornitore)
 
 Nel primo caso mi viene riportato l'elenco di tutti i nominativi corrispondenti alle domande poste in ricerca e posso fare queste azioni : 
-\* Selezionare il nominativo che mi interessa in quanto sono riuscito ad identificarlo
-\* Ripetere la ricerca
-\* Se opportuno premere F07 per inserire un nuovo nominativo, in quanto quello interessato non risulta inserito
-\* Abbandonare
+-  Selezionare il nominativo che mi interessa in quanto sono riuscito ad identificarlo
+-  Ripetere la ricerca
+-  Se opportuno premere F07 per inserire un nuovo nominativo, in quanto quello interessato non risulta inserito
+-  Abbandonare
 
 Nel secondo caso ho comunque tutti i nominativi corrispondenti alle domande poste ma ho in più l'indicazione anche del fatto che il nominativo corrisponda o meno ad un contatto pre-esistente in azienda.
 

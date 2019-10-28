@@ -2,9 +2,9 @@
 
 L'Aggiunta di una voce personale nella MEA standard può avere effetti a livelli diversi a seconda di come questa voce viene configurata.
 Definendo in modo opportuno questa nuova voce, essa può trovare posto : 
-\* Tra le ACTIONS di un MODULO, compilando correttamente il campo T$MEAL "modulo appartenenza". Riempiremo quindi questo campo con "BRARTI" se vogliamo inserire nelle actions di questo modulo una nuova voce di menù; è ovvio che tale voce personale dovrà essere inserita nel sottosettore BR, essendo il BRARTI un modulo di questa applicazione (le prime due lettere del modulo indicano l'applicazione cui esso appartiene). 
-\* Tra i MODULI di una APPLICAZIONE, mettendo la "D" nel campo T$MEAE "Tipo Azione" e lasciando invece il campo T$MEAL "modulo appartenenza" vuoto. Questo avrà come effetto quello di aggiungere una voce all'interno della sezione di destra della schermata iniziale di Looc.UP. 
-\* Nel MENU DI ACCESSO, ovvero nella sezione di sinistra della scheda di partenza, a livello di area applicativa/applicazione :  in questo caso sarà necessario aggiungere la voce personale al menù di accesso dell'utente nel sottosettore 00.
+-  Tra le ACTIONS di un MODULO, compilando correttamente il campo T$MEAL "modulo appartenenza". Riempiremo quindi questo campo con "BRARTI" se vogliamo inserire nelle actions di questo modulo una nuova voce di menù; è ovvio che tale voce personale dovrà essere inserita nel sottosettore BR, essendo il BRARTI un modulo di questa applicazione (le prime due lettere del modulo indicano l'applicazione cui esso appartiene). 
+-  Tra i MODULI di una APPLICAZIONE, mettendo la "D" nel campo T$MEAE "Tipo Azione" e lasciando invece il campo T$MEAL "modulo appartenenza" vuoto. Questo avrà come effetto quello di aggiungere una voce all'interno della sezione di destra della schermata iniziale di Looc.UP. 
+-  Nel MENU DI ACCESSO, ovvero nella sezione di sinistra della scheda di partenza, a livello di area applicativa/applicazione :  in questo caso sarà necessario aggiungere la voce personale al menù di accesso dell'utente nel sottosettore 00.
 
 Per un maggiore daettaglio si rimanda al capitolo "Personalizzazione dei menù di accesso" presente nella documentazione riportata di seguito : 
 - [Menù di Accesso Utente](Sorgenti/DOC/TA/B£AMO/B£MENU_02)

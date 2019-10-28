@@ -122,7 +122,7 @@ _7_Obbligatorietà :  alla riga dell'oggetto viene associato un carattere :
 - **'F'** :  facoltativo
 - **' '** :  non va immesso
 
-_7_Tipizzazione : si possono specificare fino a 5 TipoParametro consentiti per l'oggetto. Il valore immesso deve essere compreso tra questi (e la ricerca suggerisce questi valori), a meno cheil primo oggetto non sia '\*\*' (in tal caso vale qualunque tipo/parametro, la ricerca opera in \*CNTT).
+_7_Tipizzazione : si possono specificare fino a 5 TipoParametro consentiti per l'oggetto. Il valore immesso deve essere compreso tra questi (e la ricerca suggerisce questi valori), a meno cheil primo oggetto non sia '\*\*' (in tal caso vale qualunque tipo/parametro, la ricerca opera in - CNTT).
 
 Struttura delle righe di questa sezione : 
 

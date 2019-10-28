@@ -12,19 +12,19 @@ Di seguito viene riportato un pgm di esempio.
 # Estensione degli Oggetti Ufo attraverso gli elementi della B£O\*\* (PROCEDURA CONSIGLIATA)
 
 Di particolare interessi è poi l'utilizzo degli oggetti ufo in combinazione ad un elemento della tabella B£O\*\*. Tramite gli elementi di questa tabella è infatti possibile "mappare" oggetti X su oggetti ufo. Questo, rispetto all'utilizzo diretto degli oggetti ufo comporta alcuni vantaggi : 
-\* permette di catalogare più tipologie di oggetto separate (es. posso poi applicare la stessa metodologia a diversi tipi oggetto, es. X1, X2 ecc. che non si incrociamo fra loro, invece di avere a disposizione la sola classe \*D)
-\* permette di indirizzare in modo più mirato la parametrizzazione del tipo oggetto specifico. Mentre la classe \*D punta direttamente alla ricerca di un pgm, tramite la configurazione della B£O\*\* è possibile indicare parametrizzazioni apposite.
-\* non ci si scontra con i potenziali problemi che può comportare un codice che contiene/inizia per "\*".
+-  permette di catalogare più tipologie di oggetto separate (es. posso poi applicare la stessa metodologia a diversi tipi oggetto, es. X1, X2 ecc. che non si incrociamo fra loro, invece di avere a disposizione la sola classe \*D)
+-  permette di indirizzare in modo più mirato la parametrizzazione del tipo oggetto specifico. Mentre la classe \*D punta direttamente alla ricerca di un pgm, tramite la configurazione della B£O\*\* è possibile indicare parametrizzazioni apposite.
+-  non ci si scontra con i potenziali problemi che può comportare un codice che contiene/inizia per "\*".
 
 Per implementare questa struttura i passi sono i seguenti : 
-\* Predisporre il pgm di elaborazione dell'ufo (non secondo l'esempio riportato in precedenza, ma secondo quello che è riportato a seguire)
-\* Inserire nelle istanze della tabella \*CNTT, il codice, con carattere iniziale "X" (carattere riservato alle classi custom), con la relativa descrizione, tramite il quale si vorrà identificare il nuovo oggetto (es. codice XA, descrizione oggetto classe XA).
-\* Inserire nelle istanze della tabella B£O\*\* un elemento con lo stesso codice precedentemente inserito. In questo elemento dovranno essere indicati : 
-\*\* come Deviazione Tipo Oggetto :  \*D
-\*\* come Deviazione Parametro :  il nome del pgm di risoluzione dell'ufo
-\*\* come Gest. parametro UFO :  1
-\*\* come Tipo Parametro :  l'eventuale tipo oggetto che si vuole utilizzare come parametro (es. TAxxx)
-\*\* come Obbligatorietà Parametro :  se il parametro per l'oggetto previsto è obbligatorio "1"
+-  Predisporre il pgm di elaborazione dell'ufo (non secondo l'esempio riportato in precedenza, ma secondo quello che è riportato a seguire)
+-  Inserire nelle istanze della tabella \*CNTT, il codice, con carattere iniziale "X" (carattere riservato alle classi custom), con la relativa descrizione, tramite il quale si vorrà identificare il nuovo oggetto (es. codice XA, descrizione oggetto classe XA).
+-  Inserire nelle istanze della tabella B£O\*\* un elemento con lo stesso codice precedentemente inserito. In questo elemento dovranno essere indicati : 
+- \* come Deviazione Tipo Oggetto :  \*D
+- \* come Deviazione Parametro :  il nome del pgm di risoluzione dell'ufo
+- \* come Gest. parametro UFO :  1
+- \* come Tipo Parametro :  l'eventuale tipo oggetto che si vuole utilizzare come parametro (es. TAxxx)
+- \* come Obbligatorietà Parametro :  se il parametro per l'oggetto previsto è obbligatorio "1"
 
 Quando viene implementata questa struttura, l'entry ed i metodi di chiamata per il pgm di ufo sono differenti rispetto a quelle previste quando la struttura della B£O\*\* è assente. Per questa casistica è previsto un ulteriore sorgente di esempio.
  :  : DEC T(MB) P(SMESRC) K(B£DEC_XX2) L(1)
@@ -35,8 +35,8 @@ Quando viene implementata questa struttura, l'entry ed i metodi di chiamata per 
 # Estensione degli Oggetti Ufo attraverso gli elementi della B§O
 
 Se l'oggetto Ufo appartiene ad un archivio è inoltre possibile esternare tale relazione tramite un elemento della tabella B§O. Questa tabella permette di indicare come l'oggetto può essere identificato sul database. Questa ulteriore parametrizzazione presenta alcuni vantaggi : 
-\* Possibilità di sfruttare le potenzialità dell'SQL
-\* Possibilità di avere a disposizione la funzione standard di filtro (si veda documentazione classe Q3, e /COPY £IQ3)
+-  Possibilità di sfruttare le potenzialità dell'SQL
+-  Possibilità di avere a disposizione la funzione standard di filtro (si veda documentazione classe Q3, e /COPY £IQ3)
 
 Varie caratteristiche della classe possono poi essere indicate attraverso l'exit della £K04.
 

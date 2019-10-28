@@ -10,12 +10,12 @@ Di norma ogni servizio è ammesso per tutti gli utenti.
 Se si vuole proteggere un servizio si deve definire il suo livello nello SCRIPT B£AUTO_SER in SCP_SET.
 E' possibile assegnare un livello di autorizzazione generico per il servizio oppure specificare un livello per una sua funzione.
 Sono gestiti i seguenti TAG : 
-\* SER = Servizio
-\*\* Nam = Nome del servizio
-\*\* Aut = Livello di autorizzazione
-\* FEM = Funzione.Metodo
-\*\* Nam = Nome della funzione.metodo
-\*\* Aut = Livello di autorizzazione
+-  SER = Servizio
+- \* Nam = Nome del servizio
+- \* Aut = Livello di autorizzazione
+-  FEM = Funzione.Metodo
+- \* Nam = Nome della funzione.metodo
+- \* Aut = Livello di autorizzazione
 
 ## Dove posso comprendere l'effetto
 Accedere al modulo B£AUTO (autorizzazioni). E' presente una opzione specifica "Protezione servizi"

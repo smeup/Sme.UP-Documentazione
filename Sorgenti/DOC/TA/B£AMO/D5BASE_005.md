@@ -75,7 +75,7 @@ La tabella D5S è quella che mi permette questa definizione, l'elemento da utili
 ### Creazione oggetto UFO
  :  : DEC T(MB) P(DOC) K(OG__D) L(1)
 
-\* Risulterà fondamentale capire quando è il caso di fare un UFO o usare delle chiavi aggiuntive in Delt.UP
+-  Risulterà fondamentale capire quando è il caso di fare un UFO o usare delle chiavi aggiuntive in Delt.UP
 
 ![D5BASE_03](http://localhost:3000/immagini/D5BASE_005/D5BASE_03.png)![D5BASE_04](http://localhost:3000/immagini/D5BASE_005/D5BASE_04.png)
 ## Definizione dei valori (Tabella IGI_xx)

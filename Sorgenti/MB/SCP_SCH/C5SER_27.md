@@ -2,10 +2,10 @@
 Fornire un'analisi dell'evoluzione nel tempo dei saldi dei diversi rapporti bancari attivi per l'azienda.
 ### Parametri di lancio
 All'interno dei parametri di lancio dell'interrogazione è possibile impostare : 
-\* Data inizio :  è la data a partire dalla quale saranno analizzati i saldi. Nel caso in cui non venga impostata viene preso come default 'oggi'.
-\* Periodicità :  è la cadenza temporale con cui si vogliono visualizzare i saldi. Ad esempio, impostando una periodicità mensile verranno espostii saldi a fine mese di ogni rapporto bancario. Nel caso in cui il campo venga lasciato vuoto viene impostata come default una periodicità giornaliera.
-\* Pertinenza e Condizione :  questi due campi servono per includere o meno registrazioni gestionali e simulate. Lasciando entrambe i campi vuoti verranno incluse le registrazioni fiscali attive e sospese.
-\* Movimenti Stimati :  permette di includere l'analisi del saldo di movimenti non ancora registrati sulla banca in analisi ma per i quali è lecito ritenere che l'incasso/uscita avverrà sulla banca stessa. Un esempio potrebbe essere una fattura di acquisto con pagamento RiBa per la quale sia già stata inserita la banca d'appoggio.
+-  Data inizio :  è la data a partire dalla quale saranno analizzati i saldi. Nel caso in cui non venga impostata viene preso come default 'oggi'.
+-  Periodicità :  è la cadenza temporale con cui si vogliono visualizzare i saldi. Ad esempio, impostando una periodicità mensile verranno espostii saldi a fine mese di ogni rapporto bancario. Nel caso in cui il campo venga lasciato vuoto viene impostata come default una periodicità giornaliera.
+-  Pertinenza e Condizione :  questi due campi servono per includere o meno registrazioni gestionali e simulate. Lasciando entrambe i campi vuoti verranno incluse le registrazioni fiscali attive e sospese.
+-  Movimenti Stimati :  permette di includere l'analisi del saldo di movimenti non ancora registrati sulla banca in analisi ma per i quali è lecito ritenere che l'incasso/uscita avverrà sulla banca stessa. Un esempio potrebbe essere una fattura di acquisto con pagamento RiBa per la quale sia già stata inserita la banca d'appoggio.
 ### Dettaglio informazioni
 Per ogni rapporto bancario vengono riportati : 
 

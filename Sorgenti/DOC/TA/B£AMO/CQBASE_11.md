@@ -1,24 +1,24 @@
 # Contenuti principali della versione V3R2
 Per tutti i moduli citati nei capitoli seguenti sono state create delle nuove schede che seguono una impostazione di tipo standard basata sui seguenti criteri : 
-\* entrata su scheda cruscotto, che generalmente mostra una matrice delle sottoclassi presenti nel modulo
-\* scegliendo una sottoclasse si attiva il filtro dati che mostra il cruscotto di quella sottoclasse, generalmente la matrice con le istanze attive (es. lotti da collaudare)
-\* sezione di scheda a sinistra, che mostra le azioni del modulo
-\* passaggio alla scheda delle singole istanze
+-  entrata su scheda cruscotto, che generalmente mostra una matrice delle sottoclassi presenti nel modulo
+-  scegliendo una sottoclasse si attiva il filtro dati che mostra il cruscotto di quella sottoclasse, generalmente la matrice con le istanze attive (es. lotti da collaudare)
+-  sezione di scheda a sinistra, che mostra le azioni del modulo
+-  passaggio alla scheda delle singole istanze
 Le schede delle singole istanze (es. Lotto, Non conformità, richieste di intervento), mostrano le seguenti caratteristiche standard : 
-\* sezione di sinistra con le azioni eseguibili sulla singola istanza
-\* piede di scheda con due sezioni : 
-\*\* una per note con evidenziazione di presenza
-\*\* una per la cartella dell'istanza, con eventuale creazione della cartella e possibilità di trascinamento/aggancio di file eterogenei
-\* sezioni centrali ( 2, 3 o 4) con i dati principali dell'istanza ben evidenziati
-\* sezione di destra con diversi bottoni funzionali per le azioni più frequenti
+-  sezione di sinistra con le azioni eseguibili sulla singola istanza
+-  piede di scheda con due sezioni : 
+- \* una per note con evidenziazione di presenza
+- \* una per la cartella dell'istanza, con eventuale creazione della cartella e possibilità di trascinamento/aggancio di file eterogenei
+-  sezioni centrali ( 2, 3 o 4) con i dati principali dell'istanza ben evidenziati
+-  sezione di destra con diversi bottoni funzionali per le azioni più frequenti
 
 Qui di seguito citiamo invece i contenuti applicativi innovativi dei moduli toccati dalla versione V3R2
 
 ## Modulo CQLOTT :  gestione lotti
 La scheda del lotto permette di navigare su tutte le registrazioni che hanno come origine il lotto : 
-\* ciclo di collaudo
-\* non conformità
-\* rilievi di collaudo
+-  ciclo di collaudo
+-  non conformità
+-  rilievi di collaudo
 ![CQBASE_023](http://localhost:3000/immagini/CQBASE_11/CQBASE_023.png)
 - workflow :  questa analisi raggruppa tutti i workflow generati direttamente o indirettamente da questo lotto, permettendo di vedere tutte le attività / problemi legati al lotto. In questo modo si evidenziano subito i problemi che il lotto ha avuto e le soluzioni adottate
 
@@ -52,12 +52,12 @@ _Rappresentazione X-R delle stesse_
 ## Modulo CQRICO :  gestione dei rilievi dei collaudi
 I controlli per variabili (che producono quindi dei numeri) generano delle serie numeriche che sono analizzate dalla nuova routine statistica B£G56. La G56 è in grado di produrre degli indicatori delle serie numeriche in accordo alle indicazioni di controllo di processo (SPC) generalmente richieste. Infatti otteniamo i seguenti indicatori : 
 
-\* Media
-\* Deviazione Std
-\* Valore MAX
-\* Valore MIN
-\* Num campioni
-\* CP, CPL, CPU, CPK, CPM, CPKM
+-  Media
+-  Deviazione Std
+-  Valore MAX
+-  Valore MIN
+-  Num campioni
+-  CP, CPL, CPU, CPK, CPM, CPKM
 
 Il cui significato è descritto in wikipedia
 
@@ -68,8 +68,8 @@ Creata la scheda che permette di analizzare velocemente il parco strumenti, per 
 ## Modulo CQDOCU :  gestione documenti
 Oltre alla scheda di consultazione dei documenti, che mostra in prima battuta quelli rilasciati e poi lascia indagare sul portafoglio totale dei documenti, bisogna segnalare che la modalità di reperimento dell'ultimo livello di modifica del documento è stata completamente cambiata. Adesso è possibile legare un documento a un oggetto tramite il suo identificativo (numero documento). Al momento di consultare / visualizzare quel documento, il programma ricerca a parità di chiavi (fino a 3 chiavi, ossia tutta la griglia) se esiste un altro documento dello stesso tipo con livello di modifica più alto e rilasciato. Se lo trova, visualizza quello. Questo permette di avere sempre aggiornata la consultazione dei documenti senza dover modificare i record che li agganciano (ciclo di collaudo, FMEA, RDIN, ecc...).
 Nella precedente versione il comportamento era analogo, ma aveva due limitazioni : 
-\* l'aggancio ai record avveniva registrando la chiave del documento, quindi due tipi documenti diversi con la stessa chiave non erano distinguibili
-\* la ricerca dell'ultimo livello di modifica rilasciato avveniva solo con una chiave, rendendo inutili i documenti con più chiavi.
+-  l'aggancio ai record avveniva registrando la chiave del documento, quindi due tipi documenti diversi con la stessa chiave non erano distinguibili
+-  la ricerca dell'ultimo livello di modifica rilasciato avveniva solo con una chiave, rendendo inutili i documenti con più chiavi.
 
 ## Modulo CQVEND :  vendor rating
 La nuova scheda del vendor rating permette una consultazione efficace dei trend di comportamento, evidenziando gli indici sintetici per diversi enti, oltre al trend nei periodi dell'ente focalizzato e al dettaglio del periodo prescelto.

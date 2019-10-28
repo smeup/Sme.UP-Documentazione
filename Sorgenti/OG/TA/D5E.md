@@ -14,7 +14,7 @@ Tema del D5COSO (tabella D5O, SS dipendente dal contesto) nel quale scrivere il 
 Nel caso in cui venga specificato \*\* , viene utilizzato il tema immesso nell'elemento della tabella D5R
  :  : FLD T$D5EC **Metodo determinazione origine**
 Indica quale valore, riportato dal programma di ripresa dei sistemi conferenti, deve essere utilizzato nel passo.
-\*VAL :  uno dei dieci valori riportati dalla ripresa.
+- VAL :  uno dei dieci valori riportati dalla ripresa.
 QTA :  quantità riportata dalla ripresa.
 
  :  : FLD T$D5ED **Parametro determinazione origine**
@@ -23,36 +23,36 @@ Leggere gli help relativi ai vari programmi di ripresa, per vedere quali valori 
 Nel caso della quantità va lasciato in bianco.
  :  : FLD T$D5EE **Metodo determinazione destinazione**
 Permette di individuare in quale dei 99 valori del D5COSO bisogna scrivere il dato.
-\*BLANKS :  numero dell'indice.
-\*IND    :  sottosettore ed elemento della tabella IGI
-\*VDS    :  indice specificato in un parametro di una voce di spesa (elemento della D5V)
-\*OAV    :  indice specificato in un OAV dell'oggetto contesto
-\*PAR    :  indice specificato in un parametro di un oggetto della chiave del record
-\*PA2    :  indice specificato in un parametro di uno dei dieci oggetti riportati dal programma di ripresa
-\*CAT    :  indice specificato in un campo di un elemento della tabella D5U. L'elemento è specificato in un parametro di uno dei dieci oggetti riportati dal programma di ripresa.
+- BLANKS :  numero dell'indice.
+- IND    :  sottosettore ed elemento della tabella IGI
+- VDS    :  indice specificato in un parametro di una voce di spesa (elemento della D5V)
+- OAV    :  indice specificato in un OAV dell'oggetto contesto
+- PAR    :  indice specificato in un parametro di un oggetto della chiave del record
+- PA2    :  indice specificato in un parametro di uno dei dieci oggetti riportati dal programma di ripresa
+- CAT    :  indice specificato in un campo di un elemento della tabella D5U. L'elemento è specificato in un parametro di uno dei dieci oggetti riportati dal programma di ripresa.
 
-\*CA2    :  Sviluppo
-\*CAO    :  indice specificato in un parametro di un oggetto derivato applicando l'algoritmo di ricerca specificato nell'elemento della tabella D5M (sottosettore uguale a quello della D5E) con codice cosi composto : 
+- CA2    :  Sviluppo
+- CAO    :  indice specificato in un parametro di un oggetto derivato applicando l'algoritmo di ricerca specificato nell'elemento della tabella D5M (sottosettore uguale a quello della D5E) con codice cosi composto : 
 >codice elemento D5E + '_' + \*CAO (per esempio BOF001_\*CAO).
 Questo metodo è utile nel caso in cui l'indice sia legato ad una caratteristica di uno degli oggetti passati e non al singolo oggetto.
 
-\*D5MOVI :  indice passato dal programma di ripresa. Uno degli oggetti sarà quindi di tipo TAIGIxx, dove xx è il sottosettore specificato nel tema, a meno che la posizione dell'oggetto non venga specificata esplicitamente nel parametro.
+- D5MOVI :  indice passato dal programma di ripresa. Uno degli oggetti sarà quindi di tipo TAIGIxx, dove xx è il sottosettore specificato nel tema, a meno che la posizione dell'oggetto non venga specificata esplicitamente nel parametro.
  :  : FLD T$D5EF **Parametro determinazione destinazione**
 _Metodo_
-\*BLANKS :  numero dell'indice
-\*IND    :  pos. 1-2 :  SS della IGI pos. 3-4 :  Elemento della IGI
+- BLANKS :  numero dell'indice
+- IND    :  pos. 1-2 :  SS della IGI pos. 3-4 :  Elemento della IGI
 
 È equivalente al metodo \*BLANKS tranne che permette di utilizzare la ricerca degli elementi della IGI e risulta più esplicativo in quanto viene specificato anche il sottosettore.
-\*VDS    :  pos. 1-3 :  C£E del parametro dove è contenuta la voce di spesa; pos. 4-6 :  B£N del parametro; pos. 7-9 :  B£N della voce di spesa dove è contenuto l'indice della tabella IGI.
+- VDS    :  pos. 1-3 :  C£E del parametro dove è contenuta la voce di spesa; pos. 4-6 :  B£N del parametro; pos. 7-9 :  B£N della voce di spesa dove è contenuto l'indice della tabella IGI.
 _7_N.B. :  La categoria della voce di spesa deve essere D5V.
 
-\*OAV    :  OAV
-\*PAR    :  pos. 1-3 :  C£E del parametro; pos. 4-6 :  B£N del parametro
-\*PA2    :  pos. 1-3 :  C£E del parametro; pos. 4-6 :  B£N del parametro
-\*CAT    :  pos. 1-3 :  C£E del parametro; contenente la categoria; pos. 4-5 :  SS della D5U; pos. 6-7 :  Numero del campo dell'elemento della D5U
+- OAV    :  OAV
+- PAR    :  pos. 1-3 :  C£E del parametro; pos. 4-6 :  B£N del parametro
+- PA2    :  pos. 1-3 :  C£E del parametro; pos. 4-6 :  B£N del parametro
+- CAT    :  pos. 1-3 :  C£E del parametro; contenente la categoria; pos. 4-5 :  SS della D5U; pos. 6-7 :  Numero del campo dell'elemento della D5U
 _7_N.B. :  La categoria di un oggetto ha B£N = £01 fissa.
-\*CAO    :  pos. 1-3 :  C£E del parametro; pos. 4-6 :  B£N del parametro
-\*D5MOVI :  Indice da 01 a 10. Specifica in quale dei 10 oggetti del D5MOVI è presente l'indice da aggiornare.
+- CAO    :  pos. 1-3 :  C£E del parametro; pos. 4-6 :  B£N del parametro
+- D5MOVI :  Indice da 01 a 10. Specifica in quale dei 10 oggetti del D5MOVI è presente l'indice da aggiornare.
 
 L'oggetto deve essere un numero o una stringa numerica con valore compreso fra 01 e 99.
 In questo caso non viene effettuato alcun controllo sul tipo e sul parametro dell'oggetto, ma solo la trasformazione del codice in un valore numerico lungo 2 con 0 decimali. Al contrario, nel caso in cui il parametro sia lasciato in bianco il programma cercherà nel D5MOVI un oggetto di tipo TAIGIxx dove xx è il sottosettore della IGI specificato nel tema.

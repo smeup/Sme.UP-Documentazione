@@ -11,16 +11,16 @@ Al di sopra della matrice di selezione va inoltre incluso il seguente membro di 
 Qual'ora si voglia inoltre, che oltre a vedersi, una particolare scheda di surf, va a sostituire la ricerca standard per codice e/o descrizione andranno fatte delle considerazioni aggiuntive.
 
 Andrà gestita la recezione dei seguenti parametri : 
-\* Parametri P
-\*\* QryKey :  indica che sono stato richiamato con la ricerca per uno dei caratteri speciali previsti (!/?/ : ). Sulla base della presenza di esso andranno considerati tutti i parametri successivi
-\* Parametri INPUT
-\*\* Q1cPag :  conterrà il codice di posizionamento (per codice o descrizione a seconda della ricerca che viene sostituita). E' opportuno che qual'ora sia presente il parametro QryKey il campo di posizionamento venga sempre riempito con questa variabile, sia che sia valorizzata o meno.
-\*\* Q1cFst :  conterrà la stringa di ricerca in scansione (cioè la stringa che segue i caratteri speciali " : "). E' opportuno che qual'ora sia presente il parametro QryKey il campo di posizionamento venga sempre riempito con questa variabile, sia che sia valorizzata o meno.
+-  Parametri P
+- \* QryKey :  indica che sono stato richiamato con la ricerca per uno dei caratteri speciali previsti (!/?/ : ). Sulla base della presenza di esso andranno considerati tutti i parametri successivi
+-  Parametri INPUT
+- \* Q1cPag :  conterrà il codice di posizionamento (per codice o descrizione a seconda della ricerca che viene sostituita). E' opportuno che qual'ora sia presente il parametro QryKey il campo di posizionamento venga sempre riempito con questa variabile, sia che sia valorizzata o meno.
+- \* Q1cFst :  conterrà la stringa di ricerca in scansione (cioè la stringa che segue i caratteri speciali " : "). E' opportuno che qual'ora sia presente il parametro QryKey il campo di posizionamento venga sempre riempito con questa variabile, sia che sia valorizzata o meno.
 
 Andrano inoltre date le seguenti indicazioni.
-\* Nel pgm specifico della G46 nella posizione relativa all'utilizzo della scheda, per il modulo, invece che uno spazio, dovrà alternativamente essere indicato uno dei seguenti caratteri : 
-\*\* K se sostituisce la ricerca per codice/scansione
-\*\* k se sostituisce la ricerca per codice ma non quella per scansione
-\*\* D se sostituisce la ricerca per descrizione
-\* Nel servizio B£EQRY_SE, nella routine RCHKSEA_SF andrà esplicitamente espressa la medesima volontà di utilizzare il surf in sostituzione della ricerche standard (è sufficiente dare un'occhio alla routine per intuirne il funzionamento).
+-  Nel pgm specifico della G46 nella posizione relativa all'utilizzo della scheda, per il modulo, invece che uno spazio, dovrà alternativamente essere indicato uno dei seguenti caratteri : 
+- \* K se sostituisce la ricerca per codice/scansione
+- \* k se sostituisce la ricerca per codice ma non quella per scansione
+- \* D se sostituisce la ricerca per descrizione
+-  Nel servizio B£EQRY_SE, nella routine RCHKSEA_SF andrà esplicitamente espressa la medesima volontà di utilizzare il surf in sostituzione della ricerche standard (è sufficiente dare un'occhio alla routine per intuirne il funzionamento).
 

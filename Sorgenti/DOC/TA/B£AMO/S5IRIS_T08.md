@@ -31,9 +31,9 @@ che eseguono il programma comune
  :  : DEC T(OJ) P(\*PGM) K(S5SMES_70)
 La logica che sottintende la partenza mossa, con le exit standard, è di operare con le dichiarazioni di attività non allineate alla stesso istante, e quindi di far partire la disponibilità di ogni risorsa dalla fine dell'ultima attività dichiarata.
 Questo istante può essere
-\* la data dell'ultima attività su S5IRIS
-\* la più alta data di registrazione su P5ATTI
-\* il più alto istante di fine evento su P5ATTI
+-  la data dell'ultima attività su S5IRIS
+-  la più alta data di registrazione su P5ATTI
+-  il più alto istante di fine evento su P5ATTI
 
 ## Correzione con calendario
 L'istante di partenza di ogni risorsa (con le eventuali correzioni per partenza mossa) viene infine portato al primo istante valido per il calendario della risorsa. Questa condizione è essenziale per la strategia di schedulazione. Infatti, se l'istante di inizio disponibilità di una risorsa fosse inferiore alla sua apertura, si correrebbe il rischio di non scegliere l'impegno più urgente.

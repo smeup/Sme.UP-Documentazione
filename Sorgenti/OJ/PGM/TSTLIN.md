@@ -35,7 +35,7 @@ _1_NOTA 2 :  la £LIN riceve in ingresso una schiera di max 300 elementi lunghi 
 (da inserire in £inizi)
 
 C £INIZI BEGSR
-\* Inizializzazione schiere interne in lingua
+-  Inizializzazione schiere interne in lingua
 C ££B£2I IFNE \*BLANKS
 C EXSR £INIZL
 C ENDIF

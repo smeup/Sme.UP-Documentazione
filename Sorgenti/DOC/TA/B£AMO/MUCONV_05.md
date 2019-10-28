@@ -12,9 +12,9 @@ Il messaggio di tipo Error (rosso - gravità 30) significa che siamo di fronte a
 In questo caso bisogna valutare la possibilià di una modifica del codice sorgente originale.
 Quindi l'analisi si concentra maggiormente sulle anomalie riscontrate durante il processo di estrazione.
 I componenti che vengono analizzati sono di 3 tipi : 
-\* OS Operating system - oggetti di sistema operativo
-\* DB Database - oggetti di database
-\* IL Integrated language - oggetti derivanti dai programmi (RPG,CLP)
+-  OS Operating system - oggetti di sistema operativo
+-  DB Database - oggetti di database
+-  IL Integrated language - oggetti derivanti dai programmi (RPG,CLP)
 Il primo gruppo raccoglie tutto ciò che riguarda il sistema operativo, quindi oggetti di tipo comando (\*CMD) utenti (\*USRPRF) etc.
 Il secondo gruppo raccoglie tutto ciò che riguarda il database, quindi oggetti di tipo \*FILE
 Il terzo gruppo raccoglie tutto ciò che riguarda il linguaggio, quindi oggetti di tipo \*PGM
@@ -52,15 +52,15 @@ Come parametro di filtro è possibile scegliere la libreria convertita, l'oggett
 ![MUCONV_01E](http://localhost:3000/immagini/MUCONV_05/MUCONV_01E.png)
 ### Conversione sistema
 In quest'area è possibile analizzare la percentuale di convertibilità dei seguenti oggetti di sistema : 
-\* Comando
-\* Area dati
-\* Coda dati
-\* File
-\* Descrizione lavori
-\* File messaggi
-\* Programma
-\* Utente
-\* User space
+-  Comando
+-  Area dati
+-  Coda dati
+-  File
+-  Descrizione lavori
+-  File messaggi
+-  Programma
+-  Utente
+-  User space
 
   __Albero oggetti__
 Viene fornito un albero di oggetti di sistema per i quali si può visualizzare il dettaglio della conversione.

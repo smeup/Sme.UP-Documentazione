@@ -11,8 +11,8 @@ Ricompilare manualmente un programma (Esempio "BRAR01L di &SMESRC")
   :  : FIN
 
  ### Modo 2 - Opzione del PDM
-\* Impostare sul PDM file opzioni QAUOOPT di &SMEDEV oppure &SMEUPOBJ
-\* Aggiungere manualmente se necessario (Sostituire la e commerciale)
+-  Impostare sul PDM file opzioni QAUOOPT di &SMEDEV oppure &SMEUPOBJ
+-  Aggiungere manualmente se necessario (Sostituire la e commerciale)
 
       **XI**=B£UT24 FUNZ(CCO) METO(UI) SMEM(T) FILO(eL/eF) MEMS(eN) FILD(SMEUPUIOJ/SRC) MEMD(eN)
       **X0**=SBMJOB CMD(B£QQ02 B£CMD(B£UT24 FUNZ(CCO) METO(UI) SMEM(T) FILO(eL/eF) MEMS(eN) FILD(SMEUPUIOJ/SRC) MEMD(eN))) CPYENVVAR(\*YES)

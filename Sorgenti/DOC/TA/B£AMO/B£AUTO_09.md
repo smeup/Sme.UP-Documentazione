@@ -32,8 +32,8 @@ Per dettagli tecnici sul funzionamento si rimanda alla documentazione dell'api �
 In caso di autorizzazioni **ingresso master sui moduli**, ha precedenza l'autorizzazione associata all'applicazione a cui appartiene il modulo. Per cui, se autorizzo un'applicazione allora posso vedere tutti i moduli (a meno di autorizzazioni a livello di modulo). Viceversa, se disautorizzo un'applicazione nessun modulo della stessa sarà visibile, qualsiasi siano le autorizzazioni al modulo stesso.
 ### Schede diverse dalla scheda di oggetto
 Su **scheda** è possibile specificare nel tag S.EXD.AUT il tipo di autorizzazione qualora l'oggetto master non sia nell'oggetto 1.
-\* Esempio S.EXD.AUT OgMasTp="CN" OgMasPa="CLI" OgMasCd="&OG.K1" dove OgMasTp è il Tipo Oggetto Master, OgMasPa è il Parametro Oggetto Master e OgMasCd è il Codice Oggetto Master.
-\* Inoltre è possibile specificare OgMasO1 che, se valorizzato ad 1, usa l'oggetto 1 ricevuto dalla scheda per controllare le autorizzazioni
+-  Esempio S.EXD.AUT OgMasTp="CN" OgMasPa="CLI" OgMasCd="&OG.K1" dove OgMasTp è il Tipo Oggetto Master, OgMasPa è il Parametro Oggetto Master e OgMasCd è il Codice Oggetto Master.
+-  Inoltre è possibile specificare OgMasO1 che, se valorizzato ad 1, usa l'oggetto 1 ricevuto dalla scheda per controllare le autorizzazioni
 ### Tabelle
  **La gestione dati e la gestione allegati sono gestiti solo in caso di passaggio dalla £G99, per cui non sono usati negli elementi delle tabelle.
 

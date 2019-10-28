@@ -8,9 +8,9 @@ Il concetto di base è semplice :  installare su una macchina di rete (server) u
 
 Questa tipologia di installazione presenta vari vantaggi : 
 
-\* Looc.Up viene installato in locale sulle singole macchine quindi ha prestazioni migliori rispetto ad una installazione server
-\* L'aggiornamento delle singole installazioni di Looc.Up non richiede l'intervento manuale su tutti i PC su cui il client è installato ma solo l'aggiornamento della copia di riferimento sul server.
-\* Oltre a facilitare l'aggiornamento di Looc.Up, il sistema di sincronizzazione permette di semplificare anche il processo di installazione dei singoli client.
+-  Looc.Up viene installato in locale sulle singole macchine quindi ha prestazioni migliori rispetto ad una installazione server
+-  L'aggiornamento delle singole installazioni di Looc.Up non richiede l'intervento manuale su tutti i PC su cui il client è installato ma solo l'aggiornamento della copia di riferimento sul server.
+-  Oltre a facilitare l'aggiornamento di Looc.Up, il sistema di sincronizzazione permette di semplificare anche il processo di installazione dei singoli client.
 
 Per contro, l'attivazione di una sincronizzazione richiede una procedura di installazione e setup più complessa rispetto a quella delle installazioni client o server.
 

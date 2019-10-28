@@ -27,7 +27,7 @@ Le funzionalità, le impostazioni e gli attributi del componente sono consultabi
 ## Documenti applicativi
 - [Introduzione](Sorgenti/DOC/TA/B£AMO/LOCINP_A)
 - [Come si utilizza un input panel](Sorgenti/DOC/TA/B£AMO/LOCINP_B)
-- [Costruzione delle sezioni](Sorgenti/DOC/TA/B£AMO/LOCINP_C)
-- [Aggiornamento Caratteristiche Griglia&-x2f;Setup Campi](Sorgenti/DOC/TA/B£AMO/LOCINP_D)
-- [Funzionalità sui dati](Sorgenti/DOC/TA/B£AMO/LOCINP_F)
+- [Come si costruisce un input panel](Sorgenti/DOC/TA/B£AMO/LOCINP_C)
+- [Aggiornamento Caratteristiche Griglia/Setup Campi](Sorgenti/DOC/TA/B£AMO/LOCINP_D)
+- [Utilizzo delle Combo](Sorgenti/DOC/TA/B£AMO/LOCINP_F)
 - [Utilizzo Input Panel su Device Mobile](Sorgenti/DOC/TA/B£AMO/LOCINP_MO)

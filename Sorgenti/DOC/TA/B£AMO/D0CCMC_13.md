@@ -3,9 +3,9 @@
 Il costo base è un costo il cui calcolo è relativo alla politica dell'oggetto.
 
 Sono implementate le seguenti politiche : 
-\* >Acquisto
-\* >Lavorazione
-\* >Produzione
+-  >Acquisto
+-  >Lavorazione
+-  >Produzione
 
 ## Acquisto
 Un oggetto con politica di acquisto è un oggetto che viene interamente acquistato.
@@ -20,7 +20,7 @@ Nel caso si volesse tenere i due valori separati è necessario attribuire un ind
 ## Lavorazione
 Un oggetto con politica di lavorazione è un oggetto che viene interamente lavorato da un ente esterno a cui si forniscono dei materiali.
 Il suo costo è determinato da due componenti : 
-\* >Lavorazione
+-  >Lavorazione
 Il costo di lavorazione è deteminata direttamente dalla lettura del tipo costo indicato come "Costo Lavor.Est.Pieno" nei parametri di lancio.
 Il costo è un valore unico.
 L'indice di costo di default è quello presente nella tabella "D0D" come "Lavorazione esterna", "Variabile".
@@ -29,11 +29,11 @@ Il costo di lavorazione può essere ricaricato di un valore calcolato a partire 
 L'indice di ricarica di default è quello del costo di lavorazione, in questo caso il risultato finale è un unico valore, dove però non è più possibile distinguere il costo di lavorazione dal costo di ricarica.
 Nel caso si volesse tenere i due valori separati è necessario attribuire un indice di costo specifico per la ricarica.
 
-\* >Materiali
+-  >Materiali
 Il costo dei materiali è la somma dei costi di tutti i componenti presenti al primo livello di distinta dell'oggetto in lavorazione.
 Il costo di ciaccun componente è deteminato nel seguente modo : 
-\*\* Se valorizzato il campo "Costo Compon.Produzione" dei parametri di lancio" , direttamente dalla lettura di questo tipo di costo;
-\*\* Se non valorozzato il campo "Costo Compon.Produzione" nei parametri di lancio", dallo stesso tipo costo che si sta calcolando. In questo caso è necessario verificare che sia stato eseguito correttamente il ricalcolo del low-leve code degli oggetti in calcolo. Questo garantisce che prima vengano calcolati i costi di oggetti che serviranno poi a calcolare i costi di oggetti successivi.
+- \* Se valorizzato il campo "Costo Compon.Produzione" dei parametri di lancio" , direttamente dalla lettura di questo tipo di costo;
+- \* Se non valorozzato il campo "Costo Compon.Produzione" nei parametri di lancio", dallo stesso tipo costo che si sta calcolando. In questo caso è necessario verificare che sia stato eseguito correttamente il ricalcolo del low-leve code degli oggetti in calcolo. Questo garantisce che prima vengano calcolati i costi di oggetti che serviranno poi a calcolare i costi di oggetti successivi.
 Il costo non è un valore unico ma un schiera di valori
 Di default solo l'indice di costo definito come "Materiali", "Variabile" in tabella "D0D", viene riportato nello stesso indice di costo del padre.
 _7_Se nei materiali si gestiscono diversi indici di costo,  è necessario compilare il campo "Liv.Inf.Corrispondente" della tabella "IGI". Solo questi indici sono portati nel costo del padre
@@ -43,21 +43,21 @@ I costi di componenti con politica di acquisto sono messi allo stesso livello o 
 ## Produzione
 Un oggetto con politica di produzione è un oggetto che viene prodotto dall'azienda con fasi di lavorazione interne e/o esterne e con l'utilizzo di materiali.
 Il suo costo è determinato da due componenti : 
-\* >Produzione
+-  >Produzione
 Il costo di produzione è deteminato dal costo di ciascuna fase di lavorazione del ciclo di produzione.
 Le fasi di lavoro sono di due tipi
-\*\* _9_Lavorazioni Interne
+- \* _9_Lavorazioni Interne
 Il costo di lavorazione interna è determinato dai componenti di costo del ciclo moltiplicati per i corrispondenti valori di aliquote orarie.
 I componenti di costo sono determinati dalla scansione del ciclo.
 Le aliquote orarie sono determinate dalla lettura del tipo costo indicato come "Costo Aliquote" nei parametri di lancio.
 Il costo è una serie di valori calcolati così come indicato dalla tabella "D0C". La struttura della "D0C" associa ciascuna aliquota oraria alle varie componenti di costo del ciclo e ai corrispondenti indici di costo per determinarne rispettivamente il valore e la destinazione nella struttura del costo. E' possibile attribuire un indice di costo diverso da quello di default della tabella "D0C" mediante un programma di exit (vedi Completamento costi, Struttura).
-\*\* _9_Lavorazioni Esterne
+- \* _9_Lavorazioni Esterne
 Vedi "Lavorazione" in politica lavorazione
 Con le seguenti differenze : 
-\*\*\* nei parameri di lancio il tipo costo è quello indicato come "Costo Lavor.Est.Fase".
-\*\*\* viene determinato per la fase del ciclo, o dall'operazione se indicato dalla voce "Costo Fase per Operaz " nei parametri di lancio
-\*\*\* viene determinato con l'ente, se presente, a cui appartene la fase del ciclo  e se indicato nella voce "Forn.Lav.Est.da Ciclo" nei parameti di lancio
-\* >Materiali
+- \*\* nei parameri di lancio il tipo costo è quello indicato come "Costo Lavor.Est.Fase".
+- \*\* viene determinato per la fase del ciclo, o dall'operazione se indicato dalla voce "Costo Fase per Operaz " nei parametri di lancio
+- \*\* viene determinato con l'ente, se presente, a cui appartene la fase del ciclo  e se indicato nella voce "Forn.Lav.Est.da Ciclo" nei parameti di lancio
+-  >Materiali
 Vedi "Materiale" in politica Lavorazione.
 
 ## Ricariche oggetto

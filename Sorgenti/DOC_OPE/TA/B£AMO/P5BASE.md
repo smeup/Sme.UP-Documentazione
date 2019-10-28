@@ -1,4 +1,4 @@
 - [Gestione Articoli](Sorgenti/OJ/PGM/BRAR01)
 - [Gestione Risalite](Sorgenti/OJ/PGM/B£GRI2)
-- [Gestione dati Magazzino&-x2f;Articolo](Sorgenti/OJ/PGM/GMARMG)
+- [Gestione dati Magazzino/Articolo](Sorgenti/OJ/PGM/GMARMG)
 - [Parametri Logistici Articolo](Sorgenti/OJ/PGM/P5SI01)

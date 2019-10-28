@@ -1,10 +1,10 @@
 ## Introduzione alla gestione utenti in Web.UP
 
 Essendo una delle interfacce di Sme.UP ERP, Web.UP utilizza le stesse modalità di accesso al sistema di Looc.UP
-\* Indirizzo server
-\* Utente
-\* Password
-\* Ingresso utente
+-  Indirizzo server
+-  Utente
+-  Password
+-  Ingresso utente
 Questo significa che un utente, per accedere a Web.UP, deve possedere un profilo as400 e un B£U e un ambiente compatibile a Looc.UP
 
 Tuttavia in ambito web possono nascere esigenze differenti, ad esempio può essere necessario far accedere utenti che non hanno un profilo as400.
@@ -13,10 +13,10 @@ Per questo motivo sono state create diverse modalità di Login che supportando l
 ATTENZIONE :  per ogni modalità di login è importante chiedersi quale sarà l'utente as400 del job.
 
 WebUP gestisce quattro tipologie di login : 
-\* USRPRF
-\* FUN
-\* ROLES
-\* DIRECT
+-  USRPRF
+-  FUN
+-  ROLES
+-  DIRECT
 
 Per accedere alla configurazione dei moduli di login (aggiunta, cancellazione, modifica) occorre premere la combinazione di tasti CTRL+SHIFT+F8, inserire
 la password richiesta ed aggiornare la pagina.
@@ -200,11 +200,11 @@ Ad esempio, nel caso di direct, viene eseguita la connessione, nel caso di fun o
 ### Calcolo dell'hash
 
 Il calcolo dell'hash è eseguito usando
-\* **l'algoritmo di hashing**, secondo quanto definito nel file di configurazione.
-\* **il character encoding** da utilizzare per la conversione in byte delle, secondo quanto definito nel file di configurazione
-\* i parametri obbigatori **p** e **t**
-\* **un segreto condiviso** tra le due applicazioni, secondo quanto definito nel file di configurazione
-\* i parametri facoltativi
+-  **l'algoritmo di hashing**, secondo quanto definito nel file di configurazione.
+-  **il character encoding** da utilizzare per la conversione in byte delle, secondo quanto definito nel file di configurazione
+-  i parametri obbigatori **p** e **t**
+-  **un segreto condiviso** tra le due applicazioni, secondo quanto definito nel file di configurazione
+-  i parametri facoltativi
 
 Suppondendo, ad esempio, di utilizzare **SHA1**, **UTF-8**, ed il segreto condiviso **WEBUP91818$**, avremmo il seguente algoritmo in pseudo codice : 
 

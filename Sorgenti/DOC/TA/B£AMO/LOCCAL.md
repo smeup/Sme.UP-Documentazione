@@ -3,7 +3,7 @@
 - [Abstract](Sorgenti/DOC/TA/B£AMO/LOCCAL_F00)
 
 ## Funzionalità
-- [Modalita&-x27; di visualizzazione](Sorgenti/DOC/TA/B£AMO/LOCCAL_F01)
+- [Modalita' di visualizzazione](Sorgenti/DOC/TA/B£AMO/LOCCAL_F01)
 - [Personalizzazione eventi](Sorgenti/DOC/TA/B£AMO/LOCCAL_F02)
 - [Dinamismi](Sorgenti/DOC/TA/B£AMO/LOCCAL_F03)
 
@@ -35,9 +35,9 @@ XXFIG M(LOCCAL) P(LOCCAL_07)
 XXFIG M(LOCCAL) P(LOCCAL_08)
 
 
-\*CAL.DAT - Data selezionata
-\*CAL.INI - Data inizio
-\*CAL.FIN - Data fine
+- CAL.DAT - Data selezionata
+- CAL.INI - Data inizio
+- CAL.FIN - Data fine
 FROM.T1 - T1 al Drag
 FROM.P1 - P1 al Drag
 FROM.K1 - K1 al Drag

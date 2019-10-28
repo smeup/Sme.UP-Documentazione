@@ -21,10 +21,10 @@ Il decreto crescita 2019 ha reintrodotto il concetto di superammortamento applic
 ## Limiti ed esclusioni
 
 L'applicazione del super ammortamento è consentita quando.
-\* I beni strumentali acquistati sono nuovi (quindi non usati)
-\* I beni sono acquistati in proprietà o in leasing finanziario
-\* Il coefficiente di ammortamento del bene è superiore al 6,5%
-\* I beni sono materiali eccetto il software strumentale al funzionamento di impianti 4.0 (si veda l'iperammortamento)
+-  I beni strumentali acquistati sono nuovi (quindi non usati)
+-  I beni sono acquistati in proprietà o in leasing finanziario
+-  Il coefficiente di ammortamento del bene è superiore al 6,5%
+-  I beni sono materiali eccetto il software strumentale al funzionamento di impianti 4.0 (si veda l'iperammortamento)
 
 Sono sempre esclusi i fabbricati e costruzioni.
 

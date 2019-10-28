@@ -3,7 +3,7 @@
 - [Abstract](Sorgenti/DOC/TA/B£AMO/LOCJSO_F00)
 
 ## Funzionalità
-- [Modalita&-x27;](Sorgenti/DOC/TA/B£AMO/LOCJSO_F01)
+- [Modalita'](Sorgenti/DOC/TA/B£AMO/LOCJSO_F01)
 - [Personalizzazioni grafiche](Sorgenti/DOC/TA/B£AMO/LOCJSO_F02)
 
 Il componente Json permette di visualizzare un documento JSON.

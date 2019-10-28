@@ -15,7 +15,7 @@ Sono stati realizzati nuovi passi MPS che implementano il calcolo della previsio
 
 - [Previsioni con scelta metodo](Sorgenti/OJ/PGM/MPAP52)
 
-- [Previsioni&-x3a; correzione serie](Sorgenti/OJ/PGM/MPAP53)
+- [Previsioni :  correzione serie](Sorgenti/OJ/PGM/MPAP53)
 
 ## Indici Previsioni articolo
 Per la previsione HW sono stati scritti nuovi indici di D5COSO. Sono stati quindi modificati i programmi generali di rifasatura contesti e temi, i programmi contenenti la descrizione degli indici, e la documentazione degli indici.
@@ -32,8 +32,8 @@ Come "sottoprodotto" della previsione HW è stato implementato il calcolo dinami
 - [Scorta minima](Sorgenti/DOC/TA/B£AMO/M5_015)
 
 ### Fonti esistenti e future
-- [&-x2a; M5E - SC - Scorta minima](Sorgenti/OG/TA/M5E_SC )
-- [&-x2a; M5F - SD - Scorta datata](Sorgenti/OG/TA/M5F_SD )
+- [\* M5E - SC - Scorta minima](Sorgenti/OG/TA/M5E_SC )
+- [\* M5F - SD - Scorta datata](Sorgenti/OG/TA/M5F_SD )
 
 ## Popolamento dati articolo/plant
 La scorta dinamica viene calcolata se è stato impostato, nell'archivio articolo/plant, il criterio £01 nel campo "Calcolo scorta lotti". Dato che il comportamento di default non può variare, per attivare questo calcolo è necessario valorizzare il campo con una funzione ad hoc (ad esempio con un UPDATE di SQL). Non è stato realizzato un programma standard di popolamento in quanto le situazioni possono essere le più diversificate :  si può voler calcolare la scorta dinamica solo sugli articoli di una determinata classe, oppure ad un determinato livello di risalita, solo per un plant, ecc ...

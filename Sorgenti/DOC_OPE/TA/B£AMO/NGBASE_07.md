@@ -226,10 +226,10 @@ Nella definizione dei record della tabella Commenti per il Codice Messaggio di F
  \* %TESSERA% stampa il Codice della Tessera (tutti i caratteri)
  \* %DTSCTESS% stampa la Data della Scadenza
  \* %SALPRE% stampa il Saldo Precedente
-\* %IMPCAR% stampa l'Importo Caricato sulla Tessera
-\* %IMPUTI% stampa l'Importo Utilizzato della Tessera
-\* %SALFIN% stampa il Saldo Finale della Tessera
-\* %DATORA% stampa la Data e l'Ora
+-  %IMPCAR% stampa l'Importo Caricato sulla Tessera
+-  %IMPUTI% stampa l'Importo Utilizzato della Tessera
+-  %SALFIN% stampa il Saldo Finale della Tessera
+-  %DATORA% stampa la Data e l'Ora
 
 ## Altre Configurazioni per l'Utilizzo in Cassa
 

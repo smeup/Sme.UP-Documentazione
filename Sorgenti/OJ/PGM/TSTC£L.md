@@ -28,76 +28,76 @@ mentre FINE che è arrivata a conclusione.
 
 ### COM
 Viene ritornata la struttura tabellare completa
-\* INPUT
-\*\* Nessuno
-\* OUTPUT
-\*\* £C£L_C£LSS
-\*\* £C£L_C£LEL
-\*\* £C£L_C£LDS
-\*\* £C£L_C£LLI
-\*\* £C£L_C£VSS
-\*\* £C£L_C£VEL
-\*\* £C£L_C£VDS
-\*\* £C£L_C£VLI
-\*\* £C£L_B£GEL
-\*\* £C£L_B£GDS
-\*\* £C£L_B£GLI
+-  INPUT
+- \* Nessuno
+-  OUTPUT
+- \* £C£L_C£LSS
+- \* £C£L_C£LEL
+- \* £C£L_C£LDS
+- \* £C£L_C£LLI
+- \* £C£L_C£VSS
+- \* £C£L_C£VEL
+- \* £C£L_C£VDS
+- \* £C£L_C£VLI
+- \* £C£L_B£GEL
+- \* £C£L_B£GDS
+- \* £C£L_B£GLI
 
 ### OGG
-\* INPUT
-\*\* Se vengono passati £C£LAR/LI/SE vengono tornati solo gli oggetti della combinazione
-\*\* Se i precedenti parametri sono blank vengono tornati gli oggetti di tutto l'ambiente
-\* OUTPUT
-\*\* £C£L_OG
+-  INPUT
+- \* Se vengono passati £C£LAR/LI/SE vengono tornati solo gli oggetti della combinazione
+- \* Se i precedenti parametri sono blank vengono tornati gli oggetti di tutto l'ambiente
+-  OUTPUT
+- \* £C£L_OG
 
 ### EOG
-\* INPUT
-\*\* £C£LAR/LI
-\* OUTPUT
-\*\* £C£L_C£LSS
-\*\* £C£L_C£LEL
-\*\* £C£L_C£LDS
-\*\* £C£L_C£VSS
-\*\* £C£L_C£VEL
-\*\* £C£L_C£VDS
-\*\* £C£L_UT
-\*\* £C£L_KY
+-  INPUT
+- \* £C£LAR/LI
+-  OUTPUT
+- \* £C£L_C£LSS
+- \* £C£L_C£LEL
+- \* £C£L_C£LDS
+- \* £C£L_C£VSS
+- \* £C£L_C£VEL
+- \* £C£L_C£VDS
+- \* £C£L_UT
+- \* £C£L_KY
 
 ### ETI
-\* INPUT
-\*\* £C£LAR/LI
-\* OUTPUT
-\*\* £C£L_C£LSS
-\*\* £C£L_C£LEL
-\*\* £C£L_C£LDS
-\*\* £C£L_C£VSS
-\*\* £C£L_C£VEL
-\*\* £C£L_C£VDS
-\*\* £C£L_UT
+-  INPUT
+- \* £C£LAR/LI
+-  OUTPUT
+- \* £C£L_C£LSS
+- \* £C£L_C£LEL
+- \* £C£L_C£LDS
+- \* £C£L_C£VSS
+- \* £C£L_C£VEL
+- \* £C£L_C£VDS
+- \* £C£L_UT
 
 ### ESE
-\* INPUT
-\*\* £C£LSS/SE
-\* OUTPUT
-\*\* £C£L_C£LSS
-\*\* £C£L_C£LEL
-\*\* £C£L_C£LDS
-\*\* £C£L_C£VSS
-\*\* £C£L_C£VEL
-\*\* £C£L_C£VDS
-\*\* £C£L_UT
+-  INPUT
+- \* £C£LSS/SE
+-  OUTPUT
+- \* £C£L_C£LSS
+- \* £C£L_C£LEL
+- \* £C£L_C£LDS
+- \* £C£L_C£VSS
+- \* £C£L_C£VEL
+- \* £C£L_C£VDS
+- \* £C£L_UT
 
 ### EVA
-\* INPUT
-\*\* £C£LSV/£C£LVA
-\* OUTPUT
-\*\* £C£L_C£LSS
-\*\* £C£L_C£LEL
-\*\* £C£L_C£LDS
-\*\* £C£L_C£VSS
-\*\* £C£L_C£VEL
-\*\* £C£L_C£VDS
-\*\* £C£L_UT
+-  INPUT
+- \* £C£LSV/£C£LVA
+-  OUTPUT
+- \* £C£L_C£LSS
+- \* £C£L_C£LEL
+- \* £C£L_C£LDS
+- \* £C£L_C£VSS
+- \* £C£L_C£VEL
+- \* £C£L_C£VDS
+- \* £C£L_UT
 
 
 ## Formato video

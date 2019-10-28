@@ -10,7 +10,7 @@ Normativamente è però previsto anche di poter decidere di trasmettere le fattu
 La scelta fra i due vincoli è libera. Nel caso si ricada sulla seconda scelta sarà necessario attivare il corrispondente parametro dell'azienda AWV "Attiva B2B su Estero".
 
 Si precisa che vengono riconosciuti come soggetti italiani i soggetti che hanno una di queste caratteristiche : 
-\* Partita Iva Italiana (campo E§CPAI dell'anagrafica)
-\* Nazionalità Italiana (campo E§CNAZ = IT o blank)
-\* Codice Fiscale Italiano anche in presenza di nazionalità estera (estensione £24)
+-  Partita Iva Italiana (campo E§CPAI dell'anagrafica)
+-  Nazionalità Italiana (campo E§CNAZ = IT o blank)
+-  Codice Fiscale Italiano anche in presenza di nazionalità estera (estensione £24)
 

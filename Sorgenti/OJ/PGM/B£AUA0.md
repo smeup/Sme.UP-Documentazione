@@ -17,7 +17,7 @@ NO
 2.   Livello di autoriz. in interrogazione 01 - Fino ai costi variabili
 02 - Fino al costo industriale 03 - Fino al costo pieno
 3.   Modifica costi
-\*\* - tutti
+- \* - tutti
 AC - di acquisto
 LE - solo lavorazioni esterne
 4.   Ecc.

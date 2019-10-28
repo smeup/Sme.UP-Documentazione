@@ -1,2 +1,2 @@
-- [Autorizzazione per oggetto&-x3a; generalità](Sorgenti/DOC/TA/B£AMO/B£AUTO_08A)
-- [Autorizzazioni per Oggetto&-x3a; note tecniche](Sorgenti/DOC/TA/B£AMO/B£AUTO_N3)
+- [Autorizzazione per oggetto :  generalità](Sorgenti/DOC/TA/B£AMO/B£AUTO_08A)
+- [Autorizzazioni per Oggetto :  note tecniche](Sorgenti/DOC/TA/B£AMO/B£AUTO_N3)

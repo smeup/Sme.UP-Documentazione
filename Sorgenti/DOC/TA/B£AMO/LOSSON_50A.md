@@ -18,7 +18,7 @@ Verranno inoltre descritte le verifiche preliminari di tutti gli attori in gioco
  \*\* 5722CE3 Client Encryption 128-bit (optional for Client side encryption)
  \*\* 5722DG1 IBM HTTP Server for iSeries (optional for additional scenarios)
  \*\* 5722XE1 iSeries Access for Windows
- \* Autorizzazioni \*SECOFR per l'utente che configura il servizio (deve avere solo i diritti di \*IOSYSCFG e \*ALLOBJ)
+ \* Autorizzazioni \*SECOFR per l'utente che configura il servizio (deve avere solo i diritti di - IOSYSCFG e \*ALLOBJ)
  \* Valore di sistema QRMTSIGN impostato a \*VERIFY- iSeries configurato per utilizzare gli stessi DNS Server utilizzati da AD (sconsigliato utilizzare la tabella host).
  \* Corretta impostazione dei valori di sistema QTIME e QTIMZON
  \* Configurazione del server NTP (servizio tcp/ip SNTP) in modo che l'adattamento ora sia automatico (meglio configurarlo con il server dns interno AD)

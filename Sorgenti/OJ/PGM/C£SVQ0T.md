@@ -9,7 +9,7 @@ OV   ORD001 RIG001  SP   4         35
 !                   !    !    !    !
 !                   !    \*--------------> Sviluppo quantità
 !                   \*--> OR=Ordinato SP=Spedito Ecc.
-\*----------------------> OVE=Ordini di vendita ORA=Ord.acquisto
+- ----------------------> OVE=Ordini di vendita ORA=Ord.acquisto
 ## FORMATI VIDEO
 ## FORMATO GUIDA
 Azione
@@ -30,7 +30,7 @@ Tipo sviluppo
 Struttura del controllo 1/5
 Tipo
 E' il tipo della riga con significato prefissato dalla applicazione. Codificato a scopo descrittivo nella tabella
-\*CNTQ.
+- CNTQ.
 Avremo ad esempio : 
 OR = Ordinato
 SP = Spedito

@@ -1,4 +1,4 @@
 - [Gestione piani di campionamento](Sorgenti/OJ/PGM/CQAM10)
 - [Stampa piani di campionamento](Sorgenti/OJ/PGM/CQAS10)
-- [Definiz. PdC dati fornit.&-x2f;articolo](Sorgenti/OJ/PGM/CQAR20)
-- [Definiz. Campione e Nr.Acc.&-x2f;Nr.Rif.](Sorgenti/OJ/PGM/CQAR30)
+- [Definiz. PdC dati fornit./articolo](Sorgenti/OJ/PGM/CQAR20)
+- [Definiz. Campione e Nr.Acc./Nr.Rif.](Sorgenti/OJ/PGM/CQAR30)

@@ -4,10 +4,10 @@ Per processo intendiamo tipicamente un job, escludendo quindi al momento concett
 Il processo corrisponde generalmente all'oggetto tipizzato \*PGM ed è controllato da servizio di sistema jobManager
 
 ## Funzioni
-\* create
-\* spawn
-\* close
-\* trace
+-  create
+-  spawn
+-  close
+-  trace
 
 ## Chiamate di sistema
 

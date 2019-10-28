@@ -54,19 +54,19 @@ Se definito tale in creazione distinta verranno prese in considerazione solo le 
 Definisce la periodicità con la quale viene consolidato il rapporto.
  :  : FLD T$C5JU **Maturazione Effetti**
 Per i rapporti utilizzati per la presentazione di effetti, condiziona la modalità di contabilizzazione proposta per la contabilizzazione della maturazione degli effetti.
-\* Per Valuta :  prende la scadenza o la data valuta se attiva la tesoreria e per ognuna di queste viene fatta un'apposita registrazione
-\* Per Valuta Adeguata :  prende la scadenza o la data valuta se attiva la tesoreria ed in base a quella calcolata la data valuta adeguata
-\* Ad una Data :  viene fatta un unica registrazione suddivisa in righe per scadenza o data valuta se attiva la tesoreria
-\* Per Fine Mese Scadenza :  prende le scadenza le porta a fine mese e viene fatta una registrazione per ogni data ottenuta
-\* Per Scadenza :  prende la scadenza o se è attiva la tesoreria invece che fare una regitrazione per data valuta, viene fatta una registrazione per ogni combinazione di data valuta/data scadenza
+-  Per Valuta :  prende la scadenza o la data valuta se attiva la tesoreria e per ognuna di queste viene fatta un'apposita registrazione
+-  Per Valuta Adeguata :  prende la scadenza o la data valuta se attiva la tesoreria ed in base a quella calcolata la data valuta adeguata
+-  Ad una Data :  viene fatta un unica registrazione suddivisa in righe per scadenza o data valuta se attiva la tesoreria
+-  Per Fine Mese Scadenza :  prende le scadenza le porta a fine mese e viene fatta una registrazione per ogni data ottenuta
+-  Per Scadenza :  prende la scadenza o se è attiva la tesoreria invece che fare una regitrazione per data valuta, viene fatta una registrazione per ogni combinazione di data valuta/data scadenza
  :  : FLD T$C5JV **Rimargino Castelletto**
 Per i rapporti di sbf indica la data che viene presa in considerazione la ricostruzione del castelletto.
-\* Con valore ' ' viene utilizzata la data scadenza
-\* Con valore '1' viene utilizzata la data valuta
+-  Con valore ' ' viene utilizzata la data scadenza
+-  Con valore '1' viene utilizzata la data valuta
  :  : FLD T$C5JW **Divisione Calcolo Interessi**
 Questo campo ha valenza solo qualora sia stata attivata la gestione della divisione nella tabella C51. In questo caso, non essendo la divisione gestita in tesoreria, ma obbligatoria per la contabilità, risulta necessario attribuire una divisione alle procedure di calcolo automatiche elencate a seguire : 
-\* Contabilizzazione Operazioni da Spunta Automatica
-\* Contabilizzazione Interessi
+-  Contabilizzazione Operazioni da Spunta Automatica
+-  Contabilizzazione Interessi
 Attraverso il campo in oggetto, sarà quindi possibile attribuire la divisione obbligatoriamente necessaria.
 Qualora poi il movimento debba essere attribuito/suddiviso a differenti divisioni, tale attribuzione sarà necessario eseguirla manualmente (se opportuno anche solo a fine mese-trimestre).
 

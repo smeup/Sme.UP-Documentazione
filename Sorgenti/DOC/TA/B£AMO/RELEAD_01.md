@@ -4,14 +4,14 @@
 
 ## Schema relazioni
 ![X1MARK05A](http://localhost:3000/immagini/RELEAD_01/X1MARK05A.png)## Dati
-\* Codice identificativo
-\* Date apertura / scadenza passo successivo
-\* Responsabile
-\* Account
-\* Referente
-\* Tipo lead
-\* Fonte di provenienza :  evento/fiera, sito internet, newsletter, ecc
-\* Campagna origine
+-  Codice identificativo
+-  Date apertura / scadenza passo successivo
+-  Responsabile
+-  Account
+-  Referente
+-  Tipo lead
+-  Fonte di provenienza :  evento/fiera, sito internet, newsletter, ecc
+-  Campagna origine
 
 ![X1MARK0502](http://localhost:3000/immagini/RELEAD_01/X1MARK0502.png)
 ![X1MARK0501](http://localhost:3000/immagini/RELEAD_01/X1MARK0501.png)
@@ -27,9 +27,9 @@ In fase di creazione il responsabile viene ereditato dalla lead ma può essere m
  \* offerte, ordini, fatture
 
 ### Analisi risultati lead
-\* Conto economico di commessa (costi diretti, margini delle commesse cliente derivate)
-\* NUmero caratteristici
-\*\* n. opportunità, (vinte e perse)
+-  Conto economico di commessa (costi diretti, margini delle commesse cliente derivate)
+-  NUmero caratteristici
+- \* n. opportunità, (vinte e perse)
 
 
 

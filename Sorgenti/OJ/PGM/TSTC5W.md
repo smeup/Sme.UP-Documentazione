@@ -20,12 +20,12 @@
 ### DATI DI INPUT
 **£C5WTR/CR** :  va indicato l'oggetto di riferimento della scansione. Per le funzioni
 INZ/RIT è ammesso solo un oggetto CN, mentre per le funzioni INI/LET sono ammessi gli oggetti : 
-\* CN o LICN
-\* D8\*YYMD o LID8\*YYMD (Intesa come Data Scadenza)
-\* TAAGE o LITAAGE (Inteso come Responsabile del Credito)
-\* TAC5F o LITAC5F
-\* V2C5TSC
-\* AZ
+-  CN o LICN
+-  D8\*YYMD o LID8\*YYMD (Intesa come Data Scadenza)
+-  TAAGE o LITAAGE (Inteso come Responsabile del Credito)
+-  TAC5F o LITAC5F
+-  V2C5TSC
+-  AZ
 **£C5WAZ** :  Azienda (se impostata verrano analizzate solo le rate dell'azienda indicata, altrimenti verranno analizzate tutte le aziende)
 **£C5WPE/CO** :  Pertinenza/Condizione (permettondo di filtrare le rate in base ai flag 01/02)
 **£C5WDR** :  Data registrazione limite (se impostata indica il riferimento temporale della situazione delle scadenze. ATTENZIONE!!! se impostato questo parametro comporta un certo appesentimento dell'elaborazione in quanto dovranno essere elaborate tutte le rate del soggetto e non solo quelle in scadenza ad oggi...)

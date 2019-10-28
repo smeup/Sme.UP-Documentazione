@@ -6,17 +6,17 @@ _1_Funzioni e _5_Metodi
  \* _1_Blanks, Restituisce indicatore di errore acceso se non esiste esponente di modifica dell'oggetto.
  \* _1_RIC, Ricerca esponente di modifica dell'oggetto. Viene richiamato il programma di lista degli esponenti di modifica con la possibilità di scegliere l'esponente.
  \* _1_VAL, Ritorna il primo esponente valido rispetto alla data impostata nel metodo
-\*\* _5_INI, alla data di validità
-\*\* _5_D01, alla data libera DT01
-\*\* _5_D02, alla data libera DT02
-\*\* _5_D0......
-\*\* _5_COD, controlla la validità rispetto al parametro passato
+- \* _5_INI, alla data di validità
+- \* _5_D01, alla data libera DT01
+- \* _5_D02, alla data libera DT02
+- \* _5_D0......
+- \* _5_COD, controlla la validità rispetto al parametro passato
  \* _1_CRV, Ricerca se non impostato l'esponete di modifica valido ad una data, se impostato  ne controlla la  validità. La data utilizzata è quella descritta nel metodo
-\*\* _5_INI, alla data di validità
-\*\* _5_D01, alla data libera DT01
-\*\* _5_D02, alla data libera DT02
-\*\* _5_D0......
-\*\* _5_COD, controlla la validità rispetto al parametro passato
+- \* _5_INI, alla data di validità
+- \* _5_D01, alla data libera DT01
+- \* _5_D02, alla data libera DT02
+- \* _5_D0......
+- \* _5_COD, controlla la validità rispetto al parametro passato
 
 # Input
 I dati di input oltre alla funzione e metodo sono passati tramite la DS del file C£ESMO e le variabili £IEMPA(tipo esponente) e £IEMCD(codice esponente)

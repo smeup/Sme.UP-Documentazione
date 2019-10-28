@@ -20,10 +20,10 @@ La finestra viene proposta automaticamente dopo quella dei riferimenti :
 ![QA_ENNC004](http://localhost:3000/immagini/MBDOC_OGG-P_CQNC01/QA_ENNC004.png)
 ### Avanzamento NC
 La gestione dei passi successivi all'immissione della NC
-\* inserimento e gestioni azioni correttive/preventive
-\* destinazione materiale
-\* aspetti amministrativi (blocco pagamento fattura, bolla di reso a fornitore, nota di accredito)
-\* chiusura NC
+-  inserimento e gestioni azioni correttive/preventive
+-  destinazione materiale
+-  aspetti amministrativi (blocco pagamento fattura, bolla di reso a fornitore, nota di accredito)
+-  chiusura NC
 possono essere controllati da un processo di Work Flow  (esempio fornito nel modello d'installazione)
 ![CQ_NCNF_21](http://localhost:3000/immagini/MBDOC_OGG-P_CQNC01/CQ_NCNF_21.png)
 ### Gestione amministrativa NC

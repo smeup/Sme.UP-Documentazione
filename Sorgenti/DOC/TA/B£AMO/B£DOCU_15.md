@@ -15,10 +15,10 @@ Alla generazione/pubblicazione di un documento corrisponde una specifica richies
 Questa richiesta può essere inserita anche in una sequenza di generazione (flusso).
 
 Abbiamo quindi le seguenti possibilità di generare/pubblicare documenti : 
-\* Manuale di un singolo documento
-\* Automatica di un singolo documento
-\* Manuale di tutti i book delle applicazioni
-\* Automatica di tutti i book delle applicazioni
+-  Manuale di un singolo documento
+-  Automatica di un singolo documento
+-  Manuale di tutti i book delle applicazioni
+-  Automatica di tutti i book delle applicazioni
 
 Posto che la generazione automatica di un singolo documento è poco significativa, illustreremo le altre funzionalità.
 
@@ -79,25 +79,25 @@ Vediamo in dettaglio la funzione che genera i documenti in Latex :
 F(FRM;B£SER_22;LAT.PRE) 1(MB;DOC_XXX;YYYY) P(...)
 
 Il campo P ammette i seguenti parametri : 
-\* Parametro Show : 
-\*\* Yes :  apre la finestra di gestione setup con il setup corrente
-\*\* No :  non apre la finestra di gestione Setup
-\* Parametro  Edit : 
-\*\* Yes :  l'utente può modificare il setup (se presentato nel gestore)
-\*\* No :  l'utente non può modificare il setup
-\* Parametro Sav : 
-\*\* Yes o non definito :  salva nella cartella \\SMEA.IT\DFS_ROOT\SMEUP\SMEDOC\DOC_xxx
-\*\* No :  non salva una copia del file generato
-\* Tmp :  salva nella cartella di installazione di LoocUp, cartella LOOCUP_TMP\DOC_xxx.
-\* Parametro Snd : 
-\*\* Yes :  invia il documento generato in FTP sul server AS400A.SMEA.IT.
-\*\* No o non definito :  Non viene inviato
-\* Parametro Snd2 : 
-\*\* Yes :  invia il documento generato in FTP sul server DEMO.SMEUP.COM. NOTA :  l'encoding utilizzato per l'invio dei comandi è UTF-8, pertanto solo server che implementano questa funzionalità sapranno gestire correttamente i nomi dei file se contengono caratteri non ASCII.
-\*\* No o non definito :  non viene inviato
-\* Parametro Mod : 
-\*\* BAT :  specifica la modalità di generazione BATCH. Questa modalità forza i seguenti valori :  Show = No, Edit = NO, Opn = No, Sav = Yes.
-\*\* Altro o non definito :  vengono utilizzati i parametri passati nel P
+-  Parametro Show : 
+- \* Yes :  apre la finestra di gestione setup con il setup corrente
+- \* No :  non apre la finestra di gestione Setup
+-  Parametro  Edit : 
+- \* Yes :  l'utente può modificare il setup (se presentato nel gestore)
+- \* No :  l'utente non può modificare il setup
+-  Parametro Sav : 
+- \* Yes o non definito :  salva nella cartella \\SMEA.IT\DFS_ROOT\SMEUP\SMEDOC\DOC_xxx
+- \* No :  non salva una copia del file generato
+-  Tmp :  salva nella cartella di installazione di LoocUp, cartella LOOCUP_TMP\DOC_xxx.
+-  Parametro Snd : 
+- \* Yes :  invia il documento generato in FTP sul server AS400A.SMEA.IT.
+- \* No o non definito :  Non viene inviato
+-  Parametro Snd2 : 
+- \* Yes :  invia il documento generato in FTP sul server DEMO.SMEUP.COM. NOTA :  l'encoding utilizzato per l'invio dei comandi è UTF-8, pertanto solo server che implementano questa funzionalità sapranno gestire correttamente i nomi dei file se contengono caratteri non ASCII.
+- \* No o non definito :  non viene inviato
+-  Parametro Mod : 
+- \* BAT :  specifica la modalità di generazione BATCH. Questa modalità forza i seguenti valori :  Show = No, Edit = NO, Opn = No, Sav = Yes.
+- \* Altro o non definito :  vengono utilizzati i parametri passati nel P
 
 _1_N.B.
 Affinchè il file generato venga inviato via FTP è necessario che sia specificata una cartella di destinazione.  Per evitare di sovrascrivere book già generati o per effettuare dei test è consigliato indicare Tmp come valore del parametro Sav.
@@ -115,5 +115,5 @@ A questo punto qualcuno modifica le autorizzazioni ai manuali su iSeries attrave
 Il motivo è che la richiesta fatta dal Browser ed intercettata dal programma Java sottomette la Fun nello stesso Job iSeries di prima, che ha i dati in cache e quindi ripresenta gli stessi risultati.
 
 Per evitare questo meccanismo ci sono 2 modi : 
-\* Forzo la Fun a non utilizzare la cache;
-\* Individuo od elimino il Job in questione sull'iSeries in modo che la richiesta fatta ne crei uno nuovo;
+-  Forzo la Fun a non utilizzare la cache;
+-  Individuo od elimino il Job in questione sull'iSeries in modo che la richiesta fatta ne crei uno nuovo;

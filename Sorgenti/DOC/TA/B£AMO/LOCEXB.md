@@ -41,7 +41,7 @@ Gli esempi del componente matrice sono consultabili tramite due sezioni differen
 
 # Documenti applicativi
 - [Esempi di matrice - XML base](Sorgenti/DOC/TA/B£AMO/LOCEXB_T01)
-- [Iniziare con matrici - &-x2f;COPY](Sorgenti/DOC/TA/B£AMO/LOCEXB_T02)
+- [Iniziare con matrici - /COPY](Sorgenti/DOC/TA/B£AMO/LOCEXB_T02)
 - [Paginazione](Sorgenti/DOC/TA/B£AMO/LOCEXB_T03)
 - [PopUp Matrice](Sorgenti/DOC/TA/B£AMO/LOCEXB_T04)
 - [Shortcut](Sorgenti/DOC/TA/B£AMO/LOCEXB_T05)
@@ -57,7 +57,7 @@ Gli esempi del componente matrice sono consultabili tramite due sezioni differen
 - [Copertina matrice](Sorgenti/DOC/TA/B£AMO/LOCEXB_T15)
 - [Variabili gestite da una Matrice](Sorgenti/DOC/TA/B£AMO/LOCEXB_T16)
 - [Cella J4BTN](Sorgenti/MB/DOC_OGG/J4_BTN)
-- [Utilizzo Attributo CellStyle su Device Mobile](Sorgenti/DOC/TA/B£AMO/LOCEXB_MO)
+- [Utilizzo Matrice su Device Mobile](Sorgenti/DOC/TA/B£AMO/LOCEXB_MO)
   T02 Video/Blog collegati
   DEC T(MB) P(DOC_VID) K(A£BASE_A01)
   DEC T(MB) P(DOC_VID) K(A£DEMO_A01)

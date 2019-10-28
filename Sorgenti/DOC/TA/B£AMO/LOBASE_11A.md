@@ -14,20 +14,20 @@ Tale parametro può assumere 4 differenti valori :
 
 # Le variabili di scheda
 La gerarchia è questa : 
-\* Loo.Var :  di loocup
-\* Sch.Var :  di form di scheda (si può dire che valga per tutta la schermata)
-\* Ssc.Var :  di sottoscheda (vale solo per una particolare sottoscheda)
-\* Sec.Var :  di sezione (vale solo per una sezione di scheda)
+-  Loo.Var :  di loocup
+-  Sch.Var :  di form di scheda (si può dire che valga per tutta la schermata)
+-  Ssc.Var :  di sottoscheda (vale solo per una particolare sottoscheda)
+-  Sec.Var :  di sezione (vale solo per una sezione di scheda)
 
 Dato un nome di una variabile viene sempre cercato a tutti i livelli partendo da quello di sezione.
 
 NOTA BENE :  Non esiste il concetto di variabile a valore nullo, per cui in una sezione se una variabile avrebbe valore nullo, tale variabile non viene considerata e viene cercata nei livelli precedenti.
 
 Queste variabili possono essere stanziate : 
-\* In sezione in modo automatico, tramite i dati presenti nella sezione (vedasi la documentazione di ogni componente)
-\* Negli script di scheda tramite i tag S.VAR.VAL
-\* Negli script di scheda tramite i corrispondenti attributi indicabili sui tag di definizione dei dinamismi (G.DIN)
-\* Tramite la scrittura del pertinente xml dai servizi richiamati (vedasi routine JAX_BVAR_I/VAR/VAR_F della COPY £JAX_C1)
+-  In sezione in modo automatico, tramite i dati presenti nella sezione (vedasi la documentazione di ogni componente)
+-  Negli script di scheda tramite i tag S.VAR.VAL
+-  Negli script di scheda tramite i corrispondenti attributi indicabili sui tag di definizione dei dinamismi (G.DIN)
+-  Tramite la scrittura del pertinente xml dai servizi richiamati (vedasi routine JAX_BVAR_I/VAR/VAR_F della COPY £JAX_C1)
 
 # Scope della variabili
 

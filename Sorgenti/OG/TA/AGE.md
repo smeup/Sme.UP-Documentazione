@@ -47,6 +47,6 @@ gennaio verrà liquidata nel periodo corrispondente ad aprile).
  :  : FLD T$AGEP **Agente Enasarco**
 Attraverso questo campo è possibile unificare le elaborazioni dei documenti proforma  di più agenti e del calcolo contributi, tipicamente quando più codici agente corrispondono ad un solo fornitore.
 E' importante notare che : 
-\* Non sono gestiti collegamenti multilivello (es. un codice collegato ad un codice che è a sua volta collegato ad un altro codice, a->-b->c)
-\* Il codice di riferimento deve a sua volta aver indicato se stesso come Agente Enasarco
-\* E' inoltre importante che se viene modificato/aggiunto il campo, della tabella, sarà necessario riallineare il campo P§COD1 scritto sul file V5PROV.
+-  Non sono gestiti collegamenti multilivello (es. un codice collegato ad un codice che è a sua volta collegato ad un altro codice, a->-b->c)
+-  Il codice di riferimento deve a sua volta aver indicato se stesso come Agente Enasarco
+-  E' inoltre importante che se viene modificato/aggiunto il campo, della tabella, sarà necessario riallineare il campo P§COD1 scritto sul file V5PROV.

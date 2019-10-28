@@ -82,7 +82,7 @@ di controllo nella costruzione della scheda. Esse permettono di :
 Mediante l'utilizzo di variabili è possibile rendere dinamico il comportamento della scheda, rendendola sensibile a oggetti e opzioni passati nella chiamata e alle scelte dell'utente nella navigazione della stessa.
 
 ## Help di dettaglio
-- [Componenti ed eventi](Sorgenti/DOC/TA/B£AMO/EDT_SCH)
+- [Reference istruzioni script](Sorgenti/DOC/TA/B£AMO/EDT_SCH)
 
 ## Forme grafiche delle sezioni
 Sono i tipi di rappresentazione dei dati utilizzabili nelle subsezioni di una scheda.

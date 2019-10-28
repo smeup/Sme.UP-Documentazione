@@ -5,17 +5,17 @@ _1_E' MOLTO IMPORTANTE LEGGERE ATTENTAMENTE QUESTA DOCUMENTAZIONE PRIMA DI ESEGU
 # OBIETTIVI
 
 Questa scheda si pone questi obiettivi : 
-\* Dare una traccia di massima delle azioni da eseguire
-\* Fornire le funzioni necessarie all'esecuzione delle principali azioni di aggiornamento
+-  Dare una traccia di massima delle azioni da eseguire
+-  Fornire le funzioni necessarie all'esecuzione delle principali azioni di aggiornamento
 **Non si pone invece l'obiettivo di poter completare l'adeguamento al nuovo assoggettamento in modo totalmente automatico. Per tale motivo, una volta presa coscienza delle principali caratteristiche di ognuna delle azioni riportate a seguire, qualora tali specifiche non rispecchiassero la realtà aziendale si consiglia di applicare le opportune modifiche al pgm di esecuzione. 
 
 # NOTE GENERALI
 
-\* Ogni azione può essere eseguita con un doppioclick o premendo il tasto invio sul nodo dell'albero posto sulla sinistra
-\* All'esecuzione per tutte le azioni che comportano un aggiornamento dei dati verrà comunque richiesta un'azione di conferma prima dell'effettiva esecuzione
-\* Ogni azione può anche essere eseguita più volte, senza che vi sia pericolo di aggiornamenti anomali dei dati
-\* Se sul sistema sono presenti più ambienti, al netto di avere già una conoscenza precisa della struttura di tali ambienti, è necessario eseguire le azioni su ognuno degli ambienti. Se vi sono dati in comune su questi ambienti, quando l'azione su tali dati verrà ripetuta, l'effetto sarà semplicemente il fatto che non verranno riscontrati dati da aggiornare.
-\* In linea generale queste azioni assumono che il codice azienda sia stato fissato nella tabella B£2. Se così non fosse sarà necessario intervenire nei programmi di esecuzione in modo opportuno.
+-  Ogni azione può essere eseguita con un doppioclick o premendo il tasto invio sul nodo dell'albero posto sulla sinistra
+-  All'esecuzione per tutte le azioni che comportano un aggiornamento dei dati verrà comunque richiesta un'azione di conferma prima dell'effettiva esecuzione
+-  Ogni azione può anche essere eseguita più volte, senza che vi sia pericolo di aggiornamenti anomali dei dati
+-  Se sul sistema sono presenti più ambienti, al netto di avere già una conoscenza precisa della struttura di tali ambienti, è necessario eseguire le azioni su ognuno degli ambienti. Se vi sono dati in comune su questi ambienti, quando l'azione su tali dati verrà ripetuta, l'effetto sarà semplicemente il fatto che non verranno riscontrati dati da aggiornare.
+-  In linea generale queste azioni assumono che il codice azienda sia stato fissato nella tabella B£2. Se così non fosse sarà necessario intervenire nei programmi di esecuzione in modo opportuno.
 
 # AZIONI
 

@@ -1,2 +1,2 @@
 - [Singolo evento](Sorgenti/DOC/TA/B£AMO/PHRETE_S01)
-- [Attivazione batch (test di massa](Sorgenti/DOC/TA/B£AMO/PHRETE_S02)
+- [Attivazione batch (test di massa)](Sorgenti/DOC/TA/B£AMO/PHRETE_S02)

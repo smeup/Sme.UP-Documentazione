@@ -23,7 +23,7 @@ Il nome della stampante ed il numero di copie sono obbligatori.
 E' possibile memorizzare valori di default per i campi descritti, richiamando ogni configurazione da "Memorizzazione dati video" in alto a sinistra.
 
 ## Installazione e configurazione del componente : 
-- [Installazione&-x2f;configurazione SmePD](Sorgenti/DOC/TA/B£AMO/NSPRNT_02I)
+- [Installazione/configurazione SmePD](Sorgenti/DOC/TA/B£AMO/NSPRNT_02I)
 ## Possibili malfunzionamenti con SmePD, troubleshooting, etc. : 
 - [Possibili malfunzionamenti con SmePD](Sorgenti/DOC/TA/B£AMO/NSPRNT_02E)
 

@@ -1,6 +1,6 @@
 # PREPARAZIONE AMBIENTE
 Per la preparazione del nuovo ambiente si rimanda al documento del progetto Time To Run : 
-- [Installazione Sme.UP&-x2f;Looc.UP](Sorgenti/DOC/TA/B£AMO/A£BASE_INS)
+- [Installazione Sme.UP/Looc.UP](Sorgenti/DOC/TA/B£AMO/A£BASE_INS)
 
 Per crare un nuovo ambiente pulito copiandolo da SMEUP_FIL utilizzare l'istruzione 'sbmjob cmd(cpylib fromlib(SMEUP_FIL) tolib(SMEDATXXX)) \*jobq(qbatch)'
 

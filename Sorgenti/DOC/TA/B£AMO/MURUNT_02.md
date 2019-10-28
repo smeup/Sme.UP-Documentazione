@@ -2,14 +2,14 @@
 
 Un componente è un aggregato di moduli e servizi che può avere un cliclo di vita autonomo rispetto all'applicazione.
 Esempio di componenti sono : 
-\* Database
-\* Compilatore
-\* Connettori Web
+-  Database
+-  Compilatore
+-  Connettori Web
 
 Vengono (o dovrebbero) essere gestiti i seguenti stati di un componente : 
-\* Attivo
-\* Disattivo
-\* Modificato
+-  Attivo
+-  Disattivo
+-  Modificato
 
 ## Configurazione
 Un componente può essere configurato tramite l'impostazione della reference config.

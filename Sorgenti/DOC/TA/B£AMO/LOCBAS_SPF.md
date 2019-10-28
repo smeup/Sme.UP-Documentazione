@@ -276,12 +276,12 @@ Funzionamento
 ## L'algoritmo di calcolo dell'hash
 
 Il calcolo dell'hash è eseguito usando
-\* **l'algoritmo di hashing**, SHA1.
-\* **il character encoding** UTF-8 (da verificare)
-\* codice di connessione parametro **codcon**
-\* timestamp parametro **timestamp**
-\* **un segreto condiviso** tra le due applicazioni, secondo quanto definito nel file di configurazione
-\* i parametri facoltativi
+-  **l'algoritmo di hashing**, SHA1.
+-  **il character encoding** UTF-8 (da verificare)
+-  codice di connessione parametro **codcon**
+-  timestamp parametro **timestamp**
+-  **un segreto condiviso** tra le due applicazioni, secondo quanto definito nel file di configurazione
+-  i parametri facoltativi
 
 L'ordine in cui vengono concatenati i campi
 Suppondendo, ad esempio, di utilizzare **SHA1**, **UTF-8**, ed il segreto condiviso  **WEBUP91818$** ( modificato di comune accordo tra chi implementa il client chi implementa il server), avremmo il seguente algoritmo in pseudo codice : 

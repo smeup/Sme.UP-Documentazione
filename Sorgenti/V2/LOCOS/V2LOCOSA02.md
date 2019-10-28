@@ -6,7 +6,7 @@ All'apertura la scheda si presenta nel modo seguente :
 
 
 ![LOA02_001](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA02/LOA02_001.png)
- \* Nella sezione denominata _2_vista vengono elencati i tipi di valori disponibili per l'interrogazione, quando viene selezionato un valore nella parte di destra viene emesso il corrispondnete report. Le viste hanno la seguente classificazione : 
+ \* Nella sezione denominata _2_vista vengono elencati i tipi di valori disponibili per l'interrogazione, quando viene selezionato un valore nella parte di destra viene emesso il corrispondente report. Le viste hanno la seguente classificazione : 
  \*\* _3_Valori base, sono le due serie passate, più la somma, calcolata, dei valori della prima e della seconda serie
  \*\* _3_Medie, sono le medie e la numerosità, calcolate, dei valori delle due serie
  \*\* _3_Aumenti, mostra l'incremento (qtà o percentuale) rispetto al periodo precedente (il periodo è quello della riga precedente, es. se in orizzontale i periodi sono gli anni questa funzione mostra gli aumenti rispetto all'anno precedente)
@@ -34,7 +34,7 @@ Mostra i record in dettaglio, ordinati per data di riferimento :
 Nell'esempio viene visualizzato l'importo netto mensile nei vari anni presenti nelle statistiche.
 
 ### Visualizzazione Dettaglio dei valori
-Riporta i valori precedenti in froma di matrice dove nella prima colonna ci sono i valori dell'ordinamento verticale, nella seconda colonna quelli dell'ordinamento orizzontale, nella taerza il valore selezionato in "Vista" : 
+Riporta i valori precedenti in forma di matrice dove nella prima colonna ci sono i valori dell'ordinamento verticale, nella seconda colonna quelli dell'ordinamento orizzontale, nella terza il valore selezionato in "Vista" : 
 ![LOA02_005](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA02/LOA02_005.png)
 ### Visualizzazione Andamento
 Mostra il grafico dell'andamento dei valori nei vari periodi. Sono calcolati e visualizzati anche la media mobile e la media aritmetica : 
@@ -65,5 +65,29 @@ Esegue una serie di analisi statistiche che possono venire rappresentate grafica
 ![LOA02_014](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA02/LOA02_014.png)
 
 - _2_Previsione - Holt Winters, esegue una previsione sui periodi futuri con il metodo di Holt Winters
+
+### Previsioni con metodo Holt Winter
+Si eseguono i seguenti passi : 
+
+- Si assume il verticale come esercizio (di norma anno) e l'orizzontale come periodo (di norma mese)
+- Si determinano gli esercizi sensati nel modo seguente : 
+-- Si individuano gli estremi (primo e ultimo valido)
+-- Se si scostano dalla media degli altri periodi per oltre il 50% si escludono
+-- Considerati i periodi validi rimanenti si determina la fine da considerare
+-- In funzione del numero di periodi per esercizio di calcolano gli esercizi validi
+-- Si determina l'inizio retrocedendo dall'ultimo periodo per gli esercizi validi
+- La serie (che sarà un multiplo del numero di periodi) viene passata alla funzione di calcolo
+- Si emette la serie di origine, il risultato (e la defferenza)
+- Si emette il nuovo esercizio calcolato (si assume origine=calcolato per non emettere delta)
+
+
+L'analisi grafica consente di verificare la bontà del calcolo
+
+### Funzione di set'play (se autorizzate)
+Emettiamo i valori per
+
+- la determinazione degli esercizi come sopra esposto (con tutti i numeri del calcolo)
+- la serie passata
+- tutti i numeri ricevuti dalla COPY £G56
 
 ![LOA02_015](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA02/LOA02_015.png)

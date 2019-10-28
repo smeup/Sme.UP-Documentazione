@@ -19,6 +19,7 @@ In questo documento vengono indicate e trattate solo le Program Call che riguard
 Inizializzazione del JOB delle Program Call.
 Questa Program Call va assolutamente fatta una sola volta per ogni sessione e deve essere tassativamente la prima Program Call fatta.
 Nel £JACK1 va specificato il CCSID del client.
+In £JACD2 è possibile passare utente applicativo e secret. Il secret per ora non viene utilizzato. Per passare tali dati è necessario usare gli attributi USER e SECRET :  USER(xxxx) SECRET (yyyy).
 
 ### SMEVER JAC
 Il client chiede quale sia la "versione" del JAJAC0. Questo è servito in passato per gestire la retrocompatibilità con versioni di JAJAC0 molto diverse tra loro.

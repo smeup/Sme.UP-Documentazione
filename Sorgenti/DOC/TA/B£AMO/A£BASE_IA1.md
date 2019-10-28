@@ -7,10 +7,10 @@ Il QSTRUP nella SMESYS va quindi scritto con attenzione (non posso ad esempio fa
 Tutte le altre librerie sono IASP-izzabili.
 
 Per replicare su sistema target la SMESYS ci sono varie tecniche : 
-\* fare un SAVF della libreria (ad esempio una volta al giorno) e : 
-\*\* metterlo in una libreria presente su IASP (così automaticamente viene replicato)
-\*\* spedirlo via FTP
-\* usare un software dedicato
+-  fare un SAVF della libreria (ad esempio una volta al giorno) e : 
+- \* metterlo in una libreria presente su IASP (così automaticamente viene replicato)
+- \* spedirlo via FTP
+-  usare un software dedicato
 
 Bisogna inoltre fare attenzione a eventuali connessioni DDM e ODBC (JDBC), potrebbe essere necessario modificare le stringhe di connessione per adattarsi al nuovo DatabaseName e anche per non avere problemi nel momento in cui viene fatto lo switch (take over) tra SYS1 e SYS2.
 

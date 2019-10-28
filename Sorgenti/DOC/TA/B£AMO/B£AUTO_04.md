@@ -13,15 +13,15 @@ La prima cosa da fare è impostare le voci di menu della MEA, utilizzando la nuo
 Si deve partire prima di tutto con le voci del SS della MEA, quelle cioè che formano il menù iniziale di accesso (ovvero quello per aree applicative).
 
 Per abilitare o disabilitare le voci di questo menù possiamo agire su tre colonne : 
-\* __SS della MEA disabilitato : __ da usare se si vuole inibire un intero SS della MEA. Spuntando questa colonna, tutte le voci del SS si evidenziano di rosso, a prova del fatto che per l'utente impostato nei filtri, quel preciso SS è stato disabilitato.
-\* __Applicazione disabilitata__ :  mantenendo il valore della colonna precedente pulito, questa colonna consente di autorizzare sempre nell'ambito del SS 00, le varie applicazioni. Spuntando un'applicazione, tutte le sue voci vengono disabilitate automaticamente. Operando in questo modo, l'applicazione non solo sparisce dal menù iniziale di Looc.UP ma risulta essere inibita anche in tutte le varie navigazioni successive (FLY).
-\* __Voce disabilitata__ :  svolge la stessa funzione della colonna precedente, ma il suo effetto è meno restrittivo perché, benché l'applicazione disabilitata non compaia comunque all'interno del menù iniziale, questa rimane visibile nelle navigazioni proprie di Looc.UP come i FLY.
+-  __SS della MEA disabilitato : __ da usare se si vuole inibire un intero SS della MEA. Spuntando questa colonna, tutte le voci del SS si evidenziano di rosso, a prova del fatto che per l'utente impostato nei filtri, quel preciso SS è stato disabilitato.
+-  __Applicazione disabilitata__ :  mantenendo il valore della colonna precedente pulito, questa colonna consente di autorizzare sempre nell'ambito del SS 00, le varie applicazioni. Spuntando un'applicazione, tutte le sue voci vengono disabilitate automaticamente. Operando in questo modo, l'applicazione non solo sparisce dal menù iniziale di Looc.UP ma risulta essere inibita anche in tutte le varie navigazioni successive (FLY).
+-  __Voce disabilitata__ :  svolge la stessa funzione della colonna precedente, ma il suo effetto è meno restrittivo perché, benché l'applicazione disabilitata non compaia comunque all'interno del menù iniziale, questa rimane visibile nelle navigazioni proprie di Looc.UP come i FLY.
 
 ![B£AUTO_02](http://localhost:3000/immagini/B£AUTO_04/BXAUTO_02.png)Per comprendere meglio il significato di questa matrice, riportiami una breve legenda che spiega l'intestazione di alcune colonne : 
-\* **V** = Autorizzazione VOCE
-\* **M** = Autorizzazione MODULO
-\* **A** = Autorizzazione  APPLICAZIONE
-\* **S** = Autorizzazione SOTTOSETTORE
+-  **V** = Autorizzazione VOCE
+-  **M** = Autorizzazione MODULO
+-  **A** = Autorizzazione  APPLICAZIONE
+-  **S** = Autorizzazione SOTTOSETTORE
 
 Lo scopo di queste colonne è di segnalare in forma sintetica e immediata la mancanza/preseenza di un'autorizzazione, informazione che è comunque reperibile consultando tutte le altre colonne della matrice. In base al valore contenuto da ciascuna cella, queste colonne possono contenere le seguenti lettere che assumono il significato riportato di seguito : 
 a) **n** = l'elemento, sia esso una voce, un modulo una applicazione o un sottosettore NON è autorizzato;
@@ -34,9 +34,9 @@ Una volta che sono state impostate le autorizzazione del SS 00 della MEA, è pos
 Una precisazione. Se si vuole utilizzare il modulo B£MENU per imposatre le autorizzazioni del SS 00 della MEA per utente o gruppo utente, lo si può fare usando la vcoe _Autorizzazione menù iniziale. LA scehda che si apre presenta prima l'elenco degli utenti suddivisi in gruppi e, nella parte bassa, la matrice che abbiamo appena presentato. Per il suo utilizzo si rimanda a quanto detto sopra.
 
 La lente di ingrandimento presente all'inizio di ciascuna riga di queste matrici, permette di visualizzare in un formato simile a quello presentato fino a ora, le voci specifiche della'pplicazione :  i moduli. A questo punto è possibile impostare le autorizzazioni sfruttando le tre colonne : 
-\* __Applicazione disabilitata__ :  questa colonna permette di disabilitare in modo netto e completo l'accesso all'applicazione e di conseguenza anche quello ai suoi moduli.
-\* __Modulo disabilitato__ :  ci permette di abilitare o disabilitare completamente quei moduli che si vogliono mantenere protetti.
-\* __Voce disabilitata__ :  come la colonna precedente, anche questa permette d proteggere i moduli togliendoli dal menù iniziale di accesso. Questa protezione è però, a differenza della precedente, meno robustaperchè in realtà non agisce sulle navigazioni FLY di Looc.UP. Questo significa che se si vuole proteggere un modulo rendendolo inaccessibile agli utenti, questo solo flag non basta perchèin realtà non inibisce la sua apertura né dai FLY né dalle ricerche con l'F4.
+-  __Applicazione disabilitata__ :  questa colonna permette di disabilitare in modo netto e completo l'accesso all'applicazione e di conseguenza anche quello ai suoi moduli.
+-  __Modulo disabilitato__ :  ci permette di abilitare o disabilitare completamente quei moduli che si vogliono mantenere protetti.
+-  __Voce disabilitata__ :  come la colonna precedente, anche questa permette d proteggere i moduli togliendoli dal menù iniziale di accesso. Questa protezione è però, a differenza della precedente, meno robustaperchè in realtà non agisce sulle navigazioni FLY di Looc.UP. Questo significa che se si vuole proteggere un modulo rendendolo inaccessibile agli utenti, questo solo flag non basta perchèin realtà non inibisce la sua apertura né dai FLY né dalle ricerche con l'F4.
 Per comprendere meglio gli effetti di queste colonne, riportiamo di seguito questo prospetto : 
 
 TABELLA
@@ -67,11 +67,11 @@ DEC T(MB) P(PTF) K(££30901B)
 
 # Autorizzazioni di menù particolari :  il bottone UP £L e il menù di sezione £S
 Il menù £L e il menù £S sono due nuovi menù introdotti nella V4R1. Per conoscerli meglio, rimandiamo alla loro documentazione specifica : 
-- [Due nuovi menu&-x3a; £L e £S](Sorgenti/DOC/TA/B£AMO/B£MENU_03)
+- [Due nuovi menu :  £L e £S](Sorgenti/DOC/TA/B£AMO/B£MENU_03)
 
 # Autorizzazioni ingressi master :  note tecniche
 Rimandiamo al documento successivo il dettaglio relativo ai tecnicismo alla base del funzionamento di queste autorizzazioni : 
-- [Autorizzazione ingressi&-x3a; generalità e tecnicismi](Sorgenti/DOC/TA/B£AMO/B£AUTO_09)
+- [Autorizzazione ingressi :  generalità e tecnicismi](Sorgenti/DOC/TA/B£AMO/B£AUTO_09)
 
 
 # Esempi di autorizzazioni

@@ -19,7 +19,7 @@ Le caratteristiche salienti sono le seguenti :
 La maggiore difficoltà nell'affrontare l'installazione del modulo consiste nell'estrema variabilità delle esigenze e degli obiettivi del calcolo costi, che spesso coesistono nella stessa azienda ed evolvono : 
  \* fornire indicazioni per la determinazione del prezzo minimo di vendita dei prodotti finiti (prezzo di vendita che consente di coprire tutti i costi a livello di società più un margine percentuale) in fase di preventivazione
  \* fornire indicazioni per l'approccio di problematiche di "make or buy" di componenti o lavorazioni
-\* fornire la valorizzazione fiscale e gestionale dei magazzini
+-  fornire la valorizzazione fiscale e gestionale dei magazzini
  \* fornire indicazioni relative al costo a consuntivo delle commessa e/o dei componenti
  \* comporre un modello realistico di costruzione dei costi che includa e rappresenti le variabili significative dell'attività (centri di costo, utilizzo delle risorse, costi dei fattori produttivi, etc.) e consenta di analizzare scenari di variazione
  \* fornire una rappresentazione dell'efficienza di utilizzo delle macchine di produzione

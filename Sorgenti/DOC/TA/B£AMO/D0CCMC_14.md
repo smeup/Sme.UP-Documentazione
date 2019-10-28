@@ -3,10 +3,10 @@ Il costo >MEDIO di un >ARTICOLO è la media ponderata del costo degli eventi, pr
 determinazione in quel periodo
 
 Questo processo NON è effettivamente un calcolo di un costo ma : 
-\* Una selezione degli eventi con possibilità di determinare quale tipo e per quale oggetto scatenare il calcolo (exit >D0CO10_01x)
-\* Un sistema di generazione, di uno o più calcoli, rispetto ad un evento relativamente ad un oggetto (Passi> B£J/D0)
-\* La valorizzazione di ogni singolo evento per un suo costo totale, a valore e quantità (Calcolo base> D0CO01A)
-\* La sommatoria dei valori e quantità degli eventi, per determinare la media ponderata dell'articolo
+-  Una selezione degli eventi con possibilità di determinare quale tipo e per quale oggetto scatenare il calcolo (exit >D0CO10_01x)
+-  Un sistema di generazione, di uno o più calcoli, rispetto ad un evento relativamente ad un oggetto (Passi> B£J/D0)
+-  La valorizzazione di ogni singolo evento per un suo costo totale, a valore e quantità (Calcolo base> D0CO01A)
+-  La sommatoria dei valori e quantità degli eventi, per determinare la media ponderata dell'articolo
 
 ## Costo Medio - Logiche di Calcolo
 Con >Logiche di calcolo si intende evidenziare i metodi di applicazione del costo medio, al fine di comprenderne l'utilizzo ed il tipo di impostazione.

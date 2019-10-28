@@ -16,8 +16,8 @@ Interfacciare il programma in esecuzione con le rate da registraz.contabili dell
 £IC3FI :  File   messaggio ritorno (10)
 £IC3CM :  Ultimo Comando
 £IC3RO :  N.ro Record di output
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 C5RATA :  DS valorizzata
 
 # Prerequisiti

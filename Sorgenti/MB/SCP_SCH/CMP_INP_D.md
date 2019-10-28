@@ -8,4 +8,4 @@ NOTA BENE :  il messaggio "struttura reinviata" è specifico del servizio di ese
 
 Per ulteriori dettagli si rimanda allo specifico capitolo della documentazione dell'input panel.
 
-- [Aggiornamento Caratteristiche Griglia&-x2f;Setup Campi](Sorgenti/DOC/TA/B£AMO/LOCINP_D)
+- [Aggiornamento Caratteristiche Griglia/Setup Campi](Sorgenti/DOC/TA/B£AMO/LOCINP_D)

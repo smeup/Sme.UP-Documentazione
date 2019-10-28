@@ -27,17 +27,17 @@ Per ottenere il calcolo automatico dell'apposizione bollo è necessario configur
 
 Si sottolinea che la possibilità di gestire lo storno del bollo non addebitato è disponibile solo con un rilascio V5R1 con data successiva a settembre 2018
 
-\*  IVA
+-   IVA
 All'interno della tabella IVA sarà necessario compilare il campo Addebito Bolli per quegli assoggettamenti legati alle operazioni elencate nell'introduzione di questa documentazione e che, quindi, determinano l'apposizione del bollo sulla fattura.
 
-\* COASP
+-  COASP
 All'interno della tabella COASP sarà necessario creare due codici con lo stesso valore dei codici creati nella tabella V5S. In questi due codici sarà necessario indicare come conto acquisti il conto di costo per i bolli non addebitati mentre nel conto vendite sarà necessario indicare il conto di debito su cui rilevare il debito verso erario per il successivo versamento dei bolli rilevati in fattura
 
 ## Addebito bollo
 Normalmente l'importo del bollo viene addebitato al cliente; se si tratta di una pubblica amministrazione, però, il bollo non viene addebitato.
 Per modificare questo comportamento standard è possibile intervenire in due modi : 
-\* per i clienti PA all'interno dell'estensione £51 è possibile compilare il campo Addebita spese bollo a PA con 1 per addebitare il bollo al cliente
-\* per i clienti non PA all'interno dell'anagrafica è possibile compilare il campo Escl. Addebito Spesa Bollo (E§FL24) con 1 per fare in modo che al cliente non venga addebitato il bollo.
+-  per i clienti PA all'interno dell'estensione £51 è possibile compilare il campo Addebita spese bollo a PA con 1 per addebitare il bollo al cliente
+-  per i clienti non PA all'interno dell'anagrafica è possibile compilare il campo Escl. Addebito Spesa Bollo (E§FL24) con 1 per fare in modo che al cliente non venga addebitato il bollo.
 
 ## Bollo in fattura elettronica
 

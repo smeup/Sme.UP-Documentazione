@@ -29,9 +29,9 @@ E' prevista però anche la possibilità di poter gestire la determinazione dell'
 Il nome di tale programma ha radice "V5PR04C_" + il suffisso indicato nella tabella V6Z.
 
 Agli anticipi può essere attribuito un significato particolare in base all'utilizzo del tipo provvigione che attributo all'anticipo : 
-\* Se il tipo provvigione ha tipo "2" = Minimo garantito, come tale l'anticipo verrà conguagliato solo se le provvigioni superano l'importo del minimo garantito corrisposto.
-\* Se il tipo provvigione ha tipo "0" = Fisso, come tale l'anticipo non verrà mai conguagliato. sarà sempre un importo corrisposto all'agente in aggiunta a quello maturato tramite le provvigioni.
-\* Per gli altri tipi, gli importi anticipati verrà sempre conguagliati e in caso superino l'importo delle provvigioni, riportati al periodo successivo.
+-  Se il tipo provvigione ha tipo "2" = Minimo garantito, come tale l'anticipo verrà conguagliato solo se le provvigioni superano l'importo del minimo garantito corrisposto.
+-  Se il tipo provvigione ha tipo "0" = Fisso, come tale l'anticipo non verrà mai conguagliato. sarà sempre un importo corrisposto all'agente in aggiunta a quello maturato tramite le provvigioni.
+-  Per gli altri tipi, gli importi anticipati verrà sempre conguagliati e in caso superino l'importo delle provvigioni, riportati al periodo successivo.
 
 ## Anticipi su fattura
 Oltre agli anticipi automatici, è possibile gestire degli anticipi su fattura, che, utilizzabili anche con agenti a periodicità mensile, permettono di portare in detrazione l'anticipo solo quando viene liquidata una provvigione relativa alla fattura indicata nell'anticipo stesso, al di là di quando esso avvenga.

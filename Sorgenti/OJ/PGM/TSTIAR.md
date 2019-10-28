@@ -49,8 +49,8 @@ BRARTI :  DS valorizzata
 £IARFI :  File   messaggio ritorno
 £IARCM :  Ultimo Comando
 £IARRO :  N.ro record di output
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 BRARTI :  DS valorizzata
 
 # Prerequisiti

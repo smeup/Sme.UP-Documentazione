@@ -1,8 +1,8 @@
 # Variabili di ambiente :  cosa sono
 Le variabili di ambiente sono sostanzialmente associazioni nome=valore fatte dal sistema operativo OS400.
 Esistono due tipi di variabili di sistema : 
-\* Job level
-\* System level
+-  Job level
+-  System level
 Le variabili di job sono associate ad un job e quindi manipolabili solo da esso. Esse vengono cancellate alla chiusura del job.
 Le variabili  di sistema sono invece manipolabili da qualunque job. Esse esistono fino a che non vengono espressamente cancellate. Vengono quindi salvate e ricreate in seguito ad un IPL.
 Quando un job cerca di accedere per la prima volta ad una variabile di job, il sistema la eredita da quella di sistema (se esiste). A quel punto è possibile gestire separatamente le due variabili.

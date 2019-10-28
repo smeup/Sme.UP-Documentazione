@@ -1,4 +1,4 @@
-- [Impegni Materiali](Sorgenti/OJ/PGM/P5IM01)
+- [Interrogazione impegni materiali](Sorgenti/OJ/PGM/P5IM01)
 - [Stampa impegni materiali](Sorgenti/OJ/PGM/P5IM51)
-- [Impegni Risorse](Sorgenti/OJ/PGM/P5AT20)
+- [Interrogazione impegni risorse](Sorgenti/OJ/PGM/P5AT20)
 - [Stampa impegni risorse](Sorgenti/OJ/PGM/P5IR51)

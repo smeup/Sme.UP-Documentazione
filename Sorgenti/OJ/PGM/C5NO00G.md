@@ -10,7 +10,7 @@
 
  \* _2_10 - Anteprima estratto conto :  permette di visualizzare l'anteprima della lettera di estratto conto stampabile per il soggetto.
 
-\* _2_12 - Modifica rata :  entra direttamente in gestione della rata su cui si digita l'opzione.
+-  _2_12 - Modifica rata :  entra direttamente in gestione della rata su cui si digita l'opzione.
 
  \* _2_15 - Interrogazione rata :  permette di visualizzare la rata su cui viene digitata l'opzione.
 
@@ -40,9 +40,9 @@
 
  \* _2_85 - Interroga note rata :  permette di interrogare le note associate alla rata su cui viene digitata l'opzione.
 
-\* _2_AB - Creazione abbuono :  permette di creare, su partite aperte di limitato importo, una registrazione di abbuono. Con il comando F6 si aprirà una finestra per la creazione di questa registrazione, il conto di abbuono verrà automaticamente ripreso dagli automatismi impostati sugli abbuoni passivi e attivi.
+-  _2_AB - Creazione abbuono :  permette di creare, su partite aperte di limitato importo, una registrazione di abbuono. Con il comando F6 si aprirà una finestra per la creazione di questa registrazione, il conto di abbuono verrà automaticamente ripreso dagli automatismi impostati sugli abbuoni passivi e attivi.
 
-\* _2_DB - Dettaglio blocco pagamento :  permette di visualizzare il blocco eventualmente esercitato sulla rata.
+-  _2_DB - Dettaglio blocco pagamento :  permette di visualizzare il blocco eventualmente esercitato sulla rata.
 
  \* _2_ES - Esito :  è opzionale ed è una funzione che permette di attribuire manualmente un esito agli effetti.
 
@@ -54,7 +54,7 @@
 
  \* _2_P - Pareggia :  permette di pareggiare rate di segno opposto. Per eseguire il pareggio è sufficiente mettere l'opzione P sulle rate da pareggiare (possono anche essere più di due) e confermare con F6.
 
-\* _2_PA - Partitario :  permette di passare direttamente all'interrogazione del partitario del soggetto.
+-  _2_PA - Partitario :  permette di passare direttamente all'interrogazione del partitario del soggetto.
 
  \* _2_PG - Gruppi partite :  se la fattura è pareggiata con una nota di credito permette di visualizzare tutte le scadenze.
 
@@ -72,5 +72,5 @@
 
  \* _2_XD - Dettaglio rata :  è una funzione che permette di vedere il dettaglio della rata legata alla registrazione contabile.
 
-\* _2_YL - Controllo fatture :  permette di verificare quali documenti sono in attesa di fattura per il soggetto.
+-  _2_YL - Controllo fatture :  permette di verificare quali documenti sono in attesa di fattura per il soggetto.
 

@@ -8,13 +8,13 @@ A pro del fatto di poter continuare la data di fine mese non si è espressa l'ag
 Qualora ci si voglia attenere strettamente a quanto indicato dall'agenzia sarà possibile attivare tale possibilità tramite il campo "Data ultima bolla" della tabella V50.
 
 In questo caso Smeup opererà nel seguente modo : 
-\* Le fatture potranno essere sempre stampate con le modalità usuali, usando come data fattura ancora la data di fine mese.
-\* In xml nel campo data, la data fattura, verrà usata solo in assenza di una data bolla. In presenza di una data bolla verrà usata l'unica o l'ultima presente in fattura.
+-  Le fatture potranno essere sempre stampate con le modalità usuali, usando come data fattura ancora la data di fine mese.
+-  In xml nel campo data, la data fattura, verrà usata solo in assenza di una data bolla. In presenza di una data bolla verrà usata l'unica o l'ultima presente in fattura.
 
 NOTA BENE :  è importante notare che in questo modo il cliente non riceverà la nostra data fattura, che verrà ad indicare solo la data di "protocollazione" della fattura.
 Sarà quindi importante notare che nella relazione con il cliente, solo il n° fattura permetterà di identificare in modo certo la fattura, in quanto non si potrà più fare affidamento sulla corrispondenza della data.
 
-## CUP (Codice Univoco di Progetto) e CIG (Codice Identificativo della Gara)
+### CUP (Codice Univoco di Progetto) e CIG (Codice Identificativo della Gara)
 
 In base all'art.25 DL.66/2014, la presenza di CUP e CIG e` essenziale per procedere al pagamento.
 
@@ -98,4 +98,19 @@ I valori che devono essere restituiti sono quelli dell'oggetto V4 ED.£FPAEI  :
 L'oav distribuito a standard per release precedenti la V3R2 restituisce bianco.
 
 **N.B. L'esigibilità IVA è una informazione obbligatoria nel formato fatturaPA.**
+
+### Rappresentante fiscale
+
+Qualora si decida di trasmettere, al fine di evitare la trasmissione dell'esterometro, anche i le fatture verso l'estero, si può incorrere nel caso del rappresentate in fiscale.
+
+In presenza di un rappresentate fiscale, le anagrafiche vanno così compilate : 
+-  Il cliente/fornitore va codificato con la ragione sociale dell'ente con cui si esegue l'operazione commerciale. Queste ente dovrà avere queste particolarità : 
+-  Partita iva = partita iva del rappresentate fiscale
+-  Nella ragione sociale, fra parentesi, dovrà essere posto il cognome/nome o la ragione sociale del rappresentate fiscale.
+-  Nelle estensioni di questo ente dovrà essere usata l'estensione £42, "soggetto rappresentato", tramite questa estensione dovrà essere collegato l'ente che dovrò contenere tutti i dati anagrafici dell'ente estero rappresentato.
+
+NOTA BENE :  i dati del soggetto codificato come cliente/fornitore saranno quelli trasmessi nella sezione dei dati relativi al rappresentante fiscale, costituiti esclusivamente da queste informazioni : 
+-  Cognome/Nome del rappresentate fiscale
+-  Ragione Sociale del rappresentate fiscale
+-  Partita iva
 

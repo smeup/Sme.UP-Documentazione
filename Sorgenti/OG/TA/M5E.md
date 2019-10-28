@@ -11,15 +11,15 @@ Indica il codice della fonte.
 
 I parametri 1/2/3/4 della fonte assumono un significato diverso in funzione dell'origine fonte : 
 
-- [&-x2a; M5E - AP - Altra applicazione](Sorgenti/OG/TA/M5E_AP)
-- [&-x2a; M5E - GC - Giacenza](Sorgenti/OG/TA/M5E_GC)
-- [&-x2a; M5E - GF - Giacenza alla fase](Sorgenti/OG/TA/M5E_GF)
-- [&-x2a; M5E - MP - MPS](Sorgenti/OG/TA/M5E_MP)
-- [&-x2a; M5E - PM - Parametri](Sorgenti/OG/TA/M5E_PM)
-- [&-x2a; M5E - PR - Punto di riordino](Sorgenti/OG/TA/M5E_PR)
-- [&-x2a; M5E - QE - Quantità eccedente](Sorgenti/OG/TA/M5E_QE)
-- [&-x2a; M5E - SC - Scorta minima](Sorgenti/OG/TA/M5E_SC)
-- [&-x2a; M5E - UT - Fonte Utente](Sorgenti/OG/TA/M5E_UT)
+- [\* M5E - AP - Altra applicazione](Sorgenti/OG/TA/M5E_AP)
+- [\* M5E - GC - Giacenza](Sorgenti/OG/TA/M5E_GC)
+- [\* M5E - GF - Giacenza alla fase](Sorgenti/OG/TA/M5E_GF)
+- [\* M5E - MP - MPS](Sorgenti/OG/TA/M5E_MP)
+- [\* M5E - PM - Parametri](Sorgenti/OG/TA/M5E_PM)
+- [\* M5E - PR - Punto di riordino](Sorgenti/OG/TA/M5E_PR)
+- [\* M5E - QE - Quantità eccedente](Sorgenti/OG/TA/M5E_QE)
+- [\* M5E - SC - Scorta minima](Sorgenti/OG/TA/M5E_SC)
+- [\* M5E - UT - Fonte Utente](Sorgenti/OG/TA/M5E_UT)
  :  : FLD T$M5EC __Azione fonte (+/-/N)__
 Definisce se il contributo della fonte è positivo, negativo oppure neutro per la disponibilità.
 Una fonte neutra viene riportata in un campo separato dell'analisi disponibilità :  un esempio di utilizzo è una giacenza in collaudo, che non è disponibile ma che si vuole comunque visualizzare.

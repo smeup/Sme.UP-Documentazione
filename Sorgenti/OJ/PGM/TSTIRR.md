@@ -17,8 +17,8 @@
 £IRRFI :  File   messaggio ritorno (10)
 £IRRCM :  Ultimo Comando
 £IRRRO :  N.ro Record di output
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 C5RATA :  DS valorizzata
 
 

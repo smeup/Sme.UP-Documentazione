@@ -120,10 +120,10 @@ se il campo "Saldo alla fase" non è impostato, si forza blanks nel flag "Conten
 Il conto lavoro permette la gestione dell'uscita e del rientro quando la fase è di lavorazione esterna. Per l'invio il contenitore deve essere trasferito o avanzato nell'ubicazione ANTE della risorsa esterna.
 **Nota**; a differenza della generalità delle risorse interne nelle risorse esterne l'ubicazione ante e quella post sono associate a più risorse (terzisti) ed ssumono il significato di "Ubicazione invio in conto lavoro" e "Ubicazione rientro da conto lavoro" : 
 ### Invio contenitore
-\* flusso creazione bolla spedizione da giacenza in Ubicazione ANTE; in alternativa flusso RF di creazione righe da collo
-\* il collegamento della bolla trasferisce il matriale dall'ubicazione ANTE ad una area di conto lavoro per contenitore
-\* nel flusso di uscita si può inserire un'azione che crea l'ordine di C/Lavoro dalla bolla
+-  flusso creazione bolla spedizione da giacenza in Ubicazione ANTE; in alternativa flusso RF di creazione righe da collo
+-  il collegamento della bolla trasferisce il matriale dall'ubicazione ANTE ad una area di conto lavoro per contenitore
+-  nel flusso di uscita si può inserire un'azione che crea l'ordine di C/Lavoro dalla bolla
 ### Rientro
-\* flusso ricezione materiale da ordine di conto lavoro, in alternativa flusso RF di creazione righe da collo (interno, esterno, esterno con alias)
-\* azione di distribuzione righe entrate attribuendole, in funzione delle quantità, agli ordini di conto lavoro, di produzione ed ai contenitori giacenti c/o terzista
-\* avanzamento dei contenitori usciti in area conto lavoro nei nuovi contenitori in Ubicazione POST del CDL esterno
+-  flusso ricezione materiale da ordine di conto lavoro, in alternativa flusso RF di creazione righe da collo (interno, esterno, esterno con alias)
+-  azione di distribuzione righe entrate attribuendole, in funzione delle quantità, agli ordini di conto lavoro, di produzione ed ai contenitori giacenti c/o terzista
+-  avanzamento dei contenitori usciti in area conto lavoro nei nuovi contenitori in Ubicazione POST del CDL esterno

@@ -5,14 +5,14 @@ Il costruttore non è stato pensato per un documentale specifico ma cerca di rag
 ## Tipologia di archiviazione
 Il servizio base di archiviazione si chiama LOA26_SE.  Esiste uno script di configurazione chiamato LOA26SET presente in SCP_SET.
 In questo script vengono definiti i parametri per il collegamento al server preposto all'archiviazione è possibile : 
-\* definire la tipologia di archiviazione con il tag **A26.SET Tip="XX"** dove **"XX"** è il codice identificativo del modulo di archiviazione. (Es :  AB=Archibox; ME=Medusa), questo parametro definisce anche il nome del pgm di exit LOA26_XX;
-\* definire la cartella base del software di archiviazione con il tag **A26.KEY Mod="KEY" Cod="IFSDIRBASE";
-\* definire la cartella metadata con il tag **A26.KEY Mod="KEY" Cod="IFSDIRDATA"**, questa sarà la cartella dove verranno depositati i file xml o txt di transito neccesari alla generazione dell'etichetta per l'archiviazione (archiviazione passiva);
-\* definire la cartella allegati con il tag **A26.KEY Mod="KEY" Cod="IFSDIRALL"**, questa sarà la cartella dove verranno depositati i file prodotti dal gestionale pronti per essere trasferiti al software di archiviazione (archiviazione attiva);
-\* definire l'indirizzo ip del server documentale con il tag **A26.KEY Mod="KEY" Cod="IPSER"**;
-\* definire l'user e la password per l'accesso al server documentale con i tag **A26.KEY Mod="KEY" Cod="USER"** e **A26.KEY Mod="KEY" Cod="PWD"**;
-\* definire l'archivio di default con il tag **A26.KEY Mod="KEY" Cod="ARCDFT"**;
-\* definire il path base per il reperimento dei documenti **A26.KEY Mod="KEY" Cod="SRVDIRBASE"**;
+-  definire la tipologia di archiviazione con il tag **A26.SET Tip="XX"** dove **"XX"** è il codice identificativo del modulo di archiviazione. (Es :  AB=Archibox; ME=Medusa), questo parametro definisce anche il nome del pgm di exit LOA26_XX;
+-  definire la cartella base del software di archiviazione con il tag **A26.KEY Mod="KEY" Cod="IFSDIRBASE";
+-  definire la cartella metadata con il tag **A26.KEY Mod="KEY" Cod="IFSDIRDATA"**, questa sarà la cartella dove verranno depositati i file xml o txt di transito neccesari alla generazione dell'etichetta per l'archiviazione (archiviazione passiva);
+-  definire la cartella allegati con il tag **A26.KEY Mod="KEY" Cod="IFSDIRALL"**, questa sarà la cartella dove verranno depositati i file prodotti dal gestionale pronti per essere trasferiti al software di archiviazione (archiviazione attiva);
+-  definire l'indirizzo ip del server documentale con il tag **A26.KEY Mod="KEY" Cod="IPSER"**;
+-  definire l'user e la password per l'accesso al server documentale con i tag **A26.KEY Mod="KEY" Cod="USER"** e **A26.KEY Mod="KEY" Cod="PWD"**;
+-  definire l'archivio di default con il tag **A26.KEY Mod="KEY" Cod="ARCDFT"**;
+-  definire il path base per il reperimento dei documenti **A26.KEY Mod="KEY" Cod="SRVDIRBASE"**;
 di seguito un esempio : 
 // Esempio
 SUB Cod="B02" Txt="Archiviatore generico"
@@ -31,16 +31,16 @@ SUB Cod="B02" Txt="Archiviatore generico"
 ### Funzioni archiviazione
 L'archiviazione è predisposta per soddisfare una serie di funzioni base. Il servizio LOA26_SE è predisposto per soddisfare o dichiarare alcune funzioni rimandando la specifica implementazione di archiviazione alle exit dichiarate nello script di configurazione.
 Le funzioni disponibili sono : 
-\* Archiviazione tramite chiamata "batch" BTC.ARC (richiamabile o in LoocUp o tramite £UID da un prrogramma di stampa)
-\* Archiviazione "batch" in cui non passo il file da allegare BTC.ARC.NF (richiamabile o in LoocUp o tramite £UID da un prrogramma di stampa)
-\* Archiviazione tramite scheda di LoocUp LOC.ARC
-\* Matrice contenente i documenti archiviati di un oggetto ALL.DOC (dato oggetto e catalogo)
-\* Esistenza documento archiviato ESI.DOC (ritorna V2 SI/NO richiamabile tramite A(EMU;LOA26_SE;ESI.DOC)  )
-\* Scansione esistenza oggetto SCA.ESI (ritorna un albero SE GRU.A26 con gli elementi trovati);
+-  Archiviazione tramite chiamata "batch" BTC.ARC (richiamabile o in LoocUp o tramite £UID da un prrogramma di stampa)
+-  Archiviazione "batch" in cui non passo il file da allegare BTC.ARC.NF (richiamabile o in LoocUp o tramite £UID da un prrogramma di stampa)
+-  Archiviazione tramite scheda di LoocUp LOC.ARC
+-  Matrice contenente i documenti archiviati di un oggetto ALL.DOC (dato oggetto e catalogo)
+-  Esistenza documento archiviato ESI.DOC (ritorna V2 SI/NO richiamabile tramite A(EMU;LOA26_SE;ESI.DOC)  )
+-  Scansione esistenza oggetto SCA.ESI (ritorna un albero SE GRU.A26 con gli elementi trovati);
 
 
-\* Matrice raccoglitori MAT.RAC (ritorna una matrice di documenti) (todo)
-\* Matrice documenti MAT.DOC (ritorna la matrice  dei documenti - ogni documentale sceglie la modalità di filtri e di presentazione) (todo)
+-  Matrice raccoglitori MAT.RAC (ritorna una matrice di documenti) (todo)
+-  Matrice documenti MAT.DOC (ritorna la matrice  dei documenti - ogni documentale sceglie la modalità di filtri e di presentazione) (todo)
 
 
 ## Script di configurazione costruttore A26
@@ -49,12 +49,12 @@ SCRIPT - SEZIONE DELLO SCRIPT - SOTTOSEZIONE
 
 Ad esempio potremmo avere
 nello script in SCP_SET **LOA26_01** : 
-\* SEZIONE A01 - SOTTOSEZIONE B01 che potrebbe rappresentare archiviazioni con documentale 01(a livello di script), archiviazione di documenti (a livello di sezione), archiviazione fatture passive (a livello di sottosezione)
-\* SEZIONE A01 - SOTTOSEZIONE B02 che potrebbe rappresentare con documentale 01(a livello di script), archiviazione di documenti (a livello di sezione), archiviazione fatture attive (a livello di sottosezione)
-\* SEZIONE A02 - SOTTOSEZIONE B01 che potrebbe rappresentare con documentale 01(a livello di script), archiviazione di disegni CAD (a livello di sezione), archiviazione disegni CAD commesse (a livello di sottosezione)
+-  SEZIONE A01 - SOTTOSEZIONE B01 che potrebbe rappresentare archiviazioni con documentale 01(a livello di script), archiviazione di documenti (a livello di sezione), archiviazione fatture passive (a livello di sottosezione)
+-  SEZIONE A01 - SOTTOSEZIONE B02 che potrebbe rappresentare con documentale 01(a livello di script), archiviazione di documenti (a livello di sezione), archiviazione fatture attive (a livello di sottosezione)
+-  SEZIONE A02 - SOTTOSEZIONE B01 che potrebbe rappresentare con documentale 01(a livello di script), archiviazione di disegni CAD (a livello di sezione), archiviazione disegni CAD commesse (a livello di sottosezione)
 
 nello script in SCP_SET **LOA26_02** : 
-\* SEZIONE A01 - SOTTOSEZIONE B01 che rappresenta archiviazioni con documentale 02(a livello di script), archiviazione di disegni CAD (a livello di sezione), archiviazione disegni CAD commesse (a livello di sottosezione)
+-  SEZIONE A01 - SOTTOSEZIONE B01 che rappresenta archiviazioni con documentale 02(a livello di script), archiviazione di disegni CAD (a livello di sezione), archiviazione disegni CAD commesse (a livello di sottosezione)
 
 Gli elementi qui sopra sono identificati univocamente dalle triplette di codici 01-A01-B01, 01-A01-B02, 01-A02-B01, 02-A01-B01 ...
 
@@ -62,13 +62,13 @@ Gli elementi qui sopra sono identificati univocamente dalle triplette di codici 
 
 Andremo ora ad analizzare una singola sottosezione (elemento dello script SUB) che identifica una specifica archiviazione.
 L'elemento A26.SET identifica una serie di impostazioni x la sottosezione. Tra le chiavi abbiamo : 
-\* **TipArc  **&nbsp;&nbsp;la tipologia di documentale (lo stesso codice inserito nel tag A26.SET Tip="XX" dello script di configurazione);
-\* **Rac  **&nbsp;&nbsp;il cod. raccoglitore che rappresenta il contenitore per quella tipologia di documenti;
-\* **TpOg**  e  **PaOg  **&nbsp;&nbsp;permettono di identificare il tipo e parametro dell'oggetto di riferimento passato a questa subsezione;
-\* **Tpcfg  **&nbsp;&nbsp;non operativo;
-\* **CdCfg  **&nbsp;&nbsp;non operativo;
-\* **Ope  **&nbsp;&nbsp;operazione su archiviazione INSERT per inserire un nuovo file, UPDATE per modificarlo, DELETE per cancellarlo (oprativo INSERT, il resto da implementare);
-\* **Arc  **&nbsp;&nbsp;archivio al quale puntare per il reperimento dei documenti;
+-  **TipArc  **&nbsp;&nbsp;la tipologia di documentale (lo stesso codice inserito nel tag A26.SET Tip="XX" dello script di configurazione);
+-  **Rac  **&nbsp;&nbsp;il cod. raccoglitore che rappresenta il contenitore per quella tipologia di documenti;
+-  **TpOg**  e  **PaOg  **&nbsp;&nbsp;permettono di identificare il tipo e parametro dell'oggetto di riferimento passato a questa subsezione;
+-  **Tpcfg  **&nbsp;&nbsp;non operativo;
+-  **CdCfg  **&nbsp;&nbsp;non operativo;
+-  **Ope  **&nbsp;&nbsp;operazione su archiviazione INSERT per inserire un nuovo file, UPDATE per modificarlo, DELETE per cancellarlo (oprativo INSERT, il resto da implementare);
+-  **Arc  **&nbsp;&nbsp;archivio al quale puntare per il reperimento dei documenti;
 
 Gli elementi A26.KEY definiscono le chiavi per quel particolare raccoglitore definito nel A26.SET.
 E' possibile esprimere il valore della chiave in due modi, scrivendo un valore fisso, oppure reperimento tramite OAV dell oggetto definito nei parametri **TpOg**  e  **PaOg**
@@ -93,8 +93,8 @@ identifica le quattro chiavi passate con 4 valori reperiti da OAV (i campi **Val
 
 ## Servizio di archiviazione
 L'archiviazione può essere effettuata in due modalità : 
-\* archiviazione interattiva in LoocUp
-\* archiviazione batch
+-  archiviazione interattiva in LoocUp
+-  archiviazione batch
 
 Il servizio che si occupa di archiviare è il costruttore LOA26_SE.
 Tramite la scheda LOA26 è possibile provare la modalità di archiviazione interattiva.
@@ -106,8 +106,8 @@ dove nel cod. 1 definisco il cod. di riferimento dell'archiviazione, nel cod. 2 
 
 ## Tipologie di operazioni
 Tramite il tag Ope del setup della subsezione è possibile indicare varie modalità di utilizzo del costruttore : 
-\* archiviazione
-\* collegamento (o graffetta) tra due documenti archiviati
+-  archiviazione
+-  collegamento (o graffetta) tra due documenti archiviati
 
 ### Archiviazione
 Permette di archiviare un documento secondo la logica vista nel paragrafo Servizio di archiviazione
@@ -125,12 +125,12 @@ Richiamando più volte in modo questa sub sezione è possibile collegare le vari
 ## TODO Archiviazione - aggiornato al 27/04/12
 ### Alta priorità
 - **Generale** - Gestione luoghi
-\* Un luogo ha delle proprietà
-\* Un luogo ha un percorso
-\* Un luogo ha un tipo, è un oggetto ?
-\* Nei luoghi devo includere note strutturate/script/mod. tecniche
-\* Un luogo ha associato un flusso (zippa/rinomina) o un workflow
-\* un luoghi chiamama il motore di archiviazione e se non ha tutti gli elementi parte un G30 con questionario
+-  Un luogo ha delle proprietà
+-  Un luogo ha un percorso
+-  Un luogo ha un tipo, è un oggetto ?
+-  Nei luoghi devo includere note strutturate/script/mod. tecniche
+-  Un luogo ha associato un flusso (zippa/rinomina) o un workflow
+-  un luoghi chiamama il motore di archiviazione e se non ha tutti gli elementi parte un G30 con questionario
 - **Generale** - Spostare la definizione dei parametri di archiviazione dalla tabella provvisioria X01 ad uno script FATTO GIAGI 30/04/12
 - **Generale** - Spostare gestione JATRE_23C in un costruttore introducendo il concetto di autorizzazioni/vincolo immagini-funzioni FATTO CC 30/04/12
 - **Generale** - Portare un esempio semicompleto dei luoghi di un cliente con flussi  e altro

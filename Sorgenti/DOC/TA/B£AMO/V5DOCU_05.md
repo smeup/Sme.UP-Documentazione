@@ -73,8 +73,8 @@ I conti contabili nativamente vengono presi dalle righe che sono valorizzate.
 Per maggior chiarezza ci appoggiamo ad un esempio in cui il Kit è così composto : 
 
 Codice KIT = Art. KIT, composto da : 
-\* Art. A X 1
-\* Art. B X 2
+-  Art. A X 1
+-  Art. B X 2
 ordine di 100 KIT.
 
 

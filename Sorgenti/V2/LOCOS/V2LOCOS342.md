@@ -6,7 +6,7 @@ Per poter configurare correttamente una check-list, occorre compilare la tabella
 Un questionario infatti esiste se è stato codificato nella suddetta tabella.
 
  :  : DEC T(ST) K(B§Q)
-![LOA34_04](http://localhost:3000/immagini/MBDOC_OGG-LOA34_02/LOA34_04.png)
+![LOA34_04](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOS342/LOA34_04.png)
 L'elemento della tabella B§Q deve avere : 
 **1)** Il nome del **configuratore** che serve per raccogliere i dati di input.
 **2)** Il nome del **programma specifico** che serve all'estrazione e al caricamento dei capitoli, dei paragrafi e delle domande.
@@ -24,7 +24,7 @@ Impostati questi due campi, è possibile procedere con l'impostazione facoltativ
 11)**Suff. programma di aggiustamento** :  è la lettera che identifica il programma di exit utile per personalizzare ulteriormente le chiamate alle funzioni esplicitate nel SS della B£J.
 
 Di tutte le voci elencate, quelle più importanti sono sicuramente quella del configuratore e quella del programma specifico. I richiami a questi due elementi (configuratore e programma) sono guidati da una scheda base (LOA34, SCP_SCH), la quale si preoccupa di richiedere attraverso un configuratore standard (LOA34, SCP_CFG) il nome del questionario e il relativo configuratore di input. All'interno di questa scheda, sarà poi il LOA34_SE (JASRC) a interfacciarsi con il programma specifico indicato in B§Q.
-![LOA34_05](http://localhost:3000/immagini/MBDOC_OGG-LOA34_02/LOA34_05.png)
+![LOA34_05](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOS342/LOA34_05.png)
 L'intero questionario viene elaborato quindi in un file di work che viene caricato dal LOA34_SE e gestito, nella scrittura, nell'aggiornamento, nella cancellazione nonché nella sua copia nel file_ definitivo_ dal programma specifico definito nella tabella B§Q, attraverso opportune chiamate : 
 
 **A) Verifica e cancellazione del lock (chiamata con funzione LCK)**
@@ -48,23 +48,23 @@ Nel caso in cui sia utile eseguire delle totalizzazioni da pubblicare nel titolo
 Le check-list utilizzano alcuni oggetti standard comuni che, interagendo con programmi specifici ed esxit, permettono di ottenere quanto esposto sopra.
 **1) Il programma LOA34_SE (JASCR)** : 
 Questo programma si preoccupa principalmente del caricamento e dell'aggiornamento del questionario in modalità provvisoria attraverso la lettura e l'aggiornamento del file di work. Oltre a questo però, il programma esegue : 
-\* La costruzione di alcune sezioni della scheda LOA34, definendone in alcuni casi la dimensione e in altri il contenuto;
-\* Il caricamento dei dati nelle varie sezioni;
-\* L'aggiornamento delle risposte;
-\* L'abbandono del questionario o la conferma delle risposte date e il relativo salvataggio globale.
+-  La costruzione di alcune sezioni della scheda LOA34, definendone in alcuni casi la dimensione e in altri il contenuto;
+-  Il caricamento dei dati nelle varie sezioni;
+-  L'aggiornamento delle risposte;
+-  L'abbandono del questionario o la conferma delle risposte date e il relativo salvataggio globale.
 **2) Il configuratore generale LOA34 (SCP_CFG) : **
 Attraverso questo configuratore si procede alla scelta del tipo di questionario che si intende compilare. Nell'unico campo a disposizione, si deve quindi indicare l'elemento della tabella B§Q cui si riferisce il questionario specifico. A seconda di come viene configurata la chiamata a questo configuratore tramite la scheda LOA34, è possibile saltare questo passaggio e arrivare quindi direttamente al configuratore specifico del questionario (quello cioè indicato all'interno dell'elemento della tabella B§Q). Le possibili chiamate a questo configuratore sono : 
-\* Chiamata con indicazione del questionario specifico :  F(EXD;\*SCO;) 1(TA;B§Q;CQRICO_LO) 2(MB;SCP_SCH;LOA34)
-\* Chiamata senza indicazione del questionario specifico (e visualizzazione del configuratore LOA34) :  F(EXD;\*SCO;) 2(MB;SCP_SCH;LOA34)
+-  Chiamata con indicazione del questionario specifico :  F(EXD;\*SCO;) 1(TA;B§Q;CQRICO_LO) 2(MB;SCP_SCH;LOA34)
+-  Chiamata senza indicazione del questionario specifico (e visualizzazione del configuratore LOA34) :  F(EXD;\*SCO;) 2(MB;SCP_SCH;LOA34)
 **3) La scheda generale LOA34 (SCP_SCH) : **
 È la scheda del questionario che si preoccupa di contenere le varie sezioni che abbiamo già avuto modo di vedere. All'interno di questa scheda, tutti i componenti sono caricati dall'unico servizio LOA34_SE :  non compare mai in modo esplicito un richiamo diretto ai programmi specifici (è infatti il LOA34_SE che guida le chiamate a questi programmi).
 
 _BOTTONI NOTE e HELP_
 La scheda del questionario può cambiare notevolmente aspetto a seconda che vengano abilitate o meno le gestioni delle note e degli Help utili alla corretta compilazione del questionario stesso. Sia le note che gli help possono essere gestiti a livello di : 
-\* Questionario
-\* Capitolo
-\* Paragrafo
-\* Singola domanda
+-  Questionario
+-  Capitolo
+-  Paragrafo
+-  Singola domanda
 Questi bottoni compariranno in scheda solo se opportunamente attivati in tabella B§Q.
 
 

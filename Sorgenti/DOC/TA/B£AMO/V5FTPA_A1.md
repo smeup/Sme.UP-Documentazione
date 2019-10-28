@@ -2,7 +2,7 @@
 - [Installazione Fattura elettronica Sme.UP ERP](Sorgenti/DOC/TA/B£AMO/V5FTPA_02)
 - [Installazione in ambiente Star](Sorgenti/DOC/TA/B£AMO/V5FTPA_03)
 - [Personalizzazione](Sorgenti/DOC/TA/B£AMO/V5FTPA_05)
-- [Inclusione allegati nell&-x27;XML](Sorgenti/DOC/TA/B£AMO/V5FTPA_06)
+- [Inclusione allegati nell'XML](Sorgenti/DOC/TA/B£AMO/V5FTPA_06)
 - [Impostazione invio fatture](Sorgenti/DOC/TA/B£AMO/V5FTPA_60)
 - [Impostazione esito fatture](Sorgenti/DOC/TA/B£AMO/V5FTPA_70)
 - [Schedulazione aggiornamento esito fatture](Sorgenti/DOC/TA/B£AMO/V5FTPA_73)

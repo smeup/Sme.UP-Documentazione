@@ -16,7 +16,7 @@ Una NTI è :
 
 # SCRIVERE UNA NEWS
 Per effettuare una news di una modifica bisogna seguire i seguenti passi : 
-\* Collegarsi in 5250 all'ambiente opportuno
+-  Collegarsi in 5250 all'ambiente opportuno
 ![A£BASE_031](http://localhost:3000/immagini/A£BASE_SK/AXBASE_031.png) \* Per aggiungere una nuova news, inserire 01 nel campo "Opzioni"
  \* Inserire il "Tipo Rapp. Segnalazione" : 
  \*\* NWS viene usato per news inviate anche ai clienti

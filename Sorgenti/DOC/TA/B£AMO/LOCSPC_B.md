@@ -1,5 +1,5 @@
 - [Pareto](Sorgenti/DOC/TA/B£AMO/LOCSPC_PAR)
-- [Frequenza (Gaussiana](Sorgenti/DOC/TA/B£AMO/LOCSPC_FRE)
+- [Frequenza (Gaussiana)](Sorgenti/DOC/TA/B£AMO/LOCSPC_FRE)
 - [Time variable control](Sorgenti/DOC/TA/B£AMO/LOCSPC_TVC)
 - [Batch variable control](Sorgenti/DOC/TA/B£AMO/LOCSPC_BVC)
 - [Calendar line](Sorgenti/DOC/TA/B£AMO/LOCSPC_CLN)

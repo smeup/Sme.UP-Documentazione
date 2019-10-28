@@ -18,17 +18,17 @@ Di seguito un video che illustra l'installazione
 ![LOCBAS_049](http://localhost:3000/immagini/LOCBAS_SPO/LOCBAS_049.png)
 I passi minimi per cominciare sono i seguenti : 
 
-\* Installare Sme.UP Provider
-\* Creare/Scegliere un utente AS400 Dedicato
-\* Creare il membro SCP_CLO/<Nome dell'utente scelto> nella libreria delle personalizzazioni del cliente (chiedere al responsabile applicativo), copiando SMEDEV/SCP_CLO/SMEUPPR_ES
-\* Avviare Sme.UP Provider
-\* Eseguire i test di primo avvio (vedi paragrafo "Passi per la prima esecuzione" per verificare che tutto sia stato fatto correttamente)
+-  Installare Sme.UP Provider
+-  Creare/Scegliere un utente AS400 Dedicato
+-  Creare il membro SCP_CLO/<Nome dell'utente scelto> nella libreria delle personalizzazioni del cliente (chiedere al responsabile applicativo), copiando SMEDEV/SCP_CLO/SMEUPPR_ES
+-  Avviare Sme.UP Provider
+-  Eseguire i test di primo avvio (vedi paragrafo "Passi per la prima esecuzione" per verificare che tutto sia stato fatto correttamente)
 
 
 ## Requisiti minimi di sistema
 
  \* Server Windows __con sistema operativo supportato da Microsoft__, adeguatamente dimensionato in funzione del carico.
-\*\* Non sono supportati WIndows XP, Windows Server 2003 e tutti i precedenti
+- \* Non sono supportati WIndows XP, Windows Server 2003 e tutti i precedenti
  \* Adeguata infrastruttura di rete per poter rendere accessibile su internet/intranet la porta HTTP/HTTPS
  \* Un utente Windows dedicato
  \* Un utente AS400 dedicato
@@ -131,30 +131,30 @@ L'utente di windows deve essere amministratore per poter consentire al provider 
 
 Per configurare il servizio : 
 **Per versioni di Provider precedenti alla Roma REV.1 (rilasciata in data 06/07/2017)**
-\* andare nella cartella di installazione e nella sottocartella **serviceNT\conf**
-\* se non si è già in possesso di un proprio file **wrapper.conf** precedentement configurato, creare una copia del file wrapper_default.conf chiamandola wrapper.conf
-\* aprire il file **wrapper.conf** con un editor di testo
-\* modificare le parti tra parentesi quadre. I parametri sono gli stessi dell'avvio : 
-\*\* **wrapper.app.parameter.2= AS400**  :   Server AS400 Smeup
-\*\* **wrapper.app.parameter.3= UTENTE**  :   Utente di avvio
-\*\* **wrapper.app.parameter.4= PASSWORD**  :   La password
-\*\* **wrapper.app.parameter.5= INGRESSO UTENTE**  :  Ambiente di esecuzione
-\*\* **wrapper.java.additional.1=-DSmeup.smeui.uiserverside.name=** :  Definisce la coda di comunicazione con l'as400 **(6 CARATTERI ALFABETICI)** La coda serve all'AS400 per richiedere l'esecuzione di funzioni al provider. Chiedere ad un installatore SmeUp se questa funzionalità serve oppure no, se non serve è comunque obbligatorio indicare un nome. Utilizzare ad esempio SMEPRO (verificare che nella libreria SMEUPUIDQ prima dell primo avvio del provider non esistano oggetti ECTSSMEPRO e ESTCSMEPRO)
-\*\* **wrapper.app.parameter.8=--http(s):[PORTA]** : Definisce l'attivazione della modalità http(s) e la porta di accesso all'http(s) (opzionale, se non specificata assume 9090)
-\*\* **wrapper.app.parameter.9=--loglevel : [LIVELLO]** :  Definisce il livello di log. Valori possibili per LIVELLO :  DEBUG,INFO(default), WARN, ERR, OFF.
-\*\* **wrapper.app.parameter.10=--enc : [XX]** :  definisce l'encoding del provider. Identifica il codice dell'encoding da usare. es U8
+-  andare nella cartella di installazione e nella sottocartella **serviceNT\conf**
+-  se non si è già in possesso di un proprio file **wrapper.conf** precedentement configurato, creare una copia del file wrapper_default.conf chiamandola wrapper.conf
+-  aprire il file **wrapper.conf** con un editor di testo
+-  modificare le parti tra parentesi quadre. I parametri sono gli stessi dell'avvio : 
+- \* **wrapper.app.parameter.2= AS400**  :   Server AS400 Smeup
+- \* **wrapper.app.parameter.3= UTENTE**  :   Utente di avvio
+- \* **wrapper.app.parameter.4= PASSWORD**  :   La password
+- \* **wrapper.app.parameter.5= INGRESSO UTENTE**  :  Ambiente di esecuzione
+- \* **wrapper.java.additional.1=-DSmeup.smeui.uiserverside.name=** :  Definisce la coda di comunicazione con l'as400 **(6 CARATTERI ALFABETICI)** La coda serve all'AS400 per richiedere l'esecuzione di funzioni al provider. Chiedere ad un installatore SmeUp se questa funzionalità serve oppure no, se non serve è comunque obbligatorio indicare un nome. Utilizzare ad esempio SMEPRO (verificare che nella libreria SMEUPUIDQ prima dell primo avvio del provider non esistano oggetti ECTSSMEPRO e ESTCSMEPRO)
+- \* **wrapper.app.parameter.8=--http(s):[PORTA]** : Definisce l'attivazione della modalità http(s) e la porta di accesso all'http(s) (opzionale, se non specificata assume 9090)
+- \* **wrapper.app.parameter.9=--loglevel : [LIVELLO]** :  Definisce il livello di log. Valori possibili per LIVELLO :  DEBUG,INFO(default), WARN, ERR, OFF.
+- \* **wrapper.app.parameter.10=--enc : [XX]** :  definisce l'encoding del provider. Identifica il codice dell'encoding da usare. es U8
 
 Parametri dispopnibili solo per la V5R1M161106 ROMA REV.1
-\*\* **wrapper.app.parameter.11=--intserver** : modalità interattiva del provider
-\*\* **wrapper.app.parameter.12=--sbs** : sottosistema_lavori_default_QBATCHUI
-\*\* **wrapper.app.parameter.13=--nodblog** :  disabilitazione loggatura su database
-\*\* **wrapper.app.parameter.14=--cleandb : nnnnF** : pulitura database log
+- \* **wrapper.app.parameter.11=--intserver** : modalità interattiva del provider
+- \* **wrapper.app.parameter.12=--sbs** : sottosistema_lavori_default_QBATCHUI
+- \* **wrapper.app.parameter.13=--nodblog** :  disabilitazione loggatura su database
+- \* **wrapper.app.parameter.14=--cleandb : nnnnF** : pulitura database log
 
-\* lanciare **ServiceTest.bat**. Se è tutto configurato bene si aprirà la finestra di Sme.UP Provider. **Fare gli opportuni test**. Chiudere la finestra dos.
-\* lanciare **ServiceInstall.bat**.
-\* Aprire il **gestore dei servizi windows** (Strumenti di amministrazione, Servizi) e verificare che **SmeupProvider** sia presente.
-\* Modificare le proprietà del servizio impostando l'utente di avvio. Deve essere **come minimo un utente amministratore locale, ma non LOCAL SYSTEM, che di fatto non è un utente!. Se il provider deve accedere al''IFS o ad altri server, utilizzare un opportuno utente di windows. Attenzione che provider installato come servizio NON è in grado di eseguire il comando JA_00_15;NET.AUT. Se questo comando è indispensabile, installare in modalità interattiva.
-\* lanciare **ServiceStart.bat**.  **Fare gli opportuni test**.
+-  lanciare **ServiceTest.bat**. Se è tutto configurato bene si aprirà la finestra di Sme.UP Provider. **Fare gli opportuni test**. Chiudere la finestra dos.
+-  lanciare **ServiceInstall.bat**.
+-  Aprire il **gestore dei servizi windows** (Strumenti di amministrazione, Servizi) e verificare che **SmeupProvider** sia presente.
+-  Modificare le proprietà del servizio impostando l'utente di avvio. Deve essere **come minimo un utente amministratore locale, ma non LOCAL SYSTEM, che di fatto non è un utente!. Se il provider deve accedere al''IFS o ad altri server, utilizzare un opportuno utente di windows. Attenzione che provider installato come servizio NON è in grado di eseguire il comando JA_00_15;NET.AUT. Se questo comando è indispensabile, installare in modalità interattiva.
+-  lanciare **ServiceStart.bat**.  **Fare gli opportuni test**.
 
 ### La pagina di debug
 La pagina di debug consente di fare varie verifiche e di far eseguire funzioni al provider.
@@ -178,8 +178,8 @@ Il file wrapper.conf è stato riorganizzato per rendere più agevole gestire la 
 **N.B.** :  I vecchi file wrapper.conf **CONTINUANO A FUNZIONARE CORRETTAMENTE**
 
 La gestione delle variabili di configurazione è stata divisa in due parti : 
-\* la parte di dichiarazione delle variabili
-\* la parte di utilizzo delle variabili
+-  la parte di dichiarazione delle variabili
+-  la parte di utilizzo delle variabili
 
 All'inizio del file è presente l'elenco delle variabili gestite
  :  : PAR F(03) T(Parametri di avvio OBBLIGATORI)

@@ -4,7 +4,7 @@
 - [Gestione archivio](Sorgenti/DOC/TA/B£AMO/V5PROV_01)
 - [Calcolo provvigioni](Sorgenti/DOC/TA/B£AMO/V5PROV_02)
 - [Liquidazione](Sorgenti/DOC/TA/B£AMO/V5PROV_03)
-- [Piano provvigioni&-x2f;Documento attesa fattura](Sorgenti/DOC/TA/B£AMO/V5PROV_04)
+- [Piano provvigioni/Documento attesa fattura](Sorgenti/DOC/TA/B£AMO/V5PROV_04)
 - [Contabilizzazione Pro-Forma](Sorgenti/DOC/TA/B£AMO/V5PROV_07)
 - [Contabilizzazione provvigioni e Contributi](Sorgenti/DOC/TA/B£AMO/V5PROV_05)
 - [Gestione Insoluti](Sorgenti/DOC/TA/B£AMO/V5PROV_06)

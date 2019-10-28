@@ -4,7 +4,7 @@
 Errore segnalato nel joblog : 
 Rilevato errore nella sessione QSH, codice di errore 4, numero di errore 3489.
 Causa : 
-Il sottosistema in cui sta girando il B£G53G ha un numero massimo di lavori attivi diverso da \*NOMAX.
+Il sottosistema in cui sta girando il B£G53G ha un numero massimo di lavori attivi diverso da - NOMAX.
 E' possibile controllare questa caratteristica con il comando DSPSBSD SBSD(nomesottosistema) - opzione 1
 **Correzione** : 
 Cambiare il numero massimo di lavori attivi nel sottosistema o eseguire il comando in un altro sottosistema

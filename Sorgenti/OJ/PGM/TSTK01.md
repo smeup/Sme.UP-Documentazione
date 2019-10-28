@@ -4,18 +4,18 @@ Questa /copy si occupa di svolgere tutte le funzioni di gestione delle relazioni
 
 # FUNZIONI / METODI
 
-\* MOD :  funzioni sul modulo
-\*\* TIP :  Dato in input il modulo mi restituisce il tipo oggetto corrispondente al modulo (es. BRENTI - CN)                                                          \
-\*\* TPA :  Dato in input il modulo mi restituisce il tipo oggetto corrispondente al modulo ed il tipo oggetto del parametro del tipo oggetto (es. BRENTI - CN - TABRE)
-\* OGG :  funzioni su oggetto
-\*\* MOD :  Dato in input un oggetto restituisce il modulo di appartenenza
-\* PAM :  funzioni su parametro oggetto
-\*\* POS :  Dato in input un modulo multiparametro, restituisce il primo parametro corrispondente N.B. :  se un modulo ha un solo parametro collegato verrà ritornato il valore "1" nel campo "Unico"
-\*\* LET :  Eseguita a seguito della precedente metodo permette di continuare la scansione
-\* JOB :  funzioni di Job
-\*\* LPA :  Ritorna per modulo a parametri, il parametro valido per il job al momento della chiamata,
+-  MOD :  funzioni sul modulo
+- \* TIP :  Dato in input il modulo mi restituisce il tipo oggetto corrispondente al modulo (es. BRENTI - CN)                                                          \
+- \* TPA :  Dato in input il modulo mi restituisce il tipo oggetto corrispondente al modulo ed il tipo oggetto del parametro del tipo oggetto (es. BRENTI - CN - TABRE)
+-  OGG :  funzioni su oggetto
+- \* MOD :  Dato in input un oggetto restituisce il modulo di appartenenza
+-  PAM :  funzioni su parametro oggetto
+- \* POS :  Dato in input un modulo multiparametro, restituisce il primo parametro corrispondente N.B. :  se un modulo ha un solo parametro collegato verrà ritornato il valore "1" nel campo "Unico"
+- \* LET :  Eseguita a seguito della precedente metodo permette di continuare la scansione
+-  JOB :  funzioni di Job
+- \* LPA :  Ritorna per modulo a parametri, il parametro valido per il job al momento della chiamata,
 tale codice può essere recuperato in due modi :  se il modulo è monoparametro, dal singolo parametro valido, se è multiparametro dal parametro memorizzato l'ultima volta che è stata eseguito il metodoWPA
-\*\* WPA :  Come anticipato nel precedente metodo, permette di scrivere in memoria per l'utente ed ambiente, il parametro attivo per il modulo in un dato momento.
+- \* WPA :  Come anticipato nel precedente metodo, permette di scrivere in memoria per l'utente ed ambiente, il parametro attivo per il modulo in un dato momento.
 
 # REPERIMENTO DATI OGGETTO/MODULO
 

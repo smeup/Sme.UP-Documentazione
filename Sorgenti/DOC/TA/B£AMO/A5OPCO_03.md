@@ -48,15 +48,15 @@ In fase di attivazione dei collegamenti A5 - C5 si consiglia di procedere in que
 ## Contabilizzazione vendite
 
 Per gestire in modo automatico le rilevazioni contabili relative alle vendite/alienazioni si consiglia di procedere in questo modo : 
-\* All'interno della registrazione contabile della vendita utilizzare come contropartita del cliente un conto transitorio
-\* Impostare a livello generale : 
-\*\* Come conto dare del capitale venduto il conto transitorio
-\*\* Come conto avere del fondo venduto il conto transitorio
-\*\* Come conto dare delle plusvalenze il conto transitorio
-\*\* Come conto avere delle plusvalenze il conto relativo alle plusvalenze
-\*\* Come conto avere delle minusvalenze il conto transitorio
-\*\* Come conto dare delle minusvalenze il conto relativo alle minusvalenze
-\* Impostare sulle categorie/cespiti i relativi conti di costo storico (capitale) e fondo.
+-  All'interno della registrazione contabile della vendita utilizzare come contropartita del cliente un conto transitorio
+-  Impostare a livello generale : 
+- \* Come conto dare del capitale venduto il conto transitorio
+- \* Come conto avere del fondo venduto il conto transitorio
+- \* Come conto dare delle plusvalenze il conto transitorio
+- \* Come conto avere delle plusvalenze il conto relativo alle plusvalenze
+- \* Come conto avere delle minusvalenze il conto transitorio
+- \* Come conto dare delle minusvalenze il conto relativo alle minusvalenze
+-  Impostare sulle categorie/cespiti i relativi conti di costo storico (capitale) e fondo.
 
 Terminata la configurazione sarà possibile eseguire la contabilizzazione automatica della vendita del cespite che porterà a zero il saldo del conto transitorio e rileverà i relativi valori di costo storico, fondo e plus/minusvalenza utilizzando la funzione _Contabilizzazione Vendite disponibile all'interno del modulo Cespiti :  operazioni contabili.
 

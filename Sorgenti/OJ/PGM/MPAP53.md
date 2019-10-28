@@ -15,8 +15,8 @@ E' quindi necessario fornire alcune caratteristiche della vista di input, utiliz
  \* Si deve inoltre specificare se la serie di input è una _2_serie storica od una _2_serie di previsioni. In questo modo è possibile condizionare un'azione (ad esempio di lisciamento) :  farla eseguire solo se la serie è storica, senza dover duplicare gli script.
  \* Bisogna inoltre impostare anche il _2_numero di periodi di storia (per default assume la frontiera) e il _2_numero di periodi di previsione.
 In questo modo si fissano gli estremi dei periodi su cui si eseguono le correzioni : 
-\* Per la serie storica dall'inizio della storia alla frontiera
-\* Per la serie di previsioni dal periodo successivo alla frontiera fino al numero di periodi di previsioni.
+-  Per la serie storica dall'inizio della storia alla frontiera
+-  Per la serie di previsioni dal periodo successivo alla frontiera fino al numero di periodi di previsioni.
 
 ## Sostituzione articolo
 Si inserisce nello script (default MPAP53 di SCP_SET) il passo ..M53_01

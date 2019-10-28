@@ -51,12 +51,12 @@ Posizione primo elemento non a zero
 Posizione ultimo elemento non a zero
 Mediana
 Indicatori di process capability : 
-\* CP
-\* CPL
-\* CPU
-\* CPK
-\* CPM
-\* CPKM
+-  CP
+-  CPL
+-  CPU
+-  CPK
+-  CPM
+-  CPKM
 
 ### Funzioni vettoriali di una serie
 Ritorno. (1)
@@ -123,17 +123,17 @@ Nei periodi di storia viene calcolata una previsione "passata" e viene confronta
 **Coefficienti Holt Winters (HW)**
 Ritorna una serie di N elementi (dove N è tre volte la storia) contenente i coefficienti di livello, trend e stagionalità della sere HW predcedentemente calcolata, per ogni periodo della storia.
 Ad esempio, con una storia di 24 periodi, la serie di output contiene : 
-\* Posizioni 1 - 24  :  livello degli elementi 1 - 24
-\* Posizioni 25 - 48  :  trend degli elementi 1 - 24
-\* Posizioni 49 - 72  :  stagionalità degli elementi 1 - 24
+-  Posizioni 1 - 24  :  livello degli elementi 1 - 24
+-  Posizioni 25 - 48  :  trend degli elementi 1 - 24
+-  Posizioni 49 - 72  :  stagionalità degli elementi 1 - 24
 NB :  le posizioni partono dall'inizio, e quindi possono non avere esatta corrispondenza con la serie HW. Ad esempio, con una frontiera al periodo 36, ed una storia di 24 periodi, il primo periodo della storia, nella serie HW è il 13, mentre nella presente serie dei coefficienti è il 1.
 Vengono ritornati inoltre i seguenti numeri, che sono gli estremi delle tre sottoserie.
-\* Numero 1 - 1
-\* Numero 2 - 24
-\* Numero 3 - 25
-\* Numero 4 - 48
-\* Numero 5 - 49
-\* Numero 6 - 72
+-  Numero 1 - 1
+-  Numero 2 - 24
+-  Numero 3 - 25
+-  Numero 4 - 48
+-  Numero 5 - 49
+-  Numero 6 - 72
 **Statistica Hotelling da Holt Winter (HW)**
 Questa funzione/metodo va lanciata dopo il calcolo Holt Winters.
 Ritorna una serie di N elementi pari alla storia, che costituisce la statistica Hotelling della previsione. Ritorra anche i seguenti numeri : 
@@ -168,9 +168,9 @@ Ritorna una serie, in cui, in ogni elemento, viene calcolata la differenza tra i
 ## Utilizzo della /COPY
 ### Funzione INZ (inizializzazione)
 La si lancia una volta per comunicare che si sta per elaborare una nuova serie, ed il tipo di serie (singolo numero, semplice, doppia, ecc ...); in questa funzione si inizializzano : 
-\* le schiere interne del programma
-\* tutti i campi di input
-\* tutti i campi di output
+-  le schiere interne del programma
+-  tutti i campi di input
+-  tutti i campi di output
 
 ### Funzione CAR (caricamento)
 La si lancia per caricare le serie di input; si passa il numero di elementi :  se non impostato, si assume l'ultimo elemento non vuoto, si può richiamare più volte :  i nuovi dati si accodano ai precedenti; in questa funzione si inizializzano (al ritorno del richiamo) i campi di input passati. La caratterizzazione alfanumerica di ogni elemento della serie è comune alle due serie :  il valore viene messo nella posizione del numero corrispondente, e ricopre il precedente. Nel caricamento alternato si deve impostare, come numero di elementi, il numero di coppie. Ad esempio, se la prima serie è 1,2,3 e la seconda 8,7,6, per passarle con metodo A_12, si passa la serie 1,8,2,7,3,6, ed il numero di elementi 3.

@@ -28,8 +28,8 @@ In ambiente multipiattaforma il comando di riferimento è  :  : DEC T(OJ) P(\*CM
 
 
 Esempi di chiamata : 
-\* RUNTEST COMP(Database) OUTPUT(\*PRINT)
-\* RUNTEST COMP(\*ALL) OUTPUT(\*FILE)
-\* RUNTEST RUNNER(asup : /omac/com.smeup.erp.test.gen/com.smeup.erp.test.gen.runner.MUTE01_01)
+-  RUNTEST COMP(Database) OUTPUT(\*PRINT)
+-  RUNTEST COMP(\*ALL) OUTPUT(\*FILE)
+-  RUNTEST RUNNER(asup : /omac/com.smeup.erp.test.gen/com.smeup.erp.test.gen.runner.MUTE01_01)
 
 

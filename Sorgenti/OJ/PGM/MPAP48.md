@@ -14,13 +14,13 @@ E' un campo facoltativo :  se non impostato, si assume pari alla periodicità. D
 ### Fattori di smorzamento
 **Alfa, Beta, Gamma**
 Indicano il peso, all'interno della storia, dei periodi più recenti rispetto a quelli  più remoti, rispettivamente per il livello, il trend e la stagionalità. Il loro valore va da 0 (conta solo il primo periodo) ad 1 (conta solo l'ultimo periodo). Per ognuno di essi si può, in modo indipendente dagli altri due : 
-\* impostare il campo di autofit (in modo che il sistema calcoli il valore ottimo)
-\* lasciare in bianco l'autofit e impostare un valore tra 0 (il che corrisponde a utilizzare solo il periodo iniziale) e 1 (il che corrisponde a utilizzare solo il periodo finale). Il default se il campo non è impostato è 0.
+-  impostare il campo di autofit (in modo che il sistema calcoli il valore ottimo)
+-  lasciare in bianco l'autofit e impostare un valore tra 0 (il che corrisponde a utilizzare solo il periodo iniziale) e 1 (il che corrisponde a utilizzare solo il periodo finale). Il default se il campo non è impostato è 0.
 Un valore sufficientemente adeguato per i tre coefficienti si è rivelato essere 0,2, senza ricorrere all'autofit (che comporta tempi di elaborazione estremamente più lunghi).
 __Nota Bene__; il campo autofit e il valore sono alternativi :  se il valore è impostato l'autofit deve essere blank.
 A seconda delle versioni installate, se impostato il campo autofit può assumere valori : 
-\* 1 = attivo autofit, il sistema itera il calcolo con valori di incremento del fattore di smorzamento a passo 0,2 :  valori 0 - 0,2 - 0,4 - 0,6 - 0,8 - 1
-\* da 2 a 9 = autofit con passo variabile, il passo di incremento del fattore di smorzamento viene calcolato dividendo l'intervallo tra 0 e 1 in un numero pari a quello inserito nel campo, il calcolo viene iterato incrementando di volta in volta il fattore di smorzamento con un valore pari al passo calcolato
+-  1 = attivo autofit, il sistema itera il calcolo con valori di incremento del fattore di smorzamento a passo 0,2 :  valori 0 - 0,2 - 0,4 - 0,6 - 0,8 - 1
+-  da 2 a 9 = autofit con passo variabile, il passo di incremento del fattore di smorzamento viene calcolato dividendo l'intervallo tra 0 e 1 in un numero pari a quello inserito nel campo, il calcolo viene iterato incrementando di volta in volta il fattore di smorzamento con un valore pari al passo calcolato
 
 ### Autofit senza arretramento
 Se si imposta di calcolare almeno uno dei tre fattori di smorzamento, e la storia non vale almeno tre periodicità, deve essere impostato questo campo, e quindi eseguire  il test direttamente sul periodo di previsione. In assenza di questa impostazione si devono poter ritagliare due periodicità di training ed una di test. A rigore, per l'HW additivo, sarebbero sufficienti due periodicità più uno, ma si è preferito  avere un periodo di training più robusto.
@@ -29,21 +29,21 @@ Se impostato, la previsione verrà eseguita con il metodo moltiplicativo, (più 
 - [Include per previsioni](Sorgenti/DOC_OPE/TA/B£AMO/MP_INC005)
 ### Indice autofit
 Se impostato il calcolo dei fattori di smorzamento tramite autofit, in questo campo si seleziona l'indice di confronto per stabilire la migliore previsione, tra i tre valori calcolati e memorizzati nei numeri dell'MPS : 
-\* % di errore (default)
-\* Mape
-\* Sigma
+-  % di errore (default)
+-  Mape
+-  Sigma
 ### Memorizzazione numeri
 E' possibile memorizzare, sia i numeri di dettaglio sia i numeri di riepilogo, su appositi record di D5COSO.
 Con questo campo si può impostare di : 
-\* ' ' Memorizzare sia i numeri di dettaglio sia i numeri di riepilogo
-\* '1' Memorizzare solo i numeri di dettaglio
-\* '2' Memorizzare solo i numeri d riepilogo
-\* '3' Non memorizzare i numeri
+-  ' ' Memorizzare sia i numeri di dettaglio sia i numeri di riepilogo
+-  '1' Memorizzare solo i numeri di dettaglio
+-  '2' Memorizzare solo i numeri d riepilogo
+-  '3' Non memorizzare i numeri
 E' consigliato il popolamento delle tabelle relative a questi numeri con il programma D5FS01A (contesti AR e MP)
 ### Numeri di dettaglio
 Sono memorizzati dopo aver calcolato le previsioni di ogni articolo. Per la loro memorizzazione, devono verificarsi le seguenti condizioni : 
-\* Le viste devono avere il codice 1 di tipo AR e il codice 2 o vuoto o di tipo TAMAG.
-\* Se l'applicazione è multiplant, nel codice piano deve essere impostato il plant (A), oppure il plant è il codice 2 della vista (B).
+-  Le viste devono avere il codice 1 di tipo AR e il codice 2 o vuoto o di tipo TAMAG.
+-  Se l'applicazione è multiplant, nel codice piano deve essere impostato il plant (A), oppure il plant è il codice 2 della vista (B).
 Il contesto è AR (articolo) ed il tema £P1 (del sottosettore AR). Il codice 1 è il plant (anche se applicazione monoplant), ripreso dal plant fisso in applicazione monoplant, dal plant del piano nel caso (A) e dal plant del record nel caso (B). Il campo data/periodo viene riempito con la data iniziale del periodo successivo alla frontiera.
 ### Numeri di riepilogo generali
 Sono memorizzati al termine del calcolo delle previsoni di tutti gli articoli. Il contesto è TAMPC (codice vista) ed il tema £P2 (del sottosettore MP). Il codice 1 è il piano. Il campo data / periodo è lasciato vuoto, in quanto la coppia vista / piano è univoca.

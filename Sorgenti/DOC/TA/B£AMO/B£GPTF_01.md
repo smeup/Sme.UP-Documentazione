@@ -7,8 +7,8 @@ Facilitare il processo di distribuzione di uno o più gruppi di programmi dal la
 # Utilizzo
 
 Il trasferimento dei sorgenti avviene tramite due fasi principali, riconducibili alle voci di menù
-\* 'I-Invio'  ( Preparazione e spedizione dei file da inviare )
-\* 'R-Ricezione' ( Ricezione e restore degli oggetti ricevuti )	
+-  'I-Invio'  ( Preparazione e spedizione dei file da inviare )
+-  'R-Ricezione' ( Ricezione e restore degli oggetti ricevuti )	
 
 ## Preparazione e spedizione dei file
 La preparazione dei sorgenti da trasferire ha inizio con la creazione di uno Script  definito all'interno del file SCP_PTF (la libreria è libera). Il membro che definisce lo script deve essere nominato come STipoGruppo_XXYYY dove il Tipo gruppo sarà compilato con DST o PTF a seconda della tipologia di trasferimento, XX indica l'applicazione di riferimento del gruppo trasferito e YYY è un progressivo libero. La creazione del membro può essere eseguita direttamente dalla scheda selezionando il tab Azioni e quindi 'Crea nuovo script'. Verranno quindi richiesti libreria e nome del membro (il file è fissato a SCP_PTF) .

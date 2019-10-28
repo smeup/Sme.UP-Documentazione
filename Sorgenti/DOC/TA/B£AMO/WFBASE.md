@@ -3,13 +3,13 @@
 - [Flussi degli impegni](Sorgenti/DOC/TA/B£AMO/WFBASE_015)
 - [Responsabilità](Sorgenti/DOC/TA/B£AMO/WFBASE_003)
 - [Avanzamenti](Sorgenti/DOC/TA/B£AMO/WFBASE_033)
-- [Terminologia&-x3a; parallelo con ordini di produzione](Sorgenti/DOC/TA/B£AMO/WFBASE_001)
+- [Terminologia :  parallelo con ordini di produzione](Sorgenti/DOC/TA/B£AMO/WFBASE_001)
 ## Concetti operativi
 - [Operazioni su ordini di workflow](Sorgenti/DOC/TA/B£AMO/WFBASE_005)
 - [Esecuzione di un impegno da scheda](Sorgenti/DOC/TA/B£AMO/WFBASE_024)
 - [Faq utilizzo workflow](Sorgenti/DOC/TA/B£AMO/WFBASE_019)
 ## Documentazione tecnica - base
-- [Installazione&-x3a; oggetti richiesti](Sorgenti/DOC/TA/B£AMO/WFBASE_016)
+- [Installazione :  oggetti richiesti](Sorgenti/DOC/TA/B£AMO/WFBASE_016)
 - [Autorizzazioni Work.up](Sorgenti/DOC/TA/B£AMO/WFBASE_006)
 - [Come si costruisce un workflow](Sorgenti/DOC/TA/B£AMO/WFBASE_018)
 - [Workflow designer](Sorgenti/DOC_OPE/TA/B£AMO/LOCWFD_A)

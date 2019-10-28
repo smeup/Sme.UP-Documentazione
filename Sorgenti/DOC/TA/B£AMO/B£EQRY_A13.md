@@ -4,19 +4,19 @@ Per utilizzare le ricerche grafiche, in emulazione deve essere innanzitutto prev
 
 In questo modo è previsto che se il client riesce ad individuare dal file video l'oggetto di un campo, il client prevederà di risolvere la ricerca su tale campo attraverso la ricerca grafica.
 In questa affermazione sono contenuti due aspetti fondamentali delle ricerche grafiche : 
-\* La ricerca parte solo se per il client, se l'oggetto è identificabile (si vedrà a seguire come)
-\* La ricerca viene intercettata dal client e solo a seguito della risoluzione di tutte le ricerche il pgm di emulazione verrà richiamato. Questo implica che il pgm di emulazione non riceve mai i campi valorizzati con i caratteri di ricerca, in quando risolti a priori dal client.
+-  La ricerca parte solo se per il client, se l'oggetto è identificabile (si vedrà a seguire come)
+-  La ricerca viene intercettata dal client e solo a seguito della risoluzione di tutte le ricerche il pgm di emulazione verrà richiamato. Questo implica che il pgm di emulazione non riceve mai i campi valorizzati con i caratteri di ricerca, in quando risolti a priori dal client.
 
 La tipizzazione del campo deve essere quindi assolutamente precisa e corretta.
 
 # Come far riconoscere al client l'oggetto di un campo video
 
 L'oggetto di un campo può essere indicato in due modalità : 
-\* Indicando il tipo oggetto nella descrizione del campo video a partire dalla trentesima posizione
-\* Attraverso l'indicazione di particolari istruzioni di commento da indicare nel file video con la seguente struttura : 
-\*\*  :  : F.FLD :  costante iniziale
-\*\* K(£Unomeformatovideo.nomecampovideo) :  nel parametro K viene indicato, preceduto da una costante fissa "£U" il nome del formato video, seguito da un "." e dal nome del campo video.
-\*\* Ogg="TipoOggetto" :  nell'attributo Ogg viene indicato il tipo oggetto del campo
+-  Indicando il tipo oggetto nella descrizione del campo video a partire dalla trentesima posizione
+-  Attraverso l'indicazione di particolari istruzioni di commento da indicare nel file video con la seguente struttura : 
+- \*  :  : F.FLD :  costante iniziale
+- \* K(£Unomeformatovideo.nomecampovideo) :  nel parametro K viene indicato, preceduto da una costante fissa "£U" il nome del formato video, seguito da un "." e dal nome del campo video.
+- \* Ogg="TipoOggetto" :  nell'attributo Ogg viene indicato il tipo oggetto del campo
 
 Per entrambe le modalità se il tipo oggetto è dinamico, è possibile indicare fra parentesi quadre il nome di un'altro campo video (che può essere anche hidden).
 

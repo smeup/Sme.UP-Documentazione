@@ -2,7 +2,7 @@
 
 Come accennato nella documentazione operativa i pgm di elaborazione di una stampa sono programmi eseguiti in batch, per tale motivo sul loro lancio e la loro esecuzione si rimanda al relativo documento.
 
-- [Lancio&-x2f;Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
+- [Lancio/Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
 
 # UTILITY PER LA PRODUZIONE DELL'OUTPUT
 

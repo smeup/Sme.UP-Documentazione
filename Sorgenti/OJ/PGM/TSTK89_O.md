@@ -18,13 +18,13 @@ Ci sono poi delle funzioni aggiuntive che vengono lanciate in automatico dalle f
 La funzione di setup viene eseguita in automatico prima della gestione.
 Ricostruisce tutti i parametri di input in funzione di quelli ricevuti e del nome setup (parametro input "NamSet")
 Il "NamSet" corrisponde ad un tag NAM di SCP_A36. In questa tabella è impostare alcuni parametri di input. In particolare : 
-\* l'eventuale programma di exit
-\* la struttura SCP_LAY da utilizzare nella gestione
+-  l'eventuale programma di exit
+-  la struttura SCP_LAY da utilizzare nella gestione
 La priorità è sempre per i parametri ricevuti in input.
 
 Lo script SCP_A36 corrisponde al tipo oggetto, in questo vengono ricercati i tag AZI e NAM : 
-\* AZI corrisponde all'azione di gestione (01, 02, 03, 04, 05) con risalita ad \*\* se manca l'AZI specifica e con eccezione per l'azione 00 che viene attivata come azione di pre-immissione.
-\* NAM definisce un contesto particolare in cui si vuole operare. \*\* è il default, cioè il contesto che viene utilizzato quando si vuole semplicemente eseguire l'azione di gestione sull'oggetto.
+-  AZI corrisponde all'azione di gestione (01, 02, 03, 04, 05) con risalita ad \*\* se manca l'AZI specifica e con eccezione per l'azione 00 che viene attivata come azione di pre-immissione.
+-  NAM definisce un contesto particolare in cui si vuole operare. \*\* è il default, cioè il contesto che viene utilizzato quando si vuole semplicemente eseguire l'azione di gestione sull'oggetto.
 
 All'interno di un'istruzione AZI e NAM, ci può essere una o più istruzioni VAR, queste permettono sulla base dell'attributo Cnz di valutare quale configurazione di parametri applicare all'azione.
 In Cnz possono essere indicate variabili d'ambiente o attributi dell'oggetto sulla base delle quali posso decidere che configurazione applicare.
@@ -291,17 +291,17 @@ Sono gestite le seguenti azioni :
 
 
 ## Deriva
-\* Oggetto.
+-  Oggetto.
 Permette di derivare il codice oggetto qualora in input non si conosca me ci siano altre informazioni con cui è possibile identificarlo univocamente.
 Per esempio nei clienti quando si conosce la partita iva ma non il codice cliente.
 Viene eusato principalmente per l'import di dati LOA40.
 
 ## AUT
-\* Autorizzazioni
+-  Autorizzazioni
 Controlla l'autorizzazione sull'azione scelta
 
 ## OVR
-\* Overlay
+-  Overlay
 E' la funzione che esegue l'ovrlay delle proprieta dei campi della struttura dall SCP_LAY scelto
 
 ## Funzioni e metodi
@@ -395,82 +395,82 @@ I parametri si possono presentare in 9 tipologie di gestione.
 
 Ciascuna viene gestita nella £K89 con una sua forma specifica
 
-\* parametro SINGOLO alfanumerico
+-  parametro SINGOLO alfanumerico
 Viene presentato come campo il parametro con l'oggetto della tabella "B£N"
 Il parametro K89I_PL contiente l'informazione di parametro singolo alfanumerico nella forma Par(A)
 
-\* parametro SINGOLO numerico
+-  parametro SINGOLO numerico
 Viene presentato come campo il parametro con l'oggetto fisso "NR"
 Il parametro K89I_PL contiente l'informazione di parametro singolo numerico nella forma Par(N)
 
-\* parametro SINGOLO alfanumerico e numerico
+-  parametro SINGOLO alfanumerico e numerico
 Il parametro viene suddiviso in due campi : 
-\*\* Un campo alfanumerico con l'oggetto dalla tabella "B£N". Viene aggiunto il suffisso /A£K89 al
+- \* Un campo alfanumerico con l'oggetto dalla tabella "B£N". Viene aggiunto il suffisso /A£K89 al
 nome del campo (Esempio P/NOM/NOM/A£K89)
 Il parametro K89I_PL contiente l'informazione di parametro singolo alfanumerico nella forma Par(SA)
-\*\* Un campo numerico con oggetto fisso "NR". Viene aggiunto il suffisso /N£K89 al nome del campo.
+- \* Un campo numerico con oggetto fisso "NR". Viene aggiunto il suffisso /N£K89 al nome del campo.
 (Esempio P/NOM/NOM/N£K89).
 Il parametro K89I_PL contiente l'informazione di parametro singolo numerico nella forma Par(SN)
 
-\* Parametro MULTIPLO alfanumerico
+-  Parametro MULTIPLO alfanumerico
 Il parametro viene presentato con un campo che diventa : 
-\* Un oggetto "LC" con tipo oggetto l'oggetto della tabella "B£N" (Esempio LCTABSA)
-\* Una lunghezza fisso di 2000
-\* Un campo di solo output
-\* Il campo contiene tutti i valori multipli nell'identificatico CD() e con separatore di record ";"
+-  Un oggetto "LC" con tipo oggetto l'oggetto della tabella "B£N" (Esempio LCTABSA)
+-  Una lunghezza fisso di 2000
+-  Un campo di solo output
+-  Il campo contiene tutti i valori multipli nell'identificatico CD() e con separatore di record ";"
 Esempio :  CD(AR1);CD(AR2);CD(AR3);
 Il parametro K89I_PL contiente l'informazione di parametro multiplo alfanumerico nella forma Par(MA)
 e l'informazione della configurazione nella forma LC(CD)
 
-\* Parametro MULTIPLO numerico
+-  Parametro MULTIPLO numerico
 Il parametro viene presentato con un campo che diventa : 
-\* Un oggetto "LC" con tipo oggetto fisso "NR" (Esempio LCNR)
-\* Una lunghezza fisso di 2000
-\* Un campo di solo output
-\* Il campo contiene tutti i valori multipli nell'identificatico NR() e con separatore di record ";"
+-  Un oggetto "LC" con tipo oggetto fisso "NR" (Esempio LCNR)
+-  Una lunghezza fisso di 2000
+-  Un campo di solo output
+-  Il campo contiene tutti i valori multipli nell'identificatico NR() e con separatore di record ";"
 Esempio :  NR(1,50000);NR(2,50000);NR(7,00000);
 Il parametro K89I_PL contiente l'informazione di parametro multiplo numerico nella forma Par(MN)
 e l'informazione della configurazione nella forma LC(NR)
 
-\* Parametro MULTIPLO alfanumerico e numerico
+-  Parametro MULTIPLO alfanumerico e numerico
 Il parametro viene presentato con un campo che diventa : 
-\* Un oggetto "LC" con tipo oggetto l'oggetto della tabella "B£N" (Esempio LCTABSA)
-\* Una lunghezza fisso di 2000
-\* Un campo di solo output
-\* Il campo contiene tutti i valori multipli nell'identificatico CD() e NR() con separatore di
+-  Un oggetto "LC" con tipo oggetto l'oggetto della tabella "B£N" (Esempio LCTABSA)
+-  Una lunghezza fisso di 2000
+-  Un campo di solo output
+-  Il campo contiene tutti i valori multipli nell'identificatico CD() e NR() con separatore di
 record ";"
 Esempio :  CD(AR1)NR(1,50000);CD(AR2)NR(2,50000);CD(AR3)NR(7,00000);
 Il parametro K89I_PL contiente l'informazione di parametro multiplo alfanumerico e numerico nella
 forma Par(MAN) e l'informazione della configurazione nella forma LC(CD;NR)
 
-\* Parametro MULTIPLO E DATATO alfanumerico
+-  Parametro MULTIPLO E DATATO alfanumerico
 Il parametro viene presentato con un campo che diventa : 
-\* Un oggetto "LC" con tipo oggetto l'oggetto della tabella "B£N" (Esempio LCTABSA)
-\* Una lunghezza fisso di 2000
-\* Un campo di solo output
-\* Il campo contiene tutti i valori multipli nell'identificatico CD(), DI() e DF() e con separatore
+-  Un oggetto "LC" con tipo oggetto l'oggetto della tabella "B£N" (Esempio LCTABSA)
+-  Una lunghezza fisso di 2000
+-  Un campo di solo output
+-  Il campo contiene tutti i valori multipli nell'identificatico CD(), DI() e DF() e con separatore
 di record ";"
 Esempio :  CD(AR1)DI(20150101)DF(20151231);CD(AR2)DI()DF();CD(AR3)DI(20150501)DF(20150531);
 Il parametro K89I_PL contiente l'informazione di parametro multiplo alfanumerico e datato nella
 forma Par(DA) e l'informazione della configurazione nella forma LC(CD;DI;DF)
 
-\* Parametro MULTIPLO E DATATO numerico
+-  Parametro MULTIPLO E DATATO numerico
 Il parametro viene presentato con un campo che diventa : 
-\* Un oggetto "LC" con tipo oggetto fisso "NR" (Esempio LCNR)
-\* Una lunghezza fisso di 2000
-\* Un campo di solo output
-\* Il campo contiene tutti i valori multipli nell'identificatico NR(), DI() e DF() e con separatore
+-  Un oggetto "LC" con tipo oggetto fisso "NR" (Esempio LCNR)
+-  Una lunghezza fisso di 2000
+-  Un campo di solo output
+-  Il campo contiene tutti i valori multipli nell'identificatico NR(), DI() e DF() e con separatore
 di record ";"
 Esempio :  NR(1,50000)DI(20150101)DF(20151231);NR(7,00000)DI(20150501)DF(20150531);
 Il parametro K89I_PL contiente l'informazione di parametro multiplo numerico e datato nella
 forma Par(DN) e l'informazione della configurazione nella forma LC(NR;DI;DF)
 
-\* Parametro MULTIPLO E DATATO alfanumerico e numerico
+-  Parametro MULTIPLO E DATATO alfanumerico e numerico
 Il parametro viene presentato con un campo che diventa : 
-\* Un oggetto "LC" con tipo oggetto l'oggetto della tabella "B£N" (Esempio LCTABSA)
-\* Una lunghezza fisso di 2000
-\* Un campo di solo output
-\* Il campo contiene tutti i valori multipli nell'identificatico CD(), NR(), DI(), e DF(), e con
+-  Un oggetto "LC" con tipo oggetto l'oggetto della tabella "B£N" (Esempio LCTABSA)
+-  Una lunghezza fisso di 2000
+-  Un campo di solo output
+-  Il campo contiene tutti i valori multipli nell'identificatico CD(), NR(), DI(), e DF(), e con
 separaotre di record ";"
 Esempio :  CD(AR1)NR(1,50000)DI(20150101)DF(20151231);CD(AR2)NR(7,00000)DI(20150501)DF(20150531);
 Il parametro K89I_PL contiente l'informazione di parametro multiplo alfanumerico, numerico e datato

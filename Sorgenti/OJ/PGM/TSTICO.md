@@ -16,8 +16,8 @@ Interfacciare il programma in esecuzione con l'anagrafico conti contabili. Esegu
 £ICOMS :  Codice messaggio ritorno
 £ICOFI :  File   messaggio ritorno
 £ICOCM :  Ultimo Comando
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 C5B$DS :  DS valorizzata
 £ICODS :  DS valorizzata
 

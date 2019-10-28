@@ -8,24 +8,24 @@ Collegare le registrazioni contabili alle dichiarazioni d'intento.
 
 Una volta entrati in questa funzione, nel frontespizio leggeremo le seguenti voci : 
 
-\* **Imponibile con IVA**, è la quota d'importo fattura alla quale viene applicata l'IVA normalmente, è un campo popolato nel caso in cui esistano importi superiori al plafond residuo;
-\* **Senza IVA in dich**, è la quota d'importo fattura che rientra nell'esenzione mediante dichiarazione d'intento;
-\* **Senza IVA non in dich**, è la quota d'importo fattura che ancora non è stata associata ad una dichiarazione d'intento, quando agganceremo la fattura del fornitore alla dichiarazione d'intento questo campo verrà svuotato;
-\* **Altri importi esenti**, sono altre quote d'importo della fattura che sono esenti per assoggettamenti diversi da quello dedicato alle dichiarazioni d'intento (ad es. il bollo);
-\* **Totale imponibile**, è la quota che risulterà soggetta ad IVA.
+-  **Imponibile con IVA**, è la quota d'importo fattura alla quale viene applicata l'IVA normalmente, è un campo popolato nel caso in cui esistano importi superiori al plafond residuo;
+-  **Senza IVA in dich**, è la quota d'importo fattura che rientra nell'esenzione mediante dichiarazione d'intento;
+-  **Senza IVA non in dich**, è la quota d'importo fattura che ancora non è stata associata ad una dichiarazione d'intento, quando agganceremo la fattura del fornitore alla dichiarazione d'intento questo campo verrà svuotato;
+-  **Altri importi esenti**, sono altre quote d'importo della fattura che sono esenti per assoggettamenti diversi da quello dedicato alle dichiarazioni d'intento (ad es. il bollo);
+-  **Totale imponibile**, è la quota che risulterà soggetta ad IVA.
 
 
 # DATI DI DETTAGLIO
 
 Sotto la sezione soprariportata viene descritta la dichiarazione con i propri dettagli : 
 
-\* **Inizio**, è la data più recente tra la data di emissione e la data d'inizio dell'anno oggetto di dichiarazione;
-\* **Fine**, è la data che determina il termine di utilizzo della dichiarazione, sia per scadenza naturale che per sospensione voluta dal dichiarante;
-\* **N° Protocollo**, è il numero di protocollo utilizzato;
-\* **Tipologia di dichiarazione**, viene indicato anche il tipo di dichiarazione ricevuta e quindi se si tratta di quella fino a raggiungimento di un importo o per singola operazione;
-\* **Importo Limite**, è l'importo totale del plafond;
-\* **Importo Utilizzo**, è la quota di plafond utilizzata;
-\* **Importo Residuo**, è la quota di plafond residua.
+-  **Inizio**, è la data più recente tra la data di emissione e la data d'inizio dell'anno oggetto di dichiarazione;
+-  **Fine**, è la data che determina il termine di utilizzo della dichiarazione, sia per scadenza naturale che per sospensione voluta dal dichiarante;
+-  **N° Protocollo**, è il numero di protocollo utilizzato;
+-  **Tipologia di dichiarazione**, viene indicato anche il tipo di dichiarazione ricevuta e quindi se si tratta di quella fino a raggiungimento di un importo o per singola operazione;
+-  **Importo Limite**, è l'importo totale del plafond;
+-  **Importo Utilizzo**, è la quota di plafond utilizzata;
+-  **Importo Residuo**, è la quota di plafond residua.
 
 
 

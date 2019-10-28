@@ -5,11 +5,11 @@ Prospect, Concorrente, Fornitore, Potenziale  sono ruoli dell'account
 
 ## Schema relazioni
 ![X1MARK02A](http://localhost:3000/immagini/REACCA_01/X1MARK02A.png)## Dati
-\* Partita IVA (o Cod. Fiscale) - obbligatorio
-\* Dati geografici
-\* Dati qualificanti dell'account (fatturato, dipendenti, sedi, settore merceologico, ecc.. i dati qualificanti possono essere customizzati in funzione delle esigenze)
-\* Stato commerciale
-\* Responsabile commerciale
+-  Partita IVA (o Cod. Fiscale) - obbligatorio
+-  Dati geografici
+-  Dati qualificanti dell'account (fatturato, dipendenti, sedi, settore merceologico, ecc.. i dati qualificanti possono essere customizzati in funzione delle esigenze)
+-  Stato commerciale
+-  Responsabile commerciale
 ![X1MARK0202](http://localhost:3000/immagini/REACCA_01/X1MARK0202.png)
 ## Funzioni
 ### Importazione account da DB esterno

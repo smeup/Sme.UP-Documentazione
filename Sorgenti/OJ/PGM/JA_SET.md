@@ -179,7 +179,7 @@ I pulsanti Salva, Salva con nome e Elimina, sono abilitati dal setup letto da AS
 Se il setup letto è nullo o non è stato passato, allora varranno i vincoli di lock definiti nel parametro.
 
  :  : I.RUL   Descrizione                                  Para Comp Tipi Au
-\*ALL      Tutti
+- ALL      Tutti
 ACT       Azioni per eseguire il test                            TP10
 .SAV       salva il setup                              PA20      TP10
 .SAS       rinomina il setup                           PA20      TP10

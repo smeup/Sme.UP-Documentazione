@@ -6,9 +6,9 @@ La struttura del processo che porta a costruire le previsioni e a renderle dispo
 
 ## Prerequisiti
 Ci sono n tabelle che debbono essere allineate prima di partire. Esse sono : 
-\* gli indici dell'articolo ed il tema/contesto su cui registrare nel D5COSO i risultati sintetici del calcolo (tra cui la classe previsiva)
-\* la tabella MP2 che contiene le indicazioni per assegnare le classi previsive
-\* la tabella C£I e B£NMP dove sono definiti i parametri interni delle viste risultato HW, utile per comprendere la stratificazione degli articoli in previsivi e non.
+-  gli indici dell'articolo ed il tema/contesto su cui registrare nel D5COSO i risultati sintetici del calcolo (tra cui la classe previsiva)
+-  la tabella MP2 che contiene le indicazioni per assegnare le classi previsive
+-  la tabella C£I e B£NMP dove sono definiti i parametri interni delle viste risultato HW, utile per comprendere la stratificazione degli articoli in previsivi e non.
 
 Per effettuare quanto sopra eseguire i seguenti comandi
 Call D5FS01A per i contesti AR ed MP
@@ -100,8 +100,8 @@ Questo passo utilizza il pgm MPAP03A, con le seguenti parametrizzazioni
 ## Attivazione della scorta minima Holt Winters
 
 Per attivare la lettura della scorta minima coerente con le previsioni generate da Holt Winters e con il livello di servizio desiderato per l'articolo, bisogna eseguire i seguenti passi : 
-\* attivare nell'anagrafica magazzino/articolo il campo "Calcolo scorta/lotti" con il valore   " £01" che significa  :    Scorta da previsioni
-\* definire una fonte disponibilità (M5E se presente o M5F se futura ) di origine SC o SD , opportunamente parametrizzata in modo che "legga" il valore calcolato da HW : 
+-  attivare nell'anagrafica magazzino/articolo il campo "Calcolo scorta/lotti" con il valore   " £01" che significa  :    Scorta da previsioni
+-  definire una fonte disponibilità (M5E se presente o M5F se futura ) di origine SC o SD , opportunamente parametrizzata in modo che "legga" il valore calcolato da HW : 
  Par     Risalita scorta minima
             Sc.inserita risalita Sc.calcolata
  A         Sc.calcolata risalita Sc.inserita

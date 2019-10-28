@@ -18,9 +18,9 @@ Esistono sostanzialmente due tipi di matrici, differenziate dal fatto che siano 
 ### Tipizzazione componente
 Tipizzazione è sinonimo di oggettizzazione, ovvero, quando un campo è associato ad un oggetto applicativo si dice tipizzato od oggettizzato.
 La tipizzazione è indicata mediante dei colori, in generale si utilizzano questi tre colori : 
-\* Bianco :  nessuna tipizzazione. Queste celle contengono descrizioni non oggettizzate. Il menù di PopUp su questa cella, quindi, consentirà solamente di copiare o incollare la cella.
-\* Giallo :  indica che il contenuto del campo è un oggetto Sme.UP. Le azioni possibili su questa cella dipenderanno dal tipo di oggetto contenuto. Cliccando su una cella contentente un oggetto Sme.UP è, in ogni caso, possibile accedere alla scheda dell'oggetto stesso.
-\* Verde :  indica che la cella contiene un valore numerico.
+-  Bianco :  nessuna tipizzazione. Queste celle contengono descrizioni non oggettizzate. Il menù di PopUp su questa cella, quindi, consentirà solamente di copiare o incollare la cella.
+-  Giallo :  indica che il contenuto del campo è un oggetto Sme.UP. Le azioni possibili su questa cella dipenderanno dal tipo di oggetto contenuto. Cliccando su una cella contentente un oggetto Sme.UP è, in ogni caso, possibile accedere alla scheda dell'oggetto stesso.
+-  Verde :  indica che la cella contiene un valore numerico.
 
 La tipizzazione di una matrice può essere per colonna o per cella; può essere definita a livello di cella, quando la colonna contiene oggetti eterogenei. Ogni cella, in questo caso, avrà uno specifico menù di popup. Tipicamente l'oggettizzazione è effettuata per colonna, quindi nella stessa colonna è presente sempre lo stesso Tipo/Parametro oggetto; in questo caso l'icona del tipo è presente accanto all'intestazione della colonna.
 

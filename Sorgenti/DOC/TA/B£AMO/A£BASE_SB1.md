@@ -1,7 +1,7 @@
 # Nome programma
 Nei programmi Sme.UP è possibile avere accesso a due diverse informazioni riguardanti il loro nome :  il nome oggetto e il nome sorgente.
-\* Il nome oggetto (£PDSNP) è il nome dell'oggetto \*PGM vero e proprio.
-\* Il nome sorgente (£U13MB) è il nome del membro sorgente da cui è stato compilato.
+-  Il nome oggetto (£PDSNP) è il nome dell'oggetto \*PGM vero e proprio.
+-  Il nome sorgente (£U13MB) è il nome del membro sorgente da cui è stato compilato.
 Normalmente queste due informazioni coincidono, ma non succede ad esempio nelle repliche.
 Il programma XX valorizza £PDSNP='XX' e £U13MB='XX'.
 La sua replica XXA valorizza £PDSNP='XXA' e £U13MB='XX'.
@@ -10,19 +10,19 @@ Quando in un programma bisogna usare il "nome programma", bisogna sempre fare at
 
 ## Nota sui campi "nome programma"
 Questi sono i campi che abbiamo a disposizione "run-time" che contengono il nome del programma/sorgente : 
-\* £PDSNP :  nome programma
-\* £PDSNM :  nome modulo
-\* XXSDS :  nome membro sorgente da cui è stato compilato (info teoricamente presente in SDS ma non riportata in £PDS)
-\* £U13MB :  nome sorgente da cui ho compilato (aggiunto dal pre-compilatore)
-\* OAV J/005 dell'OJ\*PGM
+-  £PDSNP :  nome programma
+-  £PDSNM :  nome modulo
+-  XXSDS :  nome membro sorgente da cui è stato compilato (info teoricamente presente in SDS ma non riportata in £PDS)
+-  £U13MB :  nome sorgente da cui ho compilato (aggiunto dal pre-compilatore)
+-  OAV J/005 dell'OJ\*PGM
 
 Vediamo i valori di questi vari campi in 4 oggetti \*PGM : 
-\* RPG è un RPGLE
-\* RPGA è una replica di RPG creata per duplicazione
-\* RPG_R è una replica di RPG creata per ricompilazione
-\* SQLRPG è un SQLRPGLE
-\* SQLRPGA è una replica di SQLRPG creata per duplicazione
-\* SQLRPG_R è una replica di SQLRPG creata per ricompilazione
+-  RPG è un RPGLE
+-  RPGA è una replica di RPG creata per duplicazione
+-  RPG_R è una replica di RPG creata per ricompilazione
+-  SQLRPG è un SQLRPGLE
+-  SQLRPGA è una replica di SQLRPG creata per duplicazione
+-  SQLRPG_R è una replica di SQLRPG creata per ricompilazione
 
 
 | 

@@ -20,11 +20,11 @@ Si definiscono i seguenti campi :
 Nome campo               Valori        Significato
 ESECUZIONE INTERATTIVA   "S" "N" " "   Stabilisce se l'utente può eseguire il programma in modo
 interattivo
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 I seguenti campi sono
 significativi se il programma
 viene eseguito in coda lavori.
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 CODA LAVORI AUTORIZZAZ.  "S" "N" " "   Stabilisce se l'utente può modificare la coda lavori in
 cui verrà eseguito il programma
 CODA LAVORI              Oggetto di    Determina il nome della coda sistema lavori in cui verrà eseguito il programma
@@ -39,11 +39,11 @@ DATA SCHEDULAZIONE                     Determina in che data e a che
 ORA  SCHEDULAZIONE                     ora il lavoro verrà inserito in coda lavori.
 Per vedere i valori ammessi per la data, oltre a ggmmaa,
 immettere '/'.
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 I seguenti campi sono
 significativi se il programma
 ha uscite in stampa.
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 CODA STAMPA AUTORIZZAZ.  "S" "N" " "   Stabilisce se l'utente può modificare la coda stampa in
 cui scriverà il programma.
 CODA STAMPA              Oggetto di    Determina il nome della coda sistema lavori in cui scriverà il programma

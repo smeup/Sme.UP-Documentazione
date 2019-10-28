@@ -8,13 +8,13 @@ E' importante che per il periodo selezionato, siano già stati stampati i regist
 e relative liquidazioni mensili o trimestrali.
 
 Prima di procedere è necessario controllare i dati anagrafici aziendali : 
-\* Ragione sociale
-\* Partita Iva
-\* Codice Fiscale
-\* Dati soggetto tenuto alla comunicazione (persona fisica che firmerà la comunicazione)
-\* Eventuali dati intermediario
-\* Parametro azienda compensazione iva (AA6) qualora ci sia una controllante
-\* Parametro aziende del gruppo (AAF) qualora ci sia la necessità di effettuare la liquidazione   del gruppo
+-  Ragione sociale
+-  Partita Iva
+-  Codice Fiscale
+-  Dati soggetto tenuto alla comunicazione (persona fisica che firmerà la comunicazione)
+-  Eventuali dati intermediario
+-  Parametro azienda compensazione iva (AA6) qualora ci sia una controllante
+-  Parametro aziende del gruppo (AAF) qualora ci sia la necessità di effettuare la liquidazione   del gruppo
 
 Si suggerisce inoltre di verificare la configurazione del campo T$C57S (Imponibile passivo LIPE)
 per definire la modalità di estrazione dell'imponibile delle operazioni passive. Per maggiori

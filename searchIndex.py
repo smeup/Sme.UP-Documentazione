@@ -19,40 +19,88 @@ with open(dataFile, "w",  encoding='utf8') as f:
             
             if 'OJ\\FILE' in dirname:
                 nomefile = 'F_' + nomefile
-                f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
+                with open('Sorgenti/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                    for riga in indice:
+                        if nomefile in riga:
+                            titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                            titolo = titolo.replace('\'', '\\\'')
+                            break
+                f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
             elif 'OJ\\PGM' in dirname:
                 nomefile = 'P_' + nomefile
-                f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
+                with open('Sorgenti/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                    for riga in indice:
+                        if nomefile in riga:
+                            titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                            titolo = titolo.replace('\'', '\\\'')
+                            break
+                f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
             elif 'OG\\OG' in dirname:
                 nomefile = 'OG_' + nomefile
-                f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
+                with open('Sorgenti/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                    for riga in indice:
+                        if nomefile in riga:
+                            titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                            titolo = titolo.replace('\'', '\\\'')
+                            break
+                f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
             elif 'OG\\TA' in dirname:
                 nomefile = 'TA_' + nomefile
-                f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
+                with open('Sorgenti/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                    for riga in indice:
+                        if nomefile in riga:
+                            titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                            titolo = titolo.replace('\'', '\\\'')
+                            break
+                f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
             elif 'OG\\V2' in dirname:
                 nomefile = 'V2_' + nomefile
-                f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
+                with open('Sorgenti/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                    for riga in indice:
+                        if nomefile in riga:
+                            titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                            titolo = titolo.replace('\'', '\\\'')
+                            break
+                f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
             elif 'OG\\V3' in dirname:
                 nomefile = 'V3_' + nomefile
-                f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
+                with open('Sorgenti/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                    for riga in indice:
+                        if nomefile in riga:
+                            titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                            titolo = titolo.replace('\'', '\\\'')
+                            break
+                f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
             elif 'V2\\LOCOS' in dirname:
-                f.write('title: "' + nomiDOC_OGG[nomefile] + '",\n')
+                with open('Sorgenti/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                    for riga in indice:
+                        if nomefile in riga:
+                            titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                            titolo = titolo.replace('\'', '\\\'')
+                            break
+                f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_OGG",\n')
                 #f.write('voci: "",\n')
             elif 'DOC\\TA' in dirname:
-                f.write('title: "' + nomiDOC[nomefile] + '",\n')
+                with open('Sorgenti/DOC_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                    for riga in indice:
+                        if nomefile in riga:
+                            titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                            titolo = titolo.replace('\'', '\\\'')
+                            break
+                f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_APP",\n')
                 #f.write('voci: "",\n')
             elif 'DOC_OPE' in dirname:

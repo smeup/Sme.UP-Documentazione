@@ -16,9 +16,9 @@ Di seguito viene riportato il riferimento al documento che descrive l'attivazion
 ## Note tecniche
 
 A scopo documentativo si riportato i riferimenti degli archivi utilizzati : 
-\* BRDINT0F :  vengono qui memorizzati i dati anagrafici delle dichiarazioni
-\* BRDINU0F :  vengono qui memorizzati gli importi utilizzati su una certa dichiarazione
-\* BRDINO0F :  utilizzato solo per il ciclo attivo, vengono qui memorizzati gli assoggettamenti dei documenti così com'erano prima dell'applicazione dell'utilizzo dell'esenzione.
+-  BRDINT0F :  vengono qui memorizzati i dati anagrafici delle dichiarazioni
+-  BRDINU0F :  vengono qui memorizzati gli importi utilizzati su una certa dichiarazione
+-  BRDINO0F :  utilizzato solo per il ciclo attivo, vengono qui memorizzati gli assoggettamenti dei documenti così com'erano prima dell'applicazione dell'utilizzo dell'esenzione.
 
 Tutti le elaborazioni invece si poggiano principalmente sulla /COPY £BRO.
 

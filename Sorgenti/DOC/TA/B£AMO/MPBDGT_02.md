@@ -13,21 +13,21 @@ I valori possono poi essere consolidati in un D5COSO, in questo caso tema e cont
 
 
 ## Parametri lancio elaborazioni e schede
-\* Tipo piano budget (TA MP\*TP)
-\* Prefisso piano budget (\*\*) (per la scheda budget si preimposta il piano che ha il prefisso indicato e l'anno prossimo, se manca si usa l'anno corrente; per le analisi consuntive si preimposta il piano con il prefisso indicato e l'anno corrente)
-\* Vista quantità budget (TA MPC)
-\* Vista valore budget (TA MPC) (se compilata i servizi di creazione analisi consuntive la usano per i valori totali, altrimenti la valorizzazione avviene con i dati di listino)
-\* Flusso principale creazione Budget di vendita (TA B£H) è il flusso che partendo dalla vista budget a quantità popola il resto delle viste del budget, può essere lanciato dalla scheda MPS
-\* Listino di vendita (TA C£L) alternativo alla vista valore budget
-\* Sezione listino di vendita (TA C£Vxx) alternativo alla vista valore budget
-\* Tipo documento fatture attive da V5 (TA V5D) (per la raccolta dati consuntivi di vendita)
-\* Vista qtà consuntivi di vendita (TA MPC) alternativa alla raccolta consuntivi da V5
-\* Vista valori consuntivi di vendita (TA MPC) alternativa alla raccolta consuntivi da V5
-\* Tipo record statistiche V5STAT, (V2 V5STA) alternativa alla raccolta consuntivi da V5
-\* Tipo costo standard (TA TCO)
-\* Livello costo standard (TA D0B)
-\* Contesto D5COSO (TA  D5S) se compilato è utilizzato per consolidare il confronto consutivi / budget di vendita
-\* Tema D5COSO (TA D5Oxx) come sopra
+-  Tipo piano budget (TA MP\*TP)
+-  Prefisso piano budget (\*\*) (per la scheda budget si preimposta il piano che ha il prefisso indicato e l'anno prossimo, se manca si usa l'anno corrente; per le analisi consuntive si preimposta il piano con il prefisso indicato e l'anno corrente)
+-  Vista quantità budget (TA MPC)
+-  Vista valore budget (TA MPC) (se compilata i servizi di creazione analisi consuntive la usano per i valori totali, altrimenti la valorizzazione avviene con i dati di listino)
+-  Flusso principale creazione Budget di vendita (TA B£H) è il flusso che partendo dalla vista budget a quantità popola il resto delle viste del budget, può essere lanciato dalla scheda MPS
+-  Listino di vendita (TA C£L) alternativo alla vista valore budget
+-  Sezione listino di vendita (TA C£Vxx) alternativo alla vista valore budget
+-  Tipo documento fatture attive da V5 (TA V5D) (per la raccolta dati consuntivi di vendita)
+-  Vista qtà consuntivi di vendita (TA MPC) alternativa alla raccolta consuntivi da V5
+-  Vista valori consuntivi di vendita (TA MPC) alternativa alla raccolta consuntivi da V5
+-  Tipo record statistiche V5STAT, (V2 V5STA) alternativa alla raccolta consuntivi da V5
+-  Tipo costo standard (TA TCO)
+-  Livello costo standard (TA D0B)
+-  Contesto D5COSO (TA  D5S) se compilato è utilizzato per consolidare il confronto consutivi / budget di vendita
+-  Tema D5COSO (TA D5Oxx) come sopra
 
 ## Campi considerati
 Nelle analisi budget <> consuntivi si considerano i campi seguenti che possono avere provenienze diverse : 
@@ -91,11 +91,11 @@ I valori di cui sopra vengono rilevati sia nel periodo che progressivi nell'anno
 
 ## Anagrafici di supporto
 Per le elaborazioni si possono utilizzare gli stessi anagrafici usati per la produzione oppure si possono usare degli anagrafici ad hoc, in particolare : 
-\* distinte di budget (tipo BDG)
-\* cicli di budget (tipo BDG)
-\* listini vendita di budget (sezione B01)
-\* listini acquisto di budget (sezione B02)
-\* listini conto lavoro di budget (sezione B03)
-\* cambi di budget (tipo cambio "2")
-\* scenario pianificazione MRP di budget
-\* scelta fornitore preferenziale di budget :  nella pianificazione MRP la scelta del fornitore preferenziale in genere ha il suo utilizzo per la determinazione dei suggerimenti che vengono rilasciati con un orizzonte a breve, in questo caso l'archivio dove viene fissato il fornitore preferenziale non ha bisogno di date di validità e si usa il BRARES. Per la pianificazione MRP di budget può essere necessario avere fonitori diversi a date diverse, in questo caso l'archivio da utilizzare è il C£LIST con listino / sezione ad hoc e bisogna intervenire nella politica di pianificazione (tab. M5A) ed in particolare nell'esecuzione della routine £V5U che è condizionata da come sono impostati i campi "Modo di assegnazione ente"  "Parametro di assegnazione ente".
+-  distinte di budget (tipo BDG)
+-  cicli di budget (tipo BDG)
+-  listini vendita di budget (sezione B01)
+-  listini acquisto di budget (sezione B02)
+-  listini conto lavoro di budget (sezione B03)
+-  cambi di budget (tipo cambio "2")
+-  scenario pianificazione MRP di budget
+-  scelta fornitore preferenziale di budget :  nella pianificazione MRP la scelta del fornitore preferenziale in genere ha il suo utilizzo per la determinazione dei suggerimenti che vengono rilasciati con un orizzonte a breve, in questo caso l'archivio dove viene fissato il fornitore preferenziale non ha bisogno di date di validità e si usa il BRARES. Per la pianificazione MRP di budget può essere necessario avere fonitori diversi a date diverse, in questo caso l'archivio da utilizzare è il C£LIST con listino / sezione ad hoc e bisogna intervenire nella politica di pianificazione (tab. M5A) ed in particolare nell'esecuzione della routine £V5U che è condizionata da come sono impostati i campi "Modo di assegnazione ente"  "Parametro di assegnazione ente".

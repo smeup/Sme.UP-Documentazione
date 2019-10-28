@@ -26,7 +26,7 @@ Non gestiti
 Può assumere i seguenti valori : 
   :  Formato DMY
 1 :  Formato MDY
-\* :  In questo caso non viene forzato nessun formato data, rimane quindi valido quello di sistema o
+-  :  In questo caso non viene forzato nessun formato data, rimane quindi valido quello di sistema o
    quello impostato tramite il campo T$A£BE (JOB attrib da lingua)
  :  : FLD T$A£BC **Separatore decimale**
 Lasciando il campo ' ' la virgola separa gli interi dai numeri decimali, impostando '1' viene invertito il

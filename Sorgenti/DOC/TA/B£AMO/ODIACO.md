@@ -1,4 +1,4 @@
 ## Documenti applicativi
-- [Installazione Struttura Comped&-x2f;Loocup Server](Sorgenti/DOC/TA/B£AMO/ODIACO_02)
+- [Installazione Struttura Comped/Loocup Server](Sorgenti/DOC/TA/B£AMO/ODIACO_02)
 - [Installazione e Configurazione su Smeup](Sorgenti/DOC/TA/B£AMO/ODIACO_03)
 - [Funzioni sui documenti](Sorgenti/DOC/TA/B£AMO/ODIACO_04)

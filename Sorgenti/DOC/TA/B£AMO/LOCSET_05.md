@@ -5,8 +5,8 @@ Tutti i servizi, se non disabilitandone la funzione, eseguiranno sempre la comun
 
 ### Disabilitazione dell'invio del setup di default dell'utente
 Per disabilitare il default bisogna eseguire le seguenti operazioni : 
-\* Se il servizio gestisce l'invio interno di setup programm, utilizzare il richiamo alla routine £JAX_DSET
-\* Se il servizio non gestisce setup interni dopo aver eseguito la routine £JAX_IMP0 impostare il campo £JAXCSC a "2"
+-  Se il servizio gestisce l'invio interno di setup programm, utilizzare il richiamo alla routine £JAX_DSET
+-  Se il servizio non gestisce setup interni dopo aver eseguito la routine £JAX_IMP0 impostare il campo £JAXCSC a "2"
 
 ### Gestione del setup interno al servizio
  Le routine disponibili sono : 

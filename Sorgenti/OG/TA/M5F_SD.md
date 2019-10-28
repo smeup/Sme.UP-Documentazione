@@ -3,7 +3,7 @@
 Parametro 1 : 
 -    Pos.1/4   come l'origine 'SC' (scorta) nelle fonti esistenti (M5E)
 
-- [&-x2a; M5E - SC - Scorta minima](Sorgenti/OG/TA/M5E_SC)
+- [\* M5E - SC - Scorta minima](Sorgenti/OG/TA/M5E_SC)
 >-    Pos.5     -- ' ' se datata a oggi.
 .              -- '1' se datata a oggi + tempo approvvigionamento del livello.
 .              -- '2' se datata a oggi + tempo approvvigionamento cumulato.

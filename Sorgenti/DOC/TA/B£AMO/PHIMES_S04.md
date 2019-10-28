@@ -9,9 +9,9 @@ La £PHI è pensata per essere utilizzata o nelle azioni di avanzamento (PH_060)
 Ad esempio se dalla macchina arrivano degli stati di ON/OFF questi possono determinare il passaggio dallo stato di lavoro a fermo o viceversa.La £PHI si occupa di tradurre i segnali in eventi.
 
 Tra le funzioni più importanti della £PHI ci sono
-\* WRI E' l'azione principale e serve per dichiarare un evento(attenzione nel caso di cambio stato da macchina solitamente si richiama poi la £PHI con il metodo CHG)
-\* EOT Permette di rilevare gli eventi in corso sulla macchina (uno per ogni ordine/fase attivo)
-\* CHG E'una funzione semplice che permette di generare il cambio stato degli eventi
-\* STOP Permette di "smontare" l'ordine attualmente in macchina
+-  WRI E' l'azione principale e serve per dichiarare un evento(attenzione nel caso di cambio stato da macchina solitamente si richiama poi la £PHI con il metodo CHG)
+-  EOT Permette di rilevare gli eventi in corso sulla macchina (uno per ogni ordine/fase attivo)
+-  CHG E'una funzione semplice che permette di generare il cambio stato degli eventi
+-  STOP Permette di "smontare" l'ordine attualmente in macchina
 
 - [Documentazione PHI](Sorgenti/OJ/PGM/TSTPHI)

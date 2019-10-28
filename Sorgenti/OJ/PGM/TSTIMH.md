@@ -18,8 +18,8 @@ Eseguire la ricerca alfabetica relativa se richiesto
 £IMHFI :  File messaggio ritorno (10)
 £IMHCM :  Ultimo Comando
 £IMHRO :  N.ro Record di output
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 C5MOAN :  DS valorizzata
 
 # Prerequisiti

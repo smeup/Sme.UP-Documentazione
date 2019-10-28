@@ -16,11 +16,11 @@ Copiare dalla QILEGEN di SMEDEV  le seguenti /COPY
 
 ##  Programmi
 
-\* Copiare tutto il file BCDSRC dalla SMEDEV e ricompilare i programmi
-\* Controllare il livello di aggiornamento dei programmi B£BCD\* rispetto all'ultima versione presente in SMESRC/SMEDEV, e  l'eventuale presenza di nuovi programmi con questa radice.
+-  Copiare tutto il file BCDSRC dalla SMEDEV e ricompilare i programmi
+-  Controllare il livello di aggiornamento dei programmi B£BCD\* rispetto all'ultima versione presente in SMESRC/SMEDEV, e  l'eventuale presenza di nuovi programmi con questa radice.
 Questi programmi riportano in testa la riga di modifica, ma non vengono emesse NEWS.
 
-\* Controllare il livello di aggiornamento dei programmi JAJAT0PS e B£TRA_01 presenti nel file JASRC
+-  Controllare il livello di aggiornamento dei programmi JAJAT0PS e B£TRA_01 presenti nel file JASRC
 
 ## Allineamento Tabelle
 Controllare il livello di aggiornamento delle seguenti tabelle : 

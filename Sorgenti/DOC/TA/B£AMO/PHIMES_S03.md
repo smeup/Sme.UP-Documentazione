@@ -24,5 +24,5 @@ In generale in un percorso logico entrando in un pannello posso prevedere di sce
 - [Azioni configurabili MES](Sorgenti/DOC/TA/B£AMO/PH_060)
 
 ##  PH_048 Analisi KPI/rese
-- [Analisi KPI&-x2f;rese](Sorgenti/DOC/TA/B£AMO/PH_048)
+- [Analisi KPI/rese](Sorgenti/DOC/TA/B£AMO/PH_048)
 

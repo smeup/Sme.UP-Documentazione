@@ -21,21 +21,21 @@ All'interno del saldaconto sono disponibili le seguenti opzioni :
  \* M Modifica anticipo :  nel caso in cui si sia inserito un anticipo di tipo 4 permette di modificarlo
 
 # OPZIONI ANTICIPO
-\* 1 :  crea un anticipo con numerazione e tipologia automatica
-\* 2 :  permette di creare un anticipo riprendendo però i riferimenti di una partita già esistente
-\* 3 :  con l'importo in più non verrà creato un anticipo, ma verrà creata una seconda contropartita
-\* 4 :  crea un anticipo per il quale sarà possibile imputare manualmente tutte le caratteristiche dell'anticipo. Solo per questo caso viene un anticipo che viene mantenuto ad ogni richiamo del saldaconto. Nei casi 1 e 2 invece ogni riconferma della schermata del saldaconto comporterà la cancellazione e la ricreazione dell'anticipo. Solo per questo caso inoltre, l'anticipo richiamando il saldaconto, sarà proposto nell'elenco di tutte altre scadenze aperte.
+-  1 :  crea un anticipo con numerazione e tipologia automatica
+-  2 :  permette di creare un anticipo riprendendo però i riferimenti di una partita già esistente
+-  3 :  con l'importo in più non verrà creato un anticipo, ma verrà creata una seconda contropartita
+-  4 :  crea un anticipo per il quale sarà possibile imputare manualmente tutte le caratteristiche dell'anticipo. Solo per questo caso viene un anticipo che viene mantenuto ad ogni richiamo del saldaconto. Nei casi 1 e 2 invece ogni riconferma della schermata del saldaconto comporterà la cancellazione e la ricreazione dell'anticipo. Solo per questo caso inoltre, l'anticipo richiamando il saldaconto, sarà proposto nell'elenco di tutte altre scadenze aperte.
 
 # TASTI FUNZIONALI
 
-\* F02 :  seguito da F01 permette di accedere alla documentazione del saldaconto
-\* F03 :  permette di uscire dalla funzione
-\* F05 :  permette di aggiornare la videata
-\* F06 :  permette di confermare la selezione effettuata
-\* F07 :  permette di confermare il saldaconto sull'ente attuale e inserirne uno nuovo
-\* F08 :  permette di distribuire l'importo indicato nello specchietto precedente o nella casella 'Importo' in alto a sinistra sulle rate aperte partendo da quelle con scadenza minore
-\* F09 :  permette di saldare tutte le rate aperte presenti
-\* F13 :  permette di accedere alle parzializzazioni
+-  F02 :  seguito da F01 permette di accedere alla documentazione del saldaconto
+-  F03 :  permette di uscire dalla funzione
+-  F05 :  permette di aggiornare la videata
+-  F06 :  permette di confermare la selezione effettuata
+-  F07 :  permette di confermare il saldaconto sull'ente attuale e inserirne uno nuovo
+-  F08 :  permette di distribuire l'importo indicato nello specchietto precedente o nella casella 'Importo' in alto a sinistra sulle rate aperte partendo da quelle con scadenza minore
+-  F09 :  permette di saldare tutte le rate aperte presenti
+-  F13 :  permette di accedere alle parzializzazioni
 ## F17 Impostazioni
 
 

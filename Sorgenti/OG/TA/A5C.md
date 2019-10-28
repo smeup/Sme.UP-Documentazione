@@ -45,16 +45,16 @@ E' necessario che la causale abbia tipo movimento AQ.
  :  : FLD T$A5CN **Esclusione Ammortamento periodo vendita/alienazione**
 Tramite questo campo è possibile disattivare il calcolo dell'ammortamento nel periodo di vendita/alineazione del cespite.
 Può assumere i seguenti valori : 
-\* " " = Si, ma solo se non è attiva la gestione per data. Se è attiva la gestione per data il calcolo rimarrà commisurato al periodo di possesso del cespite.
-\* "1" = No, il calcolo verrà sempre effettuato, anche nell'anno di vendita/alienazione del cespite.
-\* "2" = Si. A differenza del valore blank disattiva il calcolo anche in presenza della gestione per data.
+-  " " = Si, ma solo se non è attiva la gestione per data. Se è attiva la gestione per data il calcolo rimarrà commisurato al periodo di possesso del cespite.
+-  "1" = No, il calcolo verrà sempre effettuato, anche nell'anno di vendita/alienazione del cespite.
+-  "2" = Si. A differenza del valore blank disattiva il calcolo anche in presenza della gestione per data.
 
  :  : FLD T$A5CP **Base calcolo valori alla data**
 Questo campo ha significato in presenza di questi fattori : 
 
-\* Attivo calcolo alla data
-\* Linea con ammortamento mensile
-\* Cespite con criterio d'ammortamento per %
+-  Attivo calcolo alla data
+-  Linea con ammortamento mensile
+-  Cespite con criterio d'ammortamento per %
 
 In presenza di questi fattori l'effetto su questi cespiti è che il totale degli ammortamenti eseguiti nell'esercizio va a corrispondere all'ammortamento calcolo con il valore del cespite aggiornato a fine esercizio, ma viene distribuito sui mesi in base alla movimentazione.
 
@@ -71,8 +71,8 @@ campo con 02 la linea 03 erediterà i piani della linea 02.
 Se impostato, con attivato anche il campo "valori alla data", è possibile forzare che il calcolo dell'ammortamento venga concluso per tutti i cespiti con residuo alla ivi indicata.
  :  : FLD T$A5CT **Ultimo esercizio**
 In caso di ammortamento mensile, con calcolo alla data, indica come si vuole distribuire il residuo da ammortizzare dell'ultimo esercizio. Ci sono due opzioni : 
-\* Di default viene distribuito in modo omogeno l'importo residuo sui 12 mesi
-\* Valorizzando il campo ad 1 è possibile invece dire che ad ogni mese venga applicata la quota piena dell'ammortamento previsto, sino al mese in cui non rimane che un residuo.
+-  Di default viene distribuito in modo omogeno l'importo residuo sui 12 mesi
+-  Valorizzando il campo ad 1 è possibile invece dire che ad ogni mese venga applicata la quota piena dell'ammortamento previsto, sino al mese in cui non rimane che un residuo.
 Es. se la quota mensile fosse di 10 e l'ultimo esercizio avessi un residuo di 60, con il primo
 metodo avrei una quota di 5 distribuita su 12 mesi, nel secondo caso invece avrei una quota di 10 per i primi 6 mesi e 0 da luglio in poi.
 

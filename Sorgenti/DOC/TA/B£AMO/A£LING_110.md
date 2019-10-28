@@ -71,16 +71,16 @@ Configurare nel modo più opportuno per le proprie esigenze la tabella A£1
 
 # Estrazione, preparazione, traduzione e generazione per ambiti personali
 Una volta configurato correttamente, eseguire i 4 passi fondamentali : 
-\* estrazione delle frasi in italiano
-\* preparazione delle frasi da tradurre
-\* traduzione
-\* generazione degli oggetti in lingua
+-  estrazione delle frasi in italiano
+-  preparazione delle frasi da tradurre
+-  traduzione
+-  generazione degli oggetti in lingua
 
 # Passi aggiuntivi per lingue non fornite.
 Nel caso la lingua di traduzione non sia tra quelle fornite dallo standard, è necessario eseguire dei passi aggiuntivi per allineare correttamente anche l'ambito standard.
 In questo caso è necessario : 
-\* abilitare (temporaneamente!) la gestione dell'ambito 00 (tramite exit)
-\* effettuare la preparazione dell'ambito 00 per quella lingua
-\* effettuare la generazione oggetti per l'ambito 00
-\*\* per questa fase si consiglia di creare una exit di estrazione specifica (partendo dal prototipo A£TR01_X0)
-\* disabilitare la gestione dell'ambito 00
+-  abilitare (temporaneamente!) la gestione dell'ambito 00 (tramite exit)
+-  effettuare la preparazione dell'ambito 00 per quella lingua
+-  effettuare la generazione oggetti per l'ambito 00
+- \* per questa fase si consiglia di creare una exit di estrazione specifica (partendo dal prototipo A£TR01_X0)
+-  disabilitare la gestione dell'ambito 00

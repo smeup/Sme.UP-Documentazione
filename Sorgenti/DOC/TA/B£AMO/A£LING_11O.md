@@ -71,7 +71,7 @@ Configurare nel modo più opportuno per le proprie esigenze la tabella A£1
 
 # Estrazione, preparazione, traduzione e generazione per ambiti personali
 Una volta configurato correttamente, eseguire i 4 passi fondamentali : 
-\* estrazione delle frasi in italiano
-\* preparazione delle frasi da tradurre
-\* traduzione
-\* generazione degli oggetti in lingua
+-  estrazione delle frasi in italiano
+-  preparazione delle frasi da tradurre
+-  traduzione
+-  generazione degli oggetti in lingua

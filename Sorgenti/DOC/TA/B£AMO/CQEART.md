@@ -1,2 +1,2 @@
 ## Documenti applicativi
-- [Dati Ente&-x2f;Articolo](Sorgenti/DOC/TA/B£AMO/CQEART_01)
+- [Dati Ente/Articolo](Sorgenti/DOC/TA/B£AMO/CQEART_01)

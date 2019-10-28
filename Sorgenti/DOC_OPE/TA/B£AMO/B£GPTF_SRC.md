@@ -5,11 +5,11 @@ Facilitare l'allineamento dei sorgenti di una PTF, evidenziando le criticità ri
 # Struttura
 
 La scheda è divisa in due sezioni : 
-\* Nella prima è riportata una matrice, con l'elenco dei sorgenti della libreria della PTF, ordinati in funzione della loro criticità definita in ordine : 
-\*\* % Utilizzo del pgm nell'ambiente di lavoro (in quanto al di là delle specifiche differenti sul sorgente la % di utilizzo evidenzia la criticità del programma che si andrà a modificare)
-\*\* Il totale del n° di differenze riscontrate fra i due sorgenti
-\*\* Il n° di righe cancellate o aggiunte nei due sorgenti (rispetto al precedente vengono contate solo le specifiche in più o in meno e non quelle solo modificate)
-\* Nella seconda sono riportate le azioni che si riferiscono al sorgente selezionato nella prima selezione
+-  Nella prima è riportata una matrice, con l'elenco dei sorgenti della libreria della PTF, ordinati in funzione della loro criticità definita in ordine : 
+- \* % Utilizzo del pgm nell'ambiente di lavoro (in quanto al di là delle specifiche differenti sul sorgente la % di utilizzo evidenzia la criticità del programma che si andrà a modificare)
+- \* Il totale del n° di differenze riscontrate fra i due sorgenti
+- \* Il n° di righe cancellate o aggiunte nei due sorgenti (rispetto al precedente vengono contate solo le specifiche in più o in meno e non quelle solo modificate)
+-  Nella seconda sono riportate le azioni che si riferiscono al sorgente selezionato nella prima selezione
 
 La prima sezione si basa su un file di report prodotto dal costruttore LOA15. Per poter far si che il contenuto del report sia riferito alla libreria di PTF interessata è necessario creare/ricreare il report dopo aver indicato nella configurazione tale libreria.
 
@@ -17,35 +17,35 @@ _1_NOTA BENE :  alla data odierna in un ambiente può esistere un solo file di r
 
 # Colonne della prima sezione
 
-\* Libreria PTF :  Nome della libreria della PTF in cui si trova il file del membro
-\* File Origine PTF :  Nome del file della PTF in cui si trova il membro
-\* Membro Origine PTF :  Nome del membro della PTF
-\* Tipo Membro Origine PTF :  Tipo di sorgente del membro della PTF
-\* Libreria Origine Ambiente :  Nome della libreria dell'ambiente di lavoro in cui si trova il corrispondente al membro della PTF
-\* File Origine Ambiente :  Nome del file dell'ambiente di lavoro in cui si trova il corrispondente al membro della PTF
-\* Membro Origine Ambiente :  Nome del membro corrispondente al membro della PTF nell'ambiente di lavoro
-\* Libreria Oggetto Ambiente :  Libreria dell'ambiente di lavoro in cui si trova l'oggetto del sorgente corrispondente al membro della PTF
-\* % Utilizzo Ambiente :  % di utilizzo rapportata a giorni e data di creazione dell'oggetto corrispondente al sorgente della PTF nell'ambiente di lavoro
-\* gg Utilizzo Ambiente :  gg di utilizzo dell'oggetto
-\* Totale Differenze :  n° totale delle specifiche differenti riscontrate fra i membri della PTF e quello dell'ambiente reale
-\* Delta Righe :  rispetto al precedente vengono contate solo le specifiche in più o in meno e non quelle solo modificate
-\* Righe Aggiunte nella PTF :  n° di righe presente solo nel sorgente della PTF
-\* Righe Cancellate dall'Ambiente :  n° di righe presenti solo nel sorgente dell'ambiente di lavoro (e non più nella PTF)
-\* Righe Modificate :  n° di righe corrispondenti ma modificate fra i due sorgenti
-\* Righe PTF :  n° di righe totali del sorgente della PTF
-\* Righe Ambiente :  n° di righe totali del sorgente dell'ambiente di lavoro
+-  Libreria PTF :  Nome della libreria della PTF in cui si trova il file del membro
+-  File Origine PTF :  Nome del file della PTF in cui si trova il membro
+-  Membro Origine PTF :  Nome del membro della PTF
+-  Tipo Membro Origine PTF :  Tipo di sorgente del membro della PTF
+-  Libreria Origine Ambiente :  Nome della libreria dell'ambiente di lavoro in cui si trova il corrispondente al membro della PTF
+-  File Origine Ambiente :  Nome del file dell'ambiente di lavoro in cui si trova il corrispondente al membro della PTF
+-  Membro Origine Ambiente :  Nome del membro corrispondente al membro della PTF nell'ambiente di lavoro
+-  Libreria Oggetto Ambiente :  Libreria dell'ambiente di lavoro in cui si trova l'oggetto del sorgente corrispondente al membro della PTF
+-  % Utilizzo Ambiente :  % di utilizzo rapportata a giorni e data di creazione dell'oggetto corrispondente al sorgente della PTF nell'ambiente di lavoro
+-  gg Utilizzo Ambiente :  gg di utilizzo dell'oggetto
+-  Totale Differenze :  n° totale delle specifiche differenti riscontrate fra i membri della PTF e quello dell'ambiente reale
+-  Delta Righe :  rispetto al precedente vengono contate solo le specifiche in più o in meno e non quelle solo modificate
+-  Righe Aggiunte nella PTF :  n° di righe presente solo nel sorgente della PTF
+-  Righe Cancellate dall'Ambiente :  n° di righe presenti solo nel sorgente dell'ambiente di lavoro (e non più nella PTF)
+-  Righe Modificate :  n° di righe corrispondenti ma modificate fra i due sorgenti
+-  Righe PTF :  n° di righe totali del sorgente della PTF
+-  Righe Ambiente :  n° di righe totali del sorgente dell'ambiente di lavoro
 
 # Azioni della seconda sezione
 
-\* Esegui comparazione :  lancia una scheda che permette di analizzare le differenze fra i due sorgenti
-\* Copia Sorgente Ptf in ambiente SV : emette finestra per confermare/modificare i valori
-\* Compila Sorgente ambiente SV : emette finestra per confermare/modificare i parametri di compilazione
+-  Esegui comparazione :  lancia una scheda che permette di analizzare le differenze fra i due sorgenti
+-  Copia Sorgente Ptf in ambiente SV : emette finestra per confermare/modificare i valori
+-  Compila Sorgente ambiente SV : emette finestra per confermare/modificare i parametri di compilazione
 
 # Tasti funzione
 
-\* F06 Permette di lanciare la rigenerazione del file di report
-\* F16 Pulisce il file di report
-\* F18 Configura i parametri di generazione del file di report
+-  F06 Permette di lanciare la rigenerazione del file di report
+-  F16 Pulisce il file di report
+-  F18 Configura i parametri di generazione del file di report
 
 T01 Lancio comendi presenti nella PTF
 a) Se il comando è preceduto da un ? staccato di un blank :  esce la prompt completa del comando (es. ? SNDMSG)

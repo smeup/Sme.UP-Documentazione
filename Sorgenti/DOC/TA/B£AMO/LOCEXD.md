@@ -32,9 +32,9 @@ Gli esempi del componente accordion sono consultabili tramite due sezioni differ
 ## Altre risorse
 - [Introduzione](Sorgenti/DOC/TA/B£AMO/LOCEXD_A)
 - [Come si utilizza una scheda](Sorgenti/DOC/TA/B£AMO/LOCEXD_C)
-- [Servizi correlati](Sorgenti/DOC/TA/B£AMO/LOCEXD_B)
+- [Come si costruisce una scheda](Sorgenti/DOC/TA/B£AMO/LOCEXD_B)
 - [Servizi correlati](Sorgenti/DOC/TA/B£AMO/LOCEXD_B7)
 - [Schede e setup](Sorgenti/DOC/TA/B£AMO/LOCEXD_SET)
-- [Drag &-x26; Drop](Sorgenti/DOC/TA/B£AMO/LOCEXD_DED)
+- [Drag & Drop](Sorgenti/DOC/TA/B£AMO/LOCEXD_DED)
 - [Utilizzo della Scheda su Device Mob](Sorgenti/DOC/TA/B£AMO/LOCEXD_MO)
 

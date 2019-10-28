@@ -99,7 +99,7 @@ a Carattere Alfabetico Non Obbligatorio
 - Carattere Obbligatorio Blanks.
 N Carattere Numerico Obbligatorio.
 n Carattere Numerico non obbligatorio.
-\* Carattere qualsiasi.
+-  Carattere qualsiasi.
 .    _9_Esempio
 AAA-NNN   ->   3 lettere, un bianco e 3 numeri
 .    Struttura della matrice del passo

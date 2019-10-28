@@ -1,6 +1,5 @@
-- **Come si registra una dichiarazione ricevuta?**
+### **Come si registra una dichiarazione ricevuta?**
 
- :  : VOC Id="10001" Txt="Come si registra una dichiarazione ricevuta?"
  Per registrare una dichiarazione ricevuta andare nel menù delle dichiarazioni d'intento e scegliere la voce 'Gestione dichiarazioni'.
  Digitare l'opzione 01 di Aggiunta e dare invio. A questo punto verrà richiesto se si tratta di una dichiarazione Emessa (opzione 1) o Ricevuta (opzione 2). Per registrare la dichiarazione ricevuta scegliere l'opzione 2 e dare invio.
  Nella videata visualizzata sarà necessario compilare i seguenti campi : 
@@ -13,9 +12,8 @@
  \* Codice IVA :  è necessario indicare qual è il codice IVA da applicare alle fatture emesse sotto dichiarazione d'intento. Il sistema, quindi, utilizzerà questo codice IVA anzichè quello riportato sull'anagrafica del cliente nel caso in cui la dichiarazione d'intento sia valida
  \* Da non trasmettere :  compilare questo campo se la dichiarazione non va comunicata all'Agenzia delle Entrate (e quindi non va inclusa nel file generato dal sistema)
 
-- **Come si registra una dichiarazione emessa?**
+### **Come si registra una dichiarazione emessa?**
 
- :  : VOC Id="10002" Txt="Come si registra una dichiarazione emessa?"
  Per registrare una dichiarazione emessa andare nel menù delle dichiarazioni d'intento e scegliere la voce 'Gestione dichiarazioni'.
  Digitare l'opzione 01 di Aggiunta e dare invio. A questo punto verrà richiesto se si tratta di una dichiarazione Emessa (opzione 1) o Ricevuta (opzione 2). Per registrare la dichiarazione emessa scegliere l'opzione 1 e dare invio.
  Nella videata visualizzata sarà necessario compilare i seguenti campi : 
@@ -27,9 +25,8 @@
  \* Codice IVA :  è necessario indicare qual è il codice IVA da applicare alle fatture ricevute sotto dichiarazione d'intento. Il sistema, quindi, utilizzerà questo codice IVA anzichè quello riportato sull'anagrafica del fornitore nel caso in cui la dichiarazione d'intento sia valida alla data fattura
  \* Da non trasmettere :  compilare questo campo se la dichiarazione non va comunicata all'Agenzia delle Entrate (e quindi non va inclusa nel file generato dal sistema)
 
-- **Come si registra la sospensione di una dichiarazione?**
+### **Come si registra la sospensione di una dichiarazione?**
 
- :  : VOC Id="10003" Txt="Come si registra la sospensione di una dichiarazione?"
  Per registrare la sospensione di una dichiarazione andare nel menù delle dichiarazioni d'intento e scegliere la voce 'Gestione dichiarazioni'.
  Digitare l'opzione 02 di Modifica e la specifica dichiarazione da modificare. E' possibile utilizzare le Parzializzazioni (tasto F13) per trovare la specifica dichiarazione da modificare.
  Dando invio verrà presentato il dettaglio della dichiarazione, qui è possibile compialre il campo _Data Sospensione_ con la data in cui la dichiarazione d'intento viene sospesa.

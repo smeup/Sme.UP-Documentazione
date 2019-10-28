@@ -92,12 +92,12 @@ Sono definite tramite la configurazione delle tabelle :
  :  : DEC T(ST) K(C5F)
  :  : DEC T(ST) K(C5J)
 
-\* TABELLE RITENUTE
+-  TABELLE RITENUTE
 Scandire le tabelle seguenti controllandone la completezza
  :  : DEC T(ST) K(C5P)
  :  : DEC T(ST) K(C5T)
 
-\*TABELLE TRACCIATI BANCARI
+- TABELLE TRACCIATI BANCARI
 Fasare tabelle tracciati trasmissione bancaria \*CNT5 : 
  :  : DEC T(TA) P(\*CNT5)
 
@@ -146,7 +146,7 @@ Fasare tabelle tracciati trasmissione bancaria \*CNT5 :
 - [Impostazioni contabilizz. documenti batch](Sorgenti/DOC/TA/B£AMO/C5C010_A)
 
 ### CALENDARIO PER FATTURAZIONE ATTIVA E PASSIVA
-- [Eccezioni Date Scadenza &-x2f; Calendari](Sorgenti/DOC/TA/B£AMO/C5D010_B)
+- [Eccezioni Date Scadenza / Calendari](Sorgenti/DOC/TA/B£AMO/C5D010_B)
 
 
 

@@ -38,11 +38,11 @@ E' stato creato un programma __MUPA03__ che si occupa del parsing di un sorgente
 Tale programma funziona similmente ad un parser SAX, ovvero attraverso una gestione ad eventi.
 Sono stati creati una serie di tag che identificano diversi eventi.
 Qualche esempio : 
-\* Datastructure;
-\* Annotazioni;
-\* File;
-\* If;
-\* etc;
+-  Datastructure;
+-  Annotazioni;
+-  File;
+-  If;
+-  etc;
 
 Il programma MUPA03 è stato creato in maniera tale che possa rimanere neutro,
 e preoccuparsi solamente di lanciare eventi mentre esegue la parserizzazione.
@@ -65,13 +65,13 @@ Questo programma è adibito al controllo dei "metadati" di un sorgente, vengono 
 E' stato creato un nuovo comando _b_MU (MUOS02C) che permette la conversione di un oggetto as400.
 Il comando si applica agli oggetti presenti in una libreria ed alle librerie stesse.
 Questo comando riceve : 
-\* una funzione ed un metodo (al momento è presente soltato la funzione "CON");
-\* il tipo oggetto;
-\* la libreria;
-\* il nome oggetto;
-\* il path IFS dove posizionare il file .XMI;
-\* la libreria destinazione (se diversa da quella originale);
-\* flag per conversione progressiva (un oggetto viene convertito solo se è stato modificato rispetto all'ultima conversione effetuata);
+-  una funzione ed un metodo (al momento è presente soltato la funzione "CON");
+-  il tipo oggetto;
+-  la libreria;
+-  il nome oggetto;
+-  il path IFS dove posizionare il file .XMI;
+-  la libreria destinazione (se diversa da quella originale);
+-  flag per conversione progressiva (un oggetto viene convertito solo se è stato modificato rispetto all'ultima conversione effetuata);
 
 ### Documentazione messaggi relativi alla conversione
 **Validi per tutti i tipi oggetti**

@@ -25,9 +25,9 @@ Ciascuna di queste interrogazioni corrisponde a un SURF preciso, come si può ve
 ![BRCOMM_003](http://localhost:3000/immagini/MBDOC_OPE-BRCOMM_01/BRCOMM_003.png)
 Ciascuna navigazione metterà a disposizione degli specifici filtri. Si consideri per esempio il surf per codice (SURF A).
 I filtri che possono essere imposati in questo caso sono per lo più legati alle informazioni di base della commessa. Tra i tanti, quelli più particolari sono : 
-\*\* Posizinamento codice :  digitando in questo campo un codice commessa, o solo una sua parte,    sarà possibile visualizzare tutte le commesse a partire da o fino a quel valore inserito.
+- \* Posizinamento codice :  digitando in questo campo un codice commessa, o solo una sua parte,    sarà possibile visualizzare tutte le commesse a partire da o fino a quel valore inserito.
    Il risultato è quindi sensibile al tipo di ordinamento che si è deciso di imposatre nel campo    A/D (ascendente o discendente)
-\*\* Cod/descrizione contiene :  usato in abbinamento agli altri campi, questo filtro permette di    estrarre le commesse che hanno o nel codice o nella descrizione quanto viene inserito dentro qui.
+- \* Cod/descrizione contiene :  usato in abbinamento agli altri campi, questo filtro permette di    estrarre le commesse che hanno o nel codice o nella descrizione quanto viene inserito dentro qui.
 Il risultato di un utilizzo congiunto di tutti e due questi filtri è : 
 
 ![BRCOMM_004](http://localhost:3000/immagini/MBDOC_OPE-BRCOMM_01/BRCOMM_004.png)

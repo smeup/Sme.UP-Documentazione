@@ -1,4 +1,4 @@
-\* LowLevelCode
+-  LowLevelCode
   Per il calcolo del costo medio è stato creato specificatamente un LLC che
   si basa su due concetti predefiniti : 
   - Riferito specificatamente agli eventi estratti in quel range di date
@@ -13,7 +13,7 @@
   che abbia in immissione un solo JOB alla volta, così da evitare generazioni
   di LLC che si ostacolino a vicenda
 
-\* Costi per oggetto specifico
+-  Costi per oggetto specifico
   I valori significativi sono i seguenti : 
   - BLANK          No
   - 1              Lotto
@@ -35,15 +35,15 @@
       Colli, sarà necessario aver prodotto preventivemente una
       distinta base collo su collo
 
-\* Gestione Omaggi
+-  Gestione Omaggi
   - BLANK le righe definite OMAGGIO non vengono processate
   - 1 le righe definite OMAGGIO vengono processate
 
-\* Estrazione movimenti scarti
+-  Estrazione movimenti scarti
   - BLANK le righe movimento di scarti non vengono processate
   - 1 le righe movimento di scarti vengono processate
 
-\* Segno movimenti
+-  Segno movimenti
   - E vengono processati solo 'Movimenti' di Entrata
   - U vengono processati solo 'Movimenti' di Uscita
   - T vengono processati Tutti i movimenti
@@ -51,16 +51,16 @@
   specifica, è demandata all'impostazione degli elementi della
   tabella D0J
 
-\* Magazzino Fisico
+-  Magazzino Fisico
   - BLANKS Tutti i magazzini fisici
   - XXX Posso processare movimenti SOLO relativamente a quel
     magazzino fisico
-\* Magazzino Fiscale
+-  Magazzino Fiscale
   - BLANKS Tutti i magazzini fiscali
   - XXX Posso processare movimenti SOLO relativamente a quel
     magazzino fiscale
 
-\* Sottosettore Fonti
+-  Sottosettore Fonti
   - XX Viene impostato il sottosettore della tabella D0J che
     come caratteristica a quella di poter avere in estrazione
     almeno 4 tipologie di fonti possibili : 
@@ -82,7 +82,7 @@
     con livello inverso da quello previsto nella distinta
     dell'ordine stesso
 
-\* Controllo stato oggetto
+-  Controllo stato oggetto
   I valori significativi sono i seguenti : 
   - BLANK          Solo ordini/lotti chiusi
   - 1              OR/LO chiusi con extra periodo

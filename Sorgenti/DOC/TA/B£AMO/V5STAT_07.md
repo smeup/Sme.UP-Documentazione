@@ -83,8 +83,8 @@ Nel lancio della ripresa è necessario scegliere il metodo di ripresa che si vuo
 
 ## Log di ripresa
 Per ottenere un log sulle azioni di ripresa, è possibile gestire la tabella PGM, attivando per i seguenti programmi la funzione di LOG (Campo LOG = "1") : 
-\* V5STA01 Il log fornisce un elenco dei documenti per i quali è stata lanciata la statistica.
-\* V5STA05 Il log fornisce l'esito dell'azione di creazione della statistica del singolo documento.
+-  V5STA01 Il log fornisce un elenco dei documenti per i quali è stata lanciata la statistica.
+-  V5STA05 Il log fornisce l'esito dell'azione di creazione della statistica del singolo documento.
 
 E' possibile scegliere anche il livello di dettaglio del log.
 
@@ -188,9 +188,9 @@ L'aggiornamento della statistica sarà eseguito dalla ricontabilizzazione o da u
 ### DOCUMENTI DO
 E' necessario agganciare la creazione della statistica ai seguenti flussi : 
 
-\* Flussi B£H  T-DO  flusso di transazione che intercetta le modifiche dei documenti
-\* Flussi B£H  P-DO  flusso di transazione che intercetta la cancellazione dei documenti
-\* Flussi V5G CA/CP flussi di azione su ciclo attivo o passivo (Es. :  creazione bolla, creazione fattura, ...).
+-  Flussi B£H  T-DO  flusso di transazione che intercetta le modifiche dei documenti
+-  Flussi B£H  P-DO  flusso di transazione che intercetta la cancellazione dei documenti
+-  Flussi V5G CA/CP flussi di azione su ciclo attivo o passivo (Es. :  creazione bolla, creazione fattura, ...).
 
 ### FLUSSI T-DO
 Il flusso di transazione viene lanciato a qualsiasi modifica del documento. Se ci sono flussi specifici per "Modello", il flusso deve essere agganciato anche a questi.

@@ -18,7 +18,7 @@ Definisce una chiamata a un servizio secondo le modalità standard di Looc.up.
  \* STD Standard (vedere il Set'n'Play UP SER per la costruzione)
  \* Formato XML valido (qualsiasi, purchè compatibile con il tipo di subsezione come specificato nella documentazione delle subsezioni)
 Si veda anche : 
-- [Caratteri non validi nelle password lunghe](Sorgenti/DOC/TA/B£AMO/LOBASE_05)
+- [Gestione connessioni](Sorgenti/DOC/TA/B£AMO/LOBASE_05)
 
 ## D.PGM - Programma
 Richiama un programma che fornisce direttamente l'XML che sarà aggiunto.

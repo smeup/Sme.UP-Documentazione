@@ -178,14 +178,14 @@ Il passaggio dalla vecchia gestione IGSTOR alla nuova gestione D5COSO si ottiene
 
 A questo punto l'impianto tabellare necessario per registare gli indici nel D5COSO e collegarli all'indice sintetico CRM si diversifica rispetto a quello descritto nella parte precedente di questo documento, con le seguenti Variazioni : 
 
-\* le tabelle CRM e CRLxx restano immutate.
-\* L'aggancio con gli indici statici resta immutato
-\* l'aggancio tra gli indici dinamici riferenziati nel sottosettore della CRLxx e le chiavi del D5COSO avviene nel seguente modo : 
-\*\*nella tabella CQ$ bisogna codificare un elemento che riporta tra i suoi attributi le stesse  Area-Tema-Sintesi riporatte nell'elemento della CRLxx
-\*\*nello stesso elemento della CQ$ sono indicati il contesto D5 (tabella D5S) ed il tema (D5Oxx) dove sono contenuti gli indici che dovranno essre scritti
-\*\*nello stesso elemento sono indicati il sottosettore xx della D5R e l'elemento della D5R che permetteranno la scrittura degli indici
-\*\*nell'elemento della D5RXX è indicato il flusso di azioni della tabella D5Exx che deve essere attivato
-\*\*Nei passi della D5Exx sono descritti i metodi di valorizzazione degli indici specifici del contesto/tema del D5COSO.
+-  le tabelle CRM e CRLxx restano immutate.
+-  L'aggancio con gli indici statici resta immutato
+-  l'aggancio tra gli indici dinamici riferenziati nel sottosettore della CRLxx e le chiavi del D5COSO avviene nel seguente modo : 
+- \*nella tabella CQ$ bisogna codificare un elemento che riporta tra i suoi attributi le stesse  Area-Tema-Sintesi riporatte nell'elemento della CRLxx
+- \*nello stesso elemento della CQ$ sono indicati il contesto D5 (tabella D5S) ed il tema (D5Oxx) dove sono contenuti gli indici che dovranno essre scritti
+- \*nello stesso elemento sono indicati il sottosettore xx della D5R e l'elemento della D5R che permetteranno la scrittura degli indici
+- \*nell'elemento della D5RXX è indicato il flusso di azioni della tabella D5Exx che deve essere attivato
+- \*Nei passi della D5Exx sono descritti i metodi di valorizzazione degli indici specifici del contesto/tema del D5COSO.
 
 Ovviamente per una corretta compilazione di questi legami tra tabelle è raccomandata la lettura dell'help delle tabelle coinvolte : 
 

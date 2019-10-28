@@ -3,8 +3,8 @@ Fornire le funzionalità di ricerca e selezione degli oggetti applicativi, ricer
 
 # Modalità
 Esistono due principali modalità di risoluzione delle funzioni di ricerca : 
-\* In Finestra
-\* Mediante Combo-box
+-  In Finestra
+-  Mediante Combo-box
 
 A seguire viene descritta l'operatività di ognuna delle due funzionalità.
 

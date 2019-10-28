@@ -17,7 +17,7 @@
  \*\*\* PDF, HTML, RTF
  \*\* Setup documento
  \*\*\* Pagesize
-\*\*\* Orientamento
+- \*\* Orientamento
  \*\*\* Margini
  \*\* Setup copertina
  \*\*\* Presenza copertina

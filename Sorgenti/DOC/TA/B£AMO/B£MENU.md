@@ -1,6 +1,6 @@
 - [Classificazione dei Menù](Sorgenti/DOC/TA/B£AMO/B£MENU_01)
 - [Menù di Accesso Utente](Sorgenti/DOC/TA/B£AMO/B£MENU_02)
-- [Due nuovi menu&-x3a; £L e £S](Sorgenti/DOC/TA/B£AMO/B£MENU_03)
+- [Due nuovi menu :  £L e £S](Sorgenti/DOC/TA/B£AMO/B£MENU_03)
 - [Menù di Oggetto](Sorgenti/DOC/TA/B£AMO/B£MENU_05)
 - [Gli Oggetti MP e ME](Sorgenti/DOC/TA/B£AMO/B£MENU_09)
 - [Aggiungere una voce di menù di accesso Standard](Sorgenti/DOC/TA/B£AMO/B£MENU_10)

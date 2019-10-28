@@ -33,10 +33,10 @@ E' inoltre in grado di ridefinire una classe già presente nello script standard
 ## Esempio.
 Si prenda in esame un contesto d'esempio quale scheda OGBASE_IMG, tabsheet Set'n play. La scheda è divisa in quattro sezioni verticali che
 rappresentano in ordine : 
-\* Immagini importanti
-\* Lista classi (LIS.CLS)
-\* Lista preferiti (LIS.PRF)
-\* Immagine
+-  Immagini importanti
+-  Lista classi (LIS.CLS)
+-  Lista preferiti (LIS.PRF)
+-  Immagine
 La selezione di un elemento nell'albero della Sez.1, comporta il caricamento (LIS.CLS) delle classi nella matrice della Sez.2.
 La selezione di un elemento di classe nella Sez.2, comporta il caricamento (LIS.PRF) delle istanze nella matrice sella Sez.3.
 

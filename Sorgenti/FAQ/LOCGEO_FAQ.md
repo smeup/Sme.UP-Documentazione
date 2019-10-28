@@ -1,12 +1,10 @@
-- **Cosa è il componente GEO?**
+### **Cosa è il componente GEO?**
 
- :  : VOC Id="10001" Txt="Cosa è il componente GEO?"
 
  E' il componente che permette di visualizzare dei marcatori su una mappa di google
 
-- **Che sintassi viene usata?**
+### **Che sintassi viene usata?**
 
- :  : VOC Id="10002" Txt="Che sintassi viene usata?"
 
  :  : G.SEZ Pos(1)
  :  : G.SUB.GEO Tit="Mappa di google"

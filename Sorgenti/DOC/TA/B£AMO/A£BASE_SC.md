@@ -86,7 +86,7 @@ Nell'utilizzo degli indicatori, è importante sottolineare che il loro significa
 La visibilità di un indicatore è infatti locale rispetto all'istruzione seguente, non globale sull'intero programma.
 In questo modo non bisogna preoccuparsi di modificare lo stato di indicatori utilizzati in altre parti del programma (ad esempio, se lo stato di un indicatore acceso all'inizio del programma viene testato alla fine, potrebbe succedere che qualcuno ne modifichi lo stato in qualche punto intermedio, provocando comportamenti errati nell'esecuzione), visto che la "validità" dell'indicatore si esaurisce localmente.
 
->\* Esempio di valutazione locale dello stato di un indicatore (indicatore 50)
+>-  Esempio di valutazione locale dello stato di un indicatore (indicatore 50)
 C     $KEY          LOOKUP    ARRAY                                  50
 C                   IF        \*IN50=\*ON
 C                   EXSR      FUNCTION
@@ -132,26 +132,26 @@ Per essere utilizzate dalle applicazioni le azioni devono essere inserite in un 
 
 **Esempio di Entry : **
  :  : PAR L(MON)
-\*--------------------------------------------------------------\*   .
+- --------------------------------------------------------------\*   .
 I/COPY QILEGEN,£FUNDS1                                              .
 I/COPY QILEGEN,£TABB£1DS                                            .
 I/COPY QILEGEN,£PDS                                                 .
-\*--------------------------------------------------------------\*   .
+- --------------------------------------------------------------\*   .
 D\* M A I N                                                          .
-\*--------------------------------------------------------------\*   .
+- --------------------------------------------------------------\*   .
 C                   EVAL      £FUND1=§FUNW1                       .
 C                   EVAL      £FUND2=§FUNW2                       .
 C                   ...
-\*
+- 
 C                   SETON                                        LR .
-\*--------------------------------------------------------------\*   .
+- --------------------------------------------------------------\*   .
 C/COPY QILEGEN,£INZSR                                               .
 C/COPY QILEGEN,£FUN                                                 .
-\*--------------------------------------------------------------\* .
+- --------------------------------------------------------------\* .
 D\* ROUTINE INIZIALE                                               .
-\*--------------------------------------------------------------\* .
+- --------------------------------------------------------------\* .
 C     £INIZI        BEGSR                                         .
-\*                                                                .
+-                                                                 .
 C     \*ENTRY        PLIST                                         .
 C                   PARM                    §FUNNP                .
 C                   PARM                    §FUNFU                .
@@ -161,7 +161,7 @@ C                   PARM                    §FUNFI                .
 C                   PARM                    §FUNCM                .
 C                   PARM                    §FUNW1                .
 C                   PARM                    §FUNW2                .
-\*                                                                .
+-                                                                 .
 C     \*LIKE         DEFINE    £FUNNP        §FUNNP                .
 C     \*LIKE         DEFINE    £FUNFU        §FUNFU                .
 C     \*LIKE         DEFINE    £FUNME        §FUNME                .
@@ -170,9 +170,9 @@ C     \*LIKE         DEFINE    £FUNFI        §FUNFI                .
 C     \*LIKE         DEFINE    £FUNCM        §FUNCM                .
 C     \*LIKE         DEFINE    £FUNW1        §FUNW1                .
 C     \*LIKE         DEFINE    £FUNW2        §FUNW2                .
-\*                                                                  .
+-                                                                   .
 C                   ENDSR                                           .
-\*--------------------------------------------------------------\*
+- --------------------------------------------------------------\*
 
 
 Parametri : 

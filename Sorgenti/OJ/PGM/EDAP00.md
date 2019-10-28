@@ -12,7 +12,7 @@ Al lancio della funzione viene mostrata la seguente schermata guida :
 Al suo interno è necessario impostare : 
  \* Azienda
  \* Metodo :  varia al variare del flusso ricevuto. Le scelte dispnibili sono :  Movimenti C/C (nel caso in cui si vogliano registrare i movimenti di conto corrente), Avvisi pagamento (nel caso in cui si vogliano registrare pagamenti passivi) e  Esito effetti attivi (nel caso in cui si voglia procedere alla registrazione dell'esito di effetti attivi come riba o cambiali)
-\* Modalità :  è disponibile solo l'interrogazione
+-  Modalità :  è disponibile solo l'interrogazione
 
 Confermando il formato guida compare una schermata in cui viene richiesta la memorizzazione dati da utilizzare : 
 

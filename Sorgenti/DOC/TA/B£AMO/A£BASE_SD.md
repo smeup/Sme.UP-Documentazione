@@ -169,7 +169,7 @@ Non essendo presentata alcuna linea di comando da cui richiamare il programma in
 Per effettuare il debug di un programma già attivo nella lista lavori (cosa che prima si effettuava mettendo \*SELECT nell'opzione SRVJOB) occorre digitare STRSRVJOB da linea di comando, indicando gli attributi del lavoro da debuggare e avviare il debug normalmente. Terminato il debug con ENDDBG, digitare ENDSRVJOB.
 
 # Looc.Up lato client
-- [Controllo prerequisiti Looc.Up](Sorgenti/DOC/TA/B£AMO/LOBASE_03)
+- [Il lato client](Sorgenti/DOC/TA/B£AMO/LOBASE_03)
 
 # Analisi di un file di dati (F)
 Il comando F, richiamabile dalla riga di comando sia da emulatore 5250 che da Looc.up, permette di visualizzare le caratteristiche di un file di dati.

@@ -6,13 +6,13 @@ File BRCATA0F
 Il catalogo è caratterizzato dalla tabella BSD tipo catalogo che modella il significato dei campi
 del record. In particolare, con questa tabella si può definire : 
 
-\*    Tipo ente produttore
-\*    Tipo ente distributore
-\*    Parametri impliciti (C£I)
-\*    Metodo ricezione(programma)
-\*    Metodo invio(programma)
-\*    Metodo codifica(programma)
-\*    Metodo aggiornamento(programma)
+-     Tipo ente produttore
+-     Tipo ente distributore
+-     Parametri impliciti (C£I)
+-     Metodo ricezione(programma)
+-     Metodo invio(programma)
+-     Metodo codifica(programma)
+-     Metodo aggiornamento(programma)
 
 
 Il file ha come chiave principale, il tipo catalogo, il tipo ente di produzione, l'ente di produzione e il codice articolo fornitore.

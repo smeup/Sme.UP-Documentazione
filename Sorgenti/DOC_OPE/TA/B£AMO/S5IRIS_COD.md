@@ -1,9 +1,9 @@
 E' possibile ottenere una rapprestazione dell'andamento nel tempo delle code su di ogni risorsa specifica.
 
 Essa può essere eseguita : 
-\* per una risorsa specifica
-\* per tutte le risorse specifiche di una risorsa generale
-\* per tutte le risorse
+-  per una risorsa specifica
+-  per tutte le risorse specifiche di una risorsa generale
+-  per tutte le risorse
 
 Si può lanciare dalla scheda della schedulazione, cliccando su una risorsa
 

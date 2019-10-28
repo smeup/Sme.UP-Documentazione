@@ -56,6 +56,9 @@ Durante la schedulazione del dettaglio selezionato (S5SMES_13), S5SMES_73 viene 
 
 Dato che S5SMES_73 possiede delle memorie private, viene richiamato, per ottenere informazioni, dal programma di consultazione S5SMES_DP che presenta, data una risorsa MP, come sono caricate le sue N postazioni. Le stesse funzioni e metodi possono essere richiamate da programmi personali di visualizzazione.
 
+# MP e BATCH
+Il MP con parallelismo  funziona anche in presenza di Batch. E' pertanto possibile indicare che un BATCH viene eseguito contemporaneamente su più postazioni contemporaneamente(Parallelismo rigido impostato). Applicativamente un esempio è il caso dei forni di cottura in cui vengono contemporaneamente alimentati più forni con un insieme di commesse.
+
 
 # Limitazioni del MP
 

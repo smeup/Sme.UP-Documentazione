@@ -6,7 +6,7 @@ Deve essere costruito secondo delle regole ben precise che permettano, così, un
 AREA/TIPO/OAV
 AREA/TIPO
 AREA
-\*\*
+- \*
 "AREA" è l'area giacenza che sta leggendo.
 "TIPO" è il tipo giacenza che sta leggendo.
 "OAV" è l'oav dell'articolo che sta leggendo, l'attributo si trova nella tabella GMW.
@@ -20,7 +20,7 @@ Verrà eseguita la seguente risalita :
 Elemento :  GMARA
 GMAR
 GM
-\*\*
+- \*
 Il primo trovato sarà il metodo utilizzato nella valorizzazione.
  :  : FLD T$DESC Descrizione
 È la descrizione dell'elemento.

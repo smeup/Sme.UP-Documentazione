@@ -73,7 +73,7 @@ Le altre sono invece delle query effettuate direttamente sui file di database di
 Per aggiornare il file B£FIND0F impostare come schedulazione SMEUP per l'ambiente desiderato il richiamo CALL B£UT26H PARM('ALL.UPD') .
 La schedulazione deve essere effettuata tramite la scheda B£WSME_JS come schedulazione SMEUP, in modo che sia possibile lanciare il programma con l'ambiente corretto. Per questo si rimanda a : 
 - [Nuovi cmd B£QQ00,B£QQ01 e WRKJOBSCDE in scheda](Sorgenti/MB/DOC_NWS/NWS001549)
-- [Lancio&-x2f;Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
+- [Lancio/Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
 
 ## Devo necessariamente impostare delle query per ogni oggetto?
 No. Nel caso per un oggetto non siano presenti delle query il cerca aggiunge automaticamente due categorie COD e DES che permettono la ricerca per codice e descrizione tramite £G60.

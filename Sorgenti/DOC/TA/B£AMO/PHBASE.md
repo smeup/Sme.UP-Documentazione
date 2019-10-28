@@ -6,4 +6,4 @@
 - [Verifiche installazione Fiel.up](Sorgenti/DOC/TA/B£AMO/PHTTS_05)
 
 ## Esempio di collegamento tramite smeup provider
-- [Collegamento con Provider&-x3a; controllo accessi](Sorgenti/DOC/TA/B£AMO/PROVI_01)
+- [Collegamento con Provider :  controllo accessi](Sorgenti/DOC/TA/B£AMO/PROVI_01)

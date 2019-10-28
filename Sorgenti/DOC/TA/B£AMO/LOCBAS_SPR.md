@@ -96,7 +96,7 @@ Oggetti Applicativi Client
 
 # Installazione e configurazione
 
-- [Sme.UP Provider&-x3a; Set and play](Sorgenti/DOC/TA/B£AMO/LOCBAS_SPI)
+- [Sme.UP Provider :  Set and play](Sorgenti/DOC/TA/B£AMO/LOCBAS_SPI)
 
 - [Prerequisiti e configurazione SSO SmeupProvider](Sorgenti/DOC/TA/B£AMO/LOCBAS_SPS)
 
@@ -106,7 +106,7 @@ Oggetti Applicativi Client
 
 # La versione Roma Revision 1
 
-- [Sme.UP Provider&-x3a; La versione Roma R](Sorgenti/DOC/TA/B£AMO/LOCBAS_SP1)
+- [Sme.UP Provider :  La versione Roma R](Sorgenti/DOC/TA/B£AMO/LOCBAS_SP1)
 
 # La versione Roma Revision 2
 
@@ -117,7 +117,7 @@ Oggetti Applicativi Client
 - [Sme.UP Provider Web Application](Sorgenti/DOC/TA/B£AMO/LOCBAS_W00)
 
 
-- [Sme.UP Provider&-x3a; Set and play](Sorgenti/DOC/TA/B£AMO/LOCBAS_SPI)
+- [Sme.UP Provider :  Set and play](Sorgenti/DOC/TA/B£AMO/LOCBAS_SPI)
 
 
  :  : NPG

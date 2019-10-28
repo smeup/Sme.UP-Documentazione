@@ -6,9 +6,9 @@ Lo stato e la bontà della configurazione della connessione può sempre essere m
 
 ## Configurazione
 Per poter inviare fatture al SdI utilizzando Abletech come intermediario è necessario compilare l'estensione **£56** dell'azienda con i seguenti dati che devono essere forniti da Abletech : 
-\* Utente
-\* Password
-\* Aooid (una stringa alfanumerica di 36 caratteri che identifica l'azienda).
+-  Utente
+-  Password
+-  Aooid (una stringa alfanumerica di 36 caratteri che identifica l'azienda).
 
 Il codice Aooid, se non fornito all'atto della registrazione da parte di Able Tech, può essere compilato automaticamente selezionando il pulsante 'Richiedi Aooid' posto nella scheda _Cruscotto invio fatture_  all'interno del tab _Controlli di sistema_
 
@@ -18,9 +18,9 @@ Nel caso non venga indicato in V50 avviene una risalita sulla tabella LOB, prima
 I webservice utilizzati per l'autenticazione e l'invio vengono indicati rispettivamente negli elementi **£AB02** (per l'autenticazione) e **£AB01** (per l'invio) della tabella **EDC** .
 Per la richiesta di Aooid tramite webservice è stato creato l'elemento **£AB03**.
 La PTF V580508A imposta gli SE.SUB.A38 che puntano ai webservice di produzione
-\* **61.S00.B00** per l'elemento **£AB02** (autenticazione)
-\* **61.S01.B00** per l'elemento **£AB01** (invio)
-\* **61.S02.B00** per l'elemento **£AB03** (Richiesta Aooid)
+-  **61.S00.B00** per l'elemento **£AB02** (autenticazione)
+-  **61.S01.B00** per l'elemento **£AB01** (invio)
+-  **61.S02.B00** per l'elemento **£AB03** (Richiesta Aooid)
 
 ### Configurazione ambiente di test
 Per effettuare il test della correttezza dell'invio si rimanda alla documentazione del Criterio di completamento.

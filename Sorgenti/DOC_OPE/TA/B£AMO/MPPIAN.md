@@ -8,7 +8,7 @@
 - [Previsioni con HW](Sorgenti/OJ/PGM/MPAP48)
 - [Previsioni con RL](Sorgenti/OJ/PGM/MPAP51)
 - [Previsioni con scelta metodo](Sorgenti/OJ/PGM/MPAP52)
-- [Previsioni&-x3a; correzione serie](Sorgenti/OJ/PGM/MPAP53)
+- [Previsioni :  correzione serie](Sorgenti/OJ/PGM/MPAP53)
 - [Navigazione MPS](Sorgenti/MB/SCP_SCH/MPPIAN)
 - [Scheda MPS Visualizzazione Vista Piano](Sorgenti/MB/SCP_SCH/MPPIAN_VDP)
 - [Scheda MPS Riga di una vista piano](Sorgenti/MB/SCP_SCH/MPPIAN_RVP)

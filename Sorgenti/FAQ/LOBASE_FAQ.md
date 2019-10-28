@@ -1,18 +1,15 @@
-- **Dove si trova il programma di installazione di Looc.UP?**
+### **Dove si trova il programma di installazione di Looc.UP?**
 
- :  : VOC Id="10001" Txt="Dove si trova il programma di installazione di Looc.UP?"
  \* Il programma di installazione in Smea si trova sul server in {SERVER_ROOT}\smea\installazione Looc.UP\. Cercare l'ultimo rilascio di Looc.UP. Per le istruzioni operative vedere "LOOC Documentazione attiva" al capitolo "ANALISI DEL FUNZIONAMENTO"
  \* Da internet :  test.smea.it\loocup
 
-- **L'installazione su client prevede la **
+### **L'installazione su client prevede la **
 
- :  : VOC Id="10002" Txt="L'installazione su client prevede la "disinstallazione"?"
  Looc.UP può essere disinstallato dal Pannello di Controllo :  Start ->Impostazioni -> Pannello di Controllo -> Installazione applicazioni
  Cercare nell'elenco Looc.UP e premere sul tasto rimuovi.
 
-- **Dopo l'installazione di Looc.UP il browser non funziona più correttamente, pe**
+### **Dopo l'installazione di Looc.UP il browser non funziona più correttamente, perchè?**
 
- :  : VOC Id="10003" Txt="Dopo l'installazione di Looc.UP il browser non funziona più correttamente, perchè?"
  L'installazione di Looc.UP carica l'ultima versione di JAVA 2 V1, che viene automaticamente attivata sul browser e può causare problemi.
  Per la risoluzione : 
  \* Aprire il Browser
@@ -21,9 +18,8 @@
  \* Selezionare la sezione Browser, disabilitare la voce relativa al browser interessato e premere "Applica"
  \* Chiudere la finestra, il browser e riprovare.
 
-- **Perchè sul client resto all'infinito in attesa dei menù?**
+### **Perchè sul client resto all'infinito in attesa dei menù?**
 
- :  : VOC Id="10004" Txt="Perchè sul client resto all'infinito in attesa dei menù?"
  Verificare i prerequisiti lato SERVER
  1. TSTJAC per ricevere il nome della connessione
  2. TSTJASF per simulare la chiamata
@@ -39,15 +35,13 @@
  3. La coda è definita ma non attaccata  (ADDJOBQE)
 
 # UTILIZZO DI Looc.UP
-- **Come posso verificare/ottimizzare le performance?**
+### **Come posso verificare/ottimizzare le performance?**
 
- :  : VOC Id="10005" Txt="Come posso verificare/ottimizzare le performance?"
  1. Verificare la velocità della rete (10/100 MPS)
  2. Vedere nei prerequisiti lato server installazione e attivazione PTF di accelerazione code
 
-- **Come si devono chiudere i lavori con esito negativo?**
+### **Come si devono chiudere i lavori con esito negativo?**
 
- :  : VOC Id="10006" Txt="Come si devono chiudere i lavori con esito negativo?"
  Le seguenti istruzioni sono destinate al CED
  Eseguire le seguenti azioni : 
  1. Cercare i lavori attivi-> wrkusrjob 'nome utente'.
@@ -56,26 +50,22 @@
  4. La coda dovrebbe essere nello stato QRCVDTAQ.
  5. Se non è possibile capire lo stato dalla Gestione Lavori Utente fare 4 sui lavori finiti male.
 
-- **Possono restare allocati i record da Looc.UP? Come sbloccarli?**
+### **Possono restare allocati i record da Looc.UP? Come sbloccarli?**
 
- :  : VOC Id="10007" Txt="Possono restare allocati i record da Looc.UP? Come sbloccarli?"
  Nel momento in cui sblocco un programma in MSGW, vengono anche deallocati i record.
  Al riguardo si veda la domanda precedente.
 
-- **Quali sono i pre-requisiti del profilo utente grafico su As-400?**
+### **Quali sono i pre-requisiti del profilo utente grafico su As-400?**
 
- :  : VOC Id="10008" Txt="Quali sono i pre-requisiti del profilo utente grafico su As-400?"
  Per i prerequisiti vedere la documentazione attiva in LOBASE_11 Prerequisiti
 
-- **Quali sono le funzioni grafiche?**
+### **Quali sono le funzioni grafiche?**
 
- :  : VOC Id="10009" Txt="Quali sono le funzioni grafiche?"
  Le funzioni grafiche derivano dal nuovo oggetto applicativo J1 introdotto con Looc.UP, le cui funzioni grafiche sono recuperabili attraverso l'oggetto : 
  V2 JAGRA oppure J1 GRA
 
-- **GLI SCRIPT ATTRIBUTO PER LA SCHEDA OGGETTO**
+### **GLI SCRIPT ATTRIBUTO PER LA SCHEDA OGGETTO**
 
- :  : VOC Id="10010" Txt="GLI SCRIPT ATTRIBUTO PER LA SCHEDA OGGETTO"
  **Linea (Termometro)**
  F(ANG) P(valore da visualizzare | valore min | valore max | Punto 1|
  Punto 2 | Punto 3 | Punto 4)
@@ -109,9 +99,8 @@
  O 1
  Quindi con numero=1 accendo il verde, ma posso anche fare 3 5 6 per accendere insieme le corrispondenti.
 
-- **GLI SCRIPT DOCUMENTI PER LA SCHEDA OGGETTO**
+### **GLI SCRIPT DOCUMENTI PER LA SCHEDA OGGETTO**
 
- :  : VOC Id="10011" Txt="GLI SCRIPT DOCUMENTI PER LA SCHEDA OGGETTO"
  **;;LOO F(IMM)**
  Serve per poter visualizzare tutte le immagini di un documento e viene configurato attraverso la tabella JAN, dove, per
  ogni oggetto è presente un sottosettore.
@@ -132,15 +121,13 @@
  \* TXT    Testo libero
  **;;DEC T(V2) P(JATXT) I(V2 jatext)**
 
-- **Come posso evitare di digitare ogni volta l'indirizzo IP dell'AS400?**
+### **Come posso evitare di digitare ogni volta l'indirizzo IP dell'AS400?**
 
- :  : VOC Id="10012" Txt="Come posso evitare di digitare ogni volta l'indirizzo IP dell'AS400?"
  Per non digitare ogni volta l'indirizzo IP dell'AS400 bisogna modificare il file host c : \windows\system32\drivers\ecc...
  Per esempio deve essere inserita una riga del tipo :  172.16.2.11 s4431cfa, dove il primo è l'indirizzo IP del AS400 e il secondo è un nome mnemonico.
 
-- **Come sono gestite le icone e le immagini?**
+### **Come sono gestite le icone e le immagini?**
 
- :  : VOC Id="10013" Txt="Come sono gestite le icone e le immagini?"
  Le icone vengono gestite nella seguente maniera :  nella directory sul server sono presenti due sotto-directory chiamate rispettivamente ObjIcons
  e ObjImage.
  Nella prima vanno messe tutte le immagini delle icone degli oggetti applicativi di Sme.UP, quindi ci troveremo le gif di tutti gli oggetti come :  AR, CN, D8,TA, ecc...
@@ -151,14 +138,12 @@
  Cerco in ObjImage\AR\ART\ l'immagine A01; se la trovo mi fermo, altrimenti cerco sempre in ObjImage\AR\ART l'immagine "default.jpg" che rappresenta tutti gli AR ART.
  Se la trovo mi fermo, altrimenti cerco in ObjImage\AR\ l'immagine "default.jpg" che rappresenta tutti gli AR.
 
-- **Come avvio il Client di Looc.UP?**
+### **Come avvio il Client di Looc.UP?**
 
- :  : VOC Id="10014" Txt="Come avvio il Client di Looc.UP?"
  Per avviare Looc.UP con la finestra DOS attivata, utilizzare Loocup.exe che si trova nella directory di installazione, mentre per la modalità che non prevede la finestra DOS, utilizzare Loocup_w.exe . Le funzionalità del client non cambiano.
 
-- **Come posso cancellare un lavoro da PC?**
+### **Come posso cancellare un lavoro da PC?**
 
- :  : VOC Id="10015" Txt="Come posso cancellare un lavoro da PC?"
  __Le seguenti istruzioni sono destinate agli utenti.__
  1. Assumendo di lavorare su una macchina Windows, premere CTRL+ALT+CANC -> Task Manager
  2. Cercare i processi : 
@@ -167,62 +152,52 @@
  SmeUiClt.exe componente delphi per emulazione 5250.
  3. Se il lavoro finisce male vanno terminati prima di lanciare di nuovo Looc.UP
 
-- **Come posso attivare la finestra DOS della JAVA VIRTUAL MACHINE?**
+### **Come posso attivare la finestra DOS della JAVA VIRTUAL MACHINE?**
 
- :  : VOC Id="10016" Txt="Come posso attivare la finestra DOS della JAVA VIRTUAL MACHINE?"
  Andare sul collegamento di Looc.UP -> pulsante destro del mouse -> Proprietà -> Scegliere il tab Collegamento -> come Destinazione : 
  java.exe -jar Loocup.jar sistema utente password
  Come DA : 
  {SERVER_ROOT}\smea\Programmi\Loocup, sostituendo opportunamente la share del server su cui è installato Looc.UP.
 
-- **Come si può usare Looc.UP?**
+### **Come si può usare Looc.UP?**
 
- :  : VOC Id="10017" Txt="Come si può usare Looc.UP?"
  Le modalità di utilizzo di Looc.UP sono principalmente due : 
  \* Installata sul pc localmente
  \* Installata su un server di rete
 
-- **Come posso velocizzare Looc.UP?**
+### **Come posso velocizzare Looc.UP?**
 
- :  : VOC Id="10018" Txt="Come posso velocizzare Looc.UP?"
  E' possibile velocizzare Looc.UP non utilizzando le icone nell'albero o nell'emulatore.
  Le opzioni sono rispettivamente : 
  \* Nell'albero -> Config -> Mostra icone negli alberi
  \* Nell'emulatore -> Visualizzazione icone Oggetto su campo oppure CTRL+F12
 
-- **Tabulando l'ordine dei campi non è corretto? Perchè?**
+### **Tabulando l'ordine dei campi non è corretto? Perchè?**
 
- :  : VOC Id="10019" Txt="Tabulando l'ordine dei campi non è corretto? Perchè?"
  E' necessario effettuare l'ordinamento dei campi del formato video mediante l'SDA e ricompilarlo.
  Per ordinare i campi automaticamente è necessario fare F4 nella videata e apparirà la lista dei campi. Poi premere F6 per far automaticamente l'ordinamento.
 
-- **Cosa si intende per componente base?**
+### **Cosa si intende per componente base?**
 
- :  : VOC Id="10020" Txt="Cosa si intende per componente base?"
  Come componente base di Looc.UP si intende il componente che si occupa della comunicazione e che comprende le parti AS400 e quelle di Looc.UP.
 
-- **La scheda è definita come componente base?**
+### **La scheda è definita come componente base?**
 
- :  : VOC Id="10021" Txt="La scheda è definita come componente base?"
  No.
 
-- **Dove si trovano i preferiti?**
+### **Dove si trovano i preferiti?**
 
- :  : VOC Id="10022" Txt="Dove si trovano i preferiti?"
  I preferiti si trovano nella cartella di installazione di Looc.UP -> cartella LOOCUP_DAT -> PRE.
 
-- **Come sono organizzati i preferiti?**
+### **Come sono organizzati i preferiti?**
 
- :  : VOC Id="10023" Txt="Come sono organizzati i preferiti?"
  I preferiti sono salvati per utente e ambiente.
  All'interno della cartella PRE c'è una cartella per ogni utente, contenente un file dei preferiti per ogni ambiente.
 
-- **Se installo una nuova versione di Looc.UP perdo i preferiti?**
+### **Se installo una nuova versione di Looc.UP perdo i preferiti?**
 
- :  : VOC Id="10024" Txt="Se installo una nuova versione di Looc.UP perdo i preferiti?"
  No, è necessario non cancellare la cartella LOOCUP_DAT\PRE
 
-- **Come posso spostare i preferiti da un pc a un'altro o in una nuova installazi**
+### **Come posso spostare i preferiti da un pc a un'altro o in una nuova installazione?**
 
- :  : VOC Id="10025" Txt="Come posso spostare i preferiti da un pc a un'altro o in una nuova installazione?"
  E' sufficiente copiare la cartella LOOCUP_DAT\PRE.

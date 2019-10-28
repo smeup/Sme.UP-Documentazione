@@ -83,7 +83,7 @@ Compilando i parametri necessari, viene generato un documento PDF seguendo la lo
 - il file Pdf viene creato nella cartella di IFS specificata.
 
 
-£G53PR = Percorso IFS dove è presente il file di lavoro (il file .INV) che viene dato da elaborareal generatore PDF.
+£G53PR = Percorso IFS dove è presente il file di lavoro (il file .INV) che viene dato da elaborare al generatore PDF.
 £G53PD = Cartella IFS dove verrà depositato il file pdf generato.
 £G53DE = Nome del file pdf generato.
 £G53DO = Indica se, una volta generato il PDF, deve essere eliminato il file indicato nella £G53PR.
@@ -284,6 +284,9 @@ La £G53 dispone di un meccanismo di trace molto potente.
 La gestione del trace (attivazione/disattivazione/interrogazione/ecc.) è completamente disponibile nella scheda del modulo NSBASE (voce "trace").
 Per approfondimenti si rimanda alla documentazione di tale scheda : 
 - [Trace della £G53](Sorgenti/DOC/TA/B£AMO/B£LOGG_L52)
+
+In aggiunta al trace è inoltre possibile attivare una notifica all'utente esecutore o ad una lista di utenti predeterminati tramite la tabella JA1 (vedi campi "notifica £G53").
+ :  : DEC T(TA) P(JA1) K(\*)
 
 # Sintassi SMEDG
 Il generatore genera file in formato PDF partendo da file di testo semplice in un formato definito. Tale formato che le righe dei file dati hanno degli headers che definiscono il tipo di riga, il formato del testo contenuto e l'eventuale file di overlay.

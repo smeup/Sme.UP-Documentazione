@@ -37,7 +37,7 @@ V = Verifica (solo Controllo)
 C = Crea Se Mancante
 M = Modifica (se presente)
 Posizione (70)  : 
-\* = è un commento non esegue nulla
+-  = è un commento non esegue nulla
 # FORMATO GUIDA
 Dal formato guida e' possibile  selezionare l'Applicazione o il modulo di cui si vuole controllare gli oggetti critici.
 Le opzioni possibili sono  : 

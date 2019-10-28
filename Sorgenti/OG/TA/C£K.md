@@ -13,6 +13,6 @@ Permette di abilitare/disabilitare la gestione dei flag dell'archivio C£ALIA0F 
 Se impostato questo valore, la ricerca dell'alias avverra risalendo all'oggetto generico utilizzando la seguente scaletta
 Oggetto1 / Oggetto2
 Oggetto1 / \*\*
-\*\*       / Oggetto2
-\*\*       / \*\*
+- \*       / Oggetto2
+- \*       / \*\*
 La risalita si ferma alla prima occorrenza valida

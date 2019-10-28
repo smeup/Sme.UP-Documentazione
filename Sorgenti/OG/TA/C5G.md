@@ -57,3 +57,8 @@ le rate raggruppate, vengono decumulate, pronte per essere nuovamente cumulate p
 presentazione.
 Se impostato a blank (default), in fase di deselezione delle rate non viene tolto l'eventuale
 raggruppamento fatto in precedenza.
+
+ :  : FLD T$C5GR **Priorità Assegn. FE**
+Nella registrazione di una fattura elettronica passiva, permette di determinare quale tipo pagamento attribuire in corrispondenza di una certa modalità di pagamento.
+Senza questa indicazione verrà semplicemente attributo il primo tipo pagamento corrispondente in ordine di codice.
+

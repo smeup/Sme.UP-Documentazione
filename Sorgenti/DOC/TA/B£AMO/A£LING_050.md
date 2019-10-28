@@ -1,15 +1,15 @@
 In generale i motivi per cui qualcosa non si vede tradotto sono : 
-\* non ho configurato correttamente la struttura (exit e tabelle)
-\* l'ambiente non è configurato in lingua
-\* l'oggetto non è configurato per essere tradotto
-\* le frasi non sono state estratte
-\* le frasi non sono state tradotte
+-  non ho configurato correttamente la struttura (exit e tabelle)
+-  l'ambiente non è configurato in lingua
+-  l'oggetto non è configurato per essere tradotto
+-  le frasi non sono state estratte
+-  le frasi non sono state tradotte
 
 ## Ho configurato correttamente l'ambiente?
 Andare nella scheda del modulo A£LING, selezionare "situazione ambiente" e verifica che sia tutto ok,
-\* in "controlli configurazione" vengono segnalati degli errori?
-\* la libreria che contiene i dati da tradurre (lib dati per tabelle, lib sorgenti per servizi, ecc.) ha un ambito assegnato? Tale ambito figura tra i consentiti?
-\* la lingua in cui si vuole tradurre risulta tra le lingue supportate?
+-  in "controlli configurazione" vengono segnalati degli errori?
+-  la libreria che contiene i dati da tradurre (lib dati per tabelle, lib sorgenti per servizi, ecc.) ha un ambito assegnato? Tale ambito figura tra i consentiti?
+-  la lingua in cui si vuole tradurre risulta tra le lingue supportate?
 
 ## L'ambiente è configurato in lingua?
 

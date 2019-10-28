@@ -26,5 +26,5 @@ F6   Controllo interfacce
 Esegue per tutte le interfacce descritte in tabella B£V la verifica sopra descritta e presenta il campo lampeggiante  se l'esito ha dato risultato negativo.
 ## TABELLE COLLEGATE
 B£1   - Personalizzazione
-\*CNAA - Codici ambiente applicativo \*CNTT - Codici oggetti applicativi
+- CNAA - Codici ambiente applicativo \*CNTT - Codici oggetti applicativi
 B£Vxx - Dettaglio interfacce applicative

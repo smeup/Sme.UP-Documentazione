@@ -6,7 +6,7 @@
 ### FUNZIONE E METODO
 1. La funzione WRITE richiede che dopo la scrittura dell'ultimo record venga effettuata una chiamata alla £G80 con funzione CLOSE.
 2. Prima della DELETE eseguire la G80 con funzione e metodo \*BLANKS per farsi restituire il tipo oggetto da cancellare (da mettere nel metodo della DELETE)
-\*blanks  :  controlla l'esistenza di un oggetto dell'ifs.
+- blanks  :  controlla l'esistenza di un oggetto dell'ifs.
 .**WRITE** :  crea o scrive un oggetto dell'ifs.
 ..**'\*STMF'** :  scrive il contenuto di £G80ST nel file specificato in £G80PH. Se il file non esiste lo crea, altrimenti accoda il contenuto a quello esistente.
 ..**'\*DIR'** :  crea la cartella specificata in £G80PH.

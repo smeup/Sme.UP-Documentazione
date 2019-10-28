@@ -11,15 +11,15 @@ Nome programmi :
  \* **non blank**, considera la LDA ricevuta
 
 **Struttura parametro 1 (se non blank)**
-\* Posizione 1-1, "_H_L", far considerare la LDA
-\* Posizione 2-9, se diverso da blank è il programma 2 che viene lanciato : 
+-  Posizione 1-1, "_H_L", far considerare la LDA
+-  Posizione 2-9, se diverso da blank è il programma 2 che viene lanciato : 
  \*\* **GMMV01D**, default -monitor di magazzino
  \*\* **GMMV05G**, movimenti da aree
  \*\* **GMMV06G**, movimenti di un articolo
 
 ## Struttura LDA
-\* Posizione 1-4, causale 1
-\* Posizione 5-8, causale 2
+-  Posizione 1-4, causale 1
+-  Posizione 5-8, causale 2
 Il monitor usa solo queste
 
 Le parti seguenti sono specifiche del programma 2.

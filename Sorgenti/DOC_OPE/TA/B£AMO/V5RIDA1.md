@@ -17,8 +17,8 @@ Sia che si scelga un SURF del gruppo delle testate o un SURF del gruppo delle ri
 
 # A) Il surf di testata per numero documento
 Scegliendo di partire dal surf per numero documento delle testate, la sezione dei filtri offre la possibilità di impostare alcuni campi come per esempio : 
-\*\* __Posizionamento numero documento : __ inserendo in questo campo un numero di documento la scheda permette di visualizzare tutti i documenti antecedenti o successivi a questo, a seconda di quanto impostato nel campo A/D dell'ordinamento (ascendente o discendente). A differenza di tutti gli altri campi che fungono da filtri puntuali, questo campo serve solo a porre un limite alla ricerca.
-\*\* __Flag Righe : __ se impostato questo flag permette di visualizzare per ciascuna testata, le relative righe, dove ovviamente presenti. La presenza di queste è resa manifesta da una piccola icona a forma di lente che viene caricata in corrispondenza delle testate, nella prima colonna della matrice. Solo cliccando su questa icona sarà possibile vedere il dettaglio nella parte inferiore della scheda.
+- \* __Posizionamento numero documento : __ inserendo in questo campo un numero di documento la scheda permette di visualizzare tutti i documenti antecedenti o successivi a questo, a seconda di quanto impostato nel campo A/D dell'ordinamento (ascendente o discendente). A differenza di tutti gli altri campi che fungono da filtri puntuali, questo campo serve solo a porre un limite alla ricerca.
+- \* __Flag Righe : __ se impostato questo flag permette di visualizzare per ciascuna testata, le relative righe, dove ovviamente presenti. La presenza di queste è resa manifesta da una piccola icona a forma di lente che viene caricata in corrispondenza delle testate, nella prima colonna della matrice. Solo cliccando su questa icona sarà possibile vedere il dettaglio nella parte inferiore della scheda.
 
 IMMAGINE CON SEZIONE DELLE RIGHE SOTTO ALLE TESTATE
 

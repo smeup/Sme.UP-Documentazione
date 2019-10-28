@@ -11,9 +11,9 @@ Il numero di chiavi utilizzate, se non passato, viene calcolato automaticamente 
 Per i metodi di scansione che prevedono chiavi con tipo oggetto (esempio 6L che prevede P£TP01/2/3), è possibile evitare di impostare tali chiavi, utilizzando la funzionalità implicita che le valorizza automaticamente in base al contenuto del campo P£TPRC ricevuto.
 Tale funzionalità permette di evitare che il programma chiamante effettui la lettura della griglia per valorizzarli dinamicamente, o effettui un impostazione cablata dei tipi oggetto.
 L'automatismo si innesca se : 
-\* è stata passata la categoria parametri nel campo P£TPRC
-\* il campo P£TPxx è blank
-\* è stato passato il numero di campi chiave da utilizzare in modo specifico
+-  è stata passata la categoria parametri nel campo P£TPRC
+-  il campo P£TPxx è blank
+-  è stato passato il numero di campi chiave da utilizzare in modo specifico
 
 # Particolarità :  £C£F e parametri non estesi.
 Per facilitare l'utilizzo da parte dei programmatori, la £C£F è in grado di leggere e scrivere sia sull'archivio C£ESOx0F che sul C£CONx0F, deviandosi in modo automatico e trasparente a seconda che il parametro (elemento di B£N) sia definito come esteso (C£ESOx0F) o meno (C£CONx0F).

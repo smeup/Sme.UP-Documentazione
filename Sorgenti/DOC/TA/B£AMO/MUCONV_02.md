@@ -2,8 +2,8 @@
 
 ### Premessa
 L'importazione in ambiente multipiattaforma si divide in due fasi : 
-\* importazione sorgenti;
-\* importazione dati;
+-  importazione sorgenti;
+-  importazione dati;
 Esistono una serie di comandi per eseguire queste importazioni.
 
 ### Importazione sorgenti
@@ -15,13 +15,13 @@ Es :  RCVXMI OBJ(SMEUP_DEV/\*ALL)
 Questo comando genera una cartella che ha come nome quello della libreria con le relative sottocartelle per i tipi oggetto
 
 I parametri di questo comando sono i seguenti : 
-\* OBJ            (Datastruttura contenente il nome della libreria e dell'oggetto che si vuole importare. Il nome accetta \*ALL come valore speciale)
-\* OBJTYPE   (Tipo oggetto di sistema operativo che si vuole importare :  \*FILE, \*PGM etc.)
-\* DATE         (Questo paramentro indica da quale data si intende fare l'importazione)
-\* REPLACE  (flag per indicare se si vuole rimpiazzare il vecchio sorgente)
-\* LOG    (flag per indicare se si vuole scrivere un log di errore qualora si presentasse)
-\* RESTORE  (flag per indicare se si vuole eseguire il restore degli oggetti contestualmente all'importazione)
-\* DATA    (flag per indicare se si vuole effettuare l'importazione dei dati)
+-  OBJ            (Datastruttura contenente il nome della libreria e dell'oggetto che si vuole importare. Il nome accetta \*ALL come valore speciale)
+-  OBJTYPE   (Tipo oggetto di sistema operativo che si vuole importare :  \*FILE, \*PGM etc.)
+-  DATE         (Questo paramentro indica da quale data si intende fare l'importazione)
+-  REPLACE  (flag per indicare se si vuole rimpiazzare il vecchio sorgente)
+-  LOG    (flag per indicare se si vuole scrivere un log di errore qualora si presentasse)
+-  RESTORE  (flag per indicare se si vuole eseguire il restore degli oggetti contestualmente all'importazione)
+-  DATA    (flag per indicare se si vuole effettuare l'importazione dei dati)
 
 Il secondo comando che può essere usato dopo la ricezione è **RSTXMI** "XMI Data Restorer"
 Es :  RSTXMI OBJ(SMEUP_DEV/\*ALL) OBJTYPE(\*PGM)
@@ -29,11 +29,11 @@ Es :  RSTXMI OBJ(SMEUP_DEV/\*ALL) OBJTYPE(\*PGM)
 Questo comando genera nella cartella della libreria la zona relativa agli oggetti restorati.
 
 I parametri di questo comando sono i seguenti : 
-\* OBJ            (Datastruttura contenente il nome della libreria e dell'oggetto che si vuole importare. Il nome accetta \*ALL come valore speciale)
-\* OBJTYPE   (Tipo oggetto di sistema operativo che si vuole importare :  \*FILE, \*PGM etc.)
-\* REPLACE  (flag per indicare se si vuole rimpiazzare il vecchio sorgente)
-\* LOG    (flag per indicare se si vuole scrivere un log di errore qualora si presentasse)
-\* DATA    (flag per indicare se si vuole effettuare l'importazione dei dati)
+-  OBJ            (Datastruttura contenente il nome della libreria e dell'oggetto che si vuole importare. Il nome accetta \*ALL come valore speciale)
+-  OBJTYPE   (Tipo oggetto di sistema operativo che si vuole importare :  \*FILE, \*PGM etc.)
+-  REPLACE  (flag per indicare se si vuole rimpiazzare il vecchio sorgente)
+-  LOG    (flag per indicare se si vuole scrivere un log di errore qualora si presentasse)
+-  DATA    (flag per indicare se si vuole effettuare l'importazione dei dati)
 
 ### Documentazione messaggi relativi al restore di file di database
 
@@ -85,7 +85,7 @@ Il comando adibito all'importazione dei dati in ambiente multipiattaforma è **R
 Es :  RCVDTB LIB(SMETAB) TBL(\*ALL) REPLACE(\*YES)
 
 I parametri di questo comando sono i seguenti : 
-\* LIB (Indica la libreria di cui si vogliono importare i dati)
-\* TBL   (Indica la tabella da importare, può accettare il valore speciale \*ALL)
-\* WHERE  (clausola where per importare soltanto una porzione di dati di una tabella)
-\* REPLACE (flag per indicare se si vuole eseguire una pulizia del file prima dell'importazione)
+-  LIB (Indica la libreria di cui si vogliono importare i dati)
+-  TBL   (Indica la tabella da importare, può accettare il valore speciale \*ALL)
+-  WHERE  (clausola where per importare soltanto una porzione di dati di una tabella)
+-  REPLACE (flag per indicare se si vuole eseguire una pulizia del file prima dell'importazione)

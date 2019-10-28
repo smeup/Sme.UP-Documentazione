@@ -26,7 +26,7 @@ Output :  \*IN35  :  se On = fine scansione
 
 # Esempio di chiamata
 
-\*scansione cicli di un dato articolo
+- scansione cicli di un dato articolo
 
      C                   CLEAR                   £CIRSP        (START)
      C                   DO        \*HIVAL

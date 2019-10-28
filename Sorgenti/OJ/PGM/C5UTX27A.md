@@ -1,8 +1,8 @@
 # Adeguamento V§N
 
 Vengono aggiornati gli elementi della V§N corrispondenti ai paesi della black list in due parametri : 
-\* Appartenenza black list
-\* Codice nazione csv, cioè la codifica utilizzata per la trasmissione dei dati della black list
+-  Appartenenza black list
+-  Codice nazione csv, cioè la codifica utilizzata per la trasmissione dei dati della black list
 
 Vengono aggiornati tutti i paesi determinati dai decreti del Ministro delle finanze 4/05/1999 e del  Ministro delleconomia e delle finanze 21/11/2001, ad esclusione di quelli con limiti soggettivi ed oggettivi previsti dall'art. 3 del secondo decreto. Questi qual'ora si rientri nella casistica dovranno essere rettificati manualmente.
 

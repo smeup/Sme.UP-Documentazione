@@ -109,6 +109,18 @@ _4_Input
 Riceve in input la stringa in chiaro
 _4_Output
 Restituisce in output l'hash della stringa trasformato in esadecimale
+###  SMEUP-7   Codice hash a 7 caratteri
+**Converte la stringa in chiaro dal CCSID del job a UTF-8, calcola l'hash con algoritmo** **MD5, converte la stringa risultante in base64 e restituisce i primi 7 caratteri.**
+_4_Input
+Riceve in input la stringa in chiaro
+_4_Output
+Restituisce in output un codice hash a 7 caratteri
+###  SMEUP-15  Codice hash a 15 caratteri
+**Converte la stringa in chiaro dal CCSID del job a UTF-8, calcola l'hash con algoritmo** **MD5, converte la stringa risultante in base64 e restituisce i primi 15 caratteri.**
+_4_Input
+Riceve in input la stringa in chiaro
+_4_Output
+Restituisce in output un codice hash a 15 caratteri
 
 ## CHKHASH   Controllo corrispondenza hash
 Controlla la corrispondenza tra l'hash ricevuto in input e quello calcolato a partire dalla stringa in chiaro ricevuta
@@ -140,6 +152,18 @@ Restituisce in output l'indicatore 35 acceso e il messaggio BAS1289 se l'hash no
 **Converte la stringa in chiaro dal CCSID del job a UTF-8, calcola l'hash con algoritmo** **SHA-512 e converte la stringa risultante in esadecimale; quindi la confronta con l'hash in **esadecimale ricevuto.**
 _4_Input
 Riceve in input la stringa in chiaro e un hash in esadecimale da confrontare
+_4_Output
+Restituisce in output l'indicatore 35 acceso e il messaggio BAS1289 se l'hash non corrisponde alla stringa ricevuta.
+###  SMEUP-7   Codice hash a 7 caratteri
+**Converte la stringa in chiaro dal CCSID del job a UTF-8, calcola l'hash con algoritmo** **MD5, converte la stringa risultante in base64 e considera i primi 7 caratteri; quindi li confronta con l'hash ricevuto.**
+_4_Input
+Riceve in input la stringa in chiaro
+_4_Output
+Restituisce in output l'indicatore 35 acceso e il messaggio BAS1289 se l'hash non corrisponde alla stringa ricevuta.
+###  SMEUP-15  Codice hash a 15 caratteri
+**Converte la stringa in chiaro dal CCSID del job a UTF-8, calcola l'hash con algoritmo** **MD5, converte la stringa risultante in base64 e considera i primi 15 caratteri; quindi li confronta con l'hash ricevuto.**
+_4_Input
+Riceve in input la stringa in chiaro
 _4_Output
 Restituisce in output l'indicatore 35 acceso e il messaggio BAS1289 se l'hash non corrisponde alla stringa ricevuta.
 

@@ -1,34 +1,41 @@
 # Obiettivo
-La finalità delle notifiche è quella di poter generare un avviso visualizzabile tramite un'apposita funzione presente in Loocup, Webup e Mobile.
+E' possibile gestire l?invio di notifiche direttamente dall'erp Sme.UP a tutti i client (Looc.UP, Web.UP e Sme.UP Mobile).
+In Looc.UP e Web.UP le notifiche vengono visualizzate nell'area di notifica.
+Verso Mobile vengono invece inviate notifiche push tipiche degli smartphone cliccando sulle quali viene aperta l'app Sme.UP Mobile.
+
+Le notifiche sono il risultato di elaborazioni nell'erp Sme.UP che generano un messaggio di avviso con la possibilità di visualizzare il dettaglio di ciò che si intende notificare, tramite una funzione che permette di vedere una scheda in cui vengono visualizzati i dati o dalla quale si può permettere la possibilità di eseguire azioni.
+
+Si possono pertanto prevedere notifiche che danno informazioni aggiornate a tempi stabiliti, oppure impostare l'invio di notifiche all'accadere di qualcosa di specifico che necessita particolare attenzione, presentando in tal caso una scheda che permette di intervenire in modo immediato con un'azione sull'eventuale problema da risolvere.
 
 La notifica è l'insieme delle seguenti caratteristiche : 
-\* oggetto scatenante
-\* Responsabile dell'oggetto
-\* Istante
-\* Numerosità
+-  Oggetto di riferimento
+-  Responsabile dell'oggetto
+-  Istante
+-  Numerosità
 
+## Tipologie di notifiche
 Distinguiamo tra **notifiche in pull**, generate in base ad una temporizzazione e a delle regole, e **notifiche in push**, inviate puntualmente da un programma all'accadere di qualcosa.
 Una notifica è in push se nel tag **A60.COS** l'attributo Cos="", mentre se è impostato il suffisso del programma costruttore da richiamare è in pull.
 
 ## Definizione di un tipo notifica
-Il tipo notifica è un oggetto di tipo SESUB.A60 ,  che corrisponde a una subsezione in uno script LOA60_xx .
+Il tipo notifica è un oggetto di tipo SESUB.A60 ,  che corrisponde a una subsezione in uno script LOA60_xx nel file src SCP_SET.
 
 ## Costruttori (Notifiche in pull)
 Attraverso il Tag **A60.COS** si definiscono le logiche di generazione delle notifiche.
 E' resa disponibile la variabile &RES (responsabile) da utilizzare nel tag A60.PRE
 Sono stati predisposti i seguenti costruttori : 
-\* 01 - Comandi SQL
-\* 02 - Fonti della reportistica (A15)
-\* 03 - Membri sorgenti
+-  01 - Comandi SQL
+-  02 - Fonti della reportistica (A15)
+-  03 - Membri sorgenti
 
 ### Comandi SQL
-- [Comandi SQL](Sorgenti/DOC/TA/B£AMO/LOA60_01)
+- [Comandi SQL](Sorgenti/V2/LOCOS/V2LOCOS601)
 
 ### Fonti della reportistica (A15)
-- [Fonti della reportistica](Sorgenti/DOC/TA/B£AMO/LOA60_02)
+- [Fonti della reportistica](Sorgenti/V2/LOCOS/V2LOCOS602)
 
 ### Membri sorgenti
-- [Membri di sorgenti](Sorgenti/DOC/TA/B£AMO/LOA60_03)
+- [Membri di sorgenti](Sorgenti/V2/LOCOS/V2LOCOS603)
 
 ## Schedulare la costruzione
 Il programma LOA60_LM esegue la costruzione di ciascun motore di notifica (ciascun SE SUB.A60) in base all'intervallo previsto per ciascun motore.
@@ -101,4 +108,4 @@ Per disabilitare le notifiche Web.UP e Looc.UP per un utente (tipicamente per gl
 La funzione "SND" del LOA60_SE invia al client tutte le notifiche presenti per un utente come messaggi di tipo NOTIF.
 
 ## Dettagli tecnici
-- [Notifiche - Dettagli tecnici](Sorgenti/DOC/TA/B£AMO/LOA60_SV)
+- [Notifiche - Dettagli tecnici LOA60_SV](Sorgenti/V2/LOCOS/V2LOCOS604)

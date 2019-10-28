@@ -66,7 +66,7 @@ Ogni Line è identificata da :
 
 - Id, Identificativo Line :  parte da 0 ad ogni sessione (ogni volta che si ricarica la matrice), identifica univocamente l'operazione
 - Op, Tipo operazione :  inserimento / modifica / cancellazione
-- Before :  valori dei campi della matrice prima dell'operazione e numero di riga (ID). Vengono passati solo i campi trattati dal servizio di aggiornamento, cioè quelli dichiarati all'atto del \*SETUP
+- Before :  valori dei campi della matrice prima dell'operazione e numero di riga (ID). Vengono passati solo i campi trattati dal servizio di aggiornamento, cioè quelli dichiarati all'atto del - SETUP
 - After :  valori dei campi modificati dall'utente
 
 

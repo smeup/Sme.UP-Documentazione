@@ -20,8 +20,8 @@ Eseguire la ricerca alfabetica relativa se richiesto
 £IE3MS :  Codice messaggio ritorno (7)
 £IE3FI :  File   messaggio ritorno (10)
 £IE3CM :  Ultimo Comando
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 £IE3RO :  N.ro Record di output
 
 # Prerequisiti

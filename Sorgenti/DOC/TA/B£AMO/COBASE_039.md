@@ -43,7 +43,7 @@ Tale programma va schedulato :
 NB :  La schedulazione deve essere effettuata tramite l'opportuna scheda di schedulazione SMEUP, in modo che sia possibile lanciare il programma con l'ambiente corretto.
 Per questo si rimanda a : 
 - [Nuovi cmd B£QQ00,B£QQ01 e WRKJOBSCDE in scheda](Sorgenti/MB/DOC_NWS/NWS001549)
-- [Lancio&-x2f;Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
+- [Lancio/Esecuzione Programma batch](Sorgenti/DOC/TA/B£AMO/A£BASE_SM)
 
 Il programma si chiude una volta superato l'orario impostato nella tabella di configurazione WF1.
 Il programma esegue un ciclo di controllo sul file WFPROM0F restando in attesa per un tempo indicato in minuti nella tabella WF1.

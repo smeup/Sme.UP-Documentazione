@@ -7,5 +7,5 @@ creano delle registrazioni effettive, quindi una volta concluso il loro utilizzo
 cancellate.
 
 # Note
-\* Gli assoggettamenti da indicare devono essere di tipo esente ed il tipo registrazione da utilzzare, associato ad un registro iva normale che non sia intra o reverse charge.
+-  Gli assoggettamenti da indicare devono essere di tipo esente ed il tipo registrazione da utilzzare, associato ad un registro iva normale che non sia intra o reverse charge.
 

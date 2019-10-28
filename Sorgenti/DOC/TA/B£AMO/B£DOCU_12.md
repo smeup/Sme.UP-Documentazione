@@ -19,17 +19,17 @@ Obiettivo della documentazione operativa è spiegare all'utente tutte le possibi
 ## Inclusione di altri documenti
 Il comando I.INC.MBR Fil(NomeFile) Mem(NomeMembro) permette di includere altri documenti all'interno di un testo. In particolare utilizzando questo comando il documento scritto nel membro indicato verrà esploso : 
 Durante il processo di inclusione è possibile, attraverso opportuni parametri, l'importazione di una parte del documento richiesto : 
-\* Sec - Importa solo il tag richiesto
-\* SAt - Una volta incontato il tag richiesto, questo deve possedere l'attributo richiesto per poter essere imporato. Questi valori possono essere multipli (Separati da spazio) solo se trattasi di membri SCP_CFG.
-\* SeE - Una volta incontrato il tag richiesto, ferma l'importazione quando incontri il tag righiesto. Non attivo se trattasi di membgri SCP_CFG.
+-  Sec - Importa solo il tag richiesto
+-  SAt - Una volta incontato il tag richiesto, questo deve possedere l'attributo richiesto per poter essere imporato. Questi valori possono essere multipli (Separati da spazio) solo se trattasi di membri SCP_CFG.
+-  SeE - Una volta incontrato il tag richiesto, ferma l'importazione quando incontri il tag righiesto. Non attivo se trattasi di membgri SCP_CFG.
 Vengono applicate le seguenti limitazioni : 
-\* Se presente l'attributo Id(...) il SAt(...)  deve corrispondere.
-\* Se titolo il SAt(...) deve corrispondere al titolo
-\* Negli altri casi il SAt(...) deve essere presente nella riga
+-  Se presente l'attributo Id(...) il SAt(...)  deve corrispondere.
+-  Se titolo il SAt(...) deve corrispondere al titolo
+-  Negli altri casi il SAt(...) deve essere presente nella riga
 L'importazione viene interrotta quando si incontra lo stesso Sec(...) di inizio.
 L'importazione non viene interrotta al primo evento, ma viene scansionato l'intero membro dando così la possibilità di includere più elementi anche non sequenziali fra loro.
 in alternativa si può utilizzare il parametro
-\* SeE - Importa tutto il documento fermandosi quando si incontra il tag impostato.
+-  SeE - Importa tutto il documento fermandosi quando si incontra il tag impostato.
 
 _3_Esempio di esplosione della voce Upper processes con comando INC.MBR Sec(VOC) SAt(UP) : 
 - [Acronimi Sme.up](Sorgenti/MB/DOC_VOC/GLO_ACR_01)
@@ -63,8 +63,8 @@ Tutti gli elementi costitutivi del corredo grafico del documento che viene gener
 Per elementi costitutivi del corredo grafico del documento si intende :  la copertina prima pagina, il logo aggiuntivo della prima pagina, la copertina di fine documento, l'header di pagina ed il footer di pagina.
 La loro eventuale personalizzazione passa per la personalizzazione delle immagini degli oggetti.
 Gli elementi e gli oggetti SmeUP relativi sono : 
-\* Sfondo prima pagina :  oggetto VO; COD_SEL; SFO_000
-\* Sfondo ultima pagina :  oggetto VO; COD_SEL; SFO_002
-\* Logo prima pagina :  oggetto VO; COD_SEL; LOG_000
-\* Header di pagina :  oggetto VO; COD_SEL; HEA_000
-\* Footer di pagina :  oggetto VO; COD_SEL; FOO_000
+-  Sfondo prima pagina :  oggetto VO; COD_SEL; SFO_000
+-  Sfondo ultima pagina :  oggetto VO; COD_SEL; SFO_002
+-  Logo prima pagina :  oggetto VO; COD_SEL; LOG_000
+-  Header di pagina :  oggetto VO; COD_SEL; HEA_000
+-  Footer di pagina :  oggetto VO; COD_SEL; FOO_000

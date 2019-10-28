@@ -22,8 +22,8 @@ Eseguire la ricerca alfabetica relativa se richiesto
 £IRIFI :  File   messaggio ritorno
 £IRICM :  Ultimo Comando
 £IRIRO :  N.ro record di output
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 BRRISO :  DS valorizzata
 
 # Prerequisiti

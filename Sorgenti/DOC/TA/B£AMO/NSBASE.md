@@ -3,4 +3,4 @@
 ## Installazione e configurazione
 - [Installazione e configurazione SmeN](Sorgenti/DOC/TA/B£AMO/NSBASE_IN)
 ## Errori e F.A.Q.
-- [Errori&-x2f;Performance SmeNS  SmeDG](Sorgenti/DOC/TA/B£AMO/NSBASE_ER)
+- [Errori/Performance SmeNS](Sorgenti/DOC/TA/B£AMO/NSBASE_ER)

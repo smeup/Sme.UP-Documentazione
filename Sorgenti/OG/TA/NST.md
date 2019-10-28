@@ -8,6 +8,6 @@ Potremo ad esempio avere :
 AR = Articoli.
 CL = Centri di lavoro.
 .. = Ecc.
-\*\* = Codifica libera.
+- \* = Codifica libera.
  :  : FLD T$NSTA Parametro dell'oggetto
  :  : FLD T$NSTB Oggetto

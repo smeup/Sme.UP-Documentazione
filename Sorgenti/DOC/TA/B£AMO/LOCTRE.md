@@ -37,4 +37,4 @@ Gli esempi del componente accordion sono consultabili tramite due sezioni differ
 - [Creazione XML di un albero](Sorgenti/DOC/TA/B£AMO/LOCTRE_01)
 - [Variabili gestite da un albero](Sorgenti/DOC/TA/B£AMO/LOCTRE_02)
 - [Funzioni Varie](Sorgenti/DOC/TA/B£AMO/LOCTRE_03)
-- [Utilizzo dell&-x27;Albero su Device Mobile](Sorgenti/DOC/TA/B£AMO/LOCTRE_MO)
+- [Utilizzo dell'Albero su Device Mobile](Sorgenti/DOC/TA/B£AMO/LOCTRE_MO)

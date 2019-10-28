@@ -1,8 +1,8 @@
 # MEA - Menù - azioni SME_up
 ## ELEMENTO STANDARD
 Attraverso l'elemento standard si vuol distribuire una struttura di menù non modificabile definita in laboratorio. L'elemento standard possiede le seguenti caratteristiche : 
-\* é numerico
-\* il sotto settore dell'elemento è un'applicazione
+-  é numerico
+-  il sotto settore dell'elemento è un'applicazione
 L'unico campo ammesso alla modifica è lo__User Level__
 
 ## ATTENZIONE
@@ -84,14 +84,14 @@ Se si imposta un attributo video, viene modificato il colorfe della voce.
 È un elemento della tabella B£AMO e rappresenta il modulo di appartenenza dell'azione. Se non
 impostato viene considerata una azione di Applicazione.
 Attraverso la sua presenza si attivano i seguenti effetti : 
-\* L'azione sarà soggetta alle autorizzazioni previste per il modulo di appartenza
-\* L'azione in ambiente loocup, verrà utilizzata nel modulo di appartenenza, altrimenti
+-  L'azione sarà soggetta alle autorizzazioni previste per il modulo di appartenza
+-  L'azione in ambiente loocup, verrà utilizzata nel modulo di appartenenza, altrimenti
   verrà visualizzata non nel menù di ingresso.
 Questo campo è obbligatorio nei seguenti casi : 
-\* Azioni standard
-\* Azioni specifiche di sottosettori (applicazioni) standard. Questa obbligatorietà può essere
+-  Azioni standard
+-  Azioni specifiche di sottosettori (applicazioni) standard. Questa obbligatorietà può essere
   forzata impostando 'N' nel campo "No modulo su std".
-\* Tipi azioni 'D' (indipendentemente dal valore impostato nel campo "No modulo su std").
+-  Tipi azioni 'D' (indipendentemente dal valore impostato nel campo "No modulo su std").
 Viene controllato che il modulo appartenga al sottosettore (applicazione della MEA), ad eccezione
 delle voci 'D'. Esse infatti non indicano il modulo di appartenenza ma il modulo di esecuzione, in
 quanto vengono esposte sempre al primo livello del menu (a destra). E'quindi possibile inserire
@@ -126,15 +126,15 @@ _4_Attiva solo in modalità Loocup
 Se impostato, l'azione verrà eseguita ad ogni selezione, non tenendo conto della cache presente.
  :  : FLD T$MEAI __Emulaz./Looc.UP__
 E'possibile impostare se la voce è visualizzata solo in un ambiente : 
-\* 1  :  5250
-\* 2  :  Loocup
-\* N  :  La voce sarà valida solo per altri device (es. Phone/Tablet)
+-  1  :  5250
+-  2  :  Loocup
+-  N  :  La voce sarà valida solo per altri device (es. Phone/Tablet)
 Alcune voci sono implicitamente di un ambiente, in base a quanto impostato nel campo "Tipo Azione"
-\* "A" Azione ACG                    Solo 5250
-\* "G" Menu AS400                    Solo 5250
-\* "K" Menu modulo base ACG          Solo 5250
-\* "C" Comando AS400                 Solo 5250
-\* "J" Funzione grafica Client       Solo Loocup
+-  "A" Azione ACG                    Solo 5250
+-  "G" Menu AS400                    Solo 5250
+-  "K" Menu modulo base ACG          Solo 5250
+-  "C" Comando AS400                 Solo 5250
+-  "J" Funzione grafica Client       Solo Loocup
  :  : FLD T$MEAP __No modulo su std__
 Questo campo è significativo unicamente in caso di azioni non standard in applicazioni
 standard.

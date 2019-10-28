@@ -60,9 +60,9 @@ Campo libero. Permette di specificare una condizione di selezione per il singolo
 Campo libero. Permette di specificare una sequenza di ordinamento dei parametri, diversa da quella definita attraverso il codice del parametro. I programmi di gestione dei paramentri presenteranno a video i parametri ordinati, secondo l'ordine derivante dalla concatenazione della sequenza con il codice del parametro. Se questo campo ha valore blanks verrà ovviamente utilizzato l'ordinamento definito dal codice del parametro.
  :  : FLD T$B£NP **Livello di protezione**
 Dipende da come è impostata la categoria parametri : 
-\* se è attiva la protezione per stati allora al livello di protezione possiamo assegnare un valore variabile fra 01 e 99, definito nella tabella degli stati.
+-  se è attiva la protezione per stati allora al livello di protezione possiamo assegnare un valore variabile fra 01 e 99, definito nella tabella degli stati.
 Se il valore è presente, il programma di presentazione dei parametri, verificherà l'autorizzazione assegnata all'utente nella classe "STATI", e nella funzione "PA";
-\* se è attiva le protezione PLC, allora le autorizzazioni sono controllate dalla classe "PLC-C£CONR" e dalla funzione = elemento della C£E, il livello di protezione deve essere un valore compreso tra 01 e 05 (corrispondente al gruppo autorizzazione).
+-  se è attiva le protezione PLC, allora le autorizzazioni sono controllate dalla classe "PLC-C£CONR" e dalla funzione = elemento della C£E, il livello di protezione deve essere un valore compreso tra 01 e 05 (corrispondente al gruppo autorizzazione).
  :  : FLD T$B£NQ **Risalita**
 Indica se per il parametro richiesto la funzione che restituisce il valore deve risalire al codice "\*\*", quando al parametro non è assegnato un valore.
 Questa risalita, se impostata, ha la precedenza su quella definita nella categoria parametri.

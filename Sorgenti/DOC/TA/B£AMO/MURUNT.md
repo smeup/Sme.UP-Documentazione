@@ -2,12 +2,12 @@
 Con Runtime (RT) intendiamo il modulo che si interfaccia con la JVM sottostante, nell'attuale implementazione con il runtime OSGI di riferimento (attualmente Eclipse Equinox)
 
 Le funzioni prinicpali del runtime sono : 
-\* Configurare l'applicazione
-\* Fornire un ambiente di esecuzione del codice Java
-\* Fornire la possibilità di caricare e scaricare specifiche librerie
-\* Fornitura dei serivizi al livello applicativo in base a un paradigma SOA
-\* Gestire il ciclo di vita dell'applicazione (Start/Stop/Reload)
-\* Aggiornamento applicazione tramite repository o marketplace
+-  Configurare l'applicazione
+-  Fornire un ambiente di esecuzione del codice Java
+-  Fornire la possibilità di caricare e scaricare specifiche librerie
+-  Fornitura dei serivizi al livello applicativo in base a un paradigma SOA
+-  Gestire il ciclo di vita dell'applicazione (Start/Stop/Reload)
+-  Aggiornamento applicazione tramite repository o marketplace
 
 # Indice
 - [Applicazione](Sorgenti/DOC/TA/B£AMO/MURUNT_01)

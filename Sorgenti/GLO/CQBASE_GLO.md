@@ -1,16 +1,13 @@
-- **PPAP**
+### **PPAP**
 
- :  : VOC Id="000010" Txt="PPAP"
 Il Production Part Approval Process (PPAP) è usato nella filiera di produzione dell'industria automobilistica per garantire l'omologazione dei fornitori di componenti e dei loro processi di produzione, ponendosi l'obiettivo di determinare : 
 
 Se tutta la documentazione del cliente, relativa alla concezione ingegneristica e alle specifiche desiderate, è stata opportunamente capita dall'organizzazione (fornitore) e che il processo dispone della potenzialità di produrre prodotti che soddisfino in modo consistente queste richieste durante un concreto ciclo di produzione al livello di regime prefissato.
-- **QS9000**
+### **QS9000**
 
- :  : VOC Id="000020" Txt="QS9000"
 QS9000 è uno standard di qualità sviluppato da uno sforzo comune dei tre grandi produttori di autoveicoli General Motors, Chrysler e Ford. Introdotto nell'industria nel 1994, è stato adottato da molti produttori di autocarri negli Stati Uniti.
-- **ISO TS 9000**
+### **ISO TS 9000**
 
- :  : VOC Id="000030" Txt="ISO TS 9000"
 La ISO/TS 16949 é una norma specifica di qualità definita dall'ISO e relativa all'applicazione delle più generali ISO 9000 nel settore Automotive, volute e sostenute dai produttori di autovetture.
 
 In Italia è stata recepita e tradotta dall'UNI (Ente Nazionale Italiano di Unificazione) ed emessa come UNI ISO/TS 16949
@@ -31,28 +28,22 @@ Suddivisione tra Progettazione Prodotto e Progettazione Processo;
 Necessità di predisporre un piano di controllo per prodotto e processo;
 Requisiti stringenti circa il laboratorio interno e quelli eventuali esterni, con riferimento non sempre vincolante all'accreditamento secondo ISO/IEC 17025 (comunque é consigliato/quasi obbligatorio un MSA - acronimo inglese per "Analisi dei Sistemi di Misurazione");
 Applicazione di un sistema di produzione "Just in time".
-- **FMEA**
+### **FMEA**
 
- :  : VOC Id="000040" Txt="FMEA"
 La FMEA (Failure Mode and Effect Analysis) è una metodologia utilizzata per analizzare le modalità di guasto o di difetto di un processo, prodotto o sistema. L'acronimo deriva dalla denominazione inglese Failure mode and effects analysis. Generalmente (ma non necessariamente) l'analisi è eseguita preventivamente e quindi si basa su considerazioni teoriche e non sperimentali.
-- **MSA**
+### **MSA**
 
- :  : VOC Id="000050" Txt="MSA"
 per MSA si intende la analisi dei sistemi di misurazione :  è una tecnica che mira a verificare se una misurazione è stabile e ripetibile.
-- **Lotto**
+### **Lotto**
 
- :  : VOC Id="000060" Txt="Lotto"
 Il lotto è un codice che rappresenta un insieme di materiale omogeneo ai fini del controllo qualitativo. La omogeneità deriva dall'avere una genesi unica :  stessa produzione, stessa fornitura, stessa spedizione, stesso immagazzinamento, etc.
-- **Tracciabilità**
+### **Tracciabilità**
 
- :  : VOC Id="000070" Txt="Tracciabilità"
 La tracciabilità dei prodotti è l'insieme dei mezzi che permette di verificare la storia, i movimenti e il percorso effettuato da prodotti, oggetti e merce in genere.
 
-- **Ciclo di collaudo**
+### **Ciclo di collaudo**
 
- :  : VOC Id="000080" Txt="Ciclo di collaudo"
 Il ciclo di collaudo è la sequenza dei controlli da eseguire su un lotto per verificare la conformità qualitativa dello stesso
-- **AQL o LQA**
+### **AQL o LQA**
 
- :  : VOC Id="000090" Txt="AQL o LQA"
 Livello di Qualità Atteso, LQA o AQL in inglese, è un numero che rappresenta il numero di parti difettose su un totale di 100 parti. Quindi un AQL uguale a 2% significa che si accettano 2 parti difettose ogni 100 parti.

@@ -1,6 +1,6 @@
 - [Funzioni di query](Sorgenti/OJ/PGM/TSTIQR)
 - [Interfaccia query](Sorgenti/OJ/PGM/TSTIQ1)
-- [Interfaccia schema - A](Sorgenti/OJ/PGM/TSTIQ2)
+- [Interfaccia schema](Sorgenti/OJ/PGM/TSTIQ2)
 - [Interfaccia filtro](Sorgenti/OJ/PGM/TSTIQ3)
 - [Interfaccia ordinamento](Sorgenti/OJ/PGM/TSTIQ4)
 - [Interfaccia fonte](Sorgenti/OJ/PGM/TSTIQ5)

@@ -32,7 +32,7 @@ Se non si vuole incorrere nella presenza della doppia aliquota con fatturazione 
  Se ciò non è possibile, i documenti dovranno essere modificati manualmente in modo che, ove richiesto, riportino l'assoggettamento al 21 prima che vengano stampati e/o contabilizzati.
 
 # I Dati sensibili da adeguare nello standard
-\* Introduzione nella tabella degli assoggettamenti IVA dei codici al 21%.
+-  Introduzione nella tabella degli assoggettamenti IVA dei codici al 21%.
  E' obbligatorio il mantenimento degli assoggettamenti al 20%. Si consiglia inoltre di predisporre una tabella della corrispondenza fra vecchi e nuovi codici. Per chi intende seguire la procedura SMEUP di adeguamento (citata nel seguito) dovrà inserire questa informazione negli Alias.
 
  \* Aggiornamento di tutti i dati da cui viene derivato l'assoggettamento iva nella registrazione dei

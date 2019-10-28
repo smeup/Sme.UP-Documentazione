@@ -9,7 +9,7 @@ Lo script INT è invece lo script che esegue il loop di caricamente delle aree d
 
 
 
-- [Guida all&-x27;impostazione Parametri](Sorgenti/DOC/TA/B£AMO/S5IRIS_T32)
+- [Guida all'impostazione Parametri](Sorgenti/DOC/TA/B£AMO/S5IRIS_T32)
 
 
 

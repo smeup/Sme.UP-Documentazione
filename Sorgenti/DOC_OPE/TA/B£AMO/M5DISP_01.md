@@ -27,8 +27,8 @@ A seconda delle necessità, è possibile scegliere di condurre un tipo di analis
 11. __SOR - Sviluppo orizzontale : __ dato un articolo, permette di ottenere un riepilogo rizzontale, delle giacenze, degli impegni o degli ordini spaccati per un altro oggetto di dettaglio. Questo significa che attraverso questa analisi è possibile definire quali grandezze visualizzare in orizzontale e per quali grandezze totalizzarlein verticale. In questo caso, con l'F22 è sempre possibile modificare la struttura della matrice, impostando quali informazioni si vuole mantenere in colonna e quali invece sulle righe.
 
 Il risultato dell'analisi può essere visualizzato in due modalità diverse : 
-\*\* in forma matriciale, ovvero attraverso una matrice che, a seconda del tipo di analisi, può assumere delle connotazioni differenti;
-\*\* in forma grafica, ovvero attraverso un diagramma che permette di vedere l'andamento della quantità in funzione del tempo.
+- \* in forma matriciale, ovvero attraverso una matrice che, a seconda del tipo di analisi, può assumere delle connotazioni differenti;
+- \* in forma grafica, ovvero attraverso un diagramma che permette di vedere l'andamento della quantità in funzione del tempo.
 
 B- Analisi fattibilità
 ![M5DISP_004](http://localhost:3000/immagini/MBDOC_OPE-M5DISP_01/M5DISP_004.png)A partire da un codice articolo, l'analisi della fattibilità permette di consultare la sua distinta base e, per ciascun componente, la quantità richiesta e disponibilie per la sua realizzazione.

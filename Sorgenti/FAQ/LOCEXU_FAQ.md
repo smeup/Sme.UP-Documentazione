@@ -1,6 +1,5 @@
-- **Come viene definito il componente grafico di un campo?**
+### **Come viene definito il componente grafico di un campo?**
 
- :  : VOC Id="00001" Txt="Come viene definito il componente grafico di un campo?"
 Per la definizione del componente grafico da usare per mostrare un oggetto, nei dati che vengono inviati alla matrice di aggiornamento, sono presenti due attributi importanti : 
 - la tipologia di oggetto (es :  J4ICO, J4IMG, J4PGB, V2SI/NO ...)
 - la tipologia di IO
@@ -25,9 +24,8 @@ La precedenza viene data a quanto specificato nel layout (3) poi nell'ordine (2)
 
 Utilizzando l'attributo Cmp è inoltre possibile definire una serie di opzioni tramite l'attributo CmpExt
 
-- **Come posso definire la tipologia di componente nei dati di griglia?**
+### **Come posso definire la tipologia di componente nei dati di griglia?**
 
- :  : VOC Id="00002" Txt="Come posso definire la tipologia di componente nei dati di griglia?"
 Per definire il componente direttamente nei dati di griglia devono essere utilizzate la copy  £JAXDSCO3 in più alla £JAXDSCOL
 
 D £JAXDSCO3       DS          1000
@@ -37,15 +35,13 @@ D £JAXDSCO3       DS          1000
       \* Configurazione componente
      D  £JAX3EC                     246                                         Configurazione Cmp
 
-- **Posso nascondere il pulsante di conferma/submit in Webup?**
+### **Posso nascondere il pulsante di conferma/submit in Webup?**
 
- :  : VOC Id="00003" Txt="Posso nascondere il pulsante di conferma/submit in Webup?"
 Sì, è possibile impedire la visualizzazione del pulsante di conferma/invio tramite il parametro SubmitButton impostato a "No"
 
 
-- **Qual'è la relazione tra componente EXB e componente EXU?**
+### **Qual'è la relazione tra componente EXB e componente EXU?**
 
- :  : VOC Id="00004" Txt="Qual'è la relazione tra componente EXB e componente EXU?"
 In Loocup per avere una matrice di aggiornamento è sufficiente avere un componente matrice EXB ed agire su alcuni parametri dell'istruzione G.SET.MAT nello script della scheda stessa.
 I parametri minimi da impostare sono : 
 - ReadOnly="No"
@@ -57,9 +53,8 @@ ATTENZIONE! Non bisogna inoltre confondere il componente con l'xml gestito dal c
 EXB e EXU utilizzano lo stesso xml di dati :  xml di griglia, che viene fornito da chiamate F(EXB;<servizio_dati>;<metodo>)
 
 
-- **Devo avere un Layout per utilizzare una matrice di aggiornamento?**
+### **Devo avere un Layout per utilizzare una matrice di aggiornamento?**
 
- :  : VOC Id="00005" Txt="Devo avere un Layout per utilizzare una matrice di aggiornamento?"
 No! Il layout serve per definire come deve essere visualizzato un record di una matrice di aggiornamento :  posizione, componente grafico, presenza di valori/etichette fisse... etc ... etc ...
 Una matrice di aggiornamento funziona però anche senza :  il layout offre però molte possibilità in più per personalizzare l'interazione e migliorare la user-experience.
 Inoltre, per i dati di una matrice possono essere definiti più Layout o viceversa uno stesso Layout potrebbe essere utilizzato su più matrici.

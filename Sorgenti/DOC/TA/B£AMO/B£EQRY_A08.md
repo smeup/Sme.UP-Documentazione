@@ -5,8 +5,8 @@ Al fine di poter interagire in modo trasparente anche con altre applicazioni, gl
 # Struttura
 
 In smeup l'accesso ai dati delle istanze avviene essenzialmente in due modi : 
-\* Attraverso la specifica /COPY di interfaccia che viene predisposta nello standard per ogni classe
-\* Attraverso l'identificazione sul database che è stata fissata per ogni classe (qualora le istanze della classe appartengano ad un archivio)
+-  Attraverso la specifica /COPY di interfaccia che viene predisposta nello standard per ogni classe
+-  Attraverso l'identificazione sul database che è stata fissata per ogni classe (qualora le istanze della classe appartengano ad un archivio)
 Per deviare un oggetto standard occorre quindi intervenire su entrambi i punti (anche se il secondo è in realtà necessario solo per gli oggetti che appartengono ad un archivio)
 
 Per il primo punto l'intervento è specializzato per la singola classe. Pur essendo poi l'operatività simile, l'intervento va effettuato in base alla funzionalità della /COPY di interfaccia della singola classe. L'approfondimento di questi aspetti, per ogni classe, può avvenire attraverso la scheda della classe (oggetto OG,,codiceclasse) nella quale è indicata la /COPY attraverso cui si accede all'oggetto.

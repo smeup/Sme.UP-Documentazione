@@ -85,7 +85,7 @@ Esegue per tutte le interfacce descritte in tabella B£V la verifica sopra descr
 
 ## Tabelle collegate
 B£1   - Personalizzazione
-\*CNAA - Codici ambiente applicativo \*CNTT - Codici oggetti applicativi
+- CNAA - Codici ambiente applicativo \*CNTT - Codici oggetti applicativi
 B£Vxx - Dettaglio interfacce applicative
 
 un'altra scheda rilevante è TA _B£I

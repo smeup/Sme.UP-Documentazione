@@ -5,5 +5,5 @@
 - [Esempio impostazione alternative](Sorgenti/DOC/TA/B£AMO/BRCICL_006)
 ## Note tecnico/applicative
 - [Scansione ciclo con data di validità](Sorgenti/DOC/TA/B£AMO/BRCICL_N1)
-- [Scansione DB &-x2f; Ciclo](Sorgenti/DOC/TA/B£AMO/BRCICL_N2)
+- [Scansione DB / Ciclo](Sorgenti/DOC/TA/B£AMO/BRCICL_N2)
 - [Modalità scansione ciclo del documento](Sorgenti/DOC/TA/B£AMO/BRCICL_N3)

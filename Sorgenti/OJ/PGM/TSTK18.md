@@ -20,20 +20,20 @@ blank :  la cache non è valida, va quindi ricostruita
 
 ### FRZ (Forzatura)
 La funzione FRZ permette di forzare lo stato interno della cache di un oggetto.
-\* **ATT**
+-  **ATT**
 Il metodo ATT attiva la cache, se era già attiva resta tale e non restituisce errore.
 (si assume che il chiamante abbia eseguito la costruzione)
-\* **DIS**
+-  **DIS**
 Il metodo DIS la disattiva, se era già disattivata resta tale e non restituisce errore.
-\* **CLR**
+-  **CLR**
 Il metodo CLR invalida la cache. Quindi alla prima richeista di stato verrà risposto
 "cache non utilizzabile". A quel punto (assumendo la ricostruzione della stessa da parte del
 chiamante) verrà portata a stato attivo
 
 ### CON (Scansione contesti)
 La funzione CON permette di avere l'elenco dei programmi che hanno la gestione della cache centralizzata.
-\* **POS**
+-  **POS**
 Il metodo POS si posiziona all'inizio dell'elenco.
 
-\* **LET**
+-  **LET**
 Il metodo LET legge il programma successivo, alla fine restituisce l' errore "Non esistono altri valori da visualizzare".

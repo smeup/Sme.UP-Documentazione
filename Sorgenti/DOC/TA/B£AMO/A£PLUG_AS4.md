@@ -373,9 +373,9 @@ Salvo esigenze specifiche o esistenza di norme interne all'azienda, un criterio 
  \* NNN >> prime 3 lettere del nome
 
 ### Profilo \*SECOFR
-\* Sarebbe opportuno avere un profilo di classe \*SECOFR (oltre a QSECOFR). Questo perchè, se dimentichiamo la pwd di QSECOFR, è possibile reimpostarla con l'altro (sempre che si ricordi la pwd di quest'ultimo!!)
-\* Se non si ricorda e/o non è possibile ripristinare la pwd di QSECOFR è necessario ricorrere da un IPL manuale con l'opzione M del display oppure impostando il valore di sistema QIPLTYPE a 1, entrare nell'SST con utente QSECOFR e password QSECOFR (se non hai cambiato anche quella) e reimpostare la password di QSECOFR al suo default (QSECOFR).
-\* Non dimenticare di impostare l'autorizzaione sull'oggetto QSECOFR
+-  Sarebbe opportuno avere un profilo di classe \*SECOFR (oltre a QSECOFR). Questo perchè, se dimentichiamo la pwd di QSECOFR, è possibile reimpostarla con l'altro (sempre che si ricordi la pwd di quest'ultimo!!)
+-  Se non si ricorda e/o non è possibile ripristinare la pwd di QSECOFR è necessario ricorrere da un IPL manuale con l'opzione M del display oppure impostando il valore di sistema QIPLTYPE a 1, entrare nell'SST con utente QSECOFR e password QSECOFR (se non hai cambiato anche quella) e reimpostare la password di QSECOFR al suo default (QSECOFR).
+-  Non dimenticare di impostare l'autorizzaione sull'oggetto QSECOFR
 **\* e sopratutto l'eventuale utente creato per Backup
  :  : INI Assegna autorizazzione
  :  : CMD GRTOBJAUT OBJ(QSECOFR) OBJTYPE(\*USRPRF) USER(\*PUBLIC) AUT(\*EXCLUDE)
@@ -385,7 +385,7 @@ Salvo esigenze specifiche o esistenza di norme interne all'azienda, un criterio 
  :  : FIN
 
 ### Profilo QPGMR
-\* Non dimenticare di impostare l'autorizzazione sui seguenti oggetti : 
+-  Non dimenticare di impostare l'autorizzazione sui seguenti oggetti : 
  :  : INI RSTOBJ
  :  : CMD GRTOBJAUT OBJ(RSTOBJ) OBJTYPE(\*CMD) USER(QPGMR) AUT(\*USE)
  :  : FIN
@@ -397,8 +397,8 @@ Salvo esigenze specifiche o esistenza di norme interne all'azienda, un criterio 
  :  : FIN
 
 ### Altre
-\* Disabilitare (tranne QSECOFR) tutti i profili Q\*
-\* Tutti gli oggetti dovrebbero essere di proprietà QPGMR
+-  Disabilitare (tranne QSECOFR) tutti i profili Q\*
+-  Tutti gli oggetti dovrebbero essere di proprietà QPGMR
 
 # Device
 ## Utilità
@@ -450,6 +450,6 @@ Salvo esigenze specifiche o esistenza di norme interne all'azienda, un criterio 
  :  : FIN
 
 # Appunti
-\* Disabilitare tutti i profili Q\* (tranne QSECOFR)
-\* Creazione ambiente di test (RSTLIB post salvataggi)
-\* Salvataggi con \*UNLOAD
+-  Disabilitare tutti i profili Q\* (tranne QSECOFR)
+-  Creazione ambiente di test (RSTLIB post salvataggi)
+-  Salvataggi con \*UNLOAD

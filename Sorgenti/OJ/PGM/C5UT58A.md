@@ -1,8 +1,8 @@
 # OBIETTIVI
 
 Questo programma si pone l'obiettivo di controllare/riallineare il regime iva delle registrazioni  di documenti iva, in funzione dei valori previsti in queste due informazioni : 
-\* Parametro azienda, "Regime per cassa"
-\* Campo anagrafico cliente, "Iva per Cassa"
+-  Parametro azienda, "Regime per cassa"
+-  Campo anagrafico cliente, "Iva per Cassa"
 
 Questa funzione dovrebbe quindi essere eseguita a seguito di una variazione dei sopracitati dati, al fine di allineare le registrazioni inserite, precedentemente, a tale variazione.
 

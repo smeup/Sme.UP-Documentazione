@@ -2,8 +2,8 @@
 
 ## Prerequisiti
 
-\* Download del prodotto (http://www.smeup.com/Download')
-\* Installazione del database, consigliato DB2Luw seguendo la procedura
+-  Download del prodotto (http://www.smeup.com/Download')
+-  Installazione del database, consigliato DB2Luw seguendo la procedura
 - [IBM DB2 Luw](Sorgenti/DOC/TA/B£AMO/MUDBMS_12)
 
 ## Procedura

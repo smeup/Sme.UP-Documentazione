@@ -4,9 +4,9 @@ Obiettivo di questa scheda è analizzare i saldi di contabilità generale e i sa
 ![A5OPCO_01](http://localhost:3000/immagini/MBDOC_SCH-A5OPCO/A5OPCO_01.png)
 ## Parametri di lancio
 
-\* Periodo :  è l'esercizio per il quale si voglia controllare la quadratura
-\* Data Situazione :  è la data a cui effettuare il calcolo dei saldi. Se lasciata vuota viene considerato tutto l'esercizio
-\* Divisione :  permette di analizzare i cespiti di una specifica divisione
+-  Periodo :  è l'esercizio per il quale si voglia controllare la quadratura
+-  Data Situazione :  è la data a cui effettuare il calcolo dei saldi. Se lasciata vuota viene considerato tutto l'esercizio
+-  Divisione :  permette di analizzare i cespiti di una specifica divisione
 
 ## Dettaglio informazioni
 

@@ -10,6 +10,7 @@ Lo script di configurazione risiede nel source denominato SCP_A42 e possiede i s
  :  : PAR L(TAB)
 **DEF.INI** |Indica il primo passo da eseguire
 **DEF.PAS** |Definisce la struttura del passo
+**G.SET.INP** |indica le proprietà dell'input panel di passo, deve essere posto subito sotto la definizione del passo.
 **DEF.END** |indica la funzione da lanciare dopo l'ultimo passo
 
 

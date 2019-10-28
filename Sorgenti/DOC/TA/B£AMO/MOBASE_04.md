@@ -18,10 +18,10 @@ Rimane la possibilità di poter sfruttare una funzione iniziale completamente di
 Sul device mobile, la funzione della scheda dell'oggetto viene automaticamente deviata (attraverso la logica prevista dalla /COPY £J11) sulla sottoscheda MOB dello script di scheda LOA12.
 
 In essa sono previste due sezioni : 
-\* Nella prima possono essere elencate una serie di informazioni peculiari dell'oggetto. Tali informazioni possono essere predisposte nello standard (attraverso la definizione di uno schema PRW/P) oppure sovrascritte dal cliente attraverso le memorizzazioni imputabili dalla scheda della classe (Es. scheda OG//CNCLI, Setup, Scelta Schemi di default, Anteprima Phone).
-\* Nella seconda scheda vengono invece elencante le funzioni applicabili all'oggetto. Queste possono : 
-\*\* Essere proposte dallo standard :  sono fisse l'info e le note (se previste dall'oggetto), ma esse si possono affiancare altre funzioni (se. su clienti/fornitori abbiamo, chiamate telefoniche, situazioni incassi/pagammenti ecc.)
-\*\* Essere aggiunte attraverso la struttura B£H/B£J "A-". Come per la MEA anche sulla B£J è importante che vengano specificati in modo opportuno i campi relativi all'attivazione sui device.
+-  Nella prima possono essere elencate una serie di informazioni peculiari dell'oggetto. Tali informazioni possono essere predisposte nello standard (attraverso la definizione di uno schema PRW/P) oppure sovrascritte dal cliente attraverso le memorizzazioni imputabili dalla scheda della classe (Es. scheda OG//CNCLI, Setup, Scelta Schemi di default, Anteprima Phone).
+-  Nella seconda scheda vengono invece elencante le funzioni applicabili all'oggetto. Queste possono : 
+- \* Essere proposte dallo standard :  sono fisse l'info e le note (se previste dall'oggetto), ma esse si possono affiancare altre funzioni (se. su clienti/fornitori abbiamo, chiamate telefoniche, situazioni incassi/pagammenti ecc.)
+- \* Essere aggiunte attraverso la struttura B£H/B£J "A-". Come per la MEA anche sulla B£J è importante che vengano specificati in modo opportuno i campi relativi all'attivazione sui device.
 
 Per quel che riguarda l'info inoltre va specificato che oltre all'interrogazioni delle differenti categorie di attributi, sarà possibile interrogare informazioni dell'istanza secondo schemi specifici (standard o personali). Per far questo è necessario che nella definizione dello schema venga attivata la volontà di utilizzare lo schema, non solo in lista, ma anche a livello di istanza.
 
@@ -48,7 +48,7 @@ Nella DEV viene inoltre distribuita una serie di schede grafiche idonee alla nav
 
 # Identificazione del Device
 L'indentificazione del device può essere identificata nei seguenti modi : 
-\* Negli script, attraverso la variabile di ambiente _&_AM.DV
-\* Nei programmi, attraverso il richiamo della /COPY £J18
+-  Negli script, attraverso la variabile di ambiente _&_AM.DV
+-  Nei programmi, attraverso il richiamo della /COPY £J18
 Entrambe, funzionano anche su altri device (es. client loocup), e forniscono come risultato un'istanza dell'oggeto sme.up V2B£CDV.
 

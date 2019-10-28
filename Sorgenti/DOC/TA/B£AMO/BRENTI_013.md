@@ -5,8 +5,8 @@ Nell'anagrafica Sme.Up è possibile introdurre la gestione di un tipo ente defin
 Il caso tipico è relativo a tutti i dati di identificazione e contatto di un ente (ragione sociale, indirizzo, partita iva/codice fiscale, telefoni ecc.). Al di sopra degli enti clienti e fornitori viene quindi introdotto un ente "nominativo" cui clienti/fornitori risultano collegati in modo che qualsiasi modifica su uno solo dei dati marcati come campi di nominativo comporti l'allineamento di tutti i codici ad esso collegati.
 
 La sua introduzione risulta di particolare utilità quando : 
-\* Avviene con una certa frequenza il fatto di avere lo stesso soggetto codificato con tipi ente differenti (es. spesso un cliente è anche fornitore e viceversa).
-\* Avviene con una certa frequenza il fatto di avere lo stesso soggetto codificato con codici differenti (es. perchè hanno codifici differenti a seconda dell'azienda).
+-  Avviene con una certa frequenza il fatto di avere lo stesso soggetto codificato con tipi ente differenti (es. spesso un cliente è anche fornitore e viceversa).
+-  Avviene con una certa frequenza il fatto di avere lo stesso soggetto codificato con codici differenti (es. perchè hanno codifici differenti a seconda dell'azienda).
 
 # Attivazione
 ### Definire tipo contatto apposito (BRE/BRZ)
@@ -18,10 +18,10 @@ Dovrebbe essere un tipo contatto comune a tutte le aziende (es. NOM).
  \* Definire tramite script i campi che vanno ripresi dal tipo ente nominativo (cfr. "Configurazione dello script").
  \* Con questa funzionalità verrà automaticamente attivato anche il data entry V2, per tale motivo è necessario controllare che la sua parametrizzazione sia corretta (cfr. "Configurazione Data Entry V2 ").
  \* Creare tramite apposito programma l'anagrafico dei nominativi e la loro relazione con gli enti esistenti dell'ente corrispondente). I programmi predisposti sono il BRUT04A ed il BRUT05A. Entrambi funzionano in stampa e in esecuzione. Il BRUT05A, basandosi sui record che non presentano il riferimento al nominativo, va fatto girare in esecuzione solo dopo che il BRUT04A è già girato in tale modalità.
-\* Considerazioni aggiuntive : 
-\*\* I dati più certi dovrebbero essere quelli dei fornitori, in quanto si ha la possibilità di verificarli sul cartaceo della fattura del fornitore.
-\*\* A parità di codice fiscale potrebbero sussistere anche due nominativi : 
-\*\*\* Uno con la partita iva e uno senza partita iva.
+-  Considerazioni aggiuntive : 
+- \* I dati più certi dovrebbero essere quelli dei fornitori, in quanto si ha la possibilità di verificarli sul cartaceo della fattura del fornitore.
+- \* A parità di codice fiscale potrebbero sussistere anche due nominativi : 
+- \*\* Uno con la partita iva e uno senza partita iva.
 
  :  : INI  Programma di Controllo/Generazione Nominativi con riferimenti fiscali
  :  : CMD CALL BRUT04A

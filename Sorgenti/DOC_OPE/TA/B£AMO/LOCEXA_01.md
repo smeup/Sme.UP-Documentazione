@@ -23,9 +23,9 @@ Permettono la manipolazione della presentazione del grafico, sono funzioni inter
 Permette di definire a livello di scheda la visualizzazione del grafico, nella stessa scheda possiamo avere diversi setup, ciascuno con un proprio nome e con la possibilità di ereditare le impostazioni da un altro setup di grafico.
 ![LOCEXA_06](http://localhost:3000/immagini/MBDOC_OPE-LOCEXA_01/LOCEXA_06.png)
 L'uso delle varie impostazioni è intuitivo, meritano particolare menzione : 
-\* _2_Imposta come asse, quando non è previsto nel servizio, in questa opzione si deve specificare quale campo considerare come asse
-\* _2_Imposta le serie, quando non è previsto nel servizio, in questa opzione si devono specificare i campi da considerare come serie separati da un pipe "|"
-\* _2_Imposta massimo asse X, da usare in grafici di grandi dimensioni se si vuole avere una visualizzazione su più pagine con la possibilità di spostarsi orizzontalmente grazie alla barra di scorrimento. Può essere utile anche per impotare l'ampiezza massima quando non abbiamo ancora tutti i valori dell'asse
-\* _2_Imposta massimo asse Y, come il precedente ma riferito alle serie
-\* _1_Tab. Identificazione - Nome, è il nome del setup, da usare in grafici con setup diversi
-\* _1_Tab. Identificazione - Eredita da, è il nome del setup dal quale ereditare le impostazioni
+-  _2_Imposta come asse, quando non è previsto nel servizio, in questa opzione si deve specificare quale campo considerare come asse
+-  _2_Imposta le serie, quando non è previsto nel servizio, in questa opzione si devono specificare i campi da considerare come serie separati da un pipe "|"
+-  _2_Imposta massimo asse X, da usare in grafici di grandi dimensioni se si vuole avere una visualizzazione su più pagine con la possibilità di spostarsi orizzontalmente grazie alla barra di scorrimento. Può essere utile anche per impotare l'ampiezza massima quando non abbiamo ancora tutti i valori dell'asse
+-  _2_Imposta massimo asse Y, come il precedente ma riferito alle serie
+-  _1_Tab. Identificazione - Nome, è il nome del setup, da usare in grafici con setup diversi
+-  _1_Tab. Identificazione - Eredita da, è il nome del setup dal quale ereditare le impostazioni

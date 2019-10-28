@@ -6,10 +6,10 @@ Verificare se una copy è presente in un assieme, creare l'oggetto \*MODULE rela
 £MUDME :  Metodo
 £MUDCP :  Copy
 
-\* **Funzione 'LET_MAS' - Lista /copy master (con TST)
-\* **Funzione 'LET_SLA' - Lista /copy slave di un master
-\* **Funzione 'CHK_CPY' - Controllo tipo copy master/slave
-\* **Funzione 'CRT_SRC' - Creazione modulo in QTEMP
+-  **Funzione 'LET_MAS' - Lista /copy master (con TST)
+-  **Funzione 'LET_SLA' - Lista /copy slave di un master
+-  **Funzione 'CHK_CPY' - Controllo tipo copy master/slave
+-  **Funzione 'CRT_SRC' - Creazione modulo in QTEMP
 
 # Output
 £MUD35 :  On=Errore

@@ -114,7 +114,7 @@ Definiamo le informazioni base :
  \*\* Prezzo Fisso Unitario :  il Prezzo di Vendita di ciascun articolo della promozione è di importo ridotto rispetto al prezzo di listino vendita
  \*\* Bonus Punti Fidelity :  vengono attribuiti Punti addizionali al cliente fidelizzato
  \*\* Emissione Buoni di Cassa :  generazione di un Buono Acquisto da utilizzare per ulteriori acquisti
-\* Evidenzia Sconto su Scontrino :  indicare No se non si desidera Stampare lo Sconto sullo Scontrino,in questo caso verrà diminuito direttamente il Prezzo della riga
+-  Evidenzia Sconto su Scontrino :  indicare No se non si desidera Stampare lo Sconto sullo Scontrino,in questo caso verrà diminuito direttamente il Prezzo della riga
  \* Eventuale Descrizione per Scontrino :  inserire una descrizione che verrà stampata sullo scontrino
  \* Priorità Promozione :  verrà eventualmente utilizzata dal Programma di Cassa nel caso in cui con gli Articoli dello Scontrino sia possibile comporre più Promozioni per stabilire quale applicare per prima. A priorità più alta corrisponde la precedenza di applicazione. Se tra due o più Promozioni la priorità è identica o se non viene indicata, Negoziando propone una finestra pop up da cui selezionare una delle Promozioni.
  \* Promozione Abilitata : indica se la Promozione é abilitata o meno. Ricordiamo che la Promozione deve anche essere attivata in un Evento in corso.
@@ -188,13 +188,13 @@ Dopo aver definito le informazioni di Testata della Promozione, oppure premendo 
 Ogni Elenco contiene una serie di articoli che concorrono con la quantità o con l'importo al raggiungimento della Promozione. Affinché la Promozione scatti, il cliente dovrà acquistare articoli che soddisfino la condizione di ogni elenco.
 Sono a disposizione i normali tasti funzionali : 
  \* Invio :  per modificare le impostazioni dell'Elenco di Articoli (non il contenuto)
-\* F6  :  per inserire un nuovo Elenco di Articoli
-\* F4 :  per Annullare l'associazione dell'elenco di Articoli alla Promozione
+-  F6  :  per inserire un nuovo Elenco di Articoli
+-  F4 :  per Annullare l'associazione dell'elenco di Articoli alla Promozione
 
 Premendo uno dei tasti funzionali si accede alla videata di richiesta informazioni del Gruppo Articoli della Promozione. Specificare : 
-\* Codice Elenco :  il gruppo a cui appartengono gli articoli che fanno scattare la Promozione
-\* Quantità / Importo (la scelta dipende dalla Modalità Promozione) :  quantità o importo di tali articoli necessaria per l'attivazione.
-\* Escludi Articoli con Prezzi in Vigore Promozionali :  indicare se gli articoli aventi un prezzo di listino promozionale devono essere inclusi nell'elenco.
+-  Codice Elenco :  il gruppo a cui appartengono gli articoli che fanno scattare la Promozione
+-  Quantità / Importo (la scelta dipende dalla Modalità Promozione) :  quantità o importo di tali articoli necessaria per l'attivazione.
+-  Escludi Articoli con Prezzi in Vigore Promozionali :  indicare se gli articoli aventi un prezzo di listino promozionale devono essere inclusi nell'elenco.
 Facciamo un esempio :  intendiamo attivare una Promozione che scatta all'acquisto di un rossetto di due mascara. Prima di compilare i dati della Promozione avremo quindi predisposto 2 elenchi distinti :  nel primo avremo inserito il rossetto e nel secondo il mascara. Nella scheda Promozione li abbineremo entrambi alla Promozione con quantità 1 per il primo e 2 per il secondo.
 
 ## Gestione Listini di Vendita Promozioni

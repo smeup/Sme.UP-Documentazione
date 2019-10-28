@@ -1,5 +1,5 @@
 - [Gestione ubicazioni](Sorgenti/OJ/PGM/GMUB01)
 - [Stampa ubicazioni](Sorgenti/OJ/PGM/GMUB51)
 - [Gestione Risalite](Sorgenti/OJ/PGM/B£GRI2)
-- [Gestione dati Magazzino&-x2f;Articolo](Sorgenti/OJ/PGM/GMARMG)
-- [Stampa dati magazzino&-x2f;articolo](Sorgenti/OJ/PGM/GMAR51)
+- [Gestione dati Magazzino/Articolo](Sorgenti/OJ/PGM/GMARMG)
+- [Stampa dati magazzino/articolo](Sorgenti/OJ/PGM/GMAR51)

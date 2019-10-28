@@ -38,7 +38,7 @@ Il tipo giacenza deve essere diverso per tutte le causali (master e secondarie) 
 | .COL Txt="Altre note ......" LunAut="1" |
 |  1) | blank / non_blank | blank       | blank       | blank  / T / A | blank / I / E | NS                | Vedi Nota (1)| Vedi Nota (A) |
 |  2) | NS                     | non_blank | blank       | NS                | NS              | NS                | Vedi Nota (1)| Vedi Nota (A) |
-|  3) | blank / non_blank | blank       | non_blank | blank  / T / A | blank / I / E | blank / V / \* | Vedi Nota (1)| Vedi Nota (B) |
+|  3) | blank / non_blank | blank       | non_blank | blank  / T / A | blank / I / E | blank / V / -  | Vedi Nota (1)| Vedi Nota (B) |
 |  4) | NS                     | non_blank | non_blank | NS               | NS              | blank / V / \* | Vedi Nota (2)| Vedi Nota (B) |
 | 
 

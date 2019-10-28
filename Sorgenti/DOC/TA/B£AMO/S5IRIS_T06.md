@@ -6,8 +6,8 @@ Nella realtà, oltre alle risorse di questo tipo, che sono quelle su cui si eseg
 Il modo in cui viene controllata ogni risorsa secondaria è definito in tabella
  :  : DEC T(ST) K(BRK)
 La suddivisione principale tra i tipi risorse secondarie è : 
-\* Risorse di segnalazione "RSS" :  il loro sovrautilizzo è segnalato ma permesso
-\* Risorse di vincolo "RSV" :  il loro sovrautilizzo non è permesso :  la schedulazione opera in modo tale da non violare il loro calendario di disponibilità (sia come orari di apertura, sia come numero di risorse presenti).
+-  Risorse di segnalazione "RSS" :  il loro sovrautilizzo è segnalato ma permesso
+-  Risorse di vincolo "RSV" :  il loro sovrautilizzo non è permesso :  la schedulazione opera in modo tale da non violare il loro calendario di disponibilità (sia come orari di apertura, sia come numero di risorse presenti).
 Mentre non vi è limite al numero di risorse di segnalazione, per ogni impegno risorse vi può essere solo un impegno secondario riferito ad una risorsa di vincolo. Se ve ne fosse più d'uno, i successivi, (secondo il logico S5IRSE0L) verrebbero trascurati (non declassati a risorse di segnalazione).
 
 ## Caratteristiche di una RS
@@ -40,8 +40,8 @@ Ancor maggior cura va prestata nella stesura di programmi di "spinta", non poten
 E' applicata, se è il caso, la "preemption", vale a dire la strategia per cui, ad un certo istante, si interrompe l'esecuzione di un impegno, se viene meno il numero di RSV che necessita, per iniziare un altro impegno che richiede un numero
 minore di risorse, compatibile con il nuovo valore.
 Perchè questa situazione possa attivarsi, sono necessarie queste condizioni : 
-\* il profilo delle RSV deve essere variabile e comunque, in certi istanti, maggiore di uno. Se così non fosse, il profilo RSV sarebbe soltanto del tipo :  risorsa aperta / risorsa chiusa.
-\* gli impegni secondari hanno un numero diverso di RSV utilizzate. Se così non fosse, non si verificherebbe il caso di un impegno con numero RSV minore di un  altro, e quindi, nell'istante di calo della disponibilità, non ci sarebbe nessun impegno pronto a sostituirsi a quello non più eseguibile.
+-  il profilo delle RSV deve essere variabile e comunque, in certi istanti, maggiore di uno. Se così non fosse, il profilo RSV sarebbe soltanto del tipo :  risorsa aperta / risorsa chiusa.
+-  gli impegni secondari hanno un numero diverso di RSV utilizzate. Se così non fosse, non si verificherebbe il caso di un impegno con numero RSV minore di un  altro, e quindi, nell'istante di calo della disponibilità, non ci sarebbe nessun impegno pronto a sostituirsi a quello non più eseguibile.
 La preemption viene attivata soltanto in riduzione :  quando il profilo di RSV aumenta, non viene interrotto l'impegno con minor numero di risorse, per riprendere il precedente (con maggior numero) interrotto. In questo modo, a fronte di un possibile sottoutilizzo delle RSV, si riducono le interruzioni.
 
 

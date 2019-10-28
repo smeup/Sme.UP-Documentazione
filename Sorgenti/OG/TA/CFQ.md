@@ -23,7 +23,7 @@ In questo campo si inserisce un codice che identifica il criterio con il quale l
  - 05 (Definite nello script con regole) :  come l'opzione 04 ma con la possibilità di definire regole.
  :  : FLD T$CFQG  **Parame.costr.sezioni**
 In base al metodo scelto (T$CFQG) in precedente, sono valide le seguenti opzioni.
-Se è stato inserito il metodo 02 ("Definite in parametro"), in questo campo deve essere specificato un elemento della tab. B£NTA (parametro). Tipicamete questo parmetro sarà definito come multiplo con tipo oggetto='CS' (elemento di settore) e parametro= 'CFS'. In questo modo le sezioni di questo questionario saranno definte nei parametri del questionario stesso. L'ordine con cui le sezioni vengono aggiunte a questo parametro coincide con l'ordine con cui si presenteranno all'utente che compila il questionario.
+Se è stato inserito il metodo 02 ("Definite in parametro"), in questo campo deve essere specificato un elemento della tab. B£NTA (parametro). Tipicamente questo parametro sarà definito come multiplo con tipo oggetto='TS' (elemento di settore) e parametro= 'CFS'. In questo modo le sezioni di questo questionario saranno definte nei parametri del questionario stesso, coerentemente con le sezioni del sottosettore definito nel questionario (CFQ). Oppure può essere definito come pultiplo con tipo oggetto='TA' (elemento di settore e parametro= 'CFSss' dove ss è il sottosettore dove sono definite le sezioni.  L'ordine con cui le sezioni vengono aggiunte a questo parametro coincide con l'ordine con cui si presenteranno all'utente che compila il questionario. Per modificare l'ordine devo assegnare un valore numerico crescente a ciascuna sezione parametrizzata.
 Se è stato inserito il metodo 03 ("Con prefisso indicato"), in questo campo va specificata la parte iniziale del codice delle sezioni da inserire nel questionario. Tutte le sezioni esistenti nel subsettore CFS associato al questionario, il cui codice comincia con i caratteri indicati in questo campo, sono mostrate all'utente nel questionario creato.
 Se è stato inserito il metodo _R_04 _7_(Definite nello script senza regole) o _9_05 o  (Definite nello script con regole) questo campo conterrà il nome del membro del file SCP_CFG che definirà il questionario.
  :  : FLD T$CFQH  **Programma di stampa**
@@ -32,6 +32,9 @@ Indica il programma che viene chiamato per generare l'XML che contiene i dati us
 È un elemento della tabella B£G
 Fornisce la chiave d'accesso al file, nel quale sono salvate le configurazioni create (CFVARI0F/B£MEDE0F).
 Se questo campo è lasciato vuoto non è possibile salvare le configurazioni.
+
+NOTA BENE :  nel caso della modalità non estesa perchè sia possibile salvare le configurazioni è necessario che venga indicata una B£G con il tipo oggetto che sia una TACFCxx i cui elementi serviranno per attribuire un ID alla configurazione oppure indicare un numeratore nella specifico campo di questa tabella stessa.
+
  :  : FLD T$CFQL  **Gestione configurazione**
 Se impostato viene richiamato il programma CFSAV_xx dopo l'operazione di salvataggio della
 configurazione.

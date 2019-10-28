@@ -11,6 +11,6 @@ Gestire la produzione del file e del modello 770 da trasmettere all'Agenzia dell
 
 _2_NOTA BENE :  in ognuna delle azioni, premendo il tasto funzione F2 e successivamente il tasto funzione F1 è possibile accedere alla documentazione specifica della funzione.
 
-Per quanto riguarda la trasmissione dei dati 770 2017 relativi ai dati 2016 ci sono delle nuove sezioni che però non sono state gestite in quanto non interessano i dati relaviti a lavoratori autonomi : 
- \* Quadro ST Sezione IV :  Imposta sostitutiva di cui agli artt. 6.e 7 del D.Lgs. 21/11/97 n.461    e altre imposte sostitutive applicate
+Per quanto riguarda la trasmissione dati 770 dal 2017 relativi ai dati 2016 ci sono delle nuove sezioni che però non sono state gestite in quanto non interessano i dati relaviti a lavoratori autonomi : 
+ \* Quadro ST Sezione IV :  Imposta sostitutiva di cui agli artt. 6.e 7 del D.Lgs. 21/11/97 n.461    e altre imposte sostitutive applicate.
  \* Quadro DI :  Dichiarazione integrativa.

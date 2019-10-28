@@ -263,13 +263,13 @@ devono essere applicate temporaneamenute, permanentemenute o superate.
 Dopo essersi assicurati che il file QGPL/QAPZCOVER non contenga dei membri (se ne contiene eventualmenute rinominarlo come old), restorizzare i seguenti oggetti nella libreria QGPL con : 
 RSTOBJ OBJ(\*ALL) SAVLÌB(QGPL) DEV(TAPxx)
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*se non funziona... farlo una ad una
+- \*\*\*\*\*\*\*\*\*\*\*\*\*se non funziona... farlo una ad una
 >	RSTOBJ OBJ(
 	QAPZCOVER
 	QSF54003
 	........
 	QMF23628) SAVLÌB(QGPL) DEV(TAPxx)
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*
 Caricare le PTF con il comando : 
 LODPTF LÌCPGM       > 5769999
        DEV            \*SERVÌCE
@@ -279,13 +279,13 @@ LODPTF LÌCPGM       > 5769999
 	LODPTF LÌCPGM       > 5769SS1
 	DEV            \*SERVÌCE
 	SELECT       > SFxxxxx
-\*\*\*\*\*\*\*\*\*\*se non funzionasse con \*SERVÌCE (....) è necessario caricare le PTF una ad una....
+- \*\*\*\*\*\*\*\*\*se non funzionasse con \*SERVÌCE (....) è necessario caricare le PTF una ad una....
 	LODPTF LÌCPGM       > 5769999
 	DEV            \*SAVF
 	SELECT       > MFxxxxx
 	SAVF           QMFxxxxx
 	QGPL
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*
 APYPTF LÌCPGM       > 5769999
 	RLS            \*ONLY
 	SELECT       > MFxxxxx

@@ -6,20 +6,20 @@ La continuazione della lettura del seguente documento risulta necessaria solo se
 # Termini del problema
 Esistono sostanzialmente due modi per attribuire una voce di spesa (elemento di V5S) ad un documento e queste due modalità possono coesistere in un' installazione di smeup.
 
-\* Scrivendolo direttamente il codice spesa V5S sul documento
-\* Attribuendo dinamicamente il codice spesa al documento.
+-  Scrivendolo direttamente il codice spesa V5S sul documento
+-  Attribuendo dinamicamente il codice spesa al documento.
 In entrambi i casi il cambio dell'aliquota da applicare alla spesa (all'interno della tabella V5S) impatta su tutti i documenti esistenti se l'aliquota  al 20 è stata appunto fissata all'interno dell'elemento della V5S . Di seguito descriviamo come intervenire per la sistemazione di questo problema.
 
 CASO 1 : 
 Innanzitutto verificare se questo caso si presenta nella propria installazione di Smeup. Per farlo occorre controllare se sono valorizzati i campi T§SPIM, T§SPTR, T§SPBO, T§SPIN  dell'archivio testate documenti (V5TDOC0F) con elementi della V5S che hanno fissato un assoggettametno ad aliquota 20.  Se l'intervento si rende necessario si consiglia di procedere in questo modo : 
-\* Creare dei nuovi elementi della V5S che corrispondano ai vecchi, mantenendo per essi l'assoggettamento al 20%, e tenendo traccia della corrispondenza fra di essi.
-\* Attribuire l'assoggettamento 21% ai vecchi elementi.
-\* Applicare un aggiornamento delle testate di documento che devono mantenere l'assoggettamento al 20% sostituendo i vecchi codici con i nuovi codici V5S appena creati.
+-  Creare dei nuovi elementi della V5S che corrispondano ai vecchi, mantenendo per essi l'assoggettamento al 20%, e tenendo traccia della corrispondenza fra di essi.
+-  Attribuire l'assoggettamento 21% ai vecchi elementi.
+-  Applicare un aggiornamento delle testate di documento che devono mantenere l'assoggettamento al 20% sostituendo i vecchi codici con i nuovi codici V5S appena creati.
 
 CASO 2 : 
 Innanzitutto verificare se questo caso si presenta nella propria installazione di Smeup. Per farlo occorre : 
-\* Controllare gli elementi delle tabelle V5D e l'elemento della tabella V51. Sulla tabella V5D verificare se sono utilizzati elementi di V5S nei campi Maggiorazione/Sconti (Ma/Sc 1,2,3,4,5) aventi fissato un assoggettamento al 20.
-\* In tabella V51 verificare se sono valorizzati i campi "Cod.sconto finanz." e/o "Cod.spese di incasso" sempre con assoggettamento al 20.
+-  Controllare gli elementi delle tabelle V5D e l'elemento della tabella V51. Sulla tabella V5D verificare se sono utilizzati elementi di V5S nei campi Maggiorazione/Sconti (Ma/Sc 1,2,3,4,5) aventi fissato un assoggettamento al 20.
+-  In tabella V51 verificare se sono valorizzati i campi "Cod.sconto finanz." e/o "Cod.spese di incasso" sempre con assoggettamento al 20.
 
 Se l'intervento si rende necessario si consiglia di procedere apportando al pgm V5V5F0 nella routine CALSPE una personalizzazione, tale per cui, la sostituzione degli assoggettamenti IVA  20/21 venga applicata direttamente dal pgm sulla base della data del documento in oggetto.
 

@@ -143,5 +143,5 @@ Sulle singole rate sono invece disponibili le seguenti opzioni :
  \* _2_S - scollega pagato :  questa opzione scollega la rata di pagato collegata ad una di dovuto.
  \* _2_16 - Scontabilizza emissione effetto :  permette di cancellare la registrazione di contabilizzazione dell'effetto nel portafoglio effetti aziendale, ovviamente prima che sia stata fatta la distinta.
  \* _2_SR - Scadenzario residuo :  permette di aprire lo scadenziario residuo relativo a quel soggetto.
-- [Opzioni interrogazioni clienti (Partit, Scad.](Sorgenti/OJ/PGM/C5NO00G)
+- [Opzioni interrogazioni clienti (Partit, Scad.)](Sorgenti/OJ/PGM/C5NO00G)
 

@@ -15,20 +15,20 @@ tra i microservices all'interno del framework SG. Il contenuto di questa sezione
 abbastanza tecnico e può essere tralasciato in una prima lettura del documento
 senza che la cosa si ripercuota sulla comprensione dei paragrafi successivi.
 I punti salienti del meccanismo di comunicazione sono i seguenti : 
-\* La comunicazione tra i singoli microservice si basa su chiamate REST su protocollo HTTP (righe rosse nella figura successiva)
-\* La comunicazione si basa sullo scambio di messaggi contenenti una serie di informazioni predefinite : 
-\*\* Chi ha originato il messaggio
-\*\* Una chiave di routing che permette ad eventuali ascoltatori di identificare il messaggio
-\*\* Un campo payload che trasporta le informazioni
-\* Il meccanismo di comunicazione di basa su un pattern di tipo observer. Il messaggio di suo non ha un destinatario predefinito ma è marcato con una chiave di routing. Le entità interessate alla ricezione dei messaggi si registrano sul sistema come ascoltatori dichiarando la tipologia di messaggi a cui sono interessate. Con questo meccanismo lo stesso messaggio può essere ricevuto contemporaneamente da più osservatori.
+-  La comunicazione tra i singoli microservice si basa su chiamate REST su protocollo HTTP (righe rosse nella figura successiva)
+-  La comunicazione si basa sullo scambio di messaggi contenenti una serie di informazioni predefinite : 
+- \* Chi ha originato il messaggio
+- \* Una chiave di routing che permette ad eventuali ascoltatori di identificare il messaggio
+- \* Un campo payload che trasporta le informazioni
+-  Il meccanismo di comunicazione di basa su un pattern di tipo observer. Il messaggio di suo non ha un destinatario predefinito ma è marcato con una chiave di routing. Le entità interessate alla ricezione dei messaggi si registrano sul sistema come ascoltatori dichiarando la tipologia di messaggi a cui sono interessate. Con questo meccanismo lo stesso messaggio può essere ricevuto contemporaneamente da più osservatori.
 
 ## I microservice base del framework SG
 Come già detto in precedenza, per poter funzionare correttamente, il framework SG richiede che siano attivi una serie di microservizi di base. In questo paragrafo riprendiamo la figura già vista in precedenza e andiamo ora a descrivere in dettaglio i singoli microservice che compongono il framework, spiegando brevemente la loro funzione : 
 
 **1. gtw-hub** (livello 1) :  è il cuore del framework SG e il motore che consente il funzionamento del sistema. Questo microservice ha varie funzioni : 
-\* Mantiene il registro dei microservices attivi sul framework;
-\* Si occupa dell'instradamento dei messaggi scambiati tra i microservices su canale HTTP. Come già visto, il motore di instradamento utilizza per il suo funzionamento i channel di RabbitMQ;
-\* Implementa i servizi di interrogazione sullo stato del sistema;
+-  Mantiene il registro dei microservices attivi sul framework;
+-  Si occupa dell'instradamento dei messaggi scambiati tra i microservices su canale HTTP. Come già visto, il motore di instradamento utilizza per il suo funzionamento i channel di RabbitMQ;
+-  Implementa i servizi di interrogazione sullo stato del sistema;
 **2. gtw-logger** (livello 2) :  fornisce un servizio di log centralizzato. Tutti i microservices attivi nel framework utilizzano questo servizio per generare log di tipo informativo e di segnalazione degli errori. I file di log prodotti sono
 salvato in una directory specifica e sono diversificati in funzione del microservice a cui si riferiscono. Alcuni microservice possono generare più file di log.
 

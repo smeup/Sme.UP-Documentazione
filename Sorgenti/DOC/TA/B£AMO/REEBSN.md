@@ -1,4 +1,4 @@
-- [Web form (e-mail mkt](Sorgenti/DOC/TA/B£AMO/REEBSN_01)
+- [Web form (e-mail mkt)](Sorgenti/DOC/TA/B£AMO/REEBSN_01)
 - [Lead da sito web](Sorgenti/DOC/TA/B£AMO/REEBSN_02)
 - [Registrazione eventi](Sorgenti/DOC/TA/B£AMO/REEBSN_03)
 - [Integrazione e-shop](Sorgenti/DOC/TA/B£AMO/REEBSN_04)

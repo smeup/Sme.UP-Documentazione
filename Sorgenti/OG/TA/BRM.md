@@ -54,5 +54,6 @@ contemporaneo (iniziano e finiscono nello stesso istante). Può essere impostato
 risorse di questo tipo sono multipostazione.
  :  : FLD T$BRMQ **Multipostazione**
 Va impostato se le risorse di questo tipo hanno più di una postazione (tra di loro indistinguibili),
-ciascuna delle quali può lavorare (in modo asincrono rispetto alle altre) un impegno diverso.
+Se vale '1' le postazioni sono di esecuzione (multipostazione parallelo)
+Se vale '2' le postazioni sono di alimentazione (multipallet)
 Il numero di postazioni va impostato a livello della singola risorsa.

@@ -49,8 +49,8 @@ N.A.
 
 ## Programmi di controllo
 E' possibile impostare in tabella P5S il suffisso x di un programma di aggiustamento, che può modificare il contenuto del record prima della scrittura : 
-\* per gli ordini di produzione non gestiti a MFP, i contenitori PCD, le righe documento e gli ordini pianificati :  S5FURIT_x
-\* per gli ordini di produzione gestiti a MFP :  S5FURIF_x
+-  per gli ordini di produzione non gestiti a MFP, i contenitori PCD, le righe documento e gli ordini pianificati :  S5FURIT_x
+-  per gli ordini di produzione gestiti a MFP :  S5FURIF_x
 
 E' possibile impostare, sempre in tabella P5S, il suffisso x di un programma di aggiustamento S5FASIR_x, che permette di ripristinare campi del record tra una rifasatura e l'altra.
 Riferirsi al programma

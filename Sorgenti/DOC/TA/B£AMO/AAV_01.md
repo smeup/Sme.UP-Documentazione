@@ -103,7 +103,7 @@ Vedi gestione offerte
 
 ### Piano di fatturazione (SAL)
  \* Modalità di pagamento / rate estemporanee
-\* .Avanzamento lavori per data/evento
+-  .Avanzamento lavori per data/evento
 
 **Esempi**
 - [Piani di pagamento variabili](Sorgenti/DOC/TA/B£AMO/AAV_01_07)

@@ -14,9 +14,9 @@ Il video è un oggetto (MB   DOC_VID) cui è associato un documento che ne descr
 # Convenzioni
 Per quanto riguarda la denominazione da attribuire al video abbiamo la seguente codifica : 
 mmmmmm_ann dove : 
-\* - mmmmmm Modulo
-\* - a      Gruppo, rappresenta il tipo di video :  C = Commerciale, P = Operativo, T = Tecnico, ..
-\* - nn     Progressivo
+-  - mmmmmm Modulo
+-  - a      Gruppo, rappresenta il tipo di video :  C = Commerciale, P = Operativo, T = Tecnico, ..
+-  - nn     Progressivo
 Es. A£LABS modulo C gruppo e 01 il progressivo, otteniamo la denominazione A£LABS_C01.
 
 ## Regole generiche

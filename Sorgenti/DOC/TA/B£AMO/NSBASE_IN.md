@@ -156,7 +156,9 @@ I parametri del file di configurazione coinvolti nelle impostazioni relative all
 - SMTPAuth=SI ; Abilitazione dell'autenticazione per SMTP
 - SMTPAuthUser= xxxxxxxx ; Utente di autenticazione fornito dal provider dell'account di Posta Elettronica Certificata
 - SMTPAuthPassword=yyyyyyyy ; Password fornita dal provider dell'account di Posta Elettronica Certificata
-- SecureSMTP= SI; (NUOVO PARAMETRO)
+- SecureSMTP= SI;
+- TLS=NO ; SI per abilitare TSL
+- TLSVersion=; (valore TLSv1.2 per portarlo a TLS 1.2)
 
 **ATTENZIONE** :  il parametro SecureSMTP è nuovo, quindi non presente in file Configurazione.cfg precedenti al 4 dicembre 2010.
 
@@ -178,6 +180,8 @@ I parametri del file di configurazione coinvolti nelle impostazioni relative all
 - SMTPDebug= NO; Attivo se DEBUG, disattivo altrimenti
 - MailDomain=gmail.com ;
 - SecureSMTP= SI
+- TLS=NO ; SI per abilitare TSL
+- TLSVersion=; (valore TLSv1.2 per portarlo a TLS 1.2)
 
 **ATTENZIONE** :  il parametro SecureSMTP è nuovo, quindi non presente in file Configurazione.cfg precedenti al 4 dicembre 2010.
 
@@ -199,6 +203,7 @@ I parametri del file di configurazione coinvolti nelle impostazioni relative all
 - MailDomain=acme.com ;
 - SecureSMTP= NO;
 - TLS=SI;
+- TLSVersion=; (valore TLSv1.2 per portarlo a TLS 1.2)
 
 **ATTENZIONE** :  il parametro SecureSMTP è nuovo, quindi non presente in file Configurazione.cfg precedenti al 4 dicembre 2010.
 

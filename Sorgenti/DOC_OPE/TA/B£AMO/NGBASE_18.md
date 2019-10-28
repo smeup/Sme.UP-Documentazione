@@ -114,14 +114,14 @@ _Dal Menu>Principale>Fidelity Card _si accede a tutta la gestione Fidelity e all
  \*\* Stampa Anagrafica Fidelity Card
  \*\* Stampa Tessere Fidelity
 
-\* Movimenti
+-  Movimenti
 
  \*\* Movimenti Fidelity Card
  \*\* Stampa Movimenti Fidelity Card
  \*\* Visualizza Punti Fidelity
  \*\* Visualizza Movimenti di Magazzino per Codice Tessera
 
-\* Utilità
+-  Utilità
 
  \*\* Rinnovo Data Scadenza Tessere
  \*\* Sostituzione Tessera

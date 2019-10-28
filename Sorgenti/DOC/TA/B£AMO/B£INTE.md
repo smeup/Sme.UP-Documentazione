@@ -18,6 +18,6 @@ Diremo che esistono le interfacce per un ambiente se sono state scritti i progra
 Se una funzione nell'ambiente "xx" emette un formato video, questo non funziona in LOOC.up poichè dovrei disporre del sorgente e ricompilarlo ma non è fra gli obiettivi di LOOC.up eseguire tutti i programmi di tutti gli ambienti. SURF.up è pensato per un accesso diretto ai dati a prescindere dalle interfacce. Si veda a tal fine la documentazione di SURF.up
 
 # Dettaglio degli ambienti
-- [Interfacce ACG&-x2f;V7 (IBM](Sorgenti/DOC/TA/B£AMO/B£INTE_IA7)
-- [Interfacce ACG&-x2f;V8 (IBM](Sorgenti/DOC/TA/B£AMO/B£INTE_IA8)
-- [Interfacce Gipros (THERA](Sorgenti/DOC/TA/B£AMO/B£INTE_IG6)
+- [Interfacce ACG/V7 (IBM)](Sorgenti/DOC/TA/B£AMO/B£INTE_IA7)
+- [Interfacce ACG/V8 (IBM)](Sorgenti/DOC/TA/B£AMO/B£INTE_IA8)
+- [Interfacce Gipros (THERA)](Sorgenti/DOC/TA/B£AMO/B£INTE_IG6)

@@ -112,7 +112,7 @@ Le variabili istanziate dipendono dal componente. Vedi capitolo "Variabili e din
 
 Queste variabili non vengono create nel caso di evento "Return"
 
-- [Servizi correlati](Sorgenti/DOC/TA/B£AMO/LOCEXD_B)
+- [Come si costruisce una scheda](Sorgenti/DOC/TA/B£AMO/LOCEXD_B)
 
 Obbligatorio = NO
 Default = Nullo

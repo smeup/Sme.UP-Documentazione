@@ -16,9 +16,9 @@ Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere 
  \* Impostazioni generali : permette di definire le impostazioni della stampa e visualizzare o meno a inizio stampa la pagina delle impostazioni.
 
 ### Tasti funzionali
-\* F06 Conferma. Conferma l'esecuzione della funzione
-\* F11 Parametri esecuzione. Permette di definire i parametri di lancio della stampa
-\* F17 Impostazioni. Permette di accedere alla schermata delle impostazioni.
+-  F06 Conferma. Conferma l'esecuzione della funzione
+-  F11 Parametri esecuzione. Permette di definire i parametri di lancio della stampa
+-  F17 Impostazioni. Permette di accedere alla schermata delle impostazioni.
 
 ## Output
 La stampa prodotta attraverso questa funzione avrà il seguente aspetto : 

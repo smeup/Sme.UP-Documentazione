@@ -4,14 +4,14 @@
 
 ## Tipologie di servizi
 I servizi configurabili all'interno per l'applicazione si possono distinguere nelle seguenti tipologie : 
-\* CommandProvider
-\* Executor
-\* Hook
-\* Registry
-\* RegistryEntry
-\* ResourceListener
-\* ResourceProvider
-\* Tester
+-  CommandProvider
+-  Executor
+-  Hook
+-  Registry
+-  RegistryEntry
+-  ResourceListener
+-  ResourceProvider
+-  Tester
 
 ### CommandProvider
 

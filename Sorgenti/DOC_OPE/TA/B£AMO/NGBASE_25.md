@@ -11,7 +11,7 @@ Dal Menu _Principale>Anagrafiche di Base>Gestione Anagrafica Articoli_ premiamo 
 Vediamo ora il significato dei vari campi
 ### Campi standard
  1° scheda
-\* Descrizione :  la descrizione dell'articolo
+-  Descrizione :  la descrizione dell'articolo
  \* Descrizione scontrino :  non utilizzata
  \* 1°, 2°, 3° Classificazione :  tre categorie merceologiche dell'articolo. Le categorie sono gerarchiche, ovvero il valore della prima Classificazione determina un sottoinsieme selezionabile delle voci della 2° Classificazione che a sua volta permette di selezionare solo alcune voci della 3°. I valori delle classificazioni vanno inseriti preventivamente nella tabella Classi Merceologiche CLAM.
  \* Marchio :  il Marchio dell'articolo. Il valore va selezionato tra quelli inseriti nella tabella Marchi MARC.
@@ -70,10 +70,10 @@ Il tasto F4 Elimina un codice a barre, a patto che non sia stato già utilizzato
  \* 05 Articoli esterni :  sezione in cui inserire il codice che il fornitore (o i fornitori) utilizza per l'articolo.
 E' possibile inserire più codici differenti. Se attivata la gestione Taglia/Colore e l'articolo è stato già esploso in Taglia e Colore, è possibile inserire codici relativi all'articolo (cioè senza riferimenti a taglia e colore) oppure codici che fanno specificatamente riferimento a un singola combinazione di Taglia e Colore. Negli altri casi invece il codice inserito si riferisce direttamente all'articolo. I codici inseriti in questa sezione vengono utilizzati dal sistema nelle ricerche per barcode. Premendo F6 Inserisci viene richiesto : 
  \*\* Codice Taglia/Codice Colore :  visualizzati se attivata la gestione Taglia/Colore
-\*\* Fornitore :  il fornitore che utilizza il codice che si sta inserendo. Opzionale
-\*\* Codice :  Il codice utilizzato dal fornitore. Alfanumerico, fino a 50 caratteri. Il sistema utilizzerà questo codice per la ricerca.
-\*\* Codice Colore/Taglia Esterno :  i codici Colore e Taglia utilizzati dal fornitore esterno
-\*\* Codice Fornitore Esterno :  \*\*\*\*\*\*\*\*\*\*\*\*
+- \* Fornitore :  il fornitore che utilizza il codice che si sta inserendo. Opzionale
+- \* Codice :  Il codice utilizzato dal fornitore. Alfanumerico, fino a 50 caratteri. Il sistema utilizzerà questo codice per la ricerca.
+- \* Codice Colore/Taglia Esterno :  i codici Colore e Taglia utilizzati dal fornitore esterno
+- \* Codice Fornitore Esterno :  \*\*\*\*\*\*\*\*\*\*\*\*
 
 
  \* 06 Codici statistici :  Serie di dati aggiuntivi legati a attributi di tipo statistico inseriti nella tabella Titoli Statistici STAT e Codici Statistici STAC. STAT va compilata con la tipologia di attributi che si intende dare agli articoli e STAC con i valori di ogni tipologia.
@@ -86,7 +86,7 @@ Ad esempio potremmo avere :
 Il sistema propone quindi il campo GENERE che compilo con D o U e il campo TARGET dove posso inserisco N, R o A.
 Le tipologie disponibili sono 10 contrassegnate dai numeri da 0 a 9, i valori non hanno limitazioni.
 
-\* 07 Parametri Alimentari :  Utilità>Configurazione >Gestione Configurazione Applicativa, 02 Articoli, scheda Articoli :  Gestione Alimentare=SI
+-  07 Parametri Alimentari :  Utilità>Configurazione >Gestione Configurazione Applicativa, 02 Articoli, scheda Articoli :  Gestione Alimentare=SI
 
  \* 08 Listini d'Acquisto :  nel caso in cui l'articolo sia acquistato da fornitori differenti, è possibile inserire qui la lista. Premendo il tasto F6 viene proposta la maschera i cui inserire : 
 

@@ -80,9 +80,9 @@ A differenza delle API non necessita la preparazione di componenti aggiuntivi.
 Attraverso il menu dello Unit Test è possibile gestire lo script degli Unit Test
 Qui verrà definita la F di esecuzione, all'inserimento verrà eseguita la F e memorizzato il risultato per le sucessive operazioni di confronto, è data la possibilità di rigenerare l'immagine all'occorrenza
 l'oggetto può essere derivato attraverso le seguenti keyword : 
-\*LAST - Viene mantenuto il valore precedente
-\*RND - Viene generato un codice randon utilizzando l'oggettivazione del campo stesso
-\*RND.xxx - Viene generato un codice randon utilizzando l'oggettivazione descritto dopo il "."
+- LAST - Viene mantenuto il valore precedente
+- RND - Viene generato un codice randon utilizzando l'oggettivazione del campo stesso
+- RND.xxx - Viene generato un codice randon utilizzando l'oggettivazione descritto dopo il "."
 
  :  : T04 Esecuzione
 Attraverso il menu dello Unit Test è possibile eseguire lo script degli Unit Test.

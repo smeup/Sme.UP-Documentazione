@@ -3,8 +3,8 @@ Costruire un dashboard attraverso uno script di configurazione.
 
 ## Descrizione
 Il dasboard è una rappresentazione grafica strutturata in : 
-\* 9 righe
-\* 12 Colonne
+-  9 righe
+-  12 Colonne
 Un qualsiasi componente può essere inserito nel dashboard.
 L'esplosione dello script non deve superare le 299 righe.
 
@@ -66,37 +66,37 @@ Il setup del dash dipende dal componete utilizzato, fare riferimento ai vari com
 Se non definito viene istanziato un setup di default con il parent "DAS.001"
 
 Elenco dei componenti supportati : 
-\* ACC Accordion
-\* BTN Bottoniera
-\* BOX BoxList (SV)
-\* CAL Calendario
-\* CAM Camera
-\* CDE Code editor
-\* CHA Grafico
-\* DEV Device
-\* GAU Cruscotto
-\* GNT Gantt
-\* HTM HTML/Browser
-\* IMG Immagine
-\* IML Lista immagini
-\* INP Pannello di Input
-\* LAB Label
-\* MAT Matrice
-\* MIN Mind Map
-\* MSG Messaggio
-\* OCX Controllo ActiveX
-\* OGN Organigramma
-\* OUT Pannello di Output
-\* PDF Pdf Viewer
-\* PRW Preview
-\* TMP TreeMap
-\* SCH Scheda
-\* SEM Semaforo
-\* SHE SpreadSheet
-\* SPL Spotlight
-\* TRE Albero
-\* TXT Testo
-\* TCL Tag Cloud
+-  ACC Accordion
+-  BTN Bottoniera
+-  BOX BoxList (SV)
+-  CAL Calendario
+-  CAM Camera
+-  CDE Code editor
+-  CHA Grafico
+-  DEV Device
+-  GAU Cruscotto
+-  GNT Gantt
+-  HTM HTML/Browser
+-  IMG Immagine
+-  IML Lista immagini
+-  INP Pannello di Input
+-  LAB Label
+-  MAT Matrice
+-  MIN Mind Map
+-  MSG Messaggio
+-  OCX Controllo ActiveX
+-  OGN Organigramma
+-  OUT Pannello di Output
+-  PDF Pdf Viewer
+-  PRW Preview
+-  TMP TreeMap
+-  SCH Scheda
+-  SEM Semaforo
+-  SHE SpreadSheet
+-  SPL Spotlight
+-  TRE Albero
+-  TXT Testo
+-  TCL Tag Cloud
 
 ### DAS.DIN Dinamismo del dash
 Il dinamismo si occupa di informare altri dash di eventuali cambiamenti e di invocare altre funzioni specifiche relative al dash.
@@ -149,9 +149,9 @@ E|Emissione|Indica il tipo di report da richiamare
 
 
 Elenco dei tipi di emissione disponibili : 
-\* Matrice
-\* Drill Down
-\* Report
-\* Foglio di lavoro
-\* Analisi di pareto
-\* Analisi tabellare
+-  Matrice
+-  Drill Down
+-  Report
+-  Foglio di lavoro
+-  Analisi di pareto
+-  Analisi tabellare

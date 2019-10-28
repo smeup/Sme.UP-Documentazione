@@ -8,13 +8,13 @@ Il processo di aggiornamento di Loocup viene gestito dal software __SmeupGO__ tr
 ![LOSMEG_001](http://localhost:3000/immagini/LOSMEG_001/LOSMEG_001.png)
 ## Logica di funzionamento
 La procudera di aggiornamento comprede delle fasi distinte : 
-\* verifica
-\* download
-\* installazione
+-  verifica
+-  download
+-  installazione
 ### Verifica
 Nella cartella di installazione di Loocup sono presenti due file che contengono le informazioni necessarie a capire lo stato dell'installazione : 
-\* **version.info**  :  che identifica la versione <VersionNumber> in uso di Loocup (es :  V4R1M150315)
-\* **update.info**  :  che identifica l'ultimo update eseguito
+-  **version.info**  :  che identifica la versione <VersionNumber> in uso di Loocup (es :  V4R1M150315)
+-  **update.info**  :  che identifica l'ultimo update eseguito
 I dati di versione vengono inviati al provider per avere in risposta il file update.info relativo al pacchetto di upgrade di uno specifico Loocup installato.
 
 Le informazioni di tale file vengono confrontati con quelli presenti nel file di installazione per capire se è disponibile un nuovo aggiornamento per la versione in uso.
@@ -89,9 +89,9 @@ _7_Attenzione! Essendo silenziati i messaggi di errore, devono essere analizzati
 
 
 ## Note
-\* Le operazioni di aggiornamento coinvolgono di software; nella barra di stato di SmeupGO viene indicata la versione di ognuna di essi. Questa è un'informazione importante nel caso debbano essere fatte delle segnalazioni.
-![LOSMEG_006](http://localhost:3000/immagini/LOSMEG_001/LOSMEG_006.png)\* Il processo di upgrade, aggiorna una sola installazione di Loocup. Se sono installate più istanze di Loocup verrà eseguito l'upgrade all'avvio del relativo SmeupGO.
-\*\* Caso limite :  se vengono eseguiti contemporaneamente più SmeupGO, ognuno considererà il processo di upgrade come se fosse relativo a se stesso. L'aggiornamento effettivo riguarderà lo SmeupGO a cui verrà confermato per primo l'esecuzione dell'installazione dell'upgrade e che ha la stessa versione del pacchetto scaricato.
+-  Le operazioni di aggiornamento coinvolgono di software; nella barra di stato di SmeupGO viene indicata la versione di ognuna di essi. Questa è un'informazione importante nel caso debbano essere fatte delle segnalazioni.
+![LOSMEG_006](http://localhost:3000/immagini/LOSMEG_001/LOSMEG_006.png)-  Il processo di upgrade, aggiorna una sola installazione di Loocup. Se sono installate più istanze di Loocup verrà eseguito l'upgrade all'avvio del relativo SmeupGO.
+- \* Caso limite :  se vengono eseguiti contemporaneamente più SmeupGO, ognuno considererà il processo di upgrade come se fosse relativo a se stesso. L'aggiornamento effettivo riguarderà lo SmeupGO a cui verrà confermato per primo l'esecuzione dell'installazione dell'upgrade e che ha la stessa versione del pacchetto scaricato.
 
 
 

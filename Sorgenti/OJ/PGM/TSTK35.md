@@ -220,8 +220,8 @@ La funzione di "Trasferimento collo" esegue i movimenti di trasferimento della g
 La funzione di "Svuotamento collo" esegue il movimento di scarico del collo dalla giacenza origine.
 E se richiesto il carico in una giacenza destinazione (non per collo).
 Lo svuotamento può essere : 
-\* parziale :  se viene indicata una quantità;
-\* totale :  se NON viene indicata una quantità (assume l'intera quantità in giacenza).
+-  parziale :  se viene indicata una quantità;
+-  totale :  se NON viene indicata una quantità (assume l'intera quantità in giacenza).
 ### Tabella "GNK"
  \* Tipo azione :  "24"
  \* Causale origine (Obbligatoria)

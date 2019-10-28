@@ -8,33 +8,33 @@ Nel campo "Data inizio" e "Data fine" è possibile selezionare il periodo, nel c
 L'ordinamento è temporale discendente, dal log più recente al più vecchio.
 E' un servizio paginato e vengono mostrati 100 record alla volta.
 Queste le informaizoni mostrate
-\* Tipo record :  identifica la tipologia delle informazioni loggate (S-FUN di richeista servizio / C-Program Call o FUN di Comunicazione / D-Dettaglio di altra chiamata / X - Non riconosciuto)
-\* Lavoro / Utente (di sistema) / Numero sessione
-\* Ambiente
-\* Utente applicativo
-\* Device
-\* Dettagli dell'informazione loggata (dipende dal tipo record)
-\*\* Per FUN :  Servizio / componente / funzione.metodo
-\*\* Per le Program Call :  £JACMS / £JACFU / £JACME
-\* Data / Ora evento (dati di ricezione-inizio della FUN / Program Call)
-\* Data / Ora ultima operazione (dati di completamento operazione)
-\* Programma che riceve la FUN / Program Call
-\* Master :  codice che raggruppa tutti i record di un'unica sessione (sia FUN che Program Call)
-\* ID Sessione :  Id sessione di JOB
-\* JOB sottomettente :  ID del JOB che ha effettuato la sottimissione del record a cui fa riferimento il log
-\* Tipo Azione :  più dettagliato rispetto a "tipo record" : 
-\*\* FUN :  esecuzione FUN
-\*\* DET :  Dettagli di altra chiamata
-\*\* COL :  FUN di collegamento
-\*\* JA :  Program Call
-\*\* PNG :  ping
-\* Timestamp :  istante di ricevimento
-\* Durata in ms
-\* Durata significativa :  Se flaggato significa che la durata indicata è stata correttamente calcolata
-\* Versione Log :  versione con cui è salvato il log
-\* Errore :  il record si riferisce ad una condizione di errore
-\* Utente QUSER :  l'utente di sistema effettivo è QUSER
-\* Campo libero :  ulteriori dettagli. Nel caso delle FUN contiene la FUN ricevuta
+-  Tipo record :  identifica la tipologia delle informazioni loggate (S-FUN di richeista servizio / C-Program Call o FUN di Comunicazione / D-Dettaglio di altra chiamata / X - Non riconosciuto)
+-  Lavoro / Utente (di sistema) / Numero sessione
+-  Ambiente
+-  Utente applicativo
+-  Device
+-  Dettagli dell'informazione loggata (dipende dal tipo record)
+- \* Per FUN :  Servizio / componente / funzione.metodo
+- \* Per le Program Call :  £JACMS / £JACFU / £JACME
+-  Data / Ora evento (dati di ricezione-inizio della FUN / Program Call)
+-  Data / Ora ultima operazione (dati di completamento operazione)
+-  Programma che riceve la FUN / Program Call
+-  Master :  codice che raggruppa tutti i record di un'unica sessione (sia FUN che Program Call)
+-  ID Sessione :  Id sessione di JOB
+-  JOB sottomettente :  ID del JOB che ha effettuato la sottimissione del record a cui fa riferimento il log
+-  Tipo Azione :  più dettagliato rispetto a "tipo record" : 
+- \* FUN :  esecuzione FUN
+- \* DET :  Dettagli di altra chiamata
+- \* COL :  FUN di collegamento
+- \* JA :  Program Call
+- \* PNG :  ping
+-  Timestamp :  istante di ricevimento
+-  Durata in ms
+-  Durata significativa :  Se flaggato significa che la durata indicata è stata correttamente calcolata
+-  Versione Log :  versione con cui è salvato il log
+-  Errore :  il record si riferisce ad una condizione di errore
+-  Utente QUSER :  l'utente di sistema effettivo è QUSER
+-  Campo libero :  ulteriori dettagli. Nel caso delle FUN contiene la FUN ricevuta
 
 # Actions
 ## Eliminazione completa log utente

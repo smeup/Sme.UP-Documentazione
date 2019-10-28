@@ -10,12 +10,12 @@ La documentazione è prodotta quindi in tutti questi formati :
 
 Un esempio signficativo sono i modelli dinamici :  informazioni contenute negli archivi delle relazioni, ricostruiti automaticamente e che rappresentano la il modello di customizzazione realizzato.
 Altra documentazione "dinamica" è rappresentata da.
-\* _2_TST di API
-\* _2_Set and Play
+-  _2_TST di API
+-  _2_Set and Play
 
 ## Destinatari della documentazione
  I singoli elementi di documentazione sono rivolti ad una o più delle seguenti figure professionali : 
-\* _2_PER CHI VENDE. Personale commerciale, o comunque chi è interessato ad una visione generale dei prodotti
-\* _2_PER CHI SVILUPPA. Personale che realizza le applicazioni
-\* _2_PER CHI INSTALLA. Utente installatore, che imposta l'utilizzo del sistema per l'utente finale. Tecnico installatore, che imposta il funzionamento generale del sistema, realizza le exit, ecc.., oltre a svolgere i compiti dell'utente installatore.
-\* _2_PER CHI UTILIZZA. Utente finale, che utilizza il sistema nel suo lavoro quotidiano
+-  _2_PER CHI VENDE. Personale commerciale, o comunque chi è interessato ad una visione generale dei prodotti
+-  _2_PER CHI SVILUPPA. Personale che realizza le applicazioni
+-  _2_PER CHI INSTALLA. Utente installatore, che imposta l'utilizzo del sistema per l'utente finale. Tecnico installatore, che imposta il funzionamento generale del sistema, realizza le exit, ecc.., oltre a svolgere i compiti dell'utente installatore.
+-  _2_PER CHI UTILIZZA. Utente finale, che utilizza il sistema nel suo lavoro quotidiano

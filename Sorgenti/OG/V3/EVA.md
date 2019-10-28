@@ -320,7 +320,7 @@ Assumiano di avere nell'oggetto 1 il cliente e di voler recuperare l'aggregazion
 - & CO.AG%I/T$ELEM "Utilizzo l'alias per accedere all'attributo dell'aggregazione"
 
 
-- [Variabili (Lato SERVER](Sorgenti/OG/V3/EVA_ES)
+- [Variabili (Lato SERVER) - Esempio](Sorgenti/OG/V3/EVA_ES)
 
 
 # Test/Simulazione

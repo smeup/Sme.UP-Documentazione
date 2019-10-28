@@ -12,20 +12,20 @@ _9_Esempio :  se si vuole legare un algoritmo all'azione (elemento) AZI001 della
 È anche possibile utilizzare l'algoritmo per cercare un oggetto necessario per il metodo \*CAO specificato nella tabella D5E (vedi help di questa tabella per approfondimenti). In questo caso al posto del tipo e parametro va scritto \*CAO (ex. AZI001_\*CAO).
  :  : FLD T$D5MA **Metodo**
 Specifica il metodo di ricerca dell'oggetto.
-\*IND :  utilizza un indice di distribuzione (tabella D5I).
-\*OAV :  lettura da OAV di uno degli oggetti riportati dal sistema conferente.
-\*PAR :  lettura da parametro di uno degli oggetti riportati dal sistema conferente.
-\*ASS :  l'oggetto viene direttamente specificato.
-\*INDDIN :  Come \*IND, ma l'indice da utilizzare viene restituito da un OAV.
-\*INDOAV :  Come \*IND, ma l'oggetto da passare all'indice è un OAV di uno degli oggetti riportati dal sistema conferente.
+- IND :  utilizza un indice di distribuzione (tabella D5I).
+- OAV :  lettura da OAV di uno degli oggetti riportati dal sistema conferente.
+- PAR :  lettura da parametro di uno degli oggetti riportati dal sistema conferente.
+- ASS :  l'oggetto viene direttamente specificato.
+- INDDIN :  Come \*IND, ma l'indice da utilizzare viene restituito da un OAV.
+- INDOAV :  Come \*IND, ma l'oggetto da passare all'indice è un OAV di uno degli oggetti riportati dal sistema conferente.
  :  : FLD T$D5MB **Parametro del metodo**
 _Metodo : _
-\*IND :  elemento della tabella D5I.
-\*OAV :  OAV di un oggetto.
-\*PAR :  1-3 categoria (C£E) del parametro. 4-6 parametro (B£N).
-\*ASS :  codice dell'oggetto.
-\*INDDIN :  OAV di un oggetto che deve restituire un elemento di D5I.
-\*INDOAV :  01-08  nome dell'indice (elemento della D5I). 09-10 tipo oggetto. 11-20 parametro. 21-30 OAV da applicare all'oggetto sopra specificato
+- IND :  elemento della tabella D5I.
+- OAV :  OAV di un oggetto.
+- PAR :  1-3 categoria (C£E) del parametro. 4-6 parametro (B£N).
+- ASS :  codice dell'oggetto.
+- INDDIN :  OAV di un oggetto che deve restituire un elemento di D5I.
+- INDOAV :  01-08  nome dell'indice (elemento della D5I). 09-10 tipo oggetto. 11-20 parametro. 21-30 OAV da applicare all'oggetto sopra specificato
  :  : FLD T$D5MC **Condizione**
 Specifica un eventuale condizionamento sull'esecuzione dell'algoritmo.
 - B :  l'algoritmo viene eseguito solo se il codice passato dal programma di ripresa da sistema conferente è \*BLANKS o è uguale a '\*\*' (codice generico).

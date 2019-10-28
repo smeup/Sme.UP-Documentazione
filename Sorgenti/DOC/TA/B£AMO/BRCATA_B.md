@@ -1,22 +1,22 @@
 ## Acquisizione del catalogo
 L'acuisizione del catalogo, vista la provenienza più disparata, verrà normalizzata utilizzano il modulo EDI e verrà applicato in automatico dopo l'acquisizione.
 Verranno resi disponibili alcuni driver di importazione solo a scopo esemplificativo riguardanti : 
-\* METEL
-\* ANGAISA
-\* ANIE
+-  METEL
+-  ANGAISA
+-  ANIE
 ## Metodo di ricerca
 La ricerca si attiverà attraverso un filtro statico, comune a tutti i cataloghi, così composto : 
-\* Tipo catalogo
-\* Marca
-\* Famiglia
-\* Descrizione
+-  Tipo catalogo
+-  Marca
+-  Famiglia
+-  Descrizione
 e da un filtro dinamico legato alle caratteristiche sopra definite
 ## Modalità applicative
 ### Importazione nel proprio S.I.
 Una volta identificato il prodotto all'interno del catalogo saranno rese disponibili le funzioni di generazione : 
-\* Anagrafica articolo
-\* Listino di acquisto
-\* Listino di vendita
+-  Anagrafica articolo
+-  Listino di acquisto
+-  Listino di vendita
 ### Riallineamento al nuovo catalogo
 Periodicamente i fornitori ritrasmetteranno il loro catalogo, durante l'acuisizione o a richiesta, le componenti già imporate nel proprio S.I. verranno riadeguate al nuovo catalogo.
 ### Gestione dei documenti

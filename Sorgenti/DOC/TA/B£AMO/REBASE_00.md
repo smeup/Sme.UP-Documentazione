@@ -41,14 +41,14 @@ I moduli del CRM sono :
 
 ## OGGETTI COINVOLTI
 Gli oggetti coinvolti nel CRM sono : 
-\* Account
-\* Referenti
-\* Campagne
-\* Operazioni di marketing
-\* Lead
-\* Opportunità
-\* Prodotti
-\* Attvità CRM
+-  Account
+-  Referenti
+-  Campagne
+-  Operazioni di marketing
+-  Lead
+-  Opportunità
+-  Prodotti
+-  Attvità CRM
 La gestione degli oggetti si basa sugli OAV.
 Pertanto è necessario verificare ed eventualmente ricostruirle tutti gli oav degli oggetti coinvolti. Vedi "PROCEDURA DI INSTALLAZIONE"
 
@@ -88,10 +88,10 @@ Le attività del CRM sono eventi di tipo "£C1".
 
 # STRUTTURA DI NAVIGAZIONE
 Ogni oggetto ha la seguente struttura di navigazione dal menù CRM
-\* Accesso
-\* Navigazione del molulo
-\* Ricerca libera
-\* Matrice dati
+-  Accesso
+-  Navigazione del molulo
+-  Ricerca libera
+-  Matrice dati
 
 ## RICERCA LIBERA £K41
 In questo paragrafo mettiamo un accenno alla K41. Si rimanda comunque alla documentazione specifica di questa COPY (che al momento non c'è)
@@ -99,17 +99,17 @@ La K41 si appoggia al componente grafico SPL = Spotlight (dove si può mettere d
 come si può vedere nella scheda di test della K41 (SCP_SCHESE/SMA_K41) dove ci sono alcuni esempi già compilati e la possibilità di fare i test
 
 La K41 permette di cerare un oggetto secondo tutti i suoi OAV. le regole principali sono :  (per gli esempi ipotizziamo di essere nella ricerca di un account "CNNOM")
-\* la prima parola che metto la considera descrizione dell'oggetto (Es :  Gnutti)
-\* posso per ogni oggetto impostare che cosa voglio cercare dopo la parola "di", nel caso degli account ricerca la provincia (Es :  Gnutti di Brescia)
-\* posso usare la parola "e" oppure la parola "con" per aggiungere tutte le proprietà (Es :  Gnutti di brescia con settore automotive e commerciale Poiatti e inserimento maggiore di 01012016)
-\* posso avere alcune proprietà sui numeri/date scrivendo maggiore di, minore di
+-  la prima parola che metto la considera descrizione dell'oggetto (Es :  Gnutti)
+-  posso per ogni oggetto impostare che cosa voglio cercare dopo la parola "di", nel caso degli account ricerca la provincia (Es :  Gnutti di Brescia)
+-  posso usare la parola "e" oppure la parola "con" per aggiungere tutte le proprietà (Es :  Gnutti di brescia con settore automotive e commerciale Poiatti e inserimento maggiore di 01012016)
+-  posso avere alcune proprietà sui numeri/date scrivendo maggiore di, minore di
 
 Nell'INPUT della funzione della K41 posso impostare alcuni campi : 
-\*StrTit()    =   Imposta la scritta che esce di fianco allo spotlight (es :  Opportunità attive di Corbetta)
-\*StrIni()    =   Imposta l'oggetto dello spotlight (es :  Opportunità)
-\*StrSuf     =   Aggiunge un suffisso "testuale" a quello che l'utente scrive (es :  con commerciale CORGIO) rimane invisibile all'utente
-\*StrWhe   =   Aggiunge un suffisso "SQL" a quello che l'utente scrive (funziona esattamente come l'StrSuf
-\*StrAll      =   Viene utilizzato per bypassare la richiesta tramite spotlight estraendo direttamente la matrice senza componente SPL
+- StrTit()    =   Imposta la scritta che esce di fianco allo spotlight (es :  Opportunità attive di Corbetta)
+- StrIni()    =   Imposta l'oggetto dello spotlight (es :  Opportunità)
+- StrSuf     =   Aggiunge un suffisso "testuale" a quello che l'utente scrive (es :  con commerciale CORGIO) rimane invisibile all'utente
+- StrWhe   =   Aggiunge un suffisso "SQL" a quello che l'utente scrive (funziona esattamente come l'StrSuf
+- StrAll      =   Viene utilizzato per bypassare la richiesta tramite spotlight estraendo direttamente la matrice senza componente SPL
 Di defualt la K41 è impostata per cercare solo gli oggetti con livello minore di 8
 
 Oltre a questa impostazione bisogna tenere in considerazione che la K41 si basa sull'impostazione di alcuni ALIAS che posso usare per avere diverse parole che rispondono ad un campo.
@@ -212,9 +212,9 @@ Per ogni oggetto è possibile utlizzare un proprio SCP_LAY impostando la tabella
 
 Per le attività sono stati definiti come defaulti oltre a tipo anche causale e categoria, nel
 seguenti modo
-\* "£E3£C1"+XXX, dove XXX è la causale (N§CAEV), risalita
-\* "£E3£C1"+YYY, dove YYY è la categoria (N§CTEV), risalita
-\* "£E3£C1
+-  "£E3£C1"+XXX, dove XXX è la causale (N§CAEV), risalita
+-  "£E3£C1"+YYY, dove YYY è la categoria (N§CTEV), risalita
+-  "£E3£C1
 Oltre all'SCP_LAY nella tabellea B£Q è possibile attivare un programma di exit sulla gestione dati,
 una sottoscheda di info nella gestione (Con posizione orizzontale o verticare e dimensioni).
 I proogrammi di exit sono relativi al programma standard di gestioen B£K89_XX dove XX è l'oggetto,

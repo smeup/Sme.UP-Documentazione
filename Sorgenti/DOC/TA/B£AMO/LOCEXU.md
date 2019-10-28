@@ -40,7 +40,7 @@ Gli esempi del componente EXU sono consultabili tramite due sezioni differenti :
 
 ## Documenti applicativi
 - [Introduzione](Sorgenti/DOC/TA/B£AMO/LOCEXU_A)
-- [Servizi di aggiornamento&-x3a; funzionamento](Sorgenti/DOC/TA/B£AMO/LOCEXU_B)
-- [Collegamento EXB&-x2f;EXU](Sorgenti/DOC/TA/B£AMO/LOCEXU_T01)
+- [Servizi di aggiornamento :  funzionamento](Sorgenti/DOC/TA/B£AMO/LOCEXU_B)
+- [Collegamento EXB/EXU](Sorgenti/DOC/TA/B£AMO/LOCEXU_T01)
 - [Costruzione di un servizio di aggiornamento](Sorgenti/DOC/TA/B£AMO/LOCEXU_T02)
-- [Utilizzo Matrice d&-x27;Aggiornamento su Device Mobile](Sorgenti/DOC/TA/B£AMO/LOCEXU_MO)
+- [Utilizzo Matrice d'Aggiornamento su Device Mobile](Sorgenti/DOC/TA/B£AMO/LOCEXU_MO)

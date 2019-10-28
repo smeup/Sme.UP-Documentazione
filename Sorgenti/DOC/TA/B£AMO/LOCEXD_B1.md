@@ -20,12 +20,12 @@ Le colonne
 E' un campo inserito nel wizard della funzione : 
 ![03COMEXD06](http://localhost:3000/immagini/LOCEXD_B1/03COMEXD06.png)Notifica della fine di una funzione; il controllo ritorna al chiamante e, piu' precisamente, alla sezione o alle sezioni indicate tra ( ) dopo il NOTIFY. Tra parentesi possono esserci anche piu' sezioni, nel caso devono essere separate da '\'
 
-\*SUB ritorna alla SUBSEZIONE su cui c'e' il focus e la aggiorna :  ad esempio in questo caso e' stato aggiunto il notify su un drop : 
+- SUB ritorna alla SUBSEZIONE su cui c'e' il focus e la aggiorna :  ad esempio in questo caso e' stato aggiunto il notify su un drop : 
 G.DIN When="Drop" Exec="F(FBK;B£SER_25;DED.DEE) 1(TA;B£U;&AM.UT) 2(;;&PA.NomCar) NOTIFY(\*SUB) INPUT(TPaOgg([FROM.TIPOGG]) CodOgg([FROM.CODOGG]))" In pratica il dinamismo fa in modo che quando droppo sulla subsezione A gli elementi droppati vengano cancellati dalla subsezione B di partenza. Se non mettessi il notify quando dropperei sulla subsezione A non avrei l'aggiornamento della subsezione B di (su cui è il fuoco) e quindi non capirei quali elementi sono gia' stati eliminati e quali no.
-\*SCHEDA ritorna alla scheda o sottoscheda che contiene la subsezione che ha il focus e la aggiorna
-\*FIRSTSCHEDA ritorna alla scheda principale/contenitore/1° livello
-\*SELF ritorna alla sezione da cui e' stata lanciata la funzione e la aggiorna
-\*YES ritorna a tutta la finestra
+- SCHEDA ritorna alla scheda o sottoscheda che contiene la subsezione che ha il focus e la aggiorna
+- FIRSTSCHEDA ritorna alla scheda principale/contenitore/1° livello
+- SELF ritorna alla sezione da cui e' stata lanciata la funzione e la aggiorna
+- YES ritorna a tutta la finestra
 
 ### Funzioni virtuali EXEC (CLOSE, REFRESH, EXECUTE, EXIT, DINAMIC) Esempi
 In ogni posto dove posso definire il richiamo di una funzione, posso inserire una delle parole chiave sopra per indicare che alla fine dell'esecuzione della funzione, va eseguito anche : 

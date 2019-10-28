@@ -7,25 +7,25 @@ Al tema autorizzazioni è stato dedicato un intero modulo, all'interno del quale
 Per chiarire subito il concetto di  \*USERLEVEL. riportiamo di seguito una sua breve definizione, poichè una spiegazione più approfondita verrà demanadata a un documento specifico.
 Con \*USERLEVEL si intende quella classe di autorizzazione che definisce il livello di utilizzo si MSe.UP da parte dell'utente. A oggi vengono gestiti quattro diversi livelli di utilizzo : 
 
-\* **00 - Operativo** :  destinato agli utilizzatori finali di SMe.UP, a chi cioè utilizza il SW solo dal punto di vista applicativo.
-\* **01 - Gestore EDP** :  per quegli utenti che, oltre a una visione applicativa, hanno abitualmente a che fare con azioni di gestione del sistema, dal punto di vista del suo funzionamento a livello di impostazioni generali.
-\* **02 - Implementatore** :  da attribuire agli installatori Sme.UP nelle installazioni dai clienti. Questo livello conferisce il massimo grado di utilizzo di Sme.UP.
-\* **03 - Sviluppatore (test)** :  con questo livello si attivano funzioni che sono ancora in fase di test. Questo livello è riservato a chi si occupa di sviluppare Sme.UP  in laboratorio.
+-  **00 - Operativo** :  destinato agli utilizzatori finali di SMe.UP, a chi cioè utilizza il SW solo dal punto di vista applicativo.
+-  **01 - Gestore EDP** :  per quegli utenti che, oltre a una visione applicativa, hanno abitualmente a che fare con azioni di gestione del sistema, dal punto di vista del suo funzionamento a livello di impostazioni generali.
+-  **02 - Implementatore** :  da attribuire agli installatori Sme.UP nelle installazioni dai clienti. Questo livello conferisce il massimo grado di utilizzo di Sme.UP.
+-  **03 - Sviluppatore (test)** :  con questo livello si attivano funzioni che sono ancora in fase di test. Questo livello è riservato a chi si occupa di sviluppare Sme.UP  in laboratorio.
 
 _Rimandiamo al documento B£AUTO_02 per amggiori dettagli sullo \*USERLEVEL._
 
 ## Lo scopo delle autorizzazioni
 A seconda di chi implementa o subisce gli effetti delle autorizzazioni, queste perseguono scopi e finalità ben differenti.
 >Per l'utente finale : 
-\* accedere solo alle funzioni che sono di suo interesse
-\* visualizzare su un record anagrafico solo i campi di sua competenza
-\* inibire l'accesso alle tabelle di parametrizzazione (riservate al presonale IT dedicato alla customizzazione dell'applicazione)
+-  accedere solo alle funzioni che sono di suo interesse
+-  visualizzare su un record anagrafico solo i campi di sua competenza
+-  inibire l'accesso alle tabelle di parametrizzazione (riservate al presonale IT dedicato alla customizzazione dell'applicazione)
 >Per il programmatore : 
-\* rendere indipendente il suo programma dal particolare utente che vi accede
-\* implementare nello stesso programma funzioni con livello di autorizzazioni diverse
-\* disporre di una funzione generica da introdurre nei suoi programmi
+-  rendere indipendente il suo programma dal particolare utente che vi accede
+-  implementare nello stesso programma funzioni con livello di autorizzazioni diverse
+-  disporre di una funzione generica da introdurre nei suoi programmi
 >Per il responsabile sistema informativo : 
-\* confidare sulla congruenza dei dati presenti nel sistema
+-  confidare sulla congruenza dei dati presenti nel sistema
 
 
 ## Architettura Applicativa

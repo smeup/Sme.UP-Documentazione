@@ -4,14 +4,14 @@ Generalizzare la costruzione di testi.
 ## Autorizzazioni
 A livello di USRLVL le funzioni disponibili hanno autorizzazione annegate nel source del servizio : 
 SFIN____________________Aut Usr
-\* Gestione del testo_________01
-\* Gestione della struttura_____01
-\* Testo in matrice
-\* Testo grafico
-\* Testo non formattato
-\* Imposta variabili___________01
-\* Documentazione specifica__01
-\* Set'n Play_______________ 02
+-  Gestione del testo_________01
+-  Gestione della struttura_____01
+-  Testo in matrice
+-  Testo grafico
+-  Testo non formattato
+-  Imposta variabili___________01
+-  Documentazione specifica__01
+-  Set'n Play_______________ 02
 
 e vengono gestite da SmeUp : 
  -  Classe :  USRLVL
@@ -27,12 +27,12 @@ gestita come segue :
 
 ## Testo
 Il testo può essere recuperato da diverse forme : 
-\* Parametro interno
-\* Nota oggetto
-\* Nota specifica
-\* Documentazione oggetto
-\* Documentazione specifica
-\* Descrizione in lingua
+-  Parametro interno
+-  Nota oggetto
+-  Nota specifica
+-  Documentazione oggetto
+-  Documentazione specifica
+-  Descrizione in lingua
 Il testo può essere definito in varie lingue ed è possibile visualizzare solo il testo nella lingua desiderata andando a settare la specifica variabile
 
 ## Struttura Script

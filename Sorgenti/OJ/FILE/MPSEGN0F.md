@@ -95,5 +95,5 @@ quando il campo 2 ha le stesse caratteristiche del campo 1
 La costruzione e il controllo di questo campo sono guidati dal campo "Codice EAN" impostato in
 tabella BRA.
  :  : DEC T(CS) P(T/BRA) K(T$BRAZ) R(1)
-\*\*\* NOTA l'opzione R(1) sul tag  :  : DEC riporta in questo doc. la documentazione dell'oggetto (da usare
+- \*\* NOTA l'opzione R(1) sul tag  :  : DEC riporta in questo doc. la documentazione dell'oggetto (da usare
 quando si cita un campo di tabella di cui si vuole includere la documentazione)

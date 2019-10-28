@@ -4,7 +4,7 @@ L'MPS è una tipica applicazione batch per l'elaborazione di masse di dati, quin
 ### Funzioni ingresso da altre applicazioni
 In questo gruppo sono comprese tutte le funzioni che creano viste piano partendo da applicazioni esterne all'MPS.
 
-\* **Da calendario**
+-  **Da calendario**
 Dato un tipo risorsa per la quale il calendario è definito, permette di scrivere, su delle viste piano inserite nei parametri di elaborazione, dei valori scelti tra le seguenti possibilità : 
  \*\* capacità in ore
  \*\* numero giorni lavorativi
@@ -75,7 +75,7 @@ In questo gruppo sono comprese tutte le funzioni di modifica o ottenimento di un
 Permette di eseguire delle operazioni aritmetiche o logiche su 2 viste riportando il risultato su una terza.
  \* **Totalizzazione di una vista**
 Partendo da una vista avente 2 entità (codice 1 / codice 2), somma i valori a livello del codice 1 o del codice 2 e riporta il risultato della somma su una seconda vista (es. :  da una vista di quantità vendute per cliente / articolo, totalizza le quantità a livello cliente).
-\* **Creazione sintesi**
+-  **Creazione sintesi**
 Crea una vista partendo da un'altra vista di maggior dettaglio e sommarizzando i valori per classificazioni degli oggetti presenti nella vista di partenza (es. :  partendo da una vista di totale venduto per articolo, si crea una vista di totale venduto per classe materiale).
 I concetti e le funzioni di sintesi degli oggetti sono spiegati nello specifico documento (cfr. Sintesi degli oggetti).
 - [Sintesi degli oggetti](Sorgenti/DOC/TA/B£AMO/C£SINT)

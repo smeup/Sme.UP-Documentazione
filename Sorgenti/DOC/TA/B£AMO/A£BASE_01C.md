@@ -14,7 +14,7 @@ I campi da compilare sono rispettivamente, per il comando SAVOBJ :
  \* Oggetti :  dove indico il nome dell'oggetto che voglio copiare;
  \* Libreria :  vado ad indicare il nome della libreria in cui è contenuto l'oggetto/i che devo copiare;
  \* Unità :  dove inserisco \*SAVF (come viene poi spiegato sotto);
- \* Tipi oggetti :  in cui specifico il tipo di oggetti/o che vado a copiare, solitamente anche \*ALL è sufficiente, se devo copiare ad esempio un singolo programma;
+ \* Tipi oggetti :  in cui specifico il tipo di oggetti/o che vado a copiare, solitamente anche - ALL è sufficiente, se devo copiare ad esempio un singolo programma;
  \* File salvataggio :  dove vado ad indicare il file che ho creato in cui voglio inserire il mio  oggetto/i;
  \* Libreria (riferita al file salvataggio) :  nella quale bisogna indicare la libreria dove si trova il file SAVF (lo zip).
 
@@ -38,7 +38,7 @@ I passi sono  i seguenti :
  \* BIN
  \* GET
  \* Indirizzo del SAVF sull'AS (Libreria/NomeSavf)
- \* Indirizzo del file su PC es. C : \savf (non è necessario che il file esista già)
+ \* Indirizzo del file su PC es. C : \savf (non è necessario che il file esista già ma quando specifico la directory locale devo specificare anche il nome con cui verrà salvato il SAVF)
 
 Per poi portare il SAVF su un altro AS la procedura è simile, ma è necessario aver prima creato un SAVF vuoto sull'AS di destinazione.
  \* FTP + indirizzo AS400
@@ -50,6 +50,13 @@ Per poi portare il SAVF su un altro AS la procedura è simile, ma è necessario 
  \* Indirizzo del SAVF sull'AS (Libreria/NomeSavf) (il savf deve esistere già sull'AS e deve essere vuoto).
 
 Una volta fatto, si pone il problema di rispristinare l'oggetto :  a questo scopo sono disponibili i comandi **RSTLIB** e **RSTOBJ** :  in entrambi i casi è possibile cambiare il nome della libreria o rispristinare l'oggetto in una differente, attraverso il parametro **RSTLIB** (= Caricamento nella libreria).
+I campi da compilare sono rispettivamente per SAVLIB : 
+Libreria salvata :  Specificare il nome della libreria salvata nel SAVF
+Unità :  \*SAVF
+File salvataggio :  specificare il nome del SAVF
+Libreria :  Specificare la libreria dove è salvato
+- \*NB\*\* Siccome per fare il restore senza intoppi c'è bisogno che niente e nessuno stia allocando la libreria, è possibile fare il restore su una libreria diversa da quella gia esistente sull'AS specificando un nome nuovo e non utilizzato per creare una nuova libreria nel campo "Caricamento nella libreria".
+
 
 Per riutilizzare il SAVF, devo prima pulirlo tramite il comando **CLRSAVF**
 

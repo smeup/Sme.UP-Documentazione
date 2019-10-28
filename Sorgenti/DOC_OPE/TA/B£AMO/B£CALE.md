@@ -1,6 +1,6 @@
 - [CALE Manut. calendario annuale](Sorgenti/OJ/PGM/B£DIR1)
 - [CALE Manut. dati sett. risorsa](Sorgenti/OJ/PGM/B£DIR2)
 - [CALE Manut. eccezioni risorsa](Sorgenti/OJ/PGM/B£DIR0)
-- [Stampa disponibiltà risorse](Sorgenti/OJ/PGM/B£DIR4)
+- [CALE Grafico dispon. risorse](Sorgenti/OJ/PGM/B£DIR4)
 - [Stampa disponibiltà risorse](Sorgenti/OJ/PGM/B£DIR4S)
 - [CALE Calendario per squadra](Sorgenti/OJ/PGM/B£DIRG)

@@ -6,7 +6,7 @@ Potremo ad esempio avere :
 AR = Articoli
 CL = Centri di lavoro
 .. = Ecc.
-\*\* = Codifica libera
+- \* = Codifica libera
  :  : FLD T$KYC2.T$KYC1 __Definizione chiavi di collegamento__
  :  : FLD T$KYC3.T$KYC1 __Definizione chiavi di collegamento__
  :  : FLD T$ARCH __Archivio che contiene le note.__

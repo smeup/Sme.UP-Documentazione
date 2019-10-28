@@ -3,39 +3,39 @@ Permettere di analizzare tutte le proprietà di una applicazione (o di un modulo
 ## Struttura matrice
 ![A£LABS_000](http://localhost:3000/immagini/A£LABS_06/AXLABS_000.png)
 ## A FRONTE DI UN CONTESTO APPLICAZIONE/MODULO, SONO FORNITE INFORMAZIONI (COLONNE) RELATIVE A : 
-\* descrizione
-\* obbligatorietà :  (Si :  ratio=1  No :  ratio=2)
-\* coefficiente
-\* peso :  coefficiente x ratio (default 1)
-\* quota :  valorizzato se presente attributo
-\* progressivo peso
-\* progressivo quota
-\* progressivo rating
-\* gruppo (Laboratorio/Formazione/Documentazione)
+-  descrizione
+-  obbligatorietà :  (Si :  ratio=1  No :  ratio=2)
+-  coefficiente
+-  peso :  coefficiente x ratio (default 1)
+-  quota :  valorizzato se presente attributo
+-  progressivo peso
+-  progressivo quota
+-  progressivo rating
+-  gruppo (Laboratorio/Formazione/Documentazione)
 
 Inoltre sono stati aggiunti nella sezione "Con Indici" anche  : 
-\* Indice
-\* Progressivo Indice
+-  Indice
+-  Progressivo Indice
 
 ## I VALORI (RIGHE) A SEGUIRE, CONCORRONO AL CALCOLO DEL RATING : 
-\* codice :  applicazioni/moduli
-\* descrizione
-\* responsabile
-\* esplorazione :  programma di navigazione del modulo
-\* schemi standard
-\* funzioni applicazione :  programma che espone le funzioni del modulo
-\* associazione oggeti
-\* presenza Scheda
-\* presenza Menù
-\* presenza Glossario
-\* presenza Faq
-\* presenza Presentazioni
-\* cruscotto
-\* documento Sviluppo
-\* training
-\* visione
-\* Corsi
-\* Video
+-  codice :  applicazioni/moduli
+-  descrizione
+-  responsabile
+-  esplorazione :  programma di navigazione del modulo
+-  schemi standard
+-  funzioni applicazione :  programma che espone le funzioni del modulo
+-  associazione oggeti
+-  presenza Scheda
+-  presenza Menù
+-  presenza Glossario
+-  presenza Faq
+-  presenza Presentazioni
+-  cruscotto
+-  documento Sviluppo
+-  training
+-  visione
+-  Corsi
+-  Video
 ## N.B. : qualora un attributo definito obbligatorio, non sia valorizzato, la cella viene rappresentata di colore rosso.
 
 ## Calcolo del rating

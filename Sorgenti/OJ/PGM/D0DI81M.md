@@ -1,1 +1,1 @@
-- [CCMC Dist. Effett.OR-Costruz&-x3a; Rich.Param.](Sorgenti/OJ/PGM/BRDI81A)
+- [CCMC Dist. Effett.OR-Costruz :  Rich.Param.](Sorgenti/OJ/PGM/BRDI81A)

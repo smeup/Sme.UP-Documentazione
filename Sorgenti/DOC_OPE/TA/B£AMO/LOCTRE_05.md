@@ -24,11 +24,11 @@ Qui di seguito saranno elencati i vari comandi :
 
 ![LOCTRE_031](http://localhost:3000/immagini/MBDOC_OPE-LOCTRE_05/LOCTRE_031.png)
 Per eseguire l'aggiunta ad un carrello dei nodi selezionati vi sono varie modalità : 
-\* Premento ALT+C (o andando sulla voce di menù popup :  carrelli->appunti ) i nodi selezionati vengono aggiunti al carrello appunti (carrello \*LAST). Il carrello contiene un solo oggetto per ogni
+-  Premento ALT+C (o andando sulla voce di menù popup :  carrelli->appunti ) i nodi selezionati vengono aggiunti al carrello appunti (carrello \*LAST). Il carrello contiene un solo oggetto per ogni
 tipologia.
-\* Premendo ALT+W (o andando sulla voce di menù popup :  carrelli->di lavoro) i nodi selezionati vengono aggiunti al carrello di lavoro (carrello \*WORK). Il carrello può contenere N oggetti per ogni
+-  Premendo ALT+W (o andando sulla voce di menù popup :  carrelli->di lavoro) i nodi selezionati vengono aggiunti al carrello di lavoro (carrello \*WORK). Il carrello può contenere N oggetti per ogni
 tipologia.
-\* Premendo ALT+O (o andando sulla voce di menù popup :  carrelli->standard componenti graf.) i nodi selezionati vengono aggiunti al carrello OGGETTO (funzionalità utile per raggruppare gli oggetti per tipo). Se i nodi selezionati sono di tipologie differenti, vengono creati N carrelli suddivisi per tipo di oggetto.
+-  Premendo ALT+O (o andando sulla voce di menù popup :  carrelli->standard componenti graf.) i nodi selezionati vengono aggiunti al carrello OGGETTO (funzionalità utile per raggruppare gli oggetti per tipo). Se i nodi selezionati sono di tipologie differenti, vengono creati N carrelli suddivisi per tipo di oggetto.
 
 Per aggiungere i nodi selezionati al carrello generico \*DRAG è necessario compilare il campo 'Comando' con_ E : _  (o scrivendo per esteso il comando 'EXECUTE : CARRELLO'). La stessa funzionalità può essere ottenuta facendo ALT+doppio click su uno dei nodi selezionati dell'albero, con il menù di popup, o con il drag del mouse (funzionalità disponibile solo se l'albero ha l'attributo DRAG='MULTI').
 Questa funzionalità è utile per raggruppare in un unico carrello tutti gli oggetti, anche se eterogenei.
@@ -44,15 +44,15 @@ Per maggiori informazioni sulle funzionalità del carrello consultare la documen
 Nota :  i comandi eseguiti non sono permanenti, ma sono relativi alla sola vista corrente. Alla riapertura del componente, o all'aggiornamento dello stesso, si ritornerà alle impostazioni caricate da setup.
 
 Di seguito vengono presentati un elenco con alcuni comandi di setup possibili : 
-\* SETUP : -TEXTTYPE CODE    (per mostrare solo il codice del nodo)
-\* SETUP : -TEXTTYPE TEXT     (per mostrare solo il testo del nodo)
-\* SETUP : -TEXTTYPE BOTH    (per mostrare sia il codice sia il testo del nodo)
-\* SETUP : -ICONE NO              (per nascondere le iconeassociate al nodo, vengono mostrate le icone generiche. Se il nodo non ha il tipo/parametro/codice non viene mostrata alcuna icona.)
-\* SETUP : -ICONE YES             (per mostrare le icone associate al nodo)
-\* SETUP : -ICONE SPECIFIC     (per mostrare solo le icone specificate nell'attributo I="" del nodo. Se l'attributo non è specificato non viene mostrata alcuna icona.)
-\* SETUP : -SORT ASC              (per riordinare l'albero in ordine crescente)
-\* SETUP : -SORT DES              (per riordinare l'albero in ordine decrescente)
-\* SETUP : -SORT NONE           (per togliere gli ordinamenti dell'albero)
+-  SETUP : -TEXTTYPE CODE    (per mostrare solo il codice del nodo)
+-  SETUP : -TEXTTYPE TEXT     (per mostrare solo il testo del nodo)
+-  SETUP : -TEXTTYPE BOTH    (per mostrare sia il codice sia il testo del nodo)
+-  SETUP : -ICONE NO              (per nascondere le iconeassociate al nodo, vengono mostrate le icone generiche. Se il nodo non ha il tipo/parametro/codice non viene mostrata alcuna icona.)
+-  SETUP : -ICONE YES             (per mostrare le icone associate al nodo)
+-  SETUP : -ICONE SPECIFIC     (per mostrare solo le icone specificate nell'attributo I="" del nodo. Se l'attributo non è specificato non viene mostrata alcuna icona.)
+-  SETUP : -SORT ASC              (per riordinare l'albero in ordine crescente)
+-  SETUP : -SORT DES              (per riordinare l'albero in ordine decrescente)
+-  SETUP : -SORT NONE           (per togliere gli ordinamenti dell'albero)
 
 E' possibile modificare più impostazioni contemporaneamente come segue : 
 SETUP : -TEXTTYPE BOTH -SORT DES -ICONE SPECIFIC

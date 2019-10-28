@@ -3,12 +3,12 @@
 La struttura delle Query si appoggia alla /COPY £IQR.
 
 Questa /COPY in sintesi permette di combinare insieme le dimensioni riportate a seguire al fine di ottenere una "matrice" di risultati : 
-\* **Una fonte** :  identificata dall'oggetto Q5, è l'oggetto che identifica una modalità di accesso alla scansione delle istanze dell'oggetto.
-\* **Una schema di colonne** :  identificata dall'oggetto Q2, è l'oggetto che permette di identificare le colonne della "matrice"
+-  **Una fonte** :  identificata dall'oggetto Q5, è l'oggetto che identifica una modalità di accesso alla scansione delle istanze dell'oggetto.
+-  **Una schema di colonne** :  identificata dall'oggetto Q2, è l'oggetto che permette di identificare le colonne della "matrice"
 
 Le succitate dimensioni sono obbligatorie, mentre opzionamente vi si possono aggiungere
-\* **Un filtro** :  identificato dall'oggetto Q3, è l'oggetto che permette di applicare dei filtri specifici nella scansione delle istanze della classe
-\* **Un ordinamento** :  identificato dall'oggetto Q4, è l'oggetto che permette di applicare un particolare ordine alla scansione delle istanze dell'oggetto.
+-  **Un filtro** :  identificato dall'oggetto Q3, è l'oggetto che permette di applicare dei filtri specifici nella scansione delle istanze della classe
+-  **Un ordinamento** :  identificato dall'oggetto Q4, è l'oggetto che permette di applicare un particolare ordine alla scansione delle istanze dell'oggetto.
 
 Una particolare combinazione di queste dimensioni è definita query ed è identicata dall'oggetto Q1.
 
@@ -22,27 +22,27 @@ Una particolare combinazione di queste dimensioni è definita query ed è identi
 # Origine delle istanze degli oggetti delle query.
 
 Le istanze degli oggetti Qx sopracitate vengono forniti da una serie di pgm aventi la seguente B£IQR_xx (ognuno dei quali rappresenta una particolare fonte). Ognuno di questi programmi si occupa di fornire istanze di uno o più oggetti Qx rispondendo principalmente alle funzioni della £IQR : 
-\* LIS.QRY :  elenco delle query. Cioè l'insieme delle istanza Q1 che il pgm è in grado di fornire.
-\* LIS.SCH :  elenco degli schemi. Cioè l'insieme delle istanza Q2 che il pgm è in grado di fornire.
-\* LIS.FLT :  elenco degli schemi. Cioè l'insieme delle istanza Q3 che il pgm è in grado di fornire.
-\* LIS.ORD :  elenco degli ordinamenti. Cioè l'insieme delle istanza Q4 che il pgm è in grado di fornire.
+-  LIS.QRY :  elenco delle query. Cioè l'insieme delle istanza Q1 che il pgm è in grado di fornire.
+-  LIS.SCH :  elenco degli schemi. Cioè l'insieme delle istanza Q2 che il pgm è in grado di fornire.
+-  LIS.FLT :  elenco degli schemi. Cioè l'insieme delle istanza Q3 che il pgm è in grado di fornire.
+-  LIS.ORD :  elenco degli ordinamenti. Cioè l'insieme delle istanza Q4 che il pgm è in grado di fornire.
 
 Ogni programma ha delle logiche molto specifiche di elaborazione e ognuno va analizzato nel dettaglio. Si portano qui di seguito a seguire i pgm più utilizzati : 
-\* B£IQR_00 :  fornisce le istanze di qualsiasi oggetto Qx costruito a partire dagli script SCP_QRY
-\* B£IQR_01 :  fornisce le istanze delle query \*KEY e \*DEC attraverso le corrispondenti interfacce
-\* B£IQR_02 :  risolve le query costruite dagli script qual'ora queste siano riconducibili ad accessi SQL
-\* B£IQR_07 :  risolve le query costruite a partire da definizione di liste (Classe LI)
-\* B£IQR_08 :  risolve le query costruite su oggetti del sistema operativo (Classe OJ)
-\* B£IQR_09 :  risolve le query costruite su tabelle (Classe TA)
-\* B£IQR_10 :  risolve le query costruite su membri sorgenti (Classe MB)
-\* B£IQR_17 :  risolve gli schemi definiti attraverso i membri SCP_NAV
-\* B£IQR_18 :  risolve gli schemi definiti attraverso i pgm B£IQ2_xx
-\* B£IQR_20 :  risolve le query di ricerca da Surf di Modulo
+-  B£IQR_00 :  fornisce le istanze di qualsiasi oggetto Qx costruito a partire dagli script SCP_QRY
+-  B£IQR_01 :  fornisce le istanze delle query \*KEY e \*DEC attraverso le corrispondenti interfacce
+-  B£IQR_02 :  risolve le query costruite dagli script qual'ora queste siano riconducibili ad accessi SQL
+-  B£IQR_07 :  risolve le query costruite a partire da definizione di liste (Classe LI)
+-  B£IQR_08 :  risolve le query costruite su oggetti del sistema operativo (Classe OJ)
+-  B£IQR_09 :  risolve le query costruite su tabelle (Classe TA)
+-  B£IQR_10 :  risolve le query costruite su membri sorgenti (Classe MB)
+-  B£IQR_17 :  risolve gli schemi definiti attraverso i membri SCP_NAV
+-  B£IQR_18 :  risolve gli schemi definiti attraverso i pgm B£IQ2_xx
+-  B£IQR_20 :  risolve le query di ricerca da Surf di Modulo
 
 # L'utilizzo delle funzionalità delle funzioni delle query
 
 Le funzionalità delle funzioni di query sono state utilizzate in modo combinato nelle struttura delle ricerche, ma possono essere parzialmente o totalmente impiegate per funzioni proprie. In particolare si rimanda ai documenti in cui viene descritto : 
-- [Aggiungere&-x2f;Modificare gli Schemi della Finestra](Sorgenti/DOC/TA/B£AMO/B£EQRY_A03)
+- [Aggiungere/Modificare gli Schemi della Finestra](Sorgenti/DOC/TA/B£AMO/B£EQRY_A03)
 - [Utilizzare Uno Schema in un Servizio Generico](Sorgenti/DOC/TA/B£AMO/B£EQRY_A04)
 - [Aggiungere Nuove Query di Ricerca](Sorgenti/DOC/TA/B£AMO/B£EQRY_A05)
 - [Utilizzare Una Query in Scheda](Sorgenti/DOC/TA/B£AMO/B£EQRY_A06)

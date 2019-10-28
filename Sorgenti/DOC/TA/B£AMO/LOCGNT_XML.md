@@ -79,28 +79,28 @@ Una colonna indicata di tipo J4-ICO conterrà dei simboli grafici al posto del t
 
 Chiavi di colonna disponibili : 
 
-\* _1_D01 = Data iniziale dell'impegno
-\* _1_H01 = Ora iniziale dell'impegno
-\* _1_D02 = Data finale dell'impegno
-\* _1_H02 = Ora finale dell'impegno
-\* _1_S01 = Forma della cella impegno
-\*\* _2_0 Cella rettangolare standard (default)
-\*\* _2_1 Cella ovale
-\*\* _2_2 Cella rettangolare con angoli arrotondati
-\*\* _2_3 Cella a rombo
-\*\* _2_4 Cella triangolare crescente
-\*\* _2_5 Cella triangolare decrescente
-\*\* _2_6 Cella a trapezio crescente
-\*\* _2_7 Cella a trapezio decrescente
-\*\* _2>n_ Cella rettangolare senza riquadro sinistro-alto
-\*\* _2_9 Cella rettangolare senza riquadro destro-alto
-\*\* _2_A Cella rettangolare senza riquadro destro-basso
-\*\* _2_B Cella rettangolare senza riquadro sinistro-basso
-\* _1_L01 = Definizione intervalli per celle a livelli Esempio :  L01(0-9;10-49,50-79;80-99) definisce quattro livelli.
+-  _1_D01 = Data iniziale dell'impegno
+-  _1_H01 = Ora iniziale dell'impegno
+-  _1_D02 = Data finale dell'impegno
+-  _1_H02 = Ora finale dell'impegno
+-  _1_S01 = Forma della cella impegno
+- \* _2_0 Cella rettangolare standard (default)
+- \* _2_1 Cella ovale
+- \* _2_2 Cella rettangolare con angoli arrotondati
+- \* _2_3 Cella a rombo
+- \* _2_4 Cella triangolare crescente
+- \* _2_5 Cella triangolare decrescente
+- \* _2_6 Cella a trapezio crescente
+- \* _2_7 Cella a trapezio decrescente
+- \* _2>n_ Cella rettangolare senza riquadro sinistro-alto
+- \* _2_9 Cella rettangolare senza riquadro destro-alto
+- \* _2_A Cella rettangolare senza riquadro destro-basso
+- \* _2_B Cella rettangolare senza riquadro sinistro-basso
+-  _1_L01 = Definizione intervalli per celle a livelli Esempio :  L01(0-9;10-49,50-79;80-99) definisce quattro livelli.
       NB(Per fare in modo che venga eseguita la separazione in livelli va indicata nella posizione 66 una "H")
-\* _1_D00? = Data dell'istante di tempo con codice ?
-\* _1_H00? = Ora dell'istante di tempo con codice ?
-\* _1_F00? =  Formato di visualizzazione dell'istante di tempo ?
+-  _1_D00? = Data dell'istante di tempo con codice ?
+-  _1_H00? = Ora dell'istante di tempo con codice ?
+-  _1_F00? =  Formato di visualizzazione dell'istante di tempo ?
 
 ? è un carattere qualsiasi che identifica univocamente un istante di tempo.
 Ad esempio, se vogliamo definire l'istante di tempo A sarà necessario definire le tre chiavi D00A, H00A e F00A.
@@ -132,10 +132,10 @@ La tabella di corrispondenza è la seguente :  F00? = XY dove :
  \*\* _2>n_ :  per grigio
  \*\* _2_9 :  per arancio
 
-\* _1_FL1 = Flag di segnalazione posizionato in alto a destra
-\* _1_FL2 = Flag di segnalazione posizionato in basso a destra
-\* _1_FL3 = Flag di segnalazione posizionato in basso a sinistra
-\* _1_FL4 = Flag di segnalazione posizionato in alto a sinistra
+-  _1_FL1 = Flag di segnalazione posizionato in alto a destra
+-  _1_FL2 = Flag di segnalazione posizionato in basso a destra
+-  _1_FL3 = Flag di segnalazione posizionato in basso a sinistra
+-  _1_FL4 = Flag di segnalazione posizionato in alto a sinistra
 
 >        FL4    ___________________________  FL1
                   |                                                     |
@@ -154,33 +154,33 @@ Il valore numerico contenuto nel campo FLx definisce il colore con cui disegnare
  \*\* _2>n_ :  per grigio
  \*\* _2_9 :  per arancio
 
-\* _1_K01 = Identifica la colonna da utilizzare come chiave di raggruppamento
-\* _1_TXT = Identifica la colonna da ustilizzare come chiave per il reperimento del testo della cella
-\* _1_C01 = Identifica la colonna da usare come chiave per il colore
-\* _1_N01 = Identifica la colonna da usare come campo note di cella da visualizzare nella finestra di preview
-\* _1_N02 = Identifica la colonna da usare come campo note di cella da visualizzare nella statusbar del modulo grafico
-\* _1_G01 = Identifica la lista dei gruppi per spostamento di gruppo (codici separati per ;)
-\* _1_G02 = Flag per lista gruppo (1 solo gruppi passati nel G01, 0 o blank, tutti i gruppi)
-\* _1_M01 = Identificatore attività di tipo Master/Slave
-\* _1_HID = Identifica colonna che controlla l'Hide di una cella. Se 1 la cella esiste ma non è disegnata, se 0 viene disegnata
-\* _1_FIX = Identifica colonna che controlla la Zona. Può avere valore assegnato o essere vuota ed è utilizzata negli spostamenti di gruppo di tipo congelato.
+-  _1_K01 = Identifica la colonna da utilizzare come chiave di raggruppamento
+-  _1_TXT = Identifica la colonna da ustilizzare come chiave per il reperimento del testo della cella
+-  _1_C01 = Identifica la colonna da usare come chiave per il colore
+-  _1_N01 = Identifica la colonna da usare come campo note di cella da visualizzare nella finestra di preview
+-  _1_N02 = Identifica la colonna da usare come campo note di cella da visualizzare nella statusbar del modulo grafico
+-  _1_G01 = Identifica la lista dei gruppi per spostamento di gruppo (codici separati per ;)
+-  _1_G02 = Flag per lista gruppo (1 solo gruppi passati nel G01, 0 o blank, tutti i gruppi)
+-  _1_M01 = Identificatore attività di tipo Master/Slave
+-  _1_HID = Identifica colonna che controlla l'Hide di una cella. Se 1 la cella esiste ma non è disegnata, se 0 viene disegnata
+-  _1_FIX = Identifica colonna che controlla la Zona. Può avere valore assegnato o essere vuota ed è utilizzata negli spostamenti di gruppo di tipo congelato.
 
 Gestione work periods (zone del Gantt che devono essere evidenziate con un zebratura colorata)
-\* _1_DW1? = Identifica la colonna che contiene la data di inizio del workperiod identificato dal codice ?
-\* _1_HW1? = Identifica la colonna che contiene l'ora di inizio del workperiod identificato dal codice ?
-\* _1_DW2? = Identifica la colonna che contiene la data di fine del workperiod identificato dal codice ?
-\* _1_HW2? = Identifica la colonna che contiene l0ora di fine del workperiod identificato dal codice ?
-\* _1_CW1? = Identifica la colonna che contiene il colore da utilizzare per tracciare il workperiod ?
+-  _1_DW1? = Identifica la colonna che contiene la data di inizio del workperiod identificato dal codice ?
+-  _1_HW1? = Identifica la colonna che contiene l'ora di inizio del workperiod identificato dal codice ?
+-  _1_DW2? = Identifica la colonna che contiene la data di fine del workperiod identificato dal codice ?
+-  _1_HW2? = Identifica la colonna che contiene l0ora di fine del workperiod identificato dal codice ?
+-  _1_CW1? = Identifica la colonna che contiene il colore da utilizzare per tracciare il workperiod ?
 Codici colori : 
-\* _2_1 per giallo
-\* _2_2  per verde
-\* _2_3  per blu
-\* _2_4  per bianco
-\* _2_5  per nero
-\* _2_6  per ciano
-\* _2_7  per rosso (default)
-\* _2>n_  per grigio
-\* _2_9  per arancio
+-  _2_1 per giallo
+-  _2_2  per verde
+-  _2_3  per blu
+-  _2_4  per bianco
+-  _2_5  per nero
+-  _2_6  per ciano
+-  _2_7  per rosso (default)
+-  _2>n_  per grigio
+-  _2_9  per arancio
 > <Griglia>
   <Colonna Cod="XXNMEM" Txt="Indice per modifica" Tip="" Lun="07" IO="H" Ogg="NR" Dpy="" Fill=""/>
   <Colonna Cod="SFCLAV" Txt="Risorsa" Tip="" Lun="15" IO="O" Ogg="RICDL" Dpy="" Fill=""/>

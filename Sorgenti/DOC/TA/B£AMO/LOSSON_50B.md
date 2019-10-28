@@ -19,7 +19,7 @@ Riportiamo per comodità i prerequisiti :
 -- 5722CE3 Client Encryption 128-bit (optional for Client side encryption)
 -- 5722DG1 IBM HTTP Server for iSeries (optional for additional scenarios)
 -- 5722XE1 iSeries Access for Windows
-- Autorizzazioni \*SECOFR per l'utente che configura il servizio (deve avere solo i diritti di \*IOSYSCFG e \*ALLOBJ)
+- Autorizzazioni \*SECOFR per l'utente che configura il servizio (deve avere solo i diritti di - IOSYSCFG e \*ALLOBJ)
 - Valore di sistema QRMTSIGN impostato a \*VERIFY
 - iSeries configurato per utilizzare gli stessi DNS Server utilizzati da AD (sconsigliato utilizzare la tabella host).
 - Corretta impostazione dei valori di sistema QTIME e QTIMZON
@@ -100,8 +100,8 @@ Immettere una password per il Tivoli :
  \* cliccare su next
 
 ![LOBASE_157](http://localhost:3000/immagini/LOSSON_50B/LOBASE_157.png)
-\* E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
-\* Cliccare su next
+-  E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
+-  Cliccare su next
 
 ![LOBASE_158](http://localhost:3000/immagini/LOSSON_50B/LOBASE_158.png)
  \* Verificare che tutte le informazioni siano coerenti con quanto inserito

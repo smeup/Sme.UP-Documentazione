@@ -85,6 +85,6 @@ base per la valutazione standard sono CQVEN\*
 
 ## DOCUMENTAZIONE PARTICOLARE
 _4_Versione D5COSO 
-- [Struttura D5COSO per memorizzazione indici](Sorgenti/DOC/TA/B£AMO/D5)
+- [Delt.up - Funzioni base](Sorgenti/DOC/TA/B£AMO/D5)
 _4_Versione IGSTOR 
-- [Indici &-x2f; report](Sorgenti/DOC/TA/B£AMO/IG)
+- [Le figure di documentazione](Sorgenti/DOC/TA/B£AMO/IG)

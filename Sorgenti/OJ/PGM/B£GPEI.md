@@ -19,9 +19,9 @@ Nome campo                Valori        Significato
 ----------                ------        -----------
 ESECUZIONE INTERATTIVA   "S" "N" " "    Stabilisce se l'utente può eseguire il programma in modo
 interattivo
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 I seguenti campi sono sognificativi se il programma viene eseguito in in coda lavori.
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 CODA LAVORI AUTORIZZAZ.  "S" "N" " "    Stabilisce se l'utente può modificare la
 coda lavori in cui verrà eseguito il programma
 CODA LAVORI              Oggetto di     Determina il nome della coda sistema lavori in cui verrà eseguito il programma
@@ -32,14 +32,14 @@ PRIORITA' CODA LAVORI    Da 1 a 9       Determina la priorità con cui verrà in
 lavori                                       il programma
 LAVORO CONGELATO         "S" "N" " "    Stabilisce se il lavoro verrà inserito in coda lavori come
 congelato
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 I seguenti campi sono
 significativi se il programma
 ha uscite in stampa : 
 i parametri di
 esecuzione vengono suddivisi
 tra quelli relativi alle stampe a 132 ed a 198 caratteri.
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+- \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 CODA STAMPA AUTORIZZAZ.  "S" "N" " "    Stabilisce se l'utente può modificare la coda stampa in
 cui scriverà il programma.
 CODA STAMPA              Oggetto di     Determina il nome della coda sistema lavori in cui scriverà

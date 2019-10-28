@@ -67,7 +67,7 @@ Con le nuove schede, le distinte basi vengono visualizzate tramite un nuovo comp
 Il funzionamento di queste navigazioni circolari è molto semplice : 
 
 ![BRDIST_006](http://localhost:3000/immagini/MBDOC_OPE-BRDIST_01/BRDIST_006.png)Una volta che si è aperto questo menù (come mostrato in figura) in corrispondenza di uno specifico codice, è possibile eseguire nuove esplosioni o implosioni a partire dal codice stesso. La selezione di una singola voce, non farà altro che impostare i campi del filtro con i nuovi parametri : 
-\*\* Il tipo di navigazione scelto nel popup
-\*\* Il codice che diventerà assieme o componente della nuova esplorazione.
+- \* Il tipo di navigazione scelto nel popup
+- \* Il codice che diventerà assieme o componente della nuova esplorazione.
 
 In questo modo, è possibile percorre tutte le varie distinte dei codici sia verso l'alto che verso il basso, senza dover impostare manualmente i filtri.

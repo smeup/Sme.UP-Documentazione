@@ -19,12 +19,12 @@ Eseguire la ricerca alfabetica relativa se richiesto
 £ICZMS :  Codice messaggio ritorno (7)
 £ICZFI :  File   messaggio ritorno (10)
 £ICZCM :  Ultimo Comando
-\*IN35  :  se On = Codice errato
-\*IN36  :  se On = eseguita ricerca alfabetica
+- IN35  :  se On = Codice errato
+- IN36  :  se On = eseguita ricerca alfabetica
 £ICZRO :  N.ro Record di output
 
 # Prerequisiti
-\* Dichiarazione della DS per l'utilizzo dell'API all'interno di un programma
+-  Dichiarazione della DS per l'utilizzo dell'API all'interno di un programma
 D GMCOLL         E DS                  EXTNAME(GMCOLL0F)
 
 # Esempio di chiamata
