@@ -1,3 +1,5 @@
+TEST
+
 Nel seguente documento verrà esposta l'architettura generale della programmazione Sme.UP.
 Tale documento è indispensabile sia per chi sviluppa Sme.UP che per chi scrive programmi personali o personalizzati.
 
