@@ -24,7 +24,7 @@ body.no-sidebar .sidebar,
       border-radius: 3px;
     }
 
-    #search{
+    table{
             width: 65%;
             table-layout: fixed;
             position: fixed;
