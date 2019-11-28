@@ -1,4 +1,4 @@
-- [Documentazione TEST](DocumentazioneSmeUP/DOC/_sidebar.md)
+- [Documentazione](DocumentazioneSmeUP/DOC/_sidebar.md)
     - [Documentazione Applicativa](DocumentazioneSmeUP/DOC/DOC_APP/_sidebar)
       - [Architettura e Servizi di Base](DocumentazioneSmeUP/DOC/DOC_APP/000010/_sidebar.md)
         - [Funzioni Tecniche](DocumentazioneSmeUP/DOC/DOC_APP/000010/A£/_sidebar.md)
