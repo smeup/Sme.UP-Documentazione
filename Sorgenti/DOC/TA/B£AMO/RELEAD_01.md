@@ -3,7 +3,7 @@
  :  : I.INC.MBR Fil(DOC_VOC) Mem(REBASE_GLO) Sec( :  : VOC) SAt(005)
 
 ## Schema relazioni
-![X1MARK05A](http://localhost:3000/immagini/RELEAD_01/X1MARK05A.png)## Dati
+![X1MARK05A](http://doc.smeup.com/immagini/RELEAD_01/X1MARK05A.png)## Dati
 -  Codice identificativo
 -  Date apertura / scadenza passo successivo
 -  Responsabile
@@ -13,8 +13,8 @@
 -  Fonte di provenienza :  evento/fiera, sito internet, newsletter, ecc
 -  Campagna origine
 
-![X1MARK0502](http://localhost:3000/immagini/RELEAD_01/X1MARK0502.png)
-![X1MARK0501](http://localhost:3000/immagini/RELEAD_01/X1MARK0501.png)
+![X1MARK0502](http://doc.smeup.com/immagini/RELEAD_01/X1MARK0502.png)
+![X1MARK0501](http://doc.smeup.com/immagini/RELEAD_01/X1MARK0501.png)
 ## Funzioni
 ### Creazione nuova opportunità ed assegnazione di un responsabile
 Dalla navigazione lead si possono creare delle opportunità mediante il doppio click su una riga lead. Il programma apre il formato di inserimento nuove opportunità ereditando dalla lead il referente, l'account ed il responsabile. La lead finisce nella commessa di riferimento dell'opportunità, in questo modo è assicurato il legame tra opportunità, lead di riferimento e campagna.

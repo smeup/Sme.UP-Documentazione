@@ -90,18 +90,18 @@ Per prima cosa bisogna verificare che esista un elemento nel file AUTOOG0F con c
 La funzione \*\* indica che la funzione da abbinare alla classe OGG.MAS sarà il valore restituito dall'OAV (quindi la tripletta _Tipo;Parametro;Codice_ dell'oggetto che si vuole autorizzare).
 Per farlo clicchiamo sulla voce di menù **OGG.MAS in AUTOOG0F**.
 
-![B£AUTO19](http://localhost:3000/immagini/B£AUTO_09/BXAUTO19.png)
+![B£AUTO19](http://doc.smeup.com/immagini/B£AUTO_09/BXAUTO19.png)
 Passo 2 : 
 Creiamo l'autorizzazione alla classe OGG.MAS, per un utente e come funzione inseriamo un codice di applicazione/modulo. Per fare questo occorre  cliccare sulla voce **Gestione classe OGG.MAS e specificare classe, utente, Tipo;Parametro : Codice. Questo è l'equivalente in scheda dell'UP AUT.
 A questo punto nella matrice di aggiornamento è possibile modificare o inserire nuove autorizzazioni.
 
-![B£AUTO20](http://localhost:3000/immagini/B£AUTO_09/BXAUTO20.png)
+![B£AUTO20](http://doc.smeup.com/immagini/B£AUTO_09/BXAUTO20.png)
 Nel primo valore occorre inserire la scelta per la visibilità, nel secondo quella per la gestione dati e nella terza per la gestione degli allegati.
 Per prova inseriamo rispettivamente i valori 93, 81 e 71 per il modulo C5BASE.
 Il risultato è che l'icona del modulo C5BASE è visibile ma non cliccabile. Non è  possibile accedere ai moduli di tale applicazione.
 Come si può vedere nell'immagine seguente : 
 
-![B£AUTO21](http://localhost:3000/immagini/B£AUTO_09/BXAUTO21.png)
+![B£AUTO21](http://doc.smeup.com/immagini/B£AUTO_09/BXAUTO21.png)
 Se il valore di visibilità viene modificato in 91, neanche l'icona del modulo sarà visibile e tentando di accedere direttamente alla scheda del modulo compare il messaggio "Non Autorizzato".
 
 # Esempio 2
@@ -115,18 +115,18 @@ Per prima cosa bisogna verificare che esista un elemento nel file AUTOOG0F con c
 La funzione \*\* indica che la funzione da abbinare alla classe OGG.MAS sarà il valore restituito dall'OAV (quindi la tripletta _Tipo;Parametro;Codice_ dell'oggetto che si vuole autorizzare).
 Per farlo clicchiamo sulla voce di menù **OGG.MAS in AUTOOG0F**.
 
-![B£AUTO19](http://localhost:3000/immagini/B£AUTO_09/BXAUTO19.png)
+![B£AUTO19](http://doc.smeup.com/immagini/B£AUTO_09/BXAUTO19.png)
 Passo 2
 Creiamo l'autorizzazione alla classe OGG.MAS, per un utente e come funzione inseriamo un codice cliente
 Nel primo valore occorre inserire la scelta per la visibilità, nel secondo quella per la gestione dati e nella terza per la gestione degli allegati.
 Per prova inseriamo rispettivamente i valori 93, 85 e 75.
 Tentando di accedere alla scheda cliente il risultato è il seguente : 
 
-![B£AUTO22](http://localhost:3000/immagini/B£AUTO_09/BXAUTO22.png)
+![B£AUTO22](http://doc.smeup.com/immagini/B£AUTO_09/BXAUTO22.png)
 Passo 3
 Ora rendiamo la scheda non visibile mettendo il valore 91 nel primo campo
 
-![B£AUTO14](http://localhost:3000/immagini/B£AUTO_09/BXAUTO14.png)
+![B£AUTO14](http://doc.smeup.com/immagini/B£AUTO_09/BXAUTO14.png)
 Riprendiamo l'autorizzazione vista precedentemente e modifichiamola. Cambiamo il valore della visibilità da 93 a 91
 In questo caso se si tenta di accedere alla scheda compare il messaggio "Non Autorizzato".
 

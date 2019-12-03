@@ -1,7 +1,7 @@
 # Obiettivo
 Utilizzando le funzioni abilitate (Video, Stampa o File di lavoro) consultare le non conformità rilevate.
 ## Formato guida
-![CQ_PARE_02](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_02.png)
+![CQ_PARE_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_02.png)
 Utilizzando le scelte del formato guida è possibile listare le non conformità secondo diversi valori di ordinamento,
 con 3 livelli di totale e scegliendo se visualizzare le quantità o il valore di ogni non conformità.
 
@@ -25,15 +25,15 @@ Con l'impostazione dei limiti vengono selezionate le non confor mità con i valo
 
 ## Scelta valori in dettaglio
 Si attiva dal fomato guida con F15 : 
-![CQ_PARE_03](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_03.png)
+![CQ_PARE_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_03.png)
 Con la scelta di consultazione di dettaglio viene costruita una riga contenente i dati propri di ogni singola non conformità. La costruzione del dettaglio può essere personalizzata selezionando i valori desiderati tra quelli indicati nella finestra di scelta. Sia pur permettendo la scelta su tutti i valori è scontato che, per esigenze di spazio, la riga conterrà tutto quanto selezionato fino alla sua campienza massima.
 
 ## Consultazione correlazione causa - difetto (esempio a 1 livello)
-![CQ_PARE_04](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_04.png)
+![CQ_PARE_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_04.png)
 ## Selezione ordinamento non conformità (esempio a 2 livelli)
-![CQ_PARE_05](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_05.png)
+![CQ_PARE_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_05.png)
 ## Consultazione non conformità per analisi difetti e costi ricorrente (esempio a 2 livelli)
-![CQ_PARE_06](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_06.png)
+![CQ_PARE_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS10/CQ_PARE_06.png)
 Per ognuna delle non conformità riportate è prevista una serie di opzioni tra cui la consultazione delle registrazioni effettuate tramite il modulo di gestione; il programma permette quindi di recuperare tutte le informazioni relative alla non conformità tra cui : 
  \* azioni intraprese per risolvere il problema;
  \* gli esiti di tali azioni;

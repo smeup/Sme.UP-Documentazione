@@ -10,7 +10,7 @@ Sme.Up GO è un applicativo che ha lo scopo di fornire all'utente finale del cli
 - gestisce gli aggiornamenti di Looc.Up tramite SmeuUp Provider
 - fornisce una serie di utilità aggiuntive
 
-![LOSMEG_012](http://localhost:3000/immagini/LOSMEG_01/LOSMEG_012.png)
+![LOSMEG_012](http://doc.smeup.com/immagini/LOSMEG_01/LOSMEG_012.png)
 ## Gestione connessioni
 L'avvio di Looc.Up può avvenire tramite l'invocazione dell'eseguibile dello Sme.Up GO con parametri passati a linea di comando.
 **Questa pratica è però sconsigliata** in quanto : 
@@ -31,7 +31,7 @@ Per maggiori informazioni si rimanda alla sezione apposita :
 ## Funzionalità avanzate
 In un apposita sezione lo Sme.Up GO fornisce una serie di funzionalità aggiuntive raggruppate in aree di competenza (Strumenti, Cartelle, Sistema).
 
-![LOSMEG_008](http://localhost:3000/immagini/LOSMEG_01/LOSMEG_008.png)
+![LOSMEG_008](http://doc.smeup.com/immagini/LOSMEG_01/LOSMEG_008.png)
 
 |  Nam="Adv_fun" |
 | 
@@ -65,7 +65,7 @@ Di default i file vengono creati in %appdata%. I file in locale hanno però la p
 
 E' possibile gestire questi file in_ Funzioni Avanzate_ -> _Gestione Configurazione_
 
-![LOSMEG_013](http://localhost:3000/immagini/LOSMEG_01/LOSMEG_013.png)
+![LOSMEG_013](http://doc.smeup.com/immagini/LOSMEG_01/LOSMEG_013.png)
 La finestra indica la posizione dei file di configurazione :  (Local) o (Appdata).
 Con un doppio click è possibile modificare ogni parametro, tramite l'apposita maschera di modifica che viene presentata.
 

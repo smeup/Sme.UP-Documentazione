@@ -4,10 +4,10 @@ Nella descrizione dei requisiti sui luoghi, è stato segnalato che esse permetto
 Normalmente ciò non è necessario, in quanto con una particolare descrizione del processo, lo si può realizzare senza definire esplicitamente requisiti sui luoghi.
 
 Per far sì che la transizione 3 sia possibile se c'è un token nel luogo A oppure B (vale a dire che è stata eseguita la transizione 1 oppure la 2) è necessario introdurre un requisito ai luoghi sulla transizione 3 : 
-![Fig_007](http://localhost:3000/immagini/WFBASE_002/Fig_007.png)
+![Fig_007](http://doc.smeup.com/immagini/WFBASE_002/Fig_007.png)
 
 Ristrutturando il processo non è più necessario introdurre questo requisito. Dato che le transazioni 1 e 2 sono alternative (derivano da un OR-Split), soltanto una di esse verrà eseguita, e quindi nel luogo C si produrrà un token : 
-![Fig_008](http://localhost:3000/immagini/WFBASE_002/Fig_008.png)Dopo di ciò il processo prosegue in modo analogo al caso precedente
+![Fig_008](http://doc.smeup.com/immagini/WFBASE_002/Fig_008.png)Dopo di ciò il processo prosegue in modo analogo al caso precedente
 
 
 ### Implementazione del loop
@@ -15,10 +15,10 @@ Ristrutturando il processo non è più necessario introdurre questo requisito. D
 
 Esempio di implementazione di loop Until per la transizione 1 :  si aggiunge una conseguenza ai luoghi sulla transizione 2.
 In base ai parametri del processo, verrà aggiunto un token al luogo A (ripetizione del loop) o al luogo C (uscita dal loop) : 
-![Fig_009](http://localhost:3000/immagini/WFBASE_002/Fig_009.png)
+![Fig_009](http://doc.smeup.com/immagini/WFBASE_002/Fig_009.png)
 Esempio di implementazione di loop While per la transizione 2 :  si aggiunge una conseguenza ai luoghi sulla transizione 1.
 In base ai parameri del processo, verrà aggiunto un token al luogo B (ingresso nel loop) o al luogo D (superamento del loop).
-![Fig_010](http://localhost:3000/immagini/WFBASE_002/Fig_010.png)
+![Fig_010](http://doc.smeup.com/immagini/WFBASE_002/Fig_010.png)
 
 ### Biforcazioni
 Una biforcazione può essere costutuita da un arco che si biforca in due (o più) luoghi

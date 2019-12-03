@@ -37,13 +37,13 @@ contiene sia operazioni forzate sia operazioni libere. L'ordinamento è deciso d
 Una cella si trova in uno di questi stati (identificati dala forma)
 -  Iniziata
 
-![FIG_003](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_003.png)-  Libera
+![FIG_003](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_003.png)-  Libera
 
-![FIG_002](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_002.png)-  Congelata
+![FIG_002](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_002.png)-  Congelata
 
-![FIG_001](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_001.png)-  Forzata
+![FIG_001](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_001.png)-  Forzata
 
-![FIG_004](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_004.png)
+![FIG_004](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_004.png)
 Le azioni si dividono, per la modalità operativa di esecuzione in : 
 -  Statiche :  si eseguono puntando una cella e selezionando il menu popup.
 -  Dinamiche :  si eseguono trascinando una cella in una posizione significativa
@@ -72,11 +72,11 @@ Dopo aver eseguito l'azione, viene ripresentato il formato di dettaglio con la f
 
 Nella figura seguente viene presentata una situazione con tutte le celle libere.
 
-![FIG_029](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_029.png)Selezionando la terza cella (414590), appare il seguente popup. SI noti che tutta la riga viene evidenziata
+![FIG_029](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_029.png)Selezionando la terza cella (414590), appare il seguente popup. SI noti che tutta la riga viene evidenziata
 
-![FIG_030](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_030.png)Se si sceglie di congelarla, il dettaglio assumerà in modo automatico il seguente aspetto (con le celle fino a quella selezionata che diventano congelate).
+![FIG_030](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_030.png)Se si sceglie di congelarla, il dettaglio assumerà in modo automatico il seguente aspetto (con le celle fino a quella selezionata che diventano congelate).
 
-![FIG_031](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_031.png)
+![FIG_031](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_031.png)
 ## Scelte specifiche
 Sono attivate (sia nel Gantt sia in Incolonnata) quando si è in presentazione delle risorse specifiche di una risorsa generale, ed esse sono più d'una.
 Posizionandosi su di una cella, si presenta, nel pop-up, il bottone "Sposta nel gruppo" :  selezionandolo, appare un menu a tendina con le risorse specifiche del gruppo; la scelta di una di esse vi provoca la forzatura della fase corrispondente alla cella.
@@ -101,28 +101,28 @@ Nel seguito diamo alcuni esempi di queste rappresentazioni.
 
 Se non vi sono filtri di risorse appare il seguente menu :  tutte le risorse, ad eccezione della attuale, sono selezionabili (carattere normale), ma nessuna è preferenziale (colore blu)
 
-![FIG_023](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_023.png)
+![FIG_023](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_023.png)
 Le ulteriori forme di presentazione si differenziano in base alla scelta di impostazione :  se si possono selezionare tutte le risorse o solo quelle del filtro.
 
 **Se sono selezionabili tutte le risorse, si presenta una delle seguenti situazioni.**
 
 Nel seguente esempio vi sono due risorse del filtro (MOA.02, che è la risorsa attuale) e MOA.03 (segnalate in verde). L'unica risorsa non sceglibile (a bassa intensità) è la risorsa attuale.
 
-![FIG_024](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_024.png)Nel seguente esempio l'unica risorsa del filtro è la risorsa attuale MOA.01, (freccia verde), che è l'unica non sceglibile (a bassa intensità).
+![FIG_024](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_024.png)Nel seguente esempio l'unica risorsa del filtro è la risorsa attuale MOA.01, (freccia verde), che è l'unica non sceglibile (a bassa intensità).
 
-![FIG_025](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_025.png)Nel seguente esempio le risorse del fitro sono MOA.02 e MOA.03 (segnale di spunta verde).
+![FIG_025](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_025.png)Nel seguente esempio le risorse del fitro sono MOA.02 e MOA.03 (segnale di spunta verde).
 La risorsa attuale MOA.01 (unica non sceglibile, a bassa intensità) non è del filtro (freccia blu).
 
-![FIG_026](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_026.png)
+![FIG_026](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_026.png)
 **Se sono selezionabili solo le risorse del filtro, si presenta una delle seguenti situazioni.**
 
 Nel seguente esempio vi sono tre risorse del filtro (MOB.02, che è la risorsa attuale), MOB.05  e MOB.08 (segnalate in verde. Queste ultime sono le uniche sceglibili (le altre sono a bassa intensità).
 
-![FIG_027](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_027.png)Nel seguente esempio L'unica risorsa del filtro è la risorsa ASA.06 (verde) che è l'unica sceglibile (le altre sono in bassa intensità).
+![FIG_027](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_027.png)Nel seguente esempio L'unica risorsa del filtro è la risorsa ASA.06 (verde) che è l'unica sceglibile (le altre sono in bassa intensità).
 La risorsa attuale ASA.08, non del filtro, è contrassegnata da una freccia rossa, in quanto costituisce un'anomalia :  non appartiene al filtro, ed il filtro è vincolante.
 Il motivo più probabile è che è stata iniziata su di una risorsa non ammessa, oppure che il filtro è stato modificato dopo averla forzata o congelata.
 
-![FIG_028](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_028.png)
+![FIG_028](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_028.png)
 # Azioni dinamiche
 Le azioni dinamiche, ottenute per trascinamento di una cella, dipendono dal tipo di visualizzazione.
 Non è permesso spostare un' operazione iniziata :  se la si punta viene emesso un messaggio d'errore.
@@ -135,26 +135,26 @@ Se la cella non scavalca nessun'altra cella, oppure precede una cella iniziata, 
 
 Ad esempio, se si ha la seguente situazione
 
-![FIG_032](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_032.png)
+![FIG_032](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_032.png)
 e si sposta la cella 414590 a destra della 424677 per decidere di eseguirla dopo di essa
 
-![FIG_033](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_033.png)
+![FIG_033](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_033.png)
 al rilascio del mouse il Gantt si riaggiorna nel seguente modo, con le due celle invertite (verticalmente), e con tutte le celle congelate fino a quella mossa. Quest'ultima rimane, orizzontalmente, nella posizione in cui era stata trascinata
 
-![FIG_034](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_034.png)
+![FIG_034](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_034.png)
 La sua posizione effettiva sarà la seguente, ottenuta dopo aver eseguito la schedulazione globale
 
-![FIG_035](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_035.png)
+![FIG_035](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_035.png)
 L'esemipo seguente mostra invece, partendo dalla stessa situazione iniziale, lo spostamento della cella 424677 a sinistra della cella 414590  per decidere di eseguirla prima di essa.
 Vengono riportati i Gantt dello spostamento, dopo il rilascio del mouse e dopo la schedulazione globale.
 
-![FIG_036](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_036.png)
-![FIG_037](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_037.png)
-![FIG_038](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_038.png)
+![FIG_036](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_036.png)
+![FIG_037](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_037.png)
+![FIG_038](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_038.png)
 Il seguente Gantt riporta un esempio di spostamento non significativo e quindi impedito.
 La cella 414590 è stata spostata a sinistra, ma, dato che non oltrepassa la cella 411490, la sua posizione nella schedulazione rimane la stessa.
 
-![FIG_039](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_039.png)
+![FIG_039](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_039.png)
 ### Trascinamento obliquo
 Il trascinamento obliquo consiste nello spostamento di una cella di dettaglio a sinistra o a destra di un'altra cella di dettaglio.
 Con questa azione sii ottiene il congelamento della risorsa della cella d'arrivo, rispettivamente con la cella d'arrivo esclusa o inclusa, a cui si accoda (pure congelata) la cella spostata.
@@ -166,41 +166,41 @@ Alla successiva schedulazione globale la cella verrà riposizionata in modo corr
 
 Ad esempio, se si parte dalla la seguente situazione
 
-![FIG_032](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_032.png)
+![FIG_032](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_032.png)
 e si sposta la cella 414590 a destra della 411491 per decidere di eseguirla dopo di essa. Si noti che nel trascinamento obliquo non è influente il posizionameto verticale della cella trascinata :  nell'esempio, non ha alcun significato il fatto che la cella 414590 oltrepassi anche la cella sottostante 4112492
 
-![FIG_040](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_040.png)
+![FIG_040](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_040.png)
 al rilascio del mouse il Gantt si riaggiornerà nel seguente modo, con le due celle invertite (verticalmente), e con tutte le celle congelate fino a quella mossa. Quest'ultima è posta, orizzontalmente, a metà tra le celle 411491 e 411492.
 
-![FIG_041](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_041.png)
+![FIG_041](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_041.png)
 La sua posizione effettiva sarà la seguente, ottenuta dopo aver eseguito la schedulazione globale
 
-![FIG_042](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_042.png)
+![FIG_042](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_042.png)
 L'esempio seguente riporta la stessa azione eseguita sull'Incolonnato. Non viene riportata la situazione dopo una rischedulazione, in quanto in questo caso essa non modifica la posizione finale della cella.
 
 La situazione iniziale è la seguente
 
-![FIG_043](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_043.png)
+![FIG_043](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_043.png)
 Si esegue lo spostamento obliquo
 
-![FIG_044](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_044.png)
+![FIG_044](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_044.png)
 Al rilascio del mouse si presenterà il seguente Incolonnato
 
-![FIG_045](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_045.png)
+![FIG_045](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_045.png)
 L'esempio seguente mostra la forzatura di una cella su di una risorsa diversa dall'attuale,  nella presentazione incolonnata.
 
 Da questa situazione di partenza
 
-![FIG_046](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_046.png)
+![FIG_046](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_046.png)
 Per forzare la cella 411490 sulla risorsa specifica ASA.01, si può spostare la cella a destra dell'ultima cella della risorsa in cui la si vuole forzare (409286)
 
-![FIG_047](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_047.png)
+![FIG_047](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_047.png)
 oppure portarla nella riga iniziale della risorsa d'arrivo, che nell'Incolonnato è vuota (questo tipo di spostamento, verso la riga riassuntiva, verrà trattato nel paragrafo successivo)
 
-![FIG_048](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_048.png)
+![FIG_048](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_048.png)
 In entrambi i  casi il risultato finale è il seguente, con la cellla spostata che diventa forzata.  Essa viene posta in ultima posizione :  la successiva schedulazione la collocherà nella posizione definitiva.
 
-![FIG_049](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_049.png)
+![FIG_049](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_049.png)
 ### Trascinamento sulla riga riassuntiva
 Ad ogni cella del Gantt corrisponde una cella sulla riga riassuntiva della stessa risorsa specifica.
 
@@ -245,13 +245,13 @@ La loro visualizzazione permette di forzarvi delle operazioni, trascinandovi una
 
 Nella seguente situazione
 
-![FIG_046](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_046.png)
+![FIG_046](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_046.png)
 per forzare la cella 411490 sulla risorsa ASA.04, si trascina la cella sulla riga di questa risorsa
 
-![FIG_050](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_050.png)
+![FIG_050](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_050.png)
 Al rilascio del mouse si presenterà il seguente Incolonnato
 
-![FIG_051](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_051.png)
+![FIG_051](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_051.png)
 ## Segnalazione spostamenti
 Nella rappresentazione Gantt le celle spostate sono riconoscibili, prima delle rischedulazione, dal fatto che non rispettano esattamente la sequenza temporale.
 Nella rappresentazione incolonnata, invece, ciò non è possibile, perché le celle sono tutte nella stessa posizione.
@@ -259,13 +259,13 @@ Lo spostamento di una cella provoca la cancellazione, in memoria, degli istanti 
 
 Nell'esempio seguente, partendo dalla situazione : 
 
-![FIG_052](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_052.png)
+![FIG_052](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_052.png)
 Se sii esegue il seguente spostamento, decidendo di eseguire la fase 428331 prima della 430892.
 
-![FIG_053](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_053.png)
+![FIG_053](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_053.png)
 Al rilascio del mouse viene presentata la seguente situazione (nella cella mossa data e ora di inizio e fine sono in bianco).
 
-![FIG_054](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_054.png)
+![FIG_054](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_054.png)
 Dopo la schedulazione globale questi campi sono nuovamente valorizzati.
 
-![FIG_055](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_055.png)
+![FIG_055](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AZI/FIG_055.png)

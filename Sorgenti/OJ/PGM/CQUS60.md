@@ -3,5 +3,5 @@ La funzione consente la stampa della griglia dell'audit con tutte le informazion
 
 ## Formato di lancio
 
-![CQ_AUDT_12](http://localhost:3000/immagini/MBDOC_OGG-P_CQUS60/CQ_AUDT_12.png)
+![CQ_AUDT_12](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQUS60/CQ_AUDT_12.png)
 Far riferimento alla documentazione del programma CQUM60.

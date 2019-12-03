@@ -15,7 +15,7 @@ Tale costruzione, oltre a permettere il mantenimento di personalizzazioni, dà a
 Il pgm di lancio del calcolo dei costi standard è D0CA00G, tramite cui è possibile lanciare l'esecuzione del calcolo in funzione di un particolare tipo costo, la modalità di esecuzione del calcolo è alquanto complessa e oltre che dai campi delle tabelle del modulo è condizionata da una serie di parametri che sono stati raggruppati in due categorie di seguito dettagliate.
 
 ### Formato di lancio
-![D0BASE_02](http://localhost:3000/immagini/MBDOC_OGG-P_D0CA00G/D0BASE_02.png)
+![D0BASE_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CA00G/D0BASE_02.png)
 _7_Richiamo pgm di calcolo
  :  : INI
  :  : CMD CALL D0CA00G
@@ -23,7 +23,7 @@ _7_Richiamo pgm di calcolo
 
 ## Parametri dI impostazione
 ### Formato di impostazione parametri
-![D0BASE_03](http://localhost:3000/immagini/MBDOC_OGG-P_D0CA00G/D0BASE_03.png)
+![D0BASE_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CA00G/D0BASE_03.png)
 Sono i parametri che condizionano le modalità di esecuzione del calcolo. Fra i parametri facoltativi è importante il parametro "Memorizzare", senza la cui impostazione non può avvenire la memorizzazione del calcolo che di default non avviene. Le varie configurazioni di tali parametri sono memorizzabili con ambiente D0CA00A1.
 
 _7_Gestione MDV - D0CA00A1
@@ -47,7 +47,7 @@ _7_Gestione MDV - D0CA00A1
 
 ## Parametri di funzione
 ### Formato di impostazione programmi
-![D0BASE_04](http://localhost:3000/immagini/MBDOC_OGG-P_D0CA00G/D0BASE_04.png)
+![D0BASE_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CA00G/D0BASE_04.png)
 Premettendo che il calcolo standard presuppone obbligatoriamente l'utilizzo del sottosettore standard della tabella IGI£C (Indici di gestione/Costi articolo standard), queste sono le sue peculiarità : 
  \* _2_D0CA01_00, di ogni articolo presente nel file di work vengono lette le politiche e, in funzione di esse, viene calcolato il costo nel seguente modo :  in presenza di politica d'acquisto viene letto il costo del materiale (in base al tipo costo materiale passato) e relativa ricarica, in presenza di politica di c/lavoro viene letto il costo di c/lavoro, relativa ricarica e viene scandita la distinta di c/lavoro, in presenza infine della politica di produzione vengono scanditi il ciclo e la distinta di produzione. Alla fine, in base al tema definito nel tipo costo, i risultati verranno memorizzati su D5COSO e, se non specificato diversamente, in presenza di una politica di produzione verranno memorizzati anche i costi progressivi di ogni fase.
  \* _2_D0CA04_00, le politiche vengono lette tramite 3 OAV dell'articolo

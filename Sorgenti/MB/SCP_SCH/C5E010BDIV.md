@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare il bilancio per divisione.
 
-![C5E010_010](http://localhost:3000/immagini/MBDOC_SCH-C5E010BDIV/C5E010_010.png)
+![C5E010_010](http://doc.smeup.com/immagini/MBDOC_SCH-C5E010BDIV/C5E010_010.png)
 ## Parametri di lancio
 
   \* Esercizio :  in questo campo è necessario impostare l'esercizio che interessa analizzare. Se non è impostato nessun valore il sistema assume l'esercizio corrente

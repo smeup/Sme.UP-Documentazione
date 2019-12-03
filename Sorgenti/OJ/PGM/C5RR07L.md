@@ -18,7 +18,7 @@ La relazione che si instaura fra l'avviso e la rata viene mantenuta anche succes
 
 Scrivendo '?' nel campo bianco a fianco della registrazione interessata si visualizzano una serie di opzioni illustrate in seguito : 
 
-![C5D010_045](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR07L/C5D010_045.png)
+![C5D010_045](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR07L/C5D010_045.png)
 -Attribuisci rata mi può portare a 3 diverse opzioni :  la prima mi trova subito la corrispondenza corretta ,la seconda trova una serie di anagrafiche verosimili (esempio due con la stessa ragione sociale), la terza non trova nulla e occorre fare una ricerca ex novo;
 -Attribuisci rata manuale, coincide alla terza opzione qui sopra e si utilizza se l'attribuzione in automatico è sbagliata;
 -Annulla avviso se voglio escludere questo avviso;

@@ -14,16 +14,16 @@ Iniziamo da questo aspetto che non è affatto estetico o commerciale, come appar
 Per "capire" la situazione reale di un cliente, tanto per fare un esempio, può essere necessario passare dal fido ai pagamenti ed agli insoluti, dagli ordini alla redditività e così via. Troppi passaggi che fanno perdere il filo e minacciano la bontà della valutazione d'assieme. È indispensabile uno strumento capace di portare l'informazione giusta al posto giusto nel momento giusto.
 Nei sistemi tradizionali le informazioni sono accessibili attraversi metodi di ricerca gerarchica, ad esempio da una fattura di vendita, si può accedere alla testata della bolla che l'ha generata e da questa al cliente a cui è riferita, seguendo un altro ramo si attraversa il dettaglio per arrivare all'articolo ed alle informazioni commerciali e di magazzino collegate.
 
-![AAP_VAP_01](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_01.png)
+![AAP_VAP_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_01.png)
 Sme.up, grazie alla sua struttura ad oggetti applicativi ed alle possibilità fornite dall'interfaccia grafica permette una migliore navigazione attraverso i dati passando dalle informazioni caratteristiche di un oggetto a quelle di un altro qualsiasi oggetto ad esso collegato e così via utilizzando un sistema di navigazione reticolare.
 
-![AAP_VAP_02](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_02.png)
+![AAP_VAP_02](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_02.png)
 L'interfaccia grafica (Looc.up), a cui rimandiamo per i dettagli, è semplice da utilizzare ma estremamente potente e comprende le più significative funzionalità tipiche dei fogli Excel e degli strumenti di Business Intelligence.
 
 # Integrabilità con applicazioni esistenti
 Sostituire un ERP ricostruendo pazientemente sul nuovo applicativo le peculiarità del precedente è un'operazione lunga, complessa e costosa. Non sempre l'azienda ha tutte le capacità di analisi adeguate per indirizzare opportunamente il fornitore di software o la disponibilità di personale esperto e qualificato a sufficienza per guidare un'evoluzione che coinvolga tutte le aree e tutte le funzioni. Inoltre l'impatto sull'azienda del cambiamento del sistema informatico nella sua totalità arreca un notevole disturbo aziendale.
 
-![AAP_VAP_03](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_03.png)
+![AAP_VAP_03](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_03.png)
 È molto meglio operare con gradualità, focalizzando l'attenzione su problematiche specifiche.
 
 Uno dei punti di forza di Sme.up deriva dalla sua struttura rigorosamente ad oggetti attraverso la quale ogni modulo (anzi :  ogni singola funzionalità) può ricevere informazioni, senza duplicazioni di dati, da altri applicativi e quindi costituire un sistema informativo "ibrido".
@@ -33,7 +33,7 @@ Risulta sempre conveniente potenziare l'esistente piuttosto che sostituirlo, qua
 
 Questo modo di procedere che noi chiamiamo "Rilascio per processi" limita fortemente l'impatto sull'intero sistema azienda e fa di una apparente debolezza (il tempo totale di implementazione) un punto di forza in quanto consente a tutte le persone dell'azienda coinvolte nell'implementazione una migliore comprensione delle logiche e della filosofia di Sme.up in modo di collaborare con gli installatori ed i customizzatori ad una riuscita ottimale del progetto.
 
-![AAP_VAP_04](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_04.png)
+![AAP_VAP_04](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_04.png)
 Come confermano le installazioni in numerosi paesi europei, Sme.up è predisposto per una completa internazionalizzazione attraverso una serie di caratteristiche tra le quali : 
  \* **Traduzione** :  il prodotto è già disponibile in una decina di lingue diverse :  la traduzione viene guidata attraverso opportune tabelle, nessuna parte del codice viene duplicata; tecnicamente, le parole e le frasi sono state trasformate in 'oggetti' e beneficiano quindi dei numerosi vantaggi di questi
  \* **Lingua** :  ogni singolo utente può scegliere la lingua attraverso la quale interagire con il sistema
@@ -116,7 +116,7 @@ Le azioni di un oggetto sono :
  \* __Ridefinibili da script__ :  è suggerito un pop.up standard valido per tutti i tipi, poi per particolari oggetti questo può essere specializzato mediante script
 La centralizzazione della gestione delle azioni rende possibile l'integrazione nativa del modulo di workflow con gli oggetti di Sme.up :  cedendo il controllo sulla gestibilità degli oggetti al modulo di workflow stesso si abilita una gestione molto potente degli oggetti di Sme.up, comandata dai processi aziendali.
 
-![AAP_VAP_05](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_05.png)
+![AAP_VAP_05](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_05.png)
 # Strumenti di base
 **Tabelle**
 Un apposito strumento di utilità permette la gestione di archivi non complessi, senza la necessità di scrivere alcuna riga di codice. I campi dell'archivio ed i controlli a cui devono essere sottoposti vengono definiti in modo immediato e diretto. Questa impostazione standard è stata utilizzata per la gestione di tutte le tabelle di Sme.up, vale a dire degli elementi che guidano il funzionamento dell'applicazione (causali, classi, tipologie). È inoltre a disposizione dell'utente per realizzare applicazioni personali.
@@ -147,7 +147,7 @@ L'applicazione guida gli utenti nell'esecuzione dei processi :
  \* porta negli impegni tutte le informazioni necessarie per svolgere il lavoro :  oggetti Sme.up, documentazione, chiamate di menù...
 Dal punto di vista dell'utente questo si traduce nella consultazione di una worklist, che contiene i diversi compiti da svolgere :  selezionando uno di questi gli verranno presentate tutte le informazioni utili e le azioni da eseguire. Portato a termine il compito, sarà il sistema ad avanzare il lavoro in maniera automatica ed immediata, portando le attività successive nelle worklist dei relativi utenti.
 
-![WF-FIG0001](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/WF-FIG0001.png)
+![WF-FIG0001](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/WF-FIG0001.png)
 **Ricerche**
 Ogni volta che viene richiesto un codice, oltre alle consuete ricerche (per lo stesso codice e alfabetica) sono presenti le seguenti funzioni : 
  \* __ricerca contestuale__, che presenta i soli codici significativi in quello specifico contesto; ad esempio, quando si richiede un assieme nella manutenzione distinta base, è possibile richiamare una lista dei soli codici che sono presenti nella distinta come assiemi
@@ -167,24 +167,24 @@ L'interfaccia Looc.UP dispone di una ricchissima gamma di componenti originali, 
 **Scheda**
 È il contenitore che raccoglie in una stessa mappa informazioni eterogenee collegate ad uno stesso oggetto. Ne offre un'immagine completa, data la sua capacità di gestire contestualmente le classiche informazioni gestionali (come i dati anagrafici, le giacenze, la disponibilità, la distinta base, i costi per un articolo) accanto ad altre di differente (quali la fotografia, gli andamenti grafici, i semafori che segnalano non conformità o sotto scorta). All'interno della Scheda possono essere richiamate le altre componenti.
 
-![AAP_VAP_06](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_06.png)
+![AAP_VAP_06](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_06.png)
 **Matrice**
 Chiunque abbia adoperato un foglio elettronico è rimasto colpito dalla duttilità di utilizzo :  riordinamenti su una o più colonne, filtri di selezione dei contenuti, eliminazione o spostamento di intere colonne ed altro ancora. La Matrice ne ricalca il meglio delle caratteristiche, riportando un archivio o la parte prescelta in forma tabellare e rielaborando i dati allo stesso modo di quanto avviene con Excel e le sue tabelle Pivot. In aggiunta, è disponibile la funzione tipica delle modalità OLAP negli strumenti di Business Intelligence che permette di "sintetizzare" una o più delle dimensioni :  ad esempio i dati di vendita possono essere evidenziati, su richiesta, per zona, agente, famiglia di prodotti o qualsiasi altra caratteristica. La funzione "__colonne aggiuntive__" premette di arricchire le dimensioni della scheda con gli attributi (impliciti o calcolati) degli oggetti rappresentati, in questo modo partendo da schede semplici si possono ottenere report ritagliati sulle esigenze dello specifico utente. Altre informazioni preziose possono derivare da calcoli automatici che è possibile eseguire sui dati, quali il totale di una colonna, i valori medi, i massimi o i minimi. Questa impostazione consente di razionalizzare e sostituire in modo immediato e produttivo qualsiasi tipo di statistica.
 Un'ultima caratteristica rende preziosa l'esposizione a Matrice, che già consente una visione più ampia e completa di una base dati :  l'aggiornamento. Qualsiasi dato contenuto in una cella può essere variato a piacere da un utente autorizzato.
 __Nota__ :  Per evidenti motivi di sicurezza, la funzione di aggiornamento viene inibita quando si operi su basi dati che non siano quelle proprietarie di Sme.UP. Infatti, solo all'interno del nostro ERP la Matrice sa riconoscere i livelli di autorizzazione necessari perché la funzione di aggiornamento sia sicura, e dispone dei controlli di congruenza che sovrintendono alla integrità del data base.
 
-![AAP_VAP_07](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_07.png)
+![AAP_VAP_07](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_07.png)
 **Albero**
 L'abitudine di rappresentare le informazioni in forma di "albero" è generalmente limitata a pochi casi, come la presentazione della distinta base oppure il layout dei menu nell'ambiente Windows. Sme.UP ha valorizzato la potenza espressiva di questa rappresentazione in qualsiasi situazione nella quale sia conveniente ed espressivo esprimere le relazioni tra oggetti in forma gerarchica. Ad esempio, la visualizzazione ad albero di un magazzino suddiviso in aree, corridoi, scaffali ed ubicazioni si rivela molto più immediata di qualsiasi altra più tradizionale.
 
 **Grafico**
 È noto che la rappresentazione grafica migliora e rende più immediata la percezione dei fenomeni e delle informazioni contenute in un archivio. Sme.UP mette a disposizione una gamma estremamente ampia e sofisticata di modalità di rappresentazione in grado di descrivere una o più serie numeriche. Una caratteristica da mettere in evidenza è il fatto che si tratta di immagini attive, cioè di informazioni sulle quali è possibile indagare attraverso un doppio click del mouse che dà accesso ai dati sottostanti.
 
-![AAP_VAP_08](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_08.png)
+![AAP_VAP_08](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_08.png)
 **Diagramma di Gantt**
 Prezioso per qualsiasi funzione applicativa che abbia la necessità di presentare attività che si collocano in un intervallo di tempo. La schedulazione della produzione, lo sviluppo temporale della distinta di un prodotto finito ai vari livelli ne sono solo due esempi. Anche il Diagramma di Gantt dispone delle caratteristiche di immagine attiva comune alle altre rappresentazioni grafiche, come descritto in precedenza.
 
-![S5_001C](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/S5_001C.png)
+![S5_001C](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/S5_001C.png)
 **Testo**
 Considerando che il "contenitore" rappresentato dalla Scheda di Sme.UP fa da raccordo a informazioni di qualsiasi tipo, questa modalità sfrutta le proprietà di un ambiente visuale che permettono funzioni quali copia o taglia/incolla, preziose per realizzare, ad esempio, la documentazione di una funzione applicativa o per registrare le istruzioni d'uso.
 
@@ -200,7 +200,7 @@ Risolvono un'ampia gamma di problematiche connesse alla catalogazione e alla pre
 # Copertura applicativa
 Per il modo con cui Sme.UP è stato concepito, è estremamente arduo predisporre una descrizione esaustiva dei processi che è in grado di svolgere e dei comportamenti che è in grado di assumere.
 
-![B£BASE_088](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/BXBASE_088.png)
+![B£BASE_088](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/BXBASE_088.png)
 Questa affermazione si basa sulle seguenti caratteristiche : 
  \* __la rigorosa architettura ad oggetti__, dato che la potenza funzionale deriva dall'efficacia descrittiva la modularità, con le funzioni elementari che si compongono per realizzare processi articolati;
  \* __la parametrizzazione__, considerando che la combinazione delle singole scelte applicative tabellari porta a comportamenti eterogenei
@@ -220,7 +220,7 @@ Rappresenta la realtà fisica dell'azienda :  se essa è formata da più plant (
  \* le aree di corso lavoro si suddividono in risorse, in modo da tenere sotto controllo la giacenza a piede macchina
 Si definiscono le unità di movimentazione (colli, pallet, contenitori, ecc..) tramite le quali si possono eseguire gli spostamenti fisici tra le varie aree.
 
-![AAP_LOG_04](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_LOG_04.png)
+![AAP_LOG_04](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_LOG_04.png)
 # Articoli
 Gli articoli sono tutti gli oggetti fisici con cui si ha a che fare nella gestione aziendale, sia per tenere traccia della loro quantità (articoli gestiti a magazzino), sia soltanto per poterli muovere (all'interno dell'azienda oppure da o verso l'esterno), oppure per scopi descrittivi (in questi ultimi casi si tratterà di articoli non gestiti a magazzino). Sono articoli, oltre alle materie prime, ai semilavorati e ai prodotti finiti, anche gli stampi, gli utensili, gli attrezzi, i materiali accessori. La tipologia dell'articolo permette di identificare ciascuna di queste sottoclassi.
 
@@ -269,7 +269,7 @@ Il documento descrive un'attività di trasferimento da o verso l'esterno, sia pr
  \* contratto
 Ciascuna di esse viene individuata dal tipo documento, che permette di differenziare i comportamenti specifici.
 
-![AAP_VAP_11](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_11.png)
+![AAP_VAP_11](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_11.png)
 # Flusso di documenti
 Un documento si trasforma in un altro (generalmente di tipo diverso) attraverso un flusso di attività, vale a dire un insieme di passi elementari, quali la richiesta dell'ente interessato, del documento di origine, la scelta delle righe da trasferire, con le relative quantità. Ogni passo è ampiamente parametrizzabile (ad esempio si può impostare di accettare documenti solo in un certo stato), ed inoltre è possibile aggiungere passi personali che, essendo scritti rispettando le convenzioni del colloquio, vengono richiamati in modo naturale dalla funzione di esecuzione del flusso.
 
@@ -307,7 +307,7 @@ Le richieste di conto lavoro pieno normalmente provengono dalla pianificazione m
 # Ordini di produzione
 L'ordine di produzione ha lo scopo di programmare la realizzazione di un articolo, in una quantità e per una data. Tale realizzazione necessita di un consumo di materiali e di risorse (vedi il punto successivo). È possibile usare il ciclo o la distinta standard, oppure definirne di specifici. Ciò si realizza sfruttando la possibilità di intestarli ad oggetti che non sono articoli :  in questo caso si intesta, ad esempio, la distinta all'ordine di produzione, con il vantaggio, per l'utente, di usare la funzione di manutenzione della distinta base. Le stesse considerazioni valgono per il ciclo dell'ordine. Si possono definire ordini di rilavorazione, impostando come componente lo stesso articolo che si vuol ottenere ed aggiungendo, eventualmente, i componenti da sostituire e togliendo quelli da smontare (recuperi). È possibile assegnare un ordine di produzione ad un ordine "master", e questo a più livelli, in modo che si possa costituire una struttura ad albero. Si possono definire anche ordini di trasformazione :  si imposta, oltre all'articolo che si vuole ottenere, anche l'articolo di partenza, che si vuole trasformare :  il sistema costruirà una distinta "dinamica", che conterrà come impegni i componenti presenti solo nell'articolo d'arrivo, e come recuperi quelli presenti solo nell'articolo di partenza, mentre i componenti comuni verranno trascurati. È presente la schedulazione a capacità infinita degli ordini di produzione (sia al più presto sia al più tardi, sia entrambe) che, oltre a dare una idea di massima del carico, e quindi costituire la base del CRP, fornisce le informazioni per determinare gli indici di avanzamento dell'ordine (slack time, critical ratio, ecc..), utilizzabili come dispatching rules nella schedulazione a capacità finita. È possibile inoltre non intestare un ordine di produzione ad un articolo specifico, ma sfruttarlo come un insieme di attività da eseguire e di materiali da consumare, ad esempio per compiere una manutenzione. Vi sono funzioni specifiche per realizzare il prelievo ed il versamento a magazzino. C'è inoltre la possibilità di realizzare il prelievo in automatico a backflushing, all'atto del versamento o dell'avanzamento. Maggiori particolari verranno esposti nella descrizione della movimentazione interna.
 
-![AAP_VAP_10](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_10.png)
+![AAP_VAP_10](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_10.png)
 # Impegni materiali e risorse
 Gli impegni materiali costituiscono l'insieme degli articoli, con le relative quantità, necessari per produrre un assieme. Essi possono essere intestati ad oggetti diversi (righe di documento, richieste d'acquisto, ordini di produzione). La loro costruzione è automatica, a partire dalla distinta base dell'assieme, nettificata dai movimenti già eseguiti. Gli impegni risorse sono il corrispondente, per quanto riguarda il consumo di risorse. Anch'essi possono essere intestati ad oggetti diversi (righe di documento, ordini di produzione, contenitori). Pure la loro costruzione è automatica, a partire dal ciclo dell'assieme, nettificato dalle attività eseguite.
 
@@ -352,7 +352,7 @@ L'inventario, dopo essere stato compilato, può essere stampato o visualizzato, 
 # Fotografia di magazzino
 È una funzione che permette di memorizzare la situazione delle giacenze ad una qualsiasi data. È inoltre possibile ottenere fotografie incrementali (differenze tra le situazioni a due date), oppure dalla giacenza attuale, oppure dal magazzino fiscale. La fotografia così ottenuta può essere visualizzata o stampata, eventualmente riaggregata a livelli superiori, e valorizzata secondo un tipo di costo selezionato.
 
-![GMANIN_01](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/GMANIN_01.png)
+![GMANIN_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/GMANIN_01.png)
 # Magazzino fiscale
 Questo modulo offre uno strumento per valorizzare le rimanenze di magazzino. È possibile definire più scenari, per simulare diverse modalità di valorizzazione. È inoltre data la facoltà di escludere alcune aree dalla valorizzazione, definendole non fiscali (materiale di terzi in azienda, scarti, ecc.).
 
@@ -392,14 +392,14 @@ I risultati della pianificazione sono consultabili con una potente funzione di p
  \* simulare l'impatto della variazione di una copertura (riduzione della quantità e posticipo della data) sui fabbisogni fino al livello dell'assieme.
 I suggerimenti (sia di nuovi ordini sia di azione sull'esistente) sono applicabili, per chi ne ha l'autorizzazione, direttamente da questa funzione. Data la completa modularità del disegno, la pianificazione materiali può essere inserita, senza alcuna duplicazione di dati, in qualsiasi sistema gestionale :  i dati dell'ambiente (articoli, fabbisogni, coperture) vengono integrati dai dati di pianificazione (inseriti in Sme.UP). L'applicazione dei suggerimenti è realizzata in modo che la scrittura dei dati sull'ambiente (ordini di produzione e d'acquisto), venga realizzata con una interfaccia specifica.
 
-![M5CMRP_022](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/M5CMRP_022.png)
+![M5CMRP_022](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/M5CMRP_022.png)
 # ATP (Available To Promise)
 L'ATP è uno strumento che permette di datare al più presto una quantità richiesta dal cliente, in funzione della disponibilità dell'articolo e dei suoi componenti (ad ogni livello), dei tempi di approvvigionamento, ed opzionalmente di vincoli di capacità produttiva. Esso può funzionare sia come simulazione (imputando un articolo ed una quantità viene presentata la miglior data), sia in effettivo (all'atto della conferma di una riga di ordine cliente datata con ATP vengono impegnate le disponibilità dell'articolo o dei suoi componenti che vengono usate per poter rispettare la data di consegna proposta). Ricordiamoci che questo strumento, che è ai primissimi posti nella hit parade dei desideri degli utenti di sistemi informativi gestionali, per poter dare risultati attendibili (e quindi non sottoposti ad una successiva revisione manuale), necessita che il resto dell'applicazione (giacenze, ordini e impegni futuri, in corso e pianificati) sia ad un livello di affidabilità pressoché totale, e comunque assai superiore a quanto richiesto per un funzionamento accettabile della pianificazione materiali.
 
 # Mancanti per commessa
 È un modulo operativo che, a partire da un insieme di fabbisogni principali, impostabili manualmente (una lista di articoli, quantità e date), oppure estraendoli dal sistema (ordini clienti, di produzione, commesse), ne esamina la fattibilità, a tutti i livelli, in base alle coperture esistenti, segnalando i mancanti. A differenza dalla pianificazione materiali, che esamina la totalità degli impegni, (indipendenti e dipendenti), questo strumento cerca di soddisfare soltanto quelli derivati dai fabbisogni principali impostati :  è come se l'intera azienda, nel breve periodo, avesse come unico obiettivo il loro soddisfacimento. La segnalazione dei mancanti è puramente operativa :  non tiene conto di lotti minimi e multipli. Per contro, le coperture vengono soddisfatte al più presto, eventualmente anche spezzandole in più date, qualora sia possibile una copertura parziale. Questo modulo risponde alle esigenze di esaminare le criticità e le urgenze, che si determinano a fronte di imprevisti nel processo produttivo. In particolare, in una gestione a commessa, permette di tenere sotto controllo i materiali necessari per ciascuna di esse. Sono attive visualizzazioni che permettono di navigare dalle coperture agli impegni, a tutti i livelli di distinta base, con filtri sulle criticità (tutti i fabbisogni, esclusione di quelli coperti da giacenza, o da ordini in corso o pianificati).
 
-![JM_01_05](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/JM_01_05.png)
+![JM_01_05](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/JM_01_05.png)
 # Schedulazione operativa
 La schedulazione Fine.UP costituisce uno strumento interattivo e grafico, che fa parte nativamente del sistema gestionale, atto a risolvere i problemi di allocazione delle risorse e di sequenziazione delle attività, che si presentano quotidianamente nelle aziende produttive e di servizi.
 
@@ -433,7 +433,7 @@ Le principali caratteristiche dell'applicazione sono :
  \*\* di estendere le informazioni riportate nella presentazione dei risultati
  \*\* di realizzare forme di presentazioni 'ad hoc', integrate nella navigazione della presentazione dei risultati.
 
-![S5_001B](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/S5_001B.png)
+![S5_001B](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/S5_001B.png)
 # Produzione a disponibilità chiamata
 La produzione a disponibilità chiamata (PDC) è una particolare modalità di gestione della produzione, di nostra concezione, che ha lo scopo di rappresentare il processo produttivo in modo più "fisico" rispetto agli ordini di produzione. Essa si basa sull'assunto che la movimentazione in produzione avvenga per contenitori, e sulla rappresentazione "logistica" del ciclo produttivo come un insieme di risorse (centri di lavoro o macchine), ciascuna delle quali ha un'ubicazione a monte e a valle. Gli ordini pianificati dall'MRP si traducono in contenitori pianificati. All'atto dell'inizio delle attività, essi si tramutano in contenitori effettivi. Il loro spostamento da una ubicazione all'altra, induce una dichiarazione di avanzamento automatica, nel caso che le ubicazioni siano a monte e a valle di una risorsa (l'informazione logistica contiene, implicitamente, quella produttiva). Lo spostamento all'ubicazione finale rappresenta il versamento a magazzino. In tal modo non si introduce un livello di informazione immateriale (l'ordine di produzione, con le rigidità che esso comporta), ma ci si limita a registrare tutto ciò che avviene in fabbrica :  si riempiono contenitori, li si sposta, li si dichiara bloccati in caso di verifica della qualità, si sposta del materiale da un contenitore all'altro, ecc.. Inoltre, dato che gli ordini rimangono sempre pianificati, vengono "tirati" i contenitori di volta in volta più urgenti (lo strumento trae il nome da questa peculiarità :  si "chiama" la disponibilità presente in fabbrica, sotto forma di contenitori nelle diverse ubicazioni, e quindi a diversi gradi di completamento del ciclo produttivo).
 
@@ -465,7 +465,7 @@ Caratteristiche principali :
  \* Elaborazioni in modalità provvisoria/definitiva/ristampa annullamento (es. giornale, registri iva, generazione reg. apertura/chiusura ecc.);
  \* Gestione lettere.
 
-![AAP_VAP_12](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_12.png)
+![AAP_VAP_12](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_12.png)
 # Piano dei conti / Riclassifiche
 La struttura del piano dei conti non segue la tradizionale suddivisione in mastro/conto/sottoconto (a tre o quattro livelli), ma assegna semplicemente ad ogni conto 'n' riclassifiche, ciascuna delle quali è un attributo, anche virtuale, del conto. Con questo modello si possono definire strutture del piano dei conti del tutto libere e di 'profondità' variabile, per coprire le più diverse esigenze di rappresentazione aggregata del bilancio, tra le quali il bilancio CEE.
 
@@ -478,7 +478,7 @@ Particolare cura è stata posta nella definizione di modelli preimpostati per le
 # Rate
 La registrazione, se prevede un pagamento futuro, si sviluppa in una o più rate (sia in modo automatico sia inseribili manualmente), che costituiscono la base su cui si svilupperà la gestione dei crediti e dei debiti. La rata è un oggetto distinto dalla riga di registrazione, che ne rappresenta una possibile origine. Questo disaccoppiamento è dovuto al fatto che una rata è collegabile a qualsiasi oggetto. Ad esempio, da una riga di un ordine di vendita o d'acquisto si possono generare le rate delle previsioni di pagamento (in valore e data), che costituiscono le informazioni su cui si baserà l'esposizione dei flussi di cassa. Per un controllo puntuale dei pagamenti, abbiamo introdotto il concetto di rata di dovuto e di pagato :  la rata generata da una registrazione che prevede un pagamento futuro è una rata di dovuto La registrazione di pagamento genera invece una rata di pagato, che si collega esplicitamente ad una ed una sola rata di dovuto (qualora il pagamento chiuda più rate di dovuto il sistema genera automaticamente più rate di pagato per mantenere l'accoppiamento).
 
-![C5D010_033](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/C5D010_033.png)
+![C5D010_033](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/C5D010_033.png)
 # Pratiche amministrative
 È stato introdotto il concetto (e quindi l'oggetto) di "pratica amministrativa", che costituisce il raggruppamento di un insieme di oggetti su cui eseguire azioni comuni. In tal modo si uniforma la rappresentazione di funzioni eterogenee quali la costruzione di una distinta effetti, di un elenco solleciti per pagamento scaduti, di un documento Iva. Naturalmente ogni tipo diverso di pratica ha una propria modalità di composizione.
 
@@ -498,7 +498,7 @@ Questa funzione si basa sull'accoppiamento tra le rate di dovuto e di pagato :  
  \* viene eseguita la registrazione contabile sia per un singolo documento, sia di massa, (anche partendo dalle fatture ricevute via EDI), mentre il controllo viene eseguito in un secondo tempo;
  \* è inoltre possibile eseguire in modo automatico la registrazione delle fatture da ricevere e da emettere, che verranno in seguito stornate (dalla registrazione della fattura se di un esercizio successivo, manualmente se nello stesso esercizio). In tal modo si tiene conto del valore in attesa fattura, sia nel ciclo attivo sia in quello passivo.
 
-![C5C040_005](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/C5C040_005.png)
+![C5C040_005](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/C5C040_005.png)
 # Ritenute d'Acconto
 La gestione delle ritenute d'acconto è completamente integrata nella registrazione contabile. All'atto della registrazione della fattura, se l'ente è definito come percipiente, viene presentato un formato ulteriore in cui si inseriscono le informazioni specifiche della ritenuta. All'atto del pagamento della ritenuta, viene generata in modo automatico una riga di registrazione di chiusura. È prevista inoltre la stampa delle lettere di certificazione e la produzione dell'archivio relativo al modello 770.
 
@@ -508,7 +508,7 @@ Oltre all'adempimento degli obblighi fiscali, sono presenti le seguenti funzioni
 # Contabilità analitica
 Allo scopo di fornire un maggior livello di dettaglio alle righe di registrazioni contabili :  è possibile assegnare fino a tre oggetti per specificarne la natura, ed altri tre per specificarne la destinazione. La guida per questa funzione è il conto contabile, in cui sono definite le tipologie degli oggetti che definiscono la natura e la destinazione, ed opzionalmente, i loro valori ammessi od assunti. È possibile inoltre suddividere l'importo della registrazione in più valori. Sono impostabili modelli di registrazione che contengono la suddivisione percentuale dell'importo della registrazione. Se le informazionipredefinite sono esaustive (oggetti e percentuali di suddivisione), la registrazione analitica viene eseguita in modo automatico. In caso contrario essa va inserita manualmente, all'interno della funzione di immissione della registrazione contabile.
 
-![AAP_VAP_13](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_13.png)
+![AAP_VAP_13](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_13.png)
 # Contabilità gestionale
 Pertinenza/Condizione a vari livelli Date competenza : 
  \* Registrazione Ratei/Risconti
@@ -518,7 +518,7 @@ Pertinenza/Condizione a vari livelli Date competenza :
 # Analisi di bilancio
 È possibile redigere il bilancio oltre che per le classiche riclassifiche del piano dei conti e CEE per qualsiasi altra riclassificazione si voglia utilizzare e secondo criteri fiscali o gestionali, con la possibilità di analizzarne struttura ed indici nonché di confrontare bilanci di periodi diversi e/o di altre aziende del gruppo e di verificarne gli scostamenti.
 
-![C5E010_006](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/C5E010_006.png)
+![C5E010_006](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/C5E010_006.png)
 # Stanziamenti
 Il fine delle registrazioni di stanziamento consiste nella possibilità di applicare il principio di competenza anche nei periodi mensili oltre che annuali. Applicare il principio di competenza significa imputare i costi/ricavi in base alla loro effettiva competenza temporale :  ci sono perciò costi/ricavi che devono essere imputati ad un differente mese (ad esempio fatture la cui consegna è avvenuta in un mese differente rispetto alla rilevazione della fattura stessa) oppure la cui imputazione deve essere suddivisa su più mesi (ad esempio canoni di assicurazione annuali che dovranno essere suddivisi sui 12 mesi cui il canone fa riferimento). Ciò si traduce nella creazione di registrazioni gestionali del costo/ricavo in base alla competenza (registrazione di stanziamento) collegate alla registrazione contabile. È possibile impostare modelli per eseguire la compilazione automatica degli stanziamenti al momento dell'inserimento delle registrazioni contabili rilevanti. Tramite questa gestione è inoltre possibile la rilevazione automatica dei ratei/risconti sia a livello mensile che annuale.
 
@@ -528,7 +528,7 @@ Sono previste le funzioni basilari di controllo del conto corrente bancario :  i
 # Analisi disponibilità finanziaria
 L'Analisi Disponibilità Finanziaria (ADF) è uno strumento atto a riprodurre, in base alle migliori conoscenze attuali dei fenomeni futuri, l'andamento nel tempo dei flussi finanziari. In stretta analogia con l'analisi disponibilità dei materiali, si possono definire fonti attuali (saldi di conti di liquidità) e fonti future (entrate o uscite di liquidità previste ad una data).
 
-![C5D050_083](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/C5D050_083.png)
+![C5D050_083](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/C5D050_083.png)
 Queste ultime vengono estratte, tramite opportune interfacce, dalle applicazioni gestionali (cicli attivi e passivi, piani MPS, ecc.), con diverse possibilità di ritorno dei dati (ad esempio, nel ciclo attivo, l'ordinato residuo al netto o al lordo di quanto già in bolla). Un insieme di fonti forma il gruppo fonti, che costituisce la base su cui si fonda l'ADF. È possibile comprendere nell'analisi anche fonti non Sme.UP, sia attuali sia future, in modo che essa risulta uno strumento generalizzato, indipendente dal contesto applicativo. Ogni fonte ritorna un evento elementare, (caratterizzato da un segno, un importo, una data e un codice valuta), ed un oggetto intestatario dell'evento, caratteristico della fonte, che costituisce l'elemento di maggior dettaglio dell'analisi. Ad esempio, il documento di ciclo esterno è l'oggetto intestatario dell'importo spedito, l'ente del fido, il conto contabile del saldo iniziale. Sono possibili sia analisi per oggetto elementare, sia, ricorsivamente, per un suo elemento di aggregazione. Questa funzione è applicabile sia al singolo ente (per il controllo del fido), sia globalmente per l'intera azienda (per il controllo della disponibilità futura di cassa).
 
 # Dichiarazione d'intenti
@@ -554,7 +554,7 @@ Le principali caratteristiche applicative sono le seguenti :
  \* è inoltre possibile inserire movimenti manuali relativi ad una singola linea, in modo da poter simulare rivalutazioni, svalutazioni, ecc..
 Ogni elaborazione di calcolo degli ammortamenti registra tutta la storia futura dei cespiti presenti nel sistema. In tal modo sono facilmente ottenibili, per ogni linea, sia analisi 'verticali' (piano di ammortamento di un singolo cespite), sia 'orizzontali' (valore totale dei cespiti in un qualsiasi esercizio futuro). È inoltre stato predisposto il collegamento dalla contabilità generale, per introdurre nell'applicazione i movimenti di apertura (acquisti), ed il collegamento verso la contabilità generale, per eseguirvi la registrazione degli ammortamenti.
 
-![A5BASE_003](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/A5BASE_003.png)
+![A5BASE_003](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/A5BASE_003.png)
 # Controllo
 # Costi
 Questa applicazione permette di determinare il costo del prodotto, suddiviso in 99 componenti elementari definibili liberamente e liberamente raggruppabili. Per lo stesso articolo si possono determinare più tipi di costo (diversificati, ad esempio, per il tipo ciclo o distinta scanditi, per i costi dei materiali di base assunti). Ogni tipo costo può essere caratterizzato da una data di calcolo, in modo da poter tener traccia delle variazioni subite nel tempo. È possibile inoltre determinare i costi ad un livello di dettaglio superiore all'articolo (ad esempio articolo/configurazione, articolo/commessa). Per ogni articolo si determinano i costi dei materiali (dalla distinta base), del lavoro (dal ciclo), degli scarti, ecc.. I costi unitari di input (costi dei materiali d'acquisto e tariffe dei centri di costo), potranno essere il risultato di precedenti elaborazioni. Ad esempio il controllo di gestione determinerà il costo orario (preventivo o consuntivo) dei centri di costo. Le fatture dei fornitori saranno la fonte di determinazione dei costi medi di acquisto e/o conto lavoro. Ovunque è richiesta la valorizzazione di un articolo, (ad esempio nella valorizzazione di magazzino, della disponibilità, ecc.), si deve precisare il tipo del costo, la data di calcolo, l'eventuale ulteriore scomposizione (commessa, configurazione ecc.), ed il livello del costo, che definisce la somma di un insieme delle componenti elementari, e consente di ottenere dinamicamente costi "parziali", quali il costo dei materiali del livello, degli scarti, il costo diretto, ecc..
@@ -575,7 +575,7 @@ La struttura dei costi, permette di rappresentare budget e consuntivi analitici,
  \* indici di servizio per cliente e classe di prodotto
  \* scheda dei costi per commessa.
 
-![AAP_VAP_14](http://localhost:3000/immagini/MBDOC_VIS-AAVAP/AAP_VAP_14.png)
+![AAP_VAP_14](http://doc.smeup.com/immagini/MBDOC_VIS-AAVAP/AAP_VAP_14.png)
 # Sinergie con ambienti e sistemi esterni
 # Internet
 Il Web rappresenta inconfutabilmente lo strumento dal potenziale più rivoluzionario che la tecnologia abbia messo a disposizione dei Sistemi Informativi negli ultimi dieci-quindici anni anni. Perché tutta questa potenzialità venga scaricata a terra in ambiente ERP, è indispensabile peraltro che la soluzione applicativa ne sfrutti due elementi chiave :  la struttura di comunicazione e, forse ancora prima, le possibilità che offre per ripensare in maniera originale la gestione e supervisione di alcuni processi. Si pensi semplicemente al Cliente che può accedere attraverso la Rete ad un catalogo elettronico ed immettere i propri ordini, piuttosto al coordinamento di più unità produttive in una Supply Chain integrata.

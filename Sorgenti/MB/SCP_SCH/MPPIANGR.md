@@ -14,7 +14,7 @@ La sezione in basso è dedicata alla rappresentazione grafica, vengono presentat
  \* i dati totali dell'oggetto 2 (se selezionato)
  \* i dati della coppia oggetto 1 / oggetto2
 
-![MPPIAN_075](http://localhost:3000/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_075.png)
+![MPPIAN_075](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_075.png)
 ## Dati per Periodo
 In questa scheda sono presenti i grafici riferiti ai singoli periodi.
 
@@ -26,16 +26,16 @@ La sezione in basso è dedicata alla rappresentazione grafica, vengono presentat
  \* il dettaglio dei dati dell'oggetto 2 nel periodo selezionato
  \* il dettaglio dei dati dell'oggetto 1 nel periodo selezionato
 
-![MPPIAN_076](http://localhost:3000/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_076.png)
+![MPPIAN_076](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_076.png)
 ## Riepilogo
 In questa scheda vengono presentate le matrici di riepilogo degli oggetti 1 e 2 selezionati tra quelli presenti nella vista / piano : 
 
-![MPPIAN_077](http://localhost:3000/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_077.png)
+![MPPIAN_077](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_077.png)
 La terza matrice presenta tutti i dati con possibilità di raggruppamento per oggetto 1 o oggetto 2.
 
-![MPPIAN_078](http://localhost:3000/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_078.png)
+![MPPIAN_078](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_078.png)
 ## Analisi di un piano
 La scheda mostra tutti i dati di un piano raggruppati e totalizzati per Oggetto.
 All'apertura della scheda selezionare uno dei bottoni in basso che rappresentano gli oggetti presenti nel piano : 
 
-![MPPIAN_079](http://localhost:3000/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_079.png)
+![MPPIAN_079](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIANGR/MPPIAN_079.png)

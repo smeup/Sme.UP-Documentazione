@@ -110,9 +110,9 @@ _2_Campi aggiunti :
 
 
 ## Schermate di esempio : 
-![BR_V002_01](http://localhost:3000/immagini/BRENTI_001/BR_V002_01.png)
-![BR_V002_02](http://localhost:3000/immagini/BRENTI_001/BR_V002_02.png)i per campo)
+![BR_V002_01](http://doc.smeup.com/immagini/BRENTI_001/BR_V002_01.png)
+![BR_V002_02](http://doc.smeup.com/immagini/BRENTI_001/BR_V002_02.png)i per campo)
 
-![BR_V002_03](http://localhost:3000/immagini/BRENTI_001/BR_V002_03.png)i  per scenario)
+![BR_V002_03](http://doc.smeup.com/immagini/BRENTI_001/BR_V002_03.png)i  per scenario)
 
-![BR_V002_04](http://localhost:3000/immagini/BRENTI_001/BR_V002_04.png)
+![BR_V002_04](http://doc.smeup.com/immagini/BRENTI_001/BR_V002_04.png)

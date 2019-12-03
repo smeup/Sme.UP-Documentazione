@@ -42,10 +42,10 @@ Oltre ai flussi precedenti, all'oggetto è anche associato il flusso di scelta (
 NB. : 
 Un metodo comodo per visualizzare i flussi attivi per un determinato oggetto, in gestione dell'oggetto, è di aprire le funzioni per oggetto (F10) e selezionare le funzioni generali per oggetto (Opzione 3), in seguito a cui una videata mostrerà i flussi di azione presenti e quelli mancanti.
 
-![B£FLUS_01](http://localhost:3000/immagini/B£FLUS/BXFLUS_01.png)
+![B£FLUS_01](http://doc.smeup.com/immagini/B£FLUS/BXFLUS_01.png)
 selezionando il flusso voluto, con un carattere qualsiasi, si aprirà una seconda finestra con l'elenco delle azioni previste : 
 
-![B£FLUS_02](http://localhost:3000/immagini/B£FLUS/BXFLUS_02.png)
+![B£FLUS_02](http://doc.smeup.com/immagini/B£FLUS/BXFLUS_02.png)
 # Azioni
 L'azione è un'operazione elementare all'interno di un flusso di azioni, eseguita da un programma specifico, che viene costruito basandosi su una definizione standard della struttura di input e di output.
 Tutte le azioni sono descritte negli elementi interni ai vari sottosettori della tabella B£J. Ogni flusso (B£H) punta ad un sottosettore specifico.
@@ -54,7 +54,7 @@ Tutte le azioni sono descritte negli elementi interni ai vari sottosettori della
 Compilando opportunamente la tabella B£H, si definisce il sottosettore della tabella B£J da cui selezionare le azioni da associare al flusso e la regola di selezione da adottare : 
 Esempio : 
 
-![B£FLUS_03](http://localhost:3000/immagini/B£FLUS/BXFLUS_03.png)
+![B£FLUS_03](http://doc.smeup.com/immagini/B£FLUS/BXFLUS_03.png)
 In questo esempio le azioni richiamate sono quelle che iniziano per I0 e sono presenti nella tabella B£J sottosettore AR.
 
 ## Azioni disponibili
@@ -68,9 +68,9 @@ Per verificare quali siano le azioni standard disponibili esistono 2 metodi :
 _2_Azioni Disponibili - Esempio 1
 
 >Ricerca da tabella B£J : 
-![B£FLUS_04](http://localhost:3000/immagini/B£FLUS/BXFLUS_04.png)selezionare l'applicazione, es. BR : 
-![B£FLUS_05](http://localhost:3000/immagini/B£FLUS/BXFLUS_05.png)
+![B£FLUS_04](http://doc.smeup.com/immagini/B£FLUS/BXFLUS_04.png)selezionare l'applicazione, es. BR : 
+![B£FLUS_05](http://doc.smeup.com/immagini/B£FLUS/BXFLUS_05.png)
 _2_Azioni Disponibili - Esempio 2
 
 >Ricerca via UP AZI : 
-![B£FLUS_06](http://localhost:3000/immagini/B£FLUS/BXFLUS_06.png)
+![B£FLUS_06](http://doc.smeup.com/immagini/B£FLUS/BXFLUS_06.png)

@@ -14,7 +14,7 @@ Analizziamo ora le principali caratteristiche dell'applicazione focalizzandoci s
 ## Piano dei conti
 La struttura del piano dei conti non segue la tradizionale suddivisione in mastro/conto/sottoconto (a tre o quattro livelli), ma assegna semplicemente ad ogni conto  riclassifiche, ciascuna delle quali è un attributo, anche virtuale, del conto. Con questo modello si possono definire strutture del piano dei conti del tutto libere e di profondità variabile per coprire le più diverse esigenze di rappresentazione aggregata del bilancio, tra le quali il bilancio CEE.
 
-![AAP_AFC_06](http://localhost:3000/immagini/MBDOC_VIS-AAAFC/AAP_AFC_06.png)
+![AAP_AFC_06](http://doc.smeup.com/immagini/MBDOC_VIS-AAAFC/AAP_AFC_06.png)
 ## Registrazioni contabili
 Ogni registrazione è suddivisa in due parti :  una testata, in cui sono riportati i dati comuni (informazioni fiscali, natura della registrazione) e le righe, che contengono le scritture contabili (conti, importi). In questo modo si riduce al minimo la duplicazione di informazioni. Le caratteristiche principali della testata di una registrazione sono :  l'esercizio contabile di appartenenza, la pertinenza (contabile, gestionale, comune) e la condizione (attiva, sospesa, simulata).
 
@@ -30,11 +30,11 @@ Per un controllo puntuale dei pagamenti, abbiamo introdotto il concetto di rata 
 Attraverso il concetto di Pratica Amministrativa è possibile raggruppare rate ancora aperte, secondo diverse modalità (di un cliente, da presentare come effetti ad una banca, con residuo al di sotto di un valore, ecc.).
 La registrazione dei pagamenti può essere eseguita richiamando una pratica composta in precedenza, oppure selezionando interattivamente le rate da saldare, sia in modo cieco (ad esempio fino alla copertura di un importo prefissato), sia in modo visualizzato. In questa fase è possibile far generare dal sistema movimenti di oscillazione cambi e di abbuono per saldare una rata.
 
-![AAP_AFC_02](http://localhost:3000/immagini/MBDOC_VIS-AAAFC/AAP_AFC_02.png)
+![AAP_AFC_02](http://doc.smeup.com/immagini/MBDOC_VIS-AAAFC/AAP_AFC_02.png)
 ## Solleciti
 Dalle rate di dovuto ancora aperte è possibile generare periodicamente segnalazioni di sollecito, con opportuni filtri (esclusione di clienti, soglia di importo) che costituiscono un archivio storico consultabile secondo varie modalità. La stessa rata di dovuto, se rimane aperta, può generare, nel tempo, diverse segnalazioni di sollecito, di gravità crescente. Un sollecito viene dichiarato chiuso all'atto della registrazione della rata di pagato.
 
-![AAP_AFC_07](http://localhost:3000/immagini/MBDOC_VIS-AAAFC/AAP_AFC_07.png)
+![AAP_AFC_07](http://doc.smeup.com/immagini/MBDOC_VIS-AAAFC/AAP_AFC_07.png)
 ## Analisi crediti e debiti
 Questa funzione si basa sull'accoppiamento tra le rate di dovuto e di pagato. Di ogni documento può essere presentata una situazione per data di pagamento (atteso o eseguito) oppure il bilanciamento all'interno di ogni scadenza, oltre alla consueta sintesi per registrazione. Per ogni scadenza vengono calcolati i giorni di ritardo di pagamento e viene valorizzato il ritardo. L'analisi può essere effettuata sia ad oggi, sia nel passato, in modo da ricostruire dinamicamente una situazione pregressa.
 
@@ -63,7 +63,7 @@ Oltre all'adempimento degli obblighi fiscali, sono presenti le seguenti funzioni
 ## Contabilità analitica
 Allo scopo di fornire un maggior livello di dettaglio alle righe di registrazioni contabili è possibile assegnare, a ciascuna, fino a tre oggetti per specificarne la natura ed altri tre per specificarne la destinazione. La guida per questa funzione è il conto contabile, in cui sono definite le tipologie degli oggetti che definiscono la natura e la destinazione e, opzionalmente, i valori ammessi od assunti. È possibile iimpostare modelli di registrazione che contengono la suddivisione percentuale dell'importo della registrazione stessa; se le informazioni predefinite sono esaustive (oggetti e percentuali di suddivisione), la registrazione analitica viene eseguita in modo totalmente automatico. In caso contrario essa va inserita manualmente, all'interno della funzione di immissione della registrazione contabile.
 
-![AAP_AFC_03](http://localhost:3000/immagini/MBDOC_VIS-AAAFC/AAP_AFC_03.png)
+![AAP_AFC_03](http://doc.smeup.com/immagini/MBDOC_VIS-AAAFC/AAP_AFC_03.png)
 ## Analisi di bilancio
 È possibile redigere il bilancio oltre che per le classiche riclassifiche del piano dei conti e CEE - per qualsiasi altra riclassificazione si voglia utilizzare e secondo criteri fiscali o gestionali. È prevista la possibilità di analizzarne struttura ed indici nonché di confrontare bilanci di periodi diversi e/o di altre aziende del gruppo e di verificarne gli scostamenti.
 
@@ -101,7 +101,7 @@ L'applicazione Cespiti ha lo scopo di risolvere tutte le problematiche connesse 
  \* Impostazione e calcolo di diversi _Ammortamenti industriali_
 La possibilità di gestire diverse aliquote e piani di ammortamento si ottiene introducendo il concetto di _linea di ammortamento_ (simile allo scenario in pianificazione e schedulazione) che costituisce un ambiente separato in cui vengono impostati i parametri di calcolo e registrati gli ammortamenti risultanti. Per ogni linea si può infatti definire un piano di ammortamento esplicito per il singolo cespite, oppure impostare valori (sia importi sia percentuali, per il singolo esercizio o globali) a livello di cespite, di categoria, oppure generali, con ricerca per risalita, in modo da inserire il dato al suo massimo livello, senza introdurre ridondanze. È inoltre possibile inserire movimenti manuali  relativi ad una singola linea, in modo da poter simulare rivalutazioni, svalutazioni, ecc.. Ogni elaborazione di calcolo degli ammortamenti registra tutta la storia futura dei cespiti presenti nel sistema. In tal modo sono facilmente ottenibili, per ogni linea, sia analisi 'verticali' (piano di ammortamento di un singolo cespite), sia 'orizzontali' (valore totale dei cespiti in un qualsiasi esercizio futuro). È inoltre stato predisposto il collegamento dalla contabilità generale, per introdurre nell'applicazione i movimenti di apertura (acquisti), ed il collegamento verso la contabilità generale, per eseguirvi la registrazione degli ammortamenti.
 
-![AAP_AFC_08](http://localhost:3000/immagini/MBDOC_VIS-AAAFC/AAP_AFC_08.png)
+![AAP_AFC_08](http://doc.smeup.com/immagini/MBDOC_VIS-AAAFC/AAP_AFC_08.png)
 ## Controllo di gestione
 L'obiettivo del controllo di gestione si può riassumere nella frase : 
 
@@ -186,7 +186,7 @@ Ogni oggetto applicativo può essere titolare di un numero libero di "temi". Il 
 
 Viene qui riportato un esempio : 
 
-![AAP_AFC_04](http://localhost:3000/immagini/MBDOC_VIS-AAAFC/AAP_AFC_04.png)
+![AAP_AFC_04](http://doc.smeup.com/immagini/MBDOC_VIS-AAAFC/AAP_AFC_04.png)
 
 La griglia è un insieme di 99 valori ai quali è possibile
  \* definire il significato
@@ -248,4 +248,4 @@ I dati generati saranno poi consultabili attraverso il modulo grafico Looc.UP op
 ## In sintesi
 Sme.UP è un insieme di oggetti, moduli, funzioni e impostazioni, che permettono di modellare in modo diversificato e potente tutti gli aspetti organizzativi e gestionali delle aziende e quindi supportarle nella sfida della complessità che esse devono affrontare nel mercato attuale e futuro e verso qualsiasi approccio di tipo on demand.
 La nostra convinzione è che gli attuali scenari in cui le aziende si trovano ad operare richiedono al software gestionale non solo un'elevata potenza applicativa esplicita ma un'altrettanta elevata potenza applicativa potenziale che possa essere resa esplicita rapidamente, con il minor sforzo possibile e senza intaccare la rigorosità delle applicazioni già rilasciate.
-![AAP_AFC_05](http://localhost:3000/immagini/MBDOC_VIS-AAAFC/AAP_AFC_05.png)
+![AAP_AFC_05](http://doc.smeup.com/immagini/MBDOC_VIS-AAAFC/AAP_AFC_05.png)

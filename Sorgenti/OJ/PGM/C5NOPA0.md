@@ -4,14 +4,14 @@ Attraverso questa voce di menù è possibile gestire le pratiche già create e g
 ## Formato guida
 Alla selezione della voce di menù compare il seguente formato guida : 
 
-![C5D010_001](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOPA0/C5D010_001.png)
+![C5D010_001](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOPA0/C5D010_001.png)
 Nel campo 'Modalità'  possibile impostare l'azione da eseguire sull'elenco pratiche :  le opzioni disponibili sono Stampa e Visualizzazione. E' necessario impostare una 'Data pratica iniziale' mentre il campo 'Data pratica finale' è facoltativo.
 Attraverso i tasti F13 e F17 è possibile raggiungere la schermata delle parzializzazioni e delle impostazioni rispettivamente. All'interno delle parzializzaioni è possibile impostare il tipo pratica, il numero, la data, il rapporto bancario e/o la banca di presentazione delle distinte restituite. Nelle impostazioni è, invece,  possibile definire alcuni parametri come l'ordinamento delle distinte, la presentazione o meno degli importi e così via.
 
 ## Formato lista
 Confermando con invio il formato guida verrà restituito il formato lista : 
 
-![C5D010_002](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOPA0/C5D010_002.png)
+![C5D010_002](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOPA0/C5D010_002.png)
 All'interno del formato lista viene riportato l'elenco delle pratiche generate. Per ognuna di esse vengono visualizzati : 
  \* la data di creazione
  \* il tipo di pratica
@@ -53,7 +53,7 @@ Ogni riga della lista identifica una pratica bancaria e per ogni riga sono dispo
 ## Formato dettaglio
 Selezionando con 05 una pratica è possibile visualizzarne il dettaglio : 
 
-![C5D010_004](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOPA0/C5D010_004.png)
+![C5D010_004](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOPA0/C5D010_004.png)
 In particolare è possibile visualizzare le singole rate incluse nella pratica, gli enti, gli importi, le date,e tutte le altre informazioni specifiche della distinta. In fondo all'elenco delle rate incluse nella pratica è possibile visualizzare un riassunto della distinta che ne riporta l'importo totale e il numero di rate incluse.
 
 Per maggiori dettagli sulle informazioni riportate nel formato dettaglio si veda il seguente : 

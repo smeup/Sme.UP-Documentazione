@@ -40,4 +40,4 @@ Da notare che è previsto il caso in cui la cronologia delle dichiarazioni (o de
 
 ## Formato principale
 
-![D5BASE_21](http://localhost:3000/immagini/MBDOC_SCH-D5VWIP/D5BASE_21.png)
+![D5BASE_21](http://doc.smeup.com/immagini/MBDOC_SCH-D5VWIP/D5BASE_21.png)

@@ -1,10 +1,10 @@
 # Formato guida
-![Fig_001](http://localhost:3000/immagini/MBDOC_OGG-P_BRIN01/Fig_001.png)
+![Fig_001](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN01/Fig_001.png)
 Da questo formato è possibile gestire le dichiarazioni ricevute o emesse :  il **registro** definisce appunto il "verso" della dichiarazione, ovvero appunto se si vuol gestire le dichiarazioni ricevute dai clienti o quelle mandate ai fornitori.
 Volendo è possibile anche scegliere direttamente una dichiarazione tramite l'indicazione del suo **Identificativo**(che non coincide nè con il numero riferimento, nè con il numero protocollo).
 Selezionando  con un' opzione una dichiarazione si accede al relativo dettaglio.
 
-![Fig_002](http://localhost:3000/immagini/MBDOC_OGG-P_BRIN01/Fig_002.png)
+![Fig_002](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN01/Fig_002.png)
 Oltre alle informazioni relative al registro ed al soggetto intestatario, viene mostrato il **Riferimento** (con la relativa data) ovvero il numero con cui la dichirazione è stata registrata dall'ente che la emette, e che verrà poi riportato sui documenti di tipo fattura.
 Il numero **Protocollo** è invece il progressivo con cui la dichiarazione viene registrata dall'azienda che riceve la dichiarazione.
 

@@ -23,10 +23,10 @@ Per verificare i parametri di accesso che il suddetto Web Service utilizza per e
 
 Si aprirà una maschera del tutto simile alla seguente : 
 
-![TEC038](http://localhost:3000/immagini/MOBASE_03/TEC038.png)
+![TEC038](http://doc.smeup.com/immagini/MOBASE_03/TEC038.png)
 Selezionare quindi il tasto "Connection Data"
 
-![TEC039](http://localhost:3000/immagini/MOBASE_03/TEC039.png)
+![TEC039](http://doc.smeup.com/immagini/MOBASE_03/TEC039.png)
 Nella maschera, verranno visualizzate tutte le informazioni relative alla connessione.
 
 Da tramite la suddetta pagina è inoltre possibile attraverso il pannello "Xml Smeup", verificare la risposta del webservice rispetto a qualisiasi funzione F lanciata sul server.

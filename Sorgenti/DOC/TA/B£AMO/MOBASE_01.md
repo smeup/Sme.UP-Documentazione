@@ -6,23 +6,23 @@ con possibilità di interrogazione e gestione.
 
 Seguono alcuni screeshot di esempio : 
 
-![001](http://localhost:3000/immagini/MOBASE_01/001.png)
+![001](http://doc.smeup.com/immagini/MOBASE_01/001.png)
 Menù iniziale : 
 
-![007](http://localhost:3000/immagini/MOBASE_01/007.png)
+![007](http://doc.smeup.com/immagini/MOBASE_01/007.png)
 Interrogazione fatturato : 
 
 
-![010](http://localhost:3000/immagini/MOBASE_01/010.png)
+![010](http://doc.smeup.com/immagini/MOBASE_01/010.png)
 Panello di imputazione dati : 
 
 
-![TEC048](http://localhost:3000/immagini/MOBASE_01/TEC048.png)
+![TEC048](http://doc.smeup.com/immagini/MOBASE_01/TEC048.png)
 Elenco di clienti : 
 
 
-![TEC046](http://localhost:3000/immagini/MOBASE_01/TEC046.png)
+![TEC046](http://doc.smeup.com/immagini/MOBASE_01/TEC046.png)
 Scheda di un cliente : 
 
 
-![TEC047](http://localhost:3000/immagini/MOBASE_01/TEC047.png)
+![TEC047](http://doc.smeup.com/immagini/MOBASE_01/TEC047.png)

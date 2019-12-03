@@ -3,7 +3,7 @@ Questa funzione raggruppa tutte le possibili interrogazioni che si possono fare 
 
 # Formato di lancio
 Il formato che si presenta permette di lanciare diverse interrogazioni relative al collo in gestione : 
-![GMCZ_05](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI02/GMCZ_05.png)
+![GMCZ_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI02/GMCZ_05.png)
  - _2_Funzioni per collo, attiva le funzioni dell'oggetto "Collo"
  - _2_Contenuto, mostra il contenuto del collo
  - _2_Impegni risorse, se il collo è di produzione mostra gli inpegni risorse (ciclo residuo)

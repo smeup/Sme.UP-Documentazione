@@ -8,7 +8,7 @@ Nella tabella di lancio B£JXX è ncessario impostare nel campo "parametri aggiu
  \* Tipo Collo
 
 ## Formato video
-![P5PMFP_58](http://localhost:3000/immagini/MBDOC_OGG-P_V5AT51C/P5PMFP_58.png)
+![P5PMFP_58](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5AT51C/P5PMFP_58.png)
 ## Scrittura file di lavoro
 In questo programma di esempio il codice letto con il terminale R/F è il barcode di un collo MFP.
 
@@ -20,6 +20,6 @@ Il campo BTFL01 deve essere = ' ' in modo che non vengano creati nè un nuovo co
 
 ## Visualizzazione file di lavoro
 Con F8 si lancia il programma V5AT51W di visualizzazione del file di lavoro che usa i campi :  BTCD01, BTCD02, BTCD03 come righe di visualizzazione.
-![P5PMFP_57](http://localhost:3000/immagini/MBDOC_OGG-P_V5AT51C/P5PMFP_57.png)
+![P5PMFP_57](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5AT51C/P5PMFP_57.png)
 ## Scrittura righe documento
 Per avere la scrittura delle righe documento, e la creazione dell'alias, deve esistere un successivo passo di flusso che richiama il programma V5AT51Z.

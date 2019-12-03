@@ -3,8 +3,8 @@ Il programma permette di inserire delle azioni da intrapprendere nel caso si pre
 E' quello di avere un archivio facilmente consultabile dalle non conformità per facilitare il collaudatore riguardo alle scelte da effettuare a fronte di particolari difetti/cause.
 
 ## Formato guida
-![CQ_NCNF_14](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM45/CQ_NCNF_14.png)
+![CQ_NCNF_14](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM45/CQ_NCNF_14.png)
 ## Formato lista
-![CQ_NCNF_15](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM45/CQ_NCNF_15.png)
+![CQ_NCNF_15](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM45/CQ_NCNF_15.png)
 ## Formato dettaglio
-![CQ_NCNF_16](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM45/CQ_NCNF_16.png)
+![CQ_NCNF_16](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM45/CQ_NCNF_16.png)

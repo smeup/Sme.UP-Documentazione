@@ -7,7 +7,7 @@ I programmi di stampa potranno essere impostati per recuperare e stampare le des
 ## Gestione descrizioni estese
 La gestione delle descrizioni estese (e delle descrizioni in lingua) si attiva mediante la seguente videata : 
 
-![C£DESC_01](http://localhost:3000/immagini/MBDOC_OGG-P_C£LIN0G/CXDESC_01.png)Devono essere specificati : 
+![C£DESC_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LIN0G/CXDESC_01.png)Devono essere specificati : 
 
 - tipo oggetto e, in casi particolari, anche il parametro oggetto (per gli articoli è sufficiente il tipo oggetto, mentre per le tabelle deve essere specificato anche il parametro, altrimenti non si saprebbe in quale tabella ricercare l'elemento);
 - oggetto di cui si vuole gestire descrizione base e/o estesa;
@@ -15,4 +15,4 @@ La gestione delle descrizioni estese (e delle descrizioni in lingua) si attiva m
 
 Di seguito mostriamo in che modo è possibile inserire / modificare sia la descrizione base che quella estesa : 
 
-![C£DESC_02](http://localhost:3000/immagini/MBDOC_OGG-P_C£LIN0G/CXDESC_02.png)
+![C£DESC_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LIN0G/CXDESC_02.png)

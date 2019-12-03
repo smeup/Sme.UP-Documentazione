@@ -5,9 +5,9 @@ Possibilita' di selezionare piu' nodi di un albero o righe di matrice (tenendo p
 
 Trascinando una selezione di righe o nodi sullo spazio vuoto all'interno del contenitore della matrice o dell'albero, questa selezione viene spostata in fondo alla matrice/albero.
 Ad esempio :  Seleziono il primo nodo dell'albero
-![LOCDED01](http://localhost:3000/immagini/MBDOC_OPE-LOCDED/LOCDED01.png)Lo trascino sulla parte 'libera' della sezione contenente l'albero
-![LOCDED02](http://localhost:3000/immagini/MBDOC_OPE-LOCDED/LOCDED02.png)A questo punto l'elemento si trova in fondo alla lista
-![LOCDED03](http://localhost:3000/immagini/MBDOC_OPE-LOCDED/LOCDED03.png)
+![LOCDED01](http://doc.smeup.com/immagini/MBDOC_OPE-LOCDED/LOCDED01.png)Lo trascino sulla parte 'libera' della sezione contenente l'albero
+![LOCDED02](http://doc.smeup.com/immagini/MBDOC_OPE-LOCDED/LOCDED02.png)A questo punto l'elemento si trova in fondo alla lista
+![LOCDED03](http://doc.smeup.com/immagini/MBDOC_OPE-LOCDED/LOCDED03.png)
 E' stato implementato lo spostamento di una o piU' righe all'interno di una stessa matrice o di una o piU' foglie all'interno di un albero. Anche per questa implementazione e' stata utilizzata la logica delle variabili array di LoocUp.
 N.B. :  tutti i 4 punti precedenti sono stati sviluppati per il costruttore LOA18 (creazione di un sottoinsieme di dati partendo da un insieme piu' ampio)
 

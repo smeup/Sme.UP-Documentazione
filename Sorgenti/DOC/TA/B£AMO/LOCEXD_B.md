@@ -28,7 +28,7 @@ Definiamo scheda un insieme di sezioni (le finestre contenute nella scheda) disp
 Ogni sezione deve contenere una o più subsezioni rappresentate ciascuna da un "tab", ovvero un'etichetta di testo in alto a sinistra.
 In ogni subsezione un componente visualizza un insieme di dati, fornito come XML da un servizio (programma RPG); le subsezioni contenute nella stessa sezione vengono rappresentate alternativamente nella stessa finestra.
 
-![EXD002](http://localhost:3000/immagini/LOCEXD_B/EXD002.png)
+![EXD002](http://doc.smeup.com/immagini/LOCEXD_B/EXD002.png)
 ### Autodimensionamento e Autoposizionamento delle schede (attributi AutoPos e AutoFit)
 L'autodimensionamento fa in modo che le subsezioni si dimensionino in funzione del loro contenuto mentre l'autoposizionamento fa in modo che le subsezioni si aprano in modo tale da non coprire totalmente le sezioni gia' aperte (in questo modo e' possibile avere un'idea dei livelli e delle schede aperte).
 
@@ -36,9 +36,9 @@ L'autodimensionamento fa in modo che le subsezioni si dimensionino in funzione d
 Nella scheda deve essere definita almeno una sezione (**G.SEZ**), se la scheda è costituita da un'unica finestra.
 Più sezioni vengono definite per "affettamenti" successivi della finestra della scheda :  ogni sezione è individuata da una stringa alfanumerica, in cui le lettere rappresentano un "affettamento" verticale e i numeri orizzontale.
 Per esempio due sezioni affiancate in orrizzontale saranno associate alle stringhe 'A' e 'B'.
-![LOCEXD_02](http://localhost:3000/immagini/LOCEXD_B/LOCEXD_02.png)
+![LOCEXD_02](http://doc.smeup.com/immagini/LOCEXD_B/LOCEXD_02.png)
 Se volessi suddividere la sezione 'A' in due sezioni disposte in verticale le definirei come 'A1' e 'A2', e così via.
-![LOCEXD_03](http://localhost:3000/immagini/LOCEXD_B/LOCEXD_03.png)
+![LOCEXD_03](http://doc.smeup.com/immagini/LOCEXD_B/LOCEXD_03.png)
 Se non specificato altrimenti le sezioni interne a una sezione vengono equidimensionate.
 Se invece si vogliono dimensionare diversamente le sezioni si utilizza il comando **Dim** seguito dalla percentuale della dimensione tra parentesi :  esempio Dim (30%) significa "assegna alla sottosezione il 30% del totale". Se il valore percentuale è preceduto dal segno meno (-) si intende calcolo della dimensione a partire dal fondo (destra o basso) se manca il segno si intende a partire dall'inizio (sinistra - alto).
 
@@ -439,7 +439,7 @@ Estendiamo ora la scheda di esempio creata nel primo tutorial, familiarizzando c
 ### Creazione di sottoschede / più subsezioni in una sezione
 Dividiamo la scheda in due sottoschede, una contenente i dati di base e una per la visualizzazione di alcuni dati commerciali (ordini di vendita attivi e relative righe).
 Per far questo creiamo una scheda con una sola sezione, corrispondente all'intera finestra della scheda, a cui associamo non una ma due subsezioni di tipo scheda (visualizzate in alternativa nella stessa finestra).
-![LOCEXD_04](http://localhost:3000/immagini/LOCEXD_B/LOCEXD_04.png)
+![LOCEXD_04](http://doc.smeup.com/immagini/LOCEXD_B/LOCEXD_04.png)
 Si notino i due tab associati alle subsezioni. Per default viene visualizzata la prima subsezione ("Dati di base"), mentre la subsezione "Dati commerciali" non è ancora caricata (questo è evidenziato dal colore azzurro del testo del tab "Dati commerciali").
 
 Lo script della scheda madre è : 
@@ -479,8 +479,8 @@ Nello script CNCLI, quindi, in coda allo script della scheda madre andranno inse
 
 ### Dinamicità tra subsezioni
 Analizziamo ora la sottoscheda "Dati commerciali".
-![LOCEXD_05](http://localhost:3000/immagini/LOCEXD_B/LOCEXD_05.png)Nella subsezione in alto vengono presentati gli ordini attivi del cliente, cliccando su una riga parte il caricamento della subsezione in basso che presenta il dettaglio delle righe dell'ordine selezionato : 
-![LOCEXD_06](http://localhost:3000/immagini/LOCEXD_B/LOCEXD_06.png)Questo comportamento viene ottenuto specificando un legame di dinamicità tra le due subsezioni :  nella definizione della subsezione "Ordini attivi" si specifica che un click nella subsezione indurrà dinamicità nella subsezione "Righe" : 
+![LOCEXD_05](http://doc.smeup.com/immagini/LOCEXD_B/LOCEXD_05.png)Nella subsezione in alto vengono presentati gli ordini attivi del cliente, cliccando su una riga parte il caricamento della subsezione in basso che presenta il dettaglio delle righe dell'ordine selezionato : 
+![LOCEXD_06](http://doc.smeup.com/immagini/LOCEXD_B/LOCEXD_06.png)Questo comportamento viene ottenuto specificando un legame di dinamicità tra le due subsezioni :  nella definizione della subsezione "Ordini attivi" si specifica che un click nella subsezione indurrà dinamicità nella subsezione "Righe" : 
  :  : PAR F(04)
 ..G.DIN Where="Righe" Sch.Var="TDOC([T§TDOC]) NDOC([T§NDOC])"
 

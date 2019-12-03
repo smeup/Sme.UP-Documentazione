@@ -6,7 +6,7 @@ Sme.UP, con l'applicazione Q9000 si occupa di "raccogliere" queste informazioni 
 # Integrazione
 L'integrazione tra i processi di qualità e quelli gestionali è l'architrave dell'applicazione Q9000. Il modello dei processi che sottende la qualità è concepito per sfruttare al massimo l'integrazione dei dati, ed il rispetto dei processi/archivi dove l'informazione viene creata e gestita (vedi fig. 1).
 
-![AAP_QEM_01](http://localhost:3000/immagini/MBDOC_VIS-AAQEM/AAP_QEM_01.png)
+![AAP_QEM_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAQEM/AAP_QEM_01.png)
 Questo rapporto di collaborazione tra il sistema qualità ed il sistema gestionale è mutuo :  così come l'analisi degli indici di performance (KPI) di un fornitore legge l'informazione relativa al ritardo di consegna dalla bolla di ricevimento materiale e dall'ordine di acquisto (la data della bolla confrontata con la data richiesta dall'ordine determinano la puntualità del fornitore), allo stesso tempo il pagamento delle fatture fornitore viene bloccato dall'esito di collaudo del lotto ricevuto.
 
 I punti di collaborazione tra il sistema gestionale e l'applicazione della Qualità sono i seguenti : 
@@ -22,7 +22,7 @@ I punti di collaborazione tra il sistema gestionale e l'applicazione della Quali
  \* Movimenti di magazzino generati dall'esito del collaudo che permettono di spostare il materiale dall'area del collaudo alle aree interessate (vedi fig. 2), con criteri diversi per tipo lotto (la logistica del lotto di acquisto è diversa da quella del reso cliente, o da quella dell'ordine di produzione)
  \* Una delle chiavi dei movimenti di magazzino (e quindi di giacenza) può essere il lotto :  questa è la base per poter ottenere una rintracciabilità informatica dei materiali.
 
-![AAP_QEM_02](http://localhost:3000/immagini/MBDOC_VIS-AAQEM/AAP_QEM_02.png)
+![AAP_QEM_02](http://doc.smeup.com/immagini/MBDOC_VIS-AAQEM/AAP_QEM_02.png)
 # Funzioni native della qualità
 Ovviamente ci sono funzioni native della qualità che creano e processano i dati in modo autonomo : 
  \* la gestione dei cicli di collaudo
@@ -44,10 +44,10 @@ Come in tanti altri processi anche la qualità ha dei KPI (Key Performance Index
 Inoltre è possibile comporre questi KPI in indici finali che rappresentano con un solo voto tutto l'andamento di un processo.
 Questo avviene tramite il modulo di composizione indici, chiamato "Vendor Rating" (fig. 3 ), che permette di comporre come in una distinta base, indici elementari a più livelli, determinando quindi un valore finale controllato tra 0 e 100 che  rappresenta il punteggio.
 
-![AAP_QEM_03](http://localhost:3000/immagini/MBDOC_VIS-AAQEM/AAP_QEM_03.png)
+![AAP_QEM_03](http://doc.smeup.com/immagini/MBDOC_VIS-AAQEM/AAP_QEM_03.png)
 # Rapportistica
 L'utilizzo delle schede grafiche permette la realizzazione di consultazioni facilmente filtrabili, ordinabili, esportabili in excel o in formati report.
 
-![AAP_QEM_01](http://localhost:3000/immagini/MBDOC_VIS-AAQEM/AAP_QEM_01.png)
-![AAP_QEM_02](http://localhost:3000/immagini/MBDOC_VIS-AAQEM/AAP_QEM_02.png)
-![AAP_QEM_03](http://localhost:3000/immagini/MBDOC_VIS-AAQEM/AAP_QEM_03.png)
+![AAP_QEM_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAQEM/AAP_QEM_01.png)
+![AAP_QEM_02](http://doc.smeup.com/immagini/MBDOC_VIS-AAQEM/AAP_QEM_02.png)
+![AAP_QEM_03](http://doc.smeup.com/immagini/MBDOC_VIS-AAQEM/AAP_QEM_03.png)

@@ -1,6 +1,6 @@
 # Scheda Fasatura tabelle
 Formato scheda
-![B£TABE_017](http://localhost:3000/immagini/MBDOC_SCH-ST_FT/BXTABE_017.png)
+![B£TABE_017](http://doc.smeup.com/immagini/MBDOC_SCH-ST_FT/BXTABE_017.png)
 ## Comparazione elementi di tabella (TABELx0F)
 Date 2 librerie, la scheda permette di comparare : 
  \* gli elementi di un settore di tabella (ricevuto nell'oggetto 1)
@@ -13,7 +13,7 @@ Qualora non si siano impostate le 2 librerie da confrontare, il confronto assume
 La copia di un elemento di tabella nel modello è possibile solo impostando l'apposita password nel configuratore.
 
 ### Struttura della scheda
-![B£TABE_018](http://localhost:3000/immagini/MBDOC_SCH-ST_FT/BXTABE_018.png)A destra in alto vi è una matrice con con un elenco degli elementi di tabella per il settore analizzato, suddivisi a seconda dell'esito del confronto (diversi, presenti solo nella libreria 1, presenti solo nella libreria 2 ed uguali).
+![B£TABE_018](http://doc.smeup.com/immagini/MBDOC_SCH-ST_FT/BXTABE_018.png)A destra in alto vi è una matrice con con un elenco degli elementi di tabella per il settore analizzato, suddivisi a seconda dell'esito del confronto (diversi, presenti solo nella libreria 1, presenti solo nella libreria 2 ed uguali).
 A sinistra viene visualizzata una matrice con il confronto dei record dei 2 elementi di tabella, con i campi che hanno valori differenti evidenziati in rosso.
 Le azioni disponibili nell'albero il basso a sinistra, variabili a seconda delle caratteristiche dell'elemento selezionato, sono : 
 
@@ -35,7 +35,7 @@ Qualora la scheda non riceva come oggetto 1 un settore vengono comparati tutti i
 Qualora non si siano impostate le 2 librerie da confrontare, viene emesso un apposito messaggio informativo.
 
 ### Struttura della scheda
-![B£TABE_019](http://localhost:3000/immagini/MBDOC_SCH-ST_FT/BXTABE_019.png)A destra in alto vi è una matrice con con un elenco dei sottosettori suddivisi a seconda dell'esito del confronto (diversi, presenti solo nella libreria 1, presenti solo nella libreria 2 ed uguali).
+![B£TABE_019](http://doc.smeup.com/immagini/MBDOC_SCH-ST_FT/BXTABE_019.png)A destra in alto vi è una matrice con con un elenco dei sottosettori suddivisi a seconda dell'esito del confronto (diversi, presenti solo nella libreria 1, presenti solo nella libreria 2 ed uguali).
 A sinistra viene visualizzata una matrice con il confronto dei record dei 2 sottosettori, con i campi che hanno valori differenti evidenziati in rosso.
 Le azioni disponibili nell'albero il basso a sinistra, variabili a seconda delle caratteristiche del sottosettore selezionato, sono : 
 
@@ -57,7 +57,7 @@ L'impostazione delle librerie da confrontare avviene tramite il richiamo di un a
 Qualora non si siano impostate le 2 librerie da confrontare, viene emesso un apposito messaggio informativo.
 
 ### Struttura della scheda
-![B£TABE_020](http://localhost:3000/immagini/MBDOC_SCH-ST_FT/BXTABE_020.png)A destra in alto vi è una matrice con con un elenco dei campi del settore suddivisi a seconda dell'esito del confronto (diversi, presenti solo nella libreria 1, presenti solo nella libreria 2 ed uguali).
+![B£TABE_020](http://doc.smeup.com/immagini/MBDOC_SCH-ST_FT/BXTABE_020.png)A destra in alto vi è una matrice con con un elenco dei campi del settore suddivisi a seconda dell'esito del confronto (diversi, presenti solo nella libreria 1, presenti solo nella libreria 2 ed uguali).
 A sinistra viene visualizzata una matrice con il confronto dei record dei 2 campi, con valori differenti evidenziati in rosso.
 Le azioni disponibili nell'albero il basso a sinistra, variabili a seconda delle caratteristiche del campo selezionato, sono : 
 

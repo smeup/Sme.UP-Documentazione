@@ -22,27 +22,27 @@ I valori dei livelli di autorizzazioni assunti possono essere :
 
 **Opzione K = Dashboard  -  Livello 00**
 Una sola azione che mostra una sintesi delle informazioni principali della scheda.
-![B£MENU_002](http://localhost:3000/immagini/B£MENU_12/BXMENU_002.png)
+![B£MENU_002](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_002.png)
 **Opzione N = Info  -  Livello 00**
 Una sola azione che contiene i dati di base dell'oggetto della scheda (come l'F10 dell'oggetto quando richiamato in emulazione 5250).
-![B£MENU_015](http://localhost:3000/immagini/B£MENU_12/BXMENU_015.png)
+![B£MENU_015](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_015.png)
 **Opzione E = Fly  -  Livello 00 nelle schede di oggetto  /  Livello 01 nelle schede di modulo**
 Tante azioni che esplorano le informazioni collegate all'oggetto, ma uscendo dal contesto di origine.
 Per esempio, partendo dalla scheda dell'ordine di produzione, nel raggruppamento FLY trovo l'interrogazione degli impegni materiali o dei movimenti di magazzino dell'ordine.
 Nelle schede di modulo l'opzione FLY contiene anche le funzioni tecniche :  Set'n & Play, Prototipi, etc.
-![B£MENU_009](http://localhost:3000/immagini/B£MENU_12/BXMENU_009.png)
+![B£MENU_009](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_009.png)
 **Opzione J =  Surf  -  Livello 00**
   Tante azioni che esplorano le informazioni analoghe all'oggetto e contestuali all'oggetto :  Per esemmpio , partendo dalla scheda dell'ordine di produzione posso vedere tutti gli ordini dello stesso articolo dell'ordine da cui sono partito.
-![B£MENU_014](http://localhost:3000/immagini/B£MENU_12/BXMENU_014.png)
+![B£MENU_014](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_014.png)
 **Opzione Y = Mysmeup  -  Livello 00**
   Tante azioni , le stesse che sono derivate dal flusso B£H A-OG dell'oggetto , per il modulo è A-TAB£AMO (le azioni tipiche di quella azienda) , e una azione che porta alle schede personalizzate di quell'oggetto
-![B£MENU_010](http://localhost:3000/immagini/B£MENU_12/BXMENU_010.png)
+![B£MENU_010](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_010.png)
 **Opzione F = Focus  -  Livello 00**
   Una azione che mostra una lista grafica estesa dell'oggetto
-![B£MENU_022](http://localhost:3000/immagini/B£MENU_12/BXMENU_022.png)
+![B£MENU_022](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_022.png)
 **Opzione G = Actions  -  Livello 00**
   Tante azioni , quelle della tabella MEA riguardante il contesto
-![B£MENU_008](http://localhost:3000/immagini/B£MENU_12/BXMENU_008.png)
+![B£MENU_008](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_008.png)
 La modifica delle voci di questa sezione di menù prevedono la modifica della tabella MEA presente nel modello relativamente all'applicazione cui il modello appartiene.
 La procedura per effettuare la modifica/eliminazione/aggiunta delle **Actions** è la seguente : 
 
@@ -59,16 +59,16 @@ La procedura per effettuare la modifica/eliminazione/aggiunta delle **Actions** 
 
 **Opzione D = Education  -  Livello 00**
   Ci sono due azioni :  la prima è l'accesso alla Documentazione contestuale, la seconda è l'accesso alla Formazione del modulo
-![B£MENU_021](http://localhost:3000/immagini/B£MENU_12/BXMENU_021.png)
+![B£MENU_021](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_021.png)
 **Opzione C = Properties  -  Livello 01**
   Tante azioni che servono ad impostare il modulo  :  funzioni tecniche, associazioni ad immagini, etc.
-![B£MENU_024](http://localhost:3000/immagini/B£MENU_12/BXMENU_024.png)
+![B£MENU_024](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_024.png)
 **Opzione S = Set'n & Play  -  Livello 01**
   Tante azioni che servono ad impostare il modulo  :  set&play, modello dinamico, etc.
-![B£MENU_025](http://localhost:3000/immagini/B£MENU_12/BXMENU_025.png)
+![B£MENU_025](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_025.png)
 **Opzione M = Menu MGMT  -  Livello 02**
   Apre la gestione dell'hypermenu per cui un installatore esperto può modificarlo
-![B£MENU_026](http://localhost:3000/immagini/B£MENU_12/BXMENU_026.png)
+![B£MENU_026](http://doc.smeup.com/immagini/B£MENU_12/BXMENU_026.png)
 
 NOTE : 
 1) La voce MySmeup non compare sempre, ma solo nei seguenti casi : 

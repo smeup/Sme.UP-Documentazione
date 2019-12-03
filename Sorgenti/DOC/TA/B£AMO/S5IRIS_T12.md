@@ -8,7 +8,7 @@ Se presenti anche le risorse specifiche la schedulazione risponde invece alle do
 
 Questo risultato si ottiene con l'esecuzione di uno script, costituito da una serie di passi che riempiono la memoria dagli archivi dell'applicazione, la modificano e riportano i risultati sugli archivi.
 
-![FIG_014](http://localhost:3000/immagini/S5IRIS_T12/FIG_014.png)
+![FIG_014](http://doc.smeup.com/immagini/S5IRIS_T12/FIG_014.png)
 # Descrizione script BCD
 Nel seguito viene descritto a grandi linee lo script proposto come base per la schedulazione, contenuto nel membro INT del file BCDSRC.
  :  : DEC T(MB) P(BCDSRC) K(INT) L(1)
@@ -44,4 +44,4 @@ Nella costruzione iniziale di DSIRIS vengono entrambi riempiti con i valori di S
 I dati di sessione vengono poi aggiornati con le azioni nel Gantt.
 All'atto della rischedulazione vengono salvati sulla DSFORZ (programma S5SMES_03), all'interno della fase di reinizializzazione delle DS, e quindi, dopo la ricostruzione dell'IRIS, vengono riempiti, sempre nell'IRIS, a partire da questa DS (nel programma S5SMES_01F).
 In tal modo si hanno sempre i dati originali (per eventuali futuri rollback), ed i dati delle ultime scelte eseguita.
-![FIG_014](http://localhost:3000/immagini/S5IRIS_T12/FIG_014.png)
+![FIG_014](http://doc.smeup.com/immagini/S5IRIS_T12/FIG_014.png)

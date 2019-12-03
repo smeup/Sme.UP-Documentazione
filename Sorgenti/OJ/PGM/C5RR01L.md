@@ -4,7 +4,7 @@ L'obiettivo della schermata della lista scadenze è quello di visualizzare e mod
 ## Formato lista
 All'interno del formato lista viene presentato l'elenco delle scadenze associate alla registrazione contabile.
 
-![C5D010_018](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR01L/C5D010_018.png)
+![C5D010_018](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR01L/C5D010_018.png)
 In prima battuta le scadenze vengono generate analizzando il codice pagamento presente in testata; è, in ogni caso, possibile modificare date, importi e tipologie di pagamento a proprio piacimento avendo l'accortezza di rispettare la corrispondenza tra importo indicato all'interno della registrazione contabile e somma degli importi delle singole rate.
 All'interno del formato lista per ogni rata sono riportate le seguenti informazioni : 
  \* Data scadenza
@@ -36,7 +36,7 @@ All'interno del formato lista sono disponibili i seguenti tasti funzionali :
 
 ## Formato dettaglio
 Il dettaglio di una rata contabile si presenta nel seguente modo : 
-![C5D010_019](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR01L/C5D010_019.png)Al suo interno è possibile visualizzare le seguenti informazioni : 
+![C5D010_019](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR01L/C5D010_019.png)Al suo interno è possibile visualizzare le seguenti informazioni : 
  \* Segno rata
  \* Tipo pagamento
  \* Data scadenza

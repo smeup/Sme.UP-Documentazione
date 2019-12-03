@@ -25,12 +25,12 @@ Il client grafico Looc.Up è composto da vari moduli in esecuzione contemporanea
 
 La seguente figura, mostra la struttura di esecuzione di una istanza del client Looc.Up, vista dal gestore processi di WIndows.
 
-![LOBASE_106](http://localhost:3000/immagini/LOBASE_035/LOBASE_106.png)
+![LOBASE_106](http://doc.smeup.com/immagini/LOBASE_035/LOBASE_106.png)
 L'esempio riportato è relativo ad una istanza del client Looc.Up avviata utilizzando la finestra grafica per la gestione delle connessioni (processo **Loocup_con.exe**). Il modulo di avvio crea una istanza del modulo base (**SmeBase_w.exe** nella figura) che a sua volta avvia i sottomoduli della scheda (**SmeTray.exe**) e dell'emulatore 5250 (**SmeUiClt.exe**). Per il corretto funzionamento del client Looc.Up tutti i moduli devono essersi attivati correttamente e nell'ordine mostrato nella figura.
 
 Nel caso vengano avviate più istanze di Looc.Up sulla stessa macchina, la struttura dei processi attivi è la seguente : 
 
-![LOBASE_107](http://localhost:3000/immagini/LOBASE_035/LOBASE_107.png)
+![LOBASE_107](http://doc.smeup.com/immagini/LOBASE_035/LOBASE_107.png)
 Si nota che il modulo di avvio Loocup_con non viene replicato per ognuna delle istanze attive ma rimane un'unica istanza.
 
 

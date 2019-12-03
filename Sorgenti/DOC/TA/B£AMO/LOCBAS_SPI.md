@@ -15,7 +15,7 @@ Di seguito un video che illustra l'installazione
 [https://www.youtube.com/embed/CPd8zGRCiy4](https://www.youtube.com/embed/CPd8zGRCiy4)
 
 
-![LOCBAS_049](http://localhost:3000/immagini/LOCBAS_SPI/LOCBAS_049.png)
+![LOCBAS_049](http://doc.smeup.com/immagini/LOCBAS_SPI/LOCBAS_049.png)
 I passi minimi per cominciare sono i seguenti : 
 
 -  Installare Sme.UP Provider
@@ -262,7 +262,7 @@ Va quindi tolto il commento al relativo parametro perchè venga passato al Provi
 
 NOTA
 
-![LOCBAS_050](http://localhost:3000/immagini/LOCBAS_SPI/LOCBAS_050.png)
+![LOCBAS_050](http://doc.smeup.com/immagini/LOCBAS_SPI/LOCBAS_050.png)
 
 Se si volesse schedulare un avvio e spegnimento automatico, aggiungere due voci nelle operazioni pianificate : 
  \* per l'avvio il comando da utilizzare è il seguente :  **sc start SmeupProvider**
@@ -479,9 +479,9 @@ NOTA Queste interrogazioni sono cablate e a solo scopo di test.
 
 
 Di seguito si può vedere un esempio di un client che dialoga con il provider in modo corretto
-![LOCBAS_047](http://localhost:3000/immagini/LOCBAS_SPI/LOCBAS_047.png)
+![LOCBAS_047](http://doc.smeup.com/immagini/LOCBAS_SPI/LOCBAS_047.png)
 Nell'immagine seguente possiamo vedere la risposta del provider
-![LOCBAS_048](http://localhost:3000/immagini/LOCBAS_SPI/LOCBAS_048.png)
+![LOCBAS_048](http://doc.smeup.com/immagini/LOCBAS_SPI/LOCBAS_048.png)
 
 ### Cosa fare se non si ha una DEV aggiornata?
 Vanno aggiornati i seguenti script di scheda : 

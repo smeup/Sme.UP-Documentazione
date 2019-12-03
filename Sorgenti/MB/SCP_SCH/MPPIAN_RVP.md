@@ -12,7 +12,7 @@ Questa scheda è rivolta all'analisi di una riga di vista piano a cui si arriva 
 ## Valori
 Mostra i valori della riga presenti nei vari periodi
 
-![MPPIAN_080](http://localhost:3000/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_080.png)
+![MPPIAN_080](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_080.png)
 ## Contenuto completo
 Oltre ai valori presenta anche gli indici statistici della vista : 
 
@@ -48,23 +48,23 @@ Oltre ai valori presenta anche gli indici statistici della vista :
  \* _2_Ultimo elemento non a zero
  \* _2_Mediana
 
-![MPPIAN_090](http://localhost:3000/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_090.png)
+![MPPIAN_090](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_090.png)
 _3_Nota , per il significato e le formule di calcolo degli indici presentati fare riferimento alla documentazione della routine di calcolo funzioni matematiche £G56
 - [Test statistiche](Sorgenti/OJ/PGM/TSTG56)
 
 ## Modifica riga
 Prevede la possibilità di modificare i valori della riga
 
-![MPPIAN_091](http://localhost:3000/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_091.png)
+![MPPIAN_091](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_091.png)
 ## Comparazione
 Permette di confrontare i dati della riga con altre righe dello stesso oggetto in altre viste oppure di altri oggetti presenti nella stessa vista
 
-![MPPIAN_092](http://localhost:3000/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_092.png)
+![MPPIAN_092](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_092.png)
 ## Analisi nel tempo
 Analizza i dati della riga attraverso il componente standard LOA02
 
-![MPPIAN_093](http://localhost:3000/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_093.png)
+![MPPIAN_093](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_093.png)
 ## Grafico
 Rappresenta graficamente l'andamento dei valori della riga nei periodi
 
-![MPPIAN_094](http://localhost:3000/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_094.png)
+![MPPIAN_094](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_RVP/MPPIAN_094.png)

@@ -6,7 +6,7 @@ Attraverso la ripresa dai documenti commerciali è possibile estrarre tutte le i
 
 Il formato guida si presenta nel seguente modo : 
 
-![C5C090_013](http://localhost:3000/immagini/MBDOC_OGG-P_V5V5E2G/C5C090_013.png)
+![C5C090_013](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5V5E2G/C5C090_013.png)
 Vediamo nello specifico il significato dei campi visualizzati : 
  \* Tipo cessione :  definisce la tipologia di scambi da estrarre. Le scelte disponibili sono : 
  \*\* ' '= Acquisti e vendite

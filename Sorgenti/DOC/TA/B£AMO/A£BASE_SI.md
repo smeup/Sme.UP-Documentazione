@@ -109,14 +109,14 @@ Esistono i seguenti due prototipi che vanno utilizzati in caso di creazione di u
 ## Scheda della /COPY
 La scheda di una /COPY è uno strumento di loocup che permette di riassumere, in modo standard, tutte le caratteristiche salienti di una /COPY, nella figura seguente si può vedere un esempio di queste schede.
 
-![A£BASE_023](http://localhost:3000/immagini/A£BASE_SI/AXBASE_023.png)
+![A£BASE_023](http://doc.smeup.com/immagini/A£BASE_SI/AXBASE_023.png)
 ## Modello dinamico
 Tramite il modello dinamico è possibile visualizzare le relazioni che la /COPY ha con il resto del mondo Sme.up (ad esempio in quali programmi è utilizzata.
 Per una trattazione di dettaglio del Modello dinamico si rimanda allo specifico paragrafo del documento.
 
 Nell'immagine seguente si possono vedere quali sono le informazioni che si possono trovare in questa scheda.
 
-![A£BASE_024](http://localhost:3000/immagini/A£BASE_SI/AXBASE_024.png)
+![A£BASE_024](http://doc.smeup.com/immagini/A£BASE_SI/AXBASE_024.png)
 # Come provare una /COPY
 Uno dei principali fattori di qualità di una /COPY è rappresentato dalla presenza o meno di un programma di test. Gran parte delle /COPY in Sme.up hanno associato un programma che  permette di testarne il funzionamento mostrando nel dettaglio, oltre ai valori, anche i nomi delle variabili di input e output che vengono lette o valorizzate. Il nome di questi programmi è solitamente standard ed è nella forma _TST+nome della /COPY senza il carattere £_.
 

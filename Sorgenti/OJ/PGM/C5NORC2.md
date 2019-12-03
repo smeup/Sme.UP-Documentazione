@@ -14,13 +14,13 @@ Tramite F17 si va invece nelle impostazioni :  ad esempio se le date sono discor
 Nel caso tra gli elementi contabili non si trovi il corrispettivo dell'elemento bancario, allora si procede alla creazione di una registrazione contabile (per abbinare a una causale ABI una casuale contabile propria).
 Scrivere 11 nel campo bianco dell'elemento banca interessato e nella successiva schermata (come da figura) selezionare il tipo di registrazione (a seconda della scelta potrebbe compilare in automatico gli spazi vuoti sottostanti o dover compilare gli eventuali obbligatori).
 
-![C5D030_035](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORC2/C5D030_035.png)
+![C5D030_035](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORC2/C5D030_035.png)
 A questo punto si possono verificare due possibili scenari; nel primo occorre , attraverso il '?' nello spazio bianco sulla colonna conto, selezionare dal menu l'elemento da associare in modo da azzerare il residuo, e poi confermare con F6.
 
-![C5D030_036](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORC2/C5D030_036.png)
+![C5D030_036](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORC2/C5D030_036.png)
 Come seconda possibilità può avvenire che, ad esempio selezionando la registrazione relativa agli incassi clienti o pagamento RID, il rimando sia a una schermata più specifica come quella sotto riportata.
 
-![C5D030_037](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORC2/C5D030_037.png)
+![C5D030_037](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORC2/C5D030_037.png)
 Con riferimento all'esempio si scrive S.P.A. in ragione sociale (nella descrizione dà S.P.A., che uso come filtro perricercare le papabili associazioni)
 Metto il ? a fianco della riga che voglio selezionare (si possono selezionare anche più righe se necessario) :  selezionare 'Salda Rata' se i singoli importi non corrispondono con il residuo, 'R' se l'importo coincide o se si vuole forzare a zero un'eventuale differenza che crea squilibrio nel residuo (in questo occorre mettere 1 sotto la colonna A a fianco del residuo che si vede nell'ultima colonna);il residuo può essere anche assegnato manualmente senza forzarlo proseguendo con un doppio F06,secondo regole simili a quelle descritte nel primo scenario.
 

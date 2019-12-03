@@ -37,7 +37,7 @@ di sincronizzazione delle risorse, consentendo l'accesso alle risorse condivise 
 
 La seguente figura mostra un tipica installazione Flux attestata su server dedicato.
 
-![MUOPER_18A](http://localhost:3000/immagini/MUOPER_18/MUOPER_18A.png)
+![MUOPER_18A](http://doc.smeup.com/immagini/MUOPER_18/MUOPER_18A.png)
 Analizziamo brevemente i componenti : 
 
 

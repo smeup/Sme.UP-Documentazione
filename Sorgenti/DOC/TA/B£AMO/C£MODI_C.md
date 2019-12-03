@@ -42,7 +42,7 @@ Esistono allo stato attuale tre formati diversi di attributo :
 Attualmente la visualizzazione dei modelli dinamici è disponibile solo su Looc.up, attivando il modulo C£MODI dell'applicazione C£. Il servizio C£SER_03 creato a tale scopo è fornito di una serie di metodi di visualizzazione e di organizzazione dei dati dei modelli, che leggono direttamente dal C£MODI0F. Con la funzione SER inoltre si può lanciare il programma di aggiornamento del modello C£MODI0G, che riceve in ingresso 3 parametri indispensabili :  scenario, tipo contesto e contesto. Il lancio dell'aggiornamento del modello dinamico è anche disponibile su Sme.up. Per gli scenari Ambienti e Applicazioni viene lanciato il programma (servizio) XX_MDI01, che carica il file facendo perno sui metodi messi a disposizione dalla /copy £MDI.
 In figura la struttura dei programmi in gioco : 
 
-![C£MODI_018](http://localhost:3000/immagini/C£MODI_C/CXMODI_018.png)
+![C£MODI_018](http://doc.smeup.com/immagini/C£MODI_C/CXMODI_018.png)
 Questi programmi di caricamento richiedono una preventiva analisi delle relazioni significative che costituiranno il modello. Per inserire nuovi modelli basta creare il programma che alimenta il file attraverso la £MDI e agganciarlo al programma di smistamento C£MDI0G, senza preoccuparsi della visualizzazione. I metodi di visualizzazione e organizzazione dei dati restano infatti sempre e comunque applicabili ad ogni modello perché leggono le informazioni direttamente dal file.
 
 ## Creazione step by step

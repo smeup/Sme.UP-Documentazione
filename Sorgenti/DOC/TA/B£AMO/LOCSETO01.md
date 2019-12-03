@@ -1,7 +1,7 @@
 
 Il componente Setup gestisce la configurazione di un componente grafico.
 
-![LO_CSET001](http://localhost:3000/immagini/LOCSETO01/LO_CSET001.png)
+![LO_CSET001](http://doc.smeup.com/immagini/LOCSETO01/LO_CSET001.png)
 Esistono due tipi di setup per i componenti grafici : 
  \* Predefiniti :  sono quelli definiti dagli installatori e non modificabili se non intervenendo a livello di script della scheda;
  \* Utente :  sono creabili e modificabili anche da parte dell'utente.

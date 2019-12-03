@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare i finanziamenti  erogati come anticipo su fatture attive evidenziando per ogi fattura presentata gli incassi avvenuti.
 
-![C5D030_054](http://localhost:3000/immagini/MBDOC_SCH-C5D030_ANT/C5D030_054.png)
+![C5D030_054](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_ANT/C5D030_054.png)
 ## Parametri di lancio
 
 -  Da data :  permette di definire la data iniziale del periodo di analisi.

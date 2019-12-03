@@ -3,19 +3,19 @@
 
 ## La nuova interfaccia
 
-![LOCEXD_050](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_050.png)
+![LOCEXD_050](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_050.png)
 
 ## Barra del titolo
 
 La nuova barra del titolo occupa meno spazio e contiene **il titolo** e il **sottotitolo** della scheda, **i bottoni**, il **menu UP** e la nuova **command bar**
 
-![LOCEXD_051](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_051.png)
+![LOCEXD_051](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_051.png)
 ## Command Bar
 
 E' stata introdotta la Command Bar, una **riga di comando sempre visibile**.
 _Al momento riceve gli stessi comandi che erano gestiti dall'F21 (Alias)_
 
-![LOCEXD_057](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_057.png)
+![LOCEXD_057](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_057.png)
 
 
 
@@ -23,13 +23,13 @@ _Al momento riceve gli stessi comandi che erano gestiti dall'F21 (Alias)_
 
 Tutti i menu delle finestra sono stati condensati nel menu UP
 
-![LOCEXD_054](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_054.png)
+![LOCEXD_054](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_054.png)
 
 ## Bottoni di Finestra
 
 E' scomparsa la bottoniera principale in basso a destra. Tutte le funzioni sono state spostate o riviste.
 
-![LOCEXD_052](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_052.png)
+![LOCEXD_052](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_052.png)
 F1  (Help)                  - Spostato in alto
 F3  (Chiudi)               - Dismesso
 F4  (Oggetto)            - Spostato - Sostituito da alias 'O' nella Command Bar e dall'F4 sempre dalla Command Bar
@@ -48,7 +48,7 @@ Bottoni aggiunti dai servizio alla scheda - Spostati in alto
 I bottoni specifici **del componente** sono stati spostati nella sezione stessa. E' possibile nasconderli.
 I bottoni del **gruppo sezione** sono stati spostati nella sezione stessa. E' possibile nasconderli.
 
-![LOCEXD_056](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_056.png)
+![LOCEXD_056](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_056.png)
 ### Bottoni associati alla tastiera
 
 I tasti funzione (F1-F24) associati ai bottoni continuano a funzionare.
@@ -74,4 +74,4 @@ Esistono dei default :
 
 I bottoni del **gruppo scheda** sono stati spostati nella barra del titolo
 
-![LOCEXD_055](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_055.png)
+![LOCEXD_055](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_20/LOCEXD_055.png)

@@ -17,5 +17,5 @@ Dal contenitore deriva l'ordine di produzione
 Dal ciclo del contenitore deriva il centro di lavoro della fase successiva, dal centro di lavoro deriva il fornitore che deve corrispondere a quello in testata documento.
 
 ## Formato video
-![P5PMFP_54](http://localhost:3000/immagini/MBDOC_OGG-P_V5MFP01/P5PMFP_54.png)Con l'opzione "S" si seleziona la riga, mentre "D" serve per deselezionare. F15 per selezionare tutto.
-![P5PMFP_55](http://localhost:3000/immagini/MBDOC_OGG-P_V5MFP01/P5PMFP_55.png)Alla fine si conferma con F6.
+![P5PMFP_54](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP01/P5PMFP_54.png)Con l'opzione "S" si seleziona la riga, mentre "D" serve per deselezionare. F15 per selezionare tutto.
+![P5PMFP_55](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP01/P5PMFP_55.png)Alla fine si conferma con F6.

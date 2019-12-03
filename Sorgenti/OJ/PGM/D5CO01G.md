@@ -5,7 +5,7 @@ I dati riportati vengono aggiornati in modo automatico nel momento in cui viene 
 ## Formato guida
 Il formato guida si presenta nel seguente modo : 
 
-![C5D030_027](http://localhost:3000/immagini/MBDOC_OGG-P_D5CO01G/C5D030_027.png)
+![C5D030_027](http://doc.smeup.com/immagini/MBDOC_OGG-P_D5CO01G/C5D030_027.png)
 All'interno del formato guida è necessario selezionare l'azienda d'interesse. Gli altri campi presenti sono facoltativi e riportano : 
  \* Conti Contabili :  il codice del conto contabile di cui si voglia gestire il saldo
  \* Data :  la data a cui si vuole gestire il saldo del conto indicato.

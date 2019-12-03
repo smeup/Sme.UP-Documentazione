@@ -6,9 +6,9 @@ Una scheda è divisa in una o più finestre (dette sezioni), ognuna delle quali 
 ## Etichetta (Tag)
 È il "titolo" di una subsezione.
 Il suo colore indica lo stato di caricamento della subsezione :  nera caricata, blu da caricare oppure ricaricabile (ad esempio perchè sono variati alcuni dei suoi parametri).
-![LOCEXD_046](http://localhost:3000/immagini/LOCEXD_C/LOCEXD_046.png)## Barra degli strumenti (Tool bar)
+![LOCEXD_046](http://doc.smeup.com/immagini/LOCEXD_C/LOCEXD_046.png)## Barra degli strumenti (Tool bar)
 È la barra presente nella parte inferiore della scheda, contiene bottoni che eseguono le azioni associate ai tasti funzionali.
-![LOCEXD_031](http://localhost:3000/immagini/LOCEXD_C/LOCEXD_031.png)
+![LOCEXD_031](http://doc.smeup.com/immagini/LOCEXD_C/LOCEXD_031.png)
 # Navigazione
 ## Uso del mouse
 Tutta la navigazione della scheda viene effettuata tramite il mouse.
@@ -25,7 +25,7 @@ Tutta la navigazione della scheda viene effettuata tramite il mouse.
 - Click sulle etichette delle subsezioni :  apre un menù a tendina contenente una serie di azioni associate alla subsezione (documentate di seguito).
 - Click su un oggetto :  apre un menù a tendina contenente le azioni associate all'oggetto. Molte di queste azioni sono standard e appaiono in qualunque punto di Looc.up si clicchi su un oggetto di quel tipo, altre sono specifiche di un determinato contesto.
 
-![LOCEXD_030](http://localhost:3000/immagini/LOCEXD_C/LOCEXD_030.png)Ricordo che in Web.UP non è possibile utilizzare il tasto destro del mouse!
+![LOCEXD_030](http://doc.smeup.com/immagini/LOCEXD_C/LOCEXD_030.png)Ricordo che in Web.UP non è possibile utilizzare il tasto destro del mouse!
 
 ## Funzioni sulle etichette di una subsezione
 Cliccando su un'etichetta con il pulsante destro del mouse si accede ad una serie di funzionalità relative alla subsezione, documentate di seguito.
@@ -77,8 +77,8 @@ Apre una finestrella in cui vengono mostrate le variabili "viste" dalla subsezio
 
 ## Caricamento differito di una sezione
 Nel wizard del G.SUB.SCH e' stato introdotto il campo 'Caricamento' per definire se la scheda deve essere caricata in modo differito o immediato : 
-![03COMEXD01](http://localhost:3000/immagini/LOCEXD_C/03COMEXD01.png)Nel caso in cui si scelga il caricamento differito all'apertura della sezione apparirà la scritta 'Sezione a caricamento differito. Per caricare cliccare sulla linguetta del titolo'.
+![03COMEXD01](http://doc.smeup.com/immagini/LOCEXD_C/03COMEXD01.png)Nel caso in cui si scelga il caricamento differito all'apertura della sezione apparirà la scritta 'Sezione a caricamento differito. Per caricare cliccare sulla linguetta del titolo'.
 
 ## Menù della sezione in caso di mancanza etichetta
 Nel caso in cui su una sezione non sia visualizzata la label che la identifica e' possibile aprire il suo popup selezionando il nuovo pulsante posto in pulsantiera : 
-![03COMEXD02](http://localhost:3000/immagini/LOCEXD_C/03COMEXD02.png)
+![03COMEXD02](http://doc.smeup.com/immagini/LOCEXD_C/03COMEXD02.png)

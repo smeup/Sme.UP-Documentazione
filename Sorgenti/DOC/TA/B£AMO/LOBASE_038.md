@@ -62,7 +62,7 @@ L'esecuzione manuale può essere effettuata nel seguente modo :
 - Nella cartella LOOCUP_LOG/NETLOG, sempre presente nella cartella di installazione di Loocup, verrà creato un file di log che potrà essere interrogato all'interno di Looc.Up secondo le modalità illustrate in seguito. Il nome del file di log viene calcolato univocamente ad ogni esecuzione del controllo e viene mostrato all'interno della GUI nell'apposito campo nella parte alta della finestra.
  :  : PAR : END
 
-![LOBASE_092](http://localhost:3000/immagini/LOBASE_038/LOBASE_092.png)
+![LOBASE_092](http://doc.smeup.com/immagini/LOBASE_038/LOBASE_092.png)
 ### Esecuzione del programma di controllo ad ogni avvio di Looc.Up
 
 Con questa modalità di esecuzione, il programma di controllo viene lanciato in modalità nascosta ad ogni avvio di Looc.Up. E' una modalità utile soprattutto nel caso di installazione di Looc.Up centralizzata sul server e consente la raccolta periodica di informazioni sullo stato dei singoli client al fine di valutare l'andamento del sistema nel tempo e l'effetto di eventuali variazioni sulle prestazioni globali del sistema.
@@ -99,7 +99,7 @@ Le informazioni raccolte possono essere classificate in tre categorie :
 
 Come già detto, nella categoria VAR rientrano tutte le informazioni che possono servire per identificare il sistema sotto test e farsi un'idea dello stato dello stesso al momento dell'esecuzione del programma di controllo.
 
-![LOBASE_093](http://localhost:3000/immagini/LOBASE_038/LOBASE_093.png)
+![LOBASE_093](http://doc.smeup.com/immagini/LOBASE_038/LOBASE_093.png)
 I parametri letti per la definizione dell'ambiente sono i seguenti : 
 
 
@@ -125,7 +125,7 @@ I parametri letti per la definizione dell'ambiente sono i seguenti :
 Nella categoria DAT rientrano tutti i risultati delle misure effettuate sul sistema al fine di valutare le prestazioni di specifici sottosistemi importanto per il corretto funzionamento di Looc.Up. Rientrano in questa categoria le misure sulla velocità della rete, le misure sulle prestazioni della macchina e altre informazioni similari. **Questo tipo di misurazioni ha senso soprattutto quando Looc.Up è installato su un server, all'interno di una cartella condivisa, ed eseguito localmente attraverso un link alla cartella condivisa.. I risultati sono invece poco significativi nel caso di installazione locale di Looc.Up.
 Per ognuna delle misure effettuate è prevista la possibilità di visualizzare un commento che consenta di interpretare correttamente il risultato ottenuto (ad esempio evidenziare i valori ritenuti anomali)
 
-![LOBASE_094](http://localhost:3000/immagini/LOBASE_038/LOBASE_094.png)
+![LOBASE_094](http://doc.smeup.com/immagini/LOBASE_038/LOBASE_094.png)
 In dettaglio, le misure effettuate sono le seguenti : 
 
 
@@ -138,7 +138,7 @@ In dettaglio, le misure effettuate sono le seguenti :
 
 Nella categoria VER rientrano tutti i risultati delle verifiche effettuate sui prerequisiti richiesti dal sistema per l'installazione di Looc.Up. Ogni controllo va a testare un singolo prerequisito tra quelli richiesti da Looc.Up in modo da evidenziare in maniera chiara la presenza sul sistema di condizioni non adatte al funzionamento del client. Per ognuna delle verifiche fallite viene inoltre mostrato un suggerimento sintetico che descrive l'eventuale azione correttiva o rimanda alla documentazione specifica per il problema rilevato.
 
-![LOBASE_095](http://localhost:3000/immagini/LOBASE_038/LOBASE_095.png)
+![LOBASE_095](http://doc.smeup.com/immagini/LOBASE_038/LOBASE_095.png)
 In dettaglio, le verifiche effettuate sono le seguenti : 
 
 

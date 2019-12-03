@@ -15,7 +15,7 @@ In figura 1 è mostrato questo schema :
 
 Figura 1  :  schema della comunicazione con il campo e la domotica
 
-![PH010](http://localhost:3000/immagini/PROVI_01/PH010.png)
+![PH010](http://doc.smeup.com/immagini/PROVI_01/PH010.png)
 
 Questo schema di comportamento è assolutamente generale , in quanto può essere perseguito per altre soluzioni applicative, grazie alla generalizzazione degli input e degli output : 
 -  L'azione che Smeup-provider svolge nei confronti dell'attuatore passa da una interfacccia standard con la domotica, che quindi può essere utilizzata per attivare altri dispositivi terminali :   pannelli luminosi, semafori, sirene,
@@ -32,9 +32,9 @@ Può essere usata per :
 -  applicazione di building automation, anche senza telecamera, legata invece al riconoscimento di badge magnetici o rfid del personale o dei visitatori
 
 Scheda di assegnazione macchina a collaboratore
-![PH020](http://localhost:3000/immagini/PROVI_01/PH020.png)
+![PH020](http://doc.smeup.com/immagini/PROVI_01/PH020.png)
 Lista delle entrate e delle uscite con fotografia
-![PH030](http://localhost:3000/immagini/PROVI_01/PH030.png)
+![PH030](http://doc.smeup.com/immagini/PROVI_01/PH030.png)
 NOTE TECNICHE
 Nell'ambito dell'evoluzione dell'integrazione di Sme.UP ERP con i dispositivi fisici, sono stati realizzati i plug-in di Smeup-Provider per : 
 -  comunicazione bidirezionale con tutti i dispositivi elettrici compatibili con lo standard KNX per la building automation (controllo dell'illuminazione, gestione degli impianti di riscaldamento e ventilazione, monitoraggi degli allarmi, gestione energia, elettricità e gas, gestione di impianti audio e video); Sme.UP ERP è in grado di inviare comandi o informazioni ai dispositivi e di rilevarne lo stato in tempo reale; lo standard KNX è il primo vero standard aperto, indipendente dalla piattaforma, riconosciuto a livello europeo e mondiale e quindi adottato dai maggiori produttori di componenti elettrici (ABB, GEWISS, SCHNEIDER, SIEMENS, ect.);
@@ -44,7 +44,7 @@ Nell'ambito dell'evoluzione dell'integrazione di Sme.UP ERP con i dispositivi fi
 -  alimentatore, EKINEX EK-AG1-TP; alimentatore per rete KNX (30 Vdc - 640 mA) provvisto anche di alimentazione ausiliaria
 -  attuatore,  Gewiss GW90740 ; attuatore KNX a 4 canali, di cui 1 utilizzato per comandare l'apertura del cancello
 Installazione Telecamera
-![PH040](http://localhost:3000/immagini/PROVI_01/PH040.png)installazione attuatore
-![PH050](http://localhost:3000/immagini/PROVI_01/PH050.png)
+![PH040](http://doc.smeup.com/immagini/PROVI_01/PH040.png)installazione attuatore
+![PH050](http://doc.smeup.com/immagini/PROVI_01/PH050.png)
 -  Perimetro di lavoro della telecamera
-![PH060](http://localhost:3000/immagini/PROVI_01/PH060.png)
+![PH060](http://doc.smeup.com/immagini/PROVI_01/PH060.png)

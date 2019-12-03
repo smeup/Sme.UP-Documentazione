@@ -41,11 +41,11 @@ L'invio dei dati alla piattaforma offline, che consiste nell'elaborazione dei re
 
 E' necessario configurare in modo specifico le tabelle EDI legate a questo flusso di trasmissione : 
 -  Tabella EDT messaggi inviati, in cui indicare tra gli altri, il parametro "metodo lista distribuzione" fisso ad uno specifico elemento della tabella EDI indirizzi, descritto nel punto seguente
-![MOOFFL_03A](http://localhost:3000/immagini/MOOFFL_03O/MOOFFL_03A.png)-  Tabella EDI indirizzi, in cui descrivere un destinatario fisso che identifica l'instradamento verso la piattaforma offline, indicando nel campo "metodo di invio" uno specifico elemento della tabella EDC, descritto nel punto seguente
-![MOOFFL_03B](http://localhost:3000/immagini/MOOFFL_03O/MOOFFL_03B.png)-  Tabella EDC metodi di comunicazione, in cui descrivere il punto di raccordo con la piattaforma offline, mediante il metodo \*A38 (invio a webserver), ed il relativo parametro : 
+![MOOFFL_03A](http://doc.smeup.com/immagini/MOOFFL_03O/MOOFFL_03A.png)-  Tabella EDI indirizzi, in cui descrivere un destinatario fisso che identifica l'instradamento verso la piattaforma offline, indicando nel campo "metodo di invio" uno specifico elemento della tabella EDC, descritto nel punto seguente
+![MOOFFL_03B](http://doc.smeup.com/immagini/MOOFFL_03O/MOOFFL_03B.png)-  Tabella EDC metodi di comunicazione, in cui descrivere il punto di raccordo con la piattaforma offline, mediante il metodo \*A38 (invio a webserver), ed il relativo parametro : 
 - \* subsezione A38, in cui descrivere l'endpoint di scrittura tabelle offline
 - \* programma specifico che esegue l'invio dei dati; se questo parametro non viene specificato, viene utilizzato il programma standard generalizzato MOED01A che genera i dati recependo la struttura specificata nei dati in trasmissione; se invece si desidera effettuare l'invio in modo specifico con delle funzionalità non coperte dal programma generalizzato, si può indicare un programma specifico creato ad hoc, utilizzando come template di partenza il programma MOED01A, rispettando il protocollo di comunicazione
-![MOOFFL_03C](http://localhost:3000/immagini/MOOFFL_03O/MOOFFL_03C.png)![MOOFFL_03D](http://localhost:3000/immagini/MOOFFL_03O/MOOFFL_03D.png)
+![MOOFFL_03C](http://doc.smeup.com/immagini/MOOFFL_03O/MOOFFL_03C.png)![MOOFFL_03D](http://doc.smeup.com/immagini/MOOFFL_03O/MOOFFL_03D.png)
 Da un punto di vista tecnico, tale programma esegue i seguenti passaggi : 
 -  riceve il nome della tabella di frontiera da trattare  (elemento della tabella EDT ricevuto come parametro di input)
 -  viene richiamato automaticamente dall'infrastruttura EDI su ogni record a livello 2 (non ancora inviato) e genera un file xml contenente tutto il lotto di records da trasmettere, scrivendolo in IFS (non obbligatorio ma più immediato)

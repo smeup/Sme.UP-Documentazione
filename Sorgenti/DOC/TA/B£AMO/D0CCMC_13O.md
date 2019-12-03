@@ -41,19 +41,19 @@ _7_Documentazione in fase di sviluppo
 
 Le impostazioni del calcolo costi si dividono in varie sezioni
 
-![D0CCMC_21A](http://localhost:3000/immagini/D0CCMC_13O/D0CCMC_21A.png)
+![D0CCMC_21A](http://doc.smeup.com/immagini/D0CCMC_13O/D0CCMC_21A.png)
 ### Impostazioni di Estrazione
 Le impostazioni di estrazione sono specifiche per tipo contesto
 
 ### Impostazioni di Estrazione - Contesto AR (Articolo)
-![D0CCMC_21B](http://localhost:3000/immagini/D0CCMC_13O/D0CCMC_21B.png) \* Ricalcolo LowLevelCode Si/No. Il LowLevelCode serve per ricalcolare i componenti base (di acquisto) prima degli altri così da calcolare gli articoli in sequenza discendente rispetto all'ordinamento di utilizzo nella distinta base presente nel parametro relativo della tabella >TCO specifica di quel tipo costo.
+![D0CCMC_21B](http://doc.smeup.com/immagini/D0CCMC_13O/D0CCMC_21B.png) \* Ricalcolo LowLevelCode Si/No. Il LowLevelCode serve per ricalcolare i componenti base (di acquisto) prima degli altri così da calcolare gli articoli in sequenza discendente rispetto all'ordinamento di utilizzo nella distinta base presente nel parametro relativo della tabella >TCO specifica di quel tipo costo.
 
 ### Impostazioni di Estrazione - Contesto DR (Documento)
-![D0CCMC_21C](http://localhost:3000/immagini/D0CCMC_13O/D0CCMC_21C.png)
+![D0CCMC_21C](http://doc.smeup.com/immagini/D0CCMC_13O/D0CCMC_21C.png)
 _7_Documentazione in fase di sviluppo
 
 ### Impostazioni di Estrazione - Contesto OR (Ordine Prodiuzione)
-![D0CCMC_21D](http://localhost:3000/immagini/D0CCMC_13O/D0CCMC_21D.png)
+![D0CCMC_21D](http://doc.smeup.com/immagini/D0CCMC_13O/D0CCMC_21D.png)
 _7_Documentazione in fase di sviluppo
 
 

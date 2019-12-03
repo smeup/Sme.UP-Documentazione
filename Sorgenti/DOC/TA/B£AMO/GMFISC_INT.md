@@ -14,13 +14,13 @@ In Sme.up sono possibili due metodi per ottenere queste sintesi :
 
 - _3_Attraverso chiusure periodiche dei magazzini (tipicamente chiusure di fine mese)
 
-![GM_FISC_01](http://localhost:3000/immagini/GMFISC_INT/GM_FISC_01.png)Si ricorda che l'esecuzione di una chiusura periodica di magazzino non comporta un blocco della revisione dei movimenti, se si desidera bloccare la movimentazione bisogna manualmente inserire il blocco nella tabella B£4 con elemento \*VMM o adottare un blocco attraverso date variabili.
+![GM_FISC_01](http://doc.smeup.com/immagini/GMFISC_INT/GM_FISC_01.png)Si ricorda che l'esecuzione di una chiusura periodica di magazzino non comporta un blocco della revisione dei movimenti, se si desidera bloccare la movimentazione bisogna manualmente inserire il blocco nella tabella B£4 con elemento \*VMM o adottare un blocco attraverso date variabili.
  :  : DEC T(TA) P(B£4) K(\*VMM)
 
 
 - _3_Attraverso la ricostruzione della giacenza alla data di fine esercizio partendo dalla giacenza corrente
 
-![GM_V001_02](http://localhost:3000/immagini/GMFISC_INT/GM_V001_02.png)
+![GM_V001_02](http://doc.smeup.com/immagini/GMFISC_INT/GM_V001_02.png)
 Nell'applicazione sono fornite tutte le funzioni per : 
 
 - creare le sintesi di magazzino

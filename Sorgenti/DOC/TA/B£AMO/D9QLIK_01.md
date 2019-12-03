@@ -45,7 +45,7 @@ Nei progetti dove è presente Sme.UP ERP, si utilizzano 3 modalità di connessio
 ### 1.3.1.1 Accesso diretto ODBC / OLE DB
 E' necessario :  dichiarare la stringa di connessione Inserire l'istruzione sql dopo la parola chiave sql.
 
-![D9QLIK_01](http://localhost:3000/immagini/D9QLIK_01/D9QLIK_01.png)
+![D9QLIK_01](http://doc.smeup.com/immagini/D9QLIK_01/D9QLIK_01.png)
 
 Si usa Principalmente per l'accesso a file statistici, nei quali sono rappresentati per esteso valori e attributi. Per esempio viene utilizzato per leggere il V5STAT.
 
@@ -64,7 +64,7 @@ I campi devono essere rinominati, non si possono solitamente usare i nomi origin
 E' necessario configurare le estrazioni tramite le tabelle D9B, D9C.
 I nomi dei campi possono essere definiti direttamente dall'estrazione Nello script è necessario generare le istruzioni di Caricamento (fig. 1.4).
 
-![D9QLIK_05](http://localhost:3000/immagini/D9QLIK_01/D9QLIK_05.png)
+![D9QLIK_05](http://doc.smeup.com/immagini/D9QLIK_01/D9QLIK_05.png)
 Le estrazioni poi devono essere schedulate per garantire l'aggiornamento dei file .csv generati.
 
  :  : R01 Quando si usa
@@ -101,14 +101,14 @@ E' necessaria quindi la conoscenza delle FUN in modo che si sia in grado di crea
 Le FUN devono essere inserite in una chiamata http nello script QlikView (fig. 1.5)
 
 
-![D9QLIK_03](http://localhost:3000/immagini/D9QLIK_01/D9QLIK_03.png)
+![D9QLIK_03](http://doc.smeup.com/immagini/D9QLIK_01/D9QLIK_03.png)
 
 
  :  : R01 Nomenclatura campi
 Come già detto in precedenza, QlikView utilizza come nome del campo la descrizione del campo stesso ed associa automaticamente i nomi uguali; per questo motivo spesso serve rinominare i campi già in fase di estrazione. Per rinominare in maniera completa e strutturata un intero file, la nomenclatura campi può essere acquisita attraverso una FUN specifica.
 In particolare la struttura dei campi di un file può essere descritta attraverso uno schema contenuto nello script SCP_QRY di riferimento.
 
-![D9QLIK_02](http://localhost:3000/immagini/D9QLIK_01/D9QLIK_02.png)
+![D9QLIK_02](http://doc.smeup.com/immagini/D9QLIK_01/D9QLIK_02.png)
 La FUN che caricherà la struttura dei campi dovrà richiamare lo schema definito in SCP_QRY attraverso un una chiamata del tipo F(EXB;JASER_02S;FMI.EXB) 1(Q2;IDV5STAT0F;S/QLIKVEN) dove QLIKVEN è lo schema descritto nello script SCP_QRY.
 
  :  : R01 Caratteristiche
@@ -132,7 +132,7 @@ Lo schema dati è solitamente misto Star-Snowflake schema
 Il nome dei campi è determinante, definisce i legami tra i dati all'interno del modello associativo
 
 
-![D9QLIK_04](http://localhost:3000/immagini/D9QLIK_01/D9QLIK_04.png)
+![D9QLIK_04](http://doc.smeup.com/immagini/D9QLIK_01/D9QLIK_04.png)
 
 
  :  : R01 Considerazioni

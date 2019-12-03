@@ -29,13 +29,13 @@ Ogni tipo di legame viene caratterizzato da una tabella (C£U), nella quale vann
 Per la costruzione di un legame vedi diagramma di flusso SEGUENTE.
 
 
-![C£_LEG_01](http://localhost:3000/immagini/C£LEGA/CX_LEG_01.png)>Figura 1 - Gestione Legami
+![C£_LEG_01](http://doc.smeup.com/immagini/C£LEGA/CX_LEG_01.png)>Figura 1 - Gestione Legami
 
 # Interrogazione Struttura dei Legami
 L'interrogazione dei legami consente di analizzare contemporaneamente diversi legami, purchè logicamente concatenati tra loro.
 La funzione controlla, infatti, che le scelte effettuate abbiano una compatibilità tra tipi oggetti, cioè il secondo oggetto del primo legame dovrà essere come il primo oggetto del secondo legame. Chiariamo con un esempio :  se volessimo conoscere i rischi connessi all'attività lavorativae gli strumenti con cui un dipendente si deve proteggere, dovremmo interrogare la struttura dei legami, specificando i legami dipendente/mansione, mansione/rischio e rischio/dispositivi di protezione.
 
-![C£_LEG_02](http://localhost:3000/immagini/C£LEGA/CX_LEG_02.png)>Figura 2 -  Costruzione interrogazione  per esplosione
+![C£_LEG_02](http://doc.smeup.com/immagini/C£LEGA/CX_LEG_02.png)>Figura 2 -  Costruzione interrogazione  per esplosione
 
 Se volessimo conoscere le mansioni in cui deve essere utilizzato il dispositivo di protezione e dachi esso debba essere usato, dovremmo interrogare la struttura dei legami, specificando i legamirischio/dispositivi di protezione, mansione/rischio e dipendente/mansione.
 
@@ -43,8 +43,8 @@ Abbiamo realizzato un software atto alla gestione dei problemi legati alla sicur
 I legami sono risultati essere un valido strumento per risolvere quella parte dell'applicazione adibita all' identificazione dei dati di base (le fonti di pericolo, i rischi, le situazioni di non conformità).
 In Q9000, un pacchetto che supporta la gestione della qualità, i legami sono stati utilizzati per gestire gli strumenti composti.
 
-![C£_LEG_03](http://localhost:3000/immagini/C£LEGA/CX_LEG_03.png)>Figura 3 - Interrogazione
+![C£_LEG_03](http://doc.smeup.com/immagini/C£LEGA/CX_LEG_03.png)>Figura 3 - Interrogazione
 
-![C£_LEG_04](http://localhost:3000/immagini/C£LEGA/CX_LEG_04.png)>Figura 4 - Costruzione interrogazione, implosione
+![C£_LEG_04](http://doc.smeup.com/immagini/C£LEGA/CX_LEG_04.png)>Figura 4 - Costruzione interrogazione, implosione
 
-![C£_LEG_05](http://localhost:3000/immagini/C£LEGA/CX_LEG_05.png)>Figura 5 - Interrogazione dei Legami
+![C£_LEG_05](http://doc.smeup.com/immagini/C£LEGA/CX_LEG_05.png)>Figura 5 - Interrogazione dei Legami

@@ -49,10 +49,10 @@ Ad esempio, può documentare nuovi programmi, archivi (e relativi campi), settor
 Riferirsi agli schemi seguenti : 
 
 ### Istanze documentate
-![B£DOCU_006](http://localhost:3000/immagini/B£DOCU_09/BXDOCU_006.png)
+![B£DOCU_006](http://doc.smeup.com/immagini/B£DOCU_09/BXDOCU_006.png)
 ### Sottoclassi documentate
-![B£DOCU_007](http://localhost:3000/immagini/B£DOCU_09/BXDOCU_007.png)
+![B£DOCU_007](http://doc.smeup.com/immagini/B£DOCU_09/BXDOCU_007.png)
 ### Classi documentate
-![B£DOCU_008](http://localhost:3000/immagini/B£DOCU_09/BXDOCU_008.png)
+![B£DOCU_008](http://doc.smeup.com/immagini/B£DOCU_09/BXDOCU_008.png)
 ### Risalita dall'istanza alla classe o alla sottoclasse
-![B£DOCU_009](http://localhost:3000/immagini/B£DOCU_09/BXDOCU_009.png)
+![B£DOCU_009](http://doc.smeup.com/immagini/B£DOCU_09/BXDOCU_009.png)

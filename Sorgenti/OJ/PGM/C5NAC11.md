@@ -14,7 +14,7 @@ Attraverso le impostazioni è possibile definire i seguenti parametri :
  \* Note aggiuntive? permette di visualizzare le note riportate sulle linee di riclassifica
  \* Modello Colonne :  permette di richiamare le valorizzazioni di colonne salvate nella Gestione colonne.
  \* Gestione colonne :  questo è il parametro più significativo perchè permette di gestire le informazioni visualizzate nelle 6 colonne disponibili in fase di stampa (l'interrogazione, invece, mostrerà solo le prime 4 colonne). Il valore restituito all'interno di ciascuna colonna è definito attraverso una stringa costituita a sua volta da 5 sottostringhe. Impostando questo campo con 1 verrà visualizzata un'ulteriore videata in cui impostare i valori resituiti in ciascuna colonna : 
-![C5E010_007](http://localhost:3000/immagini/MBDOC_OGG-P_C5NAC11/C5E010_007.png)Digitando '!' all'interno di ciascuna colonna partirà la costruzione guidata del valore restituito all'interno della colonna stessa. Vediamo le scelte proposte dal sistema : 
+![C5E010_007](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NAC11/C5E010_007.png)Digitando '!' all'interno di ciascuna colonna partirà la costruzione guidata del valore restituito all'interno della colonna stessa. Vediamo le scelte proposte dal sistema : 
 
 
  \* DI - Diretto dell'esercizio in esame :  questo parametro permetterà di visualizzare valori dell'esercizio impostato nel formato guida. Quindi se nel formato guida avrò impostato esercizio 2013, scegliendo DI vedrò i valori dell'esercizio 2013.

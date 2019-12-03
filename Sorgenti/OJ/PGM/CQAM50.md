@@ -12,7 +12,7 @@ in modo da :
  \* evidenziare il danno economico associato alla non conformità.
 
 ## Formato guida
-![CQ_NCNF_03](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_03.png)
+![CQ_NCNF_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_03.png)
  \* _2_il numero documento
 è un codice che in presenza del lotto è automaticamente riportato (la sua utilità in questo caso è superflua); nel caso in cui non è specificato il lotto il numero del documento permette di identificare in modo inequivocabile la registrazione della non conformità
 
@@ -20,14 +20,14 @@ in modo da :
 è un'informazione che lega il seguito delle fasi operative a quello specifico lotto; questo serve chiaramente quando esiste un lotto a cui la non conformità che si vuole dichiarare, appartiene.Può accadere invece che ciò su cui è stata riscontrata la non conformità non appartenga specificatamente ad un lotto; è giustamente lasciata la libertà di annullare il campo del codice lotto e inserire solo il nome/codice del documento di registrazione;
 
 Dato un documento viene presentata la lista di tutte le non conformità riscontrate sul lotto, oppure per quel documento, documentate fino a quel momento : 
-![CQ_NCNF_04](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_04.png)
+![CQ_NCNF_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_04.png)
  \* Qualsiasi non conformità riscontrata su quel documento viene proposta con una serie di informazioni di riepilogo sul lotto stesso (il modulo è in collegamento con l'anagrafica dei lotti) e sulle caratteristiche delle non conformità (tipo, fase di lavorazione e collaudo, se esistono). Questo tipo di legame tra il lotto e le non conformità rilevate è di fondamentale importanza per il soddisfacimento della norma che richiede una chiara documentazione sui prodotti, macchine, lotti coinvolti dalle difettosità riscontrate.
  \* E' possibile entrare in variazione nelle singole sezioni del documento per aggiornare o modificare i dati raccolti.
  \* Nel caso in cui si debba registrare una nuova non conformità relativa ad un lotto, è richiesto di specificare la fase di lavorazione e collaudo nella quale si è riscontrata la difettosità.
  \* E' previsto inoltre che ad un lotto per cui non sia esplicitamente collegata una fase di collaudo o lavoro (vedi il caso di lotti di acquisto o di prodotti finiti ai quali non è imputabile una singola fase) inserire un codice Jolly (\*\*) che permetta di identificare univocamente la non conformità.
 
 ## Formato di dettaglio
-![CQ_NCNF_05](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_05.png)
+![CQ_NCNF_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_05.png)
 Collegandosi con l'anagrafica dei lotti ed eventualmente con il modulo di dichiarazione dei collaudi  se si sta trattando di una difettosità riscontrata durante una prova di collaudo, il programma è in grado di recuperare le informazioni relative a : 
  \* _3_articolo :  codice, descrizione, classe funzionale;
  \* _3_planner;
@@ -49,7 +49,7 @@ Viene richiesto di specificare :
  \* _3_classe del difetto, è una specificazione che il programma legge dalla tabella CQD e riporta in automatico. A questa tabella è associato il valore del difetto e l'opzione legata all'obbligo di definire l'azione sulla prossima consegna;
  \* _3_gravità, che il programma propone in automatico leggendolo dalla tabella CQD (è logico associare ad un difetto la relativa gravità) :  è comunque un parametro modificabile.
 _2_Nota; ad ogni classe di difetto e per ogni livello di gravità viene assegnato un valore numerico di demerito come ad esempio da seguente prospetto : 
-![CQ_NCNF_06](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_06.png)I demeriti sono parametri che vengo impiegati nella definizione degli indici di qualità che servono per il Controllo di Qualità. In genere infatti il Controllo Qualità deve esporre quando richiesto dalla Direzione e/o dalle Funzioni interessate i risultati delle verifiche effettuate : 
+![CQ_NCNF_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_06.png)I demeriti sono parametri che vengo impiegati nella definizione degli indici di qualità che servono per il Controllo di Qualità. In genere infatti il Controllo Qualità deve esporre quando richiesto dalla Direzione e/o dalle Funzioni interessate i risultati delle verifiche effettuate : 
  - per tipo di prodotto (_1_Indice di Qualità Prodotto);
  - per l'intera produzione (_1_Indice di Qualità Aziendale);
  - per il fornitore (_1_Indice di Qualità del Fornitore);
@@ -65,22 +65,22 @@ A completamento di questo il Controllo Qualità deve essere in grado di fornire 
  \* tipo di non conformità, è un campo tabellato CQE che contiene informazioni legate alla costificazione della non conformità. In base al tipo il programma esegue una serie di calcolazioni su parametri impostati da tabella direttamente dall'utente  e produce in uscita come risultato il costo unitario della non conformità che compare nella finestra dei costi. Il tipo determina anche la forzatura nell'esito dei controlli.
 
 Vediamo in dettaglio i campi che sono riportati in basso : 
-![CQ_NCNF_07](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_07.png)
+![CQ_NCNF_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_07.png)
 ### Quantità
 Tramite il campo Quantità l'operatore può registrare il riassunto delle quantita che ha rilevato distinguendole nelle differenti classi (scarti, accettati in deroga...)
-![CQ_NCNF_08](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_08.png)
+![CQ_NCNF_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_08.png)
 Automaticamente viene controllata l'esattezza dei dati introdotti ed è proposto un riepilogo sull'intero lotto.
 
 ### Costi
 Il campo dei Costi permette di specificare il costo complessivo che ha comportato la non conformità distinto secondo le voci proposte : 
-![CQ_NCNF_09](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_09.png)
+![CQ_NCNF_09](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_09.png)
 E' messo in evidenza il costo unitario; quest'ultimo è ricavato in base al tipo di non conformità (costo primo, costo industriale...contenuti nell'archivio dei prezzi) e all'articolo.
 Tale costo viene moltiplicato per il numero di pezzi che sono risultati non conformi ed il risultato sommato per le voci di costo specificate nella tabella soprariportata.
 Questa finestra permette quindi di quantificare il costo della non conformità tenendo conto dell'entità del difetto, del valore del prodotto a quella fase della lavorazione e di tutte le spese sostenute per affrontare la non conformità in termini di tempo, addebiti/accrediti del fornitore.
 
 ### Dati per addebito/accredito
 Una finestra molto importante dal punto di vista della conformità del programma alla norma è la seguente : 
-![CQ_NCNF_10](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_10.png)
+![CQ_NCNF_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_10.png)
 Le prime due voci evidenziate portano di Default il codice dell'articolo e del lotto; tramite l'interrogazione (/) è possibile collegarsi con la distinta base del prodotto, scandire tutti i sui componenti  ed individuare il responsabile della non conformità.
 
 Se, ad esempio, accade che durante il collaudo finale venga riscontrato un difetto imputabile ad un particolare interno, tramite la connessione con la distinta del prodotto è possibile riportare in questo campo il codice dell'articolo e del lotto responsabile.
@@ -105,9 +105,9 @@ Qualsiasi altra informazione legata all'addebito/accredito che si desidera alleg
 La finestra che si apre descrive le azioni che si decide di associare al tipo di difetto per quella causa specifica. Se supponiamo che un difetto si presenti frequentemente sotto quella
 causa l'ente responsabile (generalmente la Direzione Tecnica) ha la possibilità di descrivere una serie di operazioni correttive che permettono all'operatore di attivare opportune azioni di intervento per eliminare il problema.
 Questa informazione rimane legata in modo indissolubile all'articolo per quel difetto sotto quella causa cosicchè quando il problema si ripropone all'operatore compaiono automaticamente i tipi di intervento che può eseguire.
-![CQ_NCNF_11](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_11.png)
+![CQ_NCNF_11](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_11.png)
 Per l'immissione delle azioni si utilizza il comando funzione F15 : 
-![CQ_NCNF_12](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_12.png)I campi da gestire sono : 
+![CQ_NCNF_12](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_12.png)I campi da gestire sono : 
  \* sequenza è un campo numerico che scandisce la priorità di esecuzione delle attività, decisa dall'ente responsabile.
  \* azione è il campo che descrive l'azione correttiva intrapresa
 
@@ -126,5 +126,5 @@ E' un campo di segnalazione della stampa di questo modulo (si rimanda alla sezio
 
 ### Intervento
 Su questo campo si apre una finestra che, operativamente, è di fondamentale importanza : 
-![CQ_NCNF_13](http://localhost:3000/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_13.png)
+![CQ_NCNF_13](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM50/CQ_NCNF_13.png)
 Direttamente da questo modulo, l'operatore che riscontra la non conformità (che può essere il collaudatore, oppure se la difettosità avviene durante una fase di autocontrollo, l'addetto abilitato) attiva, quando lo ritiene necessario un'azione di intervento.

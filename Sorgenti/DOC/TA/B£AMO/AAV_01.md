@@ -19,7 +19,7 @@ Dal punto di vista dell'impatto sui processi aziendali e sulle modalità operati
  \*\* la successiva personalizzazione del prodotto finito in fase di assemblaggio finale in base a quanto richiesto dall'ordine.
 
 ## Confronto tra produzione per stock e produzione su commessa
-![AAV_01_01](http://localhost:3000/immagini/AAV_01/AAV_01_01.png)
+![AAV_01_01](http://doc.smeup.com/immagini/AAV_01/AAV_01_01.png)
 ## Processi coinvolti
  \* Gestione anagrafico commessa
  \* Gestione offerte di vendita

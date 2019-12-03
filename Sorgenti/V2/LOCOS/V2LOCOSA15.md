@@ -28,7 +28,7 @@ dove  _7_xx è il codice azienda presente in B£2 (££B£2A) e il carattere T v
 ## La scheda
 La scheda si presenta nel modo seguente : 
 
-![LOA15_001](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_001.png)
+![LOA15_001](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_001.png)
  \* Nella sotto-sezione di sinistra denominata _2_Fonti vengono elencati gruppi fonte, fonti e schemi presenti nello script di configurazione, per procedere è necessario selezionare uno schema (es. A2.F2.S3)
  \* La sezione sottostante denominata in partenza _2_Azioni è sensibile allo schema selezionato e presenta : 
  \*\* _3_Azioni di report, queste sono le azioni da selezionare in modo che nella sezione di destra compaia una analisi
@@ -40,82 +40,82 @@ La scheda si presenta nel modo seguente :
 ## Azioni di report
 ### Matrice
 Quando viene selezionata questa azione nella sezione di destra viene presentata una matrice : 
-![LOA15_002](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_002.png)
+![LOA15_002](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_002.png)
 ### Report
 Quando viene selezionata questa azione parte il configuratore per la produzione di un report in formato pdf : 
-![LOA15_003](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_003.png)
+![LOA15_003](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_003.png)
 ### Foglio di lavoro
 Quando viene selezionata questa azione parte il configuratore per l'export su foglio di lavoro : 
-![LOA15_004](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_004.png)LOA15)
+![LOA15_004](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_004.png)LOA15)
 
 ### Analisi di Pareto
 Questa azione lancia l'analisi di Pareto, selezionare la dimensione e la misura da analizzare, nella parte di destra viene presentata l'analisi in forma di matrice : 
-![LOA15_005](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_005.png)la stessa analisi può essere vista in forma grafica : 
-![LOA15_006](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_006.png)
+![LOA15_005](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_005.png)la stessa analisi può essere vista in forma grafica : 
+![LOA15_006](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_006.png)
 ### Drill down
 Richiede di selezionare una dimensione, mostra tutti i codici presenti per la dimensione selezionata, quando si sceglie uno dei codici viene emessa una matrice con tutti record del codice selezionato, la matrice può essere raggruppata in funzione dello script di configurazione : 
-![LOA15_007](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_007.png)
+![LOA15_007](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_007.png)
 ### Analisi tabellare standard
 Questa azione lancia la scheda LOA03 : 
-![LOA15_008](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_008.png)
+![LOA15_008](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_008.png)
 ### Costruzione report
 Viene lanciato il programma LOA15_GF per la ricostruzione del report identificato dallo specifico schema : 
-![LOA15_009](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_009.png)
+![LOA15_009](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_009.png)
 ### Eliminazione report
 Viene lanciato il programma LOA15_GF per l'eliminazione del report identificato dallo specifico schema : 
-![LOA15_010](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_010.png)
+![LOA15_010](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_010.png)
 ### Set'n play
 Mostra una serie di sottoschede statistiche sulla elaborazione delle fonti : 
 
 _1_Cruscotto
 Mostra i dati raccolti l'ultima volta che la fonte è stata ricostruita (durata elaborazione, data/ora creazione, righe, anzianità del dato, ecc...) : 
-![LOA15_011](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_011.png)
+![LOA15_011](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_011.png)
 _1_Oggetti
 Mostra gli oggetti di sistema (programmi, file, tabelle, ecc...) interessati : 
-![LOA15_012](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_012.png)
+![LOA15_012](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_012.png)
 _1_Parametri report
 Mostra le impostazioni (default ed utente) presenti per la produzione dei report : 
-![LOA15_013](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_013.png)
+![LOA15_013](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_013.png)
 _1_Dati report
 Mostra tutti i record presenti nel file relativi al report (lo schema) : 
-![LOA15_014](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_014.png)
+![LOA15_014](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_014.png)
 _1_Parametri fonte
 Mostra le impostazioni (default ed utente) presenti per la produzione della fonte : 
-![LOA15_015](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_015.png)
+![LOA15_015](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_015.png)
 _1_Dati fonte
 Mostra tutti i record presenti nel file relativi alla fonte : 
-![LOA15_016](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_016.png)
+![LOA15_016](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_016.png)
 _1_File BI azienda
 Mostra tutti i file contenuti nella libreria SMEUPBIaa (aa = azienda) : 
-![LOA15_017](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_017.png)
+![LOA15_017](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_017.png)
 _1_Azioni gruppo
 Elenca le azioni di gruppo : 
-![LOA15_018](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_018.png)
+![LOA15_018](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_018.png)
 _1_Azioni globali
 Elenca le azioni globali : 
-![LOA15_019](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_019.png)
+![LOA15_019](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_019.png)
 _1_Dimensioni
 Mostra le dimensioni (campi Cxx) di tutti i record presenti nel file : 
-![LOA15_020](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_020.png)
+![LOA15_020](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_020.png)
 _1_Misure
 Mostra le misure (campi Vxx) di tutti i record presenti nel file : 
-![LOA15_021](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_021.png)
+![LOA15_021](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_021.png)
 _1_Funzioni
 Mostra le funzioni presenti nello script : 
-![LOA15_022](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_022.png)
+![LOA15_022](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_022.png)
 ### Documentazione report
 Permette di leggere e/o creare-modificare la documentazione utente specifica del report : 
-![LOA15_023](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_023.png)
+![LOA15_023](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_023.png)
 ## Azioni di fonte
 ### Costruzione fonte
 Lancia il programma di ricostruzione della fonte : 
-![LOA15_024](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_024.png)
+![LOA15_024](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_024.png)
 ### Eliminazione fonte
 Lancia il programma di eliminazione della fonte : 
-![LOA15_025](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_025.png)
+![LOA15_025](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_025.png)
 ### Documentazione fonte
 Permette di leggere e/o creare-modificare la documentazione utente specifica della fonte : 
-![LOA15_026](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_026.png)
+![LOA15_026](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA15/LOA15_026.png)
 ## Set'n Play
 Questa sottoscheda rimanda a sua volta : 
  \* _2_alla scheda LOA07, per la gestione dello script di configurazione del LOA15 (per l'utilizzo vedi Help specifico)

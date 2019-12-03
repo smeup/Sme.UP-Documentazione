@@ -14,9 +14,9 @@ Il programma si comporta differentemente in funzione della modalità di ingresso
  \* _2_Revisione FMEA, permette di selezionare una richiesta di FMEA per richiedere delle azioni correttive necessarie per la riduzione delle priorità (FMECA)
 
 ## Formato guida
-![CQ_FMEA_14](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_14.png)
+![CQ_FMEA_14](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_14.png)
 ## Formato selezione difetto per inserimento azioni correttive
-![CQ_FMEA_15](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_15.png)
+![CQ_FMEA_15](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_15.png)
 Il progettista sceglierà la causa con priorità di rischio maggiore, ed a questa collegherà una serie di informazioni e di operazioni da farsi. Data una causa il programma mette a disposizione una serie di campi in cui specificare : 
  \* sperimentazioni eseguite, l'utente può interrogare le richieste di intervento per cercare se è già stato gestito in azienda una problematica che possa colleagarsi con quanto stà analizzando;
  \* rapporti di prova, il progettista può richiedere di effettuare determinati rapporti di prova;
@@ -36,15 +36,15 @@ In seguito, l'ente designato per la gestione della FMECA può a sua volta interr
  \* tipo intervento.
 
 ## Formato immissione azione correttiva
-![CQ_FMEA_16](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_16.png)
+![CQ_FMEA_16](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_16.png)
 La terza fase consiste nella ridefinizione degli indici di priorità di rischio sulla base delle azioni effettuate : 
 
 ## Formato valutazione rischi
-![CQ_FMEA_17](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_17.png)
+![CQ_FMEA_17](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_17.png)
 alla causa viene associato con questa azione un nuovo documento (evidenziato figura seguente) su cui saranno riportati i nuovi valori degli indici ed in cui se necessario il progettista potrà rientrare ed associare una nuova richiesta di azione correttiva
 
 ## Hystory FMECA
-![CQ_FMEA_18](http://localhost:3000/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_18.png)
+![CQ_FMEA_18](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQFM20/CQ_FMEA_18.png)
 Il progettista a questo punto torna a rianalizzare gli istogrammi delle cause, sceglie quella con indice di priorità maggiore  ripetendo iterativamente questo processo (continous analisys) fino a che, per effetto delle misure previste o azioni correttive intraprese ed evase, tutte le priorità di rischio non siano al di sotto del livello minimo voluto.
 
 Da notare che è stata intitolata FMECA la parte di gestione per ribadire il concetto di Continous-Analisys. Esiste però anche la FMECA in cui si intende Failure Mode Effect Criticability in cui viene analizzata la criticità degli effetti di guasto. Questa criticità è compresa nella dichiarazione della criticità del componente.

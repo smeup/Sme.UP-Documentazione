@@ -11,7 +11,7 @@ Un processo è un insieme di compiti (impegni) organizzati teso al raggiungiment
 
 Consideriamo un semplice esempio di processo, relativo alla modifica di documentazione tecnica : 
 
-![WFBASE_002](http://localhost:3000/immagini/WFBASE_023/WFBASE_002.png)Nella figura sono visibili : 
+![WFBASE_002](http://doc.smeup.com/immagini/WFBASE_023/WFBASE_002.png)Nella figura sono visibili : 
  \* l'inizio e la fine del processo.
  \* gli impegni di cui è composto (rettangoli) :  ognuno deve essere eseguito da una e una sola persona.
  \* i potenziali esecutori di tali impegni.

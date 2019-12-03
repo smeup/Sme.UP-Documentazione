@@ -16,7 +16,7 @@ I calendari a disposizione sono strutturati in modo diverso :
  \* Calendario delle Eccezioni, è di tipo mensile;
  \* Calendario Settimanale, definisce i giorni lavorativi della settimana con l'aggiunta di 5 possibili giorni speciali.
 
-![B£CALE_013](http://localhost:3000/immagini/B£CALE_002/BXCALE_013.png)
+![B£CALE_013](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_013.png)
 Per come è strutturato, è possibile definire un calendario di disponibilità per la singola risorsa oppure per una tipologia di risorse, evitando il meccanismo di dover ripetere più volte la definizione dello stesso per le risorse simili (con la stessa disponibilità). Nello schema di dettaglio è possibile vedere come sono collegati i calendari di base, quali tabelle sono relazionate, le risorse collegate e le funzioni disponibili.
 
 # Impostazione dell'anno
@@ -25,13 +25,13 @@ Tale criterio prevede la lettura del calendario Annuale e, se non esiste il codi
 Nel Settimanale si trovano le informazioni di base, cioè il Codice Orario, il Numero di risorse disponibili, le Percentuali di utilizzo e il codice dei Giorni Speciali per la risorsa in esame.
 Procedendo in questo modo, secondo lo schema della risalita, si ottiene il principio di ereditarietà delle informazioni.
 Si veda lo schema seguente : 
-![B£CALE_014](http://localhost:3000/immagini/B£CALE_002/BXCALE_014.png)
+![B£CALE_014](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_014.png)
 La proiezione del calendario Annuale (mese, giorno) fornisce il Codice Orario con la massima priorità rispetto a quello delle Eccezioni e della Settimana, nel senso che tutte le risorse fanno riferimento a tale codice.
 
 ## Il Calendario Annuale
 Il calendario Annuale è formato dalla matrice che specifica per mese/giorno il Codice Orario : 
 
-![B£CALE_015](http://localhost:3000/immagini/B£CALE_002/BXCALE_015.png)I valori accettati sono i seguenti : 
+![B£CALE_015](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_015.png)I valori accettati sono i seguenti : 
  \* >F indica un giorno festivo;
  \* >1, 2, 3, 4, 5 indica l'applicazione del relativo Giorno Speciale.
 
@@ -54,7 +54,7 @@ Il calendario settimanale descrive il comportamento della settimana tipica e con
 Inoltre è possibile definire i Giorni Speciali (max 5) le cui caratteristiche sono impostate nella tabella OLG.
 
 **Esempio di impostazione del calendario settimanale di una risorsa**
-![B£CALE_016](http://localhost:3000/immagini/B£CALE_002/BXCALE_016.png)
+![B£CALE_016](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_016.png)
 Nell'orario Settimanale si specificano per Tipo e Codice Risorsa i seguenti dati : 
  \* Risorsa Collegata, solo se la risorsa appartiene ad un gruppo con caratteristiche simili ( in questo caso i Codici Orario si lasciano "blank" dato che le informazioni necessarie si prenderanno da quest'ultima);
  \* Codice Orario, dei giorni settimanali;
@@ -65,19 +65,19 @@ Il calendario delle Eccezioni è nato per descrivere tutte quelle situazioni che
 Ci si riferisce cioè a tutte quelle situazioni che non possono essere previste.
 Ad esempio se si hanno i seguenti valori : 
 
-![B£CALE_017](http://localhost:3000/immagini/B£CALE_002/BXCALE_017.png)>Esempio 1 :  dato che nel calendario annuale il codice è blank e nelle Eccezioni il codice orario è stato definito come giorno di Inventario, seguendo lo schema di risalita verrà applicato quest'ultimo.
+![B£CALE_017](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_017.png)>Esempio 1 :  dato che nel calendario annuale il codice è blank e nelle Eccezioni il codice orario è stato definito come giorno di Inventario, seguendo lo schema di risalita verrà applicato quest'ultimo.
 
-![B£CALE_018](http://localhost:3000/immagini/B£CALE_002/BXCALE_018.png)>Esempio 2 :  in questo secondo esempio il calendario di disponibilità della risorsa riporterà il codice di manutenzione.
+![B£CALE_018](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_018.png)>Esempio 2 :  in questo secondo esempio il calendario di disponibilità della risorsa riporterà il codice di manutenzione.
 La gestione delle Eccezioni permette di assegnare a ogni singola risorsa un calendario specifico e univocamente legato a quest'ultima. Non solo, ma si possono definire per la coppia (Tipo Risorsa e Codice Risorsa) dei Periodi in cui valgono le Eccezioni rispetto a quanto specificato nel Calendario Annuale.
 
 **Formato Inserimento Eccezioni per Risorsa**
-![B£CALE_019](http://localhost:3000/immagini/B£CALE_002/BXCALE_019.png)
+![B£CALE_019](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_019.png)
 # Interrogazione
 L'interrogazione permette di visualizzare graficamente la disponibilità di una risorsa in un priodo di tempo : 
-![B£CALE_020](http://localhost:3000/immagini/B£CALE_002/BXCALE_020.png)
+![B£CALE_020](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_020.png)
 # Stampa disponibilità risorse
 Consente di stampare il grafico della diponibilità della risorsa nel periodo preso in considerazione : 
-![B£CALE_021](http://localhost:3000/immagini/B£CALE_002/BXCALE_021.png)
+![B£CALE_021](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_021.png)
 # Set'n play distribuzione quantità
 In Sme.up la periodicità permette di descrivere periodi di ampiezza costante (giorni, settimane, mesi) e periodi di ampiezza variabile (n giorni + m settimane + p mesi).
 Uno degli utilizzi è nella gestione del Master Production Schedule (MPS), dove i periodi hanno ampiezza variabile (giorni nel breve, settimane nel medio, mesi nel lungo termine).
@@ -86,14 +86,14 @@ Questo strumento permette di verificare :
  \* come vengono costruiti i periodi dati (risorsa, periodicità, periodo iniziale);
  \* la distribuzione, nei vari periodi, delle quantità inserite.
 
-![B£CALE_022](http://localhost:3000/immagini/B£CALE_002/BXCALE_022.png)
+![B£CALE_022](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_022.png)
 Con le opzioni di sinistra è possibile : 
  \* verificare la descrizione di dettaglio del periodo (vedi esempio)
  \* data una quantità settimanale o mensile inserita nel periodo, verificare la sua distribuzione nei vari periodi (vedi esempio).
 
-![B£CALE_023](http://localhost:3000/immagini/B£CALE_002/BXCALE_023.png)
+![B£CALE_023](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_023.png)
 **Esempio distribuzione quantità mensile nei periodi**
-![B£CALE_024](http://localhost:3000/immagini/B£CALE_002/BXCALE_024.png)
+![B£CALE_024](http://doc.smeup.com/immagini/B£CALE_002/BXCALE_024.png)
 # Tabelle particolari
 Le tabelle a cui fa riferimento il Calendario sono OLG, A£Q e TRG : 
  \* O L G (Orario di Lavoro Giornaliero). Contiene i possibili orari definiti dall'utente secondo le proprie esigenze. Sono quindi codificati i possibili orari normali (turno normale 8-17, doppio turno, 3 turni, festivo, ecc...), ma anche le possibili eccezioni. Ogni elemento della tabella contiene, oltre alla descrizione dettagliata del singolo elemento, l'orario di inizio e di fine di ogni intervallo, che costiuisce il codice orario (sono possibili fino a 6 intervalli). Si noti che gli orari sono espressi in Centesimi e non in ore (es. :  le ore sei e mezza vengono indicate con 6,50).

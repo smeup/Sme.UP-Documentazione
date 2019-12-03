@@ -3,7 +3,7 @@ La scheda standard LOA08 permette di porre una serie di domande. A seguito della
 
 L'immagine definisce il funzionamento di base.
 
-![LOCCOS_002](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOSA08/LOCCOS_002.png)
+![LOCCOS_002](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOSA08/LOCCOS_002.png)
 Le risposte alle domande verranno passate alla scheda richiamata in due modalità : 
 -  Come variabili di scheda, dal nome definibile dalla struttura di definizione delle domande oppure secondo una codifica automatica (G30nnn, dove nnn è il numero della domanda).
 -  Come parametro di input A08_VAR che come contenuto ha al suo interno l'elenco di tutto i parametri (con la codifica sopracitata) con i rispettivi valori.

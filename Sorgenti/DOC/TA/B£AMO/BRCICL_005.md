@@ -74,13 +74,13 @@ Una rappresentazione potente deve saper trattare le alternative "profonde", che 
 Questa rappresentazione non si incontra soltanto in attività complesse, ma è necessaria anche per descrivere situazioni di estrema semplicità, quali il caso di un'alternativa tra una fase interna ed una esterna, che, a sua volta, può essere seguita o meno da un'ulteriore fase interna.
 
 Un esempio di percorso complesso è riportato nella figura seguente
-![BRCICL_01](http://localhost:3000/immagini/BRCICL_005/BRCICL_01.png)
+![BRCICL_01](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_01.png)
 In questa figura si evidenziano i vari percorsi possibili, ed inoltre si formano due gruppi :  A e B.
 
 _2_Definizione :  _1_un gruppo è la porzione minima del percorso che può essere compresa in una linea chiusa che interseca il percorso in non più di due punti e che contiene al suo interno almeno una diramazione.
 
 Si definiscono esterne le fasi non appartenenti a nessun gruppo.
-![BRCICL_02](http://localhost:3000/immagini/BRCICL_005/BRCICL_02.png)
+![BRCICL_02](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_02.png)
 Per descrivere questa struttura (di alternative), si utilizza il gruppo alternativa (un parametro con cinque posizioni) definito per ogni fase del ciclo.
 
 Le fasi esterne ad un gruppo devono avere il gruppo alternativa in bianco. Ciò significa che in questi casi il percorso è definito dalla sequenzialità delle operazioni.
@@ -92,7 +92,7 @@ Per ognuna di esse si codifica, in una delle prime quattro posizioni del gruppo 
 Il carattere in quinta posizione individua invece la fase successiva da eseguire quando è stata scelta questa fase. Lo stesso carattere sarà presente in una delle prime quattro posizioni nella fase successiva. Se essa è all'esterno di un gruppo, il carattere di prosecuzione dovrà rimanere vuoto.
 
 Ad esempio, il _3_gruppo A
-![BRCICL_03](http://localhost:3000/immagini/BRCICL_005/BRCICL_03.png)
+![BRCICL_03](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_03.png)
 si descrive con la tabella "Gruppo A" dove per ogni fase sono presentate le posizioni da 1 a 5 del gruppo alternativa
 Il carattere A viene assegnato alle fasi 10 e 20, in alternativa tra di loro.
 Il carattere B viene assegnato soltanto alla fase 30 (che non ha nessuna alternativa), ma deve essere individuata come prosecuzione obbligatoria della sola fase 10.
@@ -122,7 +122,7 @@ Il carattere C viene assegnato alle fasi 40 e 50, in alternativa tra di loro.
 
 
 Mentre il _3_gruppo B
-![BRCICL_04](http://localhost:3000/immagini/BRCICL_005/BRCICL_04.png)si descrive con la tabella  "Gruppo B"
+![BRCICL_04](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_04.png)si descrive con la tabella  "Gruppo B"
 
 
 |  Nam="Alternative multiple - Gruppo B" |
@@ -151,7 +151,7 @@ Mentre il _3_gruppo B
 La quinta posizione individua la fase successiva :  può verificarsi il caso di più fasi con la stessa prosecuzione, e va quindi specificata per ciascuna di esse.
 
 Il seguente percorso
-![BRCICL_05](http://localhost:3000/immagini/BRCICL_005/BRCICL_05.png)si descrive con la tabella  "Gruppo C"
+![BRCICL_05](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_05.png)si descrive con la tabella  "Gruppo C"
 
 
 |   Nam="Alternative multiple - Gruppo C" |
@@ -179,12 +179,12 @@ Il seguente percorso
 Il limite dell'implementazione qui esposta (quattro posizioni del gruppo alternativa) è che una fase può provenire al massimo da quattro percorsi diversi.
 
 Nel caso precedente il percorso era uno, in quanto i percorsi si riuniscono a monte della fase 50
-![BRCICL_06](http://localhost:3000/immagini/BRCICL_005/BRCICL_06.png)
+![BRCICL_06](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_06.png)
 Un esempio di una fase che proviene da tre percorsi diversi è il seguente : 
-![BRCICL_07](http://localhost:3000/immagini/BRCICL_005/BRCICL_07.png)
+![BRCICL_07](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_07.png)
 I punti A, B  e C non coincidono. Se così fosse ci sarebbe una sola alternativa, tra le fasi 80, 90 e 100.
 Ingrandendo la zona all'interno del tratteggio si ottiene la seguente rappresentazione : 
-![BRCICL_08](http://localhost:3000/immagini/BRCICL_005/BRCICL_08.png)
+![BRCICL_08](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_08.png)
 Si evidenzia così che la fase 40 può essere seguita dalla 80 o dalla 90, la 60 solo dalla 90 e la 30 dalla 90 o dalla 100.
 La rappresentazione tabellare è quella del Gruppo D : 
 
@@ -235,7 +235,7 @@ Supponiamo di avere le seguenti alternative :
 
 
 La rappresentazione grafica del percorso è la seguente : 
-![BRCICL_09](http://localhost:3000/immagini/BRCICL_005/BRCICL_09.png)con la tabella "Alternative con fasi raggruppate" : 
+![BRCICL_09](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_09.png)con la tabella "Alternative con fasi raggruppate" : 
 
 |  Nam="Alternative con fasi raggruppate" |
 | 
@@ -417,7 +417,7 @@ Supponiamo di avere le seguenti alternative (le fasi interne hanno suffisso I, q
 | 
 
 La rappresentazione grafica del percorso è la seguente : 
-![BRCICL_10](http://localhost:3000/immagini/BRCICL_005/BRCICL_10.png)con la seguente tabella : 
+![BRCICL_10](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_10.png)con la seguente tabella : 
 
 | 
 | .COL Txt="Operazione" LunAut=" " |
@@ -461,7 +461,7 @@ Supponiamo di poter realizzare una lavorazione in un'unica fase, oppure in una s
 
 
 La rappresentazione grafica del percorso è la seguente : 
-![BRCICL_11](http://localhost:3000/immagini/BRCICL_005/BRCICL_11.png)con la seguente tabella : 
+![BRCICL_11](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_11.png)con la seguente tabella : 
 
 
 | 
@@ -516,7 +516,7 @@ che ha la seguente alternativa :
 | 
 
 Il percorso si rappresenta nel seguente modo : 
-![BRCICL_12](http://localhost:3000/immagini/BRCICL_005/BRCICL_12.png)Questa struttura non può essere descritta nel modo fin qui esposto, in quanto la fase 20 non ha una prosecuzione univoca, ma dipendente dal percorso fatto in precedenza :  dovrebbe averne quindi "memoria".
+![BRCICL_12](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_12.png)Questa struttura non può essere descritta nel modo fin qui esposto, in quanto la fase 20 non ha una prosecuzione univoca, ma dipendente dal percorso fatto in precedenza :  dovrebbe averne quindi "memoria".
 
 In realtà questa rappresentazione è ambigua. L'oggetto alla fase 20 non rappresenta un'entità univoca :  quando proviene dalla fase 10 è diverso da quando proviene dalla fase 15. Ciò comporta problemi nella costificazione, nella determinazione e nel controllo della giacenza alla fase.
 
@@ -537,7 +537,7 @@ Per eliminare l'ambiguità, bisogna codificare una nuova fase. Ad esempio, si pu
 | 
 
 Il percorso diventa il seguente : 
-![BRCICL_13](http://localhost:3000/immagini/BRCICL_005/BRCICL_13.png)Come si vede, l'ambiguità è stata eliminata :  i percorsi sono ritornati distinti :  al centro che esegue le fasi 25 e 20 si presentano due code diverse.
+![BRCICL_13](http://doc.smeup.com/immagini/BRCICL_005/BRCICL_13.png)Come si vede, l'ambiguità è stata eliminata :  i percorsi sono ritornati distinti :  al centro che esegue le fasi 25 e 20 si presentano due code diverse.
 
 # Descrizione tecnica e operativa della funzione realizzata
 E' stato realizzato il programma BRFUALT, di tipo funizzato, che permette la definizione e la selezione delle alternative di ciclo, legate all'oggetto ricevuto.

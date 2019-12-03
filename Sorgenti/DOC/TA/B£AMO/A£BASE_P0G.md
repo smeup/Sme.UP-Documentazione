@@ -5,7 +5,7 @@ La customizzazione avviene con una modalità incrementale e di modifica a partir
 
 - >Modello dinamico :  l'insieme delle customizzazioni eseguite sulle tabelle può essere estratto direttamente dal sistema attraverso l'utilizzo delle schede dei modelli dinamici, dove per ogni applicazione vengono presentate gli elementi di tabella interessate e le loro interrelazioni.
 
-![A£BASE_028](http://localhost:3000/immagini/A£BASE_P0G/AXBASE_028.png)
+![A£BASE_028](http://doc.smeup.com/immagini/A£BASE_P0G/AXBASE_028.png)
 
 - Glossario
 - Stato avanzamento attività
@@ -25,12 +25,12 @@ La customizzazione avviene con una modalità incrementale e di modifica a partir
 - Documentazione tecnica ricavata dinamicamente dai tool Sme.up di documentazione (vedi esempi sottostanti).
 
 Lancio programma documentazione : 
-![A£BASE_025](http://localhost:3000/immagini/A£BASE_P0G/AXBASE_025.png)
+![A£BASE_025](http://doc.smeup.com/immagini/A£BASE_P0G/AXBASE_025.png)
 Esempio stampa : 
-![A£BASE_026](http://localhost:3000/immagini/A£BASE_P0G/AXBASE_026.png)
+![A£BASE_026](http://doc.smeup.com/immagini/A£BASE_P0G/AXBASE_026.png)
 - Autorizzazioni previste per ciascun gruppo utente, ricavabile dalla scheda autorizzazioni (vedi esempio)
 
-![A£BASE_030](http://localhost:3000/immagini/A£BASE_P0G/AXBASE_030.png)
+![A£BASE_030](http://doc.smeup.com/immagini/A£BASE_P0G/AXBASE_030.png)
 - Stato avanzamento attività
 - Rapporti attività SME.up
 - Verbale di chiusura della fase approvato dal Capo Progetto Cliente

@@ -25,11 +25,11 @@ Una menzione particolare meritano :
 
 Le varie fonti impostate possono essere raggruppate in gruppi fonte, gruppi fonte diversi possono dar luogo a figure diverse di disponibilità (es. un gruppo fonte può includere anche le scorte minime, mentre un altro può non considerarle, oppure si possono comprendere o escludere le previsioni, ecc...). L'elaborazione MRP parte con un gruppo fonte generale, specificato nei parametri di lancio, ma può cambiare gruppo fonte dinamicamente durante l'elaborazione utilizzando quello previsto dalla politica associata all'articolo in esame.
 
-![M5_06](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5_06.png)
+![M5_06](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5_06.png)
 ## Politiche e parametri di pianificazione
 Attraverso le politiche si determinano le tipologie di raggruppamento da apportare ai fabbisogni netti, quale fonte utilizzare per la pianificazione delle coperture, se attivare un concetto di fonte trascurata, che regole utilizzare per la determinazione del fornitore preferenziale nel caso di coperture di acquisto o di conto lavoro. La politica determina anche se, durante la pianificazione MRP, si debba considerare il gruppo fonte di lancio MRP oppure se utilizzare un gruppo fonte particolare per questa politica (es. generalmente le giacenze dei non conformi non entrano in MRP ma potrei voler considerare le SK elettroniche non conformi da rilavorare). I parametri di pianificazione che l'elaborazione MRP utilizza, possono essere gestiti a livello di dettaglio articolo (articolo/codice di rottura) oppure a livelli di classe articolo o generici per plant (questi livelli sono fino a sei e possono essere qualsiasi attributo dell'articolo), con risalite anche composte ("a pettine"), questa impostazione permette una gestione dei parametri su tanti articoli attraverso la manutenzione di pochi record.
 
-![M5_004_01](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5_004_01.png)
+![M5_004_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5_004_01.png)
 ## Controllo capacità (CRP)
 Il controllo della capacità produttiva si ottiene, innanzitutto impostando le fonti degli ordini di produzione rilasciati in modo da considerare come data di disponibilità la data di fine dell'ultima fase schedulata a capacità finita. Per quanto riguarda invece i suggerimenti di produzione pianificati si possono generare gli "impegni risorse pianificati". Gli impegni risorse pianificati possono essere schedulati a capacità infinita al più presto o al più tardi o in entrambi i modi. Il piano dei fabbisogni di capacità può essere importato in MPS per eseguire il confronto con la disponibilità risorse.
 
@@ -42,7 +42,7 @@ Nella elaborazione MRP si possono introdurre degli "oggetti di rottura" in modo 
 ## Scheda MRP
 I suggerimenti possono essere considerati come una matrice di fonti positive e negative con un legame verticale che è rappresentato dalla distinta tra un ordine e i suoi impegni ed un legame orizzontale rappresentato dai fabbisogni e dalle coperture datate.
 
-![M5_08](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5_08.png)
+![M5_08](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5_08.png)
 Per l'analisi dei suggerimenti è stata realizzata una funzione di navigazione grafica che permette di eseguire le analisi in orizzontale tra fabbisogni e coperture e l'analisi in verticale tra i vari livelli della distinta realizzando un pegging dinamico in discesa dalla domanda indipendente fino alle coperture dei materiali base ed al contempo il pegging in salita dai materiali base fino alla domanda che da questi viene soddisfatta, sfruttando le analogie con la distinta base sono state realizzate anche delle funzioni di esplosione ed implosione a "scalare". In implosione è possibile simulare l'effetto sugli assiemi superiori, ed in particolare sui fabbisogni indipendenti, provocato da un "peggioramento" (riduzione di quantità e/o ritardo della data di consegna) di una copertura :  vengono evidenziati i fabbisogni che diverrebbero non più evadibili alle date previste, con la relative quantità non fattibili.
 
 ## Pianificazione multiplant
@@ -52,7 +52,7 @@ La pianificazione può essere eseguita in tre modi, ciascuno corrispondente a un
  \* **Lanciata singolarmente**; si esegue una pianificazione separata per plant (il gruppo fonti deve contenere un solo plant). Ogni pianificazione sostituisce soltanto la precedente dello stesso plant.
  \* **Completa**; si esegue una pianificazione completa per tutti i plant presenti nel gruppo fonti. Ogni plant viene pianificato singolarmente, con suggerimenti di trasferimento dal plant di competenza (avendo impostato opportunamente i parametri di pianificazione
 
-![M5_09](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5_09.png)
+![M5_09](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5_09.png)
 ## Indici per Kernel
 Il Kernel che rappresenta l'oggetto di pianificazione è l'unità alla quale si applica l'elaborazione MRP il kernel è composto da Scenario - Plant Articolo - Codice di rottura. Alla fine dell'MRP vengono elaborati degli indici che rappresentano a quantità e valore dei macrofenomeni legati alla pianificazione. Ad esempio il numero di suggerimenti scaduti, i giorni medi di ritardo, il valore dei suggerimenti di eliminazione, di produzione, acquisto o conto lavoro, il valore delle quantità eccedenti, esistenti o future, il valore delle scorte minime, ecc... Tutti gli indici vengono calcolati considerando il kernel. Ci sono 26 indici calcolati, che permettono di analizzare l'andamento della pianificazione nel tempo, focalizzandosi sugli indici più rappresentativi della performance ricercata. È possibile anche aggiungere altri indici specifici dell'implementazione. Sempre all'interno della scheda MRP è possibile vedere il dettaglio, per articolo, delle quantità superflue, per identificare i maggiori contributori di obsolescenza ed inefficienza
 
@@ -67,17 +67,17 @@ Gli strumenti di pianificazione forniti possono essere anche utilizzati per una 
  \* e qualsiasi altra risorsa o strumento possa essere messa in relazione ad una quantità di un articolo
 
 ## Esempi di output
-![M5CMRP_020](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_020.png)![M5CMRP_037](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_037.png)![M5CMRP_034](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_034.png)![M5CMRP_03](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_03.png)![M5CMRP_033](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_033.png)![M5CMRP_029](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_029.png)![M5CMRP_030](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5CMRP_030.png)
+![M5CMRP_020](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5CMRP_020.png)![M5CMRP_037](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5CMRP_037.png)![M5CMRP_034](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5CMRP_034.png)![M5CMRP_03](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5CMRP_03.png)![M5CMRP_033](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5CMRP_033.png)![M5CMRP_029](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5CMRP_029.png)![M5CMRP_030](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5CMRP_030.png)
 # ATP multilivello
 Permette di determinare con precisione la data di disponibilità di un nuovo ordine di vendita. Il calcolo si sviluppa su tutti i livelli della distinta considerando sia la disponibilità dei prodotti finiti che dei componenti. Per gli articoli di produzione si può anche attivare la verifica della capacità produttiva.
 
-![M5_10](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5_10.png)
+![M5_10](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5_10.png)
 L'ATP cioè si basa sul concetto di "disponibilità libera" cioè al netto della quota di impegni passati e futuri già consolidati e coperti.
 
 # MPS
 Ogni qualvolta i tempi di consegna consentiti dal mercato sono più stretti rispetto al lead time cumulato è necessario ricorrere alle previsioni per costituire delle scorte, agli opportuni livelli, per premettere tempi di consegna più veloci al ricevimento degli ordini.
 
-![M5_05](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/M5_05.png)
+![M5_05](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/M5_05.png)
 Lo strumento utilizzato per la gestione delle previsioni è l'MPS, che si basa su : 
  \* viste piano
  \* piano
@@ -86,13 +86,13 @@ Lo strumento utilizzato per la gestione delle previsioni è l'MPS, che si basa s
 ## Viste piano
 Rappresentano le quantità sviluppate lungo i periodi, i periodi possono essere fino a 120 e possono avere ampiezza variabile in funzione della definizione del piano.
 
-![MP_001_04](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/MP_001_04.png)
+![MP_001_04](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/MP_001_04.png)
 La vista può rappresentare la figura del fatturato consuntivo per cliente / articolo, un'altra vista può raffigurare la previsione di vendita per zona / famiglia, un'altra può rappresentare il budget di ore previste per risorsa.
 
 ## Piano
 Il piano è il contenitore delle viste collegate tra di loro che hanno tutte lo stesso sviluppo temporale ed appartengono allo stesso contesto applicativo. Il piano è caratterizzato da una data iniziale e da 120 periodi che possono essere giorni, settimane o mesi. Periodi diversi possono anche essere presenti contemporaneamente nel piano (es. 60 giorni + 40 settimane + 20 mesi).
 
-![MP_001_05](http://localhost:3000/immagini/MBDOC_VIS-AAPIA/MP_001_05.png)
+![MP_001_05](http://doc.smeup.com/immagini/MBDOC_VIS-AAPIA/MP_001_05.png)
 ## Azioni
 Eseguono tutte le funzioni di creazione delle viste da fonti esterne, o di calcolo di una vista a partire da altre appartenenti allo stesso o ad altri piani. Le azioni sono raggruppate in processi che eseguono in sequenza un flusso costituito da più azioni.
 

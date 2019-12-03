@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare l'anagrafica dei rapporti bancari definiti per l'azienda e accedere alla configurazione delle condizioni dei diversi rapporti e alle analisi dei movimenti associati ai diversi rapporti.
 
-![C5D030_050](http://localhost:3000/immagini/MBDOC_SCH-C5D030_ANA/C5D030_050.png)
+![C5D030_050](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_ANA/C5D030_050.png)
 ## Dettaglio informazioni
 Per ogni rapporto bancario è possibile visualizzare : 
  \* Tipo rapporto :  è definito all'interno della tabella C5J

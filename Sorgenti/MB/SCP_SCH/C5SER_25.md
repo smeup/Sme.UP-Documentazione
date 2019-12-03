@@ -30,9 +30,9 @@ Sulla linea di totale di ogni partita vengono riportati :
  \* Numero e Data fattura
  \* Totale Fattura nella valuta della fattura
 Per le partite scadute la data scadenza è evidenziata in azzurro mentre per quelle in rischio è evidenziata in rosso : 
-![C5D010_060](http://localhost:3000/immagini/MBDOC_SCH-C5SER_25/C5D010_060.png)
+![C5D010_060](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_25/C5D010_060.png)
 Nel caso in cui all'interno di una riga siano presenti più scadenze la riga viene sottolineata : 
-![C5D010_061](http://localhost:3000/immagini/MBDOC_SCH-C5SER_25/C5D010_061.png)![C5D010_062](http://localhost:3000/immagini/MBDOC_SCH-C5SER_25/C5D010_062.png)
+![C5D010_061](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_25/C5D010_061.png)![C5D010_062](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_25/C5D010_062.png)
 La colonna 'A' ha l'obiettivo di caratterizzare la partita e sarà compilata con : 
  \* a se la partita è aperta
  \* i se nella partita è presente un insoluto
@@ -43,7 +43,7 @@ Si ricorda che una nota credito viene visualizzata all'interno della partita del
 
 ### Pareggio partite
 Nel caso in cui si vogliano paeggiare tra loro diverse partite è possibile selzionare le righe flaggando il campo P e quindi digitare F06 - Conferma pareggio : 
-![C5D010_067](http://localhost:3000/immagini/MBDOC_SCH-C5SER_25/C5D010_067.png)
+![C5D010_067](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_25/C5D010_067.png)
 ### Specificità per Account
 
 Nel caso in cui vengano gestiti i nominativi, è possibile analizzare il partitario a livello di account visualizzando, quindi, sia le partite attive che quelle passive intestate al nominativo.
@@ -51,6 +51,6 @@ Nel caso in cui, inoltre, i nominativi siano gestiti a livello di gruppo azienda
 I record relativi alle aziende diverse da quella a cui l'utente è collegato compariranno in bianco e su questi non sarà possibile eseguire alcuna funzione.
 Quindi se ad esempio siamo collegati all'interno dell'azienda 10 e il nominativo ha scadenze aperte anche per le aziende 02 e 15, queste scadenze verranno esposte ma non saranno manutenibili : 
 
-![C5D010_065](http://localhost:3000/immagini/MBDOC_SCH-C5SER_25/C5D010_065.png)
+![C5D010_065](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_25/C5D010_065.png)
 Per disabilitare la visualizzazione delle partite di un'azienda sarà necessario definire l'autorizzazione AZ impostando nella classe il codice dell'azienda da nascondere e il valore dell'autorizzazione a NO.
 

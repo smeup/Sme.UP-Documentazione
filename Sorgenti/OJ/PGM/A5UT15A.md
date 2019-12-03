@@ -4,7 +4,7 @@
 
 ## Formato guida
 
-![A5CAMO_001](http://localhost:3000/immagini/MBDOC_OGG-P_A5UT15A/A5CAMO_001.png)
+![A5CAMO_001](http://doc.smeup.com/immagini/MBDOC_OGG-P_A5UT15A/A5CAMO_001.png)
 All'interno del formato guida le informazioni da impostare sono : 
 
  \* Nuova categoria :  è il codice della categoria su cui si vuole trasferire il/i cespite/i.

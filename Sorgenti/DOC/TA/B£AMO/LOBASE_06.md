@@ -32,16 +32,16 @@ Una volta che è stata determinata la directory che contiene le immagini, viene 
 
 Gli schemi che seguono mostrano tutte le fasi.
 
-![LOBASE_117](http://localhost:3000/immagini/LOBASE_06/LOBASE_117.png)ImgRef(Identificazione cartella immagine istanza)
+![LOBASE_117](http://doc.smeup.com/immagini/LOBASE_06/LOBASE_117.png)ImgRef(Identificazione cartella immagine istanza)
 
 In questo primo schema possiamo vedere le macro fasi della ricerca e le condizioni per cui viene intrapresa una strada piuttosto che un'altra.
 
 Negli schemi che seguono andremo ad analizzare le operazioni più "delicate" ovvero l'identificazione della cartella che contiene l'immagine dell'istanza successivamente l'identificazione della cartella che contiene l'immagine della classe.
 
-![LOBASE_118](http://localhost:3000/immagini/LOBASE_06/LOBASE_118.png)
+![LOBASE_118](http://doc.smeup.com/immagini/LOBASE_06/LOBASE_118.png)
 In questo schema possiamo vedere le cartelle dove vengono cercate le immagini di istanza.
 
-![LOBASE_119](http://localhost:3000/immagini/LOBASE_06/LOBASE_119.png)
+![LOBASE_119](http://doc.smeup.com/immagini/LOBASE_06/LOBASE_119.png)
 La ricerca della cartella delle immagini di istanza e di classe, avviene utilizzando le variabili IMG.003, 002 001 e la cartella di installazione.
 Se una o più variabili IMG.nnn nonsono definite la ricerca non verrà effettuata.
 

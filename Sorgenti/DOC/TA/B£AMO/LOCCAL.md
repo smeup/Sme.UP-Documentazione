@@ -13,11 +13,11 @@ Il componente gestisce i seguenti eventi :
 - Dateselect :  L'evento scatta al click su un giorno senza evento
 - Drop :  L'evento scatta al drop di un evento da un giorno ad un altro
 
-![LOCCAL_01](http://localhost:3000/immagini/LOCCAL/LOCCAL_01.png)
-![LOCCAL_02](http://localhost:3000/immagini/LOCCAL/LOCCAL_02.png)
-![LOCCAL_03](http://localhost:3000/immagini/LOCCAL/LOCCAL_03.png)
-![LOCCAL_04](http://localhost:3000/immagini/LOCCAL/LOCCAL_04.png)
-![LOCCAL_05](http://localhost:3000/immagini/LOCCAL/LOCCAL_05.png)
+![LOCCAL_01](http://doc.smeup.com/immagini/LOCCAL/LOCCAL_01.png)
+![LOCCAL_02](http://doc.smeup.com/immagini/LOCCAL/LOCCAL_02.png)
+![LOCCAL_03](http://doc.smeup.com/immagini/LOCCAL/LOCCAL_03.png)
+![LOCCAL_04](http://doc.smeup.com/immagini/LOCCAL/LOCCAL_04.png)
+![LOCCAL_05](http://doc.smeup.com/immagini/LOCCAL/LOCCAL_05.png)
  XXG.SUB.CAL Tit="Calendario" Id="cal"
 
  XXG.SET.CAL DatCol="V£DATA" TitCol="AGEDES" Drag="Yes" IcoCol="AGEICO"

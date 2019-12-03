@@ -1,16 +1,16 @@
 # Emulatore
 L'emulatore ha funzione di consentire l'utilizzo dei programmi Sme.Up dotati di interfaccia 5250. Il layout della finestra si mostra molto simile al formato video tradizionale 5250 : 
-![LOCEMU_00](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_00.png)
+![LOCEMU_00](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_00.png)
 Come tutte le finestre di Looc.Up anche la finestra emulatore può essere suddivisa in zone ciascuna con proprie caratteristiche perculiari
 
 # Le funzioni della Title Bar
-![LOCEMU_01](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_01.png)
+![LOCEMU_01](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_01.png)
 La "Title Bar", oltre a visualizzare il titolo ed il sottotitolo dell'applicazione, consente l'esecuzione di una serie di funzioni mediante l'attivazione del "System Menu", tramite : 
  \* ALT + BARRA SPAZIATRICE;
  \* Click (tasto sinistro) su icona Emulatore della Title bar;
  \* Click tasto destro del mouse sulla Title Bar : 
 
-![LOCEMU_02](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_02.png)
+![LOCEMU_02](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_02.png)
 Suddividiamo il "System Menu" in sette aree : 
  \* _2_Gestione Finestra :  sono le funzioni standard di Windows di gestione delle finestre;
  \* _2_Analisi della Comunicazione :  è un menu tecnico che consente, mediante l'attivazione di un sottomenu, l'accesso e la visualizzazione degli oggetti utilizzati per la comunicazione tra il server iSeries ed il Client;
@@ -81,10 +81,10 @@ I componenti di quest'area sono :
 
 La funzione di queste opzioni è quella di gestire la configurazione dell'emulatore 5250. La configurazione avviene attraverso l'editazione di un file XML che è assistita dalla gestione dei setup.
 Selezionando la gestione della configurazione si apre la finestra seguente : 
-![LOCEMU_03](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_03.png)dove si sceglie se intervenire sul livello di configurazione (es. specifica dell'utente oppure comunte a tutto l'ambiente :  utente "\*\*").
+![LOCEMU_03](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_03.png)dove si sceglie se intervenire sul livello di configurazione (es. specifica dell'utente oppure comunte a tutto l'ambiente :  utente "\*\*").
 
 Il click sul bottone "Modifica" apre il formato per le impostazioni di configurazione : 
-![LOCEMU_04](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_04.png)Per il significato di tutti i campi si rimanda alla documentazione specifica.
+![LOCEMU_04](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_04.png)Per il significato di tutti i campi si rimanda alla documentazione specifica.
 
 ### Dove risiedono i file di configurazione
 ll reperimento della configurazione avviene mediante "risalita" secondo i seguenti criteri (il primo trovato viene ritenuto valido) : 
@@ -96,9 +96,9 @@ ll reperimento della configurazione avviene mediante "risalita" secondo i seguen
 
 ## Invio segnalazione errori
 Questa funzione apre un formato per l'invio di una mail di segnalazione allo "Sviluppo", è possibile scrivere un breve commento : 
-![LOCEMU_05](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_05.png)
+![LOCEMU_05](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_05.png)
 # Le funzioni della Header Bar
-![LOCEMU_06](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_06.png)Nell'emulatore la header bar permette, in maniera grafica, di : 
+![LOCEMU_06](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_06.png)Nell'emulatore la header bar permette, in maniera grafica, di : 
  \* Identificare : 
  \*\* il sistema a cui si è collegati;
  \*\* l'ambiente in cui si sta lavorando;
@@ -121,10 +121,10 @@ In quest'area possono essere visualizzate delle immagini rappresentanti :
  \* l'ambiente;
  \* l'utente.
 
-![LOCEMU_07](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_07.png)_2_Nota, le immagini possono venire mostrate o meno a seconda che siano presenti le relative icone nella cartella LOOCUP_ICO
+![LOCEMU_07](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_07.png)_2_Nota, le immagini possono venire mostrate o meno a seconda che siano presenti le relative icone nella cartella LOOCUP_ICO
 
 ## Area Oggetti
-![LOCEMU_08](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_08.png)In questa area vengono visualizzate le icone relative ai seguenti oggetti : 
+![LOCEMU_08](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_08.png)In questa area vengono visualizzate le icone relative ai seguenti oggetti : 
 
 | 
 | .COL Txt="_2_Oggetto" Lun="0" A="L" |
@@ -145,7 +145,7 @@ Da ogni icona, con il tasto destro, è possibile accedere alle funzioni ed ai me
 
 ## Area Dinamica
 In questa area possono essere dinamicamente rimappati dei campi di I/O presenti nel formato video dell'Emulazione 5250.
-![LOCEMU_09](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_09.png)
+![LOCEMU_09](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_09.png)
 ## Icone
 La visualizzazione delle icone è sottoposta a : 
  \* attivazione dal System Menu della Title Bar;
@@ -157,7 +157,7 @@ Nei campi tipizzati il tasto destro sull'icona o sul campo apre il PopUp dell'og
 ## Sinistra
 In questa area vengono rappresentati i tasti funzionali standard (cioè quei tasti funzionali aventi la stessa funzionalità in tutta l'applicazione) e che quindi possono essere rappresentati anche solo con un'icona.
 L'evidenziazione in giallo di un pulsante di paginazione vuole sottolineare che la lista (subfile) non è interamente caricata.
-![LOCEMU_10](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_10.png)
+![LOCEMU_10](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_10.png)
 ## Destra
 In questa parte vengono rappresentati i bottoni corrispondneti ai tasti funzionali non standard specifici del programma.
 
@@ -197,13 +197,13 @@ Questi campi sono contraddistinti da :
 
 Sul campo tipizzato il tasto destro apre un menu di popup con le funzioni previste per l'oggetto : 
 
-![LOCEMU_11](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_11.png)
+![LOCEMU_11](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_11.png)
 # Lista (Subfile)
 La lista è fondamentalmente suddivisa in due tipologie di campi : 
  \* campi di visualizzazione
  \* campi di inserimento/modifica
 
-![LOCEMU_12](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_12.png)Lo spostamento all'interno delle righe nella lista avviene attraverso l'uso dei tasti freccia su e giù. Per spostarsi tra i campi della lista (relativamente allo stesso record) vengono utilizzati i tasti di
+![LOCEMU_12](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_12.png)Lo spostamento all'interno delle righe nella lista avviene attraverso l'uso dei tasti freccia su e giù. Per spostarsi tra i campi della lista (relativamente allo stesso record) vengono utilizzati i tasti di
 tabulazione.
 
 ## Utilizzo del PopUp in lista
@@ -223,12 +223,12 @@ Le opzioni che permettono la configurazione del formato di visualizzazione sono 
 ## TabSheet
 Questo elemento grafico viene usato in alcune applicazioni, come ad esempio la gestione enti. E' possibile selezionare il TabSheet desiderato utilizzando i tasti ALT + (Lettera Sottolineata) oppure
 cliccando sul TabSheet desiderato.
-![LOCEMU_13](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_13.png)Il TabSheet attivo viene visualizzato in blu.
+![LOCEMU_13](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_13.png)Il TabSheet attivo viene visualizzato in blu.
 
 ## Function Bar
 La Function Bar è una barra verticale che viene visualizzata attraverso l'uso di una variabile descritta nel formato video. Le funzioni riportate nella Function Bar sono contestuali all'applicazione.
 
-![LOCEMU_14](http://localhost:3000/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_14.png)
+![LOCEMU_14](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEMU_01/LOCEMU_14.png)
 ## La tastiera
 La tastiera è lo strumento principale con cui interfacciarsi con l'emulatore. La maggioranza delle funzioni attivabili con il mouse possono essere effettuate anche attraverso la tastiera :  nel seguito sono
 illustrate le combinazioni di tasti ed il loro significato.

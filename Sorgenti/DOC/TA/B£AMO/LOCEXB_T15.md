@@ -3,14 +3,14 @@
 ### Cosa è La Copertina?
 La copertina è la prima pagina del pdf del report.
 E' possibile generare report con e senza copertina.
-![LOCEXB_091](http://localhost:3000/immagini/LOCEXB_T15/LOCEXB_091.png)
+![LOCEXB_091](http://doc.smeup.com/immagini/LOCEXB_T15/LOCEXB_091.png)
 ### Come posso vederla?
 Cliccando col tasto destro sull'etichetta di una matrice e scegliendo __Visualizza come Report__.
 Le matrici che hanno la copertina si riconoscono da una piccola icona rossa nell'etichetta.
 
 ### Posso vedere le informazioni della copertina prima di creare il pdf?
 Sì, le informazioni vengono visualizzate cliccando sull'icona rossa nell'etichetta della matrice.
-![LOCEXB_090](http://localhost:3000/immagini/LOCEXB_T15/LOCEXB_090.png)sulla copertina)
+![LOCEXB_090](http://doc.smeup.com/immagini/LOCEXB_T15/LOCEXB_090.png)sulla copertina)
 
 ### Quali informazioni posso gestire in una copertina?
 - Titolo 1

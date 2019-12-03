@@ -1,6 +1,6 @@
 # Schemi Applicativi
 ## Schema generale
-![LOCBAS_041](http://localhost:3000/immagini/LOBASE_01/LOCBAS_041.png)Lo schema illustra l'architettura generale di LoocUp : 
+![LOCBAS_041](http://doc.smeup.com/immagini/LOBASE_01/LOCBAS_041.png)Lo schema illustra l'architettura generale di LoocUp : 
 
  \* LoocUp in qualità di interfaccia grafica si pone come strumento di comunicazione tra l'area utente, evidenziata in basso al di sotto della linea tratteggiata verde, e le macchine in alto. Il dialogo con i server avviene attraverso la chiamata di programmi RPG detti "servizi" incaricati di ascoltare ed elaborare  le richieste. Il protocollo di comunicazione è simile a quello di un Browser; è costituito infatti dalla richiesta di un servizio (invece che di una pagina Web) e dal passaggio di parametri, attraverso stringhe.
  \* La risposta del Server, in genere un file XML, contiene dati da visualizzare. Le informazioni grafiche delle pagine risiedono per di più sul client. Si ottiene in
@@ -10,7 +10,7 @@ questo modo una comunicazione "all'osso" :  vengono trasmessi solo dati secondo 
  \* Gli eventi  o le azioni dell'utente su tastiera vengono raccolti e direzionati dal modulo base al modulo di comunicazione che smista le richieste direttamente al server AS400 master, oi ai Server esterni, o al gestore delle funzioni interne qualora la richiesta inoltrata non esiga informazioni remote, ma possa essere interamente soddisfatta sul client. E' il caso quest'ultimo di richieste di riorganizzazione di dati già visualizzati o di semplici calcoli sui medesimi. Le richieste possono però anche essere spedite verso server diversi dal master e raggiungibili tramite Rete. Essi possono svolgere incarichi particolari come contenere  archivii, gestire servizi di posta, o altri servizi di second'ordine. Anche in questo caso, come per i Listener, il cliente può agganciare all'architettura un proprio server predisposto a specifiche funzionalità
 
 ## Modulo di comunicazione
-![LOCBAS_032](http://localhost:3000/immagini/LOBASE_01/LOCBAS_032.png)Costituito da un pacchetto di classi java, il modulo di comunicazione, all'interno del modulo base, ha il compito di smistare le richieste effettuate da esterni e di pilotarne le risposte. La F() viene passata direttamente al modulo di trattamento delle funzioni che provvede a completare, elaborare la richiesta e riformulare la risposta. Vedi anche "Aspetti generali", "Richiamo di una funzione"
+![LOCBAS_032](http://doc.smeup.com/immagini/LOBASE_01/LOCBAS_032.png)Costituito da un pacchetto di classi java, il modulo di comunicazione, all'interno del modulo base, ha il compito di smistare le richieste effettuate da esterni e di pilotarne le risposte. La F() viene passata direttamente al modulo di trattamento delle funzioni che provvede a completare, elaborare la richiesta e riformulare la risposta. Vedi anche "Aspetti generali", "Richiamo di una funzione"
 
 La fase di elaborazione consiste anche di una fase di smistamento della F(). Il formato della richiesta F() infatti contiene le informazioni per capire il destinatario che dovrà elaborarla. Se si tratta di funzioni di manipolazione, di visualizzazione di dati già presenti sul client non occorre risalire fino al server master e la richiesta perciò verrà deviata al "Gestore server interno" ossia al client stesso che contiene un pacchetto di servizi java specifici. Le funzioni di questo tipo si distinguono perchè hanno definito una costante di lancio 'INT' nel formato :  sono del tipo F(INT;...;...).
 
@@ -25,7 +25,7 @@ Qualora la funzione richieda l'immissione di più dati viene fatta una chiamata 
 Se la risposta non contiene messaggi o non richiede ulteriori informazioni il file xml viene passato al modulo base che provvede a visualizzarlo nell'opportuno modulo grafico.
 
 ## Interfaccia Grafica
-![LOCBAS_033](http://localhost:3000/immagini/LOBASE_01/LOCBAS_033.png)L'interfaccia grafica in connessione diretta con il modulo base è costituita da un pacchetto di programmi java/delphi e di componenti grafici che forniscono strumenti di dialogo con l'utente, di visualizzazione e organizzazione dei dati.
+![LOCBAS_033](http://doc.smeup.com/immagini/LOBASE_01/LOCBAS_033.png)L'interfaccia grafica in connessione diretta con il modulo base è costituita da un pacchetto di programmi java/delphi e di componenti grafici che forniscono strumenti di dialogo con l'utente, di visualizzazione e organizzazione dei dati.
 Si possono individuare all'interno del pacchetto tre macro partizioni : 
  \* la prima riguarda il contenitore detto "scheda" e le finestre grafiche dell'emulatore 5250;
  \* la seconda riguarda i componenti grafici specifici, tabelle, gantt, grafici ecc... che "riempiono" le sezioni della struttura. E i tools di manutenzione  della scheda.
@@ -57,14 +57,14 @@ Per maggiori dettagli riguardo ai componenti grafici consultare la scheda 'Compo
  \* Emulatore   si tratta dei programmi di emulazione di AS400, meglio descritti nel Modulo gestore 5250 e in stretto dialogo con il modulo Smeviclt.
 
 ## Gestore Listener
-![LOCBAS_034](http://localhost:3000/immagini/LOBASE_01/LOCBAS_034.png)La comunicazione con il mondo esterno non avviene solo tramite interfaccia grafica... LoocUp fornisce oltre all'ambiente grafico altri strumenti di ascolto di eventi e questi sono appunto i "Listener" o "ascoltatori di eventi".
+![LOCBAS_034](http://doc.smeup.com/immagini/LOBASE_01/LOCBAS_034.png)La comunicazione con il mondo esterno non avviene solo tramite interfaccia grafica... LoocUp fornisce oltre all'ambiente grafico altri strumenti di ascolto di eventi e questi sono appunto i "Listener" o "ascoltatori di eventi".
 
 Le gestione di questi oggetti avviene tramite il servizio java JA_00_16 che ha il compito di inizializzarli, attivarli e tramite il quale possono essere eseguite interrogazioni. La dichiarazione dei listener è codificata nello script EDT_CLO nel file dei configuratori SCP_CFG e l'attivazione avviene con l'avvio di LoocUp. Il sistema provvede a creare tanti threads, ossia processi che condividono parallelamente l'accesso al processore, quanti sono i listener definiti nello script... ciascun thread si aggancia ad una cartella o ad una periferica ed esegue periodicamente dei controlli, detti "ping", sullo stato della medesima studiandone gli eventi. Nel caso si verifichi un evento significativo, il listener provvede a segnalarlo al "Gestore degli eventi" che costruisce una generica funzione F() analoga a quella prodotta dall'interfaccia grafica e la immette nel flusso verso il modulo base. La richiesta poi segue il flusso regolare delle funzioni richiesta F().
 
 Esiste una procedura specifica per i test agganciata ad una cartella... l'evento scatenato da una qualsiasi periferica può essere simulato immettendo in tale cartella la sua decodifica.
 
 ## Server AS/400
-![LOCBAS_035](http://localhost:3000/immagini/LOBASE_01/LOCBAS_035.png)Il Server Master AS400 è il principale responsabile delle richieste effettuate dall'utente. Esso lavora con una serie di servizi "ascoltatori" che, sintonizzati sulle code, si fanno carico delle richieste e le smistano ad altri servizi detti "esecutori" che hanno il compito di soddisfare la richiesta.
+![LOCBAS_035](http://doc.smeup.com/immagini/LOBASE_01/LOCBAS_035.png)Il Server Master AS400 è il principale responsabile delle richieste effettuate dall'utente. Esso lavora con una serie di servizi "ascoltatori" che, sintonizzati sulle code, si fanno carico delle richieste e le smistano ad altri servizi detti "esecutori" che hanno il compito di soddisfare la richiesta.
 
 Ma procediamo con calma...
 
@@ -88,7 +88,7 @@ c) richiesta di uno specifico servizio; in questo caso il jajas1 si comporta com
 Dal punto di vista tecnico è prevista la funzionalità UP SER utile per eseguire test di debug sul servizio. Può essere agganciata a livello di coda, modalità 'JS', o a livello di servizio, modalità 'JD' consentendo così di eseguire test a più livelli del ciclo.
 
 # Richiamo di una funzione
-![LOCBAS_031](http://localhost:3000/immagini/LOBASE_01/LOCBAS_031.png)Il processo di trattamento di una funzione può essere suddiviso in tre fasi fondamentali : 
+![LOCBAS_031](http://doc.smeup.com/immagini/LOBASE_01/LOCBAS_031.png)Il processo di trattamento di una funzione può essere suddiviso in tre fasi fondamentali : 
 
 - Fase di composizione della 'request'
 - Fase di esecuzione della 'request'
@@ -302,7 +302,7 @@ La funzione è un oggetto tipico di Looc.up quindi potrà essere posta ad esempi
 
 # Gestione dei server esterni
 ## Schema di riferimento
-![LOCBAS_036](http://localhost:3000/immagini/LOBASE_01/LOCBAS_036.png)LoocUp oltre ad essere connesso con il server master AS400, consente di definire un pacchetto di server alternativi, incaricati di compiere specifiche funzionalità, anche sostitutive a quelle fornite dal master. Questo permette di costruire un sistema molto articolato e di agganciare anche più applicativi sul lato server purchè si rispettino i protocolli di comunicazione.
+![LOCBAS_036](http://doc.smeup.com/immagini/LOBASE_01/LOCBAS_036.png)LoocUp oltre ad essere connesso con il server master AS400, consente di definire un pacchetto di server alternativi, incaricati di compiere specifiche funzionalità, anche sostitutive a quelle fornite dal master. Questo permette di costruire un sistema molto articolato e di agganciare anche più applicativi sul lato server purchè si rispettino i protocolli di comunicazione.
 
 Le gestione dei server esterni avviene tramite il servizio java JA_00_17 che ha il compito di inizializzarli, attivarli e con cui possono essere eseguite interrogazioni. La dichiarazione dei server esterni è codificata, come per i listener, nello script EDT_CLO nel file dei configuratori SCP_CFG e l'attivazione avviene all'avvio di LoocUp. Il sistema provvede a creare tanti threads, ossia processi che condividono parallelamente l'accesso al processore, quanti sono i servers definiti nello script... A differenza dei Listener stavolta la richiesta di utilizzo di un server esterno è inoltrata dal modulo base vesro il Gestore dei servers esterni... tale richiesta contiene specificatamente il codice del server destinatario ed è perciò distinta dalle altre normali richieste. Sui server devono essere previsti degli opportuni servizi di ascolto in grado di trattare la richiesta e di generare l'XML di risposta. La funzione segue quindi il regolare flusso di una generica funzione.
 

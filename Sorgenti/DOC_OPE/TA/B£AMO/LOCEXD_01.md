@@ -5,5 +5,5 @@ Distinguiamo due categorie di schede, a seconda del nome dello script ad esse as
 - Schede generiche :  hanno un nome qualsiasi e vengono lanciate come normali funzioni di Looc.UP.
 - Schede di oggetto :  il loro nome corrisponde a un Tipo-Parametro di Sme.UP e sono un sottocaso delle schede generiche. Sono associate agli oggetti di quel tipo e, in aggiunta alle modalità di lancio delle schede generiche, possono essere richiamate tramite il comando rapido F4 nella schermata iniziale di Looc.UP specificando tipo, parametro e codice identificativo oppure da qualunque punto in Looc.UP in cui un campo sia riconosciuto come oggetto, scegliendo nel menù di PopUp "Scheda oggetto".
 
-![LOCEXD_024](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_01/LOCEXD_024.png)
-![LOCEXD_025](http://localhost:3000/immagini/MBDOC_OPE-LOCEXD_01/LOCEXD_025.png)
+![LOCEXD_024](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_01/LOCEXD_024.png)
+![LOCEXD_025](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXD_01/LOCEXD_025.png)

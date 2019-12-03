@@ -1,9 +1,9 @@
 ### Parametri fissi azienda (Dati base - Contabilità)
 
-![C5BASE_006](http://localhost:3000/immagini/MBDOC_OGG-P_C5HLP1/C5BASE_006.png)
+![C5BASE_006](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5HLP1/C5BASE_006.png)
 Per quanto riguarda l'azienda, è necessario definire altri parametri, racchiusi sotto la voce 'Parametri fissi' : 
 
-![C5BASE_007](http://localhost:3000/immagini/MBDOC_OGG-P_C5HLP1/C5BASE_007.png)
+![C5BASE_007](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5HLP1/C5BASE_007.png)
 Questa voce permette di accedere alla definizione di alcuni parametri legati alla vita dell'azienda. I dati sono divisi in categorie :  Dati generali, Dati IVA, Dati giornale, Identificazione, Concessioni, Fonti fisse ADF, Cespiti, Varie.
                                                                                                   Analizzeremo qui di seguito alcuni dei campi principali di questa schermata : 
 ### DATE GENERALI

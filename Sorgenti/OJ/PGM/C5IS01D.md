@@ -3,7 +3,7 @@
 Entrando nel dettaglio di ogni singola registrazione è possibile visualizzarne le informazioni associate così come il dettaglio dei record che verranno poi riportati all'interno dei riepilogativi intrastat : 
 
 
-![C5C090_006](http://localhost:3000/immagini/MBDOC_OGG-P_C5IS01D/C5C090_006.png)
+![C5C090_006](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5IS01D/C5C090_006.png)
 
 Le informazioni visualizzate all'interno del formato lista sono : 
 (i campi in corsivo sono presenti solo nel caso in cui all'interno della registrazione sia presente almento un record relativo a merce mentre i campi sottolineati compaiono solo nel caso in cui all'interno della registrazione sia presente almeno una prestazione)
@@ -57,7 +57,7 @@ Su ciascuna delle righe di dettaglio sono disponibili le seguenti opzioni :
 
 Il contenuto del formato dettaglio varia al variare del contenuto della riga. In particolare per le merci saranno visualizzate le seguenti informazioni : 
 
-![C5C090_007](http://localhost:3000/immagini/MBDOC_OGG-P_C5IS01D/C5C090_007.png)
+![C5C090_007](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5IS01D/C5C090_007.png)
  \* Codice nomenclatura combinata. E' tabellato all'interno della BRN.
  \* Importo U.d.C. Importo esposto in fattura (valore della merce).
  \* Importo Valuta. Importo precedente convertito in divisa tramite il cambio espresso precedentemente.
@@ -69,7 +69,7 @@ Il contenuto del formato dettaglio varia al variare del contenuto della riga. In
 
 Per le prestazioni saranno invece visualizzate le seguenti informazioni : 
 
-![C5C090_008](http://localhost:3000/immagini/MBDOC_OGG-P_C5IS01D/C5C090_008.png)
+![C5C090_008](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5IS01D/C5C090_008.png)
  \* Codice prestazione. E' tabellato nella V§\*IG
  \* Importo U.d.C. Riporta l'importo della prestazione.
  \* Importo valuta. Importo precedente convertito in divisa tramite il cambio espresso precedentemente.

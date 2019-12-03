@@ -6,7 +6,7 @@ In questo documento verrà mostrato un esempio completo di architettura Looc.Up 
 
 La seguente immagine mostra la struttura della rete client server di esempio che andremo ad analizzare : 
 
-![LOCBAS_027](http://localhost:3000/immagini/LOCBAS_SEA/LOCBAS_027.png)
+![LOCBAS_027](http://doc.smeup.com/immagini/LOCBAS_SEA/LOCBAS_027.png)
 
  T(Andiamo ora ad analizzare in dettaglio gli elementi che compongono questa rete client-server di esempio : )
 - La rete è composta da 3 macchine fisiche, denominate PC1, PC2 e PC3, da una macchina server, denominata PCSERVER e da un sistema AS400. Le singole macchine sono identificate dai rettangoli rossi tratteggiati.

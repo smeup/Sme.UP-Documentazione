@@ -5,7 +5,7 @@ Per legame si intente una relazione caratterizzata da alcuni attributi.
 L'applicazione realizzata consente di effettuare tutte le operazioni di gestione dei legami attraverso un unico formato video che presenta una serie di opzioni disponibili all'utente.
 ## Formato Guida
 
-![C£LG01_01](http://localhost:3000/immagini/MBDOC_OGG-P_C£LEG0/CXLG01_01.png)Le opzioni sono sottomesse alle autorizzazzioni, consentendo a diversi utenti di effettuare solo le operazioni per cui sono abilitati.
+![C£LG01_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LEG0/CXLG01_01.png)Le opzioni sono sottomesse alle autorizzazzioni, consentendo a diversi utenti di effettuare solo le operazioni per cui sono abilitati.
 
 ## Requisiti
 Per poter accedere in modo corretto alle funzioni si deve precisare quale è il TIPO LEGAME che si vuole gestire; Il TIPO LEGAME è codificato nella tabella C£U (si veda eventualmente la descrizione della tabella C£U).
@@ -20,7 +20,7 @@ Scelto il TIPO DOCUMENTO è possibile effettuare diverse scelte :
 Ulteriori possibilità per l'utente sono l'utilizzo dei tasti funzionali F03 per uscire incondizionatamente dall'applicazione, F04 per decodificare i campi immessi (per decodifica si intende un controllo dei campi immessi e una eventuale visualizzazione di descrizioni relative al codice inserito) e F13 per le parzializzazioni.
 
 ## Formato Parzializzazioni
-![C£LG01_02](http://localhost:3000/immagini/MBDOC_OGG-P_C£LEG0/CXLG01_02.png)Scelto il TIPO LEGAME nel formato GUIDA è possibile entrare nelle parzializzazioni premendo F13.
+![C£LG01_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LEG0/CXLG01_02.png)Scelto il TIPO LEGAME nel formato GUIDA è possibile entrare nelle parzializzazioni premendo F13.
 Anche dalla videata nel formto LISTA è possibile accedere alle parzializzazioni sempre premendo il tasto funzionale F13.
 Il tipo legame appare nel titolo della videata delle parzializzazioni; come si può notare osservando il formato video per parzializzare l'archivio è necessario precisare due elementi :  un ordinamento e almeno un codice nei campi delle parzializzazioni.
 L'ordinamento precisa secondo quali campi (entità 1 o 2) deve essere ordinato l'archivio quando si passerà nel formato lista.
@@ -30,11 +30,11 @@ Ricordiamo che in molti campi delle parzializzazione è prevista la ricerca in t
 
 ## Formato Lista
 
-![C£LG01_03](http://localhost:3000/immagini/MBDOC_OGG-P_C£LEG0/CXLG01_03.png)La lista visualizza l'elenco dei legami presenti nell'archivio. Sono riportate solo le caratteristiche principali con un campo di scelta per indicare l'operazione con cui agire su quel particolare legame, entrando direttamente nel dettaglio.
+![C£LG01_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LEG0/CXLG01_03.png)La lista visualizza l'elenco dei legami presenti nell'archivio. Sono riportate solo le caratteristiche principali con un campo di scelta per indicare l'operazione con cui agire su quel particolare legame, entrando direttamente nel dettaglio.
 
 ### Note operative
 L'utente è in grado di comprendere se tale elenco è parziale o completo in funzione dell'indicazione di 'Parzializzazioni attive' a piede del formato. Come nel formato Guida, anche dalla Lista è possibile passare alla gestione delle parzializzazioni (F13).
 Nel campo disponibile nella parte sinistra superiore delle videata é possibile definire il punto di partenza (alfabetico) dell'elenco.
 Nel caso in cui il Formato Guida non specifichi l'opzione le operazioni disponibili in lista sono le medesime del formato guida; viceversa l'utente può solamente interrogare un legame dell'operazione sul legame.
 ## Formato Dettaglio
-![C£LG01_04](http://localhost:3000/immagini/MBDOC_OGG-P_C£LEG0/CXLG01_04.png)
+![C£LG01_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LEG0/CXLG01_04.png)

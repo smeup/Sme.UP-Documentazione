@@ -21,7 +21,7 @@ Le dichiarazioni di produzione possono essere raccolte sia attraverso le funzion
 # Ordini di produzione
 L'ordine di produzione ha lo scopo di programmare ed eseguire la realizzazione di una certa quantità di un articolo, per una data. Tale realizzazione richiede un definito consumo di materiali e di risorse, per determinare questo fabbisogno di materiali o di risorse necessarie, è possibile usare il ciclo, la distinta standard oppure definire specifici indicatori legati all'ordine di produzione.
 
-![AAP_PRO_01](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/AAP_PRO_01.png)
+![AAP_PRO_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/AAP_PRO_01.png)
 Oltre agli ordini di produzione di un articolo si possono definire : 
  \* **ordini di rilavorazione**, impostando come componente lo stesso articolo che si vuole ottenere.
  \* **ordini di trasformazione** :  si imposta, oltre all'articolo che si vuole ottenere, anche l'articolo di partenza, che si vuole trasformare :  il sistema costruirà una distinta "dinamica", che conterrà come impegni i componenti presenti solo nell'articolo di arrivo e, come recuperi, quelli presenti solo nell'articolo di partenza mentre i componenti comuni verranno trascurati
@@ -35,13 +35,13 @@ La consuntivazione si basa sulla rilevazione delle attività svolte nell'azienda
 sulle varie attività eseguite nel giorno.  Se la dichiarazione è a fronte di un ordine di produzione, è possibile, in automatico, eseguire i prelievi dei materiali necessari alla fase che si sta dichiarando (proporzionalmente alla quantità in avanzamento), e, se riguarda l'ultima fase del ciclo, è possibile eseguire il versamento dell'assieme e l'aggiornamento dell'ordine di produzione. E' consentita anche l'operazione di gruppo :  la dichiarazione di una fase, (definita come master) induce la dichiarazione automatica di altre fasi, precedenti o successive (definite come automatiche).
 
 # Alcuni esempi : 
-![P5_0001](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/P5_0001.png)![P5_0002](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/P5_0002.png)![P5_0003](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/P5_0003.png)
+![P5_0001](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/P5_0001.png)![P5_0002](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/P5_0002.png)![P5_0003](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/P5_0003.png)
 ### Interfaccia col campo
 Le dichiarazioni di attività possono essere anche raccolte direttamente da apparecchiature di campo, le informazioni  consuntive pervenute vengono registrate alla stessa stregua dei consuntivi manuali.  La stessa applicazione può essere utilizzata anche in senso inverso, come ad esempio per mandare alle macchine i part program delle lavorazioni previste dall'ordine di produzione.
 
 ### Produzione a disponibilità chiamata
 La produzione a disponibilità chiamata (PDC) è una particolare modalità di gestione della produzione, di nostra concezione, che ha lo scopo di rappresentare il processo produttivo in modo più "fisico" rispetto agli ordini di produzione. Essa si basa sull'assunto che la movimentazione in produzione avvenga per contenitori, e sulla rappresentazione "logistica" del ciclo produttivo come un insieme di risorse (centri di lavoro o macchine), ciascuna delle quali con un'ubicazione a monte e a valle. Gli ordini pianificati dall'MRP si traducono in contenitori pianificati. All'atto dell'inizio delle attività, essi si tramutano in contenitori effettivi. Il loro spostamento da un'ubicazione all'altra, induce una dichiarazione di avanzamento automatica nel caso che queste siano a monte e a valle di una risorsa (l'informazione logistica contiene, implicitamente, quella produttiva). Lo spostamento all'ubicazione finale rappresenta il versamento a magazzino.In tal modo non si introduce un livello di informazione immateriale (l'ordine di produzione, con le rigidità che esso comporta), ma ci si limita a registrare tutto ciò che avviene in fabbrica :  si riempiono e si spostano i contenitori, li si dichiara bloccati in caso di verifica della qualità, si sposta del materiale da un contenitore all'altro, ecc.. Inoltre, dato che gli ordini rimangono sempre pianificati, vengono "tirati" i contenitori di volta in volta più urgenti (lo strumento trae il nome da questa peculiarità :  si "chiama" la disponibilità presente in fabbrica, sotto forma di contenitori nelle diverse ubicazioni, e quindi a diversi gradi di completamento del ciclo produttivo).
-![P5_V002_02](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/P5_V002_02.png)
+![P5_V002_02](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/P5_V002_02.png)
 ### Conto lavorazione
 Quando la produzione viene eseguita all'esterno ad opera di terzisti siamo in presenza di un processo di conto lavorazione (passivo). Si può distinguere tra : 
  \* conto lavoro pieno, quando la lavorazione viene eseguita interamente da un terzista In questo caso l'ordine di conto lavoro è equivalente ad un ordine di produzione interna (si ottiene un assieme da un insieme di componenti), in quanto elabora un livello di distinta base.
@@ -97,7 +97,7 @@ Le principali visualizzazioni sono :
  \* Analisi delle risorse secondarie
  \* Quadro degli indici della schedulazione in corso
 
-![Fig_060](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/Fig_060.png)![Fig_065](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/Fig_065.png)![Fig_067](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/Fig_067.png)![Fig_072](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/Fig_072.png)![Fig_073](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/Fig_073.png)![S5_001B](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/S5_001B.png)![S5_001C](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/S5_001C.png)![S5_001D](http://localhost:3000/immagini/MBDOC_VIS-AAPRO/S5_001D.png)
+![Fig_060](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/Fig_060.png)![Fig_065](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/Fig_065.png)![Fig_067](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/Fig_067.png)![Fig_072](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/Fig_072.png)![Fig_073](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/Fig_073.png)![S5_001B](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/S5_001B.png)![S5_001C](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/S5_001C.png)![S5_001D](http://doc.smeup.com/immagini/MBDOC_VIS-AAPRO/S5_001D.png)
 # Applicazioni utilizzate
 Le applicazioni Sme.UP a supporto della gestione della produzione interna sono : 
  \* __Prod.UP__, per la gestione degli oggetti tipici della produzione interna (Ordini di produzione, Impegni materiali, Impegni risorse, ...)

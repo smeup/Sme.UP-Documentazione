@@ -63,6 +63,6 @@ Definire la struttura della tabella del piano di campionamento, stabilendone le 
 
 
 # Gestione ciclo di collaudo (flusso informativo)
-![CQ_CCOL_01](http://localhost:3000/immagini/CQCCOL_01/CQ_CCOL_01.png)
+![CQ_CCOL_01](http://doc.smeup.com/immagini/CQCCOL_01/CQ_CCOL_01.png)
 # Gestione ciclo di collaudo (flusso funzionale)
-![CQ_CCOL_02](http://localhost:3000/immagini/CQCCOL_01/CQ_CCOL_02.png)
+![CQ_CCOL_02](http://doc.smeup.com/immagini/CQCCOL_01/CQ_CCOL_02.png)

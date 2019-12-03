@@ -13,7 +13,7 @@ I parametri memorizzati possono poi essere interrogati in vari modi :
 - oggetti che rispondono a particolari valori dei parametri.
 
 
-![C£_05_01](http://localhost:3000/immagini/C£PARA_INT/CX_05_01.png)
+![C£_05_01](http://doc.smeup.com/immagini/C£PARA_INT/CX_05_01.png)
 Figura 1 - Associazione Parametri ad oggetti
 
 # Utilizzi

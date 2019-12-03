@@ -1,6 +1,6 @@
 # Descrizione scheda OJ \*FILE
 Quella che segue è la scheda generalizzata degli oggetti di sistema di tipo FILE.
-![B£BASE_069](http://localhost:3000/immagini/MBDOC_OGG-OG_OJ_FILE/BXBASE_069.png)Il campo in alto a sinistra indica il file visualizzato, il campo è di input quindi si può cambiare direttamente il file ed eseguire una nuova analisi.
+![B£BASE_069](http://doc.smeup.com/immagini/MBDOC_OGG-OG_OJ_FILE/BXBASE_069.png)Il campo in alto a sinistra indica il file visualizzato, il campo è di input quindi si può cambiare direttamente il file ed eseguire una nuova analisi.
 
 # Tipi di analisi che possono essere condotte
  :  : I.INC.MBR Fil(DOC_OGG) Mem(S_OJFILE_K) Tag(SK Cruscotto file)

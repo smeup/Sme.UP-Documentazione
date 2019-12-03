@@ -26,17 +26,17 @@ La struttura di descrizione è la seguente :
 ## Gestione fasi per articolo
 Per attivare la gestione delle fasi di lavorazione per un articolo si parte dal seguente formato guida : 
 
-![BR_04_01](http://localhost:3000/immagini/MBDOC_OGG-P_BRCI15/BR_04_01.png)
+![BR_04_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCI15/BR_04_01.png)
 _2_Nota; rispetto ai normali formati guida esiste un comando (F15 Azioni globali) con cui si può eseguire la stessa azione di copia o cancellazione su tutte le fasi del ciclo, ad esempio con l'azione globale si può copiare un ciclo da un articolo ad un altro.
 
 Se non si inserisce nessuna opzione e nessuna fase si accede alla lista di tutte le fasi previste dal ciclo dell'articolo : 
 
-![BR_04_02](http://localhost:3000/immagini/MBDOC_OGG-P_BRCI15/BR_04_02.png)
+![BR_04_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCI15/BR_04_02.png)
 Attraverso le impostazioni (F17) si può scegliere uno schema di presentazione.
 
 La mappa di dettaglio di una fase è la seguente : 
 
-![BR_04_03](http://localhost:3000/immagini/MBDOC_OGG-P_BRCI15/BR_04_03.png)
+![BR_04_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCI15/BR_04_03.png)
 	
 ### Descrizione dei campi
 
@@ -68,5 +68,5 @@ La mappa di dettaglio di una fase è la seguente :
 -- ...
 
 
-![BR_04_04](http://localhost:3000/immagini/MBDOC_OGG-P_BRCI15/BR_04_04.png)
+![BR_04_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCI15/BR_04_04.png)
 _2_Nota; una trattazione più completa degli sviluppi operazione si trova nella documentazione attiva STD nel modulo 'Risorse produttive secondarie'.

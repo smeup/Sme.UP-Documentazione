@@ -68,7 +68,7 @@ Sono riconosciuti i seguenti codici per le chiamate dirette in 5250 delle azioni
 
 # STRUTTURA DEI RICHIAMI
 esempio
-![B£BASE_056](http://localhost:3000/immagini/B£BASE_05/BXBASE_056.png)
+![B£BASE_056](http://doc.smeup.com/immagini/B£BASE_05/BXBASE_056.png)
 In sintesi : 
  \* JATRE_06C costruisce le liste di azioni : 
  \*\* viene chiamato per costruire il primo livello o sottolivelli da script, gestendo le autorizzazioni.

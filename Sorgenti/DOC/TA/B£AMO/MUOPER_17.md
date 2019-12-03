@@ -40,7 +40,7 @@ essere considerata uno standard di fatto.
 La seguente figura mostra un esempio dove singole funzionalità necessarie al funzionamento globale
 del sistema vengono demandate a specifiche risorse cooperanti all'interno di una rete.
 
-![MUOPER_17A](http://localhost:3000/immagini/MUOPER_17/MUOPER_17A.png)
+![MUOPER_17A](http://doc.smeup.com/immagini/MUOPER_17/MUOPER_17A.png)
 
 # Implementazione architettura scalabile in As.UP
 
@@ -62,7 +62,7 @@ accesso a tali servizi.
 
 Su questa base è possibile pensare una proposta di questo tipo : 
 
-![MUOPER_17B](http://localhost:3000/immagini/MUOPER_17/MUOPER_17B.png)
+![MUOPER_17B](http://doc.smeup.com/immagini/MUOPER_17/MUOPER_17B.png)
 
 Vediamo gli elementi salienti di questa soluzione architetturale.
 
@@ -89,7 +89,7 @@ all-in-one.
 Il principio di funzionamento del protocollo D-OSGI può essere riassunto in modo semplificato con la seguente
 figura : 
 
-![MUOPER_17C](http://localhost:3000/immagini/MUOPER_17/MUOPER_17C.png)
+![MUOPER_17C](http://doc.smeup.com/immagini/MUOPER_17/MUOPER_17C.png)
 
 Le funzioni svolte dal protocollo D-OSGI sono essenzialmente tre : 
 

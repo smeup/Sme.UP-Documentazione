@@ -77,7 +77,7 @@ SmeUp attraverso i concetti di parametri e di azioni gestisce con estrema libert
 ## Ereditarietà
 L'ereditarietà è un altro elemento essenziale di una architettura che si definisca 'ad oggetti'. Essa consiste nella propagazione degli attributi delle classi padre sulle figlie. In SmeUP esistono diversi strumenti per rendere l'ereditarietà. La figura sotto dà uno stralcio esemplificativo delle principali casistiche.
 
-![BLV0002-01](http://localhost:3000/immagini/B£OGAT_STR/BLV0002-01.png)
+![BLV0002-01](http://doc.smeup.com/immagini/B£OGAT_STR/BLV0002-01.png)
 ### Ereditarietà di primo livello (Tipo Oggetto)
 Il primo livello di ereditarietà si ottiene attraverso il Tipo Oggetto come si può vedere nello schema. La tabella che contiene i tipi oggetto è la \*CN sottosettore TT.
 Esempi di oggetti applicativi sono : 
@@ -133,7 +133,7 @@ In genere ogni oggetto persistente ha un programma specifico di gestione (manage
 
 SmeUp possiede i propri programmi di gestione ma consente anche di agganciare programmi manager di applicazioni diverse da SmeUp. Questo è stato possibile introducendo la distinzione tra il livello di interfaccia e il programma di gestione.
 
-![BLV0002-02](http://localhost:3000/immagini/B£OGAT_STR/BLV0002-02.png)
+![BLV0002-02](http://doc.smeup.com/immagini/B£OGAT_STR/BLV0002-02.png)
 Per ogni oggetto viene creato un programma interfaccia, una /copy, che ha il compito di indirizzare le richieste anche su programmi gestionali diversi da quelli forniti da SmeUp. E' possibile così per un cliente che vuole passare a SmeUp conservare intere strutture del vecchio applicativo o evitare migrazioni di archivi.
 L'elenco delle sezioni dell'applicativo che possono essere agganciate a sistemi diversi da SmeUp è fornito dalla tabella B£1.
 Il programma interfaccia è una /copy formalmente viene denominato con '£IXX' dove XX è il codice dell'oggetto, talvolta anche '£IFXX'. Esso a sua volta chiama un programma che si innesta sull'applicativo specifico e denominato 'B£IXX_xx' dove xx è un abbreviativo dell'applicazione, nelcaso di SmeUp è 'SM'e valorizzato dalla B£1 in fase di inizializzazione. Questo programma adeguale informazioni in uscita all'applicativo gestionale e in ingresso a SmeUp.
@@ -143,7 +143,7 @@ Nella architettura ad oggetti ogni singolo elemento è definito da un pacchetto 
 
 Per questa routine sono disponibili due programmi interattivi. Il programma di test e quello attivabile tramite comando up oav.
 
-![BLV0002-03](http://localhost:3000/immagini/B£OGAT_STR/BLV0002-03.png)Le informazioni descrittive degli attributi di un oggetto sono archiviate nel file B£SLOT0F che presenta in chiave due oggetti con relativi parametri. Questo consente anche di definire caratteristiche tipiche di un oggetto solo se questo ha una particolare relazione logica con un altro oggetto. In questo caso la ricerca dell'attributo nel file avviene prima considerando entrambi i parametri poi solo il primo, quindi solo il secondo e per finire non considerandone nessuno. Sul record viene anche salvato il programma che gestisce l'attributo
+![BLV0002-03](http://doc.smeup.com/immagini/B£OGAT_STR/BLV0002-03.png)Le informazioni descrittive degli attributi di un oggetto sono archiviate nel file B£SLOT0F che presenta in chiave due oggetti con relativi parametri. Questo consente anche di definire caratteristiche tipiche di un oggetto solo se questo ha una particolare relazione logica con un altro oggetto. In questo caso la ricerca dell'attributo nel file avviene prima considerando entrambi i parametri poi solo il primo, quindi solo il secondo e per finire non considerandone nessuno. Sul record viene anche salvato il programma che gestisce l'attributo
 
 L'aggiornamento di massa del file avviene col metodo COS che imposta sul file il nome del programma di ricerca. Ciascun tipo di attributo ha uno specifico trattamento.
 
@@ -174,7 +174,7 @@ La gestione dei metodi in SmeUp è affidata alla routine £FUN; attualmente tale
 
 Il suo funzionamento può essere schematizzato come nella figura seguente : 
 
-![BLV0002-04](http://localhost:3000/immagini/B£OGAT_STR/BLV0002-04.png)
+![BLV0002-04](http://doc.smeup.com/immagini/B£OGAT_STR/BLV0002-04.png)
 L'elenco delle funzioni in SmeUp di ogni oggetto è visibile attraverso il comando up fun che apre una finestra di dialogo ripartita in tre sezioni : 
 
 - Funzioni Generali (proprie  di ogni oggetto applicativo)
@@ -183,7 +183,7 @@ L'elenco delle funzioni in SmeUp di ogni oggetto è visibile attraverso il coman
 
 Tutte queste funzioni sono soggette ad autorizzazione. Al tema oggetti e autorizzazioni viene riservato un paragrafo a parte
 
-![BLV0002-05](http://localhost:3000/immagini/B£OGAT_STR/BLV0002-05.png)
+![BLV0002-05](http://doc.smeup.com/immagini/B£OGAT_STR/BLV0002-05.png)
 ## Funzioni Generali
 Sono le funzioni che si possono applicare ad un oggetto generico, sono funzionalità generiche di analisi dell'oggetto in quanto oggetto. Eccone l'elenco : 
 
@@ -295,7 +295,7 @@ dove :
 
 
 Esempio : 
-![BLV0002-06](http://localhost:3000/immagini/B£OGAT_STR/BLV0002-06.png)questo elemento della tabella INT_AD aggiunge agli schemi dell'analisi disponibilità l'OAV I/03 (indirizzo) di un ente il cui codice è nell'elemento 010 della tabella ed il cui tipo è nell'elemento 009 della tabella.
+![BLV0002-06](http://doc.smeup.com/immagini/B£OGAT_STR/BLV0002-06.png)questo elemento della tabella INT_AD aggiunge agli schemi dell'analisi disponibilità l'OAV I/03 (indirizzo) di un ente il cui codice è nell'elemento 010 della tabella ed il cui tipo è nell'elemento 009 della tabella.
 
 # Sviluppi Futuri
 - Polimorfismo trasversale :  lo stesso oggetto potrebbe secondo il contesto apparire in forme trasversali diverse; ad esempio un agente potrebbe essere un cliente o un fornitore.

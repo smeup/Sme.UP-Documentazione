@@ -1,6 +1,6 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare e gestire i conti di collegamento tra cespiti e contabilità definiti sulla tabella delle categorie fiscali (settore A5A).
-![A5OPCO_004](http://localhost:3000/immagini/MBDOC_SCH-A5OPCO_CO0/A5OPCO_004.png)
+![A5OPCO_004](http://doc.smeup.com/immagini/MBDOC_SCH-A5OPCO_CO0/A5OPCO_004.png)
 ## Dettaglio informazioni
 All'interno della matrice per ogni categoria vengono riportate le principali informazioni anagrafiche e i conti relativi a costo storico, fondo ammortamento e quota ammortamento.
 Si ricorda che, in caso di ammortamenti diretti, come conto relativo al fondo ammortamento andrà inserito il conto del costo storico.

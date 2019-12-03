@@ -15,7 +15,7 @@ Obiettivo della documentazione operativa è spiegare all'utente tutte le possibi
  \*\* Tips&Tricks :   in questo paragrafo sono riportate tutte le possibilità presenti all'interno del formato dettaglio e che non sono specificate nella parte sopra (es :  accesso alle schede oggetti di LoocUP cliccando sulle icone, ecc).
 
  La struttura dello script della documentazione operativa deve seguire la seguente : 
-![B£DOCU_001](http://localhost:3000/immagini/B£DOCU_12/BXDOCU_001.png)
+![B£DOCU_001](http://doc.smeup.com/immagini/B£DOCU_12/BXDOCU_001.png)
 ## Inclusione di altri documenti
 Il comando I.INC.MBR Fil(NomeFile) Mem(NomeMembro) permette di includere altri documenti all'interno di un testo. In particolare utilizzando questo comando il documento scritto nel membro indicato verrà esploso : 
 Durante il processo di inclusione è possibile, attraverso opportuni parametri, l'importazione di una parte del documento richiesto : 

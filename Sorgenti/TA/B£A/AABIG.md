@@ -18,7 +18,7 @@ Quindi quando si codifica  un articolo, per prima cosa si indica il "tipo artico
 Altre classificazioni importanti dell'articolo sono :  il tipo parte, che permette di agganciare almeno la politica di pianificazione di default quando mancano i parametri di pianificazione, la classe materiale (importante per differenziare le ricariche del calcolo costi)  e la classe programmazione (importante per indirizzare ai parametri di pianificazione).
 
 NOTA :  il tipo parte "0" identifica gli articoli che non esistono fisicamente, ma che rappresentano un assieme di tipo logico, ossia un raggruppamento di altri articoli.
-![AAV_01_001](http://localhost:3000/immagini/MBDOC_VIS-AABIG/AAV_01_001.png)
+![AAV_01_001](http://doc.smeup.com/immagini/MBDOC_VIS-AABIG/AAV_01_001.png)
 
 ## Trasformare il materiale : 
 Trasformare il materiale significa modificarlo. I due modi principali per modificare un articolo sono : 

@@ -11,5 +11,5 @@ La scheda di analisi del file AUTOAP00F mostra in ROSSO i campi non validi.
 
 ## Formato principale
 
-![M5CMRP_029](http://localhost:3000/immagini/MBDOC_SCH-B£AUTO/M5CMRP_029.png)
+![M5CMRP_029](http://doc.smeup.com/immagini/MBDOC_SCH-B£AUTO/M5CMRP_029.png)
 - [Autorizzazioni](Sorgenti/MB/SCP_SCH/B£AUTOES)

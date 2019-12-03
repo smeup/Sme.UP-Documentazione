@@ -152,7 +152,7 @@ Il monitor AOP tiene controllata la cartella di input dove il programma si aspet
 Come precedentemente accennato si faccia riferimento al programma di stampa fattura V5FA01S per prendere spunto (altri programmi sono il V5BO01S ed il V5OA01S)
 
 ## Architettura della soluzione AOP
-![B£STAM_01](http://localhost:3000/immagini/B£STAM_07/BXSTAM_01.png)Vista l'importanza delle stampe generate da Sme.UP, si consiglia l'utilizzo di un server fisico o virtuale dedicato al ruolo AOP avente le seguenti caratteristiche : 
+![B£STAM_01](http://doc.smeup.com/immagini/B£STAM_07/BXSTAM_01.png)Vista l'importanza delle stampe generate da Sme.UP, si consiglia l'utilizzo di un server fisico o virtuale dedicato al ruolo AOP avente le seguenti caratteristiche : 
 -  Sistema Operativo :  Windows Server 2008 o superiori (nel caso che il volume di stampe sia basso può essere utilizzato anche un sistema operativo client Windows XP o Windows 7)
 -  Ram :  2 Gb o più
 -  .Net framework 4.0 redistributable
@@ -164,17 +164,17 @@ Come precedentemente accennato si faccia riferimento al programma di stampa fatt
 ## L'editor AOP
 La manutenzione dei modelli di layout passa attraverso l'utilizzo dell'editor a support del server.
 Per cominciare si deve avviare il programma di amministrazione e disegno di AOP 'Medusa.Xtrategy.Production.Server.Admin.exe'.
-![B£STAM_02](http://localhost:3000/immagini/B£STAM_07/BXSTAM_02.png)Quindi è necessario selezionare (o creare e poi selezionare) un alias, all'interno del quale gestire un modello esistente (o creare e gestirne un nuovo)
-![B£STAM_17](http://localhost:3000/immagini/B£STAM_07/BXSTAM_17.png)Agganciare un esempio di file S00 associato al modello
-![B£STAM_18](http://localhost:3000/immagini/B£STAM_07/BXSTAM_18.png)Caricare la struttura dati
-![B£STAM_19](http://localhost:3000/immagini/B£STAM_07/BXSTAM_19.png)Aprire l'editor
-![B£STAM_21](http://localhost:3000/immagini/B£STAM_07/BXSTAM_21.png)Utilizzare l'editor per l'implementazione grafica
+![B£STAM_02](http://doc.smeup.com/immagini/B£STAM_07/BXSTAM_02.png)Quindi è necessario selezionare (o creare e poi selezionare) un alias, all'interno del quale gestire un modello esistente (o creare e gestirne un nuovo)
+![B£STAM_17](http://doc.smeup.com/immagini/B£STAM_07/BXSTAM_17.png)Agganciare un esempio di file S00 associato al modello
+![B£STAM_18](http://doc.smeup.com/immagini/B£STAM_07/BXSTAM_18.png)Caricare la struttura dati
+![B£STAM_19](http://doc.smeup.com/immagini/B£STAM_07/BXSTAM_19.png)Aprire l'editor
+![B£STAM_21](http://doc.smeup.com/immagini/B£STAM_07/BXSTAM_21.png)Utilizzare l'editor per l'implementazione grafica
 
 Sono disponibili, attraverso la finestra di amministrazione, gestire alcune altre funzioni : 
 
 Esportare i file verso un altro editor o importare i file da un altro editor
-![B£STAM_20](http://localhost:3000/immagini/B£STAM_07/BXSTAM_20.png)Esportare i file per il deploy su EndPoint (XTableLayoutModel)
-![B£STAM_22](http://localhost:3000/immagini/B£STAM_07/BXSTAM_22.png)
+![B£STAM_20](http://doc.smeup.com/immagini/B£STAM_07/BXSTAM_20.png)Esportare i file per il deploy su EndPoint (XTableLayoutModel)
+![B£STAM_22](http://doc.smeup.com/immagini/B£STAM_07/BXSTAM_22.png)
 Nota :  Il file salvato avrà estensione 'XLayoutModel' e in questo contesto può essere modificato manualmente.
 Nota :  Se ad esempio è necessario modificare il path relativo dei link alle immagini contenute nel modello, può essere utile intervenire direttamente attraverso una ricerca/sostituzione nel file ricercando il nome dell'immagine alla quale modificare il percorso. Fondamentale però considerare che qualsiasi modifica inpropria al file può determinare malfunzionamenti, prestare la massima attenzione alle modifiche mantenendo logica e struttura, eseguire sempre un backup preventivo.
 

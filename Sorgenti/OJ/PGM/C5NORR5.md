@@ -4,7 +4,7 @@ Visualizzare l'evoluzione nel tempo del portafoglio effetti aziendale
 ## Formato guida
 Alla selezione della voce di menù compare il seguente formato guida : 
 
-![C5C010_041](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR5/C5C010_041.png)
+![C5C010_041](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR5/C5C010_041.png)
 Nel campo 'Metodo' è possibile scegliere tra le seguenti opzioni : 
  \* Per scadenza sintetica :  viene restituita la situazione del portafoglio aziendale per data scadenza, ovvero è possibile vedere il totale in scadenza alle diverse date.
  \* Per scadenza dettaglaita :  restituisce lo stesso risulttao dell'interrogazione precedente solo che in questo caso avremo il dettaglio per scadenza, ovvero la visualizzazione delle diverse rate a scadere.
@@ -18,12 +18,12 @@ Accedendo alla impostazioni attraverso il tasto F17 o premendo sul relativo puls
 Confermando con invio il formato guida verrà restituito il formato lista che varia a seconda del metodo scelto.
 In particolare, nell'interrogazione per scadenza sintetica viene visualizzato per ogni scadenza il totale in maturazione e il numero di rate in scadenza : 
 
-![C5C010_042](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR5/C5C010_042.png)
+![C5C010_042](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR5/C5C010_042.png)
 Con l'opzione DE è possibile visualizzare il detaglio delle scadenza.
 Interrogando per scadenza dettagliata si avrà lo stesso risultato dell'interrogazione precedente ma in questo caso avremo il dettaglio di ogni scadenza : 
 
-![C5C010_043](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR5/C5C010_043.png)
+![C5C010_043](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR5/C5C010_043.png)
 Quindi per ogni rata è possibile visualizzare anche le informazioni relative al documento di orgine e alla banca di presentazione
 La stampa del portafoglio per banca restituisce un docuemnto in cui le rate sono divise per banca di presentazione : 
 
-![C5C010_044](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR5/C5C010_044.png)
+![C5C010_044](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR5/C5C010_044.png)

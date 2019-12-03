@@ -14,7 +14,7 @@ Verranno forniti i concetti di base,  poi analizzati i vari tipi di questionari 
 
 a) E' stata migliorata la gestione delle icone, che vengono cambiate in base alle caratteristiche del campo quindi : 
 
-![03COMG3001](http://localhost:3000/immagini/LOCG30_B/03COMG3001.png)
+![03COMG3001](http://doc.smeup.com/immagini/LOCG30_B/03COMG3001.png)
 b) La finestra viene dimensionata in base al contenuto
 c) Le finestre non vengono sovrapposte una all'altra ma vengono posizionate in modo che si vedano tutte (leggermente scalate)
 
@@ -22,7 +22,7 @@ c) Le finestre non vengono sovrapposte una all'altra ma vengono posizionate in m
 # Estensioni del richiamo come funzione
 Esempio
 La funzione F(G30;JA_00_01;GES.EDT) 1(J5;;) con i parametri P(SCP(EDT_BRE) FORJ5(P)) visualizza il contenuto dello script EDT_BRE in SCP_CFG sotto forma di G30 in questo modo
-![03COMG3004](http://localhost:3000/immagini/LOCG30_B/03COMG3004.png)![LOCG30_006](http://localhost:3000/immagini/LOCG30_B/LOCG30_006.png)
+![03COMG3004](http://doc.smeup.com/immagini/LOCG30_B/03COMG3004.png)![LOCG30_006](http://doc.smeup.com/immagini/LOCG30_B/LOCG30_006.png)
 Restituisce le scelte effettuate sotto forma di J5 con il formato indicato nel parametro FORJ5(P).
 Questo parametro e' di tipo V2 FORJ5 e puo' assumere i seguenti valori : 
 
@@ -31,7 +31,7 @@ Questo parametro e' di tipo V2 FORJ5 e puo' assumere i seguenti valori :
 - F Fisso/Posizionale
 
 Nel caso specificato sopra il ritorno delle risposte e' : 
-![LOCG30_007](http://localhost:3000/immagini/LOCG30_B/LOCG30_007.png)
+![LOCG30_007](http://doc.smeup.com/immagini/LOCG30_B/LOCG30_007.png)
 - GRA :  configuratore di componenti grafici
 - ESE :  esempi
 - LST :  configuratori di listener (ascoltatori di eventi)
@@ -40,12 +40,12 @@ Nel caso specificato sopra il ritorno delle risposte e' :
 Verra' quindi visualizzato un questionario con le domande scritte all'interno dello script per
 la configurazione richiesta.
 Ad esempio : 
-![LOCG30_008](http://localhost:3000/immagini/LOCG30_B/LOCG30_008.png)Premendo F4, compare il questionario per la configurazione del componente EXD 'Scheda'
-![LOCG30_009](http://localhost:3000/immagini/LOCG30_B/LOCG30_009.png)
+![LOCG30_008](http://doc.smeup.com/immagini/LOCG30_B/LOCG30_008.png)Premendo F4, compare il questionario per la configurazione del componente EXD 'Scheda'
+![LOCG30_009](http://doc.smeup.com/immagini/LOCG30_B/LOCG30_009.png)
 # Albero editor di scheda
 Il vecchio albero che si apriva dall'editor di scheda
-![03COMG3007](http://localhost:3000/immagini/LOCG30_B/03COMG3007.png)e' stato sostituito dal nuovo
-![LOCG30_010](http://localhost:3000/immagini/LOCG30_B/LOCG30_010.png)
+![03COMG3007](http://doc.smeup.com/immagini/LOCG30_B/03COMG3007.png)e' stato sostituito dal nuovo
+![LOCG30_010](http://doc.smeup.com/immagini/LOCG30_B/LOCG30_010.png)
 # Tipi di questionari
 I questionari sono oggetti di tipo RE.
 Comme illustrato nel documento introduttivo, si dividono in base all'orgine della struttura del questionario e a seconda della destinazione delle risposte fornite.

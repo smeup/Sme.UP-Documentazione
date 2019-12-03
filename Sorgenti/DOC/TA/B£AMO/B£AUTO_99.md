@@ -12,7 +12,7 @@ In SmeUp l'SSO è realizzato con Kerberos.
 Questo protocollo è compatibile con i più diffusi sistemi operativi.
 Ecco uno schema del suo funzionamento : 
 
-![B£AUTO05](http://localhost:3000/immagini/B£AUTO_99/BXAUTO05.png)
+![B£AUTO05](http://doc.smeup.com/immagini/B£AUTO_99/BXAUTO05.png)
 Segue un dettaglio relativo alle diverse fasi di autenticazione (completamente trasparenti all'utente).
 
 
@@ -67,7 +67,7 @@ Creare o modificare un link verso Loocup.exe indicando soltanto  i parametri "IP
 Non va indicato il parametro "utente".
 Esempio :   "\percorsoServer\Loocup.exe 172.16.2.11 \*SSO".
 
-![B£AUTO06](http://localhost:3000/immagini/B£AUTO_99/BXAUTO06.png)
+![B£AUTO06](http://doc.smeup.com/immagini/B£AUTO_99/BXAUTO06.png)
 Con queste impostazioni, a seguito del lancio di Loocup.exe, tramite doppio click sull'icona di collegamento, l'accesso a Looc.Up sarà diretto.
 
 N.B.
@@ -77,7 +77,7 @@ Nel caso venga indicato il parametro "utente", verrà presentata la maschera di 
 Attivare il SSO dalla finestra di login di Looc.Up è sufficiente indicare l'iSeries e spuntare il checkbox  SSO.
 N.B. Questa impostazione è valida a partire dalla richiesta di collegamento successiva.
 
-![B£AUTO07](http://localhost:3000/immagini/B£AUTO_99/BXAUTO07.png)
+![B£AUTO07](http://doc.smeup.com/immagini/B£AUTO_99/BXAUTO07.png)
 Come noto, i parametri presentati nella finestra di Login sono determinati dai parametri presenti nel link di collegamento e passati a  Loocup.exe.
 
 La valorizzazione di tali parametri a livello di link comporta quanto segue : 
@@ -92,7 +92,7 @@ Modificare un link verso Loocup.exe togliendo il parametro "\*SSO"
 Aprire la finestra di "About" e togliere il flag di spunta relativo al checkbox "Attiva SSO" : 
 
 
-![B£AUTO08](http://localhost:3000/immagini/B£AUTO_99/BXAUTO08.png)
+![B£AUTO08](http://doc.smeup.com/immagini/B£AUTO_99/BXAUTO08.png)
 ### NOTE
 
 L'accesso all'ISERIES tramite SSO avviene con l'utente ISERIES associato al profilo di Windows (utente di dominio).
@@ -126,13 +126,13 @@ Affinché si possa accedere ad un iseries con un client 5250 è necessario aver 
 
 Per abilitare l'accesso tramite KERBEROS, configurare una nuova sessione : 
 
-![B£AUTO09](http://localhost:3000/immagini/B£AUTO_99/BXAUTO09.png)
+![B£AUTO09](http://doc.smeup.com/immagini/B£AUTO_99/BXAUTO09.png)
 oppure aprirne una esistente e selezionare la voce Comunicazioni, comparirà la finestrella mostrata di seguito : 
 
-![B£AUTO10](http://localhost:3000/immagini/B£AUTO_99/BXAUTO10.png)
+![B£AUTO10](http://doc.smeup.com/immagini/B£AUTO_99/BXAUTO10.png)
 Cliccare sul pulsante Proprietà, e comparirà il popup seguente : 
 
-![B£AUTO11](http://localhost:3000/immagini/B£AUTO_99/BXAUTO11.png)
+![B£AUTO11](http://doc.smeup.com/immagini/B£AUTO_99/BXAUTO11.png)
 Selezionare la voce "Utilizza nome principal kerberos, senza richiesta", confermare con il pulsante OK e poi ancora OK.
 
 Se i prerequisiti sono soddisfatti, comparirà la videata con la scelta degli ambienti (se multipli), oppure si accederà al menù applicativo.

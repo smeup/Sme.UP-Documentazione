@@ -5,7 +5,7 @@ Si ricorda che, comunque, esistono casi in cui l'esecuzione di impegni avviene d
 
 Di seguito vengono analizzate le parti fondamentali di cui si compone la scheda di un impegno : 
 
-![WF-FIG0009](http://localhost:3000/immagini/WFBASE_024/WF-FIG0009.png)
+![WF-FIG0009](http://doc.smeup.com/immagini/WFBASE_024/WF-FIG0009.png)
 ## Impegno
 
 È la descrizione dell'impegno che si sta eseguendo.

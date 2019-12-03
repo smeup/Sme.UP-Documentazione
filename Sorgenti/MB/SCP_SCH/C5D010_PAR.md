@@ -1,7 +1,7 @@
 ## Obiettivo
 Analizzare e pareggiare le scadenze negative aperte per un ente o per una lista di enti.
 
-![C5D010_066](http://localhost:3000/immagini/MBDOC_SCH-C5D010_PAR/C5D010_066.png)
+![C5D010_066](http://doc.smeup.com/immagini/MBDOC_SCH-C5D010_PAR/C5D010_066.png)
 ## Parametri di lancio
  \* Codice oggetto :  in funzione dell'oggetto scelto all'interno del surf in questo campo sarà necessario indicare il codice cliente, la lista clienti, il codice fornitore, ecc. da analizzare
  \* Raggruppa/Includi Soggetti :  nel caso in cui un cliente sia anche fornitore attraverso questo parametro è possibile vederne la posizione netta e, quindi, includere sia le scadenze attive che quelle passive. In questo parametro sarà necessario indicare come effettuare il collegamento cliente/fornitore. Le scelte possibili sono : 
@@ -18,6 +18,6 @@ Analizzare e pareggiare le scadenze negative aperte per un ente o per una lista 
 Nel caso in cui per il/i soggetto/i analizzato/i siano presenti almeno una scadenza con segno positivo e una scadenza con segno negativo verrà esposto l'elenco di tutte le scadenze aperte per il soggetto stesso.
 Selezionando, poi, scadenze di segno opposto sarà possibile pareggiarle digitando il tasto F06 Conferma Pareggio : 
 
-![C5D010_067](http://localhost:3000/immagini/MBDOC_SCH-C5D010_PAR/C5D010_067.png)
+![C5D010_067](http://doc.smeup.com/immagini/MBDOC_SCH-C5D010_PAR/C5D010_067.png)
 Nel caso in cui si sia compilato il parametro "Raggruppa/Includi Soggetti" sarà anche possibile pareggiare partite di clienti diversi e partite di clienti con partite di fornitori.
 Se la scheda viene eseguita su una lista di enti sarà anche possibile pareggiare tra loro partite di soggetti diversi (es. fornitore ABC spa con cliente ZZZ srl)

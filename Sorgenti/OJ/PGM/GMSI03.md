@@ -9,7 +9,7 @@ I passi fondamentali sono :
  - _2_eseguire le rettifiche inventariali, a seconda della modalità di inventario scelta si può lanciare un programma che riallinea le giacenze, le rattifiche previste possono essere valorizzate per valutare l'opportunità di una seconda conta, poi si lanciano i movimenti di aggiustamento inventariale.
 ## Formato iniziale
 
-![GMINVE_02](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_02.png)
+![GMINVE_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_02.png)
 A supporto della gestione dell'inventario fisico l'applicazione fornisce : 
 
 - funzioni generali
@@ -24,15 +24,15 @@ A supporto della gestione dell'inventario fisico l'applicazione fornisce :
 - ..........
 
 
-![GMINVE_03](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_03.png)
+![GMINVE_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_03.png)
 ### Funzioni Inventario
 Sono tutte le funzioni applicabili ad un dato inventario : 
 
-![GMINVE_04](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_04.png)
+![GMINVE_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_04.png)
 _3_Funzioni Preparazione Inventario
 Sono le funzioni che agiscono scrivendo o modificando le conte inventario : 
 
-![GMINVE_05](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_05.png)
+![GMINVE_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_05.png)
 _1_Preparazione Inventario - Pulizia totale
 Cancella tutte le righe relative all'inventario su cui si sta lavorando.
 
@@ -48,7 +48,7 @@ Questa funzione si applica nel caso si voglia riallineare la giacenza teorica ne
 _3_Funzioni Cartellini di Conta
 Sono le funzioni che agiscono sui cartellini di conta : 
 
-![GMINVE_06](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_06.png)
+![GMINVE_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_06.png)
 _1_Funzioni Cartellini - Estrazione da liste inventario
 Questa funzione genera un lotto di cartellini partendo dalle liste di conta. Il programma funziona come la stampa dei dati inventario, quindi permette di selezionare, utilizzando le parzializzazioni, all'interno dell'inventario le conte da trasformare in un lotto di cartellini di conta.
 Possono essere creati quanti lotti si vuole, i lotti dei cartellini di conta devono essere inseriti nella tabella GML e devono essere congruenti con l'inventario in gestione.
@@ -81,7 +81,7 @@ Questa funzione, per tutti i cartellini di tutti i lotti di un inventario che ab
 _3_Funzioni Liste di Conta
 Raggruppa le funzioni per l'inserimento della quantità contata e per l'esecuzione di altre funzioni sulle liste di conta : 
 
-![GMINVE_07](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_07.png)
+![GMINVE_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_07.png)
 _1_Funzioni Liste - Gestione in Lista
 Permette di gestire l'inserimento delle quantità contate direttamente nella lista di conta.
 La presentazione delle liste può essere ordinata e parzializzata secondo esigenze utente, le modalità di ordinamento e parzializzazione possono essere memorizzate con un nome caratteristico e richiamate quando si apre la lista.
@@ -120,7 +120,7 @@ Dopo che le conte sono state eseguite (utilizzando le liste di conta o i cartell
 Per ogni area giacenza / tipo giacenza il sistema reperisce la causale di rettifica predisposta nella tabella GMC (causali di magazzino) e lancia i movimenti di rettifica inventariale, la data di registrazione del movimento è la data di esecuzione inventario inserita nella tabella GMI corrispondente.
 Se esiste una conta con differenza ma, per l'area di giacenza / tipo giacenza a cui la conta fa riferimento, manca la causale di rettifica, viene emesso un messaggio di avviso e viene stampato un file di log.
 
-![GMINVE_08](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_08.png)
+![GMINVE_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_08.png)
 _3_Totalizzazione Inventario per Articolo
 Le conte di un inventario possono essere totalizzate per articolo, le conte totalizzate così ottenute vengono inserite in un nuovo inventario che è quello inserito nel campo «Codice Inventario di Totalizzazione» riportato nella tabella GMI. L'inventario totalizzato può essere completato con dati di costo e di classificazione, tipo costo e livello e tabella di sintesi (classificazione) sono riportati nella tabella GMI
 Sugli inventari totalizzati per articolo sono possibili le seguenti attività : 
@@ -133,11 +133,11 @@ Sugli inventari totalizzati per articolo sono possibili le seguenti attività :
 - _2_Statistiche, presenta una serie di informazioni statistiche sull'inventario in gestione.
 
 
-![GMINVE_09](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_09.png)
+![GMINVE_09](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_09.png)
 ### Funzioni Analisi Inventari per Magazzino/Articolo
 Queste funzioni, dato un magazzino / articolo, permettono di verificare i risultati di tutte le conte di tutti gli inventari eseguiti.
 
-![GMINVE_10](http://localhost:3000/immagini/MBDOC_OGG-P_GMSI03/GMINVE_10.png)
+![GMINVE_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI03/GMINVE_10.png)
 _3_Tutte le righe di conta
 Visualizza tutte le righe di conta di tutti gli inventari presenti.
 

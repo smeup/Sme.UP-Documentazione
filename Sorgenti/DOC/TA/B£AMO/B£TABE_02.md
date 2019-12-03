@@ -33,7 +33,7 @@ Per ogni Settore si definiscono :
 
 - **Risalita al subsettore** (definisce le modalità di risalita quando il sottosettore richiesto è assente).
 
-![B£_TAB_03](http://localhost:3000/immagini/B£TABE_02/BX_TAB_03.png)
+![B£_TAB_03](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_03.png)
 ### Dettagli sul significato di alcuni campi
 **Gestione subsettore**
 Questo campo, come detto precedentemente, consente di impostare eventuali risalite sul sottosettore.
@@ -76,12 +76,12 @@ Per definire i campi della tabella si devono impostare per ogni campo :
 In questi casi, poiché la tabella è in uso, non è possibile ridefinire il tracciato record e, anche annullando un campo, è necessario tenere fisse le posizioni di tutti gli altri.
 
 
-![B£_TAB_04](http://localhost:3000/immagini/B£TABE_02/BX_TAB_04.png)
+![B£_TAB_04](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_04.png)
 ## Sottosettori
 La struttura (tracciato) è quella del settore di appartenenza e sono richieste soltanto la definizione del Codice del Sottosettore (2 caratteri) e la Descrizione, che permettono di identificare il sottosettore univocamente.
 
 
-![B£_TAB_05](http://localhost:3000/immagini/B£TABE_02/BX_TAB_05.png)
+![B£_TAB_05](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_05.png)
 ## Note Strutturate (vedi Documento Note Strutturate)
 
 - **Definizione Settore** (nel contenitore >B£S** vengono inserite le note relative al settore);
@@ -95,7 +95,7 @@ Dopo la creazione della tabella, deve essere definito il codice RPG (mediante l'
 L'utente deve indicare la libreria, il file e il nome della /copy della tabella da richiamare all'interno dei programmi.
 
 
-![B£_TAB_06](http://localhost:3000/immagini/B£TABE_02/BX_TAB_06.png)
+![B£_TAB_06](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_06.png)
 ## Gestione dei Campi di un Settore
  **1) Ricerca nel Dizionario dei Campi**
 È attivabile una ricerca alfabetica, digitando il carattere "!","?" nel nome del campo.
@@ -173,11 +173,11 @@ Questa modalità permette a Sme_up di leggere nativamente tabelle appartenenti a
 Per deviare una tabella su un'altra si deve impostare, nella definizione della tabella da deviare, "\*\*" come applicazione specifica.
 
 
-![B£_TAB_07](http://localhost:3000/immagini/B£TABE_02/BX_TAB_07.png)
+![B£_TAB_07](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_07.png)
 L'elemento della tabella "B£I" (con nome tabella da deviare) stabilisce la modalità della deviazione (tabella su cui devia, ambiente applicativo a cui appartiene la tabella) : 
 
 
-![B£_TAB_08](http://localhost:3000/immagini/B£TABE_02/BX_TAB_08.png)
+![B£_TAB_08](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_08.png)
 # Archivi
 ## Archivi di definizione dei settori
 Gli archivi di definizione possono stare in una libreria comune a diversi sistemi informativi poiché è normale che lo stesso settore non abbia due definizioni diverse sulla stessa macchina.
@@ -231,9 +231,9 @@ Esempio
 - L'elemento "FAT" della tabella >CRNVE può essere modificato solo da UTE020
 - La tabella >CLS non può essere gestita da nessuno
 
-![B£_TAB_09](http://localhost:3000/immagini/B£TABE_02/BX_TAB_09.png)>Tabella A - Modalità di definizione delle tabelle
+![B£_TAB_09](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_09.png)>Tabella A - Modalità di definizione delle tabelle
 
-![B£_TAB_10](http://localhost:3000/immagini/B£TABE_02/BX_TAB_10.png)>Tabella B - Autorizzazioni
+![B£_TAB_10](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_10.png)>Tabella B - Autorizzazioni
 
 ## Autorizzazioni all'Utilizzo
 ### Condizionamento sulla Ricerca
@@ -277,7 +277,7 @@ Alcuni esempi di azioni possibili sono :
 - fasare due ambienti aggiungendo al secondo solo gli elementi nuovi inseriti nel primo.
 
 
-![B£_TAB_11](http://localhost:3000/immagini/B£TABE_02/BX_TAB_11.png)
+![B£_TAB_11](http://doc.smeup.com/immagini/B£TABE_02/BX_TAB_11.png)
 # Funzioni
 ## Tabelle di una applicazione
 È possibile avere un elenco di tutte le tabelle presenti a livello di Applicazione o Applicazione/Modulo e per ogni tabella si possono ricercare gli elementi, aggiungerne di nuovi, interrogare la struttura, consultare la documentazione.

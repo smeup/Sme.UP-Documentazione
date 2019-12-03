@@ -123,4 +123,4 @@ Legare alla procedura un responsabile emittente e la data di emissione.
  \* Stampa risultati Audit
 
 # Gestione Audit e Verifiche Ispettive (flusso Funzionale)
-![CQ_AUDT_01](http://localhost:3000/immagini/CQAUDT_01/CQ_AUDT_01.png)
+![CQ_AUDT_01](http://doc.smeup.com/immagini/CQAUDT_01/CQ_AUDT_01.png)

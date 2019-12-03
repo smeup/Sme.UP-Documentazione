@@ -6,10 +6,10 @@ La scheda si può presentare in forme diverse a seconda che siano attive o meno 
 
 In una gestione miltiscenario / multiplant, prima di presentare gli indicatori dell'elaborazione MRP viene chiesto di scegliere nelle liste scenari e plant quelli da analizzare, dopo la scelta si popolano i cruscotti.
 
-![M5CMRP_020](http://localhost:3000/immagini/MBDOC_SCH-M5CMRP/M5CMRP_020.png)
+![M5CMRP_020](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP/M5CMRP_020.png)
 Se invece la gestione è monoscenario e monoplant la parte relativa alla scelta non viene visualizzata e si presentano direttamente gli indicatori dell'ultima elaborazione MRP.
 
-![M5CMRP_021](http://localhost:3000/immagini/MBDOC_SCH-M5CMRP/M5CMRP_021.png)
+![M5CMRP_021](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP/M5CMRP_021.png)
 ## Indici
 Vengono presentati degli indici relativi alla bontà del processo di pianificazione : 
 

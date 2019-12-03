@@ -10,7 +10,7 @@ In SmeUp l'SSO è realizzato con Kerberos.
 Questo protocollo è compatibile con i più diffusi sistemi operativi.
 Ecco uno schema del suo funzionamento.
 
-![LOBASE_50](http://localhost:3000/immagini/LOSSON_50P/LOBASE_50.png)
+![LOBASE_50](http://doc.smeup.com/immagini/LOSSON_50P/LOBASE_50.png)
 
 Segue un dettaglio relativo alle diverse fasi di autenticazione (completamente trasparenti all'utente).
 

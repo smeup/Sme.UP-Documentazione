@@ -1,7 +1,7 @@
 # Introduzione
 Per configurare correttamente il menù che gli utenti si trovano davanti quando si collegano a Sme.UP occorre seguire una logica deduttiva, partendo quindi dalle voci più generali del menù (aree applicative e applicazioni) per arrivare a quelle più particolari (gestione di un oggetto). La presentazione riguarderà la configurazione del menù standard, ma le logiche che vengono applicate possono essere ripetute anche per eventuali menu personali.
 Partiremo quindi dalle autorizzazioni del livello generale di area applicativa per poi arrivare alle voci di dettaglio degli oggetti.
-![B£AUTO_01](http://localhost:3000/immagini/B£AUTO_04/BXAUTO_01.png)Per maggiori dettagli sui nuovi menù si rimanda alla documentazione specifica : 
+![B£AUTO_01](http://doc.smeup.com/immagini/B£AUTO_04/BXAUTO_01.png)Per maggiori dettagli sui nuovi menù si rimanda alla documentazione specifica : 
 - [Menù di Accesso Utente](Sorgenti/DOC/TA/B£AMO/B£MENU_02)
 
 # Autorizzazioni di MENU
@@ -17,7 +17,7 @@ Per abilitare o disabilitare le voci di questo menù possiamo agire su tre colon
 -  __Applicazione disabilitata__ :  mantenendo il valore della colonna precedente pulito, questa colonna consente di autorizzare sempre nell'ambito del SS 00, le varie applicazioni. Spuntando un'applicazione, tutte le sue voci vengono disabilitate automaticamente. Operando in questo modo, l'applicazione non solo sparisce dal menù iniziale di Looc.UP ma risulta essere inibita anche in tutte le varie navigazioni successive (FLY).
 -  __Voce disabilitata__ :  svolge la stessa funzione della colonna precedente, ma il suo effetto è meno restrittivo perché, benché l'applicazione disabilitata non compaia comunque all'interno del menù iniziale, questa rimane visibile nelle navigazioni proprie di Looc.UP come i FLY.
 
-![B£AUTO_02](http://localhost:3000/immagini/B£AUTO_04/BXAUTO_02.png)Per comprendere meglio il significato di questa matrice, riportiami una breve legenda che spiega l'intestazione di alcune colonne : 
+![B£AUTO_02](http://doc.smeup.com/immagini/B£AUTO_04/BXAUTO_02.png)Per comprendere meglio il significato di questa matrice, riportiami una breve legenda che spiega l'intestazione di alcune colonne : 
 -  **V** = Autorizzazione VOCE
 -  **M** = Autorizzazione MODULO
 -  **A** = Autorizzazione  APPLICAZIONE
@@ -78,18 +78,18 @@ Rimandiamo al documento successivo il dettaglio relativo ai tecnicismo alla base
 
 ## Applicazione abilitata per un solo utente
 Ci proponiamo come obiettivo quello di impostare delle autorizzazioni legate all'applicazione BR per un generico gruppo utente. Vogliamo che tutti gli utenti di questo gruppo non accedano a questa applicazione, eccezione fatta per un singolo utente.
-![B£AUTO_E1](http://localhost:3000/immagini/B£AUTO_04/BXAUTO_E1.png)Scegliere la voce Autorizzazione menù e impostare il gruppo utente e il menù  00 negli appositi campi. Impostare quindi per tutto il gruppo utente il flag nella colonna Applicazione Disabilitata in corrispondenza della riga BR. Questo ci assicura che tutti gli utenti del gruppo non avranno accesso all'applicazione né dal menù iniziale, né dai FLY di navigazione. A questo punto, per l'utente che invece deve essere autorizzato, possiamo procedere a togliere questo stesso flag abilitandolo così alla visualizzazione della BR, dopo che nell'input panel avremo indicato esattamente il suo codice utente. Questo quindi si traduce in un record di tipo OGG.MAS/\*\*GU/TA;B£A;BR con valore 91 e un record OGG.MAS/utente/TA;B£A;BR con valore 99.
+![B£AUTO_E1](http://doc.smeup.com/immagini/B£AUTO_04/BXAUTO_E1.png)Scegliere la voce Autorizzazione menù e impostare il gruppo utente e il menù  00 negli appositi campi. Impostare quindi per tutto il gruppo utente il flag nella colonna Applicazione Disabilitata in corrispondenza della riga BR. Questo ci assicura che tutti gli utenti del gruppo non avranno accesso all'applicazione né dal menù iniziale, né dai FLY di navigazione. A questo punto, per l'utente che invece deve essere autorizzato, possiamo procedere a togliere questo stesso flag abilitandolo così alla visualizzazione della BR, dopo che nell'input panel avremo indicato esattamente il suo codice utente. Questo quindi si traduce in un record di tipo OGG.MAS/\*\*GU/TA;B£A;BR con valore 91 e un record OGG.MAS/utente/TA;B£A;BR con valore 99.
 
 ## Un solo modulo autorizzato per un utente
 Ci proponiamo come obiettivo quello di impostare delle autorizzazioni legate a un preciso modulo, quello degli articoli BRARTI, dell'applicazione BR. In particolare vogliamo che l'utente possa accedere soltanto a questo modulo e non a tutti gli altri presenti nell'applicazione BR.
 Impostare quindi il codice utente e l'applicazione BR nell'input panel e premere invio.
-![B£AUTO_E2](http://localhost:3000/immagini/B£AUTO_04/BXAUTO_E2.png)A questo punto occorre fare in modo che : 
+![B£AUTO_E2](http://doc.smeup.com/immagini/B£AUTO_04/BXAUTO_E2.png)A questo punto occorre fare in modo che : 
 1) L'intera applicazione risulti abilitata :   questo lo si capisce dal fatto che la matrice non presenta record evidenziate in rosso.
 2) Il modulo BRARTI rimanga accessibile :  non bisogna impostare nessun flag nelle colonne  voce/modulo/applicazione  disabilitata.
 3) Tutti gli altri moduli siano protetti :  occorre impostare il flag nella colonna Modulo Disabilitato se si vuole una protezione forte, o nella colonna voce disabilitata se si vuole una protezione debole.
 
-![B£AUTO_E3](http://localhost:3000/immagini/B£AUTO_04/BXAUTO_E3.png)
+![B£AUTO_E3](http://doc.smeup.com/immagini/B£AUTO_04/BXAUTO_E3.png)
 E questo è il risultato.
 
-![B£AUTO_E4](http://localhost:3000/immagini/B£AUTO_04/BXAUTO_E4.png)
+![B£AUTO_E4](http://doc.smeup.com/immagini/B£AUTO_04/BXAUTO_E4.png)
 Come si può vedere l'utente può accedere solamente al modulo degli articoli.

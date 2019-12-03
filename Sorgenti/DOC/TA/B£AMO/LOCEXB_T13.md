@@ -9,7 +9,7 @@ Un prerequisito essenziale per poter definire l'altezza dell righe è che nel se
 
 ## AUTOADATTAMENTO
 E' possibile specificare nel setup della scheda (D.FUN.STP ) la modalità grafica con cui apparirà la matrice.
-![03COMEXB09](http://localhost:3000/immagini/LOCEXB_T13/03COMEXB09.png)Le varie opzioni grafiche sono : 
+![03COMEXB09](http://doc.smeup.com/immagini/LOCEXB_T13/03COMEXB09.png)Le varie opzioni grafiche sono : 
 
  **NFI** = Apre la matrice in una finestra che occupa l'intera pagina
  **NFIR** = Apre la matrice in una finestra ridotta che si autoadatta al layout della pagina

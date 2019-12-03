@@ -9,7 +9,7 @@ All'interno della registrazione contabile ottenuta sarà poi possibile visualizz
 ## Formato guida
 Il formato guida si presenta nel seguente modo : 
 
-![C5C040_019](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOYI0/C5C040_019.png)
+![C5C040_019](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYI0/C5C040_019.png)
 All'interno del formato guida è necessario definire l'ente o la lista enti su cui eseguire la funzione. In questo secondo caso lasciando il campo blank verranno presi in considerazione tutti gli enti del tipo selezionato (clienti o fornitori); per definire una specifica lista di enti si veda la documentazione relativa alla gestione liste : 
 - [Liste oggetti](Sorgenti/DOC_OPE/TA/B£AMO/B£_LIS)
 Nel campo 'Modalità' è necessario indicare in che modo eseguire la funzione.
@@ -52,7 +52,7 @@ Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere 
 ## Formato lista
 Eseguendo la funzione in modalità Interrogazione è possibile visualizzare la lista fonti in attesa di fattura : 
 
-![C5C040_020](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOYI0/C5C040_020.png)
+![C5C040_020](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYI0/C5C040_020.png)
 All'interno della lista sono riportate le fonti in attesa di fattura raggruppate per ente. A seconda dei parametri definiti nelle impostazoni è possibile visualizzare o meno il dettaglio di ogni fonte.
 Le informazioni riportate per ogni fonte sono : 
  \* Valuta
@@ -75,4 +75,4 @@ Sulle righe di dettaglio delle fonti sono disponibili le seguenti opzioni (visua
 
 - 05 :  Dettaglio. Permette di visualizzare il dettaglio delle informazioni disponibili per la fonte : 
 
-![C5C040_018](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOYI0/C5C040_018.png)
+![C5C040_018](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYI0/C5C040_018.png)

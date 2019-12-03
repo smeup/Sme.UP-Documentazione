@@ -32,133 +32,133 @@ Di seguito un elenco di tutti i valori possibili di PS ed LS  :
 Schema campi  :   (4 campi, 2 colonne)
 
 
-![TEC001](http://localhost:3000/immagini/MOBASE_V3T/TEC001.png)
+![TEC001](http://doc.smeup.com/immagini/MOBASE_V3T/TEC001.png)
 Esempio IPhone 5  : 
 
-![TEC002](http://localhost:3000/immagini/MOBASE_V3T/TEC002.png)
+![TEC002](http://doc.smeup.com/immagini/MOBASE_V3T/TEC002.png)
 **- CellStyle="PS02"**
 
 Schema campi  :   (2 campi, 2 colonne)
 
 
-![TEC003](http://localhost:3000/immagini/MOBASE_V3T/TEC003.png)
+![TEC003](http://doc.smeup.com/immagini/MOBASE_V3T/TEC003.png)
 Esempio IPhone 5  : 
 
-![TEC004](http://localhost:3000/immagini/MOBASE_V3T/TEC004.png)
+![TEC004](http://doc.smeup.com/immagini/MOBASE_V3T/TEC004.png)
 **- CellStyle="PS03"**
 
 Schema campi  :   (1 campo, 1 colonna a sx)
 
 
-![TEC005](http://localhost:3000/immagini/MOBASE_V3T/TEC005.png)
+![TEC005](http://doc.smeup.com/immagini/MOBASE_V3T/TEC005.png)
 Esempio IPhone 5  : 
 
-![TEC006](http://localhost:3000/immagini/MOBASE_V3T/TEC006.png)
+![TEC006](http://doc.smeup.com/immagini/MOBASE_V3T/TEC006.png)
 
 **- CellStyle="PS04"**
 
 Schema campi  :   (2 campi, 1 colonna a sx)
 
 
-![TEC007](http://localhost:3000/immagini/MOBASE_V3T/TEC007.png)
+![TEC007](http://doc.smeup.com/immagini/MOBASE_V3T/TEC007.png)
 Esempio IPhone 5  : 
 
-![TEC008](http://localhost:3000/immagini/MOBASE_V3T/TEC008.png)
+![TEC008](http://doc.smeup.com/immagini/MOBASE_V3T/TEC008.png)
 **- CellStyle="PS05"**
 
 Schema campi  :   (1 immagine, 1 campo, 1 colonna a sx)
 
 
-![TEC009](http://localhost:3000/immagini/MOBASE_V3T/TEC009.png)
+![TEC009](http://doc.smeup.com/immagini/MOBASE_V3T/TEC009.png)
 Esempio IPhone 5  : 
 
-![TEC010](http://localhost:3000/immagini/MOBASE_V3T/TEC010.png)
+![TEC010](http://doc.smeup.com/immagini/MOBASE_V3T/TEC010.png)
 **- CellStyle="PS06"**
 
 Schema campi  :   (1 immagine, 2 campi, 1 colonna a sx)
 
 
-![TEC011](http://localhost:3000/immagini/MOBASE_V3T/TEC011.png)
+![TEC011](http://doc.smeup.com/immagini/MOBASE_V3T/TEC011.png)
 Esempio IPhone 5  : 
 
-![TEC012](http://localhost:3000/immagini/MOBASE_V3T/TEC012.png)
+![TEC012](http://doc.smeup.com/immagini/MOBASE_V3T/TEC012.png)
 **- CellStyle="PS07"**
 
 Schema campi  :   (1 immagine, 4 campi, 2 colonne)
 
 
-![TEC013](http://localhost:3000/immagini/MOBASE_V3T/TEC013.png)
+![TEC013](http://doc.smeup.com/immagini/MOBASE_V3T/TEC013.png)
 Esempio IPhone 5  : 
 
-![TEC014](http://localhost:3000/immagini/MOBASE_V3T/TEC014.png)
+![TEC014](http://doc.smeup.com/immagini/MOBASE_V3T/TEC014.png)
 **- CellStyle="PS08"**
 
 Schema campi  :   (1 campo, 4 colonne)
 
 
-![TEC015](http://localhost:3000/immagini/MOBASE_V3T/TEC015.png)
+![TEC015](http://doc.smeup.com/immagini/MOBASE_V3T/TEC015.png)
 Esempio IPhone 5 _7_(attenzione  :  layout altamente sconsigliato su Iphone)  : 
 
-![TEC016](http://localhost:3000/immagini/MOBASE_V3T/TEC016.png)
+![TEC016](http://doc.smeup.com/immagini/MOBASE_V3T/TEC016.png)
 **- CellStyle="PS09"**
 
 Schema campi  :   (1 immagine 2 campi, 2 colonne)
 
-![TEC017](http://localhost:3000/immagini/MOBASE_V3T/TEC017.png)
+![TEC017](http://doc.smeup.com/immagini/MOBASE_V3T/TEC017.png)
 Esempio IPhone 5  : 
 
-![TEC018](http://localhost:3000/immagini/MOBASE_V3T/TEC018.png)
+![TEC018](http://doc.smeup.com/immagini/MOBASE_V3T/TEC018.png)
 **- CellStyle="PS10"**
 
 Schema campi  :   (4 campo, 1 colonna a sx)
 
-![TEC019](http://localhost:3000/immagini/MOBASE_V3T/TEC019.png)
+![TEC019](http://doc.smeup.com/immagini/MOBASE_V3T/TEC019.png)
 Esempio IPhone 5  : 
 
-![TEC020](http://localhost:3000/immagini/MOBASE_V3T/TEC020.png)
+![TEC020](http://doc.smeup.com/immagini/MOBASE_V3T/TEC020.png)
 **- CellStyle="PS11"**
 
 Schema campi  :   (1 immagine, 4 campi, 1 colonna a sx)
 
-![TEC021](http://localhost:3000/immagini/MOBASE_V3T/TEC021.png)
+![TEC021](http://doc.smeup.com/immagini/MOBASE_V3T/TEC021.png)
 Esempio IPhone 5  : 
 
-![TEC022](http://localhost:3000/immagini/MOBASE_V3T/TEC022.png)
+![TEC022](http://doc.smeup.com/immagini/MOBASE_V3T/TEC022.png)
 A titolo puramente illustrativo, seguono gli stili in versione LS  : 
 
 **- CellStyle="LS01"**
 
-![TEC023](http://localhost:3000/immagini/MOBASE_V3T/TEC023.png)
+![TEC023](http://doc.smeup.com/immagini/MOBASE_V3T/TEC023.png)
 **- CellStyle="LS02"**
 
-![TEC024](http://localhost:3000/immagini/MOBASE_V3T/TEC024.png)
+![TEC024](http://doc.smeup.com/immagini/MOBASE_V3T/TEC024.png)
 **- CellStyle="LS03"**
 
-![TEC025](http://localhost:3000/immagini/MOBASE_V3T/TEC025.png)
+![TEC025](http://doc.smeup.com/immagini/MOBASE_V3T/TEC025.png)
 **- CellStyle="LS04"**
 
-![TEC026](http://localhost:3000/immagini/MOBASE_V3T/TEC026.png)
+![TEC026](http://doc.smeup.com/immagini/MOBASE_V3T/TEC026.png)
 **- CellStyle="LS05"**
 
-![TEC027](http://localhost:3000/immagini/MOBASE_V3T/TEC027.png)
+![TEC027](http://doc.smeup.com/immagini/MOBASE_V3T/TEC027.png)
 **- CellStyle="LS06"**
 
-![TEC028](http://localhost:3000/immagini/MOBASE_V3T/TEC028.png)
+![TEC028](http://doc.smeup.com/immagini/MOBASE_V3T/TEC028.png)
 **- CellStyle="LS07"**
 
-![TEC029](http://localhost:3000/immagini/MOBASE_V3T/TEC029.png)
+![TEC029](http://doc.smeup.com/immagini/MOBASE_V3T/TEC029.png)
 **- CellStyle="LS08"**
 
-![TEC030](http://localhost:3000/immagini/MOBASE_V3T/TEC030.png)
+![TEC030](http://doc.smeup.com/immagini/MOBASE_V3T/TEC030.png)
 **- CellStyle="LS09"**
 
-![TEC031](http://localhost:3000/immagini/MOBASE_V3T/TEC031.png)
+![TEC031](http://doc.smeup.com/immagini/MOBASE_V3T/TEC031.png)
 **- CellStyle="LS010"**
 
-![TEC032](http://localhost:3000/immagini/MOBASE_V3T/TEC032.png)
+![TEC032](http://doc.smeup.com/immagini/MOBASE_V3T/TEC032.png)
 **- CellStyle="LS011"**
 
-![TEC033](http://localhost:3000/immagini/MOBASE_V3T/TEC033.png)
+![TEC033](http://doc.smeup.com/immagini/MOBASE_V3T/TEC033.png)
 In mancanza dell'attributo o di uno dei valori dell'attributo, i valori di default definiti sono PS07 ed LS07.
 
 Attributi per la gestione delle immagini
@@ -175,11 +175,11 @@ L'attributo, indica che il recupero dell'immagine sarà condizionato al confront
 Le immagini risultanti saranno  : 
 
 Se valore colonna1 > valore colonna2
-![TEC034](http://localhost:3000/immagini/MOBASE_V3T/TEC034.png)
+![TEC034](http://doc.smeup.com/immagini/MOBASE_V3T/TEC034.png)
 Se valore colonna 1 < valore colonna 2
-![TEC035](http://localhost:3000/immagini/MOBASE_V3T/TEC035.png)
+![TEC035](http://doc.smeup.com/immagini/MOBASE_V3T/TEC035.png)
 Se valore colonna1 = valore colonna 2
-![TEC036](http://localhost:3000/immagini/MOBASE_V3T/TEC036.png)
+![TEC036](http://doc.smeup.com/immagini/MOBASE_V3T/TEC036.png)
 Politica di risalita immagini
 
 1 - per prima cosa viene valutata la presenza dell'attributo ImgUrl (vince su tutto)
@@ -211,7 +211,7 @@ Dopo aver scaricato ed installato l'app su iPhone o iPad, seguire i seguenti pas
 - Impostazioni
 
 
-![TEC037](http://localhost:3000/immagini/MOBASE_V3T/TEC037.png)
+![TEC037](http://doc.smeup.com/immagini/MOBASE_V3T/TEC037.png)
 
 - Selezionare la voce "Sme.App"
 - Verificare l'mpostazione del parametro WS URL
@@ -224,10 +224,10 @@ Per verificare i parametri di accesso che il suddetto Web Service utilizza per e
 
 Si aprirà una maschera del tutto simile alla seguente : 
 
-![TEC038](http://localhost:3000/immagini/MOBASE_V3T/TEC038.png)
+![TEC038](http://doc.smeup.com/immagini/MOBASE_V3T/TEC038.png)
 Selezionare quindi il tasto "Connection Data"
 
-![TEC039](http://localhost:3000/immagini/MOBASE_V3T/TEC039.png)
+![TEC039](http://doc.smeup.com/immagini/MOBASE_V3T/TEC039.png)
 Nella maschera, verranno visualizzate tutte le informazioni relative alla connessione.
 
 4) Impostazione della scheda di partenza in ambiente Mobile
@@ -256,7 +256,7 @@ _2_http://mobile.smeup.com/mobile/images/customer.png
 Il prodotto finale, della personalizzazione sarà il seguente  : 
 (tralasciamo la qualità delle immagini utilizzate nell'esempio)
 
-![TEC040](http://localhost:3000/immagini/MOBASE_V3T/TEC040.png)![TEC041](http://localhost:3000/immagini/MOBASE_V3T/TEC041.png)
+![TEC040](http://doc.smeup.com/immagini/MOBASE_V3T/TEC040.png)![TEC041](http://doc.smeup.com/immagini/MOBASE_V3T/TEC041.png)
 ## Analisi della Demo Mobile
 
 Di seguito verrà mostrata l'applicazione utilizzata per la Demo Mobile, fruibile direttamente dal tasto "Demo Mode" della Sme.App.
@@ -307,10 +307,10 @@ __XML di scheda __
 
 __Versione LOOC.UP__
 
-![TEC042](http://localhost:3000/immagini/MOBASE_V3T/TEC042.png)
+![TEC042](http://doc.smeup.com/immagini/MOBASE_V3T/TEC042.png)
 __Versione Mobile__
 
-![TEC043](http://localhost:3000/immagini/MOBASE_V3T/TEC043.png)
+![TEC043](http://doc.smeup.com/immagini/MOBASE_V3T/TEC043.png)
 **FATTURATO (scheda MODEMO_02)**
 
 Considerazioni sulla scheda del fatturato  : 
@@ -383,7 +383,7 @@ __XML di scheda__
 
 __Versione LOOC.UP__
 
-![TEC044](http://localhost:3000/immagini/MOBASE_V3T/TEC044.png)
+![TEC044](http://doc.smeup.com/immagini/MOBASE_V3T/TEC044.png)
 __Versione Mobile__
 
-![TEC045](http://localhost:3000/immagini/MOBASE_V3T/TEC045.png)
+![TEC045](http://doc.smeup.com/immagini/MOBASE_V3T/TEC045.png)

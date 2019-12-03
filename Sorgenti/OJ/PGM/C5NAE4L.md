@@ -4,7 +4,7 @@ Attraverso questa voce di menù è possibile interrogare e gestire le registrazi
 ## Formato guida
 Al lancio della funzione viene presentata la seguente schermata : 
 
-![C5C010_034](http://localhost:3000/immagini/MBDOC_OGG-P_C5NAE4L/C5C010_034.png)
+![C5C010_034](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NAE4L/C5C010_034.png)
 All'interno del formato guida è prima di tutto necessario compilare il campo 'Funzione' che determina l'ordinamento e le informazioni che verranno poi visualizzate all'interno del formato lista. La funzione determina anche i campi che verranno poi visualizzati all'intenro del formato guida. Le funzioni disponibili sono : 
  \* Per progressivo :  permette di visualizzare le registrazioni contabili ordinate per progressivo indicando eventualmente uno specifico numero di registrazione che si voglia gestire
  \* Per utente/data/azienda/esercizio :  permette di visualizzare le registrazioni contabili ordinate per utente/data/azienda/esercizio. In questo caso è necessario definire almeno l'utente di inserimento delle registrazioni contabili mentre sono opzionali i campi che specificano la data registrazione, l'azienda e l'esercizio.
@@ -47,11 +47,11 @@ Digitando da tastiera il tasto F17 o selezionando il relativo bottone è possibi
 ## Formato lista
 All'interno del formato lista vengono restituite tutte le registrazioni che rispettano i parametri impostati nel formato guida : 
 
-![C5C010_026](http://localhost:3000/immagini/MBDOC_OGG-P_C5NAE4L/C5C010_026.png)
+![C5C010_026](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NAE4L/C5C010_026.png)
 Nell'esempio in figura è stata scelta la funzione 'Per utente/data/azienda/esercizio' e indicato l'utente 'BSI', pertanto i record insseriti dall'utente BSI sono ordinati per data registrazione e azienda. Le informazioni visualizzabili per ogni registrazione variano al variare della funzione scelta e delle impostazioni assegnate. In generale sono, comunque, riportate le principali informazioni di testata (numero e data registrazione, numero e data documento, intestatario della registrazione e informazioni sul protocollo), di riga (conti, importi, segni), di analitica (centri di costo e voci di spesa con i relativi importi) e di rata (scadenza, pagamento, segno rata, importo).
 Vediamo un esempio completo : 
 
-![C5C010_036](http://localhost:3000/immagini/MBDOC_OGG-P_C5NAE4L/C5C010_036.png)
+![C5C010_036](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NAE4L/C5C010_036.png)
 In questo caso le informazioni riportate sono : 
  \* Testata : 
  \*\* Numero e data registrazione

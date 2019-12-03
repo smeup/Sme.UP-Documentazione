@@ -8,19 +8,19 @@ Ciascuna sezione ha una funzione ben precisa :
 **3.** la terza, che occupa tutta la restante parte, destinata a contenere il risultato della ricerca.
 
 
-![BRCICL_001](http://localhost:3000/immagini/MBDOC_OPE-BRCICL_01/BRCICL_001.png)
+![BRCICL_001](http://doc.smeup.com/immagini/MBDOC_OPE-BRCICL_01/BRCICL_001.png)
 
 Come già accade per molti altri oggetti di Sme.UP, anche i cicli sono organizzati per tipologia.
 La consultazione dei dati avviene per tipologie omogenee e questo significa che, come prima cosa, occorre scegliere quale tipo ciclo si intende consultare. Questa scelta può essere sempre modificata grazie alla voce "Cambio ciclo" prensente nell'Hypermenù del modulo.
 
-![BRCICL_003](http://localhost:3000/immagini/MBDOC_OPE-BRCICL_01/BRCICL_003.png)
+![BRCICL_003](http://doc.smeup.com/immagini/MBDOC_OPE-BRCICL_01/BRCICL_003.png)
 
 # Il dashboard del modulo
 
 La prima voce di menù ci permette di accedere al cruscotto del modulo, ovvero una scheda puramente statistica che permette di visionare quanti cicli  di un certo tipo sono presenti nel sistema.
 Oltre a questa informazione, si può visionare anche lo stato di utilizzo e le impostazioni di tutte le altre tipologie di ciclo attraverso la scheda "situazione generale cicli".
 
-![BRCICL_004](http://localhost:3000/immagini/MBDOC_OPE-BRCICL_01/BRCICL_004.png)
+![BRCICL_004](http://doc.smeup.com/immagini/MBDOC_OPE-BRCICL_01/BRCICL_004.png)
 # Le navigazioni :  il SURF dei cicli
 
 A differenza di molti altri moduli in cui ha senso avere la possibilità di consultare i dati da punti di vista diversi, per quanto riguarda i cicli, esiste una sola forma di interrogazione.
@@ -28,7 +28,7 @@ Questa interrogazione può essere raggiunta o direttamente dall'Hypermenù del m
 All'apertura, la scheda si presenta strutturata, come già ricordato sopra, con le tre sezioni.
 La prima cosa da fare è impostare le modalità di esplorazione specifiche che per i cicli possono essere : 
 
-![BRCICL_002](http://localhost:3000/immagini/MBDOC_OPE-BRCICL_01/BRCICL_002.png)
+![BRCICL_002](http://doc.smeup.com/immagini/MBDOC_OPE-BRCICL_01/BRCICL_002.png)
 L'esplorazione dei cicli può essere fatta in 3 modalità differenti a seconda di quello che si vuole ottenere. Per comprendere meglio le logiche di esplorazione, ricordiamo che un ciclo è l'elenco di tutte le operazioni che devono essere compiute da un esecutore (sia esso una macchina, un uomo, o una qualsiasi altra risorsa) per ottenere un dato prodotto. Se si pensa a questa definizione allora si ha che : 
 1. L'IMPLOSIONE permette di visualizzare tutte le operazioni che possono essere eseguite da una specifica risorsa, indipendentemente dal ciclo specifico di cui fanno parte.
 2. L'ESPLOSIONE permette invece di visualizzare, dato un oggetto, quali sono le sole operazioni necessarie alla sua realizzazione.
@@ -61,5 +61,5 @@ Esempi di questi filtri aggiuntivi sono :
 
 Ciascuno di questi filtri è dotato di una documentazione che ne spiega il significato, l'utilità e lo scopo. A questa si può accedere premendo il tasto funzionale F1 con il cursore del mouse posizionato sul filtro specifico : 
 
-![BRCICL_005](http://localhost:3000/immagini/MBDOC_OPE-BRCICL_01/BRCICL_005.png)
+![BRCICL_005](http://doc.smeup.com/immagini/MBDOC_OPE-BRCICL_01/BRCICL_005.png)
 

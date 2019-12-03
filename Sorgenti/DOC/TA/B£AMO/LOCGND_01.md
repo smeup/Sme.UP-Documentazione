@@ -21,7 +21,7 @@ strumenti :
 - Seleziona attivita'
 - Seleziona intervalli di tempo
 
-![03COMGND01](http://localhost:3000/immagini/LOCGND_01/03COMGND01.png)Tramite il selettore di intervalli di tempo si possono selezionare attivita' slot disegnando un riquadro
+![03COMGND01](http://doc.smeup.com/immagini/LOCGND_01/03COMGND01.png)Tramite il selettore di intervalli di tempo si possono selezionare attivita' slot disegnando un riquadro
 rettangolare all'interno del Gantt. Tutte le celle nel riquadro verranno selezionate, anche le celle
 selezionate parzialmente. Il selettore di attivita' permette invece di selezionare piu' attivita' tenendo
 premuto il tasto shift e cliccando una volta su di esse.

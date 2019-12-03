@@ -2,7 +2,7 @@
 
 ## Copertura applicativa
 Nella figura seguente vengono evidenzate, all'interno della mappa applicativa, le aree supportate da Acos.Up
-![D5BASE_002](http://localhost:3000/immagini/MBDOC_VIS-D0INTRO/D5BASE_002.png)
+![D5BASE_002](http://doc.smeup.com/immagini/MBDOC_VIS-D0INTRO/D5BASE_002.png)
 ## Funzionalità
 L'applicazione supporta la gestione di costi, principalmente il calcolo dei costi di un articolo, ma utilizzando il modulo costi multicontesto è possibile anche la determinazione del costo di altri oggetti Sme.UP quali : 
 -  riga di documento del ciclo esterno

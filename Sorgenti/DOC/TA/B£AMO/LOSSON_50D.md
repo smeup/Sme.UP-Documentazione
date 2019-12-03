@@ -113,7 +113,7 @@ I test hanno anche evidenziato che l'aver abilitato la crittografia per kerberos
 
 E' necessario inoltre impostare la seguente policy : 
 
-![LOBASE_167](http://localhost:3000/immagini/LOSSON_50D/LOBASE_167.png)
+![LOBASE_167](http://doc.smeup.com/immagini/LOSSON_50D/LOBASE_167.png)
 ## FAQ
 D :  L'accesso in SSO funziona, anche se la password su iSeries scade?
 R :  Sì, l'accesso in SSO non è influenzato dalla scadenza della password su iSeries

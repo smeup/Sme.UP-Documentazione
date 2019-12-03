@@ -21,10 +21,10 @@ L'archiviazione del documenti in COMPED restituisce, se andata a buon fine, l'ID
 # Consultazione
 Grazie all'informazione relativa all'ID di salvataggio del documento in COMPED è possibile recuperare il documento stesso in qualunque scheda di Loocup richiedendo a Loocup server (sempre tramite le code dati che questo mette a disposizione) l'estrazione di una copia del documento e il percorso per visualizzarla.
 Ad esempio le fatture archiviate e/o conservate sono consultabili tramite loocup attraverso la scheda della fattura.
-![DOCCONS](http://localhost:3000/immagini/ODIACO_04/DOCCONS.png)Tale scheda è richiamabile indicando il codice registro, l'anno e il numero della fattura.
+![DOCCONS](http://doc.smeup.com/immagini/ODIACO_04/DOCCONS.png)Tale scheda è richiamabile indicando il codice registro, l'anno e il numero della fattura.
 E' inoltre possibile accedere alla scheda della fattura dal partitario del cliente e da azioni bolle e fatture, tramite azioni apposite. Per l'impostazione delle azioni si rimanda al capitolo "Installazione e Configurazione su Smeup".
-![LISFATT](http://localhost:3000/immagini/ODIACO_04/LISFATT.png)In maniera analoga a quanto fatto nella scheda della fattura è possibile, da una scheda, accedere alla lista dei volumi presenti in COMPED e all'elenco dei documenti presenti in un volume con tutti i suoi campi.
-![VOLCONT](http://localhost:3000/immagini/ODIACO_04/VOLCONT.png)
+![LISFATT](http://doc.smeup.com/immagini/ODIACO_04/LISFATT.png)In maniera analoga a quanto fatto nella scheda della fattura è possibile, da una scheda, accedere alla lista dei volumi presenti in COMPED e all'elenco dei documenti presenti in un volume con tutti i suoi campi.
+![VOLCONT](http://doc.smeup.com/immagini/ODIACO_04/VOLCONT.png)
 # Conservazione sostitutiva
 Per sommi capi ora spieghiamo cos'è la Conservazione Sostitutiva e come viene realizzata da Loocup, lasciando l'approfondimento dell'argomento a documentazione specifica.
 La conservazione sostitutiva è una procedura che permette di eliminare la necessità di registrare cartaceamente alcuni dei documenti aziendali. Prendendo ad esempio le fatture del ciclo attivo, tramite la Conservazione sostitutiva, si può ovviare alla stampa cartacea e all'archiviazione in faldoni fisici delle stesse.
@@ -57,7 +57,7 @@ Tutti i documenti conservati saranno ancora interrogabili tramite Loocup alla st
 
 ## L'operatività
 Per procedere alla procedura di conservazione occorre portarsi nella scheda di interfaccia per l'archiviazione sostitutiva (scheda ODIACO) : 
-![volcont](http://localhost:3000/immagini/ODIACO_04/volcont.png)
+![volcont](http://doc.smeup.com/immagini/ODIACO_04/volcont.png)
 La conservazione prevede di selezionare in tale scheda il volume che si vuole sottoporre a conservazione (quindi il volume FA01) e premere il bottone "Conserva Volume".
 La procedura procede preventivamente ad una fase di controllo dei documenti che si stanno per conservare, bloccando la conservazione in caso di errori.
  T(I controlli implementati sono : )
@@ -74,16 +74,16 @@ E' importante notare che la presenza di errori blocca tutto il processo di conse
 Una volta che il volume è stato predisposto alla firma appare la finestra di interfaccia alla smart card. E' necessario cliccare il bottone "Aggiungi firma" che aggiunge la firma al volume oggetto della conservazione.
 
 L'accesso alla smart card prevede l'inserimento del PIN della smart card stessa e successivo click su ok.
-![volcons1](http://localhost:3000/immagini/ODIACO_04/volcons1.png)![volcons2](http://localhost:3000/immagini/ODIACO_04/volcons2.png)
+![volcons1](http://doc.smeup.com/immagini/ODIACO_04/volcons1.png)![volcons2](http://doc.smeup.com/immagini/ODIACO_04/volcons2.png)
 La finestra seguente è quella che imprime il riferimento temporale alla chiusura del volume.
 Occorre prestare attenzione al fatto che sia selezionata la voce "Imposta attributo signing Time" riportante l'istante dell'operazione in corso. In seguito cliccare sul bottone "Firma".
-![volcons3](http://localhost:3000/immagini/ODIACO_04/volcons3.png)
+![volcons3](http://doc.smeup.com/immagini/ODIACO_04/volcons3.png)
 Dopo pochi istanti si torna alla finestra di firma del file di chiusura e a questo punto va applicata la marca temporale, cliccando sul bottone "Marca temporale".
-![volcons4](http://localhost:3000/immagini/ODIACO_04/volcons4.png)
+![volcons4](http://doc.smeup.com/immagini/ODIACO_04/volcons4.png)
 La finestra seguente è quella che applica la marca temporale e che richiede il collegamento ad internet da parte del pc su cui si opera. Cliccare su "Applica timestamp"
-![volcons5](http://localhost:3000/immagini/ODIACO_04/volcons5.png)
+![volcons5](http://doc.smeup.com/immagini/ODIACO_04/volcons5.png)
 Terminata la procedura di download della marca temporale si torna alla finestra originaria e resta solo da cliccare su "Salva".
-![volcons6](http://localhost:3000/immagini/ODIACO_04/volcons6.png)
+![volcons6](http://doc.smeup.com/immagini/ODIACO_04/volcons6.png)
 Al termine dell'operazione, se è avvenuta con successo, apparirà nella sezione in basso "Conserva volume" la tabella con i risultati della conservazione.
-![volcons7](http://localhost:3000/immagini/ODIACO_04/volcons7.png)
+![volcons7](http://doc.smeup.com/immagini/ODIACO_04/volcons7.png)
 Ricaricando la scheda si noterà la presenza nella lista "Volumi" del nuovo volume creato dalla conservazione, contenente i documenti appena conservati, mentre il volume di archiviazione FA01 sarà vuoto.

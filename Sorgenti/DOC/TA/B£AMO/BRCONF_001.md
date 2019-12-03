@@ -40,25 +40,25 @@ La diistinta tecnica è unica, costituita dall'articolo da verniciare e dalle di
 
 - Prima di tutto dobbiamo definire un elemento della tabella C£B che guidi la memorizzazione delle configurazioni nell'archivio C£VARI0F : 
 
-![BRCONF_01](http://localhost:3000/immagini/BRCONF_001/BRCONF_01.png)
+![BRCONF_01](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_01.png)
 - Quindi deve essere definito il modello di configurazione che sarà inserito in anagrafico del  prodotto. Il modello di configurazione è un elemento della tabella BRC : 
 
-![BRCONF_02](http://localhost:3000/immagini/BRCONF_001/BRCONF_02.png)
+![BRCONF_02](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_02.png)
 - Adesso si crea l'articolo in anagrafico articoli associando il modello di configurazione nel campo "Criterio di configurazione" : 
 
-![BRCONF_03](http://localhost:3000/immagini/BRCONF_001/BRCONF_03.png)
+![BRCONF_03](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_03.png)
 - Per l'articolo inserito si definiscono le varie colorazioni ammesse, dalla manutenzione anagrafica si seleziona il campo a destra del criterio di configurazione e si compila la tabella che si presenta : 
 
-![BRCONF_04](http://localhost:3000/immagini/BRCONF_001/BRCONF_04.png)
+![BRCONF_04](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_04.png)
 - Per la gestione della distinta configurata si deve prima creare un elemento della tabella BRS con programma  e parametro da utilizzare come criterio di configurazione : 
 
-![BRCONF_05](http://localhost:3000/immagini/BRCONF_001/BRCONF_05.png)
+![BRCONF_05](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_05.png)
 - Si crea la distinta associando ad ogni legame relativo alle vernici il criterio di configurazione : 
 
-![BRCONF_06](http://localhost:3000/immagini/BRCONF_001/BRCONF_06.png)![BRCONF_07](http://localhost:3000/immagini/BRCONF_001/BRCONF_07.png)
+![BRCONF_06](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_06.png)![BRCONF_07](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_07.png)
 - Selezionando il campo a destra del criterio di configurazione si apre un formato di impostazione delle regole di validità : 
 
-![BRCONF_08](http://localhost:3000/immagini/BRCONF_001/BRCONF_08.png)
+![BRCONF_08](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_08.png)
 - L'interrogazione distinta di produzione darà risultati diversi a seconda della configurazione in input : 
 
-![BRCONF_09](http://localhost:3000/immagini/BRCONF_001/BRCONF_09.png)![BRCONF_10](http://localhost:3000/immagini/BRCONF_001/BRCONF_10.png)![BRCONF_11](http://localhost:3000/immagini/BRCONF_001/BRCONF_11.png)
+![BRCONF_09](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_09.png)![BRCONF_10](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_10.png)![BRCONF_11](http://doc.smeup.com/immagini/BRCONF_001/BRCONF_11.png)

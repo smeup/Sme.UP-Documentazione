@@ -5,13 +5,13 @@ E' da ricordare che nel caso in cui la registrazione dell'esito effetti avvenga 
 ## Attribuzione Automatica
 Cliccando su Esito Effetti e successivamente su Reg. Esito Effetti da Remote, in modo da spuntare automaticamente i movimenti che presentano corrispondenza perfetta; come da figura sottostante impostare i campi, facendo particolare attenzione alla data rispetto alla quale si vuole effettuare la registrazione e l'esercizio.
 
-![C5D010_043](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR05L/C5D010_043.png)
+![C5D010_043](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR05L/C5D010_043.png)
 ## Attribuzione Manuale
 
 ### Formato guida
 Il formato guida si presenta nel seguente modo : 
 
-![C5D010_012](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR05L/C5D010_012.png)
+![C5D010_012](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR05L/C5D010_012.png)
 Al suo interno è necessario impostare i seguenti campi : 
  \* Istituto di credito :  indicare in questo campo la banca su cui si deve effettuare la registrazione
  \* Metodo :  il metodo definisce il tipo di registrazione da effettuare; le scelte disponibili sono : 
@@ -23,7 +23,7 @@ Al suo interno è necessario impostare i seguenti campi :
 
 Confermando il formato guida viene presentata una prima schermata di parzializzazione : 
 
-![C5D010_013](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR05L/C5D010_013.png)
+![C5D010_013](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR05L/C5D010_013.png)
 I campi impostabili all'interno della schermata sono i seguenti : 
  \* Natura pagamento rata originaria :  in questo campo deve essere impostata la natura del pagamento della rata insoluta (nel caso in cui si stia registrando l'esito di una riba il campo andrà compilato con E mentre nel caso in cui si stia registrando un assegno richiamato il campo andrà compilato con D)
  \* Codice pagamento :  è il pagamento che verrà riportato sulla rata di insoluto
@@ -42,7 +42,7 @@ I campi impostabili all'interno della schermata sono i seguenti :
 
 Confermando questa prima schermata viene presentata un'ulteriore schermata di parzializzazione : 
 
-![C5D010_014](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR05L/C5D010_014.png)
+![C5D010_014](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR05L/C5D010_014.png)
 Al suo interno è possibile impostare i seguenti campi : 
  \* Ricerca :  determina come effettuare la ricerca delle rate; le scelte disponibili sono :  per codice cliente, per scadenza/codice cliente, per scadenza/ragione sociale cliente.
  \* Filtro rischio :  se attivato permette di visualizzare nella lista solo gli effetti che risultano ancora a rischio.
@@ -59,12 +59,12 @@ Confermando anche questa seconda schermata di parzializzazioni si passa alla lis
 ### Formato lista
 All'interno del formato lista sono riportate tutte le rate di pagato che soddisfano le condizioni indicate all'interno delle parzializzazioni : 
 
-![C5D010_015](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR05L/C5D010_015.png)
+![C5D010_015](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR05L/C5D010_015.png)
 Per ognuna delle rate sono riportati la data scadenza, la data documento, la valuta, l'importo, il cliente, il numero di pratica, il numero di titolo, il debitore e la piazza (se presenti).
 Le rate che presentano all'inizio un asterisco sono rate cumulate :  per esse è riportato l'importo totale delle rate che compongono la rata cumulata. Immediatamente sotto la rata cumulata è visualizzato il dettaglio delle rate che la compongono.
 Per selezionare le rate di cui si vuole registrare l'esito è sufficiente mettere una X sul campo a sinistra e confermare con F6 : 
 
-![C5D010_016](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR05L/C5D010_016.png)
+![C5D010_016](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR05L/C5D010_016.png)
 Nella schermata che compare confermando con F6 è riportata una sintesi della registrazione che verrà effettuata; in particolare sono riportati : 
  \* Natura del pagamento
  \* Tipo, data registrazione e esercizio
@@ -87,4 +87,4 @@ Nel caso in cui si vogliano inserire insoluti di un altro soggetto è sufficient
 
 Confermando con F6 la schermata riassuntiva delle spese della registrazione si passerà alla registrazione contabile vera e propria che andrà confermata sempre con F6 : 
 
-![C5D010_017](http://localhost:3000/immagini/MBDOC_OGG-P_C5RR05L/C5D010_017.png)
+![C5D010_017](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5RR05L/C5D010_017.png)

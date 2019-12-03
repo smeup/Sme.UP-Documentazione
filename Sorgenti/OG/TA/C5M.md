@@ -13,7 +13,7 @@ Indica per ogni livello di riclassifica quanti e quali caratteri delle sue linee
 
 _9_Esempio :  la configurazione della riclassifica CEE è la seguente :  '12333344444444'. Questo significa che il primo carattere della linea indicherà il primo livello di riclassifica, il secondo indicherà il secondo livello, i caratteri dal terzo al sesto indicheranno il terzo livello di riclassifica. I caratteri finali non vengono considerati poiché rappresentano le linee di dettaglio. Se entro nella C5N CE vedo che le prime linee di riclassifica sono le seguenti : 
 
-![C5BASE_021](http://localhost:3000/immagini/MBDOC_OGG-TA_C5M/C5BASE_021.png)
+![C5BASE_021](http://doc.smeup.com/immagini/MBDOC_OGG-TA_C5M/C5BASE_021.png)
 La prima macro linea di riclassifica è quella dell'attivo; questa a sua volta è composta da :  crediti verso soci per versamenti dovuti + immobilizzazioni + attivo circolante + ratei e risconti. Le immobilizzazioni, a loro volta, sono composte da :  immobilizzazioni immateriali + immobilizzazioni materiali + immobilizzazioni finanziarie. A loro volta, le immobilizzazioni immateriali sono formate da costi di impianto e di ampliamento + costi di ricerca, sviluppo e pubblicità + diritti di brevetto industriale + concessioni, licenze e marchi + avviamento + immobilizzazioni in corso + altre immobilizzazioni immateriali. E così via.
 
  :  : FLD T$C5MA Riclassifica parziale

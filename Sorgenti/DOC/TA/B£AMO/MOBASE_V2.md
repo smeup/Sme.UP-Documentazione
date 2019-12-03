@@ -14,11 +14,11 @@ L'applicazione si presenta in lingua italiana o inglese in funzione della lingua
 
 **Seguono due screeshot di esempio**
 
-![001](http://localhost:3000/immagini/MOBASE_V2/001.png)
-![002](http://localhost:3000/immagini/MOBASE_V2/002.png)
+![001](http://doc.smeup.com/immagini/MOBASE_V2/001.png)
+![002](http://doc.smeup.com/immagini/MOBASE_V2/002.png)
 **Una volta scaricata l'applicazione ci si presenta questa videata : **
 
-![003](http://localhost:3000/immagini/MOBASE_V2/003.png)
+![003](http://doc.smeup.com/immagini/MOBASE_V2/003.png)
 L'ambiente demo **"demo version"** è accessibile senza specificare nessuna credenziale.
 Chiunque scarichi l'app potrà accedere all' ambiente demo, al suo interno troverà un documento di aiuto che descrive la dinamica dell'applicazione.
 
@@ -60,13 +60,13 @@ DI seguito un esempio di come abbiamo lavorato per produrre l'analisi dello scad
 -  anzianità scaduto
 -  F(EXB;LOA15_SE;LIS.PAR) 1(;;PR.04.01) 2(;;04) P(PAR2(1)) INPUT()
 
-![004](http://localhost:3000/immagini/MOBASE_V2/004.png)
+![004](http://doc.smeup.com/immagini/MOBASE_V2/004.png)
 -  dimensioni dello scaduto
 -  F(TRE;LOA15_SE;LIS.DIM) 1(;;PR.04.01) 2(;;) INPUT()
-![005](http://localhost:3000/immagini/MOBASE_V2/005.png)
+![005](http://doc.smeup.com/immagini/MOBASE_V2/005.png)
 -  scaduto per agente
 -  F(EXB;LOA15_SE;LIS.PAR) 1(;;PR.04.01) 2(;;03) P(ParRic(1)) INPUT(WHR(BTCD04 = '020'))
-![006](http://localhost:3000/immagini/MOBASE_V2/006.png)
+![006](http://doc.smeup.com/immagini/MOBASE_V2/006.png)
 ## NOTA BENE
 Alla domanda del cliente che chiede l'utilizzo della app. con i dati del proprio gestionale dobbiamo rispondere che è necessario fare nascere un progetto.
 

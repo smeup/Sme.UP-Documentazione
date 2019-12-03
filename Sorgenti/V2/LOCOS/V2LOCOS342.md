@@ -6,7 +6,7 @@ Per poter configurare correttamente una check-list, occorre compilare la tabella
 Un questionario infatti esiste se è stato codificato nella suddetta tabella.
 
  :  : DEC T(ST) K(B§Q)
-![LOA34_04](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOS342/LOA34_04.png)
+![LOA34_04](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOS342/LOA34_04.png)
 L'elemento della tabella B§Q deve avere : 
 **1)** Il nome del **configuratore** che serve per raccogliere i dati di input.
 **2)** Il nome del **programma specifico** che serve all'estrazione e al caricamento dei capitoli, dei paragrafi e delle domande.
@@ -24,7 +24,7 @@ Impostati questi due campi, è possibile procedere con l'impostazione facoltativ
 11)**Suff. programma di aggiustamento** :  è la lettera che identifica il programma di exit utile per personalizzare ulteriormente le chiamate alle funzioni esplicitate nel SS della B£J.
 
 Di tutte le voci elencate, quelle più importanti sono sicuramente quella del configuratore e quella del programma specifico. I richiami a questi due elementi (configuratore e programma) sono guidati da una scheda base (LOA34, SCP_SCH), la quale si preoccupa di richiedere attraverso un configuratore standard (LOA34, SCP_CFG) il nome del questionario e il relativo configuratore di input. All'interno di questa scheda, sarà poi il LOA34_SE (JASRC) a interfacciarsi con il programma specifico indicato in B§Q.
-![LOA34_05](http://localhost:3000/immagini/MBDOC_OGG-V2LOCOS342/LOA34_05.png)
+![LOA34_05](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOS342/LOA34_05.png)
 L'intero questionario viene elaborato quindi in un file di work che viene caricato dal LOA34_SE e gestito, nella scrittura, nell'aggiornamento, nella cancellazione nonché nella sua copia nel file_ definitivo_ dal programma specifico definito nella tabella B§Q, attraverso opportune chiamate : 
 
 **A) Verifica e cancellazione del lock (chiamata con funzione LCK)**

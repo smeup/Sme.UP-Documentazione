@@ -36,7 +36,7 @@ Per verificare se sul pc è già installata una JVM utilizzate uno dei seguenti 
 
 -  Aprire il "Pannello di controllo" di Windows e fare doppio click sull'icona "JAVA". Cliccare su "Informazioni su" (tab Generale). Comparirà una finestra di dialogo che indicherà la versione. Sii troverà in alto una scritta del tipo "Java Platform Standard Edition 6" **Java 2 Runtime Enviroment ver. YYYY dove YYYY è la versione della Java Virtual Machine installata sul sistema.
 
-![LOBASE_01](http://localhost:3000/immagini/LOBASE_031/LOBASE_01.png)
+![LOBASE_01](http://doc.smeup.com/immagini/LOBASE_031/LOBASE_01.png)
 - Aprire il "Pannello di controllo" di Windows e selezionare la voce "Installazione applicazioni". Cercare nella lista di applicazioni installate sul sistema la voce :  **Java 2 Runtime Enviroment ver. YYYY  dove YYYY è la versione della Java Virtual Machine installata sul sistema.
 - Aprire una shell DOS di sistema e inserire il comando :  **java -version**(java spazio meno version). Nel caso ci sia una JVM installata, la risposta sarà del tipo :  **java version "1.4.2_01" Java(TM) 2 Runtime Environment,
 Standard Edition (build 1.4. Java HotSpot(TM) Client VM (build 1.4.2_01-b06, mixed mode) da cui si deduce la versione della JVM installata (1.4.2_01 nel caso in esempio) oppure del tipo **java version "1.6.0-oem"** Java(TM) SE Runtime Environment (build 1.6.0-oem-b104) Java HotSpot(TM) Client VM (build 1.6.0-oem-b104, mixed mode)
@@ -143,14 +143,14 @@ Non installare in _7_C : \Programmi\Loocup come suggerito dal setup, che utilizz
 ### Creazione della condivisione e autorizzazioni sulla stessa
 Creare la condivisione Everyone --> Full Control, questo permette di accedere via rete a tutte le risorse dell'installazione, sottoponendosi però alle autorizzazioni che vengono impostate sul File System locale e di cui diremo di seguito : 
 
-![share](http://localhost:3000/immagini/LOBASE_031/share.png)
+![share](http://doc.smeup.com/immagini/LOBASE_031/share.png)
 ### Impostazioni delle autorizzazioni sul File System
 Per il Livello di protezione procedere come segue.
 Nella cartella principale di installazione : 
-![srvauth1](http://localhost:3000/immagini/LOBASE_031/srvauth1.png)ricordandosi di **togliere** il flag di eredità delle autorizzazioni dalla cartella padre.
+![srvauth1](http://doc.smeup.com/immagini/LOBASE_031/srvauth1.png)ricordandosi di **togliere** il flag di eredità delle autorizzazioni dalla cartella padre.
 Propagare a tutte le sottocartelle e files le autorizzazioni.
 Ora passare alle sottocartelle e ad una ad una, ricordandosi di **togliere** il flag di eredità delle autorizzazioni dalla cartella padre, quelle che ne hanno bisogno e citerò di seguito, impostare la protezione come segue : 
-![srvauth2](http://localhost:3000/immagini/LOBASE_031/srvauth2.png)Le cartelle su cui bisogna allargare il set di autorizzazioni poiché nel corso del programma possono dover essere "scritte" sono le seguenti :  LOOCUP_DAT, LOOCUP_CAH, LOOCUP_TMP, LOOCUP_WRK e LOOCUP_OUT.
+![srvauth2](http://doc.smeup.com/immagini/LOBASE_031/srvauth2.png)Le cartelle su cui bisogna allargare il set di autorizzazioni poiché nel corso del programma possono dover essere "scritte" sono le seguenti :  LOOCUP_DAT, LOOCUP_CAH, LOOCUP_TMP, LOOCUP_WRK e LOOCUP_OUT.
 
 ### NOTA
 Dopo aver completato l'installazione si può verificare la disponibilità di aggiornamenti collegandosi al sito www.smeup.com utilizzando il link seguente : 
@@ -191,7 +191,7 @@ Si ricorda comunque che le prestazioni del client Looc.Up dipendono principalmen
 
 ### Esecuzione su file server win2003
 Nel caso di installazione centralizzata di Looc.up su server con sistema operativo Windows 2003, all'avvio di Looc.up da client con sistema operativo Windows XP o Vista, potrebbe venire visualizzata questa finestra di conferma : 
-![LOCBAS_021](http://localhost:3000/immagini/LOBASE_031/LOCBAS_021.png)
+![LOCBAS_021](http://doc.smeup.com/immagini/LOBASE_031/LOCBAS_021.png)
 Per eliminare questa richiesta di conferma, è necessario seguire i seguenti passi : 
  - aprire dal pannello di controllo le "opzioni internet"
  - selezionare la _linguetta_ "Protezione" (o "sicurezza" in base alle varie versioni di sistema operativo)
@@ -268,7 +268,7 @@ Esistono inoltre ulteriori limitazioni sul nome simbolico utilizzato. Non tutti 
  \* NOME.AS.400 (il terzo "blocco" inizia con una cifra)
 
 Da notare che loocup si collegherebbe comunque correttamente (il nome simbolico è valido a livello di rete), l'unica cosa che non funzionerebbe sarebbero i "servizi AS400". Si otterrebbe in tal caso il seguente messaggio (The system name is not a valid AS/400 system name.) : 
-![LOCBAS_024](http://localhost:3000/immagini/LOBASE_031/LOCBAS_024.png)
+![LOCBAS_024](http://doc.smeup.com/immagini/LOBASE_031/LOCBAS_024.png)
 è invece valido anche per i "servizi AS400" il seguente indirizzo :  NOME.AS400.AZIENDALE (anche se in totale sono più di 10 caratteri, i singoli "blocchi" sono più corti).
 
 Si segnala inoltre che in alcune vecchie versioni di operation navigator è necessario impostare una connessione con lo stesso nome simbolico utilizzato per il collegamento di loocup. Con le versioni più recenti invece l'inserimento di una connessione viene fatta automaticamente al primo utilizzo. La presenza corretta di tale configurazione è particolarmente importante nei casi in cui Loocup sia utilizzato per accedere diversi AS400. In tal caso, infatti, se la richiesta di servizi AS400 avanzata da Looc.up non trova una corrispondenza corretta nella configurazione dell'Operation Navigator, quest'ultimo potrebbe avviare sempre e comunque il primo collegamento che trova.

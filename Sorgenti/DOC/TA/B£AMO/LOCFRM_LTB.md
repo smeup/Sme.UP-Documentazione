@@ -16,12 +16,12 @@ E' possibile creare e personalizzare una presentazione inserendo i seguenti elem
 
 
 Durante la creazione sarà sempre possibile servirsi del Wizard per semplificare il lavoro (figura ImgRef(WIZARDPRE)).
-![WIZARDPRE](http://localhost:3000/immagini/LOCFRM_LTB/WIZARDPRE.png)ImgRef(WIZARDPRE)
+![WIZARDPRE](http://doc.smeup.com/immagini/LOCFRM_LTB/WIZARDPRE.png)ImgRef(WIZARDPRE)
 
 # Risultato
 Seguendo la sintassi e lanciando la compilazione della presentazione è possibile ottentere un PDF di qualità, come quello presentato in figura ImgRef(PDFPRE).
 
-![PDFPRE](http://localhost:3000/immagini/LOCFRM_LTB/PDFPRE.png)
+![PDFPRE](http://doc.smeup.com/immagini/LOCFRM_LTB/PDFPRE.png)
 # Ubicazione
 Presentazioni ed esempi si possono trovare seguendo il percorso di menù : 
 My Loocup - Per lo sviluppatore - Esempi
@@ -54,7 +54,7 @@ Elemento di struttura. Definisce la copertina della presentazione. E' possibile 
 - LogAll, per specificare il logo di tutta la presentazione ( visualizzato in basso a destra)
 
 **Esempio**
-![PDFCOV](http://localhost:3000/immagini/LOCFRM_LTB/PDFCOV.png) :  : PAR T(Sintassi) F(04)
+![PDFCOV](http://doc.smeup.com/immagini/LOCFRM_LTB/PDFCOV.png) :  : PAR T(Sintassi) F(04)
  :   : P.FRM
  :   : P.COV Tit="Titolo" Sub="Sottotitolo" Aut="Autore" Ver="Versione" Sta="00" Dat="" BckCov="[SME.HOM]\SMEIMG\LOGHI\SFO_000.PNG" BckAll="[SME.HOM]\SMEIMG\LOGHI\SFO_001.PNG"
 
@@ -70,7 +70,7 @@ Esistono tre livelli gerarchici di sezioni, di importanza decrescente :
 
 
 **Esempio**
-![PDFSOM](http://localhost:3000/immagini/LOCFRM_LTB/PDFSOM.png) :  : PAR T(Sintassi) F(04)
+![PDFSOM](http://doc.smeup.com/immagini/LOCFRM_LTB/PDFSOM.png) :  : PAR T(Sintassi) F(04)
  :   : P.T01 Tit="Sezione 1"
  :   : P.T01 Tit="Sezione 2"
  :   : P.T02 Tit="SubSezione 2.uno"
@@ -200,7 +200,7 @@ Attraverso la chiamata di servizio è possibile specificare i seguenti attributi
 - Cnd, per specificare le colonne (ovvero i campi) e il numero di righe da visualizzare
 - Dim, per specificare la dimensione della tabella in proporzione alla pagina
 **Esempio**
-![PDFTAB](http://localhost:3000/immagini/LOCFRM_LTB/PDFTAB.png) :  : PAR T(Sintassi) F(04)
+![PDFTAB](http://doc.smeup.com/immagini/LOCFRM_LTB/PDFTAB.png) :  : PAR T(Sintassi) F(04)
  :   : P.FRM
  :   : P.SUB.SER Tit="Articoli " Fun="F(EXB;\*OAV;) 1(OJ;\*FILE;BRARTI0F)" Dim="0.45" Cnd="COD(£OAVIN&£OAVOV) RIG(6)"
 

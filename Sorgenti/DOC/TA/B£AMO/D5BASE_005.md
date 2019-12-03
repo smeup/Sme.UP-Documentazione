@@ -1,5 +1,5 @@
 # Struttura di Delt.up
-![D5BASE_01](http://localhost:3000/immagini/D5BASE_005/D5BASE_01.png)
+![D5BASE_01](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_01.png)
 # Analisi degli obiettivi del Controllo di gestione
 L'obiettivo di Delt.UP è monitorare i processi aziendali per rilevare scostamenti rispetto ad un obiettivo predefinito.
 
@@ -70,14 +70,14 @@ Il codice oggetto deve essere coerente con il parametro, per fare questa verific
 # Definire i Modelli di Delt.UP
 ## Definizione dei contesti (tabella D5S)
 La tabella D5S è quella che mi permette questa definizione, l'elemento da utilizzare nella D5S è obbligatoriamente un oggetto di Sme.up per cui il sistema lo controlla nella tabella \*CN/TT  dove l'elemento deve esistere, oppure devo crearmi un UFO (Oggetto definito dall'Utente)
-![D5BASE_02](http://localhost:3000/immagini/D5BASE_005/D5BASE_02.png)Da notare che nella tabella viene definito il sottosettore da utilizzare per le definizioni dei temi (Tab. D5O).
+![D5BASE_02](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_02.png)Da notare che nella tabella viene definito il sottosettore da utilizzare per le definizioni dei temi (Tab. D5O).
 
 ### Creazione oggetto UFO
  :  : DEC T(MB) P(DOC) K(OG__D) L(1)
 
 -  Risulterà fondamentale capire quando è il caso di fare un UFO o usare delle chiavi aggiuntive in Delt.UP
 
-![D5BASE_03](http://localhost:3000/immagini/D5BASE_005/D5BASE_03.png)![D5BASE_04](http://localhost:3000/immagini/D5BASE_005/D5BASE_04.png)
+![D5BASE_03](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_03.png)![D5BASE_04](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_04.png)
 ## Definizione dei valori (Tabella IGI_xx)
 In questa tabella si assegna un significato ad ognuno dei 99 campi generici (solo quelli necessari) avendo le seguenti possibilità : 
  \* Valori
@@ -86,19 +86,19 @@ In questa tabella si assegna un significato ad ognuno dei 99 campi generici (sol
 
 Questa tabella prevede due riclassifiche per ogni valore (che devono essere presenti nella stessa tabella), e l'assegnazione della natura (solo per la gestione dei costi).
 Il sottosettore di questa tabella sarà l'elemento che utilizzeremo nella definizione della tabella D5O.
-![D5BASE_05](http://localhost:3000/immagini/D5BASE_005/D5BASE_05.png)
+![D5BASE_05](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_05.png)
 Nel campo "controllo" digitando una "_2_F" si può permettere, da parte dell'utente, la modifica del valore, anche dopo il popolamento automatico dell'elemento.
 
 ## Definizione del tema (tabella D5O_xx)
 Il sottosettore della D5O dipende dal contesto (esempio "CC" = Centri di Costo).
-![D5BASE_06](http://localhost:3000/immagini/D5BASE_005/D5BASE_06.png)
+![D5BASE_06](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_06.png)
 Associamo la tabella IGI al tema nel campo "S/S indici(se STD)".
 I 3 oggetti saranno i valori che vedremo nel D5COSO (D$COD1, D$COD2, D$COD3).
 
 In alternativa alla IGI, per definire i valori del tema si può utilizzare, al posto del "S/S indici(se STD)", il campo "Suf. Pgm. Spec. D5CO_XX" dove ci sono degli schemi standard.
 
 ## Struttura delle chiavi dei contesti (D5COSO)
-![D5BASE_07](http://localhost:3000/immagini/D5BASE_005/D5BASE_07.png)
+![D5BASE_07](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_07.png)
  \* _2_D$TIPA è il contesto
  \* _2_D$COD è il codice del contesto
  \*\* Se il contesto è il centro di costo il D$CODI è il Codice del centro di costo.
@@ -118,15 +118,15 @@ E' sempre un flag della tabelle IGI che permette tale opzione, che vale per tutt
 ## Alimentazione da Sistemi conferenti
 ### Tabella B£H - Gruppi di Azioni
 Con questa tabella si definirà il flusso di alimentazione
-![D5BASE_08](http://localhost:3000/immagini/D5BASE_005/D5BASE_08.png)attraverso la definizione dei passi di alimentazione, Tabella B£J_xx, che prevede due modalità diverse di definizione in base al sistema origine che può essere Sme.UP o altro sistema.
+![D5BASE_08](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_08.png)attraverso la definizione dei passi di alimentazione, Tabella B£J_xx, che prevede due modalità diverse di definizione in base al sistema origine che può essere Sme.UP o altro sistema.
 
 ## Alimentazione da Sistemi conferenti Sme.UP
 ### Tabella B£J_xx - Gruppi di azioni
 In questa tabella si definiranno i passi e, oltre alle azioni del programma D5\* si dovrà porre attenzione ai campi "Sottosettore Fonte" e "Codice Fonte".
-![D5BASE_09](http://localhost:3000/immagini/D5BASE_005/D5BASE_09.png)![D5BASE_10](http://localhost:3000/immagini/D5BASE_005/D5BASE_10.png)![D5BASE_11](http://localhost:3000/immagini/D5BASE_005/D5BASE_11.png)
+![D5BASE_09](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_09.png)![D5BASE_10](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_10.png)![D5BASE_11](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_11.png)
 ### Tabella D5R_xx - Ripresa da sistemi conferenti
 Tabella che definirà le fonti di alimentazione del D5COSO dei sistemi conferenti.
-![D5BASE_12](http://localhost:3000/immagini/D5BASE_005/D5BASE_12.png)In questa tabella andremo a definire : 
+![D5BASE_12](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_12.png)In questa tabella andremo a definire : 
  \* il prefisso di tutti i passi che andiamo a codificare nella tabella D5E_xx (vedi "MH")
  \* Il contesto e il tema di destinazione (solo quando i passi della D5E vanno tutti ad alimentare lo steso contesto), se lo impostiamo qui ci leghiamo a quel tema/contesto senza poterci svincolare nemmeno nei programmi di aggiustamento.
  \* Il segno transazione serve solo nella contabilità e nel magazzino : 
@@ -142,7 +142,7 @@ Tabella che definirà le fonti di alimentazione del D5COSO dei sistemi conferent
 ### Tabella D5E_xx - Passi di ripresa
 La numerazione dei passi è usualmente definita con un prefisso impostato nella D5R + un progressivo, genericamente numerico, (comunque non ci sono vincoli).
 Il sistema esegue al massimo 10 passi per ogni D5R, per cui è in grado di alimentare al massimo una schiera di 10 valori (schiera della DS-esterna _2_D5MOVI).
-![D5BASE_13](http://localhost:3000/immagini/D5BASE_005/D5BASE_13.png)
+![D5BASE_13](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_13.png)
  \* Il contesto e il tema, se definiti nella D5R, possono essere "\*\*".
  \* Metodo det. Origine : 
  \*\* _2_\*VAL, è riferito a uno dei 10 valori della DS D5MOVI (D£CN01...D£CN10), questo in relazione al valore caricato dal programma di alimentazione (_2_D5APMHE per contabilità analitica).
@@ -163,14 +163,14 @@ Il sistema esegue al massimo 10 passi per ogni D5R, per cui è in grado di alime
 Significativo segnalare che se si vuole pulire l'origine del dato ribaltato è sufficiente utilizzare un secondo passo della D5E che destina il "Valore 02" della _2_D5MOVI su contesto tema origine (tale valore infatti non è nient'altro che un valore di segno opposto a quello ribaltato).
 
 Vedi seguente esempio : 
-![D5BASE_14](http://localhost:3000/immagini/D5BASE_005/D5BASE_14.png)![D5BASE_15](http://localhost:3000/immagini/D5BASE_005/D5BASE_15.png)
+![D5BASE_14](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_14.png)![D5BASE_15](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_15.png)
 # Alimentazione da altri Sistemi conferenti (no Sme.UP)
 In questo caso abbiamo la necessità di creare dei programmi utente che utilizzino in modo opportuno la /COPY D5A.
 Nella tabella B£J metterò il nome del mio programma utente.
 
 # Algoritmi di validazione e/o caricamento - Tabella D5M_xx
 La tabella D5M, in supporto alla tabella D5E, permette di risolvere i contesti/temi di _2_destinazione qualora ciò non sia possibile mediante la D5E.
-![D5BASE_16](http://localhost:3000/immagini/D5BASE_005/D5BASE_16.png)
+![D5BASE_16](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_16.png)
 Il prerequisito è che l'elemento di tabella sia così codificato : 
  \* _2_aaaaaaaaa n bytes - Elemento della tabella D5E (max 9 bytes)
  \* _2_  1 byte - Underscore fisso
@@ -190,7 +190,7 @@ Si potrà definire la matrice di distribuzione con dei valori o con delle percen
 
 Il _2_tipo oggetto 1 or 2 sono gli oggetti in cui si possono inserire le percentuali o valori, mentre il "_2_Tipo ogg. Risultato" è l'oggetto destinatario dei valori.
 I due tipi oggetto origine rappresentano le due chiavi dei parametri.
-![D5BASE_17](http://localhost:3000/immagini/D5BASE_005/D5BASE_17.png)
+![D5BASE_17](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_17.png)
 Il metodo o Programma può essere : 
  \* _2_1   \*PARA     Da parametro. Parametro della coppia oggetti origine.
  \* _2_2   \*PGM      Da pgm utente. Scrivere un programma utente (vedere programma esempio D5SRC/SMESRC D5D5I_1)
@@ -199,4 +199,4 @@ Il metodo o Programma può essere :
 
 # Scrittura dati su D5COSO - Impostazione /COPY D5A
 Si può testare la D5A con il consueto programma di test.
-![D5BASE_18](http://localhost:3000/immagini/D5BASE_005/D5BASE_18.png)![D5BASE_19](http://localhost:3000/immagini/D5BASE_005/D5BASE_19.png)![D5BASE_20](http://localhost:3000/immagini/D5BASE_005/D5BASE_20.png)
+![D5BASE_18](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_18.png)![D5BASE_19](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_19.png)![D5BASE_20](http://doc.smeup.com/immagini/D5BASE_005/D5BASE_20.png)

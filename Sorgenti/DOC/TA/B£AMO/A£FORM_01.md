@@ -49,22 +49,22 @@ Di seguito viene invece riportato il modus-operandi per la produzione del file v
  \* Struttura del video. La scenografia del video deve rispecchiare esattamente l'agenda della presentazione. Attraverso l'utilizzo di markers è possibile fare in modo che i titoli del TOC rispecchino i punti riportati in agenda.
  \* Il video deve essere editato per quanto riguarda le parti di power point con uno sfondo standard.
  \* Conclusione. Al termine del video dovrà essere riportata nuovamente l'agenda dell'intervento che riassume i punti toccati nel video e le nozioni apprese e una pagina di ringraziamento : 
-![A£FORM_002](http://localhost:3000/immagini/A£FORM_01/AXFORM_002.png)
+![A£FORM_002](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_002.png)
 ## Definizione dello std delle riprese
  \* Le riprese devono essere effettuate impostando la luce sul mouse e la comparsa del 'centro' al click del mouse. Per impostare queste opzioni è necessario entrare nel pannello Camtasia recorder, scegliere Effects e quindi Cursor e Highlight Cursor&Clicks.
 
 ## Definizione dello std di editing
  \* Transitions :  il passaggio tra diversi filmati può essere effettuato tramite l'utilizzo di flip della durata di 1 sec.
  \* All'interno dell'Audio Enhancements selezionare Event out volume levels -> Setting :  low volume variations per livellare le variazioni nel volume dell'audio : 
-![A£FORM_003](http://localhost:3000/immagini/A£FORM_01/AXFORM_003.png)
+![A£FORM_003](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_003.png)
 ## Definizione dello std di produzione
  \* Il filmato dovrà essere prodotto in formato WMV 800X640 e dovrà contenere il TOC. Per ottenere questo formato compilare come segue il wizard di produzione : 
-![A£FORM_004](http://localhost:3000/immagini/A£FORM_01/AXFORM_004.png)![A£FORM_005](http://localhost:3000/immagini/A£FORM_01/AXFORM_005.png)![A£FORM_006](http://localhost:3000/immagini/A£FORM_01/AXFORM_006.png)![A£FORM_007](http://localhost:3000/immagini/A£FORM_01/AXFORM_007.png)![A£FORM_008](http://localhost:3000/immagini/A£FORM_01/AXFORM_008.png)![A£FORM_009](http://localhost:3000/immagini/A£FORM_01/AXFORM_009.png)![A£FORM_010](http://localhost:3000/immagini/A£FORM_01/AXFORM_010.png)
+![A£FORM_004](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_004.png)![A£FORM_005](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_005.png)![A£FORM_006](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_006.png)![A£FORM_007](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_007.png)![A£FORM_008](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_008.png)![A£FORM_009](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_009.png)![A£FORM_010](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_010.png)
 ## Definizione dello std delle cartelle di Looc.UP
  \* All'interno di Looc.UP i file devono essere organizzati nel seguente modo : 
  \*\* una cartella 'File di lavoro' in cui è necessario inserire le riprese, eventuali registrazioni audio, i power point, il progetto camtasia e la cartella prodotta dalla produzione del video (di default viene  nominata con il nome assegnato + _media).
  \*\* Il file wmv compilato che verrà poi caricato su internet : 
-![A£FORM_011](http://localhost:3000/immagini/A£FORM_01/AXFORM_011.png)
+![A£FORM_011](http://doc.smeup.com/immagini/A£FORM_01/AXFORM_011.png)
 ## Compilazione della Descrizione del corso
 Una volta inserite le cartelle con i file relativi al video realizzato è necessario compilare la scheda descrittiva del corso che si trova nel tab 'Documentazione'. Qui è necessario compilare la descrizione del corso i prerequisiti, la sceneggiatura e l'autore del video.
 

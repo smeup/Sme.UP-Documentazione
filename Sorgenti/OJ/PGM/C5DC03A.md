@@ -23,8 +23,8 @@ Prima di procedere è necessario controllare i dati anagrafici aziendali :
 -  Percipiente :  da compilare nel caso in cui si voglia selezionare un range o singolo percipiente
 
 -  Trasferimento :  mettendo una carattere qualsiasi si accede alla finestra di impostazione del percorso di salvataggio del file. In questa finestra impostare il tipo di trasmissione (si consiglia di utilizzare il 5), il nome del file (può essere utilizzato qualsiasi nome e qualsiasi estensione), e il percorso della cartella IFS (preceduta e seguita dal carattere "/") in cui verrà collegato il file da trasmettere all'agenzia. La cartella deve essere creata : 
-![C5C070_005](http://localhost:3000/immagini/MBDOC_OGG-P_C5DC03A/C5C070_005.png)Nel caso in cui in fase di installazione vi sia già stato impostato il percorso di trasferimento potrete sceglierlo indicando un '!' nel campo 'Memorizzazione Dati Video' in alto a sinistra : 
-![C5C070_006](http://localhost:3000/immagini/MBDOC_OGG-P_C5DC03A/C5C070_006.png)
+![C5C070_005](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5DC03A/C5C070_005.png)Nel caso in cui in fase di installazione vi sia già stato impostato il percorso di trasferimento potrete sceglierlo indicando un '!' nel campo 'Memorizzazione Dati Video' in alto a sinistra : 
+![C5C070_006](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5DC03A/C5C070_006.png)
 ## Casi particolari
 
 -  Per gestire i casi delle causali G/H/I per le quali risulta necessario indicare l'anno di cui è sorto il diritto alla percezione delle indennità, è stato previsto che debbano essere specificatamente create delle causali C5P al cui interno venga indicato lo specifico anno di riferimento. Va verificato se sussistono casi del genere e nel caso vanno codificate le specifiche causali. Tali causali andranno poi imputate ai documenti di pertinenza.

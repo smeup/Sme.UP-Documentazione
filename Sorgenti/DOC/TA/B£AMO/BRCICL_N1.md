@@ -5,7 +5,7 @@ La scansione di produzione esegue un filtro sulla data di validità :
 
 Modalità di appartenenza di una fase ad un periodo (in scansione £CRT) : 
 
-![BRCICL_22](http://localhost:3000/immagini/BRCICL_N1/BRCICL_22.png)
+![BRCICL_22](http://doc.smeup.com/immagini/BRCICL_N1/BRCICL_22.png)
 **Nota Bene**; gli estremi sono compresi :  è cura di chi definisce i periodi evitare le sovrapposizioni
 
 Una fase appartiene ad un periodo se l'inizio validità è =< della fine del periodo e la fine validità è >= dell'inizio del periodo. Non si fanno calcoli di appartenenza parziale.

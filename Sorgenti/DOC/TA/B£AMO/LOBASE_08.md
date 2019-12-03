@@ -32,7 +32,7 @@ La lista dei moduli attivi è specificata nel file di configurazione SCP_CLO del
 # Schema di riferimento
 
 
-![LOCBAS_036](http://localhost:3000/immagini/LOBASE_08/LOCBAS_036.png)
+![LOCBAS_036](http://doc.smeup.com/immagini/LOBASE_08/LOCBAS_036.png)
 LoocUp oltre ad essere connesso con il server master AS400, consente di definire un pacchetto di server alternativi (chiamati **SERVER DI LOOCUP**), incaricati di compiere specifiche funzionalità, anche sostitutive a quelle fornite dal master. Questo permette di costruire un sistema molto articolato e di agganciare anche più applicativi sul lato server purchè si rispettino i protocolli di comunicazione.
 
 Le gestione dei serventi esterni avviene tramite il servizio java JA_00_17 che ha il compito di inizializzarli, attivarli e con cui possono essere eseguite interrogazioni. La dichiarazione dei server esterni è codificata, come per i listener, nello script SCP_CLO, nel file dei configuratori SCP_CFG e l'attivazione avviene all'avvio di LoocUp. Il sistema provvede a creare tanti threads, ossia processi che condividono parallelamente l'accesso al processore, quanti sono i servers definiti nello script.

@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare e gestire la configurazione delle registrazioni contabili automatiche associate ai movimenti bancari
 
-![C5D030_053](http://localhost:3000/immagini/MBDOC_SCH-C5D030_CRU/C5D030_053.png)
+![C5D030_053](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_CRU/C5D030_053.png)
 
 ## Dettaglio informazioni
 

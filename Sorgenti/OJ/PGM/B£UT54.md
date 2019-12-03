@@ -7,7 +7,7 @@ La funzione può essere lanciata dalla funzione "Menù a parametri per gruppo ut
 ## Formato guida
 Il formato guida è il seguente : 
 
-![B£UT54_01](http://localhost:3000/immagini/MBDOC_OGG-P_B£UT54/BXUT54_01.png)
+![B£UT54_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT54/BXUT54_01.png)
 Inserire : 
 
 - **Gruppo autorizzazione**, è un elemento della tabella B£\*_GU e rappresenta il gruppo utente per cui costruire il menu specifico. Tutti gli utenti appartenenti al gruppo assumeranno lo stesso menù.
@@ -17,7 +17,7 @@ Inserire :
 
 Inseriti i dati con - ENTER - si passa alla lista delle azioni di menù : 
 
-![B£UT54_02](http://localhost:3000/immagini/MBDOC_OGG-P_B£UT54/BXUT54_02.png)
+![B£UT54_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT54/BXUT54_02.png)
 In questa lista sono possibili le azioni seguenti : 
 
 - **AM = Abilita tutto il menù**, questa azione è possibile solo sulla riga dell'intero menù, se impostata permette di autorizzare direttamente tutte le azioni del menù. Quando tutto il menù è autorizzato la riga viene evidenzata (reverse rosso) e compare la scritta **Abilitato tutto il menù; in questa condizione le singole righe sono in colore rosso e le opzioni non sono attive.
@@ -37,7 +37,7 @@ Quando è gestita l'autorizzazione per la singola azione l'oggetto dei parametri
 **Per fare in modo che vengano usati questi menù nella gestione ambienti deve essere impostato il tipo accesso G = Menù SMEUP :  Parametri Gruppo B£U.
 
 Quando le azioni di menu sono su più sottosettori diversi della tabella MEA (esempio sottosettore 00 = Menù principale, C5 = Menù Contabilità, V5 = Menù Acquisti, ....), per gestire le abilitazioni anche sui menù di livello inferiore, la tabella MEA che richiama il sottosettore del Menù di livello inferiore deve essere compilata come segue : 
-![B£UT54_03](http://localhost:3000/immagini/MBDOC_OGG-P_B£UT54/BXUT54_03.png) \* Programma/Azione, deve essere il codice del sottosettore
+![B£UT54_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT54/BXUT54_03.png) \* Programma/Azione, deve essere il codice del sottosettore
  \* Parametro, fisso &UG (User group)
 
 In questi casi, che sono quelli consigliati nel modello di installazione TTR, volendo autorizzare ad esempio le azioni della gestione materiali (menù GM) bisogna autorizzare le azioni mettendo nel codice menù da autorizzare "GM" e poi autorizzare l'azione che richiama il menù mettendo nel codice menù da autorizzare "00". **Se si utilizza il campo menù iniziale di riferimento si possono gestire entrambe le autorizzazioni contemporaneamente, nell'esempio di cui sopra metteremo GM nel campo menù da autorizzare e 00 nel campo menù iniziale di riferimento, si presenterà la lista delle azioni presenti nel menù GM e con l'autorizzazione si attiveranno insieme sia le autorizzioni sulle azioni dentro il menù GM sia l'autorizzazione nel menù 00 per l'azione che richiama il menù gestione materiali.

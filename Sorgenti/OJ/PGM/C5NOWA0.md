@@ -4,20 +4,20 @@ Selezionando questa voce di menù si attiva un Set'n Play che, impostando l'azie
 ## Formato guida
 La schermata del formato guida che si apre al lancio della funzione è la seguente : 
 
-![C5BASE_031](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOWA0/C5BASE_031.png)
+![C5BASE_031](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWA0/C5BASE_031.png)
 Al suo intenro è necessario impostare solamente l'azienda.
 
 ## Formato lista
 All'interno dle formato lista sono riportate le registrazioni automatiche attive per l'azienda con i relativi parametri (tipo e causale registrazione automatica generata ed eventuali altri parametri) : 
 
-![C5BASE_022](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOWA0/C5BASE_022.png)
+![C5BASE_022](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWA0/C5BASE_022.png)
 Dal formato lista è possibile visualizzare anche gli elementi della tabella che contengono errori.
 Accedendo alle impostazioni con F17 è possibile richiedere la visualizzazione dei soli errori o l'apertura di un solo gruppo di registrazioni automatiche :  ad esempio, potrei visualizzare solo le registrazioni automatiche relative alla righe di IVA.
 
 ## Formato dettaglio
 E' possibile modificare le registrazioni visualizzate tramite l'opzione 02 messa a inizio riga. In questo modo si entrerà in modifica dell'elemento della C5U : 
 
-![C5BASE_032](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOWA0/C5BASE_032.png)
+![C5BASE_032](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWA0/C5BASE_032.png)
 Si rimanda alla documentazione della tabella per maggiori dettagli circa la compilazione della stessa.
 
 - [C5U - Registrazioni automatiche](Sorgenti/OG/TA/C5U)

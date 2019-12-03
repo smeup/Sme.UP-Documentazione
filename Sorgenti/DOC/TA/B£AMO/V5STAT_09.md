@@ -10,7 +10,7 @@ Le prime 3 righe della statistica sono derivate dal documento V5 :  il tipo ogge
  Il 4° record della statistica è  intestato all'oggetto E4, codice oggetto è il numero di registrazione contabile e rappresenta l'integrazione da contabilità del valore del conto 7003003.
 Poiché il totale della fattura in statistica deve essere congruente, viene scritto un'ulteriore riga di quadratura, intestata all'oggetto generico \*\*, di segno negativo, che riporta il totale al valore corretto.
 
-![V5STAT_010](http://localhost:3000/immagini/V5STAT_09/V5STAT_010.png)E' possibile configurare il modulo statistiche in modo da non effettuare il controllo con i valori contenuti in contabilità, evitando quindi di scrivere record di integrazione e quadratura (vedi il paragrafo CONFIGURAZIONE della presente documentazione)
+![V5STAT_010](http://doc.smeup.com/immagini/V5STAT_09/V5STAT_010.png)E' possibile configurare il modulo statistiche in modo da non effettuare il controllo con i valori contenuti in contabilità, evitando quindi di scrivere record di integrazione e quadratura (vedi il paragrafo CONFIGURAZIONE della presente documentazione)
 
 ## Aggiustamento periodi di competenza
 Per ogni registrazione contabile di ciclo attivo, i programmi di ripresa della statistica eseguono la verifica se è necessario un'aggiustamento per quanto riguarda la data di competenza dei valori registrati, cioè se è necessario cambiare l'esercizio e il periodo di competenza.
@@ -26,4 +26,4 @@ Se necessario, viene operata la redistribuzione dei valori scrivendo 2 record :
 Nell'esempio riportato è stata spostata la competenza della fattura dal mese di marzo 2003 (Periodo 200303) al mese di febbraio (Periodo 200302).
 Sui record scritti dal programma, sulla descrizione dell'oggetto compare la dicitura "RETTIFICA per COMPETENZA".
 
-![V5STAT_011](http://localhost:3000/immagini/V5STAT_09/V5STAT_011.png)
+![V5STAT_011](http://doc.smeup.com/immagini/V5STAT_09/V5STAT_011.png)

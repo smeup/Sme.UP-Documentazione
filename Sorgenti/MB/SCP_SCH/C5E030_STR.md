@@ -2,7 +2,7 @@
 
 Analizzare e gestire la configurazione della contabilità analitica.
 
-![C5E030_012](http://localhost:3000/immagini/MBDOC_SCH-C5E030_STR/C5E030_012.png)
+![C5E030_012](http://doc.smeup.com/immagini/MBDOC_SCH-C5E030_STR/C5E030_012.png)
 ## Parametri di lancio
  \* Conti :  è possibile visualizzare solo i conti attivi per la contabilità analitica oppure l'elenco completo del piano dei conti. In questo secondo caso sarà necessario compilare il campo con 1.
  \* Presenta modello :  se compilato permette di visualizzare anche gli eventuali modelli impostati su un conto.

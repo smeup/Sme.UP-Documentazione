@@ -10,10 +10,10 @@ Quando invece la quantità viene trasferita da un contenitore in una ubicazione/
 Un avanzamento è l'insieme degli eventuali movimenti di giacenza e delle attività di produzione relativi ad uno spostamento di quantità di un contenitore.
 
 ### Formato di lancio
-![P5PMFP_06](http://localhost:3000/immagini/MBDOC_OGG-P_P5MFP15T/P5PMFP_06.png)Dato il contenitore con F6 si ottiene la lista dei suoi avanzamenti
+![P5PMFP_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_P5MFP15T/P5PMFP_06.png)Dato il contenitore con F6 si ottiene la lista dei suoi avanzamenti
 
 ### Formato lista
-![P5PMFP_07](http://localhost:3000/immagini/MBDOC_OGG-P_P5MFP15T/P5PMFP_07.png)Il tipo oggetto indica se si tratta di movimenti di magazzino o attività di produzione. Da notare che eventuali spostamenti da o verso contenitori esterni vengono segnalati.
+![P5PMFP_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_P5MFP15T/P5PMFP_07.png)Il tipo oggetto indica se si tratta di movimenti di magazzino o attività di produzione. Da notare che eventuali spostamenti da o verso contenitori esterni vengono segnalati.
 
 Nella riga corrispondente all'avanzamento si può attivare l'opzione di cancellazione che esegue un roll-back cancellando sia i movimenti che le attività relative all'avanzamento : 
-![P5PMFP_08](http://localhost:3000/immagini/MBDOC_OGG-P_P5MFP15T/P5PMFP_08.png)
+![P5PMFP_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_P5MFP15T/P5PMFP_08.png)

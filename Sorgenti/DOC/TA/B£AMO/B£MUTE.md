@@ -24,7 +24,7 @@ Chiavi della £MDV (salvate sul file MEDAV00F) sono :
 -  __Utente__, che può essere valorizzato con il profilo utente oppure, quando sia tratta di una memorizzazione multipla dove può essere necessario utilizzare più dei 300 bytes disponibili in un record del MEDAV00F, allora si utilizzano 3 record identificati ciascuno da "\*\*nome", "++nome", "--nome" (dove nome è il nome assegnato in fase di salvataggio della memorizzazione multipla);
 -  __Programma__, che normalmente corrisponde al nome del pgm che utilizza la memorizzazione, ma può in realtà contenere anche una stringa qualsiasi che permetta di identificarne l'utilizzo.
 
-![B£MUTE_003](http://localhost:3000/immagini/B£MUTE/BXMUTE_003.png)
+![B£MUTE_003](http://doc.smeup.com/immagini/B£MUTE/BXMUTE_003.png)
 Chiavi della £MDE (salvate sul file B£MEDE0F con il campo METIPO='A20') sono : 
 -  __Utente (MECOD5)__, che può essere valorizzato : 
 - \* con un codice utente (TAB£U)
@@ -42,7 +42,7 @@ Chiavi della £MDE (salvate sul file B£MEDE0F con il campo METIPO='A20') sono :
 - \* quando si tratta di una memorizzazione utente contiene \*LAST
 - \* quando si tratta di una memorizzazione multipla contiene il nome della memorizzazione (in pratica rispetto alla MDV dove avevo nel campo utente, o l'utente o \*\*nome, qui ho un campo per l'utente ed un campo per i nomi)
 
-![B£MUTE_002](http://localhost:3000/immagini/B£MUTE/BXMUTE_002.png)
+![B£MUTE_002](http://doc.smeup.com/immagini/B£MUTE/BXMUTE_002.png)
 Per ulteriodi dettagli si rimanda alla documentazione delle corrispondenti API (£MDV e £MDE).
 
 # Descrizioni e note delle memorizzazioni

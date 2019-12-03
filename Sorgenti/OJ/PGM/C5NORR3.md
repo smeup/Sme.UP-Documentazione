@@ -5,7 +5,7 @@
 ### Impostazioni
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle **Impostazioni** che riportano i seguenti campi : 
 
-![C5D010_027](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR3/C5D010_027.png)
+![C5D010_027](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR3/C5D010_027.png)
 
 - Impostazioni generali :  apre un'altra finestra di impostazioni dove andare a scegliere se forzare o meno la richiesta e se stampare la pagina delle impostazioni.
 - Tipo :  permette di scegliere che tipo di scadenzario visualizzare. Le scelte disponibili sono :  rischio, scadenzario ed esposizione. Nel primo caso saranno visualizzate le sole scadenze in rischio (RiBa di cui si sia già registrato l'incasso ma di cui non si ha ancora la certezza dell'esito), nel secondo caso saranno invece visualizzate le sole partite aperte mentre nell'ultimo caso saranno esposte sia le scadenze in rischio che le partite aperte.
@@ -46,7 +46,7 @@ Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere 
 
 
 All'interno delle impostazioni sono anche disponibili le _memorizzazioni video_ attraverso le quali è possibile salvare una specifica configurazione delle impostazioni : 
-![C5D010_029](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR3/C5D010_029.png)Per accedervi è necessario interrogare con il punto esclamativo il  campo "memorizzazioni" posto in alto nella schermata.
+![C5D010_029](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR3/C5D010_029.png)Per accedervi è necessario interrogare con il punto esclamativo il  campo "memorizzazioni" posto in alto nella schermata.
 Per maggiori dettagli sull'utilizzo delle memorizzazioni video si veda il seguente link : 
 - [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
 
@@ -58,10 +58,10 @@ Da qui in avanti la documentazione farà riferimento al lancio della funzione su
 
 All'interno del formato lista è riportato l'elenco delle scadenze associate all'ente ordinate per data registrazione e per scadenza : 
 
-![C5D010_023](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR3/C5D010_023.png)
+![C5D010_023](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR3/C5D010_023.png)
 I dati riportati variano a seconda delle impostazioni definite dall'utente e possono essere personalizzati in funzione delle esigenze. Il parametro che modifica maggiormente la visualizzazione dello scadenzario è la 'Presentazione'. Nell'immagine riportata sopra vediamo, infatti, uno scadenzario in modalità 'Scadenze' mentre qui in basso è riportato lo stesso scadenzario in modalità ' Partite' : 
 
-![C5D010_032](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR3/C5D010_032.png)
+![C5D010_032](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR3/C5D010_032.png)
 All'interno dello scadenzario per ogni rata sono riportati :  data registrazione, data scadenza, tipologia di pagamento con relativa descrizione, importo e segno della rata, ABI-CAB della banca dell'ente, banca di presentazione aziendale, data e numero documento che ha generato la scadenza, numero protocollo e numero di distinta in cui la rata è inclusa.
 
 In fondo all'elenco delle scadenze è inoltre riportata una sintesi del valore scaduto, a scadere, in rischio e il totale per cui il soggetto risulta esposto.
@@ -70,7 +70,7 @@ In fondo all'elenco delle scadenze è inoltre riportata una sintesi del valore s
 
 Per ogni scadenza sono disponibili le seguenti opzioni : 
 
-![C5D010_024](http://localhost:3000/immagini/MBDOC_OGG-P_C5NORR3/C5D010_024.png)
+![C5D010_024](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORR3/C5D010_024.png)
  :  : I.INC.MBR Lib(SMEDEV) Fil(DOC_OGG) Mem(P_C5NO00G)
 
 

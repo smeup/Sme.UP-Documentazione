@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è aggiornare i tassi bancari utilizzati all'interno delle condizioni di tesoreria
 
-![C5D030_051](http://localhost:3000/immagini/MBDOC_SCH-C5D030_UTB/C5D030_051.png)
+![C5D030_051](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_UTB/C5D030_051.png)
 ## Parametri di lancio
 
  \* Tipo Tasso :  è un campo obbligatorio e riporta il tipo di tasso interbancario (Euribor 1M, Euribor 3M, ecc.). I tipi tassi sono definiti nella tabella C5\*TT

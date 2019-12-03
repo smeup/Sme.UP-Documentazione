@@ -5,7 +5,7 @@ Se si richiedessero migliori esigenze di ritaglio dell'immagine, si può utilizz
 # Componente grafico DEV
 Il componente DEV permette di importare e salvare immagini che sono temporaneamente salvate in memoria (ad esempio uno screenshot ottenuto premendo il pulsante "stamp"), o acquisite attraverso periferiche esterne (ad esempio una webcam).
 
-![LOCFRM_023](http://localhost:3000/immagini/LOCFRM_LTD/LOCFRM_023.png)
+![LOCFRM_023](http://doc.smeup.com/immagini/LOCFRM_LTD/LOCFRM_023.png)
 Per il componente standard è sufficiente scrivere la seguente sintassi : 
  :  : PAR T(Sintassi) F(04)
   :   : G.SUB.DEV Tit="copia/incolla"
@@ -19,19 +19,19 @@ Mentre per il componente con periferica la sintassi è la seguente :
 La bottoniera del componente permette di importare l'immagine in memoria, salvare l'immagine, configurare i dati per la gestione dell'immagine. Una volta importata, l'immagine potrà essere ritagliata, ridimensionata ed elaborata creando etichette, rettangoli, offuscamenti...
 Per ridimensionare l'immagine è sufficiente fare click con il mouse sull'immagine e selezionare la voce ridimensiona dal popup menù.
 
-![LOCFRM_024](http://localhost:3000/immagini/LOCFRM_LTD/LOCFRM_024.png)
+![LOCFRM_024](http://doc.smeup.com/immagini/LOCFRM_LTD/LOCFRM_024.png)
 Per aggiungere etichette, rettangoli... è sufficiente selezionare un'area dell'immagine tenendo premuto il pulsante del mouse.
 
-![LOCFRM_025](http://localhost:3000/immagini/LOCFRM_LTD/LOCFRM_025.png)
+![LOCFRM_025](http://doc.smeup.com/immagini/LOCFRM_LTD/LOCFRM_025.png)
 Al rilascio selezionare l'operazione desiderata ("disegna etichetta" o "disegna rettangolo").
 
-![LOCFRM_026](http://localhost:3000/immagini/LOCFRM_LTD/LOCFRM_026.png)
+![LOCFRM_026](http://doc.smeup.com/immagini/LOCFRM_LTD/LOCFRM_026.png)
 Tenendo premuto il tasto CTRL e cliccando sulla voce del popup menù desiderata è possibile modificare le impostazioni di default (quali il colore dell'oggetto disegnato, il colore di riempimento, il testo, la forma della freccia ...).
 
-![LOCFRM_027](http://localhost:3000/immagini/LOCFRM_LTD/LOCFRM_027.png)
+![LOCFRM_027](http://doc.smeup.com/immagini/LOCFRM_LTD/LOCFRM_027.png)
 Nel caso di dati sensibili da nascondere, è possibile offuscare tali dati disegnando un rettangolo con colore di sfondo impostato come "maschera dati".
 
-![LOCFRM_028](http://localhost:3000/immagini/LOCFRM_LTD/LOCFRM_028.png)
+![LOCFRM_028](http://doc.smeup.com/immagini/LOCFRM_LTD/LOCFRM_028.png)
 Per annullare ogni operazione appena eseguita è sufficiente selezionare la voce "torna indietro" dal popup menù.
 
 # IrfanView (versione 4.20)
@@ -49,7 +49,7 @@ A questo punto, avviando il programma, sarà possibile selezionare la lingua des
 ## Generazione degli screenshot
 Avviare IrfanView e premere il tasto "C" per impostare le proprietà di cattura dello schermo come mostrato in figura ImgRef(IRF1) (oppure selezionare la voce di menù  Opzioni -> Cattura schermo).
 
-![IRFVIEW_01](http://localhost:3000/immagini/LOCFRM_LTD/IRFVIEW_01.png)
+![IRFVIEW_01](http://doc.smeup.com/immagini/LOCFRM_LTD/IRFVIEW_01.png)
 Impostare i seguenti parametri : 
 
 - area da catturare :  finestra in primo piano
@@ -76,14 +76,14 @@ Infine si può elaborare l'immagine aggiungendo testo, frecce (figura ImgRef(IRF
 
 _2_Nota :  è buona norma eliminare i dati sensibili dell'immagine (come ad esempio nome utente o informazioni riservate) coprendoli con rettangoli colorati
 
-![IRFVIEW_02](http://localhost:3000/immagini/LOCFRM_LTD/IRFVIEW_02.png)
+![IRFVIEW_02](http://doc.smeup.com/immagini/LOCFRM_LTD/IRFVIEW_02.png)
 E' possibile unire più immagini nel seguente modo (figura ImgRef(IRF3)) : 
 
 - selezionare la voce di menù immagine -> crea un'immagine panoramica...
 - premere sul pulsante "aggiungi immagini"
 - infine premere sul pulsante "crea immagine"
 
-![IRFVIEW_03](http://localhost:3000/immagini/LOCFRM_LTD/IRFVIEW_03.png)
+![IRFVIEW_03](http://doc.smeup.com/immagini/LOCFRM_LTD/IRFVIEW_03.png)
 Per spostare un'immagine o una porzione di immagine è sufficiente : 
 
 - selezionare l'immagine con lo strumento puntatore
@@ -92,7 +92,7 @@ Per spostare un'immagine o una porzione di immagine è sufficiente :
 - incollare l'immagine premendo CTRL+V
 _2_Nota :  poichè l'immagine verrà incollata nell'area di destinazione con le dimensioni riadattate, per mantenere le proporzioni è buona norma utilizzare la stessa area di selezione usata per copiare l'immagine spostandola semplicemente nella posizione di destinazione desiderata premendo il tasto destro del mouse (figura ImgRef(IRF4)).
 
-![IRFVIEW_04](http://localhost:3000/immagini/LOCFRM_LTD/IRFVIEW_04.png)ImgRef(IRF4)
+![IRFVIEW_04](http://doc.smeup.com/immagini/LOCFRM_LTD/IRFVIEW_04.png)ImgRef(IRF4)
 
 # Dove si salvano le immagini e come si denominano
 Le immagini devono essere salvate in formato png, che, oltre ad essere leggero rispetto ad altri, mantiene nitide le immagini nei ridimensionamenti.

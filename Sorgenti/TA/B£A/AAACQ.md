@@ -11,7 +11,7 @@ In un'azienda gli approvvigionamenti sono al centro di un gruppo di processi che
  \* il risultato è il monitoraggio costrante della fornitura stessa ed in particolare delle attività conseguenti al ricevimento della fornitura effettiva dei beni e servizi, con il collegamento alla qualità per la verifica quantitativa e qualitativa, o la dichiarazione di approvazione del servizio reso, e la destinazione logistica della merce ricevuta. L'esecuzione della  fornitura si sviluppa ulteriormente nel controllo della "validità" della fornitura, con possibili esiti di accettazione (ok al pagamento, e conseguente registrazione contabile) o di contestazione nei confronti del fornitore che può dar luogo alla restituzione dei beni, ed eventuale blocco della fattura con richiesta di una nota di credito.
  \* i processi vengono monitorati attraverso statistiche ed analisi che comprendono tutta la reportistica e gli strumenti associati al controllo dell'attività dei fornitori, alla misurazione della performance della funzione, alla pianificazione delle attività (portafoglio ordini, fatturato, vendor rating, analisi prezzi medi, budget di acquisto, ecc..).
 
-![AAP_ACQ_01](http://localhost:3000/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_01.png)
+![AAP_ACQ_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_01.png)
 # Copertura funzionale
 Sme.UP ha le applicazioni che possono supportare tutte le necessità di gestione relative alla funzione degli Approvvigionamenti : 
  \* Gestione anagrafico fornitori
@@ -50,7 +50,7 @@ Dal punto di vista degli Approvvigionamenti nell'anagrafico fornitori vengono ge
  \* classificazioni :  categoria contabile, classe abilitazione, settore merceologico, ecc...
  \* dati movimentazione merce :  consegna, spedizione, giorni chiusura, ecc...
 
-![AAP_ACQ_01](http://localhost:3000/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_01.png)
+![AAP_ACQ_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_01.png)
 Nelle estensioni dei fornitori possiamo gestire altre categorie di informazioni quali :  lettere di esenzione, calendario alternativo, piani / livelli di campionamento forzati, documenti / allegati specifici, persone da contattare, indirizzi internet. Questi dati possono essere presenti o meno per ogni fornitore, inoltre possono essere un numero anche elevato a piacere per tipo superando la classica limitazione del numero di campi disponibile in un normale archivio anagrafico.
 Attraverso la gestione dei dati fornitore/articolo è possibile mantenere informazioni specifiche per gli articoli acquistabili presso un fornitore (la percentuale di assegnazione, il codice e la descrizione propria che il fornitore assegna all'articolo, l'unità di misura di acquisto che potrebbe differire rispetto a quella utilizzata internamente, la quantità minima di acquisto, ecc.. ).
 In Sme.UP è anche prevista le gestione delle dichiarazioni d'intento, che possono essere emesse verso i fornitori e possono essere di tipo : 
@@ -80,7 +80,7 @@ In Sme.UP l'ordine viene gestito con il "documento", che è costituito da una te
  \* la testata è dedicata alla gestione dei dati relativi alla totalità del documento (numero documento, fornitore intestatario, riferimento esterno, buyer, data di emissione, modalità di fornitura, modalità di pagamento, ecc..)
  \* le righe rappresentano l'oggetto dello scambio (articoli, servizi, materiali non codificati, ...) e indicano le quantità, le date ed i prezzi convenuti.
 
-![AAP_ACQ_02](http://localhost:3000/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_02.png)
+![AAP_ACQ_02](http://doc.smeup.com/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_02.png)
 ### Tipizzazione
 I documenti sono classificati secondo il "Tipo documento" che ne definisce la natura (un ordine, un contratto, una bolla, ecc...) e le caratteristiche di comportamento (controlli, sviluppi, influenza sui vari portafogli o registri, ..).
 
@@ -95,10 +95,10 @@ Il documento può rappresentare ad esempio :
  \* un benestare per servizio reso
  \* ...
 
-![AAP_ACQ_03](http://localhost:3000/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_03.png)
+![AAP_ACQ_03](http://doc.smeup.com/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_03.png)
 Per ogni tipo documento diverso è possibile ottenere opportune statistiche e interrogazioni, produrre stampe, gestire manutenzioni. All'interno di un tipo documento le testate possono essere differenziate attraverso il "Modello documento" che rappresenta delle sotto-classificazioni necessarie per ragioni statistiche o di processo (es. acquisti nazionali piuttosto che CEE o ExtraCEE, oppure acquisti materiali per produzione o acquisti di servizi), il modello determina il tipo ed il layout di stampa del modulo di output. Nel documento (e di conseguenza all'interno di uno specifico tipo documento) anche le righe sono ulteriormente caratterizzate da un tipo riga che definisce :  l'oggetto dello scambio, se quantità e/o prezzi sono obbligatori, quali sono le informazioni aggiuntive contenute ed i controlli da eseguire. Potremo quindi avere righe riferite ad articoli codificati, righe di oggetti non codificati, righe di conto lavoro, righe fatturabili e non, ecc...
 
-![AAP_VAP_11](http://localhost:3000/immagini/MBDOC_VIS-AAACQ/AAP_VAP_11.png)
+![AAP_VAP_11](http://doc.smeup.com/immagini/MBDOC_VIS-AAACQ/AAP_VAP_11.png)
 ## Conto lavoro
 Il conto lavoro può essere : 
  \* pieno, quando l'intera lavorazione o trasformazione viene eseguita da un solo terzista
@@ -121,7 +121,7 @@ Sia gli acquisti che il conto lavoro possono essere triangolati direttamente ver
 ## Esecuzione della fornitura
 Principalmente si parla di entrate merci. In Sme.UP l'entrata merci viene processata attraverso un flusso di estrazione che deriva il documento di entrata merci dagli ordini di acquisto a cui la fornitura è riferita. Il flusso permette di lanciare in sequenza una serie di elaborazioni elementari ciascuna specializzata a compiere una parte dell'intero processo; in questo modo si possono sviluppare funzioni specifiche utente da inserire nel flusso insieme alle funzioni standard. La combinazione delle funzioni elementari standard, con l'aggiunta eventuale di funzioni utente, permette di realizzare elaborazioni complesse che rispondono a qualsiasi esigenza possa nascere. L'esecuzione della fornitura si collega con le attività logistiche di trasferimento del materiale ricevuto. In questo ambito si possono avere comportamenti diversificati, per tipologia di materiale o per necessità produttive. Ad esempio si possono destinare materiali urgenti direttamente in linea.
 
-![AAP_ACQ_04](http://localhost:3000/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_04.png)
+![AAP_ACQ_04](http://doc.smeup.com/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_04.png)
 ## Controllo qualità in accettazione
 L'entrata merci attiva il controllo di qualità in accettazione, se il lotto non viene accettato viene generata una non conformità. Le non conformità in accettazione entrano nella valutazione globale del fornitore. I lotti non accettati possono essere restituiti al fornitore attraverso dei flussi di restituzione che generano una bolla di invio al fornitore a partire dalla bolla entrata merci. La bolla di restituzione può dar luogo alla riapertura dell'ordine di acquisto oppure ad una "attesa nota di credito" da parte del fornitore. Tra le opzioni possibili c'è anche la generazione di una nota di debito da spedire al fornitore.
 
@@ -131,7 +131,7 @@ Il controllo fatture si collega ai documenti di entrata merci ed ai documenti di
 ## Statistiche Schede Looc.UP
 Sono disponibili dei servizi per la visualizzazione in Looc.UP dei portafogli ordini e del fatturato passivo, mentre nella scheda fornitore possiamo avere la sintesi degli articoli forniti e del prezzo medio, nel periodo e negli anni precedenti.
 
-![V5STAT_080](http://localhost:3000/immagini/MBDOC_VIS-AAACQ/V5STAT_080.png)
+![V5STAT_080](http://doc.smeup.com/immagini/MBDOC_VIS-AAACQ/V5STAT_080.png)
 ## Analisi entrate merce
 Dato un periodo, si confrontano i prezzi effettivi delle entrate merci con i listini di acquisto, si può anche calcolare il prezzo medio e con questo aggiornare un particolare tipo costo dell'articolo oppure utilizzarlo nella valorizzazione delle rimanenze di magazzino.
 
@@ -175,7 +175,7 @@ Così abbiamo ad esempio :
  \* il documento, grazie alla tipizzazione della testata (caratterizzata dal tipo documento e modello) e delle righe (caratterizzate dal tipo riga), permette di rappresentare una grande varietà di condizioni. Ad esempio il documento può essere un ordine di acquisto o una bolla entrata merce, come pure una bolla invio in conto lavoro o una previsione di vendita, ecc... Nelle righe possiamo avere sia articoli che oggetti non codificati (es. servizi, cespiti, immobili, ...).
  \* i flussi di estrazione, che permettono di creare un documento per derivazione, parziale o totale, da un altro documento origine. Possiamo avere flussi per estrarre delle bolle entrata merci da un ordine di acquisto, come estrazioni di richieste di consegna da contratti, oppure ordini da previsioni, e così via ...
 
-![AAP_ACQ_05](http://localhost:3000/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_05.png)
+![AAP_ACQ_05](http://doc.smeup.com/immagini/MBDOC_VIS-AAACQ/AAP_ACQ_05.png)
  \* i listini :  che permettono di associare prezzi e sconti ad una terna di oggetti variabili definiti nelle tabelle di impostazioni (fornitori, clienti, articoli, classi materiale, fasi di lavorazione ecc...)
  \* il budget di acquisto, basato su un'applicazione che a fronte di una coppia di oggetti (es. articolo, fornitore, classe merceologica, ecc...) può gestire piani di 120 periodi con ampiezza variabile di giorni, settimane, mesi, anche mista nello stesso piano in cui si possono esprimere le quantità oppure i valori ed i valori possono essere valorizzati a costi standard o a prezzi di listino, usando listini effettivi o eventuali listini di simulazione ...
 

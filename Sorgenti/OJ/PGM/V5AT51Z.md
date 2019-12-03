@@ -9,4 +9,4 @@ Se il campo BTFL01 gestito dai programmi di costruzione è valorizzato e sulla r
  \* L'UdM nel campo BTCD20
 
 ## Formato video
-![P5PMFP_53](http://localhost:3000/immagini/MBDOC_OGG-P_V5AT51Z/P5PMFP_53.png)
+![P5PMFP_53](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5AT51Z/P5PMFP_53.png)

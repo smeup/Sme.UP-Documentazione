@@ -18,4 +18,4 @@
  \* MAN       Manutenzione
  \*\* LIS       da Lista
 ## Formato video
-![TSTC£A_01](http://localhost:3000/immagini/MBDOC_OGG-P_TSTC£A/TSTCXA_01.png)
+![TSTC£A_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_TSTC£A/TSTCXA_01.png)

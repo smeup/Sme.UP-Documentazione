@@ -2,11 +2,11 @@
 Gestione dei corsi e dei partecipanti al corso.
 
 ## Formato guida
-![CQ_PERS_02](http://localhost:3000/immagini/MBDOC_OGG-P_CQGP21/CQ_PERS_02.png)
+![CQ_PERS_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP21/CQ_PERS_02.png)
 ## Formato Lista
-![CQ_PERS_03](http://localhost:3000/immagini/MBDOC_OGG-P_CQGP21/CQ_PERS_03.png)
+![CQ_PERS_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP21/CQ_PERS_03.png)
 ## Formato dettaglio
-![CQ_PERS_04](http://localhost:3000/immagini/MBDOC_OGG-P_CQGP21/CQ_PERS_04.png)
+![CQ_PERS_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP21/CQ_PERS_04.png)
  \* _2_Titolo del Corso, è un campo non controllato che permette di specificare il titolo del corso.
  \* _2_Edizione del corso, è un campo che è utilizzato per immettere nuove edizioni dei corsi.
  \* _2_Data corso, è un campo che richiede caratteri numerici, identifica la data effettiva del corso.
@@ -27,4 +27,4 @@ Gestione dei corsi e dei partecipanti al corso.
  \* _2_Partecipanti al corso, mettendo una 'x' in questo campo, se sono state iscritte delle persone al corso tramite il modulo "Attribuzione Corsi a Dipendente", viene visualizzato l'elenco dei partecipanti
 
 ### Formato elenco partecipanti
-![CQ_PERS_05](http://localhost:3000/immagini/MBDOC_OGG-P_CQGP21/CQ_PERS_05.png)
+![CQ_PERS_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP21/CQ_PERS_05.png)

@@ -2,13 +2,13 @@
 Interrogare gli indici statici, modificarli e confrontarli con indici di livello superiore
 
 ## Formato guida
-![CQ_VEND_13](http://localhost:3000/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_13.png)
+![CQ_VEND_13](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_13.png)
 Compilando uno o una coppia dei campi di input il programma presenta la lista degli indici corrispondenti, se tutti i campi sono bianchi viene presentata la lista completa : 
 
 ## Formato lista
-![CQ_VEND_14](http://localhost:3000/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_14.png)
+![CQ_VEND_14](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_14.png)
 ## Formato dettaglio indice
-![CQ_VEND_15](http://localhost:3000/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_15.png)Ogni riga di questo elenco corrisponde ad un indice statico utilizzato nel calcolo dell'indice complessivo (nel caso dell'esempio è IVVG ma potrebbe essere qualsiasi altro indice). Il programma in sostanza elenca tutti gli indici statici che appartengono all'architettura dell'indice globale ed accanto ad ogni indice statico riporta il peso ad esso attribuito e la corrispondente valutazione (sono visualizzati anche i codici dei sottosettori delle tabelle degli indici e delle valutazioni).
+![CQ_VEND_15](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_15.png)Ogni riga di questo elenco corrisponde ad un indice statico utilizzato nel calcolo dell'indice complessivo (nel caso dell'esempio è IVVG ma potrebbe essere qualsiasi altro indice). Il programma in sostanza elenca tutti gli indici statici che appartengono all'architettura dell'indice globale ed accanto ad ogni indice statico riporta il peso ad esso attribuito e la corrispondente valutazione (sono visualizzati anche i codici dei sottosettori delle tabelle degli indici e delle valutazioni).
 
 Nella colonna "?" vengono visualizate le varie valutazioni, se si è entrato in modifica si possono anche modificare, viene richiesta anche la data della valotazione, con F21 si può impostare la data odierna.
 
@@ -31,8 +31,8 @@ Il programma prevede la possibilità di assegnare automaticamente i valori del l
 ### Confronti tra livelli
 Si possono anche eseguire confronti tra i diversi livelli, in altre parole è possibile vedere come il livello di qualità di un fornitore per un dato articolo si discosta dal profilo del generico fornitore oppure dalla valutazione complessiva attribuita in generale a quel fornitore.
 Basta indicare la colonna con la quale si vuole eseguire il confronto con un carattere di spunta.
-![CQ_VEND_16](http://localhost:3000/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_16.png)
+![CQ_VEND_16](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_16.png)
 Visualizzazione del confronto
-![CQ_VEND_17](http://localhost:3000/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_17.png)
+![CQ_VEND_17](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_17.png)
 Riassumiamo quanto visto sul modulo di "Gestione degli Indici Statici della Qualità"  tramite il seguente schema : 
-![CQ_VEND_18](http://localhost:3000/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_18.png)
+![CQ_VEND_18](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR70/CQ_VEND_18.png)

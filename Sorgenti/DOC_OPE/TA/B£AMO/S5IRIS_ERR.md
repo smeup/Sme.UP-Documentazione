@@ -12,7 +12,7 @@ In questa matrice gli oggetti coinvolti sono "oggettizzati", è quindi possibile
 
 Nel seguente esempio, gli errori sono dovuti ad un filtro errato sulle risorse secondarie dell'ordine di produzione, Cliccando sul codice dell'ordine, si può passare alla sua scheda, e da essa alla gestione delle risorse secondarie. Dopo aver eseguite le modifiche, si torna a questa scheda, e da essa alla scheda base,  dalla quale è possibile lanciare una nuova schedulazione con i dati corretti.
 
-![FIG_058](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_ERR/FIG_058.png)
+![FIG_058](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_ERR/FIG_058.png)
 Gli errori bloccanti controllati sono i seguenti : 
 -  riempimento delle memorie (numero massimo di impegni risorse, di alternative, di dettagli)
 -  assenza della risorsa principale definita nel ciclo, oppure di una risorsa specifica definita nel filtro delle risorse secondarie

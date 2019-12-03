@@ -26,15 +26,15 @@ Avviare la sessione di emulazione, poi selezionare la voce di menù Comunicazion
 
 Si aprirà la finestra di dialogo riportata di seguito, cliccare sul pulsante Proprietà : 
 
-![LOBASE_163](http://localhost:3000/immagini/MBDOC_OPE-LOSSON_50C/LOBASE_163.png)
+![LOBASE_163](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50C/LOBASE_163.png)
 Selezionare nella combo "Informazioni di accesso ID utente", la voce "Utilizza nome principal kerberos, senza richiesta", come nella figura seguente : 
 
-![LOBASE_164](http://localhost:3000/immagini/MBDOC_OPE-LOSSON_50C/LOBASE_164.png)
+![LOBASE_164](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50C/LOBASE_164.png)
 Confermare con il pulsante OK e poi ancora OK.
 
 Verrà chiesta conferma per la disconnessione : 
 
-![LOBASE_165](http://localhost:3000/immagini/MBDOC_OPE-LOSSON_50C/LOBASE_165.png)
+![LOBASE_165](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50C/LOBASE_165.png)
 Confermare anche questa richiesta.
 
 Se i prerequisiti sono soddisfatti, comparirà la videata con la scelta degli ambienti (se multipli), oppure si accederà al menù applicativo.
@@ -49,7 +49,7 @@ Per configurare una nuova connessione, avviare il programma "Avvio o configurazi
 
 Nella seguente finestra di dialogo, selezionare "Nuova sessione" e procedere poi come nel caso di modifica di una sessione esistente.
 
-![LOBASE_166](http://localhost:3000/immagini/MBDOC_OPE-LOSSON_50C/LOBASE_166.png)
+![LOBASE_166](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50C/LOBASE_166.png)
 La connessione in SSO utilizzerà l'utente ISeries associato al profilo di windows.
 La seconda utilizzerà l'utente indicato.
 

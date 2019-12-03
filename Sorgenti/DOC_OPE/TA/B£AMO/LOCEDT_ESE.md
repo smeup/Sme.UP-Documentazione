@@ -212,7 +212,7 @@ specifiche e qualsiasi altro tipo di documento che la realtà aziendale necessit
 unico formato video che presenta una serie di opzioni disponibili all'utente, consentendo a diversi utenti di effettuare solo le operazioni per cui sono abilitati.
 
 ## Formato video guida
-![CQDOCU_02](http://localhost:3000/immagini/MBDOC_OPE-LOCEDT_ESE/CQDOCU_02.png)
+![CQDOCU_02](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEDT_ESE/CQDOCU_02.png)
 Le opzioni disponibili sono : 
  \* 01 Aggiunta :  per immettere un nuovo documento;
  \* 02 Modifica :  per modificare, approvare, rilasciare e distribuire un documento;
@@ -226,7 +226,7 @@ Il tipo documento suddetto può anche essere precisato prima ancora di entrare n
 Con questa possibilità la gestione sarà personalizzata in funzione di quel tipo di documento senza però poter modificarne il tipo fino al termine dell'applicazione.
 
 ## Formato video dettaglio
-![CQDOCU_03](http://localhost:3000/immagini/MBDOC_OPE-LOCEDT_ESE/CQDOCU_03.png)
+![CQDOCU_03](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEDT_ESE/CQDOCU_03.png)
 ### Note particolari
 L'opzione di modifica permette di effettuare una molteplicità di operazioni : 
  \* modificare la parte relativa all'immissione

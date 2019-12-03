@@ -1,7 +1,7 @@
 ## Obiettivo
 Analizzare lo scadenzario aziendale attivo e/o passivo
 
-![C5D010_064](http://localhost:3000/immagini/MBDOC_SCH-C5SER_21/C5D010_064.png)
+![C5D010_064](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_21/C5D010_064.png)
 ## Parametri di lancio
  \* Codice oggetto :  in funzione dell'oggetto scelto all'interno del surf in questo campo sarà necessario indicare il codice cliente, la lista clienti, il codice fornitore, ecc. da analizzare
  \* Forma :  permette di visualizzare il dettaglio delle scadenze (campo blank) oppure di visualizzarne una sintesi (campo impostato a 1)
@@ -40,9 +40,9 @@ Analizzare lo scadenzario aziendale attivo e/o passivo
 ## Dettaglio informazioni
 Nel caso in cui si stia analizzando lo scadenzario in forma Dettaglio verranno esposte le scadenze che rispettano i parametri impostati.
 Per le rate scadute la data scadenza è evidenziata in azzurro mentre per quelle in rischio è evidenziata in rosso : 
-![C5D010_058](http://localhost:3000/immagini/MBDOC_SCH-C5SER_21/C5D010_058.png)
+![C5D010_058](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_21/C5D010_058.png)
 Nel caso in cui si stia analizzando lo scadenzario in forma di Sintesi verrà presentato l'ageing di ogni voce di sintesi (quindi potrei avere l'ageing dei clienti, delle banche, delle tipologie di pagamento, ecc.) : 
-![C5D010_059](http://localhost:3000/immagini/MBDOC_SCH-C5SER_21/C5D010_059.png)Si ricorda che all'interno della sintesi cliccando con il tasto destro del mouse all'interno di ogni cella e scegliendo la voce _Dettaglio_ è possibile visualizzare il dettaglio delle scadenze che compongono il valore.
+![C5D010_059](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_21/C5D010_059.png)Si ricorda che all'interno della sintesi cliccando con il tasto destro del mouse all'interno di ogni cella e scegliendo la voce _Dettaglio_ è possibile visualizzare il dettaglio delle scadenze che compongono il valore.
 Si sottolinea, inoltre, che le scadenze in rischio compaiono sempre come 'A scadere' e non come 'Scadute' anche se la data scadenza è tra quelle scadute.
 
 ### Specificità per Account
@@ -52,5 +52,5 @@ Nel caso in cui, inoltre, i nominativi siano gestiti a livello di gruppo azienda
 I record relativi alle aziende diverse da quella a cui l'utente è collegato compariranno in bianco e su questi non sarà possibile eseguire alcuna funzione.
 Quindi se ad esempio siamo collegati all'interno dell'azienda 10 e il nominativo ha scadenze aperte anche per le aziende 02 e 15, queste scadenze verranno esposte ma non saranno manutenibili : 
 
-![C5D010_063](http://localhost:3000/immagini/MBDOC_SCH-C5SER_21/C5D010_063.png)
+![C5D010_063](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_21/C5D010_063.png)
 Per disabilitare la visualizzazione delle scadenze di un'azienda sarà necessario definire l'autorizzazione AZ impostando nella classe il codice dell'azienda da nascondere e il valore dell'autorizzazione a NO.

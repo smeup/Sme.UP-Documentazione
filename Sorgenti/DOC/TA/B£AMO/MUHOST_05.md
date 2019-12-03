@@ -11,7 +11,7 @@ Nella seguente figura viene mostrata una delle possibili architetture costruite 
 particolare, questa è l'architettura consigliata nel caso si voglia costruire un sistema che consenta la scalabilità
 prestazionale.
 
-![MUHOST_05A](http://localhost:3000/immagini/MUHOST_05/MUHOST_05A.png)
+![MUHOST_05A](http://doc.smeup.com/immagini/MUHOST_05/MUHOST_05A.png)
 Legenda macchine : 
 
 

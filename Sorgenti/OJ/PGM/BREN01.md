@@ -15,7 +15,7 @@ Ciascuna di queste diverse tipologie di ente è caratterizzata dal _2_Tipo ente.
 
 Selezionando la voce di Gestione anagrafica verrà aperta le seguente schermata in cui è necessario indicare il codice dell'ente che si vuole gestire e la relativa opzione : 
 
-![BRENTI_013](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/BRENTI_013.png)
+![BRENTI_013](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/BRENTI_013.png)
 In particolare, le opzioni disponibili sono : 
  \* 01 - Inserimento
  \* 02 - Modifica
@@ -30,11 +30,11 @@ La scelta del codice ente potrà essere effettuata utilizzando i classici caratt
 
 Dal formato guida è possibile accedere alle parzializzazioni tramite il tasto F13 o digitando il relativo bottone : 
 
-![BRENTI_023](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/BRENTI_023.png)
+![BRENTI_023](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/BRENTI_023.png)
 Attraverso le parzializzazioni è possibile filtrare la lista di enti restituita dall'interrogazione. Sono presenti due schermate di campi attraverso cui è possibile filtrare la lista :  in particolare nella prima schermata è possibile indicare l'ordinamento dei record, lo schema di visualizzazione e filtrare sui principali campi dell'anagrafica enti. Nella parte inferiore della schermata è possibile eseguire una scansione del codice o della descrizione dell'ente. Questa funzione è particolarmente utile nel caso in cui si conosca solo una parte della descrizione o del codice dell'ente ma non si sappia in che posizione si trovi la parte conosciuta. Ipotizziamo ad esempio di voler visualizzare tutti i clienti che abbiano all'interno della descrizione "Avvocato" allora potremo compilar eil campo Scansione Descrizione con \*Avvocato\*.
 Dalla prima schermata delle parzializzazioni digitando nuovamente F13 si accede alla seconda schermata delle parzializzazioni attraverso cui è possibile filtrare su altri campi : 
 
-![BRENTI_024](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/BRENTI_024.png)
+![BRENTI_024](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/BRENTI_024.png)
 Nel caso in cui venga spesso eseguito uno stesso filtro sui record del formato lista è possibile memorizzare il filtro stesso attraverso le Memorizzazioni.
 
 Per maggiori dettagli sulle parzializzazioni e sulle memorizzazioni si rimanda alla seguente documentazione : 
@@ -43,7 +43,7 @@ Per maggiori dettagli sulle parzializzazioni e sulle memorizzazioni si rimanda a
 
 ## Formato dettaglio
 Il formato di dettaglio che si presenta è il seguente : 
-![BRENTI_014](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/BRENTI_014.png)
+![BRENTI_014](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/BRENTI_014.png)
 Entrando nell'anagrafico dell'ente selezionato è possibile vedere che le voci sono raggruppate per informazioni contenute. In particolare è possibile visualizzare le seguenti macroclassi :  dati identificativi, livello e stato, dati ambientali, dati di contatto, dati fiscali, dati di incasso/pagamento, dati di spedizione, dati di classificazione, dati di fatturazione, dati di movimentazione merce, dati provvigionali e dati aggiuntivi. Vediamo le principali voci che compongo questi gruppi.
 
  \* Dati identificativi. Sono le caratteristiche identificative dell'ente :  ragione sociale, partita IVA, codice fiscale e rapporto fiscale. in particolare, questo ultimo campo permette di distinguere i percipienti dai non percipienti e le persone fisiche da quelle giuridiche.
@@ -61,7 +61,7 @@ Tutti i campi dell'anagrafica sono sottoposti ad autorizzazione, di conseguenza,
 ### Informazioni particolari - dati relazionali
 
 Nei dati relazionali possono essere indicati eventuali enti che sono in relazione con quello in gestione : 
-![BRENTI_015](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/BRENTI_015.png)
+![BRENTI_015](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/BRENTI_015.png)
 I campi si compilano solo quando le funzioni a cui sono relativi vengono svolte da altri codici
  \* _2_Ente di spedizione, viene utilizzato nel caso all'ente in gestione sia associato uno ed un solo indirizzo di spedizione (quando possono esistere diversi indirizzi di spedizione merce si passa alla gestione dei dati aggiuntivi ente)
  \* _2_Ente di contabilizzazione, identifica il codice da utilizzare quando si passa alla contabilizzazione dei documenti relativi a questo ente
@@ -73,10 +73,10 @@ Questi vari codici ente vengono utilizzati nella gestione dei documenti, tipica 
 
 ## Particolarità - Attivazione nuova gestione azioni
 Quando è stata sviluppata l'applicazione "Workflow" è nata la necessità di gestire determinati oggetti da parte del workflow e quindi i normali programmi di gestione potevano avere comportamenti contrastanti rispetto al processo disegnato con il workflow (es. se viene messa sotto workflow l'anagrafica clienti il processo potrebbe decidere che solo l'utente che ha iniziato la creazione è autorizzato alla modifica delle descrizione, questo potrebbe contrastare la gestione autorizzazioni per la quale tutti gli utenti autorizzati possono modificare la descrizione indipendentemente da quale utente abbia creato il codice). Per omogeneizzare le necessità del workflow e quelle della gestione anagrafica degli oggetti si è sviluppata una nuova modalità di gestione azioni che passa da un unico programma di lancio e poi agisce differentemente a seconda dell'oggetto da gestire. Se questa nuova gestione è attivata il formato guida si presenta con una forma leggermente diversa : 
-![BRENTI_016](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/BRENTI_016.png)
+![BRENTI_016](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/BRENTI_016.png)
 # Particolarità - Attivazione nuova gestione enti
 La gestione enti ha avuto nell'ultimo periodo una evoluzione verso una gestione enti multiaziendale (lo stesso anagrafico è utilizzato da varie aziende e può essere visto a seconda dell'azienda sotto ruoli diversi es. fornitore per un'azienda e cliente per un'altra). Se attiva questa gestione nasce la necessità di configurare il formato gestione dati a seconda dell'azienda e della funzione che deve visualizzare o gestire le informazioni associate all'ente, è stato quindi sviluppato un nuovo programma in grado di gestire il data entry configurabile : 
-![BRENTI_017](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/BRENTI_017.png)
+![BRENTI_017](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/BRENTI_017.png)
 ## Gestioni specifiche
 A seconda che si utilizzi questa funzione per gestire un fornitore, un cliente o una banca si dovranno seguire delle regole e gestire delle informazioni specifiche, di seguito riportiamo le più significative.
 
@@ -84,16 +84,16 @@ A seconda che si utilizzi questa funzione per gestire un fornitore, un cliente o
 La contabilità è _2_multiaziendale; ciò significa che un singolo utente può agire alternativamente su un'azienda e successivamente su un'altra semplicemente modificando il campo 'Azienda' compilato al lancio delle funzioni.
 
 La voce di menù relativa all'anagrafica aziendale, si trova tra i "Dati base" sotto la voce 'Azienda'.
-![C5BASE_001](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/C5BASE_001.png)Da questa schermata è possibile accedere alla gestione dell'anagrafica azienda, che essendo vista come un ente viene gestita dal file BRENTI0F.
+![C5BASE_001](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/C5BASE_001.png)Da questa schermata è possibile accedere alla gestione dell'anagrafica azienda, che essendo vista come un ente viene gestita dal file BRENTI0F.
 In questo file infatti, vengono definiti tutti gli enti (cioè banche, clienti, fornitori, collaboratori, ecc).
 
 All'interno del formato guida è possibile selezionare l'azione che si vuole eseguire, l'azienda e la prospettiva, ovvero la sezione di anagrafica che si vuole visualizzare : 
 
-![C5BASE_002](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/C5BASE_002.png)
-![C5BASE_003](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/C5BASE_003.png)
+![C5BASE_002](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/C5BASE_002.png)
+![C5BASE_003](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/C5BASE_003.png)
 Dopo aver scelto i parametri di visualizzazione si aprirà la schermata relativa all'anagrafica dell'azienda scelta : 
 
-![C5BASE_004](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/C5BASE_004.png)
+![C5BASE_004](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/C5BASE_004.png)
 I dati obbligatori sono :  la ragione sociale, la partita IVA e il rapporto fiscale (persona giuridica, fisica, ecc...).
 Oltre a questi è possibile inserire altre informazioni : 
 
@@ -111,10 +111,10 @@ Oltre a questi è possibile inserire altre informazioni :
 
 ### Parametri fissi azienda (Dati base - Contabilità)
 
-![C5BASE_006](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/C5BASE_006.png)
+![C5BASE_006](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/C5BASE_006.png)
 In tutto Sme.UP è possibile associare ad ogni oggetto dei parametri che vannoaggiungere dettegli, informazioni ulteriori all'oggetto. Per l'azienda questi parametri assumono particolare importanza, per questo sono riportati all'interno del menù della contabilità sotto la voce 'Parametri fissi' : 
 
-![C5BASE_007](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/C5BASE_007.png)
+![C5BASE_007](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/C5BASE_007.png)
 Le informazioni sono divise in categorie :  Dati generali, Dati IVA, Dati giornale, Identificazione, Concessioni, Fonti fisse ADF, Cespiti, Varie.
 
 Analizzeremo qui di seguito alcuni dei campi principali di questa schermata : 
@@ -162,8 +162,8 @@ Sotto questa voce vengono riportati diversi parametri relativi all'azienda come 
 ### Gestione banche
 Attraverso questa voce di menù è possibile gestire l'anagrafica banche : 
 
-![C5BASE_017](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/C5BASE_017.png)
+![C5BASE_017](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/C5BASE_017.png)
 Nella schermata che si  apre alla richiesta da parte dell'utente è necessario selezionare l'azione da eseguire e il codice della banca. In Sme.UP la banche sono codificate tramite il loro codice ABI- CAB che consente di identificarle in modo univoco; di conseguenza, nel caso in cui si abbia la necessità di inserire una nuova banca la si deve identificare con i suoi codici ABI-CAB.
 
-![C5BASE_018](http://localhost:3000/immagini/MBDOC_OGG-P_BREN01/C5BASE_018.png)
+![C5BASE_018](http://doc.smeup.com/immagini/MBDOC_OGG-P_BREN01/C5BASE_018.png)
 una volta selezionata l'azione da eseguire e la banca è possibile confermare e, quindi, visualizzare l'anagrafica della banca per completarla.

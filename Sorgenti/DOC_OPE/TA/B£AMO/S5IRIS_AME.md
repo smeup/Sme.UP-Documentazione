@@ -4,7 +4,7 @@ Cliccando su una linguetta si presenta, nella sezione a sinistra, lo sviluppo de
 
 Nell'esempio seguente, è stata selezionalta la linguetta "Dettagli" e successivamente è stato selezionato il puntatore .00008, il cui sviluppo appare nella parte destra. Si noti che in questa sezione sono presenti altri puntatori (gruppo, impegno, alternative, risorse) :  cliccando uno di questi valori in questa sezione apparirà lo sviluppo di questo elemento.
 
-![FIG_061](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AME/FIG_061.png)
+![FIG_061](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AME/FIG_061.png)
 Una linguetta particolare è "Statistiche" che fa passare alla presentazione delle informazioni generali della schedulazione :  riempimento delle memorie e altri numeri significativi.
 
-![FIG_062](http://localhost:3000/immagini/MBDOC_OPE-S5IRIS_AME/FIG_062.png)
+![FIG_062](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_AME/FIG_062.png)

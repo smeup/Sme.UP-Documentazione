@@ -13,7 +13,7 @@ Quando viene chiesta l'icona di un oggetto Loocup utilizza il seguente meccanism
 
 Una volta identificata la posizone della cartella LOOCUP_ICO, come per la ricerca delle immagini, viene fatta una ricerca per risalita di tipo/parametro/codice all'interno della cartella LOOCUP_ICO, in modo da individuare il file fisico che contiene l'icona da usare.
 
-![LOBASE_099](http://localhost:3000/immagini/LOBASE_07/LOBASE_099.png)
+![LOBASE_099](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_099.png)
 
  T(**Assunti : **)
 - Looc.up è installato nella directory LOOCUP, nell'esempio specifico C : /PROGRAMMI/LOOCUP.
@@ -56,17 +56,17 @@ Si andrà quindi a ricercare l'icona rispettando il seguente ordine :
 **NOTA 2** :  al codice viene trimmato, pertanto, eventuali spazi a sinistra vengono eliminati.
 
 
-![LOBASE_098](http://localhost:3000/immagini/LOBASE_07/LOBASE_098.png)filesystem e nella scheda)
+![LOBASE_098](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_098.png)filesystem e nella scheda)
 
 Nell'esempio in figura possiamo notare dove sono posizionate le icone nel filesystem (in alto) e la loro visualizzazione nel componente albero della scheda (in basso). In particolare notiamo l'icona specifica assegnata all'oggetto CN;CLI;001 (recuperata dal filesystem nel percorso LOOCUP_ICO\CN\CLI\001.gif, vedi etichetta (1) ) e l'icona generica dell'oggetto CN;CLI;005 (non trovata nel filesystem l'icona specifica nel percorso LOOCUP_ICO\CN\CLI\005.gif viene recuperata l'icona generica nel percorso LOOCUP_ICO\CN\CLI\default.gif, vedi etichetta (2) ).
 
 ## Schemi di ricerca delle icone
 Di seguito vediamo gli schemi per identificare l'icona di un oggetto
 
-![LOBASE_120](http://localhost:3000/immagini/LOBASE_07/LOBASE_120.png)
-![LOBASE_121](http://localhost:3000/immagini/LOBASE_07/LOBASE_121.png)OG;XX;YYY - TA;\*CNTT;XX)
+![LOBASE_120](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_120.png)
+![LOBASE_121](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_121.png)OG;XX;YYY - TA;\*CNTT;XX)
 
-![LOBASE_121](http://localhost:3000/immagini/LOBASE_07/LOBASE_121.png)
+![LOBASE_121](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_121.png)
  :  : PAR F(03)
 Nei casi particolari delle icone di programma (come per esempio l'icona di Microsoft Word, Microsoft Office ...) l'icona viene richiesta direttamente al sistema operativo e non è quindi inclusa in nessun percorso di Loocup.
 
@@ -131,7 +131,7 @@ Nell'xml del componente albero vengono assegnati gli attributi tipo, parametro e
 </Oggetto>
  :  : I.XML.END
 
-![LOBASE_096](http://localhost:3000/immagini/LOBASE_07/LOBASE_096.png)
+![LOBASE_096](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_096.png)
 In alternativa è possibile assegnare altre icone al componente assegnando all'attributo i='...' valori differenti. Le icone possono essere : 
 
 - icone dirette (es.  :  con i="M1")
@@ -149,7 +149,7 @@ In alternativa è possibile assegnare altre icone al componente assegnando all'a
 </Oggetto>
  :  : I.XML.END
 
-![LOBASE_097](http://localhost:3000/immagini/LOBASE_07/LOBASE_097.png)
+![LOBASE_097](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_097.png)
 ### La matrice
 Nel componente matrice è possibile visualizzare icone oggetto sull'intestazione o nella cella con i seguenti valori : 
 
@@ -168,7 +168,7 @@ Per visualizzare un'**icona sull'intestazione** della matrice è sufficiente ass
 </Griglia>
  :  : I.XML.END
 
-![LOBASE_100](http://localhost:3000/immagini/LOBASE_07/LOBASE_100.png)
+![LOBASE_100](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_100.png)
 Per visualizzare un'**icona nella cella** della matrice è sufficiente assegnare all'attributo oggetto (ogg) della colonna il codice della colonna che specifica l'icona tra parentesi quadre ed eventualmente il tipo e/o parametro comuni a tutte le celle della colonna.
 Ad esempio per visualizzare nelle celle della seconda colonna le icone ;; CN;; CN;CLI; AR;; e AR;ART; è sufficiente scrivere nell'xml Ogg="[ID1]", e nelle celle della colonna con codice ID1 specificare gli oggetti per ogni singola riga come segue : 
  :  : I.XML
@@ -187,7 +187,7 @@ Ad esempio per visualizzare nelle celle della seconda colonna le icone ;; CN;; C
 </Righe>
  :  : I.XML.END
 
-![LOBASE_101](http://localhost:3000/immagini/LOBASE_07/LOBASE_101.png)eterogeneo)
+![LOBASE_101](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_101.png)eterogeneo)
 
 Nel caso in cui le celle della colonna siano di uno stesso tipo, ad esempio CN;; CN;CLI; e CN;COL; , è sufficiente scrivere nell'xml Ogg="CN[ID1]", e nelle celle della colonna con codice ID1 specificare i parametri di ogni singola riga come segue : 
  :  : I.XML
@@ -204,7 +204,7 @@ Nel caso in cui le celle della colonna siano di uno stesso tipo, ad esempio CN;;
 </Righe>
  :  : I.XML.END
 
-![LOBASE_102](http://localhost:3000/immagini/LOBASE_07/LOBASE_102.png)omogeneo)
+![LOBASE_102](http://doc.smeup.com/immagini/LOBASE_07/LOBASE_102.png)omogeneo)
 
 ## Le icone dei componenti Java
 I componenti Java, utilizzano delle icone che sono incluse nel file Loocup.jar.

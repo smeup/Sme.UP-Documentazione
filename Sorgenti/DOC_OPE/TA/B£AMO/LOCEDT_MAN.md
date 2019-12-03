@@ -7,9 +7,9 @@ Dalla versione **2.0** dell'editor ogni pannello di testo aperto riporta una lab
 La finestra presenta un menu di due colori :  le voci nere sono le voci di menù generali di Loocup, mentre le voci di menù azzurre sono caratteristiche dell'editor
 ### La barra degli strumenti
 Essa presenta dei bottoni per l'utilizzo rapido di alcune funzioni principali dell'editor :  il salvataggio, l'undo/redo e copia/taglia/incolla.
-![LOCEDT_01](http://localhost:3000/immagini/MBDOC_OPE-LOCEDT_MAN/LOCEDT_01.png)### La barra dei bottoni
+![LOCEDT_01](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEDT_MAN/LOCEDT_01.png)### La barra dei bottoni
 I bottoni posti alla base della finestra dell'editor forniscono svariate funzioni, nella parte sinistra sono riportate tutte le funzioni associate a tasti funzione attivi nell'editor. Nella parte destra sono disponibili alcune funzioni speciali che verranno spiegate più avanti nel documento nella sezione >"Concetti e funzioni avanzate".
-![LOCEDT_02](http://localhost:3000/immagini/MBDOC_OPE-LOCEDT_MAN/LOCEDT_02.png)## Elementi di base
+![LOCEDT_02](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEDT_MAN/LOCEDT_02.png)## Elementi di base
 ### Funzioni di editing
 L'editor supporta le funzioni di copia/taglia/incolla attraverso, rispettivamente, i comandi **CTRL+C**, **CTRL+X** e **CTRL+V**, oltre che attraverso le voci di menù presenti in _9_Modifica. Sempre sotto il menù _9_Modifica sono presenti le voci di selezione di tutto il testo (**CTRL+A**), di parola, di riga e di paragrafo. Infine, per quanto riguarda le funzioni di editing di base, sono disponibili le funzioni di UNDO e REDO (rispettivamente **CTRL+Z** e **CTRL+Y**). Anche queste ultime sono utilizzabili attraverso le voci di menù _9_Annulla** e _9_Ripristina presenti sotto _9_Modifica, oppure tramite i bottoni _9_Undo e _9_Redo_n_ nella barra degli strumenti.
 ### Funzioni di ricerca/sostituzione

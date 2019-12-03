@@ -35,7 +35,7 @@ La struttura di costo può essere così schematizzata :
  - _2_definizione dell'intervallo di tempo di validità, o periodicità di calcolo (mensile, annuale, etc.) _2_(tabella PER)
  - _2_definizione di una struttura flessibile del dettaglio del costo, (materiali, lavorazioni esterne, lavoro, macchina, attrezzaggio, scarto, parte fissa, variabile, ricariche varie, etc.) _2_(tabella IGI)
 
-![D0BASE_01](http://localhost:3000/immagini/D0BASE/D0BASE_01.png)
+![D0BASE_01](http://doc.smeup.com/immagini/D0BASE/D0BASE_01.png)
 ### Richiamo programma di gestione
  :  : INI
  :  : CMD CALL PGM(D5CO01G)

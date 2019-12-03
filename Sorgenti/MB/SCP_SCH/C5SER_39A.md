@@ -2,7 +2,7 @@
 
 Obiettivo di questa scheda è analizzare il partitario dei conti gestiti a partite.
 
-![C5C070_007](http://localhost:3000/immagini/MBDOC_SCH-C5SER_39A/C5C070_007.png)
+![C5C070_007](http://doc.smeup.com/immagini/MBDOC_SCH-C5SER_39A/C5C070_007.png)
 ## Parametri di lancio
  \* Anno :  inserire l'anno per il quale si vogliano analizzare i pagamenti effettuati
  \* Dal/Al :  nel caso in cui si voglia inserire un filtro per data pagamento è possibile inserire gli estremi da analizzare in questi due campi

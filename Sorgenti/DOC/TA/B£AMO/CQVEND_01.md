@@ -5,7 +5,7 @@
  \* Valutazione Globale Ente /Articolo
 
 
-![CQ_VEND_01](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_01.png)
+![CQ_VEND_01](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_01.png)
 # Definizioni
 ## Vendor Rating
 Obiettivo è quello di valutare in forma  continuativa l'andamento dell'affidabilità dei Fornitori in termini di : 
@@ -50,16 +50,16 @@ Per questo tipo di indici il programma apre i diversi archivi disponibili :
 è costituito da una combinazione di indici statici e dinamici inseriti in un'architettura la cui complessità è fissata dalla fantasia e dalla capacità di analisi dell'utente vedi figure seguenti
 
 # Costruzione indice globale
-![CQ_VEND_02](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_02.png)
+![CQ_VEND_02](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_02.png)
 # Struttura generale indice
-![CQ_VEND_03](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_03.png)
+![CQ_VEND_03](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_03.png)
 # Calcolo indice globale (versione con utilizzo dell'archivio indici IGREPT0F)
-![CQ_VEND_04](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_04.png)
+![CQ_VEND_04](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_04.png)
  \* _2_Area, rappresenta un macro raggruppamento dei temi di interesse per le valutazioni  effettuate con indici dinamici, ad esempio Area Contabilità, Area Produzione, Area Vendite, Area Zonale, Area Assicurazione Qualità, Area Magazzini, ecc.. (tabella IGA)
  \* _2_Tema, identifica con un codice un insieme di dati legati ad un argomento comune, ad esempio tema delle verifiche sugli audit, tema della gestione delle non conformità, tema della fmea, ecc.. (tabella IGT). È utilizzazto per indici dinamici.
  \* _2_Livello di sintesi, specifica a quale preciso fattore fare riferimento per la ricerca dei dati relativi ad un indice dinamico, ad esempio articolo, articolo/fornitore, ecc.. (tabella IGS)
 
-![IG_REPT_01](http://localhost:3000/immagini/CQVEND_01/IG_REPT_01.png)
+![IG_REPT_01](http://doc.smeup.com/immagini/CQVEND_01/IG_REPT_01.png)
 # Tabelle utilizzate dal modulo
 ### CRM - RATING - INDICI DI RIFERIMENTO
 Questa tabella contiene gli indici di riferimento globali del Q9000. Per ogni indice vengono assegnate le intestazioni ed i riferimenti per l'assegnazione agli oggetti dell'azienda (possono essere fornitori, Work-center, clienti, articoli, etc.).
@@ -107,7 +107,7 @@ L'indice globale di valutazione del fornitore, centro di lavoro, ecc.. è impost
 La tabella associata ad ogni sottoindice contiene, oltre ai pesi, gli indirizzamenti a tabelle di ordine inferiore o a tabelle di valutazione (CRI)  (per gli indici statici) o ancora, al percorso per il recupero dei valori in archivio (per gli indici dinamici).
 
 ## Creazione  indice di valutazione globale del fornitore (IVVG)
-![CQ_VEND_08](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_08.png)La tabella dell'indice richiede di indicare i codici del tipo di chiave a cui andrà a riferirsi l'indice; esempi di chiavi sono le triplette : 
+![CQ_VEND_08](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_08.png)La tabella dell'indice richiede di indicare i codici del tipo di chiave a cui andrà a riferirsi l'indice; esempi di chiavi sono le triplette : 
  \* FO/AR/FASE+EM
  \* CL/AR/FASE+EM
  \* RI/AR/FASE+EM
@@ -115,7 +115,7 @@ La tabella associata ad ogni sottoindice contiene, oltre ai pesi, gli indirizzam
 Oltre ai campi che definiscono la griglia delle chiavi (i codici :  fornitore/articolo/Fase+EM o altro elemento) adatte per quell'indice, è richiesto di specificare il riferimento alle tabelle dei sottoindici.
 
 Scelta del riferimento per i sottoindici collegandosi con i sottosettori della tabella CRL
-![CQ_VEND_09](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_09.png)
+![CQ_VEND_09](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_09.png)
 Scegliendo uno dei sottosettori si accede ad una tabella di indici dinamici o statici tra i quali si sceglie quello desiderato (oppure naturalmente si può decidere di inserirne uno nuovo).
 
 # Definizione dell'indice Statico
@@ -124,10 +124,10 @@ Gli indici statici associati sono definiti mediante una tabella (Tabella CRL) ch
  \* riferimento alla tabella di valutazione (CRI-\*\*)
  \* il sottosettore degli indici collegati
 
-![CQ_VEND_10](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_10.png)
+![CQ_VEND_10](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_10.png)
 Il valore che il programma calcola per un indice statico è il risultato del prodotto tra il peso e la valutazione assegnata.
 
-![CQ_VEND_11](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_11.png)
+![CQ_VEND_11](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_11.png)
 # Definizione dell'indice Dinamico
 Nel Q9000 l'indice dinamico è  individuato da 3 elementi : 
  \* AREA DI PROVENIENZA
@@ -160,7 +160,7 @@ Gli indici dinamici associati sono definiti mediante una tabella (Tabella CRL) c
  \* l'area di provenienza,
  \* il sottosettore degli indici collegati
 
-![CQ_VEND_12](http://localhost:3000/immagini/CQVEND_01/CQ_VEND_12.png)
+![CQ_VEND_12](http://doc.smeup.com/immagini/CQVEND_01/CQ_VEND_12.png)
  \* la tripletta area/tema/livello di sintesi selezionata deve essere stata creata con la opzione "Gestione legami area/tema/livello" (cfr INDI) altrimenti si definisce un indice che non ha associato il programma di calcolo.
  \* Progressivo griglia questo campo deve essere compilato solo se stiamo trattando un indice dinamico. È il riferimento alla griglia di controllo di un AUDIT eseguito presso un fornitore. In questo caso il programma preleverà il valore risultante dal punto della griglia assegnato e lo tratterà come indice dinamico.
  \* Classe di Autorizzazione è un campo controllato dalla tabella 'B£P' (Classi di autorizzazione). Questo campo se diverso da 'blank' definisce dei livelli di controllo per l'accesso e la modifica di detto indice.

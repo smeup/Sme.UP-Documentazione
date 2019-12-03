@@ -2,7 +2,7 @@
 Utilizzando le quantità riportate sulle singole non conformità, calcolare ed analizzare i relativi livelli di qualità (LQ).
 
 ## Formato guida
-![CQ_PARE_07](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_07.png)
+![CQ_PARE_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_07.png)
 Nelle varie forme abilitate (emissione a video, stampa o file di parcheggio dati) è possibile calcolare gli LQ desiderati fino ad un massimo di 4 (quattro).
 
 _2_Formule
@@ -27,7 +27,7 @@ Con l'impostazione dei limiti vengono selezionate le non confor mità con i valo
 
 ## Gestione delle formule per gli LQ
 Si attiva con il comendo funzione F15 : 
-![CQ_PARE_08](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_08.png)
+![CQ_PARE_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_08.png)
 Utilizzando l'identificativo delle quantità dei non conformi (V01 corrisponde alla quantità LOTTO, V02 alla quantità controllata ecc.) vengono costruite le quattro formule di calcolo degli LQ. Ad ogni formula di calcolo è possibile attribuire un nome (con lunghezza massima di 8 caratteri) per facilitarne l'identificazione.
 Il campo posizionato nell'angolo superiore destro della finetra abilita la memorizzazione GLOBALE delle 4 formule di calcolo degli LQ.
 A fianco del nome della formula è posizionato il campo con il qualeè possibile attivare la MEMORIZZAZIONE SINGOLA di ogni formula.
@@ -42,10 +42,10 @@ La scelta dei valori da listare può essere ulteriormente mirata fissando anche 
 Il valore inferiore di ordinamento compreso tra i limi impostati condiziona la lista anche dei valori di livello superiore omettendo il controllo sui valori limite degli LQ.
 
 ## Selezione al primo livello di dettaglio
-![CQ_PARE_09](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_09.png)
+![CQ_PARE_09](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_09.png)
 ## Selezione al secondo livello di dettaglio
-![CQ_PARE_10](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_10.png)
+![CQ_PARE_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_10.png)
 ## Selezione al terzo livello di dettaglio
-![CQ_PARE_11](http://localhost:3000/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_11.png)
+![CQ_PARE_11](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQNS20/CQ_PARE_11.png)
 Con l'opzione 5 di consulta il dettaglio della non conformità.
 

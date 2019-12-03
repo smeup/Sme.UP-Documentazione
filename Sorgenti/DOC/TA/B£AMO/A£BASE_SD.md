@@ -180,11 +180,11 @@ Eseguendo il comando :
 
 si ottiene la visualizzazione di una schermata in cui viene rappresentata la DDS del file e da cui è possibile, attraverso specifiche opzioni e tasti funzione, interrogare le caratteristiche dei diversi campi (opzioni di riga), vedere i file logici associati (F15), le chiavi (F14), entrare in editazione del sorgente del file (F16) o del sorgente del dizionario (F17), aprire il tool QUERY (F20) di sistema di AS/440 ecc.
 
-![A£BASE_016](http://localhost:3000/immagini/A£BASE_SD/AXBASE_016.png)
+![A£BASE_016](http://doc.smeup.com/immagini/A£BASE_SD/AXBASE_016.png)
 ## Ricerca stringa (UP SCA)
 Il comando UP SCA, richiamabile dalla riga di comando sia da emulatore 5250 che da Looc.up, permette di eseguire la ricerca di una o più stringhe di testo.
 
-![A£BASE_017](http://localhost:3000/immagini/A£BASE_SD/AXBASE_017.png)
+![A£BASE_017](http://doc.smeup.com/immagini/A£BASE_SD/AXBASE_017.png)
 La ricerca può avvenire in uno o più (fino a 35) file sorgenti (identificati dalla coppia Libreria / File), filtrando eventualmente il tipo Membro.
 
 Altre opzioni : 
@@ -202,6 +202,6 @@ Altre opzioni :
 
 I risultati della ricerca vengono salvati in un file di stampa (Prt198 con Dati specificati dall'utente dal programma B£UT09), visualizzabile da 5250 e da Looc.up, accedendo al proprio spool di stampa utente.
 
-![A£BASE_018](http://localhost:3000/immagini/A£BASE_SD/AXBASE_018.png)**Spool di stampa utente**
+![A£BASE_018](http://doc.smeup.com/immagini/A£BASE_SD/AXBASE_018.png)**Spool di stampa utente**
 
-![A£BASE_019](http://localhost:3000/immagini/A£BASE_SD/AXBASE_019.png)**Visualizzazione stampa dei risultati della ricerca**
+![A£BASE_019](http://doc.smeup.com/immagini/A£BASE_SD/AXBASE_019.png)**Visualizzazione stampa dei risultati della ricerca**

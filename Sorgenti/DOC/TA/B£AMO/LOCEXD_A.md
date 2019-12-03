@@ -19,7 +19,7 @@ In parallelo sono state aggiunte diverse funzionalità per quanto riguarda la di
 
 - Schede di oggetto :  dalla schermata iniziale di Looc.up premere F4 e inserire un oggetto (un articolo o un cliente); dando OK si accede alla scheda di tale oggetto.
 
-![LOCEXD_024](http://localhost:3000/immagini/LOCEXD_A/LOCEXD_024.png)
+![LOCEXD_024](http://doc.smeup.com/immagini/LOCEXD_A/LOCEXD_024.png)
 # Associazione scheda oggetto
 Una scheda è individuata dal nome del suo script, salvato in un membro di file AS/400.
 Distinguiamo due categorie di schede, a seconda del nome dello script ad esse associato : 

@@ -4,7 +4,7 @@ In questo documento verrà mostrato un esempio di architettura Looc.Up con tutti
 
 La seguente immagine mostra la struttura della rete client server di esempio che andremo ad analizzare : 
 
-![LOCBAS_026](http://localhost:3000/immagini/LOCBAS_001/LOCBAS_026.png)
+![LOCBAS_026](http://doc.smeup.com/immagini/LOCBAS_001/LOCBAS_026.png)
 Questo documento mostra la struttura di una tipica installazione di Loocup in modalità server. Questa modalità di utilizzo di Loocup si propone di risolvere tutta una serie di problemi legati alla interazione tra procedure AS/400 e processi o entità esterne esterni.
 
 In particolare, attraverso una installazione server di Loocup è possibile : 

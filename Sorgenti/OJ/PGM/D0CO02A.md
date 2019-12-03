@@ -4,7 +4,7 @@ Dato un oggetto il programma mostra le righe che documentano come ne è stato ca
 _7_Documentazione in fase di sviluppo
 
 ## Formato di lancio
-![D0BASE_57](http://localhost:3000/immagini/MBDOC_OGG-P_D0CO02A/D0BASE_57.png)Sono necessarie le seguenti impostazioni : 
+![D0BASE_57](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO02A/D0BASE_57.png)Sono necessarie le seguenti impostazioni : 
  \* **Modalità_; Visualizzazione / Stampa
  \* **Informazioni chiave caratteristiche dell'eleborazione di cui si vuole la documentazione** : 
  \*\* __Tipo sessione__;
@@ -16,7 +16,7 @@ _7_Documentazione in fase di sviluppo
  \*\* __Tipo costo__.
 
 ## Formato di lista
-![D0BASE_58](http://localhost:3000/immagini/MBDOC_OGG-P_D0CO02A/D0BASE_58.png)Significato delle colonne : 
+![D0BASE_58](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO02A/D0BASE_58.png)Significato delle colonne : 
  \* **Identificativo_; hhhh
  \* **TRe - Tipo record**; 00 = Intestazioni, vengono riportati i parametri di impostazione del calcolo utilizzati, 10 = hjkhjk, 13 = mm,., 99 = uiouoiu;
  \* **C**; hhhh
@@ -40,7 +40,7 @@ Sul piede della lista ci sono dei comandi funzione con il significato seguente :
 - [Analisi errori](Sorgenti/OJ/PGM/D0CO03A)
 
 ### Formato esplosione di distinta
-![D0BASE_60](http://localhost:3000/immagini/MBDOC_OGG-P_D0CO02A/D0BASE_60.png)
+![D0BASE_60](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO02A/D0BASE_60.png)
 
 
 

@@ -41,16 +41,16 @@ Il programma per il lancio della manutenzione di queste informazioni può essere
 Le modalità di gestione sono comuni a tutte queste tipologie di informazione, per comodità descriveremo l'utilizzo del tipo informazione £16 = Indirizzi E-Mail.
 
 ## Formato guida
-![BRENTI_019](http://localhost:3000/immagini/MBDOC_OGG-P_BRES01/BRENTI_019.png)
+![BRENTI_019](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRES01/BRENTI_019.png)
 La gestione si attiva aprendo la opportuna chiave di menù e inserendo : 
  \* un tipo ente / codice ente a cui associare informazioni aggiuntive
  \* il tipo informazione aggiuntiva (in questo caso £16)
  \* un identificativo (può essere un valore di default "\*\*" oppure un propgressivo qualsiasi :  il suo utilizzo è quello di differenziare più contati all'interno della stessa funzione aziendale)
 
 Con l'opzione 01 e premendo INVIO si presenta il seguente formato di passaggio dove è possibile inserire la funzione aziendale di riferimento ed uno stato del contatto : 
-![BRENTI_020](http://localhost:3000/immagini/MBDOC_OGG-P_BRES01/BRENTI_020.png)
+![BRENTI_020](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRES01/BRENTI_020.png)
 Le funzioni aziendali sono codificate nella tabella V£F
  :  : DEC T(ST) K(V£F)
 
 Dopo aver inserito lo stato e dato un successivo INVIO si presenta il formato di input vero e proprio : 
-![BRENTI_021](http://localhost:3000/immagini/MBDOC_OGG-P_BRES01/BRENTI_021.png)
+![BRENTI_021](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRES01/BRENTI_021.png)

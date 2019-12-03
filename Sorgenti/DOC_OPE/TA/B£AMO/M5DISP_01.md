@@ -6,13 +6,13 @@ La disponibilià dei materiali è quindi il risultato di un conteggio che si ott
 Il dashboard del modulo M5DISP permette di consultare la struttura di ciascun gruppo fonte.
 I legami tra le fonti, i magazzini e i gruppi fonte, sono consultabili attraverso la matrice "Analisi gruppi fonte" che permette di visualizzare, per ciascun gruppo fonte (colonne), quali sono gli eventi (righe) di cui si compone.
 Graficamente questa matrice si presenta così : 
-![M5DISP_001](http://localhost:3000/immagini/MBDOC_OPE-M5DISP_01/M5DISP_001.png)Se il legame è attivo, la cella che è l'incrocio tra una riga e una colonna, risulta essere valorizzata, mentre se non lo è, la cella si presenta vuota.
+![M5DISP_001](http://doc.smeup.com/immagini/MBDOC_OPE-M5DISP_01/M5DISP_001.png)Se il legame è attivo, la cella che è l'incrocio tra una riga e una colonna, risulta essere valorizzata, mentre se non lo è, la cella si presenta vuota.
 
 # Le navigazioni :  i SURF della disponibilità
 __A- Analisi disponibilità__
 Il primo surf è incentrato esclusivamente sull'analisi della disponibilità, come del resto si intuisce dal titolo stesso.
 All'apertura della scheda, ci si troverà davanti a un input panel in cui si dovranno impostare i filtri che serviranno a definire i limiti dell'analisi che si vuole condurre.
-![M5DISP_003](http://localhost:3000/immagini/MBDOC_OPE-M5DISP_01/M5DISP_003.png)
+![M5DISP_003](http://doc.smeup.com/immagini/MBDOC_OPE-M5DISP_01/M5DISP_003.png)
 A seconda delle necessità, è possibile scegliere di condurre un tipo di analisi tra le seguenti : 
 1. __DET - Dettaglio per data : __  presenta i risultati dell'analisi disponibilità a livello di dettaglio fonte ordinati per data.
 2. __DFO - Dettaglio per fonte : __ presenta i risultati dell'analisi disponibilità a livello di dettaglio fonte ordinati per fonte
@@ -31,4 +31,4 @@ Il risultato dell'analisi può essere visualizzato in due modalità diverse :
 - \* in forma grafica, ovvero attraverso un diagramma che permette di vedere l'andamento della quantità in funzione del tempo.
 
 B- Analisi fattibilità
-![M5DISP_004](http://localhost:3000/immagini/MBDOC_OPE-M5DISP_01/M5DISP_004.png)A partire da un codice articolo, l'analisi della fattibilità permette di consultare la sua distinta base e, per ciascun componente, la quantità richiesta e disponibilie per la sua realizzazione.
+![M5DISP_004](http://doc.smeup.com/immagini/MBDOC_OPE-M5DISP_01/M5DISP_004.png)A partire da un codice articolo, l'analisi della fattibilità permette di consultare la sua distinta base e, per ciascun componente, la quantità richiesta e disponibilie per la sua realizzazione.

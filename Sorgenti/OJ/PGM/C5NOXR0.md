@@ -4,7 +4,7 @@ Attraverso questo Set'nPlay è possibile monitorare e gestire tutti i dati relat
 ## Formato guida
 Il formato guida si presenta nel seguente modo : 
 
-![C5D030_001](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOXR0/C5D030_001.png)
+![C5D030_001](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOXR0/C5D030_001.png)
 All'interno del formato guida è necessario selezionare l'azienda d'interesse e la modalità di esecuzione della funzione :  le modalità disponibili sono Interrogazione e Stampa che restituiscono lo stesso risultato ripsettivamente in formato video e in spool di stampa.
 Digitando il tasto F17 o selezionando il bottone posto in basso a sinistra è possibile accedere alle Impostazioni che riportano i seguenti campi : 
  \* Banca :  è possibile scegliere una specifica banca per la quale si vogliono visualizzare le infomazioni presenti; lasciando blank il campo vengono visualizzati i dati di tutte le banche
@@ -19,17 +19,17 @@ Confermando il formato guida è possibile accedere al formato lista.
 ## Formato lista
 All'interno del formato lista è possibile visualizzare le banche aziendali ordinate per codice ABI-CAB. In particolare per ogni ABI è possibile visualizzare i CAB registrati e affianco ad ogni CAB è riportato il codice della tabella C5F che identifica la specifica banca : 
 
-![C5D030_002](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOXR0/C5D030_002.png)
+![C5D030_002](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOXR0/C5D030_002.png)
 Per ogni ABI-CAB è poi possibile individuare i rappporti definiti (elementi della C5J) : 
 
-![C5D030_003](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOXR0/C5D030_003.png)
+![C5D030_003](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOXR0/C5D030_003.png)
 Le informazioni riportate per ogni banca e per ogni rapporto bancario variano in funzione delle impostazioni definite. Nel nostro esempio è stato richiesto di riportare  tutte le informazioni visualizzabili all'interno del formato lista.
 Per ogni banca sono visualizzati i contatti riportati in anagrafica della banca. Per ogni rapporto bancario sono invece visualizzate le seguenti informazioni : 
  \* Dati del rapporto :  riporta il conto contabile e il conto corrente associati al rapporto bancario. Nel caso in cui il rapporto sia di tipo Conto Corrente è riportato anche il codice IBAN della banca.
  \* Condizione :  questa sezione riporta le condizioni bancarie definite per lo specifico rapporto (fido, spese, tassi, ecc.). La loro definizione viene effettuata tramite la voce 'Condizioni generali per rapporto' presente all'intenro del menù della tesoreria.
  \* Operazioni bancarie :  sono riportate le informazioni relative alle condizioni per operazione bancaria.
 
-![C5D030_004](http://localhost:3000/immagini/MBDOC_OGG-P_C5NOXR0/C5D030_004.png)
+![C5D030_004](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOXR0/C5D030_004.png)
 Come è possibile visualizzare dall'immagine sopra per ogni rapporto bancario per cui sia riportato il relativo conto contabile viene eseguito un controllo di corrispondenza tra il rapporto bancario indicato per il conto contabile all'intenro della tabella C5B e il conto contabile riportato sul rapporto bancario all'intenro della tabella C5J. Nel caso in cui le due informazioni non corrispondano viene restituito un messaggio di avvertimento.
 
 ## Formato dettaglio

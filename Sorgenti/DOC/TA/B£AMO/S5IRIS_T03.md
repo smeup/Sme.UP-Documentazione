@@ -10,7 +10,7 @@
 5.  E' possibile attivare un flag con cui attivare l'utlizzo delle code. In una schedulazione a capacità finita le code sono considerate solo per i centri di lavoro schedulati a capacità infinita.
 
 
-![S5IRIS_04](http://localhost:3000/immagini/S5IRIS_T03/S5IRIS_04.png)
+![S5IRIS_04](http://doc.smeup.com/immagini/S5IRIS_T03/S5IRIS_04.png)
 Questi sono i set.up minimali dello scenario, per una trattazione completa è possibile fare riferimento all'help della tabella.
 
 

@@ -2,9 +2,9 @@
 Gestire e presentare l'algoritmo di attribuzione di un PIANO DI CAMPIONAMENTO ad un lotto ricevuto in funzione dell'ente responsabile e dell'articolo cui il lotto appartiene.
 
 ## Formato di lancio
-![CQ_PDCA_07](http://localhost:3000/immagini/MBDOC_OGG-P_CQAR20/CQ_PDCA_07.png)
+![CQ_PDCA_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAR20/CQ_PDCA_07.png)
 ## Risultato
-![CQ_PDCA_08](http://localhost:3000/immagini/MBDOC_OGG-P_CQAR20/CQ_PDCA_08.png)
+![CQ_PDCA_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAR20/CQ_PDCA_08.png)
 ## Caratteristiche
 Abitualmente questo programma viene richiamato dalle funzioni di ricevimento e generazione del lotto. Il programma video serve al solo scopo di evidenziare l'algoritmo di calcolo affinchè l'utente possa eseguire tutte le necessarie verifiche qualora vengano modificate le tabelle (Es. regole di commutazione)
 

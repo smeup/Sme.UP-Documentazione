@@ -9,7 +9,7 @@ Con la premessa che ogni azienda può darsi un processo di acquisto diverso in f
 
 Essi vengono coinvolti nel processo descritto dalla figura qui di seguito : 
 
-![V5RIDA_01](http://localhost:3000/immagini/V5RIDA_04/V5RIDA_01.png)
+![V5RIDA_01](http://doc.smeup.com/immagini/V5RIDA_04/V5RIDA_01.png)
 Questo processo dove si vedono le transizioni di approvazione che coinvolgono i 4 ruoli principali, mostra anche i luoghi di revisione che possono essere indirizzati sia dal Buyer che dal richiedente, quando ritengono che la RDA debba essere rimaneggiata.
 Ad ogni passaggio di luogo viene inviata una mail al destinatario dell'impegno che si è attivato :  questo indirizzo mail è quello che si trova sull'ente referenziato nella tabella B£U dell'utente dell'impegno.
 Per ogni transizione sono attivi gli utenti di Back up e  l'annullamento della dichiarazione..

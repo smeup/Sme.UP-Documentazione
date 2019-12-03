@@ -30,7 +30,7 @@ Per ogni tipo tempo (da 1 a 9) è definita a fine programma una schiera di 10 el
  \*\* __Metodo 'CR' - Codici di carico__; vengono ritornate le decodifiche della TA BR\*CR.
  \*\* __Metodo 'ST' - Significato tipi tempo__; vengono ritornate le decodifiche degli elementi numerici della TA BR\*ST.
 
-![TSTBRT_01](http://localhost:3000/immagini/MBDOC_OGG-P_TSTBRT/TSTBRT_01.png)
+![TSTBRT_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_TSTBRT/TSTBRT_01.png)
  \* **Funzione 'GE' - Gestione**
  \*\* __Metodo '02' - Modifica__; vengono presentati, con possibilità di modificarli, i valori del tipo tempo (fino ad un massimo di 10). Prima di presentarli, se sono di tipo 'T' e la loro unità di misura propria è blanks, (informazioni contenute nell'elemento della schiera di caratterizzazione) si assume che siano valori in secondi e quindi vengono convertiti nell'unità di misura ricevuta (£BRPUT) :  se questa è blanks viene assunto 'HR'. Dopo averli presentati, vengono ritrasformati in secondi, se soddisfano alle stesse condizioni. NB :  non viene trattata la quantità eventualmente ricevuta.
  \*\* __Metodo '05' - Visualizzazione__; vengono presentati, solo in visualizzazione, i valori (opportunamente convertiti) e, quelli variabili per quantità (informazione contenuta nella schiera di caratterizzazione) moltiplicati per la quantità ricevuta (£BRPQT) se diversa da 0.
@@ -55,4 +55,4 @@ Per ogni tipo tempo (da 1 a 9) è definita a fine programma una schiera di 10 el
  \*\* __Metodo 'TCA' - Componenti di carico__; simile a DE/CC.
  \*\* __Metodo 'TDC' - Tabella di calcolo__; apre il sorgente del programma, in fondo ci sono le tabelle dei vari tipi tempo utilizzate nel calcolo.
 
-![TSTBRT_02](http://localhost:3000/immagini/MBDOC_OGG-P_TSTBRT/TSTBRT_02.png)
+![TSTBRT_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_TSTBRT/TSTBRT_02.png)

@@ -9,14 +9,14 @@ Esempi possono essere :
 ## Formato guida
 Per attivare la gestione alias si parte dal formato seguente : 
 
-![C£AL01_01](http://localhost:3000/immagini/MBDOC_OGG-P_C£AL01/CXAL01_01.png)
+![C£AL01_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£AL01/CXAL01_01.png)
 deve essere inserito il contesto che determina il codice guida (o la coppia di codici guida) a cui associare l'alias.
 
 Quindi in funzione del contesto si compilano i campi di input e si può passare al dettaglio oppure alla lista.
 
 ## Formato lista
 
-![C£AL01_02](http://localhost:3000/immagini/MBDOC_OGG-P_C£AL01/CXAL01_02.png)
+![C£AL01_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£AL01/CXAL01_02.png)
 ## Formato dettaglio
 
-![C£AL01_03](http://localhost:3000/immagini/MBDOC_OGG-P_C£AL01/CXAL01_03.png)
+![C£AL01_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£AL01/CXAL01_03.png)

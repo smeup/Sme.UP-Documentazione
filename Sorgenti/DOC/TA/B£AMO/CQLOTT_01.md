@@ -71,6 +71,6 @@ identifica la priorità del lotto
  \* gestione del benestare di collaudo ed esito dei lotti
 
 # Gestione dei lotti (flusso informativo delle modalita di campionamento)
-![CQ_LOTT_01](http://localhost:3000/immagini/CQLOTT_01/CQ_LOTT_01.png)
+![CQ_LOTT_01](http://doc.smeup.com/immagini/CQLOTT_01/CQ_LOTT_01.png)
 # Gestione dei lotti (flusso informativo)
-![CQ_LOTT_02](http://localhost:3000/immagini/CQLOTT_01/CQ_LOTT_02.png)
+![CQ_LOTT_02](http://doc.smeup.com/immagini/CQLOTT_01/CQ_LOTT_02.png)

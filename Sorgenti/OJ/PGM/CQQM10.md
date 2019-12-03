@@ -4,7 +4,7 @@ specifiche e qualsiasi altro tipo di documento che la realtà aziendale necessit
 unico formato video che presenta una serie di opzioni disponibili all'utente, consentendo a diversi utenti di effettuare solo le operazioni per cui sono abilitati.
 
 ## Formato video guida
-![CQDOCU_02](http://localhost:3000/immagini/MBDOC_OGG-P_CQQM10/CQDOCU_02.png)
+![CQDOCU_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQQM10/CQDOCU_02.png)
 Le opzioni disponibili sono : 
  \* 01 Aggiunta :  per immettere un nuovo documento;
  \* 02 Modifica :  per modificare, approvare, rilasciare e distribuire un documento;
@@ -19,7 +19,7 @@ PARM('tipo docum.')). Con questa possibilità la gestione sarà personalizzata i
 
 
 ## Formato video dettaglio
-![CQDOCU_03](http://localhost:3000/immagini/MBDOC_OGG-P_CQQM10/CQDOCU_03.png)
+![CQDOCU_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQQM10/CQDOCU_03.png)
 ### Note particolari
 L'opzione di modifica permette di effettuare una molteplicità di operazioni : 
  \* modificare la parte relativa all'immissione
@@ -67,18 +67,18 @@ Si attiva dal formato di dettaglio attraverso il comando funzione F15; per appro
  \* un responsabile interno per l'approvazione;
  \* la data dell'approvazione del documento.
 
-![CQDOCU_07](http://localhost:3000/immagini/MBDOC_OGG-P_CQQM10/CQDOCU_07.png)
+![CQDOCU_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQQM10/CQDOCU_07.png)
 ## Rilascio
 Si attiva dal formato di dettaglio attraverso il comando funzione F15; per rilasciare un documento con il Q9000 si deve specificare l'ente del rilascio e in funzione delle procedure aziendali si può specificare : 
  \* un numero di documenuto per il documento del rilascio;
  \* un responsabile interno per il rilascio;
  \* la data del rilascio del documenuto.
 
-![CQDOCU_08](http://localhost:3000/immagini/MBDOC_OGG-P_CQQM10/CQDOCU_08.png)
+![CQDOCU_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQQM10/CQDOCU_08.png)
 Si noti come il Q9000 impedisca il rilascio del documenuto se prima quest'ultimo non è stato approvato.
 
 ## Distribuzione
 Si attiva dal formato di dettaglio selezionando l'apposito campo "Distribuzione documento" : 
 
-![B£_LISD_03](http://localhost:3000/immagini/MBDOC_OGG-P_CQQM10/BX_LISD_03.png)
+![B£_LISD_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQQM10/BX_LISD_03.png)
 Per la gestione successiva si rimanda alla documentazione operativa del PGM B£IRT2

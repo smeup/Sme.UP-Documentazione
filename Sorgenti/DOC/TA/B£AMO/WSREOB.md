@@ -16,6 +16,6 @@ Gli script che iniziano per V5 definiscono oggetti remoti, quelli che iniziano c
 
 Qui è presentato un diagramma di sequenza su come opera il modulo WSREOB. Il recupero delle informazioni remote viene effettuato tramite passaggio alla £OAV che richiama la £K47 che a sua volta richiama la £K11.
 
-![0001](http://localhost:3000/immagini/WSREOB/0001.png)
+![0001](http://doc.smeup.com/immagini/WSREOB/0001.png)
 - [Oggetti remoti](Sorgenti/DOC/TA/B£AMO/WSREOB_01)
 - [OAV remoti](Sorgenti/DOC/TA/B£AMO/WSREOB_02)

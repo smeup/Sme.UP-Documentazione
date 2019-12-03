@@ -42,15 +42,15 @@ Le tipologie di stampa che sarà prodotta da questo componente saranno :
 - Tutte le vecchie stampe tramite H53, con generazione periferizzata su Looc.UP
 
 La progettazione delle stampe H53 passa attraverso la definizione di uno script all'interno del quale definire le tipologie di "righe" la cui sequenza definirà la struttura del documento.
-![B£STAM_09](http://localhost:3000/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_09.png)
+![B£STAM_09](http://doc.smeup.com/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_09.png)
 La generazione dei documenti potrà avvenire nello stesso modo in cui viene "eseguita" una scheda :  lancio funzione che interpreta lo script e dati attinti da variabili o attraverso funzioni F.
 **Esempi di documenti H53**
 __Stampa matrice__
-![B£STAM_10](http://localhost:3000/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_10.png)
+![B£STAM_10](http://doc.smeup.com/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_10.png)
 __G8D__
-![B£STAM_11](http://localhost:3000/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_11.png)
+![B£STAM_11](http://doc.smeup.com/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_11.png)
 __Rapporto di analisi processo__
-![B£STAM_12](http://localhost:3000/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_12.png)
+![B£STAM_12](http://doc.smeup.com/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_12.png)
 **Requisiti**
 Questo motore prevede come prerequisito :  gli script della famiglia Looc.UP (nello specifico script nel file SCP_G53) su AS400, della /copy £H53 e di un Looc.UP attivo.
 Così come per i report del Q9000 c'è intenzione di definire degli script ready to use per altri tipi di stampe grafiche H53.
@@ -70,14 +70,14 @@ Lo strumento di progettazione dei documenti messo a disposizione da AOP è un ed
 Attraverso tale editor è possibile, una volta prototipati i dati in un XML prodotto dalla /copy AOP, disegnare il documento ed agganciare graficamente i dati del documento.
 
 __Editor WYSIWYG di AOP__
-![B£STAM_13](http://localhost:3000/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_13.png)**Esempi di documenti AOP**
+![B£STAM_13](http://doc.smeup.com/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_13.png)**Esempi di documenti AOP**
 
 __Fattura__
-![B£STAM_14](http://localhost:3000/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_14.png)
+![B£STAM_14](http://doc.smeup.com/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_14.png)
 __Bolla__
-![B£STAM_15](http://localhost:3000/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_15.png)
+![B£STAM_15](http://doc.smeup.com/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_15.png)
 __Offerta__
-![B£STAM_16](http://localhost:3000/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_16.png)
+![B£STAM_16](http://doc.smeup.com/immagini/MBDOC_VIS-B£STAM_01/BXSTAM_16.png)
 **Requisiti**
 Questo motore prevede la /copy £AOP ed un server Windows su cui installare e configurare il server AOP, gli script di definizione del modulo utilizzati dal server AOP.
 ## Generazione stampe

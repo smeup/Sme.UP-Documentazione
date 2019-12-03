@@ -7,7 +7,7 @@ Oltre che illustrare i vantaggi del loro utilizzo.
 ## Definizioni e Generalità
 Occorre innanzi tutto precisare che le variabili Server sono oggetti di tipo V3EVA. Come tutte le istanze possono essere quindi visionate con i comandi UP FUN e UP OAV per conoscerne attributi, funzioni.
 
-![LOBASE_11B](http://localhost:3000/immagini/MBDOC_OGG-V3_EVA/LOBASE_11B.png)
+![LOBASE_11B](http://doc.smeup.com/immagini/MBDOC_OGG-V3_EVA/LOBASE_11B.png)
 Esiste una categorizzazione delle variabili in base a chi le crea, alla visibilità o allo scopo e tale categorizzazione si traduce nel codice che identifica la variabile tramite un prefisso.
 
 |  Nam="Categorie previste e rispettivi prefissi" R="0000000050" |

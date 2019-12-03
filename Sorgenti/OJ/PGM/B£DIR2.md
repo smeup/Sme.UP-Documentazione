@@ -4,7 +4,7 @@ Permettere la manutenzione dell'archivio che definisce le caratteristiche della 
 # Dettaglio formati
 ## Formato guida
 
-![B£DIR2_01](http://localhost:3000/immagini/MBDOC_OGG-P_B£DIR2/BXDIR2_01.png)
+![B£DIR2_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR2/BXDIR2_01.png)
 ### Tipo risorsa
 Codice controllato sulla tabella TRG. Si rinvia a tale tabella per ulteriori chiarimenti.
 ### Codice risorsa
@@ -12,7 +12,7 @@ Viene controllato sull'anagrafico opportuno, in funzione dell'oggetto definito p
 
 ## Formato gestione
 
-![B£DIR2_02](http://localhost:3000/immagini/MBDOC_OGG-P_B£DIR2/BXDIR2_02.png)
+![B£DIR2_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR2/BXDIR2_02.png)
 ### Risorsa collegata
 Codice del gruppo di risorse cui appartiene la risorsa che si sta definendo. E' anch'esso un codice risorsa. E' un dato facoltativo. Se presente, tutti gli altri dati della risorsa verranno reperiti da tale codice. Questo permette di definire una sola volta le caratteristiche di risorse 'simili'.
 ### Codici orario

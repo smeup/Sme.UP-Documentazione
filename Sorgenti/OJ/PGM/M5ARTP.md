@@ -4,7 +4,7 @@ Il programma, nel ricercare i parametri di pianificazione per un articolo, utili
 
 Per gestire i parametri di pianificazione si usa il seguente formato di dettaglio : 
 
-![M5_001_02](http://localhost:3000/immagini/MBDOC_OGG-P_M5ARTP/M5_001_02.png)
+![M5_001_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5ARTP/M5_001_02.png)
 Si possono inserire : 
  \* __Tipo e politica di riordino__, che definisce se l'articolo è di acquisto, produzione o conto-lavorazione (le politiche di riordino sono definite nella tabella M5A); nel caso di pianificazione multiplant completa si possono anche impostare le politiche di trasferimento utilizzate dal sistema quando pianifica un trasferimento dal plant di responsabilità a quello utilizzatore
  \* __Percentuale di assegnazione__, se diversa da 100 pianifica la copertura del fabbisogno in funzione della precentuale assegnata (il totale deve essere 100)
