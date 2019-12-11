@@ -145,7 +145,7 @@
                     suggestions.appendChild(entry);
                 }
                 console.log(results[i])
-                entry.setAttribute("href", "http://localhost:3000/#/" + results[i].href);
+                entry.setAttribute("href", "/" + results[i].href);
                 entry.textContent = results[i].title + ' (' + results[i].cat + ')';
             }
             while(childs.length > len){
