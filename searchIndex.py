@@ -125,16 +125,6 @@ with open(dataFile, "w",  encoding='utf8') as f:
                 for voce in voci:
                     f.write(voce + ' ')
                 f.write('",\n')
-            elif 'NTI' in dirname:
-                with open(os.path.join(dirname,singleFile), "r",  encoding='utf8') as f1: 
-                    rel = ''
-                    for line in f1:
-                        if 'Rel="' in line:
-                            rel = line.rsplit('Rel="')[1]
-                            rel = rel.rsplit('"')[0]
-                f.write('title: "' + nomiDOC_NTI[nomefile] + '",\n')
-                f.write('cat: "NTI",\n')
-                f.write('rel: "' + rel + '",\n')
             elif 'NWS' in dirname:
                 with open(os.path.join(dirname,singleFile), "r",  encoding='utf8') as f1: 
                     rel = ''
@@ -256,18 +246,6 @@ with open(dataFile, "w",  encoding='utf8') as f:
                             if '\\' + codice in dirname:
                                 f.write('title: "' + nome + '",\n')
                                 f.write('cat: "Indice GLO",\n')
-                                #f.write('voci: "",\n')
-            elif 'NWS\\NTI' in dirname:
-                for key, value in areeApp.items():
-                    if key in dirname:
-                        if dirname.endswith(key):
-                            f.write('title: "' + value + '",\n')
-                            f.write('cat: "Indice NTI",\n')
-                            #f.write('voci: "",\n')
-                        for codice, nome in applicazioni.items():
-                            if '\\' + codice in dirname:
-                                f.write('title: "' + nome + '",\n')
-                                f.write('cat: "Indice NTI",\n')
                                 #f.write('voci: "",\n')
             elif 'NWS\\News' in dirname:
                 for key, value in areeApp.items():

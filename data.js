@@ -13903,35682 +13903,27024 @@ cat: "DOC_SCH",
 href: "Sorgenti/MB/SCP_SCH/£RICH01B.md"
 },{
 id: 2757,
-title: "Anomalia in stampa libro cespiti",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/A5_NTI000057.md"
-},{
-id: 2758,
-title: "Ommissione Cespiti Immateriali Ammortizzati in",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/A5_NTI000196.md"
-},{
-id: 2759,
-title: "Errore sul calcolo plafond manutenzioni",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/A5_NTI000427.md"
-},{
-id: 2760,
-title: "Errore Scheda Cespiti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/A5_NTI000926.md"
-},{
-id: 2761,
-title: "Errore su Calcolo Cespiti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/A5_NTI000928.md"
-},{
-id: 2762,
-title: "Scheda Conciliazione Ammortamenti Contabilità",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A5_NTI001066.md"
-},{
-id: 2763,
-title: "Errore su scheda cespite",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A5_NTI001172.md"
-},{
-id: 2764,
-title: "Rettifica pgm controllo Superammortamento 140%",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A5_NTI001239.md"
-},{
-id: 2765,
-title: "Errore su scheda Piani di Ammortamento",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A5_NTI001347.md"
-},{
-id: 2766,
-title: "Superammortamento - Errore su Cespiti con Piano Am",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A5_NTI001375.md"
-},{
-id: 2767,
-title: "Trattamento Cespiti Minori in SuperAmmortamento ed",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A5_NTI001433.md"
-},{
-id: 2768,
-title: "Applicazione percentuale superammortamento",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A5_NTI001456.md"
-},{
-id: 2769,
-title: "Gruppi di attivazione",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/A£_NTI000008.md"
-},{
-id: 2770,
-title: "AS400 in errore con SRC CODE su pannellino",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/A£_NTI000009.md"
-},{
-id: 2771,
-title: "Ripristino librerie Sme_Up",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/A£_NTI000014.md"
-},{
-id: 2772,
-title: "Riferimenti a &#x22;SMEA&#x22;",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/A£_NTI000031.md"
-},{
-id: 2773,
-title: "Riferimenti a &#x22;Sme.up&#x22;",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/A£_NTI000033.md"
-},{
-id: 2774,
-title: "Sme.up Versione 2 Rilascio 2",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/A£_NTI000041.md"
-},{
-id: 2775,
-title: "Data di effettivo rilascio nelle PTF",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/A£_NTI000044.md"
-},{
-id: 2776,
-title: "Improvvisa lentezza AS400",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/A£_NTI000113.md"
-},{
-id: 2777,
-title: "Come utilizzare le API",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/A£_NTI000135.md"
-},{
-id: 2778,
-title: "Schede dei corsi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/A£_NTI000156.md"
-},{
-id: 2779,
-title: "Correzione errore riguardante le traduzioni in ril",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/A£_NTI000164.md"
-},{
-id: 2780,
-title: "Documentazione reference SQL",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/A£_NTI000172.md"
-},{
-id: 2781,
-title: "NEWS o NTI &#x3f;",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/A£_NTI000419.md"
-},{
-id: 2782,
-title: "Traduzione della documentazione",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/A£_NTI000490.md"
-},{
-id: 2783,
-title: "Presentazioni attività laboratorio",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/A£_NTI000494.md"
-},{
-id: 2784,
-title: "Sme.UP in lingue non latine",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/A£_NTI000632.md"
-},{
-id: 2785,
-title: "Errore in file video in lingua",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/A£_NTI000664.md"
-},{
-id: 2786,
-title: "Cancellazione programmi",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/A£_NTI000763.md"
-},{
-id: 2787,
-title: "Errore in generazione MSGF in lingua",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/A£_NTI000798.md"
-},{
-id: 2788,
-title: "Errore in ambienti in lingua",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/A£_NTI000800.md"
-},{
-id: 2789,
-title: "Spostamento ambiente redazione News e NTI",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/A£_NTI000999.md"
-},{
-id: 2790,
-title: "Nuove librerie in gestione traduzioni",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001048.md"
-},{
-id: 2791,
-title: "Correzione errore in inizializzazione ambienti in",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001080.md"
-},{
-id: 2792,
-title: "Corretto errore in traduzione SCP_QRY",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001084.md"
-},{
-id: 2793,
-title: "Eseguire in batch PTF su traduzioni V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001096.md"
-},{
-id: 2794,
-title: "Corretto errore in PTF traduzioni V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001099.md"
-},{
-id: 2795,
-title: "Correzione traduzione tabelle con risalita sottose",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001101.md"
-},{
-id: 2796,
-title: "Correzione errore in traduzioni",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001103.md"
-},{
-id: 2797,
-title: "Corretta traduzione descrizione membri AS400",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001110.md"
-},{
-id: 2798,
-title: "Traduzione in ricerca tabelle",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001143.md"
-},{
-id: 2799,
-title: "Corretto errore in estrazione frasi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001148.md"
-},{
-id: 2800,
-title: "Corretti errori in traduzione oggetti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001252.md"
-},{
-id: 2801,
-title: "Corretto errore lettura in script &#x22;NON SCP&#x22; per am",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001258.md"
-},{
-id: 2802,
-title: "Corretto errore in traduzione OAV tabelle con sott",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001260.md"
-},{
-id: 2803,
-title: "Correzione traduzione in alcune schermate di emula",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001261.md"
-},{
-id: 2804,
-title: "Corretto errore in traduzione output £IR1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/A£_NTI001262.md"
-},{
-id: 2805,
-title: "Aggiunto parametro alla £A£B per indicare il numer",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A£_NTI001303.md"
-},{
-id: 2806,
-title: "Correzioni per traduzioni",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A£_NTI001324.md"
-},{
-id: 2807,
-title: "Traduzione SCP_LAY",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A£_NTI001338.md"
-},{
-id: 2808,
-title: "Correzione errore programma A£SER_12",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A£_NTI001379.md"
-},{
-id: 2809,
-title: "Corretto errore relativo a impostazione libreria Q",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A£_NTI001444.md"
-},{
-id: 2810,
-title: "Cambio Password in Web.UP e Looc.UP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/A£_NTI001538.md"
-},{
-id: 2811,
-title: "Richiesta pareri su nuova gestione Sviluppi Operaz",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/BR_NTI000028.md"
-},{
-id: 2812,
-title: "Anagrafica Enti versione S2",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/BR_NTI000066.md"
-},{
-id: 2813,
-title: "Confronto su Nuova Anagrafica",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/BR_NTI000069.md"
-},{
-id: 2814,
-title: "Confronto su Nuova Anagrafica - Seguito",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/BR_NTI000070.md"
-},{
-id: 2815,
-title: "Dichiarazione d&#x27;intento",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/BR_NTI000105.md"
-},{
-id: 2816,
-title: "Nuova Anagrafica Enti",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/BR_NTI000120.md"
-},{
-id: 2817,
-title: "Modifica gestione stato&#x2f;livello in copia articoli",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000138.md"
-},{
-id: 2818,
-title: "Errata Omit su Logici Anagrafica Enti V2R3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000147.md"
-},{
-id: 2819,
-title: "Modifica salvataggio MDV per parzializzazione arti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000159.md"
-},{
-id: 2820,
-title: "Modificato comportamento Stampa schede magazzino",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000160.md"
-},{
-id: 2821,
-title: "Errore di versione su gestione dettagli enti V2 da",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000226.md"
-},{
-id: 2822,
-title: "Creato nuovo logico BRARTIAL",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000278.md"
-},{
-id: 2823,
-title: "Correzione errori in Commesse e Alias",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000282.md"
-},{
-id: 2824,
-title: "Interfaccia Anagrafico Contatti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000326.md"
-},{
-id: 2825,
-title: "Corretta lunghezza oggetto Dipendente",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000333.md"
-},{
-id: 2826,
-title: "Modifica controlli £G28 in gestione commesse",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000347.md"
-},{
-id: 2827,
-title: "Correzione Inserimento Articoli",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000380.md"
-},{
-id: 2828,
-title: "Richiesta informazioni per progetto Catalogo Prodo",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/BR_NTI000432.md"
-},{
-id: 2829,
-title: "Gestione Note per &#x22;Dati Articolo-Ente&#x22;",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/BR_NTI000520.md"
-},{
-id: 2830,
-title: "Errore su IFCON senza Tipo Contatto",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/BR_NTI000525.md"
-},{
-id: 2831,
-title: "Enti - Coordinate Bancarie per Data",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/BR_NTI000527.md"
-},{
-id: 2832,
-title: "Esecuzione funzioni collegate in modifica cicli",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000648.md"
-},{
-id: 2833,
-title: "Distinta speciale",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000680.md"
-},{
-id: 2834,
-title: "£IFCON, errore in funzione DEL",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000735.md"
-},{
-id: 2835,
-title: "Ctr. C.F&#x2f;P.IVA Estera",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000844.md"
-},{
-id: 2836,
-title: "Scansione Distinta Base",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000849.md"
-},{
-id: 2837,
-title: "Estrazione Cambi - Aggiornamento",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000862.md"
-},{
-id: 2838,
-title: "Gestione flag articoli risolto lock record",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000884.md"
-},{
-id: 2839,
-title: "Errore Anagrafica Enti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000902.md"
-},{
-id: 2840,
-title: "Estensione £14 di BRESCO",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000904.md"
-},{
-id: 2841,
-title: "Anomalia su Anagrafiche Enti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000942.md"
-},{
-id: 2842,
-title: "Estensioni Enti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/BR_NTI000954.md"
-},{
-id: 2843,
-title: "Errore su Aggiornamento Cieco Enti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI000997.md"
-},{
-id: 2844,
-title: "Hypermenù&#x2f;Ricerche Enti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001020.md"
-},{
-id: 2845,
-title: "Gestione cicli con sviluppi operazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001070.md"
-},{
-id: 2846,
-title: "Ctr. Partite Iva&#x2f;Cd. Fiscali",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001090.md"
-},{
-id: 2847,
-title: "Integrazione su Dichiarazioni d&#x27;Intento",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001107.md"
-},{
-id: 2848,
-title: "Importo Obbligatorio su Dichiarazioni di Intento",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001114.md"
-},{
-id: 2849,
-title: "Controllo Anagrafiche Enti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001120.md"
-},{
-id: 2850,
-title: "Navigazione sulla Distinta base",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001158.md"
-},{
-id: 2851,
-title: "Parzializzazione Contatti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001169.md"
-},{
-id: 2852,
-title: "Indagine Utilizzi Campo Tabelle BRE - Tipo Codice",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001179.md"
-},{
-id: 2853,
-title: "Correzione errore interfaccia articolo",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001194.md"
-},{
-id: 2854,
-title: "Modifica tracciato archivio commesse",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001217.md"
-},{
-id: 2855,
-title: "Errore in programma lista commesse per commessa di",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001234.md"
-},{
-id: 2856,
-title: "Errore su lettura dati anagrafici per data in tras",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/BR_NTI001243.md"
-},{
-id: 2857,
-title: "Lista articoli parzializzati in 5250",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001329.md"
-},{
-id: 2858,
-title: "Dichiarazioni di Intento - Correzioni ed Avvertenz",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001331.md"
-},{
-id: 2859,
-title: "Dichiarazioni di Intento - Correzioni ed Avvertenz",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001336.md"
-},{
-id: 2860,
-title: "Dichiarazioni di Intento - Correzioni ed Avvertenz",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001340.md"
-},{
-id: 2861,
-title: "Nuova disposizione campi in visualizzatore standar",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001374.md"
-},{
-id: 2862,
-title: "Loop su Scheda di controllo delle dichiarazioni di",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001376.md"
-},{
-id: 2863,
-title: "Gestione Risalita Tipo Contatto in Ricerche Grafic",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001407.md"
-},{
-id: 2864,
-title: "Errore su Registrazione Fatture con Dichiarazioni",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001415.md"
-},{
-id: 2865,
-title: "Errore su Selezione Dichiarazioni di Intento da do",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001416.md"
-},{
-id: 2866,
-title: "Fly Interrogazione Ciclo",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/BR_NTI001463.md"
-},{
-id: 2867,
-title: "Rallentamento lettura OAV",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000001.md"
-},{
-id: 2868,
-title: "Novità comando RL",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000003.md"
-},{
-id: 2869,
-title: "Come OLDare i sorgenti",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000011.md"
-},{
-id: 2870,
-title: "Subfiles che utilizzano SFLINZ in Looc.up",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000012.md"
-},{
-id: 2871,
-title: "Richiesta pareri su modifiche agli archivi",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000019.md"
-},{
-id: 2872,
-title: "Correzione errore in calcolo costo medio dinamico",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000022.md"
-},{
-id: 2873,
-title: "Informazioni rilascio SmeUp",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000023.md"
-},{
-id: 2874,
-title: "Programmi che gestiscono i flags dei files",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000029.md"
-},{
-id: 2875,
-title: "Dismissione &#x2f;copy in versione RPGIII",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000032.md"
-},{
-id: 2876,
-title: "Obbligatorietà Nome Modulo in Descrizione Membro",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000035.md"
-},{
-id: 2877,
-title: "Creazione replica &#x27;X&#x27; del B£DEC0",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000040.md"
-},{
-id: 2878,
-title: "Nuovo file di documentazione per gli sviluppi",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000046.md"
-},{
-id: 2879,
-title: "Gestione oggetto IN",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000049.md"
-},{
-id: 2880,
-title: "SNDBRKMSG da CL",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/B£_NTI000050.md"
-},{
-id: 2881,
-title: "Regole di denominazione librerie AS400 sviluppo in",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000052.md"
-},{
-id: 2882,
-title: "Effetti collaterali OAV",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000067.md"
-},{
-id: 2883,
-title: "Problemi su OAV di un File",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000071.md"
-},{
-id: 2884,
-title: "Errore lettura costi da documenti",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000075.md"
-},{
-id: 2885,
-title: "Correzione di errori nel compilatore CO",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000084.md"
-},{
-id: 2886,
-title: "Correzione malfunzionamento £GMH",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000086.md"
-},{
-id: 2887,
-title: "Correzione malfunzionamento B£MENU",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000088.md"
-},{
-id: 2888,
-title: "Modifica £UIA e ricompilazione globale SMEDEV",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000089.md"
-},{
-id: 2889,
-title: "Blocco dei sorgenti in libreria di sviluppo",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000090.md"
-},{
-id: 2890,
-title: "Chiamata API Java tramite RPG ILE",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000092.md"
-},{
-id: 2891,
-title: "Repliche B£BAT01",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000093.md"
-},{
-id: 2892,
-title: "DVD SMEUP",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000098.md"
-},{
-id: 2893,
-title: "Programma di exit in fase di compilazione oggetti",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000100.md"
-},{
-id: 2894,
-title: "Copy £G56 per gestire funzioni su numeri e serie d",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000101.md"
-},{
-id: 2895,
-title: "Correzione malfunzionamento B£IDO_SM",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000104.md"
-},{
-id: 2896,
-title: "Modalità compliazione NEWS e NTI",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000106.md"
-},{
-id: 2897,
-title: "Correzione errore in &#x2f;COPY £JAX_PC1",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000107.md"
-},{
-id: 2898,
-title: "Adeguamento PTF agli anni successivi al 2006",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000108.md"
-},{
-id: 2899,
-title: "Infoprint Server&#x3a; PDF Intelligent Routing Exit Pro",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000109.md"
-},{
-id: 2900,
-title: "Revisione e standardizzazione delle API",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000111.md"
-},{
-id: 2901,
-title: "Esplosione Distinta e Cicli per Esponente Modifica",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000112.md"
-},{
-id: 2902,
-title: "Revisione e standardizzazione PARZIALIZZATORI",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000116.md"
-},{
-id: 2903,
-title: "Revisione POPUP",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000117.md"
-},{
-id: 2904,
-title: "Nuovo rilascio V2R3",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000127.md"
-},{
-id: 2905,
-title: "Errore introdotto nel programma B£ICIL",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000129.md"
-},{
-id: 2906,
-title: "Eliminazione programma JAGES0",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000139.md"
-},{
-id: 2907,
-title: "Nuovo campo in tabella B£5",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000140.md"
-},{
-id: 2908,
-title: "Codifica nomi campi delle tabelle",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000141.md"
-},{
-id: 2909,
-title: "Eliminazione definizioni interne tabelle",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000142.md"
-},{
-id: 2910,
-title: "Eliminazione repliche B£BAT01",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000143.md"
-},{
-id: 2911,
-title: "Interfacce in B£DEC0",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000144.md"
-},{
-id: 2912,
-title: "Scansione e contabilizzazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000148.md"
-},{
-id: 2913,
-title: "Progetto &#x22;TRACE&#x27;N PLAY&#x22;",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000149.md"
-},{
-id: 2914,
-title: "Adeguamento Conversioni ed Interfaccie Esterne all",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000152.md"
-},{
-id: 2915,
-title: "Sovradimensionamento file B£MEDE",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/B£_NTI000153.md"
-},{
-id: 2916,
-title: "Modelli di pgm",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000157.md"
-},{
-id: 2917,
-title: "Stampa spool As400 in copie multiple",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000161.md"
-},{
-id: 2918,
-title: "Nuovi modelli di As400 con protezione raid+hot spa",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000162.md"
-},{
-id: 2919,
-title: "As400 in Rack",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000163.md"
-},{
-id: 2920,
-title: "i5&#x2f;OS su blade JS22",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000170.md"
-},{
-id: 2921,
-title: "Correzione problema £G25 in rilascio V2R3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000171.md"
-},{
-id: 2922,
-title: "Correzione tabelle in modello per rilascio V2R3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000173.md"
-},{
-id: 2923,
-title: "PDF Documentazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000176.md"
-},{
-id: 2924,
-title: "Errore in definizione tabella BRZ in V2R3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000177.md"
-},{
-id: 2925,
-title: "Modifiche da effettuare per £G43 in V2R3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000178.md"
-},{
-id: 2926,
-title: "Compilazione programmi con supporto per le lingue",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000179.md"
-},{
-id: 2927,
-title: "Modifica alla £DEC",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000185.md"
-},{
-id: 2928,
-title: "Miglioramenti definizione oggetti in campi files",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000186.md"
-},{
-id: 2929,
-title: "Coretto malfunzionamento in B£AR17",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000189.md"
-},{
-id: 2930,
-title: "Separatore decimali in £TNU",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000193.md"
-},{
-id: 2931,
-title: "As400 su lama blade&#x3a; tempi non ancora maturi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000194.md"
-},{
-id: 2932,
-title: "Nuovi modelli i5 processore power 6 tipologia M15",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000195.md"
-},{
-id: 2933,
-title: "Possibili errori in compilazione programmi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000199.md"
-},{
-id: 2934,
-title: "Novità Versione V6R1M0 os&#x2f;400",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000201.md"
-},{
-id: 2935,
-title: "Chiarezza sull&#x27;applicazione della Pre-PTF2",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000203.md"
-},{
-id: 2936,
-title: "Modifica di file logici in SMEDEV",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000204.md"
-},{
-id: 2937,
-title: "Modifiche da effettuare per cambiamento procedura",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000213.md"
-},{
-id: 2938,
-title: "Creazione e gestione presentazioni",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000215.md"
-},{
-id: 2939,
-title: "Problema in compilazione B£G18G",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000219.md"
-},{
-id: 2940,
-title: "Correzione errrore in B£G91G che causavi problemi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000221.md"
-},{
-id: 2941,
-title: "Reinizializzazione OAV in monitor",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000224.md"
-},{
-id: 2942,
-title: "Recenti problemi introdotti in SMEDEV",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000230.md"
-},{
-id: 2943,
-title: "Correzione errore in B£G18H",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000232.md"
-},{
-id: 2944,
-title: "Correzione segnalazioni G18 in modalità Stampa&#x2f;PDF",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000233.md"
-},{
-id: 2945,
-title: "PROGRAMMI OBSOLETI",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000239.md"
-},{
-id: 2946,
-title: "Miglioramento calcolo intervalli in £G79",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000240.md"
-},{
-id: 2947,
-title: "Problemi con SMEUP_FIL di dicembre 2008 e gennaio",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000243.md"
-},{
-id: 2948,
-title: "Sostituzione caratteri proibiti in HTML",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000246.md"
-},{
-id: 2949,
-title: "Correzioni UP SQL",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000249.md"
-},{
-id: 2950,
-title: "Manutenzione Tabella B§1",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000253.md"
-},{
-id: 2951,
-title: "Utilizzo TTUSER",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000258.md"
-},{
-id: 2952,
-title: "Gestione tabelle utente",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000259.md"
-},{
-id: 2953,
-title: "Revisione generale delle API SME.up",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000263.md"
-},{
-id: 2954,
-title: "Correzione a ricerche estese",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000264.md"
-},{
-id: 2955,
-title: "NUOVA GESTIONE MENU STANDARD",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000272.md"
-},{
-id: 2956,
-title: "Utilizzo TTUSER riservato Sme.up",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000273.md"
-},{
-id: 2957,
-title: "Nuovi annunci Lame As400 per Bladecenter con disch",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000280.md"
-},{
-id: 2958,
-title: "Nuove lame As400 Js23 e Js43 per bladecenter",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000281.md"
-},{
-id: 2959,
-title: "Correzione ricerche contatti Loocup con generazion",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000284.md"
-},{
-id: 2960,
-title: "Correzione £G83 dovuta a nuovi parametri di input",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000287.md"
-},{
-id: 2961,
-title: "Programma B£G15G",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000291.md"
-},{
-id: 2962,
-title: "Gestione variabili",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000292.md"
-},{
-id: 2963,
-title: "Supporto Raid per lama As400 Js12 in Bladecenter S",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000295.md"
-},{
-id: 2964,
-title: "Precisazioni in merito alla creazione nuovo file C",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000296.md"
-},{
-id: 2965,
-title: "Novità lame Blade As400 JS23 e Js43",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000298.md"
-},{
-id: 2966,
-title: "Nuovi processori power 520",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000299.md"
-},{
-id: 2967,
-title: "Nuovi controllori Raid inseribili nel sistema 520",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000300.md"
-},{
-id: 2968,
-title: "Annuncio nuovi dischi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000301.md"
-},{
-id: 2969,
-title: "Nuova torre dischi&#x2f;schede per sistemi As400",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000302.md"
-},{
-id: 2970,
-title: "Nuovi storage supportati As400",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000303.md"
-},{
-id: 2971,
-title: "Files fisici con REUSEDLT(&#x2a;YES",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000304.md"
-},{
-id: 2972,
-title: "Correzione problema in scelta ambiente &#x22;errato&#x22;",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000311.md"
-},{
-id: 2973,
-title: "Passaggio modalità interrogazione&#x2f;modifica negli",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000315.md"
-},{
-id: 2974,
-title: "Ricostruzione automatica attributi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000321.md"
-},{
-id: 2975,
-title: "Ricerche estese",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000328.md"
-},{
-id: 2976,
-title: "Nuovi storage con supporto diretto Ibm i in corso",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000330.md"
-},{
-id: 2977,
-title: "Soluzioni software per l&#x27;alta affidabilità As400",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000331.md"
-},{
-id: 2978,
-title: "Rinominato servizio B£SER_79",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000338.md"
-},{
-id: 2979,
-title: "Novità in preompilatore",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000342.md"
-},{
-id: 2980,
-title: "Impostazione default comandi di compilazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000343.md"
-},{
-id: 2981,
-title: "20 reasons to move to V6R1",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000346.md"
-},{
-id: 2982,
-title: "Introduzione Errore su cc&#x2f;bcc Invio Mail",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000348.md"
-},{
-id: 2983,
-title: "Correzione Pre-compilatore CO",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000351.md"
-},{
-id: 2984,
-title: "Tools di compilazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000356.md"
-},{
-id: 2985,
-title: "Modalità &#x22;non inviare mail&#x22; in £G53",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000357.md"
-},{
-id: 2986,
-title: "Problema con ambienti NON Sme.up in B£UT50",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000360.md"
-},{
-id: 2987,
-title: "Correzione UP SQL per campi varying",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000362.md"
-},{
-id: 2988,
-title: "Correzione errore in £G80",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000365.md"
-},{
-id: 2989,
-title: "Modifiche alla gestione campi indirizzi nella G53",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000366.md"
-},{
-id: 2990,
-title: "Gestione Tabelle Modello",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000369.md"
-},{
-id: 2991,
-title: "Generazione PDF da G18",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000376.md"
-},{
-id: 2992,
-title: "Virtual ip in os&#x2f;400",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000386.md"
-},{
-id: 2993,
-title: "Gestione Numero copie da £G87",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000391.md"
-},{
-id: 2994,
-title: "Librerie SMESRC e SMESTD",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000392.md"
-},{
-id: 2995,
-title: "Installazione Ghostscript",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000399.md"
-},{
-id: 2996,
-title: "Scansione script",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000401.md"
-},{
-id: 2997,
-title: "Gestione di 500 campi di tipo definito",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000405.md"
-},{
-id: 2998,
-title: "Nuovo rilascio V3R1",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000411.md"
-},{
-id: 2999,
-title: "Correzione errore in setup report",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000414.md"
-},{
-id: 3000,
-title: "Scansione Script",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000417.md"
-},{
-id: 3001,
-title: "Aggiornamento SMEDEV",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000421.md"
-},{
-id: 3002,
-title: "Nuove lame Iseries Power7 - PS700,PS701,PS702",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000425.md"
-},{
-id: 3003,
-title: "Indagine su &#x2f;copy G87 e G95",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000428.md"
-},{
-id: 3004,
-title: "Chiusura indagine su &#x2f;copy G87 e G95",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000433.md"
-},{
-id: 3005,
-title: "Importante correzione in £RITES",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000436.md"
-},{
-id: 3006,
-title: "LPD server su Windows 2008",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000437.md"
-},{
-id: 3007,
-title: "Problemi con SAVF in SMEDEV",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000438.md"
-},{
-id: 3008,
-title: "Disaster Recovery Lame Blade Iseries",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000439.md"
-},{
-id: 3009,
-title: "Conversione oggetti a V6R1",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000440.md"
-},{
-id: 3010,
-title: "Corretto UP MSG su V6R1",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000446.md"
-},{
-id: 3011,
-title: "Accensione involontaria lame Iseries",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000447.md"
-},{
-id: 3012,
-title: "Autorizzazioni alla lista book da sito smeup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000450.md"
-},{
-id: 3013,
-title: "Numero licenze utenti Iseries",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000452.md"
-},{
-id: 3014,
-title: "Mancata Cancellazione file temp",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000453.md"
-},{
-id: 3015,
-title: "Partizione Redhat lame Iseries",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000460.md"
-},{
-id: 3016,
-title: "Errore Inconsistenza Liste &#x3e; 2000 Elementi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000464.md"
-},{
-id: 3017,
-title: "Nuove lame Iseries PS700 e BladecenterS",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000470.md"
-},{
-id: 3018,
-title: "Nuovi sistemi tradizionali POWER7",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000471.md"
-},{
-id: 3019,
-title: "Smartcube Iseries&#x3a; Novità",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000472.md"
-},{
-id: 3020,
-title: "Fine supporto i5&#x2f;os V5R4",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000473.md"
-},{
-id: 3021,
-title: "Riconoscimento installazioni Iseries",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000474.md"
-},{
-id: 3022,
-title: "Dismissione Ghostscript",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000477.md"
-},{
-id: 3023,
-title: "Nuovo file di work B£TABELDS per determinazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000478.md"
-},{
-id: 3024,
-title: "Campagna &#x22;trade-in&#x22; Iseries",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000482.md"
-},{
-id: 3025,
-title: "Transfer file errore da Iseries",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000483.md"
-},{
-id: 3026,
-title: "Percorsi IFS e Single Sign On",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000493.md"
-},{
-id: 3027,
-title: "Anomalia in Looc.UP - Servizi AS400 avanzati",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000495.md"
-},{
-id: 3028,
-title: "Problemi accesso IFS con Win7",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000502.md"
-},{
-id: 3029,
-title: "Sorgente B£SQLD01 errato in SMEDEV",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000503.md"
-},{
-id: 3030,
-title: "Correzione UP SQL in caso di join multiplo",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000504.md"
-},{
-id: 3031,
-title: "Correzione incongruenze in ritorno periodi.",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000505.md"
-},{
-id: 3032,
-title: "Correzione errori Pareto &#x2f; filtro",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000506.md"
-},{
-id: 3033,
-title: "Correzione ricerca tabelle in Loocup",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000514.md"
-},{
-id: 3034,
-title: "Servizio Intrusion Detection Iseries",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000517.md"
-},{
-id: 3035,
-title: "CPW nuovi Power7 e novità vs Power5&#x2f;6",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000521.md"
-},{
-id: 3036,
-title: "Novità V7R1",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000522.md"
-},{
-id: 3037,
-title: "Utilizzo di più LOA08 in parallelo",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000523.md"
-},{
-id: 3038,
-title: "Corretto errore in LODRUN",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000526.md"
-},{
-id: 3039,
-title: "Corretto problema in £UDLDA",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000529.md"
-},{
-id: 3040,
-title: "Corretto errore in impostazione Break msg",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000530.md"
-},{
-id: 3041,
-title: "Compilazione script",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000533.md"
-},{
-id: 3042,
-title: "Corretto problema B£FUN4",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000535.md"
-},{
-id: 3043,
-title: "Campagne IBM 1Q 2011 e novità",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000539.md"
-},{
-id: 3044,
-title: "V3R1&#x3a; Attenzione alle compilazioni",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000542.md"
-},{
-id: 3045,
-title: "Nuove campagne IBM 1Q 2011",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000547.md"
-},{
-id: 3046,
-title: "Preparazione calendario",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000548.md"
-},{
-id: 3047,
-title: "Comando GO",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000550.md"
-},{
-id: 3048,
-title: "Roadmap Ibm i&#x3a; Power e OS&#x2f;400",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000553.md"
-},{
-id: 3049,
-title: "Segnalazione SMEDEV 10-14&#x2f;03&#x2f;11",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000554.md"
-},{
-id: 3050,
-title: "Correzione errore in F18 da lista sottosettori",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000555.md"
-},{
-id: 3051,
-title: "Dismissione OAV J&#x2f;033 OJ&#x2a;FILE",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000561.md"
-},{
-id: 3052,
-title: "Errore &#x22;salva con nome&#x22; filtro Q3",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000569.md"
-},{
-id: 3053,
-title: "PTF incompleta su override",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000570.md"
-},{
-id: 3054,
-title: "Programmi B£G15G e B£G15F",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000571.md"
-},{
-id: 3055,
-title: "Schede Moduli BR",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000572.md"
-},{
-id: 3056,
-title: "Errore in lettura note - Loocup",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000574.md"
-},{
-id: 3057,
-title: "Errore su Gestione Parametri",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/B£_NTI000579.md"
-},{
-id: 3058,
-title: "Trattamento numeri",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000584.md"
-},{
-id: 3059,
-title: "Autorizzazioni SECOFR sui programmi",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000587.md"
-},{
-id: 3060,
-title: "Errata Corrige NTI 000587",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000589.md"
-},{
-id: 3061,
-title: "Corretto errore in LODRUN",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000590.md"
-},{
-id: 3062,
-title: "Corretto errore in LODRUN - Nota",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000591.md"
-},{
-id: 3063,
-title: "JAVA Communication - FTPSCP",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000592.md"
-},{
-id: 3064,
-title: "Eliminazione Schema &#x2a;OAV&#x2f;&#x2a;ALL",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000595.md"
-},{
-id: 3065,
-title: "Modifica UP SQL per vis. campi tecnici",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000597.md"
-},{
-id: 3066,
-title: "Corretto errore in UP FTB",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000602.md"
-},{
-id: 3067,
-title: "Correzione creaz.copy tabelle",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000603.md"
-},{
-id: 3068,
-title: "Funzioni comunicazione PC&#x2f;AS400",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000604.md"
-},{
-id: 3069,
-title: "Correzione Cursore UP SQL",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000608.md"
-},{
-id: 3070,
-title: "Nuovo rilascio V3R2",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000610.md"
-},{
-id: 3071,
-title: "Correzione costruzione SQL filtri Q3",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000611.md"
-},{
-id: 3072,
-title: "Corretto errore £G00 con lavori batch",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000615.md"
-},{
-id: 3073,
-title: "Preparazione calendario",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000616.md"
-},{
-id: 3074,
-title: "Correzione ricerche in LOA08",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000617.md"
-},{
-id: 3075,
-title: "Gestione Variabili",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000618.md"
-},{
-id: 3076,
-title: "Correzione matrice WRKJOBSCDE",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000625.md"
-},{
-id: 3077,
-title: "Errore in UP TAB",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/B£_NTI000627.md"
-},{
-id: 3078,
-title: "Errore in SMEDEV V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000629.md"
-},{
-id: 3079,
-title: "Preciszione in merito a file D0DOCU",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000630.md"
-},{
-id: 3080,
-title: "Upgrade a Sme.UP V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000631.md"
-},{
-id: 3081,
-title: "Correzione Decodifica Ordini di Produzione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000638.md"
-},{
-id: 3082,
-title: "Ambienti non Sme.UP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000642.md"
-},{
-id: 3083,
-title: "Nuova aliquota IVA del 21%",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000644.md"
-},{
-id: 3084,
-title: "Magazzino utente &#x2f; ambiente",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000649.md"
-},{
-id: 3085,
-title: "Gestione tabelle in Looc.UP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000650.md"
-},{
-id: 3086,
-title: "G11 e LOA08 con date",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000674.md"
-},{
-id: 3087,
-title: "Pre compilatore",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000676.md"
-},{
-id: 3088,
-title: "Anomalie su PDF da G18",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000677.md"
-},{
-id: 3089,
-title: "Errore in risalita OUTQ per £GPE",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000689.md"
-},{
-id: 3090,
-title: "Errore in ricostruzione attributi",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000690.md"
-},{
-id: 3091,
-title: "Gestione delle variabili",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000691.md"
-},{
-id: 3092,
-title: "Colonne Aggiuntive Immagini&#x2f;Icone",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000695.md"
-},{
-id: 3093,
-title: "Errore su DEV 17-22&#x2f;12&#x2f;2011",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000698.md"
-},{
-id: 3094,
-title: "Errore in colonne aggiuntive",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000699.md"
-},{
-id: 3095,
-title: "Correzioni H53",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000702.md"
-},{
-id: 3096,
-title: "Gestione Setup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000703.md"
-},{
-id: 3097,
-title: "Creazione automatica periodi tabella PER",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000706.md"
-},{
-id: 3098,
-title: "Convertitore formati video",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000708.md"
-},{
-id: 3099,
-title: "Convertitore formati video",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000711.md"
-},{
-id: 3100,
-title: "JOBQ smeup in scheda JOBSCDE",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000715.md"
-},{
-id: 3101,
-title: "Errore su F10 tabelle con TTUSER",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000719.md"
-},{
-id: 3102,
-title: "Milestone in £G35",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000720.md"
-},{
-id: 3103,
-title: "Proposta modifica £PE8",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000725.md"
-},{
-id: 3104,
-title: "Occupazione memoria temporanea",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000726.md"
-},{
-id: 3105,
-title: "Smeup e V7R1",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000727.md"
-},{
-id: 3106,
-title: "Correzione Filtri Q3",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000729.md"
-},{
-id: 3107,
-title: "Correzione £PE8",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000730.md"
-},{
-id: 3108,
-title: "Ridenominazione pgm B£G46G",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000731.md"
-},{
-id: 3109,
-title: "Rettifica correzione LOSUP_13",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000737.md"
-},{
-id: 3110,
-title: "Problemi in £DA8 al cambio giorno",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000738.md"
-},{
-id: 3111,
-title: "Corretto richiamo exit B£QQ00V_x",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000740.md"
-},{
-id: 3112,
-title: "Richieste per release Sme.UP V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000741.md"
-},{
-id: 3113,
-title: "Errore in UP FTB",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000743.md"
-},{
-id: 3114,
-title: "Errore in apertura schede e pop oggetti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000744.md"
-},{
-id: 3115,
-title: "Valori fissi di Sme_UP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000749.md"
-},{
-id: 3116,
-title: "Correzione a calendario veloce se plurigiorno",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000752.md"
-},{
-id: 3117,
-title: "£G11 - Gestione indicat.36 da pgm.chiamante",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000757.md"
-},{
-id: 3118,
-title: "Incremento performance accesso IFS con Windows 7",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000760.md"
-},{
-id: 3119,
-title: "Novità V7R1 con Tecnology Refresh 4",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000766.md"
-},{
-id: 3120,
-title: "Errore matrice aggiornamento tabelle",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000768.md"
-},{
-id: 3121,
-title: "Autorizzazioni in matr. agg. tabelle",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000773.md"
-},{
-id: 3122,
-title: "Manutenzione note in scheda",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000775.md"
-},{
-id: 3123,
-title: "Tabelle standard",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000777.md"
-},{
-id: 3124,
-title: "Problema operazione matematica XFOOT",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000779.md"
-},{
-id: 3125,
-title: "Nuove funzionalita storage V7000",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000784.md"
-},{
-id: 3126,
-title: "Ottimizzazione utilizzo Lun partizioni IBMi",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000787.md"
-},{
-id: 3127,
-title: "Correzione a scansione cicli",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000788.md"
-},{
-id: 3128,
-title: "Modifica a memorizzazione Video su G99",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000796.md"
-},{
-id: 3129,
-title: "Errore in £G53 batch",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000802.md"
-},{
-id: 3130,
-title: "Tipizzazione OAV &#x22;geografici&#x22;",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000804.md"
-},{
-id: 3131,
-title: "Errore con B£DP01_U",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000806.md"
-},{
-id: 3132,
-title: "Paginazione Liste se Vecchi Setup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000808.md"
-},{
-id: 3133,
-title: "Corretto errore B£FUNJ",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000810.md"
-},{
-id: 3134,
-title: "Dati temporali in routine £IDR e £IDO",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000819.md"
-},{
-id: 3135,
-title: "Funzioni su IFS tramite G80",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000821.md"
-},{
-id: 3136,
-title: "G53 - Generazione PDF",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000822.md"
-},{
-id: 3137,
-title: "Correzione LODRUN",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000824.md"
-},{
-id: 3138,
-title: "Esecuzione istruzione SQL",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000828.md"
-},{
-id: 3139,
-title: "USRLV utenti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000830.md"
-},{
-id: 3140,
-title: "Ordinamento tipi V1,V2 e V3",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000832.md"
-},{
-id: 3141,
-title: "£NSTSE - Scansione Note Stutturate",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000834.md"
-},{
-id: 3142,
-title: "Distribuiti pgm std non compilabili",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000841.md"
-},{
-id: 3143,
-title: "Correzione memorizzazioni UP SQL",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000843.md"
-},{
-id: 3144,
-title: "Reperimento indirizzo host per esecuzione da Loocu",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000845.md"
-},{
-id: 3145,
-title: "Configurazione Etherchannel on Vios in Bladecenter",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000850.md"
-},{
-id: 3146,
-title: "Configurazione Etherchannel on Vios in Bladecenter",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000851.md"
-},{
-id: 3147,
-title: "Indagine PDF Sme.UP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000852.md"
-},{
-id: 3148,
-title: "Azienda default oggetto DI",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000853.md"
-},{
-id: 3149,
-title: "Conversione in lingua messaggi GPE",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000866.md"
-},{
-id: 3150,
-title: "Correzioni &#x2f;copy G53",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000867.md"
-},{
-id: 3151,
-title: "Correzione in B£OAV0",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000868.md"
-},{
-id: 3152,
-title: "Formattazione Numeratori con separatore &#x22;-&#x22;",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000871.md"
-},{
-id: 3153,
-title: "Gestione valori sull&#x27;attributo date",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000877.md"
-},{
-id: 3154,
-title: "Nuovo rilascio Sme.UP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000879.md"
-},{
-id: 3155,
-title: "Correzione £ICF per errore apertura G30 in Looc.up",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000880.md"
-},{
-id: 3156,
-title: "Errore A08",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000881.md"
-},{
-id: 3157,
-title: "Ricerca in sito Wiki documentazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000882.md"
-},{
-id: 3158,
-title: "Subfile generico G18",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000886.md"
-},{
-id: 3159,
-title: "Errore menù di loocup in lingua",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000887.md"
-},{
-id: 3160,
-title: "Errore su G30",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000898.md"
-},{
-id: 3161,
-title: "Errore G08 in Loocup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000899.md"
-},{
-id: 3162,
-title: "Errore in B£SLOT0F di SMEUP_FIL",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000903.md"
-},{
-id: 3163,
-title: "Interfaccia F1",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000905.md"
-},{
-id: 3164,
-title: "Errore su SMEDEV 27&#x2f;03&#x2f;2013",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000908.md"
-},{
-id: 3165,
-title: "Errore G08 in Loocup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000909.md"
-},{
-id: 3166,
-title: "Ricerche estese",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000920.md"
-},{
-id: 3167,
-title: "£G20 e Fasi con rilevanza operazione = 1",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000921.md"
-},{
-id: 3168,
-title: "Gestione tabelle",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000924.md"
-},{
-id: 3169,
-title: "Correzioni in vari programmi",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000925.md"
-},{
-id: 3170,
-title: "Anomalia Sistemi Iseries 8202-8205",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000927.md"
-},{
-id: 3171,
-title: "Indagine utilizzi autorizzazioni £OAV",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI000932.md"
-},{
-id: 3172,
-title: "Errore Attributi Data",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000934.md"
-},{
-id: 3173,
-title: "Errore su Liste Loocup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000944.md"
-},{
-id: 3174,
-title: "Riempimento Cartella IFS",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000946.md"
-},{
-id: 3175,
-title: "Rilascio ultima versione V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000947.md"
-},{
-id: 3176,
-title: "Correzione alcuni errori V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000948.md"
-},{
-id: 3177,
-title: "AOP&#x3a; supporto al prodotto",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000949.md"
-},{
-id: 3178,
-title: "SAVF con pgm corretti in NTI 948",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000950.md"
-},{
-id: 3179,
-title: "Errori 3.2&#x3a; calcolo gg.medi &#x2f; variabili £G91",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000957.md"
-},{
-id: 3180,
-title: "Correzioni Navigazioni e Ricerche V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI000962.md"
-},{
-id: 3181,
-title: "Rilascio di compilazione V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000970.md"
-},{
-id: 3182,
-title: "Errore scansione voci di menù",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000972.md"
-},{
-id: 3183,
-title: "Funzioni di comparazione £G83",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000975.md"
-},{
-id: 3184,
-title: "Controllo tabella B§K",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000979.md"
-},{
-id: 3185,
-title: "Errore grave tra 19&#x2f;11&#x2f;13 e 05&#x2f;12&#x2f;13",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000981.md"
-},{
-id: 3186,
-title: "Errore in istruzioni di rilascio V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000982.md"
-},{
-id: 3187,
-title: "Presenza password in pgm e script",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000983.md"
-},{
-id: 3188,
-title: "Autorizzazioni su Menù V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000984.md"
-},{
-id: 3189,
-title: "Errore in £G00",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000985.md"
-},{
-id: 3190,
-title: "Corretti SAVF Sme.UP",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000986.md"
-},{
-id: 3191,
-title: "Pre-compilatore",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000987.md"
-},{
-id: 3192,
-title: "£G06-Richiamo Exit&#x3a; aggiunto numero record",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000990.md"
-},{
-id: 3193,
-title: "Errore UP MSG",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI000992.md"
-},{
-id: 3194,
-title: "Correzione per colonne aggiuntive",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI001001.md"
-},{
-id: 3195,
-title: "Errore su UP FUT",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001002.md"
-},{
-id: 3196,
-title: "Errore gestione autorizzazioni in Looc.UP",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001005.md"
-},{
-id: 3197,
-title: "Precisazione su NTI 1001",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/B£_NTI001007.md"
-},{
-id: 3198,
-title: "Errore autorizzazioni nuove installazioni V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001008.md"
-},{
-id: 3199,
-title: "Errore cache tabelle V5&#x2f;C£&#x2f;C5&#x2f;BR",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001012.md"
-},{
-id: 3200,
-title: "Errore su Conversione Autorizzazioni",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001013.md"
-},{
-id: 3201,
-title: "Errore in gestione note strutturate 5250",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001017.md"
-},{
-id: 3202,
-title: "Visualizzazione formati in libreria SMESRC",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001023.md"
-},{
-id: 3203,
-title: "Prerequisiti Java rilasci Smeup",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI001030.md"
-},{
-id: 3204,
-title: "Installazione rilasci Smeup V3R2 e V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001031.md"
-},{
-id: 3205,
-title: "Correzioni Colonne Aggiuntive",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001035.md"
-},{
-id: 3206,
-title: "Correzioni su Ricerche&#x2f;Fly&#x2f;Surf",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001044.md"
-},{
-id: 3207,
-title: "Correzione errore per compilazione CO in sistemi i",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001053.md"
-},{
-id: 3208,
-title: "Ordinamento OAV I&#x2f; dopo il 99",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001062.md"
-},{
-id: 3209,
-title: "Come dare nomi alle exit",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001073.md"
-},{
-id: 3210,
-title: "Repliche oggetti IE4, IFM legate alla DEC",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001074.md"
-},{
-id: 3211,
-title: "Modifica £G85",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001078.md"
-},{
-id: 3212,
-title: "Errore £G80DS",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001083.md"
-},{
-id: 3213,
-title: "Richiesta Conferma Menù Loocup",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001086.md"
-},{
-id: 3214,
-title: "Corretto errore in UP UT3 su sistemi iaspizzati",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001089.md"
-},{
-id: 3215,
-title: "Scheda Autorizzazioni Menù",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001094.md"
-},{
-id: 3216,
-title: "Tipizzazioni Dinamiche su SCP_QRY",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001156.md"
-},{
-id: 3217,
-title: "Correzioni programmi di LODRUN per installazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001159.md"
-},{
-id: 3218,
-title: "Gestione tabelle",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001164.md"
-},{
-id: 3219,
-title: "Forzatura parametri compilazione con CO",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001166.md"
-},{
-id: 3220,
-title: "Nuove funzioni in gestione PTF",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001167.md"
-},{
-id: 3221,
-title: "Combo su tabelle deviate",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001175.md"
-},{
-id: 3222,
-title: "Funzioni avanzate di stampa per campi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001177.md"
-},{
-id: 3223,
-title: "Nuova funzionalità campo £G98CN di £G98",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001178.md"
-},{
-id: 3224,
-title: "Correzione in PTF riguardante NTSTRU",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001183.md"
-},{
-id: 3225,
-title: "Errori su gestione liste oggetti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001184.md"
-},{
-id: 3226,
-title: "Importante errore su interrogazioni loocup",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001188.md"
-},{
-id: 3227,
-title: "Pre compilatore",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001190.md"
-},{
-id: 3228,
-title: "Correzione errore rilevante in gestione flags",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001198.md"
-},{
-id: 3229,
-title: "Gestore esecuzione programma batch&#x2f;interattivo",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001203.md"
-},{
-id: 3230,
-title: "Autorizzazioni su gestione dati ente&#x2f;articolo",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001206.md"
-},{
-id: 3231,
-title: "Corretto errore in invio mail di £G53 eseguita in",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001207.md"
-},{
-id: 3232,
-title: "Distribuzione errata definizione campi tabella",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001216.md"
-},{
-id: 3233,
-title: "Errore in ritorno dati pianificazione articolo",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001219.md"
-},{
-id: 3234,
-title: "Errore in costruzione fonti LOA15",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001222.md"
-},{
-id: 3235,
-title: "Problema in ricompilazione repliche programmi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001223.md"
-},{
-id: 3236,
-title: "Errore in invio mail batch con £G53",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001235.md"
-},{
-id: 3237,
-title: "Indagine utilizzo campi tabella B£Q forma di rappr",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001236.md"
-},{
-id: 3238,
-title: "Scansione logistica ciclo&#x2f;distinta",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001237.md"
-},{
-id: 3239,
-title: "Errore su Filtri OAV SCP_QRY",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001238.md"
-},{
-id: 3240,
-title: "Pulizia QTEMP al cambio ambiente",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001244.md"
-},{
-id: 3241,
-title: "Gestione note in ambiente grafico",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001245.md"
-},{
-id: 3242,
-title: "Patch AOP per invio mail su SMTPS",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001250.md"
-},{
-id: 3243,
-title: "Riempimento anomalo QRPLOBJ",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001253.md"
-},{
-id: 3244,
-title: "Correzione Ptffone per ambienti multiaziendali",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001256.md"
-},{
-id: 3245,
-title: "Errore su MDV Estese",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001257.md"
-},{
-id: 3246,
-title: "Errore su filtri F13 Loocup",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001268.md"
-},{
-id: 3247,
-title: "Errore &#x2f;COPY £SQLS_PC1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001272.md"
-},{
-id: 3248,
-title: "Gestione note strutturate",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001273.md"
-},{
-id: 3249,
-title: "Errore £H80 in scrittura",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI001282.md"
-},{
-id: 3250,
-title: "Problema £OAV in scansione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001285.md"
-},{
-id: 3251,
-title: "Selezione Parametro Modulo",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001287.md"
-},{
-id: 3252,
-title: "Reintroduzione istruzione FEOD in alcuni programmi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001290.md"
-},{
-id: 3253,
-title: "Correzione memory leak £G80",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001300.md"
-},{
-id: 3254,
-title: "Correzione costruzione OAV parametri",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/B£_NTI001301.md"
-},{
-id: 3255,
-title: "Revisione £G53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001304.md"
-},{
-id: 3256,
-title: "Accessibilità upgrade rilascio",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001306.md"
-},{
-id: 3257,
-title: "Recupero codice articolo in eventi di rilevazione",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001307.md"
-},{
-id: 3258,
-title: "Corretto errore in scansione distinta documenti",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001309.md"
-},{
-id: 3259,
-title: "Errore UP SQL con valori contenenti spazi multipli",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001316.md"
-},{
-id: 3260,
-title: "Tipo accesso sessioni per esecuzione rilasci",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI001318.md"
-},{
-id: 3261,
-title: "Inserimento caratteri non validi tramite input pan",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001320.md"
-},{
-id: 3262,
-title: "Miglioramento alcune PTF V5R1",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001322.md"
-},{
-id: 3263,
-title: "Correzioni calcolo periodi Calendario V4R1 e V5R1",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001326.md"
-},{
-id: 3264,
-title: "Modifiche apportate alla £G53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001337.md"
-},{
-id: 3265,
-title: "Miglioramenti UP PTF",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001344.md"
-},{
-id: 3266,
-title: "Modifica £K17",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001349.md"
-},{
-id: 3267,
-title: "Download SAVF rilascio Sme.UP ERP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001351.md"
-},{
-id: 3268,
-title: "Errore in creazione PDF tramite AOP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001354.md"
-},{
-id: 3269,
-title: "Correzione errore UP UT3",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001358.md"
-},{
-id: 3270,
-title: "Errore in gestione tabelle da Looc.UP e Web.UP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001362.md"
-},{
-id: 3271,
-title: "Correzione Apertura file nella routine £IDO",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001366.md"
-},{
-id: 3272,
-title: "Corretto errore di aggiornamento puntatore con G75",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001371.md"
-},{
-id: 3273,
-title: "Errore LOA36 in inserimento oggetti gestiti a WF",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001377.md"
-},{
-id: 3274,
-title: "Errore su combo ed autocomplete&#x3a; applicazione filt",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001380.md"
-},{
-id: 3275,
-title: "Errore grave su file di work LOWKXT",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001402.md"
-},{
-id: 3276,
-title: "Rilascio scaricabile",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001411.md"
-},{
-id: 3277,
-title: "Errore calcolo HASH validazione link Web.UP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001418.md"
-},{
-id: 3278,
-title: "Programmi da ricompilare",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001423.md"
-},{
-id: 3279,
-title: "Corretti errore nella gestione del setup di defaul",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001424.md"
-},{
-id: 3280,
-title: "Correzioni £H80",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001432.md"
-},{
-id: 3281,
-title: "Gestione tabelle in ambiente grafico",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001437.md"
-},{
-id: 3282,
-title: "Corretto errore in gestione lock LOA36_SM",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001438.md"
-},{
-id: 3283,
-title: "Modifica indicazione numero di sequenza sorgenti",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001441.md"
-},{
-id: 3284,
-title: "Errore in copia oggetti tramite A36",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001447.md"
-},{
-id: 3285,
-title: "Correzione £G98",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001455.md"
-},{
-id: 3286,
-title: "Posizionamento B£J A- in Menù Oggetto",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001460.md"
-},{
-id: 3287,
-title: "Filtro azioni B£H&#x2f;B£J per device",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001469.md"
-},{
-id: 3288,
-title: "ZOOM sui flag dalla lista campi",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001472.md"
-},{
-id: 3289,
-title: "Correzione £G53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001474.md"
-},{
-id: 3290,
-title: "Migliorata compatibilità nomi file con $ in £G53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001477.md"
-},{
-id: 3291,
-title: "ID AOP Duplicato",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001482.md"
-},{
-id: 3292,
-title: "SAVF aggiornati SMEDEV nuovamente disponibili",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001486.md"
-},{
-id: 3293,
-title: "Correzione tool applicazione SDST PTF Fatturazione",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI001494.md"
-},{
-id: 3294,
-title: "Aggiornamento pacchetto Fattura Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/B£_NTI001497.md"
-},{
-id: 3295,
-title: "Gestione Configurazioni",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001526.md"
-},{
-id: 3296,
-title: "Errore su Azioni di Gestione Oggetto",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001534.md"
-},{
-id: 3297,
-title: "Errore su Exit B£EQRY_SEU",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/B£_NTI001537.md"
-},{
-id: 3298,
-title: "Oscuramento della divisione.",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/C5_NTI000015.md"
-},{
-id: 3299,
-title: "Valorizzazione Crediti&#x2f;Debiti in Valuta a fine ann",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/C5_NTI000045.md"
-},{
-id: 3300,
-title: "Riscontri su Elenchi Intracomunitari",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/C5_NTI000061.md"
-},{
-id: 3301,
-title: "Gestione Fatture Intra su Pubblicazioni&#x2f;Editoria",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/C5_NTI000063.md"
-},{
-id: 3302,
-title: "Progetto Incassi &#x2f; Pagamenti",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/C5_NTI000072.md"
-},{
-id: 3303,
-title: "Modifica struttura associazione conti-tipo registr",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/C5_NTI000083.md"
-},{
-id: 3304,
-title: "Cancellazione automatica righe modello analitica m",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/C5_NTI000096.md"
-},{
-id: 3305,
-title: "PTF integrativa per gestione obbligatorietà su",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000158.md"
-},{
-id: 3306,
-title: "Precisazioni su implementazioni Allegati IVA",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000187.md"
-},{
-id: 3307,
-title: "Corretto Errore controllo Fatture Passive",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000216.md"
-},{
-id: 3308,
-title: "Correzione errore in estrazione banche da C5BANC",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000229.md"
-},{
-id: 3309,
-title: "Modifica ai pgm dell&#x27;IVA per Cassa",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000297.md"
-},{
-id: 3310,
-title: "Trasmissione Intrastat prestazione di servizi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000370.md"
-},{
-id: 3311,
-title: "Correzione Ripresa Descrizioni Estese da File di R",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000389.md"
-},{
-id: 3312,
-title: "Condizione su Indici Contabili Clienti&#x2f;Fornitori",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000390.md"
-},{
-id: 3313,
-title: "Rettifica Costruz.ID Mov.di Rem.Banking",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000402.md"
-},{
-id: 3314,
-title: "Prestazioni di Servizi con l&#x27;Estero - Integrazion",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000406.md"
-},{
-id: 3315,
-title: "Rettifiche Intra per Servizi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000454.md"
-},{
-id: 3316,
-title: "Correzione Controllo fatture Ordini",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000481.md"
-},{
-id: 3317,
-title: "Correzioni su Black List",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000485.md"
-},{
-id: 3318,
-title: "Imprecisione su Programmi Blacklist",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000486.md"
-},{
-id: 3319,
-title: "Conferma su Black List",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000487.md"
-},{
-id: 3320,
-title: "Errore BlackList con Intermediario",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000488.md"
-},{
-id: 3321,
-title: "Correzioni su Black List",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C5_NTI000498.md"
-},{
-id: 3322,
-title: "Errore Verifica Coordinate Banca",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000528.md"
-},{
-id: 3323,
-title: "Errore su Gest. Competenza",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000536.md"
-},{
-id: 3324,
-title: "Errore su Controllo Swift",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000537.md"
-},{
-id: 3325,
-title: "Selezione Titoli su Pratiche",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000540.md"
-},{
-id: 3326,
-title: "Note credito in stampa certificazione",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000551.md"
-},{
-id: 3327,
-title: "Black List su Emirati Arabi",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000552.md"
-},{
-id: 3328,
-title: "Ripresa Intra da Documenti",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000560.md"
-},{
-id: 3329,
-title: "Errore su Stampa Allegati Bilancio",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000578.md"
-},{
-id: 3330,
-title: "Errore su Stampa Registri IVA",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000585.md"
-},{
-id: 3331,
-title: "Errore su Chiusure in Valuta",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000600.md"
-},{
-id: 3332,
-title: "Errore Black List V3R1",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000607.md"
-},{
-id: 3333,
-title: "Errore su Setup Colonne Aggiuntive",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C5_NTI000614.md"
-},{
-id: 3334,
-title: "Errore su Note in 770 per compenso",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000624.md"
-},{
-id: 3335,
-title: "Errore in C5NO00N per ambienti in lingua",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000633.md"
-},{
-id: 3336,
-title: "Errore su Distinte Bonifico",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000665.md"
-},{
-id: 3337,
-title: "Errore su Richiesta Parametri Bilancio di Verifica",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000671.md"
-},{
-id: 3338,
-title: "Correzioni su Spesometro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000685.md"
-},{
-id: 3339,
-title: "Errore su Spesometro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000694.md"
-},{
-id: 3340,
-title: "Errore su Cumulo Effetti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000728.md"
-},{
-id: 3341,
-title: "Spesometro &#x3c; 3.000 Euro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000750.md"
-},{
-id: 3342,
-title: "Spesometro - Punto della Situazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000751.md"
-},{
-id: 3343,
-title: "Aggiornamento Spesometro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000754.md"
-},{
-id: 3344,
-title: "Errore su Analitica",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000755.md"
-},{
-id: 3345,
-title: "Errore su PTF Rate V3R1&#x2f;2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000764.md"
-},{
-id: 3346,
-title: "Blacklist V2R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000769.md"
-},{
-id: 3347,
-title: "Anomalia C5 DEV 14-19&#x2f;07",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000791.md"
-},{
-id: 3348,
-title: "Errore Riallineamento Giornale",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000792.md"
-},{
-id: 3349,
-title: "Anomalia su Blacklist",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000794.md"
-},{
-id: 3350,
-title: "Errore Anagrafiche Datate",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000799.md"
-},{
-id: 3351,
-title: "Errore su Bilancio Grafico",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000826.md"
-},{
-id: 3352,
-title: "Iva per Cassa dal 1° Dicembre",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000831.md"
-},{
-id: 3353,
-title: "Errore su Ctr. Note Blacklist",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000842.md"
-},{
-id: 3354,
-title: "Iva per Cassa su Imposta a 0",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000848.md"
-},{
-id: 3355,
-title: "Inversione di linea Bilancio Looc.Up",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000855.md"
-},{
-id: 3356,
-title: "Anomalia DEV 25&#x2f;12-09&#x2f;01&#x2f;13",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000865.md"
-},{
-id: 3357,
-title: "Formattazione Numeratore Protocollo IVA",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000870.md"
-},{
-id: 3358,
-title: "Integrazione News 001884",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000876.md"
-},{
-id: 3359,
-title: "Controllo fatture bolle senza prezzo",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000885.md"
-},{
-id: 3360,
-title: "Schede Bilancio&#x3a; segno importi conti economici",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000889.md"
-},{
-id: 3361,
-title: "Corrispettivi&#x3a; controllo imonibili iva",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000890.md"
-},{
-id: 3362,
-title: "CUP e CIG in trasmissione Bonifici",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000900.md"
-},{
-id: 3363,
-title: "Errore Interrogazione Lista Mastrini",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000901.md"
-},{
-id: 3364,
-title: "Spesometro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000910.md"
-},{
-id: 3365,
-title: "gg ritardo su esiti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000911.md"
-},{
-id: 3366,
-title: "Cancellazione Rate Esiti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000912.md"
-},{
-id: 3367,
-title: "Utility Giroconto Scadenze Aperte",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000916.md"
-},{
-id: 3368,
-title: "Errore su Intra",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000918.md"
-},{
-id: 3369,
-title: "Replica fissa in £IFCON di £C6D",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000922.md"
-},{
-id: 3370,
-title: "Errore su Gestione Competenza",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000923.md"
-},{
-id: 3371,
-title: "Rilevanza Valuta e&#x2f;o Intercompany nella scheda mas",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000929.md"
-},{
-id: 3372,
-title: "Anomalia Scheda Scadenzario",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000931.md"
-},{
-id: 3373,
-title: "Instrastat&#x3a; Modifica Ripresa Documenti Acquisto",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000933.md"
-},{
-id: 3374,
-title: "Schede Sezioni Bilancio",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000935.md"
-},{
-id: 3375,
-title: "Correzione 770",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000941.md"
-},{
-id: 3376,
-title: "No Cto&#x2f;lavoro Intrastat",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000951.md"
-},{
-id: 3377,
-title: "Data su Schede IVA",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000952.md"
-},{
-id: 3378,
-title: "Aggiornamento Spesometro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000963.md"
-},{
-id: 3379,
-title: "Spesometro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000965.md"
-},{
-id: 3380,
-title: "Aggiornamenti Spesometro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000967.md"
-},{
-id: 3381,
-title: "Correzione Scheda Mastrini V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000968.md"
-},{
-id: 3382,
-title: "Compensazione IVA a 700.000 euro",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI000988.md"
-},{
-id: 3383,
-title: "Errore su PTF Sepa 32",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI000996.md"
-},{
-id: 3384,
-title: "Errore Trasmissione Black List",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001000.md"
-},{
-id: 3385,
-title: "Stampa Giornale 4.1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001003.md"
-},{
-id: 3386,
-title: "Comunicazione Black List e San Marino Iva Trimestr",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001014.md"
-},{
-id: 3387,
-title: "Errore Su Bonifici Sepa Esteri",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001022.md"
-},{
-id: 3388,
-title: "Rettifica Estrazione Dati Black List",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001029.md"
-},{
-id: 3389,
-title: "Sequenza Mandato SDD con più scadenze",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001032.md"
-},{
-id: 3390,
-title: "Modifiche Scheda Bilancio",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001037.md"
-},{
-id: 3391,
-title: "Rettifica NTI 001029 Blacklist",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001041.md"
-},{
-id: 3392,
-title: "770 - Integrazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001042.md"
-},{
-id: 3393,
-title: "Differenze % su Schede Bilancio",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001045.md"
-},{
-id: 3394,
-title: "Errore richiamo Surf contabilità V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C5_NTI001046.md"
-},{
-id: 3395,
-title: "Rettifica Registrazioni Chiusura Esercizio",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001052.md"
-},{
-id: 3396,
-title: "Intrastat&#x3a; Annullamento Trasmissione Definitiva",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001055.md"
-},{
-id: 3397,
-title: "Segnalazioni Errate su Blacklist",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001056.md"
-},{
-id: 3398,
-title: "Pareggio Partite in Valuta",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001058.md"
-},{
-id: 3399,
-title: "Errore Importi Non Soggetti Ritenuta",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001059.md"
-},{
-id: 3400,
-title: "Schede Partitario&#x2f;Scadenzario",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001061.md"
-},{
-id: 3401,
-title: "Segnalazioni Errate su Black List",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001065.md"
-},{
-id: 3402,
-title: "Scheda Analisi Incassi&#x2f;Pagamenti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001067.md"
-},{
-id: 3403,
-title: "Filtri su Scheda Scadenzario",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001068.md"
-},{
-id: 3404,
-title: "Errore su Gestione Titoli",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001077.md"
-},{
-id: 3405,
-title: "Pagamenti su Schede Ritenute",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001082.md"
-},{
-id: 3406,
-title: "Errori su Partitario 15&#x2f;10-18&#x2f;11",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001088.md"
-},{
-id: 3407,
-title: "Rettifiche Analisi Fatturato",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001095.md"
-},{
-id: 3408,
-title: "Certificazione Unica - Rettifica",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001117.md"
-},{
-id: 3409,
-title: "Certificazione Unica - Integrazioni",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001119.md"
-},{
-id: 3410,
-title: "Certificazione Unica - Integrazioni 2",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001121.md"
-},{
-id: 3411,
-title: "Certificazione Unica - Integrazioni 3",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001123.md"
-},{
-id: 3412,
-title: "Correzioni a scheda partitario",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001124.md"
-},{
-id: 3413,
-title: "Certificazione Unica - Integrazioni 4",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001127.md"
-},{
-id: 3414,
-title: "Spesometro 2015 - Integrazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001132.md"
-},{
-id: 3415,
-title: "Errore Quadro BL - Spesometro",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001137.md"
-},{
-id: 3416,
-title: "Fatturazione PA - Errori su Anagrafica Enti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001140.md"
-},{
-id: 3417,
-title: "Spesometro - Integrazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001141.md"
-},{
-id: 3418,
-title: "Quantità rilevata nei lotti in controllo fatture",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001144.md"
-},{
-id: 3419,
-title: "Differenze cambio per divisione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001153.md"
-},{
-id: 3420,
-title: "Intra con Raggruppamento Servizi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001157.md"
-},{
-id: 3421,
-title: "Correzione Calcolo Competenza",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001161.md"
-},{
-id: 3422,
-title: "Errore su Bilancio Contabile Loocup",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001170.md"
-},{
-id: 3423,
-title: "Chiusure&#x2f;Aperture Multidivisione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001173.md"
-},{
-id: 3424,
-title: "Errore su manutenzione movimenti intra in loocup",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001174.md"
-},{
-id: 3425,
-title: "Importi su ricerca registrazioni loocup",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001180.md"
-},{
-id: 3426,
-title: "Filtro scadenze negative su scadenzario",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001181.md"
-},{
-id: 3427,
-title: "Interrogazione Dettaglio Analitica",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001185.md"
-},{
-id: 3428,
-title: "Esclusione movimenti simulati su scheda scadenzari",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001195.md"
-},{
-id: 3429,
-title: "Errore su Registrazione Risultato Multidivisione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001208.md"
-},{
-id: 3430,
-title: "Scheda controllo Generale &#x2f; IVA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001211.md"
-},{
-id: 3431,
-title: "Implementazioni Tecniche sulla Contabilità",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001214.md"
-},{
-id: 3432,
-title: "Rettifica Sepa MGO",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001218.md"
-},{
-id: 3433,
-title: "Errore su Liquidazione Iva",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001221.md"
-},{
-id: 3434,
-title: "PDF su Certificazione Unica",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001224.md"
-},{
-id: 3435,
-title: "Errore su differenze cambio fine anno su rate",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001225.md"
-},{
-id: 3436,
-title: "Errore su caso movimenti iva per contropartita",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001227.md"
-},{
-id: 3437,
-title: "CU - Errore su Anticipi ai Minimi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001231.md"
-},{
-id: 3438,
-title: "PDF Spesometro su V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001233.md"
-},{
-id: 3439,
-title: "Spesometro - Rendering Gestione Dettaglio Loocup",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001240.md"
-},{
-id: 3440,
-title: "Mancata segnalazione su movimenti blacklist",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001241.md"
-},{
-id: 3441,
-title: "Errore codice Swift su Contabilità 01&#x2f;01&#x2f;2016-21&#x2f;0",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001247.md"
-},{
-id: 3442,
-title: "Adeguamento tracciati file C5DLOG0F - Registrazion",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001249.md"
-},{
-id: 3443,
-title: "Riferimento Fiscale Trasmissione Riba",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001264.md"
-},{
-id: 3444,
-title: "Errore su annllamento della contabilizzazione anal",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001267.md"
-},{
-id: 3445,
-title: "Correzione su modulo 770 - Prospetto SY",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001281.md"
-},{
-id: 3446,
-title: "Errore su Chiusure&#x2f;Aperture",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C5_NTI001293.md"
-},{
-id: 3447,
-title: "Errore Grafico Saldaconto",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001310.md"
-},{
-id: 3448,
-title: "Errore su Ricerca Esercizio",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001313.md"
-},{
-id: 3449,
-title: "Dichiarazioni di Intento - Integrazione per chi vu",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001330.md"
-},{
-id: 3450,
-title: "Certificazione Unica 2017 - Causale ZO",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001332.md"
-},{
-id: 3451,
-title: "Calcolo contropartita",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001342.md"
-},{
-id: 3452,
-title: "Importante su release V5R1 - Errore su controllo C",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001346.md"
-},{
-id: 3453,
-title: "Errore su note Liquidazione Iva",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001361.md"
-},{
-id: 3454,
-title: "Correzioni Comunicazione Periodica Liquidazione IV",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001364.md"
-},{
-id: 3455,
-title: "770 Quadro SY - Omissione Imponibili con ritenuta",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001381.md"
-},{
-id: 3456,
-title: "Errore su Paginazione Liste No SQL su V5R1",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001384.md"
-},{
-id: 3457,
-title: "Associazione multipla dichiarazioni di intento a r",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001386.md"
-},{
-id: 3458,
-title: "Aggiornamento Comunicazione Fatture emesse e ricev",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001387.md"
-},{
-id: 3459,
-title: "Aggiornamento Comunicazione Fatture emesse e ricev",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001388.md"
-},{
-id: 3460,
-title: "Aggiornamento Comunicazione Fatture emesse e ricev",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001391.md"
-},{
-id: 3461,
-title: "Aggiornamento Comunicazione Fatture emesse e ricev",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001397.md"
-},{
-id: 3462,
-title: "Modifiche a Gestione Dichiarazioni di Intento",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001431.md"
-},{
-id: 3463,
-title: "Note su Collegamento Bolle Doganali - Fatture Forn",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001439.md"
-},{
-id: 3464,
-title: "Superammortamento cespite minore non ammortizzato",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001440.md"
-},{
-id: 3465,
-title: "Intra - Trasmissione Codici Servizi a 5 Caratteri",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001442.md"
-},{
-id: 3466,
-title: "Intra - Trasmissione Dati Fiscali su Acquisti",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001443.md"
-},{
-id: 3467,
-title: "Trasmissione Rettifiche Fatture Emesse e Ricevute",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001452.md"
-},{
-id: 3468,
-title: "Errori su Label Totali del Partitario Loocup.",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001499.md"
-},{
-id: 3469,
-title: "Rettifica data competenza iva in contabilizzazione",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001504.md"
-},{
-id: 3470,
-title: "Pacchetto FE con Fatturazione Elettronica passiva",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/C5_NTI001507.md"
-},{
-id: 3471,
-title: "Ciclo passivo FE - Allineamento pgm C5E401E",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001508.md"
-},{
-id: 3472,
-title: "Correzione per errore grave su FE Passiva",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/C5_NTI001510.md"
-},{
-id: 3473,
-title: "Errore grave su FE Passiva",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/C5_NTI001511.md"
-},{
-id: 3474,
-title: "Errori protocollazione IVA su FE Passiva",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001512.md"
-},{
-id: 3475,
-title: "FE&#x3a; blocco Looc.UP su visualizzazione XML fattura",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/C5_NTI001515.md"
-},{
-id: 3476,
-title: "Errore grave su Dt ricezione FE passiva",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/C5_NTI001518.md"
-},{
-id: 3477,
-title: "Rettifica NTI 001518 - Errore grave su Dt ricezion",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001520.md"
-},{
-id: 3478,
-title: "Errore grave su Dt ricezione FE passiva - Ulterior",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001522.md"
-},{
-id: 3479,
-title: "Aggiornamento pacchetti Fatturazione Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/C5_NTI001523.md"
-},{
-id: 3480,
-title: "Fatture elaborate correttamente segnalate come in",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/C5_NTI001524.md"
-},{
-id: 3481,
-title: "Correzioni Esterometro",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001530.md"
-},{
-id: 3482,
-title: "Correzione esterometro su documenti no iva",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001532.md"
-},{
-id: 3483,
-title: "Comunicazione periodica IVA&#x3a; modifiche estrazione",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001535.md"
-},{
-id: 3484,
-title: "Correzione liquidazione periodica IVA",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C5_NTI001536.md"
-},{
-id: 3485,
-title: "Gestione Configurazioni",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/CF_NTI000375.md"
-},{
-id: 3486,
-title: "BUIL_up Configuratore",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/CF_NTI000573.md"
-},{
-id: 3487,
-title: "Script di configurazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/CF_NTI000707.md"
-},{
-id: 3488,
-title: "Correzione Parzializzatore cicli di collaudo",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/CQ_NTI000190.md"
-},{
-id: 3489,
-title: "Correzioni CQER11_SM",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/CQ_NTI000577.md"
-},{
-id: 3490,
-title: "Correzioni CQER11_S2",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/CQ_NTI000583.md"
-},{
-id: 3491,
-title: "Revisione Documenti Q9000",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/CQ_NTI000626.md"
-},{
-id: 3492,
-title: "Registrazioni di magazzino post-collaudo",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/CQ_NTI000772.md"
-},{
-id: 3493,
-title: "Navigazione richieste di intervento per tipo",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/CQ_NTI000820.md"
-},{
-id: 3494,
-title: "Correzione controlli pre-cancellazione lotto",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/CQ_NTI000833.md"
-},{
-id: 3495,
-title: "Gestione dei Task - procedura",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/CQ_NTI000888.md"
-},{
-id: 3496,
-title: "Revisione tabella CQL",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/CQ_NTI000936.md"
-},{
-id: 3497,
-title: "Errore Gestione Metodi e Procedure",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/CQ_NTI000945.md"
-},{
-id: 3498,
-title: "Errore calcolo piano di campionamento in generazio",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/CQ_NTI000993.md"
-},{
-id: 3499,
-title: "Compresenza £ILO e campi tracciato V5TDOC0F",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/CQ_NTI001004.md"
-},{
-id: 3500,
-title: "Interfaccia Lotti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/CQ_NTI001072.md"
-},{
-id: 3501,
-title: "Cambio chiavi parametri per non conformità",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/CQ_NTI001248.md"
-},{
-id: 3502,
-title: "Doppia movimentazione Collaudo Lotti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/CQ_NTI001255.md"
-},{
-id: 3503,
-title: "Correzione errore nel ritorno della ricerca per i",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/CQ_NTI001370.md"
-},{
-id: 3504,
-title: "Scollegamento lotto qualità",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/CQ_NTI001427.md"
-},{
-id: 3505,
-title: "Corretto errore menù CQ da modello",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/CQ_NTI001436.md"
-},{
-id: 3506,
-title: "Correzione errore in copia parametri",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/C£_NTI000036.md"
-},{
-id: 3507,
-title: "Primo rilascio modelli dinamici",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/C£_NTI000123.md"
-},{
-id: 3508,
-title: "Modifica in gestione copia paramentri non autorizz",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C£_NTI000146.md"
-},{
-id: 3509,
-title: "Valuta in scheda listini",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/C£_NTI000364.md"
-},{
-id: 3510,
-title: "Gestione Lock parametri",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/C£_NTI000492.md"
-},{
-id: 3511,
-title: "Errore £C£E con logico 5L",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C£_NTI000746.md"
-},{
-id: 3512,
-title: "Gestione parametri",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/C£_NTI000907.md"
-},{
-id: 3513,
-title: "Scansione parametri",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C£_NTI001038.md"
-},{
-id: 3514,
-title: "Errore su Scansione Parametri",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C£_NTI001098.md"
-},{
-id: 3515,
-title: "Gestione parametri non conformita con Workflow att",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C£_NTI001186.md"
-},{
-id: 3516,
-title: "Modificata funzione ARC di £C£E",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C£_NTI001226.md"
-},{
-id: 3517,
-title: "Correzione £C£E",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C£_NTI001230.md"
-},{
-id: 3518,
-title: "Surf dei listini",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/C£_NTI001275.md"
-},{
-id: 3519,
-title: "Aggiunta gestione sottosettori nel deviatore",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C£_NTI001373.md"
-},{
-id: 3520,
-title: "Correzione in surf listino su Natura proprietaria",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/C£_NTI001457.md"
-},{
-id: 3521,
-title: "Decimali nel calcolo costi alla fase",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/D0_NTI000025.md"
-},{
-id: 3522,
-title: "Modifica tipo scansione in calcolo costo",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/D0_NTI000408.md"
-},{
-id: 3523,
-title: "Esclusione OP dal calcolo costi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/D0_NTI001034.md"
-},{
-id: 3524,
-title: "Mancata ripresa scenario fiscale costo MED",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/D0_NTI001047.md"
-},{
-id: 3525,
-title: "Sistemazione CL applicativo D0",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/D0_NTI001079.md"
-},{
-id: 3526,
-title: "Selezioni esterne in calcolo costi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/D0_NTI001085.md"
-},{
-id: 3527,
-title: "Modifica calcolo costo medio e gen. cicli consunt.",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/D0_NTI001151.md"
-},{
-id: 3528,
-title: "Correzione navigazione costi base configurati",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/D0_NTI001246.md"
-},{
-id: 3529,
-title: "Anomalia in reperimento costo da listino",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/D0_NTI001269.md"
-},{
-id: 3530,
-title: "Generazione cicli  per costo WIP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/D0_NTI001283.md"
-},{
-id: 3531,
-title: "Modifica deviatore D5CO01G",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/D5_NTI000228.md"
-},{
-id: 3532,
-title: "Rigenerazione cubi su PC e cache browser",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/D9_NTI000202.md"
-},{
-id: 3533,
-title: "Help su campi scheda D5COSO",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/D9_NTI000451.md"
-},{
-id: 3534,
-title: "Errore Rettifiche Inventario",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/GM_NTI000005.md"
-},{
-id: 3535,
-title: "PTF GM50506A",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/GM_NTI000018.md"
-},{
-id: 3536,
-title: "Modifica logico GMMOVI3L",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/GM_NTI000048.md"
-},{
-id: 3537,
-title: "Fasatura Allocato&#x2f;Atteso in GMQUAN",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/GM_NTI000053.md"
-},{
-id: 3538,
-title: "Modifica tracciato GMSIAN",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/GM_NTI000068.md"
-},{
-id: 3539,
-title: "Nuovo flag in GMMOVI",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000183.md"
-},{
-id: 3540,
-title: "Nuovo flag in GMMOVI - rettifica",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000184.md"
-},{
-id: 3541,
-title: "Gestione allocato atteso",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000245.md"
-},{
-id: 3542,
-title: "Apertura progetto Olii &#x2f; Prodotti energetici",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000274.md"
-},{
-id: 3543,
-title: "Correzione programma di creazione dati Inventario",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000279.md"
-},{
-id: 3544,
-title: "Funzion generale-Gestione transaz.magazzino",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000327.md"
-},{
-id: 3545,
-title: "Correzione subfile sintesi magazzino",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000398.md"
-},{
-id: 3546,
-title: "Richiesta informazioni su dati articolo&#x2f;magazzino",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000429.md"
-},{
-id: 3547,
-title: "Correzione ricorsione parzializzatore ubicazioni",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/GM_NTI000524.md"
-},{
-id: 3548,
-title: "Corretto errore in £GMZ",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/GM_NTI000556.md"
-},{
-id: 3549,
-title: "Corretto errore in £GMZ e £GMW",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/GM_NTI000564.md"
-},{
-id: 3550,
-title: "Corretto err in Costr&#x2f;Val Foto Maga",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/GM_NTI000623.md"
-},{
-id: 3551,
-title: "Lista giacenze di magazzino",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000651.md"
-},{
-id: 3552,
-title: "Estrazione inventari da giacenza alla data",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000696.md"
-},{
-id: 3553,
-title: "Applicazione di una transazione di magazzino",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000712.md"
-},{
-id: 3554,
-title: "Gestione ubicazioni",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000716.md"
-},{
-id: 3555,
-title: "Scansione giacenza",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000717.md"
-},{
-id: 3556,
-title: "Scorta da previsioni",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000722.md"
-},{
-id: 3557,
-title: "Errata Corrige NTI 000722",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000723.md"
-},{
-id: 3558,
-title: "Correzione Routine £GMG per gestione ente secondar",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000783.md"
-},{
-id: 3559,
-title: "Spenta risalita a periodi precedenti nel recupero",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000811.md"
-},{
-id: 3560,
-title: "Leggere subito&#x3a; progetto eliminazione omit",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000825.md"
-},{
-id: 3561,
-title: "Errore date 2013 su colli. V2R3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/GM_NTI000864.md"
-},{
-id: 3562,
-title: "Precisazioni su news 001879",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000869.md"
-},{
-id: 3563,
-title: "Analisi Giacenze in Loocup",
-cat: "NTI",
-rel: "V3R3",
-href: "Sorgenti/NTI/GM_NTI000872.md"
-},{
-id: 3564,
-title: "Richiesta informazioni Loocup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/GM_NTI000873.md"
-},{
-id: 3565,
-title: "Richiesta informazioni su magazzino fiscale",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/GM_NTI000953.md"
-},{
-id: 3566,
-title: "Collegamento fra i documenti e la logistica",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/GM_NTI001039.md"
-},{
-id: 3567,
-title: "Controllo plant in applicazione movimenti di magaz",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/GM_NTI001115.md"
-},{
-id: 3568,
-title: "Gestione righe Richieste di Movimentazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/GM_NTI001129.md"
-},{
-id: 3569,
-title: "Richieste di movimetazione - Allocazione",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/GM_NTI001319.md"
-},{
-id: 3570,
-title: "Modificata determinazione giacenza a una data",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/GM_NTI001409.md"
-},{
-id: 3571,
-title: "Modifiche in costruzione foto di magazzino",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/GM_NTI001412.md"
-},{
-id: 3572,
-title: "Scheda di magazzino dell&#x27;articolo",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/GM_NTI001451.md"
-},{
-id: 3573,
-title: "",
-cat: "NTI",
-rel: "",
-href: "Sorgenti/NTI/INDEX.md"
-},{
-id: 3574,
-title: "Modifiche alla comunicazione nelle matrici di aggi",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/JA_NTI000038.md"
-},{
-id: 3575,
-title: "Standard nella costruzione dell&#x27;XML",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/JA_NTI000080.md"
-},{
-id: 3576,
-title: "Modifiche ed estensioni servizio JA_00_05",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000133.md"
-},{
-id: 3577,
-title: "Modifica subroutine standard nei servizi Looc.up",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000145.md"
-},{
-id: 3578,
-title: "Download files da webup tramite la servlet Documen",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000151.md"
-},{
-id: 3579,
-title: "Correzione errore in £Jax_C3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000181.md"
-},{
-id: 3580,
-title: "Server LPD per stampa PDF e modifica configurazion",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000212.md"
-},{
-id: 3581,
-title: "Gestione code stampa in LPD PDF",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000222.md"
-},{
-id: 3582,
-title: "Gestione tabelle in Looc.UP",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000260.md"
-},{
-id: 3583,
-title: "Modifica LOG di loocup&#x2f;webup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000319.md"
-},{
-id: 3584,
-title: "Creazione variabili dai servizi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000320.md"
-},{
-id: 3585,
-title: "Matrici&#x2f;Alberi da Query per strutture dati",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000324.md"
-},{
-id: 3586,
-title: "Spostamento Template dei Servizi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000388.md"
-},{
-id: 3587,
-title: "Prototipo servizio SQLRPG con paginazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000420.md"
-},{
-id: 3588,
-title: "Configuratore di tabella",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000430.md"
-},{
-id: 3589,
-title: "Errata Corrige NTI 000456",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/JA_NTI000457.md"
-},{
-id: 3590,
-title: "Scheda di un oggetto",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000636.md"
-},{
-id: 3591,
-title: "Controllo immissione pipe matrice aggiornamento",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000666.md"
-},{
-id: 3592,
-title: "A capo e tab in campi memo",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000667.md"
-},{
-id: 3593,
-title: "Errore gestore vecchi setup utente",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000668.md"
-},{
-id: 3594,
-title: "Matrici",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000734.md"
-},{
-id: 3595,
-title: "Correzione errore RxSOS per CR, LF e TAB",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000745.md"
-},{
-id: 3596,
-title: "Matrici scrittura per line e globale",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000805.md"
-},{
-id: 3597,
-title: "Gestione setup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000807.md"
-},{
-id: 3598,
-title: "Errore valorizz.parametri in schede",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000854.md"
-},{
-id: 3599,
-title: "Costruttore A15 - Reportistica",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/JA_NTI000875.md"
-},{
-id: 3600,
-title: "Salvataggio Setup della Matrice",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/JA_NTI000973.md"
-},{
-id: 3601,
-title: "Procedura di scomposizione di un TAG",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/JA_NTI001009.md"
-},{
-id: 3602,
-title: "Recupero del setup di default",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/JA_NTI001011.md"
-},{
-id: 3603,
-title: "OAV &#x22;Assente&#x22;.",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/JA_NTI001288.md"
-},{
-id: 3604,
-title: "Nuova gestione variabili OAV di script vuote&#x3a; non",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/JA_NTI001305.md"
-},{
-id: 3605,
-title: "Versione Java Virtual Machine su AS400",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/JA_NTI001333.md"
-},{
-id: 3606,
-title: "Problema possibile proliferazione spool",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/JA_NTI001357.md"
-},{
-id: 3607,
-title: "Errore su JATRE_18C in ambiente multilingua",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/JA_NTI001389.md"
-},{
-id: 3608,
-title: "Corretto malfunzionamento in P_RxATT",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/JA_NTI001430.md"
-},{
-id: 3609,
-title: "Errore in esecuzione JMRP",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/JM_NTI000622.md"
-},{
-id: 3610,
-title: "Cartella di immagini per documentazione",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/LO_NTI000024.md"
-},{
-id: 3611,
-title: "Unificazione schede in SCP_SCH",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/LO_NTI000026.md"
-},{
-id: 3612,
-title: "Distribuzione aggiornamenti client Looc.up",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/LO_NTI000027.md"
-},{
-id: 3613,
-title: "Compatibilità Loocup vs. SMEUP_DEV",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/LO_NTI000037.md"
-},{
-id: 3614,
-title: "Esportazione in Excel 2003 - Problema password",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/LO_NTI000039.md"
-},{
-id: 3615,
-title: "Problema su timeout lavori di sessione componente",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/LO_NTI000042.md"
-},{
-id: 3616,
-title: "Utilizzo dei servizi AS400 in Looc.up",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/LO_NTI000047.md"
-},{
-id: 3617,
-title: "Generazione immagine XML dello schema",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000054.md"
-},{
-id: 3618,
-title: "Strumenti di controllo prestazioni",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000058.md"
-},{
-id: 3619,
-title: "Installazione Looc-up versione V2R2M060410",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000062.md"
-},{
-id: 3620,
-title: "Nuova gestione Setup Utente multipli e Setup di Sc",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000079.md"
-},{
-id: 3621,
-title: "Formule e Colonne Calcolate",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000085.md"
-},{
-id: 3622,
-title: "Script Controller",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000102.md"
-},{
-id: 3623,
-title: "Compatibilità Loocup con nuova versione Java 1.6",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000110.md"
-},{
-id: 3624,
-title: "Consigli per l&#x27;utilizzo di loocup con rilascio V2",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000115.md"
-},{
-id: 3625,
-title: "Gestione Drag &#x26; Drop e Paginazione in LoocUp",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000122.md"
-},{
-id: 3626,
-title: "Correzione script CN_ADF",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000124.md"
-},{
-id: 3627,
-title: "CTRL - F9 Scheda della memoria",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000128.md"
-},{
-id: 3628,
-title: "Nuova gestione carrelli",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000130.md"
-},{
-id: 3629,
-title: "Tips &#x26;Tricks",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/LO_NTI000131.md"
-},{
-id: 3630,
-title: "Standard per Set&#x27;n play",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000134.md"
-},{
-id: 3631,
-title: "Autorizzazioni operative",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000150.md"
-},{
-id: 3632,
-title: "Compatibilità tra Loocup e Windows Vista",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000167.md"
-},{
-id: 3633,
-title: "Compatibilità Loocup e Vista",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000169.md"
-},{
-id: 3634,
-title: "Attenzione! Incompatibilità loocup con alcune vers",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000188.md"
-},{
-id: 3635,
-title: "Corretta visualizzazione stampe da loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000206.md"
-},{
-id: 3636,
-title: "Gestione tabelle con chiave tipizzata",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000209.md"
-},{
-id: 3637,
-title: "Configuratore&#x3a; descrizioni estese",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000210.md"
-},{
-id: 3638,
-title: "Stampa report da Loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000223.md"
-},{
-id: 3639,
-title: "Correzione in routine standard per matrici di aggi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000227.md"
-},{
-id: 3640,
-title: "Tabella proprietà componenti di LOOC.up",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000238.md"
-},{
-id: 3641,
-title: "Componente Report&#x3a;1. barra dei raggruppamenti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000262.md"
-},{
-id: 3642,
-title: "Immagini degli oggetti in Loocup V2R3M090119",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000266.md"
-},{
-id: 3643,
-title: "Cambio default della Modalità di avvio di Looc.up",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000286.md"
-},{
-id: 3644,
-title: "Wizard editor - script EDT_SCH",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000289.md"
-},{
-id: 3645,
-title: "Copertina in report e in matrice",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000307.md"
-},{
-id: 3646,
-title: "Corretto errore in documentazione loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000308.md"
-},{
-id: 3647,
-title: "Correzione errore in componente Htm di Looc.Up",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000312.md"
-},{
-id: 3648,
-title: "Errori in calcolo altezza righe delle matrici looc",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000317.md"
-},{
-id: 3649,
-title: "Scelta ambiente &#x22;errato&#x22; in Loocup",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000318.md"
-},{
-id: 3650,
-title: "Rilasci di sviluppo in Loocup_test",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000336.md"
-},{
-id: 3651,
-title: "Gestione formato I1 in Loocup e problemi schedulat",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000339.md"
-},{
-id: 3652,
-title: "Diversificazione scheda per tipo file",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000344.md"
-},{
-id: 3653,
-title: "Download di Loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000349.md"
-},{
-id: 3654,
-title: "G18 e SFL&#x3a; correzione a campo in minuscolo",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000352.md"
-},{
-id: 3655,
-title: "Miglior controllo ingressi utente Loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000354.md"
-},{
-id: 3656,
-title: "Deduzione ordinamenti report da raggruppamenti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000363.md"
-},{
-id: 3657,
-title: "Manutenzione tabelle in Loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000367.md"
-},{
-id: 3658,
-title: "Problema installazione Loocup centralizzata",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000368.md"
-},{
-id: 3659,
-title: "Problema su popup consiglio di pianificazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000371.md"
-},{
-id: 3660,
-title: "Miglioramento gestione ingressi utente",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000373.md"
-},{
-id: 3661,
-title: "Gestore setup - G30",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000377.md"
-},{
-id: 3662,
-title: "Tabelle in Loocup - copia tra subsettori diversi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000378.md"
-},{
-id: 3663,
-title: "Configuratore",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000379.md"
-},{
-id: 3664,
-title: "Utilizzo CALL con parametri in LOOCUP",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000383.md"
-},{
-id: 3665,
-title: "Titolo sezione da servizio",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000384.md"
-},{
-id: 3666,
-title: "Salvataggio note da editor Loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000385.md"
-},{
-id: 3667,
-title: "Intestazione colonne numeriche nel SFL",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000394.md"
-},{
-id: 3668,
-title: "Wizard Stampa Report",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000395.md"
-},{
-id: 3669,
-title: "Correzione validazione setup di matrice",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000407.md"
-},{
-id: 3670,
-title: "Report&#x3a; larghezza minima garantita",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000410.md"
-},{
-id: 3671,
-title: "Correzione errore editor di scheda",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000415.md"
-},{
-id: 3672,
-title: "Wizard di scheda",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000434.md"
-},{
-id: 3673,
-title: "Report e colonne grafiche G",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000435.md"
-},{
-id: 3674,
-title: "Dismissione setup SCP_NAV",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000449.md"
-},{
-id: 3675,
-title: "Correzione LOA15",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000455.md"
-},{
-id: 3676,
-title: "Correzione importante per loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000456.md"
-},{
-id: 3677,
-title: "Correzione ricerche Loocup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000459.md"
-},{
-id: 3678,
-title: "Matrice aggiornamento e date A8",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000467.md"
-},{
-id: 3679,
-title: "Costruttori e documentazione",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000468.md"
-},{
-id: 3680,
-title: "Ripristinata scheda Q3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000475.md"
-},{
-id: 3681,
-title: "Corretta paginazione report preparati Statistiche",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000479.md"
-},{
-id: 3682,
-title: "Correzione ricerche Loocup&#x3a; ERRATA CORRIGE",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000480.md"
-},{
-id: 3683,
-title: "Errore nella matrice di aggiornamento.",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/LO_NTI000489.md"
-},{
-id: 3684,
-title: "Looc.Up e Windows 7 a 64 bit",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI000497.md"
-},{
-id: 3685,
-title: "Messaggio di avvertimento in sezioni HTM",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI000500.md"
-},{
-id: 3686,
-title: "Nuovo componente lista immagini",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000509.md"
-},{
-id: 3687,
-title: "Nuova modalità Input Panel",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000510.md"
-},{
-id: 3688,
-title: "Nuovo componente cruscotto",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000511.md"
-},{
-id: 3689,
-title: "Attributo UserSetup",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000512.md"
-},{
-id: 3690,
-title: "Nuove variabili di sottoscheda&#x3a; Ssc.Var",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000513.md"
-},{
-id: 3691,
-title: "Correzione menù per gruppi di accesso",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000515.md"
-},{
-id: 3692,
-title: "Manutenzione tabelle in Loocup",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI000516.md"
-},{
-id: 3693,
-title: "Lunghezza numerici matrice UP SQL",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000518.md"
-},{
-id: 3694,
-title: "Costruzione titolo finestre in LOOC.up",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000519.md"
-},{
-id: 3695,
-title: "WFD compatibilità con dev pre V3R1",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000559.md"
-},{
-id: 3696,
-title: "Correzioni varie su G30 grafico",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000566.md"
-},{
-id: 3697,
-title: "Correzione JA_00_05 in creazione file e directory",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000567.md"
-},{
-id: 3698,
-title: "Integrazione Nota Tecnica 00567",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000568.md"
-},{
-id: 3699,
-title: "Errore rilascio upgrade Looc.Up",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000575.md"
-},{
-id: 3700,
-title: "Errore schede CNCLI_BAS1, DO, DR",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000581.md"
-},{
-id: 3701,
-title: "Risolutore formule&#x3a; modifiche",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000594.md"
-},{
-id: 3702,
-title: "Compatib SmeUP V2R3 e Loocup V3R1",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000598.md"
-},{
-id: 3703,
-title: "Corretto errore in loocup V3R1",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000605.md"
-},{
-id: 3704,
-title: "DBM - Ridenominazione metodi servizio JA_00_19",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000620.md"
-},{
-id: 3705,
-title: "Gestione stampanti lanciato da Ambiente Grafico",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI000635.md"
-},{
-id: 3706,
-title: "Report Loocup&#x3a; ottimizzazione spazio fra master e",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000639.md"
-},{
-id: 3707,
-title: "Correzioni a G30 grafico",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000654.md"
-},{
-id: 3708,
-title: "Correz.paginazione LOA15",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000660.md"
-},{
-id: 3709,
-title: "Refresh ambiente in Looc.Up",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000662.md"
-},{
-id: 3710,
-title: "Rilascio Looc.up Upgrade 21&#x2f;10&#x2f;2011",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000669.md"
-},{
-id: 3711,
-title: "Salvataggio da editor Loocup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000673.md"
-},{
-id: 3712,
-title: "Upgrade Loocup e generazione documenti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000683.md"
-},{
-id: 3713,
-title: "Bottoni custom in scheda.",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000684.md"
-},{
-id: 3714,
-title: "Correzione LOA15",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000692.md"
-},{
-id: 3715,
-title: "Setup Utente in Looc.up V3R1 e V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000697.md"
-},{
-id: 3716,
-title: "Nomi Configuratori - script SCP_CFG",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI000701.md"
-},{
-id: 3717,
-title: "Correzione LOA13",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/LO_NTI000705.md"
-},{
-id: 3718,
-title: "Correzione servizio aggiornamento LOSUP_13",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000732.md"
-},{
-id: 3719,
-title: "G30 - Manutenzione tabelle gestione dati utente",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI000736.md"
-},{
-id: 3720,
-title: "Gestione fonti LOA15",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000739.md"
-},{
-id: 3721,
-title: "Cambiamento Decodifiche Loocup",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000742.md"
-},{
-id: 3722,
-title: "Errore su specifiche dati multiple",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000758.md"
-},{
-id: 3723,
-title: "Controllo processi Loocup in ambiente terminal",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000761.md"
-},{
-id: 3724,
-title: "Report&#x3a; corretto problema non visualizzazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000770.md"
-},{
-id: 3725,
-title: "Report e V2SI&#x2f;NO",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000771.md"
-},{
-id: 3726,
-title: "Report&#x3a; colonne senza intestazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000774.md"
-},{
-id: 3727,
-title: "Report&#x3a; raggruppamenti su colonne Hidden",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000776.md"
-},{
-id: 3728,
-title: "Errore in colonne aggiuntive",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000780.md"
-},{
-id: 3729,
-title: "G30 grafico - inserimento carattere + in campi non",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI000782.md"
-},{
-id: 3730,
-title: "Errore nel modulo grafico di Workflow",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000786.md"
-},{
-id: 3731,
-title: "Varie generazioni PDF da Looc.UP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000789.md"
-},{
-id: 3732,
-title: "Riconoscimento font personalizzato in generazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000790.md"
-},{
-id: 3733,
-title: "Titoli report da variabili di scheda",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000795.md"
-},{
-id: 3734,
-title: "Report&#x3a; correzioni",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000801.md"
-},{
-id: 3735,
-title: "Perfezionamento funzione di autenticazione su",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000803.md"
-},{
-id: 3736,
-title: "Ordinamento report con colonne con carattere $ nel",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000816.md"
-},{
-id: 3737,
-title: "Passaggio titoli report da variabili di scheda",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000817.md"
-},{
-id: 3738,
-title: "G30 Regole configuratore",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000835.md"
-},{
-id: 3739,
-title: "Problema visualizzazione gruppi nello schedulatore",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000836.md"
-},{
-id: 3740,
-title: "Correzione errore flussi LOA11",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000839.md"
-},{
-id: 3741,
-title: "Performance matrici di liste in lingua",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000847.md"
-},{
-id: 3742,
-title: "Errore xml A08",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000891.md"
-},{
-id: 3743,
-title: "CPU al 99% per JOB di Loocup &#x2f; Webup 2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000893.md"
-},{
-id: 3744,
-title: "Indagine Looc.UP Server e Batch",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI000906.md"
-},{
-id: 3745,
-title: "Allineamento campi input panel",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000913.md"
-},{
-id: 3746,
-title: "Report&#x3a; risoluzione DEC nelle colonne aggiuntive",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000943.md"
-},{
-id: 3747,
-title: "Colonne aggiuntive&#x3a; correzione in stampa",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000956.md"
-},{
-id: 3748,
-title: "Correzione Celle G",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000958.md"
-},{
-id: 3749,
-title: "Setup Utente su V3R2",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/LO_NTI000964.md"
-},{
-id: 3750,
-title: "Revisione Schede con Looc.UP V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI000971.md"
-},{
-id: 3751,
-title: "Memorizzazione Stato Apertura Voci Menù",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI000976.md"
-},{
-id: 3752,
-title: "Autorizzazioni su visualizzazione documentazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI000991.md"
-},{
-id: 3753,
-title: "Correzioni su SCP_QRY",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001016.md"
-},{
-id: 3754,
-title: "Adobe Reader 11 - Problemi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001021.md"
-},{
-id: 3755,
-title: "Azioni Fly Incomplete",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001043.md"
-},{
-id: 3756,
-title: "Visualizzazione Spool stampa Iseries",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI001050.md"
-},{
-id: 3757,
-title: "Miglioramento Performance Popup",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001051.md"
-},{
-id: 3758,
-title: "Servizio JA_00_05 copia e spostamento di cartelle",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001054.md"
-},{
-id: 3759,
-title: "Ricerche Grafiche con Carattere Apice",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001057.md"
-},{
-id: 3760,
-title: "Popup su oggetti lunghi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001063.md"
-},{
-id: 3761,
-title: "Metodo G30 su A08",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001069.md"
-},{
-id: 3762,
-title: "Avvertenza Preferiti &#x3c; 4.1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001075.md"
-},{
-id: 3763,
-title: "Corretto errore in matrici di aggiornamento",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001087.md"
-},{
-id: 3764,
-title: "Aggiornamento LoocUp con RSYNC",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001091.md"
-},{
-id: 3765,
-title: "Risoluzione problemi buffer emulatore",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001125.md"
-},{
-id: 3766,
-title: "Eliminazione vecchi eseguibili in Looc.UP",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001133.md"
-},{
-id: 3767,
-title: "Problema emulazione &#x22;Le Vele&#x22;",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001136.md"
-},{
-id: 3768,
-title: "Correzioni su colonne aggiuntive e filtri in funzi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001146.md"
-},{
-id: 3769,
-title: "Correzione Griglialbero",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001154.md"
-},{
-id: 3770,
-title: "Windows server 2008 ed esportazioni in Excel trami",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI001160.md"
-},{
-id: 3771,
-title: "IMPORTANTE&#x3a; raccalta informazioni su installazioni",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001165.md"
-},{
-id: 3772,
-title: "Segnalazione errori Looc.UP",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001182.md"
-},{
-id: 3773,
-title: "Corretto errore in lettura SCP_CLO per ambiente",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001187.md"
-},{
-id: 3774,
-title: "Supporto Windows XP e Windows Server 2003",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001197.md"
-},{
-id: 3775,
-title: "Sostituzione Rsync",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001199.md"
-},{
-id: 3776,
-title: "Report vuoti in Loocup versione Sydney Harbour Bri",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001201.md"
-},{
-id: 3777,
-title: "Smeup Updater - Note su file personalizzati",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001205.md"
-},{
-id: 3778,
-title: "Migliorie SSO",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001212.md"
-},{
-id: 3779,
-title: "INDAGINE&#x3a; Utilizzo ODBC con Looc.UP - Looc.UP Serv",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001215.md"
-},{
-id: 3780,
-title: "Anomalia esecuzione schede da richiesta parametri",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/LO_NTI001254.md"
-},{
-id: 3781,
-title: "Prerequisiti funzionamento Smeup Provider e",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/LO_NTI001289.md"
-},{
-id: 3782,
-title: "DBM&#x3a; accesso a Data Base via ODBC non più",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001321.md"
-},{
-id: 3783,
-title: "Correzioni Loocup",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001335.md"
-},{
-id: 3784,
-title: "Errore in avvio di Looc.UP al passaggio alla versi",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001339.md"
-},{
-id: 3785,
-title: "Procedura installazione Loocup Roma",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001348.md"
-},{
-id: 3786,
-title: "Problemi Looc.UP dopo aggiornamento Windows 10 Cre",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001355.md"
-},{
-id: 3787,
-title: "Rilascio upgrade Looc.UP compatibile con Windows",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001356.md"
-},{
-id: 3788,
-title: "Rilascio Upgrade Looc.UP &#x22;Roma&#x22; Windows 10",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001367.md"
-},{
-id: 3789,
-title: "Web.UP&#x3a; Cambio di funzionamento del componente",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001368.md"
-},{
-id: 3790,
-title: "Sme.UP Provider Rev. 1 gestione log su database",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001378.md"
-},{
-id: 3791,
-title: "Sme.UP Provider&#x3a; note sulla gestione dei file",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001382.md"
-},{
-id: 3792,
-title: "Importazione dati con JA_00_19&#x3a; corretta nomenclat",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001385.md"
-},{
-id: 3793,
-title: "Corretto problema ricerca font in H53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001394.md"
-},{
-id: 3794,
-title: "Corretto errore colonne aggiuntive PDF",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001398.md"
-},{
-id: 3795,
-title: "Correzioni e migliorie a Sme.UP Provider",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001404.md"
-},{
-id: 3796,
-title: "La pagina di debug di Sme.UP Provider",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001405.md"
-},{
-id: 3797,
-title: "Login in SSO da Looc.UP&#x3a; silenziato messaggio",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001406.md"
-},{
-id: 3798,
-title: "Provider&#x3a; configuratori Q- in Web.UP 1.14",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001417.md"
-},{
-id: 3799,
-title: "Timeout servizio su chiusura Sme.Up Provider",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001419.md"
-},{
-id: 3800,
-title: "Errore LOA13_SE usato insieme a LOSUP_13",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001428.md"
-},{
-id: 3801,
-title: "Decadimento performance Sme.Up Provider funzionant",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001434.md"
-},{
-id: 3802,
-title: "Sme.UP Provider - Flussi batch&#x3a; decadimento perfor",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001449.md"
-},{
-id: 3803,
-title: "Note tecniche rilascio Roma Rev.2",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001459.md"
-},{
-id: 3804,
-title: "Correzioni Roma Rev 2",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001466.md"
-},{
-id: 3805,
-title: "LOA37&#x2f;LOA38 correzione ricarica framework",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001470.md"
-},{
-id: 3806,
-title: "Nuova versione provider-fe per smartkit dedicato",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001473.md"
-},{
-id: 3807,
-title: "Incompatibilità LoocUP con antivirus ESET",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001475.md"
-},{
-id: 3808,
-title: "Fatturazione Elettronica&#x3a; validazione XML fattura",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001479.md"
-},{
-id: 3809,
-title: "Caratteri non validi nelle password lunghe",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001485.md"
-},{
-id: 3810,
-title: "Sme.UP Provider Roma Rev.2 - correzioni minori, ac",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001491.md"
-},{
-id: 3811,
-title: "Importazione fogli Excel con colonne numeriche",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001519.md"
-},{
-id: 3812,
-title: "Corretta gestione barcode in H53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/LO_NTI001527.md"
-},{
-id: 3813,
-title: "Pgm di aggiustamento M5M5D0G_x",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/M5_NTI000004.md"
-},{
-id: 3814,
-title: "Richiesta informazioni x implemento MRP multiplant",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/M5_NTI000007.md"
-},{
-id: 3815,
-title: "Correzione a MRP",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/M5_NTI000017.md"
-},{
-id: 3816,
-title: "Nuove repliche M5D",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/M5_NTI000082.md"
-},{
-id: 3817,
-title: "Correzione a £M5D",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/M5_NTI000114.md"
-},{
-id: 3818,
-title: "Modifica alla %Copy £M5DDS",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000191.md"
-},{
-id: 3819,
-title: "Correzioni a dati di pianificazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000293.md"
-},{
-id: 3820,
-title: "Correzione a fabbisogno giornaliere",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000305.md"
-},{
-id: 3821,
-title: "Correzione a",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000306.md"
-},{
-id: 3822,
-title: "Correzione a MRP",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000323.md"
-},{
-id: 3823,
-title: "Correzione a suggerimenti MRP",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000353.md"
-},{
-id: 3824,
-title: "Correzione a LDA in esecuzione MRP",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000359.md"
-},{
-id: 3825,
-title: "Correzione a exit MRP",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000412.md"
-},{
-id: 3826,
-title: "Modifica a calcolo tempi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000413.md"
-},{
-id: 3827,
-title: "Correzione MRP con scenari il cui codice è &#x3e; 3 car",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/M5_NTI000461.md"
-},{
-id: 3828,
-title: "Scansione Disponibilità - Fonte bilanciata",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/M5_NTI000599.md"
-},{
-id: 3829,
-title: "Consulenza su fonti altro ambiente",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/M5_NTI000601.md"
-},{
-id: 3830,
-title: "Corretto errore lettura scorta dinamica Holt Winte",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/M5_NTI000606.md"
-},{
-id: 3831,
-title: "Correzione applicazione suggerimenti MRP in drag&#x26;d",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000686.md"
-},{
-id: 3832,
-title: "Correzione a rilascio M5-&#x3e;V5",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000700.md"
-},{
-id: 3833,
-title: "DRP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000724.md"
-},{
-id: 3834,
-title: "Novità MRP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000809.md"
-},{
-id: 3835,
-title: "Errore in scheda navigazione MRP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000815.md"
-},{
-id: 3836,
-title: "Navigazioni MRP con codice di rottura",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000818.md"
-},{
-id: 3837,
-title: "Calcolo di lead time &#x22;lunghi&#x22;",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000823.md"
-},{
-id: 3838,
-title: "Trattamento lotto massimo",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000878.md"
-},{
-id: 3839,
-title: "Correzione omonimia programmi M5",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/M5_NTI000930.md"
-},{
-id: 3840,
-title: "Logici M5CONS0F in nuove installazioni",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/M5_NTI001040.md"
-},{
-id: 3841,
-title: "Analisi disponibilità",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/M5_NTI001109.md"
-},{
-id: 3842,
-title: "Errore scansione disponibilità in fonti altro ambi",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/M5_NTI001171.md"
-},{
-id: 3843,
-title: "Applicazione consigli sui Documenti esterni",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/M5_NTI001360.md"
-},{
-id: 3844,
-title: "Analisi pianificazione per commessa",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/M5_NTI001435.md"
-},{
-id: 3845,
-title: "Selfie tardivo in applicazione automatica suggerim",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/M5_NTI001529.md"
-},{
-id: 3846,
-title: "Miglioramenti al modulo MM - Manutenzione impianti",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/MM_NTI000091.md"
-},{
-id: 3847,
-title: "Utilizzo MMDCOM0F",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/MM_NTI000329.md"
-},{
-id: 3848,
-title: "Correzioni per file multimembro in MM",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/MM_NTI000658.md"
-},{
-id: 3849,
-title: "Errata formattazione OAV numerici oggetto E6",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/MM_NTI001105.md"
-},{
-id: 3850,
-title: "Stampa interventi programmati",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/MM_NTI001401.md"
-},{
-id: 3851,
-title: "Eliminazione Menù £P da modello",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/MO_NTI001189.md"
-},{
-id: 3852,
-title: "Aggiornamento Sme.UP Mobile per IOS 10. Problema c",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/MO_NTI001294.md"
-},{
-id: 3853,
-title: "Tipi Esplosione utilizzati con MPAP11",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/MP_NTI000198.md"
-},{
-id: 3854,
-title: "Gestione previsioni",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/MP_NTI000441.md"
-},{
-id: 3855,
-title: "Ripresa da Documenti",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/MP_NTI000543.md"
-},{
-id: 3856,
-title: "Eliminazione Modulo MPCALE",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/MP_NTI000546.md"
-},{
-id: 3857,
-title: "Correzione calcolo scorta",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/MP_NTI000558.md"
-},{
-id: 3858,
-title: "Correzione ripresa piani",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/MP_NTI000672.md"
-},{
-id: 3859,
-title: "Pulizia indici se previsione multiplant",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/MP_NTI000714.md"
-},{
-id: 3860,
-title: "Creazione piano da fatture",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/MP_NTI001408.md"
-},{
-id: 3861,
-title: "SMENS come servizio Windows",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/NS_NTI000077.md"
-},{
-id: 3862,
-title: "Prestazioni G53",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/NS_NTI000078.md"
-},{
-id: 3863,
-title: "G53&#x3a; overlay pdf a foglio multiplo",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/NS_NTI000081.md"
-},{
-id: 3864,
-title: "G53&#x3a; mail con allegati multipli",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/NS_NTI000174.md"
-},{
-id: 3865,
-title: "£G53&#x3a; Correzione gestione offset righe di testo",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/NS_NTI000256.md"
-},{
-id: 3866,
-title: "Stampa tramite LPD_PDF",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/NS_NTI000261.md"
-},{
-id: 3867,
-title: "Contantore pagine pdf in G53",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/NS_NTI000397.md"
-},{
-id: 3868,
-title: "Stampa PDF di G18 e PDF G53",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/NS_NTI000423.md"
-},{
-id: 3869,
-title: "Testo PDF con carattere [",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/NS_NTI000538.md"
-},{
-id: 3870,
-title: "PDF G18 - numerazione pagine e header",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/NS_NTI000652.md"
-},{
-id: 3871,
-title: "Emissione PDF di G18",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/NS_NTI000670.md"
-},{
-id: 3872,
-title: "Maggiore stabilità di SmePD",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/NS_NTI000767.md"
-},{
-id: 3873,
-title: "Correzione stile testo in G53",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/NS_NTI000857.md"
-},{
-id: 3874,
-title: "G53&#x3a; smedg e stili inline",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/NS_NTI000883.md"
-},{
-id: 3875,
-title: "Prestazioni G53 su AS&#x2f;400",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/NS_NTI000897.md"
-},{
-id: 3876,
-title: "Correzione specifica BTX G53 su allineamento testo",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/NS_NTI001025.md"
-},{
-id: 3877,
-title: "Correzione problemi &#x2f;copy G53",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/NS_NTI001150.md"
-},{
-id: 3878,
-title: "Integrazione NTI 001150",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/NS_NTI001152.md"
-},{
-id: 3879,
-title: "Smedg&#x3a; font Courier errato rilasciato fra 29&#x2f;9&#x2f;15",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/NS_NTI001191.md"
-},{
-id: 3880,
-title: "Mail £G53 tramite PEC Aruba",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/NS_NTI001242.md"
-},{
-id: 3881,
-title: "PDF generati erroneamente senza testo con £G53",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/NS_NTI001296.md"
-},{
-id: 3882,
-title: "Gestione Mailfolder in invio mail G53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/NS_NTI001392.md"
-},{
-id: 3883,
-title: "Gestione lunghezza massima file di log G53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/NS_NTI001393.md"
-},{
-id: 3884,
-title: "Titolo del file pdf generato tramite £G53",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/NS_NTI001395.md"
-},{
-id: 3885,
-title: "Mail G53&#x3a; corretta gestione parametri relativi a",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/NS_NTI001399.md"
-},{
-id: 3886,
-title: "G53&#x3a; trace su invio mail. BUGFIX",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/NS_NTI001403.md"
-},{
-id: 3887,
-title: "G53&#x3a; Correzione allineamento documento pdf",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/NS_NTI001541.md"
-},{
-id: 3888,
-title: "G53&#x3a; supporto TLS v. 1.2 nell&#x27;invio mail",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/NS_NTI001542.md"
-},{
-id: 3889,
-title: "Consiglio di installazione S5IRIS",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/P5_NTI000016.md"
-},{
-id: 3890,
-title: "Rifasatura ordini di produzione",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/P5_NTI000020.md"
-},{
-id: 3891,
-title: "Nuovo progetto MFP",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/P5_NTI000265.md"
-},{
-id: 3892,
-title: "Modifica a schedulazione a capacità infinita",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/P5_NTI000275.md"
-},{
-id: 3893,
-title: "Funzioni su distinta memorizzata",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/P5_NTI000396.md"
-},{
-id: 3894,
-title: "Corretta tipizzazione campi P5EVEN0F",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/P5_NTI000612.md"
-},{
-id: 3895,
-title: "Ripresa risorsa in creazione prelievi da impegno",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/P5_NTI000646.md"
-},{
-id: 3896,
-title: "Distonta ordini di produzione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/P5_NTI000659.md"
-},{
-id: 3897,
-title: "Errore in richiamo £P5E",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/P5_NTI000688.md"
-},{
-id: 3898,
-title: "Gestione parametri interni ordine di produzione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/P5_NTI000747.md"
-},{
-id: 3899,
-title: "Richiesta su logico di S5IRIS",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/P5_NTI000756.md"
-},{
-id: 3900,
-title: "Programmi non compilati",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/P5_NTI000814.md"
-},{
-id: 3901,
-title: "Correzione P5FUV51",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/P5_NTI000940.md"
-},{
-id: 3902,
-title: "Correzione chiusura manuale ordini produzione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/P5_NTI000998.md"
-},{
-id: 3903,
-title: "Correzione &#x2f;COPY £G35DS",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/P5_NTI001019.md"
-},{
-id: 3904,
-title: "Errore in costruzione impegni risorse",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/P5_NTI001026.md"
-},{
-id: 3905,
-title: "Correzione errore su P5IMPE0F",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/P5_NTI001325.md"
-},{
-id: 3906,
-title: "Corretto malfunzionamento in impegno risorse",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/P5_NTI001413.md"
-},{
-id: 3907,
-title: "Correzione errore in richiami £PHE &#x22;Lettura asincr",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/PH_NTI001192.md"
-},{
-id: 3908,
-title: "Errore in comunicazione interfaccia dati di campo",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/PH_NTI001193.md"
-},{
-id: 3909,
-title: "Errore di livello file PHTRAC0F",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/PH_NTI001209.md"
-},{
-id: 3910,
-title: "Scambio rubriche di posta",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/RE_NTI000314.md"
-},{
-id: 3911,
-title: "Documentazione schedulazione BCD",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/S5_NTI000074.md"
-},{
-id: 3912,
-title: "Nota installazione schedulazione",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/S5_NTI000087.md"
-},{
-id: 3913,
-title: "Errore in schedulazione grafica BCD",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/S5_NTI000095.md"
-},{
-id: 3914,
-title: "Risorse produttive secondarie",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/S5_NTI000132.md"
-},{
-id: 3915,
-title: "Errore in rischedulazione da &#x22;GANTT totale&#x22;",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/S5_NTI000192.md"
-},{
-id: 3916,
-title: "Priorità in P5",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/S5_NTI000207.md"
-},{
-id: 3917,
-title: "Correzione errore schedulazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/S5_NTI000283.md"
-},{
-id: 3918,
-title: "Novità BCD&#x3a; modello e news",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/S5_NTI000382.md"
-},{
-id: 3919,
-title: "Correzione errore congelamenti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/S5_NTI000499.md"
-},{
-id: 3920,
-title: "Corretto filtro data massima in BCD",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/S5_NTI000582.md"
-},{
-id: 3921,
-title: "Errore in VPP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/S5_NTI000628.md"
-},{
-id: 3922,
-title: "Correzione a rifasatura S5IRIS",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/S5_NTI000753.md"
-},{
-id: 3923,
-title: "Logico S5IRSE3L",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/S5_NTI000846.md"
-},{
-id: 3924,
-title: "Corretto errore in apertura scheda BCD successiva",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/S5_NTI001018.md"
-},{
-id: 3925,
-title: "Superindice schedulazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/S5_NTI001122.md"
-},{
-id: 3926,
-title: "Corretto errore in Pop.UP di ordine di produzione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/S5_NTI001149.md"
-},{
-id: 3927,
-title: "Correzione errore su S5IRIS",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/S5_NTI001323.md"
-},{
-id: 3928,
-title: "Corretto errore di calcolo nella schedulazione a c",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/S5_NTI001365.md"
-},{
-id: 3929,
-title: "Dismissione applicazione PF400",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/SF_NTI000168.md"
-},{
-id: 3930,
-title: "Suggerimenti salvataggio in ambito rilascio Smeup",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/SM_NTI000586.md"
-},{
-id: 3931,
-title: "FTP passive mode default in V6R1",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/SM_NTI000634.md"
-},{
-id: 3932,
-title: "SURF_UP Graphics interface",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/SU_NTI000055.md"
-},{
-id: 3933,
-title: "Oggetti di una copy",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/UT_NTI000250.md"
-},{
-id: 3934,
-title: "Modifiche al CORD fatturazione con flga 2 e 3",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/V5_NTI000002.md"
-},{
-id: 3935,
-title: "Collegamenti automatici riga v5",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/V5_NTI000010.md"
-},{
-id: 3936,
-title: "V5DO20x immissione in lista righe documento",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/V5_NTI000013.md"
-},{
-id: 3937,
-title: "Allocazione record V5TDOC0F in visualizzazione",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/V5_NTI000021.md"
-},{
-id: 3938,
-title: "Ricevimento ordini a programma",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/V5_NTI000034.md"
-},{
-id: 3939,
-title: "Modifica File Fisico delle Provvigioni",
-cat: "NTI",
-rel: "V2R1",
-href: "Sorgenti/NTI/V5_NTI000043.md"
-},{
-id: 3940,
-title: "Scollegamento&#x2f;Collegamento documenti V5",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/V5_NTI000056.md"
-},{
-id: 3941,
-title: "Attribuzione Ass. IVA da Dichiarazioni d&#x27;intento",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/V5_NTI000059.md"
-},{
-id: 3942,
-title: "Richiesta informazioni pe rimplemento",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/V5_NTI000060.md"
-},{
-id: 3943,
-title: "Attivazione Utilizzo Data limite rischio nel Calco",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/V5_NTI000065.md"
-},{
-id: 3944,
-title: "Collegamento a magazzino e data aggiornamento su",
-cat: "NTI",
-rel: "V2R2",
-href: "Sorgenti/NTI/V5_NTI000099.md"
-},{
-id: 3945,
-title: "Correzione ente ripresa prezzi",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000136.md"
-},{
-id: 3946,
-title: "Correzione errori &#x22;importanti&#x22; su applicazione V5",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000154.md"
-},{
-id: 3947,
-title: "Correzione errore su modifica righe di uscita cont",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000155.md"
-},{
-id: 3948,
-title: "Gestione flag di V5TDOC0F e V5RDOC0F in V2R3",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000180.md"
-},{
-id: 3949,
-title: "Correzione alla modifica stampa ddt&#x2f;fattura modali",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000197.md"
-},{
-id: 3950,
-title: "Miglioramento flussi di transazione V5 e deviatori",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000214.md"
-},{
-id: 3951,
-title: "Modifica quantità lotto in listini",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000217.md"
-},{
-id: 3952,
-title: "Correzione V5DO05D tra 01-08-08 e 13-10-08",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000218.md"
-},{
-id: 3953,
-title: "Calcolo accantonato numeri testata documento",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000225.md"
-},{
-id: 3954,
-title: "Corretto Errore in Creazione Ordine C.Lavoro Fase",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000231.md"
-},{
-id: 3955,
-title: "Correzione a V6Z",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000237.md"
-},{
-id: 3956,
-title: "Assunzione tipo riga documento in inserimento",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000248.md"
-},{
-id: 3957,
-title: "Derivazione righa documento",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000252.md"
-},{
-id: 3958,
-title: "Gestione quantità",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000254.md"
-},{
-id: 3959,
-title: "Modifica Programma V5AT15L Estrazione Documenti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000257.md"
-},{
-id: 3960,
-title: "Apertura progetto KIT",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000267.md"
-},{
-id: 3961,
-title: "Statistiche di fatturazione",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000268.md"
-},{
-id: 3962,
-title: "Ristampa fatture interattiva parzializzata",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000276.md"
-},{
-id: 3963,
-title: "Visualizzazione nr e data ddt in V5AT11E",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000277.md"
-},{
-id: 3964,
-title: "Tipo flusso di transazione alla copia di documenti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000325.md"
-},{
-id: 3965,
-title: "Correzione in creazione TRIM",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000332.md"
-},{
-id: 3966,
-title: "Azioni su Testate&#x2f;Righe Documenti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000341.md"
-},{
-id: 3967,
-title: "Migliorata gestione scollegamento Riga Documento",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000372.md"
-},{
-id: 3968,
-title: "Progetto Kit Commerciali",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000374.md"
-},{
-id: 3969,
-title: "Documentazione applicativa modulo V5STAT",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000381.md"
-},{
-id: 3970,
-title: "Allocazione intero documento V5",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000387.md"
-},{
-id: 3971,
-title: "Gestione autorizzazioni in V5IN01_X",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000416.md"
-},{
-id: 3972,
-title: "Cambio metodo arrotondamento in V5F",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000444.md"
-},{
-id: 3973,
-title: "V5STAT - Correzioni su ripresa statistiche",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000445.md"
-},{
-id: 3974,
-title: "Problema flag V5RDOC",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000462.md"
-},{
-id: 3975,
-title: "Flag righe documenti V5",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000465.md"
-},{
-id: 3976,
-title: "Correzione errore numeri DR",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000466.md"
-},{
-id: 3977,
-title: "Modifiche a Riprea Statistiche",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000469.md"
-},{
-id: 3978,
-title: "Correzione V5DO15X per chi usa la G99 su documenti",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/V5_NTI000484.md"
-},{
-id: 3979,
-title: "V5STAT0F filtrato in base all&#x27;Azienda",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000491.md"
-},{
-id: 3980,
-title: "Correzioni report preparati V5STAT",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000496.md"
-},{
-id: 3981,
-title: "Corretto errore in scrittura righe V5",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000501.md"
-},{
-id: 3982,
-title: "Correzione Statistiche Ordinato Residuo",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000507.md"
-},{
-id: 3983,
-title: "Stampa Fattura Pro-forma",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000534.md"
-},{
-id: 3984,
-title: "V5STAT - Ripresa Contabilizzato - Fattura relativa",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000541.md"
-},{
-id: 3985,
-title: "Correzione in cancellazione righe V5 da funizzato",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000544.md"
-},{
-id: 3986,
-title: "Problema in estrazione righe documenti",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000545.md"
-},{
-id: 3987,
-title: "Estensione Ordinamento sui documenti",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000580.md"
-},{
-id: 3988,
-title: "Corretto errore in inserimento righe doc con colle",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000588.md"
-},{
-id: 3989,
-title: "Acquisizione batch dei documenti",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000593.md"
-},{
-id: 3990,
-title: "Trattamento numeri riga documento",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000596.md"
-},{
-id: 3991,
-title: "V5STAT - Ripresa Statistica Modalità &#x22;Solo Stampa&#x22;",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000609.md"
-},{
-id: 3992,
-title: "Errore in flussi canc. righe",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/V5_NTI000621.md"
-},{
-id: 3993,
-title: "Errore in analisi evadibilità",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000637.md"
-},{
-id: 3994,
-title: "Correzione in gestione rige documenti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000640.md"
-},{
-id: 3995,
-title: "Errore in sconto&#x2f;maggiorazione 1",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000641.md"
-},{
-id: 3996,
-title: "Documentazione visualizzatori V5",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000643.md"
-},{
-id: 3997,
-title: "IVA 21 - Due Casi di Personalizzazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000647.md"
-},{
-id: 3998,
-title: "IVA 21% - V5S su Note",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000653.md"
-},{
-id: 3999,
-title: "Funzione &#x22;Lista Campi&#x22; righe V5 &#x3a; corretta visuali",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000656.md"
-},{
-id: 4000,
-title: "Saldo forzato in generazione bolle da ordini",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000661.md"
-},{
-id: 4001,
-title: "Interfaccia righe Documenti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000663.md"
-},{
-id: 4002,
-title: "Errore in stampa fatture interattiva",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000675.md"
-},{
-id: 4003,
-title: "Funzioni Fatturazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000678.md"
-},{
-id: 4004,
-title: "£IDO e £IDR con metodo NOFLU",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000679.md"
-},{
-id: 4005,
-title: "Calcolo costo del venduto in statistiche",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000681.md"
-},{
-id: 4006,
-title: "Errore in allocazione documenti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000682.md"
-},{
-id: 4007,
-title: "Errori in gestione righe documenti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000693.md"
-},{
-id: 4008,
-title: "Funzioni Fatturazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000704.md"
-},{
-id: 4009,
-title: "Inibita stampa righe ordine annullate",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000709.md"
-},{
-id: 4010,
-title: "Tipo riga proposto in inserimento righe V5",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000713.md"
-},{
-id: 4011,
-title: "Correzione cancellazione V5STAT Ordinato",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000718.md"
-},{
-id: 4012,
-title: "Errore in allocazione logica V5 al roll",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000721.md"
-},{
-id: 4013,
-title: "Gestione delle spese",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000759.md"
-},{
-id: 4014,
-title: "Gestione FL33 fonte ordini Controllo Fatture",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000762.md"
-},{
-id: 4015,
-title: "Servizio Statistiche Ordini&#x2f;Documenti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000778.md"
-},{
-id: 4016,
-title: "Controllo tipo ente in inserimento testata documen",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000793.md"
-},{
-id: 4017,
-title: "Correz.ricerca bolle collegata a ordine con &#x22;+.&#x22;",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000827.md"
-},{
-id: 4018,
-title: "Errore cancellazione Ordinato V5STAT",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000856.md"
-},{
-id: 4019,
-title: "Valore riga documento con prezzo IVA compresa",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000858.md"
-},{
-id: 4020,
-title: "Errore nel flusso evasione documenti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000859.md"
-},{
-id: 4021,
-title: "Normativa Numerazione Fatture",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000860.md"
-},{
-id: 4022,
-title: "Errore grave in £V7Z &#x2f; £V6ZF",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000861.md"
-},{
-id: 4023,
-title: "Modello Assunto in V5D",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000874.md"
-},{
-id: 4024,
-title: "Rifer.Origine in V5RDOC0F",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000894.md"
-},{
-id: 4025,
-title: "Errore Grave su Statistiche",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000895.md"
-},{
-id: 4026,
-title: "NTI 000895 su V2R3&#x2f;V3R1",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000896.md"
-},{
-id: 4027,
-title: "Verifica congruenza T§FDTA con T§FL19",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000914.md"
-},{
-id: 4028,
-title: "Legame valutario",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000915.md"
-},{
-id: 4029,
-title: "Da oggi Bollo da 1,81 a 2 Euro",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000937.md"
-},{
-id: 4030,
-title: "Bollo a 2 Euro - Integrazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000938.md"
-},{
-id: 4031,
-title: "Bollo a 2 euro - Correzione Addebito Bolli",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000939.md"
-},{
-id: 4032,
-title: "IVA 22 - Due Casi di Personalizzazione",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000959.md"
-},{
-id: 4033,
-title: "IVA 22 - Rettifica NTI 000959",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000960.md"
-},{
-id: 4034,
-title: "IVA 22 - Rettifica NTI 000960",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000961.md"
-},{
-id: 4035,
-title: "Errore Calcolo ISC Provvigioni",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/V5_NTI000969.md"
-},{
-id: 4036,
-title: "Correzione Impostazione Tipo Ente Conferma",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI000977.md"
-},{
-id: 4037,
-title: "Corretto errore £V5F - fatture sola iva",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI000978.md"
-},{
-id: 4038,
-title: "Corretto errore in stampa interattive fatture",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI000989.md"
-},{
-id: 4039,
-title: "Spedizione&#x2f;ricevimento da ordine - correzioni V5AT",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI000994.md"
-},{
-id: 4040,
-title: "Ripristino flussi collegamento monitor righe",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001010.md"
-},{
-id: 4041,
-title: "Fattura elettronica verso la PA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001024.md"
-},{
-id: 4042,
-title: "Correzione Fattura PA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001027.md"
-},{
-id: 4043,
-title: "Caricamento Codici Uffici PA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001028.md"
-},{
-id: 4044,
-title: "Exit aggiustamento righe documenti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001033.md"
-},{
-id: 4045,
-title: "Imposta di bollo e FatturaPA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001036.md"
-},{
-id: 4046,
-title: "Aggiornamenti FatturaPA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001049.md"
-},{
-id: 4047,
-title: "Numeratori fatture con Fattura PA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001060.md"
-},{
-id: 4048,
-title: "Collegamento righe V5 con RM logistiche",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001076.md"
-},{
-id: 4049,
-title: "Aggiornamenti FatturaPA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001081.md"
-},{
-id: 4050,
-title: "Integrazione documenti con la logistica",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001092.md"
-},{
-id: 4051,
-title: "Inserito flusso post inserimento testata nei fluss",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001093.md"
-},{
-id: 4052,
-title: "Errore calcolo ordinato residuo V5STAT",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001097.md"
-},{
-id: 4053,
-title: "Split Payment Fatture PA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001102.md"
-},{
-id: 4054,
-title: "Versione 1.1 tracciato FatturaPA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001104.md"
-},{
-id: 4055,
-title: "Note Aggiuntive su Introduzione Split Payment",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001108.md"
-},{
-id: 4056,
-title: "Split Payment - Integrazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001111.md"
-},{
-id: 4057,
-title: "Split Payment - Aggiornamenti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001112.md"
-},{
-id: 4058,
-title: "Split Payment con Documenti da Star - Correzione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001113.md"
-},{
-id: 4059,
-title: "Calcolo importi di fattura",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001126.md"
-},{
-id: 4060,
-title: "FatturaPa obbligatoria dal 31&#x2f;03&#x2f;2015 per tutte le",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001128.md"
-},{
-id: 4061,
-title: "Modifica a Gestione Addebito Bollo Automatico",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001130.md"
-},{
-id: 4062,
-title: "Correzioni reperimento esiti FatturaPA con Medusa",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001131.md"
-},{
-id: 4063,
-title: "Funzioni Fatturazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001135.md"
-},{
-id: 4064,
-title: "Correzione errore surf testate e righe V5",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001142.md"
-},{
-id: 4065,
-title: "Correzione errore surf testate e righe V5",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001145.md"
-},{
-id: 4066,
-title: "Correzione FatturaPA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001147.md"
-},{
-id: 4067,
-title: "Correzioni a Gestione Addebito Bollo Automatico",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001155.md"
-},{
-id: 4068,
-title: "FatturaPA&#x3a; Riferimento dell&#x27;ordine di acquisto a",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001162.md"
-},{
-id: 4069,
-title: "Correzioni e aggiornamenti FatturaPA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001196.md"
-},{
-id: 4070,
-title: "Correzione errore in collegamento documenti V5",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001210.md"
-},{
-id: 4071,
-title: "Errore cancellazione V5STAT multiazienda",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001220.md"
-},{
-id: 4072,
-title: "Errore interrogazioni modulo V5STAT",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001251.md"
-},{
-id: 4073,
-title: "Correzione xml FatturaPA",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001259.md"
-},{
-id: 4074,
-title: "Batch Documenti",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001277.md"
-},{
-id: 4075,
-title: "Errore savf FatturaPA V4R1 dal 29&#x2f;07&#x2f;2016",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001284.md"
-},{
-id: 4076,
-title: "Funzioni Fatturazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001286.md"
-},{
-id: 4077,
-title: "Flusso di evasione documento in modalità matrice",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001291.md"
-},{
-id: 4078,
-title: "Errata corrige NTI 001291",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001295.md"
-},{
-id: 4079,
-title: "Correzione errore aliquote in fatturazione",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001302.md"
-},{
-id: 4080,
-title: "SAVF FatturaPA incompleto",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001308.md"
-},{
-id: 4081,
-title: "FatturaPA&#x3a; errore gestione £51 in Loocup",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001312.md"
-},{
-id: 4082,
-title: "ATTENZIONE&#x3a; Errore assoggettamenti IVA V4R1",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/V5_NTI001317.md"
-},{
-id: 4083,
-title: "Errore su costruzione d5coso dai dati dei document",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001350.md"
-},{
-id: 4084,
-title: "Errore in Servizio Statistiche Ordini&#x2f;Documenti",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001352.md"
-},{
-id: 4085,
-title: "Errore nella ricerca 5250 dei documenti esterni",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001372.md"
-},{
-id: 4086,
-title: "Corretto errore in utility adeguamento fattura pas",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001410.md"
-},{
-id: 4087,
-title: "Corretto errore in ricevimenti e spedizioni",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001414.md"
-},{
-id: 4088,
-title: "Funzioni Fatturazione",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001420.md"
-},{
-id: 4089,
-title: "Estrazione da altro documento",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001422.md"
-},{
-id: 4090,
-title: "Surf sul responsabile commerciale",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001426.md"
-},{
-id: 4091,
-title: "Integrazione con documento origine",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001445.md"
-},{
-id: 4092,
-title: "Aggiunto default per campo contabilizzazione in ta",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001446.md"
-},{
-id: 4093,
-title: "Errore in Costruzione Oav V&#x2f;",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001448.md"
-},{
-id: 4094,
-title: "Reso a Fornitore",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001450.md"
-},{
-id: 4095,
-title: "Correzioni Fatturazione Elettronica",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001461.md"
-},{
-id: 4096,
-title: "Correzioni Fatturazione Elettronica",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001464.md"
-},{
-id: 4097,
-title: "Correzioni Fatturazione Elettronica",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001465.md"
-},{
-id: 4098,
-title: "Modifiche Fatturazione Elettronica",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001468.md"
-},{
-id: 4099,
-title: "Modifiche Fatturazione Elettronica",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001471.md"
-},{
-id: 4100,
-title: "Errore SAVF Fatturazione Elettronica",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001476.md"
-},{
-id: 4101,
-title: "Aggiornamenti pacchetti Fatturazione Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001478.md"
-},{
-id: 4102,
-title: "Aggiornamenti pacchetti Fatturazione Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001481.md"
-},{
-id: 4103,
-title: "Introduzione flussi stampa fattura",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001483.md"
-},{
-id: 4104,
-title: "Aggiornamenti pacchetti Fatturazione Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001484.md"
-},{
-id: 4105,
-title: "Aggiornamenti pacchetti Fatturazione Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001488.md"
-},{
-id: 4106,
-title: "Correzione BOLLO per Fattura Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001489.md"
-},{
-id: 4107,
-title: "Aggiornamenti pacchetti Fatturazione Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001493.md"
-},{
-id: 4108,
-title: "FE&#x3a; Errore pulsante &#x22;Richiedi AooID&#x22;",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001496.md"
-},{
-id: 4109,
-title: "FE&#x3a; Errore su clienti pubblica amministrazione",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001500.md"
-},{
-id: 4110,
-title: "FE&#x3a; disattivato ambiente di test Abletech e contro",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001501.md"
-},{
-id: 4111,
-title: "Aggiornamento pacchetti Fatturazione Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001502.md"
-},{
-id: 4112,
-title: "FE&#x3a; Rimosso controllo non contemporanea valorizzaz",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001503.md"
-},{
-id: 4113,
-title: "Aggiornamento pacchetto V5R1 Fatturazione Elettron",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001509.md"
-},{
-id: 4114,
-title: "Aggiornamento pacchetti V4R1 e V3R2 Fatturazione E",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001514.md"
-},{
-id: 4115,
-title: "Aggiornamento pacchetti Fatturazione Elettronica",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001516.md"
-},{
-id: 4116,
-title: "FE&#x3a; correzione emissione fatture in valuta con qua",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/V5_NTI001528.md"
-},{
-id: 4117,
-title: "Modifica storno bollo virtuale in caso di nota di",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001533.md"
-},{
-id: 4118,
-title: "Aggiornamento pacchetto V5R1 Fatturazione Elettron",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/V5_NTI001540.md"
-},{
-id: 4119,
-title: "Errore chiusura sessioni Webup",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WE_NTI000270.md"
-},{
-id: 4120,
-title: "Correzione errore log-in Web.UP",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WE_NTI000316.md"
-},{
-id: 4121,
-title: "Accesso Web a manuali di documentazione Sme.UP",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/WE_NTI000837.md"
-},{
-id: 4122,
-title: "Nuovo upgrade 1.8.3 di Web.UP",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/WE_NTI001265.md"
-},{
-id: 4123,
-title: "Nuovo attributo AutoFocus in input panel web",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/WE_NTI001266.md"
-},{
-id: 4124,
-title: "Rilascio WebUP versione 1.8.5",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001270.md"
-},{
-id: 4125,
-title: "Rilascio WebUP versione 1.8.6",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001271.md"
-},{
-id: 4126,
-title: "Rilascio WebUP versione 1.8.8",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001274.md"
-},{
-id: 4127,
-title: "Rilascio WebUP versione 1.8.10",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001278.md"
-},{
-id: 4128,
-title: "Errore in Glassfish - Incompatibilità con Web.UP",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001279.md"
-},{
-id: 4129,
-title: "Application Server Consigliato per Web.UP",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001280.md"
-},{
-id: 4130,
-title: "Web.UP 1 e V5R1",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/WE_NTI001343.md"
-},{
-id: 4131,
-title: "Rilascio nuovo aggiornamento Web.UP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/WE_NTI001345.md"
-},{
-id: 4132,
-title: "Web.UP componente GEO&#x3a; ubbligatorio definire api k",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/WE_NTI001353.md"
-},{
-id: 4133,
-title: "Correzione problema date con locale diverso da ita",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001359.md"
-},{
-id: 4134,
-title: "Consigli per l&#x27;aggiornamento di Web.UP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/WE_NTI001383.md"
-},{
-id: 4135,
-title: "Configurazione Application server Glassfish&#x2f;Payara",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001421.md"
-},{
-id: 4136,
-title: "Malfunzionamento in Payara 4.1.2.174",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/WE_NTI001429.md"
-},{
-id: 4137,
-title: "Rilascio Web.UP 1.14.5",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WE_NTI001453.md"
-},{
-id: 4138,
-title: "Web.UP e Payara 5, incompatibilità nello streaming",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/WE_NTI001487.md"
-},{
-id: 4139,
-title: "Web.UP e Payara 5&#x3a; impossibile uplodare file",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/WE_NTI001513.md"
-},{
-id: 4140,
-title: "Versione Java per Web.UP",
-cat: "NTI",
-rel: "V5R1",
-href: "Sorgenti/NTI/WE_NTI001525.md"
-},{
-id: 4141,
-title: "Correzione su assegnazioni per V2R3 dopo 21-05-08",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000200.md"
-},{
-id: 4142,
-title: "Correzione per V2R3 tra 21-05-08 e 05-07-08",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000211.md"
-},{
-id: 4143,
-title: "Correzione funzione&#x2f;valore per autorizzazioni su",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000235.md"
-},{
-id: 4144,
-title: "Designer WORKFLOW",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000269.md"
-},{
-id: 4145,
-title: "Revisione elaborazione WHN e OTH in flussi workflo",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000285.md"
-},{
-id: 4146,
-title: "Correzione errore in gestione righe documento",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000309.md"
-},{
-id: 4147,
-title: "WF&#x3a; correzione in valutazione automatica condizion",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000335.md"
-},{
-id: 4148,
-title: "Parametro INPUT(",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000340.md"
-},{
-id: 4149,
-title: "Modifica scheda WFUTEN",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000345.md"
-},{
-id: 4150,
-title: "Modifica logico WFIMPE3L",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000355.md"
-},{
-id: 4151,
-title: "Transizioni ad esecuzione automatica",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000358.md"
-},{
-id: 4152,
-title: "Correzione importante workflow",
-cat: "NTI",
-rel: "V2R3",
-href: "Sorgenti/NTI/WF_NTI000403.md"
-},{
-id: 4153,
-title: "Componente WFD per rappresentazione ordini",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/WF_NTI000562.md"
-},{
-id: 4154,
-title: "Correzione gestione stato sotto workflow",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/WF_NTI000563.md"
-},{
-id: 4155,
-title: "Correzione disabilitazione stato oggetti sotto wor",
-cat: "NTI",
-rel: "V3R1",
-href: "Sorgenti/NTI/WF_NTI000613.md"
-},{
-id: 4156,
-title: "Flussi di esecuzione workflow e impegni non da",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/WF_NTI000687.md"
-},{
-id: 4157,
-title: "&#x22;WF&#x3a; Apri domanda&#x22; nei pop.up di gestione oggetto",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/WF_NTI000785.md"
-},{
-id: 4158,
-title: "Modifiche processi standard di inserimento oggetti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/WF_NTI000812.md"
-},{
-id: 4159,
-title: "Correzione e semplificazione trattamento requisiti",
-cat: "NTI",
-rel: "V3R2",
-href: "Sorgenti/NTI/WF_NTI000829.md"
-},{
-id: 4160,
-title: "Errore scheda Impegno di WF",
-cat: "NTI",
-rel: "V4R1",
-href: "Sorgenti/NTI/WF_NTI001106.md"
-},{
-id: 4161,
-title: "Indagine su utilizzo WFPROM",
-cat: "NTI",
-rel: "\*ALL",
-href: "Sorgenti/NTI/WF_NTI001311.md"
-},{
-id: 4162,
 title: "S&#x26;P Azioni causali cespiti",
 cat: "NWS",
 rel: "V1R5",
 num: "000703",
 href: "Sorgenti/NWS/A5_NWS000703.md"
 },{
-id: 4163,
+id: 2758,
 title: "Inizializzatori cespiti",
 cat: "NWS",
 rel: "V2R1",
 num: "000740",
 href: "Sorgenti/NWS/A5_NWS000740.md"
 },{
-id: 4164,
+id: 2759,
 title: "Aggiunta opzioni Scheda Cespite e Stampa libro ces",
 cat: "NWS",
 rel: "V2R1",
 num: "000770",
 href: "Sorgenti/NWS/A5_NWS000770.md"
 },{
-id: 4165,
+id: 2760,
 title: "Calcolo ammortamenti alla data",
 cat: "NWS",
 rel: "V2R1",
 num: "000828",
 href: "Sorgenti/NWS/A5_NWS000828.md"
 },{
-id: 4166,
+id: 2761,
 title: "Barratore applicazione Cespiti",
 cat: "NWS",
 rel: "V2R1",
 num: "001018",
 href: "Sorgenti/NWS/A5_NWS001018.md"
 },{
-id: 4167,
+id: 2762,
 title: "Rivalutazioni e Riallineamento Cespiti secondo Fin",
 cat: "NWS",
 rel: "V2R2",
 num: "001125",
 href: "Sorgenti/NWS/A5_NWS001125.md"
 },{
-id: 4168,
+id: 2763,
 title: "Valori alla data con anno commerciale e risalita",
 cat: "NWS",
 rel: "V2R2",
 num: "001145",
 href: "Sorgenti/NWS/A5_NWS001145.md"
 },{
-id: 4169,
+id: 2764,
 title: "Data Inizio&#x2f;Fine Ammortamento da Piano",
 cat: "NWS",
 rel: "V2R2",
 num: "001146",
 href: "Sorgenti/NWS/A5_NWS001146.md"
 },{
-id: 4170,
+id: 2765,
 title: "Modifica Tracciato &#x2f;COPY £A5PDS - Calcolo ammortam",
 cat: "NWS",
 rel: "V2R2",
 num: "001215",
 href: "Sorgenti/NWS/A5_NWS001215.md"
 },{
-id: 4171,
+id: 2766,
 title: "Rettifica Elenco pgm ricompilati per modifica",
 cat: "NWS",
 rel: "V2R2",
 num: "001218",
 href: "Sorgenti/NWS/A5_NWS001218.md"
 },{
-id: 4172,
+id: 2767,
 title: "Implementazioni Cespiti",
 cat: "NWS",
 rel: "V2R3",
 num: "001303",
 href: "Sorgenti/NWS/A5_NWS001303.md"
 },{
-id: 4173,
+id: 2768,
 title: "Implementazioni su Cespiti",
 cat: "NWS",
 rel: "V2R3",
 num: "001525",
 href: "Sorgenti/NWS/A5_NWS001525.md"
 },{
-id: 4174,
+id: 2769,
 title: "Plafond Manutenzioni",
 cat: "NWS",
 rel: "V3R2",
 num: "001885",
 href: "Sorgenti/NWS/A5_NWS001885.md"
 },{
-id: 4175,
+id: 2770,
 title: "Superammortamenti",
 cat: "NWS",
 rel: "V4R1",
 num: "002130",
 href: "Sorgenti/NWS/A5_NWS002130.md"
 },{
-id: 4176,
+id: 2771,
 title: "Implementazioni su collegamento Cespiti",
 cat: "NWS",
 rel: "V4R1",
 num: "002154",
 href: "Sorgenti/NWS/A5_NWS002154.md"
 },{
-id: 4177,
+id: 2772,
 title: "Adeguamento calcolo superammortamenti",
 cat: "NWS",
 rel: "V4R1",
 num: "002159",
 href: "Sorgenti/NWS/A5_NWS002159.md"
 },{
-id: 4178,
+id: 2773,
 title: "Aggiornamento Analisi Superammortamento",
 cat: "NWS",
 rel: "V5R1",
 num: "002249",
 href: "Sorgenti/NWS/A5_NWS002249.md"
 },{
-id: 4179,
+id: 2774,
 title: "Iperammortamenti",
 cat: "NWS",
 rel: "V5R1",
 num: "002328",
 href: "Sorgenti/NWS/A5_NWS002328.md"
 },{
-id: 4180,
+id: 2775,
 title: "Proroga Superammortamento",
 cat: "NWS",
 rel: "V5R1",
 num: "002330",
 href: "Sorgenti/NWS/A5_NWS002330.md"
 },{
-id: 4181,
+id: 2776,
 title: "Modifica tracciato file A£LIND0F",
 cat: "NWS",
 rel: "V1R5",
 num: "000600",
 href: "Sorgenti/NWS/A£_NWS000600.md"
 },{
-id: 4182,
+id: 2777,
 title: "Miglioramenti alla gestione traduzioni",
 cat: "NWS",
 rel: "V2R2",
 num: "001120",
 href: "Sorgenti/NWS/A£_NWS001120.md"
 },{
-id: 4183,
+id: 2778,
 title: "Cambiamento in recupero traduzioni",
 cat: "NWS",
 rel: "V2R2",
 num: "001136",
 href: "Sorgenti/NWS/A£_NWS001136.md"
 },{
-id: 4184,
+id: 2779,
 title: "Traduzione delle descrizioni degli SCRIPT",
 cat: "NWS",
 rel: "V2R2",
 num: "001140",
 href: "Sorgenti/NWS/A£_NWS001140.md"
 },{
-id: 4185,
+id: 2780,
 title: "Opzioni di compilazione programmi SQLRPGLE",
 cat: "NWS",
 rel: "V3R1",
 num: "001615",
 href: "Sorgenti/NWS/A£_NWS001615.md"
 },{
-id: 4186,
+id: 2781,
 title: "Localizzazione",
 cat: "NWS",
 rel: "V3R1",
 num: "001638",
 href: "Sorgenti/NWS/A£_NWS001638.md"
 },{
-id: 4187,
+id: 2782,
 title: "Miglioramenti gestione traduzioni",
 cat: "NWS",
 rel: "V3R1",
 num: "001666",
 href: "Sorgenti/NWS/A£_NWS001666.md"
 },{
-id: 4188,
+id: 2783,
 title: "Compatibilità con lingue non latine",
 cat: "NWS",
 rel: "V3R2",
 num: "001711",
 href: "Sorgenti/NWS/A£_NWS001711.md"
 },{
-id: 4189,
+id: 2784,
 title: "Risultati UP SCA in matrice",
 cat: "NWS",
 rel: "V3R2",
 num: "001799",
 href: "Sorgenti/NWS/A£_NWS001799.md"
 },{
-id: 4190,
+id: 2785,
 title: "Revisione modulo traduzioni",
 cat: "NWS",
 rel: "V4R1",
 num: "001998",
 href: "Sorgenti/NWS/A£_NWS001998.md"
 },{
-id: 4191,
+id: 2786,
 title: "Nuova API K18 di gestione centralizzata della cach",
 cat: "NWS",
 rel: "V5R1",
 num: "002271",
 href: "Sorgenti/NWS/A£_NWS002271.md"
 },{
-id: 4192,
+id: 2787,
 title: "Tool di installazione pacchetti SDST PTF",
 cat: "NWS",
 rel: "\*ALL",
 num: "002364",
 href: "Sorgenti/NWS/A£_NWS002364.md"
 },{
-id: 4193,
+id: 2788,
 title: "Cambio Password in Looc.UP e Web.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002374",
 href: "Sorgenti/NWS/A£_NWS002374.md"
 },{
-id: 4194,
+id: 2789,
 title: "Conrollo allocazione distinta",
 cat: "NWS",
 rel: "",
 num: "000078",
 href: "Sorgenti/NWS/BR_NWS000078.md"
 },{
-id: 4195,
+id: 2790,
 title: "Coefficiente in distinta base",
 cat: "NWS",
 rel: "",
 num: "000083",
 href: "Sorgenti/NWS/BR_NWS000083.md"
 },{
-id: 4196,
+id: 2791,
 title: "Rilevanza operazione",
 cat: "NWS",
 rel: "",
 num: "000086",
 href: "Sorgenti/NWS/BR_NWS000086.md"
 },{
-id: 4197,
+id: 2792,
 title: "Gestione dinamica dei valori di ritorno degli arti",
 cat: "NWS",
 rel: "",
 num: "000089",
 href: "Sorgenti/NWS/BR_NWS000089.md"
 },{
-id: 4198,
+id: 2793,
 title: "CALCOLO LLC",
 cat: "NWS",
 rel: "",
 num: "000108",
 href: "Sorgenti/NWS/BR_NWS000108.md"
 },{
-id: 4199,
+id: 2794,
 title: "Risalita per tipo Ente",
 cat: "NWS",
 rel: "",
 num: "000113",
 href: "Sorgenti/NWS/BR_NWS000113.md"
 },{
-id: 4200,
+id: 2795,
 title: "Fittizio Variabile",
 cat: "NWS",
 rel: "",
 num: "000128",
 href: "Sorgenti/NWS/BR_NWS000128.md"
 },{
-id: 4201,
+id: 2796,
 title: "Calcolo Lead Time Cumulato",
 cat: "NWS",
 rel: "",
 num: "000129",
 href: "Sorgenti/NWS/BR_NWS000129.md"
 },{
-id: 4202,
+id: 2797,
 title: "Funzioni Articolo",
 cat: "NWS",
 rel: "",
 num: "000144",
 href: "Sorgenti/NWS/BR_NWS000144.md"
 },{
-id: 4203,
+id: 2798,
 title: "Programma di Aggiustamento Scansione Distinta Base",
 cat: "NWS",
 rel: "",
 num: "000145",
 href: "Sorgenti/NWS/BR_NWS000145.md"
 },{
-id: 4204,
+id: 2799,
 title: "Calcolo Tempi",
 cat: "NWS",
 rel: "",
 num: "000156",
 href: "Sorgenti/NWS/BR_NWS000156.md"
 },{
-id: 4205,
+id: 2800,
 title: "Interrogazione Distinta e Ciclo",
 cat: "NWS",
 rel: "",
 num: "000157",
 href: "Sorgenti/NWS/BR_NWS000157.md"
 },{
-id: 4206,
+id: 2801,
 title: "Gruppo Distinta di un Articolo",
 cat: "NWS",
 rel: "",
 num: "000159",
 href: "Sorgenti/NWS/BR_NWS000159.md"
 },{
-id: 4207,
+id: 2802,
 title: "Programma di Aggiustamento Scansione Cicli",
 cat: "NWS",
 rel: "",
 num: "000172",
 href: "Sorgenti/NWS/BR_NWS000172.md"
 },{
-id: 4208,
+id: 2803,
 title: "Operazione &#x22;Automatica&#x22; Dinamica",
 cat: "NWS",
 rel: "",
 num: "000174",
 href: "Sorgenti/NWS/BR_NWS000174.md"
 },{
-id: 4209,
+id: 2804,
 title: "Miglioramenti a Gestione Configurazione",
 cat: "NWS",
 rel: "",
 num: "000180",
 href: "Sorgenti/NWS/BR_NWS000180.md"
 },{
-id: 4210,
+id: 2805,
 title: "Nuove Funzioni Articolo",
 cat: "NWS",
 rel: "",
 num: "000188",
 href: "Sorgenti/NWS/BR_NWS000188.md"
 },{
-id: 4211,
+id: 2806,
 title: "Sequenza Distinta per Fittizi",
 cat: "NWS",
 rel: "",
 num: "000201",
 href: "Sorgenti/NWS/BR_NWS000201.md"
 },{
-id: 4212,
+id: 2807,
 title: "Scansione Distinta di Pianificazione",
 cat: "NWS",
 rel: "",
 num: "000214",
 href: "Sorgenti/NWS/BR_NWS000214.md"
 },{
-id: 4213,
+id: 2808,
 title: "Funzioni su Risorse",
 cat: "NWS",
 rel: "",
 num: "000217",
 href: "Sorgenti/NWS/BR_NWS000217.md"
 },{
-id: 4214,
+id: 2809,
 title: "Nuovo Logico Risorse",
 cat: "NWS",
 rel: "",
 num: "000229",
 href: "Sorgenti/NWS/BR_NWS000229.md"
 },{
-id: 4215,
+id: 2810,
 title: "OAV  Intrinseci  Articolo",
 cat: "NWS",
 rel: "",
 num: "000234",
 href: "Sorgenti/NWS/BR_NWS000234.md"
 },{
-id: 4216,
+id: 2811,
 title: "Modello Assunto Ente - Tipo Documento",
 cat: "NWS",
 rel: "",
 num: "000253",
 href: "Sorgenti/NWS/BR_NWS000253.md"
 },{
-id: 4217,
+id: 2812,
 title: "Gestione Dati Articolo &#x2f; Ente Esterno",
 cat: "NWS",
 rel: "",
 num: "000255",
 href: "Sorgenti/NWS/BR_NWS000255.md"
 },{
-id: 4218,
+id: 2813,
 title: "Funzioni  Articolo",
 cat: "NWS",
 rel: "",
 num: "000259",
 href: "Sorgenti/NWS/BR_NWS000259.md"
 },{
-id: 4219,
+id: 2814,
 title: "Gestione Listino Ente &#x2f; Articolo",
 cat: "NWS",
 rel: "",
 num: "000267",
 href: "Sorgenti/NWS/BR_NWS000267.md"
 },{
-id: 4220,
+id: 2815,
 title: "Distinta Tempificata",
 cat: "NWS",
 rel: "",
 num: "000278",
 href: "Sorgenti/NWS/BR_NWS000278.md"
 },{
-id: 4221,
+id: 2816,
 title: "Miglioramenti alla Gestione Magazzino &#x2f; Articolo",
 cat: "NWS",
 rel: "",
 num: "000281",
 href: "Sorgenti/NWS/BR_NWS000281.md"
 },{
-id: 4222,
+id: 2817,
 title: "Interfaccia Articoli",
 cat: "NWS",
 rel: "",
 num: "000283",
 href: "Sorgenti/NWS/BR_NWS000283.md"
 },{
-id: 4223,
+id: 2818,
 title: "Ammesso Ricircolo in Distinta Base",
 cat: "NWS",
 rel: "",
 num: "000288",
 href: "Sorgenti/NWS/BR_NWS000288.md"
 },{
-id: 4224,
+id: 2819,
 title: "Confronto tra Due Distinte Base",
 cat: "NWS",
 rel: "",
 num: "000293",
 href: "Sorgenti/NWS/BR_NWS000293.md"
 },{
-id: 4225,
+id: 2820,
 title: "Controllo Distinta Base",
 cat: "NWS",
 rel: "",
 num: "000299",
 href: "Sorgenti/NWS/BR_NWS000299.md"
 },{
-id: 4226,
+id: 2821,
 title: "Controlli Esterni in Gestione Enti",
 cat: "NWS",
 rel: "",
 num: "000313",
 href: "Sorgenti/NWS/BR_NWS000313.md"
 },{
-id: 4227,
+id: 2822,
 title: "Manutenzione Articoli",
 cat: "NWS",
 rel: "V1R4",
 num: "000345",
 href: "Sorgenti/NWS/BR_NWS000345.md"
 },{
-id: 4228,
+id: 2823,
 title: "Classe di Autorizzazione Articoli",
 cat: "NWS",
 rel: "V1R4",
 num: "000362",
 href: "Sorgenti/NWS/BR_NWS000362.md"
 },{
-id: 4229,
+id: 2824,
 title: "Novità in Multiplant",
 cat: "NWS",
 rel: "V1R4",
 num: "000369",
 href: "Sorgenti/NWS/BR_NWS000369.md"
 },{
-id: 4230,
+id: 2825,
 title: "Formato Esteso Lista  Articoli",
 cat: "NWS",
 rel: "V1R4",
 num: "000399",
 href: "Sorgenti/NWS/BR_NWS000399.md"
 },{
-id: 4231,
+id: 2826,
 title: "Controlli Pre-Cancellazione articolo",
 cat: "NWS",
 rel: "V1R4",
 num: "000409",
 href: "Sorgenti/NWS/BR_NWS000409.md"
 },{
-id: 4232,
+id: 2827,
 title: "Gestione risorse - codice appartenenza",
 cat: "NWS",
 rel: "V1R4",
 num: "000423",
 href: "Sorgenti/NWS/BR_NWS000423.md"
 },{
-id: 4233,
+id: 2828,
 title: "Ricerca posizionale per codice&#x2f;descrizione articol",
 cat: "NWS",
 rel: "V1R4",
 num: "000462",
 href: "Sorgenti/NWS/BR_NWS000462.md"
 },{
-id: 4234,
+id: 2829,
 title: "Descrizione articolo con caratteri minuscoli",
 cat: "NWS",
 rel: "V1R4",
 num: "000469",
 href: "Sorgenti/NWS/BR_NWS000469.md"
 },{
-id: 4235,
+id: 2830,
 title: "Natura Ente",
 cat: "NWS",
 rel: "V1R4",
 num: "000470",
 href: "Sorgenti/NWS/BR_NWS000470.md"
 },{
-id: 4236,
+id: 2831,
 title: "Stampa Distinta",
 cat: "NWS",
 rel: "V1R4",
 num: "000471",
 href: "Sorgenti/NWS/BR_NWS000471.md"
 },{
-id: 4237,
+id: 2832,
 title: "Ente Estero",
 cat: "NWS",
 rel: "V1R4",
 num: "000533",
 href: "Sorgenti/NWS/BR_NWS000533.md"
 },{
-id: 4238,
+id: 2833,
 title: "Gestione articoli Alternativi",
 cat: "NWS",
 rel: "V1R4",
 num: "000543",
 href: "Sorgenti/NWS/BR_NWS000543.md"
 },{
-id: 4239,
+id: 2834,
 title: "Gestione Integrata Dati ente articolo e Listino",
 cat: "NWS",
 rel: "V1R4",
 num: "000545",
 href: "Sorgenti/NWS/BR_NWS000545.md"
 },{
-id: 4240,
+id: 2835,
 title: "Nuova interfaccia articoli",
 cat: "NWS",
 rel: "V1R5",
 num: "000567",
 href: "Sorgenti/NWS/BR_NWS000567.md"
 },{
-id: 4241,
+id: 2836,
 title: "Implementazione parzializzazione articoli",
 cat: "NWS",
 rel: "V1R5",
 num: "000571",
 href: "Sorgenti/NWS/BR_NWS000571.md"
 },{
-id: 4242,
+id: 2837,
 title: "Gestione alternative ciclo",
 cat: "NWS",
 rel: "V1R5",
 num: "000599",
 href: "Sorgenti/NWS/BR_NWS000599.md"
 },{
-id: 4243,
+id: 2838,
 title: "Filtri esterni - Inserimento filtri esterni",
 cat: "NWS",
 rel: "V1R5",
 num: "000605",
 href: "Sorgenti/NWS/BR_NWS000605.md"
 },{
-id: 4244,
+id: 2839,
 title: "Gestione codici EAN13",
 cat: "NWS",
 rel: "V1R5",
 num: "000606",
 href: "Sorgenti/NWS/BR_NWS000606.md"
 },{
-id: 4245,
+id: 2840,
 title: "Nuovo logico per il file BRCOMM0F",
 cat: "NWS",
 rel: "V1R5",
 num: "000610",
 href: "Sorgenti/NWS/BR_NWS000610.md"
 },{
-id: 4246,
+id: 2841,
 title: "Ambiente distinta BRL deviato anche in fase di",
 cat: "NWS",
 rel: "V1R5",
 num: "000611",
 href: "Sorgenti/NWS/BR_NWS000611.md"
 },{
-id: 4247,
+id: 2842,
 title: "Gestione articoli&#x3a; programma di controllo",
 cat: "NWS",
 rel: "V1R5",
 num: "000616",
 href: "Sorgenti/NWS/BR_NWS000616.md"
 },{
-id: 4248,
+id: 2843,
 title: "Scelta fornitore preferenziale",
 cat: "NWS",
 rel: "V1R5",
 num: "000618",
 href: "Sorgenti/NWS/BR_NWS000618.md"
 },{
-id: 4249,
+id: 2844,
 title: "Pgm exit in manutenzione dati ente&#x2f;articolo.",
 cat: "NWS",
 rel: "V1R5",
 num: "000619",
 href: "Sorgenti/NWS/BR_NWS000619.md"
 },{
-id: 4250,
+id: 2845,
 title: "Parametri per articolo&#x2f;magazzino",
 cat: "NWS",
 rel: "V1R5",
 num: "000633",
 href: "Sorgenti/NWS/BR_NWS000633.md"
 },{
-id: 4251,
+id: 2846,
 title: "ENTI - Parzializzatore - Agg. param.interni",
 cat: "NWS",
 rel: "V1R5",
 num: "000643",
 href: "Sorgenti/NWS/BR_NWS000643.md"
 },{
-id: 4252,
+id: 2847,
 title: "Visualizzatore articoli",
 cat: "NWS",
 rel: "V1R5",
 num: "000645",
 href: "Sorgenti/NWS/BR_NWS000645.md"
 },{
-id: 4253,
+id: 2848,
 title: "OAV che ritorna la disponibilità",
 cat: "NWS",
 rel: "V1R5",
 num: "000652",
 href: "Sorgenti/NWS/BR_NWS000652.md"
 },{
-id: 4254,
+id: 2849,
 title: "Stato di nascita in distinta base",
 cat: "NWS",
 rel: "V1R5",
 num: "000667",
 href: "Sorgenti/NWS/BR_NWS000667.md"
 },{
-id: 4255,
+id: 2850,
 title: "Tempi facoltativi in righe ciclo",
 cat: "NWS",
 rel: "V1R5",
 num: "000672",
 href: "Sorgenti/NWS/BR_NWS000672.md"
 },{
-id: 4256,
+id: 2851,
 title: "Nuovo attributo intrinseco per articoli",
 cat: "NWS",
 rel: "V1R5",
 num: "000676",
 href: "Sorgenti/NWS/BR_NWS000676.md"
 },{
-id: 4257,
+id: 2852,
 title: "Nuovo metodo in funzione BRT",
 cat: "NWS",
 rel: "V1R5",
 num: "000682",
 href: "Sorgenti/NWS/BR_NWS000682.md"
 },{
-id: 4258,
+id: 2853,
 title: "Ricerca operazioni",
 cat: "NWS",
 rel: "V1R5",
 num: "000685",
 href: "Sorgenti/NWS/BR_NWS000685.md"
 },{
-id: 4259,
+id: 2854,
 title: "Unità misura memorizzazione tempi ciclo",
 cat: "NWS",
 rel: "V1R5",
 num: "000687",
 href: "Sorgenti/NWS/BR_NWS000687.md"
 },{
-id: 4260,
+id: 2855,
 title: "Nuovi OAV intrinseci sugli enti&#x3a; presenza di",
 cat: "NWS",
 rel: "V1R5",
 num: "000701",
 href: "Sorgenti/NWS/BR_NWS000701.md"
 },{
-id: 4261,
+id: 2856,
 title: "Standardizzazione modalità di richiamo programmi d",
 cat: "NWS",
 rel: "V1R5",
 num: "000704",
 href: "Sorgenti/NWS/BR_NWS000704.md"
 },{
-id: 4262,
+id: 2857,
 title: "Cambio tipo articolo",
 cat: "NWS",
 rel: "V2R1",
 num: "000715",
 href: "Sorgenti/NWS/BR_NWS000715.md"
 },{
-id: 4263,
+id: 2858,
 title: "Forzatura Ciclo di gruppo",
 cat: "NWS",
 rel: "V2R1",
 num: "000743",
 href: "Sorgenti/NWS/BR_NWS000743.md"
 },{
-id: 4264,
+id: 2859,
 title: "Alternative multiple di ciclo",
 cat: "NWS",
 rel: "V2R1",
 num: "000788",
 href: "Sorgenti/NWS/BR_NWS000788.md"
 },{
-id: 4265,
+id: 2860,
 title: "Nuova interfaccia Risorse",
 cat: "NWS",
 rel: "V2R1",
 num: "000806",
 href: "Sorgenti/NWS/BR_NWS000806.md"
 },{
-id: 4266,
+id: 2861,
 title: "Calcolo tempo di approvvigionamento totale",
 cat: "NWS",
 rel: "V2R1",
 num: "000865",
 href: "Sorgenti/NWS/BR_NWS000865.md"
 },{
-id: 4267,
+id: 2862,
 title: "Miglioramemto gestione trigger",
 cat: "NWS",
 rel: "V2R1",
 num: "000871",
 href: "Sorgenti/NWS/BR_NWS000871.md"
 },{
-id: 4268,
+id: 2863,
 title: "Filtro nella selezione enti di spedizione",
 cat: "NWS",
 rel: "V2R1",
 num: "000879",
 href: "Sorgenti/NWS/BR_NWS000879.md"
 },{
-id: 4269,
+id: 2864,
 title: "Nuovi logici su archivio commesse",
 cat: "NWS",
 rel: "V2R1",
 num: "000883",
 href: "Sorgenti/NWS/BR_NWS000883.md"
 },{
-id: 4270,
+id: 2865,
 title: "Modifica delle autorizzazioni su BRESCO",
 cat: "NWS",
 rel: "V2R1",
 num: "000893",
 href: "Sorgenti/NWS/BR_NWS000893.md"
 },{
-id: 4271,
+id: 2866,
 title: "Nuovo campo &#x22;Tipo ris.dip.master&#x22; in tabella BRR",
 cat: "NWS",
 rel: "V2R1",
 num: "000895",
 href: "Sorgenti/NWS/BR_NWS000895.md"
 },{
-id: 4272,
+id: 2867,
 title: "Trasferimento a PC in stampa matricole",
 cat: "NWS",
 rel: "V2R1",
 num: "000900",
 href: "Sorgenti/NWS/BR_NWS000900.md"
 },{
-id: 4273,
+id: 2868,
 title: "Nuovo OAV dell&#x27;oggetto Risorsa",
 cat: "NWS",
 rel: "V2R1",
 num: "000905",
 href: "Sorgenti/NWS/BR_NWS000905.md"
 },{
-id: 4274,
+id: 2869,
 title: "Controlli inserimento anagrafica enti",
 cat: "NWS",
 rel: "V2R1",
 num: "000924",
 href: "Sorgenti/NWS/BR_NWS000924.md"
 },{
-id: 4275,
+id: 2870,
 title: "Aggiornamento documentazione applicativa",
 cat: "NWS",
 rel: "V2R1",
 num: "000930",
 href: "Sorgenti/NWS/BR_NWS000930.md"
 },{
-id: 4276,
+id: 2871,
 title: "Nuova ricerca per scansione su enti e articoli",
 cat: "NWS",
 rel: "V2R1",
 num: "000964",
 href: "Sorgenti/NWS/BR_NWS000964.md"
 },{
-id: 4277,
+id: 2872,
 title: "Nuove opzioni UP",
 cat: "NWS",
 rel: "V2R1",
 num: "000966",
 href: "Sorgenti/NWS/BR_NWS000966.md"
 },{
-id: 4278,
+id: 2873,
 title: "Nuova gestione cambi Giornalieri",
 cat: "NWS",
 rel: "V2R1",
 num: "000974",
 href: "Sorgenti/NWS/BR_NWS000974.md"
 },{
-id: 4279,
+id: 2874,
 title: "Gestione configurazione in manutenzione anagrafica",
 cat: "NWS",
 rel: "V2R1",
 num: "000979",
 href: "Sorgenti/NWS/BR_NWS000979.md"
 },{
-id: 4280,
+id: 2875,
 title: "Nuovo logico x Agente sull&#x27;archivio Enti",
 cat: "NWS",
 rel: "V2R1",
 num: "000984",
 href: "Sorgenti/NWS/BR_NWS000984.md"
 },{
-id: 4281,
+id: 2876,
 title: "Dichiarazioni di intento",
 cat: "NWS",
 rel: "V2R1",
 num: "000985",
 href: "Sorgenti/NWS/BR_NWS000985.md"
 },{
-id: 4282,
+id: 2877,
 title: "Barratore Matricole",
 cat: "NWS",
 rel: "V2R1",
 num: "000998",
 href: "Sorgenti/NWS/BR_NWS000998.md"
 },{
-id: 4283,
+id: 2878,
 title: "Nuova gestione funzioni su oggetti&#x2f;sviluppi di una",
 cat: "NWS",
 rel: "V2R1",
 num: "001025",
 href: "Sorgenti/NWS/BR_NWS001025.md"
 },{
-id: 4284,
+id: 2879,
 title: "Tipizzato campo Criterio Calcolo Provvigioni in an",
 cat: "NWS",
 rel: "V2R1",
 num: "001045",
 href: "Sorgenti/NWS/BR_NWS001045.md"
 },{
-id: 4285,
+id: 2880,
 title: "Lettera Dichiarazione di Intento",
 cat: "NWS",
 rel: "V2R1",
 num: "001066",
 href: "Sorgenti/NWS/BR_NWS001066.md"
 },{
-id: 4286,
+id: 2881,
 title: "Creazione automatica esponenti modifica articolo",
 cat: "NWS",
 rel: "V2R2",
 num: "001084",
 href: "Sorgenti/NWS/BR_NWS001084.md"
 },{
-id: 4287,
+id: 2882,
 title: "Lettere privacy",
 cat: "NWS",
 rel: "V2R2",
 num: "001089",
 href: "Sorgenti/NWS/BR_NWS001089.md"
 },{
-id: 4288,
+id: 2883,
 title: "Nuovi OAV su oggetto ENTE",
 cat: "NWS",
 rel: "V2R2",
 num: "001103",
 href: "Sorgenti/NWS/BR_NWS001103.md"
 },{
-id: 4289,
+id: 2884,
 title: "Scansione di produzione risorse produttive seconda",
 cat: "NWS",
 rel: "V2R2",
 num: "001138",
 href: "Sorgenti/NWS/BR_NWS001138.md"
 },{
-id: 4290,
+id: 2885,
 title: "Aggiunte Funzioni di Interfaccia alla £BRI",
 cat: "NWS",
 rel: "V2R2",
 num: "001148",
 href: "Sorgenti/NWS/BR_NWS001148.md"
 },{
-id: 4291,
+id: 2886,
 title: "Cache tabelle articolo",
 cat: "NWS",
 rel: "V2R2",
 num: "001155",
 href: "Sorgenti/NWS/BR_NWS001155.md"
 },{
-id: 4292,
+id: 2887,
 title: "Funzioni di Aggiornamento su £IFCON",
 cat: "NWS",
 rel: "V2R2",
 num: "001162",
 href: "Sorgenti/NWS/BR_NWS001162.md"
 },{
-id: 4293,
+id: 2888,
 title: "Nuovi OAV su oggetto Risorsa",
 cat: "NWS",
 rel: "V2R2",
 num: "001214",
 href: "Sorgenti/NWS/BR_NWS001214.md"
 },{
-id: 4294,
+id: 2889,
 title: "Miglioramenti a £BRG&#x3a; azioni su riga ciclo",
 cat: "NWS",
 rel: "V2R2",
 num: "001228",
 href: "Sorgenti/NWS/BR_NWS001228.md"
 },{
-id: 4295,
+id: 2890,
 title: "NUOVA ROUTINE £BRN - Gestione Dichiarazioni d&#x27;Int",
 cat: "NWS",
 rel: "V2R2",
 num: "001237",
 href: "Sorgenti/NWS/BR_NWS001237.md"
 },{
-id: 4296,
+id: 2891,
 title: "Stato di nascita articolo in tabella BRA",
 cat: "NWS",
 rel: "V2R2",
 num: "001244",
 href: "Sorgenti/NWS/BR_NWS001244.md"
 },{
-id: 4297,
+id: 2892,
 title: "Esecuzione Pgm di allinamento Coordinate Bancarie",
 cat: "NWS",
 rel: "V2R3",
 num: "001310",
 href: "Sorgenti/NWS/BR_NWS001310.md"
 },{
-id: 4298,
+id: 2893,
 title: "Plant in risorse",
 cat: "NWS",
 rel: "V2R3",
 num: "001314",
 href: "Sorgenti/NWS/BR_NWS001314.md"
 },{
-id: 4299,
+id: 2894,
 title: "Implementazioni su nuova anagrafica enti",
 cat: "NWS",
 rel: "V2R3",
 num: "001317",
 href: "Sorgenti/NWS/BR_NWS001317.md"
 },{
-id: 4300,
+id: 2895,
 title: "Controllo Codice Fiscale per Persone Giuridiche",
 cat: "NWS",
 rel: "V2R3",
 num: "001336",
 href: "Sorgenti/NWS/BR_NWS001336.md"
 },{
-id: 4301,
+id: 2896,
 title: "Opzioni di interrogazione su enti",
 cat: "NWS",
 rel: "V2R3",
 num: "001369",
 href: "Sorgenti/NWS/BR_NWS001369.md"
 },{
-id: 4302,
+id: 2897,
 title: "Nuovo OAV su enti - mercato nazionale, CEE, Extra-",
 cat: "NWS",
 rel: "V2R3",
 num: "001402",
 href: "Sorgenti/NWS/BR_NWS001402.md"
 },{
-id: 4303,
+id: 2898,
 title: "Costruzione codice Commessa",
 cat: "NWS",
 rel: "V2R3",
 num: "001404",
 href: "Sorgenti/NWS/BR_NWS001404.md"
 },{
-id: 4304,
+id: 2899,
 title: "Nuovi OAV intrinseci su risorse",
 cat: "NWS",
 rel: "V2R3",
 num: "001415",
 href: "Sorgenti/NWS/BR_NWS001415.md"
 },{
-id: 4305,
+id: 2900,
 title: "Estensioni a Testate Ciclo",
 cat: "NWS",
 rel: "V2R3",
 num: "001478",
 href: "Sorgenti/NWS/BR_NWS001478.md"
 },{
-id: 4306,
+id: 2901,
 title: "Coeff.impiego Distinta Base come divisore",
 cat: "NWS",
 rel: "V2R3",
 num: "001479",
 href: "Sorgenti/NWS/BR_NWS001479.md"
 },{
-id: 4307,
+id: 2902,
 title: "Aggiunta exit a programma lista risorse",
 cat: "NWS",
 rel: "V2R3",
 num: "001501",
 href: "Sorgenti/NWS/BR_NWS001501.md"
 },{
-id: 4308,
+id: 2903,
 title: "Classe di Autorizzazione Matricole",
 cat: "NWS",
 rel: "V2R3",
 num: "001505",
 href: "Sorgenti/NWS/BR_NWS001505.md"
 },{
-id: 4309,
+id: 2904,
 title: "Obbligatorietà chiave ricerca estensione contatti",
 cat: "NWS",
 rel: "V2R3",
 num: "001520",
 href: "Sorgenti/NWS/BR_NWS001520.md"
 },{
-id: 4310,
+id: 2905,
 title: "Importazione cambi valute giornalieri",
 cat: "NWS",
 rel: "V2R3",
 num: "001574",
 href: "Sorgenti/NWS/BR_NWS001574.md"
 },{
-id: 4311,
+id: 2906,
 title: "Gestione Distinte Basi",
 cat: "NWS",
 rel: "V2R3",
 num: "001582",
 href: "Sorgenti/NWS/BR_NWS001582.md"
 },{
-id: 4312,
+id: 2907,
 title: "Gestione Enti S2 senza flussi",
 cat: "NWS",
 rel: "V3R1",
 num: "001608",
 href: "Sorgenti/NWS/BR_NWS001608.md"
 },{
-id: 4313,
+id: 2908,
 title: "Risalita Conto Mastro da BRE",
 cat: "NWS",
 rel: "V3R2",
 num: "001716",
 href: "Sorgenti/NWS/BR_NWS001716.md"
 },{
-id: 4314,
+id: 2909,
 title: "Estensioni interfaccia cicli",
 cat: "NWS",
 rel: "V3R2",
 num: "001793",
 href: "Sorgenti/NWS/BR_NWS001793.md"
 },{
-id: 4315,
+id: 2910,
 title: "Tabelle Risalita 4",
 cat: "NWS",
 rel: "V3R2",
 num: "001823",
 href: "Sorgenti/NWS/BR_NWS001823.md"
 },{
-id: 4316,
+id: 2911,
 title: "Listino di default da categoria ente",
 cat: "NWS",
 rel: "V3R2",
 num: "001846",
 href: "Sorgenti/NWS/BR_NWS001846.md"
 },{
-id: 4317,
+id: 2912,
 title: "Anagrafica Enti in Versione Grafica",
 cat: "NWS",
 rel: "V3R2",
 num: "001849",
 href: "Sorgenti/NWS/BR_NWS001849.md"
 },{
-id: 4318,
+id: 2913,
 title: "OAV Codice e Descrizione c&#x2f;o Fornitore preferenzia",
 cat: "NWS",
 rel: "V3R2",
 num: "001867",
 href: "Sorgenti/NWS/BR_NWS001867.md"
 },{
-id: 4319,
+id: 2914,
 title: "Schede moduli BRARTI&#x2f;BRCOMM&#x2f;BRRISO",
 cat: "NWS",
 rel: "V3R2",
 num: "001921",
 href: "Sorgenti/NWS/BR_NWS001921.md"
 },{
-id: 4320,
+id: 2915,
 title: "Scheda modulo BRDIST",
 cat: "NWS",
 rel: "V3R2",
 num: "001922",
 href: "Sorgenti/NWS/BR_NWS001922.md"
 },{
-id: 4321,
+id: 2916,
 title: "Scheda modulo BRCICL",
 cat: "NWS",
 rel: "V3R2",
 num: "001923",
 href: "Sorgenti/NWS/BR_NWS001923.md"
 },{
-id: 4322,
+id: 2917,
 title: "Schede BRENTI&#x2f;CN",
 cat: "NWS",
 rel: "V3R2",
 num: "001927",
 href: "Sorgenti/NWS/BR_NWS001927.md"
 },{
-id: 4323,
+id: 2918,
 title: "Navigazione Articoli per Tipo",
 cat: "NWS",
 rel: "V4R1",
 num: "001975",
 href: "Sorgenti/NWS/BR_NWS001975.md"
 },{
-id: 4324,
+id: 2919,
 title: "Miglioramenti a gestione movimenti, attività, funz",
 cat: "NWS",
 rel: "V4R1",
 num: "001978",
 href: "Sorgenti/NWS/BR_NWS001978.md"
 },{
-id: 4325,
+id: 2920,
 title: "Distinta Base - Note in variazione di massa",
 cat: "NWS",
 rel: "V4R1",
 num: "002009",
 href: "Sorgenti/NWS/BR_NWS002009.md"
 },{
-id: 4326,
+id: 2921,
 title: "Dichiarazioni Intento - Adeguamento Provvedimento",
 cat: "NWS",
 rel: "V4R1",
 num: "002043",
 href: "Sorgenti/NWS/BR_NWS002043.md"
 },{
-id: 4327,
+id: 2922,
 title: "Dichiarazioni di Intento - Conferma Adeguamento",
 cat: "NWS",
 rel: "V4R1",
 num: "002047",
 href: "Sorgenti/NWS/BR_NWS002047.md"
 },{
-id: 4328,
+id: 2923,
 title: "Dichiarazioni d&#x27;intento - Adeguamento all&#x27;11",
 cat: "NWS",
 rel: "V4R1",
 num: "002050",
 href: "Sorgenti/NWS/BR_NWS002050.md"
 },{
-id: 4329,
+id: 2924,
 title: "Aggiunte ad Anagrafiche Enti",
 cat: "NWS",
 rel: "V4R2",
 num: "002062",
 href: "Sorgenti/NWS/BR_NWS002062.md"
 },{
-id: 4330,
+id: 2925,
 title: "Visualizzazione Distinta in forma matrice",
 cat: "NWS",
 rel: "V4R1",
 num: "002069",
 href: "Sorgenti/NWS/BR_NWS002069.md"
 },{
-id: 4331,
+id: 2926,
 title: "Gestione distinta dase da surf",
 cat: "NWS",
 rel: "V4R1",
 num: "002070",
 href: "Sorgenti/NWS/BR_NWS002070.md"
 },{
-id: 4332,
+id: 2927,
 title: "Controllo Parametri Esterni in Anagrafica Enti",
 cat: "NWS",
 rel: "V4R1",
 num: "002074",
 href: "Sorgenti/NWS/BR_NWS002074.md"
 },{
-id: 4333,
+id: 2928,
 title: "Kontroller Articolo",
 cat: "NWS",
 rel: "V4R1",
 num: "002083",
 href: "Sorgenti/NWS/BR_NWS002083.md"
 },{
-id: 4334,
+id: 2929,
 title: "Estensione dati ente articolo",
 cat: "NWS",
 rel: "V4R1",
 num: "002089",
 href: "Sorgenti/NWS/BR_NWS002089.md"
 },{
-id: 4335,
+id: 2930,
 title: "Modifica al sottosettore stati dei contatti",
 cat: "NWS",
 rel: "V5R1",
 num: "002186",
 href: "Sorgenti/NWS/BR_NWS002186.md"
 },{
-id: 4336,
+id: 2931,
 title: "Nuovo archivio Catalogo Articoli",
 cat: "NWS",
 rel: "V5R1",
 num: "002200",
 href: "Sorgenti/NWS/BR_NWS002200.md"
 },{
-id: 4337,
+id: 2932,
 title: "Nuove Dichiarazioni Intento",
 cat: "NWS",
 rel: "V5R1",
 num: "002230",
 href: "Sorgenti/NWS/BR_NWS002230.md"
 },{
-id: 4338,
+id: 2933,
 title: "Aggiornamento Dichiarazioni di Intento",
 cat: "NWS",
 rel: "V5R1",
 num: "002238",
 href: "Sorgenti/NWS/BR_NWS002238.md"
 },{
-id: 4339,
+id: 2934,
 title: "Cambio URL Estrazione Cambi",
 cat: "NWS",
 rel: "V5R1",
 num: "002299",
 href: "Sorgenti/NWS/BR_NWS002299.md"
 },{
-id: 4340,
+id: 2935,
 title: "Specifiche per cambio URL Estrazione Cambi",
 cat: "NWS",
 rel: "V5R1",
 num: "002305",
 href: "Sorgenti/NWS/BR_NWS002305.md"
 },{
-id: 4341,
+id: 2936,
 title: "Nuovo Surf &#x22;Navigazione dista ciclo&#x22;",
 cat: "NWS",
 rel: "V5R1",
 num: "002308",
 href: "Sorgenti/NWS/BR_NWS002308.md"
 },{
-id: 4342,
+id: 2937,
 title: "Dichiarazioni di intento integrative",
 cat: "NWS",
 rel: "V5R1",
 num: "002334",
 href: "Sorgenti/NWS/BR_NWS002334.md"
 },{
-id: 4343,
+id: 2938,
 title: "Comando Up",
 cat: "NWS",
 rel: "V1R4",
 num: "000002",
 href: "Sorgenti/NWS/B£_NWS000002.md"
 },{
-id: 4344,
+id: 2939,
 title: "Routine TNU",
 cat: "NWS",
 rel: "V1R4",
 num: "000004",
 href: "Sorgenti/NWS/B£_NWS000004.md"
 },{
-id: 4345,
+id: 2940,
 title: "Nuova routine £CGF",
 cat: "NWS",
 rel: "V1R4",
 num: "000005",
 href: "Sorgenti/NWS/B£_NWS000005.md"
 },{
-id: 4346,
+id: 2941,
 title: "PGM di controllo settori",
 cat: "NWS",
 rel: "V1R4",
 num: "000006",
 href: "Sorgenti/NWS/B£_NWS000006.md"
 },{
-id: 4347,
+id: 2942,
 title: "Funzione £G20",
 cat: "NWS",
 rel: "V1R4",
 num: "000009",
 href: "Sorgenti/NWS/B£_NWS000009.md"
 },{
-id: 4348,
+id: 2943,
 title: "Test editazione edit codes",
 cat: "NWS",
 rel: "V1R4",
 num: "000012",
 href: "Sorgenti/NWS/B£_NWS000012.md"
 },{
-id: 4349,
+id: 2944,
 title: "Sospetto di ricorsione",
 cat: "NWS",
 rel: "V1R4",
 num: "000013",
 href: "Sorgenti/NWS/B£_NWS000013.md"
 },{
-id: 4350,
+id: 2945,
 title: "Interfaccia lotti",
 cat: "NWS",
 rel: "V1R4",
 num: "000014",
 href: "Sorgenti/NWS/B£_NWS000014.md"
 },{
-id: 4351,
+id: 2946,
 title: "Riduzione B£J a 5 caratteri",
 cat: "NWS",
 rel: "V1R4",
 num: "000016",
 href: "Sorgenti/NWS/B£_NWS000016.md"
 },{
-id: 4352,
+id: 2947,
 title: "Visualizzazione tasti funzionali",
 cat: "NWS",
 rel: "V1R4",
 num: "000017",
 href: "Sorgenti/NWS/B£_NWS000017.md"
 },{
-id: 4353,
+id: 2948,
 title: "B£FUN3 su tabelle",
 cat: "NWS",
 rel: "V1R4",
 num: "000019",
 href: "Sorgenti/NWS/B£_NWS000019.md"
 },{
-id: 4354,
+id: 2949,
 title: "Informazioni sullo stack",
 cat: "NWS",
 rel: "V1R4",
 num: "000020",
 href: "Sorgenti/NWS/B£_NWS000020.md"
 },{
-id: 4355,
+id: 2950,
 title: "Settimana di appartenenza",
 cat: "NWS",
 rel: "V1R4",
 num: "000025",
 href: "Sorgenti/NWS/B£_NWS000025.md"
 },{
-id: 4356,
+id: 2951,
 title: "Implementi a G11",
 cat: "NWS",
 rel: "V1R4",
 num: "000026",
 href: "Sorgenti/NWS/B£_NWS000026.md"
 },{
-id: 4357,
+id: 2952,
 title: "Manutenzione tabelle",
 cat: "NWS",
 rel: "V1R4",
 num: "000027",
 href: "Sorgenti/NWS/B£_NWS000027.md"
 },{
-id: 4358,
+id: 2953,
 title: "Editazione numeri",
 cat: "NWS",
 rel: "",
 num: "000028",
 href: "Sorgenti/NWS/B£_NWS000028.md"
 },{
-id: 4359,
+id: 2954,
 title: "Funzioni tabelle",
 cat: "NWS",
 rel: "",
 num: "000029",
 href: "Sorgenti/NWS/B£_NWS000029.md"
 },{
-id: 4360,
+id: 2955,
 title: "Parametro di default per oggetto data",
 cat: "NWS",
 rel: "",
 num: "000031",
 href: "Sorgenti/NWS/B£_NWS000031.md"
 },{
-id: 4361,
+id: 2956,
 title: "File di lavoro",
 cat: "NWS",
 rel: "",
 num: "000033",
 href: "Sorgenti/NWS/B£_NWS000033.md"
 },{
-id: 4362,
+id: 2957,
 title: "Parametri su tabelle",
 cat: "NWS",
 rel: "",
 num: "000034",
 href: "Sorgenti/NWS/B£_NWS000034.md"
 },{
-id: 4363,
+id: 2958,
 title: "Interrogazione tabelle",
 cat: "NWS",
 rel: "",
 num: "000035",
 href: "Sorgenti/NWS/B£_NWS000035.md"
 },{
-id: 4364,
+id: 2959,
 title: "Nuova gestione Tabelle",
 cat: "NWS",
 rel: "",
 num: "000037",
 href: "Sorgenti/NWS/B£_NWS000037.md"
 },{
-id: 4365,
+id: 2960,
 title: "Formati a 132&#x2f;£G18",
 cat: "NWS",
 rel: "",
 num: "000039",
 href: "Sorgenti/NWS/B£_NWS000039.md"
 },{
-id: 4366,
+id: 2961,
 title: "Comando UP",
 cat: "NWS",
 rel: "",
 num: "000041",
 href: "Sorgenti/NWS/B£_NWS000041.md"
 },{
-id: 4367,
+id: 2962,
 title: "Routine £G09",
 cat: "NWS",
 rel: "",
 num: "000043",
 href: "Sorgenti/NWS/B£_NWS000043.md"
 },{
-id: 4368,
+id: 2963,
 title: "Procedura gestione interfacce",
 cat: "NWS",
 rel: "",
 num: "000044",
 href: "Sorgenti/NWS/B£_NWS000044.md"
 },{
-id: 4369,
+id: 2964,
 title: "Estensione controllo date - £DA8",
 cat: "NWS",
 rel: "",
 num: "000052",
 href: "Sorgenti/NWS/B£_NWS000052.md"
 },{
-id: 4370,
+id: 2965,
 title: "Nuovi valori V2",
 cat: "NWS",
 rel: "",
 num: "000053",
 href: "Sorgenti/NWS/B£_NWS000053.md"
 },{
-id: 4371,
+id: 2966,
 title: "Definizione delle date",
 cat: "NWS",
 rel: "",
 num: "000058",
 href: "Sorgenti/NWS/B£_NWS000058.md"
 },{
-id: 4372,
+id: 2967,
 title: "Zoom sulla gestione dei parametri",
 cat: "NWS",
 rel: "",
 num: "000059",
 href: "Sorgenti/NWS/B£_NWS000059.md"
 },{
-id: 4373,
+id: 2968,
 title: "Impostazione Flussi",
 cat: "NWS",
 rel: "",
 num: "000062",
 href: "Sorgenti/NWS/B£_NWS000062.md"
 },{
-id: 4374,
+id: 2969,
 title: "Segnalazione Help",
 cat: "NWS",
 rel: "",
 num: "000063",
 href: "Sorgenti/NWS/B£_NWS000063.md"
 },{
-id: 4375,
+id: 2970,
 title: "Impostazione G18",
 cat: "NWS",
 rel: "",
 num: "000064",
 href: "Sorgenti/NWS/B£_NWS000064.md"
 },{
-id: 4376,
+id: 2971,
 title: "Sfondo in formati A132",
 cat: "NWS",
 rel: "",
 num: "000069",
 href: "Sorgenti/NWS/B£_NWS000069.md"
 },{
-id: 4377,
+id: 2972,
 title: "Sessagesimi nell&#x27;unità di misura di tempo",
 cat: "NWS",
 rel: "",
 num: "000073",
 href: "Sorgenti/NWS/B£_NWS000073.md"
 },{
-id: 4378,
+id: 2973,
 title: "Modifica £G03&#x3a; ricerca conti contabili",
 cat: "NWS",
 rel: "",
 num: "000075",
 href: "Sorgenti/NWS/B£_NWS000075.md"
 },{
-id: 4379,
+id: 2974,
 title: "Spostammenti fra date di calendario",
 cat: "NWS",
 rel: "",
 num: "000076",
 href: "Sorgenti/NWS/B£_NWS000076.md"
 },{
-id: 4380,
+id: 2975,
 title: "Unità di misura alternativa in gestione listini",
 cat: "NWS",
 rel: "",
 num: "000077",
 href: "Sorgenti/NWS/B£_NWS000077.md"
 },{
-id: 4381,
+id: 2976,
 title: "Sampa modifiche a partire da una data",
 cat: "NWS",
 rel: "",
 num: "000080",
 href: "Sorgenti/NWS/B£_NWS000080.md"
 },{
-id: 4382,
+id: 2977,
 title: "Schema valori",
 cat: "NWS",
 rel: "",
 num: "000082",
 href: "Sorgenti/NWS/B£_NWS000082.md"
 },{
-id: 4383,
+id: 2978,
 title: "Help specifico",
 cat: "NWS",
 rel: "",
 num: "000085",
 href: "Sorgenti/NWS/B£_NWS000085.md"
 },{
-id: 4384,
+id: 2979,
 title: "Modifica DSPFLD",
 cat: "NWS",
 rel: "",
 num: "000099",
 href: "Sorgenti/NWS/B£_NWS000099.md"
 },{
-id: 4385,
+id: 2980,
 title: "Nuova gestione schemi B£",
 cat: "NWS",
 rel: "",
 num: "000101",
 href: "Sorgenti/NWS/B£_NWS000101.md"
 },{
-id: 4386,
+id: 2981,
 title: "Estensione&#x2f;Modifica funzioni di stato",
 cat: "NWS",
 rel: "",
 num: "000112",
 href: "Sorgenti/NWS/B£_NWS000112.md"
 },{
-id: 4387,
+id: 2982,
 title: "Deviatore a Presentazione Funzioni",
 cat: "NWS",
 rel: "",
 num: "000116",
 href: "Sorgenti/NWS/B£_NWS000116.md"
 },{
-id: 4388,
+id: 2983,
 title: "Nuove Funzioni per  &#x22;UP&#x22;",
 cat: "NWS",
 rel: "",
 num: "000117",
 href: "Sorgenti/NWS/B£_NWS000117.md"
 },{
-id: 4389,
+id: 2984,
 title: "Ridirezione Cicli",
 cat: "NWS",
 rel: "",
 num: "000122",
 href: "Sorgenti/NWS/B£_NWS000122.md"
 },{
-id: 4390,
+id: 2985,
 title: "Standard Applicativi",
 cat: "NWS",
 rel: "",
 num: "000123",
 href: "Sorgenti/NWS/B£_NWS000123.md"
 },{
-id: 4391,
+id: 2986,
 title: "Flusso Esecuzione Ridotto",
 cat: "NWS",
 rel: "",
 num: "000135",
 href: "Sorgenti/NWS/B£_NWS000135.md"
 },{
-id: 4392,
+id: 2987,
 title: "Nuova Funzione UP",
 cat: "NWS",
 rel: "",
 num: "000143",
 href: "Sorgenti/NWS/B£_NWS000143.md"
 },{
-id: 4393,
+id: 2988,
 title: "Condizioni a Flussi",
 cat: "NWS",
 rel: "",
 num: "000146",
 href: "Sorgenti/NWS/B£_NWS000146.md"
 },{
-id: 4394,
+id: 2989,
 title: "Flusso di Visualizzazione",
 cat: "NWS",
 rel: "",
 num: "000152",
 href: "Sorgenti/NWS/B£_NWS000152.md"
 },{
-id: 4395,
+id: 2990,
 title: "Riallineamento Tabelle",
 cat: "NWS",
 rel: "",
 num: "000153",
 href: "Sorgenti/NWS/B£_NWS000153.md"
 },{
-id: 4396,
+id: 2991,
 title: "Scansione Distinta&#x2f;Ciclo",
 cat: "NWS",
 rel: "",
 num: "000161",
 href: "Sorgenti/NWS/B£_NWS000161.md"
 },{
-id: 4397,
+id: 2992,
 title: "Nuove Opzioni Comando UP",
 cat: "NWS",
 rel: "",
 num: "000162",
 href: "Sorgenti/NWS/B£_NWS000162.md"
 },{
-id: 4398,
+id: 2993,
 title: "Bloccaggio SRC",
 cat: "NWS",
 rel: "",
 num: "000167",
 href: "Sorgenti/NWS/B£_NWS000167.md"
 },{
-id: 4399,
+id: 2994,
 title: "Controllo Sfondamento",
 cat: "NWS",
 rel: "",
 num: "000168",
 href: "Sorgenti/NWS/B£_NWS000168.md"
 },{
-id: 4400,
+id: 2995,
 title: "Visualizzazione G14",
 cat: "NWS",
 rel: "",
 num: "000169",
 href: "Sorgenti/NWS/B£_NWS000169.md"
 },{
-id: 4401,
+id: 2996,
 title: "Nota Tecnica",
 cat: "NWS",
 rel: "",
 num: "000171",
 href: "Sorgenti/NWS/B£_NWS000171.md"
 },{
-id: 4402,
+id: 2997,
 title: "Miglioramenti a £G08",
 cat: "NWS",
 rel: "",
 num: "000190",
 href: "Sorgenti/NWS/B£_NWS000190.md"
 },{
-id: 4403,
+id: 2998,
 title: "Navigazione in Richiesta Funzioni",
 cat: "NWS",
 rel: "",
 num: "000191",
 href: "Sorgenti/NWS/B£_NWS000191.md"
 },{
-id: 4404,
+id: 2999,
 title: "Blocchi alle Date Chiusure",
 cat: "NWS",
 rel: "",
 num: "000193",
 href: "Sorgenti/NWS/B£_NWS000193.md"
 },{
-id: 4405,
+id: 3000,
 title: "Ciclo Logistico",
 cat: "NWS",
 rel: "",
 num: "000195",
 href: "Sorgenti/NWS/B£_NWS000195.md"
 },{
-id: 4406,
+id: 3001,
 title: "Novita&#x27; in &#x2f;copy per tabelle",
 cat: "NWS",
 rel: "",
 num: "000202",
 href: "Sorgenti/NWS/B£_NWS000202.md"
 },{
-id: 4407,
+id: 3002,
 title: "OAV Intrinseci",
 cat: "NWS",
 rel: "",
 num: "000209",
 href: "Sorgenti/NWS/B£_NWS000209.md"
 },{
-id: 4408,
+id: 3003,
 title: "Novita&#x27; in B£SLOT",
 cat: "NWS",
 rel: "",
 num: "000210",
 href: "Sorgenti/NWS/B£_NWS000210.md"
 },{
-id: 4409,
+id: 3004,
 title: "Tabelle",
 cat: "NWS",
 rel: "",
 num: "000211",
 href: "Sorgenti/NWS/B£_NWS000211.md"
 },{
-id: 4410,
+id: 3005,
 title: "Sostituzione Caratteri in Stringa",
 cat: "NWS",
 rel: "",
 num: "000212",
 href: "Sorgenti/NWS/B£_NWS000212.md"
 },{
-id: 4411,
+id: 3006,
 title: "Novita&#x27; in Visibilita&#x27; Gruppi Flag",
 cat: "NWS",
 rel: "",
 num: "000216",
 href: "Sorgenti/NWS/B£_NWS000216.md"
 },{
-id: 4412,
+id: 3007,
 title: "Modifiche a £G11",
 cat: "NWS",
 rel: "",
 num: "000223",
 href: "Sorgenti/NWS/B£_NWS000223.md"
 },{
-id: 4413,
+id: 3008,
 title: "Novita&#x27; nella Configurazione",
 cat: "NWS",
 rel: "",
 num: "000226",
 href: "Sorgenti/NWS/B£_NWS000226.md"
 },{
-id: 4414,
+id: 3009,
 title: "OAV di  ARTICOLO",
 cat: "NWS",
 rel: "",
 num: "000230",
 href: "Sorgenti/NWS/B£_NWS000230.md"
 },{
-id: 4415,
+id: 3010,
 title: "Tipo Oggettto Riga ",
 cat: "NWS",
 rel: "",
 num: "000235",
 href: "Sorgenti/NWS/B£_NWS000235.md"
 },{
-id: 4416,
+id: 3011,
 title: "Impostazione OAV in LiraG25",
 cat: "NWS",
 rel: "V1R4",
 num: "000236",
 href: "Sorgenti/NWS/B£_NWS000236.md"
 },{
-id: 4417,
+id: 3012,
 title: "Menu&#x27; SME_UP",
 cat: "NWS",
 rel: "",
 num: "000248",
 href: "Sorgenti/NWS/B£_NWS000248.md"
 },{
-id: 4418,
+id: 3013,
 title: "Risalite Listini",
 cat: "NWS",
 rel: "",
 num: "000249",
 href: "Sorgenti/NWS/B£_NWS000249.md"
 },{
-id: 4419,
+id: 3014,
 title: "Lista Parametri",
 cat: "NWS",
 rel: "",
 num: "000250",
 href: "Sorgenti/NWS/B£_NWS000250.md"
 },{
-id: 4420,
+id: 3015,
 title: "Distinta Documento",
 cat: "NWS",
 rel: "",
 num: "000257",
 href: "Sorgenti/NWS/B£_NWS000257.md"
 },{
-id: 4421,
+id: 3016,
 title: "Data in OAV",
 cat: "NWS",
 rel: "",
 num: "000258",
 href: "Sorgenti/NWS/B£_NWS000258.md"
 },{
-id: 4422,
+id: 3017,
 title: "Trascinamento Configurazione",
 cat: "NWS",
 rel: "",
 num: "000261",
 href: "Sorgenti/NWS/B£_NWS000261.md"
 },{
-id: 4423,
+id: 3018,
 title: "Stampa Tracciato File",
 cat: "NWS",
 rel: "",
 num: "000266",
 href: "Sorgenti/NWS/B£_NWS000266.md"
 },{
-id: 4424,
+id: 3019,
 title: "Nuove  Funzioni  &#x22;UP&#x22;",
 cat: "NWS",
 rel: "",
 num: "000269",
 href: "Sorgenti/NWS/B£_NWS000269.md"
 },{
-id: 4425,
+id: 3020,
 title: "OAV  dell&#x27;Articolo",
 cat: "NWS",
 rel: "",
 num: "000270",
 href: "Sorgenti/NWS/B£_NWS000270.md"
 },{
-id: 4426,
+id: 3021,
 title: "Parametri  Esecuzione   LiraGPE",
 cat: "NWS",
 rel: "",
 num: "000273",
 href: "Sorgenti/NWS/B£_NWS000273.md"
 },{
-id: 4427,
+id: 3022,
 title: "Aggiornamento delle  &#x2f;Copy  liraIFCLI  e  liraIFFO",
 cat: "NWS",
 rel: "",
 num: "000279",
 href: "Sorgenti/NWS/B£_NWS000279.md"
 },{
-id: 4428,
+id: 3023,
 title: "Interfaccia  LiraG26",
 cat: "NWS",
 rel: "",
 num: "000280",
 href: "Sorgenti/NWS/B£_NWS000280.md"
 },{
-id: 4429,
+id: 3024,
 title: "Definizione Nuovo Oggetto  &#x22;V3&#x22; Valori SME_UP Dina",
 cat: "NWS",
 rel: "",
 num: "000286",
 href: "Sorgenti/NWS/B£_NWS000286.md"
 },{
-id: 4430,
+id: 3025,
 title: "Interfaccie   ACG   A7",
 cat: "NWS",
 rel: "",
 num: "000287",
 href: "Sorgenti/NWS/B£_NWS000287.md"
 },{
-id: 4431,
+id: 3026,
 title: "Classe di Autorizzazione per la Memorizzazione Vid",
 cat: "NWS",
 rel: "",
 num: "000291",
 href: "Sorgenti/NWS/B£_NWS000291.md"
 },{
-id: 4432,
+id: 3027,
 title: "OAV Intrinseci su Richiesta di Movimentazione",
 cat: "NWS",
 rel: "",
 num: "000294",
 href: "Sorgenti/NWS/B£_NWS000294.md"
 },{
-id: 4433,
+id: 3028,
 title: "Estensione delle memorizzazioni multiple in G11&#x2f;G3",
 cat: "NWS",
 rel: "",
 num: "000298",
 href: "Sorgenti/NWS/B£_NWS000298.md"
 },{
-id: 4434,
+id: 3029,
 title: "Installazione ACG ufficio",
 cat: "NWS",
 rel: "",
 num: "000301",
 href: "Sorgenti/NWS/B£_NWS000301.md"
 },{
-id: 4435,
+id: 3030,
 title: "Funzione di Presentazione con Metodo di Posizionam",
 cat: "NWS",
 rel: "",
 num: "000302",
 href: "Sorgenti/NWS/B£_NWS000302.md"
 },{
-id: 4436,
+id: 3031,
 title: "Gruppo di  Attributi",
 cat: "NWS",
 rel: "",
 num: "000305",
 href: "Sorgenti/NWS/B£_NWS000305.md"
 },{
-id: 4437,
+id: 3032,
 title: "Flusso  di  PRE-MODIFICA",
 cat: "NWS",
 rel: "",
 num: "000307",
 href: "Sorgenti/NWS/B£_NWS000307.md"
 },{
-id: 4438,
+id: 3033,
 title: "Nuove Funzioni  &#x22; UP &#x22;",
 cat: "NWS",
 rel: "",
 num: "000308",
 href: "Sorgenti/NWS/B£_NWS000308.md"
 },{
-id: 4439,
+id: 3034,
 title: "Funzioni  Spostamenti  fra  Date  con Giorni Lavor",
 cat: "NWS",
 rel: "",
 num: "000309",
 href: "Sorgenti/NWS/B£_NWS000309.md"
 },{
-id: 4440,
+id: 3035,
 title: "Pubblicazione del libro LAVORI IN CORSO",
 cat: "NWS",
 rel: "",
 num: "000310",
 href: "Sorgenti/NWS/B£_NWS000310.md"
 },{
-id: 4441,
+id: 3036,
 title: "Modifiche alla Classe Memorizzazione Video  -   MD",
 cat: "NWS",
 rel: "",
 num: "000311",
 href: "Sorgenti/NWS/B£_NWS000311.md"
 },{
-id: 4442,
+id: 3037,
 title: "Nazione Assunta",
 cat: "NWS",
 rel: "",
 num: "000314",
 href: "Sorgenti/NWS/B£_NWS000314.md"
 },{
-id: 4443,
+id: 3038,
 title: "Funzioni su MDV",
 cat: "NWS",
 rel: "",
 num: "000315",
 href: "Sorgenti/NWS/B£_NWS000315.md"
 },{
-id: 4444,
+id: 3039,
 title: "Attributi Intrinseci su Oggetti di Sistema",
 cat: "NWS",
 rel: "",
 num: "000318",
 href: "Sorgenti/NWS/B£_NWS000318.md"
 },{
-id: 4445,
+id: 3040,
 title: "OAV su Data",
 cat: "NWS",
 rel: "",
 num: "000321",
 href: "Sorgenti/NWS/B£_NWS000321.md"
 },{
-id: 4446,
+id: 3041,
 title: "Lancio Flusso Avanzato",
 cat: "NWS",
 rel: "",
 num: "000323",
 href: "Sorgenti/NWS/B£_NWS000323.md"
 },{
-id: 4447,
+id: 3042,
 title: "Visualizzatore £G11",
 cat: "NWS",
 rel: "",
 num: "000324",
 href: "Sorgenti/NWS/B£_NWS000324.md"
 },{
-id: 4448,
+id: 3043,
 title: "B£GFP15    Gestione flusso &#x3a; Lancio azioni",
 cat: "NWS",
 rel: "",
 num: "000325",
 href: "Sorgenti/NWS/B£_NWS000325.md"
 },{
-id: 4449,
+id: 3044,
 title: "£PE8 - Funzioni sui periodi contabili",
 cat: "NWS",
 rel: "",
 num: "000326",
 href: "Sorgenti/NWS/B£_NWS000326.md"
 },{
-id: 4450,
+id: 3045,
 title: "£G18 -  Visualizzatore di subfile",
 cat: "NWS",
 rel: "",
 num: "000327",
 href: "Sorgenti/NWS/B£_NWS000327.md"
 },{
-id: 4451,
+id: 3046,
 title: "Valori OAV con lunghezze maggiori di 15",
 cat: "NWS",
 rel: "",
 num: "000329",
 href: "Sorgenti/NWS/B£_NWS000329.md"
 },{
-id: 4452,
+id: 3047,
 title: "Utilizzo OAV negli Schemi",
 cat: "NWS",
 rel: "",
 num: "000330",
 href: "Sorgenti/NWS/B£_NWS000330.md"
 },{
-id: 4453,
+id: 3048,
 title: "OAV su Riga Documento",
 cat: "NWS",
 rel: "",
 num: "000333",
 href: "Sorgenti/NWS/B£_NWS000333.md"
 },{
-id: 4454,
+id: 3049,
 title: "UTI002 sostituito da B£UT03",
 cat: "NWS",
 rel: "V1R4",
 num: "000334",
 href: "Sorgenti/NWS/B£_NWS000334.md"
 },{
-id: 4455,
+id: 3050,
 title: "Nuova routine £G52  - Selezionatore dati mediante",
 cat: "NWS",
 rel: "V1R4",
 num: "000337",
 href: "Sorgenti/NWS/B£_NWS000337.md"
 },{
-id: 4456,
+id: 3051,
 title: "Aggiornamento Gestione Oggetto  &#x22; OG &#x22;",
 cat: "NWS",
 rel: "V1R4",
 num: "000340",
 href: "Sorgenti/NWS/B£_NWS000340.md"
 },{
-id: 4457,
+id: 3052,
 title: "Gestione delle PTF e Interprete batch",
 cat: "NWS",
 rel: "V1R4",
 num: "000342",
 href: "Sorgenti/NWS/B£_NWS000342.md"
 },{
-id: 4458,
+id: 3053,
 title: "Routine Reperimento Messaggio",
 cat: "NWS",
 rel: "V1R4",
 num: "000343",
 href: "Sorgenti/NWS/B£_NWS000343.md"
 },{
-id: 4459,
+id: 3054,
 title: "Automatismi in £G08",
 cat: "NWS",
 rel: "V1R4",
 num: "000344",
 href: "Sorgenti/NWS/B£_NWS000344.md"
 },{
-id: 4460,
+id: 3055,
 title: "Fasatura Tabella  &#x22; INT &#x22;  Schemi",
 cat: "NWS",
 rel: "V1R4",
 num: "000346",
 href: "Sorgenti/NWS/B£_NWS000346.md"
 },{
-id: 4461,
+id: 3056,
 title: "Totalizzazione &#x2f; Ordinamento  in £G25",
 cat: "NWS",
 rel: "V1R4",
 num: "000347",
 href: "Sorgenti/NWS/B£_NWS000347.md"
 },{
-id: 4462,
+id: 3057,
 title: "Tabella  &#x22; B£X &#x22;  - Deviazione Attributi",
 cat: "NWS",
 rel: "V1R4",
 num: "000349",
 href: "Sorgenti/NWS/B£_NWS000349.md"
 },{
-id: 4463,
+id: 3058,
 title: "Ripresa listino vincolata dal nuovo campo",
 cat: "NWS",
 rel: "V1R4",
 num: "000350",
 href: "Sorgenti/NWS/B£_NWS000350.md"
 },{
-id: 4464,
+id: 3059,
 title: "Lancio Batch di Flussi &#x2f; Azioni",
 cat: "NWS",
 rel: "V1R4",
 num: "000351",
 href: "Sorgenti/NWS/B£_NWS000351.md"
 },{
-id: 4465,
+id: 3060,
 title: "Modifica Memorizzazione Utente",
 cat: "NWS",
 rel: "V1R4",
 num: "000353",
 href: "Sorgenti/NWS/B£_NWS000353.md"
 },{
-id: 4466,
+id: 3061,
 title: "Formato Data in £G54",
 cat: "NWS",
 rel: "V1R4",
 num: "000355",
 href: "Sorgenti/NWS/B£_NWS000355.md"
 },{
-id: 4467,
+id: 3062,
 title: "Flussi  di  Inserimento &#x2f; Variazione  &#x2f; Azione",
 cat: "NWS",
 rel: "V1R4",
 num: "000356",
 href: "Sorgenti/NWS/B£_NWS000356.md"
 },{
-id: 4468,
+id: 3063,
 title: "Ambiente di Deviazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000357",
 href: "Sorgenti/NWS/B£_NWS000357.md"
 },{
-id: 4469,
+id: 3064,
 title: "Gestione Descrizioni Estese",
 cat: "NWS",
 rel: "V1R4",
 num: "000359",
 href: "Sorgenti/NWS/B£_NWS000359.md"
 },{
-id: 4470,
+id: 3065,
 title: "Modifica Gestione Arrotondamenti - £G41",
 cat: "NWS",
 rel: "V1R4",
 num: "000360",
 href: "Sorgenti/NWS/B£_NWS000360.md"
 },{
-id: 4471,
+id: 3066,
 title: "Funzione B£GDOA",
 cat: "NWS",
 rel: "V1R4",
 num: "000361",
 href: "Sorgenti/NWS/B£_NWS000361.md"
 },{
-id: 4472,
+id: 3067,
 title: "Nuove interfaccie £IE1 e £IE2",
 cat: "NWS",
 rel: "V1R4",
 num: "000363",
 href: "Sorgenti/NWS/B£_NWS000363.md"
 },{
-id: 4473,
+id: 3068,
 title: "Gestione stack",
 cat: "NWS",
 rel: "V1R4",
 num: "000364",
 href: "Sorgenti/NWS/B£_NWS000364.md"
 },{
-id: 4474,
+id: 3069,
 title: "Lancio funzioni",
 cat: "NWS",
 rel: "V1R4",
 num: "000365",
 href: "Sorgenti/NWS/B£_NWS000365.md"
 },{
-id: 4475,
+id: 3070,
 title: "Novità in comandi UP",
 cat: "NWS",
 rel: "V1R4",
 num: "000367",
 href: "Sorgenti/NWS/B£_NWS000367.md"
 },{
-id: 4476,
+id: 3071,
 title: "Standardizzazione Interfaccie",
 cat: "NWS",
 rel: "V1R4",
 num: "000371",
 href: "Sorgenti/NWS/B£_NWS000371.md"
 },{
-id: 4477,
+id: 3072,
 title: "Percentuale Iva con Decimali",
 cat: "NWS",
 rel: "V1R4",
 num: "000372",
 href: "Sorgenti/NWS/B£_NWS000372.md"
 },{
-id: 4478,
+id: 3073,
 title: "Milestone",
 cat: "NWS",
 rel: "V1R4",
 num: "000373",
 href: "Sorgenti/NWS/B£_NWS000373.md"
 },{
-id: 4479,
+id: 3074,
 title: "Possibilità Gestione Parametri Tabelle per Subsett",
 cat: "NWS",
 rel: "V1R4",
 num: "000374",
 href: "Sorgenti/NWS/B£_NWS000374.md"
 },{
-id: 4480,
+id: 3075,
 title: "Gestione Stacker",
 cat: "NWS",
 rel: "V1R4",
 num: "000375",
 href: "Sorgenti/NWS/B£_NWS000375.md"
 },{
-id: 4481,
+id: 3076,
 title: "Nuova funzione routine £C£6",
 cat: "NWS",
 rel: "V1R4",
 num: "000376",
 href: "Sorgenti/NWS/B£_NWS000376.md"
 },{
-id: 4482,
+id: 3077,
 title: "Visualizzazione file messaggi",
 cat: "NWS",
 rel: "V1R4",
 num: "000377",
 href: "Sorgenti/NWS/B£_NWS000377.md"
 },{
-id: 4483,
+id: 3078,
 title: "Gestione campi tipologia valore provvigione",
 cat: "NWS",
 rel: "V1R4",
 num: "000378",
 href: "Sorgenti/NWS/B£_NWS000378.md"
 },{
-id: 4484,
+id: 3079,
 title: "Stampa £G18",
 cat: "NWS",
 rel: "V1R4",
 num: "000380",
 href: "Sorgenti/NWS/B£_NWS000380.md"
 },{
-id: 4485,
+id: 3080,
 title: "Implemento alla Scansione Distinta Base",
 cat: "NWS",
 rel: "V1R4",
 num: "000384",
 href: "Sorgenti/NWS/B£_NWS000384.md"
 },{
-id: 4486,
+id: 3081,
 title: "Presentazione Data Odierna",
 cat: "NWS",
 rel: "V1R4",
 num: "000386",
 href: "Sorgenti/NWS/B£_NWS000386.md"
 },{
-id: 4487,
+id: 3082,
 title: "Navigatore generalizzato",
 cat: "NWS",
 rel: "V1R4",
 num: "000387",
 href: "Sorgenti/NWS/B£_NWS000387.md"
 },{
-id: 4488,
+id: 3083,
 title: "Routine di Verifica Libreria Dati",
 cat: "NWS",
 rel: "V1R4",
 num: "000388",
 href: "Sorgenti/NWS/B£_NWS000388.md"
 },{
-id: 4489,
+id: 3084,
 title: "Routine di arrotondamento quantità",
 cat: "NWS",
 rel: "V1R4",
 num: "000394",
 href: "Sorgenti/NWS/B£_NWS000394.md"
 },{
-id: 4490,
+id: 3085,
 title: "Novità in impostazione valori in tabelle",
 cat: "NWS",
 rel: "V1R4",
 num: "000395",
 href: "Sorgenti/NWS/B£_NWS000395.md"
 },{
-id: 4491,
+id: 3086,
 title: "Ampliamento funzionalità £G40",
 cat: "NWS",
 rel: "V1R4",
 num: "000403",
 href: "Sorgenti/NWS/B£_NWS000403.md"
 },{
-id: 4492,
+id: 3087,
 title: "Nuovi attributi intrinseci sugli articoli",
 cat: "NWS",
 rel: "V1R4",
 num: "000405",
 href: "Sorgenti/NWS/B£_NWS000405.md"
 },{
-id: 4493,
+id: 3088,
 title: "Azioni eseguibili su un oggetto ufo",
 cat: "NWS",
 rel: "V1R4",
 num: "000406",
 href: "Sorgenti/NWS/B£_NWS000406.md"
 },{
-id: 4494,
+id: 3089,
 title: "Fasatura definizioni tabelle",
 cat: "NWS",
 rel: "V1R4",
 num: "000412",
 href: "Sorgenti/NWS/B£_NWS000412.md"
 },{
-id: 4495,
+id: 3090,
 title: "Nuova Funzione per la £G08",
 cat: "NWS",
 rel: "V1R4",
 num: "000415",
 href: "Sorgenti/NWS/B£_NWS000415.md"
 },{
-id: 4496,
+id: 3091,
 title: "B£PER8  Gestione Periodi",
 cat: "NWS",
 rel: "V1R4",
 num: "000418",
 href: "Sorgenti/NWS/B£_NWS000418.md"
 },{
-id: 4497,
+id: 3092,
 title: "B£GI25E  Gestione schemi di stampa",
 cat: "NWS",
 rel: "V1R4",
 num: "000419",
 href: "Sorgenti/NWS/B£_NWS000419.md"
 },{
-id: 4498,
+id: 3093,
 title: "Gestione Flussi - Pre cancellazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000420",
 href: "Sorgenti/NWS/B£_NWS000420.md"
 },{
-id: 4499,
+id: 3094,
 title: "Novità in impostazione tabelle",
 cat: "NWS",
 rel: "V1R4",
 num: "000429",
 href: "Sorgenti/NWS/B£_NWS000429.md"
 },{
-id: 4500,
+id: 3095,
 title: "Flag di parallelismo in righe ciclo",
 cat: "NWS",
 rel: "V1R4",
 num: "000433",
 href: "Sorgenti/NWS/B£_NWS000433.md"
 },{
-id: 4501,
+id: 3096,
 title: "Aiuto su £G11",
 cat: "NWS",
 rel: "V1R4",
 num: "000435",
 href: "Sorgenti/NWS/B£_NWS000435.md"
 },{
-id: 4502,
+id: 3097,
 title: "Documentazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000436",
 href: "Sorgenti/NWS/B£_NWS000436.md"
 },{
-id: 4503,
+id: 3098,
 title: "Nuova &#x2f;COPY £G59",
 cat: "NWS",
 rel: "V1R4",
 num: "000438",
 href: "Sorgenti/NWS/B£_NWS000438.md"
 },{
-id: 4504,
+id: 3099,
 title: "Nuova funzione per il comando DSPFLD",
 cat: "NWS",
 rel: "V1R4",
 num: "000439",
 href: "Sorgenti/NWS/B£_NWS000439.md"
 },{
-id: 4505,
+id: 3100,
 title: "Programma B£GFP15X",
 cat: "NWS",
 rel: "V1R4",
 num: "000444",
 href: "Sorgenti/NWS/B£_NWS000444.md"
 },{
-id: 4506,
+id: 3101,
 title: "Presentazione indicatori",
 cat: "NWS",
 rel: "V1R4",
 num: "000445",
 href: "Sorgenti/NWS/B£_NWS000445.md"
 },{
-id: 4507,
+id: 3102,
 title: "Chiamata £DEC2 senza esecuzione ricerche - Modific",
 cat: "NWS",
 rel: "V1R4",
 num: "000448",
 href: "Sorgenti/NWS/B£_NWS000448.md"
 },{
-id: 4508,
+id: 3103,
 title: "Nuove opzioni al comando UP",
 cat: "NWS",
 rel: "V1R4",
 num: "000449",
 href: "Sorgenti/NWS/B£_NWS000449.md"
 },{
-id: 4509,
+id: 3104,
 title: "Gestione totalizzazioni - £G37",
 cat: "NWS",
 rel: "V1R4",
 num: "000450",
 href: "Sorgenti/NWS/B£_NWS000450.md"
 },{
-id: 4510,
+id: 3105,
 title: "Gestione date testata + riga - £G27",
 cat: "NWS",
 rel: "V1R4",
 num: "000451",
 href: "Sorgenti/NWS/B£_NWS000451.md"
 },{
-id: 4511,
+id: 3106,
 title: "Novità in G14",
 cat: "NWS",
 rel: "V1R4",
 num: "000453",
 href: "Sorgenti/NWS/B£_NWS000453.md"
 },{
-id: 4512,
+id: 3107,
 title: "Autorizzazioni",
 cat: "NWS",
 rel: "V1R4",
 num: "000454",
 href: "Sorgenti/NWS/B£_NWS000454.md"
 },{
-id: 4513,
+id: 3108,
 title: "Documentazione flag",
 cat: "NWS",
 rel: "V1R4",
 num: "000455",
 href: "Sorgenti/NWS/B£_NWS000455.md"
 },{
-id: 4514,
+id: 3109,
 title: "Estensione funzione DEFAULT UTENTE per memorizzazi",
 cat: "NWS",
 rel: "V1R4",
 num: "000456",
 href: "Sorgenti/NWS/B£_NWS000456.md"
 },{
-id: 4515,
+id: 3110,
 title: "Aggiunta risalita parametri su OAV",
 cat: "NWS",
 rel: "V1R4",
 num: "000459",
 href: "Sorgenti/NWS/B£_NWS000459.md"
 },{
-id: 4516,
+id: 3111,
 title: "Ordinamento logici con chiave descrizione",
 cat: "NWS",
 rel: "V1R4",
 num: "000460",
 href: "Sorgenti/NWS/B£_NWS000460.md"
 },{
-id: 4517,
+id: 3112,
 title: "Controlli specifici in gestione dettaglio operazio",
 cat: "NWS",
 rel: "V1R4",
 num: "000465",
 href: "Sorgenti/NWS/B£_NWS000465.md"
 },{
-id: 4518,
+id: 3113,
 title: "Nuovo oggetto flag",
 cat: "NWS",
 rel: "V1R4",
 num: "000467",
 href: "Sorgenti/NWS/B£_NWS000467.md"
 },{
-id: 4519,
+id: 3114,
 title: "Informazioni di sistema",
 cat: "NWS",
 rel: "V1R4",
 num: "000468",
 href: "Sorgenti/NWS/B£_NWS000468.md"
 },{
-id: 4520,
+id: 3115,
 title: "Interfaccia costi",
 cat: "NWS",
 rel: "V1R4",
 num: "000477",
 href: "Sorgenti/NWS/B£_NWS000477.md"
 },{
-id: 4521,
+id: 3116,
 title: "Nuova routine £G64",
 cat: "NWS",
 rel: "V1R4",
 num: "000478",
 href: "Sorgenti/NWS/B£_NWS000478.md"
 },{
-id: 4522,
+id: 3117,
 title: "Filler in definizione tabelle",
 cat: "NWS",
 rel: "V1R4",
 num: "000480",
 href: "Sorgenti/NWS/B£_NWS000480.md"
 },{
-id: 4523,
+id: 3118,
 title: "Nuova funzione routine £DMSG",
 cat: "NWS",
 rel: "V1R4",
 num: "000481",
 href: "Sorgenti/NWS/B£_NWS000481.md"
 },{
-id: 4524,
+id: 3119,
 title: "Implemento &#x2f;copy £G26",
 cat: "NWS",
 rel: "V1R4",
 num: "000482",
 href: "Sorgenti/NWS/B£_NWS000482.md"
 },{
-id: 4525,
+id: 3120,
 title: "Appuntamenti tra risorse",
 cat: "NWS",
 rel: "V1R4",
 num: "000484",
 href: "Sorgenti/NWS/B£_NWS000484.md"
 },{
-id: 4526,
+id: 3121,
 title: "Calendario in calcolo rate",
 cat: "NWS",
 rel: "V1R4",
 num: "000490",
 href: "Sorgenti/NWS/B£_NWS000490.md"
 },{
-id: 4527,
+id: 3122,
 title: "Calendario memorizzato",
 cat: "NWS",
 rel: "V1R4",
 num: "000491",
 href: "Sorgenti/NWS/B£_NWS000491.md"
 },{
-id: 4528,
+id: 3123,
 title: "Interrogazione distinta base",
 cat: "NWS",
 rel: "V1R4",
 num: "000492",
 href: "Sorgenti/NWS/B£_NWS000492.md"
 },{
-id: 4529,
+id: 3124,
 title: "Stampa per periodo",
 cat: "NWS",
 rel: "V1R4",
 num: "000493",
 href: "Sorgenti/NWS/B£_NWS000493.md"
 },{
-id: 4530,
+id: 3125,
 title: "Filtri esterni",
 cat: "NWS",
 rel: "V1R4",
 num: "000494",
 href: "Sorgenti/NWS/B£_NWS000494.md"
 },{
-id: 4531,
+id: 3126,
 title: "£G55",
 cat: "NWS",
 rel: "V1R4",
 num: "000495",
 href: "Sorgenti/NWS/B£_NWS000495.md"
 },{
-id: 4532,
+id: 3127,
 title: "Exit in gestione descrizioni estese",
 cat: "NWS",
 rel: "V1R4",
 num: "000497",
 href: "Sorgenti/NWS/B£_NWS000497.md"
 },{
-id: 4533,
+id: 3128,
 title: "Gestione Distinta base",
 cat: "NWS",
 rel: "V1R4",
 num: "000513",
 href: "Sorgenti/NWS/B£_NWS000513.md"
 },{
-id: 4534,
+id: 3129,
 title: "Gestione utenti MULTISISTEMI. Aziende con più sist",
 cat: "NWS",
 rel: "V1R4",
 num: "000514",
 href: "Sorgenti/NWS/B£_NWS000514.md"
 },{
-id: 4535,
+id: 3130,
 title: "Novità su £G08. Funzione 03 Scelta multipla e nu",
 cat: "NWS",
 rel: "V1R4",
 num: "000515",
 href: "Sorgenti/NWS/B£_NWS000515.md"
 },{
-id: 4536,
+id: 3131,
 title: "Nuovo comando per lancio veloce TST",
 cat: "NWS",
 rel: "V1R4",
 num: "000518",
 href: "Sorgenti/NWS/B£_NWS000518.md"
 },{
-id: 4537,
+id: 3132,
 title: "Creazione batch tabelle",
 cat: "NWS",
 rel: "V1R4",
 num: "000520",
 href: "Sorgenti/NWS/B£_NWS000520.md"
 },{
-id: 4538,
+id: 3133,
 title: "Risalita classe funzionale articoli",
 cat: "NWS",
 rel: "V1R4",
 num: "000521",
 href: "Sorgenti/NWS/B£_NWS000521.md"
 },{
-id: 4539,
+id: 3134,
 title: "Manutenzione di massa legami distinta base",
 cat: "NWS",
 rel: "V1R4",
 num: "000523",
 href: "Sorgenti/NWS/B£_NWS000523.md"
 },{
-id: 4540,
+id: 3135,
 title: "Filtri esterni - Estensione a più oggetti",
 cat: "NWS",
 rel: "V1R4",
 num: "000524",
 href: "Sorgenti/NWS/B£_NWS000524.md"
 },{
-id: 4541,
+id: 3136,
 title: "Filtri esterni - Inserimento filtri esterni",
 cat: "NWS",
 rel: "V1R4",
 num: "000525",
 href: "Sorgenti/NWS/B£_NWS000525.md"
 },{
-id: 4542,
+id: 3137,
 title: "Schemi di stampa - Conferma in cancellazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000526",
 href: "Sorgenti/NWS/B£_NWS000526.md"
 },{
-id: 4543,
+id: 3138,
 title: "Presentazione calendario",
 cat: "NWS",
 rel: "V1R4",
 num: "000527",
 href: "Sorgenti/NWS/B£_NWS000527.md"
 },{
-id: 4544,
+id: 3139,
 title: "Ricerca specifica tabelle",
 cat: "NWS",
 rel: "V1R4",
 num: "000530",
 href: "Sorgenti/NWS/B£_NWS000530.md"
 },{
-id: 4545,
+id: 3140,
 title: "Routine £G65",
 cat: "NWS",
 rel: "V1R4",
 num: "000532",
 href: "Sorgenti/NWS/B£_NWS000532.md"
 },{
-id: 4546,
+id: 3141,
 title: "Funzione trattamento stringhe alfanumeriche",
 cat: "NWS",
 rel: "V1R4",
 num: "000534",
 href: "Sorgenti/NWS/B£_NWS000534.md"
 },{
-id: 4547,
+id: 3142,
 title: "Parametri per oggetto e impliciti  Controlli este",
 cat: "NWS",
 rel: "V1R4",
 num: "000535",
 href: "Sorgenti/NWS/B£_NWS000535.md"
 },{
-id: 4548,
+id: 3143,
 title: "Lancio programmi",
 cat: "NWS",
 rel: "V1R4",
 num: "000537",
 href: "Sorgenti/NWS/B£_NWS000537.md"
 },{
-id: 4549,
+id: 3144,
 title: "Lancio programmi",
 cat: "NWS",
 rel: "V1R4",
 num: "000538",
 href: "Sorgenti/NWS/B£_NWS000538.md"
 },{
-id: 4550,
+id: 3145,
 title: "Commesse",
 cat: "NWS",
 rel: "V1R4",
 num: "000539",
 href: "Sorgenti/NWS/B£_NWS000539.md"
 },{
-id: 4551,
+id: 3146,
 title: "Forzatura Tipo Menù nella CALL del B£MENU",
 cat: "NWS",
 rel: "V1R4",
 num: "000550",
 href: "Sorgenti/NWS/B£_NWS000550.md"
 },{
-id: 4552,
+id: 3147,
 title: "SME.UP versione 1 rilascio 5",
 cat: "NWS",
 rel: "V1R5",
 num: "000552",
 href: "Sorgenti/NWS/B£_NWS000552.md"
 },{
-id: 4553,
+id: 3148,
 title: "Nuovo oggetto V2&#x3a; default",
 cat: "NWS",
 rel: "V1R5",
 num: "000556",
 href: "Sorgenti/NWS/B£_NWS000556.md"
 },{
-id: 4554,
+id: 3149,
 title: "Configurazione con programma specifico",
 cat: "NWS",
 rel: "V1R5",
 num: "000560",
 href: "Sorgenti/NWS/B£_NWS000560.md"
 },{
-id: 4555,
+id: 3150,
 title: "Nuove implementazioni su £G18",
 cat: "NWS",
 rel: "V1R5",
 num: "000566",
 href: "Sorgenti/NWS/B£_NWS000566.md"
 },{
-id: 4556,
+id: 3151,
 title: "Colori negli schemi £G25",
 cat: "NWS",
 rel: "V1R5",
 num: "000568",
 href: "Sorgenti/NWS/B£_NWS000568.md"
 },{
-id: 4557,
+id: 3152,
 title: "Sottomissione lavori batch mediante £GPE",
 cat: "NWS",
 rel: "V1R5",
 num: "000569",
 href: "Sorgenti/NWS/B£_NWS000569.md"
 },{
-id: 4558,
+id: 3153,
 title: "Modifica £G11",
 cat: "NWS",
 rel: "V1R5",
 num: "000574",
 href: "Sorgenti/NWS/B£_NWS000574.md"
 },{
-id: 4559,
+id: 3154,
 title: "GRUPPO UTENTI per gestione utenti Multisistemi",
 cat: "NWS",
 rel: "V1R5",
 num: "000576",
 href: "Sorgenti/NWS/B£_NWS000576.md"
 },{
-id: 4560,
+id: 3155,
 title: "Nuova implementazione in £G18",
 cat: "NWS",
 rel: "V1R5",
 num: "000577",
 href: "Sorgenti/NWS/B£_NWS000577.md"
 },{
-id: 4561,
+id: 3156,
 title: "Implementazione nuova funzione £G42",
 cat: "NWS",
 rel: "V1R5",
 num: "000580",
 href: "Sorgenti/NWS/B£_NWS000580.md"
 },{
-id: 4562,
+id: 3157,
 title: "Nuova implementazione £G18",
 cat: "NWS",
 rel: "V1R5",
 num: "000583",
 href: "Sorgenti/NWS/B£_NWS000583.md"
 },{
-id: 4563,
+id: 3158,
 title: "Lettura MDV di £G11 e £G30",
 cat: "NWS",
 rel: "V1R5",
 num: "000584",
 href: "Sorgenti/NWS/B£_NWS000584.md"
 },{
-id: 4564,
+id: 3159,
 title: "Novità in £DMSG",
 cat: "NWS",
 rel: "V1R5",
 num: "000589",
 href: "Sorgenti/NWS/B£_NWS000589.md"
 },{
-id: 4565,
+id: 3160,
 title: "Stato in scansione distinta base",
 cat: "NWS",
 rel: "V1R5",
 num: "000590",
 href: "Sorgenti/NWS/B£_NWS000590.md"
 },{
-id: 4566,
+id: 3161,
 title: "Nuovi modelli schiere £LIN",
 cat: "NWS",
 rel: "V1R5",
 num: "000596",
 href: "Sorgenti/NWS/B£_NWS000596.md"
 },{
-id: 4567,
+id: 3162,
 title: "Nuove repliche su documentazione attiva",
 cat: "NWS",
 rel: "V1R5",
 num: "000597",
 href: "Sorgenti/NWS/B£_NWS000597.md"
 },{
-id: 4568,
+id: 3163,
 title: "Parametro su oggetto P8",
 cat: "NWS",
 rel: "V1R5",
 num: "000598",
 href: "Sorgenti/NWS/B£_NWS000598.md"
 },{
-id: 4569,
+id: 3164,
 title: "Traduzione descrizioni elementi di tabella",
 cat: "NWS",
 rel: "V1R5",
 num: "000601",
 href: "Sorgenti/NWS/B£_NWS000601.md"
 },{
-id: 4570,
+id: 3165,
 title: "Traduzione opzioni di B£MENU",
 cat: "NWS",
 rel: "V1R5",
 num: "000602",
 href: "Sorgenti/NWS/B£_NWS000602.md"
 },{
-id: 4571,
+id: 3166,
 title: "Nuovi OAV sull&#x27;oggetto data",
 cat: "NWS",
 rel: "V1R5",
 num: "000604",
 href: "Sorgenti/NWS/B£_NWS000604.md"
 },{
-id: 4572,
+id: 3167,
 title: "Gestione duplicazione oggetti programma",
 cat: "NWS",
 rel: "V1R5",
 num: "000612",
 href: "Sorgenti/NWS/B£_NWS000612.md"
 },{
-id: 4573,
+id: 3168,
 title: "Funzione COS al comando UP",
 cat: "NWS",
 rel: "V1R5",
 num: "000620",
 href: "Sorgenti/NWS/B£_NWS000620.md"
 },{
-id: 4574,
+id: 3169,
 title: "Nuovo archivio di lavoro",
 cat: "NWS",
 rel: "V1R5",
 num: "000624",
 href: "Sorgenti/NWS/B£_NWS000624.md"
 },{
-id: 4575,
+id: 3170,
 title: "Nuova totalizzazione in £G37",
 cat: "NWS",
 rel: "V1R5",
 num: "000628",
 href: "Sorgenti/NWS/B£_NWS000628.md"
 },{
-id: 4576,
+id: 3171,
 title: "Gestione libreria file note strutturate",
 cat: "NWS",
 rel: "V1R5",
 num: "000629",
 href: "Sorgenti/NWS/B£_NWS000629.md"
 },{
-id: 4577,
+id: 3172,
 title: "Scansione distinta documento",
 cat: "NWS",
 rel: "V1R5",
 num: "000641",
 href: "Sorgenti/NWS/B£_NWS000641.md"
 },{
-id: 4578,
+id: 3173,
 title: "Gestione numeratori",
 cat: "NWS",
 rel: "V1R5",
 num: "000644",
 href: "Sorgenti/NWS/B£_NWS000644.md"
 },{
-id: 4579,
+id: 3174,
 title: "OAV per lettura costi",
 cat: "NWS",
 rel: "V1R5",
 num: "000648",
 href: "Sorgenti/NWS/B£_NWS000648.md"
 },{
-id: 4580,
+id: 3175,
 title: "Modifica Gestione Memorizzazione Liste",
 cat: "NWS",
 rel: "V1R5",
 num: "000659",
 href: "Sorgenti/NWS/B£_NWS000659.md"
 },{
-id: 4581,
+id: 3176,
 title: "Gestione numeri positivi in schemi di presentazion",
 cat: "NWS",
 rel: "V1R5",
 num: "000660",
 href: "Sorgenti/NWS/B£_NWS000660.md"
 },{
-id: 4582,
+id: 3177,
 title: "Note strutturate",
 cat: "NWS",
 rel: "V1R5",
 num: "000662",
 href: "Sorgenti/NWS/B£_NWS000662.md"
 },{
-id: 4583,
+id: 3178,
 title: "Nuova funzione in gestione messaggi",
 cat: "NWS",
 rel: "V1R5",
 num: "000665",
 href: "Sorgenti/NWS/B£_NWS000665.md"
 },{
-id: 4584,
+id: 3179,
 title: "Informazioni job in variabili di ambiente",
 cat: "NWS",
 rel: "V1R5",
 num: "000666",
 href: "Sorgenti/NWS/B£_NWS000666.md"
 },{
-id: 4585,
+id: 3180,
 title: "Deviatore a lancio funizzato",
 cat: "NWS",
 rel: "V1R5",
 num: "000678",
 href: "Sorgenti/NWS/B£_NWS000678.md"
 },{
-id: 4586,
+id: 3181,
 title: "Nuovo help",
 cat: "NWS",
 rel: "V1R5",
 num: "000680",
 href: "Sorgenti/NWS/B£_NWS000680.md"
 },{
-id: 4587,
+id: 3182,
 title: "Aggiornamenti DSPFLD",
 cat: "NWS",
 rel: "V1R5",
 num: "000683",
 href: "Sorgenti/NWS/B£_NWS000683.md"
 },{
-id: 4588,
+id: 3183,
 title: "ROLL UP e ROLL DOWN in visualizzatori",
 cat: "NWS",
 rel: "V1R5",
 num: "000684",
 href: "Sorgenti/NWS/B£_NWS000684.md"
 },{
-id: 4589,
+id: 3184,
 title: "Opzione MGA al comando UP",
 cat: "NWS",
 rel: "V1R5",
 num: "000686",
 href: "Sorgenti/NWS/B£_NWS000686.md"
 },{
-id: 4590,
+id: 3185,
 title: "Impostazione defaults comandi di sistema",
 cat: "NWS",
 rel: "V1R5",
 num: "000688",
 href: "Sorgenti/NWS/B£_NWS000688.md"
 },{
-id: 4591,
+id: 3186,
 title: "Costruzione dinamica path documenti",
 cat: "NWS",
 rel: "V2R1",
 num: "000691",
 href: "Sorgenti/NWS/B£_NWS000691.md"
 },{
-id: 4592,
+id: 3187,
 title: "Interfaccia Attributi&#x3a; Gestione OAV con due parame",
 cat: "NWS",
 rel: "V1R5",
 num: "000695",
 href: "Sorgenti/NWS/B£_NWS000695.md"
 },{
-id: 4593,
+id: 3188,
 title: "Oggetti UFO con parametro del tipo oggetto",
 cat: "NWS",
 rel: "V1R5",
 num: "000699",
 href: "Sorgenti/NWS/B£_NWS000699.md"
 },{
-id: 4594,
+id: 3189,
 title: "Help su £G18",
 cat: "NWS",
 rel: "V1R5",
 num: "000705",
 href: "Sorgenti/NWS/B£_NWS000705.md"
 },{
-id: 4595,
+id: 3190,
 title: "SME.UP Versione 2 rilascio 1",
 cat: "NWS",
 rel: "V2R1",
 num: "000708",
 href: "Sorgenti/NWS/B£_NWS000708.md"
 },{
-id: 4596,
+id: 3191,
 title: "Nuove funzionalità &#x27;up sca&#x27;",
 cat: "NWS",
 rel: "V2R1",
 num: "000712",
 href: "Sorgenti/NWS/B£_NWS000712.md"
 },{
-id: 4597,
+id: 3192,
 title: "Routine di &#x27;fine documento&#x27; in Visualizzatori",
 cat: "NWS",
 rel: "V2R1",
 num: "000716",
 href: "Sorgenti/NWS/B£_NWS000716.md"
 },{
-id: 4598,
+id: 3193,
 title: "Aggiunta formattazione pagina in creazione PDF con",
 cat: "NWS",
 rel: "V2R1",
 num: "000717",
 href: "Sorgenti/NWS/B£_NWS000717.md"
 },{
-id: 4599,
+id: 3194,
 title: "Implementazione codici Attributi Video V2&#x2f;ATTVI e",
 cat: "NWS",
 rel: "V2R1",
 num: "000720",
 href: "Sorgenti/NWS/B£_NWS000720.md"
 },{
-id: 4600,
+id: 3195,
 title: "Tasto stampa su G11",
 cat: "NWS",
 rel: "V2R1",
 num: "000722",
 href: "Sorgenti/NWS/B£_NWS000722.md"
 },{
-id: 4601,
+id: 3196,
 title: "Ritorno numeri&#x3a; routine £G37",
 cat: "NWS",
 rel: "V2R1",
 num: "000724",
 href: "Sorgenti/NWS/B£_NWS000724.md"
 },{
-id: 4602,
+id: 3197,
 title: "Calcolo Formule&#x3a; semplificazione richiamo",
 cat: "NWS",
 rel: "V2R1",
 num: "000726",
 href: "Sorgenti/NWS/B£_NWS000726.md"
 },{
-id: 4603,
+id: 3198,
 title: "Ampliamento DS routine £STK",
 cat: "NWS",
 rel: "V2R1",
 num: "000727",
 href: "Sorgenti/NWS/B£_NWS000727.md"
 },{
-id: 4604,
+id: 3199,
 title: "Costruzione automatica tabelle",
 cat: "NWS",
 rel: "V2R1",
 num: "000729",
 href: "Sorgenti/NWS/B£_NWS000729.md"
 },{
-id: 4605,
+id: 3200,
 title: "Periodi omogenei in A£Q",
 cat: "NWS",
 rel: "V2R1",
 num: "000737",
 href: "Sorgenti/NWS/B£_NWS000737.md"
 },{
-id: 4606,
+id: 3201,
 title: "Formattazione dello 0 in £TNU",
 cat: "NWS",
 rel: "V2R1",
 num: "000747",
 href: "Sorgenti/NWS/B£_NWS000747.md"
 },{
-id: 4607,
+id: 3202,
 title: "Nuova funzione su £G18",
 cat: "NWS",
 rel: "V2R1",
 num: "000748",
 href: "Sorgenti/NWS/B£_NWS000748.md"
 },{
-id: 4608,
+id: 3203,
 title: "Arrotondamento in £TNU",
 cat: "NWS",
 rel: "V2R1",
 num: "000751",
 href: "Sorgenti/NWS/B£_NWS000751.md"
 },{
-id: 4609,
+id: 3204,
 title: "Nuovo tipo oggetto in gestione tabelle",
 cat: "NWS",
 rel: "V2R1",
 num: "000754",
 href: "Sorgenti/NWS/B£_NWS000754.md"
 },{
-id: 4610,
+id: 3205,
 title: "Riutilizzo record cancellati",
 cat: "NWS",
 rel: "V2R1",
 num: "000755",
 href: "Sorgenti/NWS/B£_NWS000755.md"
 },{
-id: 4611,
+id: 3206,
 title: "Descrizione aggiuntive azioni in MENU Sme.Up",
 cat: "NWS",
 rel: "V2R1",
 num: "000758",
 href: "Sorgenti/NWS/B£_NWS000758.md"
 },{
-id: 4612,
+id: 3207,
 title: "Revisione risalita calendario",
 cat: "NWS",
 rel: "V2R1",
 num: "000760",
 href: "Sorgenti/NWS/B£_NWS000760.md"
 },{
-id: 4613,
+id: 3208,
 title: "Indirizzi cc&#x3a; e bcc&#x3a; nella spedizione di email con",
 cat: "NWS",
 rel: "V2R1",
 num: "000761",
 href: "Sorgenti/NWS/B£_NWS000761.md"
 },{
-id: 4614,
+id: 3209,
 title: "Miglioramenti al comando DSPFLD",
 cat: "NWS",
 rel: "V2R1",
 num: "000766",
 href: "Sorgenti/NWS/B£_NWS000766.md"
 },{
-id: 4615,
+id: 3210,
 title: "Creazione replica a &#x2f;COPY £G18",
 cat: "NWS",
 rel: "V2R1",
 num: "000768",
 href: "Sorgenti/NWS/B£_NWS000768.md"
 },{
-id: 4616,
+id: 3211,
 title: "£G67&#x3a; Nuova &#x2f;COPY di lancio £G30 e novità in £G11",
 cat: "NWS",
 rel: "V2R1",
 num: "000775",
 href: "Sorgenti/NWS/B£_NWS000775.md"
 },{
-id: 4617,
+id: 3212,
 title: "Aggiornamento funzione FTP di £G53",
 cat: "NWS",
 rel: "V2R1",
 num: "000781",
 href: "Sorgenti/NWS/B£_NWS000781.md"
 },{
-id: 4618,
+id: 3213,
 title: "Gestione oggetto P8 in £PRZ",
 cat: "NWS",
 rel: "V2R1",
 num: "000785",
 href: "Sorgenti/NWS/B£_NWS000785.md"
 },{
-id: 4619,
+id: 3214,
 title: "Posizionamento dinamico in £G18",
 cat: "NWS",
 rel: "V2R1",
 num: "000786",
 href: "Sorgenti/NWS/B£_NWS000786.md"
 },{
-id: 4620,
+id: 3215,
 title: "Indicazione presenza regole select&#x2f;omit in comando",
 cat: "NWS",
 rel: "V2R1",
 num: "000789",
 href: "Sorgenti/NWS/B£_NWS000789.md"
 },{
-id: 4621,
+id: 3216,
 title: "Copia degli schemi di stampa",
 cat: "NWS",
 rel: "V2R1",
 num: "000792",
 href: "Sorgenti/NWS/B£_NWS000792.md"
 },{
-id: 4622,
+id: 3217,
 title: "Arrotondamenti su £G37 e £G25",
 cat: "NWS",
 rel: "V2R1",
 num: "000793",
 href: "Sorgenti/NWS/B£_NWS000793.md"
 },{
-id: 4623,
+id: 3218,
 title: "£G70&#x3a; Reperimento parametri della B£J da MDV",
 cat: "NWS",
 rel: "V2R1",
 num: "000796",
 href: "Sorgenti/NWS/B£_NWS000796.md"
 },{
-id: 4624,
+id: 3219,
 title: "OAV oggetto settore tabella ST",
 cat: "NWS",
 rel: "V2R1",
 num: "000797",
 href: "Sorgenti/NWS/B£_NWS000797.md"
 },{
-id: 4625,
+id: 3220,
 title: "Novità in scansione ciclo del documento",
 cat: "NWS",
 rel: "V2R1",
 num: "000798",
 href: "Sorgenti/NWS/B£_NWS000798.md"
 },{
-id: 4626,
+id: 3221,
 title: "In £DA8 aggiunte date giuliane",
 cat: "NWS",
 rel: "V2R1",
 num: "000799",
 href: "Sorgenti/NWS/B£_NWS000799.md"
 },{
-id: 4627,
+id: 3222,
 title: "Attività di chiusura di sistema",
 cat: "NWS",
 rel: "V2R1",
 num: "000800",
 href: "Sorgenti/NWS/B£_NWS000800.md"
 },{
-id: 4628,
+id: 3223,
 title: "Gestione tabella INT in schemi di stampa",
 cat: "NWS",
 rel: "V2R1",
 num: "000802",
 href: "Sorgenti/NWS/B£_NWS000802.md"
 },{
-id: 4629,
+id: 3224,
 title: "Numeri di un oggetto come OAV",
 cat: "NWS",
 rel: "V2R1",
 num: "000811",
 href: "Sorgenti/NWS/B£_NWS000811.md"
 },{
-id: 4630,
+id: 3225,
 title: "Visualizzazione OAV",
 cat: "NWS",
 rel: "V2R1",
 num: "000812",
 href: "Sorgenti/NWS/B£_NWS000812.md"
 },{
-id: 4631,
+id: 3226,
 title: "Generazione PDF da spool AS400",
 cat: "NWS",
 rel: "V2R1",
 num: "000813",
 href: "Sorgenti/NWS/B£_NWS000813.md"
 },{
-id: 4632,
+id: 3227,
 title: "£G69&#x3a; Nuova &#x2f;COPY di gestione modelli lettere",
 cat: "NWS",
 rel: "V2R1",
 num: "000815",
 href: "Sorgenti/NWS/B£_NWS000815.md"
 },{
-id: 4633,
+id: 3228,
 title: "OAV interni per oggetto OJ",
 cat: "NWS",
 rel: "V2R1",
 num: "000816",
 href: "Sorgenti/NWS/B£_NWS000816.md"
 },{
-id: 4634,
+id: 3229,
 title: "Revisione pgm Interrogazione Calendario Disponibil",
 cat: "NWS",
 rel: "V2R1",
 num: "000821",
 href: "Sorgenti/NWS/B£_NWS000821.md"
 },{
-id: 4635,
+id: 3230,
 title: "Programma di gestione dei menù delle applicazioni",
 cat: "NWS",
 rel: "V2R1",
 num: "000823",
 href: "Sorgenti/NWS/B£_NWS000823.md"
 },{
-id: 4636,
+id: 3231,
 title: "Oggetti da griglia in £G11",
 cat: "NWS",
 rel: "V2R1",
 num: "000824",
 href: "Sorgenti/NWS/B£_NWS000824.md"
 },{
-id: 4637,
+id: 3232,
 title: "Eseguire una selezione di dati mediante un&#x27;istruz",
 cat: "NWS",
 rel: "V2R1",
 num: "000826",
 href: "Sorgenti/NWS/B£_NWS000826.md"
 },{
-id: 4638,
+id: 3233,
 title: "Nuova routine £G75",
 cat: "NWS",
 rel: "V2R1",
 num: "000830",
 href: "Sorgenti/NWS/B£_NWS000830.md"
 },{
-id: 4639,
+id: 3234,
 title: "Nuova Funzione in £G10 calcola intervalli tempo co",
 cat: "NWS",
 rel: "V2R1",
 num: "000833",
 href: "Sorgenti/NWS/B£_NWS000833.md"
 },{
-id: 4640,
+id: 3235,
 title: "Lancio gruppo azioni",
 cat: "NWS",
 rel: "V2R1",
 num: "000834",
 href: "Sorgenti/NWS/B£_NWS000834.md"
 },{
-id: 4641,
+id: 3236,
 title: "Utilizzo di OAV multipli in schemi INT",
 cat: "NWS",
 rel: "V2R1",
 num: "000836",
 href: "Sorgenti/NWS/B£_NWS000836.md"
 },{
-id: 4642,
+id: 3237,
 title: "Creazione Menù Sme_up da menù modulo base",
 cat: "NWS",
 rel: "V2R1",
 num: "000840",
 href: "Sorgenti/NWS/B£_NWS000840.md"
 },{
-id: 4643,
+id: 3238,
 title: "Utilizzo campo dati utente in tabelle",
 cat: "NWS",
 rel: "V2R1",
 num: "000841",
 href: "Sorgenti/NWS/B£_NWS000841.md"
 },{
-id: 4644,
+id: 3239,
 title: "Miglioramento help di tabella",
 cat: "NWS",
 rel: "V2R1",
 num: "000843",
 href: "Sorgenti/NWS/B£_NWS000843.md"
 },{
-id: 4645,
+id: 3240,
 title: "Implementazione £G14",
 cat: "NWS",
 rel: "V2R1",
 num: "000844",
 href: "Sorgenti/NWS/B£_NWS000844.md"
 },{
-id: 4646,
+id: 3241,
 title: "Funzione &#x22;Trova&#x22; nella £G18",
 cat: "NWS",
 rel: "V2R1",
 num: "000845",
 href: "Sorgenti/NWS/B£_NWS000845.md"
 },{
-id: 4647,
+id: 3242,
 title: "Filtro per data in applicazione PTF",
 cat: "NWS",
 rel: "V2R1",
 num: "000846",
 href: "Sorgenti/NWS/B£_NWS000846.md"
 },{
-id: 4648,
+id: 3243,
 title: "Gestione dei gruppi di distribuzione",
 cat: "NWS",
 rel: "V2R1",
 num: "000847",
 href: "Sorgenti/NWS/B£_NWS000847.md"
 },{
-id: 4649,
+id: 3244,
 title: "Nuova modalità utilizzo £PE8 su anno solare",
 cat: "NWS",
 rel: "V2R1",
 num: "000852",
 href: "Sorgenti/NWS/B£_NWS000852.md"
 },{
-id: 4650,
+id: 3245,
 title: "Flag di gestione note estese in tabella NSI",
 cat: "NWS",
 rel: "V2R1",
 num: "000853",
 href: "Sorgenti/NWS/B£_NWS000853.md"
 },{
-id: 4651,
+id: 3246,
 title: "Modifica gestione azioni associati ad un oggetto",
 cat: "NWS",
 rel: "V2R1",
 num: "000854",
 href: "Sorgenti/NWS/B£_NWS000854.md"
 },{
-id: 4652,
+id: 3247,
 title: "Estensione filtri esterni",
 cat: "NWS",
 rel: "V2R1",
 num: "000857",
 href: "Sorgenti/NWS/B£_NWS000857.md"
 },{
-id: 4653,
+id: 3248,
 title: "Modifiche alla £PCT",
 cat: "NWS",
 rel: "V2R1",
 num: "000858",
 href: "Sorgenti/NWS/B£_NWS000858.md"
 },{
-id: 4654,
+id: 3249,
 title: "Programma per gli attributi derivati",
 cat: "NWS",
 rel: "V2R1",
 num: "000859",
 href: "Sorgenti/NWS/B£_NWS000859.md"
 },{
-id: 4655,
+id: 3250,
 title: "Visualizzazione &#x2a;USRSPC",
 cat: "NWS",
 rel: "V2R1",
 num: "000860",
 href: "Sorgenti/NWS/B£_NWS000860.md"
 },{
-id: 4656,
+id: 3251,
 title: "Creazione repliche programmi cliente e gestione £C",
 cat: "NWS",
 rel: "V2R1",
 num: "000861",
 href: "Sorgenti/NWS/B£_NWS000861.md"
 },{
-id: 4657,
+id: 3252,
 title: "Modifiche £G52",
 cat: "NWS",
 rel: "V2R1",
 num: "000862",
 href: "Sorgenti/NWS/B£_NWS000862.md"
 },{
-id: 4658,
+id: 3253,
 title: "Utility creazione interrogazioni &#x2f; stampe personal",
 cat: "NWS",
 rel: "V2R1",
 num: "000863",
 href: "Sorgenti/NWS/B£_NWS000863.md"
 },{
-id: 4659,
+id: 3254,
 title: "Gruppi di tipi riga nelle azioni della G18",
 cat: "NWS",
 rel: "V2R1",
 num: "000872",
 href: "Sorgenti/NWS/B£_NWS000872.md"
 },{
-id: 4660,
+id: 3255,
 title: "Introdotto programma di exit per personalizzare i",
 cat: "NWS",
 rel: "V2R1",
 num: "000874",
 href: "Sorgenti/NWS/B£_NWS000874.md"
 },{
-id: 4661,
+id: 3256,
 title: "Autorizzazioni per modifica documentazione attiva",
 cat: "NWS",
 rel: "V2R1",
 num: "000876",
 href: "Sorgenti/NWS/B£_NWS000876.md"
 },{
-id: 4662,
+id: 3257,
 title: "Pgm controlli tabelle con settori con carattere &#x27;",
 cat: "NWS",
 rel: "V2R1",
 num: "000887",
 href: "Sorgenti/NWS/B£_NWS000887.md"
 },{
-id: 4663,
+id: 3258,
 title: "Nuove funzioni UP",
 cat: "NWS",
 rel: "V2R1",
 num: "000892",
 href: "Sorgenti/NWS/B£_NWS000892.md"
 },{
-id: 4664,
+id: 3259,
 title: "Nuovo comando RL",
 cat: "NWS",
 rel: "V2R1",
 num: "000894",
 href: "Sorgenti/NWS/B£_NWS000894.md"
 },{
-id: 4665,
+id: 3260,
 title: "Nuove funzioni UP",
 cat: "NWS",
 rel: "V2R1",
 num: "000898",
 href: "Sorgenti/NWS/B£_NWS000898.md"
 },{
-id: 4666,
+id: 3261,
 title: "Schemi di default per £G25",
 cat: "NWS",
 rel: "V2R1",
 num: "000899",
 href: "Sorgenti/NWS/B£_NWS000899.md"
 },{
-id: 4667,
+id: 3262,
 title: "Istanti e intervalli&#x3a; codifica e gestione",
 cat: "NWS",
 rel: "V2R1",
 num: "000901",
 href: "Sorgenti/NWS/B£_NWS000901.md"
 },{
-id: 4668,
+id: 3263,
 title: "Campo contesto in £G11&#x2f;£G30",
 cat: "NWS",
 rel: "V2R1",
 num: "000902",
 href: "Sorgenti/NWS/B£_NWS000902.md"
 },{
-id: 4669,
+id: 3264,
 title: "Gestione sottosettori da ricerca tabelle",
 cat: "NWS",
 rel: "V2R1",
 num: "000903",
 href: "Sorgenti/NWS/B£_NWS000903.md"
 },{
-id: 4670,
+id: 3265,
 title: "Nuova funzionalità UP SCA&#x3a; Ricerca Modifiche",
 cat: "NWS",
 rel: "V2R1",
 num: "000909",
 href: "Sorgenti/NWS/B£_NWS000909.md"
 },{
-id: 4671,
+id: 3266,
 title: "Modifiche alla funzione MAN della £PE8",
 cat: "NWS",
 rel: "V2R1",
 num: "000913",
 href: "Sorgenti/NWS/B£_NWS000913.md"
 },{
-id: 4672,
+id: 3267,
 title: "OAV per la restituzione dei dati di override dei",
 cat: "NWS",
 rel: "V2R1",
 num: "000914",
 href: "Sorgenti/NWS/B£_NWS000914.md"
 },{
-id: 4673,
+id: 3268,
 title: "Conferma di note strutturate",
 cat: "NWS",
 rel: "V2R1",
 num: "000915",
 href: "Sorgenti/NWS/B£_NWS000915.md"
 },{
-id: 4674,
+id: 3269,
 title: "Metodo POSI Funzione READ nella £G18",
 cat: "NWS",
 rel: "V2R1",
 num: "000918",
 href: "Sorgenti/NWS/B£_NWS000918.md"
 },{
-id: 4675,
+id: 3270,
 title: "Implemento a determinazione calendario",
 cat: "NWS",
 rel: "V2R1",
 num: "000919",
 href: "Sorgenti/NWS/B£_NWS000919.md"
 },{
-id: 4676,
+id: 3271,
 title: "Funzione £G80 - Funzioni su IFS",
 cat: "NWS",
 rel: "V2R1",
 num: "000921",
 href: "Sorgenti/NWS/B£_NWS000921.md"
 },{
-id: 4677,
+id: 3272,
 title: "Funzioni su programmi con proprietario QSECOFR",
 cat: "NWS",
 rel: "V2R1",
 num: "000922",
 href: "Sorgenti/NWS/B£_NWS000922.md"
 },{
-id: 4678,
+id: 3273,
 title: "Nuova funzione schiera £11A",
 cat: "NWS",
 rel: "V2R1",
 num: "000923",
 href: "Sorgenti/NWS/B£_NWS000923.md"
 },{
-id: 4679,
+id: 3274,
 title: "Passaggio dimensione numeri in £PRZ",
 cat: "NWS",
 rel: "V2R1",
 num: "000931",
 href: "Sorgenti/NWS/B£_NWS000931.md"
 },{
-id: 4680,
+id: 3275,
 title: "Codici fissi per tipo arrotondamenti e codici di e",
 cat: "NWS",
 rel: "V2R1",
 num: "000933",
 href: "Sorgenti/NWS/B£_NWS000933.md"
 },{
-id: 4681,
+id: 3276,
 title: "Visualizzazione delle opzioni da autorizzazioni",
 cat: "NWS",
 rel: "V2R1",
 num: "000934",
 href: "Sorgenti/NWS/B£_NWS000934.md"
 },{
-id: 4682,
+id: 3277,
 title: "Valori solo a totale nella £G37",
 cat: "NWS",
 rel: "V2R1",
 num: "000935",
 href: "Sorgenti/NWS/B£_NWS000935.md"
 },{
-id: 4683,
+id: 3278,
 title: "Gestione oggetto P8 in B£DEC4",
 cat: "NWS",
 rel: "V2R1",
 num: "000941",
 href: "Sorgenti/NWS/B£_NWS000941.md"
 },{
-id: 4684,
+id: 3279,
 title: "Gestione coda lavori legata ad un utente",
 cat: "NWS",
 rel: "V2R1",
 num: "000944",
 href: "Sorgenti/NWS/B£_NWS000944.md"
 },{
-id: 4685,
+id: 3280,
 title: "Aggiunta funzione &#x27;up rio&#x27;",
 cat: "NWS",
 rel: "V2R1",
 num: "000946",
 href: "Sorgenti/NWS/B£_NWS000946.md"
 },{
-id: 4686,
+id: 3281,
 title: "Help dei programmi personalizzati",
 cat: "NWS",
 rel: "V2R1",
 num: "000947",
 href: "Sorgenti/NWS/B£_NWS000947.md"
 },{
-id: 4687,
+id: 3282,
 title: "Estensione Funzionalità B£MENU",
 cat: "NWS",
 rel: "V2R1",
 num: "000960",
 href: "Sorgenti/NWS/B£_NWS000960.md"
 },{
-id: 4688,
+id: 3283,
 title: "Mantenimento della posizione nei menu",
 cat: "NWS",
 rel: "V2R1",
 num: "000963",
 href: "Sorgenti/NWS/B£_NWS000963.md"
 },{
-id: 4689,
+id: 3284,
 title: "Nuova &#x2f;copy £G82 per lettura valori di sistema",
 cat: "NWS",
 rel: "V2R1",
 num: "000965",
 href: "Sorgenti/NWS/B£_NWS000965.md"
 },{
-id: 4690,
+id: 3285,
 title: "Estensione Funzionalità B£MENU",
 cat: "NWS",
 rel: "V2R1",
 num: "000967",
 href: "Sorgenti/NWS/B£_NWS000967.md"
 },{
-id: 4691,
+id: 3286,
 title: "Definizione variabili tasti funzionali per program",
 cat: "NWS",
 rel: "V2R1",
 num: "000969",
 href: "Sorgenti/NWS/B£_NWS000969.md"
 },{
-id: 4692,
+id: 3287,
 title: "Utility per Comparazione File di Spool",
 cat: "NWS",
 rel: "V2R1",
 num: "000978",
 href: "Sorgenti/NWS/B£_NWS000978.md"
 },{
-id: 4693,
+id: 3288,
 title: "Ricerca estesa per tabelle",
 cat: "NWS",
 rel: "V2R1",
 num: "000983",
 href: "Sorgenti/NWS/B£_NWS000983.md"
 },{
-id: 4694,
+id: 3289,
 title: "Comando SL &#x22;Avvio Debug sotto Loocup&#x22;",
 cat: "NWS",
 rel: "V2R1",
 num: "000988",
 href: "Sorgenti/NWS/B£_NWS000988.md"
 },{
-id: 4695,
+id: 3290,
 title: "Passaggio degli attributi video al programma di ag",
 cat: "NWS",
 rel: "V2R1",
 num: "000991",
 href: "Sorgenti/NWS/B£_NWS000991.md"
 },{
-id: 4696,
+id: 3291,
 title: "Esecuzione batch funzioni Java della £G53",
 cat: "NWS",
 rel: "V2R1",
 num: "000994",
 href: "Sorgenti/NWS/B£_NWS000994.md"
 },{
-id: 4697,
+id: 3292,
 title: "Nuova routine £G83 per comparazione valori",
 cat: "NWS",
 rel: "V2R1",
 num: "000995",
 href: "Sorgenti/NWS/B£_NWS000995.md"
 },{
-id: 4698,
+id: 3293,
 title: "Nuova funzionalità IFS per l&#x27;api £PCT",
 cat: "NWS",
 rel: "V2R1",
 num: "000997",
 href: "Sorgenti/NWS/B£_NWS000997.md"
 },{
-id: 4699,
+id: 3294,
 title: "Nuova funzione celebrazione",
 cat: "NWS",
 rel: "V2R1",
 num: "001000",
 href: "Sorgenti/NWS/B£_NWS001000.md"
 },{
-id: 4700,
+id: 3295,
 title: "Nuovi oggetti V3&#x2f;FIL01 e V3&#x2f;FIL02",
 cat: "NWS",
 rel: "V2R1",
 num: "001001",
 href: "Sorgenti/NWS/B£_NWS001001.md"
 },{
-id: 4701,
+id: 3296,
 title: "Novità in scansione ciclo del documento",
 cat: "NWS",
 rel: "V2R1",
 num: "001003",
 href: "Sorgenti/NWS/B£_NWS001003.md"
 },{
-id: 4702,
+id: 3297,
 title: "Gestione Utenti Multisistemi",
 cat: "NWS",
 rel: "V2R1",
 num: "001005",
 href: "Sorgenti/NWS/B£_NWS001005.md"
 },{
-id: 4703,
+id: 3298,
 title: "Nuovo &#x27;Tipo Accesso&#x27; nella gestione multiambient",
 cat: "NWS",
 rel: "V2R1",
 num: "001006",
 href: "Sorgenti/NWS/B£_NWS001006.md"
 },{
-id: 4704,
+id: 3299,
 title: "Gestione multiaziendale note strutturate",
 cat: "NWS",
 rel: "V2R2",
 num: "001007",
 href: "Sorgenti/NWS/B£_NWS001007.md"
 },{
-id: 4705,
+id: 3300,
 title: "Impostazione Parametri esecuzione programmi",
 cat: "NWS",
 rel: "V2R1",
 num: "001009",
 href: "Sorgenti/NWS/B£_NWS001009.md"
 },{
-id: 4706,
+id: 3301,
 title: "Implementazioni alla generazione PDF",
 cat: "NWS",
 rel: "V2R1",
 num: "001015",
 href: "Sorgenti/NWS/B£_NWS001015.md"
 },{
-id: 4707,
+id: 3302,
 title: "Exit in esecuzione azioni B£MENU",
 cat: "NWS",
 rel: "V2R1",
 num: "001022",
 href: "Sorgenti/NWS/B£_NWS001022.md"
 },{
-id: 4708,
+id: 3303,
 title: "Nuova gestione vincoli su oggetti applicativi",
 cat: "NWS",
 rel: "V2R1",
 num: "001024",
 href: "Sorgenti/NWS/B£_NWS001024.md"
 },{
-id: 4709,
+id: 3304,
 title: "Ritorno della disponibilità articolo da OAV anche",
 cat: "NWS",
 rel: "V2R1",
 num: "001026",
 href: "Sorgenti/NWS/B£_NWS001026.md"
 },{
-id: 4710,
+id: 3305,
 title: "Costruzione definizione Attributi",
 cat: "NWS",
 rel: "V2R1",
 num: "001028",
 href: "Sorgenti/NWS/B£_NWS001028.md"
 },{
-id: 4711,
+id: 3306,
 title: "Espansione funzionalità £DMSG",
 cat: "NWS",
 rel: "V2R1",
 num: "001031",
 href: "Sorgenti/NWS/B£_NWS001031.md"
 },{
-id: 4712,
+id: 3307,
 title: "OAV su oggetti date",
 cat: "NWS",
 rel: "V2R1",
 num: "001032",
 href: "Sorgenti/NWS/B£_NWS001032.md"
 },{
-id: 4713,
+id: 3308,
 title: "Nuovo oggetto V3&#x2f;S! suffisso di programma",
 cat: "NWS",
 rel: "V2R1",
 num: "001035",
 href: "Sorgenti/NWS/B£_NWS001035.md"
 },{
-id: 4714,
+id: 3309,
 title: "Attributi Oggetto DM - Richieste di movimentazione",
 cat: "NWS",
 rel: "V2R1",
 num: "001037",
 href: "Sorgenti/NWS/B£_NWS001037.md"
 },{
-id: 4715,
+id: 3310,
 title: "Nuovi OAV per schede",
 cat: "NWS",
 rel: "V2R1",
 num: "001041",
 href: "Sorgenti/NWS/B£_NWS001041.md"
 },{
-id: 4716,
+id: 3311,
 title: "Modifica parametri &#x2f;Copy £DIB e £CIRDB",
 cat: "NWS",
 rel: "V2R1",
 num: "001063",
 href: "Sorgenti/NWS/B£_NWS001063.md"
 },{
-id: 4717,
+id: 3312,
 title: "Nuovo tag &#x3a;&#x3a;I.NOT in script di scheda",
 cat: "NWS",
 rel: "V2R1",
 num: "001064",
 href: "Sorgenti/NWS/B£_NWS001064.md"
 },{
-id: 4718,
+id: 3313,
 title: "Funzione UPDATE su £G75",
 cat: "NWS",
 rel: "V2R2",
 num: "001068",
 href: "Sorgenti/NWS/B£_NWS001068.md"
 },{
-id: 4719,
+id: 3314,
 title: "Conversione stringhe minuscolo &#x3c;--&#x3e; MAIUSCOLO",
 cat: "NWS",
 rel: "V2R2",
 num: "001069",
 href: "Sorgenti/NWS/B£_NWS001069.md"
 },{
-id: 4720,
+id: 3315,
 title: "Nuovo programma di test su routine £CIRDB",
 cat: "NWS",
 rel: "V2R2",
 num: "001070",
 href: "Sorgenti/NWS/B£_NWS001070.md"
 },{
-id: 4721,
+id: 3316,
 title: "Pgm controllo allineamento pgm personalizzati",
 cat: "NWS",
 rel: "V2R2",
 num: "001071",
 href: "Sorgenti/NWS/B£_NWS001071.md"
 },{
-id: 4722,
+id: 3317,
 title: "Sme.up versione 2 rilascio 2",
 cat: "NWS",
 rel: "V2R2",
 num: "001073",
 href: "Sorgenti/NWS/B£_NWS001073.md"
 },{
-id: 4723,
+id: 3318,
 title: "Forzatura data validità in scansione distinta e ci",
 cat: "NWS",
 rel: "V2R2",
 num: "001077",
 href: "Sorgenti/NWS/B£_NWS001077.md"
 },{
-id: 4724,
+id: 3319,
 title: "Nuova funzionalità in &#x2f;COPY £G80&#x3a; CPY2SPLF copia i",
 cat: "NWS",
 rel: "V2R2",
 num: "001086",
 href: "Sorgenti/NWS/B£_NWS001086.md"
 },{
-id: 4725,
+id: 3320,
 title: "Impostazione parzializzazioni tramite routine £PRZ",
 cat: "NWS",
 rel: "V2R2",
 num: "001092",
 href: "Sorgenti/NWS/B£_NWS001092.md"
 },{
-id: 4726,
+id: 3321,
 title: "Forzatura data scansione distinta e ciclo",
 cat: "NWS",
 rel: "V2R2",
 num: "001096",
 href: "Sorgenti/NWS/B£_NWS001096.md"
 },{
-id: 4727,
+id: 3322,
 title: "Nuova &#x2f;copy £G87&#x3a; funzioni su Spool file",
 cat: "NWS",
 rel: "V2R2",
 num: "001099",
 href: "Sorgenti/NWS/B£_NWS001099.md"
 },{
-id: 4728,
+id: 3323,
 title: "Novità in calcolo formule",
 cat: "NWS",
 rel: "V2R2",
 num: "001101",
 href: "Sorgenti/NWS/B£_NWS001101.md"
 },{
-id: 4729,
+id: 3324,
 title: "Conferma Utente dai invio email",
 cat: "NWS",
 rel: "V2R2",
 num: "001121",
 href: "Sorgenti/NWS/B£_NWS001121.md"
 },{
-id: 4730,
+id: 3325,
 title: "Nuovo exit per gestione note con video specifico.",
 cat: "NWS",
 rel: "V2R2",
 num: "001122",
 href: "Sorgenti/NWS/B£_NWS001122.md"
 },{
-id: 4731,
+id: 3326,
 title: "Nuovo oggetto V3 AZI",
 cat: "NWS",
 rel: "V2R2",
 num: "001124",
 href: "Sorgenti/NWS/B£_NWS001124.md"
 },{
-id: 4732,
+id: 3327,
 title: "Definizione standard DS £11A in G11",
 cat: "NWS",
 rel: "V2R2",
 num: "001147",
 href: "Sorgenti/NWS/B£_NWS001147.md"
 },{
-id: 4733,
+id: 3328,
 title: "OAV Multiplo File Logici dell&#x27;Oggetto OJ&#x2a;FILE",
 cat: "NWS",
 rel: "V2R2",
 num: "001150",
 href: "Sorgenti/NWS/B£_NWS001150.md"
 },{
-id: 4734,
+id: 3329,
 title: "Gruppi d&#x27;attivazione",
 cat: "NWS",
 rel: "V2R2",
 num: "001154",
 href: "Sorgenti/NWS/B£_NWS001154.md"
 },{
-id: 4735,
+id: 3330,
 title: "Novità in gestione menu",
 cat: "NWS",
 rel: "V2R2",
 num: "001169",
 href: "Sorgenti/NWS/B£_NWS001169.md"
 },{
-id: 4736,
+id: 3331,
 title: "Aggiornamento Intestazioni G18 tramite opzione",
 cat: "NWS",
 rel: "V2R2",
 num: "001184",
 href: "Sorgenti/NWS/B£_NWS001184.md"
 },{
-id: 4737,
+id: 3332,
 title: "Colori RGB in £ATRC",
 cat: "NWS",
 rel: "V2R2",
 num: "001186",
 href: "Sorgenti/NWS/B£_NWS001186.md"
 },{
-id: 4738,
+id: 3333,
 title: "£G80 funzioni di IFS&#x3a; gestione Code page di lettur",
 cat: "NWS",
 rel: "V2R2",
 num: "001187",
 href: "Sorgenti/NWS/B£_NWS001187.md"
 },{
-id: 4739,
+id: 3334,
 title: "Intestazione informativa su parzializzazioni e ord",
 cat: "NWS",
 rel: "V2R2",
 num: "001188",
 href: "Sorgenti/NWS/B£_NWS001188.md"
 },{
-id: 4740,
+id: 3335,
 title: "Revisione &#x2f;Copy £G87",
 cat: "NWS",
 rel: "V2R2",
 num: "001198",
 href: "Sorgenti/NWS/B£_NWS001198.md"
 },{
-id: 4741,
+id: 3336,
 title: "£G85 - Funzioni su Indirizzi",
 cat: "NWS",
 rel: "V2R2",
 num: "001199",
 href: "Sorgenti/NWS/B£_NWS001199.md"
 },{
-id: 4742,
+id: 3337,
 title: "Scheda della scheda",
 cat: "NWS",
 rel: "V2R2",
 num: "001200",
 href: "Sorgenti/NWS/B£_NWS001200.md"
 },{
-id: 4743,
+id: 3338,
 title: "Lista ambienti in Looc.up",
 cat: "NWS",
 rel: "V2R2",
 num: "001205",
 href: "Sorgenti/NWS/B£_NWS001205.md"
 },{
-id: 4744,
+id: 3339,
 title: "Implementi a B£DEC3",
 cat: "NWS",
 rel: "V2R2",
 num: "001207",
 href: "Sorgenti/NWS/B£_NWS001207.md"
 },{
-id: 4745,
+id: 3340,
 title: "Nuove periodicità",
 cat: "NWS",
 rel: "V2R2",
 num: "001208",
 href: "Sorgenti/NWS/B£_NWS001208.md"
 },{
-id: 4746,
+id: 3341,
 title: "Definizione stagioni, trimestri ecc. come oggetti",
 cat: "NWS",
 rel: "V2R2",
 num: "001209",
 href: "Sorgenti/NWS/B£_NWS001209.md"
 },{
-id: 4747,
+id: 3342,
 title: "SMELDA - Local Data Area di Smeup",
 cat: "NWS",
 rel: "V2R2",
 num: "001212",
 href: "Sorgenti/NWS/B£_NWS001212.md"
 },{
-id: 4748,
+id: 3343,
 title: "Estensioni a documentazione tabelle",
 cat: "NWS",
 rel: "V2R2",
 num: "001216",
 href: "Sorgenti/NWS/B£_NWS001216.md"
 },{
-id: 4749,
+id: 3344,
 title: "Descrizione parametri B£J per programmi utente",
 cat: "NWS",
 rel: "V2R2",
 num: "001219",
 href: "Sorgenti/NWS/B£_NWS001219.md"
 },{
-id: 4750,
+id: 3345,
 title: "Nuovo oggetto voce",
 cat: "NWS",
 rel: "V1R1",
 num: "001220",
 href: "Sorgenti/NWS/B£_NWS001220.md"
 },{
-id: 4751,
+id: 3346,
 title: "Funzione G86 di manipolazione stringhe con pipes",
 cat: "NWS",
 rel: "V2R2",
 num: "001224",
 href: "Sorgenti/NWS/B£_NWS001224.md"
 },{
-id: 4752,
+id: 3347,
 title: "LOG attività utenti in ambiente SMEUP",
 cat: "NWS",
 rel: "V2R2",
 num: "001227",
 href: "Sorgenti/NWS/B£_NWS001227.md"
 },{
-id: 4753,
+id: 3348,
 title: "Nuovi attributi per metaoggetto OG",
 cat: "NWS",
 rel: "V2R2",
 num: "001233",
 href: "Sorgenti/NWS/B£_NWS001233.md"
 },{
-id: 4754,
+id: 3349,
 title: "Creazione repliche a exit calcolo costi",
 cat: "NWS",
 rel: "V2R2",
 num: "001240",
 href: "Sorgenti/NWS/B£_NWS001240.md"
 },{
-id: 4755,
+id: 3350,
 title: "Modifica a gestione &#x22;LOG Attività utenti&#x22; News 001",
 cat: "NWS",
 rel: "V2R2",
 num: "001241",
 href: "Sorgenti/NWS/B£_NWS001241.md"
 },{
-id: 4756,
+id: 3351,
 title: "Opzione di inizio&#x2f;fine elaborazione opzioni routin",
 cat: "NWS",
 rel: "V2R2",
 num: "001242",
 href: "Sorgenti/NWS/B£_NWS001242.md"
 },{
-id: 4757,
+id: 3352,
 title: "Normalizzazione parzializzatori",
 cat: "NWS",
 rel: "V2R2",
 num: "001248",
 href: "Sorgenti/NWS/B£_NWS001248.md"
 },{
-id: 4758,
+id: 3353,
 title: "Performance",
 cat: "NWS",
 rel: "V2R2",
 num: "001257",
 href: "Sorgenti/NWS/B£_NWS001257.md"
 },{
-id: 4759,
+id: 3354,
 title: "Esplosione Distinta e Cicli per Esponente Modifica",
 cat: "NWS",
 rel: "V2R2",
 num: "001260",
 href: "Sorgenti/NWS/B£_NWS001260.md"
 },{
-id: 4760,
+id: 3355,
 title: "Nuova gestione azioni su oggetti Sme.up",
 cat: "NWS",
 rel: "V2R3",
 num: "001263",
 href: "Sorgenti/NWS/B£_NWS001263.md"
 },{
-id: 4761,
+id: 3356,
 title: "Funzione di costruzione livelli negli schemi",
 cat: "NWS",
 rel: "V2R3",
 num: "001266",
 href: "Sorgenti/NWS/B£_NWS001266.md"
 },{
-id: 4762,
+id: 3357,
 title: "Soppressione tabella B£T",
 cat: "NWS",
 rel: "V2R3",
 num: "001269",
 href: "Sorgenti/NWS/B£_NWS001269.md"
 },{
-id: 4763,
+id: 3358,
 title: "Condizioni di log",
 cat: "NWS",
 rel: "V2R3",
 num: "001270",
 href: "Sorgenti/NWS/B£_NWS001270.md"
 },{
-id: 4764,
+id: 3359,
 title: "Gestione ultimo campo formato CSV nella G43",
 cat: "NWS",
 rel: "V2R3",
 num: "001271",
 href: "Sorgenti/NWS/B£_NWS001271.md"
 },{
-id: 4765,
+id: 3360,
 title: "Matrice di tutti i campi di tabella",
 cat: "NWS",
 rel: "V2R3",
 num: "001272",
 href: "Sorgenti/NWS/B£_NWS001272.md"
 },{
-id: 4766,
+id: 3361,
 title: "Novità in conversione numeri",
 cat: "NWS",
 rel: "V2R3",
 num: "001274",
 href: "Sorgenti/NWS/B£_NWS001274.md"
 },{
-id: 4767,
+id: 3362,
 title: "Gruppo azioni su G18",
 cat: "NWS",
 rel: "V2R3",
 num: "001277",
 href: "Sorgenti/NWS/B£_NWS001277.md"
 },{
-id: 4768,
+id: 3363,
 title: "SME.UP Versione 2 rilascio 3",
 cat: "NWS",
 rel: "V2R3",
 num: "001278",
 href: "Sorgenti/NWS/B£_NWS001278.md"
 },{
-id: 4769,
+id: 3364,
 title: "Nuovo OAV su oggetto OJ&#x2a;FILE",
 cat: "NWS",
 rel: "V2R3",
 num: "001279",
 href: "Sorgenti/NWS/B£_NWS001279.md"
 },{
-id: 4770,
+id: 3365,
 title: "Nuovo OAV su oggetto Tabella",
 cat: "NWS",
 rel: "V2R3",
 num: "001280",
 href: "Sorgenti/NWS/B£_NWS001280.md"
 },{
-id: 4771,
+id: 3366,
 title: "Errata corrige su implementazioni ciclo esterno in",
 cat: "NWS",
 rel: "V2R3",
 num: "001290",
 href: "Sorgenti/NWS/B£_NWS001290.md"
 },{
-id: 4772,
+id: 3367,
 title: "Metodo Random nella G60",
 cat: "NWS",
 rel: "V2R3",
 num: "001291",
 href: "Sorgenti/NWS/B£_NWS001291.md"
 },{
-id: 4773,
+id: 3368,
 title: "Autorizzazioni operative",
 cat: "NWS",
 rel: "V2R3",
 num: "001302",
 href: "Sorgenti/NWS/B£_NWS001302.md"
 },{
-id: 4774,
+id: 3369,
 title: "Stampa file PDF&#x3a; £G95 e Ghostscript",
 cat: "NWS",
 rel: "V2R3",
 num: "001307",
 href: "Sorgenti/NWS/B£_NWS001307.md"
 },{
-id: 4775,
+id: 3370,
 title: "Creazione file PDF&#x3a; £G87 e Ghostpcl",
 cat: "NWS",
 rel: "V2R3",
 num: "001308",
 href: "Sorgenti/NWS/B£_NWS001308.md"
 },{
-id: 4776,
+id: 3371,
 title: "Utilizzo Liste Oggetto su Parzializzatori",
 cat: "NWS",
 rel: "V2R3",
 num: "001309",
 href: "Sorgenti/NWS/B£_NWS001309.md"
 },{
-id: 4777,
+id: 3372,
 title: "Modifica a tabella B§G",
 cat: "NWS",
 rel: "V2R3",
 num: "001315",
 href: "Sorgenti/NWS/B£_NWS001315.md"
 },{
-id: 4778,
+id: 3373,
 title: "Revisione B£AR17&#x3a; dati collegati di un oggetto",
 cat: "NWS",
 rel: "V2R3",
 num: "001316",
 href: "Sorgenti/NWS/B£_NWS001316.md"
 },{
-id: 4779,
+id: 3374,
 title: "Novità in motore BCD",
 cat: "NWS",
 rel: "V2R3",
 num: "001319",
 href: "Sorgenti/NWS/B£_NWS001319.md"
 },{
-id: 4780,
+id: 3375,
 title: "Gestione livelli risaltita £G26 per fornitore",
 cat: "NWS",
 rel: "V2R3",
 num: "001321",
 href: "Sorgenti/NWS/B£_NWS001321.md"
 },{
-id: 4781,
+id: 3376,
 title: "Ritorno parametro in £DEC",
 cat: "NWS",
 rel: "V2R3",
 num: "001325",
 href: "Sorgenti/NWS/B£_NWS001325.md"
 },{
-id: 4782,
+id: 3377,
 title: "Statistiche in BCD",
 cat: "NWS",
 rel: "V2R3",
 num: "001331",
 href: "Sorgenti/NWS/B£_NWS001331.md"
 },{
-id: 4783,
+id: 3378,
 title: "Replica a £G79",
 cat: "NWS",
 rel: "V2R3",
 num: "001332",
 href: "Sorgenti/NWS/B£_NWS001332.md"
 },{
-id: 4784,
+id: 3379,
 title: "Procedura £P003",
 cat: "NWS",
 rel: "V2R3",
 num: "001335",
 href: "Sorgenti/NWS/B£_NWS001335.md"
 },{
-id: 4785,
+id: 3380,
 title: "£H53 Emissione in stampa di un PDF",
 cat: "NWS",
 rel: "V2R3",
 num: "001360",
 href: "Sorgenti/NWS/B£_NWS001360.md"
 },{
-id: 4786,
+id: 3381,
 title: "Nuova Exit utente in calcolo date di scadenza",
 cat: "NWS",
 rel: "V2R3",
 num: "001372",
 href: "Sorgenti/NWS/B£_NWS001372.md"
 },{
-id: 4787,
+id: 3382,
 title: "Aggiornamento Dinamico Pgm in Compilazione solo se",
 cat: "NWS",
 rel: "V2R3",
 num: "001373",
 href: "Sorgenti/NWS/B£_NWS001373.md"
 },{
-id: 4788,
+id: 3383,
 title: "Estensione della £G18 a produzione di Spool e File",
 cat: "NWS",
 rel: "V2R3",
 num: "001375",
 href: "Sorgenti/NWS/B£_NWS001375.md"
 },{
-id: 4789,
+id: 3384,
 title: "Gestione tabelle interne ad un documento",
 cat: "NWS",
 rel: "V2R3",
 num: "001377",
 href: "Sorgenti/NWS/B£_NWS001377.md"
 },{
-id: 4790,
+id: 3385,
 title: "Routine £ATR",
 cat: "NWS",
 rel: "V2R3",
 num: "001378",
 href: "Sorgenti/NWS/B£_NWS001378.md"
 },{
-id: 4791,
+id: 3386,
 title: "OAV di conto contabile su righe V5",
 cat: "NWS",
 rel: "V2R3",
 num: "001379",
 href: "Sorgenti/NWS/B£_NWS001379.md"
 },{
-id: 4792,
+id: 3387,
 title: "Utilizzo Variabili nei Comandi Pre-Post Compilazio",
 cat: "NWS",
 rel: "V2R3",
 num: "001381",
 href: "Sorgenti/NWS/B£_NWS001381.md"
 },{
-id: 4793,
+id: 3388,
 title: "Nuovo comando UP SQL",
 cat: "NWS",
 rel: "V2R3",
 num: "001382",
 href: "Sorgenti/NWS/B£_NWS001382.md"
 },{
-id: 4794,
+id: 3389,
 title: "Autorizzazioni su comando UP",
 cat: "NWS",
 rel: "V2R3",
 num: "001387",
 href: "Sorgenti/NWS/B£_NWS001387.md"
 },{
-id: 4795,
+id: 3390,
 title: "UP SQL&#x3a; Tipizzazione file e altre modifiche",
 cat: "NWS",
 rel: "V2R3",
 num: "001389",
 href: "Sorgenti/NWS/B£_NWS001389.md"
 },{
-id: 4796,
+id: 3391,
 title: "Modifiche al compilatore CO",
 cat: "NWS",
 rel: "V2R3",
 num: "001390",
 href: "Sorgenti/NWS/B£_NWS001390.md"
 },{
-id: 4797,
+id: 3392,
 title: "Configurazione ambienti NON Sme.up",
 cat: "NWS",
 rel: "V2R3",
 num: "001392",
 href: "Sorgenti/NWS/B£_NWS001392.md"
 },{
-id: 4798,
+id: 3393,
 title: "Implementazione Stampe&#x2f;PDF da £G18",
 cat: "NWS",
 rel: "V2R3",
 num: "001393",
 href: "Sorgenti/NWS/B£_NWS001393.md"
 },{
-id: 4799,
+id: 3394,
 title: "Nuove Utility per le PTF",
 cat: "NWS",
 rel: "V2R3",
 num: "001394",
 href: "Sorgenti/NWS/B£_NWS001394.md"
 },{
-id: 4800,
+id: 3395,
 title: "£G98 Invio mail a lista distribuzione",
 cat: "NWS",
 rel: "V2R3",
 num: "001397",
 href: "Sorgenti/NWS/B£_NWS001397.md"
 },{
-id: 4801,
+id: 3396,
 title: "Azioni su oggetti e nuovi guida&#x3a; miglioramenti.",
 cat: "NWS",
 rel: "V2R3",
 num: "001400",
 href: "Sorgenti/NWS/B£_NWS001400.md"
 },{
-id: 4802,
+id: 3397,
 title: "Lancio cieco di un motore BCD",
 cat: "NWS",
 rel: "V2R3",
 num: "001401",
 href: "Sorgenti/NWS/B£_NWS001401.md"
 },{
-id: 4803,
+id: 3398,
 title: "Miglioramento del comportamento dell&#x27;attributo I&#x2f;",
 cat: "NWS",
 rel: "V2R3",
 num: "001403",
 href: "Sorgenti/NWS/B£_NWS001403.md"
 },{
-id: 4804,
+id: 3399,
 title: "Flussi per oggetti E1 ed E2",
 cat: "NWS",
 rel: "V2R3",
 num: "001406",
 href: "Sorgenti/NWS/B£_NWS001406.md"
 },{
-id: 4805,
+id: 3400,
 title: "Novità in ritorno Ente - Articolo",
 cat: "NWS",
 rel: "V2R3",
 num: "001422",
 href: "Sorgenti/NWS/B£_NWS001422.md"
 },{
-id: 4806,
+id: 3401,
 title: "RE&#x3a;Funzioni di Servizio su Utenti",
 cat: "NWS",
 rel: "V2R3",
 num: "001424",
 href: "Sorgenti/NWS/B£_NWS001424.md"
 },{
-id: 4807,
+id: 3402,
 title: "Documentazione interna ai programmi",
 cat: "NWS",
 rel: "V2R3",
 num: "001428",
 href: "Sorgenti/NWS/B£_NWS001428.md"
 },{
-id: 4808,
+id: 3403,
 title: "Scansione tabelle",
 cat: "NWS",
 rel: "V2R3",
 num: "001430",
 href: "Sorgenti/NWS/B£_NWS001430.md"
 },{
-id: 4809,
+id: 3404,
 title: "Gestore ricerche estese",
 cat: "NWS",
 rel: "V2R3",
 num: "001431",
 href: "Sorgenti/NWS/B£_NWS001431.md"
 },{
-id: 4810,
+id: 3405,
 title: "Parzializzazioni utente in lista",
 cat: "NWS",
 rel: "V2R3",
 num: "001436",
 href: "Sorgenti/NWS/B£_NWS001436.md"
 },{
-id: 4811,
+id: 3406,
 title: "Rivisitazione immissioni batch",
 cat: "NWS",
 rel: "V2R3",
 num: "001438",
 href: "Sorgenti/NWS/B£_NWS001438.md"
 },{
-id: 4812,
+id: 3407,
 title: "Visualizzatore £G11 per radiofrequenza",
 cat: "NWS",
 rel: "V2R3",
 num: "001444",
 href: "Sorgenti/NWS/B£_NWS001444.md"
 },{
-id: 4813,
+id: 3408,
 title: "£GPE&#x3a; Variazione parametri e lancio programmi",
 cat: "NWS",
 rel: "V2R3",
 num: "001450",
 href: "Sorgenti/NWS/B£_NWS001450.md"
 },{
-id: 4814,
+id: 3409,
 title: "Controllo&#x2f;Comparazione Sorgenti RPG",
 cat: "NWS",
 rel: "V2R3",
 num: "001452",
 href: "Sorgenti/NWS/B£_NWS001452.md"
 },{
-id: 4815,
+id: 3410,
 title: "Programma aggiustamento interfaccia articoli",
 cat: "NWS",
 rel: "V2R3",
 num: "001457",
 href: "Sorgenti/NWS/B£_NWS001457.md"
 },{
-id: 4816,
+id: 3411,
 title: "Nuova Scheda Modulo B£MENU",
 cat: "NWS",
 rel: "V2R3",
 num: "001469",
 href: "Sorgenti/NWS/B£_NWS001469.md"
 },{
-id: 4817,
+id: 3412,
 title: "Nuove opzioni per PDF da £G18",
 cat: "NWS",
 rel: "V2R3",
 num: "001472",
 href: "Sorgenti/NWS/B£_NWS001472.md"
 },{
-id: 4818,
+id: 3413,
 title: "Modifica a copia azioni nei menu smeUP",
 cat: "NWS",
 rel: "V2R3",
 num: "001475",
 href: "Sorgenti/NWS/B£_NWS001475.md"
 },{
-id: 4819,
+id: 3414,
 title: "Ricostruzione OAV mancanti",
 cat: "NWS",
 rel: "V2R3",
 num: "001480",
 href: "Sorgenti/NWS/B£_NWS001480.md"
 },{
-id: 4820,
+id: 3415,
 title: "G53-nuove implementazioni",
 cat: "NWS",
 rel: "V2R3",
 num: "001495",
 href: "Sorgenti/NWS/B£_NWS001495.md"
 },{
-id: 4821,
+id: 3416,
 title: "G87 - Nuova implementazione",
 cat: "NWS",
 rel: "V2R3",
 num: "001496",
 href: "Sorgenti/NWS/B£_NWS001496.md"
 },{
-id: 4822,
+id: 3417,
 title: "Modifica UP UT3",
 cat: "NWS",
 rel: "V2R3",
 num: "001498",
 href: "Sorgenti/NWS/B£_NWS001498.md"
 },{
-id: 4823,
+id: 3418,
 title: "Nuova funzione CTR in routine £G28",
 cat: "NWS",
 rel: "V2R3",
 num: "001499",
 href: "Sorgenti/NWS/B£_NWS001499.md"
 },{
-id: 4824,
+id: 3419,
 title: "G97 - Nuove implementazioni",
 cat: "NWS",
 rel: "V2R3",
 num: "001503",
 href: "Sorgenti/NWS/B£_NWS001503.md"
 },{
-id: 4825,
+id: 3420,
 title: "Gestione SHARE(&#x2a;NO",
 cat: "NWS",
 rel: "V2R3",
 num: "001508",
 href: "Sorgenti/NWS/B£_NWS001508.md"
 },{
-id: 4826,
+id: 3421,
 title: "Nuove funzioni £G79",
 cat: "NWS",
 rel: "V2R3",
 num: "001509",
 href: "Sorgenti/NWS/B£_NWS001509.md"
 },{
-id: 4827,
+id: 3422,
 title: "Miglioramenti nuovi pop.up su azioni Standard Sme.",
 cat: "NWS",
 rel: "V2R3",
 num: "001512",
 href: "Sorgenti/NWS/B£_NWS001512.md"
 },{
-id: 4828,
+id: 3423,
 title: "Gestione Accesso di default a SMEUP",
 cat: "NWS",
 rel: "V2R3",
 num: "001521",
 href: "Sorgenti/NWS/B£_NWS001521.md"
 },{
-id: 4829,
+id: 3424,
 title: "Calcolo Check Digit codici EAN",
 cat: "NWS",
 rel: "V2R3",
 num: "001529",
 href: "Sorgenti/NWS/B£_NWS001529.md"
 },{
-id: 4830,
+id: 3425,
 title: "Oggettizzazione campi e controllo contenuto",
 cat: "NWS",
 rel: "V2R3",
 num: "001534",
 href: "Sorgenti/NWS/B£_NWS001534.md"
 },{
-id: 4831,
+id: 3426,
 title: "Controllo errori in campi tabelle con LOOC.up",
 cat: "NWS",
 rel: "V2R3",
 num: "001535",
 href: "Sorgenti/NWS/B£_NWS001535.md"
 },{
-id: 4832,
+id: 3427,
 title: "Programmi senza architettura sme.up",
 cat: "NWS",
 rel: "V2R3",
 num: "001542",
 href: "Sorgenti/NWS/B£_NWS001542.md"
 },{
-id: 4833,
+id: 3428,
 title: "Gestione periodi contabili",
 cat: "NWS",
 rel: "V2R3",
 num: "001546",
 href: "Sorgenti/NWS/B£_NWS001546.md"
 },{
-id: 4834,
+id: 3429,
 title: "Contenuto dei membri di un file",
 cat: "NWS",
 rel: "V2R3",
 num: "001547",
 href: "Sorgenti/NWS/B£_NWS001547.md"
 },{
-id: 4835,
+id: 3430,
 title: "Nuova Gestione Campo Utente Tabella",
 cat: "NWS",
 rel: "V2R3",
 num: "001548",
 href: "Sorgenti/NWS/B£_NWS001548.md"
 },{
-id: 4836,
+id: 3431,
 title: "Nuovi cmd B£QQ00,B£QQ01 e WRKJOBSCDE in scheda",
 cat: "NWS",
 rel: "V2R3",
 num: "001549",
 href: "Sorgenti/NWS/B£_NWS001549.md"
 },{
-id: 4837,
+id: 3432,
 title: "Gestione MDV Estesa",
 cat: "NWS",
 rel: "V3R1",
 num: "001559",
 href: "Sorgenti/NWS/B£_NWS001559.md"
 },{
-id: 4838,
+id: 3433,
 title: "Gestore delle repliche",
 cat: "NWS",
 rel: "V2R3",
 num: "001560",
 href: "Sorgenti/NWS/B£_NWS001560.md"
 },{
-id: 4839,
+id: 3434,
 title: "Funzioni sulla gestione dei Flag",
 cat: "NWS",
 rel: "V2R3",
 num: "001561",
 href: "Sorgenti/NWS/B£_NWS001561.md"
 },{
-id: 4840,
+id: 3435,
 title: "Miglioramenti UP SQL",
 cat: "NWS",
 rel: "V2R3",
 num: "001562",
 href: "Sorgenti/NWS/B£_NWS001562.md"
 },{
-id: 4841,
+id: 3436,
 title: "Conoscere le librerie di un oggetto",
 cat: "NWS",
 rel: "V2R3",
 num: "001564",
 href: "Sorgenti/NWS/B£_NWS001564.md"
 },{
-id: 4842,
+id: 3437,
 title: "Facilitazione accesso al glossario",
 cat: "NWS",
 rel: "V2R3",
 num: "001565",
 href: "Sorgenti/NWS/B£_NWS001565.md"
 },{
-id: 4843,
+id: 3438,
 title: "Gestione tabelle cablate",
 cat: "NWS",
 rel: "V2R3",
 num: "001567",
 href: "Sorgenti/NWS/B£_NWS001567.md"
 },{
-id: 4844,
+id: 3439,
 title: "Deviazione tabelle con nuovo gruppo di attivazione",
 cat: "NWS",
 rel: "V2R3",
 num: "001569",
 href: "Sorgenti/NWS/B£_NWS001569.md"
 },{
-id: 4845,
+id: 3440,
 title: "Nuovi metodi per £IFCON",
 cat: "NWS",
 rel: "V2R3",
 num: "001572",
 href: "Sorgenti/NWS/B£_NWS001572.md"
 },{
-id: 4846,
+id: 3441,
 title: "Intestazione OAV di flag",
 cat: "NWS",
 rel: "V2R3",
 num: "001573",
 href: "Sorgenti/NWS/B£_NWS001573.md"
 },{
-id: 4847,
+id: 3442,
 title: "Reperimento autorizzazioni",
 cat: "NWS",
 rel: "V2R3",
 num: "001583",
 href: "Sorgenti/NWS/B£_NWS001583.md"
 },{
-id: 4848,
+id: 3443,
 title: "Nuova opzione in compilazione",
 cat: "NWS",
 rel: "V2R3",
 num: "001585",
 href: "Sorgenti/NWS/B£_NWS001585.md"
 },{
-id: 4849,
+id: 3444,
 title: "Modifica a ptf XX99999A",
 cat: "NWS",
 rel: "V2R3",
 num: "001587",
 href: "Sorgenti/NWS/B£_NWS001587.md"
 },{
-id: 4850,
+id: 3445,
 title: "Disponibilità manuali Sme.Up sul sito",
 cat: "NWS",
 rel: "V2R3",
 num: "001589",
 href: "Sorgenti/NWS/B£_NWS001589.md"
 },{
-id: 4851,
+id: 3446,
 title: "Nuova applicazione virtuale",
 cat: "NWS",
 rel: "V2R3",
 num: "001592",
 href: "Sorgenti/NWS/B£_NWS001592.md"
 },{
-id: 4852,
+id: 3447,
 title: "Nuovi pop.up e chiamate F(",
 cat: "NWS",
 rel: "V2R3",
 num: "001595",
 href: "Sorgenti/NWS/B£_NWS001595.md"
 },{
-id: 4853,
+id: 3448,
 title: "Autorizzazioni su istruzioni eseguite tramite",
 cat: "NWS",
 rel: "V2R3",
 num: "001603",
 href: "Sorgenti/NWS/B£_NWS001603.md"
 },{
-id: 4854,
+id: 3449,
 title: "Programma di aggiustamento periodicità",
 cat: "NWS",
 rel: "V2R3",
 num: "001606",
 href: "Sorgenti/NWS/B£_NWS001606.md"
 },{
-id: 4855,
+id: 3450,
 title: "Novità SORTA e LOOKUP",
 cat: "NWS",
 rel: "V3R1",
 num: "001626",
 href: "Sorgenti/NWS/B£_NWS001626.md"
 },{
-id: 4856,
+id: 3451,
 title: "Reinvio News",
 cat: "NWS",
 rel: "\*ALL",
 num: "001627",
 href: "Sorgenti/NWS/B£_NWS001627.md"
 },{
-id: 4857,
+id: 3452,
 title: "Modifica data specifiche RPG",
 cat: "NWS",
 rel: "V2R3",
 num: "001628",
 href: "Sorgenti/NWS/B£_NWS001628.md"
 },{
-id: 4858,
+id: 3453,
 title: "Analisi utilizzo oggetti e sorgenti personalizzati",
 cat: "NWS",
 rel: "V2R3",
 num: "001629",
 href: "Sorgenti/NWS/B£_NWS001629.md"
 },{
-id: 4859,
+id: 3454,
 title: "Nuovi oggetti V2",
 cat: "NWS",
 rel: "V3R1",
 num: "001630",
 href: "Sorgenti/NWS/B£_NWS001630.md"
 },{
-id: 4860,
+id: 3455,
 title: "SME.UP Versione 3 rilascio 1",
 cat: "NWS",
 rel: "V3R1",
 num: "001632",
 href: "Sorgenti/NWS/B£_NWS001632.md"
 },{
-id: 4861,
+id: 3456,
 title: "G18 a due Colonne",
 cat: "NWS",
 rel: "V3R1",
 num: "001633",
 href: "Sorgenti/NWS/B£_NWS001633.md"
 },{
-id: 4862,
+id: 3457,
 title: "Aggiunti parametri al comando UP",
 cat: "NWS",
 rel: "V3R1",
 num: "001635",
 href: "Sorgenti/NWS/B£_NWS001635.md"
 },{
-id: 4863,
+id: 3458,
 title: "Novità £G53",
 cat: "NWS",
 rel: "V3R1",
 num: "001637",
 href: "Sorgenti/NWS/B£_NWS001637.md"
 },{
-id: 4864,
+id: 3459,
 title: "Nuova gestione B£1 e B£2 e nuova Exit",
 cat: "NWS",
 rel: "V3R1",
 num: "001639",
 href: "Sorgenti/NWS/B£_NWS001639.md"
 },{
-id: 4865,
+id: 3460,
 title: "Utenti con possibilità limitate",
 cat: "NWS",
 rel: "V3R1",
 num: "001641",
 href: "Sorgenti/NWS/B£_NWS001641.md"
 },{
-id: 4866,
+id: 3461,
 title: "Dismissione £INZSRLT",
 cat: "NWS",
 rel: "V3R1",
 num: "001642",
 href: "Sorgenti/NWS/B£_NWS001642.md"
 },{
-id: 4867,
+id: 3462,
 title: "Errata corrige&#x3a; Utenti con possibilità limitate",
 cat: "NWS",
 rel: "V3R1",
 num: "001648",
 href: "Sorgenti/NWS/B£_NWS001648.md"
 },{
-id: 4868,
+id: 3463,
 title: "Definizione nomenclature installazione SME.up",
 cat: "NWS",
 rel: "V3R1",
 num: "001652",
 href: "Sorgenti/NWS/B£_NWS001652.md"
 },{
-id: 4869,
+id: 3464,
 title: "Lettura&#x2f;Scrittura paragrafi",
 cat: "NWS",
 rel: "V3R1",
 num: "001653",
 href: "Sorgenti/NWS/B£_NWS001653.md"
 },{
-id: 4870,
+id: 3465,
 title: "Revisione LOA08 - lancio scheda con richiesta para",
 cat: "NWS",
 rel: "V3R1",
 num: "001654",
 href: "Sorgenti/NWS/B£_NWS001654.md"
 },{
-id: 4871,
+id: 3466,
 title: "Installazione Java 1.5 su V5R3M0",
 cat: "NWS",
 rel: "\*ALL",
 num: "001656",
 href: "Sorgenti/NWS/B£_NWS001656.md"
 },{
-id: 4872,
+id: 3467,
 title: "Exit in presentazione script BCD",
 cat: "NWS",
 rel: "V3R1",
 num: "001658",
 href: "Sorgenti/NWS/B£_NWS001658.md"
 },{
-id: 4873,
+id: 3468,
 title: "Architettura programmazione Sme.UP V3R1",
 cat: "NWS",
 rel: "V3R1",
 num: "001659",
 href: "Sorgenti/NWS/B£_NWS001659.md"
 },{
-id: 4874,
+id: 3469,
 title: "Aumento automatico dimensione archivi",
 cat: "NWS",
 rel: "V3R2",
 num: "001660",
 href: "Sorgenti/NWS/B£_NWS001660.md"
 },{
-id: 4875,
+id: 3470,
 title: "Associazione oggetti ad applicazione&#x2f;modulo",
 cat: "NWS",
 rel: "V3R1",
 num: "001663",
 href: "Sorgenti/NWS/B£_NWS001663.md"
 },{
-id: 4876,
+id: 3471,
 title: "Miglioramenti a confronto istanti £P003",
 cat: "NWS",
 rel: "V3R1",
 num: "001664",
 href: "Sorgenti/NWS/B£_NWS001664.md"
 },{
-id: 4877,
+id: 3472,
 title: "SFTP da Iseries",
 cat: "NWS",
 rel: "\*ALL",
 num: "001667",
 href: "Sorgenti/NWS/B£_NWS001667.md"
 },{
-id: 4878,
+id: 3473,
 title: "Nuove Variabili Data per Loocup",
 cat: "NWS",
 rel: "V3R1",
 num: "001668",
 href: "Sorgenti/NWS/B£_NWS001668.md"
 },{
-id: 4879,
+id: 3474,
 title: "Documentazione operativa elementi di tabella",
 cat: "NWS",
 rel: "V3R1",
 num: "001670",
 href: "Sorgenti/NWS/B£_NWS001670.md"
 },{
-id: 4880,
+id: 3475,
 title: "Note Oggetto su Colonne Aggiuntive",
 cat: "NWS",
 rel: "V3R1",
 num: "001671",
 href: "Sorgenti/NWS/B£_NWS001671.md"
 },{
-id: 4881,
+id: 3476,
 title: "Esclusione in UP SCA tipi membro _O",
 cat: "NWS",
 rel: "V3R1",
 num: "001672",
 href: "Sorgenti/NWS/B£_NWS001672.md"
 },{
-id: 4882,
+id: 3477,
 title: "Ricerche estese",
 cat: "NWS",
 rel: "V3R1",
 num: "001679",
 href: "Sorgenti/NWS/B£_NWS001679.md"
 },{
-id: 4883,
+id: 3478,
 title: "Dati Utente su Spool G18",
 cat: "NWS",
 rel: "V3R1",
 num: "001689",
 href: "Sorgenti/NWS/B£_NWS001689.md"
 },{
-id: 4884,
+id: 3479,
 title: "Documentazione Sme.UP in WIKI",
 cat: "NWS",
 rel: "V3R1",
 num: "001693",
 href: "Sorgenti/NWS/B£_NWS001693.md"
 },{
-id: 4885,
+id: 3480,
 title: "Opzione Popup Nuova Scheda",
 cat: "NWS",
 rel: "V3R1",
 num: "001697",
 href: "Sorgenti/NWS/B£_NWS001697.md"
 },{
-id: 4886,
+id: 3481,
 title: "Implementazioni su UFO",
 cat: "NWS",
 rel: "V3R2",
 num: "001707",
 href: "Sorgenti/NWS/B£_NWS001707.md"
 },{
-id: 4887,
+id: 3482,
 title: "SME.UP Versione 3 rilascio 2",
 cat: "NWS",
 rel: "V3R2",
 num: "001708",
 href: "Sorgenti/NWS/B£_NWS001708.md"
 },{
-id: 4888,
+id: 3483,
 title: "Ottimizzazione Richiamo £CRI nella £DEC",
 cat: "NWS",
 rel: "V3R2",
 num: "001710",
 href: "Sorgenti/NWS/B£_NWS001710.md"
 },{
-id: 4889,
+id: 3484,
 title: "Nuovo Logico su B£WKXT0F",
 cat: "NWS",
 rel: "V3R2",
 num: "001713",
 href: "Sorgenti/NWS/B£_NWS001713.md"
 },{
-id: 4890,
+id: 3485,
 title: "Miglioramento scheda J1PATHDIRX",
 cat: "NWS",
 rel: "V3R2",
 num: "001717",
 href: "Sorgenti/NWS/B£_NWS001717.md"
 },{
-id: 4891,
+id: 3486,
 title: "Nuove funzioni £G56",
 cat: "NWS",
 rel: "V3R1",
 num: "001729",
 href: "Sorgenti/NWS/B£_NWS001729.md"
 },{
-id: 4892,
+id: 3487,
 title: "Spostamento documentazione delle schede",
 cat: "NWS",
 rel: "V3R2",
 num: "001730",
 href: "Sorgenti/NWS/B£_NWS001730.md"
 },{
-id: 4893,
+id: 3488,
 title: "Oggetto autorizzazione",
 cat: "NWS",
 rel: "V3R2",
 num: "001745",
 href: "Sorgenti/NWS/B£_NWS001745.md"
 },{
-id: 4894,
+id: 3489,
 title: "£G93",
 cat: "NWS",
 rel: "V3R2",
 num: "001747",
 href: "Sorgenti/NWS/B£_NWS001747.md"
 },{
-id: 4895,
+id: 3490,
 title: "Utility aggiornamento script BCD",
 cat: "NWS",
 rel: "V3R2",
 num: "001748",
 href: "Sorgenti/NWS/B£_NWS001748.md"
 },{
-id: 4896,
+id: 3491,
 title: "Flussi specifici oggetto",
 cat: "NWS",
 rel: "V3R2",
 num: "001750",
 href: "Sorgenti/NWS/B£_NWS001750.md"
 },{
-id: 4897,
+id: 3492,
 title: "Visualizzatore G11, posizionamento cursore",
 cat: "NWS",
 rel: "V3R2",
 num: "001755",
 href: "Sorgenti/NWS/B£_NWS001755.md"
 },{
-id: 4898,
+id: 3493,
 title: "Oggetto livello in cella grafica",
 cat: "NWS",
 rel: "V3R2",
 num: "001759",
 href: "Sorgenti/NWS/B£_NWS001759.md"
 },{
-id: 4899,
+id: 3494,
 title: "Novità in £G56",
 cat: "NWS",
 rel: "V2R3",
 num: "001763",
 href: "Sorgenti/NWS/B£_NWS001763.md"
 },{
-id: 4900,
+id: 3495,
 title: "Repliche personali",
 cat: "NWS",
 rel: "V3R2",
 num: "001765",
 href: "Sorgenti/NWS/B£_NWS001765.md"
 },{
-id: 4901,
+id: 3496,
 title: "Risalita sst tabelle",
 cat: "NWS",
 rel: "V3R2",
 num: "001766",
 href: "Sorgenti/NWS/B£_NWS001766.md"
 },{
-id: 4902,
+id: 3497,
 title: "Griglia ore in £G93",
 cat: "NWS",
 rel: "V3R2",
 num: "001770",
 href: "Sorgenti/NWS/B£_NWS001770.md"
 },{
-id: 4903,
+id: 3498,
 title: "Gestione vincoli nei flussi A- in pop.up oggetto",
 cat: "NWS",
 rel: "V3R2",
 num: "001772",
 href: "Sorgenti/NWS/B£_NWS001772.md"
 },{
-id: 4904,
+id: 3499,
 title: "G91 - OAV per £UIBK2&#x2f;3&#x2f;4&#x2f;5&#x2f;6",
 cat: "NWS",
 rel: "V3R2",
 num: "001773",
 href: "Sorgenti/NWS/B£_NWS001773.md"
 },{
-id: 4905,
+id: 3500,
 title: "Numeri grandi in £G56",
 cat: "NWS",
 rel: "V3R2",
 num: "001774",
 href: "Sorgenti/NWS/B£_NWS001774.md"
 },{
-id: 4906,
+id: 3501,
 title: "Memorizzazioni su guida £G99",
 cat: "NWS",
 rel: "V3R2",
 num: "001783",
 href: "Sorgenti/NWS/B£_NWS001783.md"
 },{
-id: 4907,
+id: 3502,
 title: "Risorse esterne e SMEEXT",
 cat: "NWS",
 rel: "V3R2",
 num: "001785",
 href: "Sorgenti/NWS/B£_NWS001785.md"
 },{
-id: 4908,
+id: 3503,
 title: "Controllo validità istanti e intervalli",
 cat: "NWS",
 rel: "V3R2",
 num: "001792",
 href: "Sorgenti/NWS/B£_NWS001792.md"
 },{
-id: 4909,
+id: 3504,
 title: "Autorizzazioni su filtri E&#x2f; condivisi",
 cat: "NWS",
 rel: "V3R2",
 num: "001795",
 href: "Sorgenti/NWS/B£_NWS001795.md"
 },{
-id: 4910,
+id: 3505,
 title: "Distribuzione libreria LIBHTTP",
 cat: "NWS",
 rel: "V3R2",
 num: "001796",
 href: "Sorgenti/NWS/B£_NWS001796.md"
 },{
-id: 4911,
+id: 3506,
 title: "Programma di QSTRUP",
 cat: "NWS",
 rel: "V3R2",
 num: "001800",
 href: "Sorgenti/NWS/B£_NWS001800.md"
 },{
-id: 4912,
+id: 3507,
 title: "Programma di installazione di Sme.UP",
 cat: "NWS",
 rel: "V3R2",
 num: "001804",
 href: "Sorgenti/NWS/B£_NWS001804.md"
 },{
-id: 4913,
+id: 3508,
 title: "Novità calendario",
 cat: "NWS",
 rel: "V3R2",
 num: "001811",
 href: "Sorgenti/NWS/B£_NWS001811.md"
 },{
-id: 4914,
+id: 3509,
 title: "Pop.up&#x3a; passaggio documento all&#x27;inserimento di ri",
 cat: "NWS",
 rel: "V3R2",
 num: "001812",
 href: "Sorgenti/NWS/B£_NWS001812.md"
 },{
-id: 4915,
+id: 3510,
 title: "Aggiunta opzione A £G79",
 cat: "NWS",
 rel: "V3R2",
 num: "001815",
 href: "Sorgenti/NWS/B£_NWS001815.md"
 },{
-id: 4916,
+id: 3511,
 title: "Errore funz. SQL LEFT([campo], [nr]",
 cat: "NWS",
 rel: "\*ALL",
 num: "001825",
 href: "Sorgenti/NWS/B£_NWS001825.md"
 },{
-id: 4917,
+id: 3512,
 title: "Modifica campo risultato per OAV generici G&#x2f;13 e",
 cat: "NWS",
 rel: "V3R2",
 num: "001832",
 href: "Sorgenti/NWS/B£_NWS001832.md"
 },{
-id: 4918,
+id: 3513,
 title: "G08 Funzioni Generali Visualizz.&#x2f;Scelta funzioni",
 cat: "NWS",
 rel: "V3R2",
 num: "001836",
 href: "Sorgenti/NWS/B£_NWS001836.md"
 },{
-id: 4919,
+id: 3514,
 title: "Nuovi OAV J",
 cat: "NWS",
 rel: "V3R2",
 num: "001837",
 href: "Sorgenti/NWS/B£_NWS001837.md"
 },{
-id: 4920,
+id: 3515,
 title: "Azioni Oggetti personali",
 cat: "NWS",
 rel: "V3R2",
 num: "001843",
 href: "Sorgenti/NWS/B£_NWS001843.md"
 },{
-id: 4921,
+id: 3516,
 title: "Nuove caches tabelle B£ e BR",
 cat: "NWS",
 rel: "V3R2",
 num: "001850",
 href: "Sorgenti/NWS/B£_NWS001850.md"
 },{
-id: 4922,
+id: 3517,
 title: "£RITES&#x3a; aggiunti campi inserimento&#x2f;aggiornamento",
 cat: "NWS",
 rel: "V3R2",
 num: "001852",
 href: "Sorgenti/NWS/B£_NWS001852.md"
 },{
-id: 4923,
+id: 3518,
 title: "Connessione SQL a database AS400 remoto",
 cat: "NWS",
 rel: "V3R2",
 num: "001853",
 href: "Sorgenti/NWS/B£_NWS001853.md"
 },{
-id: 4924,
+id: 3519,
 title: "Hypermenu&#x3a; nuove interrogazioni grafiche",
 cat: "NWS",
 rel: "V3R2",
 num: "001854",
 href: "Sorgenti/NWS/B£_NWS001854.md"
 },{
-id: 4925,
+id: 3520,
 title: "Eliminazione OMIT su logici",
 cat: "NWS",
 rel: "V3R2",
 num: "001857",
 href: "Sorgenti/NWS/B£_NWS001857.md"
 },{
-id: 4926,
+id: 3521,
 title: "Oggetto delle mail di News",
 cat: "NWS",
 rel: "V3R2",
 num: "001858",
 href: "Sorgenti/NWS/B£_NWS001858.md"
 },{
-id: 4927,
+id: 3522,
 title: "Posizionamento Finestra Messaggi in 5250",
 cat: "NWS",
 rel: "V3R2",
 num: "001865",
 href: "Sorgenti/NWS/B£_NWS001865.md"
 },{
-id: 4928,
+id: 3523,
 title: "G08 con codice a 15",
 cat: "NWS",
 rel: "V3R2",
 num: "001869",
 href: "Sorgenti/NWS/B£_NWS001869.md"
 },{
-id: 4929,
+id: 3524,
 title: "Voce a 15 Caratteri",
 cat: "NWS",
 rel: "V3R2",
 num: "001870",
 href: "Sorgenti/NWS/B£_NWS001870.md"
 },{
-id: 4930,
+id: 3525,
 title: "Funzioni su Campi Liberi",
 cat: "NWS",
 rel: "V3R2",
 num: "001871",
 href: "Sorgenti/NWS/B£_NWS001871.md"
 },{
-id: 4931,
+id: 3526,
 title: "Aggiunto parametro procedura RxLate",
 cat: "NWS",
 rel: "V3R2",
 num: "001875",
 href: "Sorgenti/NWS/B£_NWS001875.md"
 },{
-id: 4932,
+id: 3527,
 title: "Filtri basati su OAV in G60",
 cat: "NWS",
 rel: "V3R2",
 num: "001876",
 href: "Sorgenti/NWS/B£_NWS001876.md"
 },{
-id: 4933,
+id: 3528,
 title: "Tabelle controllo campo libero utente",
 cat: "NWS",
 rel: "V3R2",
 num: "001891",
 href: "Sorgenti/NWS/B£_NWS001891.md"
 },{
-id: 4934,
+id: 3529,
 title: "Gestione log G53",
 cat: "NWS",
 rel: "V3R2",
 num: "001893",
 href: "Sorgenti/NWS/B£_NWS001893.md"
 },{
-id: 4935,
+id: 3530,
 title: "Aggiunto metodo &#x27;PDF&#x27; a funzione PRT della G18",
 cat: "NWS",
 rel: "V3R2",
 num: "001898",
 href: "Sorgenti/NWS/B£_NWS001898.md"
 },{
-id: 4936,
+id: 3531,
 title: "Funzione &#x22;Azioni cieche&#x22; £G75",
 cat: "NWS",
 rel: "V3R2",
 num: "001914",
 href: "Sorgenti/NWS/B£_NWS001914.md"
 },{
-id: 4937,
+id: 3532,
 title: "Modifiche precompilatore CO",
 cat: "NWS",
 rel: "V3R2",
 num: "001916",
 href: "Sorgenti/NWS/B£_NWS001916.md"
 },{
-id: 4938,
+id: 3533,
 title: "Autorizzazione OAV&#x3a; valori numerici",
 cat: "NWS",
 rel: "V3R2",
 num: "001917",
 href: "Sorgenti/NWS/B£_NWS001917.md"
 },{
-id: 4939,
+id: 3534,
 title: "Logici creati solo per performance SQL",
 cat: "NWS",
 rel: "V3R2",
 num: "001928",
 href: "Sorgenti/NWS/B£_NWS001928.md"
 },{
-id: 4940,
+id: 3535,
 title: "Croazia nella CEE dal 1° luglio",
 cat: "NWS",
 rel: "V3R2",
 num: "001932",
 href: "Sorgenti/NWS/B£_NWS001932.md"
 },{
-id: 4941,
+id: 3536,
 title: "Nuove Funzionalità su Ricerche",
 cat: "NWS",
 rel: "V3R2",
 num: "001934",
 href: "Sorgenti/NWS/B£_NWS001934.md"
 },{
-id: 4942,
+id: 3537,
 title: "Modulo Memorizzazioni Video",
 cat: "NWS",
 rel: "V3R2",
 num: "001935",
 href: "Sorgenti/NWS/B£_NWS001935.md"
 },{
-id: 4943,
+id: 3538,
 title: "Exit Condizione Azioni Utente",
 cat: "NWS",
 rel: "V3R2",
 num: "001938",
 href: "Sorgenti/NWS/B£_NWS001938.md"
 },{
-id: 4944,
+id: 3539,
 title: "Rilascio Sme.UP ERP V4R1",
 cat: "NWS",
 rel: "V4R1",
 num: "001946",
 href: "Sorgenti/NWS/B£_NWS001946.md"
 },{
-id: 4945,
+id: 3540,
 title: "Modifica a SBMJOB delle £G53 e £G87",
 cat: "NWS",
 rel: "V4R1",
 num: "001956",
 href: "Sorgenti/NWS/B£_NWS001956.md"
 },{
-id: 4946,
+id: 3541,
 title: "AOP&#x3a; rilascio nuova versione",
 cat: "NWS",
 rel: "V3R2",
 num: "001958",
 href: "Sorgenti/NWS/B£_NWS001958.md"
 },{
-id: 4947,
+id: 3542,
 title: "Lettonia in zona euro",
 cat: "NWS",
 rel: "V4R1",
 num: "001960",
 href: "Sorgenti/NWS/B£_NWS001960.md"
 },{
-id: 4948,
+id: 3543,
 title: "Versione V4R1&#x3a; Nuovo ingresso e Nuove Ricerche",
 cat: "NWS",
 rel: "V4R1",
 num: "001965",
 href: "Sorgenti/NWS/B£_NWS001965.md"
 },{
-id: 4949,
+id: 3544,
 title: "Modifiche a routine calcolo spese",
 cat: "NWS",
 rel: "V4R1",
 num: "001969",
 href: "Sorgenti/NWS/B£_NWS001969.md"
 },{
-id: 4950,
+id: 3545,
 title: "Modifiche a comando B£QQ01 e Creata £Q01",
 cat: "NWS",
 rel: "V4R1",
 num: "001972",
 href: "Sorgenti/NWS/B£_NWS001972.md"
 },{
-id: 4951,
+id: 3546,
 title: "Nuove Impostazioni Schede Oggetti&#x2f;Moduli",
 cat: "NWS",
 rel: "V4R1",
 num: "001973",
 href: "Sorgenti/NWS/B£_NWS001973.md"
 },{
-id: 4952,
+id: 3547,
 title: "Campi &#x22;nome programma&#x22; e &#x22;nome oggetto&#x22; in program",
 cat: "NWS",
 rel: "V4R1",
 num: "001976",
 href: "Sorgenti/NWS/B£_NWS001976.md"
 },{
-id: 4953,
+id: 3548,
 title: "Menu e Autorizzazioni V4R1",
 cat: "NWS",
 rel: "V4R1",
 num: "001980",
 href: "Sorgenti/NWS/B£_NWS001980.md"
 },{
-id: 4954,
+id: 3549,
 title: "Esplorazioni Trade Up",
 cat: "NWS",
 rel: "V4R1",
 num: "001985",
 href: "Sorgenti/NWS/B£_NWS001985.md"
 },{
-id: 4955,
+id: 3550,
 title: "AOP&#x3a; informativa",
 cat: "NWS",
 rel: "V4R1",
 num: "001992",
 href: "Sorgenti/NWS/B£_NWS001992.md"
 },{
-id: 4956,
+id: 3551,
 title: "Pulizia Oggetti Salvati £DEC",
 cat: "NWS",
 rel: "V4R1",
 num: "002003",
 href: "Sorgenti/NWS/B£_NWS002003.md"
 },{
-id: 4957,
+id: 3552,
 title: "Configurazione server IBM i per Sme.UP",
 cat: "NWS",
 rel: "V4R1",
 num: "002005",
 href: "Sorgenti/NWS/B£_NWS002005.md"
 },{
-id: 4958,
+id: 3553,
 title: "Oggettivazione Visualizzatori",
 cat: "NWS",
 rel: "V4R1",
 num: "002006",
 href: "Sorgenti/NWS/B£_NWS002006.md"
 },{
-id: 4959,
+id: 3554,
 title: "Surf Righe documenti per Ente",
 cat: "NWS",
 rel: "V4R1",
 num: "002008",
 href: "Sorgenti/NWS/B£_NWS002008.md"
 },{
-id: 4960,
+id: 3555,
 title: "Estensione a sezione GO in menu moduli",
 cat: "NWS",
 rel: "V4R1",
 num: "002045",
 href: "Sorgenti/NWS/B£_NWS002045.md"
 },{
-id: 4961,
+id: 3556,
 title: "Nuovo indirizzo download aggiornamenti Sme.UP Erp",
 cat: "NWS",
 rel: "\*ALL",
 num: "002064",
 href: "Sorgenti/NWS/B£_NWS002064.md"
 },{
-id: 4962,
+id: 3557,
 title: "Nuovi valori N su G11 e G30",
 cat: "NWS",
 rel: "V4R1",
 num: "002071",
 href: "Sorgenti/NWS/B£_NWS002071.md"
 },{
-id: 4963,
+id: 3558,
 title: "Revisione tracciato FIES",
 cat: "NWS",
 rel: "V4R1",
 num: "002077",
 href: "Sorgenti/NWS/B£_NWS002077.md"
 },{
-id: 4964,
+id: 3559,
 title: "Gestione tabelle tramite Input Panel",
 cat: "NWS",
 rel: "V4R1",
 num: "002078",
 href: "Sorgenti/NWS/B£_NWS002078.md"
 },{
-id: 4965,
+id: 3560,
 title: "Gestione file IFS in UTF-8 con £G80 per supporto m",
 cat: "NWS",
 rel: "V4R1",
 num: "002079",
 href: "Sorgenti/NWS/B£_NWS002079.md"
 },{
-id: 4966,
+id: 3561,
 title: "Novità in strumenti di documentazione",
 cat: "NWS",
 rel: "V4R1",
 num: "002087",
 href: "Sorgenti/NWS/B£_NWS002087.md"
 },{
-id: 4967,
+id: 3562,
 title: "Aggiunta funzione a comando UP",
 cat: "NWS",
 rel: "V4R1",
 num: "002092",
 href: "Sorgenti/NWS/B£_NWS002092.md"
 },{
-id: 4968,
+id: 3563,
 title: "UP GLM - Gestione lista membri selezionati da UP S",
 cat: "NWS",
 rel: "V4R1",
 num: "002096",
 href: "Sorgenti/NWS/B£_NWS002096.md"
 },{
-id: 4969,
+id: 3564,
 title: "Nuovo metodo a gestione orari",
 cat: "NWS",
 rel: "V4R1",
 num: "002098",
 href: "Sorgenti/NWS/B£_NWS002098.md"
 },{
-id: 4970,
+id: 3565,
 title: "Novità in funzioni matematiche",
 cat: "NWS",
 rel: "V4R1",
 num: "002099",
 href: "Sorgenti/NWS/B£_NWS002099.md"
 },{
-id: 4971,
+id: 3566,
 title: "Modifica a &#x2f;Copy £CIRDB",
 cat: "NWS",
 rel: "V4R1",
 num: "002109",
 href: "Sorgenti/NWS/B£_NWS002109.md"
 },{
-id: 4972,
+id: 3567,
 title: "Nuove possibilità risalita configurazione Looc.UP",
 cat: "NWS",
 rel: "V4R1",
 num: "002122",
 href: "Sorgenti/NWS/B£_NWS002122.md"
 },{
-id: 4973,
+id: 3568,
 title: "£H80 Accesso file su percorsi di rete",
 cat: "NWS",
 rel: "V4R1",
 num: "002123",
 href: "Sorgenti/NWS/B£_NWS002123.md"
 },{
-id: 4974,
+id: 3569,
 title: "£DMSG - Tipo RIFP&#x3a; Risposta facoltativa con passag",
 cat: "NWS",
 rel: "V4R1",
 num: "002139",
 href: "Sorgenti/NWS/B£_NWS002139.md"
 },{
-id: 4975,
+id: 3570,
 title: "£H80&#x3a; nuova funzione di copia",
 cat: "NWS",
 rel: "V4R1",
 num: "002142",
 href: "Sorgenti/NWS/B£_NWS002142.md"
 },{
-id: 4976,
+id: 3571,
 title: "Modifiche a Ptffone per controllo file in fase di",
 cat: "NWS",
 rel: "V4R1",
 num: "002149",
 href: "Sorgenti/NWS/B£_NWS002149.md"
 },{
-id: 4977,
+id: 3572,
 title: "K15 - Creazione link per Web.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002170",
 href: "Sorgenti/NWS/B£_NWS002170.md"
 },{
-id: 4978,
+id: 3573,
 title: "Timestamp UTC in G54.",
 cat: "NWS",
 rel: "V5R1",
 num: "002171",
 href: "Sorgenti/NWS/B£_NWS002171.md"
 },{
-id: 4979,
+id: 3574,
 title: "Nuovi OAV su oggetto MB&#x3a; J&#x2f;G02, J&#x2f;G03, J&#x2f;G04 e J&#x2f;G",
 cat: "NWS",
 rel: "V5R1",
 num: "002172",
 href: "Sorgenti/NWS/B£_NWS002172.md"
 },{
-id: 4980,
+id: 3575,
 title: "Nuovi OAV per oggetto OJ &#x2a;USRSPC&#x3a; J&#x2f;G03, J&#x2f;G04 e J",
 cat: "NWS",
 rel: "V5R1",
 num: "002173",
 href: "Sorgenti/NWS/B£_NWS002173.md"
 },{
-id: 4981,
+id: 3576,
 title: "K89 - Azioni su un oggetto",
 cat: "NWS",
 rel: "V5R1",
 num: "002176",
 href: "Sorgenti/NWS/B£_NWS002176.md"
 },{
-id: 4982,
+id: 3577,
 title: "LOA36 - Interfaccia grafica alla gestione di un og",
 cat: "NWS",
 rel: "V5R1",
 num: "002177",
 href: "Sorgenti/NWS/B£_NWS002177.md"
 },{
-id: 4983,
+id: 3578,
 title: "Stampe grafiche AOP&#x3a; creazione documento .docx",
 cat: "NWS",
 rel: "V5R1",
 num: "002181",
 href: "Sorgenti/NWS/B£_NWS002181.md"
 },{
-id: 4984,
+id: 3579,
 title: "Nuova Gestione Filtri Grafica",
 cat: "NWS",
 rel: "V5R1",
 num: "002183",
 href: "Sorgenti/NWS/B£_NWS002183.md"
 },{
-id: 4985,
+id: 3580,
 title: "Implementazioni su £DEC",
 cat: "NWS",
 rel: "V5R1",
 num: "002184",
 href: "Sorgenti/NWS/B£_NWS002184.md"
 },{
-id: 4986,
+id: 3581,
 title: "Implementazioni su &#x2f;COPY £IVD e £G40",
 cat: "NWS",
 rel: "V5R1",
 num: "002185",
 href: "Sorgenti/NWS/B£_NWS002185.md"
 },{
-id: 4987,
+id: 3582,
 title: "Nuova Gestione Fusi Orari&#x2f;Ora Legale in £G54",
 cat: "NWS",
 rel: "V5R1",
 num: "002188",
 href: "Sorgenti/NWS/B£_NWS002188.md"
 },{
-id: 4988,
+id: 3583,
 title: "Nuova funzione CON_E",
 cat: "NWS",
 rel: "V5R1",
 num: "002191",
 href: "Sorgenti/NWS/B£_NWS002191.md"
 },{
-id: 4989,
+id: 3584,
 title: "Nuovo - Gestione di un nuovo oggetto",
 cat: "NWS",
 rel: "V5R1",
 num: "002195",
 href: "Sorgenti/NWS/B£_NWS002195.md"
 },{
-id: 4990,
+id: 3585,
 title: "Routine di &#x27;Abbandono&#x27; in Visualizzatori",
 cat: "NWS",
 rel: "V5R1",
 num: "002196",
 href: "Sorgenti/NWS/B£_NWS002196.md"
 },{
-id: 4991,
+id: 3586,
 title: "Estensione Flag e Codici liberi",
 cat: "NWS",
 rel: "V5R1",
 num: "002197",
 href: "Sorgenti/NWS/B£_NWS002197.md"
 },{
-id: 4992,
+id: 3587,
 title: "Variazione archivi",
 cat: "NWS",
 rel: "V5R1",
 num: "002198",
 href: "Sorgenti/NWS/B£_NWS002198.md"
 },{
-id: 4993,
+id: 3588,
 title: "Gestione azioni oggetto da B£BASE_05.",
 cat: "NWS",
 rel: "V5R1",
 num: "002204",
 href: "Sorgenti/NWS/B£_NWS002204.md"
 },{
-id: 4994,
+id: 3589,
 title: "Ripristinato utilizzo SCP_MNUPER su script Menù",
 cat: "NWS",
 rel: "V5R1",
 num: "002205",
 href: "Sorgenti/NWS/B£_NWS002205.md"
 },{
-id: 4995,
+id: 3590,
 title: "Variabili oggetto e oav in script da G91.",
 cat: "NWS",
 rel: "V5R1",
 num: "002207",
 href: "Sorgenti/NWS/B£_NWS002207.md"
 },{
-id: 4996,
+id: 3591,
 title: "Nuovo log comunicazione",
 cat: "NWS",
 rel: "V5R1",
 num: "002209",
 href: "Sorgenti/NWS/B£_NWS002209.md"
 },{
-id: 4997,
+id: 3592,
 title: "Revisione oggetto fattura interno e riferimenti fa",
 cat: "NWS",
 rel: "V5R1",
 num: "002210",
 href: "Sorgenti/NWS/B£_NWS002210.md"
 },{
-id: 4998,
+id: 3593,
 title: "Rilascio Sme.UP ERP V5R1",
 cat: "NWS",
 rel: "V5R1",
 num: "002216",
 href: "Sorgenti/NWS/B£_NWS002216.md"
 },{
-id: 4999,
+id: 3594,
 title: "Rilascio Sme.UP ERP su base settimanale",
 cat: "NWS",
 rel: "V5R1",
 num: "002217",
 href: "Sorgenti/NWS/B£_NWS002217.md"
 },{
-id: 5000,
+id: 3595,
 title: "Autodiagnosi Sme.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002219",
 href: "Sorgenti/NWS/B£_NWS002219.md"
 },{
-id: 5001,
+id: 3596,
 title: "Gestione variabili nella PTF e nella Documentazion",
 cat: "NWS",
 rel: "V5R1",
 num: "002228",
 href: "Sorgenti/NWS/B£_NWS002228.md"
 },{
-id: 5002,
+id: 3597,
 title: "Notifiche a device mobile",
 cat: "NWS",
 rel: "V5R1",
 num: "002244",
 href: "Sorgenti/NWS/B£_NWS002244.md"
 },{
-id: 5003,
+id: 3598,
 title: "Nuovo oggetto timestamp",
 cat: "NWS",
 rel: "V5R1",
 num: "002245",
 href: "Sorgenti/NWS/B£_NWS002245.md"
 },{
-id: 5004,
+id: 3599,
 title: "Nuove variabili di £G91 relative agli ambienti di",
 cat: "NWS",
 rel: "V5R1",
 num: "002251",
 href: "Sorgenti/NWS/B£_NWS002251.md"
 },{
-id: 5005,
+id: 3600,
 title: "Nuove Istruzioni virtuali per Elenco oggetti, elen",
 cat: "NWS",
 rel: "V5R1",
 num: "002257",
 href: "Sorgenti/NWS/B£_NWS002257.md"
 },{
-id: 5006,
+id: 3601,
 title: "Implementazioni su Utilizzo Configuratori in Web",
 cat: "NWS",
 rel: "V5R1",
 num: "002258",
 href: "Sorgenti/NWS/B£_NWS002258.md"
 },{
-id: 5007,
+id: 3602,
 title: "Gestione comandi spotlight - Novità",
 cat: "NWS",
 rel: "V5R1",
 num: "002261",
 href: "Sorgenti/NWS/B£_NWS002261.md"
 },{
-id: 5008,
+id: 3603,
 title: "Gestione Tabelle di un Modulo da Looc.UP e Web.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002262",
 href: "Sorgenti/NWS/B£_NWS002262.md"
 },{
-id: 5009,
+id: 3604,
 title: "Cancellazione &#x22;sicura&#x22; oggetti &#x2a;PGM",
 cat: "NWS",
 rel: "V5R1",
 num: "002266",
 href: "Sorgenti/NWS/B£_NWS002266.md"
 },{
-id: 5010,
+id: 3605,
 title: "A37 in modalità batch",
 cat: "NWS",
 rel: "V5R1",
 num: "002284",
 href: "Sorgenti/NWS/B£_NWS002284.md"
 },{
-id: 5011,
+id: 3606,
 title: "K15 - Modificato login interno ed inserito",
 cat: "NWS",
 rel: "V5R1",
 num: "002285",
 href: "Sorgenti/NWS/B£_NWS002285.md"
 },{
-id: 5012,
+id: 3607,
 title: "Invio email HTML con AOP",
 cat: "NWS",
 rel: "V5R1",
 num: "002287",
 href: "Sorgenti/NWS/B£_NWS002287.md"
 },{
-id: 5013,
+id: 3608,
 title: "Ritorno descrizione estese in £DEC",
 cat: "NWS",
 rel: "V5R1",
 num: "002293",
 href: "Sorgenti/NWS/B£_NWS002293.md"
 },{
-id: 5014,
+id: 3609,
 title: "Gestione azienda nel numeratore",
 cat: "NWS",
 rel: "V5R1",
 num: "002298",
 href: "Sorgenti/NWS/B£_NWS002298.md"
 },{
-id: 5015,
+id: 3610,
 title: "Modifica a invio mail tramite £G98",
 cat: "NWS",
 rel: "V5R1",
 num: "002309",
 href: "Sorgenti/NWS/B£_NWS002309.md"
 },{
-id: 5016,
+id: 3611,
 title: "Potenziato log di comunicazione",
 cat: "NWS",
 rel: "V5R1",
 num: "002313",
 href: "Sorgenti/NWS/B£_NWS002313.md"
 },{
-id: 5017,
+id: 3612,
 title: "Miglioramenti performance avvio",
 cat: "NWS",
 rel: "V5R1",
 num: "002316",
 href: "Sorgenti/NWS/B£_NWS002316.md"
 },{
-id: 5018,
+id: 3613,
 title: "Nuova gestione grafica oggetti",
 cat: "NWS",
 rel: "V5R1",
 num: "002317",
 href: "Sorgenti/NWS/B£_NWS002317.md"
 },{
-id: 5019,
+id: 3614,
 title: "Stati generici in tabella B£W ££",
 cat: "NWS",
 rel: "V5R1",
 num: "002323",
 href: "Sorgenti/NWS/B£_NWS002323.md"
 },{
-id: 5020,
+id: 3615,
 title: "Controllo errori sugli oggetti",
 cat: "NWS",
 rel: "V5R1",
 num: "002324",
 href: "Sorgenti/NWS/B£_NWS002324.md"
 },{
-id: 5021,
+id: 3616,
 title: "Miglioramenti all&#x27;utility di scansione sorgenti",
 cat: "NWS",
 rel: "V5R1",
 num: "002329",
 href: "Sorgenti/NWS/B£_NWS002329.md"
 },{
-id: 5022,
+id: 3617,
 title: "Funzioni trigonometriche nella H56",
 cat: "NWS",
 rel: "V5R1",
 num: "002345",
 href: "Sorgenti/NWS/B£_NWS002345.md"
 },{
-id: 5023,
+id: 3618,
 title: "Gestione Voci Preferite su Menù",
 cat: "NWS",
 rel: "V5R1",
 num: "002349",
 href: "Sorgenti/NWS/B£_NWS002349.md"
 },{
-id: 5024,
+id: 3619,
 title: "Estensione dei V4&#x3a; possibilità di definire campi",
 cat: "NWS",
 rel: "V5R1",
 num: "002355",
 href: "Sorgenti/NWS/B£_NWS002355.md"
 },{
-id: 5025,
+id: 3620,
 title: "Programmi controllo tabelle C5N e B£4",
 cat: "NWS",
 rel: "V1R5",
 num: "000614",
 href: "Sorgenti/NWS/C5_NWS000614.md"
 },{
-id: 5026,
+id: 3621,
 title: "Eliminata possibilità di creare riferimento",
 cat: "NWS",
 rel: "V1R5",
 num: "000615",
 href: "Sorgenti/NWS/C5_NWS000615.md"
 },{
-id: 5027,
+id: 3622,
 title: "Sviluppi Contabilità 16&#x2f;12&#x2f;2002 - 21&#x2f;03&#x2f;2003",
 cat: "NWS",
 rel: "V1R5",
 num: "000650",
 href: "Sorgenti/NWS/C5_NWS000650.md"
 },{
-id: 5028,
+id: 3623,
 title: "Sviluppi Contabilità 22&#x2f;03&#x2f;03-28&#x2f;03&#x2f;03",
 cat: "NWS",
 rel: "V1R5",
 num: "000653",
 href: "Sorgenti/NWS/C5_NWS000653.md"
 },{
-id: 5029,
+id: 3624,
 title: "Sviluppi Contabilità 29&#x2f;03&#x2f;03-030403",
 cat: "NWS",
 rel: "V1R5",
 num: "000657",
 href: "Sorgenti/NWS/C5_NWS000657.md"
 },{
-id: 5030,
+id: 3625,
 title: "Analisi disponibilità finanziaria",
 cat: "NWS",
 rel: "V1R5",
 num: "000661",
 href: "Sorgenti/NWS/C5_NWS000661.md"
 },{
-id: 5031,
+id: 3626,
 title: "Sviluppi Contabilità 05&#x2f;04&#x2f;03 - 11&#x2f;04&#x2f;03",
 cat: "NWS",
 rel: "V1R5",
 num: "000664",
 href: "Sorgenti/NWS/C5_NWS000664.md"
 },{
-id: 5032,
+id: 3627,
 title: "Sviluppi Contabilità 12&#x2f;04&#x2f;03 - 19&#x2f;04&#x2f;03",
 cat: "NWS",
 rel: "V1R5",
 num: "000669",
 href: "Sorgenti/NWS/C5_NWS000669.md"
 },{
-id: 5033,
+id: 3628,
 title: "Sviluppi Contabilità 22&#x2f;04&#x2f;03 - 23&#x2f;05&#x2f;03",
 cat: "NWS",
 rel: "V1R5",
 num: "000673",
 href: "Sorgenti/NWS/C5_NWS000673.md"
 },{
-id: 5034,
+id: 3629,
 title: "Sviluppi Contabilità 24&#x2f;05&#x2f;03 - 09&#x2f;06&#x2f;03",
 cat: "NWS",
 rel: "V1R5",
 num: "000693",
 href: "Sorgenti/NWS/C5_NWS000693.md"
 },{
-id: 5035,
+id: 3630,
 title: "Sviluppi Contabilità 10&#x2f;06&#x2f;03 - 28&#x2f;06&#x2f;03",
 cat: "NWS",
 rel: "V1R5",
 num: "000698",
 href: "Sorgenti/NWS/C5_NWS000698.md"
 },{
-id: 5036,
+id: 3631,
 title: "Sviluppi Contabilità 29&#x2f;06&#x2f;03 - 18&#x2f;07&#x2f;03",
 cat: "NWS",
 rel: "V1R5",
 num: "000707",
 href: "Sorgenti/NWS/C5_NWS000707.md"
 },{
-id: 5037,
+id: 3632,
 title: "Sviluppi Contabilità dal 19&#x2f;07&#x2f;03 al 04&#x2f;10&#x2f;03",
 cat: "NWS",
 rel: "V2R1",
 num: "000714",
 href: "Sorgenti/NWS/C5_NWS000714.md"
 },{
-id: 5038,
+id: 3633,
 title: "Sviluppi Contabilità dal 05&#x2f;10&#x2f;03 al 12&#x2f;12&#x2f;03",
 cat: "NWS",
 rel: "V2R1",
 num: "000741",
 href: "Sorgenti/NWS/C5_NWS000741.md"
 },{
-id: 5039,
+id: 3634,
 title: "Sviluppi Contabilità dal 13&#x2f;12&#x2f;03 al 16&#x2f;01&#x2f;04",
 cat: "NWS",
 rel: "V2R1",
 num: "000771",
 href: "Sorgenti/NWS/C5_NWS000771.md"
 },{
-id: 5040,
+id: 3635,
 title: "Sviluppi Contabilità dal 17&#x2f;01&#x2f;04 al 16&#x2f;04&#x2f;04 - Pa",
 cat: "NWS",
 rel: "V2R1",
 num: "000772",
 href: "Sorgenti/NWS/C5_NWS000772.md"
 },{
-id: 5041,
+id: 3636,
 title: "Sviluppi Contabilità dal 17&#x2f;01&#x2f;04 al 16&#x2f;04&#x2f;04 - Pa",
 cat: "NWS",
 rel: "V2R1",
 num: "000803",
 href: "Sorgenti/NWS/C5_NWS000803.md"
 },{
-id: 5042,
+id: 3637,
 title: "Modifiche Tabelle standard e gestione Intrastat",
 cat: "NWS",
 rel: "V2R1",
 num: "000829",
 href: "Sorgenti/NWS/C5_NWS000829.md"
 },{
-id: 5043,
+id: 3638,
 title: "Sviluppi contabilità dal 17&#x2f;04&#x2f;04 al 19&#x2f;07&#x2f;04",
 cat: "NWS",
 rel: "V2R1",
 num: "000850",
 href: "Sorgenti/NWS/C5_NWS000850.md"
 },{
-id: 5044,
+id: 3639,
 title: "&#x2f;COPY £C5W - Funzioni su scadenze",
 cat: "NWS",
 rel: "V2R1",
 num: "000866",
 href: "Sorgenti/NWS/C5_NWS000866.md"
 },{
-id: 5045,
+id: 3640,
 title: "Giorni per scaduto specifici per tipo pagamento",
 cat: "NWS",
 rel: "V2R1",
 num: "000875",
 href: "Sorgenti/NWS/C5_NWS000875.md"
 },{
-id: 5046,
+id: 3641,
 title: "Sviluppi contabilità dal 20&#x2f;07&#x2f;04 al 09&#x2f;10&#x2f;04",
 cat: "NWS",
 rel: "V2R1",
 num: "000877",
 href: "Sorgenti/NWS/C5_NWS000877.md"
 },{
-id: 5047,
+id: 3642,
 title: "Collegamento documenti V5 a registrazione contabil",
 cat: "NWS",
 rel: "V2R1",
 num: "000881",
 href: "Sorgenti/NWS/C5_NWS000881.md"
 },{
-id: 5048,
+id: 3643,
 title: "Modifiche Stanziamenti Immediati",
 cat: "NWS",
 rel: "V2R1",
 num: "000961",
 href: "Sorgenti/NWS/C5_NWS000961.md"
 },{
-id: 5049,
+id: 3644,
 title: "Implementazioni Foto del Bilancio Riclassificato",
 cat: "NWS",
 rel: "V2R1",
 num: "000977",
 href: "Sorgenti/NWS/C5_NWS000977.md"
 },{
-id: 5050,
+id: 3645,
 title: "Implementi a Contabilità Analitica",
 cat: "NWS",
 rel: "V2R1",
 num: "000993",
 href: "Sorgenti/NWS/C5_NWS000993.md"
 },{
-id: 5051,
+id: 3646,
 title: "Invio e.mail per notifica insoluto",
 cat: "NWS",
 rel: "V2R1",
 num: "001030",
 href: "Sorgenti/NWS/C5_NWS001030.md"
 },{
-id: 5052,
+id: 3647,
 title: "Trattamento Fiscale dati Intra",
 cat: "NWS",
 rel: "V2R1",
 num: "001033",
 href: "Sorgenti/NWS/C5_NWS001033.md"
 },{
-id: 5053,
+id: 3648,
 title: "Funzione Esterne in Navigazione Contabilità",
 cat: "NWS",
 rel: "V2R1",
 num: "001054",
 href: "Sorgenti/NWS/C5_NWS001054.md"
 },{
-id: 5054,
+id: 3649,
 title: "Funzioni di controllo fatture",
 cat: "NWS",
 rel: "V2R1",
 num: "001062",
 href: "Sorgenti/NWS/C5_NWS001062.md"
 },{
-id: 5055,
+id: 3650,
 title: "Lock di controllo fatture",
 cat: "NWS",
 rel: "V2R2",
 num: "001082",
 href: "Sorgenti/NWS/C5_NWS001082.md"
 },{
-id: 5056,
+id: 3651,
 title: "Gestione Cumulo per Tipo Pagamento",
 cat: "NWS",
 rel: "V2R2",
 num: "001085",
 href: "Sorgenti/NWS/C5_NWS001085.md"
 },{
-id: 5057,
+id: 3652,
 title: "Collegamento Registrazioni Contabili - Movimenti I",
 cat: "NWS",
 rel: "V2R2",
 num: "001123",
 href: "Sorgenti/NWS/C5_NWS001123.md"
 },{
-id: 5058,
+id: 3653,
 title: "Attivato Utilizzo Data Competenza Finale",
 cat: "NWS",
 rel: "V2R2",
 num: "001128",
 href: "Sorgenti/NWS/C5_NWS001128.md"
 },{
-id: 5059,
+id: 3654,
 title: "Gestione Anticipi sull&#x27;import e Finanziamenti a m",
 cat: "NWS",
 rel: "V2R2",
 num: "001129",
 href: "Sorgenti/NWS/C5_NWS001129.md"
 },{
-id: 5060,
+id: 3655,
 title: "Flag Forzatura Rischio",
 cat: "NWS",
 rel: "V2R2",
 num: "001130",
 href: "Sorgenti/NWS/C5_NWS001130.md"
 },{
-id: 5061,
+id: 3656,
 title: "Gestione anticipi da Pratica",
 cat: "NWS",
 rel: "V2R2",
 num: "001132",
 href: "Sorgenti/NWS/C5_NWS001132.md"
 },{
-id: 5062,
+id: 3657,
 title: "Derivazione Automatica Fattura Dogana da Fattura",
 cat: "NWS",
 rel: "V2R2",
 num: "001133",
 href: "Sorgenti/NWS/C5_NWS001133.md"
 },{
-id: 5063,
+id: 3658,
 title: "Ordinamento Fonti Controllo Fatture",
 cat: "NWS",
 rel: "V2R2",
 num: "001135",
 href: "Sorgenti/NWS/C5_NWS001135.md"
 },{
-id: 5064,
+id: 3659,
 title: "Implementazione controllo fatture",
 cat: "NWS",
 rel: "V2R2",
 num: "001139",
 href: "Sorgenti/NWS/C5_NWS001139.md"
 },{
-id: 5065,
+id: 3660,
 title: "Implementazioni su gestione rettifiche gestionali",
 cat: "NWS",
 rel: "V2R2",
 num: "001143",
 href: "Sorgenti/NWS/C5_NWS001143.md"
 },{
-id: 5066,
+id: 3661,
 title: "Exit Intestazioni su Principali Interrogazioni Con",
 cat: "NWS",
 rel: "V2R2",
 num: "001151",
 href: "Sorgenti/NWS/C5_NWS001151.md"
 },{
-id: 5067,
+id: 3662,
 title: "Trasmissione dati IBAN su Bonifici",
 cat: "NWS",
 rel: "V2R2",
 num: "001152",
 href: "Sorgenti/NWS/C5_NWS001152.md"
 },{
-id: 5068,
+id: 3663,
 title: "Associazione Conti a Tipo Registrazione",
 cat: "NWS",
 rel: "V2R2",
 num: "001153",
 href: "Sorgenti/NWS/C5_NWS001153.md"
 },{
-id: 5069,
+id: 3664,
 title: "Conti a partite con partita facoltativa",
 cat: "NWS",
 rel: "V2R2",
 num: "001156",
 href: "Sorgenti/NWS/C5_NWS001156.md"
 },{
-id: 5070,
+id: 3665,
 title: "Quadratura Automatica Riga a 0",
 cat: "NWS",
 rel: "V2R2",
 num: "001172",
 href: "Sorgenti/NWS/C5_NWS001172.md"
 },{
-id: 5071,
+id: 3666,
 title: "Gestione Effetti Anticipati",
 cat: "NWS",
 rel: "V2R2",
 num: "001175",
 href: "Sorgenti/NWS/C5_NWS001175.md"
 },{
-id: 5072,
+id: 3667,
 title: "Gestione Riba&#x2f;Rid in registrazioni saldaconto con",
 cat: "NWS",
 rel: "V2R2",
 num: "001176",
 href: "Sorgenti/NWS/C5_NWS001176.md"
 },{
-id: 5073,
+id: 3668,
 title: "Calcolo Oscillazioni automatiche su finanziamenti",
 cat: "NWS",
 rel: "V2R2",
 num: "001177",
 href: "Sorgenti/NWS/C5_NWS001177.md"
 },{
-id: 5074,
+id: 3669,
 title: "Nuove Funzioni £C52",
 cat: "NWS",
 rel: "V2R2",
 num: "001178",
 href: "Sorgenti/NWS/C5_NWS001178.md"
 },{
-id: 5075,
+id: 3670,
 title: "Gestione Ente Cessione",
 cat: "NWS",
 rel: "V2R2",
 num: "001180",
 href: "Sorgenti/NWS/C5_NWS001180.md"
 },{
-id: 5076,
+id: 3671,
 title: "Gestione IBAN da data entry",
 cat: "NWS",
 rel: "V2R2",
 num: "001181",
 href: "Sorgenti/NWS/C5_NWS001181.md"
 },{
-id: 5077,
+id: 3672,
 title: "Exit Creazione righe contabilità automatiche",
 cat: "NWS",
 rel: "V2R2",
 num: "001197",
 href: "Sorgenti/NWS/C5_NWS001197.md"
 },{
-id: 5078,
+id: 3673,
 title: "Estese Tipologie di Abbuono",
 cat: "NWS",
 rel: "V2R2",
 num: "001201",
 href: "Sorgenti/NWS/C5_NWS001201.md"
 },{
-id: 5079,
+id: 3674,
 title: "Gestione Analitica in Modello di Registrazione",
 cat: "NWS",
 rel: "V2R2",
 num: "001246",
 href: "Sorgenti/NWS/C5_NWS001246.md"
 },{
-id: 5080,
+id: 3675,
 title: "Prospetto Credito IVA compensabile in stampa",
 cat: "NWS",
 rel: "V2R2",
 num: "001251",
 href: "Sorgenti/NWS/C5_NWS001251.md"
 },{
-id: 5081,
+id: 3676,
 title: "Implementazioni su bilancio di verifica",
 cat: "NWS",
 rel: "V2R2",
 num: "001255",
 href: "Sorgenti/NWS/C5_NWS001255.md"
 },{
-id: 5082,
+id: 3677,
 title: "Implementazioni Contabilità Rilascio V2R3",
 cat: "NWS",
 rel: "V2R3",
 num: "001267",
 href: "Sorgenti/NWS/C5_NWS001267.md"
 },{
-id: 5083,
+id: 3678,
 title: "Aggiornamento pgm Elenco Clienti&#x2f;Fornitori",
 cat: "NWS",
 rel: "V2R3",
 num: "001275",
 href: "Sorgenti/NWS/C5_NWS001275.md"
 },{
-id: 5084,
+id: 3679,
 title: "Implementi Contabilità al 4.1.2008",
 cat: "NWS",
 rel: "V2R3",
 num: "001287",
 href: "Sorgenti/NWS/C5_NWS001287.md"
 },{
-id: 5085,
+id: 3680,
 title: "Adeguamento Obbligatorietà IBAN in trasmissione",
 cat: "NWS",
 rel: "V2R3",
 num: "001300",
 href: "Sorgenti/NWS/C5_NWS001300.md"
 },{
-id: 5086,
+id: 3681,
 title: "Stampa Quadratura Elenchi Clienti&#x2f;Fornitori IVA",
 cat: "NWS",
 rel: "V2R3",
 num: "001327",
 href: "Sorgenti/NWS/C5_NWS001327.md"
 },{
-id: 5087,
+id: 3682,
 title: "Trasmissione modello 770&#x2f;2008",
 cat: "NWS",
 rel: "V2R3",
 num: "001330",
 href: "Sorgenti/NWS/C5_NWS001330.md"
 },{
-id: 5088,
+id: 3683,
 title: "03&#x2f;06&#x2f;2008 - Obbligatorietà IBAN su Bonifici",
 cat: "NWS",
 rel: "V2R3",
 num: "001337",
 href: "Sorgenti/NWS/C5_NWS001337.md"
 },{
-id: 5089,
+id: 3684,
 title: "Modifiche su Incasso&#x2f;Pagamento immediato",
 cat: "NWS",
 rel: "V2R3",
 num: "001342",
 href: "Sorgenti/NWS/C5_NWS001342.md"
 },{
-id: 5090,
+id: 3685,
 title: "Sviluppi di Contabilità",
 cat: "NWS",
 rel: "V2R3",
 num: "001346",
 href: "Sorgenti/NWS/C5_NWS001346.md"
 },{
-id: 5091,
+id: 3686,
 title: "Tipo Pratica Bonifico Estero",
 cat: "NWS",
 rel: "V2R3",
 num: "001371",
 href: "Sorgenti/NWS/C5_NWS001371.md"
 },{
-id: 5092,
+id: 3687,
 title: "Modifica reperimento parametri di riclassifica con",
 cat: "NWS",
 rel: "V2R3",
 num: "001434",
 href: "Sorgenti/NWS/C5_NWS001434.md"
 },{
-id: 5093,
+id: 3688,
 title: "Gestione IVA per Cassa",
 cat: "NWS",
 rel: "V2R3",
 num: "001461",
 href: "Sorgenti/NWS/C5_NWS001461.md"
 },{
-id: 5094,
+id: 3689,
 title: "Adeguamento 770 alla versione 2009",
 cat: "NWS",
 rel: "V2R3",
 num: "001471",
 href: "Sorgenti/NWS/C5_NWS001471.md"
 },{
-id: 5095,
+id: 3690,
 title: "Numerazione Progressivo Registrazione per Azienda",
 cat: "NWS",
 rel: "V2R3",
 num: "001488",
 href: "Sorgenti/NWS/C5_NWS001488.md"
 },{
-id: 5096,
+id: 3691,
 title: "Rettifica Utilizzo Credito IVA in liquidazione",
 cat: "NWS",
 rel: "V2R3",
 num: "001522",
 href: "Sorgenti/NWS/C5_NWS001522.md"
 },{
-id: 5097,
+id: 3692,
 title: "Gestione Indici Contabili su Clienti&#x2f;Fornitori",
 cat: "NWS",
 rel: "V2R3",
 num: "001523",
 href: "Sorgenti/NWS/C5_NWS001523.md"
 },{
-id: 5098,
+id: 3693,
 title: "Implementazioni di Contabilità",
 cat: "NWS",
 rel: "V2R3",
 num: "001524",
 href: "Sorgenti/NWS/C5_NWS001524.md"
 },{
-id: 5099,
+id: 3694,
 title: "Calcolo rate - Aumento n° decimali calcolo % di",
 cat: "NWS",
 rel: "V2R3",
 num: "001530",
 href: "Sorgenti/NWS/C5_NWS001530.md"
 },{
-id: 5100,
+id: 3695,
 title: "Prestazioni di Servizi con l&#x27;Estero",
 cat: "NWS",
 rel: "V2R3",
 num: "001538",
 href: "Sorgenti/NWS/C5_NWS001538.md"
 },{
-id: 5101,
+id: 3696,
 title: "Trasmissione Movimenti Intrastat su Servizi - Nuov",
 cat: "NWS",
 rel: "V2R3",
 num: "001539",
 href: "Sorgenti/NWS/C5_NWS001539.md"
 },{
-id: 5102,
+id: 3697,
 title: "Intrastat - Pubblicate Nuove Istruzioni",
 cat: "NWS",
 rel: "V2R3",
 num: "001540",
 href: "Sorgenti/NWS/C5_NWS001540.md"
 },{
-id: 5103,
+id: 3698,
 title: "Nuova release Bonifici PSD",
 cat: "NWS",
 rel: "V2R3",
 num: "001541",
 href: "Sorgenti/NWS/C5_NWS001541.md"
 },{
-id: 5104,
+id: 3699,
 title: "Allineamento Programmi Intrastat",
 cat: "NWS",
 rel: "V2R3",
 num: "001545",
 href: "Sorgenti/NWS/C5_NWS001545.md"
 },{
-id: 5105,
+id: 3700,
 title: "Implementazioni su Oggetto Lista",
 cat: "NWS",
 rel: "V2R3",
 num: "001555",
 href: "Sorgenti/NWS/C5_NWS001555.md"
 },{
-id: 5106,
+id: 3701,
 title: "Trasmissione Dati Intrastat",
 cat: "NWS",
 rel: "V2R3",
 num: "001556",
 href: "Sorgenti/NWS/C5_NWS001556.md"
 },{
-id: 5107,
+id: 3702,
 title: "Adeguamento 770 al 2010",
 cat: "NWS",
 rel: "V2R3",
 num: "001580",
 href: "Sorgenti/NWS/C5_NWS001580.md"
 },{
-id: 5108,
+id: 3703,
 title: "Informativa su Recepimento PSD",
 cat: "NWS",
 rel: "V2R3",
 num: "001588",
 href: "Sorgenti/NWS/C5_NWS001588.md"
 },{
-id: 5109,
+id: 3704,
 title: "INTRA Recepimento Circ.36&#x2f;E",
 cat: "NWS",
 rel: "V2R3",
 num: "001591",
 href: "Sorgenti/NWS/C5_NWS001591.md"
 },{
-id: 5110,
+id: 3705,
 title: "Implementazioni controllo fatture",
 cat: "NWS",
 rel: "V2R3",
 num: "001593",
 href: "Sorgenti/NWS/C5_NWS001593.md"
 },{
-id: 5111,
+id: 3706,
 title: "Adeguamenti normativi e fiscali",
 cat: "NWS",
 rel: "V2R3",
 num: "001594",
 href: "Sorgenti/NWS/C5_NWS001594.md"
 },{
-id: 5112,
+id: 3707,
 title: "Trasmissione Mov. Black List",
 cat: "NWS",
 rel: "V2R3",
 num: "001596",
 href: "Sorgenti/NWS/C5_NWS001596.md"
 },{
-id: 5113,
+id: 3708,
 title: "Aggiornamento trasmissioni Black List",
 cat: "NWS",
 rel: "V2R3",
 num: "001599",
 href: "Sorgenti/NWS/C5_NWS001599.md"
 },{
-id: 5114,
+id: 3709,
 title: "Intra - Note Accredito Servizi e Ritrasmissione",
 cat: "NWS",
 rel: "V2R3",
 num: "001600",
 href: "Sorgenti/NWS/C5_NWS001600.md"
 },{
-id: 5115,
+id: 3710,
 title: "Informativa Black List",
 cat: "NWS",
 rel: "V2R3",
 num: "001601",
 href: "Sorgenti/NWS/C5_NWS001601.md"
 },{
-id: 5116,
+id: 3711,
 title: "Contabilità - Rilascio V3R1",
 cat: "NWS",
 rel: "V3R1",
 num: "001605",
 href: "Sorgenti/NWS/C5_NWS001605.md"
 },{
-id: 5117,
+id: 3712,
 title: "Aggiornamento Programmi Black List",
 cat: "NWS",
 rel: "V2R3",
 num: "001617",
 href: "Sorgenti/NWS/C5_NWS001617.md"
 },{
-id: 5118,
+id: 3713,
 title: "Aggiornamento Black List",
 cat: "NWS",
 rel: "V2R3",
 num: "001622",
 href: "Sorgenti/NWS/C5_NWS001622.md"
 },{
-id: 5119,
+id: 3714,
 title: "Aggiornamento Black List",
 cat: "NWS",
 rel: "V2R3",
 num: "001623",
 href: "Sorgenti/NWS/C5_NWS001623.md"
 },{
-id: 5120,
+id: 3715,
 title: "Fusione Unicredit - Ritiro Riba",
 cat: "NWS",
 rel: "V2R3",
 num: "001624",
 href: "Sorgenti/NWS/C5_NWS001624.md"
 },{
-id: 5121,
+id: 3716,
 title: "Aggiornamenti su Black List",
 cat: "NWS",
 rel: "V2R3",
 num: "001631",
 href: "Sorgenti/NWS/C5_NWS001631.md"
 },{
-id: 5122,
+id: 3717,
 title: "Analisi disponibilità finanziaria&#x3a; data fonte su f",
 cat: "NWS",
 rel: "V3R1",
 num: "001661",
 href: "Sorgenti/NWS/C5_NWS001661.md"
 },{
-id: 5123,
+id: 3718,
 title: "Reverse in liquidazione IVA",
 cat: "NWS",
 rel: "V3R1",
 num: "001673",
 href: "Sorgenti/NWS/C5_NWS001673.md"
 },{
-id: 5124,
+id: 3719,
 title: "Numerazione registrazioni stampa giornale bollato",
 cat: "NWS",
 rel: "V3R1",
 num: "001674",
 href: "Sorgenti/NWS/C5_NWS001674.md"
 },{
-id: 5125,
+id: 3720,
 title: "Storno effetto in portafoglio",
 cat: "NWS",
 rel: "V3R1",
 num: "001682",
 href: "Sorgenti/NWS/C5_NWS001682.md"
 },{
-id: 5126,
+id: 3721,
 title: "Emirati Arabi su Black List",
 cat: "NWS",
 rel: "V3R1",
 num: "001688",
 href: "Sorgenti/NWS/C5_NWS001688.md"
 },{
-id: 5127,
+id: 3722,
 title: "Modalità Maturazione Effetti da Rapporto",
 cat: "NWS",
 rel: "V3R1",
 num: "001690",
 href: "Sorgenti/NWS/C5_NWS001690.md"
 },{
-id: 5128,
+id: 3723,
 title: "Gestione CUP e CIG",
 cat: "NWS",
 rel: "V3R1",
 num: "001699",
 href: "Sorgenti/NWS/C5_NWS001699.md"
 },{
-id: 5129,
+id: 3724,
 title: "Adeguamento 770 al 2011",
 cat: "NWS",
 rel: "V3R1",
 num: "001702",
 href: "Sorgenti/NWS/C5_NWS001702.md"
 },{
-id: 5130,
+id: 3725,
 title: "Gestione Ritenute",
 cat: "NWS",
 rel: "V3R2",
 num: "001714",
 href: "Sorgenti/NWS/C5_NWS001714.md"
 },{
-id: 5131,
+id: 3726,
 title: "Ampliamento disponibilità finanziaria",
 cat: "NWS",
 rel: "V3R2",
 num: "001720",
 href: "Sorgenti/NWS/C5_NWS001720.md"
 },{
-id: 5132,
+id: 3727,
 title: "Rinvio Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001725",
 href: "Sorgenti/NWS/C5_NWS001725.md"
 },{
-id: 5133,
+id: 3728,
 title: "Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001736",
 href: "Sorgenti/NWS/C5_NWS001736.md"
 },{
-id: 5134,
+id: 3729,
 title: "Spesometro V2R2",
 cat: "NWS",
 rel: "V2R2",
 num: "001739",
 href: "Sorgenti/NWS/C5_NWS001739.md"
 },{
-id: 5135,
+id: 3730,
 title: "Spesometro V2R1",
 cat: "NWS",
 rel: "V2R1",
 num: "001740",
 href: "Sorgenti/NWS/C5_NWS001740.md"
 },{
-id: 5136,
+id: 3731,
 title: "Modifiche allo Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001743",
 href: "Sorgenti/NWS/C5_NWS001743.md"
 },{
-id: 5137,
+id: 3732,
 title: "Rinvio Spesometro al 31&#x2f;01&#x2f;2012",
 cat: "NWS",
 rel: "V3R2",
 num: "001744",
 href: "Sorgenti/NWS/C5_NWS001744.md"
 },{
-id: 5138,
+id: 3733,
 title: "Aggiornamento Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001762",
 href: "Sorgenti/NWS/C5_NWS001762.md"
 },{
-id: 5139,
+id: 3734,
 title: "Raggruppamento Soggetto su Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001764",
 href: "Sorgenti/NWS/C5_NWS001764.md"
 },{
-id: 5140,
+id: 3735,
 title: "Blacklist e Servizi Intra",
 cat: "NWS",
 rel: "V3R2",
 num: "001775",
 href: "Sorgenti/NWS/C5_NWS001775.md"
 },{
-id: 5141,
+id: 3736,
 title: "Spesometro Dati 2011",
 cat: "NWS",
 rel: "V3R2",
 num: "001790",
 href: "Sorgenti/NWS/C5_NWS001790.md"
 },{
-id: 5142,
+id: 3737,
 title: "Adeguamento 770 al 2012",
 cat: "NWS",
 rel: "V3R2",
 num: "001807",
 href: "Sorgenti/NWS/C5_NWS001807.md"
 },{
-id: 5143,
+id: 3738,
 title: "Revisione £C6A - Analisi Incassi&#x2f;Pagamenti",
 cat: "NWS",
 rel: "V3R2",
 num: "001813",
 href: "Sorgenti/NWS/C5_NWS001813.md"
 },{
-id: 5144,
+id: 3739,
 title: "Proroga all&#x27;invio telematico modelli 770&#x2f;2012",
 cat: "NWS",
 rel: "V3R2",
 num: "001817",
 href: "Sorgenti/NWS/C5_NWS001817.md"
 },{
-id: 5145,
+id: 3740,
 title: "Ricalcolo Registrazioni Autimatiche",
 cat: "NWS",
 rel: "V3R2",
 num: "001826",
 href: "Sorgenti/NWS/C5_NWS001826.md"
 },{
-id: 5146,
+id: 3741,
 title: "Funzione Controllo Competenza",
 cat: "NWS",
 rel: "V3R2",
 num: "001841",
 href: "Sorgenti/NWS/C5_NWS001841.md"
 },{
-id: 5147,
+id: 3742,
 title: "Adeguamento Nuovo Regolamento Enasarco",
 cat: "NWS",
 rel: "V3R2",
 num: "001874",
 href: "Sorgenti/NWS/C5_NWS001874.md"
 },{
-id: 5148,
+id: 3743,
 title: "Iva per Cassa",
 cat: "NWS",
 rel: "V3R2",
 num: "001883",
 href: "Sorgenti/NWS/C5_NWS001883.md"
 },{
-id: 5149,
+id: 3744,
 title: "Blocco Pagamento da Ente",
 cat: "NWS",
 rel: "V3R2",
 num: "001884",
 href: "Sorgenti/NWS/C5_NWS001884.md"
 },{
-id: 5150,
+id: 3745,
 title: "Data Impegno in Trasmissione Dichiarazioni di Inte",
 cat: "NWS",
 rel: "V3R2",
 num: "001896",
 href: "Sorgenti/NWS/C5_NWS001896.md"
 },{
-id: 5151,
+id: 3746,
 title: "Rinvio Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001907",
 href: "Sorgenti/NWS/C5_NWS001907.md"
 },{
-id: 5152,
+id: 3747,
 title: "Interessi di Mora",
 cat: "NWS",
 rel: "V3R2",
 num: "001909",
 href: "Sorgenti/NWS/C5_NWS001909.md"
 },{
-id: 5153,
+id: 3748,
 title: "Calcolo Scadenze&#x3a; Forzatura Calendario Ente",
 cat: "NWS",
 rel: "V3R2",
 num: "001919",
 href: "Sorgenti/NWS/C5_NWS001919.md"
 },{
-id: 5154,
+id: 3749,
 title: "Adeguamento 770",
 cat: "NWS",
 rel: "V3R2",
 num: "001933",
 href: "Sorgenti/NWS/C5_NWS001933.md"
 },{
-id: 5155,
+id: 3750,
 title: "Riapertura DO per cancellazione C5BATC",
 cat: "NWS",
 rel: "V3R2",
 num: "001939",
 href: "Sorgenti/NWS/C5_NWS001939.md"
 },{
-id: 5156,
+id: 3751,
 title: "Proroga Scadenza 770",
 cat: "NWS",
 rel: "V3R2",
 num: "001940",
 href: "Sorgenti/NWS/C5_NWS001940.md"
 },{
-id: 5157,
+id: 3752,
 title: "Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001944",
 href: "Sorgenti/NWS/C5_NWS001944.md"
 },{
-id: 5158,
+id: 3753,
 title: "Spesometro Release SMEUP V2R2&#x2f;1",
 cat: "NWS",
 rel: "V2R2",
 num: "001945",
 href: "Sorgenti/NWS/C5_NWS001945.md"
 },{
-id: 5159,
+id: 3754,
 title: "Aggiornamento Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001948",
 href: "Sorgenti/NWS/C5_NWS001948.md"
 },{
-id: 5160,
+id: 3755,
 title: "Aggiornamento Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001949",
 href: "Sorgenti/NWS/C5_NWS001949.md"
 },{
-id: 5161,
+id: 3756,
 title: "Aggiornamento Spesometro",
 cat: "NWS",
 rel: "V3R2",
 num: "001957",
 href: "Sorgenti/NWS/C5_NWS001957.md"
 },{
-id: 5162,
+id: 3757,
 title: "Aggiornamento SEPA",
 cat: "NWS",
 rel: "V4R1",
 num: "001959",
 href: "Sorgenti/NWS/C5_NWS001959.md"
 },{
-id: 5163,
+id: 3758,
 title: "Aggiornamento Spesometro",
 cat: "NWS",
 rel: "V4R1",
 num: "001961",
 href: "Sorgenti/NWS/C5_NWS001961.md"
 },{
-id: 5164,
+id: 3759,
 title: "Aggiornamento Sepa",
 cat: "NWS",
 rel: "V4R1",
 num: "001964",
 href: "Sorgenti/NWS/C5_NWS001964.md"
 },{
-id: 5165,
+id: 3760,
 title: "Black List",
 cat: "NWS",
 rel: "V4R1",
 num: "001966",
 href: "Sorgenti/NWS/C5_NWS001966.md"
 },{
-id: 5166,
+id: 3761,
 title: "Acquisti San Marino",
 cat: "NWS",
 rel: "V4R1",
 num: "001967",
 href: "Sorgenti/NWS/C5_NWS001967.md"
 },{
-id: 5167,
+id: 3762,
 title: "Aggiornamento Black List",
 cat: "NWS",
 rel: "V4R1",
 num: "001968",
 href: "Sorgenti/NWS/C5_NWS001968.md"
 },{
-id: 5168,
+id: 3763,
 title: "San Marino fuori dai paesi a fiscalità",
 cat: "NWS",
 rel: "V4R1",
 num: "001970",
 href: "Sorgenti/NWS/C5_NWS001970.md"
 },{
-id: 5169,
+id: 3764,
 title: "Trasmissione XML Bonifici SEPA",
 cat: "NWS",
 rel: "V4R1",
 num: "001971",
 href: "Sorgenti/NWS/C5_NWS001971.md"
 },{
-id: 5170,
+id: 3765,
 title: "Schede Fatturato Contabilità",
 cat: "NWS",
 rel: "V4R1",
 num: "001982",
 href: "Sorgenti/NWS/C5_NWS001982.md"
 },{
-id: 5171,
+id: 3766,
 title: "ADF - Fido per Data",
 cat: "NWS",
 rel: "V4R1",
 num: "001983",
 href: "Sorgenti/NWS/C5_NWS001983.md"
 },{
-id: 5172,
+id: 3767,
 title: "Trasmissione XML SDD e ricezione insoluti",
 cat: "NWS",
 rel: "V4R1",
 num: "001986",
 href: "Sorgenti/NWS/C5_NWS001986.md"
 },{
-id: 5173,
+id: 3768,
 title: "Adeguamento 770",
 cat: "NWS",
 rel: "V4R1",
 num: "001988",
 href: "Sorgenti/NWS/C5_NWS001988.md"
 },{
-id: 5174,
+id: 3769,
 title: "Raggruppamento Soggetti in Scadenzario",
 cat: "NWS",
 rel: "V4R1",
 num: "001999",
 href: "Sorgenti/NWS/C5_NWS001999.md"
 },{
-id: 5175,
+id: 3770,
 title: "Bilanci in Altra Valuta",
 cat: "NWS",
 rel: "V4R2",
 num: "002001",
 href: "Sorgenti/NWS/C5_NWS002001.md"
 },{
-id: 5176,
+id: 3771,
 title: "Analisi Dati Iva Annuale",
 cat: "NWS",
 rel: "V4R1",
 num: "002002",
 href: "Sorgenti/NWS/C5_NWS002002.md"
 },{
-id: 5177,
+id: 3772,
 title: "Calcolo Interessi Mora Solleciti ed Estratto Conto",
 cat: "NWS",
 rel: "V4R1",
 num: "002007",
 href: "Sorgenti/NWS/C5_NWS002007.md"
 },{
-id: 5178,
+id: 3773,
 title: "Implementazioni su Scheda Partitario",
 cat: "NWS",
 rel: "V4R1",
 num: "002015",
 href: "Sorgenti/NWS/C5_NWS002015.md"
 },{
-id: 5179,
+id: 3774,
 title: "Introduzione legame Nota&#x2f;Fattura",
 cat: "NWS",
 rel: "V4R1",
 num: "002017",
 href: "Sorgenti/NWS/C5_NWS002017.md"
 },{
-id: 5180,
+id: 3775,
 title: "Modifiche Intrastat",
 cat: "NWS",
 rel: "V4R1",
 num: "002020",
 href: "Sorgenti/NWS/C5_NWS002020.md"
 },{
-id: 5181,
+id: 3776,
 title: "NOVITA&#x27; RELATIVE ALL&#x27;APPROVAZIONE DEL DECRETO",
 cat: "NWS",
 rel: "V4R1",
 num: "002022",
 href: "Sorgenti/NWS/C5_NWS002022.md"
 },{
-id: 5182,
+id: 3777,
 title: "Raggruppamento per Ente di Gruppo in Scadenzario",
 cat: "NWS",
 rel: "V4R1",
 num: "002023",
 href: "Sorgenti/NWS/C5_NWS002023.md"
 },{
-id: 5183,
+id: 3778,
 title: "Modifiche Stampa Liquidazione Iva",
 cat: "NWS",
 rel: "V4R1",
 num: "002024",
 href: "Sorgenti/NWS/C5_NWS002024.md"
 },{
-id: 5184,
+id: 3779,
 title: "Eccezioni Scadenze per Ente",
 cat: "NWS",
 rel: "V4R1",
 num: "002025",
 href: "Sorgenti/NWS/C5_NWS002025.md"
 },{
-id: 5185,
+id: 3780,
 title: "Invio Dichiarazioni di Intento",
 cat: "NWS",
 rel: "V4R1",
 num: "002028",
 href: "Sorgenti/NWS/C5_NWS002028.md"
 },{
-id: 5186,
+id: 3781,
 title: "Blacklist 2014",
 cat: "NWS",
 rel: "V4R1",
 num: "002029",
 href: "Sorgenti/NWS/C5_NWS002029.md"
 },{
-id: 5187,
+id: 3782,
 title: "Lussemburgo Fuori dalla Black-list",
 cat: "NWS",
 rel: "V4R1",
 num: "002030",
 href: "Sorgenti/NWS/C5_NWS002030.md"
 },{
-id: 5188,
+id: 3783,
 title: "Legge di Stabilità - Impatti sul Gestionale",
 cat: "NWS",
 rel: "V4R1",
 num: "002031",
 href: "Sorgenti/NWS/C5_NWS002031.md"
 },{
-id: 5189,
+id: 3784,
 title: "Trasmissione Dichiarazioni Intento 2015",
 cat: "NWS",
 rel: "V4R1",
 num: "002035",
 href: "Sorgenti/NWS/C5_NWS002035.md"
 },{
-id: 5190,
+id: 3785,
 title: "Certificazione Unica",
 cat: "NWS",
 rel: "V4R1",
 num: "002044",
 href: "Sorgenti/NWS/C5_NWS002044.md"
 },{
-id: 5191,
+id: 3786,
 title: "Certificazioni Unica per V2R2",
 cat: "NWS",
 rel: "V4R1",
 num: "002051",
 href: "Sorgenti/NWS/C5_NWS002051.md"
 },{
-id: 5192,
+id: 3787,
 title: "Spesometro 2015",
 cat: "NWS",
 rel: "V4R1",
 num: "002057",
 href: "Sorgenti/NWS/C5_NWS002057.md"
 },{
-id: 5193,
+id: 3788,
 title: "Modello 770&#x2f;2015 Semplificato",
 cat: "NWS",
 rel: "V4R1",
 num: "002082",
 href: "Sorgenti/NWS/C5_NWS002082.md"
 },{
-id: 5194,
+id: 3789,
 title: "Nuova gestione di un programma di exit nelle regis",
 cat: "NWS",
 rel: "V4R1",
 num: "002085",
 href: "Sorgenti/NWS/C5_NWS002085.md"
 },{
-id: 5195,
+id: 3790,
 title: "Giornale contabile in formato .csv",
 cat: "NWS",
 rel: "V4R1",
 num: "002086",
 href: "Sorgenti/NWS/C5_NWS002086.md"
 },{
-id: 5196,
+id: 3791,
 title: "Nuova gestione solleciti con riapertura automatica",
 cat: "NWS",
 rel: "V4R1",
 num: "002088",
 href: "Sorgenti/NWS/C5_NWS002088.md"
 },{
-id: 5197,
+id: 3792,
 title: "Chiarimenti su Invio 770",
 cat: "NWS",
 rel: "V4R1",
 num: "002093",
 href: "Sorgenti/NWS/C5_NWS002093.md"
 },{
-id: 5198,
+id: 3793,
 title: "Nuovo metodo calcolo oscillazioni infra-esercizio",
 cat: "NWS",
 rel: "V4R1",
 num: "002095",
 href: "Sorgenti/NWS/C5_NWS002095.md"
 },{
-id: 5199,
+id: 3794,
 title: "Implementazioni Applicative sulla Contabilità",
 cat: "NWS",
 rel: "V4R1",
 num: "002116",
 href: "Sorgenti/NWS/C5_NWS002116.md"
 },{
-id: 5200,
+id: 3795,
 title: "Aggiornamento SEPA",
 cat: "NWS",
 rel: "V4R1",
 num: "002117",
 href: "Sorgenti/NWS/C5_NWS002117.md"
 },{
-id: 5201,
+id: 3796,
 title: "Utilità&#x3a; copia riclassifica bilancio",
 cat: "NWS",
 rel: "V4R1",
 num: "002118",
 href: "Sorgenti/NWS/C5_NWS002118.md"
 },{
-id: 5202,
+id: 3797,
 title: "Aggiornamenti per Certificazione Unica 2015",
 cat: "NWS",
 rel: "V4R1",
 num: "002124",
 href: "Sorgenti/NWS/C5_NWS002124.md"
 },{
-id: 5203,
+id: 3798,
 title: "Spesometro 2016",
 cat: "NWS",
 rel: "V4R1",
 num: "002131",
 href: "Sorgenti/NWS/C5_NWS002131.md"
 },{
-id: 5204,
+id: 3799,
 title: "Aggiornamento Spesometro 2016",
 cat: "NWS",
 rel: "V4R1",
 num: "002132",
 href: "Sorgenti/NWS/C5_NWS002132.md"
 },{
-id: 5205,
+id: 3800,
 title: "Implementazioni su gestione sconti",
 cat: "NWS",
 rel: "V4R1",
 num: "002133",
 href: "Sorgenti/NWS/C5_NWS002133.md"
 },{
-id: 5206,
+id: 3801,
 title: "Reinvio blacklist a settembre",
 cat: "NWS",
 rel: "V4R1",
 num: "002134",
 href: "Sorgenti/NWS/C5_NWS002134.md"
 },{
-id: 5207,
+id: 3802,
 title: "Analisi ratei e risconti",
 cat: "NWS",
 rel: "V4R1",
 num: "002135",
 href: "Sorgenti/NWS/C5_NWS002135.md"
 },{
-id: 5208,
+id: 3803,
 title: "Invio Spesometro fino al 20 aprile",
 cat: "NWS",
 rel: "V4R1",
 num: "002136",
 href: "Sorgenti/NWS/C5_NWS002136.md"
 },{
-id: 5209,
+id: 3804,
 title: "Spesometro fino al 20 aprile - Conferma provvedime",
 cat: "NWS",
 rel: "V4R1",
 num: "002137",
 href: "Sorgenti/NWS/C5_NWS002137.md"
 },{
-id: 5210,
+id: 3805,
 title: "Implementazioni su liquidazione IVA",
 cat: "NWS",
 rel: "V4R1",
 num: "002138",
 href: "Sorgenti/NWS/C5_NWS002138.md"
 },{
-id: 5211,
+id: 3806,
 title: "Implementazioni su ageing",
 cat: "NWS",
 rel: "V4R1",
 num: "002141",
 href: "Sorgenti/NWS/C5_NWS002141.md"
 },{
-id: 5212,
+id: 3807,
 title: "Utility per scrittura IVA su contropartita",
 cat: "NWS",
 rel: "V4R1",
 num: "002143",
 href: "Sorgenti/NWS/C5_NWS002143.md"
 },{
-id: 5213,
+id: 3808,
 title: "Controllo affidamenti",
 cat: "NWS",
 rel: "V4R1",
 num: "002145",
 href: "Sorgenti/NWS/C5_NWS002145.md"
 },{
-id: 5214,
+id: 3809,
 title: "Scheda anagrafica rapporti bancari",
 cat: "NWS",
 rel: "V4R1",
 num: "002147",
 href: "Sorgenti/NWS/C5_NWS002147.md"
 },{
-id: 5215,
+id: 3810,
 title: "Scheda aggiornamento tassi interbancari",
 cat: "NWS",
 rel: "V4R1",
 num: "002148",
 href: "Sorgenti/NWS/C5_NWS002148.md"
 },{
-id: 5216,
+id: 3811,
 title: "Scadenzari Multiazienda per Nominativo",
 cat: "NWS",
 rel: "V4R1",
 num: "002150",
 href: "Sorgenti/NWS/C5_NWS002150.md"
 },{
-id: 5217,
+id: 3812,
 title: "Scheda conto gestito a partite",
 cat: "NWS",
 rel: "V4R1",
 num: "002152",
 href: "Sorgenti/NWS/C5_NWS002152.md"
 },{
-id: 5218,
+id: 3813,
 title: "Controllo scadenze negative",
 cat: "NWS",
 rel: "V4R1",
 num: "002153",
 href: "Sorgenti/NWS/C5_NWS002153.md"
 },{
-id: 5219,
+id: 3814,
 title: "Scheda bilancio per divisione",
 cat: "NWS",
 rel: "V4R1",
 num: "002155",
 href: "Sorgenti/NWS/C5_NWS002155.md"
 },{
-id: 5220,
+id: 3815,
 title: "Modello 770 2016",
 cat: "NWS",
 rel: "V4R1",
 num: "002161",
 href: "Sorgenti/NWS/C5_NWS002161.md"
 },{
-id: 5221,
+id: 3816,
 title: "Divisione in Analisi Avanzata di Bilancio ed Alleg",
 cat: "NWS",
 rel: "V5R1",
 num: "002165",
 href: "Sorgenti/NWS/C5_NWS002165.md"
 },{
-id: 5222,
+id: 3817,
 title: "Schedulazione Acquisizione Cambi Giornalieri",
 cat: "NWS",
 rel: "V5R1",
 num: "002166",
 href: "Sorgenti/NWS/C5_NWS002166.md"
 },{
-id: 5223,
+id: 3818,
 title: "Analisi Costi&#x2f;Ricavi per Banca",
 cat: "NWS",
 rel: "V5R1",
 num: "002168",
 href: "Sorgenti/NWS/C5_NWS002168.md"
 },{
-id: 5224,
+id: 3819,
 title: "Analisi incassi su anticipi fatture",
 cat: "NWS",
 rel: "V5R1",
 num: "002169",
 href: "Sorgenti/NWS/C5_NWS002169.md"
 },{
-id: 5225,
+id: 3820,
 title: "Gestione fideiussioni",
 cat: "NWS",
 rel: "V5R1",
 num: "002180",
 href: "Sorgenti/NWS/C5_NWS002180.md"
 },{
-id: 5226,
+id: 3821,
 title: "Registrazioni Multidivisione",
 cat: "NWS",
 rel: "V5R1",
 num: "002182",
 href: "Sorgenti/NWS/C5_NWS002182.md"
 },{
-id: 5227,
+id: 3822,
 title: "SDD Variazioni dal 22 Novembre 2016",
 cat: "NWS",
 rel: "V4R1",
 num: "002194",
 href: "Sorgenti/NWS/C5_NWS002194.md"
 },{
-id: 5228,
+id: 3823,
 title: "Adeguamento tracciato XML SDD",
 cat: "NWS",
 rel: "V4R1",
 num: "002201",
 href: "Sorgenti/NWS/C5_NWS002201.md"
 },{
-id: 5229,
+id: 3824,
 title: "Adeguamento programmi Intrastat",
 cat: "NWS",
 rel: "V5R1",
 num: "002222",
 href: "Sorgenti/NWS/C5_NWS002222.md"
 },{
-id: 5230,
+id: 3825,
 title: "News fiscali",
 cat: "NWS",
 rel: "V5R1",
 num: "002223",
 href: "Sorgenti/NWS/C5_NWS002223.md"
 },{
-id: 5231,
+id: 3826,
 title: "Aggiornamento Certificazione Unica 2017",
 cat: "NWS",
 rel: "V5R1",
 num: "002229",
 href: "Sorgenti/NWS/C5_NWS002229.md"
 },{
-id: 5232,
+id: 3827,
 title: "Intrastat Acquisti",
 cat: "NWS",
 rel: "V5R1",
 num: "002231",
 href: "Sorgenti/NWS/C5_NWS002231.md"
 },{
-id: 5233,
+id: 3828,
 title: "Adeguamento CAB Fusione UBI BANCA",
 cat: "NWS",
 rel: "V5R1",
 num: "002233",
 href: "Sorgenti/NWS/C5_NWS002233.md"
 },{
-id: 5234,
+id: 3829,
 title: "Intrastat Acquisti - Probabile reintroduzione con",
 cat: "NWS",
 rel: "V5R1",
 num: "002234",
 href: "Sorgenti/NWS/C5_NWS002234.md"
 },{
-id: 5235,
+id: 3830,
 title: "Intrastat acquisti di gennaio 2017 ripristinato",
 cat: "NWS",
 rel: "V5R1",
 num: "002235",
 href: "Sorgenti/NWS/C5_NWS002235.md"
 },{
-id: 5236,
+id: 3831,
 title: "Aggiornamento Abi fusione UBI",
 cat: "NWS",
 rel: "V5R1",
 num: "002236",
 href: "Sorgenti/NWS/C5_NWS002236.md"
 },{
-id: 5237,
+id: 3832,
 title: "ATTENZIONE&#x3a; Aggiornamento Abi fusione UBI - Contro",
 cat: "NWS",
 rel: "V5R1",
 num: "002237",
 href: "Sorgenti/NWS/C5_NWS002237.md"
 },{
-id: 5238,
+id: 3833,
 title: "Trasmissione Dichiarazioni di Intento 1&#x2f;03&#x2f;2017",
 cat: "NWS",
 rel: "V5R1",
 num: "002242",
 href: "Sorgenti/NWS/C5_NWS002242.md"
 },{
-id: 5239,
+id: 3834,
 title: "Trasmissione Dichiarazioni di Intento 1&#x2f;03&#x2f;2017",
 cat: "NWS",
 rel: "V5R1",
 num: "002243",
 href: "Sorgenti/NWS/C5_NWS002243.md"
 },{
-id: 5240,
+id: 3835,
 title: "Comunicazione blacklist soppressa",
 cat: "NWS",
 rel: "V5R1",
 num: "002246",
 href: "Sorgenti/NWS/C5_NWS002246.md"
 },{
-id: 5241,
+id: 3836,
 title: "Comunicazione blacklist soppressa - Integrazione",
 cat: "NWS",
 rel: "V5R1",
 num: "002247",
 href: "Sorgenti/NWS/C5_NWS002247.md"
 },{
-id: 5242,
+id: 3837,
 title: "Rendiconto Finanziario",
 cat: "NWS",
 rel: "V5R1",
 num: "002248",
 href: "Sorgenti/NWS/C5_NWS002248.md"
 },{
-id: 5243,
+id: 3838,
 title: "Tesoreria&#x3a; scheda spunta manuale",
 cat: "NWS",
 rel: "V5R1",
 num: "002255",
 href: "Sorgenti/NWS/C5_NWS002255.md"
 },{
-id: 5244,
+id: 3839,
 title: "Comunicazione Liquidazioni Periodiche IVA",
 cat: "NWS",
 rel: "V5R1",
 num: "002256",
 href: "Sorgenti/NWS/C5_NWS002256.md"
 },{
-id: 5245,
+id: 3840,
 title: "Liquidazione IVA - Utilizzo righi VP8 e VP9",
 cat: "NWS",
 rel: "V5R1",
 num: "002259",
 href: "Sorgenti/NWS/C5_NWS002259.md"
 },{
-id: 5246,
+id: 3841,
 title: "Liquidazione IVA - Proroga al 12 Giugno",
 cat: "NWS",
 rel: "V5R1",
 num: "002260",
 href: "Sorgenti/NWS/C5_NWS002260.md"
 },{
-id: 5247,
+id: 3842,
 title: "Liquidazione IVA - Utilizzo righi VP8 e VP9 - Inte",
 cat: "NWS",
 rel: "V5R1",
 num: "002265",
 href: "Sorgenti/NWS/C5_NWS002265.md"
 },{
-id: 5248,
+id: 3843,
 title: "Aggiornamento Anagrafiche per Split Payment",
 cat: "NWS",
 rel: "V5R1",
 num: "002274",
 href: "Sorgenti/NWS/C5_NWS002274.md"
 },{
-id: 5249,
+id: 3844,
 title: "Aggiornamento 770 2017 - relativo all&#x27;anno d&#x27;imp",
 cat: "NWS",
 rel: "V5R1",
 num: "002275",
 href: "Sorgenti/NWS/C5_NWS002275.md"
 },{
-id: 5250,
+id: 3845,
 title: "Aggiornamento Anagrafiche per Split Payment - Vers",
 cat: "NWS",
 rel: "V5R1",
 num: "002279",
 href: "Sorgenti/NWS/C5_NWS002279.md"
 },{
-id: 5251,
+id: 3846,
 title: "Aggiornamento Anagrafiche per Split Payment - Vers",
 cat: "NWS",
 rel: "V5R1",
 num: "002281",
 href: "Sorgenti/NWS/C5_NWS002281.md"
 },{
-id: 5252,
+id: 3847,
 title: "Aggiornamento Anagrafiche per Split Payment - Vers",
 cat: "NWS",
 rel: "V5R1",
 num: "002283",
 href: "Sorgenti/NWS/C5_NWS002283.md"
 },{
-id: 5253,
+id: 3848,
 title: "Comunicazione Fatture emesse e ricevute 2017",
 cat: "NWS",
 rel: "V5R1",
 num: "002286",
 href: "Sorgenti/NWS/C5_NWS002286.md"
 },{
-id: 5254,
+id: 3849,
 title: "Aggiornamento Anagrafiche per Split Payment - Vers",
 cat: "NWS",
 rel: "V5R1",
 num: "002288",
 href: "Sorgenti/NWS/C5_NWS002288.md"
 },{
-id: 5255,
+id: 3850,
 title: "Proroga spesometro al 5 Ottobre",
 cat: "NWS",
 rel: "V5R1",
 num: "002291",
 href: "Sorgenti/NWS/C5_NWS002291.md"
 },{
-id: 5256,
+id: 3851,
 title: "Proroga spesometro al 16 Ottobre",
 cat: "NWS",
 rel: "V5R1",
 num: "002292",
 href: "Sorgenti/NWS/C5_NWS002292.md"
 },{
-id: 5257,
+id: 3852,
 title: "Aggiornamento Anagrafiche per Split Payment - Vers",
 cat: "NWS",
 rel: "V5R1",
 num: "002297",
 href: "Sorgenti/NWS/C5_NWS002297.md"
 },{
-id: 5258,
+id: 3853,
 title: "Variazione detraibilità IVA",
 cat: "NWS",
 rel: "V5R1",
 num: "002304",
 href: "Sorgenti/NWS/C5_NWS002304.md"
 },{
-id: 5259,
+id: 3854,
 title: "Collegamento Bolle Doganali - Fatture Fornitori",
 cat: "NWS",
 rel: "V5R1",
 num: "002310",
 href: "Sorgenti/NWS/C5_NWS002310.md"
 },{
-id: 5260,
+id: 3855,
 title: "Aggiornamento Anagrafiche per Split Payment - Vers",
 cat: "NWS",
 rel: "V5R1",
 num: "002315",
 href: "Sorgenti/NWS/C5_NWS002315.md"
 },{
-id: 5261,
+id: 3856,
 title: "Adeguamento Detrazione IVA",
 cat: "NWS",
 rel: "V5R1",
 num: "002319",
 href: "Sorgenti/NWS/C5_NWS002319.md"
 },{
-id: 5262,
+id: 3857,
 title: "URGENTI aggiornamenti su Detrazione IVA",
 cat: "NWS",
 rel: "V5R1",
 num: "002320",
 href: "Sorgenti/NWS/C5_NWS002320.md"
 },{
-id: 5263,
+id: 3858,
 title: "Nuovi aggiornamenti su Detrazione IVA",
 cat: "NWS",
 rel: "V5R1",
 num: "002321",
 href: "Sorgenti/NWS/C5_NWS002321.md"
 },{
-id: 5264,
+id: 3859,
 title: "Detrazione IVA - Gestione Registrazioni Iva ricevu",
 cat: "NWS",
 rel: "V5R1",
 num: "002322",
 href: "Sorgenti/NWS/C5_NWS002322.md"
 },{
-id: 5265,
+id: 3860,
 title: "Rendicontazione dati nazionali paese per paese",
 cat: "NWS",
 rel: "V5R1",
 num: "002327",
 href: "Sorgenti/NWS/C5_NWS002327.md"
 },{
-id: 5266,
+id: 3861,
 title: "Aggiornamento Certificazione Unica 2018",
 cat: "NWS",
 rel: "V5R1",
 num: "002331",
 href: "Sorgenti/NWS/C5_NWS002331.md"
 },{
-id: 5267,
+id: 3862,
 title: "Aggiornamento Intrastat 2018",
 cat: "NWS",
 rel: "V5R1",
 num: "002333",
 href: "Sorgenti/NWS/C5_NWS002333.md"
 },{
-id: 5268,
+id: 3863,
 title: "Aggiornamento invio fatture emesse e ricevute",
 cat: "NWS",
 rel: "V5R1",
 num: "002336",
 href: "Sorgenti/NWS/C5_NWS002336.md"
 },{
-id: 5269,
+id: 3864,
 title: "Aggiornamento Anagrafiche per Split Payment - Vers",
 cat: "NWS",
 rel: "V5R1",
 num: "002338",
 href: "Sorgenti/NWS/C5_NWS002338.md"
 },{
-id: 5270,
+id: 3865,
 title: "Comunicazione Liquidazioni Periodiche IVA 2018",
 cat: "NWS",
 rel: "V5R1",
 num: "002341",
 href: "Sorgenti/NWS/C5_NWS002341.md"
 },{
-id: 5271,
+id: 3866,
 title: "Aggiornamento 770 2018 - relativo all&#x27;anno d&#x27;imp",
 cat: "NWS",
 rel: "V5R1",
 num: "002358",
 href: "Sorgenti/NWS/C5_NWS002358.md"
 },{
-id: 5272,
+id: 3867,
 title: "Fatturazione Elettronica passiva",
 cat: "NWS",
 rel: "\*ALL",
 num: "002366",
 href: "Sorgenti/NWS/C5_NWS002366.md"
 },{
-id: 5273,
+id: 3868,
 title: "Aggiornamento Certificazione Unica 2019",
 cat: "NWS",
 rel: "V5R1",
 num: "002369",
 href: "Sorgenti/NWS/C5_NWS002369.md"
 },{
-id: 5274,
+id: 3869,
 title: "Esterometro",
 cat: "NWS",
 rel: "V5R1",
 num: "002370",
 href: "Sorgenti/NWS/C5_NWS002370.md"
 },{
-id: 5275,
+id: 3870,
 title: "Cancellazione richieste di intervento",
 cat: "NWS",
 rel: "",
 num: "000060",
 href: "Sorgenti/NWS/CQ_NWS000060.md"
 },{
-id: 5276,
+id: 3871,
 title: "Stato di nascita delle richieste di intervento",
 cat: "NWS",
 rel: "",
 num: "000061",
 href: "Sorgenti/NWS/CQ_NWS000061.md"
 },{
-id: 5277,
+id: 3872,
 title: "Esclusione Creazione Lotto",
 cat: "NWS",
 rel: "",
 num: "000237",
 href: "Sorgenti/NWS/CQ_NWS000237.md"
 },{
-id: 5278,
+id: 3873,
 title: "Risalita Classe di Abilitazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000389",
 href: "Sorgenti/NWS/CQ_NWS000389.md"
 },{
-id: 5279,
+id: 3874,
 title: "Forzatura modalità di campionamento per fornitore&#x2f;",
 cat: "NWS",
 rel: "V1R5",
 num: "000700",
 href: "Sorgenti/NWS/CQ_NWS000700.md"
 },{
-id: 5280,
+id: 3875,
 title: "Data registrazione a magazzino collaudo lotti",
 cat: "NWS",
 rel: "V2R1",
 num: "000908",
 href: "Sorgenti/NWS/CQ_NWS000908.md"
 },{
-id: 5281,
+id: 3876,
 title: "Integrazione Q9000 - causali di magazzino",
 cat: "NWS",
 rel: "V2R1",
 num: "000950",
 href: "Sorgenti/NWS/CQ_NWS000950.md"
 },{
-id: 5282,
+id: 3877,
 title: "Funzioni per Lotto",
 cat: "NWS",
 rel: "V2R2",
 num: "001088",
 href: "Sorgenti/NWS/CQ_NWS001088.md"
 },{
-id: 5283,
+id: 3878,
 title: "Implementato parzializzatore Lotti di Collaudo",
 cat: "NWS",
 rel: "V2R2",
 num: "001094",
 href: "Sorgenti/NWS/CQ_NWS001094.md"
 },{
-id: 5284,
+id: 3879,
 title: "Gestione Cicli Collaudo&#x3a;programma di controllo",
 cat: "NWS",
 rel: "V2R2",
 num: "001110",
 href: "Sorgenti/NWS/CQ_NWS001110.md"
 },{
-id: 5285,
+id: 3880,
 title: "Implementazione verifica rilievi e compatibilità",
 cat: "NWS",
 rel: "V2R2",
 num: "001141",
 href: "Sorgenti/NWS/CQ_NWS001141.md"
 },{
-id: 5286,
+id: 3881,
 title: "Potenziamento gestione documentazione qualità.",
 cat: "NWS",
 rel: "V2R3",
 num: "001265",
 href: "Sorgenti/NWS/CQ_NWS001265.md"
 },{
-id: 5287,
+id: 3882,
 title: "Nuove modalità skip-lot in gestione collaudo",
 cat: "NWS",
 rel: "V2R3",
 num: "001276",
 href: "Sorgenti/NWS/CQ_NWS001276.md"
 },{
-id: 5288,
+id: 3883,
 title: "Scheda Richieste Intervento",
 cat: "NWS",
 rel: "V2R3",
 num: "001281",
 href: "Sorgenti/NWS/CQ_NWS001281.md"
 },{
-id: 5289,
+id: 3884,
 title: "Sostituzione Tabella $V1 con IGV",
 cat: "NWS",
 rel: "V2R3",
 num: "001618",
 href: "Sorgenti/NWS/CQ_NWS001618.md"
 },{
-id: 5290,
+id: 3885,
 title: "Q9000 V3R2",
 cat: "NWS",
 rel: "V3R2",
 num: "001728",
 href: "Sorgenti/NWS/CQ_NWS001728.md"
 },{
-id: 5291,
+id: 3886,
 title: "Flusso Collaudo Lotto",
 cat: "NWS",
 rel: "V3R2",
 num: "001830",
 href: "Sorgenti/NWS/CQ_NWS001830.md"
 },{
-id: 5292,
+id: 3887,
 title: "Abilitazione Collegamento Magazzino per Tipo Lotto",
 cat: "NWS",
 rel: "V3R2",
 num: "001842",
 href: "Sorgenti/NWS/CQ_NWS001842.md"
 },{
-id: 5293,
+id: 3888,
 title: "Nuove esplorazioni Q9000",
 cat: "NWS",
 rel: "V4R1",
 num: "001990",
 href: "Sorgenti/NWS/CQ_NWS001990.md"
 },{
-id: 5294,
+id: 3889,
 title: "Schede modulo CQDOCU",
 cat: "NWS",
 rel: "V4R1",
 num: "001996",
 href: "Sorgenti/NWS/CQ_NWS001996.md"
 },{
-id: 5295,
+id: 3890,
 title: "Video dimostrativi dei processi di qualità",
 cat: "NWS",
 rel: "V4R1",
 num: "002034",
 href: "Sorgenti/NWS/CQ_NWS002034.md"
 },{
-id: 5296,
+id: 3891,
 title: "Esponente di modifica in interfaccia lotti",
 cat: "NWS",
 rel: "V4R1",
 num: "002108",
 href: "Sorgenti/NWS/CQ_NWS002108.md"
 },{
-id: 5297,
+id: 3892,
 title: "Nuova Versione Strumenti di Misura",
 cat: "NWS",
 rel: "V5R1",
 num: "002192",
 href: "Sorgenti/NWS/CQ_NWS002192.md"
 },{
-id: 5298,
+id: 3893,
 title: "Nuovo oggetto TODO&#x3a; H3£TDO",
 cat: "NWS",
 rel: "V5R1",
 num: "002325",
 href: "Sorgenti/NWS/CQ_NWS002325.md"
 },{
-id: 5299,
+id: 3894,
 title: "Introduzione exit V5BLO in creazione lotti da docu",
 cat: "NWS",
 rel: "V5R1",
 num: "002357",
 href: "Sorgenti/NWS/CQ_NWS002357.md"
 },{
-id: 5300,
+id: 3895,
 title: "D5AP01B&#x3a; Cambio salvataggio parametri",
 cat: "NWS",
 rel: "V1R4",
 num: "000443",
 href: "Sorgenti/NWS/CS_NWS000443.md"
 },{
-id: 5301,
+id: 3896,
 title: "Gestione costi&#x3a; Ricalcolo solo costi mancanti",
 cat: "NWS",
 rel: "V1R4",
 num: "000447",
 href: "Sorgenti/NWS/CS_NWS000447.md"
 },{
-id: 5302,
+id: 3897,
 title: "Lancio del calcolo costi D0 - Schedulazione calcol",
 cat: "NWS",
 rel: "V1R4",
 num: "000544",
 href: "Sorgenti/NWS/CS_NWS000544.md"
 },{
-id: 5303,
+id: 3898,
 title: "Controllo somma valori",
 cat: "NWS",
 rel: "V1R4",
 num: "000458",
 href: "Sorgenti/NWS/C£_NWS000458.md"
 },{
-id: 5304,
+id: 3899,
 title: "Parametri guida gestione listini",
 cat: "NWS",
 rel: "V1R4",
 num: "000542",
 href: "Sorgenti/NWS/C£_NWS000542.md"
 },{
-id: 5305,
+id: 3900,
 title: "Interfaccia esponenti di modifica",
 cat: "NWS",
 rel: "V1R5",
 num: "000573",
 href: "Sorgenti/NWS/C£_NWS000573.md"
 },{
-id: 5306,
+id: 3901,
 title: "Implemento a &#x2f;COPY £C£6",
 cat: "NWS",
 rel: "V1R5",
 num: "000634",
 href: "Sorgenti/NWS/C£_NWS000634.md"
 },{
-id: 5307,
+id: 3902,
 title: "Gestione data di validità secondaria e miglioramen",
 cat: "NWS",
 rel: "V2R1",
 num: "000721",
 href: "Sorgenti/NWS/C£_NWS000721.md"
 },{
-id: 5308,
+id: 3903,
 title: "Nuova funzione C£6",
 cat: "NWS",
 rel: "V2R1",
 num: "000725",
 href: "Sorgenti/NWS/C£_NWS000725.md"
 },{
-id: 5309,
+id: 3904,
 title: "Funzioni su listini",
 cat: "NWS",
 rel: "V2R1",
 num: "000759",
 href: "Sorgenti/NWS/C£_NWS000759.md"
 },{
-id: 5310,
+id: 3905,
 title: "Aggiornamenti stampatore listini, correzioni parzi",
 cat: "NWS",
 rel: "V2R1",
 num: "000783",
 href: "Sorgenti/NWS/C£_NWS000783.md"
 },{
-id: 5311,
+id: 3906,
 title: "Parametro variabile in Gestione parametri",
 cat: "NWS",
 rel: "V2R1",
 num: "000790",
 href: "Sorgenti/NWS/C£_NWS000790.md"
 },{
-id: 5312,
+id: 3907,
 title: "Gestione stati listino",
 cat: "NWS",
 rel: "V2R1",
 num: "000807",
 href: "Sorgenti/NWS/C£_NWS000807.md"
 },{
-id: 5313,
+id: 3908,
 title: "Introdotta DS C£ALIA in Routine £C£AL",
 cat: "NWS",
 rel: "V2R1",
 num: "000809",
 href: "Sorgenti/NWS/C£_NWS000809.md"
 },{
-id: 5314,
+id: 3909,
 title: "Ricerca oggetti in parametri&#x3a; selezioni AND&#x2f;OR",
 cat: "NWS",
 rel: "V2R1",
 num: "000873",
 href: "Sorgenti/NWS/C£_NWS000873.md"
 },{
-id: 5315,
+id: 3910,
 title: "Nuovo logico su archivio listini",
 cat: "NWS",
 rel: "V2R1",
 num: "000920",
 href: "Sorgenti/NWS/C£_NWS000920.md"
 },{
-id: 5316,
+id: 3911,
 title: "Nuova versione gestione in lista listini",
 cat: "NWS",
 rel: "V2R1",
 num: "000939",
 href: "Sorgenti/NWS/C£_NWS000939.md"
 },{
-id: 5317,
+id: 3912,
 title: "Gestione parametri per archivio di appartenenza",
 cat: "NWS",
 rel: "V2R1",
 num: "001012",
 href: "Sorgenti/NWS/C£_NWS001012.md"
 },{
-id: 5318,
+id: 3913,
 title: "Novità in Stampa listini e condizioni",
 cat: "NWS",
 rel: "V2R2",
 num: "001076",
 href: "Sorgenti/NWS/C£_NWS001076.md"
 },{
-id: 5319,
+id: 3914,
 title: "Novità in inseriment esponenti di modifica",
 cat: "NWS",
 rel: "V2R2",
 num: "001083",
 href: "Sorgenti/NWS/C£_NWS001083.md"
 },{
-id: 5320,
+id: 3915,
 title: "Nuovo OAV su oggetto listino",
 cat: "NWS",
 rel: "V2R2",
 num: "001226",
 href: "Sorgenti/NWS/C£_NWS001226.md"
 },{
-id: 5321,
+id: 3916,
 title: "Deviatore listini",
 cat: "NWS",
 rel: "V2R3",
 num: "001298",
 href: "Sorgenti/NWS/C£_NWS001298.md"
 },{
-id: 5322,
+id: 3917,
 title: "Deviatore su guida listini",
 cat: "NWS",
 rel: "V2R3",
 num: "001432",
 href: "Sorgenti/NWS/C£_NWS001432.md"
 },{
-id: 5323,
+id: 3918,
 title: "Risalita all&#x27;oggetto generico nell&#x27;alias",
 cat: "NWS",
 rel: "V2R3",
 num: "001433",
 href: "Sorgenti/NWS/C£_NWS001433.md"
 },{
-id: 5324,
+id: 3919,
 title: "Aggiunto Parametro LIS al comando UP",
 cat: "NWS",
 rel: "V2R3",
 num: "001570",
 href: "Sorgenti/NWS/C£_NWS001570.md"
 },{
-id: 5325,
+id: 3920,
 title: "Aggiunta opzione ALI al comando UP",
 cat: "NWS",
 rel: "V3R2",
 num: "001814",
 href: "Sorgenti/NWS/C£_NWS001814.md"
 },{
-id: 5326,
+id: 3921,
 title: "Lista parametri ammessi",
 cat: "NWS",
 rel: "V3R2",
 num: "001816",
 href: "Sorgenti/NWS/C£_NWS001816.md"
 },{
-id: 5327,
+id: 3922,
 title: "Revisione tracciato C£CR360F - Filtro per parametr",
 cat: "NWS",
 rel: "V4R1",
 num: "002084",
 href: "Sorgenti/NWS/C£_NWS002084.md"
 },{
-id: 5328,
+id: 3923,
 title: "Surf sui Listini",
 cat: "NWS",
 rel: "V4R1",
 num: "002121",
 href: "Sorgenti/NWS/C£_NWS002121.md"
 },{
-id: 5329,
+id: 3924,
 title: "Calcolo dinamico dei costi",
 cat: "NWS",
 rel: "V1R5",
 num: "000585",
 href: "Sorgenti/NWS/D0_NWS000585.md"
 },{
-id: 5330,
+id: 3925,
 title: "Modifiche alle modalità di risalita temporale in l",
 cat: "NWS",
 rel: "V2R1",
 num: "000744",
 href: "Sorgenti/NWS/D0_NWS000744.md"
 },{
-id: 5331,
+id: 3926,
 title: "Nuova versione costi avanzati D0",
 cat: "NWS",
 rel: "V2R1",
 num: "000962",
 href: "Sorgenti/NWS/D0_NWS000962.md"
 },{
-id: 5332,
+id: 3927,
 title: "Nuova tabella D0D in calcolo dei costi",
 cat: "NWS",
 rel: "V2R1",
 num: "000981",
 href: "Sorgenti/NWS/D0_NWS000981.md"
 },{
-id: 5333,
+id: 3928,
 title: "Controllo errori in calcolo costi",
 cat: "NWS",
 rel: "V2R1",
 num: "000986",
 href: "Sorgenti/NWS/D0_NWS000986.md"
 },{
-id: 5334,
+id: 3929,
 title: "Memorizzazione delle ultime impostazioni di lancio",
 cat: "NWS",
 rel: "V2R1",
 num: "001034",
 href: "Sorgenti/NWS/D0_NWS001034.md"
 },{
-id: 5335,
+id: 3930,
 title: "Tema nel calcolo costo visualizzato",
 cat: "NWS",
 rel: "V2R1",
 num: "001036",
 href: "Sorgenti/NWS/D0_NWS001036.md"
 },{
-id: 5336,
+id: 3931,
 title: "Nuove Modalità Calcolo Costo Medio",
 cat: "NWS",
 rel: "V2R2",
 num: "001232",
 href: "Sorgenti/NWS/D0_NWS001232.md"
 },{
-id: 5337,
+id: 3932,
 title: "Exit impostazione e aggiustamento schiere calcolo",
 cat: "NWS",
 rel: "V2R3",
 num: "001354",
 href: "Sorgenti/NWS/D0_NWS001354.md"
 },{
-id: 5338,
+id: 3933,
 title: "Costi Multicontesto",
 cat: "NWS",
 rel: "V3R2",
 num: "001719",
 href: "Sorgenti/NWS/D0_NWS001719.md"
 },{
-id: 5339,
+id: 3934,
 title: "Documentazione Costi Dinamici",
 cat: "NWS",
 rel: "V4R1",
 num: "002000",
 href: "Sorgenti/NWS/D0_NWS002000.md"
 },{
-id: 5340,
+id: 3935,
 title: "Costi Dinamici alla fase",
 cat: "NWS",
 rel: "V4R1",
 num: "002018",
 href: "Sorgenti/NWS/D0_NWS002018.md"
 },{
-id: 5341,
+id: 3936,
 title: "Utilizzo Qtà lotto per assunzione costo listino",
 cat: "NWS",
 rel: "V4R1",
 num: "002019",
 href: "Sorgenti/NWS/D0_NWS002019.md"
 },{
-id: 5342,
+id: 3937,
 title: "Calcolo costo EUR1 - Origine Merce",
 cat: "NWS",
 rel: "V4R1",
 num: "002059",
 href: "Sorgenti/NWS/D0_NWS002059.md"
 },{
-id: 5343,
+id: 3938,
 title: "Esclusione Lotti da calcolo costi per verifiche",
 cat: "NWS",
 rel: "V4R1",
 num: "002104",
 href: "Sorgenti/NWS/D0_NWS002104.md"
 },{
-id: 5344,
+id: 3939,
 title: "Rimanenze da Costo WIP",
 cat: "NWS",
 rel: "V4R1",
 num: "002160",
 href: "Sorgenti/NWS/D0_NWS002160.md"
 },{
-id: 5345,
+id: 3940,
 title: "Implementazione Costo Preventivo",
 cat: "NWS",
 rel: "V5R1",
 num: "002167",
 href: "Sorgenti/NWS/D0_NWS002167.md"
 },{
-id: 5346,
+id: 3941,
 title: "Funzioni D5  - Possibilità gestione pgm utente",
 cat: "NWS",
 rel: "V1R4",
 num: "000421",
 href: "Sorgenti/NWS/D5_NWS000421.md"
 },{
-id: 5347,
+id: 3942,
 title: "Inserito nuovo metodo - £D5I",
 cat: "NWS",
 rel: "V1R4",
 num: "000452",
 href: "Sorgenti/NWS/D5_NWS000452.md"
 },{
-id: 5348,
+id: 3943,
 title: "Modifica visualizzatore - Personalizzazione decima",
 cat: "NWS",
 rel: "V1R4",
 num: "000457",
 href: "Sorgenti/NWS/D5_NWS000457.md"
 },{
-id: 5349,
+id: 3944,
 title: "Visualizzazione valore con tutti i decimali in det",
 cat: "NWS",
 rel: "V1R5",
 num: "000561",
 href: "Sorgenti/NWS/D5_NWS000561.md"
 },{
-id: 5350,
+id: 3945,
 title: "Manutenzione archivio D5COSO0F",
 cat: "NWS",
 rel: "V1R5",
 num: "000586",
 href: "Sorgenti/NWS/D5_NWS000586.md"
 },{
-id: 5351,
+id: 3946,
 title: "Inserimento di formule nelle colonne del",
 cat: "NWS",
 rel: "V1R5",
 num: "000622",
 href: "Sorgenti/NWS/D5_NWS000622.md"
 },{
-id: 5352,
+id: 3947,
 title: "Impostazioni nel dettaglio del D5COSO",
 cat: "NWS",
 rel: "V1R5",
 num: "000656",
 href: "Sorgenti/NWS/D5_NWS000656.md"
 },{
-id: 5353,
+id: 3948,
 title: "Programma di controllo elemento di D5COSO",
 cat: "NWS",
 rel: "V2R1",
 num: "000711",
 href: "Sorgenti/NWS/D5_NWS000711.md"
 },{
-id: 5354,
+id: 3949,
 title: "Creazione progressivi in periodi omogenei",
 cat: "NWS",
 rel: "V2R1",
 num: "000745",
 href: "Sorgenti/NWS/D5_NWS000745.md"
 },{
-id: 5355,
+id: 3950,
 title: "Gestione Formule in Ripresa D5COSO.",
 cat: "NWS",
 rel: "V2R1",
 num: "000752",
 href: "Sorgenti/NWS/D5_NWS000752.md"
 },{
-id: 5356,
+id: 3951,
 title: "Risoluzione problematiche di calcolo tramite opera",
 cat: "NWS",
 rel: "V2R1",
 num: "000753",
 href: "Sorgenti/NWS/D5_NWS000753.md"
 },{
-id: 5357,
+id: 3952,
 title: "Pre-cancellazione dati in riprese D5",
 cat: "NWS",
 rel: "V2R1",
 num: "000769",
 href: "Sorgenti/NWS/D5_NWS000769.md"
 },{
-id: 5358,
+id: 3953,
 title: "Aggiunta funzionalità a metodo &#x2a;D5MOVI",
 cat: "NWS",
 rel: "V2R1",
 num: "000784",
 href: "Sorgenti/NWS/D5_NWS000784.md"
 },{
-id: 5359,
+id: 3954,
 title: "Stampa videata nella gestione &#x22;Costi per Oggetti&#x22;",
 cat: "NWS",
 rel: "V2R1",
 num: "000795",
 href: "Sorgenti/NWS/D5_NWS000795.md"
 },{
-id: 5360,
+id: 3955,
 title: "Inserimento £G70 in programmi D5",
 cat: "NWS",
 rel: "V2R1",
 num: "000801",
 href: "Sorgenti/NWS/D5_NWS000801.md"
 },{
-id: 5361,
+id: 3956,
 title: "Riempimento dinamico D5COSO guidato da tabella IGI",
 cat: "NWS",
 rel: "V2R1",
 num: "000897",
 href: "Sorgenti/NWS/D5_NWS000897.md"
 },{
-id: 5362,
+id: 3957,
 title: "Indici Aziendali estrazione in D5COSO0F",
 cat: "NWS",
 rel: "V2R2",
 num: "001095",
 href: "Sorgenti/NWS/D5_NWS001095.md"
 },{
-id: 5363,
+id: 3958,
 title: "Valorizzazione WIP standard",
 cat: "NWS",
 rel: "V2R3",
 num: "001295",
 href: "Sorgenti/NWS/D5_NWS001295.md"
 },{
-id: 5364,
+id: 3959,
 title: "Nuova funzione in dettaglio D5COSO0F",
 cat: "NWS",
 rel: "V2R3",
 num: "001299",
 href: "Sorgenti/NWS/D5_NWS001299.md"
 },{
-id: 5365,
+id: 3960,
 title: "Modifiche a £D5A",
 cat: "NWS",
 rel: "V2R3",
 num: "001304",
 href: "Sorgenti/NWS/D5_NWS001304.md"
 },{
-id: 5366,
+id: 3961,
 title: "Implementazioni su D5",
 cat: "NWS",
 rel: "V2R3",
 num: "001568",
 href: "Sorgenti/NWS/D5_NWS001568.md"
 },{
-id: 5367,
+id: 3962,
 title: "Help di colonna su D5COSO",
 cat: "NWS",
 rel: "V2R3",
 num: "001577",
 href: "Sorgenti/NWS/D5_NWS001577.md"
 },{
-id: 5368,
+id: 3963,
 title: "Storicizzazione numeri oggetto",
 cat: "NWS",
 rel: "V3R1",
 num: "001613",
 href: "Sorgenti/NWS/D5_NWS001613.md"
 },{
-id: 5369,
+id: 3964,
 title: "Novità in gestione costi",
 cat: "NWS",
 rel: "V3R1",
 num: "001619",
 href: "Sorgenti/NWS/D5_NWS001619.md"
 },{
-id: 5370,
+id: 3965,
 title: "Ripresa da D5COSO - Aggiunta schema valori e   par",
 cat: "NWS",
 rel: "V1R4",
 num: "000536",
 href: "Sorgenti/NWS/D9_NWS000536.md"
 },{
-id: 5371,
+id: 3966,
 title: "Formule non solo alla fine",
 cat: "NWS",
 rel: "V1R4",
 num: "000541",
 href: "Sorgenti/NWS/D9_NWS000541.md"
 },{
-id: 5372,
+id: 3967,
 title: "Sviluppo gestione Valori D9D",
 cat: "NWS",
 rel: "V1R4",
 num: "000546",
 href: "Sorgenti/NWS/D9_NWS000546.md"
 },{
-id: 5373,
+id: 3968,
 title: "Nuova ripresa attività lavorative",
 cat: "NWS",
 rel: "V1R5",
 num: "000621",
 href: "Sorgenti/NWS/D9_NWS000621.md"
 },{
-id: 5374,
+id: 3969,
 title: "Miglioramento Estrattore da IGREPT",
 cat: "NWS",
 rel: "V1R5",
 num: "000670",
 href: "Sorgenti/NWS/D9_NWS000670.md"
 },{
-id: 5375,
+id: 3970,
 title: "Gerarchie Estrattori Dati&#x3a; Utilizzo attributi con",
 cat: "NWS",
 rel: "V1R5",
 num: "000696",
 href: "Sorgenti/NWS/D9_NWS000696.md"
 },{
-id: 5376,
+id: 3971,
 title: "Aggiunta funzionalità CSV ad estrattori Cubo",
 cat: "NWS",
 rel: "V2R1",
 num: "000791",
 href: "Sorgenti/NWS/D9_NWS000791.md"
 },{
-id: 5377,
+id: 3972,
 title: "Possibilità di utilizzo OAV generici",
 cat: "NWS",
 rel: "V2R1",
 num: "000928",
 href: "Sorgenti/NWS/D9_NWS000928.md"
 },{
-id: 5378,
+id: 3973,
 title: "Aggiunta Valori numerici per Cubi da tabella D9D c",
 cat: "NWS",
 rel: "V2R1",
 num: "000959",
 href: "Sorgenti/NWS/D9_NWS000959.md"
 },{
-id: 5379,
+id: 3974,
 title: "Programma Ricezione Dati EDI",
 cat: "NWS",
 rel: "V2R2",
 num: "001174",
 href: "Sorgenti/NWS/ED_NWS001174.md"
 },{
-id: 5380,
+id: 3975,
 title: "Revisione tracciati EDSEND0F, EDRECI0F, EDFLAT0F,",
 cat: "NWS",
 rel: "V5R1",
 num: "002190",
 href: "Sorgenti/NWS/ED_NWS002190.md"
 },{
-id: 5381,
+id: 3976,
 title: "Stampa contabilizzazione passiva - NUOVA FUNZIONE",
 cat: "NWS",
 rel: "V1R4",
 num: "000549",
 href: "Sorgenti/NWS/G9_NWS000549.md"
 },{
-id: 5382,
+id: 3977,
 title: "Nuovo logico G9DCON0F",
 cat: "NWS",
 rel: "V1R5",
 num: "000562",
 href: "Sorgenti/NWS/G9_NWS000562.md"
 },{
-id: 5383,
+id: 3978,
 title: "Contabilizzazione Fatture Passive.Gestione cambio",
 cat: "NWS",
 rel: "V1R5",
 num: "000638",
 href: "Sorgenti/NWS/G9_NWS000638.md"
 },{
-id: 5384,
+id: 3979,
 title: "Contabilizzazione Passiva&#x3a; Nuova Gestione Data Sca",
 cat: "NWS",
 rel: "V2R1",
 num: "000746",
 href: "Sorgenti/NWS/G9_NWS000746.md"
 },{
-id: 5385,
+id: 3980,
 title: "Impostazioni Scadenze manuali in controllo fatture",
 cat: "NWS",
 rel: "V2R1",
 num: "000794",
 href: "Sorgenti/NWS/G9_NWS000794.md"
 },{
-id: 5386,
+id: 3981,
 title: "Modifiche e chiarimenti memorizzazione costo medio",
 cat: "NWS",
 rel: "V2R2",
 num: "001163",
 href: "Sorgenti/NWS/G9_NWS001163.md"
 },{
-id: 5387,
+id: 3982,
 title: "Omaggi in analisi entrate e uscite",
 cat: "NWS",
 rel: "V2R3",
 num: "001576",
 href: "Sorgenti/NWS/G9_NWS001576.md"
 },{
-id: 5388,
+id: 3983,
 title: "Fatture verso fornitori",
 cat: "NWS",
 rel: "V3R1",
 num: "001614",
 href: "Sorgenti/NWS/G9_NWS001614.md"
 },{
-id: 5389,
+id: 3984,
 title: "Nuova Routine £GAA",
 cat: "NWS",
 rel: "",
 num: "000163",
 href: "Sorgenti/NWS/GA_NWS000163.md"
 },{
-id: 5390,
+id: 3985,
 title: "Richieste d&#x27;Acquisto",
 cat: "NWS",
 rel: "",
 num: "000164",
 href: "Sorgenti/NWS/GA_NWS000164.md"
 },{
-id: 5391,
+id: 3986,
 title: "Programma aggiustamento in collegamento GA-V5",
 cat: "NWS",
 rel: "",
 num: "000175",
 href: "Sorgenti/NWS/GA_NWS000175.md"
 },{
-id: 5392,
+id: 3987,
 title: "Tabella G91 - Gestione registrazione contabile",
 cat: "NWS",
 rel: "V1R4",
 num: "000392",
 href: "Sorgenti/NWS/GA_NWS000392.md"
 },{
-id: 5393,
+id: 3988,
 title: "Impegni in richieste dacquisto",
 cat: "NWS",
 rel: "V1R4",
 num: "000417",
 href: "Sorgenti/NWS/GA_NWS000417.md"
 },{
-id: 5394,
+id: 3989,
 title: "Autorizzazioni in richieste dacquisto",
 cat: "NWS",
 rel: "V1R4",
 num: "000488",
 href: "Sorgenti/NWS/GA_NWS000488.md"
 },{
-id: 5395,
+id: 3990,
 title: "Immissione richieste acquisto",
 cat: "NWS",
 rel: "V1R5",
 num: "000609",
 href: "Sorgenti/NWS/GA_NWS000609.md"
 },{
-id: 5396,
+id: 3991,
 title: "Minirirevisione richieste d&#x27;acquisto",
 cat: "NWS",
 rel: "V2R1",
 num: "000773",
 href: "Sorgenti/NWS/GA_NWS000773.md"
 },{
-id: 5397,
+id: 3992,
 title: "Gestione dello Stato nelle Richieste d&#x27;Acquisto",
 cat: "NWS",
 rel: "V2R2",
 num: "001109",
 href: "Sorgenti/NWS/GA_NWS001109.md"
 },{
-id: 5398,
+id: 3993,
 title: "Nuovi campi in INT dei movimenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000007",
 href: "Sorgenti/NWS/GM_NWS000007.md"
 },{
-id: 5399,
+id: 3994,
 title: "Valorizzazione fiscale",
 cat: "NWS",
 rel: "V1R4",
 num: "000008",
 href: "Sorgenti/NWS/GM_NWS000008.md"
 },{
-id: 5400,
+id: 3995,
 title: "Eliminazione file GMSTRI",
 cat: "NWS",
 rel: "V1R4",
 num: "000015",
 href: "Sorgenti/NWS/GM_NWS000015.md"
 },{
-id: 5401,
+id: 3996,
 title: "Tabella causali GMC",
 cat: "NWS",
 rel: "V1R4",
 num: "000018",
 href: "Sorgenti/NWS/GM_NWS000018.md"
 },{
-id: 5402,
+id: 3997,
 title: "GMMV50A",
 cat: "NWS",
 rel: "V1R4",
 num: "000021",
 href: "Sorgenti/NWS/GM_NWS000021.md"
 },{
-id: 5403,
+id: 3998,
 title: "Programma di Aggiustamento Movimenti",
 cat: "NWS",
 rel: "",
 num: "000155",
 href: "Sorgenti/NWS/GM_NWS000155.md"
 },{
-id: 5404,
+id: 3999,
 title: "Schede di Magazzino",
 cat: "NWS",
 rel: "",
 num: "000189",
 href: "Sorgenti/NWS/GM_NWS000189.md"
 },{
-id: 5405,
+id: 4000,
 title: "Programmi di Aggiustamento Transazioni",
 cat: "NWS",
 rel: "",
 num: "000199",
 href: "Sorgenti/NWS/GM_NWS000199.md"
 },{
-id: 5406,
+id: 4001,
 title: "Valorizzazione Fiscale per Gruppo",
 cat: "NWS",
 rel: "",
 num: "000205",
 href: "Sorgenti/NWS/GM_NWS000205.md"
 },{
-id: 5407,
+id: 4002,
 title: "Scansione Ubicazioni - Presenyte dal Rilascio3.0",
 cat: "NWS",
 rel: "",
 num: "000206",
 href: "Sorgenti/NWS/GM_NWS000206.md"
 },{
-id: 5408,
+id: 4003,
 title: "Interrogazione Giacenze",
 cat: "NWS",
 rel: "",
 num: "000228",
 href: "Sorgenti/NWS/GM_NWS000228.md"
 },{
-id: 5409,
+id: 4004,
 title: "Movimentazione di Magazzino",
 cat: "NWS",
 rel: "",
 num: "000233",
 href: "Sorgenti/NWS/GM_NWS000233.md"
 },{
-id: 5410,
+id: 4005,
 title: "OAV Intrinseci su Movimenti di Magazzino",
 cat: "NWS",
 rel: "",
 num: "000238",
 href: "Sorgenti/NWS/GM_NWS000238.md"
 },{
-id: 5411,
+id: 4006,
 title: "Movimentazione Materiali",
 cat: "NWS",
 rel: "",
 num: "000260",
 href: "Sorgenti/NWS/GM_NWS000260.md"
 },{
-id: 5412,
+id: 4007,
 title: "Stampa Estesa Schede di Magazzino",
 cat: "NWS",
 rel: "",
 num: "000268",
 href: "Sorgenti/NWS/GM_NWS000268.md"
 },{
-id: 5413,
+id: 4008,
 title: "Liste di Distribuzione del Ciclo Esterno",
 cat: "NWS",
 rel: "",
 num: "000274",
 href: "Sorgenti/NWS/GM_NWS000274.md"
 },{
-id: 5414,
+id: 4009,
 title: "Applicazione Richieste di Movimentazione",
 cat: "NWS",
 rel: "",
 num: "000282",
 href: "Sorgenti/NWS/GM_NWS000282.md"
 },{
-id: 5415,
+id: 4010,
 title: "INVENTARI",
 cat: "NWS",
 rel: "",
 num: "000303",
 href: "Sorgenti/NWS/GM_NWS000303.md"
 },{
-id: 5416,
+id: 4011,
 title: "Schemi Movimenti di Magazino",
 cat: "NWS",
 rel: "",
 num: "000306",
 href: "Sorgenti/NWS/GM_NWS000306.md"
 },{
-id: 5417,
+id: 4012,
 title: "Parzializzatore Righe Documenti",
 cat: "NWS",
 rel: "",
 num: "000316",
 href: "Sorgenti/NWS/GM_NWS000316.md"
 },{
-id: 5418,
+id: 4013,
 title: "Gestione Giacenze",
 cat: "NWS",
 rel: "V1R4",
 num: "000335",
 href: "Sorgenti/NWS/GM_NWS000335.md"
 },{
-id: 5419,
+id: 4014,
 title: "Nuova modalità di revisione movimenti di magazzino",
 cat: "NWS",
 rel: "V1R4",
 num: "000393",
 href: "Sorgenti/NWS/GM_NWS000393.md"
 },{
-id: 5420,
+id: 4015,
 title: "Nuovo metodo a funzione £GMD",
 cat: "NWS",
 rel: "V1R4",
 num: "000401",
 href: "Sorgenti/NWS/GM_NWS000401.md"
 },{
-id: 5421,
+id: 4016,
 title: "Movimenti di magazzino - Tipo movimento a valore",
 cat: "NWS",
 rel: "V1R4",
 num: "000408",
 href: "Sorgenti/NWS/GM_NWS000408.md"
 },{
-id: 5422,
+id: 4017,
 title: "Gestione Risalita",
 cat: "NWS",
 rel: "V1R4",
 num: "000430",
 href: "Sorgenti/NWS/GM_NWS000430.md"
 },{
-id: 5423,
+id: 4018,
 title: "Causale in trasferimenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000441",
 href: "Sorgenti/NWS/GM_NWS000441.md"
 },{
-id: 5424,
+id: 4019,
 title: "Esclusione scostamenti a 0",
 cat: "NWS",
 rel: "V1R4",
 num: "000461",
 href: "Sorgenti/NWS/GM_NWS000461.md"
 },{
-id: 5425,
+id: 4020,
 title: "Interrogazione giacenze",
 cat: "NWS",
 rel: "V1R4",
 num: "000475",
 href: "Sorgenti/NWS/GM_NWS000475.md"
 },{
-id: 5426,
+id: 4021,
 title: "Valorizzazione fiscale per Aree di magazzino",
 cat: "NWS",
 rel: "V1R4",
 num: "000476",
 href: "Sorgenti/NWS/GM_NWS000476.md"
 },{
-id: 5427,
+id: 4022,
 title: "Statistiche di magazzino",
 cat: "NWS",
 rel: "V1R4",
 num: "000483",
 href: "Sorgenti/NWS/GM_NWS000483.md"
 },{
-id: 5428,
+id: 4023,
 title: "Allineamento a destra con riempimento zeri titolo",
 cat: "NWS",
 rel: "V1R4",
 num: "000485",
 href: "Sorgenti/NWS/GM_NWS000485.md"
 },{
-id: 5429,
+id: 4024,
 title: "Testo del titolo",
 cat: "NWS",
 rel: "V1R4",
 num: "000486",
 href: "Sorgenti/NWS/GM_NWS000486.md"
 },{
-id: 5430,
+id: 4025,
 title: "Tipo giacenza per ordine di produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000487",
 href: "Sorgenti/NWS/GM_NWS000487.md"
 },{
-id: 5431,
+id: 4026,
 title: "Testo del titolo",
 cat: "NWS",
 rel: "V1R4",
 num: "000499",
 href: "Sorgenti/NWS/GM_NWS000499.md"
 },{
-id: 5432,
+id: 4027,
 title: "Variazione automatiche date righe",
 cat: "NWS",
 rel: "V1R4",
 num: "000501",
 href: "Sorgenti/NWS/GM_NWS000501.md"
 },{
-id: 5433,
+id: 4028,
 title: "Interrogazione impegni risorse",
 cat: "NWS",
 rel: "V1R4",
 num: "000506",
 href: "Sorgenti/NWS/GM_NWS000506.md"
 },{
-id: 5434,
+id: 4029,
 title: "Visualizzazione contenuto di un collo",
 cat: "NWS",
 rel: "V1R4",
 num: "000509",
 href: "Sorgenti/NWS/GM_NWS000509.md"
 },{
-id: 5435,
+id: 4030,
 title: "Movimenti di magazzino",
 cat: "NWS",
 rel: "V1R4",
 num: "000516",
 href: "Sorgenti/NWS/GM_NWS000516.md"
 },{
-id: 5436,
+id: 4031,
 title: "Inventario",
 cat: "NWS",
 rel: "V1R4",
 num: "000529",
 href: "Sorgenti/NWS/GM_NWS000529.md"
 },{
-id: 5437,
+id: 4032,
 title: "Costruzione chiavi variabili per giacenzemagazzino",
 cat: "NWS",
 rel: "V1R5",
 num: "000565",
 href: "Sorgenti/NWS/GM_NWS000565.md"
 },{
-id: 5438,
+id: 4033,
 title: "Implementazione lista storico movimenti magazzino",
 cat: "NWS",
 rel: "V1R5",
 num: "000572",
 href: "Sorgenti/NWS/GM_NWS000572.md"
 },{
-id: 5439,
+id: 4034,
 title: "Lancio schedulato creazione foto",
 cat: "NWS",
 rel: "V1R5",
 num: "000595",
 href: "Sorgenti/NWS/GM_NWS000595.md"
 },{
-id: 5440,
+id: 4035,
 title: "Variazione archivio ubicazioni",
 cat: "NWS",
 rel: "V1R5",
 num: "000651",
 href: "Sorgenti/NWS/GM_NWS000651.md"
 },{
-id: 5441,
+id: 4036,
 title: "Revisione tracciato dati articolo&#x2f;magazzino",
 cat: "NWS",
 rel: "V2R1",
 num: "000710",
 href: "Sorgenti/NWS/GM_NWS000710.md"
 },{
-id: 5442,
+id: 4037,
 title: "Controllo overflow quantità di GMQUAN e Segnalazio",
 cat: "NWS",
 rel: "V2R1",
 num: "000719",
 href: "Sorgenti/NWS/GM_NWS000719.md"
 },{
-id: 5443,
+id: 4038,
 title: "Schede in unità di misura alternativa",
 cat: "NWS",
 rel: "V2R1",
 num: "000730",
 href: "Sorgenti/NWS/GM_NWS000730.md"
 },{
-id: 5444,
+id: 4039,
 title: "Allocazione&#x2f;attesa da causale",
 cat: "NWS",
 rel: "V2R1",
 num: "000732",
 href: "Sorgenti/NWS/GM_NWS000732.md"
 },{
-id: 5445,
+id: 4040,
 title: "Applicazione Movimenti di Magazzino - £G24",
 cat: "NWS",
 rel: "V2R1",
 num: "000742",
 href: "Sorgenti/NWS/GM_NWS000742.md"
 },{
-id: 5446,
+id: 4041,
 title: "Fasatura allocato&#x2f;atteso da richieste di movimenta",
 cat: "NWS",
 rel: "V2R1",
 num: "000776",
 href: "Sorgenti/NWS/GM_NWS000776.md"
 },{
-id: 5447,
+id: 4042,
 title: "Stampatore file GMARMG0F",
 cat: "NWS",
 rel: "V2R1",
 num: "000782",
 href: "Sorgenti/NWS/GM_NWS000782.md"
 },{
-id: 5448,
+id: 4043,
 title: "Numero registrazione in chiave GMMOAR1L",
 cat: "NWS",
 rel: "V2R1",
 num: "000805",
 href: "Sorgenti/NWS/GM_NWS000805.md"
 },{
-id: 5449,
+id: 4044,
 title: "Nuovi campi in routine £GMR Funzioni su GMRRIM",
 cat: "NWS",
 rel: "V2R1",
 num: "000819",
 href: "Sorgenti/NWS/GM_NWS000819.md"
 },{
-id: 5450,
+id: 4045,
 title: "Nuove funzionalità nelle foto di magazzino",
 cat: "NWS",
 rel: "V2R1",
 num: "000869",
 href: "Sorgenti/NWS/GM_NWS000869.md"
 },{
-id: 5451,
+id: 4046,
 title: "Controllo inserimento elementi in tabella GMC",
 cat: "NWS",
 rel: "V2R1",
 num: "000886",
 href: "Sorgenti/NWS/GM_NWS000886.md"
 },{
-id: 5452,
+id: 4047,
 title: "Metodo di Approssimazione nello scarico visualizza",
 cat: "NWS",
 rel: "V2R1",
 num: "000889",
 href: "Sorgenti/NWS/GM_NWS000889.md"
 },{
-id: 5453,
+id: 4048,
 title: "Gestione doppio ente in Giacenza",
 cat: "NWS",
 rel: "V2R1",
 num: "000896",
 href: "Sorgenti/NWS/GM_NWS000896.md"
 },{
-id: 5454,
+id: 4049,
 title: "Revisione autorizzazioni in gestione giacenze",
 cat: "NWS",
 rel: "V2R1",
 num: "000904",
 href: "Sorgenti/NWS/GM_NWS000904.md"
 },{
-id: 5455,
+id: 4050,
 title: "Aggiunta di campi di parzializzazione nella stampa",
 cat: "NWS",
 rel: "V2R1",
 num: "000932",
 href: "Sorgenti/NWS/GM_NWS000932.md"
 },{
-id: 5456,
+id: 4051,
 title: "Risalita a pettine in £GMA",
 cat: "NWS",
 rel: "V2R1",
 num: "000948",
 href: "Sorgenti/NWS/GM_NWS000948.md"
 },{
-id: 5457,
+id: 4052,
 title: "Nuova &#x2f;COPY £GMN cache tabelle GM",
 cat: "NWS",
 rel: "V2R1",
 num: "000989",
 href: "Sorgenti/NWS/GM_NWS000989.md"
 },{
-id: 5458,
+id: 4053,
 title: "Autorizzazioni nella gestione Foto di Magazzino",
 cat: "NWS",
 rel: "V2R1",
 num: "001017",
 href: "Sorgenti/NWS/GM_NWS001017.md"
 },{
-id: 5459,
+id: 4054,
 title: "Modifica logico GMMOVI3L",
 cat: "NWS",
 rel: "V2R1",
 num: "001065",
 href: "Sorgenti/NWS/GM_NWS001065.md"
 },{
-id: 5460,
+id: 4055,
 title: "Interfaccia righe richiesta movimentazione",
 cat: "NWS",
 rel: "V2R2",
 num: "001072",
 href: "Sorgenti/NWS/GM_NWS001072.md"
 },{
-id: 5461,
+id: 4056,
 title: "Rintraccciabilità lotti estesa",
 cat: "NWS",
 rel: "V2R2",
 num: "001081",
 href: "Sorgenti/NWS/GM_NWS001081.md"
 },{
-id: 5462,
+id: 4057,
 title: "Nuovi OAV su movimenti di magazzino",
 cat: "NWS",
 rel: "V2R2",
 num: "001102",
 href: "Sorgenti/NWS/GM_NWS001102.md"
 },{
-id: 5463,
+id: 4058,
 title: "Exit routine £GMA Interfaccia dati Magazzino&#x2f;Artic",
 cat: "NWS",
 rel: "V2R2",
 num: "001112",
 href: "Sorgenti/NWS/GM_NWS001112.md"
 },{
-id: 5464,
+id: 4059,
 title: "Stampa foto saldi di magazzino",
 cat: "NWS",
 rel: "V2R2",
 num: "001126",
 href: "Sorgenti/NWS/GM_NWS001126.md"
 },{
-id: 5465,
+id: 4060,
 title: "Modifica chiavi logico GMMOVIAL",
 cat: "NWS",
 rel: "V2R2",
 num: "001131",
 href: "Sorgenti/NWS/GM_NWS001131.md"
 },{
-id: 5466,
+id: 4061,
 title: "Flussi in Richieste Movimentazione",
 cat: "NWS",
 rel: "V2R2",
 num: "001229",
 href: "Sorgenti/NWS/GM_NWS001229.md"
 },{
-id: 5467,
+id: 4062,
 title: "Quantità allocata&#x2f;attesa in movimenti magazzino",
 cat: "NWS",
 rel: "V2R2",
 num: "001230",
 href: "Sorgenti/NWS/GM_NWS001230.md"
 },{
-id: 5468,
+id: 4063,
 title: "Aggiornamenti a valorizzazioni fiscali di magazzin",
 cat: "NWS",
 rel: "V2R2",
 num: "001235",
 href: "Sorgenti/NWS/GM_NWS001235.md"
 },{
-id: 5469,
+id: 4064,
 title: "Trasferimento materiale da interrogazione giacenze",
 cat: "NWS",
 rel: "V2R3",
 num: "001258",
 href: "Sorgenti/NWS/GM_NWS001258.md"
 },{
-id: 5470,
+id: 4065,
 title: "Aggiunto il campo natura movimento alla causale",
 cat: "NWS",
 rel: "V2R3",
 num: "001361",
 href: "Sorgenti/NWS/GM_NWS001361.md"
 },{
-id: 5471,
+id: 4066,
 title: "Valorizzato il campo gruppo aree del file GMFOTO0F",
 cat: "NWS",
 rel: "V2R3",
 num: "001362",
 href: "Sorgenti/NWS/GM_NWS001362.md"
 },{
-id: 5472,
+id: 4067,
 title: "Foto&#x3a; flag e area di storno",
 cat: "NWS",
 rel: "V2R3",
 num: "001365",
 href: "Sorgenti/NWS/GM_NWS001365.md"
 },{
-id: 5473,
+id: 4068,
 title: "Forza utente in GMMOVI",
 cat: "NWS",
 rel: "V2R2",
 num: "001398",
 href: "Sorgenti/NWS/GM_NWS001398.md"
 },{
-id: 5474,
+id: 4069,
 title: "Rifasatura allocato e atteso",
 cat: "NWS",
 rel: "V2R3",
 num: "001414",
 href: "Sorgenti/NWS/GM_NWS001414.md"
 },{
-id: 5475,
+id: 4070,
 title: "Flussi di applicazione e disapplicazione della RM",
 cat: "NWS",
 rel: "V2R3",
 num: "001419",
 href: "Sorgenti/NWS/GM_NWS001419.md"
 },{
-id: 5476,
+id: 4071,
 title: "Miglioramenti a gestione inventari",
 cat: "NWS",
 rel: "V2R3",
 num: "001464",
 href: "Sorgenti/NWS/GM_NWS001464.md"
 },{
-id: 5477,
+id: 4072,
 title: "Applicazione riga di movimentazione",
 cat: "NWS",
 rel: "V2R3",
 num: "001483",
 href: "Sorgenti/NWS/GM_NWS001483.md"
 },{
-id: 5478,
+id: 4073,
 title: "Aggiunta metodo a funzione RIE della scansione mov",
 cat: "NWS",
 rel: "V2R3",
 num: "001490",
 href: "Sorgenti/NWS/GM_NWS001490.md"
 },{
-id: 5479,
+id: 4074,
 title: "Funzioni su codice inventario",
 cat: "NWS",
 rel: "V3R1",
 num: "001609",
 href: "Sorgenti/NWS/GM_NWS001609.md"
 },{
-id: 5480,
+id: 4075,
 title: "Collo in chiavi variabili",
 cat: "NWS",
 rel: "V3R1",
 num: "001646",
 href: "Sorgenti/NWS/GM_NWS001646.md"
 },{
-id: 5481,
+id: 4076,
 title: "Miglioramento scheda modulo GMINVE",
 cat: "NWS",
 rel: "V3R1",
 num: "001662",
 href: "Sorgenti/NWS/GM_NWS001662.md"
 },{
-id: 5482,
+id: 4077,
 title: "Nuova funzione RIT&#x2f;FLD in £GMG",
 cat: "NWS",
 rel: "V3R1",
 num: "001665",
 href: "Sorgenti/NWS/GM_NWS001665.md"
 },{
-id: 5483,
+id: 4078,
 title: "Nuove funzioni per movimentazione a colli",
 cat: "NWS",
 rel: "V3R2",
 num: "001692",
 href: "Sorgenti/NWS/GM_NWS001692.md"
 },{
-id: 5484,
+id: 4079,
 title: "Miglioramenti scheda modulo GMGIAC",
 cat: "NWS",
 rel: "V3R2",
 num: "001727",
 href: "Sorgenti/NWS/GM_NWS001727.md"
 },{
-id: 5485,
+id: 4080,
 title: "Nuovi OAV di E1",
 cat: "NWS",
 rel: "V3R2",
 num: "001791",
 href: "Sorgenti/NWS/GM_NWS001791.md"
 },{
-id: 5486,
+id: 4081,
 title: "Liste inventario - solo differenze",
 cat: "NWS",
 rel: "V3R2",
 num: "001872",
 href: "Sorgenti/NWS/GM_NWS001872.md"
 },{
-id: 5487,
+id: 4082,
 title: "Nuove funzioni in gestione foto",
 cat: "NWS",
 rel: "V3R2",
 num: "001879",
 href: "Sorgenti/NWS/GM_NWS001879.md"
 },{
-id: 5488,
+id: 4083,
 title: "Nuovi Surf Applicazione GM",
 cat: "NWS",
 rel: "V4R1",
 num: "001979",
 href: "Sorgenti/NWS/GM_NWS001979.md"
 },{
-id: 5489,
+id: 4084,
 title: "Integrazione Richieste di movimentazioine con Righ",
 cat: "NWS",
 rel: "V4R1",
 num: "001981",
 href: "Sorgenti/NWS/GM_NWS001981.md"
 },{
-id: 5490,
+id: 4085,
 title: "Decodifica testata ordine movimentazione personali",
 cat: "NWS",
 rel: "V4R1",
 num: "002013",
 href: "Sorgenti/NWS/GM_NWS002013.md"
 },{
-id: 5491,
+id: 4086,
 title: "Exit movimenti di magazzino generale",
 cat: "NWS",
 rel: "V4R1",
 num: "002103",
 href: "Sorgenti/NWS/GM_NWS002103.md"
 },{
-id: 5492,
+id: 4087,
 title: "Surf su Foto di magazzino",
 cat: "NWS",
 rel: "V4R1",
 num: "002125",
 href: "Sorgenti/NWS/GM_NWS002125.md"
 },{
-id: 5493,
+id: 4088,
 title: "Surf su Inventario fisico",
 cat: "NWS",
 rel: "V4R1",
 num: "002126",
 href: "Sorgenti/NWS/GM_NWS002126.md"
 },{
-id: 5494,
+id: 4089,
 title: "Nuove navigazioni colli &#x2f; contenitori",
 cat: "NWS",
 rel: "V4R1",
 num: "002140",
 href: "Sorgenti/NWS/GM_NWS002140.md"
 },{
-id: 5495,
+id: 4090,
 title: "Novita&#x27; su richieste d&#x27;acquisto",
 cat: "NWS",
 rel: "",
 num: "000187",
 href: "Sorgenti/NWS/IG_NWS000187.md"
 },{
-id: 5496,
+id: 4091,
 title: "Impegni in Richieste d&#x27;Acquisto",
 cat: "NWS",
 rel: "",
 num: "000192",
 href: "Sorgenti/NWS/IG_NWS000192.md"
 },{
-id: 5497,
+id: 4092,
 title: "Estensione  Aggregazioni",
 cat: "NWS",
 rel: "",
 num: "000290",
 href: "Sorgenti/NWS/IG_NWS000290.md"
 },{
-id: 5498,
+id: 4093,
 title: "Monitor Scrittura Igrept&#x2f;Igstor.",
 cat: "NWS",
 rel: "V3R1",
 num: "001610",
 href: "Sorgenti/NWS/IG_NWS001610.md"
 },{
-id: 5499,
+id: 4094,
 title: "",
 cat: "NWS",
 rel: "",
 num: "",
 href: "Sorgenti/NWS/INDEX.md"
 },{
-id: 5500,
+id: 4095,
 title: "Creazione log webup&#x2f;loocup",
 cat: "NWS",
 rel: "V2R1",
 num: "000949",
 href: "Sorgenti/NWS/JA_NWS000949.md"
 },{
-id: 5501,
+id: 4096,
 title: "Costruzione matrice da schiere £G11",
 cat: "NWS",
 rel: "V2R1",
 num: "001090",
 href: "Sorgenti/NWS/JA_NWS001090.md"
 },{
-id: 5502,
+id: 4097,
 title: "Nuovo campo in tabella UI1",
 cat: "NWS",
 rel: "V2R2",
 num: "001236",
 href: "Sorgenti/NWS/JA_NWS001236.md"
 },{
-id: 5503,
+id: 4098,
 title: "Modalità costruzione matrice",
 cat: "NWS",
 rel: "V2R3",
 num: "001339",
 href: "Sorgenti/NWS/JA_NWS001339.md"
 },{
-id: 5504,
+id: 4099,
 title: "£G93&#x3a; preparazione cella grafica",
 cat: "NWS",
 rel: "V2R3",
 num: "001347",
 href: "Sorgenti/NWS/JA_NWS001347.md"
 },{
-id: 5505,
+id: 4100,
 title: "Aggiornamento scheda di utilità J1PATHDIRX",
 cat: "NWS",
 rel: "V2R3",
 num: "001355",
 href: "Sorgenti/NWS/JA_NWS001355.md"
 },{
-id: 5506,
+id: 4101,
 title: "Sviluppi su Richiesta campi A08",
 cat: "NWS",
 rel: "V3R2",
 num: "001733",
 href: "Sorgenti/NWS/JA_NWS001733.md"
 },{
-id: 5507,
+id: 4102,
 title: "Determinazione script dell&#x27;oggetto",
 cat: "NWS",
 rel: "V3R2",
 num: "001809",
 href: "Sorgenti/NWS/JA_NWS001809.md"
 },{
-id: 5508,
+id: 4103,
 title: "Matrice di aggiornamento",
 cat: "NWS",
 rel: "V3R2",
 num: "001810",
 href: "Sorgenti/NWS/JA_NWS001810.md"
 },{
-id: 5509,
+id: 4104,
 title: "Autorizzazione Pop.UP Oggetto",
 cat: "NWS",
 rel: "V3R2",
 num: "001895",
 href: "Sorgenti/NWS/JA_NWS001895.md"
 },{
-id: 5510,
+id: 4105,
 title: "Livello messaggi in matrici aggiornamento",
 cat: "NWS",
 rel: "V3R2",
 num: "001910",
 href: "Sorgenti/NWS/JA_NWS001910.md"
 },{
-id: 5511,
+id: 4106,
 title: "Tooltip campi input panel",
 cat: "NWS",
 rel: "V3R2",
 num: "001918",
 href: "Sorgenti/NWS/JA_NWS001918.md"
 },{
-id: 5512,
+id: 4107,
 title: "Nuove variabili in Looc.UP",
 cat: "NWS",
 rel: "V4R1",
 num: "002110",
 href: "Sorgenti/NWS/JA_NWS002110.md"
 },{
-id: 5513,
+id: 4108,
 title: "Esternalizzazione procedure £JAX_PC1",
 cat: "NWS",
 rel: "V5R1",
 num: "002189",
 href: "Sorgenti/NWS/JA_NWS002189.md"
 },{
-id: 5514,
+id: 4109,
 title: "Nuove proprietà messaggi Looc.UP e Web.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002362",
 href: "Sorgenti/NWS/JA_NWS002362.md"
 },{
-id: 5515,
+id: 4110,
 title: "JMRP - Nuova funzione d&#x27;interrogazione risultati",
 cat: "NWS",
 rel: "V1R5",
 num: "000581",
 href: "Sorgenti/NWS/JM_NWS000581.md"
 },{
-id: 5516,
+id: 4111,
 title: "Configurazione implicita in creazione fabbisogni d",
 cat: "NWS",
 rel: "V2R1",
 num: "000864",
 href: "Sorgenti/NWS/JM_NWS000864.md"
 },{
-id: 5517,
+id: 4112,
 title: "Scrittura Dettaglio JMRP",
 cat: "NWS",
 rel: "V2R1",
 num: "001067",
 href: "Sorgenti/NWS/JM_NWS001067.md"
 },{
-id: 5518,
+id: 4113,
 title: "Scansione impegni delle Richieste Acquisto",
 cat: "NWS",
 rel: "V2R3",
 num: "001313",
 href: "Sorgenti/NWS/JM_NWS001313.md"
 },{
-id: 5519,
+id: 4114,
 title: "Revisione archivio JMRP",
 cat: "NWS",
 rel: "V4R1",
 num: "002075",
 href: "Sorgenti/NWS/JM_NWS002075.md"
 },{
-id: 5520,
+id: 4115,
 title: "Rilascio Documentazione Applicativa",
 cat: "NWS",
 rel: "V2R1",
 num: "000814",
 href: "Sorgenti/NWS/LO_NWS000814.md"
 },{
-id: 5521,
+id: 4116,
 title: "Rilascio nuova versione 1.13 di Loocup",
 cat: "NWS",
 rel: "V2R1",
 num: "000990",
 href: "Sorgenti/NWS/LO_NWS000990.md"
 },{
-id: 5522,
+id: 4117,
 title: "Nuovo rilascio 1.14 del client grafico Loocup",
 cat: "NWS",
 rel: "V2R1",
 num: "001038",
 href: "Sorgenti/NWS/LO_NWS001038.md"
 },{
-id: 5523,
+id: 4118,
 title: "Cambio modalità di documentazione servizi",
 cat: "NWS",
 rel: "V2R1",
 num: "001046",
 href: "Sorgenti/NWS/LO_NWS001046.md"
 },{
-id: 5524,
+id: 4119,
 title: "Nuovo oggetto J3 - Modello di LOOC.up",
 cat: "NWS",
 rel: "V2R1",
 num: "001047",
 href: "Sorgenti/NWS/LO_NWS001047.md"
 },{
-id: 5525,
+id: 4120,
 title: "Nuovo sito internet per aggiornamenti Loocup",
 cat: "NWS",
 rel: "V2R1",
 num: "001050",
 href: "Sorgenti/NWS/LO_NWS001050.md"
 },{
-id: 5526,
+id: 4121,
 title: "Nuova numerazione rilasci Loocup",
 cat: "NWS",
 rel: "V2R2",
 num: "001075",
 href: "Sorgenti/NWS/LO_NWS001075.md"
 },{
-id: 5527,
+id: 4122,
 title: "Gestione file-system  da Looc.up",
 cat: "NWS",
 rel: "V2R2",
 num: "001093",
 href: "Sorgenti/NWS/LO_NWS001093.md"
 },{
-id: 5528,
+id: 4123,
 title: "Autorizzazioni a livello colonna matrice",
 cat: "NWS",
 rel: "V2R2",
 num: "001105",
 href: "Sorgenti/NWS/LO_NWS001105.md"
 },{
-id: 5529,
+id: 4124,
 title: "Traduzione dei formati video in LOOC.up",
 cat: "NWS",
 rel: "V2R2",
 num: "001117",
 href: "Sorgenti/NWS/LO_NWS001117.md"
 },{
-id: 5530,
+id: 4125,
 title: "Nuovo rilascio V2R2M060410 di Loocup",
 cat: "NWS",
 rel: "V2R2",
 num: "001119",
 href: "Sorgenti/NWS/LO_NWS001119.md"
 },{
-id: 5531,
+id: 4126,
 title: "Gestione include in configuratori",
 cat: "NWS",
 rel: "V2R2",
 num: "001137",
 href: "Sorgenti/NWS/LO_NWS001137.md"
 },{
-id: 5532,
+id: 4127,
 title: "Autorizzazioni sulle schede",
 cat: "NWS",
 rel: "V2R2",
 num: "001164",
 href: "Sorgenti/NWS/LO_NWS001164.md"
 },{
-id: 5533,
+id: 4128,
 title: "Nuovo rilascio V2R2M061003 di Loocup",
 cat: "NWS",
 rel: "V2R2",
 num: "001165",
 href: "Sorgenti/NWS/LO_NWS001165.md"
 },{
-id: 5534,
+id: 4129,
 title: "Gestione PATH delle risorse",
 cat: "NWS",
 rel: "V2R2",
 num: "001191",
 href: "Sorgenti/NWS/LO_NWS001191.md"
 },{
-id: 5535,
+id: 4130,
 title: "Accessibilità News da Loocup",
 cat: "NWS",
 rel: "V2R2",
 num: "001195",
 href: "Sorgenti/NWS/LO_NWS001195.md"
 },{
-id: 5536,
+id: 4131,
 title: "Nuovo rilascio V2R2M070214 di Loocup",
 cat: "NWS",
 rel: "V2R2",
 num: "001211",
 href: "Sorgenti/NWS/LO_NWS001211.md"
 },{
-id: 5537,
+id: 4132,
 title: "Schemi applicativi di LoocUp",
 cat: "NWS",
 rel: "V2R2",
 num: "001223",
 href: "Sorgenti/NWS/LO_NWS001223.md"
 },{
-id: 5538,
+id: 4133,
 title: "Nuovo rilascio V2R2M070622 di Loocup",
 cat: "NWS",
 rel: "V2R2",
 num: "001253",
 href: "Sorgenti/NWS/LO_NWS001253.md"
 },{
-id: 5539,
+id: 4134,
 title: "Accesso per oggetto in Loocup",
 cat: "NWS",
 rel: "V2R2",
 num: "001256",
 href: "Sorgenti/NWS/LO_NWS001256.md"
 },{
-id: 5540,
+id: 4135,
 title: "Variabili LOOC.up nella documentazione",
 cat: "NWS",
 rel: "V2R2",
 num: "001259",
 href: "Sorgenti/NWS/LO_NWS001259.md"
 },{
-id: 5541,
+id: 4136,
 title: "Miglioramenti alla funzione ALIAS",
 cat: "NWS",
 rel: "V2R3",
 num: "001273",
 href: "Sorgenti/NWS/LO_NWS001273.md"
 },{
-id: 5542,
+id: 4137,
 title: "Nuovo rilascio V2R3M071026 di Loocup",
 cat: "NWS",
 rel: "V2R3",
 num: "001284",
 href: "Sorgenti/NWS/LO_NWS001284.md"
 },{
-id: 5543,
+id: 4138,
 title: "Nuovo upgrade Looc.Up V2R3M071026",
 cat: "NWS",
 rel: "V2R3",
 num: "001297",
 href: "Sorgenti/NWS/LO_NWS001297.md"
 },{
-id: 5544,
+id: 4139,
 title: "Nuovo oggetto J5",
 cat: "NWS",
 rel: "V2R3",
 num: "001343",
 href: "Sorgenti/NWS/LO_NWS001343.md"
 },{
-id: 5545,
+id: 4140,
 title: "Nuove possibilità risalita configurazione LOOCup",
 cat: "NWS",
 rel: "V2R3",
 num: "001358",
 href: "Sorgenti/NWS/LO_NWS001358.md"
 },{
-id: 5546,
+id: 4141,
 title: "Risalita dei setup utente di Looc.up",
 cat: "NWS",
 rel: "V2R3",
 num: "001385",
 href: "Sorgenti/NWS/LO_NWS001385.md"
 },{
-id: 5547,
+id: 4142,
 title: "Date e colonne grafiche nel modulo Gantt",
 cat: "NWS",
 rel: "V2R3",
 num: "001391",
 href: "Sorgenti/NWS/LO_NWS001391.md"
 },{
-id: 5548,
+id: 4143,
 title: "Utility per lancio scheda con richiesta parametri.",
 cat: "NWS",
 rel: "V2R3",
 num: "001405",
 href: "Sorgenti/NWS/LO_NWS001405.md"
 },{
-id: 5549,
+id: 4144,
 title: "Nuovo rilascio V2R3M090119 di Loocup",
 cat: "NWS",
 rel: "V2R3",
 num: "001407",
 href: "Sorgenti/NWS/LO_NWS001407.md"
 },{
-id: 5550,
+id: 4145,
 title: "Precisazioni in merito alla nuova versione di looc",
 cat: "NWS",
 rel: "V2R3",
 num: "001408",
 href: "Sorgenti/NWS/LO_NWS001408.md"
 },{
-id: 5551,
+id: 4146,
 title: "Gestione formule come colonna nei servizi",
 cat: "NWS",
 rel: "V2R2",
 num: "001409",
 href: "Sorgenti/NWS/LO_NWS001409.md"
 },{
-id: 5552,
+id: 4147,
 title: "Setup interni al programma",
 cat: "NWS",
 rel: "V2R3",
 num: "001410",
 href: "Sorgenti/NWS/LO_NWS001410.md"
 },{
-id: 5553,
+id: 4148,
 title: "Abilitazione ricerca oggetti 5250 su Looc.up",
 cat: "NWS",
 rel: "V2R3",
 num: "001411",
 href: "Sorgenti/NWS/LO_NWS001411.md"
 },{
-id: 5554,
+id: 4149,
 title: "Documentazione operativa per Loocup",
 cat: "NWS",
 rel: "V2R3",
 num: "001437",
 href: "Sorgenti/NWS/LO_NWS001437.md"
 },{
-id: 5555,
+id: 4150,
 title: "Inserimento barcode nei report di Loocup",
 cat: "NWS",
 rel: "V2R3",
 num: "001445",
 href: "Sorgenti/NWS/LO_NWS001445.md"
 },{
-id: 5556,
+id: 4151,
 title: "Preferiti Loocup su AS400",
 cat: "NWS",
 rel: "V2R3",
 num: "001462",
 href: "Sorgenti/NWS/LO_NWS001462.md"
 },{
-id: 5557,
+id: 4152,
 title: "Miglioramenti alle colonne aggiuntive",
 cat: "NWS",
 rel: "V2R3",
 num: "001470",
 href: "Sorgenti/NWS/LO_NWS001470.md"
 },{
-id: 5558,
+id: 4153,
 title: "Nuove funzioni schedulatore grafico",
 cat: "NWS",
 rel: "V2R3",
 num: "001484",
 href: "Sorgenti/NWS/LO_NWS001484.md"
 },{
-id: 5559,
+id: 4154,
 title: "Nuovo rilascio V2R3M091109 di Loocup",
 cat: "NWS",
 rel: "V2R3",
 num: "001506",
 href: "Sorgenti/NWS/LO_NWS001506.md"
 },{
-id: 5560,
+id: 4155,
 title: "Console Java Loocuo",
 cat: "NWS",
 rel: "V2R3",
 num: "001531",
 href: "Sorgenti/NWS/LO_NWS001531.md"
 },{
-id: 5561,
+id: 4156,
 title: "Configuratore",
 cat: "NWS",
 rel: "V2R3",
 num: "001532",
 href: "Sorgenti/NWS/LO_NWS001532.md"
 },{
-id: 5562,
+id: 4157,
 title: "Gestione cache delle sessioni 5250",
 cat: "NWS",
 rel: "V2R3",
 num: "001536",
 href: "Sorgenti/NWS/LO_NWS001536.md"
 },{
-id: 5563,
+id: 4158,
 title: "Miglioramenti ad HELP di colonna",
 cat: "NWS",
 rel: "V2R3",
 num: "001550",
 href: "Sorgenti/NWS/LO_NWS001550.md"
 },{
-id: 5564,
+id: 4159,
 title: "Looc.Up - Formati Data&#x2f;Numero e Windows 7",
 cat: "NWS",
 rel: "V2R3",
 num: "001551",
 href: "Sorgenti/NWS/LO_NWS001551.md"
 },{
-id: 5565,
+id: 4160,
 title: "Riferimenti a cartelle sul server",
 cat: "NWS",
 rel: "V2R3",
 num: "001557",
 href: "Sorgenti/NWS/LO_NWS001557.md"
 },{
-id: 5566,
+id: 4161,
 title: "Celle G",
 cat: "NWS",
 rel: "V2R3",
 num: "001563",
 href: "Sorgenti/NWS/LO_NWS001563.md"
 },{
-id: 5567,
+id: 4162,
 title: "Plugin aggiorn.automat.Loocup",
 cat: "NWS",
 rel: "V2R3",
 num: "001586",
 href: "Sorgenti/NWS/LO_NWS001586.md"
 },{
-id: 5568,
+id: 4163,
 title: "Filtri Q3 su costruttore LOA15",
 cat: "NWS",
 rel: "V2R3",
 num: "001597",
 href: "Sorgenti/NWS/LO_NWS001597.md"
 },{
-id: 5569,
+id: 4164,
 title: "Procedura per split titoli di matrice",
 cat: "NWS",
 rel: "V3R1",
 num: "001620",
 href: "Sorgenti/NWS/LO_NWS001620.md"
 },{
-id: 5570,
+id: 4165,
 title: "Scheda delle COPY",
 cat: "NWS",
 rel: "V3R1",
 num: "001625",
 href: "Sorgenti/NWS/LO_NWS001625.md"
 },{
-id: 5571,
+id: 4166,
 title: "Nuovo rilascio V3R1M101121 di Loocup",
 cat: "NWS",
 rel: "V3R1",
 num: "001636",
 href: "Sorgenti/NWS/LO_NWS001636.md"
 },{
-id: 5572,
+id: 4167,
 title: "Nuove variabili di scheda &#x26;IN",
 cat: "NWS",
 rel: "V3R1",
 num: "001640",
 href: "Sorgenti/NWS/LO_NWS001640.md"
 },{
-id: 5573,
+id: 4168,
 title: "Looc.Up &#x26; Single Sign On",
 cat: "NWS",
 rel: "V3R1",
 num: "001669",
 href: "Sorgenti/NWS/LO_NWS001669.md"
 },{
-id: 5574,
+id: 4169,
 title: "Standard F1 come HELP contestuale in LOOC.up",
 cat: "NWS",
 rel: "V3R1",
 num: "001677",
 href: "Sorgenti/NWS/LO_NWS001677.md"
 },{
-id: 5575,
+id: 4170,
 title: "Tabelle incluse in documentazione",
 cat: "NWS",
 rel: "V3R1",
 num: "001678",
 href: "Sorgenti/NWS/LO_NWS001678.md"
 },{
-id: 5576,
+id: 4171,
 title: "Nuova versione Workflow Designer",
 cat: "NWS",
 rel: "V3R1",
 num: "001684",
 href: "Sorgenti/NWS/LO_NWS001684.md"
 },{
-id: 5577,
+id: 4172,
 title: "Maggior chiarezza in titoli finestre Looc.UP",
 cat: "NWS",
 rel: "V3R1",
 num: "001695",
 href: "Sorgenti/NWS/LO_NWS001695.md"
 },{
-id: 5578,
+id: 4173,
 title: "G30 - scelta per immagini - gestione nota come dom",
 cat: "NWS",
 rel: "V3R1",
 num: "001701",
 href: "Sorgenti/NWS/LO_NWS001701.md"
 },{
-id: 5579,
+id: 4174,
 title: "Schedulatore&#x3a; visualizzazione note su statusbar",
 cat: "NWS",
 rel: "V3R1",
 num: "001721",
 href: "Sorgenti/NWS/LO_NWS001721.md"
 },{
-id: 5580,
+id: 4175,
 title: "Nuovo rilascio V3R2M110915 di Loocup",
 cat: "NWS",
 rel: "V3R2",
 num: "001724",
 href: "Sorgenti/NWS/LO_NWS001724.md"
 },{
-id: 5581,
+id: 4176,
 title: "Loocup e risparmio energetico di Windows",
 cat: "NWS",
 rel: "\*ALL",
 num: "001726",
 href: "Sorgenti/NWS/LO_NWS001726.md"
 },{
-id: 5582,
+id: 4177,
 title: "G30 - Domande configurate a risposta multipla",
 cat: "NWS",
 rel: "V3R2",
 num: "001746",
 href: "Sorgenti/NWS/LO_NWS001746.md"
 },{
-id: 5583,
+id: 4178,
 title: "Aggiornamento per RSync Plugin",
 cat: "NWS",
 rel: "V3R2",
 num: "001768",
 href: "Sorgenti/NWS/LO_NWS001768.md"
 },{
-id: 5584,
+id: 4179,
 title: "Nuovo rilascio V3R2M120301 di Loocup",
 cat: "NWS",
 rel: "V3R2",
 num: "001776",
 href: "Sorgenti/NWS/LO_NWS001776.md"
 },{
-id: 5585,
+id: 4180,
 title: "Servizio aggiornam. generico LOSUP_13",
 cat: "NWS",
 rel: "V3R2",
 num: "001777",
 href: "Sorgenti/NWS/LO_NWS001777.md"
 },{
-id: 5586,
+id: 4181,
 title: "Messaggio globale su matr. aggiornam.",
 cat: "NWS",
 rel: "V3R2",
 num: "001778",
 href: "Sorgenti/NWS/LO_NWS001778.md"
 },{
-id: 5587,
+id: 4182,
 title: "Nomi dei processi nella nuova versione V3R2M120301",
 cat: "NWS",
 rel: "V3R2",
 num: "001779",
 href: "Sorgenti/NWS/LO_NWS001779.md"
 },{
-id: 5588,
+id: 4183,
 title: "Controllo prerequisiti per installazione Looc.UP",
 cat: "NWS",
 rel: "V3R2",
 num: "001781",
 href: "Sorgenti/NWS/LO_NWS001781.md"
 },{
-id: 5589,
+id: 4184,
 title: "Nuovo bottone popup nello schedulatore",
 cat: "NWS",
 rel: "V3R2",
 num: "001803",
 href: "Sorgenti/NWS/LO_NWS001803.md"
 },{
-id: 5590,
+id: 4185,
 title: "JA_00_05&#x3a; funzione di copia file immagine con",
 cat: "NWS",
 rel: "V3R2",
 num: "001805",
 href: "Sorgenti/NWS/LO_NWS001805.md"
 },{
-id: 5591,
+id: 4186,
 title: "Velocizzazione Report",
 cat: "NWS",
 rel: "V3R2",
 num: "001831",
 href: "Sorgenti/NWS/LO_NWS001831.md"
 },{
-id: 5592,
+id: 4187,
 title: "Exit configurazioni LoocUp",
 cat: "NWS",
 rel: "V3R2",
 num: "001844",
 href: "Sorgenti/NWS/LO_NWS001844.md"
 },{
-id: 5593,
+id: 4188,
 title: "Migliore segnalazione errore FUN",
 cat: "NWS",
 rel: "V3R2",
 num: "001845",
 href: "Sorgenti/NWS/LO_NWS001845.md"
 },{
-id: 5594,
+id: 4189,
 title: "Miglioramento performance LOA15",
 cat: "NWS",
 rel: "V3R2",
 num: "001855",
 href: "Sorgenti/NWS/LO_NWS001855.md"
 },{
-id: 5595,
+id: 4190,
 title: "Wizard di script",
 cat: "NWS",
 rel: "V3R2",
 num: "001856",
 href: "Sorgenti/NWS/LO_NWS001856.md"
 },{
-id: 5596,
+id: 4191,
 title: "Cerca",
 cat: "NWS",
 rel: "V3R2",
 num: "001859",
 href: "Sorgenti/NWS/LO_NWS001859.md"
 },{
-id: 5597,
+id: 4192,
 title: "Nuovo rilascio di Looc.UP",
 cat: "NWS",
 rel: "V3R2",
 num: "001861",
 href: "Sorgenti/NWS/LO_NWS001861.md"
 },{
-id: 5598,
+id: 4193,
 title: "Report e colonne di tipo J4IMG",
 cat: "NWS",
 rel: "V3R2",
 num: "001862",
 href: "Sorgenti/NWS/LO_NWS001862.md"
 },{
-id: 5599,
+id: 4194,
 title: "H53 e colonne di tipo J4IMG",
 cat: "NWS",
 rel: "V3R2",
 num: "001863",
 href: "Sorgenti/NWS/LO_NWS001863.md"
 },{
-id: 5600,
+id: 4195,
 title: "Attributo RowHeight di matrice in H53",
 cat: "NWS",
 rel: "V3R2",
 num: "001864",
 href: "Sorgenti/NWS/LO_NWS001864.md"
 },{
-id: 5601,
+id: 4196,
 title: "Looc.Up V3R2 e Office",
 cat: "NWS",
 rel: "V3R2",
 num: "001866",
 href: "Sorgenti/NWS/LO_NWS001866.md"
 },{
-id: 5602,
+id: 4197,
 title: "Modifica default ShowGroup in Matrice.",
 cat: "NWS",
 rel: "V3R2",
 num: "001902",
 href: "Sorgenti/NWS/LO_NWS001902.md"
 },{
-id: 5603,
+id: 4198,
 title: "Nuovo componente Albero con Griglia.",
 cat: "NWS",
 rel: "V3R2",
 num: "001903",
 href: "Sorgenti/NWS/LO_NWS001903.md"
 },{
-id: 5604,
+id: 4199,
 title: "Controllo Consistenza in LOSUP_13",
 cat: "NWS",
 rel: "V3R2",
 num: "001911",
 href: "Sorgenti/NWS/LO_NWS001911.md"
 },{
-id: 5605,
+id: 4200,
 title: "Nuovo Rilascio di Looc.UP",
 cat: "NWS",
 rel: "V3R2",
 num: "001929",
 href: "Sorgenti/NWS/LO_NWS001929.md"
 },{
-id: 5606,
+id: 4201,
 title: "Report&#x3a; gestione colonne in PDF. Adattamento",
 cat: "NWS",
 rel: "V3R2",
 num: "001930",
 href: "Sorgenti/NWS/LO_NWS001930.md"
 },{
-id: 5607,
+id: 4202,
 title: "Scheda Modulo dei Setup Grafici",
 cat: "NWS",
 rel: "V3R2",
 num: "001936",
 href: "Sorgenti/NWS/LO_NWS001936.md"
 },{
-id: 5608,
+id: 4203,
 title: "Nuove Funzioni di Richiesta Utente",
 cat: "NWS",
 rel: "V3R2",
 num: "001937",
 href: "Sorgenti/NWS/LO_NWS001937.md"
 },{
-id: 5609,
+id: 4204,
 title: "Nuovo rilascio di Looc.UP",
 cat: "NWS",
 rel: "V4R1",
 num: "001947",
 href: "Sorgenti/NWS/LO_NWS001947.md"
 },{
-id: 5610,
+id: 4205,
 title: "Importanti istruzioni per l&#x27;installazione di Looc",
 cat: "NWS",
 rel: "V4R1",
 num: "001954",
 href: "Sorgenti/NWS/LO_NWS001954.md"
 },{
-id: 5611,
+id: 4206,
 title: "Nuova interfaccia della scheda",
 cat: "NWS",
 rel: "V4R1",
 num: "001955",
 href: "Sorgenti/NWS/LO_NWS001955.md"
 },{
-id: 5612,
+id: 4207,
 title: "Gestione Immagini, Preview, Folder di un oggetto",
 cat: "NWS",
 rel: "V4R1",
 num: "001991",
 href: "Sorgenti/NWS/LO_NWS001991.md"
 },{
-id: 5613,
+id: 4208,
 title: "Nuovo Rilascio di Looc.UP",
 cat: "NWS",
 rel: "V4R1",
 num: "001994",
 href: "Sorgenti/NWS/LO_NWS001994.md"
 },{
-id: 5614,
+id: 4209,
 title: "Rilascio di Sme.UP Provider",
 cat: "NWS",
 rel: "V4R1",
 num: "001995",
 href: "Sorgenti/NWS/LO_NWS001995.md"
 },{
-id: 5615,
+id: 4210,
 title: "Estesi operatori IF di scheda",
 cat: "NWS",
 rel: "V4R1",
 num: "001997",
 href: "Sorgenti/NWS/LO_NWS001997.md"
 },{
-id: 5616,
+id: 4211,
 title: "Selezione ambiente con codice in alternativa a",
 cat: "NWS",
 rel: "V4R1",
 num: "002012",
 href: "Sorgenti/NWS/LO_NWS002012.md"
 },{
-id: 5617,
+id: 4212,
 title: "Test Performance comunicazione Looc.UP",
 cat: "NWS",
 rel: "V4R1",
 num: "002041",
 href: "Sorgenti/NWS/LO_NWS002041.md"
 },{
-id: 5618,
+id: 4213,
 title: "Gestione delle Risorse Remote",
 cat: "NWS",
 rel: "V4R1",
 num: "002042",
 href: "Sorgenti/NWS/LO_NWS002042.md"
 },{
-id: 5619,
+id: 4214,
 title: "Novità in navigazione Smeup",
 cat: "NWS",
 rel: "V4R1",
 num: "002054",
 href: "Sorgenti/NWS/LO_NWS002054.md"
 },{
-id: 5620,
+id: 4215,
 title: "Nuovo Rilascio di Looc.UP e Sme.UP Provider - V4R1",
 cat: "NWS",
 rel: "V4R1",
 num: "002058",
 href: "Sorgenti/NWS/LO_NWS002058.md"
 },{
-id: 5621,
+id: 4216,
 title: "Loocup Net Tester",
 cat: "NWS",
 rel: "V4R1",
 num: "002063",
 href: "Sorgenti/NWS/LO_NWS002063.md"
 },{
-id: 5622,
+id: 4217,
 title: "Preferiti in colonne aggiuntive",
 cat: "NWS",
 rel: "V4R1",
 num: "002068",
 href: "Sorgenti/NWS/LO_NWS002068.md"
 },{
-id: 5623,
+id: 4218,
 title: "Personalizzazione scheda iniziale",
 cat: "NWS",
 rel: "V4R1",
 num: "002072",
 href: "Sorgenti/NWS/LO_NWS002072.md"
 },{
-id: 5624,
+id: 4219,
 title: "Supporto per OpenOffice 4 e successivi",
 cat: "NWS",
 rel: "V4R1",
 num: "002073",
 href: "Sorgenti/NWS/LO_NWS002073.md"
 },{
-id: 5625,
+id: 4220,
 title: "Rilascio Sme.UP Updater",
 cat: "NWS",
 rel: "V4R1",
 num: "002090",
 href: "Sorgenti/NWS/LO_NWS002090.md"
 },{
-id: 5626,
+id: 4221,
 title: "Aggiornamento automatico Looc.UP",
 cat: "NWS",
 rel: "V4R1",
 num: "002091",
 href: "Sorgenti/NWS/LO_NWS002091.md"
 },{
-id: 5627,
+id: 4222,
 title: "Autorizzazioni risorse di un oggetto",
 cat: "NWS",
 rel: "V4R1",
 num: "002100",
 href: "Sorgenti/NWS/LO_NWS002100.md"
 },{
-id: 5628,
+id: 4223,
 title: "Nuovo Rilascio di Looc.UP e Sme.UP Provider - V4R1",
 cat: "NWS",
 rel: "V4R1",
 num: "002111",
 href: "Sorgenti/NWS/LO_NWS002111.md"
 },{
-id: 5629,
+id: 4224,
 title: "Supporto Windows XP e Windows Server 2003",
 cat: "NWS",
 rel: "V4R2",
 num: "002112",
 href: "Sorgenti/NWS/LO_NWS002112.md"
 },{
-id: 5630,
+id: 4225,
 title: "Nuove funzionalità di raccolta log in Sme.UP GO",
 cat: "NWS",
 rel: "V4R1",
 num: "002113",
 href: "Sorgenti/NWS/LO_NWS002113.md"
 },{
-id: 5631,
+id: 4226,
 title: "Variabili &#x26;D8 con formattazione",
 cat: "NWS",
 rel: "V4R1",
 num: "002114",
 href: "Sorgenti/NWS/LO_NWS002114.md"
 },{
-id: 5632,
+id: 4227,
 title: "SSO da Smeup Provider",
 cat: "NWS",
 rel: "V4R1",
 num: "002115",
 href: "Sorgenti/NWS/LO_NWS002115.md"
 },{
-id: 5633,
+id: 4228,
 title: "Integrazione Office 64 bit",
 cat: "NWS",
 rel: "V4R1",
 num: "002127",
 href: "Sorgenti/NWS/LO_NWS002127.md"
 },{
-id: 5634,
+id: 4229,
 title: "Nuova gestione dei preferiti su filtri",
 cat: "NWS",
 rel: "V5R1",
 num: "002199",
 href: "Sorgenti/NWS/LO_NWS002199.md"
 },{
-id: 5635,
+id: 4230,
 title: "Nuovo rilascio Looc.UP e Sme.UP provider - Version",
 cat: "NWS",
 rel: "V5R1",
 num: "002202",
 href: "Sorgenti/NWS/LO_NWS002202.md"
 },{
-id: 5636,
+id: 4231,
 title: "Implementazione su Exit A08",
 cat: "NWS",
 rel: "V5R1",
 num: "002203",
 href: "Sorgenti/NWS/LO_NWS002203.md"
 },{
-id: 5637,
+id: 4232,
 title: "Personalizzazione Tabelle Modulo",
 cat: "NWS",
 rel: "V5R1",
 num: "002206",
 href: "Sorgenti/NWS/LO_NWS002206.md"
 },{
-id: 5638,
+id: 4233,
 title: "Nuovo rilascio Looc.UP e Sme.UP Provider V5R1M1611",
 cat: "NWS",
 rel: "V5R1",
 num: "002212",
 href: "Sorgenti/NWS/LO_NWS002212.md"
 },{
-id: 5639,
+id: 4234,
 title: "LOA37&#x3a; parametrizzazione frequenza eventi in entra",
 cat: "NWS",
 rel: "V5R1",
 num: "002264",
 href: "Sorgenti/NWS/LO_NWS002264.md"
 },{
-id: 5640,
+id: 4235,
 title: "Barra comandi&#x3a; nuovo comando ALIAS e gestione sino",
 cat: "NWS",
 rel: "V5R1",
 num: "002268",
 href: "Sorgenti/NWS/LO_NWS002268.md"
 },{
-id: 5641,
+id: 4236,
 title: "Rilasciata Revision 1 di Looc.UP e Sme.UP Provider",
 cat: "NWS",
 rel: "V5R1",
 num: "002272",
 href: "Sorgenti/NWS/LO_NWS002272.md"
 },{
-id: 5642,
+id: 4237,
 title: "Porting del costruttore LOA39 su V3R2",
 cat: "NWS",
 rel: "V3R2",
 num: "002280",
 href: "Sorgenti/NWS/LO_NWS002280.md"
 },{
-id: 5643,
+id: 4238,
 title: "Esposizione di fun come Webservice in formato json",
 cat: "NWS",
 rel: "V5R1",
 num: "002300",
 href: "Sorgenti/NWS/LO_NWS002300.md"
 },{
-id: 5644,
+id: 4239,
 title: "Rilascio Roma Rev.2",
 cat: "NWS",
 rel: "V5R1",
 num: "002344",
 href: "Sorgenti/NWS/LO_NWS002344.md"
 },{
-id: 5645,
+id: 4240,
 title: "Livello in analisi disponibilita&#x27;",
 cat: "NWS",
 rel: "V1R4",
 num: "000022",
 href: "Sorgenti/NWS/M5_NWS000022.md"
 },{
-id: 5646,
+id: 4241,
 title: "Gestione gruppi fonti",
 cat: "NWS",
 rel: "",
 num: "000036",
 href: "Sorgenti/NWS/M5_NWS000036.md"
 },{
-id: 5647,
+id: 4242,
 title: "Trattamenti fittizi in MRP",
 cat: "NWS",
 rel: "",
 num: "000042",
 href: "Sorgenti/NWS/M5_NWS000042.md"
 },{
-id: 5648,
+id: 4243,
 title: "Fonti di pianificazione",
 cat: "NWS",
 rel: "",
 num: "000049",
 href: "Sorgenti/NWS/M5_NWS000049.md"
 },{
-id: 5649,
+id: 4244,
 title: "Modalità Set &#x27;n Play nell&#x27;analisi disponibilità",
 cat: "NWS",
 rel: "",
 num: "000050",
 href: "Sorgenti/NWS/M5_NWS000050.md"
 },{
-id: 5650,
+id: 4245,
 title: "Nuova stampa suggerimenti",
 cat: "NWS",
 rel: "",
 num: "000054",
 href: "Sorgenti/NWS/M5_NWS000054.md"
 },{
-id: 5651,
+id: 4246,
 title: "Fonti neutre",
 cat: "NWS",
 rel: "",
 num: "000056",
 href: "Sorgenti/NWS/M5_NWS000056.md"
 },{
-id: 5652,
+id: 4247,
 title: "Funzione di rilettura in disponibilità",
 cat: "NWS",
 rel: "",
 num: "000066",
 href: "Sorgenti/NWS/M5_NWS000066.md"
 },{
-id: 5653,
+id: 4248,
 title: "Interrogazione disponibilità",
 cat: "NWS",
 rel: "",
 num: "000068",
 href: "Sorgenti/NWS/M5_NWS000068.md"
 },{
-id: 5654,
+id: 4249,
 title: "Navigazione suggerimenti MRP",
 cat: "NWS",
 rel: "",
 num: "000071",
 href: "Sorgenti/NWS/M5_NWS000071.md"
 },{
-id: 5655,
+id: 4250,
 title: "Rilascio MRP -&#x3e; P5",
 cat: "NWS",
 rel: "",
 num: "000072",
 href: "Sorgenti/NWS/M5_NWS000072.md"
 },{
-id: 5656,
+id: 4251,
 title: "Analisi disponibilità",
 cat: "NWS",
 rel: "",
 num: "000084",
 href: "Sorgenti/NWS/M5_NWS000084.md"
 },{
-id: 5657,
+id: 4252,
 title: "Dati di pianificazione",
 cat: "NWS",
 rel: "",
 num: "000103",
 href: "Sorgenti/NWS/M5_NWS000103.md"
 },{
-id: 5658,
+id: 4253,
 title: "Analisi componenti",
 cat: "NWS",
 rel: "",
 num: "000104",
 href: "Sorgenti/NWS/M5_NWS000104.md"
 },{
-id: 5659,
+id: 4254,
 title: "Calcolo LIVELLO MINIMO",
 cat: "NWS",
 rel: "",
 num: "000106",
 href: "Sorgenti/NWS/M5_NWS000106.md"
 },{
-id: 5660,
+id: 4255,
 title: "Oggetto di riferimento in pianificazione",
 cat: "NWS",
 rel: "",
 num: "000107",
 href: "Sorgenti/NWS/M5_NWS000107.md"
 },{
-id: 5661,
+id: 4256,
 title: "Applicazione suggerimenti",
 cat: "NWS",
 rel: "",
 num: "000109",
 href: "Sorgenti/NWS/M5_NWS000109.md"
 },{
-id: 5662,
+id: 4257,
 title: "Aggiustamento&#x2f;Segnalazione Pianificazione",
 cat: "NWS",
 rel: "",
 num: "000111",
 href: "Sorgenti/NWS/M5_NWS000111.md"
 },{
-id: 5663,
+id: 4258,
 title: "Articoli esclusi da MRP",
 cat: "NWS",
 rel: "",
 num: "000115",
 href: "Sorgenti/NWS/M5_NWS000115.md"
 },{
-id: 5664,
+id: 4259,
 title: "Aggiunte all&#x27;interrogazione consigli",
 cat: "NWS",
 rel: "",
 num: "000118",
 href: "Sorgenti/NWS/M5_NWS000118.md"
 },{
-id: 5665,
+id: 4260,
 title: "Aggiustamento ai rilasci",
 cat: "NWS",
 rel: "",
 num: "000119",
 href: "Sorgenti/NWS/M5_NWS000119.md"
 },{
-id: 5666,
+id: 4261,
 title: "Lancio Pianificazione",
 cat: "NWS",
 rel: "",
 num: "000120",
 href: "Sorgenti/NWS/M5_NWS000120.md"
 },{
-id: 5667,
+id: 4262,
 title: "Flussi dinamici M5",
 cat: "NWS",
 rel: "",
 num: "000127",
 href: "Sorgenti/NWS/M5_NWS000127.md"
 },{
-id: 5668,
+id: 4263,
 title: "Data Massima in Disponibilità",
 cat: "NWS",
 rel: "",
 num: "000130",
 href: "Sorgenti/NWS/M5_NWS000130.md"
 },{
-id: 5669,
+id: 4264,
 title: "Disponibilità Libera",
 cat: "NWS",
 rel: "",
 num: "000131",
 href: "Sorgenti/NWS/M5_NWS000131.md"
 },{
-id: 5670,
+id: 4265,
 title: "Modeli Dinamici",
 cat: "NWS",
 rel: "",
 num: "000136",
 href: "Sorgenti/NWS/M5_NWS000136.md"
 },{
-id: 5671,
+id: 4266,
 title: "Risalite",
 cat: "NWS",
 rel: "",
 num: "000137",
 href: "Sorgenti/NWS/M5_NWS000137.md"
 },{
-id: 5672,
+id: 4267,
 title: "Novità in Analisi Disponibilità",
 cat: "NWS",
 rel: "",
 num: "000140",
 href: "Sorgenti/NWS/M5_NWS000140.md"
 },{
-id: 5673,
+id: 4268,
 title: "Fonte Deviata in Analisi Disponibilita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000147",
 href: "Sorgenti/NWS/M5_NWS000147.md"
 },{
-id: 5674,
+id: 4269,
 title: "Aggiustamento in Analisi Disponibilita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000148",
 href: "Sorgenti/NWS/M5_NWS000148.md"
 },{
-id: 5675,
+id: 4270,
 title: "Scorta Datata",
 cat: "NWS",
 rel: "",
 num: "000149",
 href: "Sorgenti/NWS/M5_NWS000149.md"
 },{
-id: 5676,
+id: 4271,
 title: "Analisi Disponibilita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000151",
 href: "Sorgenti/NWS/M5_NWS000151.md"
 },{
-id: 5677,
+id: 4272,
 title: "Data Rettificata in Analisi Disponibilita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000154",
 href: "Sorgenti/NWS/M5_NWS000154.md"
 },{
-id: 5678,
+id: 4273,
 title: "Analisi disponibilità",
 cat: "NWS",
 rel: "V1R2",
 num: "000158",
 href: "Sorgenti/NWS/M5_NWS000158.md"
 },{
-id: 5679,
+id: 4274,
 title: "Impegni in Liste di Prelievo",
 cat: "NWS",
 rel: "",
 num: "000160",
 href: "Sorgenti/NWS/M5_NWS000160.md"
 },{
-id: 5680,
+id: 4275,
 title: "Analisi Pianificazione",
 cat: "NWS",
 rel: "",
 num: "000166",
 href: "Sorgenti/NWS/M5_NWS000166.md"
 },{
-id: 5681,
+id: 4276,
 title: "Set &#x26; Play MRP",
 cat: "NWS",
 rel: "",
 num: "000170",
 href: "Sorgenti/NWS/M5_NWS000170.md"
 },{
-id: 5682,
+id: 4277,
 title: "Packing-List in doppia unita&#x27; di misura",
 cat: "NWS",
 rel: "",
 num: "000173",
 href: "Sorgenti/NWS/M5_NWS000173.md"
 },{
-id: 5683,
+id: 4278,
 title: "Novita&#x27; su analisi disponibilita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000176",
 href: "Sorgenti/NWS/M5_NWS000176.md"
 },{
-id: 5684,
+id: 4279,
 title: "Controllo Tabella Fonti Future",
 cat: "NWS",
 rel: "",
 num: "000177",
 href: "Sorgenti/NWS/M5_NWS000177.md"
 },{
-id: 5685,
+id: 4280,
 title: "Lancio MRP da Analisi Disponibilita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000178",
 href: "Sorgenti/NWS/M5_NWS000178.md"
 },{
-id: 5686,
+id: 4281,
 title: "Scansione Disponibilita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000179",
 href: "Sorgenti/NWS/M5_NWS000179.md"
 },{
-id: 5687,
+id: 4282,
 title: "Criterio Make or Change",
 cat: "NWS",
 rel: "",
 num: "000185",
 href: "Sorgenti/NWS/M5_NWS000185.md"
 },{
-id: 5688,
+id: 4283,
 title: "Analisi Disponiblita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000186",
 href: "Sorgenti/NWS/M5_NWS000186.md"
 },{
-id: 5689,
+id: 4284,
 title: "Riclassifica e Ordinamento Fonti",
 cat: "NWS",
 rel: "",
 num: "000196",
 href: "Sorgenti/NWS/M5_NWS000196.md"
 },{
-id: 5690,
+id: 4285,
 title: "Applicazione Suggerimenti con Variazione",
 cat: "NWS",
 rel: "",
 num: "000198",
 href: "Sorgenti/NWS/M5_NWS000198.md"
 },{
-id: 5691,
+id: 4286,
 title: "Novita&#x27; in Analisi Disponibilita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000208",
 href: "Sorgenti/NWS/M5_NWS000208.md"
 },{
-id: 5692,
+id: 4287,
 title: "LOG in Pianificazione",
 cat: "NWS",
 rel: "",
 num: "000220",
 href: "Sorgenti/NWS/M5_NWS000220.md"
 },{
-id: 5693,
+id: 4288,
 title: "Scansione Disponibilita&#x27;",
 cat: "NWS",
 rel: "V1R3",
 num: "000221",
 href: "Sorgenti/NWS/M5_NWS000221.md"
 },{
-id: 5694,
+id: 4289,
 title: "Parametri di Pianificazione per Riferimento",
 cat: "NWS",
 rel: "",
 num: "000222",
 href: "Sorgenti/NWS/M5_NWS000222.md"
 },{
-id: 5695,
+id: 4290,
 title: "Parametri Pianificazione per Riferimento",
 cat: "NWS",
 rel: "",
 num: "000224",
 href: "Sorgenti/NWS/M5_NWS000224.md"
 },{
-id: 5696,
+id: 4291,
 title: "Tempo di Rettifica",
 cat: "NWS",
 rel: "",
 num: "000225",
 href: "Sorgenti/NWS/M5_NWS000225.md"
 },{
-id: 5697,
+id: 4292,
 title: "Fonte Bilanciata",
 cat: "NWS",
 rel: "",
 num: "000285",
 href: "Sorgenti/NWS/M5_NWS000285.md"
 },{
-id: 5698,
+id: 4293,
 title: "Rilascio Ordini di Produzione Pianificati",
 cat: "NWS",
 rel: "",
 num: "000300",
 href: "Sorgenti/NWS/M5_NWS000300.md"
 },{
-id: 5699,
+id: 4294,
 title: "Fonti      Presenti &#x2f; Future",
 cat: "NWS",
 rel: "",
 num: "000312",
 href: "Sorgenti/NWS/M5_NWS000312.md"
 },{
-id: 5700,
+id: 4295,
 title: "Navigazione Consigli",
 cat: "NWS",
 rel: "",
 num: "000331",
 href: "Sorgenti/NWS/M5_NWS000331.md"
 },{
-id: 5701,
+id: 4296,
 title: "Interrogazione Consigli",
 cat: "NWS",
 rel: "V1R4",
 num: "000336",
 href: "Sorgenti/NWS/M5_NWS000336.md"
 },{
-id: 5702,
+id: 4297,
 title: "Pianificazione Multiscenario",
 cat: "NWS",
 rel: "V1R4",
 num: "000341",
 href: "Sorgenti/NWS/M5_NWS000341.md"
 },{
-id: 5703,
+id: 4298,
 title: "Novità in Analisi Componenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000366",
 href: "Sorgenti/NWS/M5_NWS000366.md"
 },{
-id: 5704,
+id: 4299,
 title: "Pianificazione Singolo Codice",
 cat: "NWS",
 rel: "V1R4",
 num: "000381",
 href: "Sorgenti/NWS/M5_NWS000381.md"
 },{
-id: 5705,
+id: 4300,
 title: "Nuova routine £M5G",
 cat: "NWS",
 rel: "V1R4",
 num: "000382",
 href: "Sorgenti/NWS/M5_NWS000382.md"
 },{
-id: 5706,
+id: 4301,
 title: "Implosione Pianificazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000383",
 href: "Sorgenti/NWS/M5_NWS000383.md"
 },{
-id: 5707,
+id: 4302,
 title: "Applicazione suggerimenti da scenari diversi",
 cat: "NWS",
 rel: "V1R4",
 num: "000390",
 href: "Sorgenti/NWS/M5_NWS000390.md"
 },{
-id: 5708,
+id: 4303,
 title: "Scenario in analisi disponibilità e pianificazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000397",
 href: "Sorgenti/NWS/M5_NWS000397.md"
 },{
-id: 5709,
+id: 4304,
 title: "Trattamento lotto massimo",
 cat: "NWS",
 rel: "V1R4",
 num: "000398",
 href: "Sorgenti/NWS/M5_NWS000398.md"
 },{
-id: 5710,
+id: 4305,
 title: "Lottizzazione opzionale su ordini pianificati scad",
 cat: "NWS",
 rel: "V1R4",
 num: "000402",
 href: "Sorgenti/NWS/M5_NWS000402.md"
 },{
-id: 5711,
+id: 4306,
 title: "Presentazione disponibilità libera",
 cat: "NWS",
 rel: "V1R4",
 num: "000404",
 href: "Sorgenti/NWS/M5_NWS000404.md"
 },{
-id: 5712,
+id: 4307,
 title: "Novità in visualizzazione consigli di pianificazio",
 cat: "NWS",
 rel: "V1R4",
 num: "000426",
 href: "Sorgenti/NWS/M5_NWS000426.md"
 },{
-id: 5713,
+id: 4308,
 title: "Selezione magazzino in analisi disponibilità",
 cat: "NWS",
 rel: "V1R4",
 num: "000428",
 href: "Sorgenti/NWS/M5_NWS000428.md"
 },{
-id: 5714,
+id: 4309,
 title: "Scansione di Pianificazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000431",
 href: "Sorgenti/NWS/M5_NWS000431.md"
 },{
-id: 5715,
+id: 4310,
 title: "Segnalazione scaduti in pianificazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000432",
 href: "Sorgenti/NWS/M5_NWS000432.md"
 },{
-id: 5716,
+id: 4311,
 title: "Fonte fotografata",
 cat: "NWS",
 rel: "V1R4",
 num: "000463",
 href: "Sorgenti/NWS/M5_NWS000463.md"
 },{
-id: 5717,
+id: 4312,
 title: "Parametri di pianificazione per configurazione par",
 cat: "NWS",
 rel: "V1R4",
 num: "000473",
 href: "Sorgenti/NWS/M5_NWS000473.md"
 },{
-id: 5718,
+id: 4313,
 title: "Calendario per Ente",
 cat: "NWS",
 rel: "V1R4",
 num: "000489",
 href: "Sorgenti/NWS/M5_NWS000489.md"
 },{
-id: 5719,
+id: 4314,
 title: "Scansione disponibilità",
 cat: "NWS",
 rel: "V1R4",
 num: "000498",
 href: "Sorgenti/NWS/M5_NWS000498.md"
 },{
-id: 5720,
+id: 4315,
 title: "Analisi coperture&#x2f;fabbisogni di un oggetto",
 cat: "NWS",
 rel: "V1R4",
 num: "000500",
 href: "Sorgenti/NWS/M5_NWS000500.md"
 },{
-id: 5721,
+id: 4316,
 title: "Novità in analisi coperture documento",
 cat: "NWS",
 rel: "V1R4",
 num: "000502",
 href: "Sorgenti/NWS/M5_NWS000502.md"
 },{
-id: 5722,
+id: 4317,
 title: "Stampa disponibilità",
 cat: "NWS",
 rel: "V1R4",
 num: "000551",
 href: "Sorgenti/NWS/M5_NWS000551.md"
 },{
-id: 5723,
+id: 4318,
 title: "Legame ordini impegni in fonti utente",
 cat: "NWS",
 rel: "V1R5",
 num: "000554",
 href: "Sorgenti/NWS/M5_NWS000554.md"
 },{
-id: 5724,
+id: 4319,
 title: "Analisi impegni per ente",
 cat: "NWS",
 rel: "V1R5",
 num: "000582",
 href: "Sorgenti/NWS/M5_NWS000582.md"
 },{
-id: 5725,
+id: 4320,
 title: "Magazzino associato in MRP",
 cat: "NWS",
 rel: "V1R5",
 num: "000592",
 href: "Sorgenti/NWS/M5_NWS000592.md"
 },{
-id: 5726,
+id: 4321,
 title: "Ritorno disponibilità riepilogata",
 cat: "NWS",
 rel: "V1R5",
 num: "000593",
 href: "Sorgenti/NWS/M5_NWS000593.md"
 },{
-id: 5727,
+id: 4322,
 title: "Programma aggiustamento in scrittura consigli",
 cat: "NWS",
 rel: "V1R5",
 num: "000594",
 href: "Sorgenti/NWS/M5_NWS000594.md"
 },{
-id: 5728,
+id: 4323,
 title: "Modifica commessa in rilascio suggerimenti",
 cat: "NWS",
 rel: "V1R5",
 num: "000613",
 href: "Sorgenti/NWS/M5_NWS000613.md"
 },{
-id: 5729,
+id: 4324,
 title: "Analisi disponibilità per parametri",
 cat: "NWS",
 rel: "V1R5",
 num: "000635",
 href: "Sorgenti/NWS/M5_NWS000635.md"
 },{
-id: 5730,
+id: 4325,
 title: "Caratterizzazione fonte utente",
 cat: "NWS",
 rel: "V1R5",
 num: "000640",
 href: "Sorgenti/NWS/M5_NWS000640.md"
 },{
-id: 5731,
+id: 4326,
 title: "Informazioni in Log di pianificazione",
 cat: "NWS",
 rel: "V1R5",
 num: "000681",
 href: "Sorgenti/NWS/M5_NWS000681.md"
 },{
-id: 5732,
+id: 4327,
 title: "Revisione tracciato dati di pianificazione",
 cat: "NWS",
 rel: "V2R1",
 num: "000709",
 href: "Sorgenti/NWS/M5_NWS000709.md"
 },{
-id: 5733,
+id: 4328,
 title: "Novità in interrogazione consigli di pianificazion",
 cat: "NWS",
 rel: "V2R1",
 num: "000728",
 href: "Sorgenti/NWS/M5_NWS000728.md"
 },{
-id: 5734,
+id: 4329,
 title: "Applicazione consigli di pianificazione",
 cat: "NWS",
 rel: "V2R1",
 num: "000731",
 href: "Sorgenti/NWS/M5_NWS000731.md"
 },{
-id: 5735,
+id: 4330,
 title: "Rilascio ordini con numero impostato",
 cat: "NWS",
 rel: "V2R1",
 num: "000735",
 href: "Sorgenti/NWS/M5_NWS000735.md"
 },{
-id: 5736,
+id: 4331,
 title: "Nuove funzioni in rilascio pianificazione",
 cat: "NWS",
 rel: "V2R1",
 num: "000749",
 href: "Sorgenti/NWS/M5_NWS000749.md"
 },{
-id: 5737,
+id: 4332,
 title: "Aggiustamento esposizione suggerimenti MRP",
 cat: "NWS",
 rel: "V2R1",
 num: "000762",
 href: "Sorgenti/NWS/M5_NWS000762.md"
 },{
-id: 5738,
+id: 4333,
 title: "Analisi disponibilità componenti in stampa",
 cat: "NWS",
 rel: "V2R1",
 num: "000777",
 href: "Sorgenti/NWS/M5_NWS000777.md"
 },{
-id: 5739,
+id: 4334,
 title: "Stampatore file M5ARTP0F",
 cat: "NWS",
 rel: "V2R1",
 num: "000778",
 href: "Sorgenti/NWS/M5_NWS000778.md"
 },{
-id: 5740,
+id: 4335,
 title: "Navigazioni tra le funzioni dell&#x27;analisi disponib",
 cat: "NWS",
 rel: "V2R1",
 num: "000780",
 href: "Sorgenti/NWS/M5_NWS000780.md"
 },{
-id: 5741,
+id: 4336,
 title: "Novità in pianificazione materiali",
 cat: "NWS",
 rel: "V2R1",
 num: "000827",
 href: "Sorgenti/NWS/M5_NWS000827.md"
 },{
-id: 5742,
+id: 4337,
 title: "Nuova opzione in analisi disponibilità",
 cat: "NWS",
 rel: "V2R1",
 num: "000831",
 href: "Sorgenti/NWS/M5_NWS000831.md"
 },{
-id: 5743,
+id: 4338,
 title: "Rilascio documentazione commerciale",
 cat: "NWS",
 rel: "V2R1",
 num: "000835",
 href: "Sorgenti/NWS/M5_NWS000835.md"
 },{
-id: 5744,
+id: 4339,
 title: "Articolo in schemi della disponibilità",
 cat: "NWS",
 rel: "V2R1",
 num: "000837",
 href: "Sorgenti/NWS/M5_NWS000837.md"
 },{
-id: 5745,
+id: 4340,
 title: "Estensione tabelle fonti",
 cat: "NWS",
 rel: "V2R1",
 num: "000838",
 href: "Sorgenti/NWS/M5_NWS000838.md"
 },{
-id: 5746,
+id: 4341,
 title: "Nuovo logico V5RDOCKL per analisi disponibilità",
 cat: "NWS",
 rel: "V2R1",
 num: "000867",
 href: "Sorgenti/NWS/M5_NWS000867.md"
 },{
-id: 5747,
+id: 4342,
 title: "Trattamento Flag Inversione Qtà&#x2f;Valore",
 cat: "NWS",
 rel: "V2R1",
 num: "000885",
 href: "Sorgenti/NWS/M5_NWS000885.md"
 },{
-id: 5748,
+id: 4343,
 title: "Analisi disponibilità orizzontale",
 cat: "NWS",
 rel: "V2R1",
 num: "000888",
 href: "Sorgenti/NWS/M5_NWS000888.md"
 },{
-id: 5749,
+id: 4344,
 title: "Fonti future analisi disponibilità origine V5&#x3a; tra",
 cat: "NWS",
 rel: "V2R1",
 num: "000907",
 href: "Sorgenti/NWS/M5_NWS000907.md"
 },{
-id: 5750,
+id: 4345,
 title: "Scorta trascurata in pianificazione",
 cat: "NWS",
 rel: "V2R1",
 num: "000925",
 href: "Sorgenti/NWS/M5_NWS000925.md"
 },{
-id: 5751,
+id: 4346,
 title: "ATP per configurazione",
 cat: "NWS",
 rel: "V2R1",
 num: "000926",
 href: "Sorgenti/NWS/M5_NWS000926.md"
 },{
-id: 5752,
+id: 4347,
 title: "Sviluppo per 2 chiavi in analisi disponibilità",
 cat: "NWS",
 rel: "V2R1",
 num: "000927",
 href: "Sorgenti/NWS/M5_NWS000927.md"
 },{
-id: 5753,
+id: 4348,
 title: "Applicazione Suggerimento P5",
 cat: "NWS",
 rel: "V2R1",
 num: "000953",
 href: "Sorgenti/NWS/M5_NWS000953.md"
 },{
-id: 5754,
+id: 4349,
 title: "Analisi disponibilità componenti",
 cat: "NWS",
 rel: "V2R1",
 num: "000954",
 href: "Sorgenti/NWS/M5_NWS000954.md"
 },{
-id: 5755,
+id: 4350,
 title: "Novità in consigli di pianificazioni",
 cat: "NWS",
 rel: "V2R1",
 num: "000972",
 href: "Sorgenti/NWS/M5_NWS000972.md"
 },{
-id: 5756,
+id: 4351,
 title: "Analisi disponibilità richiamabile con MDV preimpo",
 cat: "NWS",
 rel: "V2R1",
 num: "001011",
 href: "Sorgenti/NWS/M5_NWS001011.md"
 },{
-id: 5757,
+id: 4352,
 title: "Applicazione lotto massimo in ATP",
 cat: "NWS",
 rel: "V2R1",
 num: "001020",
 href: "Sorgenti/NWS/M5_NWS001020.md"
 },{
-id: 5758,
+id: 4353,
 title: "Pianificazione Multiplant Completa",
 cat: "NWS",
 rel: "V2R1",
 num: "001023",
 href: "Sorgenti/NWS/M5_NWS001023.md"
 },{
-id: 5759,
+id: 4354,
 title: "Novità in interrogazione MRP",
 cat: "NWS",
 rel: "V2R1",
 num: "001042",
 href: "Sorgenti/NWS/M5_NWS001042.md"
 },{
-id: 5760,
+id: 4355,
 title: "Pianificazione di un set articoli",
 cat: "NWS",
 rel: "V2R1",
 num: "001044",
 href: "Sorgenti/NWS/M5_NWS001044.md"
 },{
-id: 5761,
+id: 4356,
 title: "Segno quantità neutra in analisi disponibilità",
 cat: "NWS",
 rel: "V2R1",
 num: "001049",
 href: "Sorgenti/NWS/M5_NWS001049.md"
 },{
-id: 5762,
+id: 4357,
 title: "Flag di esclusione in analisi disponibilità righe",
 cat: "NWS",
 rel: "V2R1",
 num: "001052",
 href: "Sorgenti/NWS/M5_NWS001052.md"
 },{
-id: 5763,
+id: 4358,
 title: "Nuova routine £M5O di reperimento dati generali MR",
 cat: "NWS",
 rel: "V2R2",
 num: "001080",
 href: "Sorgenti/NWS/M5_NWS001080.md"
 },{
-id: 5764,
+id: 4359,
 title: "Scheda del modulo di pianficazione materiali",
 cat: "NWS",
 rel: "V2R2",
 num: "001091",
 href: "Sorgenti/NWS/M5_NWS001091.md"
 },{
-id: 5765,
+id: 4360,
 title: "Exit routine £M5A Interfaccia dati pianificazione",
 cat: "NWS",
 rel: "V2R2",
 num: "001111",
 href: "Sorgenti/NWS/M5_NWS001111.md"
 },{
-id: 5766,
+id: 4361,
 title: "Modifiche a fonti fisse MRP",
 cat: "NWS",
 rel: "V2R2",
 num: "001161",
 href: "Sorgenti/NWS/M5_NWS001161.md"
 },{
-id: 5767,
+id: 4362,
 title: "Nuovo OAV su oggetto M5",
 cat: "NWS",
 rel: "V2R2",
 num: "001167",
 href: "Sorgenti/NWS/M5_NWS001167.md"
 },{
-id: 5768,
+id: 4363,
 title: "Aggiustamento politiche",
 cat: "NWS",
 rel: "V2R2",
 num: "001179",
 href: "Sorgenti/NWS/M5_NWS001179.md"
 },{
-id: 5769,
+id: 4364,
 title: "Nuova funzione £M6D di completamento £M5D",
 cat: "NWS",
 rel: "V2R2",
 num: "001190",
 href: "Sorgenti/NWS/M5_NWS001190.md"
 },{
-id: 5770,
+id: 4365,
 title: "Novità in analisi disponibilità",
 cat: "NWS",
 rel: "V2R2",
 num: "001203",
 href: "Sorgenti/NWS/M5_NWS001203.md"
 },{
-id: 5771,
+id: 4366,
 title: "Applicazione Suggerimenti da Oggetto Consiglio di",
 cat: "NWS",
 rel: "V2R2",
 num: "001217",
 href: "Sorgenti/NWS/M5_NWS001217.md"
 },{
-id: 5772,
+id: 4367,
 title: "Appiattimento DRP",
 cat: "NWS",
 rel: "V2R2",
 num: "001225",
 href: "Sorgenti/NWS/M5_NWS001225.md"
 },{
-id: 5773,
+id: 4368,
 title: "Numeratore impegni risorse pianificati",
 cat: "NWS",
 rel: "V2R2",
 num: "001243",
 href: "Sorgenti/NWS/M5_NWS001243.md"
 },{
-id: 5774,
+id: 4369,
 title: "Nuove fonti &#x27;QG&#x27; - quantità giornaliera",
 cat: "NWS",
 rel: "V2R2",
 num: "001249",
 href: "Sorgenti/NWS/M5_NWS001249.md"
 },{
-id: 5775,
+id: 4370,
 title: "Applicazione suggerimenti annullamento MRP",
 cat: "NWS",
 rel: "V2R2",
 num: "001254",
 href: "Sorgenti/NWS/M5_NWS001254.md"
 },{
-id: 5776,
+id: 4371,
 title: "Pianificazione&#x3a; nuova consultazione suggerimenti",
 cat: "NWS",
 rel: "V2R3",
 num: "001261",
 href: "Sorgenti/NWS/M5_NWS001261.md"
 },{
-id: 5777,
+id: 4372,
 title: "ATP al livello",
 cat: "NWS",
 rel: "V2R3",
 num: "001306",
 href: "Sorgenti/NWS/M5_NWS001306.md"
 },{
-id: 5778,
+id: 4373,
 title: "Analisi disponibilità&#x3a; estensione nell&#x27;impostazio",
 cat: "NWS",
 rel: "V2R3",
 num: "001320",
 href: "Sorgenti/NWS/M5_NWS001320.md"
 },{
-id: 5779,
+id: 4374,
 title: "Ordinamento in ritorno fonti",
 cat: "NWS",
 rel: "V2R3",
 num: "001323",
 href: "Sorgenti/NWS/M5_NWS001323.md"
 },{
-id: 5780,
+id: 4375,
 title: "Quantità superflue MRP",
 cat: "NWS",
 rel: "V2R3",
 num: "001340",
 href: "Sorgenti/NWS/M5_NWS001340.md"
 },{
-id: 5781,
+id: 4376,
 title: "Implementi a £M5O",
 cat: "NWS",
 rel: "V2R3",
 num: "001341",
 href: "Sorgenti/NWS/M5_NWS001341.md"
 },{
-id: 5782,
+id: 4377,
 title: "Segnalaz.coperture cto lavoro",
 cat: "NWS",
 rel: "V2R3",
 num: "001344",
 href: "Sorgenti/NWS/M5_NWS001344.md"
 },{
-id: 5783,
+id: 4378,
 title: "MRP&#x3a; Indici e qtà superflue",
 cat: "NWS",
 rel: "V2R3",
 num: "001345",
 href: "Sorgenti/NWS/M5_NWS001345.md"
 },{
-id: 5784,
+id: 4379,
 title: "Scelta tipo componenti in analisi disponibilità",
 cat: "NWS",
 rel: "V2R3",
 num: "001363",
 href: "Sorgenti/NWS/M5_NWS001363.md"
 },{
-id: 5785,
+id: 4380,
 title: "Nuova exit aggiustamento azioni di rilascio.",
 cat: "NWS",
 rel: "V2R3",
 num: "001366",
 href: "Sorgenti/NWS/M5_NWS001366.md"
 },{
-id: 5786,
+id: 4381,
 title: "Novità in assegnazione Ente&#x2f;Contratto",
 cat: "NWS",
 rel: "V2R3",
 num: "001386",
 href: "Sorgenti/NWS/M5_NWS001386.md"
 },{
-id: 5787,
+id: 4382,
 title: "Lottizzazione&#x3a; £M5Q",
 cat: "NWS",
 rel: "V2R3",
 num: "001388",
 href: "Sorgenti/NWS/M5_NWS001388.md"
 },{
-id: 5788,
+id: 4383,
 title: "ATP multiplant completo",
 cat: "NWS",
 rel: "V2R3",
 num: "001439",
 href: "Sorgenti/NWS/M5_NWS001439.md"
 },{
-id: 5789,
+id: 4384,
 title: "Lancio funizzato MRP singolo codice",
 cat: "NWS",
 rel: "V2R3",
 num: "001442",
 href: "Sorgenti/NWS/M5_NWS001442.md"
 },{
-id: 5790,
+id: 4385,
 title: "Aggiustamento fonti negative in MRP",
 cat: "NWS",
 rel: "V2R3",
 num: "001455",
 href: "Sorgenti/NWS/M5_NWS001455.md"
 },{
-id: 5791,
+id: 4386,
 title: "Fonti bilanciate multiplant",
 cat: "NWS",
 rel: "V2R3",
 num: "001456",
 href: "Sorgenti/NWS/M5_NWS001456.md"
 },{
-id: 5792,
+id: 4387,
 title: "Miglioramenti schede MRP.",
 cat: "NWS",
 rel: "V2R3",
 num: "001460",
 href: "Sorgenti/NWS/M5_NWS001460.md"
 },{
-id: 5793,
+id: 4388,
 title: "Filtro plant in analisi disponibilità",
 cat: "NWS",
 rel: "V2R3",
 num: "001463",
 href: "Sorgenti/NWS/M5_NWS001463.md"
 },{
-id: 5794,
+id: 4389,
 title: "Esclusione gr.fonti di politica",
 cat: "NWS",
 rel: "V2R3",
 num: "001465",
 href: "Sorgenti/NWS/M5_NWS001465.md"
 },{
-id: 5795,
+id: 4390,
 title: "Rilascio righe su contratto",
 cat: "NWS",
 rel: "V2R3",
 num: "001468",
 href: "Sorgenti/NWS/M5_NWS001468.md"
 },{
-id: 5796,
+id: 4391,
 title: "Politica master",
 cat: "NWS",
 rel: "V2R3",
 num: "001473",
 href: "Sorgenti/NWS/M5_NWS001473.md"
 },{
-id: 5797,
+id: 4392,
 title: "Exit in analisi disponibilità",
 cat: "NWS",
 rel: "V2R3",
 num: "001487",
 href: "Sorgenti/NWS/M5_NWS001487.md"
 },{
-id: 5798,
+id: 4393,
 title: "Modifica a rilascio suggerimenti MRP",
 cat: "NWS",
 rel: "V2R3",
 num: "001491",
 href: "Sorgenti/NWS/M5_NWS001491.md"
 },{
-id: 5799,
+id: 4394,
 title: "Miglioramenti a scheda navigazione MRP",
 cat: "NWS",
 rel: "V2R3",
 num: "001492",
 href: "Sorgenti/NWS/M5_NWS001492.md"
 },{
-id: 5800,
+id: 4395,
 title: "Data scansione distinta in Mrp",
 cat: "NWS",
 rel: "V2R3",
 num: "001497",
 href: "Sorgenti/NWS/M5_NWS001497.md"
 },{
-id: 5801,
+id: 4396,
 title: "Segnalazione scaduti",
 cat: "NWS",
 rel: "V2R3",
 num: "001504",
 href: "Sorgenti/NWS/M5_NWS001504.md"
 },{
-id: 5802,
+id: 4397,
 title: "Controllo ammissibilità rilascio",
 cat: "NWS",
 rel: "V2R3",
 num: "001513",
 href: "Sorgenti/NWS/M5_NWS001513.md"
 },{
-id: 5803,
+id: 4398,
 title: "Modifiche a fonti giornaliere",
 cat: "NWS",
 rel: "V2R3",
 num: "001517",
 href: "Sorgenti/NWS/M5_NWS001517.md"
 },{
-id: 5804,
+id: 4399,
 title: "Rilascio righe su docum.derivato da contratto",
 cat: "NWS",
 rel: "V2R3",
 num: "001543",
 href: "Sorgenti/NWS/M5_NWS001543.md"
 },{
-id: 5805,
+id: 4400,
 title: "Nuove informazioni MRP",
 cat: "NWS",
 rel: "V2R3",
 num: "001575",
 href: "Sorgenti/NWS/M5_NWS001575.md"
 },{
-id: 5806,
+id: 4401,
 title: "Novità in Distinta Base",
 cat: "NWS",
 rel: "V3R1",
 num: "001584",
 href: "Sorgenti/NWS/M5_NWS001584.md"
 },{
-id: 5807,
+id: 4402,
 title: "Precisazione su fonti utente",
 cat: "NWS",
 rel: "V2R1",
 num: "001598",
 href: "Sorgenti/NWS/M5_NWS001598.md"
 },{
-id: 5808,
+id: 4403,
 title: "Novità in MRP in rilascio V3R1",
 cat: "NWS",
 rel: "V3R1",
 num: "001607",
 href: "Sorgenti/NWS/M5_NWS001607.md"
 },{
-id: 5809,
+id: 4404,
 title: "Applicazioni di massa di suggerimenti da scheda",
 cat: "NWS",
 rel: "V3R1",
 num: "001657",
 href: "Sorgenti/NWS/M5_NWS001657.md"
 },{
-id: 5810,
+id: 4405,
 title: "Pianificazione a punto di riordino",
 cat: "NWS",
 rel: "V3R1",
 num: "001676",
 href: "Sorgenti/NWS/M5_NWS001676.md"
 },{
-id: 5811,
+id: 4406,
 title: "Novità in analisi disponibilità",
 cat: "NWS",
 rel: "V3R1",
 num: "001685",
 href: "Sorgenti/NWS/M5_NWS001685.md"
 },{
-id: 5812,
+id: 4407,
 title: "Novità in OAV su consigli di pianificazione",
 cat: "NWS",
 rel: "V3R1",
 num: "001691",
 href: "Sorgenti/NWS/M5_NWS001691.md"
 },{
-id: 5813,
+id: 4408,
 title: "Novità in schede &#x22;Analisi MRP&#x22;",
 cat: "NWS",
 rel: "V3R1",
 num: "001694",
 href: "Sorgenti/NWS/M5_NWS001694.md"
 },{
-id: 5814,
+id: 4409,
 title: "Revisione fonte deviata altro ambiente",
 cat: "NWS",
 rel: "V3R1",
 num: "001703",
 href: "Sorgenti/NWS/M5_NWS001703.md"
 },{
-id: 5815,
+id: 4410,
 title: "Novità MRP",
 cat: "NWS",
 rel: "V3R2",
 num: "001735",
 href: "Sorgenti/NWS/M5_NWS001735.md"
 },{
-id: 5816,
+id: 4411,
 title: "Utente in log",
 cat: "NWS",
 rel: "V3R2",
 num: "001738",
 href: "Sorgenti/NWS/M5_NWS001738.md"
 },{
-id: 5817,
+id: 4412,
 title: "Nuove schede di navigazione MRP",
 cat: "NWS",
 rel: "V3R2",
 num: "001742",
 href: "Sorgenti/NWS/M5_NWS001742.md"
 },{
-id: 5818,
+id: 4413,
 title: "Scenario MRP autopulente",
 cat: "NWS",
 rel: "V3R2",
 num: "001760",
 href: "Sorgenti/NWS/M5_NWS001760.md"
 },{
-id: 5819,
+id: 4414,
 title: "Disponibilità Giac.Negative",
 cat: "NWS",
 rel: "V3R2",
 num: "001769",
 href: "Sorgenti/NWS/M5_NWS001769.md"
 },{
-id: 5820,
+id: 4415,
 title: "Dismissione modulo M5SMRP",
 cat: "NWS",
 rel: "V3R2",
 num: "001787",
 href: "Sorgenti/NWS/M5_NWS001787.md"
 },{
-id: 5821,
+id: 4416,
 title: "Exit Scheda MRP",
 cat: "NWS",
 rel: "V3R2",
 num: "001798",
 href: "Sorgenti/NWS/M5_NWS001798.md"
 },{
-id: 5822,
+id: 4417,
 title: "Novità schede MRP",
 cat: "NWS",
 rel: "V3R2",
 num: "001808",
 href: "Sorgenti/NWS/M5_NWS001808.md"
 },{
-id: 5823,
+id: 4418,
 title: "Exit su scansione disponibiltà in MRP",
 cat: "NWS",
 rel: "V4R2",
 num: "001819",
 href: "Sorgenti/NWS/M5_NWS001819.md"
 },{
-id: 5824,
+id: 4419,
 title: "Consultazione ATP - dati per calcolo lead time",
 cat: "NWS",
 rel: "V3R2",
 num: "001847",
 href: "Sorgenti/NWS/M5_NWS001847.md"
 },{
-id: 5825,
+id: 4420,
 title: "Analisi disp.in MPS",
 cat: "NWS",
 rel: "V3R2",
 num: "001897",
 href: "Sorgenti/NWS/M5_NWS001897.md"
 },{
-id: 5826,
+id: 4421,
 title: "Lead time cumulato in disp.libera",
 cat: "NWS",
 rel: "V3R2",
 num: "001908",
 href: "Sorgenti/NWS/M5_NWS001908.md"
 },{
-id: 5827,
+id: 4422,
 title: "Periodicità da scenario",
 cat: "NWS",
 rel: "V3R2",
 num: "001913",
 href: "Sorgenti/NWS/M5_NWS001913.md"
 },{
-id: 5828,
+id: 4423,
 title: "Nuovo metodo in Analisi disponibilità",
 cat: "NWS",
 rel: "V3R2",
 num: "001915",
 href: "Sorgenti/NWS/M5_NWS001915.md"
 },{
-id: 5829,
+id: 4424,
 title: "Scheda modulo M5DISP",
 cat: "NWS",
 rel: "V3R2",
 num: "001924",
 href: "Sorgenti/NWS/M5_NWS001924.md"
 },{
-id: 5830,
+id: 4425,
 title: "Selfie MRP",
 cat: "NWS",
 rel: "V4R1",
 num: "002010",
 href: "Sorgenti/NWS/M5_NWS002010.md"
 },{
-id: 5831,
+id: 4426,
 title: "Nuova funzione a exit MRP",
 cat: "NWS",
 rel: "V4R1",
 num: "002011",
 href: "Sorgenti/NWS/M5_NWS002011.md"
 },{
-id: 5832,
+id: 4427,
 title: "Novità in MRP e analisi disponibilità",
 cat: "NWS",
 rel: "V4R1",
 num: "002040",
 href: "Sorgenti/NWS/M5_NWS002040.md"
 },{
-id: 5833,
+id: 4428,
 title: "Novità schede di navigazione MRP",
 cat: "NWS",
 rel: "V4R1",
 num: "002061",
 href: "Sorgenti/NWS/M5_NWS002061.md"
 },{
-id: 5834,
+id: 4429,
 title: "Analisi su griglia date&#x3a; disponibilità e MRP",
 cat: "NWS",
 rel: "V4R1",
 num: "002065",
 href: "Sorgenti/NWS/M5_NWS002065.md"
 },{
-id: 5835,
+id: 4430,
 title: "Surf Eventi e Eventi di rilelazione",
 cat: "NWS",
 rel: "V4R1",
 num: "002067",
 href: "Sorgenti/NWS/M5_NWS002067.md"
 },{
-id: 5836,
+id: 4431,
 title: "Novità in scheda presentazione ATP",
 cat: "NWS",
 rel: "V4R1",
 num: "002076",
 href: "Sorgenti/NWS/M5_NWS002076.md"
 },{
-id: 5837,
+id: 4432,
 title: "Novità in analisi disponibilità e DRP",
 cat: "NWS",
 rel: "V4R1",
 num: "002101",
 href: "Sorgenti/NWS/M5_NWS002101.md"
 },{
-id: 5838,
+id: 4433,
 title: "Novità in analisi disponibilità",
 cat: "NWS",
 rel: "V4R1",
 num: "002107",
 href: "Sorgenti/NWS/M5_NWS002107.md"
 },{
-id: 5839,
+id: 4434,
 title: "Ordinamento utente nella disponibilità",
 cat: "NWS",
 rel: "V5R1",
 num: "002226",
 href: "Sorgenti/NWS/M5_NWS002226.md"
 },{
-id: 5840,
+id: 4435,
 title: "Contesto per analisi disponibilità",
 cat: "NWS",
 rel: "V5R1",
 num: "002270",
 href: "Sorgenti/NWS/M5_NWS002270.md"
 },{
-id: 5841,
+id: 4436,
 title: "Exit Fine Livello MRP",
 cat: "NWS",
 rel: "V5R1",
 num: "002352",
 href: "Sorgenti/NWS/M5_NWS002352.md"
 },{
-id: 5842,
+id: 4437,
 title: "Escludere impegni pianificati nell&#x27;MRP",
 cat: "NWS",
 rel: "V5R1",
 num: "002371",
 href: "Sorgenti/NWS/M5_NWS002371.md"
 },{
-id: 5843,
+id: 4438,
 title: "Gestione Interventi Programmati",
 cat: "NWS",
 rel: "V1R5",
 num: "000555",
 href: "Sorgenti/NWS/MM_NWS000555.md"
 },{
-id: 5844,
+id: 4439,
 title: "Nuovo ordinamento in stampa interventi programmati",
 cat: "NWS",
 rel: "V2R1",
 num: "001057",
 href: "Sorgenti/NWS/MM_NWS001057.md"
 },{
-id: 5845,
+id: 4440,
 title: "Nuovo logico sull&#x27;archivio MMMANU0F",
 cat: "NWS",
 rel: "V2R2",
 num: "001189",
 href: "Sorgenti/NWS/MM_NWS001189.md"
 },{
-id: 5846,
+id: 4441,
 title: "Lancio batch estrazione interventi",
 cat: "NWS",
 rel: "V2R2",
 num: "001222",
 href: "Sorgenti/NWS/MM_NWS001222.md"
 },{
-id: 5847,
+id: 4442,
 title: "Novita&#x27; Modulo MM in V3R1",
 cat: "NWS",
 rel: "V3R1",
 num: "001647",
 href: "Sorgenti/NWS/MM_NWS001647.md"
 },{
-id: 5848,
+id: 4443,
 title: "Nuovi sviluppi Manutenzione Macchine",
 cat: "NWS",
 rel: "V5R1",
 num: "002213",
 href: "Sorgenti/NWS/MM_NWS002213.md"
 },{
-id: 5849,
+id: 4444,
 title: "Nuove versioni Sme.UP Mobile",
 cat: "NWS",
 rel: "V4R1",
 num: "002128",
 href: "Sorgenti/NWS/MO_NWS002128.md"
 },{
-id: 5850,
+id: 4445,
 title: "Nuovo rilascio Sme.UP Mobile.",
 cat: "NWS",
 rel: "V5R1",
 num: "002241",
 href: "Sorgenti/NWS/MO_NWS002241.md"
 },{
-id: 5851,
+id: 4446,
 title: "Leadtime per arretramento MPAP32",
 cat: "NWS",
 rel: "",
 num: "000055",
 href: "Sorgenti/NWS/MP_NWS000055.md"
 },{
-id: 5852,
+id: 4447,
 title: "Ripresa in una vista da due piani diversi",
 cat: "NWS",
 rel: "",
 num: "000057",
 href: "Sorgenti/NWS/MP_NWS000057.md"
 },{
-id: 5853,
+id: 4448,
 title: "Segnalazioni in Lista Pianificazione",
 cat: "NWS",
 rel: "",
 num: "000181",
 href: "Sorgenti/NWS/MP_NWS000181.md"
 },{
-id: 5854,
+id: 4449,
 title: "MPS - Modifiche ai programmi di Visualizzazione e",
 cat: "NWS",
 rel: "V1R5",
 num: "000603",
 href: "Sorgenti/NWS/MP_NWS000603.md"
 },{
-id: 5855,
+id: 4450,
 title: "MPS - Controllo chiavi piano facoltative",
 cat: "NWS",
 rel: "V1R5",
 num: "000679",
 href: "Sorgenti/NWS/MP_NWS000679.md"
 },{
-id: 5856,
+id: 4451,
 title: "Esecuzione flusso azioni - selezione piano&#x2f;flusso",
 cat: "NWS",
 rel: "V2R1",
 num: "000880",
 href: "Sorgenti/NWS/MP_NWS000880.md"
 },{
-id: 5857,
+id: 4452,
 title: "MPS - Controllo elemento tabella MPC",
 cat: "NWS",
 rel: "V2R1",
 num: "000910",
 href: "Sorgenti/NWS/MP_NWS000910.md"
 },{
-id: 5858,
+id: 4453,
 title: "Manutenzione manuale viste piani",
 cat: "NWS",
 rel: "V2R2",
 num: "001185",
 href: "Sorgenti/NWS/MP_NWS001185.md"
 },{
-id: 5859,
+id: 4454,
 title: "Operazione su vista MPPIAN con OAV",
 cat: "NWS",
 rel: "V2R3",
 num: "001353",
 href: "Sorgenti/NWS/MP_NWS001353.md"
 },{
-id: 5860,
+id: 4455,
 title: "Nuovo metodo per MPPIAN carico risorse",
 cat: "NWS",
 rel: "V2R3",
 num: "001416",
 href: "Sorgenti/NWS/MP_NWS001416.md"
 },{
-id: 5861,
+id: 4456,
 title: "Intestazione colonne MPS in matrici",
 cat: "NWS",
 rel: "V2R3",
 num: "001482",
 href: "Sorgenti/NWS/MP_NWS001482.md"
 },{
-id: 5862,
+id: 4457,
 title: "Definizione significato campi liberi di MPPIAN",
 cat: "NWS",
 rel: "V2R3",
 num: "001554",
 href: "Sorgenti/NWS/MP_NWS001554.md"
 },{
-id: 5863,
+id: 4458,
 title: "Nuova gestione previsioni",
 cat: "NWS",
 rel: "V2R3",
 num: "001590",
 href: "Sorgenti/NWS/MP_NWS001590.md"
 },{
-id: 5864,
+id: 4459,
 title: "Novità in previsioni HW",
 cat: "NWS",
 rel: "V3R1",
 num: "001675",
 href: "Sorgenti/NWS/MP_NWS001675.md"
 },{
-id: 5865,
+id: 4460,
 title: "Scrittura nuovo piano",
 cat: "NWS",
 rel: "V3R2",
 num: "001753",
 href: "Sorgenti/NWS/MP_NWS001753.md"
 },{
-id: 5866,
+id: 4461,
 title: "Miglioramento a confronto viste",
 cat: "NWS",
 rel: "V3R2",
 num: "001782",
 href: "Sorgenti/NWS/MP_NWS001782.md"
 },{
-id: 5867,
+id: 4462,
 title: "Novità Holt Winters",
 cat: "NWS",
 rel: "V3R2",
 num: "001828",
 href: "Sorgenti/NWS/MP_NWS001828.md"
 },{
-id: 5868,
+id: 4463,
 title: "Sostituzioni multiple in HW",
 cat: "NWS",
 rel: "V2R3",
 num: "001839",
 href: "Sorgenti/NWS/MP_NWS001839.md"
 },{
-id: 5869,
+id: 4464,
 title: "Novità Holt Winters",
 cat: "NWS",
 rel: "V4R1",
 num: "001974",
 href: "Sorgenti/NWS/MP_NWS001974.md"
 },{
-id: 5870,
+id: 4465,
 title: "Calcolo coefficiente di variazione",
 cat: "NWS",
 rel: "V4R1",
 num: "001989",
 href: "Sorgenti/NWS/MP_NWS001989.md"
 },{
-id: 5871,
+id: 4466,
 title: "Holt Winters - Configurazione autofit",
 cat: "NWS",
 rel: "V4R1",
 num: "002105",
 href: "Sorgenti/NWS/MP_NWS002105.md"
 },{
-id: 5872,
+id: 4467,
 title: "Flussi Oggetto EC",
 cat: "NWS",
 rel: "V1R5",
 num: "000649",
 href: "Sorgenti/NWS/MT_NWS000649.md"
 },{
-id: 5873,
+id: 4468,
 title: "Revisione modifiche tecniche",
 cat: "NWS",
 rel: "V3R1",
 num: "001649",
 href: "Sorgenti/NWS/MT_NWS001649.md"
 },{
-id: 5874,
+id: 4469,
 title: "Nuove funzionalità della generazione PDF tramite",
 cat: "NWS",
 rel: "V2R1",
 num: "000945",
 href: "Sorgenti/NWS/NS_NWS000945.md"
 },{
-id: 5875,
+id: 4470,
 title: "Supporto dei CPI per i font PDF e dei formati docu",
 cat: "NWS",
 rel: "V2R1",
 num: "000957",
 href: "Sorgenti/NWS/NS_NWS000957.md"
 },{
-id: 5876,
+id: 4471,
 title: "Attivazione file di log in IFS per le funzioni G53",
 cat: "NWS",
 rel: "V2R1",
 num: "000958",
 href: "Sorgenti/NWS/NS_NWS000958.md"
 },{
-id: 5877,
+id: 4472,
 title: "Supporto LPI nella generazione dei PDF",
 cat: "NWS",
 rel: "V2R1",
 num: "000975",
 href: "Sorgenti/NWS/NS_NWS000975.md"
 },{
-id: 5878,
+id: 4473,
 title: "Supporto del formato HTML come testo mail",
 cat: "NWS",
 rel: "V2R1",
 num: "000980",
 href: "Sorgenti/NWS/NS_NWS000980.md"
 },{
-id: 5879,
+id: 4474,
 title: "Nuove specifiche BTX e RTX in generazione PDF con",
 cat: "NWS",
 rel: "V2R2",
 num: "001170",
 href: "Sorgenti/NWS/NS_NWS001170.md"
 },{
-id: 5880,
+id: 4475,
 title: "G53&#x3a; Cambio comportamento barcode in PDF",
 cat: "NWS",
 rel: "V2R3",
 num: "001558",
 href: "Sorgenti/NWS/NS_NWS001558.md"
 },{
-id: 5881,
+id: 4476,
 title: "G53 su iSeries con JVM 1.5",
 cat: "NWS",
 rel: "V3R1",
 num: "001643",
 href: "Sorgenti/NWS/NS_NWS001643.md"
 },{
-id: 5882,
+id: 4477,
 title: "Posta Elettronica Certificata ed invio tramite G53",
 cat: "NWS",
 rel: "V3R1",
 num: "001644",
 href: "Sorgenti/NWS/NS_NWS001644.md"
 },{
-id: 5883,
+id: 4478,
 title: "Salvataggio mail G53 non inviate per errore SMTP",
 cat: "NWS",
 rel: "V3R1",
 num: "001683",
 href: "Sorgenti/NWS/NS_NWS001683.md"
 },{
-id: 5884,
+id: 4479,
 title: "SmePD. Server LPD ed orientamento stampa automatic",
 cat: "NWS",
 rel: "V3R2",
 num: "001741",
 href: "Sorgenti/NWS/NS_NWS001741.md"
 },{
-id: 5885,
+id: 4480,
 title: "Barcode EAN-128",
 cat: "NWS",
 rel: "V3R2",
 num: "001767",
 href: "Sorgenti/NWS/NS_NWS001767.md"
 },{
-id: 5886,
+id: 4481,
 title: "G53&#x3a; nuova funzione di cifratura RSA",
 cat: "NWS",
 rel: "V3R2",
 num: "001890",
 href: "Sorgenti/NWS/NS_NWS001890.md"
 },{
-id: 5887,
+id: 4482,
 title: "Acquisizione certificati server SMTPS",
 cat: "NWS",
 rel: "V3R2",
 num: "001899",
 href: "Sorgenti/NWS/NS_NWS001899.md"
 },{
-id: 5888,
+id: 4483,
 title: "AOP&#x3a; nuove funzionalità mail PEC e allegati",
 cat: "NWS",
 rel: "V4R1",
 num: "001987",
 href: "Sorgenti/NWS/NS_NWS001987.md"
 },{
-id: 5889,
+id: 4484,
 title: "Novità importanti £G53&#x3a; internazionalizzazione -g",
 cat: "NWS",
 rel: "V4R1",
 num: "002080",
 href: "Sorgenti/NWS/NS_NWS002080.md"
 },{
-id: 5890,
+id: 4485,
 title: "Nuova tracciatura esiti £G53&#x3a; email - trasferiment",
 cat: "NWS",
 rel: "V4R1",
 num: "002081",
 href: "Sorgenti/NWS/NS_NWS002081.md"
 },{
-id: 5891,
+id: 4486,
 title: "Integrazione documentale a COMPED",
 cat: "NWS",
 rel: "V2R3",
 num: "001412",
 href: "Sorgenti/NWS/OD_NWS001412.md"
 },{
-id: 5892,
+id: 4487,
 title: "Creazione ordini C&#x2f;L di fase da ordini produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000010",
 href: "Sorgenti/NWS/P5_NWS000010.md"
 },{
-id: 5893,
+id: 4488,
 title: "Valorizzazione ordini e WIP",
 cat: "NWS",
 rel: "V1R4",
 num: "000011",
 href: "Sorgenti/NWS/P5_NWS000011.md"
 },{
-id: 5894,
+id: 4489,
 title: "Avanzamento produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000023",
 href: "Sorgenti/NWS/P5_NWS000023.md"
 },{
-id: 5895,
+id: 4490,
 title: "Rifasatura ordini produzione",
 cat: "NWS",
 rel: "",
 num: "000067",
 href: "Sorgenti/NWS/P5_NWS000067.md"
 },{
-id: 5896,
+id: 4491,
 title: "Rifasatura imp. materiali e risorse",
 cat: "NWS",
 rel: "",
 num: "000070",
 href: "Sorgenti/NWS/P5_NWS000070.md"
 },{
-id: 5897,
+id: 4492,
 title: "Movimetazione su avanzamento",
 cat: "NWS",
 rel: "",
 num: "000081",
 href: "Sorgenti/NWS/P5_NWS000081.md"
 },{
-id: 5898,
+id: 4493,
 title: "Presentazione ciclo di un ordine&#x2f;documento",
 cat: "NWS",
 rel: "",
 num: "000088",
 href: "Sorgenti/NWS/P5_NWS000088.md"
 },{
-id: 5899,
+id: 4494,
 title: "Costruzione criterio di ordinamento schedulazione",
 cat: "NWS",
 rel: "",
 num: "000098",
 href: "Sorgenti/NWS/P5_NWS000098.md"
 },{
-id: 5900,
+id: 4495,
 title: "Costruzione impegni",
 cat: "NWS",
 rel: "",
 num: "000100",
 href: "Sorgenti/NWS/P5_NWS000100.md"
 },{
-id: 5901,
+id: 4496,
 title: "Data manuale su impegni",
 cat: "NWS",
 rel: "",
 num: "000114",
 href: "Sorgenti/NWS/P5_NWS000114.md"
 },{
-id: 5902,
+id: 4497,
 title: "Note sulle Attività",
 cat: "NWS",
 rel: "",
 num: "000132",
 href: "Sorgenti/NWS/P5_NWS000132.md"
 },{
-id: 5903,
+id: 4498,
 title: "Operazioni di Gruppo",
 cat: "NWS",
 rel: "",
 num: "000133",
 href: "Sorgenti/NWS/P5_NWS000133.md"
 },{
-id: 5904,
+id: 4499,
 title: "Ordini Dipendenti",
 cat: "NWS",
 rel: "",
 num: "000134",
 href: "Sorgenti/NWS/P5_NWS000134.md"
 },{
-id: 5905,
+id: 4500,
 title: "Rifasatura Ordini di Produzione",
 cat: "NWS",
 rel: "",
 num: "000139",
 href: "Sorgenti/NWS/P5_NWS000139.md"
 },{
-id: 5906,
+id: 4501,
 title: "Avanzamento Produzione",
 cat: "NWS",
 rel: "",
 num: "000141",
 href: "Sorgenti/NWS/P5_NWS000141.md"
 },{
-id: 5907,
+id: 4502,
 title: "Passaggio a Ordini P5 a righe di Conto Lavoro di F",
 cat: "NWS",
 rel: "",
 num: "000165",
 href: "Sorgenti/NWS/P5_NWS000165.md"
 },{
-id: 5908,
+id: 4503,
 title: "Novita&#x27; su Visualizzazioni Distinta e Ciclo del D",
 cat: "NWS",
 rel: "",
 num: "000182",
 href: "Sorgenti/NWS/P5_NWS000182.md"
 },{
-id: 5909,
+id: 4504,
 title: "Versamenti &#x2f; Prelievi",
 cat: "NWS",
 rel: "",
 num: "000183",
 href: "Sorgenti/NWS/P5_NWS000183.md"
 },{
-id: 5910,
+id: 4505,
 title: "Revisione Movimenti di Produzione",
 cat: "NWS",
 rel: "",
 num: "000184",
 href: "Sorgenti/NWS/P5_NWS000184.md"
 },{
-id: 5911,
+id: 4506,
 title: "Funzioni su Richiesta Movimentazione",
 cat: "NWS",
 rel: "",
 num: "000200",
 href: "Sorgenti/NWS/P5_NWS000200.md"
 },{
-id: 5912,
+id: 4507,
 title: "Creazione Impegni",
 cat: "NWS",
 rel: "",
 num: "000204",
 href: "Sorgenti/NWS/P5_NWS000204.md"
 },{
-id: 5913,
+id: 4508,
 title: "Interrogazione Impegni Risorse",
 cat: "NWS",
 rel: "",
 num: "000231",
 href: "Sorgenti/NWS/P5_NWS000231.md"
 },{
-id: 5914,
+id: 4509,
 title: "OAV su Ordini di Produzione",
 cat: "NWS",
 rel: "",
 num: "000232",
 href: "Sorgenti/NWS/P5_NWS000232.md"
 },{
-id: 5915,
+id: 4510,
 title: "Dichiarazione Attivita&#x27;",
 cat: "NWS",
 rel: "",
 num: "000254",
 href: "Sorgenti/NWS/P5_NWS000254.md"
 },{
-id: 5916,
+id: 4511,
 title: "Distinta &#x2f; Ciclo  Documento",
 cat: "NWS",
 rel: "",
 num: "000256",
 href: "Sorgenti/NWS/P5_NWS000256.md"
 },{
-id: 5917,
+id: 4512,
 title: "Prelievi e Versamenti Pianificati",
 cat: "NWS",
 rel: "",
 num: "000262",
 href: "Sorgenti/NWS/P5_NWS000262.md"
 },{
-id: 5918,
+id: 4513,
 title: "Stampa Impegni Risorse",
 cat: "NWS",
 rel: "",
 num: "000264",
 href: "Sorgenti/NWS/P5_NWS000264.md"
 },{
-id: 5919,
+id: 4514,
 title: "Rifasatura Impegni Esterni",
 cat: "NWS",
 rel: "",
 num: "000271",
 href: "Sorgenti/NWS/P5_NWS000271.md"
 },{
-id: 5920,
+id: 4515,
 title: "Ripresa Campi  in Impegni  Materiali e Risorse",
 cat: "NWS",
 rel: "",
 num: "000272",
 href: "Sorgenti/NWS/P5_NWS000272.md"
 },{
-id: 5921,
+id: 4516,
 title: "Funzioni Estese sugli Ordini di Produzione",
 cat: "NWS",
 rel: "",
 num: "000277",
 href: "Sorgenti/NWS/P5_NWS000277.md"
 },{
-id: 5922,
+id: 4517,
 title: "Tempo Approvigionamento Fittizi",
 cat: "NWS",
 rel: "",
 num: "000284",
 href: "Sorgenti/NWS/P5_NWS000284.md"
 },{
-id: 5923,
+id: 4518,
 title: "Attivazione asi  Alternative",
 cat: "NWS",
 rel: "",
 num: "000289",
 href: "Sorgenti/NWS/P5_NWS000289.md"
 },{
-id: 5924,
+id: 4519,
 title: "Flag in Causali Attività",
 cat: "NWS",
 rel: "",
 num: "000296",
 href: "Sorgenti/NWS/P5_NWS000296.md"
 },{
-id: 5925,
+id: 4520,
 title: "Nuovi Modi di Costruzione Impegni Materiali",
 cat: "NWS",
 rel: "\*ALL",
 num: "000317",
 href: "Sorgenti/NWS/P5_NWS000317.md"
 },{
-id: 5926,
+id: 4521,
 title: "Controlli Esterni in Gestione Ordini di Produzione",
 cat: "NWS",
 rel: "",
 num: "000319",
 href: "Sorgenti/NWS/P5_NWS000319.md"
 },{
-id: 5927,
+id: 4522,
 title: "Ordini di Conto Lavoro collegati a Ordine di Produ",
 cat: "NWS",
 rel: "",
 num: "000320",
 href: "Sorgenti/NWS/P5_NWS000320.md"
 },{
-id: 5928,
+id: 4523,
 title: "Esistenza alla Fase",
 cat: "NWS",
 rel: "",
 num: "000322",
 href: "Sorgenti/NWS/P5_NWS000322.md"
 },{
-id: 5929,
+id: 4524,
 title: "Nuovi Oggetti Impegni Materiali e Risorse",
 cat: "NWS",
 rel: "",
 num: "000328",
 href: "Sorgenti/NWS/P5_NWS000328.md"
 },{
-id: 5930,
+id: 4525,
 title: "Variazione agli Impegni Materiali",
 cat: "NWS",
 rel: "V1R4",
 num: "000338",
 href: "Sorgenti/NWS/P5_NWS000338.md"
 },{
-id: 5931,
+id: 4526,
 title: "Impegni Materiali con Lotto Fisso",
 cat: "NWS",
 rel: "V1R4",
 num: "000348",
 href: "Sorgenti/NWS/P5_NWS000348.md"
 },{
-id: 5932,
+id: 4527,
 title: "Novità su Movimenti di Produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000352",
 href: "Sorgenti/NWS/P5_NWS000352.md"
 },{
-id: 5933,
+id: 4528,
 title: "Novità su Versamenti di Produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000358",
 href: "Sorgenti/NWS/P5_NWS000358.md"
 },{
-id: 5934,
+id: 4529,
 title: "Movimenti Neutri in Impegni di Produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000368",
 href: "Sorgenti/NWS/P5_NWS000368.md"
 },{
-id: 5935,
+id: 4530,
 title: "Novità in impegni risorse",
 cat: "NWS",
 rel: "V1R4",
 num: "000396",
 href: "Sorgenti/NWS/P5_NWS000396.md"
 },{
-id: 5936,
+id: 4531,
 title: "Formato Esteso Lista Ordini di Produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000400",
 href: "Sorgenti/NWS/P5_NWS000400.md"
 },{
-id: 5937,
+id: 4532,
 title: "Rifasatura Impegni Esterni",
 cat: "NWS",
 rel: "V1R4",
 num: "000414",
 href: "Sorgenti/NWS/P5_NWS000414.md"
 },{
-id: 5938,
+id: 4533,
 title: "Collegamento Impegni di Produzione -&#x3e; Conto Lavoro",
 cat: "NWS",
 rel: "V1R4",
 num: "000416",
 href: "Sorgenti/NWS/P5_NWS000416.md"
 },{
-id: 5939,
+id: 4534,
 title: "Chiusura contestuale ordine di produzione da c&#x2f;to",
 cat: "NWS",
 rel: "V1R4",
 num: "000422",
 href: "Sorgenti/NWS/P5_NWS000422.md"
 },{
-id: 5940,
+id: 4535,
 title: "Prelievo Visualizzato componenti Fase",
 cat: "NWS",
 rel: "V1R4",
 num: "000424",
 href: "Sorgenti/NWS/P5_NWS000424.md"
 },{
-id: 5941,
+id: 4536,
 title: "Deviatore a dettaglio ordini di produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000425",
 href: "Sorgenti/NWS/P5_NWS000425.md"
 },{
-id: 5942,
+id: 4537,
 title: "Nuovo logico sulla testata ordini di produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000434",
 href: "Sorgenti/NWS/P5_NWS000434.md"
 },{
-id: 5943,
+id: 4538,
 title: "Chiusura attività",
 cat: "NWS",
 rel: "V1R4",
 num: "000442",
 href: "Sorgenti/NWS/P5_NWS000442.md"
 },{
-id: 5944,
+id: 4539,
 title: "Parzializzatore attività",
 cat: "NWS",
 rel: "V1R4",
 num: "000496",
 href: "Sorgenti/NWS/P5_NWS000496.md"
 },{
-id: 5945,
+id: 4540,
 title: "Relazioni P5 &#x2f; V5",
 cat: "NWS",
 rel: "V1R4",
 num: "000503",
 href: "Sorgenti/NWS/P5_NWS000503.md"
 },{
-id: 5946,
+id: 4541,
 title: "Tabella P5I - Scarichi non pianificati su ordine.",
 cat: "NWS",
 rel: "V1R4",
 num: "000505",
 href: "Sorgenti/NWS/P5_NWS000505.md"
 },{
-id: 5947,
+id: 4542,
 title: "Implementazione programma aggiustamento impegni di",
 cat: "NWS",
 rel: "V1R4",
 num: "000511",
 href: "Sorgenti/NWS/P5_NWS000511.md"
 },{
-id: 5948,
+id: 4543,
 title: "Impegni risorse",
 cat: "NWS",
 rel: "V1R4",
 num: "000517",
 href: "Sorgenti/NWS/P5_NWS000517.md"
 },{
-id: 5949,
+id: 4544,
 title: "Generazione ordini dipendenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000528",
 href: "Sorgenti/NWS/P5_NWS000528.md"
 },{
-id: 5950,
+id: 4545,
 title: "Rifasatura impegni di produzione",
 cat: "NWS",
 rel: "V1R4",
 num: "000531",
 href: "Sorgenti/NWS/P5_NWS000531.md"
 },{
-id: 5951,
+id: 4546,
 title: "Lista Impegni materiali",
 cat: "NWS",
 rel: "V1R4",
 num: "000540",
 href: "Sorgenti/NWS/P5_NWS000540.md"
 },{
-id: 5952,
+id: 4547,
 title: "Collegamento a richieste di conto lavoro",
 cat: "NWS",
 rel: "V1R5",
 num: "000553",
 href: "Sorgenti/NWS/P5_NWS000553.md"
 },{
-id: 5953,
+id: 4548,
 title: "Livello di nascita ordini produzione per tipologia",
 cat: "NWS",
 rel: "V1R5",
 num: "000570",
 href: "Sorgenti/NWS/P5_NWS000570.md"
 },{
-id: 5954,
+id: 4549,
 title: "Avanzamento produzione&#x3a; forzatura saldo con scarti",
 cat: "NWS",
 rel: "V1R5",
 num: "000617",
 href: "Sorgenti/NWS/P5_NWS000617.md"
 },{
-id: 5955,
+id: 4550,
 title: "Rifasatura Impegni Rich.Acquisto",
 cat: "NWS",
 rel: "V1R5",
 num: "000625",
 href: "Sorgenti/NWS/P5_NWS000625.md"
 },{
-id: 5956,
+id: 4551,
 title: "Lancio flusso collegamento al versamento di",
 cat: "NWS",
 rel: "V1R5",
 num: "000626",
 href: "Sorgenti/NWS/P5_NWS000626.md"
 },{
-id: 5957,
+id: 4552,
 title: "Impegni risorse produttive nettificate dal versato",
 cat: "NWS",
 rel: "V1R5",
 num: "000627",
 href: "Sorgenti/NWS/P5_NWS000627.md"
 },{
-id: 5958,
+id: 4553,
 title: "Parzializzatore su prelievi",
 cat: "NWS",
 rel: "V1R5",
 num: "000671",
 href: "Sorgenti/NWS/P5_NWS000671.md"
 },{
-id: 5959,
+id: 4554,
 title: "Calcolo impegno interno&#x2f;esterno",
 cat: "NWS",
 rel: "V1R5",
 num: "000675",
 href: "Sorgenti/NWS/P5_NWS000675.md"
 },{
-id: 5960,
+id: 4555,
 title: "Passaggio DS Distinta Programma Aggiustamento",
 cat: "NWS",
 rel: "V1R5",
 num: "000690",
 href: "Sorgenti/NWS/P5_NWS000690.md"
 },{
-id: 5961,
+id: 4556,
 title: "Exit su Ciclo&#x2f;Distinta Memorizzato",
 cat: "NWS",
 rel: "V2R1",
 num: "000734",
 href: "Sorgenti/NWS/P5_NWS000734.md"
 },{
-id: 5962,
+id: 4557,
 title: "Classe di Autorizzazioni su Ord.di Prod.",
 cat: "NWS",
 rel: "V2R1",
 num: "000756",
 href: "Sorgenti/NWS/P5_NWS000756.md"
 },{
-id: 5963,
+id: 4558,
 title: "OAV Impegni materiali",
 cat: "NWS",
 rel: "V2R1",
 num: "000763",
 href: "Sorgenti/NWS/P5_NWS000763.md"
 },{
-id: 5964,
+id: 4559,
 title: "Filtri esterni in stampa impegni materiali",
 cat: "NWS",
 rel: "V2R1",
 num: "000764",
 href: "Sorgenti/NWS/P5_NWS000764.md"
 },{
-id: 5965,
+id: 4560,
 title: "Inserimento ordine produzione&#x3a; controllo stato",
 cat: "NWS",
 rel: "V2R1",
 num: "000765",
 href: "Sorgenti/NWS/P5_NWS000765.md"
 },{
-id: 5966,
+id: 4561,
 title: "Nuove modalità di determinazione data scansione",
 cat: "NWS",
 rel: "V2R1",
 num: "000817",
 href: "Sorgenti/NWS/P5_NWS000817.md"
 },{
-id: 5967,
+id: 4562,
 title: "Novità in stampa impegni risorse",
 cat: "NWS",
 rel: "V2R1",
 num: "000839",
 href: "Sorgenti/NWS/P5_NWS000839.md"
 },{
-id: 5968,
+id: 4563,
 title: "Inizializzatore eventi",
 cat: "NWS",
 rel: "V2R1",
 num: "000849",
 href: "Sorgenti/NWS/P5_NWS000849.md"
 },{
-id: 5969,
+id: 4564,
 title: "Riepilogo entrate&#x2f;uscite in interrogazione ordini",
 cat: "NWS",
 rel: "V2R1",
 num: "000882",
 href: "Sorgenti/NWS/P5_NWS000882.md"
 },{
-id: 5970,
+id: 4565,
 title: "Exit aggiustamento impegni risorse",
 cat: "NWS",
 rel: "V2R1",
 num: "000884",
 href: "Sorgenti/NWS/P5_NWS000884.md"
 },{
-id: 5971,
+id: 4566,
 title: "Aggiunta chiavi logico P5IMPE1L",
 cat: "NWS",
 rel: "V2R1",
 num: "000906",
 href: "Sorgenti/NWS/P5_NWS000906.md"
 },{
-id: 5972,
+id: 4567,
 title: "Situazione ordini di produzione alla data",
 cat: "NWS",
 rel: "V2R1",
 num: "000912",
 href: "Sorgenti/NWS/P5_NWS000912.md"
 },{
-id: 5973,
+id: 4568,
 title: "Aggiustamento in prelievi automatici di produzione",
 cat: "NWS",
 rel: "V2R1",
 num: "000936",
 href: "Sorgenti/NWS/P5_NWS000936.md"
 },{
-id: 5974,
+id: 4569,
 title: "Nuovo impegno risorse S5IRIS0F",
 cat: "NWS",
 rel: "V2R1",
 num: "000938",
 href: "Sorgenti/NWS/P5_NWS000938.md"
 },{
-id: 5975,
+id: 4570,
 title: "Emissione ordini conto lavoro di fase",
 cat: "NWS",
 rel: "V2R1",
 num: "000952",
 href: "Sorgenti/NWS/P5_NWS000952.md"
 },{
-id: 5976,
+id: 4571,
 title: "Interrogazione grafica impegni risorse",
 cat: "NWS",
 rel: "V2R1",
 num: "000973",
 href: "Sorgenti/NWS/P5_NWS000973.md"
 },{
-id: 5977,
+id: 4572,
 title: "Implementazione Exit in costruzione impegni risors",
 cat: "NWS",
 rel: "V2R1",
 num: "000992",
 href: "Sorgenti/NWS/P5_NWS000992.md"
 },{
-id: 5978,
+id: 4573,
 title: "Nuova chiave impegni risorse S2 S5IRIS0F",
 cat: "NWS",
 rel: "V2R1",
 num: "000996",
 href: "Sorgenti/NWS/P5_NWS000996.md"
 },{
-id: 5979,
+id: 4574,
 title: "Ultima Fase Documento",
 cat: "NWS",
 rel: "V2R1",
 num: "001004",
 href: "Sorgenti/NWS/P5_NWS001004.md"
 },{
-id: 5980,
+id: 4575,
 title: "Novità in impegni risorse avanzati",
 cat: "NWS",
 rel: "V2R1",
 num: "001010",
 href: "Sorgenti/NWS/P5_NWS001010.md"
 },{
-id: 5981,
+id: 4576,
 title: "OAV su ordini di  produzione",
 cat: "NWS",
 rel: "V2R1",
 num: "001014",
 href: "Sorgenti/NWS/P5_NWS001014.md"
 },{
-id: 5982,
+id: 4577,
 title: "Modifica a routine £P5F",
 cat: "NWS",
 rel: "V2R1",
 num: "001016",
 href: "Sorgenti/NWS/P5_NWS001016.md"
 },{
-id: 5983,
+id: 4578,
 title: "Nuova modalità di scarico componenti",
 cat: "NWS",
 rel: "V2R1",
 num: "001019",
 href: "Sorgenti/NWS/P5_NWS001019.md"
 },{
-id: 5984,
+id: 4579,
 title: "Exit in immissione ordini di produzione",
 cat: "NWS",
 rel: "V2R1",
 num: "001029",
 href: "Sorgenti/NWS/P5_NWS001029.md"
 },{
-id: 5985,
+id: 4580,
 title: "Tipi quantità utente negli ordini di produzione",
 cat: "NWS",
 rel: "V2R2",
 num: "001097",
 href: "Sorgenti/NWS/P5_NWS001097.md"
 },{
-id: 5986,
+id: 4581,
 title: "Introduzione visualizzatori in gestione ordini di",
 cat: "NWS",
 rel: "V2R2",
 num: "001100",
 href: "Sorgenti/NWS/P5_NWS001100.md"
 },{
-id: 5987,
+id: 4582,
 title: "Nuova Copy £P5B&#x3a; Documenti di fasi esterne",
 cat: "NWS",
 rel: "V2R2",
 num: "001114",
 href: "Sorgenti/NWS/P5_NWS001114.md"
 },{
-id: 5988,
+id: 4583,
 title: "Controlli in Avanzamento",
 cat: "NWS",
 rel: "V2R2",
 num: "001116",
 href: "Sorgenti/NWS/P5_NWS001116.md"
 },{
-id: 5989,
+id: 4584,
 title: "Esclusione costruzione impegni risorse",
 cat: "NWS",
 rel: "V2R2",
 num: "001157",
 href: "Sorgenti/NWS/P5_NWS001157.md"
 },{
-id: 5990,
+id: 4585,
 title: "Nuova exit programma versamento di produzione",
 cat: "NWS",
 rel: "V2R2",
 num: "001158",
 href: "Sorgenti/NWS/P5_NWS001158.md"
 },{
-id: 5991,
+id: 4586,
 title: "Ritorno informazioni ordini produzione",
 cat: "NWS",
 rel: "V2R2",
 num: "001160",
 href: "Sorgenti/NWS/P5_NWS001160.md"
 },{
-id: 5992,
+id: 4587,
 title: "Risorse produttive secondarie",
 cat: "NWS",
 rel: "V2R2",
 num: "001213",
 href: "Sorgenti/NWS/P5_NWS001213.md"
 },{
-id: 5993,
+id: 4588,
 title: "Modifica logici P5ATTI",
 cat: "NWS",
 rel: "V2R2",
 num: "001221",
 href: "Sorgenti/NWS/P5_NWS001221.md"
 },{
-id: 5994,
+id: 4589,
 title: "Controllo quantità disponibile in prelievi di prod",
 cat: "NWS",
 rel: "V2R3",
 num: "001268",
 href: "Sorgenti/NWS/P5_NWS001268.md"
 },{
-id: 5995,
+id: 4590,
 title: "Risorse produttive secondarie",
 cat: "NWS",
 rel: "V2R3",
 num: "001293",
 href: "Sorgenti/NWS/P5_NWS001293.md"
 },{
-id: 5996,
+id: 4591,
 title: "Impegni esclusi da analisi coperture",
 cat: "NWS",
 rel: "V2R2",
 num: "001312",
 href: "Sorgenti/NWS/P5_NWS001312.md"
 },{
-id: 5997,
+id: 4592,
 title: "Priorità in ordini di produzione",
 cat: "NWS",
 rel: "V2R3",
 num: "001350",
 href: "Sorgenti/NWS/P5_NWS001350.md"
 },{
-id: 5998,
+id: 4593,
 title: "Assiemi impegnati alla fase in ordini di prodizion",
 cat: "NWS",
 rel: "V2R3",
 num: "001380",
 href: "Sorgenti/NWS/P5_NWS001380.md"
 },{
-id: 5999,
+id: 4594,
 title: "Gestione distinta memorizzata",
 cat: "NWS",
 rel: "V2R3",
 num: "001440",
 href: "Sorgenti/NWS/P5_NWS001440.md"
 },{
-id: 6000,
+id: 4595,
 title: "Implementazioni eventi",
 cat: "NWS",
 rel: "V2R3",
 num: "001466",
 href: "Sorgenti/NWS/P5_NWS001466.md"
 },{
-id: 6001,
+id: 4596,
 title: "Disponibilità impegni",
 cat: "NWS",
 rel: "V2R3",
 num: "001486",
 href: "Sorgenti/NWS/P5_NWS001486.md"
 },{
-id: 6002,
+id: 4597,
 title: "Exit controllo utente su eventi",
 cat: "NWS",
 rel: "V2R3",
 num: "001518",
 href: "Sorgenti/NWS/P5_NWS001518.md"
 },{
-id: 6003,
+id: 4598,
 title: "Exit in creazione impegni risorse",
 cat: "NWS",
 rel: "V3R1",
 num: "001681",
 href: "Sorgenti/NWS/P5_NWS001681.md"
 },{
-id: 6004,
+id: 4599,
 title: "Personalizzazione decodifica ordine produzione",
 cat: "NWS",
 rel: "V3R1",
 num: "001706",
 href: "Sorgenti/NWS/P5_NWS001706.md"
 },{
-id: 6005,
+id: 4600,
 title: "Exit su programma gestione ordini di produzione",
 cat: "NWS",
 rel: "V3R1",
 num: "001732",
 href: "Sorgenti/NWS/P5_NWS001732.md"
 },{
-id: 6006,
+id: 4601,
 title: "Copia ciclo memorizzato di un ordine di produzione",
 cat: "NWS",
 rel: "V3R2",
 num: "001756",
 href: "Sorgenti/NWS/P5_NWS001756.md"
 },{
-id: 6007,
+id: 4602,
 title: "Richiamo exit in pre cancellaz. ciclo memorizzato",
 cat: "NWS",
 rel: "V3R2",
 num: "001757",
 href: "Sorgenti/NWS/P5_NWS001757.md"
 },{
-id: 6008,
+id: 4603,
 title: "Implementazione P5 per Non conformità",
 cat: "NWS",
 rel: "V3R2",
 num: "001833",
 href: "Sorgenti/NWS/P5_NWS001833.md"
 },{
-id: 6009,
+id: 4604,
 title: "Novità in routine £P5B e £P5F",
 cat: "NWS",
 rel: "V3R2",
 num: "001834",
 href: "Sorgenti/NWS/P5_NWS001834.md"
 },{
-id: 6010,
+id: 4605,
 title: "Dichiarazione attività P5",
 cat: "NWS",
 rel: "V3R2",
 num: "001835",
 href: "Sorgenti/NWS/P5_NWS001835.md"
 },{
-id: 6011,
+id: 4606,
 title: "Funzionalità in creaz. ordine di c&#x2f;lavoro di fase",
 cat: "NWS",
 rel: "V3R2",
 num: "001838",
 href: "Sorgenti/NWS/P5_NWS001838.md"
 },{
-id: 6012,
+id: 4607,
 title: "Funzionalità in creaz. ordine di c&#x2f;lavoro di fase",
 cat: "NWS",
 rel: "V3R2",
 num: "001873",
 href: "Sorgenti/NWS/P5_NWS001873.md"
 },{
-id: 6013,
+id: 4608,
 title: "Tempi previsti di attività dichiarazioni",
 cat: "NWS",
 rel: "V3R2",
 num: "001880",
 href: "Sorgenti/NWS/P5_NWS001880.md"
 },{
-id: 6014,
+id: 4609,
 title: "Estensione comportamento milestone",
 cat: "NWS",
 rel: "V3R2",
 num: "001920",
 href: "Sorgenti/NWS/P5_NWS001920.md"
 },{
-id: 6015,
+id: 4610,
 title: "Dichiarazione attività Loocup",
 cat: "NWS",
 rel: "V4R1",
 num: "002038",
 href: "Sorgenti/NWS/P5_NWS002038.md"
 },{
-id: 6016,
+id: 4611,
 title: "Creazione ordine di movimentazione",
 cat: "NWS",
 rel: "V4R1",
 num: "002046",
 href: "Sorgenti/NWS/P5_NWS002046.md"
 },{
-id: 6017,
+id: 4612,
 title: "Rilevazioni di produzione",
 cat: "NWS",
 rel: "V4R1",
 num: "002106",
 href: "Sorgenti/NWS/P5_NWS002106.md"
 },{
-id: 6018,
+id: 4613,
 title: "Nuovo oggetto Turno",
 cat: "NWS",
 rel: "V5R1",
 num: "002303",
 href: "Sorgenti/NWS/P5_NWS002303.md"
 },{
-id: 6019,
+id: 4614,
 title: "Nuova funzione in £PHA",
 cat: "NWS",
 rel: "V2R3",
 num: "001301",
 href: "Sorgenti/NWS/PH_NWS001301.md"
 },{
-id: 6020,
+id: 4615,
 title: "Simulatore dei terminali video TTS",
 cat: "NWS",
 rel: "V2R3",
 num: "001311",
 href: "Sorgenti/NWS/PH_NWS001311.md"
 },{
-id: 6021,
+id: 4616,
 title: "Nuovo file PHTRAC0F",
 cat: "NWS",
 rel: "V2R3",
 num: "001454",
 href: "Sorgenti/NWS/PH_NWS001454.md"
 },{
-id: 6022,
+id: 4617,
 title: "Nuova scheda CRM",
 cat: "NWS",
 rel: "V2R3",
 num: "001467",
 href: "Sorgenti/NWS/RE_NWS001467.md"
 },{
-id: 6023,
+id: 4618,
 title: "Esportazione referenti in formato VCF ed attività",
 cat: "NWS",
 rel: "V5R1",
 num: "002302",
 href: "Sorgenti/NWS/RE_NWS002302.md"
 },{
-id: 6024,
+id: 4619,
 title: "Nuove funzionalità per il CRM",
 cat: "NWS",
 rel: "V5R1",
 num: "002314",
 href: "Sorgenti/NWS/RE_NWS002314.md"
 },{
-id: 6025,
+id: 4620,
 title: "Modifica tracciato tabella RE1",
 cat: "NWS",
 rel: "V5R1",
 num: "002337",
 href: "Sorgenti/NWS/RE_NWS002337.md"
 },{
-id: 6026,
+id: 4621,
 title: "Rilascio documentazione applicativa",
 cat: "NWS",
 rel: "V2R1",
 num: "000911",
 href: "Sorgenti/NWS/S5_NWS000911.md"
 },{
-id: 6027,
+id: 4622,
 title: "Ambito di schedulazione",
 cat: "NWS",
 rel: "V2R1",
 num: "001002",
 href: "Sorgenti/NWS/S5_NWS001002.md"
 },{
-id: 6028,
+id: 4623,
 title: "Coda come attraversamento",
 cat: "NWS",
 rel: "V2R2",
 num: "001168",
 href: "Sorgenti/NWS/S5_NWS001168.md"
 },{
-id: 6029,
+id: 4624,
 title: "Ambito di schedulazione derivato da oav",
 cat: "NWS",
 rel: "V2R2",
 num: "001183",
 href: "Sorgenti/NWS/S5_NWS001183.md"
 },{
-id: 6030,
+id: 4625,
 title: "Gestione batch",
 cat: "NWS",
 rel: "V2R3",
 num: "001351",
 href: "Sorgenti/NWS/S5_NWS001351.md"
 },{
-id: 6031,
+id: 4626,
 title: "Navigazione S5IRIS per plant &#x2f; ambito &#x2f; risorse",
 cat: "NWS",
 rel: "V2R3",
 num: "001489",
 href: "Sorgenti/NWS/S5_NWS001489.md"
 },{
-id: 6032,
+id: 4627,
 title: "Aggiunte a tabella BRM",
 cat: "NWS",
 rel: "V3R1",
 num: "001698",
 href: "Sorgenti/NWS/S5_NWS001698.md"
 },{
-id: 6033,
+id: 4628,
 title: "Nuove azioni su schedulazione",
 cat: "NWS",
 rel: "V4R1",
 num: "001963",
 href: "Sorgenti/NWS/S5_NWS001963.md"
 },{
-id: 6034,
+id: 4629,
 title: "Nuova funzione di interrogazione della schedulazio",
 cat: "NWS",
 rel: "V5R1",
 num: "002263",
 href: "Sorgenti/NWS/S5_NWS002263.md"
 },{
-id: 6035,
+id: 4630,
 title: "Fasi a precedenza libera",
 cat: "NWS",
 rel: "V5R1",
 num: "002342",
 href: "Sorgenti/NWS/S5_NWS002342.md"
 },{
-id: 6036,
+id: 4631,
 title: "Copertura totale presente in ATP",
 cat: "NWS",
 rel: "V5R1",
 num: "002354",
 href: "Sorgenti/NWS/S5_NWS002354.md"
 },{
-id: 6037,
+id: 4632,
 title: "Modifica programmi SF per accesso a S5IRIS.",
 cat: "NWS",
 rel: "V2R2",
 num: "001234",
 href: "Sorgenti/NWS/SF_NWS001234.md"
 },{
-id: 6038,
+id: 4633,
 title: "Documentazione oggetti",
 cat: "NWS",
 rel: "V2R2",
 num: "001245",
 href: "Sorgenti/NWS/UT_NWS001245.md"
 },{
-id: 6039,
+id: 4634,
 title: "Novità al comando T",
 cat: "NWS",
 rel: "V2R3",
 num: "001338",
 href: "Sorgenti/NWS/UT_NWS001338.md"
 },{
-id: 6040,
+id: 4635,
 title: "Oggetti di una copy",
 cat: "NWS",
 rel: "V2R3",
 num: "001425",
 href: "Sorgenti/NWS/UT_NWS001425.md"
 },{
-id: 6041,
+id: 4636,
 title: "Funzioni di servizio sulle tabelle",
 cat: "NWS",
 rel: "V2R3",
 num: "001481",
 href: "Sorgenti/NWS/UT_NWS001481.md"
 },{
-id: 6042,
+id: 4637,
 title: "Spedizione in c&#x2f;to lavoro a bilanciamento",
 cat: "NWS",
 rel: "V1R5",
 num: "000591",
 href: "Sorgenti/NWS/V0_NWS000591.md"
 },{
-id: 6043,
+id: 4638,
 title: "Reperimento informazioni V5",
 cat: "NWS",
 rel: "V1R4",
 num: "000003",
 href: "Sorgenti/NWS/V5_NWS000003.md"
 },{
-id: 6044,
+id: 4639,
 title: "Gestione monitor&#x2f;visualizzatore",
 cat: "NWS",
 rel: "V1R4",
 num: "000024",
 href: "Sorgenti/NWS/V5_NWS000024.md"
 },{
-id: 6045,
+id: 4640,
 title: "Deviatore",
 cat: "NWS",
 rel: "",
 num: "000030",
 href: "Sorgenti/NWS/V5_NWS000030.md"
 },{
-id: 6046,
+id: 4641,
 title: "Risalita documento origine V5",
 cat: "NWS",
 rel: "",
 num: "000032",
 href: "Sorgenti/NWS/V5_NWS000032.md"
 },{
-id: 6047,
+id: 4642,
 title: "Evasione di massa V5",
 cat: "NWS",
 rel: "",
 num: "000038",
 href: "Sorgenti/NWS/V5_NWS000038.md"
 },{
-id: 6048,
+id: 4643,
 title: "Estrazione interattiva",
 cat: "NWS",
 rel: "",
 num: "000040",
 href: "Sorgenti/NWS/V5_NWS000040.md"
 },{
-id: 6049,
+id: 4644,
 title: "Estrazione richieste movimento da impegni",
 cat: "NWS",
 rel: "",
 num: "000045",
 href: "Sorgenti/NWS/V5_NWS000045.md"
 },{
-id: 6050,
+id: 4645,
 title: "Lancio flussi avanzati",
 cat: "NWS",
 rel: "",
 num: "000046",
 href: "Sorgenti/NWS/V5_NWS000046.md"
 },{
-id: 6051,
+id: 4646,
 title: "Copia modello",
 cat: "NWS",
 rel: "",
 num: "000047",
 href: "Sorgenti/NWS/V5_NWS000047.md"
 },{
-id: 6052,
+id: 4647,
 title: "Roll up e roll down in formato lista degli articol",
 cat: "NWS",
 rel: "",
 num: "000048",
 href: "Sorgenti/NWS/V5_NWS000048.md"
 },{
-id: 6053,
+id: 4648,
 title: "Nuova Stampa listini",
 cat: "NWS",
 rel: "",
 num: "000051",
 href: "Sorgenti/NWS/V5_NWS000051.md"
 },{
-id: 6054,
+id: 4649,
 title: "Calcolo Provvigioni Riga&#x2f;Testata",
 cat: "NWS",
 rel: "",
 num: "000065",
 href: "Sorgenti/NWS/V5_NWS000065.md"
 },{
-id: 6055,
+id: 4650,
 title: "Controllo specifico dei campi testate&#x2f;righe docume",
 cat: "NWS",
 rel: "",
 num: "000074",
 href: "Sorgenti/NWS/V5_NWS000074.md"
 },{
-id: 6056,
+id: 4651,
 title: "Parzializzazione in estrazione documenti",
 cat: "NWS",
 rel: "",
 num: "000079",
 href: "Sorgenti/NWS/V5_NWS000079.md"
 },{
-id: 6057,
+id: 4652,
 title: "Ordini di vendita -&#x3e; Ordini di produzione",
 cat: "NWS",
 rel: "",
 num: "000087",
 href: "Sorgenti/NWS/V5_NWS000087.md"
 },{
-id: 6058,
+id: 4653,
 title: "Autorizzazioni su funzioni aggiuntive di testate e",
 cat: "NWS",
 rel: "",
 num: "000090",
 href: "Sorgenti/NWS/V5_NWS000090.md"
 },{
-id: 6059,
+id: 4654,
 title: "Nuova interrogazione V5",
 cat: "NWS",
 rel: "",
 num: "000102",
 href: "Sorgenti/NWS/V5_NWS000102.md"
 },{
-id: 6060,
+id: 4655,
 title: "Collegam. a contratti",
 cat: "NWS",
 rel: "",
 num: "000105",
 href: "Sorgenti/NWS/V5_NWS000105.md"
 },{
-id: 6061,
+id: 4656,
 title: "Stato di nascita righe",
 cat: "NWS",
 rel: "",
 num: "000110",
 href: "Sorgenti/NWS/V5_NWS000110.md"
 },{
-id: 6062,
+id: 4657,
 title: "Scelta Ente&#x2f;Documento in estrazione",
 cat: "NWS",
 rel: "",
 num: "000121",
 href: "Sorgenti/NWS/V5_NWS000121.md"
 },{
-id: 6063,
+id: 4658,
 title: "Exit Gestione Viaggi",
 cat: "NWS",
 rel: "",
 num: "000124",
 href: "Sorgenti/NWS/V5_NWS000124.md"
 },{
-id: 6064,
+id: 4659,
 title: "Funzioni Spedizioni Testata&#x2f;Riga V5",
 cat: "NWS",
 rel: "",
 num: "000125",
 href: "Sorgenti/NWS/V5_NWS000125.md"
 },{
-id: 6065,
+id: 4660,
 title: "Flusso Postumo",
 cat: "NWS",
 rel: "",
 num: "000126",
 href: "Sorgenti/NWS/V5_NWS000126.md"
 },{
-id: 6066,
+id: 4661,
 title: "Navigazione Documenti",
 cat: "NWS",
 rel: "",
 num: "000138",
 href: "Sorgenti/NWS/V5_NWS000138.md"
 },{
-id: 6067,
+id: 4662,
 title: "Datazione Impegni Esterni",
 cat: "NWS",
 rel: "",
 num: "000142",
 href: "Sorgenti/NWS/V5_NWS000142.md"
 },{
-id: 6068,
+id: 4663,
 title: "Funzioni di Riga Documento",
 cat: "NWS",
 rel: "",
 num: "000150",
 href: "Sorgenti/NWS/V5_NWS000150.md"
 },{
-id: 6069,
+id: 4664,
 title: "Collegamento Documenti",
 cat: "NWS",
 rel: "",
 num: "000194",
 href: "Sorgenti/NWS/V5_NWS000194.md"
 },{
-id: 6070,
+id: 4665,
 title: "Novita&#x27; in Navigazione Documenti",
 cat: "NWS",
 rel: "",
 num: "000197",
 href: "Sorgenti/NWS/V5_NWS000197.md"
 },{
-id: 6071,
+id: 4666,
 title: "Controllo Compatibilita&#x27; in Spedizione &#x2f; Moviment",
 cat: "NWS",
 rel: "",
 num: "000203",
 href: "Sorgenti/NWS/V5_NWS000203.md"
 },{
-id: 6072,
+id: 4667,
 title: "Scollegamento Documenti - Presente dal Rilascio 3.",
 cat: "NWS",
 rel: "",
 num: "000207",
 href: "Sorgenti/NWS/V5_NWS000207.md"
 },{
-id: 6073,
+id: 4668,
 title: "Novita&#x27; in Spedizione Documenti",
 cat: "NWS",
 rel: "",
 num: "000213",
 href: "Sorgenti/NWS/V5_NWS000213.md"
 },{
-id: 6074,
+id: 4669,
 title: "Fatturazione Interattiva",
 cat: "NWS",
 rel: "",
 num: "000215",
 href: "Sorgenti/NWS/V5_NWS000215.md"
 },{
-id: 6075,
+id: 4670,
 title: "Righe Bolla da Richiesta Movimentazione",
 cat: "NWS",
 rel: "",
 num: "000218",
 href: "Sorgenti/NWS/V5_NWS000218.md"
 },{
-id: 6076,
+id: 4671,
 title: "Controllo Enti in Immissione Documenti",
 cat: "NWS",
 rel: "",
 num: "000219",
 href: "Sorgenti/NWS/V5_NWS000219.md"
 },{
-id: 6077,
+id: 4672,
 title: "Implementi Stampa Report",
 cat: "NWS",
 rel: "",
 num: "000247",
 href: "Sorgenti/NWS/V5_NWS000247.md"
 },{
-id: 6078,
+id: 4673,
 title: "Tabella V5A - Tipo Condizionamento Righe",
 cat: "NWS",
 rel: "",
 num: "000251",
 href: "Sorgenti/NWS/V5_NWS000251.md"
 },{
-id: 6079,
+id: 4674,
 title: "Controllo Validita&#x27; Ente in Estrazione Ordini",
 cat: "NWS",
 rel: "",
 num: "000252",
 href: "Sorgenti/NWS/V5_NWS000252.md"
 },{
-id: 6080,
+id: 4675,
 title: "Selezione Righe nei Flussi di Estrazione - Pgm V5A",
 cat: "NWS",
 rel: "",
 num: "000263",
 href: "Sorgenti/NWS/V5_NWS000263.md"
 },{
-id: 6081,
+id: 4676,
 title: "Exit    V5V",
 cat: "NWS",
 rel: "",
 num: "000265",
 href: "Sorgenti/NWS/V5_NWS000265.md"
 },{
-id: 6082,
+id: 4677,
 title: "Controllo Fatture Passive ",
 cat: "NWS",
 rel: "",
 num: "000275",
 href: "Sorgenti/NWS/V5_NWS000275.md"
 },{
-id: 6083,
+id: 4678,
 title: "Gestione Lista Viaggi",
 cat: "NWS",
 rel: "",
 num: "000276",
 href: "Sorgenti/NWS/V5_NWS000276.md"
 },{
-id: 6084,
+id: 4679,
 title: "Magazzino in Estrazione Documenti",
 cat: "NWS",
 rel: "",
 num: "000292",
 href: "Sorgenti/NWS/V5_NWS000292.md"
 },{
-id: 6085,
+id: 4680,
 title: "Interfaccie",
 cat: "NWS",
 rel: "",
 num: "000295",
 href: "Sorgenti/NWS/V5_NWS000295.md"
 },{
-id: 6086,
+id: 4681,
 title: "G9 Spese Aggiuntive in Controllo FATTURE",
 cat: "NWS",
 rel: "",
 num: "000297",
 href: "Sorgenti/NWS/V5_NWS000297.md"
 },{
-id: 6087,
+id: 4682,
 title: "Impostazione e Protezione del Modello in Immission",
 cat: "NWS",
 rel: "",
 num: "000304",
 href: "Sorgenti/NWS/V5_NWS000304.md"
 },{
-id: 6088,
+id: 4683,
 title: "Derivazione Tipo Riga",
 cat: "NWS",
 rel: "",
 num: "000332",
 href: "Sorgenti/NWS/V5_NWS000332.md"
 },{
-id: 6089,
+id: 4684,
 title: "Flusso Collegamento Contabile",
 cat: "NWS",
 rel: "V1R4",
 num: "000339",
 href: "Sorgenti/NWS/V5_NWS000339.md"
 },{
-id: 6090,
+id: 4685,
 title: "Gestione Prezzi  - Quantità di Riferimento Prezzo",
 cat: "NWS",
 rel: "V1R4",
 num: "000354",
 href: "Sorgenti/NWS/V5_NWS000354.md"
 },{
-id: 6091,
+id: 4686,
 title: "Estrazione documenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000370",
 href: "Sorgenti/NWS/V5_NWS000370.md"
 },{
-id: 6092,
+id: 4687,
 title: "Esecuzione Batch Collegamenti Documenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000379",
 href: "Sorgenti/NWS/V5_NWS000379.md"
 },{
-id: 6093,
+id: 4688,
 title: "Controllo Compatibilità in Estrazione Documenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000385",
 href: "Sorgenti/NWS/V5_NWS000385.md"
 },{
-id: 6094,
+id: 4689,
 title: "Stampa Multi Formati",
 cat: "NWS",
 rel: "V1R4",
 num: "000391",
 href: "Sorgenti/NWS/V5_NWS000391.md"
 },{
-id: 6095,
+id: 4690,
 title: "Determinazione conto ",
 cat: "NWS",
 rel: "V1R4",
 num: "000407",
 href: "Sorgenti/NWS/V5_NWS000407.md"
 },{
-id: 6096,
+id: 4691,
 title: "Determinazione valore provvigioni da listino",
 cat: "NWS",
 rel: "V1R4",
 num: "000410",
 href: "Sorgenti/NWS/V5_NWS000410.md"
 },{
-id: 6097,
+id: 4692,
 title: "Collegamento di Riga",
 cat: "NWS",
 rel: "V1R4",
 num: "000411",
 href: "Sorgenti/NWS/V5_NWS000411.md"
 },{
-id: 6098,
+id: 4693,
 title: "Estrazione documenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000413",
 href: "Sorgenti/NWS/V5_NWS000413.md"
 },{
-id: 6099,
+id: 4694,
 title: "Inserimento in Lista",
 cat: "NWS",
 rel: "V1R4",
 num: "000427",
 href: "Sorgenti/NWS/V5_NWS000427.md"
 },{
-id: 6100,
+id: 4695,
 title: "Ente di spedizione documento V5",
 cat: "NWS",
 rel: "V1R4",
 num: "000437",
 href: "Sorgenti/NWS/V5_NWS000437.md"
 },{
-id: 6101,
+id: 4696,
 title: "Aiuto interno",
 cat: "NWS",
 rel: "V1R4",
 num: "000440",
 href: "Sorgenti/NWS/V5_NWS000440.md"
 },{
-id: 6102,
+id: 4697,
 title: "Movimentazione V5 da Richieste di Movimentazione",
 cat: "NWS",
 rel: "V1R4",
 num: "000446",
 href: "Sorgenti/NWS/V5_NWS000446.md"
 },{
-id: 6103,
+id: 4698,
 title: "Gestione in lista testata documenti di azioni fun",
 cat: "NWS",
 rel: "V1R4",
 num: "000464",
 href: "Sorgenti/NWS/V5_NWS000464.md"
 },{
-id: 6104,
+id: 4699,
 title: "Gestione stato fattura su documento non fatturabil",
 cat: "NWS",
 rel: "V1R4",
 num: "000466",
 href: "Sorgenti/NWS/V5_NWS000466.md"
 },{
-id: 6105,
+id: 4700,
 title: "Inizializzatore record Provvigioni",
 cat: "NWS",
 rel: "V1R4",
 num: "000472",
 href: "Sorgenti/NWS/V5_NWS000472.md"
 },{
-id: 6106,
+id: 4701,
 title: "Costruzione chiavi listino per oggetti non gestiti",
 cat: "NWS",
 rel: "V1R4",
 num: "000474",
 href: "Sorgenti/NWS/V5_NWS000474.md"
 },{
-id: 6107,
+id: 4702,
 title: "Autorizzazioni di riga - Classe autorizzazione V5D",
 cat: "NWS",
 rel: "V1R4",
 num: "000479",
 href: "Sorgenti/NWS/V5_NWS000479.md"
 },{
-id: 6108,
+id: 4703,
 title: "Spedizioni &#x2f; ricevimenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000504",
 href: "Sorgenti/NWS/V5_NWS000504.md"
 },{
-id: 6109,
+id: 4704,
 title: "Flussi V5 -Esecuzione mono flusso",
 cat: "NWS",
 rel: "V1R4",
 num: "000507",
 href: "Sorgenti/NWS/V5_NWS000507.md"
 },{
-id: 6110,
+id: 4705,
 title: "Parzializzatore di riga",
 cat: "NWS",
 rel: "V1R4",
 num: "000508",
 href: "Sorgenti/NWS/V5_NWS000508.md"
 },{
-id: 6111,
+id: 4706,
 title: "£V5V Prezzo effettivo con quantità riferimento pre",
 cat: "NWS",
 rel: "V1R4",
 num: "000519",
 href: "Sorgenti/NWS/V5_NWS000519.md"
 },{
-id: 6112,
+id: 4707,
 title: "Sblocco testate",
 cat: "NWS",
 rel: "V1R4",
 num: "000522",
 href: "Sorgenti/NWS/V5_NWS000522.md"
 },{
-id: 6113,
+id: 4708,
 title: "Routine £V5F",
 cat: "NWS",
 rel: "V1R4",
 num: "000547",
 href: "Sorgenti/NWS/V5_NWS000547.md"
 },{
-id: 6114,
+id: 4709,
 title: "Quantità negativa in estrazione documenti",
 cat: "NWS",
 rel: "V1R4",
 num: "000548",
 href: "Sorgenti/NWS/V5_NWS000548.md"
 },{
-id: 6115,
+id: 4710,
 title: "Interrogazione documenti",
 cat: "NWS",
 rel: "V1R5",
 num: "000557",
 href: "Sorgenti/NWS/V5_NWS000557.md"
 },{
-id: 6116,
+id: 4711,
 title: "Stampa evadibilità",
 cat: "NWS",
 rel: "V1R5",
 num: "000558",
 href: "Sorgenti/NWS/V5_NWS000558.md"
 },{
-id: 6117,
+id: 4712,
 title: "Inizializzazione testata documento ciclo esterno",
 cat: "NWS",
 rel: "V1R5",
 num: "000559",
 href: "Sorgenti/NWS/V5_NWS000559.md"
 },{
-id: 6118,
+id: 4713,
 title: "Modificate chiavi file V5RDOC8L",
 cat: "NWS",
 rel: "V1R5",
 num: "000563",
 href: "Sorgenti/NWS/V5_NWS000563.md"
 },{
-id: 6119,
+id: 4714,
 title: "Implemento parzializzazione testate&#x2f;righedocumenti",
 cat: "NWS",
 rel: "V1R5",
 num: "000564",
 href: "Sorgenti/NWS/V5_NWS000564.md"
 },{
-id: 6120,
+id: 4715,
 title: "Navigazione documenti&#x3a; interrogazione x matricola",
 cat: "NWS",
 rel: "V1R5",
 num: "000575",
 href: "Sorgenti/NWS/V5_NWS000575.md"
 },{
-id: 6121,
+id: 4716,
 title: "Nuovo logico file V5RDOC0F",
 cat: "NWS",
 rel: "V1R5",
 num: "000578",
 href: "Sorgenti/NWS/V5_NWS000578.md"
 },{
-id: 6122,
+id: 4717,
 title: "Autorizzazioni per Tipo&#x2f;Modello Documento",
 cat: "NWS",
 rel: "V1R5",
 num: "000588",
 href: "Sorgenti/NWS/V5_NWS000588.md"
 },{
-id: 6123,
+id: 4718,
 title: "Parzializzatore documenti",
 cat: "NWS",
 rel: "V1R5",
 num: "000608",
 href: "Sorgenti/NWS/V5_NWS000608.md"
 },{
-id: 6124,
+id: 4719,
 title: "Integrazione Quantità - Exit",
 cat: "NWS",
 rel: "V1R5",
 num: "000623",
 href: "Sorgenti/NWS/V5_NWS000623.md"
 },{
-id: 6125,
+id: 4720,
 title: "Gestione documenti collegati",
 cat: "NWS",
 rel: "V1R5",
 num: "000630",
 href: "Sorgenti/NWS/V5_NWS000630.md"
 },{
-id: 6126,
+id: 4721,
 title: "Riapertura testata se esistono righe attive",
 cat: "NWS",
 rel: "V1R5",
 num: "000631",
 href: "Sorgenti/NWS/V5_NWS000631.md"
 },{
-id: 6127,
+id: 4722,
 title: "Parametri impliciti nei documenti V5",
 cat: "NWS",
 rel: "V1R5",
 num: "000632",
 href: "Sorgenti/NWS/V5_NWS000632.md"
 },{
-id: 6128,
+id: 4723,
 title: "Visualizzatori V5",
 cat: "NWS",
 rel: "V1R5",
 num: "000636",
 href: "Sorgenti/NWS/V5_NWS000636.md"
 },{
-id: 6129,
+id: 4724,
 title: "Gestione collegamento documenti collegati. Ripresa",
 cat: "NWS",
 rel: "V1R5",
 num: "000637",
 href: "Sorgenti/NWS/V5_NWS000637.md"
 },{
-id: 6130,
+id: 4725,
 title: "Gestione flag fatturazione riga",
 cat: "NWS",
 rel: "V1R5",
 num: "000639",
 href: "Sorgenti/NWS/V5_NWS000639.md"
 },{
-id: 6131,
+id: 4726,
 title: "Tasti funzionali su visualizzatori",
 cat: "NWS",
 rel: "V1R5",
 num: "000642",
 href: "Sorgenti/NWS/V5_NWS000642.md"
 },{
-id: 6132,
+id: 4727,
 title: "Ciclo esterno - Navigazione Documenti",
 cat: "NWS",
 rel: "V1R5",
 num: "000647",
 href: "Sorgenti/NWS/V5_NWS000647.md"
 },{
-id: 6133,
+id: 4728,
 title: "Nuovo Valore al flag 19 delle righe documento",
 cat: "NWS",
 rel: "V1R5",
 num: "000654",
 href: "Sorgenti/NWS/V5_NWS000654.md"
 },{
-id: 6134,
+id: 4729,
 title: "Implemento letture tabelle in V5L",
 cat: "NWS",
 rel: "V1R5",
 num: "000655",
 href: "Sorgenti/NWS/V5_NWS000655.md"
 },{
-id: 6135,
+id: 4730,
 title: "Filtro in spedizione materiali in C&#x2f;lavoro",
 cat: "NWS",
 rel: "V1R5",
 num: "000658",
 href: "Sorgenti/NWS/V5_NWS000658.md"
 },{
-id: 6136,
+id: 4731,
 title: "Nuovi OAV su righe documenti",
 cat: "NWS",
 rel: "V1R5",
 num: "000677",
 href: "Sorgenti/NWS/V5_NWS000677.md"
 },{
-id: 6137,
+id: 4732,
 title: "Revisione regole di costruzione Criterio di",
 cat: "NWS",
 rel: "V1R5",
 num: "000689",
 href: "Sorgenti/NWS/V5_NWS000689.md"
 },{
-id: 6138,
+id: 4733,
 title: "Gestione Note in Documenti V5",
 cat: "NWS",
 rel: "V1R5",
 num: "000692",
 href: "Sorgenti/NWS/V5_NWS000692.md"
 },{
-id: 6139,
+id: 4734,
 title: "Exit su calcolo provvigioni",
 cat: "NWS",
 rel: "V1R5",
 num: "000694",
 href: "Sorgenti/NWS/V5_NWS000694.md"
 },{
-id: 6140,
+id: 4735,
 title: "Attributi intrinseci oggetto Viaggio",
 cat: "NWS",
 rel: "V1R5",
 num: "000697",
 href: "Sorgenti/NWS/V5_NWS000697.md"
 },{
-id: 6141,
+id: 4736,
 title: "Ricerca testate documenti per riferimento esetrno",
 cat: "NWS",
 rel: "V1R5",
 num: "000706",
 href: "Sorgenti/NWS/V5_NWS000706.md"
 },{
-id: 6142,
+id: 4737,
 title: "Integrazione alla data di registrazione nei",
 cat: "NWS",
 rel: "V2R1",
 num: "000713",
 href: "Sorgenti/NWS/V5_NWS000713.md"
 },{
-id: 6143,
+id: 4738,
 title: "Stampatori documenti - Lancio schedulato",
 cat: "NWS",
 rel: "V2R1",
 num: "000718",
 href: "Sorgenti/NWS/V5_NWS000718.md"
 },{
-id: 6144,
+id: 4739,
 title: "Attivazione protezione livelli campo in Trade_up",
 cat: "NWS",
 rel: "V2R1",
 num: "000733",
 href: "Sorgenti/NWS/V5_NWS000733.md"
 },{
-id: 6145,
+id: 4740,
 title: "Gestione sconti da anagrafico enti in documenti V5",
 cat: "NWS",
 rel: "V2R1",
 num: "000736",
 href: "Sorgenti/NWS/V5_NWS000736.md"
 },{
-id: 6146,
+id: 4741,
 title: "Collegamenti&#x2f;Scollegamenti Automatici",
 cat: "NWS",
 rel: "V2R1",
 num: "000738",
 href: "Sorgenti/NWS/V5_NWS000738.md"
 },{
-id: 6147,
+id: 4742,
 title: "Inizializzatori di testata e righe documenti",
 cat: "NWS",
 rel: "V2R1",
 num: "000739",
 href: "Sorgenti/NWS/V5_NWS000739.md"
 },{
-id: 6148,
+id: 4743,
 title: "Nuova funzione in deviatore testate documenti V5 &#x3a;",
 cat: "NWS",
 rel: "V2R1",
 num: "000750",
 href: "Sorgenti/NWS/V5_NWS000750.md"
 },{
-id: 6149,
+id: 4744,
 title: "Forzatura plant in analisi disponibilità in spediz",
 cat: "NWS",
 rel: "V2R1",
 num: "000757",
 href: "Sorgenti/NWS/V5_NWS000757.md"
 },{
-id: 6150,
+id: 4745,
 title: "Stampa in deviatore testata",
 cat: "NWS",
 rel: "V2R1",
 num: "000767",
 href: "Sorgenti/NWS/V5_NWS000767.md"
 },{
-id: 6151,
+id: 4746,
 title: "Integrazione quantità documenti V5&#x3a; Flag inversion",
 cat: "NWS",
 rel: "V2R1",
 num: "000774",
 href: "Sorgenti/NWS/V5_NWS000774.md"
 },{
-id: 6152,
+id: 4747,
 title: "Riapertura e ripristino quantità in documenti V5",
 cat: "NWS",
 rel: "V2R1",
 num: "000779",
 href: "Sorgenti/NWS/V5_NWS000779.md"
 },{
-id: 6153,
+id: 4748,
 title: "Implementazioni al visualizzatore righe in gestion",
 cat: "NWS",
 rel: "V2R1",
 num: "000787",
 href: "Sorgenti/NWS/V5_NWS000787.md"
 },{
-id: 6154,
+id: 4749,
 title: "Nuova exit a £V5C",
 cat: "NWS",
 rel: "V2R1",
 num: "000808",
 href: "Sorgenti/NWS/V5_NWS000808.md"
 },{
-id: 6155,
+id: 4750,
 title: "Nuove modalità di richiamo V5AT11E Impostazione te",
 cat: "NWS",
 rel: "V2R1",
 num: "000810",
 href: "Sorgenti/NWS/V5_NWS000810.md"
 },{
-id: 6156,
+id: 4751,
 title: "Controllo inserimento righe",
 cat: "NWS",
 rel: "V2R1",
 num: "000818",
 href: "Sorgenti/NWS/V5_NWS000818.md"
 },{
-id: 6157,
+id: 4752,
 title: "Utilizzo dal campo £V5TNC",
 cat: "NWS",
 rel: "V2R1",
 num: "000820",
 href: "Sorgenti/NWS/V5_NWS000820.md"
 },{
-id: 6158,
+id: 4753,
 title: "Flag 07 righe documenti V5 e inizializzatore £V5Z",
 cat: "NWS",
 rel: "V2R1",
 num: "000825",
 href: "Sorgenti/NWS/V5_NWS000825.md"
 },{
-id: 6159,
+id: 4754,
 title: "Funzione ATP per righe documenti",
 cat: "NWS",
 rel: "V2R1",
 num: "000855",
 href: "Sorgenti/NWS/V5_NWS000855.md"
 },{
-id: 6160,
+id: 4755,
 title: "Collegamento automatico nuove righe su documento",
 cat: "NWS",
 rel: "V2R1",
 num: "000856",
 href: "Sorgenti/NWS/V5_NWS000856.md"
 },{
-id: 6161,
+id: 4756,
 title: "Nuove funzioni interne di testata documento",
 cat: "NWS",
 rel: "V2R1",
 num: "000868",
 href: "Sorgenti/NWS/V5_NWS000868.md"
 },{
-id: 6162,
+id: 4757,
 title: "Introdotta exit programma dettaglio Documento",
 cat: "NWS",
 rel: "V2R1",
 num: "000870",
 href: "Sorgenti/NWS/V5_NWS000870.md"
 },{
-id: 6163,
+id: 4758,
 title: "Assoggettamenti IVA documenti V5&#x3a; doppio assoggett",
 cat: "NWS",
 rel: "V2R1",
 num: "000878",
 href: "Sorgenti/NWS/V5_NWS000878.md"
 },{
-id: 6164,
+id: 4759,
 title: "Completamento dei logici di V5TDOC0F",
 cat: "NWS",
 rel: "V2R1",
 num: "000891",
 href: "Sorgenti/NWS/V5_NWS000891.md"
 },{
-id: 6165,
+id: 4760,
 title: "Subfile esteso in lista documenti",
 cat: "NWS",
 rel: "V2R1",
 num: "000917",
 href: "Sorgenti/NWS/V5_NWS000917.md"
 },{
-id: 6166,
+id: 4761,
 title: "Aggiunto filtro per commessa e configurazione in a",
 cat: "NWS",
 rel: "V2R1",
 num: "000937",
 href: "Sorgenti/NWS/V5_NWS000937.md"
 },{
-id: 6167,
+id: 4762,
 title: "Nuovi numeri dell&#x27;oggetto documento",
 cat: "NWS",
 rel: "V2R1",
 num: "000942",
 href: "Sorgenti/NWS/V5_NWS000942.md"
 },{
-id: 6168,
+id: 4763,
 title: "Contabilizzazione spese&#x2f;sconti&#x2f;maggiorazioni docum",
 cat: "NWS",
 rel: "V2R1",
 num: "000951",
 href: "Sorgenti/NWS/V5_NWS000951.md"
 },{
-id: 6169,
+id: 4764,
 title: "Possibilità di variazione data Atp in inserimento",
 cat: "NWS",
 rel: "V2R1",
 num: "000955",
 href: "Sorgenti/NWS/V5_NWS000955.md"
 },{
-id: 6170,
+id: 4765,
 title: "Spedizioni materiali conto lavoro",
 cat: "NWS",
 rel: "V2R1",
 num: "000970",
 href: "Sorgenti/NWS/V5_NWS000970.md"
 },{
-id: 6171,
+id: 4766,
 title: "Controllo&#x2f;Completamento record file Testate e Righ",
 cat: "NWS",
 rel: "V2R1",
 num: "000971",
 href: "Sorgenti/NWS/V5_NWS000971.md"
 },{
-id: 6172,
+id: 4767,
 title: "Scelta campo magazzino in generazione movimenti",
 cat: "NWS",
 rel: "V2R1",
 num: "000982",
 href: "Sorgenti/NWS/V5_NWS000982.md"
 },{
-id: 6173,
+id: 4768,
 title: "Copia &#x22;virtuale&#x22; sconti di testata",
 cat: "NWS",
 rel: "V2R1",
 num: "000987",
 href: "Sorgenti/NWS/V5_NWS000987.md"
 },{
-id: 6174,
+id: 4769,
 title: "Modifica criterio ordinamento documenti tipo 3",
 cat: "NWS",
 rel: "V2R1",
 num: "000999",
 href: "Sorgenti/NWS/V5_NWS000999.md"
 },{
-id: 6175,
+id: 4770,
 title: "Ristampa fatture",
 cat: "NWS",
 rel: "V2R1",
 num: "001021",
 href: "Sorgenti/NWS/V5_NWS001021.md"
 },{
-id: 6176,
+id: 4771,
 title: "Flag esclusione copia maggiorazioni&#x2f;sconti testata",
 cat: "NWS",
 rel: "V2R1",
 num: "001027",
 href: "Sorgenti/NWS/V5_NWS001027.md"
 },{
-id: 6177,
+id: 4772,
 title: "Impostazione magazzini di riga in derivazione docu",
 cat: "NWS",
 rel: "V2R1",
 num: "001039",
 href: "Sorgenti/NWS/V5_NWS001039.md"
 },{
-id: 6178,
+id: 4773,
 title: "Generazione ordini di produzione da documenti V5",
 cat: "NWS",
 rel: "V2R1",
 num: "001048",
 href: "Sorgenti/NWS/V5_NWS001048.md"
 },{
-id: 6179,
+id: 4774,
 title: "Contabilizzazione fatture attive&#x3a; Gestione",
 cat: "NWS",
 rel: "V2R2",
 num: "001051",
 href: "Sorgenti/NWS/V5_NWS001051.md"
 },{
-id: 6180,
+id: 4775,
 title: "Modifica utilizzo &#x2f;COPY £V7Y e £V7Z",
 cat: "NWS",
 rel: "V2R1",
 num: "001055",
 href: "Sorgenti/NWS/V5_NWS001055.md"
 },{
-id: 6181,
+id: 4776,
 title: "Standardizzazione del file V5PROV0F",
 cat: "NWS",
 rel: "V2R1",
 num: "001056",
 href: "Sorgenti/NWS/V5_NWS001056.md"
 },{
-id: 6182,
+id: 4777,
 title: "Forzatura tipo ordine produzione in generazione da",
 cat: "NWS",
 rel: "V2R1",
 num: "001061",
 href: "Sorgenti/NWS/V5_NWS001061.md"
 },{
-id: 6183,
+id: 4778,
 title: "Definizione Ente in ripresa valori da listino in r",
 cat: "NWS",
 rel: "V2R2",
 num: "001079",
 href: "Sorgenti/NWS/V5_NWS001079.md"
 },{
-id: 6184,
+id: 4779,
 title: "Abbandono flusso attività V5 con eliminazione docu",
 cat: "NWS",
 rel: "V2R2",
 num: "001087",
 href: "Sorgenti/NWS/V5_NWS001087.md"
 },{
-id: 6185,
+id: 4780,
 title: "Modifica significato quantità residua in schemi va",
 cat: "NWS",
 rel: "V2R2",
 num: "001098",
 href: "Sorgenti/NWS/V5_NWS001098.md"
 },{
-id: 6186,
+id: 4781,
 title: "Calendari - Nuova Opzione per determinazione gg",
 cat: "NWS",
 rel: "V2R2",
 num: "001108",
 href: "Sorgenti/NWS/V5_NWS001108.md"
 },{
-id: 6187,
+id: 4782,
 title: "Attribuzione Ass. IVA da Dichiarazioni d&#x27;intento",
 cat: "NWS",
 rel: "V2R2",
 num: "001113",
 href: "Sorgenti/NWS/V5_NWS001113.md"
 },{
-id: 6188,
+id: 4783,
 title: "Nuova Copy £V6D&#x3a; Legami fra documenti",
 cat: "NWS",
 rel: "V2R2",
 num: "001115",
 href: "Sorgenti/NWS/V5_NWS001115.md"
 },{
-id: 6189,
+id: 4784,
 title: "Tipizzazione campi file video visualizzatori V5",
 cat: "NWS",
 rel: "V2R2",
 num: "001118",
 href: "Sorgenti/NWS/V5_NWS001118.md"
 },{
-id: 6190,
+id: 4785,
 title: "Scheda Navigazione documenti V5",
 cat: "NWS",
 rel: "V2R2",
 num: "001173",
 href: "Sorgenti/NWS/V5_NWS001173.md"
 },{
-id: 6191,
+id: 4786,
 title: "Inserimento flussi in lista manutenzione righe doc",
 cat: "NWS",
 rel: "V2R2",
 num: "001182",
 href: "Sorgenti/NWS/V5_NWS001182.md"
 },{
-id: 6192,
+id: 4787,
 title: "Assoggettamento Iva prioritario in testata documen",
 cat: "NWS",
 rel: "V2R2",
 num: "001202",
 href: "Sorgenti/NWS/V5_NWS001202.md"
 },{
-id: 6193,
+id: 4788,
 title: "Controllo su righe V5",
 cat: "NWS",
 rel: "V2R2",
 num: "001204",
 href: "Sorgenti/NWS/V5_NWS001204.md"
 },{
-id: 6194,
+id: 4789,
 title: "Modifica descrizione documento",
 cat: "NWS",
 rel: "V2R2",
 num: "001206",
 href: "Sorgenti/NWS/V5_NWS001206.md"
 },{
-id: 6195,
+id: 4790,
 title: "Gestione Importi forfettari in righe documenti",
 cat: "NWS",
 rel: "V2R2",
 num: "001210",
 href: "Sorgenti/NWS/V5_NWS001210.md"
 },{
-id: 6196,
+id: 4791,
 title: "Novità in &#x2f;COPY £V7Y-£V7Z Controllo&#x2f;Completamento",
 cat: "NWS",
 rel: "V2R2",
 num: "001231",
 href: "Sorgenti/NWS/V5_NWS001231.md"
 },{
-id: 6197,
+id: 4792,
 title: "Precisazione sul flag T§FL08 del file V5TDOC0F",
 cat: "NWS",
 rel: "V2R2",
 num: "001238",
 href: "Sorgenti/NWS/V5_NWS001238.md"
 },{
-id: 6198,
+id: 4793,
 title: "Modifica file logico V5RDOC7L",
 cat: "NWS",
 rel: "V2R2",
 num: "001239",
 href: "Sorgenti/NWS/V5_NWS001239.md"
 },{
-id: 6199,
+id: 4794,
 title: "Revisione modulo provvigioni e contributi agente",
 cat: "NWS",
 rel: "V2R2",
 num: "001247",
 href: "Sorgenti/NWS/V5_NWS001247.md"
 },{
-id: 6200,
+id: 4795,
 title: "Flussi di transazione documenti V5",
 cat: "NWS",
 rel: "V2R3",
 num: "001262",
 href: "Sorgenti/NWS/V5_NWS001262.md"
 },{
-id: 6201,
+id: 4796,
 title: "Controllo Campo &#x22;riga origine&#x22; in gestione righe d",
 cat: "NWS",
 rel: "V2R3",
 num: "001285",
 href: "Sorgenti/NWS/V5_NWS001285.md"
 },{
-id: 6202,
+id: 4797,
 title: "Modifica flusso stampa bolle",
 cat: "NWS",
 rel: "V2R3",
 num: "001286",
 href: "Sorgenti/NWS/V5_NWS001286.md"
 },{
-id: 6203,
+id: 4798,
 title: "Impostazione spese bolli in fatturazione",
 cat: "NWS",
 rel: "V2R3",
 num: "001288",
 href: "Sorgenti/NWS/V5_NWS001288.md"
 },{
-id: 6204,
+id: 4799,
 title: "Scheda Documenti Ciclo Esterno a Partita",
 cat: "NWS",
 rel: "V2R3",
 num: "001294",
 href: "Sorgenti/NWS/V5_NWS001294.md"
 },{
-id: 6205,
+id: 4800,
 title: "Nuovi campi in DS di comunicazione Monitor-Visuali",
 cat: "NWS",
 rel: "V2R3",
 num: "001305",
 href: "Sorgenti/NWS/V5_NWS001305.md"
 },{
-id: 6206,
+id: 4801,
 title: "Gestione conti multipli su riga documento V5",
 cat: "NWS",
 rel: "V2R3",
 num: "001322",
 href: "Sorgenti/NWS/V5_NWS001322.md"
 },{
-id: 6207,
+id: 4802,
 title: "Utilizzo modelli ATP specifici",
 cat: "NWS",
 rel: "V2R3",
 num: "001328",
 href: "Sorgenti/NWS/V5_NWS001328.md"
 },{
-id: 6208,
+id: 4803,
 title: "Stampa DDT&#x2f;Fatture in attività V5",
 cat: "NWS",
 rel: "V2R3",
 num: "001333",
 href: "Sorgenti/NWS/V5_NWS001333.md"
 },{
-id: 6209,
+id: 4804,
 title: "Stampa da gestione documenti ciclo esterno",
 cat: "NWS",
 rel: "V2R3",
 num: "001334",
 href: "Sorgenti/NWS/V5_NWS001334.md"
 },{
-id: 6210,
+id: 4805,
 title: "Gestione flag 19 di riga documento nella gestione",
 cat: "NWS",
 rel: "V2R3",
 num: "001348",
 href: "Sorgenti/NWS/V5_NWS001348.md"
 },{
-id: 6211,
+id: 4806,
 title: "RDA in Trade.UP",
 cat: "NWS",
 rel: "V2R3",
 num: "001349",
 href: "Sorgenti/NWS/V5_NWS001349.md"
 },{
-id: 6212,
+id: 4807,
 title: "Programma aggiustamento Provvigioni",
 cat: "NWS",
 rel: "V2R3",
 num: "001352",
 href: "Sorgenti/NWS/V5_NWS001352.md"
 },{
-id: 6213,
+id: 4808,
 title: "Introduzione nuova tipologia di calcolo spese nell",
 cat: "NWS",
 rel: "V2R3",
 num: "001364",
 href: "Sorgenti/NWS/V5_NWS001364.md"
 },{
-id: 6214,
+id: 4809,
 title: "Matrice statistica ciclo esterno",
 cat: "NWS",
 rel: "V2R3",
 num: "001367",
 href: "Sorgenti/NWS/V5_NWS001367.md"
 },{
-id: 6215,
+id: 4810,
 title: "Gestione flag conto lavoro",
 cat: "NWS",
 rel: "V2R3",
 num: "001368",
 href: "Sorgenti/NWS/V5_NWS001368.md"
 },{
-id: 6216,
+id: 4811,
 title: "Ricerca estesa documenti per N.Fattura",
 cat: "NWS",
 rel: "V2R3",
 num: "001370",
 href: "Sorgenti/NWS/V5_NWS001370.md"
 },{
-id: 6217,
+id: 4812,
 title: "Aggiunto campo a tabella V5S",
 cat: "NWS",
 rel: "V2R3",
 num: "001376",
 href: "Sorgenti/NWS/V5_NWS001376.md"
 },{
-id: 6218,
+id: 4813,
 title: "Flussi di transazione&#x3a; indicazione tipo di lancio",
 cat: "NWS",
 rel: "V2R3",
 num: "001413",
 href: "Sorgenti/NWS/V5_NWS001413.md"
 },{
-id: 6219,
+id: 4814,
 title: "Matrice statistica RDA su V5",
 cat: "NWS",
 rel: "V2R3",
 num: "001417",
 href: "Sorgenti/NWS/V5_NWS001417.md"
 },{
-id: 6220,
+id: 4815,
 title: "Estensione autorizzazioni documenti V5",
 cat: "NWS",
 rel: "V2R3",
 num: "001418",
 href: "Sorgenti/NWS/V5_NWS001418.md"
 },{
-id: 6221,
+id: 4816,
 title: "Exit in liste documenti V5",
 cat: "NWS",
 rel: "V2R3",
 num: "001420",
 href: "Sorgenti/NWS/V5_NWS001420.md"
 },{
-id: 6222,
+id: 4817,
 title: "Prezzo in righe documento già comprensivo d&#x27;IVA",
 cat: "NWS",
 rel: "V2R3",
 num: "001421",
 href: "Sorgenti/NWS/V5_NWS001421.md"
 },{
-id: 6223,
+id: 4818,
 title: "Assegnazione Ente in base a percentuale",
 cat: "NWS",
 rel: "V2R3",
 num: "001423",
 href: "Sorgenti/NWS/V5_NWS001423.md"
 },{
-id: 6224,
+id: 4819,
 title: "Stampa documenti",
 cat: "NWS",
 rel: "V2R3",
 num: "001426",
 href: "Sorgenti/NWS/V5_NWS001426.md"
 },{
-id: 6225,
+id: 4820,
 title: "Navigazione sui documenti",
 cat: "NWS",
 rel: "V2R3",
 num: "001429",
 href: "Sorgenti/NWS/V5_NWS001429.md"
 },{
-id: 6226,
+id: 4821,
 title: "Esecuzione del motore inferenziale nei flussi di a",
 cat: "NWS",
 rel: "V2R3",
 num: "001446",
 href: "Sorgenti/NWS/V5_NWS001446.md"
 },{
-id: 6227,
+id: 4822,
 title: "Acquisizione Batch Documenti V5",
 cat: "NWS",
 rel: "V2R3",
 num: "001447",
 href: "Sorgenti/NWS/V5_NWS001447.md"
 },{
-id: 6228,
+id: 4823,
 title: "Nuova Funzione Analisi Uscite",
 cat: "NWS",
 rel: "V2R3",
 num: "001459",
 href: "Sorgenti/NWS/V5_NWS001459.md"
 },{
-id: 6229,
+id: 4824,
 title: "Modifica a ristampa fatture",
 cat: "NWS",
 rel: "V2R3",
 num: "001476",
 href: "Sorgenti/NWS/V5_NWS001476.md"
 },{
-id: 6230,
+id: 4825,
 title: "Passaggio flag di saldo forzato in programmi di",
 cat: "NWS",
 rel: "V2R3",
 num: "001494",
 href: "Sorgenti/NWS/V5_NWS001494.md"
 },{
-id: 6231,
+id: 4826,
 title: "Formato standard e specifico in visualizzatori",
 cat: "NWS",
 rel: "V2R3",
 num: "001500",
 href: "Sorgenti/NWS/V5_NWS001500.md"
 },{
-id: 6232,
+id: 4827,
 title: "Filtro conto lavoro in assegnazione da contratto",
 cat: "NWS",
 rel: "V2R3",
 num: "001514",
 href: "Sorgenti/NWS/V5_NWS001514.md"
 },{
-id: 6233,
+id: 4828,
 title: "Cambio default in acquisizione dati stampa fattura",
 cat: "NWS",
 rel: "V2R3",
 num: "001515",
 href: "Sorgenti/NWS/V5_NWS001515.md"
 },{
-id: 6234,
+id: 4829,
 title: "Conservazione Codice Lotto in scollegamento",
 cat: "NWS",
 rel: "V2R3",
 num: "001527",
 href: "Sorgenti/NWS/V5_NWS001527.md"
 },{
-id: 6235,
+id: 4830,
 title: "Flussi Post-cancellazione lotto in scollegamento",
 cat: "NWS",
 rel: "V2R3",
 num: "001528",
 href: "Sorgenti/NWS/V5_NWS001528.md"
 },{
-id: 6236,
+id: 4831,
 title: "Nuovo modulo statistiche",
 cat: "NWS",
 rel: "V2R3",
 num: "001533",
 href: "Sorgenti/NWS/V5_NWS001533.md"
 },{
-id: 6237,
+id: 4832,
 title: "Ricerca articolo con codice dell&#x27;ente esterno",
 cat: "NWS",
 rel: "V2R3",
 num: "001537",
 href: "Sorgenti/NWS/V5_NWS001537.md"
 },{
-id: 6238,
+id: 4833,
 title: "Modifica funzione assegnazione contratti",
 cat: "NWS",
 rel: "V2R3",
 num: "001544",
 href: "Sorgenti/NWS/V5_NWS001544.md"
 },{
-id: 6239,
+id: 4834,
 title: "Colleg.Q9000 entata merce C.Lav.Fase",
 cat: "NWS",
 rel: "V2R3",
 num: "001566",
 href: "Sorgenti/NWS/V5_NWS001566.md"
 },{
-id: 6240,
+id: 4835,
 title: "Nuova Gestione Omaggi con IVA a Carico",
 cat: "NWS",
 rel: "V2R3",
 num: "001578",
 href: "Sorgenti/NWS/V5_NWS001578.md"
 },{
-id: 6241,
+id: 4836,
 title: "Riestrazione provvigioni da documenti",
 cat: "NWS",
 rel: "V3R1",
 num: "001604",
 href: "Sorgenti/NWS/V5_NWS001604.md"
 },{
-id: 6242,
+id: 4837,
 title: "Verifica Autorizzazioni V5",
 cat: "NWS",
 rel: "V3R1",
 num: "001611",
 href: "Sorgenti/NWS/V5_NWS001611.md"
 },{
-id: 6243,
+id: 4838,
 title: "Funzioni Note Documento",
 cat: "NWS",
 rel: "V3R1",
 num: "001612",
 href: "Sorgenti/NWS/V5_NWS001612.md"
 },{
-id: 6244,
+id: 4839,
 title: "Gestione Kit commeciali",
 cat: "NWS",
 rel: "V3R1",
 num: "001645",
 href: "Sorgenti/NWS/V5_NWS001645.md"
 },{
-id: 6245,
+id: 4840,
 title: "Modifica a Visualizzatori Gruppo £VS",
 cat: "NWS",
 rel: "V3R1",
 num: "001650",
 href: "Sorgenti/NWS/V5_NWS001650.md"
 },{
-id: 6246,
+id: 4841,
 title: "Modifica a £ido,£idr, e lock logico da tabella",
 cat: "NWS",
 rel: "V3R1",
 num: "001651",
 href: "Sorgenti/NWS/V5_NWS001651.md"
 },{
-id: 6247,
+id: 4842,
 title: "Stampa fattura pro-forma",
 cat: "NWS",
 rel: "V3R1",
 num: "001655",
 href: "Sorgenti/NWS/V5_NWS001655.md"
 },{
-id: 6248,
+id: 4843,
 title: "Stampa Contributi delle Provvigioni",
 cat: "NWS",
 rel: "V3R1",
 num: "001680",
 href: "Sorgenti/NWS/V5_NWS001680.md"
 },{
-id: 6249,
+id: 4844,
 title: "Analisi evadibilità",
 cat: "NWS",
 rel: "V3R2",
 num: "001712",
 href: "Sorgenti/NWS/V5_NWS001712.md"
 },{
-id: 6250,
+id: 4845,
 title: "Introduzione IVA al 21%",
 cat: "NWS",
 rel: "V3R2",
 num: "001722",
 href: "Sorgenti/NWS/V5_NWS001722.md"
 },{
-id: 6251,
+id: 4846,
 title: "Utility Adeguamento IVA al 21",
 cat: "NWS",
 rel: "V3R2",
 num: "001723",
 href: "Sorgenti/NWS/V5_NWS001723.md"
 },{
-id: 6252,
+id: 4847,
 title: "Gestione delle spese",
 cat: "NWS",
 rel: "V3R2",
 num: "001731",
 href: "Sorgenti/NWS/V5_NWS001731.md"
 },{
-id: 6253,
+id: 4848,
 title: "Nuovo ordinamento in lista righe per flussi V5",
 cat: "NWS",
 rel: "V3R2",
 num: "001734",
 href: "Sorgenti/NWS/V5_NWS001734.md"
 },{
-id: 6254,
+id: 4849,
 title: "Modifica obbligatorietà plant.",
 cat: "NWS",
 rel: "V3R2",
 num: "001737",
 href: "Sorgenti/NWS/V5_NWS001737.md"
 },{
-id: 6255,
+id: 4850,
 title: "Nuova funzione in exit collegamento documenti",
 cat: "NWS",
 rel: "V3R2",
 num: "001749",
 href: "Sorgenti/NWS/V5_NWS001749.md"
 },{
-id: 6256,
+id: 4851,
 title: "Numeratori fatture ciclo attivo",
 cat: "NWS",
 rel: "V3R2",
 num: "001751",
 href: "Sorgenti/NWS/V5_NWS001751.md"
 },{
-id: 6257,
+id: 4852,
 title: "Nuovo opzione contabilizzazione spese V5S",
 cat: "NWS",
 rel: "V3R2",
 num: "001752",
 href: "Sorgenti/NWS/V5_NWS001752.md"
 },{
-id: 6258,
+id: 4853,
 title: "£V5F - Collocazione di un importo in spesa o",
 cat: "NWS",
 rel: "V3R2",
 num: "001754",
 href: "Sorgenti/NWS/V5_NWS001754.md"
 },{
-id: 6259,
+id: 4854,
 title: "Contabilizzazione Batch Ciclo Attivo",
 cat: "NWS",
 rel: "V3R2",
 num: "001761",
 href: "Sorgenti/NWS/V5_NWS001761.md"
 },{
-id: 6260,
+id: 4855,
 title: "Aggiunto metodo a V5FURIM",
 cat: "NWS",
 rel: "V3R2",
 num: "001797",
 href: "Sorgenti/NWS/V5_NWS001797.md"
 },{
-id: 6261,
+id: 4856,
 title: "Scollegamento diretto riga da lista righe",
 cat: "NWS",
 rel: "V3R2",
 num: "001806",
 href: "Sorgenti/NWS/V5_NWS001806.md"
 },{
-id: 6262,
+id: 4857,
 title: "Dicitura Iva per Cassa in Fattura",
 cat: "NWS",
 rel: "V3R2",
 num: "001860",
 href: "Sorgenti/NWS/V5_NWS001860.md"
 },{
-id: 6263,
+id: 4858,
 title: "Normativa Stampa Fatture",
 cat: "NWS",
 rel: "V3R2",
 num: "001888",
 href: "Sorgenti/NWS/V5_NWS001888.md"
 },{
-id: 6264,
+id: 4859,
 title: "Normativa Stampa Fatture",
 cat: "NWS",
 rel: "V3R2",
 num: "001889",
 href: "Sorgenti/NWS/V5_NWS001889.md"
 },{
-id: 6265,
+id: 4860,
 title: "Inversione Contabile su Stampa Fatture",
 cat: "NWS",
 rel: "V3R2",
 num: "001892",
 href: "Sorgenti/NWS/V5_NWS001892.md"
 },{
-id: 6266,
+id: 4861,
 title: "Risoluzione Agenzia Entrate su N° Fatture",
 cat: "NWS",
 rel: "V3R2",
 num: "001894",
 href: "Sorgenti/NWS/V5_NWS001894.md"
 },{
-id: 6267,
+id: 4862,
 title: "Cahe tabelle V5",
 cat: "NWS",
 rel: "V3R2",
 num: "001900",
 href: "Sorgenti/NWS/V5_NWS001900.md"
 },{
-id: 6268,
+id: 4863,
 title: "Revisione exit controllo ente",
 cat: "NWS",
 rel: "V3R2",
 num: "001901",
 href: "Sorgenti/NWS/V5_NWS001901.md"
 },{
-id: 6269,
+id: 4864,
 title: "Natura documento in V5 per Hypermenù",
 cat: "NWS",
 rel: "V3R2",
 num: "001904",
 href: "Sorgenti/NWS/V5_NWS001904.md"
 },{
-id: 6270,
+id: 4865,
 title: "Revisione logici V5",
 cat: "NWS",
 rel: "V3R2",
 num: "001905",
 href: "Sorgenti/NWS/V5_NWS001905.md"
 },{
-id: 6271,
+id: 4866,
 title: "Nuove funzioni a £IDO e £IDR",
 cat: "NWS",
 rel: "V3R2",
 num: "001906",
 href: "Sorgenti/NWS/V5_NWS001906.md"
 },{
-id: 6272,
+id: 4867,
 title: "Scheda moduli documenti Trade.UP",
 cat: "NWS",
 rel: "V3R2",
 num: "001925",
 href: "Sorgenti/NWS/V5_NWS001925.md"
 },{
-id: 6273,
+id: 4868,
 title: "Da Oggi Bollo da 1,81 a 2 Euro",
 cat: "NWS",
 rel: "V3R2",
 num: "001931",
 href: "Sorgenti/NWS/V5_NWS001931.md"
 },{
-id: 6274,
+id: 4869,
 title: "Introduzione IVA al 22%",
 cat: "NWS",
 rel: "V3R2",
 num: "001942",
 href: "Sorgenti/NWS/V5_NWS001942.md"
 },{
-id: 6275,
+id: 4870,
 title: "La regione Lazio anticipa fatturazione elettronica",
 cat: "NWS",
 rel: "\*ALL",
 num: "001984",
 href: "Sorgenti/NWS/V5_NWS001984.md"
 },{
-id: 6276,
+id: 4871,
 title: "Novità conservazione fatture elettroniche",
 cat: "NWS",
 rel: "\*ALL",
 num: "001993",
 href: "Sorgenti/NWS/V5_NWS001993.md"
 },{
-id: 6277,
+id: 4872,
 title: "Marca temporale e FatturaPA",
 cat: "NWS",
 rel: "\*ALL",
 num: "002004",
 href: "Sorgenti/NWS/V5_NWS002004.md"
 },{
-id: 6278,
+id: 4873,
 title: "Implementazioni su Provvigioni",
 cat: "NWS",
 rel: "V4R1",
 num: "002014",
 href: "Sorgenti/NWS/V5_NWS002014.md"
 },{
-id: 6279,
+id: 4874,
 title: "Evasione righe V5 in modalità grafica",
 cat: "NWS",
 rel: "V4R1",
 num: "002016",
 href: "Sorgenti/NWS/V5_NWS002016.md"
 },{
-id: 6280,
+id: 4875,
 title: "Versione 1.1 FatturaPA e sospensione ricezione",
 cat: "NWS",
 rel: "V4R1",
 num: "002021",
 href: "Sorgenti/NWS/V5_NWS002021.md"
 },{
-id: 6281,
+id: 4876,
 title: "Inserito tipo di output in stampa documento V5",
 cat: "NWS",
 rel: "V4R1",
 num: "002027",
 href: "Sorgenti/NWS/V5_NWS002027.md"
 },{
-id: 6282,
+id: 4877,
 title: "Abolizione Scheda di Trasporto - Approfondimento",
 cat: "NWS",
 rel: "V4R1",
 num: "002032",
 href: "Sorgenti/NWS/V5_NWS002032.md"
 },{
-id: 6283,
+id: 4878,
 title: "Introduzione Split Payment",
 cat: "NWS",
 rel: "V4R1",
 num: "002036",
 href: "Sorgenti/NWS/V5_NWS002036.md"
 },{
-id: 6284,
+id: 4879,
 title: "Split Payment - Aggiornamento",
 cat: "NWS",
 rel: "V4R1",
 num: "002037",
 href: "Sorgenti/NWS/V5_NWS002037.md"
 },{
-id: 6285,
+id: 4880,
 title: "Aggiornamenti FatturaPA per Split Payment",
 cat: "NWS",
 rel: "V4R1",
 num: "002039",
 href: "Sorgenti/NWS/V5_NWS002039.md"
 },{
-id: 6286,
+id: 4881,
 title: "Indisponibilità webservice FatturaPA",
 cat: "NWS",
 rel: "\*ALL",
 num: "002048",
 href: "Sorgenti/NWS/V5_NWS002048.md"
 },{
-id: 6287,
+id: 4882,
 title: "Sospensione ricezione dei file fattura da parte",
 cat: "NWS",
 rel: "\*ALL",
 num: "002055",
 href: "Sorgenti/NWS/V5_NWS002055.md"
 },{
-id: 6288,
+id: 4883,
 title: "Nuovo filtro richiedente nei surf delle richieste",
 cat: "NWS",
 rel: "V4R1",
 num: "002056",
 href: "Sorgenti/NWS/V5_NWS002056.md"
 },{
-id: 6289,
+id: 4884,
 title: "Creazione RM da documento DO",
 cat: "NWS",
 rel: "V4R1",
 num: "002060",
 href: "Sorgenti/NWS/V5_NWS002060.md"
 },{
-id: 6290,
+id: 4885,
 title: "Inclusione allegati multipli in XML FatturaPA",
 cat: "NWS",
 rel: "V4R1",
 num: "002094",
 href: "Sorgenti/NWS/V5_NWS002094.md"
 },{
-id: 6291,
+id: 4886,
 title: "FatturaPA&#x3a; aggiornamento per Dispositivi medici",
 cat: "NWS",
 rel: "V4R1",
 num: "002144",
 href: "Sorgenti/NWS/V5_NWS002144.md"
 },{
-id: 6292,
+id: 4887,
 title: "Funzioni Fatturazione",
 cat: "NWS",
 rel: "V4R1",
 num: "002162",
 href: "Sorgenti/NWS/V5_NWS002162.md"
 },{
-id: 6293,
+id: 4888,
 title: "Aggiornamenti fatturaPA per nuovi controlli a",
 cat: "NWS",
 rel: "V4R1",
 num: "002163",
 href: "Sorgenti/NWS/V5_NWS002163.md"
 },{
-id: 6294,
+id: 4889,
 title: "Rinvio al 01&#x2f;12&#x2f;2016 controlli bloccanti FatturaPA",
 cat: "NWS",
 rel: "\*ALL",
 num: "002164",
 href: "Sorgenti/NWS/V5_NWS002164.md"
 },{
-id: 6295,
+id: 4890,
 title: "Corretto errore V5AT11E",
 cat: "NWS",
 rel: "V4R1",
 num: "002193",
 href: "Sorgenti/NWS/V5_NWS002193.md"
 },{
-id: 6296,
+id: 4891,
 title: "Indisponibilità SdI dal 1&#x2f;1 al 8&#x2f;1&#x2f;2017",
 cat: "NWS",
 rel: "\*ALL",
 num: "002208",
 href: "Sorgenti/NWS/V5_NWS002208.md"
 },{
-id: 6297,
+id: 4892,
 title: "Gestione prezzi lordi in £V5V e £V5F",
 cat: "NWS",
 rel: "V5R1",
 num: "002214",
 href: "Sorgenti/NWS/V5_NWS002214.md"
 },{
-id: 6298,
+id: 4893,
 title: "Revisione tracciato V5STAT",
 cat: "NWS",
 rel: "V5R1",
 num: "002215",
 href: "Sorgenti/NWS/V5_NWS002215.md"
 },{
-id: 6299,
+id: 4894,
 title: "Versione 1.2 tracciato Fatturazione Elettronica",
 cat: "NWS",
 rel: "V5R1",
 num: "002220",
 href: "Sorgenti/NWS/V5_NWS002220.md"
 },{
-id: 6300,
+id: 4895,
 title: "FatturaPA - Chiusura di SdI&#x3a; chiarimenti",
 cat: "NWS",
 rel: "\*ALL",
 num: "002221",
 href: "Sorgenti/NWS/V5_NWS002221.md"
 },{
-id: 6301,
+id: 4896,
 title: "Numeri Testata Documento ciclo esterno",
 cat: "NWS",
 rel: "V5R1",
 num: "002225",
 href: "Sorgenti/NWS/V5_NWS002225.md"
 },{
-id: 6302,
+id: 4897,
 title: "Gestione scarico impegni di produzione da conto la",
 cat: "NWS",
 rel: "V5R1",
 num: "002340",
 href: "Sorgenti/NWS/V5_NWS002340.md"
 },{
-id: 6303,
+id: 4898,
 title: "Aggiornamenti Fatturazione Elettronica",
 cat: "NWS",
 rel: "V5R1",
 num: "002343",
 href: "Sorgenti/NWS/V5_NWS002343.md"
 },{
-id: 6304,
+id: 4899,
 title: "Indisponibilità Sistema di Interscambio il",
 cat: "NWS",
 rel: "\*ALL",
 num: "002348",
 href: "Sorgenti/NWS/V5_NWS002348.md"
 },{
-id: 6305,
+id: 4900,
 title: "Indisponibilità Sistema di Interscambio il",
 cat: "NWS",
 rel: "\*ALL",
 num: "002350",
 href: "Sorgenti/NWS/V5_NWS002350.md"
 },{
-id: 6306,
+id: 4901,
 title: "Controlli in fase di stampa fattura",
 cat: "NWS",
 rel: "V5R1",
 num: "002359",
 href: "Sorgenti/NWS/V5_NWS002359.md"
 },{
-id: 6307,
+id: 4902,
 title: "Cruscotto Esiti Fatturazione Elettronica",
 cat: "NWS",
 rel: "\*ALL",
 num: "002363",
 href: "Sorgenti/NWS/V5_NWS002363.md"
 },{
-id: 6308,
+id: 4903,
 title: "Web.UP&#x3a; traduzione di liste da filtro",
 cat: "NWS",
 rel: "V3R2",
 num: "001877",
 href: "Sorgenti/NWS/WE_NWS001877.md"
 },{
-id: 6309,
+id: 4904,
 title: "Rilascio nuova versione di Web.UP",
 cat: "NWS",
 rel: "V4R1",
 num: "002158",
 href: "Sorgenti/NWS/WE_NWS002158.md"
 },{
-id: 6310,
+id: 4905,
 title: "Rilascio nuova versione di Web.UP Stable 1.9.0",
 cat: "NWS",
 rel: "V4R1",
 num: "002179",
 href: "Sorgenti/NWS/WE_NWS002179.md"
 },{
-id: 6311,
+id: 4906,
 title: "Rilascio Web.UP 1.10 Stable",
 cat: "NWS",
 rel: "V5R1",
 num: "002218",
 href: "Sorgenti/NWS/WE_NWS002218.md"
 },{
-id: 6312,
+id: 4907,
 title: "Rilascio upgrade 1.10.2 di Web.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002224",
 href: "Sorgenti/NWS/WE_NWS002224.md"
 },{
-id: 6313,
+id: 4908,
 title: "Rilascio Upgrade Web.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002240",
 href: "Sorgenti/NWS/WE_NWS002240.md"
 },{
-id: 6314,
+id: 4909,
 title: "Rilascio Web.UP 1.11.1",
 cat: "NWS",
 rel: "\*ALL",
 num: "002254",
 href: "Sorgenti/NWS/WE_NWS002254.md"
 },{
-id: 6315,
+id: 4910,
 title: "Nuovo rilascio Web.UP 1.12 Stable",
 cat: "NWS",
 rel: "V5R1",
 num: "002267",
 href: "Sorgenti/NWS/WE_NWS002267.md"
 },{
-id: 6316,
+id: 4911,
 title: "Rilascio correzioni e migliorie Web.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002273",
 href: "Sorgenti/NWS/WE_NWS002273.md"
 },{
-id: 6317,
+id: 4912,
 title: "Debug di JOB di Web.UP",
 cat: "NWS",
 rel: "V5R1",
 num: "002276",
 href: "Sorgenti/NWS/WE_NWS002276.md"
 },{
-id: 6318,
+id: 4913,
 title: "Aggiornamento Web.UP 1.12.5",
 cat: "NWS",
 rel: "V5R1",
 num: "002277",
 href: "Sorgenti/NWS/WE_NWS002277.md"
 },{
-id: 6319,
+id: 4914,
 title: "Rilascio nuova versione Web.UP 1.13.0",
 cat: "NWS",
 rel: "V5R1",
 num: "002282",
 href: "Sorgenti/NWS/WE_NWS002282.md"
 },{
-id: 6320,
+id: 4915,
 title: "Rilascio Web.UP 1.13.3",
 cat: "NWS",
 rel: "V5R1",
 num: "002290",
 href: "Sorgenti/NWS/WE_NWS002290.md"
 },{
-id: 6321,
+id: 4916,
 title: "Web.UP 1.13.5 disponibile",
 cat: "NWS",
 rel: "V5R1",
 num: "002295",
 href: "Sorgenti/NWS/WE_NWS002295.md"
 },{
-id: 6322,
+id: 4917,
 title: "Nuovo rilascio Web.UP 1.13.8",
 cat: "NWS",
 rel: "V5R1",
 num: "002307",
 href: "Sorgenti/NWS/WE_NWS002307.md"
 },{
-id: 6323,
+id: 4918,
 title: "Rilascio Web.UP 1.14.0",
 cat: "NWS",
 rel: "V5R1",
 num: "002311",
 href: "Sorgenti/NWS/WE_NWS002311.md"
 },{
-id: 6324,
+id: 4919,
 title: "Nuova versione Web.UP 1.14.1",
 cat: "NWS",
 rel: "V5R1",
 num: "002326",
 href: "Sorgenti/NWS/WE_NWS002326.md"
 },{
-id: 6325,
+id: 4920,
 title: "Nuova versione Web.UP 1.14.2",
 cat: "NWS",
 rel: "V5R1",
 num: "002332",
 href: "Sorgenti/NWS/WE_NWS002332.md"
 },{
-id: 6326,
+id: 4921,
 title: "Rilascio Web.UP 1.14.4",
 cat: "NWS",
 rel: "V5R1",
 num: "002339",
 href: "Sorgenti/NWS/WE_NWS002339.md"
 },{
-id: 6327,
+id: 4922,
 title: "Nuovo Web.UP 1.15.2",
 cat: "NWS",
 rel: "V5R1",
 num: "002347",
 href: "Sorgenti/NWS/WE_NWS002347.md"
 },{
-id: 6328,
+id: 4923,
 title: "Nuova versione Web.UP 1.15.4",
 cat: "NWS",
 rel: "V5R1",
 num: "002351",
 href: "Sorgenti/NWS/WE_NWS002351.md"
 },{
-id: 6329,
+id: 4924,
 title: "Rilascio Web.UP 1.15.5",
 cat: "NWS",
 rel: "V5R1",
 num: "002353",
 href: "Sorgenti/NWS/WE_NWS002353.md"
 },{
-id: 6330,
+id: 4925,
 title: "Rilascio Web.UP 1.15.7",
 cat: "NWS",
 rel: "V5R1",
 num: "002361",
 href: "Sorgenti/NWS/WE_NWS002361.md"
 },{
-id: 6331,
+id: 4926,
 title: "Rilascio Web.UP 1.15.10",
 cat: "NWS",
 rel: "V5R1",
 num: "002367",
 href: "Sorgenti/NWS/WE_NWS002367.md"
 },{
-id: 6332,
+id: 4927,
 title: "Rilascio Web.UP 1.15.10 - Errata corrige",
 cat: "NWS",
 rel: "V5R1",
 num: "002368",
 href: "Sorgenti/NWS/WE_NWS002368.md"
 },{
-id: 6333,
+id: 4928,
 title: "Rilascio Web.UP 1.16.0",
 cat: "NWS",
 rel: "V5R1",
 num: "002372",
 href: "Sorgenti/NWS/WE_NWS002372.md"
 },{
-id: 6334,
+id: 4929,
 title: "Rilascio Web.UP 1.16.2",
 cat: "NWS",
 rel: "V5R1",
 num: "002373",
 href: "Sorgenti/NWS/WE_NWS002373.md"
 },{
-id: 6335,
+id: 4930,
 title: "Rilascio applicazione WF - Workflow.",
 cat: "NWS",
 rel: "V2R3",
 num: "001264",
 href: "Sorgenti/NWS/WF_NWS001264.md"
 },{
-id: 6336,
+id: 4931,
 title: "Riapertura automatica ordini di workflow",
 cat: "NWS",
 rel: "V2R3",
 num: "001384",
 href: "Sorgenti/NWS/WF_NWS001384.md"
 },{
-id: 6337,
+id: 4932,
 title: "Azioni di workflow di integrazione con dati colleg",
 cat: "NWS",
 rel: "V2R3",
 num: "001399",
 href: "Sorgenti/NWS/WF_NWS001399.md"
 },{
-id: 6338,
+id: 4933,
 title: "Miglioramenti workflow",
 cat: "NWS",
 rel: "V2R3",
 num: "001453",
 href: "Sorgenti/NWS/WF_NWS001453.md"
 },{
-id: 6339,
+id: 4934,
 title: "Workflow e autorizzazioni di oggetto",
 cat: "NWS",
 rel: "V2R3",
 num: "001477",
 href: "Sorgenti/NWS/WF_NWS001477.md"
 },{
-id: 6340,
+id: 4935,
 title: "Miglioramenti azione invio mail da workflow",
 cat: "NWS",
 rel: "V2R3",
 num: "001493",
 href: "Sorgenti/NWS/WF_NWS001493.md"
 },{
-id: 6341,
+id: 4936,
 title: "Classe di esecutori di backup",
 cat: "NWS",
 rel: "V2R3",
 num: "001502",
 href: "Sorgenti/NWS/WF_NWS001502.md"
 },{
-id: 6342,
+id: 4937,
 title: "Revisione globale backup e presa in carico non vin",
 cat: "NWS",
 rel: "V2R3",
 num: "001510",
 href: "Sorgenti/NWS/WF_NWS001510.md"
 },{
-id: 6343,
+id: 4938,
 title: "Lancio sottoworkflow in Looc.up",
 cat: "NWS",
 rel: "V2R3",
 num: "001511",
 href: "Sorgenti/NWS/WF_NWS001511.md"
 },{
-id: 6344,
+id: 4939,
 title: "Workflow&#x3a; novità V3R1",
 cat: "NWS",
 rel: "V3R1",
 num: "001616",
 href: "Sorgenti/NWS/WF_NWS001616.md"
 },{
-id: 6345,
+id: 4940,
 title: "Miglioramenti lanciatore mail workflow",
 cat: "NWS",
 rel: "V3R1",
 num: "001687",
 href: "Sorgenti/NWS/WF_NWS001687.md"
 },{
-id: 6346,
+id: 4941,
 title: "Worklist mantiene impostazioni al ritorno dall&#x27;es",
 cat: "NWS",
 rel: "V3R1",
 num: "001705",
 href: "Sorgenti/NWS/WF_NWS001705.md"
 },{
-id: 6347,
+id: 4942,
 title: "Azioni catalogate per costruzione workflow",
 cat: "NWS",
 rel: "V3R2",
 num: "001718",
 href: "Sorgenti/NWS/WF_NWS001718.md"
 },{
-id: 6348,
+id: 4943,
 title: "Creazione facilitata di nuovi processi",
 cat: "NWS",
 rel: "V3R2",
 num: "001758",
 href: "Sorgenti/NWS/WF_NWS001758.md"
 },{
-id: 6349,
+id: 4944,
 title: "Salto impegni di workflow",
 cat: "NWS",
 rel: "V3R2",
 num: "001771",
 href: "Sorgenti/NWS/WF_NWS001771.md"
 },{
-id: 6350,
+id: 4945,
 title: "Visualizzazione token su rappresentazione grafica",
 cat: "NWS",
 rel: "V3R2",
 num: "001780",
 href: "Sorgenti/NWS/WF_NWS001780.md"
 },{
-id: 6351,
+id: 4946,
 title: "Novità Wf",
 cat: "NWS",
 rel: "V3R2",
 num: "001784",
 href: "Sorgenti/NWS/WF_NWS001784.md"
 },{
-id: 6352,
+id: 4947,
 title: "Nuovo processo domanda-risposta",
 cat: "NWS",
 rel: "V3R2",
 num: "001786",
 href: "Sorgenti/NWS/WF_NWS001786.md"
 },{
-id: 6353,
+id: 4948,
 title: "Autorizzazioni su schede WF",
 cat: "NWS",
 rel: "V3R2",
 num: "001788",
 href: "Sorgenti/NWS/WF_NWS001788.md"
 },{
-id: 6354,
+id: 4949,
 title: "Autorizzazioni del tipo SI&#x2f;NO per classi di utenti",
 cat: "NWS",
 rel: "V3R2",
 num: "001789",
 href: "Sorgenti/NWS/WF_NWS001789.md"
 },{
-id: 6355,
+id: 4950,
 title: "Pop.up oggetto &#x22;ordine di workflow&#x22;",
 cat: "NWS",
 rel: "V3R2",
 num: "001801",
 href: "Sorgenti/NWS/WF_NWS001801.md"
 },{
-id: 6356,
+id: 4951,
 title: "Nuovi OAV &#x22;Numero esecutori&#x22; su impegni di workflo",
 cat: "NWS",
 rel: "V3R2",
 num: "001802",
 href: "Sorgenti/NWS/WF_NWS001802.md"
 },{
-id: 6357,
+id: 4952,
 title: "Promemoria",
 cat: "NWS",
 rel: "V3R2",
 num: "001818",
 href: "Sorgenti/NWS/WF_NWS001818.md"
 },{
-id: 6358,
+id: 4953,
 title: "Nuova azione di dichiarazione con assegnazione",
 cat: "NWS",
 rel: "V3R2",
 num: "001821",
 href: "Sorgenti/NWS/WF_NWS001821.md"
 },{
-id: 6359,
+id: 4954,
 title: "Modifiche al processo standard £TASK01",
 cat: "NWS",
 rel: "V3R2",
 num: "001822",
 href: "Sorgenti/NWS/WF_NWS001822.md"
 },{
-id: 6360,
+id: 4955,
 title: "Interrogazione task di un oggetto",
 cat: "NWS",
 rel: "V3R2",
 num: "001824",
 href: "Sorgenti/NWS/WF_NWS001824.md"
 },{
-id: 6361,
+id: 4956,
 title: "Check all&#x27;avanzamento utente",
 cat: "NWS",
 rel: "V3R2",
 num: "001829",
 href: "Sorgenti/NWS/WF_NWS001829.md"
 },{
-id: 6362,
+id: 4957,
 title: "Miglioramenti processo standard di gestione",
 cat: "NWS",
 rel: "V3R2",
 num: "001840",
 href: "Sorgenti/NWS/WF_NWS001840.md"
 },{
-id: 6363,
+id: 4958,
 title: "Allineamento di massa ordini di un processo",
 cat: "NWS",
 rel: "V3R2",
 num: "001848",
 href: "Sorgenti/NWS/WF_NWS001848.md"
 },{
-id: 6364,
+id: 4959,
 title: "Gestione Documentazione Utente",
 cat: "NWS",
 rel: "V1R5",
 num: "000646",
 href: "Sorgenti/NWS/X1_NWS000646.md"
 },{
-id: 6365,
+id: 4960,
 title: 'Piano di ammortamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/A1.md"
 },{
-id: 6366,
+id: 4961,
 title: 'Movimento di Cespite',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/A5.md"
 },{
-id: 6367,
+id: 4962,
 title: 'Data ggmmaaaa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/A8.md"
 },{
-id: 6368,
+id: 4963,
 title: 'Dettaglio data ggmmaaa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/A8_D.md"
 },{
-id: 6369,
+id: 4964,
 title: 'Agente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AG.md"
 },{
-id: 6370,
+id: 4965,
 title: 'Dettaglio agente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AG_D.md"
 },{
-id: 6371,
+id: 4966,
 title: 'Articolo / Magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AM.md"
 },{
-id: 6372,
+id: 4967,
 title: 'Dettaglio Articolo / Magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AM_D.md"
 },{
-id: 6373,
+id: 4968,
 title: 'Articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AR.md"
 },{
-id: 6374,
+id: 4969,
 title: 'Data odierna',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AS.md"
 },{
-id: 6375,
+id: 4970,
 title: 'Dettaglio data odierna',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AS_D.md"
 },{
-id: 6376,
+id: 4971,
 title: 'Azienda',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AZ.md"
 },{
-id: 6377,
+id: 4972,
 title: 'Dettaglio azienda',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/AZ_D.md"
 },{
-id: 6378,
+id: 4973,
 title: 'Banca',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/BA.md"
 },{
-id: 6379,
+id: 4974,
 title: 'Dettaglio banca',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/BA_D.md"
 },{
-id: 6380,
+id: 4975,
 title: 'Riga sollecito pagamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/C3.md"
 },{
-id: 6381,
+id: 4976,
 title: 'Centro di costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CC.md"
 },{
-id: 6382,
+id: 4977,
 title: 'Dettaglio centro di costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CC_D.md"
 },{
-id: 6383,
+id: 4978,
 title: 'Cespite',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CE.md"
 },{
-id: 6384,
+id: 4979,
 title: 'Configurazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CF.md"
 },{
-id: 6385,
+id: 4980,
 title: 'Dettaglio configuraizioe',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CF_D.md"
 },{
-id: 6386,
+id: 4981,
 title: 'Controllo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CK.md"
 },{
-id: 6387,
+id: 4982,
 title: 'Cliente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CL.md"
 },{
-id: 6388,
+id: 4983,
 title: 'Dettaglio cliente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CL_D.md"
 },{
-id: 6389,
+id: 4984,
 title: 'Commessa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CM.md"
 },{
-id: 6390,
+id: 4985,
 title: 'Ente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CN.md"
 },{
-id: 6391,
+id: 4986,
 title: 'Conto contabile',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CO.md"
 },{
-id: 6392,
+id: 4987,
 title: 'Dettaglio conto contabile',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CO_D.md"
 },{
-id: 6393,
+id: 4988,
 title: 'Campo/Domanda questionario',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CS.md"
 },{
-id: 6394,
+id: 4989,
 title: 'Collo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/CZ.md"
 },{
-id: 6395,
+id: 4990,
 title: 'Data',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/D8.md"
 },{
-id: 6396,
+id: 4991,
 title: 'Dettaglio data',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/D8_D.md"
 },{
-id: 6397,
+id: 4992,
 title: 'Dipendente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/DI.md"
 },{
-id: 6398,
+id: 4993,
 title: 'Dettaglio dipendente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/DI_D.md"
 },{
-id: 6399,
+id: 4994,
 title: 'Testata Richiesta di movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/DM.md"
 },{
-id: 6400,
+id: 4995,
 title: 'Testata documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/DO.md"
 },{
-id: 6401,
+id: 4996,
 title: 'Riga documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/DR.md"
 },{
-id: 6402,
+id: 4997,
 title: 'Movimento di magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/E1.md"
 },{
-id: 6403,
+id: 4998,
 title: 'Dichiarazione attività',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/E2.md"
 },{
-id: 6404,
+id: 4999,
 title: 'Registrazione contabile',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/E4.md"
 },{
-id: 6405,
+id: 5000,
 title: 'Riga registrazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/E5.md"
 },{
-id: 6406,
+id: 5001,
 title: 'Intervento dichiarato',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/E6.md"
 },{
-id: 6407,
+id: 5002,
 title: 'Flag',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/FL.md"
 },{
-id: 6408,
+id: 5003,
 title: 'Dettaglio Flag di archivio',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/FL_D.md"
 },{
-id: 6409,
+id: 5004,
 title: 'Fornitore',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/FO.md"
 },{
-id: 6410,
+id: 5005,
 title: 'Dettaglio fornitore',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/FO_D.md"
 },{
-id: 6411,
+id: 5006,
 title: 'Gruppo fonti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/GF.md"
 },{
-id: 6412,
+id: 5007,
 title: 'Dettaglio gruppo fonti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/GF_D.md"
 },{
-id: 6413,
+id: 5008,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/H1.md"
 },{
-id: 6414,
+id: 5009,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/H2.md"
 },{
-id: 6415,
+id: 5010,
 title: 'Istante del giorno',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/I1.md"
 },{
-id: 6416,
+id: 5011,
 title: 'Dettaglio istante del giorno',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/I1_D.md"
 },{
-id: 6417,
+id: 5012,
 title: 'Intervallo di tempo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/I2.md"
 },{
-id: 6418,
+id: 5013,
 title: 'Dettaglio intervallo di tempo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/I2_D.md"
 },{
-id: 6419,
+id: 5014,
 title: 'Timestamp',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/I3.md"
 },{
-id: 6420,
+id: 5015,
 title: 'Dettaglio timestamp',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/I3_D.md"
 },{
-id: 6421,
+id: 5016,
 title: 'Impegno risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/IR.md"
 },{
-id: 6422,
+id: 5017,
 title: 'Impegno materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/IT.md"
 },{
-id: 6423,
+id: 5018,
 title: 'Oggetti J1',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/J1.md"
 },{
-id: 6424,
+id: 5019,
 title: 'Setup',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/J3.md"
 },{
-id: 6425,
+id: 5020,
 title: 'Oggetti J7',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/J7.md"
 },{
-id: 6426,
+id: 5021,
 title: 'Lista di oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/LI.md"
 },{
-id: 6427,
+id: 5022,
 title: 'Lotto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/LO.md"
 },{
-id: 6428,
+id: 5023,
 title: 'Listino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/LS.md"
 },{
-id: 6429,
+id: 5024,
 title: 'Consiglio di pianificazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/M5.md"
 },{
-id: 6430,
+id: 5025,
 title: 'Macchina',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/MA.md"
 },{
-id: 6431,
+id: 5026,
 title: 'Dettaglio macchina',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/MA_D.md"
 },{
-id: 6432,
+id: 5027,
 title: 'Membro di data base',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/MB.md"
 },{
-id: 6433,
+id: 5028,
 title: 'Dettaglio membro di data base',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/MB_D.md"
 },{
-id: 6434,
+id: 5029,
 title: 'Magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/MG.md"
 },{
-id: 6435,
+id: 5030,
 title: 'Dettaglio magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/MG_D.md"
 },{
-id: 6436,
+id: 5031,
 title: 'Riga analitica',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/MH.md"
 },{
-id: 6437,
+id: 5032,
 title: 'Matricola',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/MT.md"
 },{
-id: 6438,
+id: 5033,
 title: 'Oggetto NUMERO',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/NR.md"
 },{
-id: 6439,
+id: 5034,
 title: 'Oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/OG.md"
 },{
-id: 6440,
+id: 5035,
 title: 'Definizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/OG_D.md"
 },{
-id: 6441,
+id: 5036,
 title: 'Creare un nuovo oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/OG_N.md"
 },{
-id: 6442,
+id: 5037,
 title: 'Oggetto di sistema',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/OJ.md"
 },{
-id: 6443,
+id: 5038,
 title: 'Dettaglio oggetto di sistema',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/OJ_D.md"
 },{
-id: 6444,
+id: 5039,
 title: 'Scheda oggetto file',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/OJ_FILE.md"
 },{
-id: 6445,
+id: 5040,
 title: 'Ordine di produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/OR.md"
 },{
-id: 6446,
+id: 5041,
 title: 'Programma',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/PG.md"
 },{
-id: 6447,
+id: 5042,
 title: 'Dettaglio programma',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/PG_D.md"
 },{
-id: 6448,
+id: 5043,
 title: 'Documentazione Classe Q1 - Query',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q1.md"
 },{
-id: 6449,
+id: 5044,
 title: 'Documentazione Classe Q1 - Query - Definizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q101.md"
 },{
-id: 6450,
+id: 5045,
 title: 'Documentazione Classe Q1 - Query - Nuove Query',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q102.md"
 },{
-id: 6451,
+id: 5046,
 title: 'Documentazione Classe Q2 - Schema',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q2.md"
 },{
-id: 6452,
+id: 5047,
 title: 'Documentazione Classe Q2 - Schema - Definizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q201.md"
 },{
-id: 6453,
+id: 5048,
 title: 'Documentazione Classe Q2 - Schema - Utilizzo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q202.md"
 },{
-id: 6454,
+id: 5049,
 title: 'Documentazione Classe Q3 - Filtri',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q3.md"
 },{
-id: 6455,
+id: 5050,
 title: 'Documentazione Classe Q3 - Filtri - Definizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q301.md"
 },{
-id: 6456,
+id: 5051,
 title: 'Documentazione Classe Q3 - Utilizzo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q302.md"
 },{
-id: 6457,
+id: 5052,
 title: 'Documentazione Classe Q4 - Ordinamenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q4.md"
 },{
-id: 6458,
+id: 5053,
 title: 'Documentazione Classe Q5 - Fonte',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/Q5.md"
 },{
-id: 6459,
+id: 5054,
 title: 'Richiesta d acqusito',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/RA.md"
 },{
-id: 6460,
+id: 5055,
 title: 'Risorsa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/RI.md"
 },{
-id: 6461,
+id: 5056,
 title: 'Richiesta di movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/RM.md"
 },{
-id: 6462,
+id: 5057,
 title: 'Rata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/RR.md"
 },{
-id: 6463,
+id: 5058,
 title: 'Schema di presentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/SP.md"
 },{
-id: 6464,
+id: 5059,
 title: 'Dettaglio oggetto Schema di presentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/SP_D.md"
 },{
-id: 6465,
+id: 5060,
 title: 'Sottosettore di tabella',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/SS.md"
 },{
-id: 6466,
+id: 5061,
 title: 'Settore di tabella',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/ST.md"
 },{
-id: 6467,
+id: 5062,
 title: 'Le UPP in Sme.UP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/SU.md"
 },{
-id: 6468,
+id: 5063,
 title: 'Elemento di tabella',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/TA.md"
 },{
-id: 6469,
+id: 5064,
 title: 'Elemento di settore',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/TS.md"
 },{
-id: 6470,
+id: 5065,
 title: 'Dettaglio elemento di settore',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/TS_D.md"
 },{
-id: 6471,
+id: 5066,
 title: 'Ubicazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/UB.md"
 },{
-id: 6472,
+id: 5067,
 title: 'Utente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/UP.md"
 },{
-id: 6473,
+id: 5068,
 title: 'Dettaglio Utente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/UP_D.md"
 },{
-id: 6474,
+id: 5069,
 title: 'Codici standard SME.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/V1.md"
 },{
-id: 6475,
+id: 5070,
 title: 'Dettaglio Codici standard SME.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/V1_D.md"
 },{
-id: 6476,
+id: 5071,
 title: 'Valori fissi SME.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/V2.md"
 },{
-id: 6477,
+id: 5072,
 title: 'Dettaglio Valori fissi SME.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/V2_D.md"
 },{
-id: 6478,
+id: 5073,
 title: 'Valori dinamici SME.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/V3.md"
 },{
-id: 6479,
+id: 5074,
 title: 'Dettaglio Valori dinamici SME.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/V3_D.md"
 },{
-id: 6480,
+id: 5075,
 title: 'Oggetti Esterni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/V5.md"
 },{
-id: 6481,
+id: 5076,
 title: 'Viaggio',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/VG.md"
 },{
-id: 6482,
+id: 5077,
 title: 'Voce',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/VO.md"
 },{
-id: 6483,
+id: 5078,
 title: 'Dettaglio Voce',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/VO_D.md"
 },{
-id: 6484,
+id: 5079,
 title: 'Voce di spesa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/VS.md"
 },{
-id: 6485,
+id: 5080,
 title: 'Dettaglio voce di spesa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/VS_D.md"
 },{
-id: 6486,
+id: 5081,
 title: 'Oggetti da Definizione Utente (UFO)',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/OG/_D.md"
 },{
-id: 6487,
+id: 5082,
 title: 'A51 - Gestione cespiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A51.md"
 },{
-id: 6488,
+id: 5083,
 title: 'A5A - Categoria fiscale cespite',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A5A.md"
 },{
-id: 6489,
+id: 5084,
 title: 'A5B - Causali cespiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A5B.md"
 },{
-id: 6490,
+id: 5085,
 title: 'A5C - Linea di ammortamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A5C.md"
 },{
-id: 6491,
+id: 5086,
 title: 'A5D - Classe implicita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A5D.md"
 },{
-id: 6492,
+id: 5087,
 title: 'A5E - Ubicazione del cespite',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A5E.md"
 },{
-id: 6493,
+id: 5088,
 title: 'A5F - Causali contabili collegate',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A5F.md"
 },{
-id: 6494,
+id: 5089,
 title: 'A5G - Causali collegate',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A5G.md"
 },{
-id: 6495,
+id: 5090,
 title: 'A5W - Inizializzazione A5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A5W.md"
 },{
-id: 6496,
+id: 5091,
 title: 'AGE - Tabella Agenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/AGE.md"
 },{
-id: 6497,
+id: 5092,
 title: 'A£1 - Personalizzazione funzioni A£',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A£1.md"
 },{
-id: 6498,
+id: 5093,
 title: 'A£1 - Personalizzazione funzioni A£',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A£1_O.md"
 },{
-id: 6499,
+id: 5094,
 title: 'A£B - Impostazioni di localizzazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A£B.md"
 },{
-id: 6500,
+id: 5095,
 title: 'A£C - Definizione condizioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A£C.md"
 },{
-id: 6501,
+id: 5096,
 title: 'A£F - Vedi tabella C£f',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A£F.md"
 },{
-id: 6502,
+id: 5097,
 title: 'A£I - Modalita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A£I.md"
 },{
-id: 6503,
+id: 5098,
 title: 'A£Q - Periodicita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/A£Q.md"
 },{
-id: 6504,
+id: 5099,
 title: 'BR1 - Personalizzazione brec_up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BR1.md"
 },{
-id: 6505,
+id: 5100,
 title: 'BR2 - Personalizzazione anagrafica enti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BR2.md"
 },{
-id: 6506,
+id: 5101,
 title: 'BR4 - Scenario anagrafica enti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BR4.md"
 },{
-id: 6507,
+id: 5102,
 title: 'BRA - Tipi articoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRA.md"
 },{
-id: 6508,
+id: 5103,
 title: 'BRB - Classe contabile',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRB.md"
 },{
-id: 6509,
+id: 5104,
 title: 'BRC - Modello di configurazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRC.md"
 },{
-id: 6510,
+id: 5105,
 title: 'BRD - Tipo operazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRD.md"
 },{
-id: 6511,
+id: 5106,
 title: 'BRE - Tipo contatto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRE.md"
 },{
-id: 6512,
+id: 5107,
 title: 'BRF - Classe fiscale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRF.md"
 },{
-id: 6513,
+id: 5108,
 title: 'BRG - Scenari Contatti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRG.md"
 },{
-id: 6514,
+id: 5109,
 title: 'BRH - Classe gestionale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRH.md"
 },{
-id: 6515,
+id: 5110,
 title: 'BRI - Tipi estensioni contatti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRI.md"
 },{
-id: 6516,
+id: 5111,
 title: 'BRJ - Tipo aggancio',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRJ.md"
 },{
-id: 6517,
+id: 5112,
 title: 'BRK - Tipo risorse secondarie',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRK.md"
 },{
-id: 6518,
+id: 5113,
 title: 'BRL - Tipo distinta',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRL.md"
 },{
-id: 6519,
+id: 5114,
 title: 'BRM - Gruppo risorsa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRM.md"
 },{
-id: 6520,
+id: 5115,
 title: 'BRN - Nomenclatura combinata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRN.md"
 },{
-id: 6521,
+id: 5116,
 title: 'BRO - Classe programmazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRO.md"
 },{
-id: 6522,
+id: 5117,
 title: 'BRP - Tipo parte',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRP.md"
 },{
-id: 6523,
+id: 5118,
 title: 'BRQ - Categorie di credito',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRQ.md"
 },{
-id: 6524,
+id: 5119,
 title: 'BRR - Tipo risorsa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRR.md"
 },{
-id: 6525,
+id: 5120,
 title: 'BRS - Criteri di selezione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRS.md"
 },{
-id: 6526,
+id: 5121,
 title: 'BRT - Tipo ciclo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRT.md"
 },{
-id: 6527,
+id: 5122,
 title: 'BRU - Tipo matricola',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRU.md"
 },{
-id: 6528,
+id: 5123,
 title: 'BRV - Classe valore',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRV.md"
 },{
-id: 6529,
+id: 5124,
 title: 'BRW - Categoria matricole',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRW.md"
 },{
-id: 6530,
+id: 5125,
 title: 'BRX - Rapporto fiscale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRX.md"
 },{
-id: 6531,
+id: 5126,
 title: 'BRY - Settore merceologico',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRY.md"
 },{
-id: 6532,
+id: 5127,
 title: 'BRZ - Categoria enti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BRZ.md"
 },{
-id: 6533,
+id: 5128,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BR_.md"
 },{
-id: 6534,
+id: 5129,
 title: 'BSA - Tipo commessa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BSA.md"
 },{
-id: 6535,
+id: 5130,
 title: 'BSC - Modo reperimento calendario',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/BSC.md"
 },{
-id: 6536,
+id: 5131,
 title: 'B£1 - Personalizzazione B£',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£1.md"
 },{
-id: 6537,
+id: 5132,
 title: 'B£2 - Personaliz. (in coda a B£1)',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£2.md"
 },{
-id: 6538,
+id: 5133,
 title: 'B£3 - Ambienti tabelle di base',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£3.md"
 },{
-id: 6539,
+id: 5134,
 title: 'B£4 - Date particolari',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£4.md"
 },{
-id: 6540,
+id: 5135,
 title: 'B£5 - Personalizzazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£5.md"
 },{
-id: 6541,
+id: 5136,
 title: 'B£7 - Personalizzazione Ambiente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£7.md"
 },{
-id: 6542,
+id: 5137,
 title: 'B£B - Liste librerie per ambiente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£B.md"
 },{
-id: 6543,
+id: 5138,
 title: 'B£C - Costr./controllo campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£C.md"
 },{
-id: 6544,
+id: 5139,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£D.md"
 },{
-id: 6545,
+id: 5140,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£E.md"
 },{
-id: 6546,
+id: 5141,
 title: 'B£F - Flusso costruzione campi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£F.md"
 },{
-id: 6547,
+id: 5142,
 title: 'B£G - Griglia controllo 3 oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£G.md"
 },{
-id: 6548,
+id: 5143,
 title: 'B£H - Gruppi di azioni di tab B£J',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£H.md"
 },{
-id: 6549,
+id: 5144,
 title: 'B£I - Deviaz. tabella',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£I.md"
 },{
-id: 6550,
+id: 5145,
 title: 'B£J - Gruppi di azioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£J.md"
 },{
-id: 6551,
+id: 5146,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£K.md"
 },{
-id: 6552,
+id: 5147,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£L.md"
 },{
-id: 6553,
+id: 5148,
 title: 'B£N - Parametri variabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£N.md"
 },{
-id: 6554,
+id: 5149,
 title: 'B£O - Tipo oggetto del database',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£O.md"
 },{
-id: 6555,
+id: 5150,
 title: 'B£P - Classi Autorizzazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£P.md"
 },{
-id: 6556,
+id: 5151,
 title: 'B£Q - Forme di rappresentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£Q.md"
 },{
-id: 6557,
+id: 5152,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£R.md"
 },{
-id: 6558,
+id: 5153,
 title: 'B£S - Significato protezioni applic.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£S.md"
 },{
-id: 6559,
+id: 5154,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£T.md"
 },{
-id: 6560,
+id: 5155,
 title: 'B£U - Profilo utente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£U.md"
 },{
-id: 6561,
+id: 5156,
 title: 'B£W - Stati',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£W.md"
 },{
-id: 6562,
+id: 5157,
 title: 'B£X - Deviazione attributi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£X.md"
 },{
-id: 6563,
+id: 5158,
 title: 'B£Y - Gruppi flag',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£Y.md"
 },{
-id: 6564,
+id: 5159,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B£_.md"
 },{
-id: 6565,
+id: 5160,
 title: 'B§1 - Gestione ambienti per utente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§1.md"
 },{
-id: 6566,
+id: 5161,
 title: 'B§B - Corrispondenze * conversione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§B.md"
 },{
-id: 6567,
+id: 5162,
 title: 'B§D - TIPI ACCESSO P.C.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§D.md"
 },{
-id: 6568,
+id: 5163,
 title: 'B§G - Elemento BCD',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§G.md"
 },{
-id: 6569,
+id: 5164,
 title: 'B§J - Azioni per radiofrequenza',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§J.md"
 },{
-id: 6570,
+id: 5165,
 title: 'B§K - Impostazioni base Loocup',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§K.md"
 },{
-id: 6571,
+id: 5166,
 title: 'B§O - Relazione oggetto-database',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§O.md"
 },{
-id: 6572,
+id: 5167,
 title: 'B§P - Percorsi pgm client',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§P.md"
 },{
-id: 6573,
+id: 5168,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§Q.md"
 },{
-id: 6574,
+id: 5169,
 title: 'B§V - Variabili di ambiente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§V.md"
 },{
-id: 6575,
+id: 5170,
 title: 'B§W - Condizioni di conversione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/B§W.md"
 },{
-id: 6576,
+id: 5171,
 title: 'C51 - Impostazioni base keep.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C51.md"
 },{
-id: 6577,
+id: 5172,
 title: 'C52 - Impostazioni base analitica',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C52.md"
 },{
-id: 6578,
+id: 5173,
 title: 'C53 - Impostazioni base pagamenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C53.md"
 },{
-id: 6579,
+id: 5174,
 title: 'C54 - Impostazioni base Consolidato',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C54.md"
 },{
-id: 6580,
+id: 5175,
 title: 'C55 - Impostazioni base tesoreria',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C55.md"
 },{
-id: 6581,
+id: 5176,
 title: 'C56 - Impostazioni base controllo fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C56.md"
 },{
-id: 6582,
+id: 5177,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C57.md"
 },{
-id: 6583,
+id: 5178,
 title: 'C5A - MODELLO Contab. DOCUMENTI V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5A.md"
 },{
-id: 6584,
+id: 5179,
 title: 'C5B - Conti contabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5B.md"
 },{
-id: 6585,
+id: 5180,
 title: 'C5C - TIPO FATTURA/REG. IVA - NO C5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5C.md"
 },{
-id: 6586,
+id: 5181,
 title: 'C5D - Tipo registrazione contabile',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5D.md"
 },{
-id: 6587,
+id: 5182,
 title: 'C5E - Tipo rata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5E.md"
 },{
-id: 6588,
+id: 5183,
 title: 'C5F - Istituti di credito aziendali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5F.md"
 },{
-id: 6589,
+id: 5184,
 title: 'C5G - Tipo pagamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5G.md"
 },{
-id: 6590,
+id: 5185,
 title: 'C5H - Società',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5H.md"
 },{
-id: 6591,
+id: 5186,
 title: 'C5I - Codici Pagamento - Rate Var.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5I.md"
 },{
-id: 6592,
+id: 5187,
 title: 'C5J - Rapporti bancari',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5J.md"
 },{
-id: 6593,
+id: 5188,
 title: 'C5K - Tipo modello registrazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5K.md"
 },{
-id: 6594,
+id: 5189,
 title: 'C5L - Tipo registrazione analitica',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5L.md"
 },{
-id: 6595,
+id: 5190,
 title: 'C5M - Riclassifiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5M.md"
 },{
-id: 6596,
+id: 5191,
 title: 'C5N - Linee di riclassifica',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5N.md"
 },{
-id: 6597,
+id: 5192,
 title: 'C5O - Categoria conto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5O.md"
 },{
-id: 6598,
+id: 5193,
 title: 'C5P - Causali Prestazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5P.md"
 },{
-id: 6599,
+id: 5194,
 title: 'C5Q - Divisioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5Q.md"
 },{
-id: 6600,
+id: 5195,
 title: 'C5R - Registri IVA',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5R.md"
 },{
-id: 6601,
+id: 5196,
 title: 'C5S - Struttura consuntivo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5S.md"
 },{
-id: 6602,
+id: 5197,
 title: 'C5T - Codici Tributo Rit.d Acconto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5T.md"
 },{
-id: 6603,
+id: 5198,
 title: 'C5U - Registrazioni automatiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5U.md"
 },{
-id: 6604,
+id: 5199,
 title: 'C5V - Causali contabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5V.md"
 },{
-id: 6605,
+id: 5200,
 title: 'C5W - Circuito bancario',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5W.md"
 },{
-id: 6606,
+id: 5201,
 title: 'C5X - Tipi sollecito',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5X.md"
 },{
-id: 6607,
+id: 5202,
 title: 'C5Y - Fonti Controllo fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5Y.md"
 },{
-id: 6608,
+id: 5203,
 title: 'C5Z - Tipo bilancio consolidato',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5Z.md"
 },{
-id: 6609,
+id: 5204,
 title: 'C5* - Controlli generali C5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C5_.md"
 },{
-id: 6610,
+id: 5205,
 title: 'C6A - Modelli di bilancio',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6A.md"
 },{
-id: 6611,
+id: 5206,
 title: 'C6B - Analitica',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6B.md"
 },{
-id: 6612,
+id: 5207,
 title: 'C6C - Scenari foto disp.finanziaria',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6C.md"
 },{
-id: 6613,
+id: 5208,
 title: 'C6D - Destinazione Non Conformità contr.fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6D.md"
 },{
-id: 6614,
+id: 5209,
 title: 'C6E - Fonti esistenti disp.finanz.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6E.md"
 },{
-id: 6615,
+id: 5210,
 title: 'C6F - Fonti future disp.finanz.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6F.md"
 },{
-id: 6616,
+id: 5211,
 title: 'C6G - Tipo Giornale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6G.md"
 },{
-id: 6617,
+id: 5212,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6I.md"
 },{
-id: 6618,
+id: 5213,
 title: 'C6J - Ageing',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6J.md"
 },{
-id: 6619,
+id: 5214,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6M.md"
 },{
-id: 6620,
+id: 5215,
 title: 'C6N - "Non Conformità" controllo fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6N.md"
 },{
-id: 6621,
+id: 5216,
 title: 'C6S - Spese aggiuntive controllo fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C6S.md"
 },{
-id: 6622,
+id: 5217,
 title: 'CCC - Codice Cadenza Consegne',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CCC.md"
 },{
-id: 6623,
+id: 5218,
 title: 'CCO - Modalit§ di consegna',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CCO.md"
 },{
-id: 6624,
+id: 5219,
 title: 'CFC - Configurazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CFC.md"
 },{
-id: 6625,
+id: 5220,
 title: 'CFD - Domande del Questionario',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CFD.md"
 },{
-id: 6626,
+id: 5221,
 title: 'CFQ - Questionario',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CFQ.md"
 },{
-id: 6627,
+id: 5222,
 title: 'CFS - Sezioni del Questionario',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CFS.md"
 },{
-id: 6628,
+id: 5223,
 title: 'CFV - Valori del configuratore',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CFV.md"
 },{
-id: 6629,
+id: 5224,
 title: 'CLS - Classi articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CLS.md"
 },{
-id: 6630,
+id: 5225,
 title: 'COA - Contabilizzazione di generale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/COA.md"
 },{
-id: 6631,
+id: 5226,
 title: 'CPC - Personalizzazione Gestione Scarti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CPC.md"
 },{
-id: 6632,
+id: 5227,
 title: 'CPF - Personalizz. Gestione Scarti 2',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CPF.md"
 },{
-id: 6633,
+id: 5228,
 title: 'CQ0 - Tipo documento - gestione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ0.md"
 },{
-id: 6634,
+id: 5229,
 title: 'CQ1 - Personal.controllo qualita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ1.md"
 },{
-id: 6635,
+id: 5230,
 title: 'CQ2 - Stato rilascio/approvazione pr',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ2.md"
 },{
-id: 6636,
+id: 5231,
 title: 'CQ3 - Definizione calcolo costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ3.md"
 },{
-id: 6637,
+id: 5232,
 title: 'CQ4 - Obbligatorieta',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ4.md"
 },{
-id: 6638,
+id: 5233,
 title: 'CQ5 - Fmea-probabilita di verificarsi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ5.md"
 },{
-id: 6639,
+id: 5234,
 title: 'CQ6 - Fmea-gravita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ6.md"
 },{
-id: 6640,
+id: 5235,
 title: 'CQ7 - Fmea-rilevabilita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ7.md"
 },{
-id: 6641,
+id: 5236,
 title: 'CQ8 - Fmea-indice priorita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ8.md"
 },{
-id: 6642,
+id: 5237,
 title: 'CQ9 - Tabella indirizzi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ9.md"
 },{
-id: 6643,
+id: 5238,
 title: 'CQA - Azioni sul lotto successivo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQA.md"
 },{
-id: 6644,
+id: 5239,
 title: 'CQB - Esito controllo collaudo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQB.md"
 },{
-id: 6645,
+id: 5240,
 title: 'CQC - Tabella cause difetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQC.md"
 },{
-id: 6646,
+id: 5241,
 title: 'CQD - Tabella difetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQD.md"
 },{
-id: 6647,
+id: 5242,
 title: 'CQE - Caratterizzazioni non conformi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQE.md"
 },{
-id: 6648,
+id: 5243,
 title: 'CQF - Classi difetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQF.md"
 },{
-id: 6649,
+id: 5244,
 title: 'CQG - Grandezze misurate',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQG.md"
 },{
-id: 6650,
+id: 5245,
 title: 'CQH - Unita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQH.md"
 },{
-id: 6651,
+id: 5246,
 title: 'CQI - Classi di importanza caratter.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQI.md"
 },{
-id: 6652,
+id: 5247,
 title: 'CQJ - Importanza argomento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQJ.md"
 },{
-id: 6653,
+id: 5248,
 title: 'CQK - Definizione dei rilievi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQK.md"
 },{
-id: 6654,
+id: 5249,
 title: 'CQL - Tipo lotti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQL.md"
 },{
-id: 6655,
+id: 5250,
 title: 'CQM - Procedure manuale qualita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQM.md"
 },{
-id: 6656,
+id: 5251,
 title: 'CQN - Accertamento causa difetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQN.md"
 },{
-id: 6657,
+id: 5252,
 title: 'CQO - Tipo di controllo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQO.md"
 },{
-id: 6658,
+id: 5253,
 title: 'CQP - Piano controllo qualita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQP.md"
 },{
-id: 6659,
+id: 5254,
 title: 'CQQ - Classi funzionali del prodotto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQQ.md"
 },{
-id: 6660,
+id: 5255,
 title: 'CQR - Regole di commutazione P.d.C.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQR.md"
 },{
-id: 6661,
+id: 5256,
 title: 'CQS - Tipo strumento di misura',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQS.md"
 },{
-id: 6662,
+id: 5257,
 title: 'CQT - Tipo di misura',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQT.md"
 },{
-id: 6663,
+id: 5258,
 title: 'CQU - Modalita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQU.md"
 },{
-id: 6664,
+id: 5259,
 title: 'CQV - Classe di abilitazione fornitura',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQV.md"
 },{
-id: 6665,
+id: 5260,
 title: 'CQW - Valutazione controllo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQW.md"
 },{
-id: 6666,
+id: 5261,
 title: 'CQX - Stato dell addebito/accredito',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQX.md"
 },{
-id: 6667,
+id: 5262,
 title: 'CQY - Tipo griglia controlli',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQY.md"
 },{
-id: 6668,
+id: 5263,
 title: 'CQZ - Tipo richiesta intervento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQZ.md"
 },{
-id: 6669,
+id: 5264,
 title: 'CQ_ - Decodifiche generiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ_.md"
 },{
-id: 6670,
+id: 5265,
 title: 'CQ§ - Personalizzazione Tipo NC',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CQ§.md"
 },{
-id: 6671,
+id: 5266,
 title: 'CR1 - Personal.controllo qualita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CR1.md"
 },{
-id: 6672,
+id: 5267,
 title: 'CRB - Causali di magazzino Q9000',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CRB.md"
 },{
-id: 6673,
+id: 5268,
 title: 'CRJ - Tipo Ciclo di Collaudo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CRJ.md"
 },{
-id: 6674,
+id: 5269,
 title: 'CRN - Numeratori',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CRN.md"
 },{
-id: 6675,
+id: 5270,
 title: 'CRP - Integrazione Q9000 con magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CRP.md"
 },{
-id: 6676,
+id: 5271,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CRR.md"
 },{
-id: 6677,
+id: 5272,
 title: 'CRT - Modalita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CRT.md"
 },{
-id: 6678,
+id: 5273,
 title: 'CS1 - Personalizzazione costi std',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CS1.md"
 },{
-id: 6679,
+id: 5274,
 title: 'CSA - Metodo attribuzione percent.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CSA.md"
 },{
-id: 6680,
+id: 5275,
 title: 'CSB - Struttura imp. aliquote',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CSB.md"
 },{
-id: 6681,
+id: 5276,
 title: 'CSD - Decodif. campi forme sintesi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CSD.md"
 },{
-id: 6682,
+id: 5277,
 title: 'CSE - Errori nel calcolo costi std',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CSE.md"
 },{
-id: 6683,
+id: 5278,
 title: 'CSJ - Azioni eseguibili da interrog.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CSJ.md"
 },{
-id: 6684,
+id: 5279,
 title: 'CSR - Famiglie ricariche',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CSR.md"
 },{
-id: 6685,
+id: 5280,
 title: 'CSS - Forme di sintesi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CSS.md"
 },{
-id: 6686,
+id: 5281,
 title: 'CVS - Comunicazioni valutarie statistiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/CVS.md"
 },{
-id: 6687,
+id: 5282,
 title: 'C£1 - Personalizzazioni classi SMEUP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£1.md"
 },{
-id: 6688,
+id: 5283,
 title: 'C£A - Categoria regole',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£A.md"
 },{
-id: 6689,
+id: 5284,
 title: 'C£D - Domande',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£D.md"
 },{
-id: 6690,
+id: 5285,
 title: 'C£E - Categoria parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£E.md"
 },{
-id: 6691,
+id: 5286,
 title: 'C£F - Parametri impliciti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£F.md"
 },{
-id: 6692,
+id: 5287,
 title: 'C£G - gestione risalita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£G.md"
 },{
-id: 6693,
+id: 5288,
 title: 'C£H - Controlli generali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£H.md"
 },{
-id: 6694,
+id: 5289,
 title: 'C£I - Parametri impliciti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£I.md"
 },{
-id: 6695,
+id: 5290,
 title: 'C£K - Contesto gestione ALIAS',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£K.md"
 },{
-id: 6696,
+id: 5291,
 title: 'C£L - Listini e condizioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£L.md"
 },{
-id: 6697,
+id: 5292,
 title: 'C£O - Descrizione in lingua',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£O.md"
 },{
-id: 6698,
+id: 5293,
 title: 'C£R - Risposte',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£R.md"
 },{
-id: 6699,
+id: 5294,
 title: 'C£S - Definizione raggruppamenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£S.md"
 },{
-id: 6700,
+id: 5295,
 title: 'C£V - Valori per tipo oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£V.md"
 },{
-id: 6701,
+id: 5296,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£X.md"
 },{
-id: 6702,
+id: 5297,
 title: 'C£Z - Sintesi attributo/oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/C£Z.md"
 },{
-id: 6703,
+id: 5298,
 title: 'D01 - Parametri costi avanzati',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D01.md"
 },{
-id: 6704,
+id: 5299,
 title: 'D0A - Natura costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D0A.md"
 },{
-id: 6705,
+id: 5300,
 title: 'D0B - Livelli costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D0B.md"
 },{
-id: 6706,
+id: 5301,
 title: 'D0C - Struttura Aliquote',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D0C.md"
 },{
-id: 6707,
+id: 5302,
 title: 'D0D - Mappatura indici costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D0D.md"
 },{
-id: 6708,
+id: 5303,
 title: 'D0J - Fonti totaliz.costo eventi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D0J.md"
 },{
-id: 6709,
+id: 5304,
 title: 'D55 - Ripresa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D55.md"
 },{
-id: 6710,
+id: 5305,
 title: 'D56 - Filtro Codici',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D56.md"
 },{
-id: 6711,
+id: 5306,
 title: 'D5A - Processi/Attività',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5A.md"
 },{
-id: 6712,
+id: 5307,
 title: 'D5B - Conti contabilità industriale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5B.md"
 },{
-id: 6713,
+id: 5308,
 title: 'D5C - Centri di costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5C.md"
 },{
-id: 6714,
+id: 5309,
 title: 'D5D - Act. cost pool',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5D.md"
 },{
-id: 6715,
+id: 5310,
 title: 'D5E - Causale movimento di dettaglio',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5E.md"
 },{
-id: 6716,
+id: 5311,
 title: 'D5F - Formule',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5F.md"
 },{
-id: 6717,
+id: 5312,
 title: 'D5I - Indici di distribuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5I.md"
 },{
-id: 6718,
+id: 5313,
 title: 'D5M - Algoritmi di validazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5M.md"
 },{
-id: 6719,
+id: 5314,
 title: 'D5O - Temi cose oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5O.md"
 },{
-id: 6720,
+id: 5315,
 title: 'D5R - Riprese da sistemi conferenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5R.md"
 },{
-id: 6721,
+id: 5316,
 title: 'D5S - Contesti per oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5S.md"
 },{
-id: 6722,
+id: 5317,
 title: 'D5V - Voci di spesa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5V.md"
 },{
-id: 6723,
+id: 5318,
 title: 'D5W - Schede cespiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5W.md"
 },{
-id: 6724,
+id: 5319,
 title: 'D5X - Gestione WIP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5X.md"
 },{
-id: 6725,
+id: 5320,
 title: 'D5Z - Tipo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5Z.md"
 },{
-id: 6726,
+id: 5321,
 title: 'D5* - Controlli generali D5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D5_.md"
 },{
-id: 6727,
+id: 5322,
 title: 'D91 - Parametri data warehouse',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D91.md"
 },{
-id: 6728,
+id: 5323,
 title: 'D9B - Fonti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D9B.md"
 },{
-id: 6729,
+id: 5324,
 title: 'D9C - Modelli di gerarchia',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D9C.md"
 },{
-id: 6730,
+id: 5325,
 title: 'D9D - Modelli di valori',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D9D.md"
 },{
-id: 6731,
+id: 5326,
 title: 'D9E - Parametri databeacon',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/D9E.md"
 },{
-id: 6732,
+id: 5327,
 title: 'DIP - Dipendente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/DIP.md"
 },{
-id: 6733,
+id: 5328,
 title: 'xxx - Esempio documentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/DOCU.md"
 },{
-id: 6734,
+id: 5329,
 title: 'EAN - Codice EAN(Barcode)',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/EAN.md"
 },{
-id: 6735,
+id: 5330,
 title: 'ED1 - Tabella personalizzazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/ED1.md"
 },{
-id: 6736,
+id: 5331,
 title: 'EDC - Metodi di comunicazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/EDC.md"
 },{
-id: 6737,
+id: 5332,
 title: 'EDE - EDI IUNGO EXPORT',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/EDE.md"
 },{
-id: 6738,
+id: 5333,
 title: 'EDE - EDI IUNGO IMPORT',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/EDH.md"
 },{
-id: 6739,
+id: 5334,
 title: 'EDI - Indirizzi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/EDI.md"
 },{
-id: 6740,
+id: 5335,
 title: 'EDR - Messaggi ricevuti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/EDR.md"
 },{
-id: 6741,
+id: 5336,
 title: 'EDT - Messaggi inviati',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/EDT.md"
 },{
-id: 6742,
+id: 5337,
 title: 'EU1 - Personalizzazioni passaggio EURO',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/EU1.md"
 },{
-id: 6743,
+id: 5338,
 title: 'FIL - Descrizione files',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/FIL.md"
 },{
-id: 6744,
+id: 5339,
 title: 'G91 - Gestione post-acquisto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/G91.md"
 },{
-id: 6745,
+id: 5340,
 title: 'G9S - Spese/sconti aggiuntivi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/G9S.md"
 },{
-id: 6746,
+id: 5341,
 title: 'GA1 - Personalizz. richieste acq. 1',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GA1.md"
 },{
-id: 6747,
+id: 5342,
 title: 'GAB - Buyer - richieste di acquisto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GAB.md"
 },{
-id: 6748,
+id: 5343,
 title: 'GAC - Classificazione richieste',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GAC.md"
 },{
-id: 6749,
+id: 5344,
 title: 'GAR - Tipo richiesta di acquisto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GAR.md"
 },{
-id: 6750,
+id: 5345,
 title: 'GAU - Tab. utenti richieste di acqu',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GAU.md"
 },{
-id: 6751,
+id: 5346,
 title: 'GM1 - Parametri gestione magazzini',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GM1.md"
 },{
-id: 6752,
+id: 5347,
 title: 'GM2 - Parametrizzazione packing list',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GM2.md"
 },{
-id: 6753,
+id: 5348,
 title: 'GM3 - Scenari di magazzino fiscale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GM3.md"
 },{
-id: 6754,
+id: 5349,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GM4.md"
 },{
-id: 6755,
+id: 5350,
 title: 'GMA - Sottocausale movimento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMA.md"
 },{
-id: 6756,
+id: 5351,
 title: 'GMB - Unita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMB.md"
 },{
-id: 6757,
+id: 5352,
 title: 'GMC - Causali di movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMC.md"
 },{
-id: 6758,
+id: 5353,
 title: 'GMD - Tipo collo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMD.md"
 },{
-id: 6759,
+id: 5354,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GME.md"
 },{
-id: 6760,
+id: 5355,
 title: 'GMF - Forme presentazione giacenze',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMF.md"
 },{
-id: 6761,
+id: 5356,
 title: 'GMG - Tipo gestione ubicazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMG.md"
 },{
-id: 6762,
+id: 5357,
 title: 'GMH - Modelli £GMI',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMH.md"
 },{
-id: 6763,
+id: 5358,
 title: 'GMI - Codice inventario',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMI.md"
 },{
-id: 6764,
+id: 5359,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMJ.md"
 },{
-id: 6765,
+id: 5360,
 title: 'GMK - Passi £GMI',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMK.md"
 },{
-id: 6766,
+id: 5361,
 title: 'GML - Lotto di conta inventariale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GML.md"
 },{
-id: 6767,
+id: 5362,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMM.md"
 },{
-id: 6768,
+id: 5363,
 title: 'GMN - Tipo identificativo collo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMN.md"
 },{
-id: 6769,
+id: 5364,
 title: 'GMO - Tipo documento movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMO.md"
 },{
-id: 6770,
+id: 5365,
 title: 'GMP - Tipo stampa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMP.md"
 },{
-id: 6771,
+id: 5366,
 title: 'GMQ - Tipo giacenza',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMQ.md"
 },{
-id: 6772,
+id: 5367,
 title: 'GMR - Area',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMR.md"
 },{
-id: 6773,
+id: 5368,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMS.md"
 },{
-id: 6774,
+id: 5369,
 title: 'GMT - Tecniche di gestione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMT.md"
 },{
-id: 6775,
+id: 5370,
 title: 'GMU - Tipologia ubicazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMU.md"
 },{
-id: 6776,
+id: 5371,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMV.md"
 },{
-id: 6777,
+id: 5372,
 title: 'GMW - Foto di giacenze alla data',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMW.md"
 },{
-id: 6778,
+id: 5373,
 title: 'GMY - Metodi valorizzaz. inventari',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMY.md"
 },{
-id: 6779,
+id: 5374,
 title: 'GMZ - Tipo riga movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GMZ.md"
 },{
-id: 6780,
+id: 5375,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/GM_.md"
 },{
-id: 6781,
+id: 5376,
 title: 'IGA - Aree indici di gestione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGA.md"
 },{
-id: 6782,
+id: 5377,
 title: 'IGC - Definizione valori',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGC.md"
 },{
-id: 6783,
+id: 5378,
 title: 'IGF - Categorie valori',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGF.md"
 },{
-id: 6784,
+id: 5379,
 title: 'IGG - Metodi di aggregazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGG.md"
 },{
-id: 6785,
+id: 5380,
 title: 'IGI - Indici di gestione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGI.md"
 },{
-id: 6786,
+id: 5381,
 title: 'IGL - Livelli di totale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGL.md"
 },{
-id: 6787,
+id: 5382,
 title: 'IGM - Modelli di stampa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGM.md"
 },{
-id: 6788,
+id: 5383,
 title: 'IGR - Codici di aggregazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGR.md"
 },{
-id: 6789,
+id: 5384,
 title: 'IGS - Livelli sintesi ind. gestione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGS.md"
 },{
-id: 6790,
+id: 5385,
 title: 'IGT - Tematiche indici di gestione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IGT.md"
 },{
-id: 6791,
+id: 5386,
 title: 'INT - Parametri interrogazione standard',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/INT.md"
 },{
-id: 6792,
+id: 5387,
 title: 'IVA - Assoggettamento IVA',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/IVA.md"
 },{
-id: 6793,
+id: 5388,
 title: 'JA1 - Parametri java',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/JA1.md"
 },{
-id: 6794,
+id: 5389,
 title: 'Impostazioni di pulizia',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/JA2.md"
 },{
-id: 6795,
+id: 5390,
 title: 'JAL - Log collegamento webup loocup',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/JAL.md"
 },{
-id: 6796,
+id: 5391,
 title: 'JAT - Funzioni grafiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/JAT.md"
 },{
-id: 6797,
+id: 5392,
 title: 'JM1 - Personal. analisi mancanti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/JM1.md"
 },{
-id: 6798,
+id: 5393,
 title: 'LIN - Lingua',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/LIN.md"
 },{
-id: 6799,
+id: 5394,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/LO1.md"
 },{
-id: 6800,
+id: 5395,
 title: 'LOB - Provider per ambito utilizzo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/LOB.md"
 },{
-id: 6801,
+id: 5396,
 title: 'M51 - Pianificazione materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M51.md"
 },{
-id: 6802,
+id: 5397,
 title: '* M5A - Politica di riordino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5A.md"
 },{
-id: 6803,
+id: 5398,
 title: '* M5B - Scenari m5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5B.md"
 },{
-id: 6804,
+id: 5399,
 title: '* M5C - Politica DRP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5C.md"
 },{
-id: 6805,
+id: 5400,
 title: '* M5E - Fonti esistenti di impegno/disponibilità',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E.md"
 },{
-id: 6806,
+id: 5401,
 title: '* M5E - AP - Altra applicazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_AP.md"
 },{
-id: 6807,
+id: 5402,
 title: '* M5E - GC - Giacenza',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_GC.md"
 },{
-id: 6808,
+id: 5403,
 title: '* M5E - GF - Giacenza alla fase',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_GF.md"
 },{
-id: 6809,
+id: 5404,
 title: '* M5E - MP - MPS',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_MP.md"
 },{
-id: 6810,
+id: 5405,
 title: '* M5E - PM - Parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_PM.md"
 },{
-id: 6811,
+id: 5406,
 title: '* M5E - PR - Punto di riordino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_PR.md"
 },{
-id: 6812,
+id: 5407,
 title: '* M5E - QE - Quantità eccedente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_QE.md"
 },{
-id: 6813,
+id: 5408,
 title: '* M5E - SC - Scorta minima',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_SC.md"
 },{
-id: 6814,
+id: 5409,
 title: '* M5E - UT - Fonte Utente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5E_UT.md"
 },{
-id: 6815,
+id: 5410,
 title: '* M5F - Fonti future di impegno/disp.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F.md"
 },{
-id: 6816,
+id: 5411,
 title: '* M5F - AP - Altra applicazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_AP.md"
 },{
-id: 6817,
+id: 5412,
 title: '* M5F - BL - Bilanciata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_BL.md"
 },{
-id: 6818,
+id: 5413,
 title: '* M5F - CM - Commessa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_CM.md"
 },{
-id: 6819,
+id: 5414,
 title: '* M5F - DL - Disponib.libera',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_DL.md"
 },{
-id: 6820,
+id: 5415,
 title: '* M5F - DV - Deviaz.altro ambiente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_DV.md"
 },{
-id: 6821,
+id: 5416,
 title: '* M5F - FF - Fonte fotografata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_FF.md"
 },{
-id: 6822,
+id: 5417,
 title: '* M5F - FG - Fabbisogno giornaliero',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_FG.md"
 },{
-id: 6823,
+id: 5418,
 title: '* M5F - IM - Impegno',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_IM.md"
 },{
-id: 6824,
+id: 5419,
 title: '* M5F - IP - Impegno pianificato',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_IP.md"
 },{
-id: 6825,
+id: 5420,
 title: '* M5F - IR - Impegno provvisorio',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_IR.md"
 },{
-id: 6826,
+id: 5421,
 title: '* M5F - IT - Impegno di trasferimento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_IT.md"
 },{
-id: 6827,
+id: 5422,
 title: '* M5F - JM - Fabbisogno primari JMRP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_JM.md"
 },{
-id: 6828,
+id: 5423,
 title: '* M5F - MP - Vista MPS',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_MP.md"
 },{
-id: 6829,
+id: 5424,
 title: '* M5F - OP - Ordine di produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_OP.md"
 },{
-id: 6830,
+id: 5425,
 title: '* M5F - PM - Parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_PM.md"
 },{
-id: 6831,
+id: 5426,
 title: '* M5F - PN - Ordine pianificato',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_PN.md"
 },{
-id: 6832,
+id: 5427,
 title: '* M5F - QE - Quantità eccedente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_QE.md"
 },{
-id: 6833,
+id: 5428,
 title: '* M5F - QG - Quantità giornaliera',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_QG.md"
 },{
-id: 6834,
+id: 5429,
 title: '* M5F - RA - Richiesta d acquisto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_RA.md"
 },{
-id: 6835,
+id: 5430,
 title: '* M5F - RM - Richiesta di movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_RM.md"
 },{
-id: 6836,
+id: 5431,
 title: '* M5F - SD - Scorta datata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_SD.md"
 },{
-id: 6837,
+id: 5432,
 title: '* M5F - UT - Definizione utente',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_UT.md"
 },{
-id: 6838,
+id: 5433,
 title: '* M5F - V5 - Documento di ciclo esterno',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_V5.md"
 },{
-id: 6839,
+id: 5434,
 title: '* M5F - VT - Documento di trasferimento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5F_VT.md"
 },{
-id: 6840,
+id: 5435,
 title: '* M5G - Selfy MRP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5G.md"
 },{
-id: 6841,
+id: 5436,
 title: '* M5H - Modello atp',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5H.md"
 },{
-id: 6842,
+id: 5437,
 title: 'M5J - Tempi di transito',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5J.md"
 },{
-id: 6843,
+id: 5438,
 title: '* M5L - Completamento chiavi di giacenza',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5L.md"
 },{
-id: 6844,
+id: 5439,
 title: '* M5P - Guida rilascio m5 - p5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5P.md"
 },{
-id: 6845,
+id: 5440,
 title: '* M5U - Estensione M5A-V5U',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5U.md"
 },{
-id: 6846,
+id: 5441,
 title: '* M5V - Guida rilascio m5 - v5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/M5V.md"
 },{
-id: 6847,
+id: 5442,
 title: 'MAF - Magazzini fiscali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MAF.md"
 },{
-id: 6848,
+id: 5443,
 title: 'MAG - Magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MAG.md"
 },{
-id: 6849,
+id: 5444,
 title: 'MEA - Menù - azioni sme_up',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MEA.md"
 },{
-id: 6850,
+id: 5445,
 title: 'MM1 - Personalizzazione manutenzioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MM1.md"
 },{
-id: 6851,
+id: 5446,
 title: 'MMA - Causale dichiarazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMA.md"
 },{
-id: 6852,
+id: 5447,
 title: 'MMC - Tipologia componente impianto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMC.md"
 },{
-id: 6853,
+id: 5448,
 title: 'MMD - Documenti per manutenzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMD.md"
 },{
-id: 6854,
+id: 5449,
 title: 'MME - Esito intervento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MME.md"
 },{
-id: 6855,
+id: 5450,
 title: 'MMF - Tipo frequenza intervento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMF.md"
 },{
-id: 6856,
+id: 5451,
 title: 'MMG - Raggruppamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMG.md"
 },{
-id: 6857,
+id: 5452,
 title: 'MMI - Tipo intervento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMI.md"
 },{
-id: 6858,
+id: 5453,
 title: 'MMM - Tipologia materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMM.md"
 },{
-id: 6859,
+id: 5454,
 title: 'MMO - Codici interventi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMO.md"
 },{
-id: 6860,
+id: 5455,
 title: 'MMT - Tipologia impianti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMT.md"
 },{
-id: 6861,
+id: 5456,
 title: 'MMX - Stato impianto',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MMX.md"
 },{
-id: 6862,
+id: 5457,
 title: 'MP1 - Tabella personalizzazione mps',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MP1.md"
 },{
-id: 6863,
+id: 5458,
 title: 'MP2 - Parametri previsioni HW',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MP2.md"
 },{
-id: 6864,
+id: 5459,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPA.md"
 },{
-id: 6865,
+id: 5460,
 title: 'MPC - Viste piano',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPC.md"
 },{
-id: 6866,
+id: 5461,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPD.md"
 },{
-id: 6867,
+id: 5462,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPE.md"
 },{
-id: 6868,
+id: 5463,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPF.md"
 },{
-id: 6869,
+id: 5464,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPG.md"
 },{
-id: 6870,
+id: 5465,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPI.md"
 },{
-id: 6871,
+id: 5466,
 title: 'MPP - Piani',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPP.md"
 },{
-id: 6872,
+id: 5467,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPQ.md"
 },{
-id: 6873,
+id: 5468,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPR.md"
 },{
-id: 6874,
+id: 5469,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MPS.md"
 },{
-id: 6875,
+id: 5470,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MP_.md"
 },{
-id: 6876,
+id: 5471,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MTO.md"
 },{
-id: 6877,
+id: 5472,
 title: 'MTP - Tipo esponente di modifica',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MTP.md"
 },{
-id: 6878,
+id: 5473,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MTT.md"
 },{
-id: 6879,
+id: 5474,
 title: 'MTU - Grado di urgenza',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MTU.md"
 },{
-id: 6880,
+id: 5475,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MTZ.md"
 },{
-id: 6881,
+id: 5476,
 title: '* MU1 - Personalizzazioni MU',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/MU1.md"
 },{
-id: 6882,
+id: 5477,
 title: 'NGA - Negozi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/NGA.md"
 },{
-id: 6883,
+id: 5478,
 title: 'NGB - Classificazione Conti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/NGB.md"
 },{
-id: 6884,
+id: 5479,
 title: 'NSA - Note strut.- archivi/cartelle',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/NSA.md"
 },{
-id: 6885,
+id: 5480,
 title: 'NSC - Scheletro standard',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/NSC.md"
 },{
-id: 6886,
+id: 5481,
 title: 'NSI - NOTE-Informazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/NSI.md"
 },{
-id: 6887,
+id: 5482,
 title: 'NSL - NOTE-Lista di distribuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/NSL.md"
 },{
-id: 6888,
+id: 5483,
 title: 'NSP - NOTE-Path oggetti Windows',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/NSP.md"
 },{
-id: 6889,
+id: 5484,
 title: 'NST - Intestazione argomenti ricerca',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/NST.md"
 },{
-id: 6890,
+id: 5485,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/OD1.md"
 },{
-id: 6891,
+id: 5486,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/ODB.md"
 },{
-id: 6892,
+id: 5487,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/ODC.md"
 },{
-id: 6893,
+id: 5488,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/ODD.md"
 },{
-id: 6894,
+id: 5489,
 title: 'OLG - Orari di lavoro giornalieri',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/OLG.md"
 },{
-id: 6895,
+id: 5490,
 title: 'P0D - Dispositivi di lavoro',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0D.md"
 },{
-id: 6896,
+id: 5491,
 title: 'P0E - Accertamenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0E.md"
 },{
-id: 6897,
+id: 5492,
 title: 'P0F - Mansioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0F.md"
 },{
-id: 6898,
+id: 5493,
 title: 'P0G - Archivi Informatici',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0G.md"
 },{
-id: 6899,
+id: 5494,
 title: 'P0H - Archivi Cartacei',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0H.md"
 },{
-id: 6900,
+id: 5495,
 title: 'P0L - Tabella reparti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0L.md"
 },{
-id: 6901,
+id: 5496,
 title: 'P0M - Malatt/infort/invalid',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0M.md"
 },{
-id: 6902,
+id: 5497,
 title: 'P0R - Rischi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0R.md"
 },{
-id: 6903,
+id: 5498,
 title: 'P0S - Esiti esame',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0S.md"
 },{
-id: 6904,
+id: 5499,
 title: 'P0T - Stabilimenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P0T.md"
 },{
-id: 6905,
+id: 5500,
 title: '* P51 - Parametri gestione produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P51.md"
 },{
-id: 6906,
+id: 5501,
 title: '* P52 - Param.produz.a dispon.chiamata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P52.md"
 },{
-id: 6907,
+id: 5502,
 title: 'P53 - Parametri schedulazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P53.md"
 },{
-id: 6908,
+id: 5503,
 title: '? P55 - Parametri logistici',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P55.md"
 },{
-id: 6909,
+id: 5504,
 title: 'P56 - Rilevazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P56.md"
 },{
-id: 6910,
+id: 5505,
 title: '* P5A - Att. di produzione - materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5A.md"
 },{
-id: 6911,
+id: 5506,
 title: '* P5B - Sottocausale attivita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5B.md"
 },{
-id: 6912,
+id: 5507,
 title: '* P5C - Causali attivita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5C.md"
 },{
-id: 6913,
+id: 5508,
 title: 'P5D - Tipo evento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5D.md"
 },{
-id: 6914,
+id: 5509,
 title: '* P5E - Causale evento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5E.md"
 },{
-id: 6915,
+id: 5510,
 title: 'P5F - Categoria evento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5F.md"
 },{
-id: 6916,
+id: 5511,
 title: '* P5H - AZIONI MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5H.md"
 },{
-id: 6917,
+id: 5512,
 title: '* P5I - Tipo impegno materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5I.md"
 },{
-id: 6918,
+id: 5513,
 title: 'P5F - Causali rilevazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5K.md"
 },{
-id: 6919,
+id: 5514,
 title: '* P5M - TIPO MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5M.md"
 },{
-id: 6920,
+id: 5515,
 title: '* P5S - Tipo impegno risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5S.md"
 },{
-id: 6921,
+id: 5516,
 title: '* P5T - Tipo ordine produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/P5T.md"
 },{
-id: 6922,
+id: 5517,
 title: 'PAG - Codici Pagamento - Rate Fisse',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/PAG.md"
 },{
-id: 6923,
+id: 5518,
 title: 'PER - Periodo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/PER.md"
 },{
-id: 6924,
+id: 5519,
 title: 'PGM - Programma',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/PGM.md"
 },{
-id: 6925,
+id: 5520,
 title: 'PHM - Master tts - configurazione 1',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/PHM.md"
 },{
-id: 6926,
+id: 5521,
 title: 'PHM - Master tts - configurazione 2 (User)',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/PHN.md"
 },{
-id: 6927,
+id: 5522,
 title: 'PHU - Slave',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/PHU.md"
 },{
-id: 6928,
+id: 5523,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/RE1.md"
 },{
-id: 6929,
+id: 5524,
 title: 'S5B - Scenari schedulazione avanzata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/S5B.md"
 },{
-id: 6930,
+id: 5525,
 title: 'S5C - Ambito di schedulazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/S5C.md"
 },{
-id: 6931,
+id: 5526,
 title: 'SF1 - Parametri schedulazione fine',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/SF1.md"
 },{
-id: 6932,
+id: 5527,
 title: 'SFP - Passo di ottimizzazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/SFP.md"
 },{
-id: 6933,
+id: 5528,
 title: 'SFR - Ripresa dati per schedulazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/SFR.md"
 },{
-id: 6934,
+id: 5529,
 title: 'SFS - Sequenza di ottimizzazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/SFS.md"
 },{
-id: 6935,
+id: 5530,
 title: 'SPE - Modalità di spedizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/SPE.md"
 },{
-id: 6936,
+id: 5531,
 title: 'TCO - Tipo costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/TCO.md"
 },{
-id: 6937,
+id: 5532,
 title: 'TRG - Tipo risorsa gestita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/TRG.md"
 },{
-id: 6938,
+id: 5533,
 title: 'UI1 - Main User Interface',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/UI1.md"
 },{
-id: 6939,
+id: 5534,
 title: 'UMS - Unita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/UMS.md"
 },{
-id: 6940,
+id: 5535,
 title: 'Fatturazione Elettronica',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V50.md"
 },{
-id: 6941,
+id: 5536,
 title: 'V51 - Parametri ciclo esterno',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V51.md"
 },{
-id: 6942,
+id: 5537,
 title: 'V52 - Origine dati documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V52.md"
 },{
-id: 6943,
+id: 5538,
 title: 'V53 - Parametri autofatturazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V53.md"
 },{
-id: 6944,
+id: 5539,
 title: 'V55 - Par. accantonamento/spedizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V55.md"
 },{
-id: 6945,
+id: 5540,
 title: 'V56 - Causale Gest. Pagato',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V56.md"
 },{
-id: 6946,
+id: 5541,
 title: 'V57 - Condizioni di confezionamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V57.md"
 },{
-id: 6947,
+id: 5542,
 title: 'V58 - Parametrizzazione Provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V58.md"
 },{
-id: 6948,
+id: 5543,
 title: 'V51 - Parametri Anticipi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V59.md"
 },{
-id: 6949,
+id: 5544,
 title: 'V5A - Modello documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5A.md"
 },{
-id: 6950,
+id: 5545,
 title: 'V5B - Tipo riga',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5B.md"
 },{
-id: 6951,
+id: 5546,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5C.md"
 },{
-id: 6952,
+id: 5547,
 title: 'V5D - Tipi documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5D.md"
 },{
-id: 6953,
+id: 5548,
 title: 'V5E - Gestione intracee',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5E.md"
 },{
-id: 6954,
+id: 5549,
 title: 'V5F - Sottocausale documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5F.md"
 },{
-id: 6955,
+id: 5550,
 title: 'V5G - Tipo attivita',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5G.md"
 },{
-id: 6956,
+id: 5551,
 title: 'PAG - Codici Pagamento - Rate Fisse',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5H.md"
 },{
-id: 6957,
+id: 5552,
 title: 'V5K - Tipi Kit',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5K.md"
 },{
-id: 6958,
+id: 5553,
 title: 'V5L - Parametri di c/lavoro att/pass',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5L.md"
 },{
-id: 6959,
+id: 5554,
 title: 'V5P - Tipo provvigione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5P.md"
 },{
-id: 6960,
+id: 5555,
 title: 'V5S - Spese/maggioraz/sconti testata',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5S.md"
 },{
-id: 6961,
+id: 5556,
 title: 'V5T - Tipo viaggio',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5T.md"
 },{
-id: 6962,
+id: 5557,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5U.md"
 },{
-id: 6963,
+id: 5558,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V5W.md"
 },{
-id: 6964,
+id: 5559,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V61.md"
 },{
-id: 6965,
+id: 5560,
 title: 'V62 - Impostazioni aggiuntive TradUP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V62.md"
 },{
-id: 6966,
+id: 5561,
 title: 'V6S - Piano Liquidazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V6S.md"
 },{
-id: 6967,
+id: 5562,
 title: 'V6T - Piano enasarco',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V6T.md"
 },{
-id: 6968,
+id: 5563,
 title: 'V6U - Piano F.I.R.R.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V6U.md"
 },{
-id: 6969,
+id: 5564,
 title: 'V6V - Piano I.S.C.',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V6V.md"
 },{
-id: 6970,
+id: 5565,
 title: 'V6Z - Piano Anticipi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V6Z.md"
 },{
-id: 6971,
+id: 5566,
 title: 'VAL - Codici divisa',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/VAL.md"
 },{
-id: 6972,
+id: 5567,
 title: 'V§C - Comuni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V§C.md"
 },{
-id: 6973,
+id: 5568,
 title: 'V§N - Nazioni codici iso / tabella a',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V§N.md"
 },{
-id: 6974,
+id: 5569,
 title: 'V§O - Codice operazioni bancarie',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V§O.md"
 },{
-id: 6975,
+id: 5570,
 title: 'V§T - Prefissi telefonici',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V§T.md"
 },{
-id: 6976,
+id: 5571,
 title: 'V§* - TABELLE STANDARD',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/V§_.md"
 },{
-id: 6977,
+id: 5572,
 title: 'Impostazioni generali workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/WF1.md"
 },{
-id: 6978,
+id: 5573,
 title: 'WFA - Processi workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/WFA.md"
 },{
-id: 6979,
+id: 5574,
 title: 'WFF - Utenti che forzano salti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/WFF.md"
 },{
-id: 6980,
+id: 5575,
 title: 'WFI - Tipo impegno',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/WFI.md"
 },{
-id: 6981,
+id: 5576,
 title: 'Tipo Promemoria',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/WFP.md"
 },{
-id: 6982,
+id: 5577,
 title: 'WFS - Stati di un ordine',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/WFS.md"
 },{
-id: 6983,
+id: 5578,
 title: 'WFW - Inizializzatori workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/TA/WFW.md"
 },{
-id: 6984,
+id: 5579,
 title: 'Totalizzatore cespiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/A5TOT.md"
 },{
-id: 6985,
+id: 5580,
 title: 'Forzature controllo campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/A£FOC.md"
 },{
-id: 6986,
+id: 5581,
 title: 'Tipo campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/A£TFL.md"
 },{
-id: 6987,
+id: 5582,
 title: 'Tipo milestome in righe ciclo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/BRMIL.md"
 },{
-id: 6988,
+id: 5583,
 title: 'Tipo legame distinta base',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/BRTLG.md"
 },{
-id: 6989,
+id: 5584,
 title: 'Tipo parallelismo in righe ciclo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/BRTPA.md"
 },{
-id: 6990,
+id: 5585,
 title: 'Strato di appartenenza oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/B£STR.md"
 },{
-id: 6991,
+id: 5586,
 title: 'Criterio ordinamento schedulazione BCD',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/CRORD.md"
 },{
-id: 6992,
+id: 5587,
 title: 'Trattamento scarti in dist.base',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/DBSCA.md"
 },{
-id: 6993,
+id: 5588,
 title: 'Scelta componenti in dist.base',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/DBSCM.md"
 },{
-id: 6994,
+id: 5589,
 title: 'Valori fissi per esplosione ciclo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/ESCIC.md"
 },{
-id: 6995,
+id: 5590,
 title: 'Valori fissi per esplosione distinta',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/ESDIS.md"
 },{
-id: 6996,
+id: 5591,
 title: 'Forme grafiche oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/FOGOG.md"
 },{
-id: 6997,
+id: 5592,
 title: 'Tipo area di magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/GMGMR.md"
 },{
-id: 6998,
+id: 5593,
 title: 'Natura causale',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/GMNAT.md"
 },{
-id: 6999,
+id: 5594,
 title: 'Tipo movimento in magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/GMTMO.md"
 },{
-id: 7000,
+id: 5595,
 title: 'Risalita scorta minima',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/GM_RS.md"
 },{
-id: 7001,
+id: 5596,
 title: 'Valori fissi per implosione distinta',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/IMDIS.md"
 },{
-id: 7002,
+id: 5597,
 title: 'Anticipo tempi per non lottizzare',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/M5ANT.md"
 },{
-id: 7003,
+id: 5598,
 title: 'Modalità accodamento a V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/M5AV5.md"
 },{
-id: 7004,
+id: 5599,
 title: 'Trattamento lotto massimo',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/M5LMX.md"
 },{
-id: 7005,
+id: 5600,
 title: 'Tipo quantità supeflua',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/M5QSU.md"
 },{
-id: 7006,
+id: 5601,
 title: 'Modalità pianifi.multimagazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/M5TPM.md"
 },{
-id: 7007,
+id: 5602,
 title: 'Modalità costruzione impegni materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/MOCIM.md"
 },{
-id: 7008,
+id: 5603,
 title: 'Modalità costruz.impegni risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/MOCIR.md"
 },{
-id: 7009,
+id: 5604,
 title: 'Modalità scarico materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/MOSCA.md"
 },{
-id: 7010,
+id: 5605,
 title: 'Tipo origine impegni materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/P5TOI.md"
 },{
-id: 7011,
+id: 5606,
 title: 'Tipo origine impegni risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/P5TOS.md"
 },{
-id: 7012,
+id: 5607,
 title: 'Tipo coda',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/P5TPC.md"
 },{
-id: 7013,
+id: 5608,
 title: 'Componenti industriali(plc,sensori,bilancie)',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/PHCOM.md"
 },{
-id: 7014,
+id: 5609,
 title: 'Rilevanza operazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/RIOPE.md"
 },{
-id: 7015,
+id: 5610,
 title: 'Copertura materiali BCD',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/S5_CM.md"
 },{
-id: 7016,
+id: 5611,
 title: 'Dispobibilità impegni secondari',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/S5_DS.md"
 },{
-id: 7017,
+id: 5612,
 title: 'Natura risorsa secondaria',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/S5_RS.md"
 },{
-id: 7018,
+id: 5613,
 title: 'Tipo batch',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/S5_TB.md"
 },{
-id: 7019,
+id: 5614,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/SEFIL.md"
 },{
-id: 7020,
+id: 5615,
 title: 'Caratteri escape di Sme.UP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/SMESC.md"
 },{
-id: 7021,
+id: 5616,
 title: 'Risalita al sottosettore',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/TARSS.md"
 },{
-id: 7022,
+id: 5617,
 title: 'Tipo timestamp',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/TI_I3.md"
 },{
-id: 7023,
+id: 5618,
 title: 'Tipo riga richiesta di movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/TRRIM.md"
 },{
-id: 7024,
+id: 5619,
 title: 'Valori fissi per costruz.impegmi',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/V5QRI.md"
 },{
-id: 7025,
+id: 5620,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/V5STA.md"
 },{
-id: 7026,
+id: 5621,
 title: 'WEB interrogazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V2/WEBIN.md"
 },{
-id: 7027,
+id: 5622,
 title: 'Alias di funzioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/ALS.md"
 },{
-id: 7028,
+id: 5623,
 title: 'Listeners di Loocup',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CLI.md"
 },{
-id: 7029,
+id: 5624,
 title: 'Listener CARTELLE',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CLI_01.md"
 },{
-id: 7030,
+id: 5625,
 title: 'Listener Client',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CLI_02.md"
 },{
-id: 7031,
+id: 5626,
 title: 'Listener code messagi Loocup',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CLI_06.md"
 },{
-id: 7032,
+id: 5627,
 title: 'Listener casella IMAP',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CLI_07.md"
 },{
-id: 7033,
+id: 5628,
 title: 'Listener Skype',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CLI_08.md"
 },{
-id: 7034,
+id: 5629,
 title: 'Listener di coda con chiave',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CLI_£01.md"
 },{
-id: 7035,
+id: 5630,
 title: 'Server - TODO',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE.md"
 },{
-id: 7036,
+id: 5631,
 title: 'Server Loocup',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_00.md"
 },{
-id: 7037,
+id: 5632,
 title: 'Server PHS-TTS - EX T1, PH1',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_01.md"
 },{
-id: 7038,
+id: 5633,
 title: 'Server per telefonia - EX TL',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_02.md"
 },{
-id: 7039,
+id: 5634,
 title: 'Server Content Manager IBM',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_03.md"
 },{
-id: 7040,
+id: 5635,
 title: 'Server Comped',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_04.md"
 },{
-id: 7041,
+id: 5636,
 title: 'Server AS400 - EX AS400B',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_05.md"
 },{
-id: 7042,
+id: 5637,
 title: 'Server PLC Siemens x trenino - EX SI',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_06.md"
 },{
-id: 7043,
+id: 5638,
 title: 'Server PLC Allen Bradley - EX AB',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_07.md"
 },{
-id: 7044,
+id: 5639,
 title: 'Server Lettura Barcode - EX BR',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_08.md"
 },{
-id: 7045,
+id: 5640,
 title: 'Server Archibox',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_09.md"
 },{
-id: 7046,
+id: 5641,
 title: 'Documentazione server 10',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_10.md"
 },{
-id: 7047,
+id: 5642,
 title: 'Server Test - EX T1',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_99.md"
 },{
-id: 7048,
+id: 5643,
 title: 'Server OCS - Odette - x ocs technology - EX OCS1',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_OC.md"
 },{
-id: 7049,
+id: 5644,
 title: 'Server ODBC - in sviluppo - EX X1,X2',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CSE_X1.md"
 },{
-id: 7050,
+id: 5645,
 title: 'SVI Web Service integrazione BCR',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/CWS_01.md"
 },{
-id: 7051,
+id: 5646,
 title: 'Variabili (Lato SERVER)',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/EVA.md"
 },{
-id: 7052,
+id: 5647,
 title: 'Variabili (Lato SERVER) - Esempio',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/EVA_ES.md"
 },{
-id: 7053,
+id: 5648,
 title: 'Stili grafici',
 cat: "DOC_OGG",
 href: "Sorgenti/OG/V3/LOGCE.md"
 },{
-id: 7054,
+id: 5649,
 title: 'A5BATC0F File immissione BATCH',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/A5BATC0F.md"
 },{
-id: 7055,
+id: 5650,
 title: 'A5CESP0F Anagrafico cespiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/A5CESP0F.md"
 },{
-id: 7056,
+id: 5651,
 title: 'A5MOVI0F Righe Movimenti Cespiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/A5MOVI0F.md"
 },{
-id: 7057,
+id: 5652,
 title: 'A5PIAN0F Piani di ammortamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/A5PIAN0F.md"
 },{
-id: 7058,
+id: 5653,
 title: 'AAXXXXOF Riferimento x doc. di un file',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/AAXXXX0F.md"
 },{
-id: 7059,
+id: 5654,
 title: 'AUTOAP0F Autorizzazioni applicative',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/AUTOAP0F.md"
 },{
-id: 7060,
+id: 5655,
 title: 'AUTOOG0F Autorizzazioni per oggetto app.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/AUTOOG0F.md"
 },{
-id: 7061,
+id: 5656,
 title: 'A£TROR0F Traduzioni: destinazione (traduzioni)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/A£TRDE0F.md"
 },{
-id: 7062,
+id: 5657,
 title: 'A£TROR0F Traduzioni: frasi origine (italiano)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/A£TROR0F.md"
 },{
-id: 7063,
+id: 5658,
 title: 'BRARDT0F Dati tecnici articolo (Padri/Figli)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRARDT0F.md"
 },{
-id: 7064,
+id: 5659,
 title: 'BRARES0F Dati articolo per esterno',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRARES0F.md"
 },{
-id: 7065,
+id: 5660,
 title: 'BRARTI0F Anagrafica articoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRARTI0F.md"
 },{
-id: 7066,
+id: 5661,
 title: 'BRCAMB0F Cambi per divisa e data',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRCAMB0F.md"
 },{
-id: 7067,
+id: 5662,
 title: 'BRCATA0F Catalogo Articoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRCATA0F.md"
 },{
-id: 7068,
+id: 5663,
 title: 'BRCOMM0F Anagrafica commesse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRCOMM0F.md"
 },{
-id: 7069,
+id: 5664,
 title: 'BRDINT0F Dichiarazioni di intento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRDINT0F.md"
 },{
-id: 7070,
+id: 5665,
 title: 'BRDIST0F Distinta base',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRDIST0F.md"
 },{
-id: 7071,
+id: 5666,
 title: 'BRENTI0F',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRENTI0F.md"
 },{
-id: 7072,
+id: 5667,
 title: 'BRESCO0X Archivio estensione contatti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRESCO0X.md"
 },{
-id: 7073,
+id: 5668,
 title: 'BRFISI0F Archivio contatti con esterno',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRFISI0F.md"
 },{
-id: 7074,
+id: 5669,
 title: 'BRMATR0F Matricole',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRMATR0F.md"
 },{
-id: 7075,
+id: 5670,
 title: 'BRRICI0F Righe ciclo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRRICI0F.md"
 },{
-id: 7076,
+id: 5671,
 title: 'BRRIPS0F Archivio Risorse produttive seconda',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRRIPS0F.md"
 },{
-id: 7077,
+id: 5672,
 title: 'BRRISO0F Risorse/Centri di lavoro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRRISO0F.md"
 },{
-id: 7078,
+id: 5673,
 title: 'BRTDCI0F Archivio Trasmissione Dic. intento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRTDCI0F.md"
 },{
-id: 7079,
+id: 5674,
 title: 'BRTECI0F Archivio testate cicli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/BRTECI0F.md"
 },{
-id: 7080,
+id: 5675,
 title: 'B£FIES0F Filtri esterni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/B£FIES0F.md"
 },{
-id: 7081,
+id: 5676,
 title: 'B£LOGC0F Log di campo / Lock oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/B£LOGC0F.md"
 },{
-id: 7082,
+id: 5677,
 title: 'B£MEDE0F Memorizzazioni avanzate',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/B£MEDE0F.md"
 },{
-id: 7083,
+id: 5678,
 title: 'B£MODI0F Modelli dinamici',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/B£MODI0F.md"
 },{
-id: 7084,
+id: 5679,
 title: 'B£SLOT0F Dizionario attributi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/B£SLOT0F.md"
 },{
-id: 7085,
+id: 5680,
 title: 'C5ADFF0F Foto Analisi disponibilità finanziaria',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5ADFF0F.md"
 },{
-id: 7086,
+id: 5681,
 title: 'C5BATC0F File immissione BATCH',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5BATC0F.md"
 },{
-id: 7087,
+id: 5682,
 title: 'C5BICO0F Bilancio consolidato',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5BICO0F.md"
 },{
-id: 7088,
+id: 5683,
 title: 'C5BICR0F Bilancio consolidato riconcil.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5BICR0F.md"
 },{
-id: 7089,
+id: 5684,
 title: 'C5COVA0F Comunicazioni valutarie statis.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5COVA0F.md"
 },{
-id: 7090,
+id: 5685,
 title: 'C5DC003F Archivio Modello dichiarazione 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5DC003F.md"
 },{
-id: 7091,
+id: 5686,
 title: 'C5FOTO0F Saldi riclassifica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5FOTO0F.md"
 },{
-id: 7092,
+id: 5687,
 title: 'C5ICEE0F Movimenti Intrastat',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5ICEE0F.md"
 },{
-id: 7093,
+id: 5688,
 title: 'C5IS80TF Trasferimento movimenti intracee',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5IS80TF.md"
 },{
-id: 7094,
+id: 5689,
 title: 'C5MDAU0F Modello DAU',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5MDAU0F.md"
 },{
-id: 7095,
+id: 5690,
 title: 'C5MOAN0F Movimenti di contabilità analitica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5MOAN0F.md"
 },{
-id: 7096,
+id: 5691,
 title: 'C5RATE0F Rate',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5RATE0F.md"
 },{
-id: 7097,
+id: 5692,
 title: 'C5REMA0F File Flussi Remote Banking',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5REMA0F.md"
 },{
-id: 7098,
+id: 5693,
 title: 'C5RITE0F Ritenute',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5RITE0F.md"
 },{
-id: 7099,
+id: 5694,
 title: 'C5RIVA0F Riepilogo periodico IVA',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5RIVA0F.md"
 },{
-id: 7100,
+id: 5695,
 title: 'C5RR12HF Gestione Pratica - Ricezione F',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5RR12HF.md"
 },{
-id: 7101,
+id: 5696,
 title: 'C5RR12IF Ricezione File Home banking',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5RR12IF.md"
 },{
-id: 7102,
+id: 5697,
 title: 'C5RR12RF Gestione Pratica - Ricezione F',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5RR12RF.md"
 },{
-id: 7103,
+id: 5698,
 title: 'C5RR12TF Gestione Pratica - Trasmissione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5RR12TF.md"
 },{
-id: 7104,
+id: 5699,
 title: 'C5RREG0F Righe registrazioni contabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5RREG0F.md"
 },{
-id: 7105,
+id: 5700,
 title: 'C5SE030F Analisi Bilancio - Ricezione B',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5SE030F.md"
 },{
-id: 7106,
+id: 5701,
 title: 'C5SOLL0F Movimenti rate da sollecitare',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5SOLL0F.md"
 },{
-id: 7107,
+id: 5702,
 title: 'C5TRAN0F File Transito per documenti c.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5TRAN0F.md"
 },{
-id: 7108,
+id: 5703,
 title: 'C5TREG0F Testate registrazioni contabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5TREG0F.md"
 },{
-id: 7109,
+id: 5704,
 title: 'C5WKSM0F Scenari contabili KEEP.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C5WKSM0F.md"
 },{
-id: 7110,
+id: 5705,
 title: 'CALANN0F Calendario annuale',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CALANN0F.md"
 },{
-id: 7111,
+id: 5706,
 title: 'CALBAS0F Calendario per risorsa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CALBAS0F.md"
 },{
-id: 7112,
+id: 5707,
 title: 'CALGIO0F Calendario giornaliero',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CALGIO0F.md"
 },{
-id: 7113,
+id: 5708,
 title: 'CALRIS0F Calendario per risorsa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CALRIS0F.md"
 },{
-id: 7114,
+id: 5709,
 title: 'BUIL Risposte di una configurazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CFVARI0F.md"
 },{
-id: 7115,
+id: 5710,
 title: 'CQANACAU Tabella Anagrafica Cause Difetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQANACAU.md"
 },{
-id: 7116,
+id: 5711,
 title: 'CQANACTB Tabella Anagrafica Cause Difetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQANACTB.md"
 },{
-id: 7117,
+id: 5712,
 title: 'CQANADIF Tabella Anagrafica Difetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQANADIF.md"
 },{
-id: 7118,
+id: 5713,
 title: 'CQANADTB Tabella Anagrafica Difetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQANADTB.md"
 },{
-id: 7119,
+id: 5714,
 title: 'CQASSI0F Gestione Osservazioni-Resi dal Cliente',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQASSI0F.md"
 },{
-id: 7120,
+id: 5715,
 title: 'CQCCOL Cicli di collaudo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQCCOL.md"
 },{
-id: 7121,
+id: 5716,
 title: 'CQCCOL0F Gestione Cicli di Collaudo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQCCOL0F.md"
 },{
-id: 7122,
+id: 5717,
 title: 'CQFMET0F F.M.E.A.: Testate Documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQFMET0F.md"
 },{
-id: 7123,
+id: 5718,
 title: 'CQLOTT0F Lotti ricevuti al controllo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQLOTT0F.md"
 },{
-id: 7124,
+id: 5719,
 title: 'CQNCOG0F Non conformità x oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQNCOG0F.md"
 },{
-id: 7125,
+id: 5720,
 title: 'CQRICI0F Cicli di collaudo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQRICI0F.md"
 },{
-id: 7126,
+id: 5721,
 title: 'CQRILM0F Rilievo Registrazioni Misure',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CQRILM0F.md"
 },{
-id: 7127,
+id: 5722,
 title: 'CRSREF0F Crossa reference',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/CRSREF0F.md"
 },{
-id: 7128,
+id: 5723,
 title: 'C£ALIA0F Alias fra oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£ALIA0F.md"
 },{
-id: 7129,
+id: 5724,
 title: 'C£COAZ0F Archivio condizioni/azioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£COAZ0F.md"
 },{
-id: 7130,
+id: 5725,
 title: 'C£CONR0F Parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£CONR0F.md"
 },{
-id: 7131,
+id: 5726,
 title: 'C£DORI0F Domande risposte',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£DORI0F.md"
 },{
-id: 7132,
+id: 5727,
 title: 'C£ESMO0F Esponenti di modifica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£ESMO0F.md"
 },{
-id: 7133,
+id: 5728,
 title: 'C£LEGA0F Archivio legami',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£LEGA0F.md"
 },{
-id: 7134,
+id: 5729,
 title: 'C£LING0F Descrizioni in lingua',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£LING0F.md"
 },{
-id: 7135,
+id: 5730,
 title: 'C£LIST0F Listini e condizioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£LIST0F.md"
 },{
-id: 7136,
+id: 5731,
 title: 'C£MODI0F Modello dinamico - File fisico',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£MODI0F.md"
 },{
-id: 7137,
+id: 5732,
 title: 'C£RULS0F Regole e condizioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£RULS0F.md"
 },{
-id: 7138,
+id: 5733,
 title: 'C£SINT0F Gruppi di sintesi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£SINT0F.md"
 },{
-id: 7139,
+id: 5734,
 title: 'C£SVQU0F Sviluppo quantità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£SVQU0F.md"
 },{
-id: 7140,
+id: 5735,
 title: 'C£VARI0F Varianti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/C£VARI0F.md"
 },{
-id: 7141,
+id: 5736,
 title: 'D5COSO0F Costi di un oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/D5COSO0F.md"
 },{
-id: 7142,
+id: 5737,
 title: 'D5MOVI0F Movimenti per periodo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/D5MOVI0F.md"
 },{
-id: 7143,
+id: 5738,
 title: 'D5RECO0F Relazione movimenti/COSTI',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/D5RECO0F.md"
 },{
-id: 7144,
+id: 5739,
 title: 'GARDAT0F Richieste d acquisto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GARDAT0F.md"
 },{
-id: 7145,
+id: 5740,
 title: 'GMARMG0F BASE Dati magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMARMG0F.md"
 },{
-id: 7146,
+id: 5741,
 title: 'GMCOCO0F Giacenze per Packing list (prova Query)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMCOCO0F.md"
 },{
-id: 7147,
+id: 5742,
 title: 'GMCOLL0F Colli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMCOLL0F.md"
 },{
-id: 7148,
+id: 5743,
 title: 'GMDAIN0F Dati/Rettifiche di inventario',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMDAIN0F.md"
 },{
-id: 7149,
+id: 5744,
 title: 'GMFOTO0F Immagine degli inventari',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMFOTO0F.md"
 },{
-id: 7150,
+id: 5745,
 title: 'GMMOAR0F Movimenti per area/tipo giacenza',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMMOAR0F.md"
 },{
-id: 7151,
+id: 5746,
 title: 'GMMOVI0F Movimenti di magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMMOVI0F.md"
 },{
-id: 7152,
+id: 5747,
 title: 'GMPKWK0F File di lavoro packing list',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMPKWK0F.md"
 },{
-id: 7153,
+id: 5748,
 title: 'GMQUAN0F Giacenze',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMQUAN0F.md"
 },{
-id: 7154,
+id: 5749,
 title: 'GMRIIN0F Righe cartellini di conta',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMRIIN0F.md"
 },{
-id: 7155,
+id: 5750,
 title: 'GMRRIM0F Righe richieste movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMRRIM0F.md"
 },{
-id: 7156,
+id: 5751,
 title: 'GMSIAN0F Sintesi Annuale Magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMSIAN0F.md"
 },{
-id: 7157,
+id: 5752,
 title: 'GMTRAN0F Transitorio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMTRAN0F.md"
 },{
-id: 7158,
+id: 5753,
 title: 'GMTRIM0F Testate richieste di movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMTRIM0F.md"
 },{
-id: 7159,
+id: 5754,
 title: 'GMUBIC0F Ubicazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/GMUBIC0F.md"
 },{
-id: 7160,
+id: 5755,
 title: 'SERV Documenti per oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/JADOCU0F.md"
 },{
-id: 7161,
+id: 5756,
 title: 'M5ARTP0F Dati pianificazione PLANT/Articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/M5ARTP0F.md"
 },{
-id: 7162,
+id: 5757,
 title: 'M5CONS0F Consigli di pianificazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/M5CONS0F.md"
 },{
-id: 7163,
+id: 5758,
 title: 'M5IMPE0F Impegni provvisori',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/M5IMPE0F.md"
 },{
-id: 7164,
+id: 5759,
 title: 'M5IMST0F Impegni storicizz.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/M5IMST0F.md"
 },{
-id: 7165,
+id: 5760,
 title: 'MMDCOM0F Distinte componenti impianti macchinari',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MMDCOM0F.md"
 },{
-id: 7166,
+id: 5761,
 title: 'MMIPRO0F Interventi previsti/programmati',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MMIPRO0F.md"
 },{
-id: 7167,
+id: 5762,
 title: 'MMMANU0F Storico manutentori',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MMMANU0F.md"
 },{
-id: 7168,
+id: 5763,
 title: 'MMMATE0F Materiali per interventi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MMMATE0F.md"
 },{
-id: 7169,
+id: 5764,
 title: 'MMPRES0F Interventi Previsti estratti - List',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MMPRES0F.md"
 },{
-id: 7170,
+id: 5765,
 title: 'MMSINT0F Interventi dichiarati',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MMSINT0F.md"
 },{
-id: 7171,
+id: 5766,
 title: 'MMSMAT0F Storico materiali utilizzati',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MMSMAT0F.md"
 },{
-id: 7172,
+id: 5767,
 title: 'MMTEST0F Testate impianti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MMTEST0F.md"
 },{
-id: 7173,
+id: 5768,
 title: 'MPPIAN0F Piani MPS',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MPPIAN0F.md"
 },{
-id: 7174,
+id: 5769,
 title: 'MPQTYP0F Estensione piani MPS',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MPQTYP0F.md"
 },{
-id: 7175,
+id: 5770,
 title: 'MPSEGN0F Segnalazioni MPS',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MPSEGN0F.md"
 },{
-id: 7176,
+id: 5771,
 title: 'MTAZIO0F Azioni Modifiche Tecniche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTAZIO0F.md"
 },{
-id: 7177,
+id: 5772,
 title: 'MTCDAZ0F Codici Azioni Modifiche Tecniche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTCDAZ0F.md"
 },{
-id: 7178,
+id: 5773,
 title: 'MTEVAR0F Eventi Modifiche Tecniche (Dettaglio)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTEVAR0F.md"
 },{
-id: 7179,
+id: 5774,
 title: 'MTEVEN0F Eventi Modifiche Tecniche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTEVEN0F.md"
 },{
-id: 7180,
+id: 5775,
 title: 'MTISTR0F Istruzioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTISTR0F.md"
 },{
-id: 7181,
+id: 5776,
 title: 'MTOGMO0F Oggetti Modifiche Tecniche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTOGMO0F.md"
 },{
-id: 7182,
+id: 5777,
 title: 'MTTEMO0F Testata Modifiche Tecniche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTTEMO0F.md"
 },{
-id: 7183,
+id: 5778,
 title: 'MTVALO0F Tipo Valori Modifiche Tecniche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTVALO0F.md"
 },{
-id: 7184,
+id: 5779,
 title: 'MTVINC0F Vincoli Modifiche Tecniche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MTVINC0F.md"
 },{
-id: 7185,
+id: 5780,
 title: 'MUCONV0F Conversione oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/MUCONV0F.md"
 },{
-id: 7186,
+id: 5781,
 title: 'P5ATTI0F Storico attività',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/P5ATTI0F.md"
 },{
-id: 7187,
+id: 5782,
 title: 'P5EVEN0F Archivio fisico Eventi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/P5EVEN0F.md"
 },{
-id: 7188,
+id: 5783,
 title: 'P5IMPE0F Impegni materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/P5IMPE0F.md"
 },{
-id: 7189,
+id: 5784,
 title: 'P5IRIS0F Impegni risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/P5IRIS0F.md"
 },{
-id: 7190,
+id: 5785,
 title: 'P5TEOP0F Testata ordini di produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/P5TEOP0F.md"
 },{
-id: 7191,
+id: 5786,
 title: 'S5IDIR0F Chiave Impegni Risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/S5IDIR0F.md"
 },{
-id: 7192,
+id: 5787,
 title: 'S5IRIS0F Impegni risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/S5IRIS0F.md"
 },{
-id: 7193,
+id: 5788,
 title: 'S5IRSE0F impegni secondari',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/S5IRSE0F.md"
 },{
-id: 7194,
+id: 5789,
 title: 'Script di configurazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/SCP_CFG.md"
 },{
-id: 7195,
+id: 5790,
 title: 'TABDC00F Definizione CAMPI di un SETTORE',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/TABDC00F.md"
 },{
-id: 7196,
+id: 5791,
 title: 'TABDS00F Definizioni settori tabell',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/TABDS00F.md"
 },{
-id: 7197,
+id: 5792,
 title: 'TABEL00F Tabelle generali',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/TABEL00F.md"
 },{
-id: 7198,
+id: 5793,
 title: 'TABELA0F Tabelle azioni di menù',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/TABELA0F.md"
 },{
-id: 7199,
+id: 5794,
 title: 'TABELP0F Tabelle personalizzate',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/TABELP0F.md"
 },{
-id: 7200,
+id: 5795,
 title: 'TABELV0F Tabelle valori fissi Smeup',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/TABELV0F.md"
 },{
-id: 7201,
+id: 5796,
 title: 'V5PROM0F Movimenti di Liquidazione Prov',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/V5PROM0F.md"
 },{
-id: 7202,
+id: 5797,
 title: 'V5PROV0F Riepilogo Provvigioni/Royaltie',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/V5PROV0F.md"
 },{
-id: 7203,
+id: 5798,
 title: 'V5RDOC0F Righe documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/V5RDOC0F.md"
 },{
-id: 7204,
+id: 5799,
 title: 'Statistiche ciclo esterno',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/V5STAT0F.md"
 },{
-id: 7205,
+id: 5800,
 title: 'V5TDOC0F Testate documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/V5TDOC0F.md"
 },{
-id: 7206,
+id: 5801,
 title: 'V5TRIP0F Viaggi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/V5TRIP0F.md"
 },{
-id: 7207,
+id: 5802,
 title: 'WFATTI0F Attività ordini di workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/WFATTI0F.md"
 },{
-id: 7208,
+id: 5803,
 title: 'WFHIST0F Storia ordini di workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/WFHIST0F.md"
 },{
-id: 7209,
+id: 5804,
 title: 'WFIMPE0F Impegni ordini di workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/WFIMPE0F.md"
 },{
-id: 7210,
+id: 5805,
 title: 'WFORTE0F Testate ordini di workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/FILE/WFORTE0F.md"
 },{
-id: 7211,
+id: 5806,
 title: 'Contabilizzazione movimenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A5MO06.md"
 },{
-id: 7212,
+id: 5807,
 title: 'Travaso movimenti fiscali in linea civilistica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A5UT06.md"
 },{
-id: 7213,
+id: 5808,
 title: 'Ricalcolo movimenti automatici',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A5UT07.md"
 },{
-id: 7214,
+id: 5809,
 title: 'Attribuzione linea a movimenti senza linea',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A5UT09.md"
 },{
-id: 7215,
+id: 5810,
 title: 'Programma controllo plafond manutenzioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A5UT11A.md"
 },{
-id: 7216,
+id: 5811,
 title: 'Cambio Categoria di un Cespite',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A5UT15A.md"
 },{
-id: 7217,
+id: 5812,
 title: 'Superammortamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A5UT19.md"
 },{
-id: 7218,
+id: 5813,
 title: 'Iperammortamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A5UT20.md"
 },{
-id: 7219,
+id: 5814,
 title: 'AUTOAP0F Autorizzazioni applicat - Servizio Update',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/AUTOAP0F.md"
 },{
-id: 7220,
+id: 5815,
 title: 'Gestione archivi-creazione immagine d.b.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£GFI0.md"
 },{
-id: 7221,
+id: 5816,
 title: 'Gestione archivi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£GFI2.md"
 },{
-id: 7222,
+id: 5817,
 title: 'Scelta logici di un fisico',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£GFI7.md"
 },{
-id: 7223,
+id: 5818,
 title: 'vista chiavi di accesso',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£GFI8.md"
 },{
-id: 7224,
+id: 5819,
 title: 'Scelta contenitori di un archivio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£GFIM.md"
 },{
-id: 7225,
+id: 5820,
 title: 'Stampa informazioni archivi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£GFIS.md"
 },{
-id: 7226,
+id: 5821,
 title: 'Dipendenze/collegamenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£GFIS1.md"
 },{
-id: 7227,
+id: 5822,
 title: 'Precompilatore RPG',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£MAC0.md"
 },{
-id: 7228,
+id: 5823,
 title: 'Simulazione e generazione specifiche MACRO',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£MAC2.md"
 },{
-id: 7229,
+id: 5824,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£TR01.md"
 },{
-id: 7230,
+id: 5825,
 title: 'Trasferimento proposte al laboratorio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/A£UT70.md"
 },{
-id: 7231,
+id: 5826,
 title: 'Gestione Articoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRAR01.md"
 },{
-id: 7232,
+id: 5827,
 title: 'Stampa Articoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRAR51.md"
 },{
-id: 7233,
+id: 5828,
 title: 'Gestione Dati Articolo / Ente',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRARES.md"
 },{
-id: 7234,
+id: 5829,
 title: 'Gestione cambi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCA01.md"
 },{
-id: 7235,
+id: 5830,
 title: 'Importazione cambi giornalieri',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCA03A.md"
 },{
-id: 7236,
+id: 5831,
 title: 'Gestione Righe Cicli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCI15.md"
 },{
-id: 7237,
+id: 5832,
 title: 'CCMC Ciclo Effett.OR-Costruz: Rich.Param.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCI81A.md"
 },{
-id: 7238,
+id: 5833,
 title: 'Gestione Commesse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCM01.md"
 },{
-id: 7239,
+id: 5834,
 title: 'Stampa Commesse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCM51.md"
 },{
-id: 7240,
+id: 5835,
 title: 'Gestione contatti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCO01.md"
 },{
-id: 7241,
+id: 5836,
 title: 'BRCOMM0F Anagrafica commesse - Servizio Update',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCOMM0F.md"
 },{
-id: 7242,
+id: 5837,
 title: 'Stampa cicli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRCS01.md"
 },{
-id: 7243,
+id: 5838,
 title: 'Gestione Distinta Base',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI01.md"
 },{
-id: 7244,
+id: 5839,
 title: 'Ripresa da sistemi esterni (CSV)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI02.md"
 },{
-id: 7245,
+id: 5840,
 title: 'Componenti alla fase',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI03.md"
 },{
-id: 7246,
+id: 5841,
 title: 'Interrogazione x data validità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI11.md"
 },{
-id: 7247,
+id: 5842,
 title: 'Confronto distinte',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI15.md"
 },{
-id: 7248,
+id: 5843,
 title: 'Controlli e modifiche di massa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI50.md"
 },{
-id: 7249,
+id: 5844,
 title: 'CCMC Dist. Effett.OR-Costruz: Rich.Param.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI81A.md"
 },{
-id: 7250,
+id: 5845,
 title: 'CCMC Dist. Effett.OR-Costruz: Rich.Param. Massa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI81M.md"
 },{
-id: 7251,
+id: 5846,
 title: 'CCMC Dist. Effett.DR-Costruz: Rich.Param.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDI83A.md"
 },{
-id: 7252,
+id: 5847,
 title: 'Stampa Distinta Base',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRDS01.md"
 },{
-id: 7253,
+id: 5848,
 title: 'Anagrafica enti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BREN01.md"
 },{
-id: 7254,
+id: 5849,
 title: 'Stampa enti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BREN51.md"
 },{
-id: 7255,
+id: 5850,
 title: 'Gestione Estensioni Enti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRES01.md"
 },{
-id: 7256,
+id: 5851,
 title: 'Stampa dati ente / articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRES61.md"
 },{
-id: 7257,
+id: 5852,
 title: 'Gestione dichiarazioni di intento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRIN01.md"
 },{
-id: 7258,
+id: 5853,
 title: 'Stampa registro dich. di intento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRIN02.md"
 },{
-id: 7259,
+id: 5854,
 title: 'Trasmissione dich. di intento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRIN03.md"
 },{
-id: 7260,
+id: 5855,
 title: 'Emissione dichiarazioni di intento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRIN04.md"
 },{
-id: 7261,
+id: 5856,
 title: 'Trasmissione Dich. Intento Emesse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRIN05.md"
 },{
-id: 7262,
+id: 5857,
 title: 'Dichiarazioni di intento Integrativa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRIN06.md"
 },{
-id: 7263,
+id: 5858,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRIN13L.md"
 },{
-id: 7264,
+id: 5859,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRIN14L.md"
 },{
-id: 7265,
+id: 5860,
 title: 'BRMATR0F Matricole - Servizio Update',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRMATR0F.md"
 },{
-id: 7266,
+id: 5861,
 title: 'Gestione Risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRRI01.md"
 },{
-id: 7267,
+id: 5862,
 title: 'Stampe Risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRRI51.md"
 },{
-id: 7268,
+id: 5863,
 title: 'Ricalcolo Livello Minimo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRRLC0.md"
 },{
-id: 7269,
+id: 5864,
 title: 'Stampa Estensioni Enti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRSC51.md"
 },{
-id: 7270,
+id: 5865,
 title: 'Interrogazione Distinta Base',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRSI01.md"
 },{
-id: 7271,
+id: 5866,
 title: 'Gestione matricole',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRTM01.md"
 },{
-id: 7272,
+id: 5867,
 title: 'Gestione matricole',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRTM51.md"
 },{
-id: 7273,
+id: 5868,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/BRUT14A.md"
 },{
-id: 7274,
+id: 5869,
 title: 'Manutenzione Tabelle',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£AM30.md"
 },{
-id: 7275,
+id: 5870,
 title: 'Funzioni di servizio sulle tabelle',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£AM50.md"
 },{
-id: 7276,
+id: 5871,
 title: 'Gestione note strutturate',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£AMC0.md"
 },{
-id: 7277,
+id: 5872,
 title: 'Gestione tabelle - ricerca elemento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£AR15.md"
 },{
-id: 7278,
+id: 5873,
 title: 'Stampa Tabelle',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£AS20.md"
 },{
-id: 7279,
+id: 5874,
 title: 'Stampa definizioni settori tabelle',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£AS30.md"
 },{
-id: 7280,
+id: 5875,
 title: 'Gestione Autorizzazioni Applicative',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£AUA0.md"
 },{
-id: 7281,
+id: 5876,
 title: 'Gestione agenda',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£COLL.md"
 },{
-id: 7282,
+id: 5877,
 title: 'Interfaccia conversioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£CONV.md"
 },{
-id: 7283,
+id: 5878,
 title: 'CALE Manut. eccezioni risorsa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DIR0.md"
 },{
-id: 7284,
+id: 5879,
 title: 'CALE Manut. calendario annuale',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DIR1.md"
 },{
-id: 7285,
+id: 5880,
 title: 'CALE Manut. dati sett. risorsa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DIR2.md"
 },{
-id: 7286,
+id: 5881,
 title: 'CALE Grafico dispon. risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DIR4.md"
 },{
-id: 7287,
+id: 5882,
 title: 'Stampa disponibiltà risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DIR4S.md"
 },{
-id: 7288,
+id: 5883,
 title: 'CALE Preparazione calendario',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DIRA.md"
 },{
-id: 7289,
+id: 5884,
 title: 'CALE Calendario per squadra',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DIRG.md"
 },{
-id: 7290,
+id: 5885,
 title: 'Definizione tabelle - SETTORE',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DT10.md"
 },{
-id: 7291,
+id: 5886,
 title: 'Definizione tabelle - CAMPI',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£DT20.md"
 },{
-id: 7292,
+id: 5887,
 title: 'Gestione flusso procedura',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£EM10.md"
 },{
-id: 7293,
+id: 5888,
 title: 'Tipo oggetto e attributi aggiuntivi di un campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£EQRYAO.md"
 },{
-id: 7294,
+id: 5889,
 title: 'Gestione Funzioni e Metodi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£FEM0.md"
 },{
-id: 7295,
+id: 5890,
 title: 'Impostazioni filtri esterni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£FIE1.md"
 },{
-id: 7296,
+id: 5891,
 title: 'Ricerca funzioni specifiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£FUN0.md"
 },{
-id: 7297,
+id: 5892,
 title: 'Definizione dei conti contabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£G01T.md"
 },{
-id: 7298,
+id: 5893,
 title: 'Gestione Flag',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£G06G.md"
 },{
-id: 7299,
+id: 5894,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£G08G.md"
 },{
-id: 7300,
+id: 5895,
 title: 'Controllo Dati Presentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£G11GX.md"
 },{
-id: 7301,
+id: 5896,
 title: 'Gestione statistiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£G46G.md"
 },{
-id: 7302,
+id: 5897,
 title: 'Eventi di rilevazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£G950.md"
 },{
-id: 7303,
+id: 5898,
 title: 'Azioni su oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£G99D.md"
 },{
-id: 7304,
+id: 5899,
 title: 'Stampa documentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GDO0.md"
 },{
-id: 7305,
+id: 5900,
 title: 'Elaborazione sorgenti formati video',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GDO6.md"
 },{
-id: 7306,
+id: 5901,
 title: 'Stampa documentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GDO9.md"
 },{
-id: 7307,
+id: 5902,
 title: 'Elaborazione oggetti formati video',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GDOA.md"
 },{
-id: 7308,
+id: 5903,
 title: 'Interrogazione Riferimenti Incrociati',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GDOI.md"
 },{
-id: 7309,
+id: 5904,
 title: 'Scelta contenitori di un archivio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GFIM.md"
 },{
-id: 7310,
+id: 5905,
 title: 'Stampa informazioni archivi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GFIS.md"
 },{
-id: 7311,
+id: 5906,
 title: 'Situazione stato gruppo azioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GFP12.md"
 },{
-id: 7312,
+id: 5907,
 title: 'Parametri di esecuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GPE1.md"
 },{
-id: 7313,
+id: 5908,
 title: 'Parametri di esecuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GPE2.md"
 },{
-id: 7314,
+id: 5909,
 title: 'Parametri di esecuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GPEI.md"
 },{
-id: 7315,
+id: 5910,
 title: 'Gestione Risalite',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£GRI2.md"
 },{
-id: 7316,
+id: 5911,
 title: 'Gestione definizioni interfacce',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£IFVE.md"
 },{
-id: 7317,
+id: 5912,
 title: 'Salv/Ripr. applicazioni SMEUP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£IN05.md"
 },{
-id: 7318,
+id: 5913,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£IQ3L.md"
 },{
-id: 7319,
+id: 5914,
 title: 'Gestione Posta',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£IRT0.md"
 },{
-id: 7320,
+id: 5915,
 title: 'Gestione Liste di Distribuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£IRT2.md"
 },{
-id: 7321,
+id: 5916,
 title: 'Gestione Liste di Distribuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£IRTB.md"
 },{
-id: 7322,
+id: 5917,
 title: 'Gestione Dati Scelte Video',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£MDV0.md"
 },{
-id: 7323,
+id: 5918,
 title: 'Gestione memorizzazione multipla',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£MDV5.md"
 },{
-id: 7324,
+id: 5919,
 title: 'Gestione menù SmeUp',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£MENU.md"
 },{
-id: 7325,
+id: 5920,
 title: 'Gestione note strutturate',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£NST1.md"
 },{
-id: 7326,
+id: 5921,
 title: 'Gestione archivi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£RF01.md"
 },{
-id: 7327,
+id: 5922,
 title: 'Gestione Multi-Scenari',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£SCE0.md"
 },{
-id: 7328,
+id: 5923,
 title: 'Strato di appartenenza oggetti di una classe',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£SER_09.md"
 },{
-id: 7329,
+id: 5924,
 title: 'Valori di un Campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£SER_84.md"
 },{
-id: 7330,
+id: 5925,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£TD9C.md"
 },{
-id: 7331,
+id: 5926,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT03.md"
 },{
-id: 7332,
+id: 5927,
 title: 'Ricerca stringhe',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT08.md"
 },{
-id: 7333,
+id: 5928,
 title: 'Gestione sorgenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT10.md"
 },{
-id: 7334,
+id: 5929,
 title: 'Compilazione/conversione RPG',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT11.md"
 },{
-id: 7335,
+id: 5930,
 title: 'Ptffone',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT20E.md"
 },{
-id: 7336,
+id: 5931,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT36A.md"
 },{
-id: 7337,
+id: 5932,
 title: 'Menu a parametri per gruppo utente',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT54.md"
 },{
-id: 7338,
+id: 5933,
 title: 'Gestione applicazioni utente',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT55.md"
 },{
-id: 7339,
+id: 5934,
 title: 'Confronto di due file di spool',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT59.md"
 },{
-id: 7340,
+id: 5935,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT68.md"
 },{
-id: 7341,
+id: 5936,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT72A.md"
 },{
-id: 7342,
+id: 5937,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT78A.md"
 },{
-id: 7343,
+id: 5938,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT82A.md"
 },{
-id: 7344,
+id: 5939,
 title: 'Elenco scansioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT96.md"
 },{
-id: 7345,
+id: 5940,
 title: 'Azioni si una scansione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£UT96A.md"
 },{
-id: 7346,
+id: 5941,
 title: 'Gestione valori assunti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£VAAS.md"
 },{
-id: 7347,
+id: 5942,
 title: 'Gestione cambi per data',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/B£VAL0.md"
 },{
-id: 7348,
+id: 5943,
 title: 'Ripresa ABI CAB da esterno',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5BAN0L.md"
 },{
-id: 7349,
+id: 5944,
 title: 'Gestione immissioni batch',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5BCH5.md"
 },{
-id: 7350,
+id: 5945,
 title: 'Numeratori protocollo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5C561.md"
 },{
-id: 7351,
+id: 5946,
 title: 'Date/Periodi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5C570.md"
 },{
-id: 7352,
+id: 5947,
 title: 'Analitica - Modello di default',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5C5LM.md"
 },{
-id: 7353,
+id: 5948,
 title: 'Trasmissione CBCR',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CB00A.md"
 },{
-id: 7354,
+id: 5949,
 title: 'Contr.fatture-Lista',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CF60L.md"
 },{
-id: 7355,
+id: 5950,
 title: 'Contr.fatture-Lista',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CF60LW.md"
 },{
-id: 7356,
+id: 5951,
 title: 'Non conformità fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CF70.md"
 },{
-id: 7357,
+id: 5952,
 title: 'Contr.fatture-Ricezione da EDI',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CF90A.md"
 },{
-id: 7358,
+id: 5953,
 title: 'Ripresa Dati Comunicazione IVA Spesometro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI00A.md"
 },{
-id: 7359,
+id: 5954,
 title: 'Gestione Dati Comunicazione IVA Spesometro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI01G.md"
 },{
-id: 7360,
+id: 5955,
 title: 'Trasmissione Dati Comunicazione IVA Spesometro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI02A.md"
 },{
-id: 7361,
+id: 5956,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI03A.md"
 },{
-id: 7362,
+id: 5957,
 title: 'Ripresa Dati Fatture Emesse Ricevute',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI170.md"
 },{
-id: 7363,
+id: 5958,
 title: 'Ripresa Dati Fatture Emesse Ricevut',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI170P.md"
 },{
-id: 7364,
+id: 5959,
 title: 'Trasmissione Fatture Emesse Ricevute',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI17A.md"
 },{
-id: 7365,
+id: 5960,
 title: 'Dettaglio Fatture Emesse Ricevute',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI17D.md"
 },{
-id: 7366,
+id: 5961,
 title: 'Ricevute Di Accettazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI17R.md"
 },{
-id: 7367,
+id: 5962,
 title: 'Fatture Emesse Ricevute',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CI17_I.md"
 },{
-id: 7368,
+id: 5963,
 title: 'Certificazione Unica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU00A.md"
 },{
-id: 7369,
+id: 5964,
 title: 'Trasmissione Certificazione Unica - 2014',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU14A.md"
 },{
-id: 7370,
+id: 5965,
 title: 'Estrazione Certificazione Unica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU150.md"
 },{
-id: 7371,
+id: 5966,
 title: 'Trasmissione Certificazione Unica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU15A.md"
 },{
-id: 7372,
+id: 5967,
 title: 'Estrazione Certificazione Unica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU160.md"
 },{
-id: 7373,
+id: 5968,
 title: 'Trasmissione Certificazione Unica 2016',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU16A.md"
 },{
-id: 7374,
+id: 5969,
 title: 'Estrazione Certificazione Unica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU170.md"
 },{
-id: 7375,
+id: 5970,
 title: 'Trasmissione Certificazione Unica 2017',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU17A.md"
 },{
-id: 7376,
+id: 5971,
 title: 'Estrazione Certificazione Unica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU180.md"
 },{
-id: 7377,
+id: 5972,
 title: 'Trasmissione Certificazione Unica 2018',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5CU18A.md"
 },{
-id: 7378,
+id: 5973,
 title: 'Manutenzione dati 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC01.md"
 },{
-id: 7379,
+id: 5974,
 title: '770/2014',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC03A.md"
 },{
-id: 7380,
+id: 5975,
 title: '770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC03_I.md"
 },{
-id: 7381,
+id: 5976,
 title: 'Estrazione dati 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC150.md"
 },{
-id: 7382,
+id: 5977,
 title: 'Stampa e trasmissione 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC15A.md"
 },{
-id: 7383,
+id: 5978,
 title: 'Estrazione dati 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC160.md"
 },{
-id: 7384,
+id: 5979,
 title: 'Stampa e trasmissione 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC16A.md"
 },{
-id: 7385,
+id: 5980,
 title: 'Estrazione dati 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC170.md"
 },{
-id: 7386,
+id: 5981,
 title: 'Stampa e trasmissione 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC17A.md"
 },{
-id: 7387,
+id: 5982,
 title: 'Estrazione dati 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC180.md"
 },{
-id: 7388,
+id: 5983,
 title: 'Stampa e trasmissione 770',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5DC18A.md"
 },{
-id: 7389,
+id: 5984,
 title: 'Gestione registrazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5E401.md"
 },{
-id: 7390,
+id: 5985,
 title: 'Gestione registrazioni - Testata',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5E401D.md"
 },{
-id: 7391,
+id: 5986,
 title: 'Gestione registrazioni - Formato li',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5E401G.md"
 },{
-id: 7392,
+id: 5987,
 title: 'Gestione registrazioni - Data Entry',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5E401I.md"
 },{
-id: 7393,
+id: 5988,
 title: 'Gestione registrazioni - Formato lista',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5E401R.md"
 },{
-id: 7394,
+id: 5989,
 title: 'Gestione registrazioni - Righe',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5E501L.md"
 },{
-id: 7395,
+id: 5990,
 title: 'Ripresa Dati Movimenti Esterometro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ES190.md"
 },{
-id: 7396,
+id: 5991,
 title: 'Ripresa Dati Movimenti Esterometro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ES190P.md"
 },{
-id: 7397,
+id: 5992,
 title: 'Trasmissione Movimenti Esterometro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ES19A.md"
 },{
-id: 7398,
+id: 5993,
 title: 'Dettaglio Movimenti Esterometro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ES19D.md"
 },{
-id: 7399,
+id: 5994,
 title: 'Ricevute Di Accettazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ES19R.md"
 },{
-id: 7400,
+id: 5995,
 title: 'Esterometro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ES19_I.md"
 },{
-id: 7401,
+id: 5996,
 title: 'Parametri Fissi Azienda',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5HLP1.md"
 },{
-id: 7402,
+id: 5997,
 title: 'Parametri Fissi Azienda OLD',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5HLP1OL.md"
 },{
-id: 7403,
+id: 5998,
 title: 'Dettaglio registrazione Intrastat',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5IS01D.md"
 },{
-id: 7404,
+id: 5999,
 title: 'Manutenzione dati Intra',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5IS01G.md"
 },{
-id: 7405,
+id: 6000,
 title: 'Lista registrazioni Intrastat',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5IS01GW.md"
 },{
-id: 7406,
+id: 6001,
 title: 'Riepilogo operazioni Intra',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5IS80A.md"
 },{
-id: 7407,
+id: 6002,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5IS90A.md"
 },{
-id: 7408,
+id: 6003,
 title: 'Controllo Dati Presentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5IS90AA.md"
 },{
-id: 7409,
+id: 6004,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5IV03.md"
 },{
-id: 7410,
+id: 6005,
 title: 'Estrazione dati liquidazioni iva periodiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5LI00B.md"
 },{
-id: 7411,
+id: 6006,
 title: 'Liquidazioni iva periodiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5LI00_I.md"
 },{
-id: 7412,
+id: 6007,
 title: 'Manutenzione dati Liquidazioni iva periodiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5LI01G.md"
 },{
-id: 7413,
+id: 6008,
 title: 'Trasmissione dati Liquidazioni iva periodiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5LI02A.md"
 },{
-id: 7414,
+id: 6009,
 title: 'Trasmissione dati Liquidazioni iva periodiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5LI181.md"
 },{
-id: 7415,
+id: 6010,
 title: 'Estrazione dati liquidazioni iva periodiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5LI18B.md"
 },{
-id: 7416,
+id: 6011,
 title: 'Ripresa dati movimenti IVA Black List',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5MB00A.md"
 },{
-id: 7417,
+id: 6012,
 title: 'Gestione movimenti IVA Black List',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5MB01G.md"
 },{
-id: 7418,
+id: 6013,
 title: 'Trasmissione movimenti IVA Black List',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5MB02A.md"
 },{
-id: 7419,
+id: 6014,
 title: 'Ripresa dati movimenti IVA San Marino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5MS00A.md"
 },{
-id: 7420,
+id: 6015,
 title: 'Gestione movimenti IVA San Marino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5MS01G.md"
 },{
-id: 7421,
+id: 6016,
 title: 'Trasmissione movimenti IVA San Marino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5MS02A.md"
 },{
-id: 7422,
+id: 6017,
 title: 'Interr./Stampa prima nota',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NA00.md"
 },{
-id: 7423,
+id: 6018,
 title: 'Impostazioni Analisi Bilancio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NAC11.md"
 },{
-id: 7424,
+id: 6019,
 title: 'Analisi Bilancio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NAC1L.md"
 },{
-id: 7425,
+id: 6020,
 title: 'Help pgm C5NAC1L - FAQ',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NAC1LF.md"
 },{
-id: 7426,
+id: 6021,
 title: 'Interr./Stampa prima nota',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NAE4L.md"
 },{
-id: 7427,
+id: 6022,
 title: 'Estrazione solleciti di pagamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NARRL.md"
 },{
-id: 7428,
+id: 6023,
 title: 'Opzioni interrogazioni clienti (Partit, Scad.)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NO00G.md"
 },{
-id: 7429,
+id: 6024,
 title: 'Modelli di registrazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOC5.md"
 },{
-id: 7430,
+id: 6025,
 title: 'Verifica Coordinate Bancarie',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOCN5.md"
 },{
-id: 7431,
+id: 6026,
 title: 'Rilevazione Cambi Conti Co-Ge',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOE54.md"
 },{
-id: 7432,
+id: 6027,
 title: 'Analisi mastrini',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOE5M.md"
 },{
-id: 7433,
+id: 6028,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOES0.md"
 },{
-id: 7434,
+id: 6029,
 title: 'Gestione pratiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOPA0.md"
 },{
-id: 7435,
+id: 6030,
 title: 'Conciliazione Automatica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORC1.md"
 },{
-id: 7436,
+id: 6031,
 title: 'Conciliazione Manuale',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORC2.md"
 },{
-id: 7437,
+id: 6032,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORC6.md"
 },{
-id: 7438,
+id: 6033,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORC7.md"
 },{
-id: 7439,
+id: 6034,
 title: 'Interessi di mora',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORR2.md"
 },{
-id: 7440,
+id: 6035,
 title: 'Scadenzario',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORR3.md"
 },{
-id: 7441,
+id: 6036,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORR4.md"
 },{
-id: 7442,
+id: 6037,
 title: 'Analisi portafoglio effetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORR5.md"
 },{
-id: 7443,
+id: 6038,
 title: 'Partitario',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NORRP.md"
 },{
-id: 7444,
+id: 6039,
 title: 'Registrazioni chiusura/apertura',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOTA0.md"
 },{
-id: 7445,
+id: 6040,
 title: 'Registrazioni automatiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOWA0.md"
 },{
-id: 7446,
+id: 6041,
 title: 'Gestione Riclassifiche Bilancio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOWB0.md"
 },{
-id: 7447,
+id: 6042,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOWC0.md"
 },{
-id: 7448,
+id: 6043,
 title: 'Situazione banche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOXB0.md"
 },{
-id: 7449,
+id: 6044,
 title: 'Situazione rapporti bancari',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOXC0.md"
 },{
-id: 7450,
+id: 6045,
 title: 'Gestione rapporti bancari',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOXR0.md"
 },{
-id: 7451,
+id: 6046,
 title: 'Proiezione saldi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOXS0.md"
 },{
-id: 7452,
+id: 6047,
 title: 'Proiezione Castelletto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOXS0C.md"
 },{
-id: 7453,
+id: 6048,
 title: 'Lista doc. in attesa di fattura - Scrittura',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOYI0.md"
 },{
-id: 7454,
+id: 6049,
 title: 'Lista doc. in attesa di fattura - Interrogazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5NOYL0.md"
 },{
-id: 7455,
+id: 6050,
 title: 'Condizioni Finanziamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5PA02D.md"
 },{
-id: 7456,
+id: 6051,
 title: 'Condizioni Affidamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RB01D.md"
 },{
-id: 7457,
+id: 6052,
 title: 'Gestione rate registrazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR01L.md"
 },{
-id: 7458,
+id: 6053,
 title: 'Generazione Insoluti/Protesti/Richiami',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR05L.md"
 },{
-id: 7459,
+id: 6054,
 title: 'Gestione Avviso Effetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR07L.md"
 },{
-id: 7460,
+id: 6055,
 title: 'Anticipo con assegnazione a documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR11A.md"
 },{
-id: 7461,
+id: 6056,
 title: 'Incasso con titoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR11C.md"
 },{
-id: 7462,
+id: 6057,
 title: 'Saldaconto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR11L.md"
 },{
-id: 7463,
+id: 6058,
 title: 'Dettaglio pratiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR12K2.md"
 },{
-id: 7464,
+id: 6059,
 title: 'Proposte',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR12P1.md"
 },{
-id: 7465,
+id: 6060,
 title: 'Proposte',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR12P2.md"
 },{
-id: 7466,
+id: 6061,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR12Y.md"
 },{
-id: 7467,
+id: 6062,
 title: 'Impostazioni gestione distinte',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5RR12_I.md"
 },{
-id: 7468,
+id: 6063,
 title: 'Stampa Registri IVA',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ST02.md"
 },{
-id: 7469,
+id: 6064,
 title: 'Liquidazione IVA',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ST03.md"
 },{
-id: 7470,
+id: 6065,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5ST11A_.md"
 },{
-id: 7471,
+id: 6066,
 title: 'Gestione archivio transazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5TR01.md"
 },{
-id: 7472,
+id: 6067,
 title: 'Pgm creazione rate di pagato',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT03.md"
 },{
-id: 7473,
+id: 6068,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT21A.md"
 },{
-id: 7474,
+id: 6069,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT24A.md"
 },{
-id: 7475,
+id: 6070,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT47.md"
 },{
-id: 7476,
+id: 6071,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT56A.md"
 },{
-id: 7477,
+id: 6072,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT57A.md"
 },{
-id: 7478,
+id: 6073,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT58A.md"
 },{
-id: 7479,
+id: 6074,
 title: 'Giroconto Ente/Ente Scadenze Aperte',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT59A.md"
 },{
-id: 7480,
+id: 6075,
 title: 'Ripristino Interessi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT60A.md"
 },{
-id: 7481,
+id: 6076,
 title: 'Copia Riclassifica Bilancio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT64A.md"
 },{
-id: 7482,
+id: 6077,
 title: 'Aggiornamento IVA su contropartita',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT65A.md"
 },{
-id: 7483,
+id: 6078,
 title: 'Consolidamento Dichiarazione iva',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UT66A.md"
 },{
-id: 7484,
+id: 6079,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UTX27A.md"
 },{
-id: 7485,
+id: 6080,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C5UTX29A.md"
 },{
-id: 7486,
+id: 6081,
 title: 'Gestione piani di campionamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAM10.md"
 },{
-id: 7487,
+id: 6082,
 title: 'Gestione lotti ricevuti al collaudo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAM20.md"
 },{
-id: 7488,
+id: 6083,
 title: 'Dichiarazioni di collaudo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAM30.md"
 },{
-id: 7489,
+id: 6084,
 title: '** Reg. di magazzino da coll. resi clienti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAM34.md"
 },{
-id: 7490,
+id: 6085,
 title: '** Reg. di magazzino da coll. di produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAM35.md"
 },{
-id: 7491,
+id: 6086,
 title: '1.0 Gestione delle non conformità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAM40.md"
 },{
-id: 7492,
+id: 6087,
 title: 'Azioni sulle Non Conformità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAM45.md"
 },{
-id: 7493,
+id: 6088,
 title: 'Gestione Non Conformità x Lotto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAM50.md"
 },{
-id: 7494,
+id: 6089,
 title: '** Ricerca lotti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAR10.md"
 },{
-id: 7495,
+id: 6090,
 title: 'Definiz. PdC dati fornit./articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAR20.md"
 },{
-id: 7496,
+id: 6091,
 title: 'Definiz. Campione e Nr.Acc./Nr.Rif.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAR30.md"
 },{
-id: 7497,
+id: 6092,
 title: 'Distinta base lotto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAR40.md"
 },{
-id: 7498,
+id: 6093,
 title: 'Stampa piani di campionamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQAS10.md"
 },{
-id: 7499,
+id: 6094,
 title: 'Benestare di collaudo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQBC10.md"
 },{
-id: 7500,
+id: 6095,
 title: 'Contenitori e quantità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQBC50.md"
 },{
-id: 7501,
+id: 6096,
 title: 'Legame fase di collaudo/ente',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQCF40.md"
 },{
-id: 7502,
+id: 6097,
 title: 'Gestione cicli collaudo x articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQCM10.md"
 },{
-id: 7503,
+id: 6098,
 title: 'Cicli di collaudo lista',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQCM11.md"
 },{
-id: 7504,
+id: 6099,
 title: 'Cicli di collaudo dettaglio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQCM12.md"
 },{
-id: 7505,
+id: 6100,
 title: 'Cicli di collaudo approvazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQCM30.md"
 },{
-id: 7506,
+id: 6101,
 title: 'Cicli di collaudo interrogazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQCR20.md"
 },{
-id: 7507,
+id: 6102,
 title: 'Immissione dati',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM10.md"
 },{
-id: 7508,
+id: 6103,
 title: 'Gestione dati (Righe)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM11.md"
 },{
-id: 7509,
+id: 6104,
 title: 'Menu azioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM12.md"
 },{
-id: 7510,
+id: 6105,
 title: 'Gestione dati (Difetti)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM13.md"
 },{
-id: 7511,
+id: 6106,
 title: 'Lista Difetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM13A.md"
 },{
-id: 7512,
+id: 6107,
 title: 'Gestione dati (Effetti)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM14.md"
 },{
-id: 7513,
+id: 6108,
 title: 'Lista Cause',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM14A.md"
 },{
-id: 7514,
+id: 6109,
 title: 'Lista Cause per F.M.E.C.A.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM14B.md"
 },{
-id: 7515,
+id: 6110,
 title: 'Gestione dati (Cause)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM15.md"
 },{
-id: 7516,
+id: 6111,
 title: 'Gestione dati (Testate)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM20.md"
 },{
-id: 7517,
+id: 6112,
 title: 'Lista Livelli di modifica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQFM20A.md"
 },{
-id: 7518,
+id: 6113,
 title: 'Inserimento Prof.Posizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQGP10.md"
 },{
-id: 7519,
+id: 6114,
 title: 'Gestione Prof.Posizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQGP11.md"
 },{
-id: 7520,
+id: 6115,
 title: 'Gestione Profilo Dipendente',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQGP20.md"
 },{
-id: 7521,
+id: 6116,
 title: 'Attribuzione Corsi Ente Riferimento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQGP20B.md"
 },{
-id: 7522,
+id: 6117,
 title: 'Anagrafica corsi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQGP21.md"
 },{
-id: 7523,
+id: 6118,
 title: 'Gestione Schede Dipendenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQGP30.md"
 },{
-id: 7524,
+id: 6119,
 title: 'Lista Indici di Posizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQGP30A.md"
 },{
-id: 7525,
+id: 6120,
 title: 'Lista Corsi Seguiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQGP30B.md"
 },{
-id: 7526,
+id: 6121,
 title: 'Lista dipendenti per profilo posizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQIP11.md"
 },{
-id: 7527,
+id: 6122,
 title: 'Stampa documenti distribuiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQIRTS.md"
 },{
-id: 7528,
+id: 6123,
 title: '** Stampa di controllo lotti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQLS10.md"
 },{
-id: 7529,
+id: 6124,
 title: '** Stampa B.E.M.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQLS20.md"
 },{
-id: 7530,
+id: 6125,
 title: 'Gestione Non Conformità x Oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQNC01.md"
 },{
-id: 7531,
+id: 6126,
 title: 'Consultazione non conformità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQNS10.md"
 },{
-id: 7532,
+id: 6127,
 title: 'Analisi LQ su non conformità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQNS20.md"
 },{
-id: 7533,
+id: 6128,
 title: 'Gestione documentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQQM10.md"
 },{
-id: 7534,
+id: 6129,
 title: 'Gestione Distribuzione Documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQQM40.md"
 },{
-id: 7535,
+id: 6130,
 title: 'Gestione Distr. Per Ente',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQQM41.md"
 },{
-id: 7536,
+id: 6131,
 title: 'Gestione Richieste Intervento Ver2',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQRD10.md"
 },{
-id: 7537,
+id: 6132,
 title: 'Richieste d intervento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQRI10.md"
 },{
-id: 7538,
+id: 6133,
 title: 'Gestione registrazione controlli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQRM10.md"
 },{
-id: 7539,
+id: 6134,
 title: 'Stampa rilievi e misure',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQRM40.md"
 },{
-id: 7540,
+id: 6135,
 title: 'Stampa certificato di qualità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQRM80.md"
 },{
-id: 7541,
+id: 6136,
 title: '** Ricerca dati di consegna LOTTO',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQRS12.md"
 },{
-id: 7542,
+id: 6137,
 title: '** Analisi degli scarti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQSI10.md"
 },{
-id: 7543,
+id: 6138,
 title: 'Stampa Prof.Posizione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQSP10.md"
 },{
-id: 7544,
+id: 6139,
 title: 'Stampa Corso/Ente Riferimento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQSP20.md"
 },{
-id: 7545,
+id: 6140,
 title: 'Stampa Schede Dipendenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQSP30.md"
 },{
-id: 7546,
+id: 6141,
 title: '** Analisi di PARETO',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQSS20.md"
 },{
-id: 7547,
+id: 6142,
 title: 'Interrogazione Audit',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUI20.md"
 },{
-id: 7548,
+id: 6143,
 title: 'Immissione griglia riferimento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUM10.md"
 },{
-id: 7549,
+id: 6144,
 title: 'Gestione griglia riferimento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUM11.md"
 },{
-id: 7550,
+id: 6145,
 title: 'Raccolta esiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUM20.md"
 },{
-id: 7551,
+id: 6146,
 title: 'Immissione esiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUM21.md"
 },{
-id: 7552,
+id: 6147,
 title: 'Gestione Scadenzario Audit',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUM60.md"
 },{
-id: 7553,
+id: 6148,
 title: 'Stampa griglia riferimento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUS10.md"
 },{
-id: 7554,
+id: 6149,
 title: 'Stampa lista controlli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUS20.md"
 },{
-id: 7555,
+id: 6150,
 title: 'Stampa richieste d intervento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUS30.md"
 },{
-id: 7556,
+id: 6151,
 title: 'Stampa tabulato richieste',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUS40.md"
 },{
-id: 7557,
+id: 6152,
 title: 'Stampa Legami Scadenzario Audit',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUS60.md"
 },{
-id: 7558,
+id: 6153,
 title: 'Stampa Rilievo Audit',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQUS70.md"
 },{
-id: 7559,
+id: 6154,
 title: 'Gestione dati ente articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQVR10.md"
 },{
-id: 7560,
+id: 6155,
 title: 'Stampa dati ente articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQVR20.md"
 },{
-id: 7561,
+id: 6156,
 title: 'Struttura indice',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQVR60.md"
 },{
-id: 7562,
+id: 6157,
 title: 'Interrogazione rating',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQVR64.md"
 },{
-id: 7563,
+id: 6158,
 title: 'Storicizzazione rating',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQVR65.md"
 },{
-id: 7564,
+id: 6159,
 title: 'Stampa prospetto rating',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQVR68.md"
 },{
-id: 7565,
+id: 6160,
 title: 'Gestione indici statici',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQVR70.md"
 },{
-id: 7566,
+id: 6161,
 title: 'Controllo valutazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/CQVR80.md"
 },{
-id: 7567,
+id: 6162,
 title: 'Gestione alias',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£AL01.md"
 },{
-id: 7568,
+id: 6163,
 title: 'Stampa Alias',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£AL51A.md"
 },{
-id: 7569,
+id: 6164,
 title: 'Gestione parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£CR01.md"
 },{
-id: 7570,
+id: 6165,
 title: 'Manutenzione per parametro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£CR04.md"
 },{
-id: 7571,
+id: 6166,
 title: 'Interrogazione parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£CR20I.md"
 },{
-id: 7572,
+id: 6167,
 title: 'Stampa parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£CR30S.md"
 },{
-id: 7573,
+id: 6168,
 title: 'Condizioni e vincoli su campi di un archivio',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£CT01.md"
 },{
-id: 7574,
+id: 6169,
 title: 'Manutenzioni di massa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£CT02.md"
 },{
-id: 7575,
+id: 6170,
 title: 'Verifica condizioni e vincoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£CT03.md"
 },{
-id: 7576,
+id: 6171,
 title: 'Gestione domande / risposte',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£DOR0.md"
 },{
-id: 7577,
+id: 6172,
 title: 'Gestione esponenti di modifica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£EM10.md"
 },{
-id: 7578,
+id: 6173,
 title: 'Stampa esponenti di modifica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£EM51A.md"
 },{
-id: 7579,
+id: 6174,
 title: 'Gestione legami',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£LEG0.md"
 },{
-id: 7580,
+id: 6175,
 title: 'Stampa listini',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£LI51A.md"
 },{
-id: 7581,
+id: 6176,
 title: 'Descrizioni estese',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£LIN0G.md"
 },{
-id: 7582,
+id: 6177,
 title: 'Stampa descrizioni estese',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£LIN0S.md"
 },{
-id: 7583,
+id: 6178,
 title: 'Funzioni descrizioni in lingua',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£LING2.md"
 },{
-id: 7584,
+id: 6179,
 title: 'Gestione listini',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£LIS0.md"
 },{
-id: 7585,
+id: 6180,
 title: 'Variazioni di massa listini',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£LIS1.md"
 },{
-id: 7586,
+id: 6181,
 title: 'C£LIST0F Listini e condizioni - Servizio Update',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£LIST0F.md"
 },{
-id: 7587,
+id: 6182,
 title: 'Gestione sviluppo quantità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/C£SVQ0T.md"
 },{
-id: 7588,
+id: 6183,
 title: 'Calcolo costi Standard',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CA00G.md"
 },{
-id: 7589,
+id: 6184,
 title: 'Costo BASE Impostazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CC01P.md"
 },{
-id: 7590,
+id: 6185,
 title: 'CCMC Ciclo Effett.OR-Costruz: Rich.Param.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CI81A.md"
 },{
-id: 7591,
+id: 6186,
 title: 'Costo MEDIO Impost - Estrazione Eventi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CJ01P.md"
 },{
-id: 7592,
+id: 6187,
 title: 'Costo MEDIO Impost - Estrazione Eventi EXIT',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CJ01_X.md"
 },{
-id: 7593,
+id: 6188,
 title: 'Menu per iniziare',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO00A.md"
 },{
-id: 7594,
+id: 6189,
 title: 'Simulazione calcolo costo di un oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO01A.md"
 },{
-id: 7595,
+id: 6190,
 title: 'Calcolo costo di un oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO01B.md"
 },{
-id: 7596,
+id: 6191,
 title: 'Costo MEDIO Impost - Documentz/Errori - EXIT',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO01F_.md"
 },{
-id: 7597,
+id: 6192,
 title: 'Impostazioni di calcolo costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO01I.md"
 },{
-id: 7598,
+id: 6193,
 title: 'Documentazione del calcolo costo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO02A.md"
 },{
-id: 7599,
+id: 6194,
 title: 'Analisi errori',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO03A.md"
 },{
-id: 7600,
+id: 6195,
 title: 'Impostazione Costo Medio Articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO10A.md"
 },{
-id: 7601,
+id: 6196,
 title: 'Costo MEDIO Impost - Calcolo Costo - EXIT',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0CO10C_.md"
 },{
-id: 7602,
+id: 6197,
 title: 'CCMC Dist. Effett.OR-Costruz: Rich.Param.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0DI81A.md"
 },{
-id: 7603,
+id: 6198,
 title: 'CCMC Dist. Effett.OR-Costruz: Rich.Param. Massa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0DI81M.md"
 },{
-id: 7604,
+id: 6199,
 title: 'CCMC Dist. Effett.DR-Costruz: Rich.Param.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0DI83A.md"
 },{
-id: 7605,
+id: 6200,
 title: 'Confronto costi oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0UT01A.md"
 },{
-id: 7606,
+id: 6201,
 title: 'Lista costi per contesto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0UT03A.md"
 },{
-id: 7607,
+id: 6202,
 title: 'Interrogazione Distinta documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D0UT04A.md"
 },{
-id: 7608,
+id: 6203,
 title: 'BASE Indici aziendali Contabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D5AP25A.md"
 },{
-id: 7609,
+id: 6204,
 title: 'Archivio Saldi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D5CO01G.md"
 },{
-id: 7610,
+id: 6205,
 title: 'Cose per oggetto - N.ri articolo SV',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D5CO_09.md"
 },{
-id: 7611,
+id: 6206,
 title: 'Cose per oggetto - N.ri or.prod.avanzamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D5CO_10.md"
 },{
-id: 7612,
+id: 6207,
 title: 'Estrazione Piani MPS',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_01C.md"
 },{
-id: 7613,
+id: 6208,
 title: 'Estrazione D5COSO',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_02C.md"
 },{
-id: 7614,
+id: 6209,
 title: 'Estrazione da Listino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_03C.md"
 },{
-id: 7615,
+id: 6210,
 title: 'Estrazione da MRP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_04C.md"
 },{
-id: 7616,
+id: 6211,
 title: 'Estrazione Documenti V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_06C.md"
 },{
-id: 7617,
+id: 6212,
 title: 'Estrazione Non Conformità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_07C.md"
 },{
-id: 7618,
+id: 6213,
 title: 'Estrazione IGREPT',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_08C.md"
 },{
-id: 7619,
+id: 6214,
 title: 'Estrazione Viaggi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_09C.md"
 },{
-id: 7620,
+id: 6215,
 title: 'Estrazione COSAR',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_10C.md"
 },{
-id: 7621,
+id: 6216,
 title: 'Estrazione Lotti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_11C.md"
 },{
-id: 7622,
+id: 6217,
 title: 'Estrazione Documenti V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/D9AP_17C.md"
 },{
-id: 7623,
+id: 6218,
 title: 'Ricezione dati remote',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/EDAP00.md"
 },{
-id: 7624,
+id: 6219,
 title: 'Situazione entrate fornitori',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/G9AS10.md"
 },{
-id: 7625,
+id: 6220,
 title: 'Controllo Fatture Acquisto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/G9CF60.md"
 },{
-id: 7626,
+id: 6221,
 title: 'Contabilizzazione Fatture Acquisto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/G9FA05A.md"
 },{
-id: 7627,
+id: 6222,
 title: 'Stampa dati magazzino/articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMAR51.md"
 },{
-id: 7628,
+id: 6223,
 title: 'Gestione dati Magazzino/Articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMARMG.md"
 },{
-id: 7629,
+id: 6224,
 title: 'Gestione colli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMCZ01.md"
 },{
-id: 7630,
+id: 6225,
 title: 'Stampa colli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMCZ51.md"
 },{
-id: 7631,
+id: 6226,
 title: 'Creazione foto giacenza',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMFO01.md"
 },{
-id: 7632,
+id: 6227,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMIN20A.md"
 },{
-id: 7633,
+id: 6228,
 title: 'Set n Play Azioni Movimentazine Colli MFC',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMK3500.md"
 },{
-id: 7634,
+id: 6229,
 title: 'Interr./Revisione Movimenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMMO01.md"
 },{
-id: 7635,
+id: 6230,
 title: 'Stampa movimenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMMO02.md"
 },{
-id: 7636,
+id: 6231,
 title: 'Gestione packing list',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMPK01.md"
 },{
-id: 7637,
+id: 6232,
 title: 'Interrogazione Giacenze',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMQU01.md"
 },{
-id: 7638,
+id: 6233,
 title: 'Stampa giacenze negative',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMQU60.md"
 },{
-id: 7639,
+id: 6234,
 title: 'Gestione Richieste Movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMRM01.md"
 },{
-id: 7640,
+id: 6235,
 title: 'Righe Richieste Movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMRM10.md"
 },{
-id: 7641,
+id: 6236,
 title: 'Stampa richieste di movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMRM51.md"
 },{
-id: 7642,
+id: 6237,
 title: 'Rintracciabilità estesa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMRN02.md"
 },{
-id: 7643,
+id: 6238,
 title: 'Interrogazione Sintesi Magazzino / Articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMSI01.md"
 },{
-id: 7644,
+id: 6239,
 title: 'Sintesi colli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMSI02.md"
 },{
-id: 7645,
+id: 6240,
 title: 'Gestione inventario fisico',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMSI03.md"
 },{
-id: 7646,
+id: 6241,
 title: 'Gestione transazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMTR00.md"
 },{
-id: 7647,
+id: 6242,
 title: 'Gestione ubicazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMUB01.md"
 },{
-id: 7648,
+id: 6243,
 title: 'Stampa ubicazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMUB51.md"
 },{
-id: 7649,
+id: 6244,
 title: 'Riepilogo movimenti carico scarico',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMVA10.md"
 },{
-id: 7650,
+id: 6245,
 title: 'Chiusura di magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMVA20.md"
 },{
-id: 7651,
+id: 6246,
 title: 'Creazione sintesi da chiusura',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMVA30.md"
 },{
-id: 7652,
+id: 6247,
 title: 'Gestione sintesi di magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMVA35.md"
 },{
-id: 7653,
+id: 6248,
 title: 'Valorizzazione sintesi estesa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMVA43.md"
 },{
-id: 7654,
+id: 6249,
 title: 'Creazione sintesi magazzino da giacenza',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMVA50.md"
 },{
-id: 7655,
+id: 6250,
 title: 'Funzioni Su scenari',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/GMVASC0.md"
 },{
-id: 7656,
+id: 6251,
 title: 'Definizione Indici e Formule',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/IGFO01.md"
 },{
-id: 7657,
+id: 6252,
 title: 'Interrogazione Indici',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/IGII80.md"
 },{
-id: 7658,
+id: 6253,
 title: 'Calcolo indici dinamici',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/IGIND0.md"
 },{
-id: 7659,
+id: 6254,
 title: 'Interrogazione/scelta legami',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/IGLE20.md"
 },{
-id: 7660,
+id: 6255,
 title: 'Configurazione LOOC.up',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/JACFG1.md"
 },{
-id: 7661,
+id: 6256,
 title: 'Interni LOOC.up - Gestione SETUP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/JA_SET.md"
 },{
-id: 7662,
+id: 6257,
 title: 'Funzioni di Interrogazione di una L',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/LOA10_SE.md"
 },{
-id: 7663,
+id: 6258,
 title: 'Parametri di pianificazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/M5ARTP.md"
 },{
-id: 7664,
+id: 6259,
 title: 'Analisi disponibilità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/M5FUADI.md"
 },{
-id: 7665,
+id: 6260,
 title: 'Navigazione MRP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/M5FUC1.md"
 },{
-id: 7666,
+id: 6261,
 title: 'Lancio pianificazione MRP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/M5MRP0.md"
 },{
-id: 7667,
+id: 6262,
 title: 'Stampa analisi pianificazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/M5SC51.md"
 },{
-id: 7668,
+id: 6263,
 title: 'Azioni tra due viste',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPAP03.md"
 },{
-id: 7669,
+id: 6264,
 title: 'Previsioni con HW',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPAP48.md"
 },{
-id: 7670,
+id: 6265,
 title: 'Previsioni con RL',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPAP51.md"
 },{
-id: 7671,
+id: 6266,
 title: 'Previsioni con scelta metodo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPAP52.md"
 },{
-id: 7672,
+id: 6267,
 title: 'Previsioni: correzione serie',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPAP53.md"
 },{
-id: 7673,
+id: 6268,
 title: 'Funzioni di massa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPBFPR.md"
 },{
-id: 7674,
+id: 6269,
 title: 'Gestione budget',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPBMPR.md"
 },{
-id: 7675,
+id: 6270,
 title: 'Confronto verticale tra viste',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPCT00.md"
 },{
-id: 7676,
+id: 6271,
 title: 'Manutenzione manuale viste',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPGP01.md"
 },{
-id: 7677,
+id: 6272,
 title: 'Eliminazione selettiva dati Piano',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPGP02.md"
 },{
-id: 7678,
+id: 6273,
 title: 'Navigazione tra viste piano',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPGP08.md"
 },{
-id: 7679,
+id: 6274,
 title: 'Stampe piano',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/MPST20.md"
 },{
-id: 7680,
+id: 6275,
 title: 'Interr./Revisione Attività',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5AT01.md"
 },{
-id: 7681,
+id: 6276,
 title: 'Dichiarazione attività per causale',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5AT10.md"
 },{
-id: 7682,
+id: 6277,
 title: 'Interrogazione impegni risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5AT20.md"
 },{
-id: 7683,
+id: 6278,
 title: 'Impegni Risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5AT20I.md"
 },{
-id: 7684,
+id: 6279,
 title: 'Interrogazione eventi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5EV01.md"
 },{
-id: 7685,
+id: 6280,
 title: 'Fasatura ordini',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5FS01.md"
 },{
-id: 7686,
+id: 6281,
 title: 'Set n Play Azioni MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5H3500.md"
 },{
-id: 7687,
+id: 6282,
 title: 'Interrogazione impegni materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5IM01.md"
 },{
-id: 7688,
+id: 6283,
 title: 'Impegni Materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5IM01I.md"
 },{
-id: 7689,
+id: 6284,
 title: 'Stampa impegni materiali',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5IM51.md"
 },{
-id: 7690,
+id: 6285,
 title: 'Stampa impegni risorse',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5IR51.md"
 },{
-id: 7691,
+id: 6286,
 title: 'Quadro sintesi MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP04.md"
 },{
-id: 7692,
+id: 6287,
 title: 'Rifasatura quantità ordine/contentiori MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP10.md"
 },{
-id: 7693,
+id: 6288,
 title: 'Situazione contenitore MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP12.md"
 },{
-id: 7694,
+id: 6289,
 title: 'Rilavorazione contenitore disperso',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP13.md"
 },{
-id: 7695,
+id: 6290,
 title: 'Storico singolo avanzamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP14T.md"
 },{
-id: 7696,
+id: 6291,
 title: 'Storico avanzamenti contenitore MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP15T.md"
 },{
-id: 7697,
+id: 6292,
 title: 'Storico distinta contenitore MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP16T.md"
 },{
-id: 7698,
+id: 6293,
 title: 'Controllo anomalie giacenze MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP81.md"
 },{
-id: 7699,
+id: 6294,
 title: 'Controllo quadratura ordini MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP83.md"
 },{
-id: 7700,
+id: 6295,
 title: 'Trasferimenti giacenze negative MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5MFP84.md"
 },{
-id: 7701,
+id: 6296,
 title: 'Gestione Ordini Produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5OR01.md"
 },{
-id: 7702,
+id: 6297,
 title: 'Split dell\'ordine di produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5OR07.md"
 },{
-id: 7703,
+id: 6298,
 title: 'Stampa lista ordini',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5OR51.md"
 },{
-id: 7704,
+id: 6299,
 title: 'Valorizzazione Ordini Produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5OR90.md"
 },{
-id: 7705,
+id: 6300,
 title: 'Valorizzazione WIP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5OR95.md"
 },{
-id: 7706,
+id: 6301,
 title: 'Creazione R. M. da Impegni P5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5RM01.md"
 },{
-id: 7707,
+id: 6302,
 title: 'Parametri Logistici Articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5SI01.md"
 },{
-id: 7708,
+id: 6303,
 title: 'Sintesi Ordini Produzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5SI02.md"
 },{
-id: 7709,
+id: 6304,
 title: 'Lista lavori per risorsa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/P5WL10.md"
 },{
-id: 7710,
+id: 6305,
 title: 'Parametri Gantt Dettaglio Grafico',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/S5_D4_G.md"
 },{
-id: 7711,
+id: 6306,
 title: 'Salvataggio di uno spool in un file',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/SAVSPL.md"
 },{
-id: 7712,
+id: 6307,
 title: 'Comando SAVSPLF',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/SAVSPLF.md"
 },{
-id: 7713,
+id: 6308,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/SEUEDI.md"
 },{
-id: 7714,
+id: 6309,
 title: 'Gestione record anagrafica cespiti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTA5A.md"
 },{
-id: 7715,
+id: 6310,
 title: 'ATR',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTATR.md"
 },{
-id: 7716,
+id: 6311,
 title: 'Gestione Autorizzazioni Applicative',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTAUA.md"
 },{
-id: 7717,
+id: 6312,
 title: 'Gestione Autorizzazioni Applicative',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTAUA6.md"
 },{
-id: 7718,
+id: 6313,
 title: 'TST Copy autorizazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTAUO.md"
 },{
-id: 7719,
+id: 6314,
 title: 'Interfaccia A£TROR0F',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTA£A.md"
 },{
-id: 7720,
+id: 6315,
 title: 'Traduzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTA£B.md"
 },{
-id: 7721,
+id: 6316,
 title: 'Gestione configurazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTBRC.md"
 },{
-id: 7722,
+id: 6317,
 title: 'BRE',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTBRE.md"
 },{
-id: 7723,
+id: 6318,
 title: 'Sviluppi di una fase ciclo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTBRG.md"
 },{
-id: 7724,
+id: 6319,
 title: 'BRN',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTBRN.md"
 },{
-id: 7725,
+id: 6320,
 title: 'Calcolo tempi di ciclo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTBRT.md"
 },{
-id: 7726,
+id: 6321,
 title: 'Kontroller Articoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTBRX.md"
 },{
-id: 7727,
+id: 6322,
 title: 'Gestione Costruzione/Controllo campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTB£C.md"
 },{
-id: 7728,
+id: 6323,
 title: 'C54',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC54.md"
 },{
-id: 7729,
+id: 6324,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC5G.md"
 },{
-id: 7730,
+id: 6325,
 title: 'Gestione Solleciti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC5H.md"
 },{
-id: 7731,
+id: 6326,
 title: 'Funzioni su partite',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC5I.md"
 },{
-id: 7732,
+id: 6327,
 title: 'Funzioni su pratiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC5J.md"
 },{
-id: 7733,
+id: 6328,
 title: 'C5T',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC5T.md"
 },{
-id: 7734,
+id: 6329,
 title: 'Funzioni su scadenze',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC5W.md"
 },{
-id: 7735,
+id: 6330,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC6A.md"
 },{
-id: 7736,
+id: 6331,
 title: 'Cache gruppo fonti disponibilità finanziaria',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC6B.md"
 },{
-id: 7737,
+id: 6332,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC6E.md"
 },{
-id: 7738,
+id: 6333,
 title: 'Filtro disponibilità finanziaria',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC6F.md"
 },{
-id: 7739,
+id: 6334,
 title: 'Funzioni movimenti di analitica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC6H.md"
 },{
-id: 7740,
+id: 6335,
 title: 'Controllo variazioni ordini',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTCCC.md"
 },{
-id: 7741,
+id: 6336,
 title: 'CIR',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTCIR.md"
 },{
-id: 7742,
+id: 6337,
 title: 'Scansione cicli di lavoro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTCIRDB.md"
 },{
-id: 7743,
+id: 6338,
 title: 'CIRT',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTCIRT.md"
 },{
-id: 7744,
+id: 6339,
 title: 'Verifiche su oggetti di sistema',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTCKO.md"
 },{
-id: 7745,
+id: 6340,
 title: 'CRI',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTCRI.md"
 },{
-id: 7746,
+id: 6341,
 title: 'Gestione numeratori',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTCRN.md"
 },{
-id: 7747,
+id: 6342,
 title: 'Funzioni sui parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC£6.md"
 },{
-id: 7748,
+id: 6343,
 title: 'Descrizioni estese in lingua C£8',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC£8.md"
 },{
-id: 7749,
+id: 6344,
 title: 'Gestione alias fra oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC£A.md"
 },{
-id: 7750,
+id: 6345,
 title: 'Funzioni sui parametri',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC£F.md"
 },{
-id: 7751,
+id: 6346,
 title: 'Funzioni C£L - Gestione listini',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTC£L.md"
 },{
-id: 7752,
+id: 6347,
 title: 'Funzioni Avanzate D5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTD5C.md"
 },{
-id: 7753,
+id: 6348,
 title: 'Controllo e gestione date',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTDA8.md"
 },{
-id: 7754,
+id: 6349,
 title: 'Elenco di oggetti di tipo definito',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTDEC.md"
 },{
-id: 7755,
+id: 6350,
 title: 'Elenco di oggetti di tipo definito',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTDEC4.md"
 },{
-id: 7756,
+id: 6351,
 title: 'DIB',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTDIB.md"
 },{
-id: 7757,
+id: 6352,
 title: 'Gestione messaggi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTDMS.md"
 },{
-id: 7758,
+id: 6353,
 title: 'Gestione Funzioni e Metodi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTFEM.md"
 },{
-id: 7759,
+id: 6354,
 title: 'Calcolo formule',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTFOR.md"
 },{
-id: 7760,
+id: 6355,
 title: 'FSR',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTFSR.md"
 },{
-id: 7761,
+id: 6356,
 title: 'Gestione Flussi Azioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTFUN.md"
 },{
-id: 7762,
+id: 6357,
 title: 'Impostazioni di un utente per un ambiente',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG00.md"
 },{
-id: 7763,
+id: 6358,
 title: 'Definizione dei conti contabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG01.md"
 },{
-id: 7764,
+id: 6359,
 title: 'Funzioni di crittografia/hashing',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG02.md"
 },{
-id: 7765,
+id: 6360,
 title: 'Gestione unità di misura alternative',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG05.md"
 },{
-id: 7766,
+id: 6361,
 title: 'Divise',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG07.md"
 },{
-id: 7767,
+id: 6362,
 title: 'Gestione Visualizzatore',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG08.md"
 },{
-id: 7768,
+id: 6363,
 title: 'Gestione unità di misura',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG09.md"
 },{
-id: 7769,
+id: 6364,
 title: 'G11',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG11.md"
 },{
-id: 7770,
+id: 6365,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG12.md"
 },{
-id: 7771,
+id: 6366,
 title: 'Visualizzatore funzioni barra (/)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG13.md"
 },{
-id: 7772,
+id: 6367,
 title: 'G14',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG14.md"
 },{
-id: 7773,
+id: 6368,
 title: 'Gestione Visualizzatore',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG18.md"
 },{
-id: 7774,
+id: 6369,
 title: 'Sintesi Avanzamento Oggetti OR/DR',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG20.md"
 },{
-id: 7775,
+id: 6370,
 title: 'Gestione funzioni di orario',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG22.md"
 },{
-id: 7776,
+id: 6371,
 title: 'Gestione movimenti di magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG24.md"
 },{
-id: 7777,
+id: 6372,
 title: 'Gestione schemi interrogazione (INT)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG25.md"
 },{
-id: 7778,
+id: 6373,
 title: 'Interfaccia Ente/Articolo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG26.md"
 },{
-id: 7779,
+id: 6374,
 title: 'Protezione a livello campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG29.md"
 },{
-id: 7780,
+id: 6375,
 title: 'Compos./Scompos. Lista Campi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG30.md"
 },{
-id: 7781,
+id: 6376,
 title: 'Lista di oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG40.md"
 },{
-id: 7782,
+id: 6377,
 title: 'Gestione Compos./Scompos. file CSV',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG43.md"
 },{
-id: 7783,
+id: 6378,
 title: 'Costruzione popup di esplorazione (Surf/Fly/Go)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG46.md"
 },{
-id: 7784,
+id: 6379,
 title: 'Funzioni replace su una stringa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG49.md"
 },{
-id: 7785,
+id: 6380,
 title: 'Mail, PDF, FTP, etc.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG53.md"
 },{
-id: 7786,
+id: 6381,
 title: 'Restituzione data e ora',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG54.md"
 },{
-id: 7787,
+id: 6382,
 title: 'Test generazione/controllo codici',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG55.md"
 },{
-id: 7788,
+id: 6383,
 title: 'Test statistiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG56.md"
 },{
-id: 7789,
+id: 6384,
 title: 'Interfaccia Righe Documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG59.md"
 },{
-id: 7790,
+id: 6385,
 title: 'Interfaccia Righe Documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG60.md"
 },{
-id: 7791,
+id: 6386,
 title: 'Gestione Lettere',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG69.md"
 },{
-id: 7792,
+id: 6387,
 title: 'Test gestione parametri B£J su MDV',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG70.md"
 },{
-id: 7793,
+id: 6388,
 title: 'G75',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG75.md"
 },{
-id: 7794,
+id: 6389,
 title: 'Test Query per strutture dati',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG76.md"
 },{
-id: 7795,
+id: 6390,
 title: 'Funzioni su IFS',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG80.md"
 },{
-id: 7796,
+id: 6391,
 title: 'Test Vincolo su un Oggetto Applicativo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG81.md"
 },{
-id: 7797,
+id: 6392,
 title: 'Indirizzi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG85.md"
 },{
-id: 7798,
+id: 6393,
 title: 'Gestione Spool to STMF',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG87.md"
 },{
-id: 7799,
+id: 6394,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG89.md"
 },{
-id: 7800,
+id: 6395,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG89_O.md"
 },{
-id: 7801,
+id: 6396,
 title: 'G90',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG90.md"
 },{
-id: 7802,
+id: 6397,
 title: 'Gestione variabili di lavoro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG91.md"
 },{
-id: 7803,
+id: 6398,
 title: 'Cella grafica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG93.md"
 },{
-id: 7804,
+id: 6399,
 title: 'Elenco parzializzazione/ordinamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG94.md"
 },{
-id: 7805,
+id: 6400,
 title: 'Funzione di stampa - funzionalità eliminata -',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG95.md"
 },{
-id: 7806,
+id: 6401,
 title: 'Momenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG96.md"
 },{
-id: 7807,
+id: 6402,
 title: 'Funzioni sul carrello',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG97.md"
 },{
-id: 7808,
+id: 6403,
 title: 'Invio mail a lista di distribuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG98.md"
 },{
-id: 7809,
+id: 6404,
 title: 'Azioni su oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTG99.md"
 },{
-id: 7810,
+id: 6405,
 title: 'Interfaccia Articolo/Magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGMA.md"
 },{
-id: 7811,
+id: 6406,
 title: 'Determinazione giacenza a una data',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGMC.md"
 },{
-id: 7812,
+id: 6407,
 title: 'Scansione movimenti di magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGMD.md"
 },{
-id: 7813,
+id: 6408,
 title: 'Filtro movimenti di magazzino',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGMG.md"
 },{
-id: 7814,
+id: 6409,
 title: 'Test Funzione di interrel. GMQUAN<->GMRRIM',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGMJ.md"
 },{
-id: 7815,
+id: 6410,
 title: 'Funzioni x ubicazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGMU.md"
 },{
-id: 7816,
+id: 6411,
 title: 'Inizializzazione testate Richieste Movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGMW.md"
 },{
-id: 7817,
+id: 6412,
 title: 'Inizializzazione righe Richieste Movimentazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGMZ.md"
 },{
-id: 7818,
+id: 6413,
 title: 'Elaborazione Grafico GANTT',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGN8.md"
 },{
-id: 7819,
+id: 6414,
 title: 'Controllo Giacenze Negative',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTGNF.md"
 },{
-id: 7820,
+id: 6415,
 title: 'Gestione movimentazione MFP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTH35.md"
 },{
-id: 7821,
+id: 6416,
 title: 'Funzione di generazione PDF',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTH53.md"
 },{
-id: 7822,
+id: 6417,
 title: 'Funzioni su timestamp',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTH79.md"
 },{
-id: 7823,
+id: 6418,
 title: '£H80 Gestione file di rete',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTH80.md"
 },{
-id: 7824,
+id: 6419,
 title: 'Interfaccia articoli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIAR.md"
 },{
-id: 7825,
+id: 6420,
 title: 'Interfaccia generalizzata solleciti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIC3.md"
 },{
-id: 7826,
+id: 6421,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTICF.md"
 },{
-id: 7827,
+id: 6422,
 title: 'ICO',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTICO.md"
 },{
-id: 7828,
+id: 6423,
 title: 'ICO',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTICZ.md"
 },{
-id: 7829,
+id: 6424,
 title: 'Interfaccia Righe Documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIDO.md"
 },{
-id: 7830,
+id: 6425,
 title: 'Interfaccia Righe Documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIDR.md"
 },{
-id: 7831,
+id: 6426,
 title: 'IE3',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIE3.md"
 },{
-id: 7832,
+id: 6427,
 title: 'IE4',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIE4.md"
 },{
-id: 7833,
+id: 6428,
 title: 'IE5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIE5.md"
 },{
-id: 7834,
+id: 6429,
 title: 'Esponente di Modifica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIEM.md"
 },{
-id: 7835,
+id: 6430,
 title: 'IIR',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIIR.md"
 },{
-id: 7836,
+id: 6431,
 title: 'Interfaccia Voci di Menù',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIME.md"
 },{
-id: 7837,
+id: 6432,
 title: 'IMH',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIMH.md"
 },{
-id: 7838,
+id: 6433,
 title: 'Interfaccia Parametri Voci di Menù',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIMP.md"
 },{
-id: 7839,
+id: 6434,
 title: 'INV',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTINV.md"
 },{
-id: 7840,
+id: 6435,
 title: 'Interfaccia query',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIQ1.md"
 },{
-id: 7841,
+id: 6436,
 title: 'Interfaccia schema',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIQ2.md"
 },{
-id: 7842,
+id: 6437,
 title: 'Interfaccia schema - A',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIQ2_A.md"
 },{
-id: 7843,
+id: 6438,
 title: 'Interfaccia filtro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIQ3.md"
 },{
-id: 7844,
+id: 6439,
 title: 'Interfaccia ordinamento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIQ4.md"
 },{
-id: 7845,
+id: 6440,
 title: 'Interfaccia fonte',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIQ5.md"
 },{
-id: 7846,
+id: 6441,
 title: 'Funzioni di query',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIQR.md"
 },{
-id: 7847,
+id: 6442,
 title: 'IR1',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIR1.md"
 },{
-id: 7848,
+id: 6443,
 title: 'Tipi Oggetto di una domanda',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIR4.md"
 },{
-id: 7849,
+id: 6444,
 title: 'IRI',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIRI.md"
 },{
-id: 7850,
+id: 6445,
 title: 'IRM',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIRM.md"
 },{
-id: 7851,
+id: 6446,
 title: 'IRR',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIRR.md"
 },{
-id: 7852,
+id: 6447,
 title: 'Hash SmeUP',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIV6.md"
 },{
-id: 7853,
+id: 6448,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIVD.md"
 },{
-id: 7854,
+id: 6449,
 title: 'IVO',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTIVO.md"
 },{
-id: 7855,
+id: 6450,
 title: 'J03',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTJ03.md"
 },{
-id: 7856,
+id: 6451,
 title: 'J05',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTJ05.md"
 },{
-id: 7857,
+id: 6452,
 title: 'JAVA Costruzione Documento XML',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTJ15.md"
 },{
-id: 7858,
+id: 6453,
 title: 'JAX',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTJAXPC.md"
 },{
-id: 7859,
+id: 6454,
 title: 'Funzioni su modulo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK01.md"
 },{
-id: 7860,
+id: 6455,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK04.md"
 },{
-id: 7861,
+id: 6456,
 title: 'K07 - History di un oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK07.md"
 },{
-id: 7862,
+id: 6457,
 title: 'TST Risorse di un oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK09.md"
 },{
-id: 7863,
+id: 6458,
 title: 'TST Dati di Campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK10.md"
 },{
-id: 7864,
+id: 6459,
 title: 'TST Integrazione con webservice',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK11.md"
 },{
-id: 7865,
+id: 6460,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK14.md"
 },{
-id: 7866,
+id: 6461,
 title: 'TST Creazione Link',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK15.md"
 },{
-id: 7867,
+id: 6462,
 title: 'TST Restituz. provider x ambito di utilizzo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK16.md"
 },{
-id: 7868,
+id: 6463,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK17.md"
 },{
-id: 7869,
+id: 6464,
 title: 'TST Gestione Cache',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK18.md"
 },{
-id: 7870,
+id: 6465,
 title: 'Gestione movimentazione Colli',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK35.md"
 },{
-id: 7871,
+id: 6466,
 title: 'JSON',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK37.md"
 },{
-id: 7872,
+id: 6467,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK40.md"
 },{
-id: 7873,
+id: 6468,
 title: 'Interfaccia Archivi MultiDB',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK48.md"
 },{
-id: 7874,
+id: 6469,
 title: 'Hash Oggetto Esterno',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK50.md"
 },{
-id: 7875,
+id: 6470,
 title: '£K89',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK89.md"
 },{
-id: 7876,
+id: 6471,
 title: '£K89',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK89OO.md"
 },{
-id: 7877,
+id: 6472,
 title: '£K89',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTK89_O.md"
 },{
-id: 7878,
+id: 6473,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTLC8.md"
 },{
-id: 7879,
+id: 6474,
 title: 'Simulazione lingue',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTLIN.md"
 },{
-id: 7880,
+id: 6475,
 title: 'Ritorno informazioni articolo/pianificazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTM5A.md"
 },{
-id: 7881,
+id: 6476,
 title: 'Cache gruppo fonti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTM5B.md"
 },{
-id: 7882,
+id: 6477,
 title: 'Scansione disponibilità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTM5D.md"
 },{
-id: 7883,
+id: 6478,
 title: 'Marp.up - Note tecniche applicazione suggerimenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTM5E.md"
 },{
-id: 7884,
+id: 6479,
 title: 'Filtro disponibilità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTM5F.md"
 },{
-id: 7885,
+id: 6480,
 title: 'Completamento ordini pianificati',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTM5S.md"
 },{
-id: 7886,
+id: 6481,
 title: 'Calcolo date con tempi approv.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTM5T.md"
 },{
-id: 7887,
+id: 6482,
 title: 'Costruzione impegni pianificati',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTM5W.md"
 },{
-id: 7888,
+id: 6483,
 title: 'MDE',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTMDE.md"
 },{
-id: 7889,
+id: 6484,
 title: 'Memorizzazione dati video',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTMDV.md"
 },{
-id: 7890,
+id: 6485,
 title: 'Funzioni di conversione oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTMUC.md"
 },{
-id: 7891,
+id: 6486,
 title: 'Funzioni su /COPY',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTMUD.md"
 },{
-id: 7892,
+id: 6487,
 title: 'Funzioni su sorgenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTMUS.md"
 },{
-id: 7893,
+id: 6488,
 title: 'NST',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTNST.md"
 },{
-id: 7894,
+id: 6489,
 title: 'OAV',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTOAV.md"
 },{
-id: 7895,
+id: 6490,
 title: 'Incremento data - calendario',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTOINC.md"
 },{
-id: 7896,
+id: 6491,
 title: 'Incremento data - calendario',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTOINCD.md"
 },{
-id: 7897,
+id: 6492,
 title: 'Funzioni di trasferimento PC',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTPCT.md"
 },{
-id: 7898,
+id: 6493,
 title: 'Funzioni Periodi Contabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTPE8.md"
 },{
-id: 7899,
+id: 6494,
 title: 'Kpi Dati di campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTPHG.md"
 },{
-id: 7900,
+id: 6495,
 title: 'Documentazione PHI',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTPHI.md"
 },{
-id: 7901,
+id: 6496,
 title: 'Definizione parzializzazioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTPRZ.md"
 },{
-id: 7902,
+id: 6497,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTQ01.md"
 },{
-id: 7903,
+id: 6498,
 title: 'Q06 - Traccia di esecuzione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTQ06.md"
 },{
-id: 7904,
+id: 6499,
 title: 'Controllo e lettura tabelle',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTRIT.md"
 },{
-id: 7905,
+id: 6500,
 title: 'Scansione campo',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTSCN.md"
 },{
-id: 7906,
+id: 6501,
 title: 'Cursore SQL con allocazione dinamica',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTSQLD.md"
 },{
-id: 7907,
+id: 6502,
 title: 'Gestione SQL UDF',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTSQLF.md"
 },{
-id: 7908,
+id: 6503,
 title: 'Gestione stacker',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTSTK.md"
 },{
-id: 7909,
+id: 6504,
 title: 'Trace n play',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTTAP.md"
 },{
-id: 7910,
+id: 6505,
 title: 'TNU',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTTNU.md"
 },{
-id: 7911,
+id: 6506,
 title: 'Simulatore video TTS',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTTTS.md"
 },{
-id: 7912,
+id: 6507,
 title: 'UBI',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTUBI.md"
 },{
-id: 7913,
+id: 6508,
 title: 'JAX',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTUID.md"
 },{
-id: 7914,
+id: 6509,
 title: 'Batch Documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTV5B.md"
 },{
-id: 7915,
+id: 6510,
 title: 'Funzioni di fatturazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTV5F.md"
 },{
-id: 7916,
+id: 6511,
 title: 'Integrazione quantità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTV5I.md"
 },{
-id: 7917,
+id: 6512,
 title: 'Informazioni collegate ad una riga documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTV5L.md"
 },{
-id: 7918,
+id: 6513,
 title: 'Gestione quantità documenti V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTV5Q.md"
 },{
-id: 7919,
+id: 6514,
 title: 'Gestione Piano Provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTV5R.md"
 },{
-id: 7920,
+id: 6515,
 title: 'Gestione valori documenti V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTV5V.md"
 },{
-id: 7921,
+id: 6516,
 title: 'Elaborazione struttura workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTWFA.md"
 },{
-id: 7922,
+id: 6517,
 title: 'Funzioni ordini di workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTWFB.md"
 },{
-id: 7923,
+id: 6518,
 title: 'Funzioni attività di workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTWFC.md"
 },{
-id: 7924,
+id: 6519,
 title: 'Funzioni impegni di workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTWFD.md"
 },{
-id: 7925,
+id: 6520,
 title: 'Promemoria di Workflow',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTWFF.md"
 },{
-id: 7926,
+id: 6521,
 title: 'Esempio documentazione TST',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/TSTXXX.md"
 },{
-id: 7927,
+id: 6522,
 title: 'Crea righe work da R/F',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5AT51A.md"
 },{
-id: 7928,
+id: 6523,
 title: 'Crea righe work da R/F (colli esterni)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5AT51B.md"
 },{
-id: 7929,
+id: 6524,
 title: 'Crea righe work da R/F (colli MFP)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5AT51C.md"
 },{
-id: 7930,
+id: 6525,
 title: 'Presenta righe file di work',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5AT51W.md"
 },{
-id: 7931,
+id: 6526,
 title: 'Crea righe documento da R/F',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5AT51Z.md"
 },{
-id: 7932,
+id: 6527,
 title: 'Crea ordine C/L da documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5AT52A.md"
 },{
-id: 7933,
+id: 6528,
 title: 'Stampa DDT',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5BO01.md"
 },{
-id: 7934,
+id: 6529,
 title: 'Colleg. Doc.V5 Ordini Prod.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5CP10.md"
 },{
-id: 7935,
+id: 6530,
 title: 'Colleg. Doc.V5 a Prod.Acq.C/Lav.',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5CP30.md"
 },{
-id: 7936,
+id: 6531,
 title: 'Gestione Documenti V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5DO01.md"
 },{
-id: 7937,
+id: 6532,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5DO05D.md"
 },{
-id: 7938,
+id: 6533,
 title: 'Stampa Documenti V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5DO07.md"
 },{
-id: 7939,
+id: 6534,
 title: 'Azioni su Documenti Fatturabili',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5DO21I.md"
 },{
-id: 7940,
+id: 6535,
 title: 'Estrazione Xml Fatture Elettroniche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5ED04A.md"
 },{
-id: 7941,
+id: 6536,
 title: 'Estrazione di massa documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5EM01.md"
 },{
-id: 7942,
+id: 6537,
 title: 'Stampa Fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5FA01.md"
 },{
-id: 7943,
+id: 6538,
 title: 'Stampa Interattiva Fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5FA02.md"
 },{
-id: 7944,
+id: 6539,
 title: 'Contabilizzazione Fatture',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5FA05.md"
 },{
-id: 7945,
+id: 6540,
 title: 'Generazione Documenti Autofattura',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5FA10.md"
 },{
-id: 7946,
+id: 6541,
 title: 'Test analisi evadibilità',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5FUEVA.md"
 },{
-id: 7947,
+id: 6542,
 title: 'Collegamento documenti',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5GM01.md"
 },{
-id: 7948,
+id: 6543,
 title: 'Seleziona righe per invio C/Lavoro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5MFP01.md"
 },{
-id: 7949,
+id: 6544,
 title: 'Distribuzione a rientro da C/Lavoro',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5MFP02A.md"
 },{
-id: 7950,
+id: 6545,
 title: 'Rientro C/Lavoro: Distribuzione contenitori',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5MFP02C.md"
 },{
-id: 7951,
+id: 6546,
 title: 'Rientro C/Lavoro: Controllo operazione',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5MFP02Z.md"
 },{
-id: 7952,
+id: 6547,
 title: 'Stampa Documento',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5OA01.md"
 },{
-id: 7953,
+id: 6548,
 title: 'Gestione archivio provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR01.md"
 },{
-id: 7954,
+id: 6549,
 title: 'Calcolo provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR02.md"
 },{
-id: 7955,
+id: 6550,
 title: 'Piano provvigioni e doc. attesa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR03.md"
 },{
-id: 7956,
+id: 6551,
 title: 'Liquidazione provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR04.md"
 },{
-id: 7957,
+id: 6552,
 title: 'Ripresa provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR05.md"
 },{
-id: 7958,
+id: 6553,
 title: 'Stampa pro-forma',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR06.md"
 },{
-id: 7959,
+id: 6554,
 title: 'Stampa distinta provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR10.md"
 },{
-id: 7960,
+id: 6555,
 title: 'Stampa contributi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR15.md"
 },{
-id: 7961,
+id: 6556,
 title: 'Contabilizzazione provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR20.md"
 },{
-id: 7962,
+id: 6557,
 title: 'Contabilizzazione contributi',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR21.md"
 },{
-id: 7963,
+id: 6558,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR22.md"
 },{
-id: 7964,
+id: 6559,
 title: 'Stampa provvigioni',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5PR51.md"
 },{
-id: 7965,
+id: 6560,
 title: 'Estrazione R.M. da documenti V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5RM01.md"
 },{
-id: 7966,
+id: 6561,
 title: 'Interrogazione documenti V5',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5SI01.md"
 },{
-id: 7967,
+id: 6562,
 title: 'Analisi evadibilità estesa',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5SP10.md"
 },{
-id: 7968,
+id: 6563,
 title: 'Ripresa statistiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5STA01.md"
 },{
-id: 7969,
+id: 6564,
 title: 'Cancellazione statistiche',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5STA10.md"
 },{
-id: 7970,
+id: 6565,
 title: 'Funzioni di controllo (V5STAT)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5STAT10.md"
 },{
-id: 7971,
+id: 6566,
 title: 'Funzioni di controllo - Verifiche x ogg. (V5STAT)',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5STA_CK.md"
 },{
-id: 7972,
+id: 6567,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5UT07A.md"
 },{
-id: 7973,
+id: 6568,
 title: '',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5UTX23A.md"
 },{
-id: 7974,
+id: 6569,
 title: 'Ripresa Dati da documentazione commerciale',
 cat: "DOC_OGG",
 href: "Sorgenti/OJ/PGM/V5V5E2G.md"
 },{
-id: 7975,
+id: 6570,
 title: "Cespiti",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/A5.md"
 },{
-id: 7976,
+id: 6571,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/A5_001.md"
 },{
-id: 7977,
+id: 6572,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AA.md"
 },{
-id: 7978,
+id: 6573,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAACQ.md"
 },{
-id: 7979,
+id: 6574,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAAFC.md"
 },{
-id: 7980,
+id: 6575,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AABIG.md"
 },{
-id: 7981,
+id: 6576,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AALOG.md"
 },{
-id: 7982,
+id: 6577,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAMOB.md"
 },{
-id: 7983,
+id: 6578,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAPIA.md"
 },{
-id: 7984,
+id: 6579,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAPRO.md"
 },{
-id: 7985,
+id: 6580,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAQEM.md"
 },{
-id: 7986,
+id: 6581,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAVAP.md"
 },{
-id: 7987,
+id: 6582,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAVEN.md"
 },{
-id: 7988,
+id: 6583,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAVON.md"
 },{
-id: 7989,
+id: 6584,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/AAWEB.md"
 },{
-id: 7990,
+id: 6585,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/A_V3R1.md"
 },{
-id: 7991,
+id: 6586,
 title: "Dati di Base",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/BR.md"
 },{
-id: 7992,
+id: 6587,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/BR_001.md"
 },{
-id: 7993,
+id: 6588,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/BR_002.md"
 },{
-id: 7994,
+id: 6589,
 title: "Funzioni Base",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/B£.md"
 },{
-id: 7995,
+id: 6590,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/B£STAM_01.md"
 },{
-id: 7996,
+id: 6591,
 title: "Contabilità Generale",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/C5.md"
 },{
-id: 7997,
+id: 6592,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/C5_001.md"
 },{
-id: 7998,
+id: 6593,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/C5_002.md"
 },{
-id: 7999,
+id: 6594,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/C5_EST.md"
 },{
-id: 8000,
+id: 6595,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/C5_EST_010.md"
 },{
-id: 8001,
+id: 6596,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/C5_EST_01A.md"
 },{
-id: 8002,
+id: 6597,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/C5_EST_020.md"
 },{
-id: 8003,
+id: 6598,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/C5_EST_030.md"
 },{
-id: 8004,
+id: 6599,
 title: "Configuratore",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/CF.md"
 },{
-id: 8005,
+id: 6600,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CF_001.md"
 },{
-id: 8006,
+id: 6601,
 title: "Qualità",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/CQ.md"
 },{
-id: 8007,
+id: 6602,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_101.md"
 },{
-id: 8008,
+id: 6603,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_200.md"
 },{
-id: 8009,
+id: 6604,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_201.md"
 },{
-id: 8010,
+id: 6605,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_202.md"
 },{
-id: 8011,
+id: 6606,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_203.md"
 },{
-id: 8012,
+id: 6607,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_204.md"
 },{
-id: 8013,
+id: 6608,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_205.md"
 },{
-id: 8014,
+id: 6609,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_206.md"
 },{
-id: 8015,
+id: 6610,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_207.md"
 },{
-id: 8016,
+id: 6611,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_208.md"
 },{
-id: 8017,
+id: 6612,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_209.md"
 },{
-id: 8018,
+id: 6613,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_210.md"
 },{
-id: 8019,
+id: 6614,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_211.md"
 },{
-id: 8020,
+id: 6615,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_212.md"
 },{
-id: 8021,
+id: 6616,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_213.md"
 },{
-id: 8022,
+id: 6617,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_214.md"
 },{
-id: 8023,
+id: 6618,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_215.md"
 },{
-id: 8024,
+id: 6619,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_216.md"
 },{
-id: 8025,
+id: 6620,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_217.md"
 },{
-id: 8026,
+id: 6621,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_218.md"
 },{
-id: 8027,
+id: 6622,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_219.md"
 },{
-id: 8028,
+id: 6623,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_220.md"
 },{
-id: 8029,
+id: 6624,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/CQ_221.md"
 },{
-id: 8030,
+id: 6625,
 title: "Costi Avanzati",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/D0.md"
 },{
-id: 8031,
+id: 6626,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/D0BASE.md"
 },{
-id: 8032,
+id: 6627,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/D0CCMC.md"
 },{
-id: 8033,
+id: 6628,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/D0INTRO.md"
 },{
-id: 8034,
+id: 6629,
 title: "Contabilità Industriale",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/D5.md"
 },{
-id: 8035,
+id: 6630,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/D5_001.md"
 },{
-id: 8036,
+id: 6631,
 title: "Business Intelligence",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/D9.md"
 },{
-id: 8037,
+id: 6632,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/D9_001.md"
 },{
-id: 8038,
+id: 6633,
 title: "EDI Elett.Data Interchange",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/ED.md"
 },{
-id: 8039,
+id: 6634,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/ED_001.md"
 },{
-id: 8040,
+id: 6635,
 title: "Magazzino",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/GM.md"
 },{
-id: 8041,
+id: 6636,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/GM_001.md"
 },{
-id: 8042,
+id: 6637,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/IG.md"
 },{
-id: 8043,
+id: 6638,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/IG_001.md"
 },{
-id: 8044,
+id: 6639,
 title: "Analisi Mat. Per Commesse",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/JM.md"
 },{
-id: 8045,
+id: 6640,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/JM_001.md"
 },{
-id: 8046,
+id: 6641,
 title: "Funzioni Ambiente Grafico",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/LO.md"
 },{
-id: 8047,
+id: 6642,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/LO_001.md"
 },{
-id: 8048,
+id: 6643,
 title: "MRP Pianific. Materiali",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/M5.md"
 },{
-id: 8049,
+id: 6644,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/M5_001.md"
 },{
-id: 8050,
+id: 6645,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/M5_002.md"
 },{
-id: 8051,
+id: 6646,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/M5_003.md"
 },{
-id: 8052,
+id: 6647,
 title: "Manutenzioni",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/MM.md"
 },{
-id: 8053,
+id: 6648,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/MM_001.md"
 },{
-id: 8054,
+id: 6649,
 title: "MPS Piano Princ. Produzione",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/MP.md"
 },{
-id: 8055,
+id: 6650,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/MPHW_01.md"
 },{
-id: 8056,
+id: 6651,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/MP_001.md"
 },{
-id: 8057,
+id: 6652,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/MP_002.md"
 },{
-id: 8058,
+id: 6653,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/MU.md"
 },{
-id: 8059,
+id: 6654,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/MU_001.md"
 },{
-id: 8060,
+id: 6655,
 title: "Produzione",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/P5.md"
 },{
-id: 8061,
+id: 6656,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/P5_001.md"
 },{
-id: 8062,
+id: 6657,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/P5_002.md"
 },{
-id: 8063,
+id: 6658,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/P5_003.md"
 },{
-id: 8064,
+id: 6659,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/P5_004.md"
 },{
-id: 8065,
+id: 6660,
 title: "CRM Relazioni Cliente",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/RE.md"
 },{
-id: 8066,
+id: 6661,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/RE_001.md"
 },{
-id: 8067,
+id: 6662,
 title: "Schedulaz. Capacità Finita",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/S5.md"
 },{
-id: 8068,
+id: 6663,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/S5_002.md"
 },{
-id: 8069,
+id: 6664,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/SU.md"
 },{
-id: 8070,
+id: 6665,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/SU_001.md"
 },{
-id: 8071,
+id: 6666,
 title: "Acquisti",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/V5.md"
 },{
-id: 8072,
+id: 6667,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/V5_001.md"
 },{
-id: 8073,
+id: 6668,
 title: "Componenti Web",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/WE.md"
 },{
-id: 8074,
+id: 6669,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/WE_001.md"
 },{
-id: 8075,
+id: 6670,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/WE_002.md"
 },{
-id: 8076,
+id: 6671,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/WE_OLD.md"
 },{
-id: 8077,
+id: 6672,
 title: "Integrazione CMS",
 cat: "DOC_VIS",
 href: "Sorgenti/TA/B£A/WS.md"
 },{
-id: 8078,
+id: 6673,
 title: "",
 cat: "",
 href: "Sorgenti/TA/B£A/WS_001.md"
 },{
-id: 8079,
+id: 6674,
 title: 'Capire LOOC.up',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/LOA07_ES.md"
 },{
-id: 8080,
+id: 6675,
 title: 'Configurazione',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/LOA39_02.md"
 },{
-id: 8081,
+id: 6676,
 title: 'Client',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/LOA39_03.md"
 },{
-id: 8082,
+id: 6677,
 title: 'Definizione',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOS341.md"
 },{
-id: 8083,
+id: 6678,
 title: 'Struttura di base: tabelle,pgm,schede,fileLOA34_02',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOS342.md"
 },{
-id: 8084,
+id: 6679,
 title: 'Esempio: Quality check-up',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOS343.md"
 },{
-id: 8085,
+id: 6680,
 title: 'Notifiche',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOS600.md"
 },{
-id: 8086,
+id: 6681,
 title: 'Comandi SQL',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOS601.md"
 },{
-id: 8087,
+id: 6682,
 title: 'Fonti della reportistica',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOS602.md"
 },{
-id: 8088,
+id: 6683,
 title: 'Membri di sorgenti',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOS603.md"
 },{
-id: 8089,
+id: 6684,
 title: 'Notifiche - Dettagli tecnici LOA60_SV',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOS604.md"
 },{
-id: 8090,
+id: 6685,
 title: 'Scheda Analisi 2 valori nel tempo',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA02.md"
 },{
-id: 8091,
+id: 6686,
 title: 'Scheda Analisi 2 oggetti con valori',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA03.md"
 },{
-id: 8092,
+id: 6687,
 title: 'Raccoglitore di funzioni',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA07.md"
 },{
-id: 8093,
+id: 6688,
 title: 'Lancio scheda con richiesta paramet',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA08.md"
 },{
-id: 8094,
+id: 6689,
 title: 'Lista di oggetti',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA10.md"
 },{
-id: 8095,
+id: 6690,
 title: 'Doc.tec. Costruttore Flussi',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA11.md"
 },{
-id: 8096,
+id: 6691,
 title: 'Doc.tecnica LOA12',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA12.md"
 },{
-id: 8097,
+id: 6692,
 title: 'UP SQL',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA13.md"
 },{
-id: 8098,
+id: 6693,
 title: 'Scheda Analisi delle fonti',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA15.md"
 },{
-id: 8099,
+id: 6694,
 title: 'Navigazione a livelli',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA16.md"
 },{
-id: 8100,
+id: 6695,
 title: 'Configurazione invio e-mail',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA17.md"
 },{
-id: 8101,
+id: 6696,
 title: 'Costruzione di un insieme',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA18.md"
 },{
-id: 8102,
+id: 6697,
 title: 'Modello di Testo',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA19.md"
 },{
-id: 8103,
+id: 6698,
 title: 'Setup',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA20.md"
 },{
-id: 8104,
+id: 6699,
 title: 'Gestione Valore',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA24.md"
 },{
-id: 8105,
+id: 6700,
 title: 'SQL preparati da script',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA25.md"
 },{
-id: 8106,
+id: 6701,
 title: 'Archiviazione',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA26.md"
 },{
-id: 8107,
+id: 6702,
 title: 'Schedulazione Batch',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA27.md"
 },{
-id: 8108,
+id: 6703,
 title: 'Rappresentazioni in mappa',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA29.md"
 },{
-id: 8109,
+id: 6704,
 title: 'Analisi Sintesi/Dettaglio',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA30.md"
 },{
-id: 8110,
+id: 6705,
 title: 'Documentazione Check-list',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA34.md"
 },{
-id: 8111,
+id: 6706,
 title: 'BASE Gestione di un oggetto',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA36.md"
 },{
-id: 8112,
+id: 6707,
 title: 'BASE Dati dal campo',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA37.md"
 },{
-id: 8113,
+id: 6708,
 title: 'BASE Integrazione con webservice',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA38.md"
 },{
-id: 8114,
+id: 6709,
 title: 'Introduzione,configurazione,client',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA39.md"
 },{
-id: 8115,
+id: 6710,
 title: 'BASE Costruttore: Dati da Fonti esterne',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA40.md"
 },{
-id: 8116,
+id: 6711,
 title: 'BASE Dashboard',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA41.md"
 },{
-id: 8117,
+id: 6712,
 title: 'BASE Motore',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA42.md"
 },{
-id: 8118,
+id: 6713,
 title: 'BASE Costruttore: Notifiche',
 cat: "DOC_OGG",
 href: "Sorgenti/V2/LOCOS/V2LOCOSA60.md"
 },{
-id: 8119,
+id: 6714,
 title: "SXML Servizio sul cespite",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/A5SER_01.md"
 },{
-id: 8120,
+id: 6715,
 title: "SXML Servizio modulo base cespiti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/A5SER_02.md"
 },{
-id: 8121,
+id: 6716,
 title: "Start - Funzioni base",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/A£_053_01.md"
 },{
-id: 8122,
+id: 6717,
 title: "SXML Cicli",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/BRSER_01.md"
 },{
-id: 8123,
+id: 6718,
 title: "SXML Distinte",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/BRSER_02.md"
 },{
-id: 8124,
+id: 6719,
 title: "SXML Dichiarazioni Intento",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/BRSER_04.md"
 },{
-id: 8125,
+id: 6720,
 title: "",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/BRSER_05.md"
 },{
-id: 8126,
+id: 6721,
 title: "SXML Servizi di base",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_01.md"
 },{
-id: 8127,
+id: 6722,
 title: "SXML Servizi di una Applicazione&#x2f;Modulo",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_02.md"
 },{
-id: 8128,
+id: 6723,
 title: "SXML Servizi riguardanti i periodi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_03.md"
 },{
-id: 8129,
+id: 6724,
 title: "SXML Servizi sui modelli",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_04.md"
 },{
-id: 8130,
+id: 6725,
 title: "SXML Servizi sui modelli di matrice",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_05.md"
 },{
-id: 8131,
+id: 6726,
 title: "SXML WRKSPLF",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_06.md"
 },{
-id: 8132,
+id: 6727,
 title: "SXML Servizi su accesso ai file",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_07.md"
 },{
-id: 8133,
+id: 6728,
 title: "SXML Servizi su Work With Sme.up",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_08.md"
 },{
-id: 8134,
+id: 6729,
 title: "SXML Oggetto&#x3a; Numeri e Param.per Tipo",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_09.md"
 },{
-id: 8135,
+id: 6730,
 title: "SXML Oggetto&#x3a; Servizi Funizzati",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_11.md"
 },{
-id: 8136,
+id: 6731,
 title: "SXML INDIRIZZI",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_13.md"
 },{
-id: 8137,
+id: 6732,
 title: "SXML DPPS",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_14.md"
 },{
-id: 8138,
+id: 6733,
 title: "SXML Controllo dell&#x27;oggetto J1 RUL",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_17.md"
 },{
-id: 8139,
+id: 6734,
 title: "Servizi sulle date",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_20.md"
 },{
-id: 8140,
+id: 6735,
 title: "SXML Servizi sul carrello",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_25.md"
 },{
-id: 8141,
+id: 6736,
 title: "Cerca - Documentazione Tecnica",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_26.md"
 },{
-id: 8142,
+id: 6737,
 title: "Servizi su liste",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_40.md"
 },{
-id: 8143,
+id: 6738,
 title: "Analisi campi file",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_44.md"
 },{
-id: 8144,
+id: 6739,
 title: "Costruttore generico XML di esempio",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_46.md"
 },{
-id: 8145,
+id: 6740,
 title: "SERV Visualizzazione contenuto funzione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_49.md"
 },{
-id: 8146,
+id: 6741,
 title: "Simulazione £G53",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_53.md"
 },{
-id: 8147,
+id: 6742,
 title: "Funzioni sui membri delle librerie",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_54.md"
 },{
-id: 8148,
+id: 6743,
 title: "BASE Manutenzione SCRIPT in scheda",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_58.md"
 },{
-id: 8149,
+id: 6744,
 title: "SERV Valori di un campo di un file",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_84.md"
 },{
-id: 8150,
+id: 6745,
 title: "SXML Invio mail",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_85.md"
 },{
-id: 8151,
+id: 6746,
 title: "SXML Preferiti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_88.md"
 },{
-id: 8152,
+id: 6747,
 title: "SXML Funzioni su Query",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/B£SER_89.md"
 },{
-id: 8153,
+id: 6748,
 title: "SXML Estrazioni da Contabilità",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C5SER_01.md"
 },{
-id: 8154,
+id: 6749,
 title: "SXML Analisi Disponibilità Finanziaria",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C5SER_02.md"
 },{
-id: 8155,
+id: 6750,
 title: "SXML Servizi su Rate",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C5SER_04.md"
 },{
-id: 8156,
+id: 6751,
 title: "SXML Ritenute d&#x27;acconto",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C5SER_05.md"
 },{
-id: 8157,
+id: 6752,
 title: "SXML Solleciti di pagamento",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C5SER_12.md"
 },{
-id: 8158,
+id: 6753,
 title: "SXML Analisi disponibilità Finanziaria",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C5SER_13.md"
 },{
-id: 8159,
+id: 6754,
 title: "SXML Analisi  Questionario",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/CFSER_01.md"
 },{
-id: 8160,
+id: 6755,
 title: "SXML Gestione Configurazioni",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/CFSER_02.md"
 },{
-id: 8161,
+id: 6756,
 title: "XSML Analisi  Configurazione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/CFSER_03.md"
 },{
-id: 8162,
+id: 6757,
 title: "SXML Lotti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/CQSER_01.md"
 },{
-id: 8163,
+id: 6758,
 title: "SXML Qualità - Rating e personale",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/CQSER_02.md"
 },{
-id: 8164,
+id: 6759,
 title: "SXML Strumenti di Misura",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/CQSER_03.md"
 },{
-id: 8165,
+id: 6760,
 title: "SXML Non conformità",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/CQSER_04.md"
 },{
-id: 8166,
+id: 6761,
 title: "SXML Servizi sui parametri",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C£SER_01.md"
 },{
-id: 8167,
+id: 6762,
 title: "SXML Estrazioni da C£LIST",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C£SER_02.md"
 },{
-id: 8168,
+id: 6763,
 title: "SXML SXML Modello Dinamico",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/C£SER_03.md"
 },{
-id: 8169,
+id: 6764,
 title: "SXML Costi di un oggetto",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/D0SER_01.md"
 },{
-id: 8170,
+id: 6765,
 title: "COSO Analisi di un contesto&#x2f;tema",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/D5COSO_01.md"
 },{
-id: 8171,
+id: 6766,
 title: "SXML Estrazioni da D5COSO",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/D5SER_01.md"
 },{
-id: 8172,
+id: 6767,
 title: "SXML Estrazione dati D5COSO",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/D5SER_02.md"
 },{
-id: 8173,
+id: 6768,
 title: "SXML Confronti particolari dati D5COSO",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/D5SER_03.md"
 },{
-id: 8174,
+id: 6769,
 title: "SXML Magazzino",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/GMSER_01.md"
 },{
-id: 8175,
+id: 6770,
 title: "SXML Movimenti di magazzino",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/GMSER_02.md"
 },{
-id: 8176,
+id: 6771,
 title: "SXML Servizi sui Colli",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/GMSER_06.md"
 },{
-id: 8177,
+id: 6772,
 title: "SXML Servizi sui Colli",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/GMSER_06_T.md"
 },{
-id: 8178,
+id: 6773,
 title: "SXML Servizi sulle ubicazioni",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/GMSER_07.md"
 },{
-id: 8179,
+id: 6774,
 title: "SXML Configurazione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JASER_01.md"
 },{
-id: 8180,
+id: 6775,
 title: "SXML Ricerca oggetti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JASER_02.md"
 },{
-id: 8181,
+id: 6776,
 title: "SXML Funzioni su query - Lista",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JASER_02L.md"
 },{
-id: 8182,
+id: 6777,
 title: "SXML Funzioni su query - Schema",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JASER_02S.md"
 },{
-id: 8183,
+id: 6778,
 title: "SXML Log di collegamento",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JASER_03.md"
 },{
-id: 8184,
+id: 6779,
 title: "SXML Risalita Immagini",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JASER_12.md"
 },{
-id: 8185,
+id: 6780,
 title: "SXML Cost. Eventi&#x2f;Funzioni e POPUP",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_05C.md"
 },{
-id: 8186,
+id: 6781,
 title: "SXML Cost. Eventi&#x2f;Funzioni e POPUP",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_06C.md"
 },{
-id: 8187,
+id: 6782,
 title: "SXML Documenti V5",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_14C.md"
 },{
-id: 8188,
+id: 6783,
 title: "SXML OAV e liste oggetti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_17C.md"
 },{
-id: 8189,
+id: 6784,
 title: "Servizio costruzione scheda",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_18C.md"
 },{
-id: 8190,
+id: 6785,
 title: "SXML Documenti associati ad un oggetto",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_23C.md"
 },{
-id: 8191,
+id: 6786,
 title: "SXML Sviluppo delle funzioni di oggetto",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_28C.md"
 },{
-id: 8192,
+id: 6787,
 title: "SXML Documentazione - modifica",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_29C.md"
 },{
-id: 8193,
+id: 6788,
 title: "SXML Accessi con navigazione nei dati",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_31C.md"
 },{
-id: 8194,
+id: 6789,
 title: "SXML Matrici&#x2f;Alberi da funzioni SQL",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_32C.md"
 },{
-id: 8195,
+id: 6790,
 title: "SXML Documentazione - visualizzazione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JATRE_34C.md"
 },{
-id: 8196,
+id: 6791,
 title: "LOOC.UP Utility varie",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_00.md"
 },{
-id: 8197,
+id: 6792,
 title: "LOOC.up - Funz.int.di setup",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_01.md"
 },{
-id: 8198,
+id: 6793,
 title: "LOOC.up - Gestione carrello",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_02.md"
 },{
-id: 8199,
+id: 6794,
 title: "LOOC.up - Interfaccia a server IMAP",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_03.md"
 },{
-id: 8200,
+id: 6795,
 title: "LOOC.up - Funz.int.di ricerca",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_04.md"
 },{
-id: 8201,
+id: 6796,
 title: "LOOC.up - Gestione files",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_05.md"
 },{
-id: 8202,
+id: 6797,
 title: "LOOC.up - Funz.int. gest.cronologia",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_06.md"
 },{
-id: 8203,
+id: 6798,
 title: "LOOC.up - Funz.int.gestione wizard",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_07.md"
 },{
-id: 8204,
+id: 6799,
 title: "LOOC.up - Funz.int.di telefonia",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_08.md"
 },{
-id: 8205,
+id: 6800,
 title: "LOOC.up - Arricchimento HTML",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_09.md"
 },{
-id: 8206,
+id: 6801,
 title: "LOOC.up - Funzioni di Menù Bar",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_10.md"
 },{
-id: 8207,
+id: 6802,
 title: "LOOC.up - Servizi di alias",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_11.md"
 },{
-id: 8208,
+id: 6803,
 title: "",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_12.md"
 },{
-id: 8209,
+id: 6804,
 title: "LOOC.up - Accesso ai messaggi della sessione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_13.md"
 },{
-id: 8210,
+id: 6805,
 title: "LOOC.up - Funz. matematiche-statistiche",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_14.md"
 },{
-id: 8211,
+id: 6806,
 title: "LOOC.up - open file ed esec. comandi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_15.md"
 },{
-id: 8212,
+id: 6807,
 title: "LOOC.up - Servizi sui listeners",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_16.md"
 },{
-id: 8213,
+id: 6808,
 title: "LOOC.up - Servizi sui servers",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_17.md"
 },{
-id: 8214,
+id: 6809,
 title: "LOOC.up - Servizio di importazione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_19.md"
 },{
-id: 8215,
+id: 6810,
 title: "doc ser ja_00_19 - Copia backup - Old 1",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_19O1.md"
 },{
-id: 8216,
+id: 6811,
 title: "LOOC.up - Servizi variabili",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_20.md"
 },{
-id: 8217,
+id: 6812,
 title: "LOOC.up - Servizi sui flussi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_21.md"
 },{
-id: 8218,
+id: 6813,
 title: "LOOC.up - Servizi sui report",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_22.md"
 },{
-id: 8219,
+id: 6814,
 title: "LOOC.up - Servizi sui registri windows",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_23.md"
 },{
-id: 8220,
+id: 6815,
 title: "LOOC.up - Gestione SERVER - BC",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_24.md"
 },{
-id: 8221,
+id: 6816,
 title: "LOOC.up - Gestione Client - BC",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_25.md"
 },{
-id: 8222,
+id: 6817,
 title: "LOOC.up - Gestione immagine oggetto",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_27.md"
 },{
-id: 8223,
+id: 6818,
 title: "Servizio funzioni su oggetti client",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_32.md"
 },{
-id: 8224,
+id: 6819,
 title: "Servizio interfaccia a server Wiki",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_33.md"
 },{
-id: 8225,
+id: 6820,
 title: "Servizio gerarchie tabelle aggiuntive",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_34.md"
 },{
-id: 8226,
+id: 6821,
 title: "Servizio per la stampa di PDF",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_36.md"
 },{
-id: 8227,
+id: 6822,
 title: "Servizio Informazioni di Layout",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_37.md"
 },{
-id: 8228,
+id: 6823,
 title: "Servizio gestione contatti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_38.md"
 },{
-id: 8229,
+id: 6824,
 title: "Gestore scrittura file su AS400",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_39.md"
 },{
-id: 8230,
+id: 6825,
 title: "Servizio di trasformazione file",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_40.md"
 },{
-id: 8231,
+id: 6826,
 title: "Interfaccia a funzioni di OCR",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_41.md"
 },{
-id: 8232,
+id: 6827,
 title: "Interfaccia a clipboard",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_42.md"
 },{
-id: 8233,
+id: 6828,
 title: "Servizio trattamento stringhe in file",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_43.md"
 },{
-id: 8234,
+id: 6829,
 title: "Servizio Gestione File di Log",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_44.md"
 },{
-id: 8235,
+id: 6830,
 title: "Interfaccia http",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_46.md"
 },{
-id: 8236,
+id: 6831,
 title: "Servizio gestione cache loocup",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_47.md"
 },{
-id: 8237,
+id: 6832,
 title: "FATT. ELETTR.",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_48.md"
 },{
-id: 8238,
+id: 6833,
 title: "Rilevamento performance AS400",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_49.md"
 },{
-id: 8239,
+id: 6834,
 title: "Servizio per l&#x27;interfaccia al sistema windows",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_50.md"
 },{
-id: 8240,
+id: 6835,
 title: "LOOC.up - servizio input panel - g3",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_53.md"
 },{
-id: 8241,
+id: 6836,
 title: "Servizio gestione risorse remote",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_55.md"
 },{
-id: 8242,
+id: 6837,
 title: "Servizio statistiche esecuzione fun",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_59.md"
 },{
-id: 8243,
+id: 6838,
 title: "Servizio Analisi Log Loocup",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_97.md"
 },{
-id: 8244,
+id: 6839,
 title: "LOOC.up - Funzioni di Test",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_00_99.md"
 },{
-id: 8245,
+id: 6840,
 title: "SXML Documentale",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JA_01_01.md"
 },{
-id: 8246,
+id: 6841,
 title: "Sme.UP Gateway - Funzioni su code Rabbit",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JC_00_00.md"
 },{
-id: 8247,
+id: 6842,
 title: "Sme.UP Gateway - Funzioni su logs",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JC_00_01.md"
 },{
-id: 8248,
+id: 6843,
 title: "Sme.UP Gateway - Funzioni su template",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JC_00_02.md"
 },{
-id: 8249,
+id: 6844,
 title: "Sme.UP Gateway - Funzioni su Plugins A37",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JC_00_03.md"
 },{
-id: 8250,
+id: 6845,
 title: "Sme.UP Gateway - Funzioni su Plugins A38",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JC_00_04.md"
 },{
-id: 8251,
+id: 6846,
 title: "Sme.UP Gateway - Funzioni su Microservices",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JC_00_05.md"
 },{
-id: 8252,
+id: 6847,
 title: "SXML Jmrp",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/JMSER_01.md"
 },{
-id: 8253,
+id: 6848,
 title: "SXML Funzioni su Liste",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOA10_SE.md"
 },{
-id: 8254,
+id: 6849,
 title: "SXML Analisi Standard",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOA12.md"
 },{
-id: 8255,
+id: 6850,
 title: "COSO Analisi di un contesto&#x2f;tema",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOA66_SE.md"
 },{
-id: 8256,
+id: 6851,
 title: "Documentazione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOJAX_02.md"
 },{
-id: 8257,
+id: 6852,
 title: "SXML Esempio di un servizio",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_00.md"
 },{
-id: 8258,
+id: 6853,
 title: "SXML Funzioni sui servizi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_01.md"
 },{
-id: 8259,
+id: 6854,
 title: "SXML Dinamicità componenti scheda",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_02.md"
 },{
-id: 8260,
+id: 6855,
 title: "SXML Analisi stato schede",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_03.md"
 },{
-id: 8261,
+id: 6856,
 title: "SXML Ricerca nel contenuto dei documenti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_04.md"
 },{
-id: 8262,
+id: 6857,
 title: "SXML Configurazioni di LOOC.up",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_05.md"
 },{
-id: 8263,
+id: 6858,
 title: "SXML Verifica di massa dei servizi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_06.md"
 },{
-id: 8264,
+id: 6859,
 title: "SXML Analisi di una scheda",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_07.md"
 },{
-id: 8265,
+id: 6860,
 title: "SXML Matrice di oggetti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_08.md"
 },{
-id: 8266,
+id: 6861,
 title: "SXML Statistiche",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_09.md"
 },{
-id: 8267,
+id: 6862,
 title: "SXML Dinamicità componenti scheda",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_15.md"
 },{
-id: 8268,
+id: 6863,
 title: "SXML Verifica di massa dei servizi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_33.md"
 },{
-id: 8269,
+id: 6864,
 title: "SXML Analisi e Statistiche Servizi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSER_35.md"
 },{
-id: 8270,
+id: 6865,
 title: "SER Sevizio di aggiornamento generico",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/LOSUP_13.md"
 },{
-id: 8271,
+id: 6866,
 title: "SXML Servizi su consiglio di pianifciazione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/M5SER_01.md"
 },{
-id: 8272,
+id: 6867,
 title: "SXML Disponibilità Materiali",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/M5SER_02.md"
 },{
-id: 8273,
+id: 6868,
 title: "SXML MRP - Analisi nel tempo",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/M5SER_06.md"
 },{
-id: 8274,
+id: 6869,
 title: "SXML MRP - Applic.Massa Sugg.MRP da Looc.up",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/M5SER_10.md"
 },{
-id: 8275,
+id: 6870,
 title: "SXML Servisi su Manutenzioni",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/MMSER_01.md"
 },{
-id: 8276,
+id: 6871,
 title: "SXML Estrazione dati MPPIAN",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/MPSER_01.md"
 },{
-id: 8277,
+id: 6872,
 title: "SERV - Funzioni su conversione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/MUSER_01.md"
 },{
-id: 8278,
+id: 6873,
 title: "SERV - Funzioni su compilazioni",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/MUSER_02.md"
 },{
-id: 8279,
+id: 6874,
 title: "SERV - Funzioni su compilazioni",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/MUSER_03.md"
 },{
-id: 8280,
+id: 6875,
 title: "SXML Update matrici OCR",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/ODSUP_00.md"
 },{
-id: 8281,
+id: 6876,
 title: "SXML Eventi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/P5SER_01.md"
 },{
-id: 8282,
+id: 6877,
 title: "SXML Servizi ordine &#x2f; impegni materiali e risorse",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/P5SER_02.md"
 },{
-id: 8283,
+id: 6878,
 title: "SXML Ricerche su anagrafiche",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/RESER_01.md"
 },{
-id: 8284,
+id: 6879,
 title: "SXML Gantt &#x2f; Distinta e Schedulazione",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/S5SER_01.md"
 },{
-id: 8285,
+id: 6880,
 title: "SXML Visualizzazione Gantt Impegni Risorse",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/S5SER_02.md"
 },{
-id: 8286,
+id: 6881,
 title: "SXML Estrazione dati MPPIAN",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/S5SMIN_TR.md"
 },{
-id: 8287,
+id: 6882,
 title: "SXML Estrazioni da C£LIST",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/SAVE.md"
 },{
-id: 8288,
+id: 6883,
 title: "SXML Servizi su testate documenti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/V5SER_01.md"
 },{
-id: 8289,
+id: 6884,
 title: "SXML Servizi su righe documenti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/V5SER_02.md"
 },{
-id: 8290,
+id: 6885,
 title: "SXML Servizi sui Viaggi",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/V5SER_03.md"
 },{
-id: 8291,
+id: 6886,
 title: "SXML Servizi sulle Fatture",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/V5SER_04.md"
 },{
-id: 8292,
+id: 6887,
 title: "SXML Analisi Standard",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/V5SER_11.md"
 },{
-id: 8293,
+id: 6888,
 title: "SXML Ordini di workflow",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/WFSER_02.md"
 },{
-id: 8294,
+id: 6889,
 title: "SXML Impegni di workflow",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/WFSER_03.md"
 },{
-id: 8295,
+id: 6890,
 title: "SXML Attività di workflow",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/WFSER_04.md"
 },{
-id: 8296,
+id: 6891,
 title: "SXML Visualizzazione grafica",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/WFSER_06.md"
 },{
-id: 8297,
+id: 6892,
 title: "SXML Worklist",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/WFSER_07.md"
 },{
-id: 8298,
+id: 6893,
 title: "SXML Analisi globali",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/WFSER_08.md"
 },{
-id: 8299,
+id: 6894,
 title: "SXML Analisi da script",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/WFSER_09.md"
 },{
-id: 8300,
+id: 6895,
 title: "SXML Gestione Agenda",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/X1SER_01.md"
 },{
-id: 8301,
+id: 6896,
 title: "servizio lettura contatti",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/X1SER_26.md"
 },{
-id: 8302,
+id: 6897,
 title: "SXML Scheletro documentazione servizio",
 cat: "DOC_SER",
 href: "Sorgenti/V3/ASE/XXSER.md"
 },{
-id: 8303,
+id: 6898,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/_sidebar.md"
 },{
-id: 8304,
+id: 6899,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/_sidebar.md"
 },{
-id: 8305,
+id: 6900,
 href: "DocumentazioneSmeUP/DOC/DOC_APP/_sidebar.md"
 },{
-id: 8306,
+id: 6901,
 title: "Architettura e Servizi di Base",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/_sidebar.md"
 },{
-id: 8307,
+id: 6902,
 title: "Funzioni Tecniche",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/A£/_sidebar.md"
 },{
-id: 8308,
+id: 6903,
 title: "Funzioni Base",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/B£/_sidebar.md"
 },{
-id: 8309,
+id: 6904,
 title: "Dati di Classificazione",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/C£/_sidebar.md"
 },{
-id: 8310,
+id: 6905,
 title: "Business Intelligence",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/D9/_sidebar.md"
 },{
-id: 8311,
+id: 6906,
 title: "Client-Server service",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/JA/_sidebar.md"
 },{
-id: 8312,
+id: 6907,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/LO/_sidebar.md"
 },{
-id: 8313,
+id: 6908,
 title: "Funzioni di Network",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/NS/_sidebar.md"
 },{
-id: 8314,
+id: 6909,
 title: "Workflow",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000010/WF/_sidebar.md"
 },{
-id: 8315,
+id: 6910,
 title: "Gestione Anagrafici",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000020/_sidebar.md"
 },{
-id: 8316,
+id: 6911,
 title: "Dati di Base",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000020/BR/_sidebar.md"
 },{
-id: 8317,
+id: 6912,
 title: "Configuratore",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000020/CF/_sidebar.md"
 },{
-id: 8318,
+id: 6913,
 title: "Modifiche Tecniche",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000020/MT/_sidebar.md"
 },{
-id: 8319,
+id: 6914,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/_sidebar.md"
 },{
-id: 8320,
+id: 6915,
 title: "Cespiti",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/A5/_sidebar.md"
 },{
-id: 8321,
+id: 6916,
 title: "Contabilità Generale",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/C5/_sidebar.md"
 },{
-id: 8322,
+id: 6917,
 title: "Costi Avanzati",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/D0/_sidebar.md"
 },{
-id: 8323,
+id: 6918,
 title: "Contabilità Industriale",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000030/D5/_sidebar.md"
 },{
-id: 8324,
+id: 6919,
 title: "Vendite",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000040/_sidebar.md"
 },{
-id: 8325,
+id: 6920,
 title: "CRM Relazioni Cliente",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000040/RE/_sidebar.md"
 },{
-id: 8326,
+id: 6921,
 title: "Vendite",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000040/V6/_sidebar.md"
 },{
-id: 8327,
+id: 6922,
 title: "Pianificazione",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000050/_sidebar.md"
 },{
-id: 8328,
+id: 6923,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000050/JM/_sidebar.md"
 },{
-id: 8329,
+id: 6924,
 title: "MRP Pianific. Materiali",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000050/M5/_sidebar.md"
 },{
-id: 8330,
+id: 6925,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000050/MP/_sidebar.md"
 },{
-id: 8331,
+id: 6926,
 title: "Produzione",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000060/_sidebar.md"
 },{
-id: 8332,
+id: 6927,
 title: "Produzione",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000060/P5/_sidebar.md"
 },{
-id: 8333,
+id: 6928,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000060/S5/_sidebar.md"
 },{
-id: 8334,
+id: 6929,
 title: "Acquisti",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000070/_sidebar.md"
 },{
-id: 8335,
+id: 6930,
 title: "Post Acquisto",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000070/G9/_sidebar.md"
 },{
-id: 8336,
+id: 6931,
 title: "Richieste Di Acquisto",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000070/V4/_sidebar.md"
 },{
-id: 8337,
+id: 6932,
 title: "Acquisti",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000070/V5/_sidebar.md"
 },{
-id: 8338,
+id: 6933,
 title: "Logistica",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000080/_sidebar.md"
 },{
-id: 8339,
+id: 6934,
 title: "Magazzino",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000080/GM/_sidebar.md"
 },{
-id: 8340,
+id: 6935,
 title: "Qualita Manutenzione",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000090/_sidebar.md"
 },{
-id: 8341,
+id: 6936,
 title: "Qualità",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000090/CQ/_sidebar.md"
 },{
-id: 8342,
+id: 6937,
 title: "Manutenzioni",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000090/MM/_sidebar.md"
 },{
-id: 8343,
+id: 6938,
 title: "Open-Integration",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/_sidebar.md"
 },{
-id: 8344,
+id: 6939,
 title: "EDI Elett.Data Interchange",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/ED/_sidebar.md"
 },{
-id: 8345,
+id: 6940,
 title: "Negoziando",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/NG/_sidebar.md"
 },{
-id: 8346,
+id: 6941,
 title: "Documentale",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/OD/_sidebar.md"
 },{
-id: 8347,
+id: 6942,
 title: "Gestione Dati di Campo",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/PH/_sidebar.md"
 },{
-id: 8348,
+id: 6943,
 title: "Integrazione CMS",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000100/WS/_sidebar.md"
 },{
-id: 8349,
+id: 6944,
 title: "WebApplication",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000110/_sidebar.md"
 },{
-id: 8350,
+id: 6945,
 title: "Componenti Web",
 cat: "Indice DOC_APP",
 href: "DocumentazioneSmeUP/DOC/DOC_APP/000110/WE/_sidebar.md"
 },{
-id: 8351,
+id: 6946,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/_sidebar.md"
 },{
-id: 8352,
+id: 6947,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/Altro/_sidebar.md"
 },{
-id: 8353,
+id: 6948,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/Classi/_sidebar.md"
 },{
-id: 8354,
+id: 6949,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/Costruttori/_sidebar.md"
 },{
-id: 8355,
+id: 6950,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/File/_sidebar.md"
 },{
-id: 8356,
+id: 6951,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/Programmi/_sidebar.md"
 },{
-id: 8357,
+id: 6952,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/Tabelle/_sidebar.md"
 },{
-id: 8358,
+id: 6953,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/ValoriDinamici/_sidebar.md"
 },{
-id: 8359,
+id: 6954,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_OGG/ValoriFissi/_sidebar.md"
 },{
-id: 8360,
+id: 6955,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/_sidebar.md"
 },{
-id: 8361,
+id: 6956,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Altro/_sidebar.md"
 },{
-id: 8362,
+id: 6957,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/_sidebar.md"
 },{
-id: 8363,
+id: 6958,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/_sidebar.md"
 },{
-id: 8364,
+id: 6959,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/A£/_sidebar.md"
 },{
-id: 8365,
+id: 6960,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/B£/_sidebar.md"
 },{
-id: 8366,
+id: 6961,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/C£/_sidebar.md"
 },{
-id: 8367,
+id: 6962,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/D9/_sidebar.md"
 },{
-id: 8368,
+id: 6963,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/JA/_sidebar.md"
 },{
-id: 8369,
+id: 6964,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/LO/_sidebar.md"
 },{
-id: 8370,
+id: 6965,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/NS/_sidebar.md"
 },{
-id: 8371,
+id: 6966,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000010/WF/_sidebar.md"
 },{
-id: 8372,
+id: 6967,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000020/_sidebar.md"
 },{
-id: 8373,
+id: 6968,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000020/BR/_sidebar.md"
 },{
-id: 8374,
+id: 6969,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000020/CF/_sidebar.md"
 },{
-id: 8375,
+id: 6970,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000020/MT/_sidebar.md"
 },{
-id: 8376,
+id: 6971,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/_sidebar.md"
 },{
-id: 8377,
+id: 6972,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/A5/_sidebar.md"
 },{
-id: 8378,
+id: 6973,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/C5/_sidebar.md"
 },{
-id: 8379,
+id: 6974,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/D0/_sidebar.md"
 },{
-id: 8380,
+id: 6975,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000030/D5/_sidebar.md"
 },{
-id: 8381,
+id: 6976,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000040/_sidebar.md"
 },{
-id: 8382,
+id: 6977,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000040/RE/_sidebar.md"
 },{
-id: 8383,
+id: 6978,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000040/V6/_sidebar.md"
 },{
-id: 8384,
+id: 6979,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000050/_sidebar.md"
 },{
-id: 8385,
+id: 6980,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000050/JM/_sidebar.md"
 },{
-id: 8386,
+id: 6981,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000050/M5/_sidebar.md"
 },{
-id: 8387,
+id: 6982,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000050/MP/_sidebar.md"
 },{
-id: 8388,
+id: 6983,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000060/_sidebar.md"
 },{
-id: 8389,
+id: 6984,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000060/P5/_sidebar.md"
 },{
-id: 8390,
+id: 6985,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000060/S5/_sidebar.md"
 },{
-id: 8391,
+id: 6986,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000070/_sidebar.md"
 },{
-id: 8392,
+id: 6987,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000070/G9/_sidebar.md"
 },{
-id: 8393,
+id: 6988,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000070/V4/_sidebar.md"
 },{
-id: 8394,
+id: 6989,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000070/V5/_sidebar.md"
 },{
-id: 8395,
+id: 6990,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000080/_sidebar.md"
 },{
-id: 8396,
+id: 6991,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000080/GM/_sidebar.md"
 },{
-id: 8397,
+id: 6992,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000090/_sidebar.md"
 },{
-id: 8398,
+id: 6993,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000090/CQ/_sidebar.md"
 },{
-id: 8399,
+id: 6994,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000090/MM/_sidebar.md"
 },{
-id: 8400,
+id: 6995,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/_sidebar.md"
 },{
-id: 8401,
+id: 6996,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/ED/_sidebar.md"
 },{
-id: 8402,
+id: 6997,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/NG/_sidebar.md"
 },{
-id: 8403,
+id: 6998,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/OD/_sidebar.md"
 },{
-id: 8404,
+id: 6999,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/PH/_sidebar.md"
 },{
-id: 8405,
+id: 7000,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000100/WS/_sidebar.md"
 },{
-id: 8406,
+id: 7001,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000110/_sidebar.md"
 },{
-id: 8407,
+id: 7002,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/000110/WE/_sidebar.md"
 },{
-id: 8408,
+id: 7003,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Componenti/_sidebar.md"
 },{
-id: 8409,
+id: 7004,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/Oggetti/_sidebar.md"
 },{
-id: 8410,
+id: 7005,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/DOC/DOC_SCH/UPP/_sidebar.md"
 },{
-id: 8411,
+id: 7006,
 href: "DocumentazioneSmeUP/DOC/DOC_SER/_sidebar.md"
 },{
-id: 8412,
+id: 7007,
 title: "Architettura e Servizi di Base",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/_sidebar.md"
 },{
-id: 8413,
+id: 7008,
 title: "Funzioni Tecniche",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/A£/_sidebar.md"
 },{
-id: 8414,
+id: 7009,
 title: "Funzioni Base",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/B£/_sidebar.md"
 },{
-id: 8415,
+id: 7010,
 title: "Dati di Classificazione",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/C£/_sidebar.md"
 },{
-id: 8416,
+id: 7011,
 title: "Business Intelligence",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/D9/_sidebar.md"
 },{
-id: 8417,
+id: 7012,
 title: "Client-Server service",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/JA/_sidebar.md"
 },{
-id: 8418,
+id: 7013,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/LO/_sidebar.md"
 },{
-id: 8419,
+id: 7014,
 title: "Funzioni di Network",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/NS/_sidebar.md"
 },{
-id: 8420,
+id: 7015,
 title: "Workflow",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000010/WF/_sidebar.md"
 },{
-id: 8421,
+id: 7016,
 title: "Gestione Anagrafici",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000020/_sidebar.md"
 },{
-id: 8422,
+id: 7017,
 title: "Dati di Base",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000020/BR/_sidebar.md"
 },{
-id: 8423,
+id: 7018,
 title: "Configuratore",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000020/CF/_sidebar.md"
 },{
-id: 8424,
+id: 7019,
 title: "Modifiche Tecniche",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000020/MT/_sidebar.md"
 },{
-id: 8425,
+id: 7020,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/_sidebar.md"
 },{
-id: 8426,
+id: 7021,
 title: "Cespiti",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/A5/_sidebar.md"
 },{
-id: 8427,
+id: 7022,
 title: "Contabilità Generale",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/C5/_sidebar.md"
 },{
-id: 8428,
+id: 7023,
 title: "Costi Avanzati",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/D0/_sidebar.md"
 },{
-id: 8429,
+id: 7024,
 title: "Contabilità Industriale",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000030/D5/_sidebar.md"
 },{
-id: 8430,
+id: 7025,
 title: "Vendite",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000040/_sidebar.md"
 },{
-id: 8431,
+id: 7026,
 title: "CRM Relazioni Cliente",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000040/RE/_sidebar.md"
 },{
-id: 8432,
+id: 7027,
 title: "Vendite",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000040/V6/_sidebar.md"
 },{
-id: 8433,
+id: 7028,
 title: "Pianificazione",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000050/_sidebar.md"
 },{
-id: 8434,
+id: 7029,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000050/JM/_sidebar.md"
 },{
-id: 8435,
+id: 7030,
 title: "MRP Pianific. Materiali",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000050/M5/_sidebar.md"
 },{
-id: 8436,
+id: 7031,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000050/MP/_sidebar.md"
 },{
-id: 8437,
+id: 7032,
 title: "Produzione",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000060/_sidebar.md"
 },{
-id: 8438,
+id: 7033,
 title: "Produzione",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000060/P5/_sidebar.md"
 },{
-id: 8439,
+id: 7034,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000060/S5/_sidebar.md"
 },{
-id: 8440,
+id: 7035,
 title: "Acquisti",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000070/_sidebar.md"
 },{
-id: 8441,
+id: 7036,
 title: "Post Acquisto",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000070/G9/_sidebar.md"
 },{
-id: 8442,
+id: 7037,
 title: "Richieste Di Acquisto",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000070/V4/_sidebar.md"
 },{
-id: 8443,
+id: 7038,
 title: "Acquisti",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000070/V5/_sidebar.md"
 },{
-id: 8444,
+id: 7039,
 title: "Logistica",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000080/_sidebar.md"
 },{
-id: 8445,
+id: 7040,
 title: "Magazzino",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000080/GM/_sidebar.md"
 },{
-id: 8446,
+id: 7041,
 title: "Qualita Manutenzione",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000090/_sidebar.md"
 },{
-id: 8447,
+id: 7042,
 title: "Qualità",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000090/CQ/_sidebar.md"
 },{
-id: 8448,
+id: 7043,
 title: "Manutenzioni",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000090/MM/_sidebar.md"
 },{
-id: 8449,
+id: 7044,
 title: "Open-Integration",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/_sidebar.md"
 },{
-id: 8450,
+id: 7045,
 title: "EDI Elett.Data Interchange",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/ED/_sidebar.md"
 },{
-id: 8451,
+id: 7046,
 title: "Negoziando",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/NG/_sidebar.md"
 },{
-id: 8452,
+id: 7047,
 title: "Documentale",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/OD/_sidebar.md"
 },{
-id: 8453,
+id: 7048,
 title: "Gestione Dati di Campo",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/PH/_sidebar.md"
 },{
-id: 8454,
+id: 7049,
 title: "Integrazione CMS",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000100/WS/_sidebar.md"
 },{
-id: 8455,
+id: 7050,
 title: "WebApplication",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000110/_sidebar.md"
 },{
-id: 8456,
+id: 7051,
 title: "Componenti Web",
 cat: "Indice DOC_SER",
 href: "DocumentazioneSmeUP/DOC/DOC_SER/000110/WE/_sidebar.md"
 },{
-id: 8457,
+id: 7052,
 href: "DocumentazioneSmeUP/DOC_OPE/_sidebar.md"
 },{
-id: 8458,
+id: 7053,
 title: "Architettura e Servizi di Base",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/_sidebar.md"
 },{
-id: 8459,
+id: 7054,
 title: "Funzioni Tecniche",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/A£/_sidebar.md"
 },{
-id: 8460,
+id: 7055,
 title: "Funzioni Base",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/B£/_sidebar.md"
 },{
-id: 8461,
+id: 7056,
 title: "Dati di Classificazione",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/C£/_sidebar.md"
 },{
-id: 8462,
+id: 7057,
 title: "Business Intelligence",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/D9/_sidebar.md"
 },{
-id: 8463,
+id: 7058,
 title: "Client-Server service",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/JA/_sidebar.md"
 },{
-id: 8464,
+id: 7059,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/LO/_sidebar.md"
 },{
-id: 8465,
+id: 7060,
 title: "Funzioni di Network",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/NS/_sidebar.md"
 },{
-id: 8466,
+id: 7061,
 title: "Workflow",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000010/WF/_sidebar.md"
 },{
-id: 8467,
+id: 7062,
 title: "Gestione Anagrafici",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000020/_sidebar.md"
 },{
-id: 8468,
+id: 7063,
 title: "Dati di Base",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000020/BR/_sidebar.md"
 },{
-id: 8469,
+id: 7064,
 title: "Configuratore",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000020/CF/_sidebar.md"
 },{
-id: 8470,
+id: 7065,
 title: "Modifiche Tecniche",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000020/MT/_sidebar.md"
 },{
-id: 8471,
+id: 7066,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000030/_sidebar.md"
 },{
-id: 8472,
+id: 7067,
 title: "Cespiti",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000030/A5/_sidebar.md"
 },{
-id: 8473,
+id: 7068,
 title: "Contabilità Generale",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000030/C5/_sidebar.md"
 },{
-id: 8474,
+id: 7069,
 title: "Costi Avanzati",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000030/D0/_sidebar.md"
 },{
-id: 8475,
+id: 7070,
 title: "Contabilità Industriale",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000030/D5/_sidebar.md"
 },{
-id: 8476,
+id: 7071,
 title: "Vendite",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000040/_sidebar.md"
 },{
-id: 8477,
+id: 7072,
 title: "CRM Relazioni Cliente",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000040/RE/_sidebar.md"
 },{
-id: 8478,
+id: 7073,
 title: "Vendite",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000040/V6/_sidebar.md"
 },{
-id: 8479,
+id: 7074,
 title: "Pianificazione",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000050/_sidebar.md"
 },{
-id: 8480,
+id: 7075,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000050/JM/_sidebar.md"
 },{
-id: 8481,
+id: 7076,
 title: "MRP Pianific. Materiali",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000050/M5/_sidebar.md"
 },{
-id: 8482,
+id: 7077,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000050/MP/_sidebar.md"
 },{
-id: 8483,
+id: 7078,
 title: "Produzione",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000060/_sidebar.md"
 },{
-id: 8484,
+id: 7079,
 title: "Produzione",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000060/P5/_sidebar.md"
 },{
-id: 8485,
+id: 7080,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000060/S5/_sidebar.md"
 },{
-id: 8486,
+id: 7081,
 title: "Acquisti",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000070/_sidebar.md"
 },{
-id: 8487,
+id: 7082,
 title: "Post Acquisto",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000070/G9/_sidebar.md"
 },{
-id: 8488,
+id: 7083,
 title: "Richieste Di Acquisto",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000070/V4/_sidebar.md"
 },{
-id: 8489,
+id: 7084,
 title: "Acquisti",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000070/V5/_sidebar.md"
 },{
-id: 8490,
+id: 7085,
 title: "Logistica",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000080/_sidebar.md"
 },{
-id: 8491,
+id: 7086,
 title: "Magazzino",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000080/GM/_sidebar.md"
 },{
-id: 8492,
+id: 7087,
 title: "Qualita Manutenzione",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000090/_sidebar.md"
 },{
-id: 8493,
+id: 7088,
 title: "Qualità",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000090/CQ/_sidebar.md"
 },{
-id: 8494,
+id: 7089,
 title: "Manutenzioni",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000090/MM/_sidebar.md"
 },{
-id: 8495,
+id: 7090,
 title: "Open-Integration",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000100/_sidebar.md"
 },{
-id: 8496,
+id: 7091,
 title: "EDI Elett.Data Interchange",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000100/ED/_sidebar.md"
 },{
-id: 8497,
+id: 7092,
 title: "Negoziando",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000100/NG/_sidebar.md"
 },{
-id: 8498,
+id: 7093,
 title: "Documentale",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000100/OD/_sidebar.md"
 },{
-id: 8499,
+id: 7094,
 title: "Gestione Dati di Campo",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000100/PH/_sidebar.md"
 },{
-id: 8500,
+id: 7095,
 title: "Integrazione CMS",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000100/WS/_sidebar.md"
 },{
-id: 8501,
+id: 7096,
 title: "WebApplication",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000110/_sidebar.md"
 },{
-id: 8502,
+id: 7097,
 title: "Componenti Web",
 cat: "Indice DOC_OPE",
 href: "DocumentazioneSmeUP/DOC_OPE/000110/WE/_sidebar.md"
 },{
-id: 8503,
+id: 7098,
 href: "DocumentazioneSmeUP/DOC_VIS/_sidebar.md"
 },{
-id: 8504,
+id: 7099,
 title: "Architettura e Servizi di Base",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/_sidebar.md"
 },{
-id: 8505,
+id: 7100,
 title: "Funzioni Tecniche",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/A£/_sidebar.md"
 },{
-id: 8506,
+id: 7101,
 title: "Funzioni Base",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/B£/_sidebar.md"
 },{
-id: 8507,
+id: 7102,
 title: "Dati di Classificazione",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/C£/_sidebar.md"
 },{
-id: 8508,
+id: 7103,
 title: "Business Intelligence",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/D9/_sidebar.md"
 },{
-id: 8509,
+id: 7104,
 title: "Client-Server service",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/JA/_sidebar.md"
 },{
-id: 8510,
+id: 7105,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/LO/_sidebar.md"
 },{
-id: 8511,
+id: 7106,
 title: "Funzioni di Network",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/NS/_sidebar.md"
 },{
-id: 8512,
+id: 7107,
 title: "Workflow",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000010/WF/_sidebar.md"
 },{
-id: 8513,
+id: 7108,
 title: "Gestione Anagrafici",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000020/_sidebar.md"
 },{
-id: 8514,
+id: 7109,
 title: "Dati di Base",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000020/BR/_sidebar.md"
 },{
-id: 8515,
+id: 7110,
 title: "Configuratore",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000020/CF/_sidebar.md"
 },{
-id: 8516,
+id: 7111,
 title: "Modifiche Tecniche",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000020/MT/_sidebar.md"
 },{
-id: 8517,
+id: 7112,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000030/_sidebar.md"
 },{
-id: 8518,
+id: 7113,
 title: "Cespiti",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000030/A5/_sidebar.md"
 },{
-id: 8519,
+id: 7114,
 title: "Contabilità Generale",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000030/C5/_sidebar.md"
 },{
-id: 8520,
+id: 7115,
 title: "Costi Avanzati",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000030/D0/_sidebar.md"
 },{
-id: 8521,
+id: 7116,
 title: "Contabilità Industriale",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000030/D5/_sidebar.md"
 },{
-id: 8522,
+id: 7117,
 title: "Vendite",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000040/_sidebar.md"
 },{
-id: 8523,
+id: 7118,
 title: "CRM Relazioni Cliente",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000040/RE/_sidebar.md"
 },{
-id: 8524,
+id: 7119,
 title: "Vendite",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000040/V6/_sidebar.md"
 },{
-id: 8525,
+id: 7120,
 title: "Pianificazione",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000050/_sidebar.md"
 },{
-id: 8526,
+id: 7121,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000050/JM/_sidebar.md"
 },{
-id: 8527,
+id: 7122,
 title: "MRP Pianific. Materiali",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000050/M5/_sidebar.md"
 },{
-id: 8528,
+id: 7123,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000050/MP/_sidebar.md"
 },{
-id: 8529,
+id: 7124,
 title: "Produzione",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000060/_sidebar.md"
 },{
-id: 8530,
+id: 7125,
 title: "Produzione",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000060/P5/_sidebar.md"
 },{
-id: 8531,
+id: 7126,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000060/S5/_sidebar.md"
 },{
-id: 8532,
+id: 7127,
 title: "Acquisti",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000070/_sidebar.md"
 },{
-id: 8533,
+id: 7128,
 title: "Post Acquisto",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000070/G9/_sidebar.md"
 },{
-id: 8534,
+id: 7129,
 title: "Richieste Di Acquisto",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000070/V4/_sidebar.md"
 },{
-id: 8535,
+id: 7130,
 title: "Acquisti",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000070/V5/_sidebar.md"
 },{
-id: 8536,
+id: 7131,
 title: "Logistica",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000080/_sidebar.md"
 },{
-id: 8537,
+id: 7132,
 title: "Magazzino",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000080/GM/_sidebar.md"
 },{
-id: 8538,
+id: 7133,
 title: "Qualita Manutenzione",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000090/_sidebar.md"
 },{
-id: 8539,
+id: 7134,
 title: "Qualità",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000090/CQ/_sidebar.md"
 },{
-id: 8540,
+id: 7135,
 title: "Manutenzioni",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000090/MM/_sidebar.md"
 },{
-id: 8541,
+id: 7136,
 title: "Open-Integration",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000100/_sidebar.md"
 },{
-id: 8542,
+id: 7137,
 title: "EDI Elett.Data Interchange",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000100/ED/_sidebar.md"
 },{
-id: 8543,
+id: 7138,
 title: "Negoziando",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000100/NG/_sidebar.md"
 },{
-id: 8544,
+id: 7139,
 title: "Documentale",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000100/OD/_sidebar.md"
 },{
-id: 8545,
+id: 7140,
 title: "Gestione Dati di Campo",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000100/PH/_sidebar.md"
 },{
-id: 8546,
+id: 7141,
 title: "Integrazione CMS",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000100/WS/_sidebar.md"
 },{
-id: 8547,
+id: 7142,
 title: "WebApplication",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000110/_sidebar.md"
 },{
-id: 8548,
+id: 7143,
 title: "Componenti Web",
 cat: "Indice DOC_VIS",
 href: "DocumentazioneSmeUP/DOC_VIS/000110/WE/_sidebar.md"
 },{
-id: 8549,
+id: 7144,
 href: "DocumentazioneSmeUP/FAQ/_sidebar.md"
 },{
-id: 8550,
+id: 7145,
 title: "Architettura e Servizi di Base",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/_sidebar.md"
 },{
-id: 8551,
+id: 7146,
 title: "Funzioni Tecniche",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/A£/_sidebar.md"
 },{
-id: 8552,
+id: 7147,
 title: "Funzioni Base",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/B£/_sidebar.md"
 },{
-id: 8553,
+id: 7148,
 title: "Dati di Classificazione",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/C£/_sidebar.md"
 },{
-id: 8554,
+id: 7149,
 title: "Business Intelligence",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/D9/_sidebar.md"
 },{
-id: 8555,
+id: 7150,
 title: "Client-Server service",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/JA/_sidebar.md"
 },{
-id: 8556,
+id: 7151,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/LO/_sidebar.md"
 },{
-id: 8557,
+id: 7152,
 title: "Funzioni di Network",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/NS/_sidebar.md"
 },{
-id: 8558,
+id: 7153,
 title: "Workflow",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000010/WF/_sidebar.md"
 },{
-id: 8559,
+id: 7154,
 title: "Gestione Anagrafici",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000020/_sidebar.md"
 },{
-id: 8560,
+id: 7155,
 title: "Dati di Base",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000020/BR/_sidebar.md"
 },{
-id: 8561,
+id: 7156,
 title: "Configuratore",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000020/CF/_sidebar.md"
 },{
-id: 8562,
+id: 7157,
 title: "Modifiche Tecniche",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000020/MT/_sidebar.md"
 },{
-id: 8563,
+id: 7158,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000030/_sidebar.md"
 },{
-id: 8564,
+id: 7159,
 title: "Cespiti",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000030/A5/_sidebar.md"
 },{
-id: 8565,
+id: 7160,
 title: "Contabilità Generale",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000030/C5/_sidebar.md"
 },{
-id: 8566,
+id: 7161,
 title: "Costi Avanzati",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000030/D0/_sidebar.md"
 },{
-id: 8567,
+id: 7162,
 title: "Contabilità Industriale",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000030/D5/_sidebar.md"
 },{
-id: 8568,
+id: 7163,
 title: "Vendite",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000040/_sidebar.md"
 },{
-id: 8569,
+id: 7164,
 title: "CRM Relazioni Cliente",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000040/RE/_sidebar.md"
 },{
-id: 8570,
+id: 7165,
 title: "Vendite",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000040/V6/_sidebar.md"
 },{
-id: 8571,
+id: 7166,
 title: "Pianificazione",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000050/_sidebar.md"
 },{
-id: 8572,
+id: 7167,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000050/JM/_sidebar.md"
 },{
-id: 8573,
+id: 7168,
 title: "MRP Pianific. Materiali",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000050/M5/_sidebar.md"
 },{
-id: 8574,
+id: 7169,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000050/MP/_sidebar.md"
 },{
-id: 8575,
+id: 7170,
 title: "Produzione",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000060/_sidebar.md"
 },{
-id: 8576,
+id: 7171,
 title: "Produzione",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000060/P5/_sidebar.md"
 },{
-id: 8577,
+id: 7172,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000060/S5/_sidebar.md"
 },{
-id: 8578,
+id: 7173,
 title: "Acquisti",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000070/_sidebar.md"
 },{
-id: 8579,
+id: 7174,
 title: "Post Acquisto",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000070/G9/_sidebar.md"
 },{
-id: 8580,
+id: 7175,
 title: "Richieste Di Acquisto",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000070/V4/_sidebar.md"
 },{
-id: 8581,
+id: 7176,
 title: "Acquisti",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000070/V5/_sidebar.md"
 },{
-id: 8582,
+id: 7177,
 title: "Logistica",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000080/_sidebar.md"
 },{
-id: 8583,
+id: 7178,
 title: "Magazzino",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000080/GM/_sidebar.md"
 },{
-id: 8584,
+id: 7179,
 title: "Qualita Manutenzione",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000090/_sidebar.md"
 },{
-id: 8585,
+id: 7180,
 title: "Qualità",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000090/CQ/_sidebar.md"
 },{
-id: 8586,
+id: 7181,
 title: "Manutenzioni",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000090/MM/_sidebar.md"
 },{
-id: 8587,
+id: 7182,
 title: "Open-Integration",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000100/_sidebar.md"
 },{
-id: 8588,
+id: 7183,
 title: "EDI Elett.Data Interchange",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000100/ED/_sidebar.md"
 },{
-id: 8589,
+id: 7184,
 title: "Negoziando",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000100/NG/_sidebar.md"
 },{
-id: 8590,
+id: 7185,
 title: "Documentale",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000100/OD/_sidebar.md"
 },{
-id: 8591,
+id: 7186,
 title: "Gestione Dati di Campo",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000100/PH/_sidebar.md"
 },{
-id: 8592,
+id: 7187,
 title: "Integrazione CMS",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000100/WS/_sidebar.md"
 },{
-id: 8593,
+id: 7188,
 title: "WebApplication",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000110/_sidebar.md"
 },{
-id: 8594,
+id: 7189,
 title: "Componenti Web",
 cat: "Indice FAQ",
 href: "DocumentazioneSmeUP/FAQ/000110/WE/_sidebar.md"
 },{
-id: 8595,
+id: 7190,
 href: "DocumentazioneSmeUP/GLO/_sidebar.md"
 },{
-id: 8596,
+id: 7191,
 title: "Architettura e Servizi di Base",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/_sidebar.md"
 },{
-id: 8597,
+id: 7192,
 title: "Funzioni Tecniche",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/A£/_sidebar.md"
 },{
-id: 8598,
+id: 7193,
 title: "Funzioni Base",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/B£/_sidebar.md"
 },{
-id: 8599,
+id: 7194,
 title: "Dati di Classificazione",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/C£/_sidebar.md"
 },{
-id: 8600,
+id: 7195,
 title: "Business Intelligence",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/D9/_sidebar.md"
 },{
-id: 8601,
+id: 7196,
 title: "Client-Server service",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/JA/_sidebar.md"
 },{
-id: 8602,
+id: 7197,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/LO/_sidebar.md"
 },{
-id: 8603,
+id: 7198,
 title: "Funzioni di Network",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/NS/_sidebar.md"
 },{
-id: 8604,
+id: 7199,
 title: "Workflow",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000010/WF/_sidebar.md"
 },{
-id: 8605,
+id: 7200,
 title: "Gestione Anagrafici",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000020/_sidebar.md"
 },{
-id: 8606,
+id: 7201,
 title: "Dati di Base",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000020/BR/_sidebar.md"
 },{
-id: 8607,
+id: 7202,
 title: "Configuratore",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000020/CF/_sidebar.md"
 },{
-id: 8608,
+id: 7203,
 title: "Modifiche Tecniche",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000020/MT/_sidebar.md"
 },{
-id: 8609,
+id: 7204,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000030/_sidebar.md"
 },{
-id: 8610,
+id: 7205,
 title: "Cespiti",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000030/A5/_sidebar.md"
 },{
-id: 8611,
+id: 7206,
 title: "Contabilità Generale",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000030/C5/_sidebar.md"
 },{
-id: 8612,
+id: 7207,
 title: "Costi Avanzati",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000030/D0/_sidebar.md"
 },{
-id: 8613,
+id: 7208,
 title: "Contabilità Industriale",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000030/D5/_sidebar.md"
 },{
-id: 8614,
+id: 7209,
 title: "Vendite",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000040/_sidebar.md"
 },{
-id: 8615,
+id: 7210,
 title: "CRM Relazioni Cliente",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000040/RE/_sidebar.md"
 },{
-id: 8616,
+id: 7211,
 title: "Vendite",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000040/V6/_sidebar.md"
 },{
-id: 8617,
+id: 7212,
 title: "Pianificazione",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000050/_sidebar.md"
 },{
-id: 8618,
+id: 7213,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000050/JM/_sidebar.md"
 },{
-id: 8619,
+id: 7214,
 title: "MRP Pianific. Materiali",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000050/M5/_sidebar.md"
 },{
-id: 8620,
+id: 7215,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000050/MP/_sidebar.md"
 },{
-id: 8621,
+id: 7216,
 title: "Produzione",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000060/_sidebar.md"
 },{
-id: 8622,
+id: 7217,
 title: "Produzione",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000060/P5/_sidebar.md"
 },{
-id: 8623,
+id: 7218,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000060/S5/_sidebar.md"
 },{
-id: 8624,
+id: 7219,
 title: "Acquisti",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000070/_sidebar.md"
 },{
-id: 8625,
+id: 7220,
 title: "Post Acquisto",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000070/G9/_sidebar.md"
 },{
-id: 8626,
+id: 7221,
 title: "Richieste Di Acquisto",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000070/V4/_sidebar.md"
 },{
-id: 8627,
+id: 7222,
 title: "Acquisti",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000070/V5/_sidebar.md"
 },{
-id: 8628,
+id: 7223,
 title: "Logistica",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000080/_sidebar.md"
 },{
-id: 8629,
+id: 7224,
 title: "Magazzino",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000080/GM/_sidebar.md"
 },{
-id: 8630,
+id: 7225,
 title: "Qualita Manutenzione",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000090/_sidebar.md"
 },{
-id: 8631,
+id: 7226,
 title: "Qualità",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000090/CQ/_sidebar.md"
 },{
-id: 8632,
+id: 7227,
 title: "Manutenzioni",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000090/MM/_sidebar.md"
 },{
-id: 8633,
+id: 7228,
 title: "Open-Integration",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000100/_sidebar.md"
 },{
-id: 8634,
+id: 7229,
 title: "EDI Elett.Data Interchange",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000100/ED/_sidebar.md"
 },{
-id: 8635,
+id: 7230,
 title: "Negoziando",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000100/NG/_sidebar.md"
 },{
-id: 8636,
+id: 7231,
 title: "Documentale",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000100/OD/_sidebar.md"
 },{
-id: 8637,
+id: 7232,
 title: "Gestione Dati di Campo",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000100/PH/_sidebar.md"
 },{
-id: 8638,
+id: 7233,
 title: "Integrazione CMS",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000100/WS/_sidebar.md"
 },{
-id: 8639,
+id: 7234,
 title: "WebApplication",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000110/_sidebar.md"
 },{
-id: 8640,
+id: 7235,
 title: "Componenti Web",
 cat: "Indice GLO",
 href: "DocumentazioneSmeUP/GLO/000110/WE/_sidebar.md"
 },{
-id: 8641,
+id: 7236,
 title: "",
 cat: "",
 href: "DocumentazioneSmeUP/NWS/_sidebar.md"
 },{
-id: 8642,
+id: 7237,
 href: "DocumentazioneSmeUP/NWS/News/_sidebar.md"
 },{
-id: 8643,
+id: 7238,
 title: "Architettura e Servizi di Base",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/_sidebar.md"
 },{
-id: 8644,
+id: 7239,
 title: "Funzioni Tecniche",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/A£/_sidebar.md"
 },{
-id: 8645,
+id: 7240,
 title: "Funzioni Base",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/B£/_sidebar.md"
 },{
-id: 8646,
+id: 7241,
 title: "Dati di Classificazione",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/C£/_sidebar.md"
 },{
-id: 8647,
+id: 7242,
 title: "Business Intelligence",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/D9/_sidebar.md"
 },{
-id: 8648,
+id: 7243,
 title: "Client-Server service",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/JA/_sidebar.md"
 },{
-id: 8649,
+id: 7244,
 title: "Funzioni Ambiente Grafico",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/LO/_sidebar.md"
 },{
-id: 8650,
+id: 7245,
 title: "Funzioni di Network",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/NS/_sidebar.md"
 },{
-id: 8651,
+id: 7246,
 title: "Workflow",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000010/WF/_sidebar.md"
 },{
-id: 8652,
+id: 7247,
 title: "Gestione Anagrafici",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000020/_sidebar.md"
 },{
-id: 8653,
+id: 7248,
 title: "Dati di Base",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000020/BR/_sidebar.md"
 },{
-id: 8654,
+id: 7249,
 title: "Configuratore",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000020/CF/_sidebar.md"
 },{
-id: 8655,
+id: 7250,
 title: "Modifiche Tecniche",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000020/MT/_sidebar.md"
 },{
-id: 8656,
+id: 7251,
 title: "Amministrazione Finanza Controllo",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000030/_sidebar.md"
 },{
-id: 8657,
+id: 7252,
 title: "Cespiti",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000030/A5/_sidebar.md"
 },{
-id: 8658,
+id: 7253,
 title: "Contabilità Generale",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000030/C5/_sidebar.md"
 },{
-id: 8659,
+id: 7254,
 title: "Costi Avanzati",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000030/D0/_sidebar.md"
 },{
-id: 8660,
+id: 7255,
 title: "Contabilità Industriale",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000030/D5/_sidebar.md"
 },{
-id: 8661,
+id: 7256,
 title: "Vendite",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000040/_sidebar.md"
 },{
-id: 8662,
+id: 7257,
 title: "CRM Relazioni Cliente",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000040/RE/_sidebar.md"
 },{
-id: 8663,
+id: 7258,
 title: "Vendite",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000040/V6/_sidebar.md"
 },{
-id: 8664,
+id: 7259,
 title: "Pianificazione",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000050/_sidebar.md"
 },{
-id: 8665,
+id: 7260,
 title: "Analisi Mat. Per Commesse",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000050/JM/_sidebar.md"
 },{
-id: 8666,
+id: 7261,
 title: "MRP Pianific. Materiali",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000050/M5/_sidebar.md"
 },{
-id: 8667,
+id: 7262,
 title: "MPS Piano Princ. Produzione",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000050/MP/_sidebar.md"
 },{
-id: 8668,
+id: 7263,
 title: "Produzione",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000060/_sidebar.md"
 },{
-id: 8669,
+id: 7264,
 title: "Produzione",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000060/P5/_sidebar.md"
 },{
-id: 8670,
+id: 7265,
 title: "Schedulaz. Capacità Finita",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000060/S5/_sidebar.md"
 },{
-id: 8671,
+id: 7266,
 title: "Acquisti",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000070/_sidebar.md"
 },{
-id: 8672,
+id: 7267,
 title: "Post Acquisto",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000070/G9/_sidebar.md"
 },{
-id: 8673,
+id: 7268,
 title: "Richieste Di Acquisto",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000070/V4/_sidebar.md"
 },{
-id: 8674,
+id: 7269,
 title: "Acquisti",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000070/V5/_sidebar.md"
 },{
-id: 8675,
+id: 7270,
 title: "Logistica",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000080/_sidebar.md"
 },{
-id: 8676,
+id: 7271,
 title: "Magazzino",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000080/GM/_sidebar.md"
 },{
-id: 8677,
+id: 7272,
 title: "Qualita Manutenzione",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000090/_sidebar.md"
 },{
-id: 8678,
+id: 7273,
 title: "Qualità",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000090/CQ/_sidebar.md"
 },{
-id: 8679,
+id: 7274,
 title: "Manutenzioni",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000090/MM/_sidebar.md"
 },{
-id: 8680,
+id: 7275,
 title: "Open-Integration",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000100/_sidebar.md"
 },{
-id: 8681,
+id: 7276,
 title: "EDI Elett.Data Interchange",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000100/ED/_sidebar.md"
 },{
-id: 8682,
+id: 7277,
 title: "Negoziando",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000100/NG/_sidebar.md"
 },{
-id: 8683,
+id: 7278,
 title: "Documentale",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000100/OD/_sidebar.md"
 },{
-id: 8684,
+id: 7279,
 title: "Gestione Dati di Campo",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000100/PH/_sidebar.md"
 },{
-id: 8685,
+id: 7280,
 title: "Integrazione CMS",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000100/WS/_sidebar.md"
 },{
-id: 8686,
+id: 7281,
 title: "WebApplication",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000110/_sidebar.md"
 },{
-id: 8687,
+id: 7282,
 title: "Componenti Web",
 cat: "Indice NWS",
 href: "DocumentazioneSmeUP/NWS/News/000110/WE/_sidebar.md"
-},{
-id: 8688,
-href: "DocumentazioneSmeUP/NWS/NTI/_sidebar.md"
-},{
-id: 8689,
-title: "Architettura e Servizi di Base",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/_sidebar.md"
-},{
-id: 8690,
-title: "Funzioni Tecniche",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/A£/_sidebar.md"
-},{
-id: 8691,
-title: "Funzioni Base",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/B£/_sidebar.md"
-},{
-id: 8692,
-title: "Dati di Classificazione",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/C£/_sidebar.md"
-},{
-id: 8693,
-title: "Business Intelligence",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/D9/_sidebar.md"
-},{
-id: 8694,
-title: "Client-Server service",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/JA/_sidebar.md"
-},{
-id: 8695,
-title: "Funzioni Ambiente Grafico",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/LO/_sidebar.md"
-},{
-id: 8696,
-title: "Funzioni di Network",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/NS/_sidebar.md"
-},{
-id: 8697,
-title: "Workflow",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000010/WF/_sidebar.md"
-},{
-id: 8698,
-title: "Gestione Anagrafici",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000020/_sidebar.md"
-},{
-id: 8699,
-title: "Dati di Base",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000020/BR/_sidebar.md"
-},{
-id: 8700,
-title: "Configuratore",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000020/CF/_sidebar.md"
-},{
-id: 8701,
-title: "Modifiche Tecniche",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000020/MT/_sidebar.md"
-},{
-id: 8702,
-title: "Amministrazione Finanza Controllo",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000030/_sidebar.md"
-},{
-id: 8703,
-title: "Cespiti",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000030/A5/_sidebar.md"
-},{
-id: 8704,
-title: "Contabilità Generale",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000030/C5/_sidebar.md"
-},{
-id: 8705,
-title: "Costi Avanzati",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000030/D0/_sidebar.md"
-},{
-id: 8706,
-title: "Contabilità Industriale",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000030/D5/_sidebar.md"
-},{
-id: 8707,
-title: "Vendite",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000040/_sidebar.md"
-},{
-id: 8708,
-title: "CRM Relazioni Cliente",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000040/RE/_sidebar.md"
-},{
-id: 8709,
-title: "Vendite",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000040/V6/_sidebar.md"
-},{
-id: 8710,
-title: "Pianificazione",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000050/_sidebar.md"
-},{
-id: 8711,
-title: "Analisi Mat. Per Commesse",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000050/JM/_sidebar.md"
-},{
-id: 8712,
-title: "MRP Pianific. Materiali",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000050/M5/_sidebar.md"
-},{
-id: 8713,
-title: "MPS Piano Princ. Produzione",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000050/MP/_sidebar.md"
-},{
-id: 8714,
-title: "Produzione",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000060/_sidebar.md"
-},{
-id: 8715,
-title: "Produzione",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000060/P5/_sidebar.md"
-},{
-id: 8716,
-title: "Schedulaz. Capacità Finita",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000060/S5/_sidebar.md"
-},{
-id: 8717,
-title: "Acquisti",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000070/_sidebar.md"
-},{
-id: 8718,
-title: "Post Acquisto",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000070/G9/_sidebar.md"
-},{
-id: 8719,
-title: "Richieste Di Acquisto",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000070/V4/_sidebar.md"
-},{
-id: 8720,
-title: "Acquisti",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000070/V5/_sidebar.md"
-},{
-id: 8721,
-title: "Logistica",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000080/_sidebar.md"
-},{
-id: 8722,
-title: "Magazzino",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000080/GM/_sidebar.md"
-},{
-id: 8723,
-title: "Qualita Manutenzione",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000090/_sidebar.md"
-},{
-id: 8724,
-title: "Qualità",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000090/CQ/_sidebar.md"
-},{
-id: 8725,
-title: "Manutenzioni",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000090/MM/_sidebar.md"
-},{
-id: 8726,
-title: "Open-Integration",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000100/_sidebar.md"
-},{
-id: 8727,
-title: "EDI Elett.Data Interchange",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000100/ED/_sidebar.md"
-},{
-id: 8728,
-title: "Negoziando",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000100/NG/_sidebar.md"
-},{
-id: 8729,
-title: "Documentale",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000100/OD/_sidebar.md"
-},{
-id: 8730,
-title: "Gestione Dati di Campo",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000100/PH/_sidebar.md"
-},{
-id: 8731,
-title: "Integrazione CMS",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000100/WS/_sidebar.md"
-},{
-id: 8732,
-title: "WebApplication",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000110/_sidebar.md"
-},{
-id: 8733,
-title: "Componenti Web",
-cat: "Indice NTI",
-href: "DocumentazioneSmeUP/NWS/NTI/000110/WE/_sidebar.md"
 },];
