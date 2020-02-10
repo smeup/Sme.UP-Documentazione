@@ -1,3 +1,3 @@
-- [Descrizioni estese](Sorgenti/OJ/PGM/C£LIN0G)
-- [Stampa descrizioni estese](Sorgenti/OJ/PGM/C£LIN0S)
-- [Descrizioni estese in lingua C£8](Sorgenti/OJ/PGM/TSTC£8)
+- [Descrizioni estese](Sorgenti/DOC/OJ/PGM/C£LIN0G)
+- [Stampa descrizioni estese](Sorgenti/DOC/OJ/PGM/C£LIN0S)
+- [Descrizioni estese in lingua C£8](Sorgenti/DOC/OJ/PGM/TSTC£8)

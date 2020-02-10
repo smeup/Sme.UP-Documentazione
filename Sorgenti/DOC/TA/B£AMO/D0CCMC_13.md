@@ -131,7 +131,7 @@ _7_Documentazione in fase di sviluppo
 
 ### Impostazioni di Estrazione - Contesto OR (Ordine Prodiuzione)
 ![D0CCMC_21D](http://doc.smeup.com/immagini/D0CCMC_13/D0CCMC_21D.png)
-- [Calcolo costo di un oggetto](Sorgenti/OJ/PGM/D0CO01B)
+- [Calcolo costo di un oggetto](Sorgenti/DOC/OJ/PGM/D0CO01B)
 
 _7_Documentazione in fase di sviluppo
 

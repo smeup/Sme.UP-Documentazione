@@ -29,8 +29,6 @@ def creaCartelle():
         os.mkdir('DocumentazioneSmeUP/DOC/DOC_OGG')
     if not os.path.exists('DocumentazioneSmeUP/NWS/News'):
         os.mkdir('DocumentazioneSmeUP/NWS/News')
-    if not os.path.exists('DocumentazioneSmeUP/NWS/NTI'):
-        os.mkdir('DocumentazioneSmeUP/NWS/NTI')
 
     # Terzo livello di navigazione
     if not os.path.exists('DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni'):
@@ -47,8 +45,8 @@ def creaCartelle():
         os.mkdir('DocumentazioneSmeUP/DOC/DOC_OGG/File')
     if not os.path.exists('DocumentazioneSmeUP/DOC/DOC_OGG/Costruttori'):
         os.mkdir('DocumentazioneSmeUP/DOC/DOC_OGG/Costruttori')
-    if not os.path.exists('DocumentazioneSmeUP/DOC/DOC_OGG/Classi'):
-        os.mkdir('DocumentazioneSmeUP/DOC/DOC_OGG/Classi')
+    if not os.path.exists('DocumentazioneSmeUP/DOC/DOC_OGG/Classes'):
+        os.mkdir('DocumentazioneSmeUP/DOC/DOC_OGG/Classes')
     if not os.path.exists('DocumentazioneSmeUP/DOC/DOC_OGG/Programmi'):
         os.mkdir('DocumentazioneSmeUP/DOC/DOC_OGG/Programmi')
     if not os.path.exists('DocumentazioneSmeUP/DOC/DOC_OGG/Tabelle'):
@@ -74,8 +72,6 @@ def creaCartelle():
                     os.mkdir('DocumentazioneSmeUP/DOC/DOC_SER/' + dirName)
                 if not os.path.exists('DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/' + dirName):
                     os.mkdir('DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/' + dirName)
-                if not os.path.exists('DocumentazioneSmeUP/NWS/NTI/' + dirName):
-                    os.mkdir('DocumentazioneSmeUP/NWS/NTI/' + dirName)
                 if not os.path.exists('DocumentazioneSmeUP/NWS/News/' + dirName):
                     os.mkdir('DocumentazioneSmeUP/NWS/News/' + dirName)
                 if not os.path.exists('DocumentazioneSmeUP/FAQ/' + dirName):
@@ -97,9 +93,6 @@ def creaCartelle():
                     if not os.path.exists(pathApplicazione):
                         os.mkdir(pathApplicazione)
                     pathApplicazione = 'DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/' + codice + '/' + dirName
-                    if not os.path.exists(pathApplicazione):
-                        os.mkdir(pathApplicazione)
-                    pathApplicazione = 'DocumentazioneSmeUP/NWS/NTI/' + codice + '/' + dirName
                     if not os.path.exists(pathApplicazione):
                         os.mkdir(pathApplicazione)
                     pathApplicazione = 'DocumentazioneSmeUP/NWS/News/' + codice + '/' + dirName

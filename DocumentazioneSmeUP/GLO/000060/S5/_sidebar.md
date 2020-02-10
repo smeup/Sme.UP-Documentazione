@@ -1,2 +1,2 @@
 # Schedulaz. Capacità Finita
-- [Glossario Fine.up](Sorgenti/GLO/S5IRIS_GLO.md)
+- [Glossario Fine.up](Sorgenti/GLO/TA/B£AMO/S5IRIS.md)

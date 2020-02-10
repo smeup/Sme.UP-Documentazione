@@ -16,16 +16,16 @@ Le ipotesi >Logiche sviluppate in questo calcolo si possono sintetizzare nei seg
 - [Logiche di Calcolo](Sorgenti/DOC/TA/B£AMO/D0CCMC_14A)
 
 ## Costo Medio - Impostazioni
-- [Impostazione Costo Medio Articolo](Sorgenti/OJ/PGM/D0CO10A)
+- [Impostazione Costo Medio Articolo](Sorgenti/DOC/OJ/PGM/D0CO10A)
 
 ## Costo Medio - Controllo dei risultati
 _7_Documentazione in fase di sviluppo
 
 ### Costo Medio - Errori
-- [Analisi errori](Sorgenti/OJ/PGM/D0CO03A)
+- [Analisi errori](Sorgenti/DOC/OJ/PGM/D0CO03A)
 
 ### Costo Medio - Documentazione
-- [Documentazione del calcolo costo](Sorgenti/OJ/PGM/D0CO02A)
+- [Documentazione del calcolo costo](Sorgenti/DOC/OJ/PGM/D0CO02A)
 
 
 

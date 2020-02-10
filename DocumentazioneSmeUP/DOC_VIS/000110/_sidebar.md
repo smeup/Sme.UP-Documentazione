@@ -1,2 +1,2 @@
 # WebApplication
-- [Componenti Web](Sorgenti/TA/B£A/WE.md)
+- [Componenti Web](Sorgenti/DOC_VIS/TA/B£A/WE.md)

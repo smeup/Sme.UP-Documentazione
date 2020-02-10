@@ -1,2 +1,2 @@
 # Documentale
-- [Google Drive Integration](Sorgenti/FAQ/OD_098_FAQ.md)
+- [Google Drive Integration](Sorgenti/FAQ/TA/B£AMO/OD_098.md)

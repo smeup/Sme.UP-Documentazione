@@ -1,2 +1,2 @@
 # Logistica
-- [Magazzino](Sorgenti/TA/B£A/GM.md)
+- [Magazzino](Sorgenti/DOC_VIS/TA/B£A/GM.md)

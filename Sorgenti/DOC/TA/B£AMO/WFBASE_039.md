@@ -40,8 +40,8 @@ Servono :
  \* La configurazione degli elementi di tabella WFP con opportuni tipi notifica (SE.SUB.A60).
 
 ## Tabelle da impostare
-- [Impostazioni generali workflow](Sorgenti/OG/TA/WF1)
-- [Tipo Promemoria](Sorgenti/OG/TA/WFP)
+- [Impostazioni generali workflow](Sorgenti/DOC/OG/TA/WF1)
+- [Tipo Promemoria](Sorgenti/DOC/OG/TA/WFP)
 L'oggetto **F3** promemoria ha come codice un contatore definito nell'elemento **OG.F3** della tabella **CRNWF**.
 
 ## Schedulazione del Job di scansione dei promemoria

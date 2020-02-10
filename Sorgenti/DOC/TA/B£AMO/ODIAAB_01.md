@@ -15,5 +15,5 @@ Il modulo si occupa di interfacciarsi
 
 
 Vedi anche
-- [Archiviazione](Sorgenti/V2/LOCOS/V2LOCOSA26)
-- [Server Archibox](Sorgenti/OG/V3/CSE_09)
+- [Archiviazione](Sorgenti/DOC/V2/LOCOS/V2LOCOSA26)
+- [Server Archibox](Sorgenti/DOC/OG/V3/CSE_09)

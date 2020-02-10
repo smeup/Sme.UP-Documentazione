@@ -44,7 +44,7 @@ La £K89 sopracitata è la /COPY che ora include tutte le logiche di controllo e
 Quando viene invece applicata la struttura "storica", è necessario analizzare le specificità di ogni oggetto, partendo da quanto viene svolto dal pgm deviatore previsto dal pgm B£GES0.
 
  :  : DEC T(V2) P(LOCOS) K(A36)
-- [£K89](Sorgenti/OJ/PGM/TSTK89)
+- [£K89](Sorgenti/DOC/OJ/PGM/TSTK89)
 - [Configuratore di Setup A36](Sorgenti/MB/DOC_VOC/L_EDT_A36)
 - [Configuratore di Setup LAY](Sorgenti/MB/DOC_VOC/L_EDT_LAY)
  :  : DEC T(MB) P(SCP_SET) K(B£GES0)
@@ -68,5 +68,5 @@ Si descrive ora come è possibile integrare/modificare la struttura prevista dal
 ## SVILUPPARE LA GESTIONE DI UN OGGETTO UFO
 Per lo sviluppo della gestione di un oggetto UFO si rimanda alla documentazione di ciò che è necessario fare quando si crea un nuovo oggetto.
 
-- [Creare un nuovo oggetto](Sorgenti/OG/OG/OG_N)
+- [Creare un nuovo oggetto](Sorgenti/DOC/OG/OG/OG_N)
 

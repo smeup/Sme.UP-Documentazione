@@ -1,5 +1,5 @@
 ## Visione Buil.up
-- [Visione Buil.up](Sorgenti/TA/B£A/CF_001)
+- [Visione Buil.up](Sorgenti/DOC_VIS/TA/B£A/CF_001)
 
 ## DOCUMENTAZIONE SPECIFICA PER MODULO
  :  : DEC T(MB) P(DOC) K([TA.B£AMO.CF.CF9999]) I(_7_Modulo di BUIL.up    >>)

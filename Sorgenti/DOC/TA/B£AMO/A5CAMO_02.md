@@ -42,5 +42,5 @@ Uno dei punti chiariti nella circolare dell'Agenzia delle Entrate n. 7/E del 4 a
 ## Funzioni SmeUP
  :  : INI - Calcolo Superammortamenti
  :  : CMD CALL A5UT19A
-- [Superammortamento](Sorgenti/OJ/PGM/A5UT19)
+- [Superammortamento](Sorgenti/DOC/OJ/PGM/A5UT19)
  :  : FIN

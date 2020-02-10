@@ -1,4 +1,4 @@
 - [Generalità](Sorgenti/DOC_OPE/TA/B£AMO/M5_OPE001)
-- [Gestione Risalite](Sorgenti/OJ/PGM/B£GRI2)
-- [Parametri di pianificazione](Sorgenti/OJ/PGM/M5ARTP)
+- [Gestione Risalite](Sorgenti/DOC/OJ/PGM/B£GRI2)
+- [Parametri di pianificazione](Sorgenti/DOC/OJ/PGM/M5ARTP)
 - [Gruppi fonte](Sorgenti/DOC_OPE/TA/B£AMO/M5_OPE003)

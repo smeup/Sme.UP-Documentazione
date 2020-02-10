@@ -5,4 +5,4 @@
 - [Tasti funzionali e Comandi rapidi](Sorgenti/DOC_OPE/TA/B£AMO/LOCTRE_05)
 - [Visualizzazioni alternative](Sorgenti/DOC_OPE/TA/B£AMO/LOCTRE_06)
 - [Setup Utente](Sorgenti/DOC_OPE/TA/B£AMO/LOCTRE_07)
-- [Scheda Selezione Tag Wizard](Sorgenti/MB/SCP_SCH/LOCTRE_S)
+- [Scheda Selezione Tag Wizard](Sorgenti/DOC_OPE/MB/SCP_SCH/LOCTRE_S)

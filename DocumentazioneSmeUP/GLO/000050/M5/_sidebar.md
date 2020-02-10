@@ -1,2 +1,2 @@
 # MRP Pianific. Materiali
-- [Glossario M5](Sorgenti/GLO/M5BASE_GLO.md)
+- [Glossario M5](Sorgenti/GLO/TA/B£AMO/M5BASE.md)

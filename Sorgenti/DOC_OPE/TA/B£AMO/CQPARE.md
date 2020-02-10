@@ -1,2 +1,2 @@
-- [Consultazione non conformità](Sorgenti/OJ/PGM/CQNS10)
-- [Analisi LQ su non conformità](Sorgenti/OJ/PGM/CQNS20)
+- [Consultazione non conformità](Sorgenti/DOC/OJ/PGM/CQNS10)
+- [Analisi LQ su non conformità](Sorgenti/DOC/OJ/PGM/CQNS20)

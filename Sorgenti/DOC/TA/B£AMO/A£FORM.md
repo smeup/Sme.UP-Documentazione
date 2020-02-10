@@ -1,10 +1,10 @@
 ## Formazione Sme.UP di base
 - [Video](Sorgenti/DOC/TA/B£AMO/A£FORM_01)
 - [Training](Sorgenti/DOC/TA/B£AMO/A£FORM_02)
-- [Sme.UP Visione ontologica](Sorgenti/TA/B£A/AAVON)
+- [Sme.UP Visione ontologica](Sorgenti/DOC_VIS/TA/B£A/AAVON)
 - [Architettura Sme.up](Sorgenti/DOC/TA/B£AMO/B£OGAT_ARC)
 - [Struttura a oggetti](Sorgenti/DOC/TA/B£AMO/B£OGAT_STR)
-- [Sme.UP Visione applicativa](Sorgenti/TA/B£A/AAVAP)
+- [Sme.UP Visione applicativa](Sorgenti/DOC_VIS/TA/B£A/AAVAP)
 - [Tabelle parametriche](Sorgenti/DOC/TA/B£AMO/B£TABE)
 - [Tabelle](Sorgenti/DOC_OPE/TA/B£AMO/B£TABE)
 - [Parametri](Sorgenti/DOC/TA/B£AMO/C£PARA)

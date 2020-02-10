@@ -1,6 +1,5 @@
 # Funzioni Ambiente Grafico
 - [Documentazione applicazione](Sorgenti/DOC/TA/B£AMO/LOBASE.md)
-- [Analisi di tempo](Sorgenti/DOC/TA/B£AMO/LOCA02.md)
 - [Raccoglitore di funzioni](Sorgenti/DOC/TA/B£AMO/LOCA07.md)
 - [Accordion](Sorgenti/DOC/TA/B£AMO/LOCACC.md)
 - [Azioni virtuali](Sorgenti/DOC/TA/B£AMO/LOCACT.md)

@@ -25,7 +25,7 @@ Inoltre per la classe OGG.MAS su qualsiasi oggetto viene testata anche la classe
 Se l'utente ha un livello operativo inferiore le autorizzazioni vengono forzate al minimo.
 
 Per dettagli tecnici sul funzionamento si rimanda alla documentazione dell'api £AUO.
-- [TST Copy autorizazioni](Sorgenti/OJ/PGM/TSTAUO)
+- [TST Copy autorizazioni](Sorgenti/DOC/OJ/PGM/TSTAUO)
 
 ## Casi particolari
 ### Applicazioni e Moduli

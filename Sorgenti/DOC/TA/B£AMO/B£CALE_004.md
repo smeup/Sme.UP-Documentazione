@@ -25,6 +25,6 @@ Nella tabella BSC il campo origine deve essere = 3
 
 Riferirsi alla documentazione delle singole tabelle per informazioni più approfondite
 
-- [TRG - Tipo risorsa gestita](Sorgenti/OG/TA/TRG)
-- [BRK - Tipo risorse secondarie](Sorgenti/OG/TA/BRK)
-- [BSC - Modo reperimento calendario](Sorgenti/OG/TA/BSC)
+- [TRG - Tipo risorsa gestita](Sorgenti/DOC/OG/TA/TRG)
+- [BRK - Tipo risorse secondarie](Sorgenti/DOC/OG/TA/BRK)
+- [BSC - Modo reperimento calendario](Sorgenti/DOC/OG/TA/BSC)

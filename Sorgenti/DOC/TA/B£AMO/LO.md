@@ -1,5 +1,5 @@
 # DOCUMENTAZIONE SPECIFICA PER MODULO
-- [Visione Looc.up](Sorgenti/TA/B£A/LO_001)
+- [Visione Looc.up](Sorgenti/DOC_VIS/TA/B£A/LO_001)
 
 # Dettaglio moduli Server
 - [Documentazione applicazione](Sorgenti/DOC/TA/B£AMO/LOBASE)

@@ -9,4 +9,4 @@
 - [Architettura e componenti](Sorgenti/DOC/TA/B£AMO/WEBASE_02)
 - [Strumenti per sviluppatori](Sorgenti/DOC/TA/B£AMO/WEBASE_03)
 - [Web.UP :  Screenshot ed esempi](Sorgenti/DOC/TA/B£AMO/WEBASE_04)
-- [Visione Web.up](Sorgenti/TA/B£A/WE_001)
+- [Visione Web.up](Sorgenti/DOC_VIS/TA/B£A/WE_001)

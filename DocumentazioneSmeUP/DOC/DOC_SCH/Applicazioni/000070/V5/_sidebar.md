@@ -1,2 +1,2 @@
 # Acquisti
-- [Statistiche di fatturazione](Sorgenti/MB/SCP_SCH/V5STAT.md)
+- [Statistiche di fatturazione](Sorgenti/DOC_OPE/MB/SCP_SCH/V5STAT.md)

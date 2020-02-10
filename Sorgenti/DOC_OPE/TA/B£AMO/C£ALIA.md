@@ -1,3 +1,3 @@
-- [Gestione alias](Sorgenti/OJ/PGM/C£AL01)
-- [Stampa Alias](Sorgenti/OJ/PGM/C£AL51A)
-- [Gestione alias fra oggetti](Sorgenti/OJ/PGM/TSTC£A)
+- [Gestione alias](Sorgenti/DOC/OJ/PGM/C£AL01)
+- [Stampa Alias](Sorgenti/DOC/OJ/PGM/C£AL51A)
+- [Gestione alias fra oggetti](Sorgenti/DOC/OJ/PGM/TSTC£A)

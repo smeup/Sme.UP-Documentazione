@@ -143,7 +143,7 @@ Determina le colonne che saranno presentate nella lista
 ![B£_01_06](http://doc.smeup.com/immagini/MBDOC_OPE-B£_PAR/BX_01_06.png)
 ## Memorizzazione dati video
 È possibile impostare dei parametri di filtro più o meno complessi e memorizzarli per poi richiamarli e riutilizzarli successivamente
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
+- [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
 
 ![B£_01_07](http://doc.smeup.com/immagini/MBDOC_OPE-B£_PAR/BX_01_07.png)
 ## Parzializzazioni aggiuntive

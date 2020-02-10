@@ -1,3 +1,3 @@
-- [Richieste d intervento](Sorgenti/OJ/PGM/CQRI10)
-- [Stampa richieste d intervento](Sorgenti/OJ/PGM/CQUS30)
-- [Stampa tabulato richieste](Sorgenti/OJ/PGM/CQUS40)
+- [Richieste d intervento](Sorgenti/DOC/OJ/PGM/CQRI10)
+- [Stampa richieste d intervento](Sorgenti/DOC/OJ/PGM/CQUS30)
+- [Stampa tabulato richieste](Sorgenti/DOC/OJ/PGM/CQUS40)

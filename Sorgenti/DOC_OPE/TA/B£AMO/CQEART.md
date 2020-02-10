@@ -1,3 +1,3 @@
-- [Gestione dati ente articolo](Sorgenti/OJ/PGM/CQVR10)
-- [Stampa dati ente articolo](Sorgenti/OJ/PGM/CQVR20)
-- [Legame fase di collaudo/ente](Sorgenti/OJ/PGM/CQCF40)
+- [Gestione dati ente articolo](Sorgenti/DOC/OJ/PGM/CQVR10)
+- [Stampa dati ente articolo](Sorgenti/DOC/OJ/PGM/CQVR20)
+- [Legame fase di collaudo/ente](Sorgenti/DOC/OJ/PGM/CQCF40)

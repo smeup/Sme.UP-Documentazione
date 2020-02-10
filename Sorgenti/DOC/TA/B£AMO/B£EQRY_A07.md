@@ -1,1 +1,1 @@
-- [Documentazione Classe Q3 - Utilizzo](Sorgenti/OG/OG/Q302)
+- [Documentazione Classe Q3 - Utilizzo](Sorgenti/DOC/OG/OG/Q302)

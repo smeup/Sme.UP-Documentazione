@@ -1,4 +1,4 @@
 # Gestione Dati di Campo
-- [Nuova funzione in £PHA](Sorgenti/NWS/PH_NWS001301.md)
-- [Simulatore dei terminali video TTS](Sorgenti/NWS/PH_NWS001311.md)
-- [Nuovo file PHTRAC0F](Sorgenti/NWS/PH_NWS001454.md)
+- [Nuova funzione in £PHA](Sorgenti/DOC/H6/NWS/PH_001301.md)
+- [Simulatore dei terminali video TTS](Sorgenti/DOC/H6/NWS/PH_001311.md)
+- [Nuovo file PHTRAC0F](Sorgenti/DOC/H6/NWS/PH_001454.md)

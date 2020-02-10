@@ -1,3 +1,3 @@
-- [Gestione Non Conformità x Lotto](Sorgenti/OJ/PGM/CQAM50)
-- [Azioni sulle Non Conformità](Sorgenti/OJ/PGM/CQAM45)
-- [Gestione Non Conformità x Oggetto](Sorgenti/OJ/PGM/CQNC01)
+- [Gestione Non Conformità x Lotto](Sorgenti/DOC/OJ/PGM/CQAM50)
+- [Azioni sulle Non Conformità](Sorgenti/DOC/OJ/PGM/CQAM45)
+- [Gestione Non Conformità x Oggetto](Sorgenti/DOC/OJ/PGM/CQNC01)

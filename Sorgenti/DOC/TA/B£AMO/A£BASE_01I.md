@@ -1,1 +1,1 @@
-- [Creare un nuovo oggetto](Sorgenti/OG/OG/OG_N)
+- [Creare un nuovo oggetto](Sorgenti/DOC/OG/OG/OG_N)

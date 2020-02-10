@@ -32,7 +32,7 @@ Nel primo caso rientrano solo alcune classi particolari per le quali viene previ
 ![B£EQRY_07](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_07.png)![B£EQRY_08](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_08.png)
 Per tutte le altre (e quindi per la stragrande maggioranza delle classi) la funzione di ricerca viene svolta nel medesimo modo. A seguire viene riporta l'operatività della scheda di ricerca generale.
 
-- [Scheda Test Scheda B£EQRY_SEA](Sorgenti/MB/SCP_SCH/B£EQRY_SEA)
+- [Scheda Test Scheda B£EQRY_SEA](Sorgenti/DOC_OPE/MB/SCP_SCH/B£EQRY_SEA)
 
 # Le ricerche speciali storiche
 Per compatibilità con il passato, per alcuni oggetti sono state mantenuti alcuni caratteri di ricerca speciali. Tali caratteri di ricerca iniziano sempre con il carattere "+" e l'elenco di tali combinazioni può essere evidenziando indicando i caratteri "++". Attraverso questi caratteri oltre che poter vedere l'elenco di tutti i caratteri speciali sarà inoltre possibile selezionare una ricerca di default fra di esse. In questo caso scrivendo solo il carattere "+" seguito dai caratteri previsti dalla ricerca specifica, sarà possibile avviare la ricerca specifica selezionata come default.

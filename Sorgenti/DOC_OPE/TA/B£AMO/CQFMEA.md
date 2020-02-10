@@ -1,2 +1,2 @@
-- [Immissione dati](Sorgenti/OJ/PGM/CQFM10)
-- [Gestione dati (Testate)](Sorgenti/OJ/PGM/CQFM20)
+- [Immissione dati](Sorgenti/DOC/OJ/PGM/CQFM10)
+- [Gestione dati (Testate)](Sorgenti/DOC/OJ/PGM/CQFM20)

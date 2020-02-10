@@ -11,7 +11,7 @@ La gestione si struttura essenzialmente in due fasi :
 Per la costruzione dei dati relativi alla registrazione va riempito il file C5BATC0F. Questo è costiuito da alcune chiavi identificative più un campi libero che viene riempito in differenti modi a seconda della valorizzazione del campo W5TREC.
 
 Per il dettaglio sulla struttura del file si rimanda alla relativa documentazione del file.
-- [C5BATC0F File immissione BATCH](Sorgenti/OJ/FILE/C5BATC0F)
+- [C5BATC0F File immissione BATCH](Sorgenti/DOC/OJ/FILE/C5BATC0F)
 
 La scrittura del file, può essere semplificata tramite l'utilizzo di alcune /COPY : 
 

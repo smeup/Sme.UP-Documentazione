@@ -1,2 +1,2 @@
 # EDI Elett.Data Interchange
-- [Seeburger interface](Sorgenti/GLO/EDINSE_GLO.md)
+- [Seeburger interface](Sorgenti/GLO/TA/B£AMO/EDINSE.md)

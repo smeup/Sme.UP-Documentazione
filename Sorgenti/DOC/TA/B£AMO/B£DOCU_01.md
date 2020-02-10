@@ -1,6 +1,6 @@
 ## Guida alla comprensione di Smeup
 Per la comprensione di smeup  il lettore deve studiare i seguenti documenti : 
-- [Sme.UP Web Application](Sorgenti/TA/B£A/AA)
+- [Sme.UP Web Application](Sorgenti/DOC_VIS/TA/B£A/AA)
 
 
 

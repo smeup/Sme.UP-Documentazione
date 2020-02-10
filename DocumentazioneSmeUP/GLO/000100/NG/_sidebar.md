@@ -1,2 +1,2 @@
 # Negoziando
-- [Glossario Negoziando](Sorgenti/GLO/NGBASE_GLO.md)
+- [Glossario Negoziando](Sorgenti/GLO/TA/B£AMO/NGBASE.md)

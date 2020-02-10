@@ -1,6 +1,6 @@
 # Introduzione
 In realtà multiplant, specialmente se attivato l'MRP multiplant (sia in modalità singola sia in modalità completa) in tabella M51
-- [Modalità pianifi.multimagazzino](Sorgenti/OG/V2/M5TPM)
+- [Modalità pianifi.multimagazzino](Sorgenti/DOC/OG/V2/M5TPM)
 risulta utlie definire il legame tra ente e articolo, e la priorità di un ente, di norma impostata nell'archivio
  :  : DEC T(OJ) P(\*FILE) K(BRARES0F)
 a livello di singolo plant, in quanto, specie nel caso di plant molto distanti tra di loro, l'assegnazione dell'ente preferenziale di articoli comuni può diversificarsi (il fornitore di viti in Lombardia è verosimile che non sia lo stesso di quello in Polonia).

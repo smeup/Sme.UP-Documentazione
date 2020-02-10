@@ -5,7 +5,7 @@ In emulazione questo coincide con il tasto funzionale ESC, mentre in loocup alla
 # DEFINIZIONE DELLE AZIONI UTENTE
 E' previsto un elenco di default di tali, ma esso è sovrascrivibile tramite l'inserimento   degli elementi della tabella B§1 con la seguente struttura. Sul utilizzo si veda la   documentazione della tabella B§1, voce "Configurazione azioni utente".
 
-- [B§1 - Gestione ambienti per utente](Sorgenti/OG/TA/B§1)
+- [B§1 - Gestione ambienti per utente](Sorgenti/DOC/OG/TA/B§1)
 
 # ELENCO AZIONI STANDARD
 Le azioni standard previste come default (riportabili nella B§1) sono le seguenti : 

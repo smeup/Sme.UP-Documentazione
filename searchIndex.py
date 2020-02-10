@@ -103,11 +103,12 @@ with open(dataFile, "w",  encoding='utf8') as f:
                 f.write('title: \'' + titolo + '\',\n')
                 f.write('cat: "DOC_APP",\n')
                 #f.write('voci: "",\n')
-            elif 'DOC_OPE' in dirname:
+            elif 'DOC_OPE\\TA' in dirname:
                 f.write('title: "' + nomiDOC_OPE[nomefile] + '",\n')
                 f.write('cat: "DOC_OPE",\n')
                 #f.write('voci: "",\n')
             elif 'FAQ' in dirname:
+                nomefile = nomefile + '_FAQ'
                 f.write('title: "' + nomiFAQ[nomefile] + '",\n')
                 f.write('cat: "FAQ",\n')
                 #f.write('voci: "",\n')
@@ -119,6 +120,7 @@ with open(dataFile, "w",  encoding='utf8') as f:
                             txtGLO = line.rsplit('Txt="')[1]
                             txtGLO = txtGLO.rsplit('"')[0]
                             voci.append(txtGLO)
+                nomefile = nomefile + '_GLO'
                 f.write('title: "' + nomiGLO[nomefile] + '",\n')
                 f.write('cat: "GLO",\n')
                 f.write('voci: "')
@@ -136,6 +138,7 @@ with open(dataFile, "w",  encoding='utf8') as f:
                         if 'Num="' in line:
                             num = line.rsplit('Num="')[1]
                             num = num.rsplit('"')[0]
+                nomefile = nomefile.replace('_', '_NWS')
                 f.write('title: "' + nomiDOC_NWS[nomefile] + '",\n')
                 f.write('cat: "NWS",\n')
                 f.write('rel: "' + rel + '",\n')

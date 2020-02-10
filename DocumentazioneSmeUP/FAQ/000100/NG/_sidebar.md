@@ -1,2 +1,2 @@
 # Negoziando
-- [F.A.Q. Base Negoziando](Sorgenti/FAQ/NGBASE_FAQ.md)
+- [F.A.Q. Base Negoziando](Sorgenti/FAQ/TA/B£AMO/NGBASE.md)

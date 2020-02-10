@@ -1,1 +1,0 @@
-- [Scheda Utente](Sorgenti/MB/SCP_SCH/OJ_USRPRF)

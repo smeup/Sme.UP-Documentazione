@@ -1,2 +1,2 @@
 # Workflow
-- [Glossario Work.UP](Sorgenti/GLO/WFBASE_GLO.md)
+- [Glossario Work.UP](Sorgenti/GLO/TA/B£AMO/WFBASE.md)

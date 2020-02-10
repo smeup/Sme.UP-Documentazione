@@ -1,3 +1,3 @@
-- [Parametri di esecuzione](Sorgenti/OJ/PGM/B£GPE2)
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
-- [Gestione archivi](Sorgenti/OJ/PGM/B£RF01)
+- [Parametri di esecuzione](Sorgenti/DOC/OJ/PGM/B£GPE2)
+- [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
+- [Gestione archivi](Sorgenti/DOC/OJ/PGM/B£RF01)

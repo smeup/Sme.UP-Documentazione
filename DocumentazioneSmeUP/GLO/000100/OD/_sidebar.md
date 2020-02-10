@@ -1,2 +1,2 @@
 # Documentale
-- [Glossario Google Drive Integration](Sorgenti/GLO/OD_098_GLO.md)
+- [Glossario Google Drive Integration](Sorgenti/GLO/TA/B£AMO/OD_098.md)

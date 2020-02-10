@@ -13,7 +13,7 @@ Questo documento contiene le informazioni necessarie per creare un nuovo ambient
 
 Alcuni documenti utili : 
 - [Lab. Sviluppo - Nomenclatura librer](Sorgenti/DOC/TA/B£AMO/A£BASE_01E)
-- [Gestione applicazioni utente](Sorgenti/OJ/PGM/B£UT55)
+- [Gestione applicazioni utente](Sorgenti/DOC/OJ/PGM/B£UT55)
 
 
 

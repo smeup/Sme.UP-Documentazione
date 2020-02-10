@@ -1,2 +1,2 @@
 # Componenti Web
-- [Glossario Web.UP](Sorgenti/GLO/WEBASE_GLO.md)
+- [Glossario Web.UP](Sorgenti/GLO/TA/B£AMO/WEBASE.md)

@@ -54,7 +54,7 @@
 
 
 ### VEDI ANCHE
-- [Gestione Spool to STMF](Sorgenti/OJ/PGM/TSTG87)
+- [Gestione Spool to STMF](Sorgenti/DOC/OJ/PGM/TSTG87)
 
 ## STAMPE DOCUMENTI DI TESTO
 ### ASPETTI GENERALI DELLE STAMPE DI TESTO
@@ -132,4 +132,4 @@
 
 ### STAMPE SPOOL
 Stampe H53
-- [Funzione di generazione PDF](Sorgenti/OJ/PGM/TSTH53)
+- [Funzione di generazione PDF](Sorgenti/DOC/OJ/PGM/TSTH53)

@@ -1,2 +1,2 @@
-- [Creazione foto giacenza](Sorgenti/OJ/PGM/GMFO01)
-- [Scheda Foto e Analisi Inventari](Sorgenti/MB/SCP_SCH/GMANIN)
+- [Creazione foto giacenza](Sorgenti/DOC/OJ/PGM/GMFO01)
+- [Scheda Foto e Analisi Inventari](Sorgenti/DOC_OPE/MB/SCP_SCH/GMANIN)

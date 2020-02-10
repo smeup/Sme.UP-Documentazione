@@ -1,7 +1,7 @@
 ## Sviluppare Sme.Up
 
 - [Gestione Dati di Camo](Sorgenti/DOC/TA/B£AMO/PHIIOT_S01)
-- [BASE Dati dal campo](Sorgenti/V2/LOCOS/V2LOCOSA37)
+- [BASE Dati dal campo](Sorgenti/DOC/V2/LOCOS/V2LOCOSA37)
 
 
 

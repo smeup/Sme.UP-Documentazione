@@ -1,2 +1,2 @@
 # Acquisti
-- [Acquisti](Sorgenti/TA/B£A/V5.md)
+- [Acquisti](Sorgenti/DOC_VIS/TA/B£A/V5.md)

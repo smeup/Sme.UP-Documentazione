@@ -22,7 +22,7 @@ I formati di gestione dei programmi di stampa hanno delle leggere differenze tra
 
 ![B£_04_02](http://doc.smeup.com/immagini/MBDOC_OPE-B£_STA/BX_04_02.png)
 Le impostazioni (una volta definite le caratteristiche della stampa utilizzando il formato successivo) possono essere memorizzate con un nome, per essere poi richiamate successivamente.
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
+- [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
 
 # Formato di impostazione caratteristiche di stampa
 Uno dei formati di questo tipo è il seguente : 
@@ -48,14 +48,14 @@ Per ogni campo di ordinamento si può scegliere se ascendente o discendente (>A/
 Si può definire il comportamento al cambio codice (totali, codice, codice e decodifica : > ? per i valori possibili) e se fare saltare alla pagina successiva.
 
 L'ordinamento deve essere memorizzato per poter rientrare nelle impostazioni di stampa.
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
+- [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
 
 ## Parzializzazioni
 Per le parzializzazioni classiche vedere il documento specifico.
 - [Parzializzazioni](Sorgenti/DOC_OPE/TA/B£AMO/B£_PAR)
 
 Le parzializzazioni devono essere memorizzate per poter rientrare nelle impostazioni di stampa.
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
+- [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
 
 ### Parzializzazioni esterne
 Molti programmi di stampa prevedono anche parzializzazioni ulteriori, dette parzializzazioni esterne, per utilizzare le quali devono essere stati customizzati gli scenari adatti (attività EDP).
@@ -69,7 +69,7 @@ Dopo aver selezionato lo scenario, aprire il formato di filtro usando il caratte
 - [Schemi di visualizzazione e stampa](Sorgenti/DOC_OPE/TA/B£AMO/B£_SCH)
 
 Gli schemi devono essere memorizzati per poter rientrare nelle impostazioni di stampa.
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
+- [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
 
 ### Periodicità
 Alcuni programmi di stampa, se hanno gli schemi valori, prevedono anche la periodicità :  una stampa normale presenta, ad esempio, le quantità di articoli ordinate su varie righe (una per ogni riga ordine).
@@ -102,7 +102,7 @@ Sarà necessario impostare :
 
 
 Formattazione valori e periodicità devono essere memorizzate per poter rientrare nelle impostazioni di stampa.
-- [Gestione Dati Scelte Video](Sorgenti/OJ/PGM/B£MDV0)
+- [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
 
 # Formato impostazione parametri esecuzione
-- [Parametri di esecuzione](Sorgenti/OJ/PGM/B£GPE2)
+- [Parametri di esecuzione](Sorgenti/DOC/OJ/PGM/B£GPE2)

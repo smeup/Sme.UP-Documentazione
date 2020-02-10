@@ -80,4 +80,4 @@ Nella tabella B§K si può decidere di aggiungere/togliere delle cose dalla sche
 
 ##  Documentazione Tecnica
 la documentazione tecnica dell'Hypermenu è quella del costruttore LOA12, ossia l'oggetto V2 LOCOS A12
-- [Doc.tecnica LOA12](Sorgenti/V2/LOCOS/V2LOCOSA12)
+- [Doc.tecnica LOA12](Sorgenti/DOC/V2/LOCOS/V2LOCOSA12)

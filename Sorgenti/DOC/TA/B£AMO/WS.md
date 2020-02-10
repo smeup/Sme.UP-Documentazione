@@ -7,4 +7,4 @@
 # DOCUMENTAZIONE PARTICOLARE
 - [Installazione e configurazione](Sorgenti/DOC/TA/B£AMO/WEBASE_01)
 - [Architettura e componenti](Sorgenti/DOC/TA/B£AMO/WEBASE_02)
-- [Visione Web.up](Sorgenti/TA/B£A/WE_001)
+- [Visione Web.up](Sorgenti/DOC_VIS/TA/B£A/WE_001)

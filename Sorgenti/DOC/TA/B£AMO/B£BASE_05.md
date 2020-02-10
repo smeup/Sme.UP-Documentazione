@@ -82,7 +82,7 @@ Help JATRE_06C :
  \*\* può essere chiamato per lanciare direttamente azioni "importanti" (es. chiamata funizzata sulla modifica di un oggetto). Questa sostituisce le chiamate ai deviatori specifici di gestione oggetto, ad esempio nelle G18.
 
 Help £G99 : 
-- [Azioni su oggetti](Sorgenti/OJ/PGM/TSTG99)
+- [Azioni su oggetti](Sorgenti/DOC/OJ/PGM/TSTG99)
 
 ## Attivazione in 5250 delle nuove azioni
 La nuova gestione azioni in emulazione si attiva dalla tabella B£2, nel campo "Nuova gest.azioni". Scelte possibili : 

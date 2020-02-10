@@ -1,2 +1,2 @@
 # Contabilità Industriale
-- [Scheda Valorizzazione WIP](Sorgenti/MB/SCP_SCH/D5VWIP.md)
+- [Scheda Valorizzazione WIP](Sorgenti/DOC_OPE/MB/SCP_SCH/D5VWIP.md)

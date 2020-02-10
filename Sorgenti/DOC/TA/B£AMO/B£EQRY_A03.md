@@ -29,7 +29,7 @@ A standard vengono già previsti una serie di schemi per ogni classe oggetto sme
 
 Di seguito viene riportata la documentazione di definizione degli schemi (oggetto Q2).
 
-- [Documentazione Classe Q2 - Schema - Definizione](Sorgenti/OG/OG/Q201)
+- [Documentazione Classe Q2 - Schema - Definizione](Sorgenti/DOC/OG/OG/Q201)
 
 # Modificare il setup dello schema
 Per quel che riguarda le funzionalità di setup, si rimanda alla documentazione operativa della matrice. In essa vengono esposte tutte le funzionalità grafiche disponibili per l'utente.

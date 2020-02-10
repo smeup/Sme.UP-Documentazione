@@ -1,2 +1,2 @@
 # Magazzino
-- [Glossario GMBASE](Sorgenti/GLO/GMBASE_GLO.md)
+- [Glossario GMBASE](Sorgenti/GLO/TA/B£AMO/GMBASE.md)

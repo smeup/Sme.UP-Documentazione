@@ -1,2 +1,2 @@
-- [Scheda Directory Remota](Sorgenti/MB/SCP_SCH/J8)
-- [Scheda File Remoto](Sorgenti/MB/SCP_SCH/J9)
+- [Scheda Directory Remota](Sorgenti/DOC_OPE/MB/SCP_SCH/J8)
+- [Scheda File Remoto](Sorgenti/DOC_OPE/MB/SCP_SCH/J9)

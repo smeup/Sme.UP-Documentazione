@@ -1,3 +1,3 @@
 # DOCUMENTAZIONE SPECIFICA PER MODULO
-- [Visione Jmrp](Sorgenti/TA/B£A/JM_001)
+- [Visione Jmrp](Sorgenti/DOC_VIS/TA/B£A/JM_001)
 

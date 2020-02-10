@@ -1,1 +1,1 @@
-- [Documentazione Classe Q1 - Query - Nuove Query](Sorgenti/OG/OG/Q102)
+- [Documentazione Classe Q1 - Query - Nuove Query](Sorgenti/DOC/OG/OG/Q102)

@@ -1,1 +1,1 @@
-- [Documentazione Classe Q2 - Schema - Utilizzo](Sorgenti/OG/OG/Q202)
+- [Documentazione Classe Q2 - Schema - Utilizzo](Sorgenti/DOC/OG/OG/Q202)

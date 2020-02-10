@@ -1,2 +1,2 @@
 # Manutenzioni
-- [SXML Servisi su Manutenzioni](Sorgenti/V3/ASE/MMSER_01.md)
+- [SXML Servisi su Manutenzioni](Sorgenti/DOC/V3/ASE/MMSER_01.md)

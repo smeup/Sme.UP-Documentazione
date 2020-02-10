@@ -1,3 +1,3 @@
 # Modifiche Tecniche
-- [Flussi Oggetto EC](Sorgenti/NWS/MT_NWS000649.md)
-- [Revisione modifiche tecniche](Sorgenti/NWS/MT_NWS001649.md)
+- [Flussi Oggetto EC](Sorgenti/DOC/H6/NWS/MT_000649.md)
+- [Revisione modifiche tecniche](Sorgenti/DOC/H6/NWS/MT_001649.md)

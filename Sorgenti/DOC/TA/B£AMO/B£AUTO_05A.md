@@ -20,7 +20,7 @@ _1_Link alle classi di autorizzazione specifiche per Looc.UP
  :  : DEC T(TA) P(B£P) K(LO.POP)
 
 _1_Autorizzazioni menù Looc.UP
-- [Doc.tecnica LOA12](Sorgenti/V2/LOCOS/V2LOCOSA12)
+- [Doc.tecnica LOA12](Sorgenti/DOC/V2/LOCOS/V2LOCOSA12)
 
 _1_Funzioni definite a livello client
 Consideriamo definiti i seguenti oggetti : 

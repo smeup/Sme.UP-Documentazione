@@ -4,7 +4,7 @@
          Nello scenario definiamo i seguenti aspetti della schedulazione : 
  1. Risorsa da schedulare. Nel campo risorsa principale mettiamo 'CDL' , nel campo risorsa specifica se scheduliamo i centri di lavoro impostiamo 'CDL' (non abbiamo CDL composti di più macchine) se scheduliamo le macchine 'MAC'
  2. Oggetto Priorità. Definisce la priorità con cui a parità di istante di esecuzione di un Job viene scelto quello con priorità più alta. Le regole implementate ci permettono di scegliere tra 'N'    valori     ognuno dei quali permette di ottimizzare un diverso indice (saturazione,  numero ordini elaborati, etc..)
-- [Criterio ordinamento schedulazione BCD](Sorgenti/OG/V2/CRORD)
+- [Criterio ordinamento schedulazione BCD](Sorgenti/DOC/OG/V2/CRORD)
 3.  E' possibile attivare un flag con cui considerare i tempi di attrezzaggio
 4.  E' possibile attivare un flag con cui considerare se esiste la sovrapposizione tra le fasi impostata o a livello di fase di ciclo oppure di gruppo risorsa.
 5.  E' possibile attivare un flag con cui attivare l'utlizzo delle code. In una schedulazione a capacità finita le code sono considerate solo per i centri di lavoro schedulati a capacità infinita.

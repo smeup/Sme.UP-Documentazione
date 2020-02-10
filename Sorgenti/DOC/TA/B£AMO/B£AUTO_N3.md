@@ -23,7 +23,7 @@ Il logico 1L ha come primo campo il codice oggetto, ed i rimanenti uguali a 0L.
 
 Le autorizzazioni per oggetto possono essere utilizzate attraverso la /COPY £AUO, la quale si rimanda alla corrispondete documentazione.
 
-- [TST Copy autorizazioni](Sorgenti/OJ/PGM/TSTAUO)
+- [TST Copy autorizazioni](Sorgenti/DOC/OJ/PGM/TSTAUO)
 
 A seguire si riporta la documentazione tecnica che programma che sottostà alla £AUO.
 

@@ -1,2 +1,2 @@
-- [Gestione Autorizzazioni Applicative](Sorgenti/OJ/PGM/B£AUA0)
-- [Scheda Autorizzazioni applicative](Sorgenti/MB/SCP_SCH/B£AUTO)
+- [Gestione Autorizzazioni Applicative](Sorgenti/DOC/OJ/PGM/B£AUA0)
+- [Scheda Autorizzazioni applicative](Sorgenti/DOC_OPE/MB/SCP_SCH/B£AUTO)

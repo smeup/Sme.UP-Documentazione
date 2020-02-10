@@ -3,7 +3,7 @@
 **Tipo impegno (TI)**, tabella P5I legata al documento/ordine, contiene modalità di scarico materiali (MSI) (**V2_MOSMA** :  DO = da documenti senza aggiornamento impegni, IM = tutti gli impegni)
  :  : DEC T(MB) P(DOC_OGG) K(V2_MOSMA)
 **Tecnica di gestione (TG)**, tabella GMT legata all'articolo, contiene modalità di scarico componente (MSC) **V2_MOSCA**
-- [Modalità scarico materiali](Sorgenti/OG/V2/MOSCA)
+- [Modalità scarico materiali](Sorgenti/DOC/OG/V2/MOSCA)
 
 ## Costruzione impegni
 Viene eseguita se MSI diversa da DO (scarico secondo distinta) e se c'è qtà residua sull'ordine / documento, viene riportato nella modalità di scarico (Flag 1) il valore MSC, se però MSI = "IM" viene portato "B" (scarico automatico).

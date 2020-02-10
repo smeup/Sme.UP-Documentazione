@@ -5,18 +5,18 @@ Essa scandisce la disponibilità dell'articolo ricevuto con questo gruppo fonti,
 Le metafonti impostate attualmente sono : 
 
 la fonte bilanciata
-- [\* M5F - BL - Bilanciata](Sorgenti/OG/TA/M5F_BL)
+- [\* M5F - BL - Bilanciata](Sorgenti/DOC/OG/TA/M5F_BL)
 che esegue il programma
  :  : DEC T(OJ) P(\*PGM) K(M5M5D6G)
 
 la disponibilità libera
-- [\* M5F - DL - Disponib.libera](Sorgenti/OG/TA/M5F_DL)
+- [\* M5F - DL - Disponib.libera](Sorgenti/DOC/OG/TA/M5F_DL)
 che esegue i programmi
  :  : DEC T(OJ) P(\*PGM) K(M5M5D1G)
  :  : DEC T(OJ) P(\*PGM) K(M5M5D2G)
 
 il fabbisogno giornaliero
-- [\* M5F - FG - Fabbisogno giornaliero](Sorgenti/OG/TA/M5F_FG)
+- [\* M5F - FG - Fabbisogno giornaliero](Sorgenti/DOC/OG/TA/M5F_FG)
 che esegue il programma
  :  : DEC T(OJ) P(\*PGM) K(M5M5D6G)
 

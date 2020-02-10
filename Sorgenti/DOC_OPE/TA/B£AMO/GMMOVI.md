@@ -1,4 +1,4 @@
 - [Movimentazione](Sorgenti/DOC_OPE/TA/B£AMO/GMMOVI01)
-- [Interr./Revisione Movimenti](Sorgenti/OJ/PGM/GMMO01)
-- [Stampa movimenti](Sorgenti/OJ/PGM/GMMO02)
-- [Gestione transazioni](Sorgenti/OJ/PGM/GMTR00)
+- [Interr./Revisione Movimenti](Sorgenti/DOC/OJ/PGM/GMMO01)
+- [Stampa movimenti](Sorgenti/DOC/OJ/PGM/GMMO02)
+- [Gestione transazioni](Sorgenti/DOC/OJ/PGM/GMTR00)
