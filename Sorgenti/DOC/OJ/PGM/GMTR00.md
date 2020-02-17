@@ -5,8 +5,8 @@ Nella normalità l'archivio delle transazioni è temporaneo e serve per appoggia
 Risolvere gli errori e risottomettere l'applicazione.
 
 ## Lista di interrogazione
-![GMTR00_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMTR00/GMTR00_01.png)
+![GMTR00_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMTR00/GMTR00_01.png)
 Dalla lista è possibile risottomettere l'applicazione del movimento (opzione _2_AP), oppure entrare in modifica della transazione stessa.
 
 ## Formato di dettaglio
-![GMTR00_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMTR00/GMTR00_02.png)
+![GMTR00_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMTR00/GMTR00_02.png)

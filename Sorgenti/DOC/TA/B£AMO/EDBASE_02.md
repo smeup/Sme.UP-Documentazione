@@ -6,5 +6,5 @@ A questo punto nella schermata successiva inserire :
 -in Cancella file da IFS posso scegliere se cancellare, mantenere o creare una copia back-up del file importato (che avrà come desinenza _o).
 
 
-![NUOVO1](http://doc.smeup.com/immagini/EDBASE_02/NUOVO1.png)
+![NUOVO1](https://doc.smeup.com/immagini/EDBASE_02/NUOVO1.png)
 E' possibile inoltre, entrando nel tab Memorizzazione Dati Video inserendo '?', memorizzare l'operazione di acquisizione dei flussi appena illustrata (tramite aggiunta e inserendo il nome e la descrizone); in questo modo ogni volta che si desidera imporare il flusso aggiornato è sufficiente richiamare la memorizzazione effettuata.

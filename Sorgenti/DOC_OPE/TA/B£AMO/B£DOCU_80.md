@@ -20,20 +20,20 @@ Di seguito alcuni esempi su come trovare la documentazione di un oggetto
 
 ### Documentazione di un file
 Nella scheda oggetto del file si trova la sezione dedicata alla documentazione : 
-![B£DOCU_01](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_01.png)nell'esempio si tratta del file BRARTI0F.
+![B£DOCU_01](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_01.png)nell'esempio si tratta del file BRARTI0F.
 
 ### Documentazione di una tabella
 Nella scheda oggetto della tabella si trova la sezione dedicata alla documentazione : 
-![B£DOCU_02](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_02.png)nell'esempio si tratta della tabella GMC.
+![B£DOCU_02](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_02.png)nell'esempio si tratta della tabella GMC.
 
 ### Documentazione di un PGM emulazione video
 Nelle icone in alto a destra del formato di emulazione il click tasto destro sull'icona centrale manda alla scheda del programma, nella scheda del programma si trova la sezione la sezione dedicata alla documentazione : 
-![B£DOCU_03](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_03.png)nell'esempio si tratta del programma GMUB01G
-![B£DOCU_04](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_04.png)
+![B£DOCU_03](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_03.png)nell'esempio si tratta del programma GMUB01G
+![B£DOCU_04](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_04.png)
 ### Documentazione di una scheda
 Non tutte le schede hanno la documentazione, in basso a destra c'è il bottone punto interrogativo, il click sul bottone apre un formato che manda alla documentazione della scheda, se esiste : 
-![B£DOCU_05](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_05.png)nell'esempio vedete la scheda del modulo statistiche V5STAT
-![B£DOCU_06](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_06.png)![B£DOCU_07](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_07.png)
+![B£DOCU_05](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_05.png)nell'esempio vedete la scheda del modulo statistiche V5STAT
+![B£DOCU_06](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_06.png)![B£DOCU_07](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_07.png)
 ## Documentazione di un'applicazione
 Dalla scheda di un'applicazione si possono utilizzare varie funzioni che servono ad acquisire la conoscenza sull'applicazione stessa : 
 
@@ -48,43 +48,43 @@ Dalla scheda di un'applicazione si possono utilizzare varie funzioni che servono
 
 ### Archivi
 Dalla scheda di un'applicazione si apre la sottoscheda _2_Dati che presenta tutti gli archivi dell'applicazione, selezionando un file si apre la sua scheda da cui si può passare alla relativa  documentazione : 
-![B£DOCU_08](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_08.png)
+![B£DOCU_08](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_08.png)
 ### Servizi
 Dalla scheda di un'applicazione si apre la sottoscheda _2_Servizi e azioni che presenta una sottosezione in cui sono elencati i servizi dell'applicazione da cui si può passsare alla scheda relativa : 
-![B£DOCU_09](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_09.png)
+![B£DOCU_09](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_09.png)
 ### Azioni (B£J)
 Dalla scheda di un'applicazione si apre la sottoscheda _2_Servizi e azioni che presenta una sottosezione in cui sono elencati i servizi dell'applicazione da cui si può passsare alla scheda relativa : 
-![B£DOCU_10](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_10.png)
+![B£DOCU_10](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_10.png)
 ### Oggetti
 Dalla scheda di un'applicazione si apre la sottoscheda _2_Set'n play che presenta una sottosezione dove si trovano gli oggetti dell'applicazione raggruppati per tipo : 
-![B£DOCU_11](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_11.png)Il click sull'oggetto manda alla sua scheda.
+![B£DOCU_11](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_11.png)Il click sull'oggetto manda alla sua scheda.
 
 ### API
 Dalla scheda di un'applicazione si apre la sottoscheda _2_Set'n play che presenta una sottosezione dove si trovano le API dell'applicazione raggruppati per tipo : 
-![B£DOCU_12](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_12.png)Il click sull'API manda alla sua scheda.
+![B£DOCU_12](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_12.png)Il click sull'API manda alla sua scheda.
 
 ### Manuali
 Dalla scheda di un'applicazione si apre la sottoscheda _2_Documentazione che presenta tutti i manuali esistenti per l'applicazione : 
-![B£DOCU_13](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_13.png)
+![B£DOCU_13](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_13.png)
 ## Documentazione di un modulo
 Dalla scheda di un modulo si apre la sottoscheda _2_Documentazione che presenta tutti i documenti esistenti per il modulo : 
-![B£DOCU_14](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_14.png)
+![B£DOCU_14](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_14.png)
 ## Le News e le Note Tecniche
 Questa scheda permette di accedere al link internet contenente le News di Sme.up, la scheda si raggiunge dalla scheda del modulo B£DOCU, sezione _2_Le news : 
-![B£DOCU_15](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_15.png)
+![B£DOCU_15](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_15.png)
 ## Internet
 I documenti possono anche essere raggiunti via Internet dal sito www.smeup.com, sul sito si trovano :  i book, i filmati, le news.
 Tutti i documenti seguenti pretendono che l'utente Internet si sia autenticato inserendo utente e password ed accedendo all'area ri servata.
 
 ### I manuali
 Si trovano nella sezione _2_Documentazione, per gli utenti autenticati si rende visibile il bottone _3_Manuali : 
-![B£DOCU_16](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_16.png)click sul link per accedere alla lista
-![B£DOCU_17](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_17.png)vengono presentati tutti i manuali a cui l'utente è autorizzato : 
-![B£DOCU_18](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_18.png)
+![B£DOCU_16](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_16.png)click sul link per accedere alla lista
+![B£DOCU_17](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_17.png)vengono presentati tutti i manuali a cui l'utente è autorizzato : 
+![B£DOCU_18](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_18.png)
 ### I filmati
 Si trovano nella sezione _2_Documentazione premendo il bottone _3_Videostreaming si apre la lista dei filmati che sono a disposizione degli utenti autenticati : 
-![B£DOCU_19](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_19.png)
+![B£DOCU_19](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_19.png)
 ### Le news
 Si trovano nella sezione _2_Eventi & news, premendo il bottone _3_News tecniche di Sme.up : 
-![B£DOCU_20](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_20.png)click sul link per accedere alla lista : 
-![B£DOCU_21](http://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_21.png)
+![B£DOCU_20](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_20.png)click sul link per accedere alla lista : 
+![B£DOCU_21](https://doc.smeup.com/immagini/MBDOC_OPE-B£DOCU_80/BXDOCU_21.png)

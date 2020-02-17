@@ -19,7 +19,7 @@ Il tipico processo di configurazione parte dalla descrizione generica di un prod
 
 Lo schema di massima di questo processo è illustrato dalla figura 1.
 
-![CFBASE_034](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_034.png)Figura 1 :  Schema generale del processo di configurazione
+![CFBASE_034](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_034.png)Figura 1 :  Schema generale del processo di configurazione
 
 
 Ad ogni oggetto configurabile si associa un configuratore la cui compilazione, intesa come esecuzione dello stesso, porta alla definizione prima della configurazione e da essa dell'oggetto configurato.
@@ -84,7 +84,7 @@ Dopo aver presentato a grandi linee le funzionalità di Build.up ci possiamo add
 
 Prima di affrontare la questione della creazione di un configuratore è necessario capire la struttura base di questo componente e quali sono gli oggetti principali che lo compongono. La Figura 2 riassume graficamente lo schema costruttivo di un configuratore generico.
 
-![CFBASE_038](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_038.png)Figura 2 :  Struttura di un questionario Base
+![CFBASE_038](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_038.png)Figura 2 :  Struttura di un questionario Base
 
 L'oggetto base è il configuratore, formato da una lista di sezioni definita in un ordine qualsiasi. Ogni sezione contiene un certo numero di domande, ognuna delle quali è di tipo prefissato, ed ha associato una variabile in cui si salverà la risposta data. Alcune domande possono avere associati anche una serie di valori che rappresentano le opzioni predefinite di risposta.
 Si possono individuare nel configuratore cinque elementi fondamentali : 
@@ -105,7 +105,7 @@ Si possono individuare nel configuratore cinque elementi fondamentali :
 ### La Struttura Estesa
 Nella figura 3 trovate la struttura estesa del questionario : 
 
-![CFBASE_025](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_025.png)Figura 3 :  La struttura del questionario estesa.
+![CFBASE_025](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_025.png)Figura 3 :  La struttura del questionario estesa.
 
 Come si può notare la versione estesa del questionario ammette quattro tipi di sezione : 
 
@@ -131,7 +131,7 @@ Oltre alle domande "tradizionali", alle quali l'utente deve dare solo una rispos
 
 Di seguito vengono illustrati e commentati i diversi campi a cui bisogna rispondere quando si configura una domanda, e vengono mostrate delle figure che rappresentano la veste grafica con cui vengono presentate le domande all'utente che compila un questionario.
 
-![CFBASE_028](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_028.png)Figura 4 - La finestra di definizione di una domanda
+![CFBASE_028](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_028.png)Figura 4 - La finestra di definizione di una domanda
 
 La Figura 4 mostra un esempio di come si presenta la schermata di Build.up quando si crea una nuova domanda, seguita da una descrizione del significato dei campi che devono essere compilati : 
 
@@ -223,7 +223,7 @@ Di seguito vengono illustrati e commentati i diversi campi a cui bisogna rispond
 
 Viene riportata in Figura 5 la schermata mostrata da Build.up quando si crea una nuova sezione.
 
-![CFBASE_032](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_032.png) Figura 5 - Creazione di una nuova sezione
+![CFBASE_032](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_032.png) Figura 5 - Creazione di una nuova sezione
 
 _2_Descrizione :  è il nome della sezione, quello che viene presentato all'utente che compila il questionario. La lunghezza massima di questo campo è di 30 caratteri.
 
@@ -264,7 +264,7 @@ Anche il questionario, come le domande e le sezioni, è un oggetto applicativo e
 Analogamente a quanto fatto precedentemente vengono illustrati e commentati i campi che si devono compilare per una corretta configurazione del questionario.
 La Figura 6 mostra la videata di Loocu.up quando si vuole creare un questionario.
 
-![CFBASE_033](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_033.png) Figura 6 - Creazione di un nuovo questionario
+![CFBASE_033](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_033.png) Figura 6 - Creazione di un nuovo questionario
 
 _2_Descrizione :  è il nome del questionario. La lunghezza massima di questo campo è di 30 caratteri.
 
@@ -346,7 +346,7 @@ _2_Salvataggio Esteso :  Specifica se salvare la configurazione sul file B£MEDE
 
 _2_Motore Regole :  Mantenuto per compatibilità con le versioni precedenti alla V2R2M070214. Consente di specificare il tipo di motore, statico o dinamico. Dalla versione V2R2M070214 non esistono differenze tra il motore statico e quello dinamico. I questionari multi livello necessitano del motore dinamico. Il valore di default per questo parametro è dinamico.
 
-![CFBASE_030](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_030.png)Figura 7 - L'ordine di esecuzione delle regole
+![CFBASE_030](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_030.png)Figura 7 - L'ordine di esecuzione delle regole
 
 ## Il linguaggio delle Regole
 Questo linguaggio di regole non è case sensitive e non fa quindi differenza tra lettere minuscole e lettere maiuscole (quindi la funzione AddVal è la stessa sia se invocata come "ADDVAL" che come "addval"). Inoltre non è posizionale e non tiene conto degli eventuali spazi bianchi compresi nelle chiamate alle procedure
@@ -512,7 +512,7 @@ La funzione CLRMSG ( ) rimuove tutti i messaggi della sezione alla quale la rego
 ## L'editor delle regole
 Per facilitare l'inserimento e la manutenzione delle regole del questionario è stato sviluppato un apposito editor ed il suo aspetto è mostrato in Figura 8 : 
 
-![CFBASE_028](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_028.png)Figura 8 - L'editor delle regole
+![CFBASE_028](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_028.png)Figura 8 - L'editor delle regole
 
 E' dotato di tutti gli strumenti di un classico editor di testo (funzioni di salvataggio, stampa, taglia, copia, incolla, help, etc') e facilita la lettura delle regole, evidenziando con colori differenti le parole riservate del linguaggio e i valori delle variabili.
 
@@ -520,7 +520,7 @@ Il tasto "Compila" manda in esecuzione il parser che abbiamo realizzato al fine 
 
 l grande vantaggio di questo editor sta nella presenza del "Wizard", ossia di una procedura che guida l'utente nell'inserimento delle regole. Il Wizard, in base al punto in cui l'utente si trovacol cursore durante la scrittura della regola, suggerisce tutte le possibili opzioni valide tra le quali l'utente può selezionare quella desiderata. Ad esempio quando l'utente digita il "SE"il Wizard mostra la finestra riportata in figura 12, nella quale propone la scelta dell'oggetto (variabile) da testare nella condizione booleana, ed in seguito propone l'elenco dei possibili valori della parte destra dell'operazione di confronto, prendendo questa lista direttamente dalla tabella memorizzata su AS400 alla quale la domanda stessa è associata. Il processo guidato continua fino alla terminazione della regola.
 
-![CFBASE_035](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_035.png)Figura 9 - Il wizard dell'editor delle regole con la finestra di selezione degli operatori
+![CFBASE_035](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_035.png)Figura 9 - Il wizard dell'editor delle regole con la finestra di selezione degli operatori
 
 ### La messa a punto delle regole
 
@@ -540,7 +540,7 @@ Ad esempio, una regola potrebbe dover confrontare i valori di Oggetto1 e Oggetto
 
 Solitamente la sua necessità è quella di poter sapere in quali regole compare un determinato oggetto o, viceversa, dato un oggetto poter risalire a conoscere in quali regole compare :  nella figura che segue vediamo lo strumento di analisi delle regole : 
 
-![CFBASE_027](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_027.png)Figura 10 - La finestra Correlazione Regole
+![CFBASE_027](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_027.png)Figura 10 - La finestra Correlazione Regole
 
 Questo strumento riceve dall'AS400 tutte le regole di un questionario. Per ognuna di esse estrae tutti gli oggetti che la compongono e li inserisce in una tabella bidimensionale. Ad ogni riga corrisponde un oggetto di una regola; se lo stesso oggetto compare in più regole ci saranno più righe con quell'oggetto ma associate a regole diverse. Le colonne sono 8 e ognuna identifica una caratteristica dell'oggetto o della regola che caratterizzano la riga.
 
@@ -581,7 +581,7 @@ Analizzando la Figura 14 possiamo vedere che sulla sinistra vengono elencate tut
 
 Sempre sulla sinistra vengono mostrate tutte le funzioni necessarie alla gestione del configuratore, quali ad esempio "Nuova Domanda" e "Nuova Sezione" per inserire rispettivamente unadomanda ed una sezione, "Modifica definizione questionario" per reimpostare le caratteristiche del questionario (ad esempio come associargli le sezioni), "Elenco configurazioni" per visualizzare tutte le configurazioni (cioè i questionari compilati) e "Gestione configurazione" che lancia un browser Internet per utilizzare il configuratore e rispondere alle domande.
 
-![CFBASE_029](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_029.png)Figura 11 - La gestione del questionario in Looc.up
+![CFBASE_029](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_029.png)Figura 11 - La gestione del questionario in Looc.up
 
 ### La Scheda del Configuratore
 L'accesso alle funzioni del configuratore avviene mediante un'apposita scheda (CFBASE).
@@ -590,7 +590,7 @@ Questa scheda è accessibile dal menù delle applicazioni di Loocup con il segue
 
 Verrà visualizzata la seguente scheda (Figura 12) : 
 
-![CFBASE_037](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_037.png)  Figura 12 - La scheda del configuratore (CFBASE)
+![CFBASE_037](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_037.png)  Figura 12 - La scheda del configuratore (CFBASE)
 
 Sulla sinistra si possono vedere cinque tab, quattro raggruppano i questionari in base al loro tipo.
 Esistono quattro tipi di configuratori : 
@@ -611,7 +611,7 @@ E' composta da tre sotto schede :  una dedicata alla manutenzione della struttur
 
 In figura 13 possiamo vedere le 3 schede con in primo piano quella del questionario.
 
-![CFBASE_036](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_036.png)Figura 13 - La scheda del questionario.
+![CFBASE_036](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_036.png)Figura 13 - La scheda del questionario.
 
 Analizziamo in dettaglio le 3 schede.
  :  : T04 La sottoscheda del questionario
@@ -626,7 +626,7 @@ Se queste sono già definite per la sezioni in questione si entrerà in manutenz
 
 Con un doppio click sul talloncino delle regole si ottiene che la scheda vada a pieno schermo : 
 
-![regole](http://doc.smeup.com/immagini/CFBASETECO/regole.png)
+![regole](https://doc.smeup.com/immagini/CFBASETECO/regole.png)
  Figura 14 - La scheda delle regole
 
 qui si possono vedere tutte le regole nella zona "Elenco regole" e selezionandone una si può vedere la scomposizione sulla sinistra e la sua traduzione in italiano sulla destra.
@@ -641,7 +641,7 @@ La sottoscheda elle configurazioni, visibile in figura 15, riporta sulla sinistr
 
 Posizionandosi su una configurazione e utilizzando il tasto destro, sotto la voce "Questionario" si hanno le azioni di Gestione, Visualizza o Elimina.
 
-![CFBASE_026](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_026.png)Figura 15 - La sotto scheda della configurazione e il popup di gestione
+![CFBASE_026](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_026.png)Figura 15 - La sotto scheda della configurazione e il popup di gestione
 
 
 ### la compilazione di un questionario
@@ -649,12 +649,12 @@ Compilare un questionario porta alla creazione di una configurazione.
 
 La creazione di una nuova configurazione avviene con il tasto F8 mentre la modifica di una precedentemente salvata avviene con la voce "Gestione questionario" e poi  "Gestione (Imm/Cop/Del)"  del popup della configurazione.
 
-![CFBASE_024](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_024.png)Figura 16 -  La compilazione di un questionario in LoocUp
+![CFBASE_024](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_024.png)Figura 16 -  La compilazione di un questionario in LoocUp
 
 
-![CFBASE_039](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_039.png)sezione successiva, auto compilazione)
-![CFBASE_022](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_022.png)visualizza la storia di esecuzione in tabella non ordinabile, visualizza in tabella ordinabile e filtrabile)
-![CFBASE_021](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_021.png)regole, attiva ricerca all'interno delle regole, traduci le regole in italiano, esegui controllo su ricerca domande e/o sezioni duplicate)
+![CFBASE_039](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_039.png)sezione successiva, auto compilazione)
+![CFBASE_022](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_022.png)visualizza la storia di esecuzione in tabella non ordinabile, visualizza in tabella ordinabile e filtrabile)
+![CFBASE_021](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_021.png)regole, attiva ricerca all'interno delle regole, traduci le regole in italiano, esegui controllo su ricerca domande e/o sezioni duplicate)
 
 ## La compilazione su WEB
 ### Prerequisiti.
@@ -665,7 +665,7 @@ La compilazione su WEB è simile a quella che avviene in LoocUp. Visto l'ambient
 
 Nella figura 17 si può vedere l'interfaccia della finestra di compilazione : 
 
-![CFBASE_023](http://doc.smeup.com/immagini/CFBASETECO/CFBASE_023.png)Figura 17 -  La compilazione di un questionario mediante browser.
+![CFBASE_023](https://doc.smeup.com/immagini/CFBASETECO/CFBASE_023.png)Figura 17 -  La compilazione di un questionario mediante browser.
 
 In questa versione l'albero delle sezioni è stato portato in alto. Le sezioni percorse appaiono n grigio chiaro, quella corrente ha il testo in grassetto mentre quelle ancora da percorrere sono con lo sfondo grigio scuro.
 

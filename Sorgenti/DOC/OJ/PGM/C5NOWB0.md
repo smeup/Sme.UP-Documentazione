@@ -6,7 +6,7 @@ Attraverso questa funzione è possibile analizzare e gestire le riclassifiche di
 
 Il formato guida si presenta nel seguente modo : 
 
-![C5E010_001](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_001.png)
+![C5E010_001](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_001.png)
 All'interno del formato guida è necessario specificare i seguenti campi : 
 
  - Codice azienda
@@ -21,7 +21,7 @@ All'interno del formato guida è necessario specificare i seguenti campi :
 
 ### Impostazioni
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle Impostazioni che riportano i seguenti campi : 
-![C5E010_002](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_002.png)
+![C5E010_002](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_002.png)
  - Dettaglio :  permette di definire se visualizzare solo i conti assegnati a una linea della riclassifica in analisi, solo i non assegnati o tutti.
  - Ordinamento :  permette di visualizzare il dettaglio dei conti ordinato per riclassifica oppure per codice conto.
  - Conti :  permette di visualizzare o meno il dettaglio dei conti contabili. Le scelte disponibili sono : 
@@ -63,7 +63,7 @@ Le memorizzazioni consentono di salvare le parametrizzazioni definite all'intern
 All'interno del formato lista sarà visualizzato il bilancio riclassificato nel caso in cui si sia scelto l'ordinamento 'Per riclassifica' mentre nel caso in cui si scelga l'ordinamento 'Per conto' verrà visualizzato l'elenco dei conti contabili e per ognuno di essi sarà riportata la linea di riclassifica a cui è associato.
 Scegliendo di ordinare i conti per riclassifica con dettaglio per conto apparirà la seguente visualizzazione : 
 
-![C5E010_003](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_003.png)
+![C5E010_003](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_003.png)
 Nella parte superiore dell'elenco sono riportati i conti contabili non assegnati ad alcuna linea mentre nei record successivi è riportato il bilancio ordinato secondo la riclassifica in analisi.
 Per ogni linea di riclassifica sono riportate le seguenti informazioni : 
 
@@ -121,10 +121,10 @@ Per effettuare l'assegnazione di conti a una linea di riclassifica si consiglia 
 
 - All'interno delle impostazioni scegliere di visualizzare solo i conti non ancora assegnati impostando il campo 'Dettaglio'=3 e 'Conti'=2. In questo modo nella parte superiore saranno visualizzati i conti ancora da assegnare alle linee e nella parte inferiore saranno visualizzate le linee di riclassifica.
 
-![C5E010_004](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_004.png)
+![C5E010_004](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_004.png)
 - Selezionare con un '+' i conti da assegnare a una stessa linea e la linea a cui assegnare i conti : 
 
-![C5E010_005](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_005.png)
+![C5E010_005](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOWB0/C5E010_005.png)
 - Confermare la selezione con F6
 
 

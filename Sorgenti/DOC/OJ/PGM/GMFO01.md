@@ -24,7 +24,7 @@ _2_Nota Bene; per garantire la congruenza dei dati è opportuno costruire la fot
 ## Creazione foto - formato di lancio
 La creazione della foto parte dal seguente formato di lancio : 
 
-![GMFOTO_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMFO01/GMFOTO_01.png)
+![GMFOTO_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMFO01/GMFOTO_01.png)
 Con lo stesso formato si può fare : 
 
 - Creazione della foto e memorizzazione in archivio
@@ -78,5 +78,5 @@ Questa funzione serve per stampare le foto create in precedenza, è possibile an
 
 La stampa foto utilizza il seguente formato di lancio : 
 
-![GMFOTO_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMFO01/GMFOTO_02.png)
+![GMFOTO_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMFO01/GMFOTO_02.png)
 _2_Nota bene, se il campo foto non è compilato il sistema calcola dinamicamente una foto alla data di input partendo dalla giacenza attuale e poi la stampa utilizzando le impostazioni di lancio (parzializzazioni, schema, valorizzazioni e raggruppamenti solo se questi ultimi sono stati richiesti come "dinamici").

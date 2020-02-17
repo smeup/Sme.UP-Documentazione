@@ -89,10 +89,10 @@ Vengono ritornate  le informazioni relative alla data numerica di input. Ad esem
 
 _2_Figura 1 - Richiesta Controllo/Trasformazione/Editazione, informazioni su data
 
-![B£BASE_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_TSTDA8/BXBASE_01.png)
+![B£BASE_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_TSTDA8/BXBASE_01.png)
 _2_Figura 2 - Output richiesto
 
-![B£BASE_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_TSTDA8/BXBASE_02.png)
+![B£BASE_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_TSTDA8/BXBASE_02.png)
 È interessante notare che il numero progressivo dal 1904 mi permette di calcolare i giorni di intervallo tra due date.
 
 Ponendo il carattere "?" nel campo data alfanumerica mi si apre una schermata dove posso accedere ad un calendario dove posso scegliere in maniera posizionale la data di cui ottenere le informazioni o su cui operare le azioni volute.

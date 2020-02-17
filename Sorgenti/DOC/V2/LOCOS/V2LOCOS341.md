@@ -13,4 +13,4 @@ Di seguito alcune videate su come appaiono le sezioni in Looc.UP. Le videate son
 FIG M(V2LOCOS) P(LOA34_01) A(C)
 FIG M(V2LOCOS) P(LOA34_02) A(C)
 FIG M(V2LOCOS) P(LOA34_03) A(C)
-![LOA34_01](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOS341/LOA34_01.png)![LOA34_02](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOS341/LOA34_02.png)![LOA34_03](http://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOS341/LOA34_03.png)
+![LOA34_01](https://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOS341/LOA34_01.png)![LOA34_02](https://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOS341/LOA34_02.png)![LOA34_03](https://doc.smeup.com/immagini/MBDOC_OGG-V2LOCOS341/LOA34_03.png)

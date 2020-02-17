@@ -48,14 +48,14 @@ Sostituendo le parole astratte di sopra potremo avere ad esempio casi di questo 
 - "Tutti gli utenti" possono "vedere il costo" nelle "interrogazioni di magazzino?
 
 _1_Schema Astrazione delle autorizzazioni : 
-![B£AUTO01](http://doc.smeup.com/immagini/B£AUTO_01/BXAUTO01.png)
+![B£AUTO01](https://doc.smeup.com/immagini/B£AUTO_01/BXAUTO01.png)
 Quindi la tecnica adottata in Sme_up può benissimo essere ripresa senza alcun problema di conflitti concettuali.
 
 ## Rappresentazione tecnica
 Lo schema seguente vuole descrivere gli elementi tecnici dell'impostazione.
 
 _1_Schema Tecnico delle autorizzazioni : 
-![B£AUTO02](http://doc.smeup.com/immagini/B£AUTO_01/BXAUTO02.png)
+![B£AUTO02](https://doc.smeup.com/immagini/B£AUTO_01/BXAUTO02.png)
 La classe di autorizzazione fissa il significato di utente e funzione permettendo la scelta all'interno di un qualsiasi "Oggetto Applicativo", nonché il sottosettore da cui saranno riprese le azioni possibili.
 Lo schema delle autorizzazioni rappresenta in modo semplice quello che risulta essere il comportamento dell'applicazione "Autorizzazioni" in Sme_up.
 Per generare l'elenco di queste ultime devono essere scelti i parametri seguenti  : 
@@ -80,7 +80,7 @@ Riassumiamo schematicamente le suddette Autorizzazioni a partire da un livello p
 
 
 _1_Schema risalita autorizzazioni : 
-![B£AUTO03](http://doc.smeup.com/immagini/B£AUTO_01/BXAUTO03.png)
+![B£AUTO03](https://doc.smeup.com/immagini/B£AUTO_01/BXAUTO03.png)
 Immaginiamo ora che all'interno di un certo applicativo un utente voglia accedere ad una particolare funzione.
 La richiesta d'accesso causerà la chiamata al programma B£AUA0G di gestione delle Autorizzazioni che andrà, come prima cosa, a verificare l'esistenza delle stesse relative alla funzione chiamata per l'utente chiamante.
 Nel caso non siano state definite tali Autorizzazioni, il programma risalirà fino a quelle definite per l'utente generico e per la particolare funzione.
@@ -88,6 +88,6 @@ Se questo non andrà a buon fine, continuerà per quelle relative all'utente per
 Nel caso in cui nemmeno queste siano state definite verranno prese quelle definite per default cioè U\*\* / F\*\* (Schema di Risalita).
 
 _1_Esempio - Astrazione delle autorizzazioni Sme.up : 
-![B£AUTO04](http://doc.smeup.com/immagini/B£AUTO_01/BXAUTO04.png)
+![B£AUTO04](https://doc.smeup.com/immagini/B£AUTO_01/BXAUTO04.png)
 Lo schema precedente vuole essere di aiuto per comprendere il grado di astrazione delle autorizzazioni in SME_UP. Si noti che la logica rimane valida qualunque sia l'ambito preso in considerazione. Nel nostro caso avremo che "QUALCUNO" diventa "Veicolo", il "CONTESTO" diventa "l'ambiente" e le "AZIONI" sono le "attività eseguibili". Mediante le autorizzazioni potrò descrivere il fatto che un ciclomotore non può viaggiare in autostrada e che il limite di una automobile su strada urbana è di 50 Km orari.
 

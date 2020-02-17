@@ -4,7 +4,7 @@ Attraverso questa funzione è possibile analizzare l'evoluzione futura del caste
 ## Formato guida
 Il formato guida si presenta nel seguente modo : 
 
-![C5D030_018](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOXS0C/C5D030_018.png)
+![C5D030_018](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOXS0C/C5D030_018.png)
 All'interno del formato guida è prima di tutto necessario selezionare l'azienda d'interesse e la modalità di esecuzione della funzione :  le modalità disponibili sono Interrogazione , Stampa e Trasferimento a PC. Le prime due modalità restituiscono lo stesso risultato rispettivamente in formato video e in spool di stampa mentre la terza permette di esportare i dati sul proprio PC all'interno di un file che può essere in formato txt o xls.
 I campi 'Pertinenza' e 'Condizione' devono essere compilati in funzione della tipologia di registrazioni che si vogliono considerare perl'analisi dell'evoluzione del saldo del castelletto. In particolare nel campo Pertinenza è necessario indicare se considerare solo registrazioni gestionali, solo contabili o entrambe mentre nel campo Condizione è possibile indicare se considerare solo registrazioni attive, solo simulate o entrambe.
 La 'Data partenza' rappresenta l'inizio del periodo all'interno del quale analizzare l'evoluzione dei saldi. Nel caso in cui non venga indicata nessuna data viene considerata la data odierna come partenza per l'analisi dei dati.
@@ -22,7 +22,7 @@ Confermando il formato guida è possibile accedere al formato lista.
 ## Formato lista
 All'interno del formato lista è possibile visualizzare per ogni rapporto bancario di salvo buon fine (oppure per ogni banca se si è deciso di omettere il dettaglio) l'evoluzione del castelletto : 
 
-![C5D030_019](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOXS0C/C5D030_019.png)
+![C5D030_019](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOXS0C/C5D030_019.png)
 ## Formato dettaglio
 Per ognuno dei record visualizzato nel formato lista sono disponibili alcune opzioni : 
 

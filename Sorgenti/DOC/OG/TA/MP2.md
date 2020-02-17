@@ -3,7 +3,7 @@
 Imposta i criteri per assegnare ad ogni codice previsto con HW, una classe previsiva e, di comnseguenza, il livello di servizio che si intende assicurare ad ogni classe.
 ## Parametri consigliati
 Nell'impostazione di questa tabella si consiglia di utilizzare i parametri visualizzati di seguito : 
-![MPPIAN_048](http://doc.smeup.com/immagini/MBDOC_OGG-TA_MP2/MPPIAN_048.png)## SOTTOSETTORI
+![MPPIAN_048](https://doc.smeup.com/immagini/MBDOC_OGG-TA_MP2/MPPIAN_048.png)## SOTTOSETTORI
 Non gestiti
 ## CONTENUTO DEI CAMPI
  :  : FLD T$M1,1 **Classe Mape 1**

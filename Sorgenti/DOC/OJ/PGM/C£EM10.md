@@ -16,10 +16,10 @@ L'informazione dell'esponente associato agli articoli viene gestita negli ordini
 ## Formato guida
 Per attivare la gestione esponenti di modifica si parte dal formato seguente : 
 
-![C£EM10_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£EM10/CXEM10_01.png)
+![C£EM10_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£EM10/CXEM10_01.png)
 deve essere inserito prima il tipo esponente, che determina l'oggetto di riferimento ed il significato delle altre informazioni collegate e successivamente gli altri dati richiesti
 
 ## Formato lista
-![C£EM10_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£EM10/CXEM10_02.png)
+![C£EM10_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£EM10/CXEM10_02.png)
 ## Formato dettaglio
-![C£EM10_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£EM10/CXEM10_03.png)
+![C£EM10_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£EM10/CXEM10_03.png)

@@ -17,7 +17,7 @@ Avremo ad esempio CNCLI,,000001,,Cliente di prova||TAV5D,,OVE,,||J1FUN,,F(EXD;\*
 
 ### COPY di gestione dei dati
 Tutte le funzioni sono delegate alla COPY £G97 cui si rinvia per i dettagli.
-![B£CARR_003](http://doc.smeup.com/immagini/B£CARR_C/BXCARR_003.png)
+![B£CARR_003](https://doc.smeup.com/immagini/B£CARR_C/BXCARR_003.png)
 - [Funzioni sul carrello](Sorgenti/DOC/OJ/PGM/TSTG97)
 Documentazione Servizio
 Presente in DOC_SER riferita al servizio B£SER_25;

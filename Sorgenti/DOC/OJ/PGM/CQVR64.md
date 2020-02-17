@@ -1,9 +1,9 @@
 # Formato di lancio
-![CQ_VEND_21](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR64/CQ_VEND_21.png)
+![CQ_VEND_21](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR64/CQ_VEND_21.png)
 # Formato lista
-![CQ_VEND_22](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR64/CQ_VEND_22.png)
+![CQ_VEND_22](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR64/CQ_VEND_22.png)
 # Formato di visualizzaione
-![CQ_VEND_23](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR64/CQ_VEND_23.png)
+![CQ_VEND_23](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR64/CQ_VEND_23.png)
 Un indice globale è costituito da una serie di indici statici e dinamici, è importante notare che quando si interroga il Rating dell'indice globale vengono visualizzati solo gli indici dinamici per cui c'è corrispondenza a livello di chiavi di accesso al record. Ad esempio se gli indici statici sono associati ad un indice globale con chiave fornitore, gli indici dinamici che interrogo sono quelli a livello di sintesi fornitore.
 
 Per ogni sottoindice dell'indice globale è data la possibilità di : 

@@ -6,13 +6,13 @@ Un esempio può essere quando abbiamo un certo numero di operai che lavorano su 
 # Formato di lancio
 La funzione viene lanciata da formato seguente : 
 
-![B£DIRG_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIRG/BXDIRG_01.png)
+![B£DIRG_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIRG/BXDIRG_01.png)
  \* **Tipo risorsa**, è un elemento della tabella TRG, il tipo risorsa deve prevedere lo sviluppo per squadre (campo di TRG)
  \* **Tipo oggetto**, può essere una data specifica (quando vogliamo gestire il numero di risorse della squadra in un particolare giorno), un giorno della settimana (es. Martedì) quando vogliamo gestire il numero risorse di uno specifico giorno della settimana, "\*\*" quando vogliamo gestiore il numero risorse valido per tutti i giorni (default)
 
 # Formato dettaglio
 
-![B£DIRG_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIRG/BXDIRG_02.png)
+![B£DIRG_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIRG/BXDIRG_02.png)
 in questo formato si possono inserire fino a 6 intervalli di ore/frazioni, non consecutivi, e per ogni intervallo si inserisce il numero di risorse presenti.
 
 ## Tabelle utilizzate

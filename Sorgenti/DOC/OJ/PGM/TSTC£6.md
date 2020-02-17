@@ -20,4 +20,4 @@
  \* 8S        RSV Rit.seq.valori par.senza pos.(barrat.)
 
 ## Formato video
-![TSTC£6_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_TSTC£6/TSTCX6_01.png)
+![TSTC£6_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_TSTC£6/TSTCX6_01.png)

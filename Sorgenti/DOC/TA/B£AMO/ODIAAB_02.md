@@ -11,5 +11,5 @@ Per connettere SmeUp al documentale Archibox sono necessari i seguenti strumenti
 -  Per avere le segnalazioni della corretta archiviazione dei documenti deve essere installato e funzionante il Web service V2_WEBSE_01 (**DOC_OGG/V3_CSE_09**) che configurato correttamente permette la segnalazione in SmeUp della corretta archiviazione dei documenti
 
 ### Configurazione script Multiplugin Archibox
-![ODIAAB_002](http://doc.smeup.com/immagini/ODIAAB_02/ODIAAB_002.png)
+![ODIAAB_002](https://doc.smeup.com/immagini/ODIAAB_02/ODIAAB_002.png)
 

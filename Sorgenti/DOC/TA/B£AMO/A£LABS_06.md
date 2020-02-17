@@ -1,7 +1,7 @@
 ## Obiettivo
 Permettere di analizzare tutte le proprietà di una applicazione (o di un modulo) evidenziandone rilevanza, obbligatorietà ecc. al fine di indicare ciò che manca e determinarne un livello di completamento.
 ## Struttura matrice
-![A£LABS_000](http://doc.smeup.com/immagini/A£LABS_06/AXLABS_000.png)
+![A£LABS_000](https://doc.smeup.com/immagini/A£LABS_06/AXLABS_000.png)
 ## A FRONTE DI UN CONTESTO APPLICAZIONE/MODULO, SONO FORNITE INFORMAZIONI (COLONNE) RELATIVE A : 
 -  descrizione
 -  obbligatorietà :  (Si :  ratio=1  No :  ratio=2)

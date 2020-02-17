@@ -2,7 +2,7 @@
 Questo pgm ha la duplice funzione di stampare le lettere emesse dall'azienda che gode delle condizioni per poter usufruire della dichiarazione d'intento verso i suoi fornitori,  e di creare contiguamente i relativi record nel file di gestione.
 
 # Formato di lancio
-![Fig_005](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN04/Fig_005.png)
+![Fig_005](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN04/Fig_005.png)
 Nella videata impostare : 
  \* Tipo elaborazione :  se lasciato vuoto viene emessa una dichiarazione provvisoria. Questo significa che viene solo fatta una stampa di prova della dichiarazione stessa. Impostando il campo con 1 viene emessa una dichiarazione definitiva che quindi viene protocollata e scritta sugli archivi delle dichiarazioni di intento. Impostando il campo con 2 è possibile ottenere una ristampa di una dichiarazione già emessa
  \* Utilizzo modulo standard :  se impostato con 1 Sì permette di ottenere la stampa sui moduli utilizzati fino al 2014

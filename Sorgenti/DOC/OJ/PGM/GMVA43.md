@@ -1,7 +1,7 @@
 ### Stampa sintesi magazzino estesa
 La videata di selezione è la seguente : 
 
-![GMVA43_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMVA43/GMVA43_01.png)
+![GMVA43_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMVA43/GMVA43_01.png)
 Come nello standard delle stampe Sme.up esiste la scelta tra stampa / visualizzazione / trasferimento a PC.
 
 In base al tipo di elaborazione varia il tipo di stampa : 
@@ -18,5 +18,5 @@ Oltre al Tipo elaborazione, la stampa è influenzata dai DATI ESECUZIONE, infatt
 - decidere se stampare solo totali o il dettaglio
 - in caso di stampa a totali stabilire anche quali sintesi utilizzare.
 
-![GMVA43_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMVA43/GMVA43_02.png)
+![GMVA43_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMVA43/GMVA43_02.png)
 _2_Nota, è possibile utilizzare anche sintesi dinamiche ed eventualemente memorizzare sull'archivio la sintesi dinamica utilizzata.

@@ -28,7 +28,7 @@ Lo stato viene codificato in tabella A£D dove è possibile combinare i seguenti
 
 Effettuando la distribuzione in questa modalità è possibile catalogare i tipi di domanda, condizionare le azioni in base alla risposta e classificare le domande in modo che non possano essere gestite se non è ancora stata data risposta a quelle del livello superiore.
 
-![B£LISD_01](http://doc.smeup.com/immagini/B£LISD/BXLISD_01.png)Figura 1 - Costruzione Liste Distribuzione
+![B£LISD_01](https://doc.smeup.com/immagini/B£LISD/BXLISD_01.png)Figura 1 - Costruzione Liste Distribuzione
 
 # Risposta Documentazione
 Il destinatario della documentazione si accorge della posta inviatagli nei seguenti modi : 
@@ -46,4 +46,4 @@ L'operatore risponde alla documentazione inviata, specificando il tipo di rispos
 - l'esito complessivo del documento in base agli esiti delle singole risposte (vedi diagramma di flusso).
 
 
-![B£LISD_02](http://doc.smeup.com/immagini/B£LISD/BXLISD_02.png)Figura 2 - Gestione Liste di Distribuzione
+![B£LISD_02](https://doc.smeup.com/immagini/B£LISD/BXLISD_02.png)Figura 2 - Gestione Liste di Distribuzione

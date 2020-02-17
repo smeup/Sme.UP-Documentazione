@@ -5,7 +5,7 @@ Il processo di aggiornamento di Loocup viene gestito dal software __SmeupGO__ tr
  - Il servizio deve essere installato sul computer locale e deve essere eseguito con l'account di sistema locale.
    Il suo ruolo e fare da tramite tra SmeupGO e il provider, eseguendo buona parte delle operazioni di update.
 
-![LOSMEG_001](http://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_001.png)
+![LOSMEG_001](https://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_001.png)
 ## Logica di funzionamento
 La procudera di aggiornamento comprede delle fasi distinte : 
 -  verifica
@@ -22,14 +22,14 @@ Le informazioni di tale file vengono confrontati con quelli presenti nel file di
 Il nuovo pacchetto di aggiornamento viene richiesto al provider tramite il servizio di upgrade.
 Se il pacchetto non è stato mai generato dal provider il sistema potrebbe rimanere per un certo tempo in attesa di una risposta dal provider, prima di eseguire il download.
 
-![LOSMEG_002](http://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_002.png)L'operazione di download da parte del servizio non necessita la chiusura eventuali istanze di Loocup e continua anche se SmeupGO dovesse essere chiuso.
+![LOSMEG_002](https://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_002.png)L'operazione di download da parte del servizio non necessita la chiusura eventuali istanze di Loocup e continua anche se SmeupGO dovesse essere chiuso.
 Il file vengono salvati nella cartella : 
  :  : R03      %temp%\Loocup\<VersionNumber>
-![LOSMEG_003](http://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_003.png)Durante la fase di avvio, SmeupGo verifica sempre la presenza e lo stato di eventuali processi di aggiornamento di un'istanza di Loocup.
+![LOSMEG_003](https://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_003.png)Durante la fase di avvio, SmeupGo verifica sempre la presenza e lo stato di eventuali processi di aggiornamento di un'istanza di Loocup.
 ### Aggiornamento
 Una volta terminato il download, a seconda della modalità di aggiornamento, può essere richiesto all'utente se continuare o fermare l'installazione oppure se eseguire l'upgrade al riavvio di SmeupGO.
 
-![LOSMEG_004](http://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_004.png)Nel primo caso i file di aggiornamento vengono spostati in una directory temporanea
+![LOSMEG_004](https://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_004.png)Nel primo caso i file di aggiornamento vengono spostati in una directory temporanea
  :  : R03      %temp%\SmeAgg\<VersionNumber>
 Se si sceglie di rimandare l'aggiornamento al riavvio, i file di aggiornamento vengono copiati in
  :  : R03      <cartella di installazione di loocup>\SmeupGo\UPD
@@ -37,10 +37,10 @@ All'avvio di SmeupGO tali file vengono poi spostati nella directory temporanea, 
 
 In questa fase, nelle schermate di dialogo è possibile vedere le informazioni dell'ultimo upgrade eseguito rispetto a quello in esecuzione in questo momento.
 
-![LOSMEG_007](http://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_007.png)
+![LOSMEG_007](https://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_007.png)
 Durante l'installazione vera e propria viene eseguito un check di consistenza dei file scaricati e, a seconda di quanto contenuto nei parametri di configurazione, può essere eseguito un backup della cartella di installazione di Loocup.
 
-![LOSMEG_005](http://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_005.png)Possono esistere però particolari tipi di aggiornamento in cui viene eseguito comunque un backup di sicurezza.
+![LOSMEG_005](https://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_005.png)Possono esistere però particolari tipi di aggiornamento in cui viene eseguito comunque un backup di sicurezza.
 Se in configurazione è stato però previsto che non vengano mantenuti backup in archivio, il file verrà eliminato all'avvio dello SmeupGO.
 
 
@@ -90,7 +90,7 @@ _7_Attenzione! Essendo silenziati i messaggi di errore, devono essere analizzati
 
 ## Note
 -  Le operazioni di aggiornamento coinvolgono di software; nella barra di stato di SmeupGO viene indicata la versione di ognuna di essi. Questa è un'informazione importante nel caso debbano essere fatte delle segnalazioni.
-![LOSMEG_006](http://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_006.png)-  Il processo di upgrade, aggiorna una sola installazione di Loocup. Se sono installate più istanze di Loocup verrà eseguito l'upgrade all'avvio del relativo SmeupGO.
+![LOSMEG_006](https://doc.smeup.com/immagini/LOSMEG_001/LOSMEG_006.png)-  Il processo di upgrade, aggiorna una sola installazione di Loocup. Se sono installate più istanze di Loocup verrà eseguito l'upgrade all'avvio del relativo SmeupGO.
 - \* Caso limite :  se vengono eseguiti contemporaneamente più SmeupGO, ognuno considererà il processo di upgrade come se fosse relativo a se stesso. L'aggiornamento effettivo riguarderà lo SmeupGO a cui verrà confermato per primo l'esecuzione dell'installazione dell'upgrade e che ha la stessa versione del pacchetto scaricato.
 
 

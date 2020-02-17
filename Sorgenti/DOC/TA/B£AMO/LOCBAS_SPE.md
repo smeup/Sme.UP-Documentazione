@@ -265,9 +265,9 @@ Nella scheda, sotto il cruscotto, sono stati predisposti varie modalità di inte
 Le funzioni di debug di basso livello saltano tutti i controlli su cifratura dei parametri o limiti temporali, ma offrono solo funzionalità cablate :  non è ad esempio possibile richiamare una funzione qualsiasi come se fosse una di test.
 
 Di seguito si può vedere un'esempio di un client che dialoga con il provider in modo corretto
-![LOCBAS_047](http://doc.smeup.com/immagini/LOCBAS_SPE/LOCBAS_047.png)
+![LOCBAS_047](https://doc.smeup.com/immagini/LOCBAS_SPE/LOCBAS_047.png)
 Nell'immagine seguente possiamo vedere la risposta del provider
-![LOCBAS_048](http://doc.smeup.com/immagini/LOCBAS_SPE/LOCBAS_048.png)
+![LOCBAS_048](https://doc.smeup.com/immagini/LOCBAS_SPE/LOCBAS_048.png)
 ### Cosa fare se non si ha una DEV aggiornata?
 Vanno aggiornati i seguenti script di scheda : 
  \* LOCEXD_DBG

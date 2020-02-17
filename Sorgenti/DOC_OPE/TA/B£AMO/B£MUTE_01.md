@@ -5,7 +5,7 @@ Di seguito vengono chiarite le principali funzionalità del Menù Memorizzazioni
 ## Dashboard
 
 Il dashboard è la prima scheda che viene visualizzata. Accedendo al modulo, il sistema mostra in automatico, nella sezione di destra, la parte relativa a questa funzionalità.
-![B£MUTE_001](http://doc.smeup.com/immagini/MBDOC_OPE-B£MUTE_01/BXMUTE_001.png)
+![B£MUTE_001](https://doc.smeup.com/immagini/MBDOC_OPE-B£MUTE_01/BXMUTE_001.png)
 Nel dashboard è possibile visualizzare le statistiche relative alle memorizzazioni.
 
 La ricerca può essere ristretta da due filtri : 
@@ -25,7 +25,7 @@ Le Actions permettono di fare attività di aggiunta, modifica e consultazione de
 
 Nella schermata delle memorizzazioni estese è possibile ricercare una memorizzazione in base alle 4 chiavi con cui esse vengono salvate nel file B£MEDE0F.
 I campi di filtro per Utente e Struttura dipendono dalla scelta effettuata nei campi Tipo Utente e Tipo Struttura.
-![B£MUTE_002](http://doc.smeup.com/immagini/MBDOC_OPE-B£MUTE_01/BXMUTE_002.png)
+![B£MUTE_002](https://doc.smeup.com/immagini/MBDOC_OPE-B£MUTE_01/BXMUTE_002.png)
 Il risultato della ricerca viene mostrato sotto forma di matrice dove, per ogni record corrispondente ai criteri, sono visualizzati l'utente, il nome della memorizzazione, la struttura, il contesto e i dati relativi a data di inserimento e ultima modifica.
 Per ogni record è possibile usare il tasto opzione che permette di accedere alle funzioni disponibili per tale memorizzazione, in particolare : 
 1. Aggiunta :  è possibile aggiungere un record sul B£MEDE0F.
@@ -38,7 +38,7 @@ Per ogni record è possibile usare il tasto opzione che permette di accedere all
 
 Nella schermata delle memorizzazioni video è possibile ricercare una memorizzazione in base alle 2 chiavi con cui esse vengono salvate nel file MEDAV00F.
 Il campi di filtro per Utente dipende dalla scelta effettuata nei campo Tipo Utente.
-![B£MUTE_003](http://doc.smeup.com/immagini/MBDOC_OPE-B£MUTE_01/BXMUTE_003.png)
+![B£MUTE_003](https://doc.smeup.com/immagini/MBDOC_OPE-B£MUTE_01/BXMUTE_003.png)
 Il risultato della ricerca viene mostrato sotto forma di matrice dove, per ogni record corrispondente ai criteri, sono visualizzati l'utente, il contesto e i dati relativi a data di aggiornamento.
 Per ogni record è possibile usare il tasto opzione che permette di accedere alle funzioni disponibili per tale memorizzazione, in particolare : 
 1. Aggiunta :  è possibile aggiungere un record sul MEDAV00F.
@@ -52,6 +52,6 @@ Per ogni record è possibile usare il tasto opzione che permette di accedere all
 
 Nella schermata PER STRUTTURA/CONTESTO è possibile visualizzare la memorizzazione presente per la struttura e contesto selezionati, ovvero la simulazione del pulsante memorizzazione nel contesto/struttura selezionati.
 Il risultato è visualizzato in una matrice, dove vengono mostrate tutte le memorizzazioni corrispondenti
-![B£MUTE_004](http://doc.smeup.com/immagini/MBDOC_OPE-B£MUTE_01/BXMUTE_004.png)
+![B£MUTE_004](https://doc.smeup.com/immagini/MBDOC_OPE-B£MUTE_01/BXMUTE_004.png)
 Per ogni record ci sono 4 possibili tasti opzione; il primo, se attivo, consente di selezionare direttamente la memorizzazione; il secondo consente di accedere alle funzioni di memorizzazione come spiegato precedentemente; il terzo attiva, nella parte sottostante della scheda, il dettaglio della memorizzazione; il quarto, infine, permette di accedere alle note della memorizzazione.
 

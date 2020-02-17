@@ -8,7 +8,7 @@ Per tutte le registrazioni contabili come riferimento temporale viene elaborata 
 
 ## Formato guida
 
-![C5C020_001](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5MS00A/C5C020_001.png)
+![C5C020_001](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5MS00A/C5C020_001.png)
 All'interno del formato guida è necessario impostare i seguenti campi : 
  \* Modalità esecuzione. Questo campo può essere compilato con : 
  \*\* 1 - Stampa ed Esecuzione :  questa modalità consente di ottenere una stampa dei dati estratti, con eventuale segnalazione di errori e dati incompleti, e la popolazione del file dei movimenti San Marino.
@@ -31,7 +31,7 @@ All'interno del formato guida sono disponibili le memorizzazioni che consentono 
 ## Stampa di controllo
 
 Il lancio dell'estrazione movimenti produce una stampa che riporta i dati estratti/estraibili e gli errori eventualmente rilevati : 
-![C5C020_009](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5MS00A/C5C020_009.png)
+![C5C020_009](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5MS00A/C5C020_009.png)
 All'interno della stampa sono riportati : 
  \* Numero movimento San Marino
  \* Numero riga all'intenro della registrazione contabile

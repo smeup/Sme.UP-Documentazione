@@ -1,7 +1,7 @@
 # Rifasatura quantità ordine/contenitori
 Questa funzione può essere chiamata direttamente da voce di menù oppure può essere richiamata dalle azioni utente dell'oggetto ordine di produzione (funzioni "A-") e presenta la quadratura tra le quantità dell'ordine di produzione e quelle dei suoi contenitori.
 ### Formato video
-![P5PMFP_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_P5MFP10/P5PMFP_05.png)Dato un ordine il programma confronta la quantità ordinata da testata ordine, la quantità calcolata dai contenitori : 
+![P5PMFP_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_P5MFP10/P5PMFP_05.png)Dato un ordine il programma confronta la quantità ordinata da testata ordine, la quantità calcolata dai contenitori : 
  \* totale pianificata
  \* totale wip
  \* in ordine (versata + totale pianificata + totale wip)

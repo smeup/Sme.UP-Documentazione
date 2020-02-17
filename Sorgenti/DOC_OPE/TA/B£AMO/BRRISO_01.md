@@ -14,10 +14,10 @@ Le risorse possono essere :
 **3.** risorse generiche, senza una natura (modulo BRRISO) .
 
 Per ciascuna di queste tre categorie, è stato predisposto un modulo a esso dedicato
-![BRRISO_001](http://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_001.png)
+![BRRISO_001](https://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_001.png)
 All'interno di ciascuna "natura", le risorse sono comunque suddivise per tipo risorsa. La scelta del tipo risorsa che si vuole consultare può essere fatta tramite la voce di menù "cambio risorsa" (o in alternativa, cambio macchina e cambio centro di lavoro, a seconda che ci si trovi nel modulo BRRISO, BRRISOM o BRRISOC). Alcuni esempi : 
 
-![BRRISO_002](http://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_002.png)![BRRISO_003](http://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_003.png)
+![BRRISO_002](https://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_002.png)![BRRISO_003](https://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_003.png)
 # Il dashboard del modulo
 
 Indipendentemente dalla natura di una risorsa, sia essa quindi una macchina, un CDL o una risorsa generica, la prima voce di menù che si trova entrando nel modulo, permette di accedere al suo cruscotto.
@@ -30,13 +30,13 @@ Sono state predisposte diverse tipologie di navigazione, che possono variare a s
 Le prime due sono quelle generiche comuni a tutte le tipologie, e permettono di eseguire le ricerche o per codice o per descrizione mentre la terza è invece per gruppo risorsa. Se il tipo di risorsa prevede in tabella BRR anche una risorsa di appartenenza, allora sarà possibile eseguire un surf anche per questo.
 Come tutti i surf,  la corrispondente scheda di navigazione si presenta strutturata, come già ricordato sopra, con le tre sezioni.
 
-![BRRISO_004](http://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_004.png)
+![BRRISO_004](https://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_004.png)
 Ciascuno di questi filtri è dotato di una documentazione che ne spiega il significato, l'utilità e lo scopo. A questa si può accedere premendo il tasto funzionale F1 con il cursore del mouse posizionato sul filtro specifico : 
 
 # Il popup delle opzioni :  il menù di una risorsa
 
 Dopo aver confermato i filtri nell'apposita sezione, è possibile visualizzare l'elenco delle risorse nella parte centrale della scheda. La matrice che viene caricata, indipendentemente dallo schema scelto e dal tipo di SURF,  presenta sempre una colonna con una piccola icona che, se cliccata, permette di visualizzare il popup delle risorse : 
 
-![BRRISO_005](http://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_005.png)
+![BRRISO_005](https://doc.smeup.com/immagini/MBDOC_OPE-BRRISO_01/BRRISO_005.png)
 Questa icona permette di accedere direttamente al menù di popup di una risorsa, nel quale sono riportate tutte le azioni di gestione e di interrogazione.
 

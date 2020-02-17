@@ -4,7 +4,7 @@ E' possibile fare in modo che il report di una certa matrice sia corredato di un
  \* agendo sulla chiamata del servizio all'interno dello script
 Nel caso in cui la matrice sia dotata di una copertina all'interno della linguetta che identifica la sezione contenente la matrice compare una piccola immagine rossa come mostrato nell'immagine : 
 
-![LOCREP_004](http://doc.smeup.com/immagini/LOCREP_COP/LOCREP_004.png)
+![LOCREP_004](https://doc.smeup.com/immagini/LOCREP_COP/LOCREP_004.png)
 All'interno di una copertina è possibile definire : 
  \* Titolo uno
  \* Titolo due
@@ -16,7 +16,7 @@ All'interno di una copertina è possibile definire :
  \* Attributo due
  \* Attributo tre
 
-![LOCEXB_091](http://doc.smeup.com/immagini/LOCREP_COP/LOCEXB_091.png)
+![LOCEXB_091](https://doc.smeup.com/immagini/LOCREP_COP/LOCEXB_091.png)
 Per definire la copertina a livello di servizio è necessario valorizzare i campi della copy
  \* £JaxT01 TITOLO 1
  \* £JaxT02 TITOLO 2

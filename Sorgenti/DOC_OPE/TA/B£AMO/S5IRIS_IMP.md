@@ -13,10 +13,10 @@ Esso contiene una stringa di 200 bytes, i cui vari sottocampi costituiscono le i
 
 La richiesta dell'elemento di BCD è il seguente
 
-![FIG_056](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_IMP/FIG_056.png)
+![FIG_056](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_IMP/FIG_056.png)
 Successivamente si presenta la richiesta dei parametri di lancio.
 
-![FIG_057](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_IMP/FIG_057.png)
+![FIG_057](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_IMP/FIG_057.png)
  In questo formato si impostano i campi : 
 -  Scenario di input (obbligatorio)
 -  Data schedulazione (obbligatoria) - è l'oggi della schedulazione, da cui si parte per caricare le risorse :  si  può impostare una data anche in forma implicita (&xxx)

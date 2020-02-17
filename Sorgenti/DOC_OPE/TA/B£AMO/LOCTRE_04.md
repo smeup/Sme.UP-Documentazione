@@ -1,7 +1,7 @@
 
 Cliccando con il tasto destro sulla linguetta della scheda contenente un albero si accede al menù di PopUp associato all'albero : 
 
-![LOCTRE_028](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_04/LOCTRE_028.png)
+![LOCTRE_028](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_04/LOCTRE_028.png)
 All'interno di questo menù le voci specifiche dell'albero sono : 
 
   \* Visualizza come
@@ -13,5 +13,5 @@ Per gli altri comandi del PopUp di scheda si veda :
 
 Selezionando un nodo o una foglia dell'albero è possibile, cliccando con il tasto destro del mouse, accedere al menù di popup dell'oggetto del nodo : 
 
-![LOCTRE_029](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_04/LOCTRE_029.png)
+![LOCTRE_029](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_04/LOCTRE_029.png)
 Il contenuto di questo menù di PopUp varia al variare dell'oggetto contenuto nel nodo o nella foglia.

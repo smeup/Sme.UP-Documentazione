@@ -1,15 +1,15 @@
 La generazione di un report è soggetta alla valorizzazione di alcuni attributi di setup che consentono di personalizzare l'output.
 Per visualizzare e modificare i valori standard contenuti nel setup del report è necessario entrare nella scheda dell'oggetto J3 e scegliere come forma grafica FRM.REP : 
 
-![LOCREP001](http://doc.smeup.com/immagini/LOCREP_STP/LOCREP001.png)
+![LOCREP001](https://doc.smeup.com/immagini/LOCREP_STP/LOCREP001.png)
 All'interno del tab 'Report tabella' sono riportati i setup preconfigurati disponibili. Il setup utilizzato come default nella generazione di report di matrici è l'A01. Selezionandolo e scegliendo il tab 'Script' è possibile visualizzare lo script che definisce i setup preconfigurati : 
 
-![LOCREP_002](http://doc.smeup.com/immagini/LOCREP_STP/LOCREP_002.png)
+![LOCREP_002](https://doc.smeup.com/immagini/LOCREP_STP/LOCREP_002.png)
 Da qui è posibile selezionare il pulsante 'Gestione documento' ed entrare in modifica dello script. Per individuare i record specifici che definiscono il setup standard è necessario cercare all'interno delle righe che iniziano con il comando  :  : G.FRM.REP e indagare con il wizard il setup con Name='A01'.
 
 ## Il Setup del report
 
-![setupREP](http://doc.smeup.com/immagini/LOCREP_STP/setupREP.png)
+![setupREP](https://doc.smeup.com/immagini/LOCREP_STP/setupREP.png)
 All'interno del setup le voci di parametrizzazione sono organizzate in 4 sezioni : 
 
 - File
@@ -51,7 +51,7 @@ All'interno del setup le voci di parametrizzazione sono organizzate in 4 sezioni
 -- Logo in basso
 
 
-![LOCREP_003](http://doc.smeup.com/immagini/LOCREP_STP/LOCREP_003.png)
+![LOCREP_003](https://doc.smeup.com/immagini/LOCREP_STP/LOCREP_003.png)
 
 - Contenuto
 -- Righe lettura facilitata :  con righe alternate bianche e grigie (valido se disabilitata colorazione oggetti)
@@ -82,11 +82,11 @@ Es :  < FRM Type="REP" PLGO1="AAA" PLGO2="BBB" Info1="CCCC" Info2="DDDD" Title="
 
 ### Livelli di grigio nei totali
 Come abbiamo sulla matrice diversi livelli di colorazione dei subtotali, anche per il report che verra' generato a partire da essa, saranno presenti varie tonalita' di grigio, per distinguere ogni raggruppamento, e quindi riconoscere i totali dedicati ad un campo specifico.
-![03COMREP01](http://doc.smeup.com/immagini/LOCREP_STP/03COMREP01.png)Qui sotto vediamo un esempio con le 3 tonalita' di grigio presenti legate, al tipo oggetto, alla data fattura subito dopo e alla fattura specifica : 
-![03COMREP02](http://doc.smeup.com/immagini/LOCREP_STP/03COMREP02.png)
+![03COMREP01](https://doc.smeup.com/immagini/LOCREP_STP/03COMREP01.png)Qui sotto vediamo un esempio con le 3 tonalita' di grigio presenti legate, al tipo oggetto, alla data fattura subito dopo e alla fattura specifica : 
+![03COMREP02](https://doc.smeup.com/immagini/LOCREP_STP/03COMREP02.png)
 ### Totali dei raggruppamenti
 I totali nei vari raggruppamenti sono impostati di default in alto, sull'intestazione del raggruppamento. Questo per facilitare la lettura dei report.
-![03COMREP03](http://doc.smeup.com/immagini/LOCREP_STP/03COMREP03.png)E' inoltre possibile segnalare i subtotali di una colonna tramite evidenziazioni diverse. Nell'esempio sopra e' possibile vedere il primo importo legato al Tipo oggetto con un importo totale cerchiato in verde, un totale sul conto contabile cerchiato in rosa e dei totali sul raggruppamento della data aggiornamento segnati in viola. Comunque se si volesse e' ancora possibile indicare nel setup del componente REP se porre i subtotali in fondo ai raggruppamenti.
+![03COMREP03](https://doc.smeup.com/immagini/LOCREP_STP/03COMREP03.png)E' inoltre possibile segnalare i subtotali di una colonna tramite evidenziazioni diverse. Nell'esempio sopra e' possibile vedere il primo importo legato al Tipo oggetto con un importo totale cerchiato in verde, un totale sul conto contabile cerchiato in rosa e dei totali sul raggruppamento della data aggiornamento segnati in viola. Comunque se si volesse e' ancora possibile indicare nel setup del componente REP se porre i subtotali in fondo ai raggruppamenti.
 
 ### Miglioramenti alle formule, gestione di N/0 e 0/0
 E' stata inserita la gestione del valore infinito (N/0) ed indeterminato (0/0) nei campi della matrice. Anche nella produzione successiva di report su matrici viene gestita tale casistica; nel caso il valore di una cella sia 'infinito' la cella si colorera' di arancio ed apparira' '- -' mentre nel caso sia 'indeterminato' nella la cella diverra' di colore verde ed apparira' il valore ' '(blanks)

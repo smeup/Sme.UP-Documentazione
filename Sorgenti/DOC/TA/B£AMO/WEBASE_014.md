@@ -7,17 +7,17 @@ Tipicamente questa necessità, la cui soluzione ha carattere sistemistico, viene
 Accedere alla pagina amministrativa di payara;
 
 Creare un virtual server impostando in Hosts l'indirizzo/nome del server e selezionando il/i listeners (http/https) da utilizzare:
-![WEBASE_057](http://doc.smeup.com/immagini/WEBASE_014/WEBASE_057.png)
+![WEBASE_057](https://doc.smeup.com/immagini/WEBASE_014/WEBASE_057.png)
 Installare (deploy) l'applicazione web selezionando il Virtual Server desiderato (in questo caso quello precedentemente creato) : 
-![WEBASE_058](http://doc.smeup.com/immagini/WEBASE_014/WEBASE_058.png)
+![WEBASE_058](https://doc.smeup.com/immagini/WEBASE_014/WEBASE_058.png)
 Modificare l'istanza del virtual server precedentemente creato, associandogli l'applicazione appena "deployata" selezionandola da "Default Web Module" : 
-![WEBASE_059](http://doc.smeup.com/immagini/WEBASE_014/WEBASE_059.png)
+![WEBASE_059](https://doc.smeup.com/immagini/WEBASE_014/WEBASE_059.png)
 Riavviare il servizio payara;
 
 Pulire la cache del browser (CTRL+F5);
 
 Accedere all'applicazione web senza digitare il contesto : 
-![WEBASE_060](http://doc.smeup.com/immagini/WEBASE_014/WEBASE_060.png)
+![WEBASE_060](https://doc.smeup.com/immagini/WEBASE_014/WEBASE_060.png)
 verificare che si venga ridirezionati nell'applicazione desiderata : 
-![WEBASE_061](http://doc.smeup.com/immagini/WEBASE_014/WEBASE_061.png)
+![WEBASE_061](https://doc.smeup.com/immagini/WEBASE_014/WEBASE_061.png)
 N.B. : la documentazione corrente deriva da documentazione ufficiale reperibile dai siti ufficiali.

@@ -6,13 +6,13 @@ L'elenco dei Preferiti contiene Oggetti e Funzioni utilizzati con maggiore frequ
 
 # Visualizzare/Gestire l'elenco dei Preferiti
 Per accedere all'elenco dei preferiti selezionare dal menu **Strumenti** la voce **Preferiti - Visualizza
-![LOCPRE_01](http://doc.smeup.com/immagini/MBDOC_OPE-LOCPRE/LOCPRE_01.png)
+![LOCPRE_01](https://doc.smeup.com/immagini/MBDOC_OPE-LOCPRE/LOCPRE_01.png)
 oppure cliccare sul pulsante "carrello"  della Barra degli strumenti.
-![LOCPRE_02](http://doc.smeup.com/immagini/MBDOC_OPE-LOCPRE/LOCPRE_02.png)
+![LOCPRE_02](https://doc.smeup.com/immagini/MBDOC_OPE-LOCPRE/LOCPRE_02.png)
 La finestra dei Preferiti è organizzata in due aree distinte : 
  \* Funzioni :  contiene l'elenco delle funzioni di uso comune
  \* Oggetti :  contiene l'elenco degli oggetti di uso comune dell'utente.
-![LOCPRE_03](http://doc.smeup.com/immagini/MBDOC_OPE-LOCPRE/LOCPRE_03.png)
+![LOCPRE_03](https://doc.smeup.com/immagini/MBDOC_OPE-LOCPRE/LOCPRE_03.png)
 Ogni elenco è organizzato in modo gerarchico secondo la logica dell'albero con nodi (cartelle) e foglie (elementi).
 
 ## Funzioni di gestione
@@ -36,4 +36,4 @@ Per aggiungere un elemento all'albero dei preferiti è sufficiente aprire il pop
  \* aggiungi oggetto a preferiti :  apre la finestra di gestione degli oggetti preferiti nella quale è possibile specificare il nome dell'elemento e la cartella al quale deve essere aggiunto;
  \* aggiungi oggetto a gruppo XXXX :  aggiunge l'oggetto alla cartella XXXX.
 
-![LOCPRE_04](http://doc.smeup.com/immagini/MBDOC_OPE-LOCPRE/LOCPRE_04.png)
+![LOCPRE_04](https://doc.smeup.com/immagini/MBDOC_OPE-LOCPRE/LOCPRE_04.png)

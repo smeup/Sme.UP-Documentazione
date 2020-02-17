@@ -1,5 +1,5 @@
 ## Formato di lancio
-![CQ_EART_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_02.png)
+![CQ_EART_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_02.png)
 ## Immissione dati ente / articolo
 L'immissione dati Ente/Articolo viene utilizzata nella fase iniziale del rapporto tra l'azienda e il fornitore oppure nei casi di registrazione di prodotti nuovi, per definire uno skill di identificazione.
 I dati che vengono inseriti nel modulo, sono in genere il frutto di indagini conoscitive che vengono condotte dall'azienda tramite schede, spedite al fornitore, o verifiche  ispettive, allo scopo di capire le principali caratteristiche legate alla capacità e alle qualità del fornitore.
@@ -15,7 +15,7 @@ Collegandosi con la Tabella che gestisce le classi di abilitazione, si sceglie o
 È da notare che il programma permette di specificare tramite la tabella delle classi di abilitazione, le classi funzionali ammesse nelle due diverse situazioni :  normale ed in free pass. La struttura non è comunque rigida :  se l'utente lo desidera (e possiede validi motivi per farlo) può forzare l'abilitazione di un fornitore alla fornitura di prodotti di classe funzionale non ammessa.
 
 ### Formato inserimento classe di abilitazione
-![CQ_EART_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_03.png)
+![CQ_EART_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_03.png)
 _2_Nota 1; l'informazione sulla classe di abilitazione del fornitore è impiegata per l'impostazione del piano di controllo del prodotto acquistato.
 Il programma quando definisce i parametri per i PdC e i Livelli da assegnare dei lotti confronta la classe funzionale dell'articolo con il  livello di abilitazione assegnato al fornitore e decide il piano sulla base delle tabelle impostate.
 
@@ -26,11 +26,11 @@ Si pensi infatti ad un'azienda che gestisce svariati fornitori, da ciascuno dei 
 Il Q9000 gestendo questo sistema di profili generali, sfoltisce in modo drastico il lavoro :  l'Ente della qualità a cui è affidato il compito di gestire il Vendor Rating non deve far altro che adattare al caso specifico lo skill creato per il livello generale.
 
 ### Formato inserimento dati ente / articolo
-![CQ_EART_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_04.png)
+![CQ_EART_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_04.png)
 Successivamente si può passare all'inserimento dei dati Fornitore / Articolo / Fase di lavorazione + Esponente di modifica con tutte le necessarie documentazioni sulle specifiche e sulle condizioni di fornitura, dichiarando in questo modo l'"omologazione" del fornitore.
 Il programma permette l'inserimento nell'archivio delle informazioni sul Free Pass, sulla prima fornitura, sulla forzatura,  sulla classe di  abilitazione, etc. Naturalmente l'inserimento in archivio dei dati relativi ad un fornitore avviene anche in modo automatico al momento dell'ingresso del lotto in base a dei valori di default. Quando entra un lotto per cui non esiste la combinazione Fo / Ar / Fase+EM, il programma cerca in archivio se esiste la documentazione relativa al fornitore; se esiste crea in automatico il record segnalando che il fornitore non era omologato e quindi assegnandogli un Piano di Campionamento opportuno. Il flusso operativo seguito dal programma è schematizzabile in questo modo : 
 
-![CQ_EART_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_05.png)
+![CQ_EART_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_05.png)
  \* Il programma informa anzitutto sulla abilitazione o meno alla fornitura dell'articolo in oggetto da parte del fornitore, confrontando la classe dell'articolo con quella associata al livello di abilitazione.
  \* Avverte se il fornitore è abilitato o meno alla fornitura in Free Pass di un certo prodotto nel caso in cui si imposti la condizione di fornitura in Free Pass (in base alla tabella CQQ della classe funzionale del prodotto viene fissato il piano di campionamento adeguato).
  \* Il programma gestisce le prime forniture condizionando il livello di controlli assegnati ad un certo fornitore :  le tabelle dei campionamenti forniscono il Piano ed il Livello di Campionamento previsti per la prima fornitura di un dato prodotto appartenente ad una determinata classe funzionale. Naturalmente ciò comporta che per un dato fornitore si potranno avere trattamenti diversi per la prima fornitura di ciascuno degli articoli da lui forniti. È possibile stabilire l'arco di tempo in cui è valido il trattamento di prima fornitura indicando la data di termine e il numero di forniture che si decide di far rientrare in questa categoria.
@@ -39,11 +39,11 @@ Il programma permette l'inserimento nell'archivio delle informazioni sul Free Pa
  \* Il campo "Legame FO/AR-Ciclo Coll." consente di personalizzare il ciclo di collaudo standard mediante la selezione o la modifica delle fasi in esso presenti.
 Vediamo in dettaglio tramite i seguenti Flow Chart come il programma gestisce l'assegnazione dei Piani di Campionamento  e dei Free Pass per un dato ordine di acquisto, appoggiandosi al modulo precedente.
 
-![CQ_EART_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_06.png)
-![CQ_EART_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_07.png)
-![CQ_EART_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_08.png)
-![CQ_EART_09](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_09.png)
-![CQ_EART_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_10.png)
+![CQ_EART_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_06.png)
+![CQ_EART_07](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_07.png)
+![CQ_EART_08](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_08.png)
+![CQ_EART_09](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_09.png)
+![CQ_EART_10](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_10.png)
 _2_Nota; se nel modulo di gestione dei dati si impongono consegne in Free Pass a un fornitore che non ne è abilitato, e non si opera una forzatura, quando si cerca di utilizzare il modulo di "Dichiarazione di Collaudo" per quel fornitore, il programma, eseguendo una serie di verifiche a diversi livelli (fornitore, fornitore-articolo,fornitore-articolo-esponente di modifica), avverte dell'incompatibilità riscontrata e impedisce di eseguire operazioni senza aver impostato una forzatura.
 
 Esistono messaggi di controllo che avvisano riguardo alle condizioni di abilitazione e alla forzatura sull'abilitazione : 
@@ -54,10 +54,10 @@ Esistono messaggi di controllo che avvisano riguardo alle condizioni di abilitaz
  \* La stampa del ciclo di collaudo deve essere sempre effettuata al livello di modifica del lotto in questione o mediante scelta del livello da maschera iniziale.Tutte le fasi con livello di modifica minori o uguali alla scelta andranno a ricoprire le omologhe
  \* Se una fase del ciclo non è rilasciata, viene stampata la fase precedente come livello di modifica e viene evidenziata con il commento :  "Fase Non Rilasciata" per il livello assunto.
 
-![CQ_EART_11](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_11.png)
-![CQ_EART_12](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_12.png)
-![CQ_EART_13](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_13.png)
-![CQ_EART_14](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_14.png)
+![CQ_EART_11](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_11.png)
+![CQ_EART_12](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_12.png)
+![CQ_EART_13](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_13.png)
+![CQ_EART_14](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR10/CQ_EART_14.png)
 ### manutenzione dati ente / articolo
 Lo stesso programma può essere utilizzato in fase di revisione quando nasce l'esigenza di aggiornare lo skill relativo ad un fornitore.
 È possibile modificare : 

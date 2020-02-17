@@ -8,10 +8,10 @@ Esistono sostanzialmente due tipi di matrici, differenziate dal fatto che siano 
 
 - "**Matrice di visualizzazione**" :  non modificabile, rappresenta semplicemente i dati in forma tabellare.
 
-![LOCEXB_077](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_077.png)
+![LOCEXB_077](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_077.png)
 - "**Matrice di aggiornamento**" :  contentente uno o più campi modificabili (sono definiti dallo sviluppatore).
 
-![LOCEXB_048](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_048.png)E' possibile vedere dall'immagine quando un campo è modificabile :  cliccando all'interno di una cella della matrice, lo sfondo di questa diventerà bianco e il testo sarà evidenziato in blu.
+![LOCEXB_048](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_048.png)E' possibile vedere dall'immagine quando un campo è modificabile :  cliccando all'interno di una cella della matrice, lo sfondo di questa diventerà bianco e il testo sarà evidenziato in blu.
 
 ## Iniziare con le matrici
 
@@ -27,7 +27,7 @@ La tipizzazione di una matrice può essere per colonna o per cella; può essere 
 ### Terminologia ed Elementi grafici
 Una matrice è composta da vari elementi, quali colonne, righe, celle, testate delle colonne e altre parti opzionali. Di conseguenza, è necessario adottare un lessico comune per la totale comprensione del componente stesso.
 
-![LOCEXB_049](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_049.png)
+![LOCEXB_049](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_049.png)
 **Colonna**
 Insieme di celle sviluppato in verticale.
 
@@ -44,9 +44,9 @@ E' un pulsante presente all'interno dell'intestazione della colonna che permette
 **Zona per i raggruppamenti (opzionale)**
 E' un'area grigia presente sopra l'area delle intesazioni. Se non è visualizzata basterà cliccare con il tasto destro del mouse su una qualsiasi intestazione di clonna e scegliere Raggruppamenti -> Abilita
 
-![LOCEXB_053](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_053.png)Questa parte del componente matrice consente di raggruppare la matrice in base ai valori presenti nelle colonne. Per fare questo è sufficiente trascinare le intestazioni delle colonne in questa zona definendo in questo modo dei gruppi di record : 
+![LOCEXB_053](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_053.png)Questa parte del componente matrice consente di raggruppare la matrice in base ai valori presenti nelle colonne. Per fare questo è sufficiente trascinare le intestazioni delle colonne in questa zona definendo in questo modo dei gruppi di record : 
 
-![LOCEXB_054](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_054.png)
+![LOCEXB_054](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_054.png)
 **Cella**
 Le celle possono contenere testi (stringhe alfabetiche o alfanumeriche), numeri oppure oggetti SmeUP. Nel caso in cui la cella contenga un oggetto SmeUP è possibile riportare alla sua sinistra anche l'icona associata all'oggetto. La cella può anche contenere elementi grafici quali barre o diagrammi a torta.
 
@@ -62,12 +62,12 @@ In quest'area sono riportati tutti i pulsanti disponibii per la matrice visualiz
 Attraverso questa funzione è possibile caricare un numero limitato di record all'apertura di una matrice. La Paginazione è in genere attiva per matrici contenenti un numero molto elevato di record e consente di facilitarne e velocizzarne il caricamento.
 Nei casi in cui sia attiva la funzionalità della paginazione, è evidenziata una barra di stato di colore rosso nella parte superiore della matrice. Questo segnala all'utente che non tutti i record che compongono la matrice sono stati caricati e visualizzati.
 
-![LOCEXB_082](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_082.png)
+![LOCEXB_082](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_082.png)
 La barra segnaletica rossa è visualizzata finchè non sono stati caricati tutti i record.
 Per caricare e visualizzare ulteriori record è sufficiente selezionare il pulsante Page Down o digitare il pulsante 'Segue' posto ai piedi della matrice.
 Attenzione :  il bottone viene visualizzato solo se il fuoco è applicato alla matrice.
 
-![LOCEXB_081](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_081.png)
+![LOCEXB_081](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_081.png)
 Una particolarità della paginazione, riguarda l'impostazione del limite iniziale di dati caricabili. Sostanzialmente il numero di righe caricate per ogni pagina è definito dallo sviluppatore a livello di impostazione iniziale della matrice.
 Lo standard, inoltre, prevede che ogni paginazione carichi il doppio dei dati della paginazione precedente. Ovvero, se su una matrice è stato definito un caricamento iniziale di 1000 righe, paginando verrebbe caricato un numero doppio di record, e quindi altri 2000 record, alla successiva paginazione invece sarebbero 4000 e così via.
 
@@ -75,7 +75,7 @@ Lo standard, inoltre, prevede che ogni paginazione carichi il doppio dei dati de
 
 Attraverso le voci presenti all'interno del PopUp è possibile esportare i dati visualizzati in altri formati : 
 
-![LOCEXB_062](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_062.png)
+![LOCEXB_062](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_062.png)
 Le esportazioni disponibili sono visualizzate all'interno della voce "Visualizza come" del popup della matrice stessa. Le esportazioni disponibili sono : 
 
 - Excel
@@ -89,8 +89,8 @@ Le esportazioni disponibili sono visualizzate all'interno della voce "Visualizza
 All'interno della matrice sono disponibili diversi popup che variano in funzione del punto in cui vengono chimati. Abbiamo infatti un popup generico di matrice, il popup di colonne, il popup di riga, ecc.
 Per accedere al popup generale della matrice è sufficiente cliccare con il tasto destro del mouse sul tab della matrice o selezionare il relativo pulsante : 
 
-![LOCEXB_093](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_093.png)
-![LOCEXB_092](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_092.png)
+![LOCEXB_093](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_093.png)
+![LOCEXB_092](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_092.png)
 Le funzioni disponibili per l'utente all'interno del popup della matrice sono : 
  \* Aggiorna. Aggiorna l'intera sezione in cui è contenuta la matrice.
  \* Ricarica dati. Ricarica i dati visualizzati all'intenro della matrice.
@@ -127,10 +127,10 @@ E' possibile associare a ogni matrice più setup utente.
 E' possibile accedere al Gestore dei setup tramite il comando F17, oppure selezionando all'interno del popup di matrice 'Impostazioni >> Setup utente >> Gestione' o ancora premendo il pulsante apposito.
 Il gestore dei setup si presenta in questo modo : 
 
-![LOCEXB_064](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_064.png)
+![LOCEXB_064](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_064.png)
 Nella parte superiore vengono elencati i setup definiti dall'utente se presenti, mentre dal pulsante delle opzioni a destra è possibile agire sui setup creandoli, modificandoli, cancellandoli, ecc. Per creare un nuovo setup è necessario selezionare l'opzione0 'Aggiunta'; così facendo si aprirà la guida per la parametrizzazione del setup : 
 
-![LOCEXB_065](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_065.png)
+![LOCEXB_065](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_065.png)
 Come è possibile vedere, la guida per la definizione del setup si compone di più schede :  vediamo le principali impostazioni per la creazione del setup limitandoci a considerare le caratteristiche relative all'interfaccia grafica ed escludendo le personalizzazioni tecniche. La nostra analisi si limiterà, quindi, al contenuto della prima scheda della guida.
 
 - Mostra totali :  è possibile richiedere la visualizzazione dei totali per le colonne contenenti dei numeri. I valori possibili sono Yes/No, il valore di default è No. Se è richiesta la visualizzazione dei totali è possibile cliccare con il tasto dx sull'intestazione delle colonne contenenti valori numerici e visualizzare le 'Totalizzazioni'. Il risultato dell'operazione compare in una barra ai piedi della matrice.
@@ -140,7 +140,7 @@ Come è possibile vedere, la guida per la definizione del setup si compone di pi
 - Mostra griglia :  permette di visualizzare o meno la griglia della matrice. I valori possibili sono Yes/No. Il valore di default è Yes.
 
 
-![LOCEXB_073](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_073.png)
+![LOCEXB_073](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_073.png)
 
 - Mostra intestazioni colonne :  permette di visualizzare o meno le intestazioni delle colonne. I valori possibili sono Yes/No. Il valore di default è Yes.
 
@@ -149,12 +149,12 @@ Come è possibile vedere, la guida per la definizione del setup si compone di pi
 - Mostra colonna indici :  se impostato sul SI permette di inserire una colonna iniziale che riporta un numero progressivo per ogni riga :  in questo modo è possibile contare i record presenti. I valori possibili sono Yes/No. Il valore di default è No.
 
 
-![LOCEXB_075](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_075.png)
+![LOCEXB_075](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_075.png)
 
 - Evidenzia record corrente :  permette di evidenziare o meno il record attualmente attivo. I valori possibili sono Yes/No. Il valore di default è Yes.
 
 
-![LOCEXB_078](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_078.png)
+![LOCEXB_078](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_078.png)
 
 - Mostra icone :   questo attributo abilita /disabilita la visualizzazione delle icone nella matrice. I valori possibili sono Yes/No. Il valore di default è No.
 - Mostra le icone di testata :  questo attributo abilita /disabilita la visualizzazione delle icone nella testata delle colonne della matrice. I valori possibili sono Yes/No. Il valore di default è No.
@@ -166,7 +166,7 @@ Come è possibile vedere, la guida per la definizione del setup si compone di pi
 - Colori righe alternate :  permette di colorare in modo alternato le righe : 
 
 
-![LOCEXB_066](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_066.png)
+![LOCEXB_066](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_066.png)
 
 - Dimensione FONT :  definisce la dimensione del font. Non è obbligatorio, il default segue le impostazioni del video.
 - Autofit colonne :  permette di variare la larghezza delle colonne adattandola al contenuto.
@@ -175,7 +175,7 @@ Come è possibile vedere, la guida per la definizione del setup si compone di pi
 
 Impostati i settaggi desiderati dall'utente è possibile confermare facendo click su OK. A questo punto comparirà la schermata dei parametri del salvataggio : 
 
-![LOCEXB_067](http://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_067.png)
+![LOCEXB_067](https://doc.smeup.com/immagini/MBDOC_OPE-LOCEXB_A1/LOCEXB_067.png)
 Nel campo 'Codice' è possibile indicare il nome desiderato per il salvataggio. Confermando apparirà nella zona sottostante la matrice un pulsante con il nome assegnato al setup. Premendo questo pulsante è possibile visualizzare la matrice con il settaggio definito. Per ritornare al settaggio di default è sufficiente cliccare sul pulsante 'Default'.
 
 Per modificare un setup è possibile aprire il Gestore dei setup, selezionare il setup che si vuole modificare e quindi premere 'Modifica' nella pulsantiera di destra.

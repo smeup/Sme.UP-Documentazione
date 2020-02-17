@@ -8,7 +8,7 @@ L'installazione e l'avvio di un Looc.Up in modalità server consente quindi di c
 Una installazione di tipo client-server ha una struttura descritta dalla seguente figura : 
 
 
-![LOCBAS_029](http://doc.smeup.com/immagini/LOCBAS_SER/LOCBAS_029.png)
+![LOCBAS_029](https://doc.smeup.com/immagini/LOCBAS_SER/LOCBAS_029.png)
 
 Gli elementi caratteristici di tale struttura sono.
 

@@ -2,9 +2,9 @@
 Per ogni singolo dipendente (non solo dipendenti in quanto la gestione del tipo e codice permette l'abbinamento di altre entità) viene definita una scheda identificativa contenente tutti i dati propri di ogni ente in definizione.
 
 ## Formato guida
-![CQ_PERS_93](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_93.png)
+![CQ_PERS_93](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_93.png)
 ## Formato dettaglio
-![CQ_PERS_94](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_94.png)
+![CQ_PERS_94](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_94.png)
 Con la gestione del formato di dettaglio sono documentati i riferimenti al passato (Ditta di provenienza, Mansione precedente), le coordinate presenti (Mansione attuale, Centro di lavoro) e le prospettive future (Mansione futura programmata, condizioni di promuovibilità).
  \* _2_Mansione attuale, precedente, futura sono tabellati CQ\*DA
  \* _2_Centro di Lavoro, (archivio)
@@ -20,7 +20,7 @@ Ad esempio :
 
 ### Indici di posizione
 Possono inoltre essere analizzati gli indici di posizione, la scelta presenta un consuntivo dei JNDS ottenuti dal dipendente per diversi profili ad esso legati
-![CQ_PERS_95](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_95.png)
+![CQ_PERS_95](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_95.png)
 Nella colonna dell'aspettativa viene riportato per ogni voce di profilo il valore del JNDS attribuito al modello ideale.
 Accanto sono riportati i valori iniziali e attuali del JNDS assegnati al singolo dipendente.
 Sono il risultato dei miglioramenti ( o peggioramenti) conseguiti in seguito agli addestramenti a cui il dipendente è stato chiamato a partecipare per i diversi campi di competenza che lo riguardano.
@@ -31,13 +31,13 @@ Ad esempio per il profilo di collaudatore il dipendente in questione è stato va
 
 ### Corsi seguiti
 Si possono listare tutti i corsi a cui ha partecipato con la possibilità di entrare nel dettaglio di ogni corso per analizzare i dati di partecipazione
-![CQ_PERS_96](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_96.png)
+![CQ_PERS_96](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_96.png)
 _1_Dettaglio di un corso
-![CQ_PERS_97](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_97.png)In base all'ente di riferimento ed al corso selezionato vengono listati i dettagli di partecipazione al corso stesso. La lista iniziale comprende i dati relativi alla data del corso, al profilo di posizione. Tutti i dettagli di partecipazione al corso sono visualizzabili accedendo al dettaglio della registrazione di partecipazione.
+![CQ_PERS_97](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_97.png)In base all'ente di riferimento ed al corso selezionato vengono listati i dettagli di partecipazione al corso stesso. La lista iniziale comprende i dati relativi alla data del corso, al profilo di posizione. Tutti i dettagli di partecipazione al corso sono visualizzabili accedendo al dettaglio della registrazione di partecipazione.
 
 ### Costi sostenuti
 La consuntivazione delle ore spese in addestramento e i costi collegati sono consultabili selezionando la voce "Costi"
-![CQ_PERS_98](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_98.png)
+![CQ_PERS_98](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_98.png)
 ### Richiesta d'intervento
 La selezione permette di emettere una richiesta di intervento, specificando gli obbiettivi, ad esempio si può emettere una azione correttiva di questo tipo
-![CQ_PERS_99](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_99.png)
+![CQ_PERS_99](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQGP30/CQ_PERS_99.png)

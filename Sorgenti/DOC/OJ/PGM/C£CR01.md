@@ -7,10 +7,10 @@ Si possono anche gestire informazioni multiple della stessa natura oppure inform
 ## Formato guida
 Per attivare la gestione parametri si parte dal formato seguente : 
 
-![C£CR01_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£CR01/CXCR01_01.png)
+![C£CR01_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£CR01/CXCR01_01.png)
 deve essere inserito prima la categoria parametri che determina l'oggetto la coppia di oggetti di riferimento ed il significato delle altre informazioni collegate e successivamente gli altri dati richiesti
 
 ## Formato lista
-![C£CR01_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£CR01/CXCR01_02.png)
+![C£CR01_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£CR01/CXCR01_02.png)
 ## Formato dettaglio
-![C£CR01_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£CR01/CXCR01_03.png)
+![C£CR01_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£CR01/CXCR01_03.png)

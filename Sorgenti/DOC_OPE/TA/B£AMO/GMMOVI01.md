@@ -25,7 +25,7 @@ Nel seguito trattiamo le movimentazioni manuali e le funzioni di interrogazione 
 ### Esecuzione Attività
 Per eseguire un'attività manuale di movimentazione si una la seguente funzione : 
 
-![GMMOVI_01](http://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_01.png)
+![GMMOVI_01](https://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_01.png)
 nella finestra vengono presentate tutte le attività di movimentazione previste, esistono 2 tipologie di movimentazione : 
 
 - _2_causale singola, viene eseguita una sola causale. Ad esempio un prelievo estemporaneo, una rettifica di giacenza, un versamento non pianificato, ...
@@ -35,12 +35,12 @@ nella finestra vengono presentate tutte le attività di movimentazione previste,
 ### Attività a causale singola
 Si utilizzano azioni, scritte nella tabella B£J come nell'esempio seguente : 
 
-![GMMOVI_02](http://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_02.png)
+![GMMOVI_02](https://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_02.png)
 il programma GMMV01I è quello delle attività a singola causale e la causale da eseguire è quella scritta nel campo Parametri aggiuntivi.
 
 Quando viene selezionata questa azione all'utente si presenta il seguente formato : 
 
-![GMMOVI_03](http://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_03.png)
+![GMMOVI_03](https://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_03.png)
 devono essere inseriti :  articolo, quantità, campi chiave della giacenza (in questo caso ubicazione).
 
 Con F6 si conferma la movimentazione.
@@ -48,18 +48,18 @@ Con F6 si conferma la movimentazione.
 ### Attività a doppia causale
 Si utilizzano azioni, scritte nella tabella B£J come nell'esempio seguente : 
 
-![GMMOVI_04](http://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_04.png)
+![GMMOVI_04](https://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_04.png)
 il programma GMMV02I è quello delle attività a doppia causale e le causali da eseguire sono quelle scritte nel campo Parametri aggiuntivi.
 
 Quando viene selezionata questa azione all'utente si presenta il seguente formato : 
 
-![GMMOVI_05](http://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_05.png)
+![GMMOVI_05](https://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_05.png)
 deve essere inserito l'articolo, la data di registrazione viene assunta oggi, manualmente si può inserire una data diversa, la visualizzazione estesa mostra oltre alla giacenza anche la quantità allocata : 
 
-![GMMOVI_06](http://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_06.png)
+![GMMOVI_06](https://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_06.png)
 dalla lista delle giacenze dell'articolo si seleziona la giacenza da cui si vuole spostare la quantità : 
 
-![GMMOVI_07](http://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_07.png)
+![GMMOVI_07](https://doc.smeup.com/immagini/MBDOC_OPE-GMMOVI01/GMMOVI_07.png)
 deve essere impostata la quantità, i campi chiave della giacenza in base al tipo giacenza della causale di destinazione (in questo caso l'ubicazione).
 
 Con F6 si conferma la movimentazione.

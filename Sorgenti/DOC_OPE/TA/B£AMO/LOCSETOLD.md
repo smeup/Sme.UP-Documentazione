@@ -46,7 +46,7 @@ Per aprire il gestore esistono tre possibilità :
  \* utilizzare il tasto **F17** quando la subsezione di cui si vuole gestire il setup ha il fuoco.
 
 Una volta avviato il modulo che vediamo in figura
-![LOBASE_180](http://doc.smeup.com/immagini/MBDOC_OPE-LOCSETOLD/LOBASE_180.png)
+![LOBASE_180](https://doc.smeup.com/immagini/MBDOC_OPE-LOCSETOLD/LOBASE_180.png)
 Verranno mostrati tutti i setup salvati, filtrati per subsezione, utente.
 Non vedrò quindi tutti i setup del componente matrice ma solo i setup relativi alla matrice di quella subsezione per l'utente corrente e l'utente generico.
 Ho però la possibilità di visuali
@@ -105,7 +105,7 @@ La presenza del filtro è evidenziata dal colore giallo del pulsante **Filtro**.
 Se si desidera visualizzare tutti i setup definiti da tutti gli utenti su quella subsezione cliccare sul pulsante filtro.
 Comparirà la seguente finestra di dialogo : 
 
-![LOBASE_179](http://doc.smeup.com/immagini/MBDOC_OPE-LOCSETOLD/LOBASE_179.png)
+![LOBASE_179](https://doc.smeup.com/immagini/MBDOC_OPE-LOCSETOLD/LOBASE_179.png)
 Inserire \*\* come nome utente e confermare.
 Non si può modificare il campo **Contesto** in quanto un setup risulta associato ad una specifica subsezione e non si può pensare di
 

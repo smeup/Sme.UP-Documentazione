@@ -12,7 +12,7 @@ In sintesi, possiamo dire che definire il piano (elemento della tabella MPP) equ
 periodo. A questo punto possiamo dire che le cose che ci interessano troveranno un riscontro all'interno dei periodi così definiti.
 Di fatto non abbiamo ancora detto "cosa" ci interessa, quale dato vogliamo gestire nel "piano" e per farlo dobbiamo definire le "viste".
 
-![MP_001_05](http://doc.smeup.com/immagini/MPP_01/MP_001_05.png)
+![MP_001_05](https://doc.smeup.com/immagini/MPP_01/MP_001_05.png)
 ## Vista
 ### Definizione
 La "vista" è ciò che stiamo trattando, ossia il set di dati che ci interessa gestire.
@@ -21,16 +21,16 @@ Tutte le viste possono appartenere a qualsiasi piano e, in effetti, esse rappres
 La vista si definisce nella tabella MPC, in cui è possibile definirne le chiavi.
 Esse possono essere una o due e sono oggetti applicativi, ossia appartenenti alla tabella \*CNTT.
 
-![MP_001_04](http://doc.smeup.com/immagini/MPP_01/MP_001_04.png)
+![MP_001_04](https://doc.smeup.com/immagini/MPP_01/MP_001_04.png)
 >N.B.** :  **la Vista di seguito riportata ha la gestione dei dati decimali impostata. Questo significa che in visualizzazione dei dati si vede un decimale. Tuttavia, anche le viste che non hanno la gestione dati decimali impostata hanno i dati registrati con la parte decimale (2 posizioni), ma non viene visualizzata.
 
-![MP_001_01](http://doc.smeup.com/immagini/MPP_01/MP_001_01.png)
+![MP_001_01](https://doc.smeup.com/immagini/MPP_01/MP_001_01.png)
 # Periodicità
 ## Frazionamento periodi
 La periodicità è la possibilità di "mettere le tacche sulla linea del tempo", ossia di definire come devono essere intestate le colonne del nostro piano.
 Naturalmente è un elemento di tabella (MPC) che mostriamo qui di seguito con un esempio.
 
-![MP_001_02](http://doc.smeup.com/immagini/MPP_01/MP_001_02.png)
+![MP_001_02](https://doc.smeup.com/immagini/MPP_01/MP_001_02.png)
 **In questo elemento di tabella MPC, si è deciso di costruire una periodicità di 20 giorni, 13 settimane e 9 mesi, quindi il piano avrà 20+13+9 = 42 colonne (periodi). È importante notare che, se la data di inizio piano è un lunedì e la settimana tipica della risorsa CDL \*\* è di 5 giorni (dal lunedì al venerdì), i primi venti giorni del piano saranno esattamente le prime 4 settimane, per cui la costruzione del 21° periodo sarà una settimana esatta. Se invece la giornata di inizio piano fosse un mercoledì, allora la costruzione del 21° periodo dipenderebbe dal contenuto del campo "Flag giorni".
 Se in quest'ultimo è contenuto il valore "-", allora vengono cancellati gli ultimi periodi fino a saldarsi con un possibile inizio settimana (il primo giorno lavorativo della settimana della risorsa CDL \*\*).
 Quindi, nel caso in considerazione, sarebbero cancellati il martedì e il lunedì ultimi, proponendo un periodo settimanale che comicia di lunedì. Se invece il contenuto di "Flag giorni" è "+", allora verranno aggiunti periodi giornalieri fino a saldarsi con un inizio settimana :  sarebbero aggiunti il mercoledì, il giovedì e il venerdì. Se nel campo "Flag giorni" c'è un Blank, per default il programma di costruzione periodi si comporta come se ci fosse un "+". Analogamente, vengono trattati il "Flag settimane" e il "Flag mesi" (in questo caso si salda sull'anno), risolvendo il problema delle saldature tra periodi di diversa unità di misura.
@@ -39,7 +39,7 @@ Quindi, nel caso in considerazione, sarebbero cancellati il martedì e il luned�
 È possibile, nell'analisi di un piano (sia in visualizzazione che in stampa), raggruppare i periodi di un piano per ottenerne una vista sintetica nel tempo, in cui le quantità raggruppate vengano sommate.
 Questa funzione è richiamabile dalla gestione dei dati di un piano mediante il comando F18 = sintesi, che mostra la seguente finestra, in cui è possibile definire con "I" l'inizio raggruppamento, con "F" la fine e con "X" i periodi esclusi dal raggruppamento.
 
-![MP_001_03](http://doc.smeup.com/immagini/MPP_01/MP_001_03.png)
+![MP_001_03](https://doc.smeup.com/immagini/MPP_01/MP_001_03.png)
 # Altri oggetti utilizzati
 ## Periodi predefiniti
 Naturalmente è possibile predefinire dei raggruppamenti e registrarli nella memorizzazione multipla.

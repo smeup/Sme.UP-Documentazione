@@ -3,10 +3,10 @@ Il programma permette di modificare delle fasi di collaudo particolari per un ce
 E' quello di poter avere delle fasi di collaudo che siano diverse per un particolare articolo a seconda di chi sia il fornitore.
 
 # Formato di selezione
-![CQ_CCOL_17](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCF40/CQ_CCOL_17.png)
+![CQ_CCOL_17](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCF40/CQ_CCOL_17.png)
 
 # Lista fasi ciclo di colaudo
-![CQ_CCOL_18](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCF40/CQ_CCOL_18.png)Sono evidenziate le fasi con info specifiche per il fornitore.
+![CQ_CCOL_18](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCF40/CQ_CCOL_18.png)Sono evidenziate le fasi con info specifiche per il fornitore.
 
 Con "01" si possono aggiungere ad una fase di collaudo nuovi valori particolari per il fornitore, si potranno specificare i seguenti nuovi valori : 
  \* Tipo controllo

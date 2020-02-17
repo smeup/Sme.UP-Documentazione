@@ -11,7 +11,7 @@ La seguente procedura va attuata per rendere il PC in grado di collegarsi al Con
 - Esecuzione del file "setup.exe" con installazione tipica (e nulla di più)
 - Catalogare il database del content manager attivando la finestra dei comandi
 
-![CM1](http://doc.smeup.com/immagini/ODIACM_01/CM1.png)
+![CM1](https://doc.smeup.com/immagini/ODIACM_01/CM1.png)
 Immettendo le seguenti 2 righe : 
 >db2 catalog tcpip node <nome fittizio> remote <IP CM> server <porta tcpip>
 db2 catalog database icmnlsdb at node <nome fittizio della riga precedente> authentication server
@@ -22,20 +22,20 @@ db2 catalog database icmnlsdb at node <nome fittizio della riga precedente> auth
 - Eseguire il comando **DB2 Information Integrator for Content 8.2 Windows English.exe**
 - Selezionare l'opzione **EIP Development Workstation**
 
-![CM2](http://doc.smeup.com/immagini/ODIACM_01/CM2.png)
+![CM2](https://doc.smeup.com/immagini/ODIACM_01/CM2.png)
 - Dopo aver impostato i path, selezionare il connettore per il Content Manager V8
 
-![CM3](http://doc.smeup.com/immagini/ODIACM_01/CM3.png)
+![CM3](https://doc.smeup.com/immagini/ODIACM_01/CM3.png)
 Ed esempi associati
-![CM4](http://doc.smeup.com/immagini/ODIACM_01/CM4.png)
+![CM4](https://doc.smeup.com/immagini/ODIACM_01/CM4.png)
 - Lasciare le impostazioni di default per la parte RMI
 - Impostare l'indirizzo web http://dev01/CMConf/ come fonte condivisa con il server Content Manager (questo passo non mi è del tutto chiaro :  io ho messo, anziché dev01, l'indirizzo IP del server che ha installato il servizio Content Manager)
 
-![CM5](http://doc.smeup.com/immagini/ODIACM_01/CM5.png)
+![CM5](https://doc.smeup.com/immagini/ODIACM_01/CM5.png)
 
 - Impostare la password dell'utente "icmconct"
 
-![CM6](http://doc.smeup.com/immagini/ODIACM_01/CM6.png)
+![CM6](https://doc.smeup.com/immagini/ODIACM_01/CM6.png)
 Nota bene :  fare l'uncheck della voce "Catalog remote EIP database"!
 
 
@@ -184,7 +184,7 @@ Il richiamo del file batch, ad esempio da una sessione Client Access deve passar
 
 Per quanto rigurda la G53 di seguito un esempio di chiamata, attraverso la TST relativa, per la visualizzazione di un documento contenuto nel Content Manager : 
 
-![G53](http://doc.smeup.com/immagini/ODIACM_01/G53.png)
+![G53](https://doc.smeup.com/immagini/ODIACM_01/G53.png)
 ### Parametri per l'utilizzo della G53
  T(Di seguito i parametri per la chiamata del visualizzatore da G53)
 - **£G53FU** :  EXEC

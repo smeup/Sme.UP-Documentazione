@@ -24,7 +24,7 @@ In tale analisi è possibile capire immediatamente con quale script è gestita l
 
 I tab successivi consentono di editare gli script di configurazione (K09_STD e K09_PER, rispettivamente lo standard e il personalizzato), mentre nell'ultimo è possibile testare, per ogni oggetto, il funzionamento.
 
-![K09_001](http://doc.smeup.com/immagini/LOBASE_14/K09_001.png)
+![K09_001](https://doc.smeup.com/immagini/LOBASE_14/K09_001.png)
 ## Script di configurazione
 Esistono due script di configurazione, un default e uno per le personalizzazioni, nel file> SCP_SET sono presenti il membro> K09_STD e >K09_PER.
 Lo script delle personalizzazioni è già fornito come esempio, con tag asteriscati, e se impostati i richiami di oggetti già presenti nel default questi vengono sostituiti.
@@ -63,14 +63,14 @@ Dalla sezione INFO dell'oggetto, andare nella sezione dedicata all'immagine.
 Nella scheda che si presenta è possibile vedere se vi è già un'immagine associata all'istanza o altrimenti se vi è la risalita sulla classe e quindi sarà presente un'immagine generica.
 Per la gestione cliccare il bottone "avanzate".
 
-![K09_002](http://doc.smeup.com/immagini/LOBASE_14/K09_002.png)
+![K09_002](https://doc.smeup.com/immagini/LOBASE_14/K09_002.png)
 Nella scheda di gestione vi è una piccola guida per l'associazione l'immagine; il passaggio più semplice e veloce è quello posto in primo piano, nella sezione "Da clipboard".
 Facendo "copia" su un'immagine (presa dal pc, dal web, ecc...)  e successivamente aggiornando la sezione "Da clipboard", l'immagine copiata apparirà nel riquadro. Successivamente basterà trascinare l'immagine da sinistra verso destra perchè sia associata all'oggetto su cui stiamo lavorando, come conferma verrà mostrato un messaggio informativo.
 In alternativa è possibile scegliere l'immagine da una cartella ed associarla sempre trascianandola.
 
-![K09_003](http://doc.smeup.com/immagini/LOBASE_14/K09_003.png)
+![K09_003](https://doc.smeup.com/immagini/LOBASE_14/K09_003.png)
 La cancellazione di un'immagine associata all'istanza (e quindi non un'immagine legata alla classe) è possibile sempre dalla scheda di gestione, passando nella sottoscheda di destra "Verifica percorsi".
 Dalla sezione "percorso salvataggio nuova immagine", fare tasto destro sul percorso e passare alla scheda.
 Nella scheda che viene aperta, nella parte di gestione dal menu di sinistra, è presente il comando "elimina". Alla prossima riapertura del client l'immagine non sarà più visibile sull'oggetto.
 
-![K09_004](http://doc.smeup.com/immagini/LOBASE_14/K09_004.png)
+![K09_004](https://doc.smeup.com/immagini/LOBASE_14/K09_004.png)

@@ -8,10 +8,10 @@ Per differenziare le varie risorse si utilizza il Tipo Risorsa (codificato nella
 ## Gestione risorse
 Per attivare la gestione risorse si utilizza il seguente formato guida : 
 
-![BR_03_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRRI01/BR_03_01.png)Utilizzando le opzioni si accede al formato di dettaglio dove sono presentati tutti i campi propri
+![BR_03_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRRI01/BR_03_01.png)Utilizzando le opzioni si accede al formato di dettaglio dove sono presentati tutti i campi propri
 dell'anagrafico risorse : 
 
-![BR_03_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRRI01/BR_03_02.png)
+![BR_03_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRRI01/BR_03_02.png)
 ### Descrizione dei campi
 Di seguito descriveremo solo i campi significativi : 
 

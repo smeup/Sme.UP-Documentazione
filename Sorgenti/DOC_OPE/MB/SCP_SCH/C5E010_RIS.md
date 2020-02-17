@@ -1,6 +1,6 @@
 ## Obiettivo
 Analizzare i risconti ancora aperti alla data situazione richiesta, ovvero tutte le registrazioni di risconto automatiche con data successiva a quella impostata nella data situazione.
-![C5E010_009](http://doc.smeup.com/immagini/MBDOC_SCH-C5E010_RIS/C5E010_009.png)
+![C5E010_009](https://doc.smeup.com/immagini/MBDOC_SCH-C5E010_RIS/C5E010_009.png)
 ## Parametri di lancio
 
  \* Esercizio situazione :  in questo campo (obbligatorio) è necessario impostare l'esercizio che interessa analizzare

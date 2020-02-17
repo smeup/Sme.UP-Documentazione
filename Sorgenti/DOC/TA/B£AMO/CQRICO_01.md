@@ -17,7 +17,7 @@ Questo modulo non ha specifiche tabelle da attivare, ma utilizza la base dati co
 Non esiste uno specifico processo di avviamento ed utilizzo, ma una integrazione delle funzioni di questo modulo nelle attività di Gestione Benestare di Collaudo dei Lotti.
 
 # Menù funzioni Gestione Rilievi e Collaudi
-![CQ_RICO_01](http://doc.smeup.com/immagini/CQRICO_01/CQ_RICO_01.png)
+![CQ_RICO_01](https://doc.smeup.com/immagini/CQRICO_01/CQ_RICO_01.png)
 La funzione 1701 permette la gestione (inserimento/variazione/interrogazione) dei Rilievi di Lotto e delle misurazioni analitiche di campioni
 La funzione 1702 permette attraverso una funzione semplificata, di gestire esiti delle singole fasi di collaudo ed il collegamento alla gestione dei rilievi di lotto e di misurazione.
 Le funzioni 1703/1704  permettono di produrre liste di sintesi e dettaglio dei rilievi eseguiti.

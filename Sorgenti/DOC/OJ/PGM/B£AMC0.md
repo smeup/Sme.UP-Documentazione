@@ -8,16 +8,16 @@ Le note sono organizzate in contenitori e capitoli :
 - Contenitore; definito nella tabella NSC, descrive a quale oggetto il tipo di nota è associato, e se la nota si può sviluppare in più capitoli oppure se è costituita da un solo capitolo.
 - Capitoli; le note associate ad un oggetto potrebbero essere di natura varia (note tecniche, note commerciali, note destinate alla produzione, note da stampare in fattura, ecc...). Ciascuna di queste potrebbe avere caratteristiche diverse, le caratteristiche di ciascun capitolo sono definite in un elemento di un sottosettore della tabella NSI richiamato dal contenitore.
 
-![B£_07_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_07_01.png)
+![B£_07_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_07_01.png)
 # Gestione
 Se, in fase di customizzazione, ad un oggetto è stata associata la gestione delle note questa può essere attivata direttamente dai formati di gestione dei vari oggetti.
 
 Se ad un oggetto sono collegati più capitoli viene chiesto di selezionare il capitolo su cui agire : 
 
-![B£_07_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_07_02.png)
+![B£_07_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_07_02.png)
 Se non sono state previste impostazioni particolari (es. programmi specifici di gestione o di controllo) tutte le note hanno lo stesso formato di gestione : 
 
-![B£_07_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_07_03.png)
+![B£_07_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_07_03.png)
 ## Funzioni Disponibili
 Il formato di input è diviso in 3 parti : 
 1.Colonna di sinistra; contiene il campo dove inserire le opzioni di editazione delle righe
@@ -48,13 +48,13 @@ Mettendo una "G" sulla riga comandi è possibile attivare un  programma specific
 ### Condizionamenti riga
 Nella colonna di destra impostando opportunamente il flag di condizionamento si può decidere ad esempio dove (in quale documento cartaceo) far stampare la riga,
 
-![B£_07_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_07_04.png)
+![B£_07_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_07_04.png)
 Questa funzionalità può essere anche usata in alternativa alla suddivisione in capitoli delle note(in questo caso le varie note saranno fisicamente scritte in un unico capitolo generico in cui il flag di destra decide se e dove stampare la riga).
 
 # Funzione generalizzata di gestione note
 Per la gestione note si può anche utilizzare la seguente funzione generalizzata : 
 
-![B£_NOTE_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_NOTE_01.png)
+![B£_NOTE_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£AMC0/BX_NOTE_01.png)
 da cui poi si passa alla gestione di dettaglio come visto in precedenza
 
 # Annotazioni aggiuntive

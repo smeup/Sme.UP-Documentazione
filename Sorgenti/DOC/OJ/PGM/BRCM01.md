@@ -10,13 +10,13 @@ L'utilizzo può essere per obiettivi diversi :
 # Gestione anagrafico commesse
 Per attivare la gestione dell'anagrafico commesse si parte dal seguente formato guida : 
 
-![BRCM01_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_01.png)
+![BRCM01_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_01.png)
 Se non si inseriscono opzioni si può passare alla presentazione della lista : 
 
-![BRCM01_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_02.png)
+![BRCM01_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_02.png)
 Dalla lista, oppure direttamente dal formato guida, utilizzando le opzioni si accede al formato di dettaglio dove sono presentati tutti i campi propri dell'anagrafico commesse : 
 
-![BRCM01_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_03.png)
+![BRCM01_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_03.png)
 ### Descrizione dei campi principali
 
 - _2_Tipo commessa, viene chiesto in fase di creazione della commessa, è un elemento della tabella BSA e definisce la caratterizzazione della commessa (es. la natura, quali sono gli oggetti a cui la commessa è riferita, il livello di nascita, i parametri e le note collegati, ecc...).
@@ -29,10 +29,10 @@ In funzione del tipo commessa si possono attivare delle informazioni aggiuntive 
 
  \* _1_Quantità e valori
 
-![BRCM01_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_04.png)
+![BRCM01_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_04.png)
  \* _1_Date
 
-![BRCM01_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_05.png)
+![BRCM01_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_05.png)
  \* _1_Parametri interni
 
-![BRCM01_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_06.png)
+![BRCM01_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRCM01/BRCM01_06.png)

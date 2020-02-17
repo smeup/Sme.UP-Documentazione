@@ -15,15 +15,15 @@ Per facilitare l'impostazione e l'analisi di questi conti, all'interno del modul
 
  \* Conti per categoria :  permette di analizzare i conti impostati sulla tabella A5A
 
-![A5OPCO_005](http://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_005.png)
+![A5OPCO_005](https://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_005.png)
  \* Impostazione Conti /Causali Generiche :  permette di analizzare le causali/conti definiti a livello generale. In questo gruppo potrebbero, ad esempio, rientrare i conti elle plus/minusvalenze così come le causali utilizzate nella rilevazione degli ammortamenti.
 
-![A5OPCO_001](http://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_001.png)
+![A5OPCO_001](https://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_001.png)
  \* Impostazione Conti /Causali per Categoria :  permette di analizzare le causali/conti specificati a livello di categoria
 
-![A5OPCO_002](http://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_002.png)
+![A5OPCO_002](https://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_002.png)
  \* Impostazione Conti /Causali per Cespite :  permette di analizzare le causali/conti specificati a livello di singolo cespite.
-![A5OPCO_003](http://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_003.png)
+![A5OPCO_003](https://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_003.png)
 Per ulteriori dettagli sulle tre schede si rimanda alla relativa documentazione.
 
 ## Suggerimenti di configurazione
@@ -33,13 +33,13 @@ In fase di attivazione dei collegamenti A5 - C5 si consiglia di procedere in que
 
 - Nel caso in cui esistano conti o causali contabili generali (quindi che non variano al variare della categoria o del cespite) è possibile impostarli all'interno della scheda di impostazione conti/causali generiche presente all'interno del modulo delle operazioni contabili (A5OPCO). Questa funzionalità è generalmente sfruttata per l'impostazione dei conti di imputazione di plusvalenze/minusvalenze oppure per configurare il conto di contropartita utilizzato nella contabilizzazione delle vendite o ancora per definire le causali contabili utilizzate per la contabilizzazione dei diversi movimenti
 
-![A5OPCO_001](http://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_001.png)
+![A5OPCO_001](https://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_001.png)
 - Impostazione conti a livello di categoria. All'interno della tabella delle categorie fiscali (settore A5A) è possibile definire i conti di ammortamento, fondo ammortamento e capitale specifici per categoria.
 
-![A5OPCO_005](http://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_005.png)
+![A5OPCO_005](https://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_005.png)
 - Impostazione conti a livello di cespite. Sull'anagrafica del cespite è possibile definire i conti di ammortamento, fondo ammortamento e capitale specifici per il singolo cespite. Si sottolinea che questi conti vanno compilati solo nel caso in cui siano diversi da quelli definiti a livello di categoria.
 
-![A5OPCO_006](http://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_006.png)
+![A5OPCO_006](https://doc.smeup.com/immagini/A5OPCO_03/A5OPCO_006.png)
 - Impostazione conti specifici per particolari movimenti. Nel caso in cui ci sia la necessità di configurare conti specifici su particolari causali di movimentazione (es. conti per ammortamenti indeducibili o conti per ammortamenti anticipati, ecc.) impostarli attraverso la scheda Causali/Conti per categoria o Causali/Conti per cespite.
 
 

@@ -1,4 +1,4 @@
 ## Obiettivi
 Date due distinte evidenziare le differenze. L'output può essere a video, su stampa, o in formato CSV per il trasferimento a PC.
 ## Formato di lancio
-![BR_DIST_16](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI15/BR_DIST_16.png)
+![BR_DIST_16](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI15/BR_DIST_16.png)

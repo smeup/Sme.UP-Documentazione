@@ -8,7 +8,7 @@ La struttura hardware di base di una installazione Loocup di tipo client-server 
 seguente figura : 
 
 
-![BC_001](http://doc.smeup.com/immagini/LOCBAS_BC/BC_001.png)
+![BC_001](https://doc.smeup.com/immagini/LOCBAS_BC/BC_001.png)
 
 Gli elementi di base di questa struttura sono : 
 
@@ -80,7 +80,7 @@ Analogamente ai server di Loocup, esiste anche una duplicazione a livello di sis
 
 La figura seguente mostra in linea di massima la struttura hardware e software di un sistema di business continuity.
 
-![BC_002](http://doc.smeup.com/immagini/LOCBAS_BC/BC_002.png)
+![BC_002](https://doc.smeup.com/immagini/LOCBAS_BC/BC_002.png)
 
 Gli elementi che compongono il sistema software-hardware di gestione della business continuity sono tre : 
 
@@ -119,7 +119,7 @@ Nella modalità di funzionamento normale, il sistema attivo è quello riferibile
 
 La figura seguente riassume lo stato del sistema nelle condizioni di funzionamento normale.
 
-![BC_003](http://doc.smeup.com/immagini/LOCBAS_BC/BC_003.png)
+![BC_003](https://doc.smeup.com/immagini/LOCBAS_BC/BC_003.png)
 
 ## Gestione dei malfunzionamenti del sistema
 
@@ -150,7 +150,7 @@ La sequenza di eventi che si verifica in questo caso può essere riassunta nei s
 
 Lo stato del sistema dopo l'intervento della business continuity è il seguente : 
 
-![BC_004](http://doc.smeup.com/immagini/LOCBAS_BC/BC_004.png)
+![BC_004](https://doc.smeup.com/immagini/LOCBAS_BC/BC_004.png)
 Sulla linea primaria non rimane più nulla di attivo. Tutto il controllo passa sulla linea secondaria e tutto il sistema gira sulla macchina di backup. Il sistema primario non è attivo ed è quindi possibile intervenire per la soluzione del problema che ha portato al blocco del sistema AS400 principale. Il supporto gestionale viene fornito dal sistema AS400 di backup che registrerà dati ed eventi fino a quando il sistema primario non ritornerà a funzionare. Il Loocup Server di backup prende il posto del Loocup server primario anche nella gestione della comunicazione con i sistemi esterni :  se nelle condizioni normali è il server primario che si occupa di raccogliere eventi esterni (ad esempio, eventi provenienti dal PLC) tranne l'uso dei plugin, nel sistema di backup è il server di backup che prende il controllo anche di queste funzionalità.
 
 ### Malfunzionamento del server Loocup
@@ -180,7 +180,7 @@ In caso di malfunzionamento del server primario di Loocup sono quindi possibili 
 La figura seguente mostra lo stato finale del sistema di business continuity in reazione al solo malfunzionamento del server primario di Loocup.
 
 
-![BC_005](http://doc.smeup.com/immagini/LOCBAS_BC/BC_005.png)
+![BC_005](https://doc.smeup.com/immagini/LOCBAS_BC/BC_005.png)
 
 Il sistema di business continuity è intervenuto per gestire il malfunzionamento del server primario di Loocup attivando il server Loocup di backup e commutando tutti i client attivi su di esso. Viene però mantenuta, sia a livello di server che di client, la connessione con il sistema AS400 primario che, non avendo manifestato malfunzionamenti, rimane il sistema gestionale di riferimento. In questa modalità ibrida, il sistema pur trovandosi in una modalità di emergenza mantiene comunque attive tutte le funzionalità gestionali.
 
@@ -188,7 +188,7 @@ La seconda situazione operativa è quella che vede il contemporaneo malfunzionam
 
 # Comandi disponibili per BC
 
-![BC_006](http://doc.smeup.com/immagini/LOCBAS_BC/BC_006.png)
+![BC_006](https://doc.smeup.com/immagini/LOCBAS_BC/BC_006.png)
 # Variabili di setup per BC
 
 Per configurare il sistema di BC è necessario specificare nel file di setup SCP_CLO tutte le informazioni necessarie alla configurazione.

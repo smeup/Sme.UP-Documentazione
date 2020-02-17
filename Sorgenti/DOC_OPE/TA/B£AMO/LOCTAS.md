@@ -15,9 +15,9 @@ aperta ma e' necessario aprirne un'altra (sempre tramite CTRL+F8)
 Prmemendo i tasti SHIT+F9 si aprira' la Linea Comandi
 
 Parola chiave 'CERCA' + cosa cercare (+ CONTESTO)
-![LOCTAS01](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTAS/LOCTAS01.png)
+![LOCTAS01](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTAS/LOCTAS01.png)
 Il comando API seguito dal nome apre la scheda della /copy
-![LOCTAS02](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTAS/LOCTAS02.png)
+![LOCTAS02](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTAS/LOCTAS02.png)
 
 ## ALT e numero
 Per passare alla gestione dell'oggetto se, ad esempio, sono posizionato su una cella di una matrice che contiene il codice di un oggetto.

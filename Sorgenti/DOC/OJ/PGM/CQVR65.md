@@ -1,5 +1,5 @@
 ## Formato di lancio
-![CQ_VEND_26](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR65/CQ_VEND_26.png)
+![CQ_VEND_26](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQVR65/CQ_VEND_26.png)
 L'esempio sopra permette la memorizzazione nell'archivio FOR/VAL/FOR dell'indice globale IVFO fino al primo livello di dettaglio per il periodo 2006 del fornitore 000460.
 
 La storicizzazione è utile perchè permette di conservare le valutazioni fatte in passato anche se ad esempio col passare del tempo si è cambiato il valore del peso agli indici e mette a disposizione i valori degli indici in un archivio senza la necessità di farli ricalcolare al programma ogni volta che devono essere utilizzati per una particolare applicazione

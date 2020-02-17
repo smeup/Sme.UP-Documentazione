@@ -29,7 +29,7 @@ E' possibile effettuare un'installazione standalone della jvm nel caso non si vo
 - SmeUP Provider, reperibile sul sito istituzionale (http://www.smeup.com), sezione download.
 
 
-![WEBASE_001](http://doc.smeup.com/immagini/WEBASE_01/WEBASE_001.png)
+![WEBASE_001](https://doc.smeup.com/immagini/WEBASE_01/WEBASE_001.png)
 # Requisiti minimi server
 
 - Windows Server 2012 / Ubuntu Server 14.04.2 LTS
@@ -130,9 +130,9 @@ L'accesso ai settaggi è fornito dalla form Main Config (nel medesimo contesto d
 -  Css :  è possibile definire un proprio file css che verrà aggiunto a quello standard, permettendo così di ridefinire la maggior parte delle regole grafiche. Questo tipo di personalizzazione necessita di competenze specifiche sui fogli di stile CSS.
 
 Alcuni esempi di WebUP in diversi stili ed ambiti applicativi : 
-![WEBASE_054](http://doc.smeup.com/immagini/WEBASE_01/WEBASE_054.png)
-![WEBASE_055](http://doc.smeup.com/immagini/WEBASE_01/WEBASE_055.png)
-![WEBASE_056](http://doc.smeup.com/immagini/WEBASE_01/WEBASE_056.png)
+![WEBASE_054](https://doc.smeup.com/immagini/WEBASE_01/WEBASE_054.png)
+![WEBASE_055](https://doc.smeup.com/immagini/WEBASE_01/WEBASE_055.png)
+![WEBASE_056](https://doc.smeup.com/immagini/WEBASE_01/WEBASE_056.png)
 
 ## Header personalizzato
 Webup da la possibilità di definire un Header personalizzato al posto della barra standard che compare di default nella parte alta della pagina.

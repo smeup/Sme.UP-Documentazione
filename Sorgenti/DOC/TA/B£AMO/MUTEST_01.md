@@ -9,7 +9,7 @@ Sono stati realizzati diversi programmi di esempio in cui vengono analizzati i c
 con i relativi codici operativi.
 Nella matrice si può visualizzare per programma l'esito del test.
 
-![MUTEST_01A](http://doc.smeup.com/immagini/MUTEST_01/MUTEST_01A.png)
+![MUTEST_01A](https://doc.smeup.com/immagini/MUTEST_01/MUTEST_01A.png)
 
 ## Esecuzione multipiattaforma
 In ambiente multipiattaforma il comando di riferimento è  :  : DEC T(OJ) P(\*CMD) K(RUNTEST) con i seguenti parametri di esecuzione : 

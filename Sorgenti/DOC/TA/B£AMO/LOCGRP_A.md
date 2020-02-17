@@ -50,4 +50,4 @@ Gli archi collegano un nodo ad un'altro nodo.
 
 
 Nella figura seguente si vede un grafo di esempio con i 4 tipi di frecce.
-![ese_01](http://doc.smeup.com/immagini/LOCGRP_A/ese_01.png)
+![ese_01](https://doc.smeup.com/immagini/LOCGRP_A/ese_01.png)

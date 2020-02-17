@@ -10,7 +10,7 @@ I servizi interni sono funzioni esposte direttamente dall'applicativo client a d
 
 ## Gestore Funzioni Interne
 
-![LOCBAS_037](http://doc.smeup.com/immagini/LOCINT_01/LOCBAS_037.png)
+![LOCBAS_037](https://doc.smeup.com/immagini/LOCINT_01/LOCBAS_037.png)
 Le richieste effettuate dall'utente che non necessitano di informazioni ulteriori a quelle già presenti sul client sono per lo più gestite dal client stesso attraverso dei servizi java. La struttura di questi servizi è analoga a quella dei servizi RPG... hanno cioè una struttura in ingresso "funnizzata", cioè richiedono funzione, metodo,  un elenco di 6 oggetti massimo ed una stringa parametro e in uscita generano un file XML interpretabile dai componenti grafici di LoocUp.
 
 L'elenco dei servizi, come in figura, è riportato qua sotto : 

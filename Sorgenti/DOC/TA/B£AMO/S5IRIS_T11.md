@@ -105,7 +105,7 @@ Viene costruita dal programma S5SMES_01R, che va lanciato con la funzione 'PRI' 
  \* legami tra le DS di risorsa generale e specifica
 
 Nella figura seguente è rappresentato il legame tra i puntatori delle risorse (principale e specifica) :  da ogni risorsa specifica si può passare alla principale, e da essa scorrere la catena delle risorse specifiche.
-![FIG_016](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_016.png)Per velocizzare l'aggancio alle risorse specifiche, vegnono create le schiere : 
+![FIG_016](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_016.png)Per velocizzare l'aggancio alle risorse specifiche, vegnono create le schiere : 
 XRIKY (tipo + codice risorsa) e XRIPN (puntatore), caricate dalla fine (e quindi è significativo l'inizio £I07, a cui si puà accedere con le seguenti istruzioni : 
 >  C                   EVAL      $Z=£I07
   C     AAA018        LOOKUP    XRIKY($Z)                     50
@@ -170,10 +170,10 @@ Il programma che riempie queste DS è S5SMES_05
 
 Nella figura seguente è rappresentato il legame tra gli impegni risorse, alternative e dettagli.
 
-![FIG_018](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_018.png)
-![FIG_018leg](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_018leg.png)
+![FIG_018](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_018.png)
+![FIG_018leg](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_018leg.png)
 Nella figura seguente è rappresentato il legame tra gruppo e dettagli, questi ultimi suddivisi nelle sezioni descritte in precedenza. In questa figura è rappresentata la situazione dopo aver schedulato le operazioni iniziate, e quindi i puntatori alla prima operazione del gruppo (D1) e alla prima non schedulata (D3) sono diversi.
-![FIG_019](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_019.png)
+![FIG_019](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_019.png)
 Il motivo della duplicazione della memoria in alternative e dettagli, che appartenetemente sono in corrispondenza biunivoca, è duplice.
 -  data la limitazione delle DS multiple, la suddivisione in più DS consente di estendere le informazioni
 -  in caso di altrnative di ciclo (funzione attualmente non implementata) la corrispondenza tra alternatve e dettagli non è più biunivoca
@@ -186,4 +186,4 @@ Contengono le informazioni riassuntive per ogni ordine
  \* legami con altri ordini (se attivati i legami statici)
 
 Nella figura seguente è rappresentato il legame tra i puntatori delle sintesi e gli impegni risorse :  da ogni impegno si  risorse si può passare alla prima sintesi, e da essa passare al primo impegno e quindi scorrere, in sequenza, tutti gli impegni dell'ordine
-![FIG_017](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_017.png)![FIG_016](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_016.png)![FIG_018](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_018.png)![FIG_018leg](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_018leg.png)![FIG_019](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_019.png)![FIG_017](http://doc.smeup.com/immagini/S5IRIS_T11/FIG_017.png)
+![FIG_017](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_017.png)![FIG_016](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_016.png)![FIG_018](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_018.png)![FIG_018leg](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_018leg.png)![FIG_019](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_019.png)![FIG_017](https://doc.smeup.com/immagini/S5IRIS_T11/FIG_017.png)

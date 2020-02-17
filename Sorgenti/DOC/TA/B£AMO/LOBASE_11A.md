@@ -31,4 +31,4 @@ Queste variabili possono essere stanziate :
 
 # Scope della variabili
 
-![LOBASE_11A](http://doc.smeup.com/immagini/LOBASE_11A/LOBASE_11A.png)
+![LOBASE_11A](https://doc.smeup.com/immagini/LOBASE_11A/LOBASE_11A.png)

@@ -17,7 +17,7 @@ L'idea di base è quella di replicare all'interno di Looc.Up un sistema simile a
 
 Il risultato voluto è che alla partenza di Looc.Up venga visualizzato un modulo simile al seguente : 
 
-![LOBASE_108](http://doc.smeup.com/immagini/LOBASE_05/LOBASE_108.png)
+![LOBASE_108](https://doc.smeup.com/immagini/LOBASE_05/LOBASE_108.png)
 
 La connessione è definita come l'insieme dei parametri necessari per l'avvio di Looc.Up :  comprende principalmente informazioni sul sistema a cui connettersi, l'utente da utilizzare, la password di autenticazione e l'ambiente operativo da selezionare. Oltre a queste informazioni, necessarie per stabilire un collegamento, ci sono tutta una serie di parametri aggiuntivi di tipo facoltativo che attivano particolari funzionalità o modalità di esecuzione del programma.
 Fino ad oggi l'unico modo per fornire a Looc.Up le informazioni necessarie al collegamento era quello di passare queste informazioni a linea di comando in fase di chiamata al programma. Oppure non passare alcuna informazione e compilare ogni volta la finestra di connessione visualizzata alla partenza del programma.
@@ -58,7 +58,7 @@ Nel primo caso Looc.Up parte attivando direttamente la connessione identificata 
 Nel secondo caso invece (chiamata senza alcun parametro) Looc.Up si avvia mostrando la finestra graficadi selezione delle connessioni. Ovviamente, essendo la prima volta che Looc.Up viene avviato dopo la sua installazione, viene per forza di cose mostrata una finestra di connessione vuota.
 
 
-![LOBASE_110](http://doc.smeup.com/immagini/LOBASE_05/LOBASE_110.png)
+![LOBASE_110](https://doc.smeup.com/immagini/LOBASE_05/LOBASE_110.png)
 
 In questa condizione, l'unica operazione possibile da parte dell'utente è quella di creare delle nuove connessioni e popolare la finestra. Questo nell'ipotesi che l'amministratore di sistema abbia previsto la possibilità per l'utente di gestire in prima persona le proprie connessioni. In caso contrario sarà l'amministratore stesso ad eseguire le operazioni di creazione delle connessioni dopo la prima installazione di Looc.Up e l'utente finale si ritroverà con un pannello di connessione già popolato con le connessioni a cui è autorizzato.
 
@@ -119,7 +119,7 @@ dell'aggiornamento di Sme.Up) :
 
 Verrà mostrata la seguente scheda : 
 
-![LOBASE_111](http://doc.smeup.com/immagini/LOBASE_05/LOBASE_111.png)
+![LOBASE_111](https://doc.smeup.com/immagini/LOBASE_05/LOBASE_111.png)
 Per maggiore chiarezza, la scheda mostrata contiene già degli elementi definiti ed è relativa al pannello di connessione visualizzato come primo esempio in questo documento.
 
 Come si nota dalle evidenziazioni grafiche, la scheda è suddivisa in 4 sezioni disposte orizzontalmente.
@@ -149,7 +149,7 @@ Andremo ora a vedere come si creano delle connessioni eseguendo un esempio passo
 Il primo passo per la creazione delle connessioni è la selezione dell'utente per il quale si stanno definendo le connessioni stesse.
 Alla prima partenza di Looc.Up viene mostrata una sezione utente di questo tipo : 
 
-![LOBASE_112](http://doc.smeup.com/immagini/LOBASE_05/LOBASE_112.png)
+![LOBASE_112](https://doc.smeup.com/immagini/LOBASE_05/LOBASE_112.png)
 Si nota che per default il sistema crea e propone un utente con lo stesso nome dell'utente del sistema Windows che ospita il client Looc.Up in esecuzione.
 L'ipotesi sottointesa è che quando un utente avvia un Looc.Up su un certo PC, sul quale è connesso con un accredito Windows, voglia creare delle connessioni specifiche per quel contesto operativo. Quindi è logico pensare che voglia creare delle connessioni associate all'utente di sistema.
 
@@ -168,7 +168,7 @@ Per ora non analizziamo il tab identificato con "Gruppi Smeup", il cui scopo è 
 Una volta selezionato un utente, è possibile creare un nuovo gruppo operando all'interno della sezione 2. All'inizio viene creato in automatico un gruppo denominato **"Predefinito"** che può essere utilizzato così com'è se non si ha intenzione di creare dei gruppi specifici per l'utente. In caso contrario è possibile ridenominare questo gruppo con un nome a propria scelta ed eventualmente aggiungere nuovi gruppi.
 Tutte le operazioni che possono essere effettuate sui gruppi sono nella parte inferiore della sezione.
 
-![LOBASE_113](http://doc.smeup.com/immagini/LOBASE_05/LOBASE_113.png)
+![LOBASE_113](https://doc.smeup.com/immagini/LOBASE_05/LOBASE_113.png)
 Nella parte inferiore della sezione è anche mostrata l'icona associata al gruppo selezionato. L'icona puà essere modificata andando nella sezione 4 della scheda di gestione, e selezionando una immagine tra quelle proposte che potrà essere associata al gruppo selezionato utilizzando l'apposito bottore **"Associa immagine al gruppo..."**.
 
 ### Creazione di una nuova connessione (sezione 3)
@@ -179,7 +179,7 @@ Una volta creata una nuova connessione, assegnandole un nome univoco, è possibi
 
 Viene mostrata una finestra di input di questo tipo : 
 
-![LOBASE_114](http://doc.smeup.com/immagini/LOBASE_05/LOBASE_114.png)
+![LOBASE_114](https://doc.smeup.com/immagini/LOBASE_05/LOBASE_114.png)
 Questa finestra consente di specificare tutti i parametri della connessione che si sta creando.
 
  T(I parametri principali da immettere sono i seguenti : )

@@ -8,7 +8,7 @@ Per mastrino intendiamo l'elenco cronologico delle registrazioni contabili che p
 
 Il formato guida si presenta nel seguente modo : 
 
-![C5C010_069](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_069.png)
+![C5C010_069](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_069.png)
 All'interno del formato guida è necessario specificare i seguenti campi : 
 
  - Codice dell'oggetto o della lista di oggetti di cui si voglia analizzare il mastrino. La compilazione di questo campo è facilitata dalla presenza dei classici caratteri di ricerca. Per maggiori informazioni su questi caratteri si veda il seguente : 
@@ -43,7 +43,7 @@ Per dettagli sull'utilizzo delle liste oggetti si veda invece :
 
 ### Impostazioni
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle Impostazioni che riportano i seguenti campi : 
-![C5C010_070](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_070.png)
+![C5C010_070](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_070.png)
  - Mostra apertura/chiusura. Permette di mostrare ed eventualmente sommare il saldo dell'apertura/chiusura dell'oggetto all'interno del valore progressivo. I valori disponibili sono : 
  -- Default :  se il campo non viene compilato verranno visualizzati gli importi del saldo di apertura e chiusura. Inoltre, il valore progressivo sarà calcolato considerando anche questi valori.
  -- 2 - Mostra ma non sommare in progressivo :  i saldi di apertura e chiusura verranno mostrati ma non considerati per il calcolo del valore progressivo. In questo modo l'importo progressivo riporterà il progressivo dell'esercizio, senza considerare gli importi derivanti da esercizi precedenti.
@@ -145,7 +145,7 @@ Le memorizzazioni consentono di salvare le parametrizzazioni definite all'intern
 
 All'interno del formato lista è possibile visualizzare l'elenco delle registrazioni contabili in cui sia coinvolto l'oggetto in analisi : 
 
-![C5C010_074](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_074.png)
+![C5C010_074](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_074.png)
 Nella parte superiore della videata sono riportate alcune informazioni generali relative all'oggetto in analisi e alle opzioni definite nel formato guida; in particolare abbiamo : 
  \* Codice e descrizione azienda
  \* Codice e descrizione divisione
@@ -165,7 +165,7 @@ Per quanto riguarda i valori questi variano in funzione delle impostazioni defin
 
 Nel caso in cui la freccia in basso presente nella barra inferiore della videata sia evidenziata in giallo significa che non tutte le registrazioni sono state caricate e quindi visualizzate, per farlo è necessario premere sulla freccetta o digitare il tasto Page Down da tastiera : 
 
-![C5C010_075](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_075.png)
+![C5C010_075](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE5M/C5C010_075.png)
 Ai piedi della lista delle registrazioni contabili è riportato il saldo finale del mastrino.
 
 ### Opzioni

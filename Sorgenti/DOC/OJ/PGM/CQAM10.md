@@ -11,8 +11,8 @@ Oltre alle tabelle suddette è possibile inserire altre tabelle personalizzate d
 I valori riportati nelle tabelle dei piani di campionamento saranno automaticamente prelevati e proposti nella griglia di collaudo associata all'articolo e al fornitore in esame.
 
 ## Formato di lancio
-![CQ_PDCA_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM10/CQ_PDCA_02.png)
+![CQ_PDCA_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM10/CQ_PDCA_02.png)
 ## Formato gestione piani di campionamento
-![CQ_PDCA_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM10/CQ_PDCA_03.png)
+![CQ_PDCA_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM10/CQ_PDCA_03.png)
 ## Elemento della tabella CQP relativo
-![CQ_PDCA_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM10/CQ_PDCA_04.png)
+![CQ_PDCA_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQAM10/CQ_PDCA_04.png)

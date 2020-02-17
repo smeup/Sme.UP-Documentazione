@@ -11,7 +11,7 @@ concetti da sviluppare brevemente :
 -  Riuso delle compentenze
 -  Scripting e configurazioni -> Sviluppo efficiente
 
-![001](http://doc.smeup.com/immagini/A£SHCI/001.png)
+![001](https://doc.smeup.com/immagini/A£SHCI/001.png)
 ## Interfaccia Component Based
 
 Spiegare come e perchè Sme.UP si basa sui componenti
@@ -59,7 +59,7 @@ Cosa succede quado si entra in Sme.UP :  differenze tra i vari device
 {Screenshot :  in Mob.UP}
 
 {Screenshot :  in Web.UP}
-![003](http://doc.smeup.com/immagini/A£SHCI/003.png)![002](http://doc.smeup.com/immagini/A£SHCI/002.png)![005](http://doc.smeup.com/immagini/A£SHCI/005.png)
+![003](https://doc.smeup.com/immagini/A£SHCI/003.png)![002](https://doc.smeup.com/immagini/A£SHCI/002.png)![005](https://doc.smeup.com/immagini/A£SHCI/005.png)
 
 
 ## Matrice - Tabella
@@ -74,11 +74,11 @@ Cosa succede quado si entra in Sme.UP :  differenze tra i vari device
 {Screenshot :  in Web.UP}
 
 -  Looc.UP (client-server)
-![009](http://doc.smeup.com/immagini/A£SHCI/009.png)
+![009](https://doc.smeup.com/immagini/A£SHCI/009.png)
 -  Mobile
-![010](http://doc.smeup.com/immagini/A£SHCI/010.png)
+![010](https://doc.smeup.com/immagini/A£SHCI/010.png)
 -  Web
-![011](http://doc.smeup.com/immagini/A£SHCI/011.png)## Label
+![011](https://doc.smeup.com/immagini/A£SHCI/011.png)## Label
 
 ## Bottiniera
 
@@ -113,11 +113,11 @@ Cosa succede quado si entra in Sme.UP :  differenze tra i vari device
 
 {Screenshot :  in Web.UP}
 -  Looc.UP (client-server)
-![006](http://doc.smeup.com/immagini/A£SHCI/006.png)
+![006](https://doc.smeup.com/immagini/A£SHCI/006.png)
 -  Mobile
-![007](http://doc.smeup.com/immagini/A£SHCI/007.png)
+![007](https://doc.smeup.com/immagini/A£SHCI/007.png)
 -  Web
-![008](http://doc.smeup.com/immagini/A£SHCI/008.png)
+![008](https://doc.smeup.com/immagini/A£SHCI/008.png)
 ## Label
 -  Breve descizione (1 riga)
 

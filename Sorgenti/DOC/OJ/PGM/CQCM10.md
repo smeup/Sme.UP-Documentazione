@@ -29,15 +29,15 @@ Ad ogni fase del ciclo di collaudo viene assegnato il codice del probabile difet
 Questi valori saranno proposti automaticamente qualora, in fase di collaudo accettazione, alla fase del ciclo di collaudo dovessero rilevarsi dei pezzi difettosi.
 
 ## Formato guida
-![CQ_CCOL_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_04.png)
+![CQ_CCOL_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_04.png)
 Particolarità : 
  \* _2_fase lavorazione, nel caso di un articolo di acquisto o di un prodotto finito relativamente ai quali non ci sono fasi di lavoro si può superare questo controllo immettendo la fase di lavoro jolly (\*\*)
  \* _2_esponente di modifica, il programma correla il livello di modifica della fase del ciclo al livello di modifica del disegno, per cui si può immettere  un ciclo di collaudo ad un livello 'x' di modifica solo se è già stato emesso per l'articolo in questione un disegno tecnico a livello di modifica 'x'. Se è attivo il mudulo DOCU e sono gestiti i disegni tecnici. il programma si collega con questo modulo per fare in modo che ci sia la corrispondenza tra esponenti di modifica del ciclo di collaudo e del disegno tecnico.
 
 ## Formato lista
-![CQ_CCOL_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_05.png)
+![CQ_CCOL_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_05.png)
 ## Formato dettaglio
-![CQ_CCOL_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_06.png)
+![CQ_CCOL_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_06.png)
  \* _2_esponente di modifica inferiore, segnala il livello di modifica inferiore del disegno tecnico per cui vale il  ciclo di collaudo in esame
  \* _2_esponente di modifica superiore, segnala il livello di modifica superiore del disegno tecnico per cui vale il  ciclo di collaudo in esame, nel caso sia lasciato blank il ciclo di collaudo vale per tutti i disegni aventi livello di modifica maggiore o uguale al livello di modifica inferiore.
  \* _2_obbligatorietà, è un campo tabellato CQ4 che descrive la obbigatorietà del controllo, il controllo può essere obbligatorio / non  obbligatorio, la registrazione obbligatoria / non obbligatoria;
@@ -56,10 +56,10 @@ Particolarità :
 
 ### Funzioni aggiuntive
 Possono essere lanciate dalle selezioni in basso del formato dettaglio : 
-![CQ_CCOL_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_07.png)
+![CQ_CCOL_07](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_07.png)
 _1_Dati di controllo
-![CQ_CCOL_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_08.png)
+![CQ_CCOL_08](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_08.png)
 _1_Dati aggiuntivi
-![CQ_CCOL_09](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_09.png)
+![CQ_CCOL_09](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_09.png)
 _1_Tempi e costi
-![CQ_CCOL_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_10.png)
+![CQ_CCOL_10](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQCM10/CQ_CCOL_10.png)

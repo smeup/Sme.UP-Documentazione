@@ -4,13 +4,13 @@ Un albero è composto da nodi e foglie :
 - una foglia è un particolare nodo che non presenta sotto-ramificazioni, è un punto terminale dell'interazione.
 I nodi e le foglie sono tipizzati, ovvero identificati come oggetti Sme.UP ed è possibile visualizzarne l'icona associata.
 
-![LOCTRE_024](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_02/LOCTRE_024.png)delle icone)
+![LOCTRE_024](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_02/LOCTRE_024.png)delle icone)
 
 
 
 Nel caso in cui non venga richiesta la visualizzazione delle icone i nodi sono rappresentati da cartelline che presentano un "+" o un "-" sulla sinistra a seconda del fatto che il nodo sia chiuso o aperto mentre le foglie sono raffigurate con dei punti grigi : 
 
-![LOCTRE_025](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_02/LOCTRE_025.png)visualizzazione delle icone)
+![LOCTRE_025](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_02/LOCTRE_025.png)visualizzazione delle icone)
 
 ## Terminologia
 
@@ -34,4 +34,4 @@ E' un nodo che non ha figli, è un punto terminale dell'interazione.
 
 E' il termine adottato per individuare le suddivisioni delle voci all'interno di un albero e la loro strutturazione gerarchica. Al primo livello corrispondono i nodi visualizzati quando l'albero è completamente collassato, i nodi figli di questi nodi apparterranno al secondo livello e così via.
 
-![LOCTRE_037](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_02/LOCTRE_037.png)
+![LOCTRE_037](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_02/LOCTRE_037.png)

@@ -1,6 +1,6 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare il saldo di un conto contabile a una ceerta data scomponendolo in ratei e risconti in funzione della competenza delle scritture inserite.
-![C5E010_008](http://doc.smeup.com/immagini/MBDOC_SCH-C5E010_COM/C5E010_008.png)
+![C5E010_008](https://doc.smeup.com/immagini/MBDOC_SCH-C5E010_COM/C5E010_008.png)
 ## Parametri di lancio
 
  \* Lista conti :  permette di eseguire l'estrazione su uno specifico gruppo di conti. Per eseguire l'estrazione di tutti i conti inserire \*.

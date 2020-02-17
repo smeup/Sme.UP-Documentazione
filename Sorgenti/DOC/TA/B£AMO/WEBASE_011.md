@@ -21,23 +21,23 @@ WebUP gestisce quattro tipologie di login :
 Per accedere alla configurazione dei moduli di login (aggiunta, cancellazione, modifica) occorre premere la combinazione di tasti CTRL+SHIFT+F8, inserire
 la password richiesta ed aggiornare la pagina.
 
-![WEBASE_031](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_031.png)
+![WEBASE_031](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_031.png)
 compariranno tre nuove voci : 
 -Main config (configurazione generale)
 -Login module config (modifica login già esistenti)
 -Create new login module (crea nuovi moduli di login)
 
-![WEBASE_032](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_032.png)
+![WEBASE_032](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_032.png)
 
 Nella sezione "Create new login module" si possono creare i moduli di login necessari, impostando tipologia (una delle quattro accennate in precedenza e descritte a seguire) e
 le credenziali di accesso per la connessione.
-![WEBASE_033](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_033.png)
+![WEBASE_033](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_033.png)
 Occorre poi andare nella sezione "Main config" per abilitare il modulo all'utilizzo, diversamente non sarebbe utilizzabile.
 Per fare ciò occorre spostarlo tramite drag&drop nella colonna di destra come in figura : 
-![WEBASE_034](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_034.png)
+![WEBASE_034](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_034.png)
 Una volta effettuato il salvataggio delle impostazioni, in maniera automatica si aggiornerà la pagina, disabilitando le tre voci di configurazione e facendo comparire il nuovo modulo
 di login creato : 
-![WEBASE_035](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_035.png)
+![WEBASE_035](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_035.png)
 
 
 
@@ -47,8 +47,8 @@ Utilizzata per accedere lasciando all'utente la possibilità di cambiare i param
 Questa modalità usa l'utente di sistema operativo.
 Connessione :  n utenti b£u -> n job (LO_Exxxxxx)
 
-![WEBASE_018](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_018.png)
-![WEBASE_011](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_011.png)
+![WEBASE_018](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_018.png)
+![WEBASE_011](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_011.png)
 # Login External
 
 Web.UP supporta la modalità di login che abbiamo definito definito  "External", che permette di autenticare l'utente attraverso i normali moduli di login, ma senza presentare la form di login.
@@ -89,7 +89,7 @@ Serve comunque un utente di sistema operativo per la connessione "master", diver
 Per ulteriori dettagli implementativi si veda di seguito.
 Connessioni :  n utenti jau -> n job (LO_Exxxxxx) N.B. in questo caso ogni job sarà comunque intestato al medesimo utente master!
 
-![WEBASE_019](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_019.png)![WEBASE_012](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_012.png)
+![WEBASE_019](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_019.png)![WEBASE_012](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_012.png)
 
 |  Nam="Modulo di tipo FUN" |
 | 
@@ -141,7 +141,7 @@ Serve comunque un utente di sistema operativo per la connessione "master", diver
 Per ulteriori dettagli implementativi si veda di seguito.
 Connessioni :  n utenti jau -> n job (LO_Exxxxxx) N.B. ogni job sarà comunque intestato all'utente B£U associato all'utente JAU
 
-![WEBASE_016](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_016.png)![WEBASE_009](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_009.png)
+![WEBASE_016](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_016.png)![WEBASE_009](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_009.png)
 
 |  Nam="Modulo di tipo ROLES" |
 | 
@@ -169,7 +169,7 @@ Utilizzata per accedere senza lasciare all'utente la possibilità di cambiare al
 Questa modalità usa l'utente di sistema operativo.
 Connessione :  n utenti b£u -> n job (LO_Exxxxxx)
 
-![WEBASE_017](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_017.png)![WEBASE_010](http://doc.smeup.com/immagini/WEBASE_011/WEBASE_010.png)
+![WEBASE_017](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_017.png)![WEBASE_010](https://doc.smeup.com/immagini/WEBASE_011/WEBASE_010.png)
 
 |  Nam="Modulo di tipo DIRECT" |
 | 

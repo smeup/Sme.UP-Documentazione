@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare i saldi di contabilità generale e i saldi cespiti civilistici evidenziando le differenze
 
-![A5OPCO_01](http://doc.smeup.com/immagini/MBDOC_SCH-A5OPCO/A5OPCO_01.png)
+![A5OPCO_01](https://doc.smeup.com/immagini/MBDOC_SCH-A5OPCO/A5OPCO_01.png)
 ## Parametri di lancio
 
 -  Periodo :  è l'esercizio per il quale si voglia controllare la quadratura

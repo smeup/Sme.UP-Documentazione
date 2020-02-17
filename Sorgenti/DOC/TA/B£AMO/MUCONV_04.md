@@ -5,7 +5,7 @@ la conversione è un processo di trasformazione che si può articolare in più f
 Una fase di conversione può essere caratterizzata da uno
  :  : DEC T(SS) P(B£W) K(MU) D(stato) L(1)
 
-![MUCONV_04A](http://doc.smeup.com/immagini/MUCONV_04/MUCONV_04A.png)![MUCONV_04F](http://doc.smeup.com/immagini/MUCONV_04/MUCONV_04F.png)
+![MUCONV_04A](https://doc.smeup.com/immagini/MUCONV_04/MUCONV_04A.png)![MUCONV_04F](https://doc.smeup.com/immagini/MUCONV_04/MUCONV_04F.png)
 Come da figura, il modello di conversione prevede 3 fasi operative : 
 
 
@@ -20,13 +20,13 @@ Questo modello di conversione a tre fasi è adottato nel processo di conversione
 
 - **Sorgenti** :  trasformazione di sorgenti (RPG/CL) nel formato di destinazione (Java)
 
-![MUCONV_04B](http://doc.smeup.com/immagini/MUCONV_04/MUCONV_04B.png)
+![MUCONV_04B](https://doc.smeup.com/immagini/MUCONV_04/MUCONV_04B.png)
 - **Database** :  trasformazione di tabelle DB nel formato origina (DB2400) nelle corrispettive tabelle del DB di destinazione (DB2, SQLServer o altro..)
 
-![MUCONV_04C](http://doc.smeup.com/immagini/MUCONV_04/MUCONV_04C.png)
+![MUCONV_04C](https://doc.smeup.com/immagini/MUCONV_04/MUCONV_04C.png)
 - **Sistema** :  trasformazione oggetti del sistema originario (OS400) nei corrispettivi oggetti nel sistema di destinazione (As.UP)
 
-![MUCONV_04D](http://doc.smeup.com/immagini/MUCONV_04/MUCONV_04D.png)
+![MUCONV_04D](https://doc.smeup.com/immagini/MUCONV_04/MUCONV_04D.png)
 
 
 

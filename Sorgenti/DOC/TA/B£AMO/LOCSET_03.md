@@ -8,14 +8,14 @@ Prima di descrivere i punti in cui lo sviluppatore può fissare lo specifico set
 - **Dal default del client**. Se non viene specificato nulla, il client recupera i suoi valori default ed applica quelli. Il valore di default è indicato nell'help del campo.
 
 
-![LOCSET_02](http://doc.smeup.com/immagini/LOCSET_03/LOCSET_02.png)
+![LOCSET_02](https://doc.smeup.com/immagini/LOCSET_03/LOCSET_02.png)
 
 - **Dalla configurazione del client**. Questo livello vale solo per i setup di excel (**SET.EXC**). Cliccando il tasto destro sull'icona verde, in alto nella finestra del client, è possibile gestire una configurazione di carattere generale del client. All'interno di questo c'è una voce "Esportazione", attraverso cui possono essere forzati dei default.
 
 
-![LOCSET_03](http://doc.smeup.com/immagini/LOCSET_03/LOCSET_03.png)
-![LOCSET_04](http://doc.smeup.com/immagini/LOCSET_03/LOCSET_04.png)
-![LOCSET_05](http://doc.smeup.com/immagini/LOCSET_03/LOCSET_05.png)
+![LOCSET_03](https://doc.smeup.com/immagini/LOCSET_03/LOCSET_03.png)
+![LOCSET_04](https://doc.smeup.com/immagini/LOCSET_03/LOCSET_04.png)
+![LOCSET_05](https://doc.smeup.com/immagini/LOCSET_03/LOCSET_05.png)
 
 - **Da setup della funzione**. Il setup della funzione può essere reperito in vari modi e a disposizione dell'utente possono anche essere disponibili più configurazioni del medesimo setup per la stessa funzione. In presenza di setup multipli il setup attivo è comunque sempre uno solo, quello selezionato in quel momento dall'utente. I setup di funzione possono essere definiti alternativamente : 
 -- Da scheda (cioè da uno script SCP_SCH), se il corrispondente componente può essere emesso in una sezione di scheda (es. il setup di una matrice può essere indicato in questo modo, il setup di un report no).
@@ -23,8 +23,8 @@ Prima di descrivere i punti in cui lo sviluppatore può fissare lo specifico set
 - **Dall'attributo Parent**. Fra gli attributi dei setup che vengono fissati in scheda o da servizio, è normalmente previsto un particolare campo chiamato "Parent" :  in questo attributo può essere specificato un oggetto **J3**, attraverso cui lo standard fornisce alcuni modelli pre-configurati di setup. Quando si usa questo campo (utilizzo che viene consigliato) tutti i valori indicati nel modello verranno ereditati dal setup specifico, con la possibilità in quest'ultimo di poterli comunque sovrascrivere. E' quindi possibile indicare un modello per riprenderne la configurazione e specificare poi in esplicito i soli campi che si ha interesse di indicare in modo specifico. I modelli sono catalogati nello script della scheda **SCP_SCH/J3_SET_STD**.
 
 
-![LOCSET_06](http://doc.smeup.com/immagini/LOCSET_03/LOCSET_06.png)
-![LOCSET_07](http://doc.smeup.com/immagini/LOCSET_03/LOCSET_07.png)
+![LOCSET_06](https://doc.smeup.com/immagini/LOCSET_03/LOCSET_06.png)
+![LOCSET_07](https://doc.smeup.com/immagini/LOCSET_03/LOCSET_07.png)
 
 - **Da setup utente**. Va infine considerato che a disposizione dell'utente viene fornita la possibilità di manipolare i setup della funzione personalizzandoli interattivamente e creando quello che viene definito "setup utente". Quando questo avviene, ai setup forniti da scheda/servizio, si affiancano anche questi setup utente che sono selezionabili come setup da applicare alla funzione.
 
@@ -52,11 +52,11 @@ I sopracitati setup possono essere gestiti/inseriti da due particolari punti :
 -  Dalla scheda del modulo LOCSET, indicando manualmente le chiavi che vogliono essere inserite
 -  Dalla finestra di elaborazione della particolare esportazione, attraverso la voce gestione setup
 
-![LOCSET_01](http://doc.smeup.com/immagini/LOCSET_03/LOCSET_01.png)
+![LOCSET_01](https://doc.smeup.com/immagini/LOCSET_03/LOCSET_01.png)
 **NOTA BENE :  Eccezione per SET.EXC**
 
 Per l'excel sussiste un'eccezione tale per cui il setup nativo dell'esportazione è di tipo GRA_EXC; mentre le risalite avvengono tramite il setup SET.EXC. Per questo nella gestione dei setup vengono riportate entrambe. Quando voglio riprendere al momento un particolare setup posso utilizzare il GRA_EXC, mentre se voglio impostare una risalita va utilizzato il SET.EXC.
 
-![LOCSET_08](http://doc.smeup.com/immagini/LOCSET_03/LOCSET_08.png)
+![LOCSET_08](https://doc.smeup.com/immagini/LOCSET_03/LOCSET_08.png)
 
 

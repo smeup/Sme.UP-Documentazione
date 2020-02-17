@@ -34,7 +34,7 @@ As.UP. Ai fini di questo documento il modulo di comunicazione di maggior interes
 che verrà pertanto spiegato con maggior dettaglio. Per maggiori informazioni sul modulo di comunicazione
 iSeries (e sugli altri moduli di comunicazione presenti) fare riferimento ai documenti dedicati al modulo applicativo LO.
 
-![MULOOC_04A](http://doc.smeup.com/immagini/MULOOC_04/MULOOC_04A.png)
+![MULOOC_04A](https://doc.smeup.com/immagini/MULOOC_04/MULOOC_04A.png)
 ## Modulo comunicazione verso IBM iSeries
 
 E' il modulo di comunicazione di default per Looc.UP e consente la comunicazione verso il sistema ISeries IBM
@@ -65,7 +65,7 @@ del server desiderato o un nome host conosciuto dal DNS di rete.
 
 # Dettagli tecnici sulla comunizazione tra Looc.UP e server As.UP
 
-![MULOOC_04B](http://doc.smeup.com/immagini/MULOOC_04/MULOOC_04B.png)
+![MULOOC_04B](https://doc.smeup.com/immagini/MULOOC_04/MULOOC_04B.png)
 La comunicazione tra Looc.UP e il server As.UP avviene attraverso l'utilizzo di socket TCP/IP, attestati su porte specifiche.
 Per analogia a quanto succede nella comunicazione verso iSeries, le porte di comunicazione utilizzate verso As.UP sono
 le stesse utilizzate nella comunicazione verso iSeries. Il protocollo di comunicazione non è di tipo testuale ma è basato sulla

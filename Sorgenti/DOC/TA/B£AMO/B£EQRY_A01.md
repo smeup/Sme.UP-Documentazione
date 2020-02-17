@@ -10,7 +10,7 @@ Le funzioni di ricerca possono essere svolte secondo due particolari tecniche :
 La modalità client è prerogativa del client stesso e non può essere in nessun modo modificata o deviata. Essa riguarda però solo una piccola parte delle classi smeup, nello specifico, interviene per quasi tutti quegli oggetti che non sono riconducibili ad un'entità server. Sono infatti essenzialmente identificatili dall'iniziale "J" della classe (es. J1PATHFILE o J1PATHDIR) con l'aggiunta delle classi D8 (data) e I1 (istante).
 Per questi oggetti la funzione di risoluzione della ricerca è specifica in relazione alle peculiarità della classe.
 
-![B£EQRY_07](http://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_07.png)![B£EQRY_08](http://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_08.png)
+![B£EQRY_07](https://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_07.png)![B£EQRY_08](https://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_08.png)
 ## Modalità Server
 Riguarda quindi la stragrande maggioranza delle classi di smeup e viene gestita dal server.
 
@@ -47,7 +47,7 @@ Per verificare invece gli oggetti che prevedono la forzatura per classe dalla co
 -  Scelta l'opzione "Modifica" per la configurazione per utente/ambiente interessata
 -  Scelto il tab "SearchOptions". Anche qui si fa riferimento al concetto di ricerca "Interna - INT" (cioè svolta dal pgm di emulazione) ed "Esterna - EXT" (cioè svolta dal client).
 
-![B£EQRY_26](http://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_26.png)![B£EQRY_27](http://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_27.png)![B£EQRY_28](http://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_28.png)
+![B£EQRY_26](https://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_26.png)![B£EQRY_27](https://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_27.png)![B£EQRY_28](https://doc.smeup.com/immagini/B£EQRY_A01/BXEQRY_28.png)
 
 
 

@@ -5,7 +5,7 @@ Essendo un archivio eccezioni, si immettono solo i valori che si vogliono modifi
 # DETTAGLIO FORMATI
 # Formato guida
 
-![B£DIR0_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR0/BXDIR0_01.png)
+![B£DIR0_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR0/BXDIR0_01.png)
 ## Tipo risorsa gestita
 Codice controllato sulla tabella TRG.
 ## Codice risorsa
@@ -16,7 +16,7 @@ Mese e anno per cui si intendono definire delle eccezioni.
 
 # Formato gestione
 
-![B£DIR0_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR0/BXDIR0_02.png)
+![B£DIR0_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR0/BXDIR0_02.png)
 ## Risorsa collegata
 Previsto per usi futuri. Attualmente non gestito.
 ## Codici orario

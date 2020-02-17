@@ -1,7 +1,7 @@
 ## Obiettivo
 Analizzare il bilancio aziendale a una certa data.
 
-![C5E010_011](http://doc.smeup.com/immagini/MBDOC_SCH-C5E010BPER/C5E010_011.png)
+![C5E010_011](https://doc.smeup.com/immagini/MBDOC_SCH-C5E010BPER/C5E010_011.png)
 ## Parametri di lancio
  \* Esercizio :  è l'esercizio da analizzare. Se lasciato vuoto viene analizzato l'esercizio corrente
  \* Data Iniziale :  è la data a partire dalla quale vengono analizzati i movimenti. Se lasciata vuota viene considerato il primo giorno dell'esercizio in analisi.

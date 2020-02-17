@@ -23,4 +23,4 @@ Partendo dalla previsione di vendita abbiamo i passi seguenti :
  \* **Ripresa conto / lavoro pianificato**, come sopra per il conto/lavoro
  \* **Valorizzazione conto / lavoro pianificato**, come sopra
 
-![MPBDGT_01](http://doc.smeup.com/immagini/MPBDGT_01/MPBDGT_01.png)
+![MPBDGT_01](https://doc.smeup.com/immagini/MPBDGT_01/MPBDGT_01.png)

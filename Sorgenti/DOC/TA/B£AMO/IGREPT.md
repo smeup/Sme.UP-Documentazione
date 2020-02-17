@@ -22,7 +22,7 @@ Per questo tipo di indici il programma apre i diversi archivi disponibili :
  \* _2_Tema, identifica con un codice un insieme di dati legati ad un argomento comune, ad esempio tema delle verifiche sugli audit, tema della gestione delle non conformità, tema della fmea, ecc.. (tabella IGT). È utilizzazto per indici dinamici.
  \* _2_Livello di sintesi, specifica a quale preciso fattore fare riferimento per la ricerca dei dati relativi ad un indice dinamico, ad esempio articolo, articolo/fornitore, ecc.. (tabella IGS)
 
-![IG_REPT_01](http://doc.smeup.com/immagini/IGREPT/IG_REPT_01.png)
+![IG_REPT_01](https://doc.smeup.com/immagini/IGREPT/IG_REPT_01.png)
 # Tabelle utilizzate dal modulo
 
 ### IGA - AREA INDICI DI GESTIONE

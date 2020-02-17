@@ -5,10 +5,10 @@ La matricola contiene i dati anagrafici dello strumento stato attuale dello stru
 Le matricole strumenti di misura sono l'oggetto Sme.UP
  :  : DEC T(OG) P() K(MS)
 
-![CQACMC_MS01](http://doc.smeup.com/immagini/CQACMC_02/CQACMC_MS01.png)
+![CQACMC_MS01](https://doc.smeup.com/immagini/CQACMC_02/CQACMC_MS01.png)
 Le matricole si inseriscono/modificano attraverso le azioni raggiungibili dal menù strumenti oppure dalle funzioni dell'oggetto.
 Caratterizzano una matricola le seguenti informazioni : 
-![CQACMC_MS02](http://doc.smeup.com/immagini/CQACMC_02/CQACMC_MS02.png)
+![CQACMC_MS02](https://doc.smeup.com/immagini/CQACMC_02/CQACMC_MS02.png)
 A finaco di dati prettamente anagrafici quali nome, marca matricola fornitore, certificato fornitore e relative date, dalla matricola ricaviamo Enti persone responsabili e dati relativi alla reperibilità e stato attuale dello strumento.
 
 Categoria strumento

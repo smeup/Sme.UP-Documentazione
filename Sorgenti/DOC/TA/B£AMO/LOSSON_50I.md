@@ -28,7 +28,7 @@ Se avete da aggiungere, aggiungete pure.
 ###  Presenza nel dominio Windows viene introdotto anche un solo Domain Controller Windows 2008 R2
   Se nel dominio Windows viene introdotto anche un solo Domain Controller Windows 2008 R2, occorre togliere dagli attributi del primo "utente Kerberos creato dal batch EIM" il flag "Use Kerberos DES encryption types for this account" (o il corrispondente in italiano). Vedi figura sotto : 
 
-![LOBASE_181](http://doc.smeup.com/immagini/LOSSON_50I/LOBASE_181.png)
+![LOBASE_181](https://doc.smeup.com/immagini/LOSSON_50I/LOBASE_181.png)
   Se viene utilizzato Loocup, è necessario su ogni client installare la patch che trovate in allegato per il supporto Java alla criptatura AES256. Basta copiare i file nella cartella %Program Files%\Java\Jre\Lib\Security e riavviare.
 
 ### Operation Navigator che non consente di modificare l'EIM

@@ -37,6 +37,6 @@ Il programma può trattare nello stesso documento tipologie diverse di fornitura
 
 ### Formato lista
 Se la funzione non è in modalità "CIE" il sistema presenta nella lista segente il dettagli dell'elaborazione (righe origine, ordini ci C/Lavoro, giacenza c/o terzista, risultato della distribuzione) : 
-![P5PMFP_61](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02A/P5PMFP_61.png)![P5PMFP_62](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02A/P5PMFP_62.png)### Opzioni della lista
+![P5PMFP_61](https://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02A/P5PMFP_61.png)![P5PMFP_62](https://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02A/P5PMFP_62.png)### Opzioni della lista
 Nella lista sono possibile le seguenti opzioni : 
-![P5PMFP_63](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02A/P5PMFP_63.png)
+![P5PMFP_63](https://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02A/P5PMFP_63.png)

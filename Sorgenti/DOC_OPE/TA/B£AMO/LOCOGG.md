@@ -16,16 +16,16 @@ Il modulo è composto da 3 finestre di dialogo.
 ## la finestra di selezione
 E' la finestra con cui definisco tipo, parametro e metodo di ricerca.
 
-![LOBASE_173](http://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_173.png)
+![LOBASE_173](https://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_173.png)
 ## la finestra di filtro
 E' la finestra con cui imposto i parametri del filtro di ricerca.
 Le domande che vengono poaste dipendono dal tipo di filtro.
 
-![LOBASE_174](http://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_174.png)
+![LOBASE_174](https://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_174.png)
 ## la finestra di lista
 E' la finestra che riporta la lista di oggetti filtrati in base al criterio impostato.
 
-![LOBASE_175](http://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_175.png)
+![LOBASE_175](https://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_175.png)
 # Ricerche
 Vediamo come eseguire le ricerche.
 
@@ -55,7 +55,7 @@ E' composta da un insieme di domande che verranno utilizzate per filtrare gli og
 
 Per utilizzare una query si può effettuare un ricerca standard, anche senza parametri di ricerca, e poi selezionare la query nella combo visibile nella figura seguente.
 
-![LOBASE_176](http://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_176.png)
+![LOBASE_176](https://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_176.png)
 In alternativa si può inserire nel campo codice il carattere "**+**" seguito dal nome della query, ad esempio **+BASE** fa iniziare la ricerca con la query BASE.
 
 Una volta scelta la query comparirà la finestra di filtro.
@@ -68,13 +68,13 @@ E' una particolare visualizzazione dei dati ottenuti.
 
 Nella figura seguente vediamo gli schemi definiti per la query BASE degli oggetti Articolo
 
-![LOBASE_177](http://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_177.png)
+![LOBASE_177](https://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_177.png)
 ### L'ordinamento
 Consente di specificare come i dati vanno ordinati.
 
 Nella figura seguente vediamo gli ordinamenti  definiti per la query BASE degli oggetti Articolo
 
-![LOBASE_178](http://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_178.png)
+![LOBASE_178](https://doc.smeup.com/immagini/MBDOC_OPE-LOCOGG/LOBASE_178.png)
 ### Esporta in tabella
 I dati ottenuti si possono esportare in una matrice :  è sufficiente utilizzare il tasto **Esporta in tabella** per fare apparire una scheda contenente una matrice con i dati recuperati secondo lo schema selezionato.
 A questo punto si può navigare nei dati (raggrupparli filtrarli ecc) o  esportarli in Excel o

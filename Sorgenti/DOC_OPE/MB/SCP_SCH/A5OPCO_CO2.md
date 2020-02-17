@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare e gestire i conti di collegamento tra cespiti e contabilità definiti a livello di categoria.
 
-![A5OPCO_002](http://doc.smeup.com/immagini/MBDOC_SCH-A5OPCO_CO2/A5OPCO_002.png)
+![A5OPCO_002](https://doc.smeup.com/immagini/MBDOC_SCH-A5OPCO_CO2/A5OPCO_002.png)
 ## Parametri di lancio
 
  \* Linea :  impostare la linea per cui si vogliano analizzare i collegamenti cespiti - co.ge

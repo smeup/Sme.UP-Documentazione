@@ -1,5 +1,5 @@
 # Formato guida
-![CQ_RDIN_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_02.png)
+![CQ_RDIN_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_02.png)
  La gestione delle richieste di intervento è composta da otto opzioni principali : 
  \* _2_01 :  consente di immettere una richiesta di intervento. Questa operazione può essere effettuata da tutte le direzioni presenti in azienda. In questa fase è necessario specificare l'ente richiedente (che dovrebbe coincidere con l'utente che sta inserendo la richiesta di intervento), l'oggetto su cui si esegue la richiesta, la soluzione del problema, l'obiettivo che si vuole raggiungere e l'ente designato alla risoluzione del problema.
  \* _2_02 :  consente di gestire i dati che sono stati registrati durante l'immissione
@@ -19,9 +19,9 @@ L'operazione  fondamentale da fare in questa fase è di portare a GE (gestione e
  \* _2_Numero Documento, è il numero progressivo della richiesta di intervento che viene fornito in automatico con l'immissione della richiesta
 
 # Formato lista
-![CQ_RDIN_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_03.png)
+![CQ_RDIN_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_03.png)
 # Formato dettaglio
-![CQ_RDIN_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_04.png)
+![CQ_RDIN_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_04.png)
  \* _2_Articolo/Fase lavorazione/Fase collaudo, sono i tre campi che dipendono dal tipo griglia impostato e che permettono di documentere l'oggetto della richiesta di intervento. L'archivio o la tabella a cui si collegano dipende dal tipo di codice che è stato impostato in tabella CQY.
  \* _2_Ente Richiedente, è un campo tabellato \* CNTT che  identifica con un codice l'ente/area operativa, l'ente/dipendente, ecc.. che effettua la richiesta di intervento.
  \* _2_Obbiettivo e Soluzione Proposta, sono campi descrittivi controllati in tabella CQ\*QZ che permettono di documentare i dati di base della richiesta in esame. La definizione di questi  due campi dipende dal campo "tipo di richiesta"  e quindi dalle impostazioni fatte in tabella CQZ.
@@ -38,10 +38,10 @@ L'opzione GE, presenta il formato di dettaglio in cui devono essere gestiti i se
  \* _2_Costi a preventivo, è un campo che richiede caratteri numerici in cui l'ente designato sulla base del tipo di richiesta immesso valuta il costo dell'attività di intervento
  \* _2_ENTER, consente di passare al formato successivo : 
 
-![CQ_RDIN_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_05.png)
+![CQ_RDIN_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_05.png)
  \* _2_Richiesta collegata, è un campo da cui si possono collegare alla richiesta in esame 'n' altre attività di intervento in serie : 
 
-![CQ_RDIN_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_06.png)
+![CQ_RDIN_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQRI10/CQ_RDIN_06.png)
  \* _2_Rapporti di prova/Soluzione adotta/Esito Sol. Adott/Effetto sol. adottata, controllati in tabella CQ\*QZ con cui vengono descritte le informazioni fondamentali circa l'attività che è stata evasa. La definizione di questi  due campi dipende dal campo "tipo di richiesta"  e quindi dalle impostazioni fatte in tabella CQZ.
  \* _2_Altri costi a con/Ore a consuntivo/Costo tot a cons, sono tre campi numerici con cui l'ente di addebito imputa i costi e le ore consuntivate per la risoluzione della richiesta
  \* _2_Centro di lavoro, è un campo facoltativo in cui si specifica a quale centro di lavoro si vogliono addebitare i costi consuntivati

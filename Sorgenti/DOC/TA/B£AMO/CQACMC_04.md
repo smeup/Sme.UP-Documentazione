@@ -15,18 +15,18 @@ Se infatti a questo si accompagna la presenza di trend o run nei grafici SPC del
 MSA strumento di misura sono l'oggetto Sme.UP
  :  : DEC T(OG) P() K(H5)
 
-![CQACMC_H501](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_H501.png)
+![CQACMC_H501](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_H501.png)
 ## Inserimento e gestione di un nuovo documento di MSA
 Entrare nel modulo degli strumenti di misura all'interno dell'applicazione CQ. Nel menu di sinistra, cliccare sulla voce "Gestione MSA" presente tra le Actions delle matricole.
 Tramite questa voce sarà possibile creare un nuovo documento, modificarlo, copiarlo, cancellarlo o semplicemente visualizzarlo. Le opzioni autorizzate sono visibili a video nella finestra seguente
 
 
-![CQACMC_H502](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_H502.png)
+![CQACMC_H502](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_H502.png)
 **INSERIMENTO :  OPZIONE 1**
 Inserire l'opzione "1" o "01" nella casella bianca e premere invio. Questo farà aprire una finestra in cui compare l'elenco degli strumenti di misura. L'elenco viene caricato con la paginazione e quindi per poter consultare tutta l'anagrafica delle matricole occorre paginare con l'apposito tasto della tastiera oppure tramite il bottone "Segue" presente nella parte alta sinistra del video. Se si conosce già il codice dello strumento, è possibile velocizzare la ricerca inserendo questo codice nel campo in alto a destro (campo Pos.01).
 Una volta inserita qui la matricola, premere invio. Questo farà caricare l'elenco a partire dal codice inserito.
 
-![CQACMC_H503](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_H503.png)
+![CQACMC_H503](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_H503.png)
 Scegliere quindi lo strumento che si deve testare mettendo una "X" sulla riga. La scelta dello strumento comporta l'apertura di una nuova videata in cui alcuni campi vengono già compilati in automatico (a partire dall'anagrafica dello strumento di misura scelto) e altri devono essere compilati in modo opportuno rispetto all'analisi che stiamo facendo.
 
 Per la compilazione di dettaglio, si rimanda ai paragrafi successivi. La compilazione della videata infatti si differenzia in base al tipo di studio che si vuole fare.
@@ -69,10 +69,10 @@ Una volta inseriti tutti i dati richiesti, premendo INVIO i campi obbligatori re
 Premendo poi F6 si procede alla conferma definitiva dei dati. Alla conferma, viene aperta in automatico una nuova scheda che servirà all'operatore per registrare i valori inseriti.
 
 
-![CQACMC_H504](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_H504.png)
+![CQACMC_H504](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_H504.png)
 Impostare quindi la data in cui si è svolta la misurazione e il codice dell'operatore che ha svolto le misure (si veda il paragrafo relativo alla compilazione dei campi comuni) e premere nuovamente INVIO.
 
-![CQACMC_H505](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_H505.png)
+![CQACMC_H505](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_H505.png)
 Inserire nella matrice tutti i valori riscontrati durante le misurazioni in modo ordinato. In questa fase occorre fare molta attenzione al numero di decimali che viene gestito dalle celle della matrice. Se il numero di decimali che viene accettato durante la fase di inserimento non è conforme alle aspettative, occorre andare in modifica della CATEGORIA dello strumento che stiamo analizzando e impostare in modo opportuno il campo intitolato "Numero decimali gestiti".
 Inseriti tutti i valori richiesti, confermare il lavoro premendo il bottone "Conferma e salva le misure". Questo permetterà di caricare nuovamente la stessa scheda predisposta all'inserimento della nuova serie di misure rilevate da un nuovo operatore. Cambiare quindi l'operatore in alto e procedere all'inserimento della nuova serie di dati. Ripetere l'operazione anche per il terzo operatore (se previsto).
 Per chiudere la scheda e uscire, premere semplicemente il bottone "Chiudi scheda" .
@@ -91,7 +91,7 @@ Inserire l'opzione "3" o "03" nella casella bianca. Digitare un "!" nel campo "N
 Scegliere a questo punto il documento che si intende copiare cliccando sulla riga corrispondente. Questo riporterà il numero selezionato nella finestra iniziale alla quale risponderemo ancora con INVIO.
 NB :  questo è il documento che vogliamo copiare. Premendo INVIO il programma aprirà un nuovo documento uguale a questo ma con un numero diverso. Si veda infatti la figura seguente : 
 
-![CQACMC_H506](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_H506.png)A questo punto è possibile modificare i dati del nuovo documento per poi procedere all'inserimento delle misure. Si precisa a questo proposito che la copia del documento di MSA non agisce sulle serie di misure inserite, ma solo sulla testata del documento.
+![CQACMC_H506](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_H506.png)A questo punto è possibile modificare i dati del nuovo documento per poi procedere all'inserimento delle misure. Si precisa a questo proposito che la copia del documento di MSA non agisce sulle serie di misure inserite, ma solo sulla testata del documento.
 
 **CANCELLAZIONE :  OPZIONE 4**
 Inserire l'opzione "4" O "04" nella casella bianca. Digitare un "!" nel campo "Nr.Taratuta" e premere poi INVIO per  vedere l'elenco di tutti i documenti di MSA presenti in archivio.
@@ -107,19 +107,19 @@ Consultato il documento, uscire con F12 fino a che non si sono chiuse tutte le v
 Entrare nell'applicazione CQ e scegliere sempre il modulo "Strumenti di misura". Una volta entrati nel modulo, scegliere il surf per strumenti intitolato "Strumenti di misura" per poter consultare i documenti MSA dato un certo strumento e impostare il flag "Cicli e rilievi" per abilitare la navigazione delle informazioni collegate agli strumenti stessi. A questo punto, accanto agli strumenti che hanno almeno un MSA, comparirà nella colonna MSA una lente di ingrandimento che consente di accedere direttamente ai documenti stessi.
 
 
-![CQACMC_23](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_23.png)
+![CQACMC_23](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_23.png)
 Facendo doppio click sul numero di MSA, ovvero sul contenuto della colonna intitolata "Identificativo", si può accedere alla scheda del documento.
 Di seguito i layout specifici per le tre tipologie di MSA che vengono gestite in Sme.UP.
 
 **MSA per VARIABILI - studio tipo 1**
 
-![CQACMC_24](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_24.png)
+![CQACMC_24](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_24.png)
 **MSA per VARIABILI - studio tipo 2**
 
-![CQACMC_25](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_25.png)
+![CQACMC_25](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_25.png)
 **MSA per ATTRIBUTI**
 
-![CQACMC_26](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_26.png)
+![CQACMC_26](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_26.png)
 ## Stampa del certificato
 Per eseguire la stampa di un documento di MSA sarà sufficiente andare nella voce di menu "Specifiche MSA Strumenti" e scegliere poi tra le voci : 
 -  Stampa MSA verticale"
@@ -128,4 +128,4 @@ La differenza tra le due stampe è solo il layout della pagina (orizzontale o ve
 È ovvio che a seconda della numerosità dei dati che si devono stampare (numero di campioni e di ripetute) sarà consigliata la stampa in orizzontale rispetto a quella in verticale.
 Le stampe si adattano al contenuto del documento di MSA; a seconda infatti del tipo di studio di MSA, verrà cambiato sia il titolo del certificato che la parte di dettaglio delle misure.
 
-![CQACMC_27](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_27.png)![CQACMC_28](http://doc.smeup.com/immagini/CQACMC_04/CQACMC_28.png)
+![CQACMC_27](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_27.png)![CQACMC_28](https://doc.smeup.com/immagini/CQACMC_04/CQACMC_28.png)

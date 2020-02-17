@@ -15,11 +15,11 @@ Permette di andare alla scheda MPPIAN_RVP di gestione di una riga della vista pi
  \* _2_Standard, presenta in forma di matrice l'oggetto 1 e l'oggetto 2, ordinata per oggetto 1
  \* _2_Completa, come la precedente ma raggruppata e totalizzata per oggetto 1
 
-![MPPIAN_080](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_080.png)
+![MPPIAN_080](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_080.png)
 ## Contenuto dettaglio
 Questa sezione presenta l'intero contenuto della vista piano con tutti i valori di tutti i periodi.
 
-![MPPIAN_081](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_081.png)
+![MPPIAN_081](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_081.png)
 ## Modifica vista
 Come la precedente ma in forma di matrice modificabile in modo da poter cambiare direttamente i valori (nota, la manutenzione è soggetta al controllo di autorizzazione per classe MPGP01 e funzione = vista piano come nella manutenzione vista piano dell'emulazione 5250).
 In questa matrice sono predisposti diversi set-up di visualizzazione : 
@@ -27,7 +27,7 @@ In questa matrice sono predisposti diversi set-up di visualizzazione :
  \* _2_Raggruppato per oggetto 1
  \* _2_Raggruppato per oggetto 2
 
-![MPPIAN_082](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_082.png)
+![MPPIAN_082](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_082.png)
 ## Statistiche della vista
 Per ogni riga della vista presenta una serie di indici statistici : 
  \* _2_Numero di elementi
@@ -63,7 +63,7 @@ Per ogni riga della vista presenta una serie di indici statistici :
  \* _2_Mediana
  \* _2_% di errore, calcolata come (deviazione standard / media) \* 100
 
-![MPPIAN_083](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_083.png)
+![MPPIAN_083](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_083.png)
 _3_Nota 1, selezionando le impostazioni di visualizzazione _2_Base o _2_Completa si possono vedere un set ridotto di indici oppure tutti
 
 _3_Nota 2, per il significato e le formule di calcolo degli indici presentati fare riferimento alla documentazione della routine di calcolo funzioni matematiche £G56
@@ -72,18 +72,18 @@ _3_Nota 2, per il significato e le formule di calcolo degli indici presentati fa
 ## Comparazione
 Permette di confrontare i dati della vista di partenza con un'altra vista, sono previste una comparazione in forma sintetica, una comparazione in forma estesa ed una manutenzione in matrice modificabile della vista con confronto con un'altra vista di riferimento.
 
-![MPPIAN_084](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_084.png)
-![MPPIAN_085](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_085.png)
-![MPPIAN_086](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_086.png)
+![MPPIAN_084](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_084.png)
+![MPPIAN_085](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_085.png)
+![MPPIAN_086](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_086.png)
 ## Analisi nel tempo
 Analizza i dati della vista piano attraverso il componente standard LOA02
 
-![MPPIAN_087](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_087.png)
+![MPPIAN_087](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_087.png)
 ## Analisi tabellare
 Analizza i dati della vista piano attraverso il componente standard LOA03
 
-![MPPIAN_088](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_088.png)
+![MPPIAN_088](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_088.png)
 ## Analisi tabellare con periodo
 Come la precedente con in più la possibilità di selezionare il periodo
 
-![MPPIAN_089](http://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_089.png)
+![MPPIAN_089](https://doc.smeup.com/immagini/MBDOC_SCH-MPPIAN_VDP/MPPIAN_089.png)

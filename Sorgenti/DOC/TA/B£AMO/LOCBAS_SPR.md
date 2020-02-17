@@ -1,23 +1,23 @@
 # Sme.UP Provider
 
-![LOCBAS_042](http://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_042.png)
+![LOCBAS_042](https://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_042.png)
 # Cos'è
 
 **Sme.UP Provider**   è il fornitore di servizi remoti per applicazioni del mondo Sme.UP.
 Contiene funzionalità sviluppate nel codice di Looc.UP che non era possibile o conveniente far gestire ai nostri sistemi as400. Nacque nel 2006 dedicato principalmente alla connessione con dispositivi di campo e alla comunicazione e controllo di altri client (controllare e far eseguire funzioni). Si sviluppò in seguito per altri ambiti che dettaglieremo in questo documento. Veniva chiamato "Looc.UP server" ed utilizzato dai diretti interessati coinvolti su progetti specifici. Oggi, dato l'utilizzo sempre più diffiuso, come ad esempio la gestione delle connessioni verso Sme.UP ERP da dispositivi web e mobile, abbiamo pensato ad una giusta divulgazione, diffusione e ad un nome più corretto come "**Sme.UP Provider**".
 
-![LOCBAS_043](http://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_043.png)
+![LOCBAS_043](https://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_043.png)
 **Sme.UP Provider** getta la basi per la realizzazione del modello di sviluppo applicativo completamente single-source.
 Infatti garantisce un accesso unico e standardizzato, basato su FUN e XML, al sistema gestionale, mantenendo le connessioni e i job as400 e quindi l'utente applicativo.
 Questo permetterà al consulente applicativo Sme.UP di sviluppare in autonomia come avviene oggi con Looc.UP
 
-![LOCBAS_044](http://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_044.png)
+![LOCBAS_044](https://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_044.png)
 Il codice Looc.UP è composto da due blocchi logici, i componenti di interfaccia grafica, che interagiscono direttamente con l'utente, sviluppati quasi interamente in Delphi e i componenti (**Sme.UP Provider**) che eseguono operazioni (o servizi) e che forniscono o manipolano dati, sviluppati in java. I primi richiamano i secondi attraverso le "FUN", i secondi rispondono con XML dopo aver eseguito il compito richiesto.
 **Sme.UP Provider** richiede un server dedicato, per ora con sistema operativo Windows.
 
 # A cosa serve
 
-![LOCBAS_045](http://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_045.png)
+![LOCBAS_045](https://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_045.png)
 **Sme.UP Provider** espone diversi servizi e si presta ai seguenti utilizzi : 
 
  :  : PAR F(01) L(PUN)
@@ -35,7 +35,7 @@ Il codice Looc.UP è composto da due blocchi logici, i componenti di interfaccia
 ## Servizi di accesso tramite web e mobile
 **Sme.UP Provider** fa da bridge tra le Web.UP e Mob.UP e il server applicativo, mantendo le connessioni e facendo transitare le richieste (FUN) e le risposte (XML). Permette alle applicazionei Web e Mobile di collegarsi a qualunque ambiente.
 
-![LOCBAS_046](http://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_046.png)
+![LOCBAS_046](https://doc.smeup.com/immagini/LOCBAS_SPR/LOCBAS_046.png)
 ## Integrazione con il campo
 Tramite i plugin, **Sme.UP Provider** può interagire con dispositivi collegati al pc, ad esempio PLC, stampanti, bus di campo, applicazioni di comunicazione con la produzione.
 Accesso remoto ai file e alle cartelle

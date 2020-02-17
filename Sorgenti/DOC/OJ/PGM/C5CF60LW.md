@@ -56,9 +56,9 @@
 -- Documento origine/valore previsto :  vengono visualizzati il numero del documento origine, la quantità effettiva, il valore previsto e il valore effettivo.
 -- Documento origine/valore scostamento :  vengono visulizzati il numero del documento origine, la quantità effettiva, lo scostamento in valore e il valore effettivo.
 - Schema selezionate :  attraverso questa voce è possibile definire uno schema specifico per le fonti selezionate e che quindi compaiono all'interno dell'area 'In pagamento'. Ad esempio in questo caso si è deciso di utilizzare per le righe selezionabili lo schema di default mentre per quelle selezionate vengono visualizzati il numero e la data della bolla, il codice pagamento, il codice IVA e il conto contabile : 
-![C5C040_014](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5CF60LW/C5C040_014.png)- Schema generale :  definisce lo schema generale delle righe visualizzate all'interno della schermata e viene applicato sia alle righe presenti nell'area 'In attesa' che a quelle presenti nell'area 'In pagamento' ad eccezione del caso in cui sia definito uno schema specifico per le righe selezionate.
+![C5C040_014](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5CF60LW/C5C040_014.png)- Schema generale :  definisce lo schema generale delle righe visualizzate all'interno della schermata e viene applicato sia alle righe presenti nell'area 'In attesa' che a quelle presenti nell'area 'In pagamento' ad eccezione del caso in cui sia definito uno schema specifico per le righe selezionate.
 - Dettaglio in lista :  permette di visualizzare il dettaglio delle righe delle fonti presenti : 
-![C5C040_015](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5CF60LW/C5C040_015.png)- Escludi NON selezionabili :  permette di visualizzare o meno all'intenro dell'area 'In attesa' le fonti non selezionabili.
+![C5C040_015](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5CF60LW/C5C040_015.png)- Escludi NON selezionabili :  permette di visualizzare o meno all'intenro dell'area 'In attesa' le fonti non selezionabili.
 - Ordinamento raggruppamenti :  permette di definire l'ordinamento dei raggruppamenti delle fonti; gli ordinamenti disponibili sono :  per data/documento origine, per codice/data del raggruppamento e per data/codice del raggruppamento.
 
 

@@ -2,7 +2,7 @@
 Web.UP si basa sugli stessi concetti di Looc.UP.
 In particolare **le pagine web vengono generate a partire dagli script di scheda**
 
-![WEBASE_036](http://doc.smeup.com/immagini/WEBASE_02/WEBASE_036.png)
+![WEBASE_036](https://doc.smeup.com/immagini/WEBASE_02/WEBASE_036.png)
 **1. Si basa sugli script di scheda**
  :  : DEC T(OG) P() K(MBSCP_SCH)
 **2. Si basa sui servizi**
@@ -15,7 +15,7 @@ In particolare **le pagine web vengono generate a partire dagli script di scheda
 ## Nota importante
 _7_Web.UP non supporta l'Emulazione 5250
 
-![WEBASE_038](http://doc.smeup.com/immagini/WEBASE_02/WEBASE_038.png)
+![WEBASE_038](https://doc.smeup.com/immagini/WEBASE_02/WEBASE_038.png)
 # Componenti
 
 I componenti di Web.UP sono gli stessi di Looc.UP, tuttavia, per motivi di sviluppo e per le differenti tecnologie, ci sono delle differenze : 

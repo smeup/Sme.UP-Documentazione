@@ -4,7 +4,7 @@ Il componente Albero ammette due visualizzazioni alternative :  la classica stru
 Per ottenere le due diverse visualizzazioni è possibile cliccare con il tasto destro del mouse sulla linguetta della scheda contenente l'albero, scegliere 'Visualizza come' e quindi selezionare 'Stella' o 'Albero' a seconda della visualizzazione desiderata.
 Nella classica visualizzazione ad albero vengono mostrati  i legami padre-figlio tra i vari nodi : 
 
-![LOCTRE_034](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_06/LOCTRE_034.png)
+![LOCTRE_034](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_06/LOCTRE_034.png)
 La stella è una visualizzazione sperimentale della gerarchia dell'albero che riproduce i diversi livelli di nodi assegnando ad ogni livello un colore : 
 
-![LOCTRE_035](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_06/LOCTRE_035.png)
+![LOCTRE_035](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_06/LOCTRE_035.png)

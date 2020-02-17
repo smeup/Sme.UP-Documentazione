@@ -164,7 +164,7 @@ La funzione CLRMSG ( ) rimuove tutti i messaggi della sezione alla quale la rego
 ## L'editor delle regole
 Per facilitare l'inserimento e la manutenzione delle regole del questionario è stato sviluppato un apposito editor ed il suo aspetto è mostrato in Figura 8 : 
 
-![CFBASE_028](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_028.png)Figura 8 - L'editor delle regole
+![CFBASE_028](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_028.png)Figura 8 - L'editor delle regole
 
 E' dotato di tutti gli strumenti di un classico editor di testo (funzioni di salvataggio, stampa, taglia, copia, incolla, help, etc') e facilita la lettura delle regole, evidenziando con colori differenti le parole riservate del linguaggio e i valori delle variabili.
 
@@ -172,7 +172,7 @@ Il tasto "Compila" manda in esecuzione il parser che abbiamo realizzato al fine 
 
 l grande vantaggio di questo editor sta nella presenza del "Wizard", ossia di una procedura che guida l'utente nell'inserimento delle regole. Il Wizard, in base al punto in cui l'utente si trovacol cursore durante la scrittura della regola, suggerisce tutte le possibili opzioni valide tra le quali l'utente può selezionare quella desiderata. Ad esempio quando l'utente digita il "SE"il Wizard mostra la finestra riportata in figura 12, nella quale propone la scelta dell'oggetto (variabile) da testare nella condizione booleana, ed in seguito propone l'elenco dei possibili valori della parte destra dell'operazione di confronto, prendendo questa lista direttamente dalla tabella memorizzata su AS400 alla quale la domanda stessa è associata. Il processo guidato continua fino alla terminazione della regola.
 
-![CFBASE_035](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_035.png)Figura 9 - Il wizard dell'editor delle regole con la finestra di selezione degli operatori
+![CFBASE_035](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_035.png)Figura 9 - Il wizard dell'editor delle regole con la finestra di selezione degli operatori
 
 ### La messa a punto delle regole
 
@@ -192,7 +192,7 @@ Ad esempio, una regola potrebbe dover confrontare i valori di Oggetto1 e Oggetto
 
 Solitamente la sua necessità è quella di poter sapere in quali regole compare un determinato oggetto o, viceversa, dato un oggetto poter risalire a conoscere in quali regole compare :  nella figura che segue vediamo lo strumento di analisi delle regole : 
 
-![CFBASE_027](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_027.png)Figura 10 - La finestra Correlazione Regole
+![CFBASE_027](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_027.png)Figura 10 - La finestra Correlazione Regole
 
 Questo strumento riceve dall'AS400 tutte le regole di un questionario. Per ognuna di esse estrae tutti gli oggetti che la compongono e li inserisce in una tabella bidimensionale. Ad ogni riga corrisponde un oggetto di una regola; se lo stesso oggetto compare in più regole ci saranno più righe con quell'oggetto ma associate a regole diverse. Le colonne sono 8 e ognuna identifica una caratteristica dell'oggetto o della regola che caratterizzano la riga.
 
@@ -233,7 +233,7 @@ Analizzando la Figura 14 possiamo vedere che sulla sinistra vengono elencate tut
 
 Sempre sulla sinistra vengono mostrate tutte le funzioni necessarie alla gestione del configuratore, quali ad esempio "Nuova Domanda" e "Nuova Sezione" per inserire rispettivamente unadomanda ed una sezione, "Modifica definizione questionario" per reimpostare le caratteristiche del questionario (ad esempio come associargli le sezioni), "Elenco configurazioni" per visualizzare tutte le configurazioni (cioè i questionari compilati) e "Gestione configurazione" che lancia un browser Internet per utilizzare il configuratore e rispondere alle domande.
 
-![CFBASE_029](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_029.png)Figura 11 - La gestione del questionario in Looc.up
+![CFBASE_029](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_029.png)Figura 11 - La gestione del questionario in Looc.up
 
 ### La Scheda del Configuratore
 L'accesso alle funzioni del configuratore avviene mediante un'apposita scheda (CFBASE).
@@ -242,7 +242,7 @@ Questa scheda è accessibile dal menù delle applicazioni di Loocup con il segue
 
 Verrà visualizzata la seguente scheda (Figura 12) : 
 
-![CFBASE_037](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_037.png)  Figura 12 - La scheda del configuratore (CFBASE)
+![CFBASE_037](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_037.png)  Figura 12 - La scheda del configuratore (CFBASE)
 
 Sulla sinistra si possono vedere cinque tab, quattro raggruppano i questionari in base al loro tipo.
 Esistono quattro tipi di configuratori : 
@@ -263,7 +263,7 @@ E' composta da tre sotto schede :  una dedicata alla manutenzione della struttur
 
 In figura 13 possiamo vedere le 3 schede con in primo piano quella del questionario.
 
-![CFBASE_036](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_036.png)Figura 13 - La scheda del questionario.
+![CFBASE_036](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_036.png)Figura 13 - La scheda del questionario.
 
 Analizziamo in dettaglio le 3 schede.
  :  :  La sottoscheda del questionario
@@ -278,7 +278,7 @@ Se queste sono già definite per la sezioni in questione si entrerà in manutenz
 
 Con un doppio click sul talloncino delle regole si ottiene che la scheda vada a pieno schermo : 
 
-![regole](http://doc.smeup.com/immagini/LOCG30_RUL/regole.png)
+![regole](https://doc.smeup.com/immagini/LOCG30_RUL/regole.png)
  Figura 14 - La scheda delle regole
 
 qui si possono vedere tutte le regole nella zona "Elenco regole" e selezionandone una si può vedere la scomposizione sulla sinistra e la sua traduzione in italiano sulla destra.
@@ -293,7 +293,7 @@ La sottoscheda elle configurazioni, visibile in figura 15, riporta sulla sinistr
 
 Posizionandosi su una configurazione e utilizzando il tasto destro, sotto la voce "Questionario" si hanno le azioni di Gestione, Visualizza o Elimina.
 
-![CFBASE_026](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_026.png)Figura 15 - La sotto scheda della configurazione e il popup di gestione
+![CFBASE_026](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_026.png)Figura 15 - La sotto scheda della configurazione e il popup di gestione
 
 
 ### la compilazione di un questionario
@@ -301,12 +301,12 @@ Compilare un questionario porta alla creazione di una configurazione.
 
 La creazione di una nuova configurazione avviene con il tasto F8 mentre la modifica di una precedentemente salvata avviene con la voce "Gestione questionario" e poi  "Gestione (Imm/Cop/Del)"  del popup della configurazione.
 
-![CFBASE_024](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_024.png)Figura 16 -  La compilazione di un questionario in LoocUp
+![CFBASE_024](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_024.png)Figura 16 -  La compilazione di un questionario in LoocUp
 
 
-![CFBASE_039](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_039.png)precedente, alla sezione successiva, auto compilazione)
-![CFBASE_022](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_022.png)storia di esecuzione, visualizza la storia di esecuzione in tabella non ordinabile, visualizza in tabella ordinabile e filtrabile)
-![CFBASE_021](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_021.png)sintattico sulle regole, attiva ricerca all'interno delle regole, traduci le regole in italiano, esegui controllo su ricerca domande e/o sezioni duplicate)
+![CFBASE_039](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_039.png)precedente, alla sezione successiva, auto compilazione)
+![CFBASE_022](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_022.png)storia di esecuzione, visualizza la storia di esecuzione in tabella non ordinabile, visualizza in tabella ordinabile e filtrabile)
+![CFBASE_021](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_021.png)sintattico sulle regole, attiva ricerca all'interno delle regole, traduci le regole in italiano, esegui controllo su ricerca domande e/o sezioni duplicate)
 
 ## La compilazione su WEB
 ### Prerequisiti.
@@ -317,7 +317,7 @@ La compilazione su WEB è simile a quella che avviene in LoocUp. Visto l'ambient
 
 Nella figura 17 si può vedere l'interfaccia della finestra di compilazione : 
 
-![CFBASE_023](http://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_023.png)Figura 17 -  La compilazione di un questionario mediante browser.
+![CFBASE_023](https://doc.smeup.com/immagini/LOCG30_RUL/CFBASE_023.png)Figura 17 -  La compilazione di un questionario mediante browser.
 
 In questa versione l'albero delle sezioni è stato portato in alto. Le sezioni percorse appaiono n grigio chiaro, quella corrente ha il testo in grassetto mentre quelle ancora da percorrere sono con lo sfondo grigio scuro.
 

@@ -80,4 +80,4 @@ Vedi utilizzo dei flag 18-19-20 del file CQNCOG0F e le tabelle contabili :
  :  : DEC T(ST) K(C6N)
 
 # Gestione Non Conformità (flusso funzionale)
-![CQ_NCNF_01](http://doc.smeup.com/immagini/CQNCOG_01/CQ_NCNF_01.png)x
+![CQ_NCNF_01](https://doc.smeup.com/immagini/CQNCOG_01/CQ_NCNF_01.png)x

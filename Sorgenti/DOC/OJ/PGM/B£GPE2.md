@@ -3,9 +3,9 @@ Questa è la funzione che determina i parametri delle elaborazioni batch (es. st
 I parametri possono essere stabiliti a priori, attraverso un apposito formato di guida, oppure possono essere modificati (per gli utenti autorizzati) al momento del lancio attraverso il comando funzione F11 eventuialmente presente.
 
 # Formato guida
-![B£_08_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£GPE2/BX_08_01.png)
+![B£_08_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£GPE2/BX_08_01.png)
 # Formato impostazione parametri
-![B£_08_01A](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£GPE2/BX_08_01A.png)
+![B£_08_01A](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£GPE2/BX_08_01A.png)
 Se autorizzati si può scegliere se lanciare l'elaborazione in interattivo o batch.
 
 Si possono impostare anche gli altri parametri di esecuzione tra i quali : 

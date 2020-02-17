@@ -5,7 +5,7 @@ In tal modo è più facile capire quali priorità sono state adottate dalla funz
 # DETTAGLIO FORMATI
 # Formato guida
 
-![B£DIR4_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR4/BXDIR4_01.png)
+![B£DIR4_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR4/BXDIR4_01.png)
 ## Tipo risorsa gestita
 Codice controllato sulla tabella TRG.
 ## Codice risorsa
@@ -14,7 +14,7 @@ Viene controllato sull'anagrafico opportuno, in funzione del tipo di risorsa. I 
 Delimitano il periodo da visualizzare.
 # Formato visualizzazione
 
-![B£DIR4_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR4/BXDIR4_02.png)
+![B£DIR4_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR4/BXDIR4_02.png)
 ## Abbreviazioni
 
 - S = scelta. Permette di passare ad un formato che presenta in dettaglio tutti i dati del giorno.

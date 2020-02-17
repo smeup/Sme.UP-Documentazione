@@ -13,7 +13,7 @@ Anche il reperimento delle informazioni è eterogeneo poiché esse possono :
 - corrispondere alla combinazione delle precedenti.
 
 
-![BLV0001-01](http://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-01.png)>Figura 1 - Schema generale di un Oggetto in Sme.up
+![BLV0001-01](https://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-01.png)>Figura 1 - Schema generale di un Oggetto in Sme.up
 
 Tale complessità può essere affrontata in questo modo : 
 
@@ -42,7 +42,7 @@ Esempi di classi sono :
 - le fatture  (il tipo è sempre 'Documento Esterno',  il parametro è 'Fattura e l'identificativo è il numero di fattura).
 
 
-![BLV0001-02](http://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-02.png)>Figura 2 - Schema Dettagliato degli Oggetti Applicativi in Sme.up
+![BLV0001-02](https://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-02.png)>Figura 2 - Schema Dettagliato degli Oggetti Applicativi in Sme.up
 
 Nell'inserimento delle informazioni di un oggetto la classe interviene nei seguenti modi : 
 
@@ -50,7 +50,7 @@ Nell'inserimento delle informazioni di un oggetto la classe interviene nei segue
 Sono inoltre definite delle funzioni sia specifiche della classe, sia generali (in questo caso con comportamento polimorfo), tramite le quali si eseguono variazioni ai singoli attributi di un oggetto (es. :  la variazione di stato della riga di un ordine viene eseguita tramite una funzione generale che controlla l'ammissibilità del passaggio di stato definita a livello di classe).
 
 
-![BLV0001-03](http://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-03.png)> Figura 3 - Albero e Legenda
+![BLV0001-03](https://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-03.png)> Figura 3 - Albero e Legenda
 
 
 - nel reperimento delle informazioni di un oggetto :  per ogni classe esistono, infatti, degli attributi primari, reperibili tramite un'interfaccia predefinita;
@@ -59,7 +59,7 @@ Un esempio della combinazione di questi due ultimi casi è il seguente :  si def
 È importante sottolineare che tutti gli attributi, compresi i primari, sono reperibili singolarmente in un'unica modalità.
 
 
-![BLV0001-04](http://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-04.png)Oggetti applicativi JAVA
+![BLV0001-04](https://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-04.png)Oggetti applicativi JAVA
 
 Esempi di parametro di tipo
 
@@ -179,23 +179,23 @@ Un frame è dunque una struttura che raccoglie ed unifica le conoscenze che si h
 Un frame rappresenta le caratteristiche dei vari oggetti mediante un insieme di slot, che può essere interpretato come una casella nella quale inserire un determinato tipo di informazione. Ad esempio, il frame ristorante può avere slot relativi alla categoria, indirizzo, giornata di chiusura, tipo di cucina, numero di «stelle», carte di credito accettate, numero di coperti, costo medio di un pasto, ecc...
 Dato un particolare frame, i valori dei suoi slot possono essere noti o meno (possiamo conoscere il nome e l'indirizzo di un ristorante, ma non il giorno di chiusura) e talvolta, pur senza conoscere l'esatto valore di uno slot, è possibile fare delle supposizioni che, in mancanza di informazioni specifiche più dettagliate, possiamo ritenere vere, fino a prova del contrario.
 
-![BLV0001-08](http://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-08.png)>Fig. 5.15. Struttura di un frame
+![BLV0001-08](https://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-08.png)>Fig. 5.15. Struttura di un frame
 
 I valori per default vengono usati come valori provvisori e approssimativi in assenza dei valori reali. Alcuni sistemi di frame ammettono la possibilità per uno slot di avere sia un valore reale sia un valore per default. In tale caso, ovviamente, il valore reale prevale su quello default. I valori per default possono essere associati direttamente ad un determinato slot e venir specificati durante la creazione del frame stesso, oppure, più comunemente, possono derivare da frame a livello superiore mediante il meccanismo dell'eredità :  se il valore cercato è specificato (come valore reale o per default) nel frame in questione, allora esso è immediatamente disponibile; in caso contrario si accederà allo slot con lo stesso nome di un frame di livello gerarchico più elevato e, posto che il valore venga trovato, esso si trasmetterà di padre in figlio. Così, ad esempio, il fatto che lo slot dieta compaia sia nel frame anna_giorgi sia nel frame paziente indica che Anna Giorgi ha una sua dieta personalizzata, mentre lo slot di paziente serve a contenere le prescrizioni valide per quelle persone che non hanno esigenze o necessità specifiche.
 
 
-![BLV0001-09](http://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-09.png)>Fig. 5.16. Una gerarchia di frame
+![BLV0001-09](https://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-09.png)>Fig. 5.16. Una gerarchia di frame
 
 In base a quanto rappresentato nella figura, Anna Giorgi osserva una dieta individualizzata ipocalorica, mentre Maria Bianchi segue la dieta normale. Dal canto suo, Maria Bianchi soffre di una specifica allergia al polline, mentre per Anna Giorgi non si dispone di alcuna informazione a questo riguardo, nemmeno sfruttando il meccanismo dell'eredità. La conoscenza che Anna Giorgi e Maria Bianchi sono femmine deriva per eredità dallo slot sesso del frame paziente. Se il nostro sistema fosse installato in un reparto di ostetricia e ginecologia questo sarebbe un assunto realistico. E, supposto che in tale reparto venisse ricoverato un uomo (supponiamo per far fronte ad un'emergenza nel caso in cui non vi fossero più posti disponibili in altri reparti, sarà sempre possibile registrare il valore maschio nello slot sesso di tale paziente. La gerarchia illustrata nella figura è una struttura arborea :  ogni figlio ha infatti un unico padre. In questo caso il processo di eredità delle proprietà avviene senza problemi. Alcuni sistemi di frame ammettono la possibilità di avere eredità multipla e, di conseguenza, possibili conflitti fra i valori ereditati. I diversi sistemi si differenziano per il modo nel quale viene gestito tale meccanismo di ereditarietà. I più flessibili permettono di scegliere la strategia di ricerca (profondità vs. ampiezza), di limitare il numero di livelli entro i quali va cercato il valore desiderato, di definire un frame universale che viene consultato sempre e comunque, e cosi via.
 Finora abbiamo preso in considerazione dei casi in cui i valori di uno slot (reali o per default che fossero) erano sempre di tipo elementare. Può risultare utile, per certe applicazioni, ammettere la possibilità per uno slot di avere come valore delle strutture complesse. In questo caso lo slot non registrerà direttamente il valore desiderato ma includerà un puntatore ad un altro frame nel quale si troveranno le informazioni volute.
 
-![BLV0001-10](http://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-10.png)>Fig. 5.17. Frame come valore di uno slot
+![BLV0001-10](https://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-10.png)>Fig. 5.17. Frame come valore di uno slot
 
 Oltre ad una parte dichiarativa, i frame possono avere anche una parte procedurale e, in particolare, è possibile attaccare ai vari slot delle procedure (pezzi di codice), in modo da rendere la computazione più efficiente. Abbiamo già visto come, in mancanza di un valore reale, il contenuto di uno slot possa essere stabilito ricorrendo all'eredità o ad un valore per default. Eredità e default rappresentano dei metodi relativamente semplici per determinare i valori di uno slot. Questi metodi generali possono venir però integrati da conoscenze specifiche sul dominio e da euristiche particolari. Un modo per sfruttare queste euristiche consiste nel far ricorso alle cosiddette procedure if-needed, che codificano dei metodi ad hoc mediante i qualiè possibile determinare il contenuto di uno slot qualora ciò sia richiesto dal processo di elaborazione in corso. Ad esempio, invece di inserire direttamente il dato relativo all'età di un paziente, lo slot età di ogni singolo frame di tipo paziente può far riferimento (mandandolo in esecuzione) ad un pezzo di programma che calcola tale età sottraendo l'anno di nascita del paziente dall'anno in corso.
 Un altro tipo di attaccamento procedurale che si può avere in un frame è costituito dalle procedure if-added (dette talvolta anche demoni). Anche queste procedure sono associate agli slot e rimangono silenti finchè non si tenta di riempire con un qualche valore lo slot al quale sono attaccate. In questo caso le procedure vengono mandate in esecuzione, controllando che il valore in questione soddisfi certi vincoli o requisiti stabiliti a priori in base a conoscenze specifiche del dominio.
 Esistono anche altri tipi di attaccamenti procedurali (alcuni sistemi, per esempio, permettono di definire delle procedure if-removed, in grado di eseguire determinate operazioni qualora si intenda cancellare o sostituire il valore di uno slot).
 
-![BLV0001-11](http://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-11.png)>Fig. 5.18. Attaccamenti procedurali ad uno slot
+![BLV0001-11](https://doc.smeup.com/immagini/B£OGAT_ARC/BLV0001-11.png)>Fig. 5.18. Attaccamenti procedurali ad uno slot
 
 C'è ancora un punto da mettere in rilievo. Come abbiamo visto, le informazioni che entrano a far parte di uno slot possono essere di tipo diverso :  possono infatti rappresentare dei valori reali, valori per default, puntatori ad altri frame, nomi di procedure di diverso tipo. È necessario che il sistema sappia come interpretare ciascuna di queste informazioni, in modo da tenere sempre un comportamento adeguato. Il modo nel quale va interpretato il contenuto di uno slot ne indica l'aspetto (o facet), definito associando allo slot un'etichetta che ne identifichi il tipo.
 

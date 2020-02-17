@@ -17,7 +17,7 @@ Tutti i moduli Sme.up per il reperimento e la gestione delle informazioni, dialo
 
 Nella figura seguente si può vedere uno schema che esemplifica come il mondo Sme.up comunichi esclusivamente con il gestore delle interfacce, responsabile del trasporto e dell'elaborazione delle informazioni provenienti da tutti gli ambienti supportati.
 
-![A£BASE_020](http://doc.smeup.com/immagini/A£BASE_SF/AXBASE_020.png)
+![A£BASE_020](https://doc.smeup.com/immagini/A£BASE_SF/AXBASE_020.png)
 Gli ambienti supportati ad oggi [22/01/08] sono : 
  \* ACG IBM 5.0 (EXT)
  \* ACG IBM 7.0 (EXT)
@@ -65,11 +65,11 @@ Gli ambienti supportati ad oggi [22/01/08] sono :
 
 Un'architettura di questo genere ha l'indubbio vantaggio che, come nel caso presentato di seguito, alla nascita dell'esigenza d'interfacciamento con un nuovo driver, l'unico modulo da modificare  è il gestore delle interfacce. Infatti, qualunque sia la modalità di comunicazione con il nuovo driver, questa sarà trasparente a tutti i moduli, che parlano direttamente solo con il gestore delle interfacce. Grazie a questa architettura è possibile evitare la modifica di qualsiasi altro modulo, con un risparmio di tempo e risorse senza eguali.
 
-![A£BASE_021](http://doc.smeup.com/immagini/A£BASE_SF/AXBASE_021.png)
+![A£BASE_021](https://doc.smeup.com/immagini/A£BASE_SF/AXBASE_021.png)
 ### Il comando in pratica
 Nella figura seguente si può vedere un esempio di configurazione del gestore delle interfacce. Modificando il campo applicazione all'interno di questa griglia, tutto il sistema devierà il reperimento delle informazioni per quella specifica area, verso l'_applicazione_ selezionata.
 
-![A£BASE_022](http://doc.smeup.com/immagini/A£BASE_SF/AXBASE_022.png)
+![A£BASE_022](https://doc.smeup.com/immagini/A£BASE_SF/AXBASE_022.png)
 Le righe visualizzate sono tutte e sole quelle definite nella tabella B£1. Il programma è solo una form di immissione meglio guidata e controllata, ma non permette di aggiungere driver di nuove interfacce.
 
 **Opzione** :  Questo campo si presenta quando è attiva la possibilità di richiamare il programma di verifica cioè quando l'interfaccia descrive un oggetto applicativo (Es. articolo, cliente, ubicazione ecc.)

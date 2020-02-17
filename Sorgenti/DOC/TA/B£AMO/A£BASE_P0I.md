@@ -23,7 +23,7 @@ fornite dal Cliente.
 
 - Manuale utente, che può essere richiamato direttamente dal formato video utente (vedere esempio).
 
-![A£BASE_027](http://doc.smeup.com/immagini/A£BASE_P0I/AXBASE_027.png)
+![A£BASE_027](https://doc.smeup.com/immagini/A£BASE_P0I/AXBASE_027.png)
 >N.B :  documenti di training, procedure operative, modulo di valutazione, manuale utente in questa fase possono ancora non essere nella versione completa e definitiva, che sarà richiesta nella fase di istruzione finale.
 
 - Stato avanzamento attività

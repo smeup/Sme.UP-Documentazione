@@ -6,7 +6,7 @@ La principale funzione di ricerca può essere avviata dall'utente a partire da q
 -  "**+**" per lanciare una delle altre query di ricerca eventualmente previste per l'oggetto oltre a quelle per codice e descrizione.
 -  "**/**" questo carattere, salvo sia esplicitamente espresso, ha valenza particolare solo sulle date, per le quali permette la costruzione guidata delle forme dinamiche (es. &OGI00 corrisponde alla data odierna). Per i restanti casi il comportamento è del tutto simile a quello del carattere "+".
 
-![B£EQRY_01](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_01.png)
+![B£EQRY_01](https://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_01.png)
 A seguire, a tale carattere speciale, sarà inoltre possibile indicare dei caratteri che potranno poi essere interpretati dalla particolare query di ricerca. Si menziona qui in particolare che : 
 -  i caratteri che seguono i "** : **" vengono utilizzati come filtro all'interno dei caratteri che definiscono il codice e la descrizione (es.  : BICI, verranno cercati i codici che nel codice stesso o nella descrizione contengono tale parola)
 -  i caratteri che seguono il "**!**" vengono utilizzati come posizionamento sulla ricerca per codice (es. !003, vengono presentati tutti i codici >= a 003)
@@ -15,11 +15,11 @@ A seguire, a tale carattere speciale, sarà inoltre possibile indicare dei carat
 - \* il codice di una particolare ricerca, tale codice può essere a sua volta seguito da uno o più parametri di puntamento della ricerca, suddivisi dal carattere "**.**", qualora la ricerca lo preveda. In alternativa al codice "." possono essere utilizzate le parentesi tonde **()** , qualora sorga ad esempio la necessità di indicare dei parametri che contengano a loro volta il carattere "."
 - \* direttamente i parametri della ricerca predisposta come default. Se i parametri sono multipli questi possono essere suddivisi dal carattere ".". Come descritto poc'anzi in alternativa al punto possono essere utilizzate le parentesi tonde. E' importante notare che per quel che riguarda la determinazione della query di default, viene fatta la seguente risalita :  se è stata impostata una query di default grafica viene presa in considerazione quella, viceversa viene presa in considerazione la ricerca di default dell'emulazione.
 
-![B£EQRY_02](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_02.png)
+![B£EQRY_02](https://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_02.png)
 Va inoltre osservato che ove sia stato previsto, se alla sinistra del campo di imputazione è stata prevista un'icona, il click con il mouse sull'icona attiva la funzione di ricerca.
 
-![B£EQRY_03](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_03.png)
-![B£EQRY_04](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_04.png)
+![B£EQRY_03](https://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_03.png)
+![B£EQRY_04](https://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_04.png)
 In qualsiasi campo di imputazione è inoltre previsto l'utilizzo del tasto funzione F04 per l'avvio della funzione di ricerca.
 
 # La risoluzione della ricerca
@@ -29,7 +29,7 @@ Data indicazione della volontà di eseguire una ricerca, questa potrà essere ri
 
 Nel primo caso rientrano solo alcune classi particolari per le quali viene prevista una forma di ricerca particolare. Rientrano in questa casistica le date e gli oggetti esterni (cartelle e file di server)
 
-![B£EQRY_07](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_07.png)![B£EQRY_08](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_08.png)
+![B£EQRY_07](https://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_07.png)![B£EQRY_08](https://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_08.png)
 Per tutte le altre (e quindi per la stragrande maggioranza delle classi) la funzione di ricerca viene svolta nel medesimo modo. A seguire viene riporta l'operatività della scheda di ricerca generale.
 
 - [Scheda Test Scheda B£EQRY_SEA](Sorgenti/DOC_OPE/MB/SCP_SCH/B£EQRY_SEA)
@@ -53,4 +53,4 @@ Questo l'elenco degli oggetti che ancora oggi prevedono delle ricerche speciali 
 
 Esempio di ricerche speciali sull'oggetto CN
 
-![B£EQRY_09](http://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_09.png)
+![B£EQRY_09](https://doc.smeup.com/immagini/B£EQRYA02A/BXEQRY_09.png)

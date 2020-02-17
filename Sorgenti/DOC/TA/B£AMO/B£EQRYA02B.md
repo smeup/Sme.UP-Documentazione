@@ -13,7 +13,7 @@ Possono essere attivate due tipologie di combo-box :
 
 La prima identificabile dall'icona riportata a seguire permette di ricercare il codice all'interno dell'elenco completo delle istanze della classe stanziata. Quindi quando ricerco viene sempre presentato l'elenco completo per codice.
 
-![B£EQRY_05](http://doc.smeup.com/immagini/B£EQRYA02B/BXEQRY_05.png)
+![B£EQRY_05](https://doc.smeup.com/immagini/B£EQRYA02B/BXEQRY_05.png)
 # Combo-box su funzione di ricerca
 
 La seconda identificabile dall'icona riportata nell'immagine a seguire, riguarda normalmente classi per le quali le istanze sono molto numerose (al di sopra del migliaio, come può avvenire per i codici clienti o gli articoli). Non essendo per tali classi possibile presentare l'intero elenco delle istanze si è aiutati a ricercare sull'elenco tramite l'applicazione di filtro. Tale filtro è costituito dal valore contenuto nel campo nel momento in cui si sta cercando. Tale valore può essere applicato alla ricerca secondo tre modalità : 
@@ -22,6 +22,6 @@ La seconda identificabile dall'icona riportata nell'immagine a seguire, riguarda
 -  Se viene apposto un "?" verrà eseguita la funzione di ricerca per codice, con posizionamento alla descrizione uguale/successivo ai caratteri indicati dopo il carattere "?"
 -  Se non viene apposto nessuno dei suddetti caratteri speciali verrà effettuata una ricerca ordinate per codice in cui verranno presentati i risultati che presentano nel codice o nella descrizione i caratteri indicati nel campo.
 
-![B£EQRY_06](http://doc.smeup.com/immagini/B£EQRYA02B/BXEQRY_06.png)
+![B£EQRY_06](https://doc.smeup.com/immagini/B£EQRYA02B/BXEQRY_06.png)
 NOTA BENE :  quando è attiva la funzionalità del combo-box, il tasto funzione F04 invece che lanciare la funzione di ricerca principale esegue la funzione di ricerca collegata alla combo box.
 

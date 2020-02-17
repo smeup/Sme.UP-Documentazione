@@ -1,7 +1,7 @@
 ## Controlli e modifiche di massa
 Permette di individuare la posizione di un componente in tutti gli assiemi in cui è presente e di intervenire sui legami. Per lanciare la funzione si utilizza il seguente formato guida : 
 
-![BR_02_12](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI50/BR_02_12.png)
+![BR_02_12](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI50/BR_02_12.png)
 Ci sono tre possibilità di intervento : 
 
 - _2_Sostituzione :  il codice selezionato viene sostituito da uno o più codici (1'N)
@@ -20,5 +20,5 @@ Nel caso in cui il componente da inserire sia già presente allo stesso livello 
 
 Dopo avere confermato le opzioni di Sostituzione/Aggiunta/Eliminazione, vengono visualizzati tuttigli assiemi in cui il componente è presente : 
 
-![BR_02_13](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI50/BR_02_13.png)
+![BR_02_13](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI50/BR_02_13.png)
 È possibile operare la variazione su tutti i legami o solamente su quelli selezionati.

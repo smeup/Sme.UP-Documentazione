@@ -7,7 +7,7 @@ La chiave di memorizzazione è :
 -  Codice 2 = Ambito
 -  Data = Data di esecuzione
 
-![FIG_059](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_IND/FIG_059.png)
+![FIG_059](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_IND/FIG_059.png)
 Gli indici sono i seguenti : 
 
  - _2_N.ro totale ordini. E' il numero totale di ordini processati dalla schedulazione.

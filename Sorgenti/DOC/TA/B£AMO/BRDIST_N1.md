@@ -4,4 +4,4 @@ Nel caso di definizione del gruppo distitnta se esso non è al livello minimo = 
  In questo modo, gli impegni di risorse sono agganciati al documento di testata (ordine produzione / documento V5) e si può usare la routine di controllo chiavi generalizzata £GMK (anche per le parzializzazioni). - è la stessa che si usa per la gestione del documento nel dettaglio del GMRRIM.
 Nel caso di impegni risorse, __dopo__, c'è la gestione della fase (fatta con routines specifiche).
 
-![BRDIST_09](http://doc.smeup.com/immagini/BRDIST_N1/BRDIST_09.png)
+![BRDIST_09](https://doc.smeup.com/immagini/BRDIST_N1/BRDIST_09.png)

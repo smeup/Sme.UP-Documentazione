@@ -2,10 +2,10 @@
 Con questa funzione si possono eseguire le opzioni consuete (inserimento, modifica, copia, cancellazione, interrogazione) di Sme.up sugli elementi di una vista piano.
 Il formato di partenza è il seguente : 
 
-![MP_001_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_06.png)
+![MP_001_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_06.png)
 Quando si sceglie un'opzione di manutenzione manuale, il sistema presenta lo schermo seguente : 
 
-![MP_001_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_07.png)
+![MP_001_07](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_07.png)
 In modalità inserimento le colonne "Quantità" e Quantità Variazione" si presentano vuote e, man mano che vengono inserite le quantità nei campi di input, il sistema compila la colonna "Quantità Variazione".
 In funzione del valore del campo Variazione è possibile operare variazioni in modalità : 
  \* __incremento__ (1), con cui le quantità inserite vengono sommate algebricamente alle quantità precedenti (è possibile inserire variazioni negative);
@@ -19,7 +19,7 @@ Utilizzando il campo opzione (colonna di sinistra), è possibile forzare, per i 
  \* zero con l'azione A = Azzera;
  \* uguale alla quantità del piano di riferimento (quantità originale della vista piano) con l'azione R = Reinserimento.
 
-![MP_001_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_08.png)
+![MP_001_08](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_08.png)
 Oltre alle classiche opzioni di gestione di Sme.up, ne esistono di specifiche sviluppate per MPS : 
  \* Gestione in lista, che permette di inserire o modificare direttamente, a parità di codice 2, tutti i valori inseriti nei vari periodi per tutti i codici 1 della vista piano;
  \* Analisi delta, che permette di confrontare una vista con un'altra a parità di codice 1 e codice 2;
@@ -28,27 +28,27 @@ Oltre alle classiche opzioni di gestione di Sme.up, ne esistono di specifiche sv
 ## Gestione in Lista
 Quando si lancia la gestione in lista, fissato il "codice2" si presenta il seguente formato in cui viene presentata la lista seguente con tutti i codici 1 : 
 
-![MP_001_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_10.png)
+![MP_001_10](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_10.png)
 La funzione F15 calcola e visualizza i totali per colonna, mentre la funzione F14 emette la descrizione dei codici 1 : 
 
-![MP_001_11](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_11.png)
+![MP_001_11](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_11.png)
 Con la funzione F18 si attiva la sintesi delle quantità, permettendo di raggruppare più periodi e sommare le relative quantità. Il sistema presenta la lista di tutti i periodi che costituiscono la vista
 piano : 
 
-![MP_001_12](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_12.png)
+![MP_001_12](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_12.png)
 Nel campo selezione, definendo il periodo iniziale (>I) e quello finale (>F) del raggruppamento, il sistema calcola e visualizza data iniziale, data finale e il numero di giorni per il periodo raggruppato.
 La sintesi può essere memorizzata utilizzando la funzione delle memorizzazioni multiple.
 Con la funzione F9 si può selezionare una delle sintesi di periodo standard per le quali è già stata preparata la definizione : 
 
-![MP_001_13](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_13.png)
+![MP_001_13](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_13.png)
 Con F6 si confermano i periodi sintetizzati e il sistema ritorna alla lista precedente, visualizzando solo i periodi sintetizzati e le relative quantità : 
 
-![MP_001_14](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_14.png)
+![MP_001_14](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_14.png)
 ## Analisi Delta
 Quando viene lanciata l'Analisi Delta si presenta lo schermo seguente (se non viene inserito si assume che il piano non cambi) : 
 
-![MP_001_15](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_15.png)
+![MP_001_15](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_15.png)
 Possono essere inserite delle viste da confrontare con quella di partenza, è possibile inserire un segno di confronto (quando è "-" tutte le quantità della vista vengono cambiate di segno) oppure un codice di raggruppamento (campo R) con viste aventi il medesimo.
 Il risultato dell'elaborazione viene presentato nella videata seguente : 
 
-![MP_001_16](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_16.png)
+![MP_001_16](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPGP01/MP_001_16.png)

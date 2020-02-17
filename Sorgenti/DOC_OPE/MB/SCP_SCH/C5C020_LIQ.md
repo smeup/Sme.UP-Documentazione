@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare la liquidazione IVA relativa ad un periodo oppure ad un esercizio
 
-![C5C020_028](http://doc.smeup.com/immagini/MBDOC_SCH-C5C020_LIQ/C5C020_028.png)## Parametri di lancio
+![C5C020_028](https://doc.smeup.com/immagini/MBDOC_SCH-C5C020_LIQ/C5C020_028.png)## Parametri di lancio
 
  \* Anno :  indicare l'anno per il quale si voglia analizzare la liquidazione
  \* Mese :  nel caso in cui si stia analizzando la liquidazione mensile, indicare il mese da analizzare
@@ -55,4 +55,4 @@ Saranno esposti quindi :
 
 All'interno dell'analisi annuale vengono riportate le stesse voci previste nell'analisi mensile ma suddivise per mese : 
 
-![C5C020_029](http://doc.smeup.com/immagini/MBDOC_SCH-C5C020_LIQ/C5C020_029.png)
+![C5C020_029](https://doc.smeup.com/immagini/MBDOC_SCH-C5C020_LIQ/C5C020_029.png)

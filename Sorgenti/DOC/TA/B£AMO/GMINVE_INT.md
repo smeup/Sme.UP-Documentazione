@@ -9,7 +9,7 @@ L'inventario fisico è un processo che si compone di diverse fasi :
 - reporting e analisi dei risultati dell'inventario
 
 
-![GMINVE_01](http://doc.smeup.com/immagini/GMINVE_INT/GMINVE_01.png)
+![GMINVE_01](https://doc.smeup.com/immagini/GMINVE_INT/GMINVE_01.png)
 ## Descrizione del modulo
 La gestione dell'inventario fisico di Sme.up permette di supportare tutte le attività di inventario fisico : 
 

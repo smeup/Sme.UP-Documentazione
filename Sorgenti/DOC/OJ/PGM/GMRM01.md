@@ -20,16 +20,16 @@ La gestione delle testate richieste di movimentazione ricalca gli standard Sme.u
 
 ## Formato dettaglio
 
-![GM_02_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_01.png)
+![GM_02_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_01.png)
 # Righe Richieste Movimentazione
 Nelle righe richieste di movimentazione sono gestite le quantità di articoli da movimentare, le date richieste e le informazioni di origine e destinazione.
 Alle righe delle richieste di movimentazione vengono abbinate, sia per la parte di origine che per la parte di destinazione, le relative causale e chiavi di giacenza, cosicché quando la richiesta viene applicata, automaticamente vengono lanciati i due movimenti di scarico e carico.
 
-![GM_02_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_02.png)
+![GM_02_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_02.png)
 Nella normalità quando la riga viene creata i dati chiave dell'origine e della destinazione non sono completamente compilati, altri programmi di elaborazione successiva (cfr. paragrafo Azioni su Richieste Movimentazione) si occupano del trattamento delle righe, compreso il completamento dei dati origine e destinazione.
 Se la riga richiesta di movimentazione proviene da un documento gestionale (ordine produzione o documento ciclo attivo/passivo) nella riga vengono riportati i riferimenti al documento origine.
 
-![GM_02_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_03.png)
+![GM_02_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_03.png)
 Per l'esecuzione di particolari attività (es. attribuzione ubicazione e versamento a magazzino) sono previste richieste di movimentazione di sole righe.
 La ragione è essenzialmente pratica, in questi casi esistono richieste di movimentazione create temporaneamente (per permettere l'esecuzione dell'attività, dopo vengono cancellate automaticamente) e con una sola riga, è inutile quindi creare contestualmente anche la testata.
 
@@ -42,10 +42,10 @@ Le attività più significative connesse alle richieste di movimentazione sono :
 
 Le azioni sulle richieste di movimentazione  possono essere lanciate di massa, su tutte le righe appartenenti ad una testata : 
 
-![GM_02_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_06.png)
+![GM_02_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_06.png)
 oppure ad una singola riga : 
 
-![GM_02_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_07.png)
+![GM_02_07](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMRM01/GM_02_07.png)
 _3_Nota; allo stesso formato video di gestione attività di picking sulle righe si arriva anche dal formato guida con l'opzione EZ
 
 Per applicare l'azione ad una riga si utilizza il campo Opzione, i valori possibili sono condizionati allo stato della riga (es. se la riga è già assegnata una delle opzioni possibili sarà la disassegnazione, mentre l'assegnazione non sarà ammessa).

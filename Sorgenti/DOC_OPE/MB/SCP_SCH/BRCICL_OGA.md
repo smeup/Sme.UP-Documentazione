@@ -7,4 +7,4 @@ La scheda è strutturata secondo il classico schema a tre sezioni :
 2. la seconda orizzontale, nella parte alta, dedicata alla ricezione dei filtri e delle imposatzioni di navigazione.
 3. la terza, che occupa tutta la restante parte, destinata a contenere il risultato della ricerca.
 
-![BRCICL_01](http://doc.smeup.com/immagini/MBDOC_SCH-BRCICL_OGA/BRCICL_01.png)
+![BRCICL_01](https://doc.smeup.com/immagini/MBDOC_SCH-BRCICL_OGA/BRCICL_01.png)

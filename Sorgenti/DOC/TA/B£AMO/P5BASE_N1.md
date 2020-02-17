@@ -9,5 +9,5 @@
  \*\* 1 = Gestione / Risalita 1
  \*\* 2 = Gestione / Risalita 2
 
-![P5BASE_01](http://doc.smeup.com/immagini/P5BASE_N1/P5BASE_01.png)(\*) Si impostano in K1/K2 di £FUND1, sono anche le 2 key dei parametri (della C£E relativa)
+![P5BASE_01](https://doc.smeup.com/immagini/P5BASE_N1/P5BASE_01.png)(\*) Si impostano in K1/K2 di £FUND1, sono anche le 2 key dei parametri (della C£E relativa)
 (1) Se impostato :  per sviluppi futuri

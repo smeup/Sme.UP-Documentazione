@@ -7,7 +7,7 @@ All'interno di Keep.UP il numero partita è dato da numero e data documento dell
 
 All'interno del formato guida sono disponibili i seguenti campi : 
 
-![C5D030_012](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D030_012.png)
+![C5D030_012](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D030_012.png)
 
  - Codice dell'oggetto o della lista di oggetti di cui si voglia analizzare il partitario. La compilazione di questo campo è facilitata dalla presenza dei classici caratteri di ricerca. Per maggiori informazioni su questi caratteri si veda il seguente : 
 
@@ -34,7 +34,7 @@ Per dettagli sull'utilizzo delle liste oggetti si veda invece :
 ### Impostazioni
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle Impostazioni che riportano i seguenti campi : 
 
-![C5D010_025](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D010_025.png)
+![C5D010_025](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D010_025.png)
 - Partite chiuse :  definisce il metodo di visualizzazione delle partite chiuse. Le scelte disponibili sono : 
 -- 1 - Sintesi :  per le partite chiuse viene visualizzato importo dovuto e importo pagato
 -- 2 - No :  le partite chiuse non vengono visualizzate
@@ -104,7 +104,7 @@ Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere 
 
 Digitando il tasto F13 o il relativo pulsante è possibile accedere alle parzializzazioni : 
 
-![C5D030_013](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D030_013.png)
+![C5D030_013](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D030_013.png)
 Sono disponibili due videate di parzializzazioni; per accedere alla seconda videata è sufficiente digitare il tasto F13 dalla prima videata.
 
 ### Tasti funzionali
@@ -124,20 +124,20 @@ Le memorizzazioni consentono di salvare le parametrizzazioni definite all'intern
 
 All'interno del formato lista è riportato l'elenco delle rate associate all'ente raggruppate per partita, ovvero per documento che le ha generate : 
 
-![C5D010_026](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D010_026.png)
+![C5D010_026](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D010_026.png)
 Nella parte superiore della videata sono riportati i parametri impostati nel formato guida e i saldi dell'ente alla data impostata nel formato guida e ad oggi.
 Per ogni partita è riportata l'indicazione del numero della partita (ovvero del numero documento) e la sua data. Immediatamente sotto queste indicazioni è riportato il dettaglio delle rate che sono associate alla partita. Le informazioni visualizzate per ogni rata variano al variare delle impostazioni definite e possono essere personalizzate in funzione delle esigenze dello specifico utente. Nell'immagine riportata sopra per ogni rata sono riportati :  data registrazione, data scadenza, importo dovuto o pagato, importo residuo, tipo e descrizione del pagamento, causale contabile e numero registrazione contabile (formato da numero di registrazione + numero di riga).
 
 ### Opzioni
 
 Per ogni partita sono disponibili le seguenti opzioni : 
-![C5D010_030](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D010_030.png)
+![C5D010_030](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D010_030.png)
  \* _2_56 - Per partita :  permette di visualizzare il dettaglio della singola partita, mostra quindi una vista della sola partita raggruppando data registrazione e pagamento.
  \* _2_57 - Per scadenza :  permette di aprire una vista sulla partita dettagliando per scadenza.
  \* _2_58 - Per data :  mostra una vista per data, ordinando per data registrazione.
 
 Sulle singole rate sono invece disponibili le seguenti opzioni : 
-![C5D010_026](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D010_026.png)
+![C5D010_026](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NORRP/C5D010_026.png)
  \* _2_P - pareggia residuo minimo :  la "P" deve esser eposta su almeno 2 rate di dovuto per poterle pareggiare. Per esempio se ho due rate una da 100 e una da -50, mettendo la P sulle 2 rate queste vengono chiuse per il valore minimo 50.
  \* _2_R - pareggia residuo massimo :  la "R" posta su almeno 2 rate di dovuto permette di pareggiarle al valore assoluto massimo, ovvero al contrario dell'opzione sopra. Quindi se riproponiamo l'esempio presentato sopra, avendo 2 rate una da 100 e una da -50 l'importo per il quale verranno chiuse le rate è il più alto (100 nel nostro esempio).
  \* _2_S - scollega pagato :  questa opzione scollega la rata di pagato collegata ad una di dovuto.

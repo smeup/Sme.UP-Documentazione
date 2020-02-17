@@ -43,7 +43,7 @@ IN SVILUPPO
 IN SVILUPPO
 
 ## Focus - Forza il fuoco
-![03COMEXD03](http://doc.smeup.com/immagini/EDT_SCHG2/03COMEXD03.png)La sua funzione e' quella di fare in modo che alla subsezione venga dato il fuoco alla sua apertura. Il campo e' presente per qualsiasi componente (quindi lo vedo anche nel G.SUB.TRE ad esempio). Se do il fuoco a piu' subsezioni di una stessa sezione mi viene considerato l'ultimo messo nello script (quindi quello più in basso) Nella G : SUB.SCH non ha senso, le SUB.SCH non hanno la proprieta' di tenere il fuoco
+![03COMEXD03](https://doc.smeup.com/immagini/EDT_SCHG2/03COMEXD03.png)La sua funzione e' quella di fare in modo che alla subsezione venga dato il fuoco alla sua apertura. Il campo e' presente per qualsiasi componente (quindi lo vedo anche nel G.SUB.TRE ad esempio). Se do il fuoco a piu' subsezioni di una stessa sezione mi viene considerato l'ultimo messo nello script (quindi quello più in basso) Nella G : SUB.SCH non ha senso, le SUB.SCH non hanno la proprieta' di tenere il fuoco
 
 # G.SET.xxx - Setup
 

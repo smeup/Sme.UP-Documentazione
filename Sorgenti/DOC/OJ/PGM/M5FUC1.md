@@ -4,7 +4,7 @@ Per rispondere a queste domande dobbiamo rifarci alla rappresentazione dell'MRP 
 In questa rappresentazione l'MRP appare come una matrice di fonti positive e negative (coperture e fabbisogni), con una data e collegate da un legame verticale che è la struttura della distinta base.
 Quindi, per soddisfare la nostra esigenza, si è sviluppata una funzione, chiamata navigazione, che permette di scandagliare questa matrice individuando le relazioni tra coperture e fabbisogni.
 
-![M5_002_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_01.png)
+![M5_002_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_01.png)
 La figura precedente è una rappresentazione MRP come insieme datato di fabbisogni e coperture a diversi livelli di distinta; le barre scure rappresentano i fabbisogni, quelle chiare le coperture e l'estensione indica la quantità dell'evento.
 
 # Legami verticali ed orizzontali
@@ -21,15 +21,15 @@ Esso contiene, oltre ai codici che individuano il fabbisogno e la copertura (nel
  \* la quantità precedente, che nel caso del fabbisogno corrisponde alla quantità che esso ha riservato per coperture precedenti, mentre, nel caso della copertura è la quantità soddisfatta da fabbisogni precedenti. Essa indica, in pratica, il modo in cui si posiziona temporalmente, all'interno della quantità complessiva del fabbisogno o della copertura;
  \* la quantità totale del fabbisogno o della copertura.
 
-![M5_002_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_02.png)
-![M5_002_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_03.png)
-![M5_002_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_04.png)
+![M5_002_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_02.png)
+![M5_002_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_03.png)
+![M5_002_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_04.png)
 Come si vede, la quantità precedente è la somma di tutte le quantità precedenti, rispettivamente dello stesso fabbisogno o della stessa copertura.
 Si noti inoltre che la colonna della quantità sua è uguale nelle figure 2B e 2C, in quanto esse sono due rappresentazioni diverse dello stesso fenomeno, ossia del legame elementare tra copertura e fabbisogno in figura 2B e tra fabbisogno e copertura in figura 2C.
 Il legame è, per sua natura, dinamico :  introducendo un fabbisogno con data inferiore ad uno esistente, la copertura che soddisfaceva il fabbisogno originale, va a coprire il nuovo fabbisogno.
 Per evitare questo fenomeno, è necessaria una disciplina nell'inserimento dei fabbisogni indipendenti. Essa può essere, ad esempio, introdotta con la loro datazione tramite strumenti ATP.
 
-![M5_002_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_05.png)
+![M5_002_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_05.png)
 ## Esplosione
 Lo scopo primario dell'esplosione è la presentazione, a tutti i livelli, delle coperture necessarie a soddisfare un fabbisogno.
 Selezionando un fabbisogno, vengono come prima cosa determinate le coperture che lo soddisfano allo stesso livello (nel modo illustrato in precedenza). Si scandiscono quindi gli impegni della copertura, per ciascuno dei quali si ripete la procedura di determinazione delle coperture al livello e si procede fino a quando si incontrano coperture senza impegni collegati (presumibilmente giacenze
@@ -38,7 +38,7 @@ Iniziando invece l'esplosione con una copertura, si parte con la scansione dei s
 di un ordine, si verifica la presenza dei suoi materiali, con una stima della loro criticità (se un componente, ad esempio, non ha ancora copertura 'certa', cioè né con giacenza né con ordini rilasciati, ma
 solo pianificati).
 
-![M5_002_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_06.png)
+![M5_002_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_002_06.png)
 # Implosione
 Lo scopo primario dell'implosione è invece la presentazione dei fabbisogni (ragionevolmente indipendenti) che sono soddisfatti da una copertura.
 Selezionando una copertura, vengono come prima cosa determinati i fabbisogni che essa soddisfa, allo stesso livello (nel modo illustrato in precedenza), per ciascuno dei quali si risale alla copertura da
@@ -93,21 +93,21 @@ I suggerimenti possono essere interrogati per articolo, commessa, tipo suggerime
 
 Si utilizza il formato seguente : 
 
-![M5_001_09](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_001_09.png)
+![M5_001_09](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_001_09.png)
 Il sistema presenta una lista dei suggerimenti in base al metodo di selezione scelto.
 
 Ad esempio : 
 
-![M5_001_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_001_10.png)
+![M5_001_10](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_001_10.png)
 da notare : 
  \* __tipo suggerimento__  -->  può essere AE = agire sull'esistente, PN = pianificare un nuovo ordine;
  \* __codice suggerimento__  -->  può essere PR - AQ - LV (quando il tipo è PN e definisce se l'ordine pianificato è di produzione, acquisto, conto lavoro), MO - EL (quando il tipo è AE e definisce se il suggerimento è di modifica o cancellazione. inserendo l'opzione "ES" in corrispondenza del suggerimento, il sistema emette una finestra con l'esposizione del suggerimento : 
 
-![M5_001_11](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_001_11.png)
+![M5_001_11](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_001_11.png)
 Per i suggerimenti di modifica, di fianco alla data suggerita ci possono essere il segno -> oppure <-, che significano rispettivamente anticipa o posticipa.
 L'opzione sulla sinistra del suggerimento può attivare delle funzioni che dipendono dal tipo / codice suggerimento e dal suo stato : 
 
-![M5_001_12](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_001_12.png)
+![M5_001_12](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5FUC1/M5_001_12.png)
 L'applicazione dei suggerimenti può essere : 
  \* modifica;
  \* creazione di un ordine (fatta direttamente come applicazione del suggerimento nella videata di gestione suggerimenti)  -->  in base alla politica di riordino associata all'articolo vengono generati ordini di produzione o montaggio oppure ordini di acquisto (in questo caso viene chiesto se creare un nuovo ordine o aggiungere una riga ad un ordine già esistente).

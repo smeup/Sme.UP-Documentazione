@@ -23,13 +23,13 @@ Ad esempio potremmo avere :
 ## Gestione anagrafico articoli
 Per attivare la gestione dell'anagrafico articoli si parte dal seguente formato guida : 
 
-![BR_01_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRAR01/BR_01_01.png)
+![BR_01_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRAR01/BR_01_01.png)
 Utilizzando le opzioni si accede al formato di dettaglio dove sono presentati tutti i campi propri dell'anagrafico articoli di Sme.up : 
 
-![BR_01_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRAR01/BR_01_02.png)
+![BR_01_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRAR01/BR_01_02.png)
 _3_Nota, un solo formato video non è sufficiente a contenere tutti i dati dell'anagrafico articoli,  sono previsti 2 formati successivi; il principale contiene i dati di più frequente utilizzo mentre l'altro è dedicato ai dati secondari : 
 
-![BR_01_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRAR01/BR_01_03.png)
+![BR_01_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRAR01/BR_01_03.png)
 ### Descrizione dei campi principali
 
 - _2_Tipo articolo, i vari tipi articoli sono presenti nella tabella BRA. Il tipo articolo definisce la caratterizzazione dell'articolo (es. se è richiesta la configurazione guidata; se in sede di inserimento si attiva un processo di costruzione guidata del codice; se ci sono dei campi di default tipo :  unità di misura, classe materiale; quale categoria parametri è prevista; ecc).

@@ -7,42 +7,42 @@ Ogni istanza di questo componente viene costruita sulla base di uno script dedic
 Le azioni che si possono compiere sono operazioni di navigazione.
 Spostandosi con il mouse all'interno dell'immagine, a seconda della posizione istantanea del cursore vengono evidenziate alcune aree con un contorno blu. Sono le aree attive, ad ognuna delle quali corrisponde un preciso oggetto Sme.up.
 
-![ESE_001](http://doc.smeup.com/immagini/LOCMAP_A/ESE_001.png)
+![ESE_001](https://doc.smeup.com/immagini/LOCMAP_A/ESE_001.png)
 La navigazione avviene attraverso un solo click del mouse nell'area evidenziata.
 Cliccando con il tasto sinistro del mouse l'utente può visualizzare la scheda associata all'oggetto o un'ulteriore mappa di navigazione, mentre con il tasto destro del mouse l'utente può ritrovare il menù di Popup caratteristico degli oggetti Sme.up.
 
-![ESE_002](http://doc.smeup.com/immagini/LOCMAP_A/ESE_002.png)
+![ESE_002](https://doc.smeup.com/immagini/LOCMAP_A/ESE_002.png)
 Mostriamo un esempio applicativo di navigazione : 
         -La schermata iniziale permette di scegliere tre differenti percorsi di navigazione  :  caratteristiche di una cucina(1), navigazione all'interno dell'azienda(2), navigazione geografica(3).
 
-![ESE_003](http://doc.smeup.com/immagini/LOCMAP_A/ESE_003.png)
+![ESE_003](https://doc.smeup.com/immagini/LOCMAP_A/ESE_003.png)
 
 Questa struttura è stata ottenuta mediante la definizione nello script di tre diverse sezioni indipendenti : 
 
-![ESE_004](http://doc.smeup.com/immagini/LOCMAP_A/ESE_004.png)
+![ESE_004](https://doc.smeup.com/immagini/LOCMAP_A/ESE_004.png)
 Per ogni sezione sono indicate le posizioni relative allo schermo e le dimensioni desiderate
 La sezione di interesse può essere scelta mediante un click sul tasto sinistro del mouse in corrispondenza dell'area.
 Selezionando, per esempio, la sezione relativa alla navigazione geografica, si passa alla schermata successiva.
 
-![ESE_005](http://doc.smeup.com/immagini/LOCMAP_A/ESE_005.png)
+![ESE_005](https://doc.smeup.com/immagini/LOCMAP_A/ESE_005.png)
 Ora è possibile selezionare alcune regioni :  selezionando la Lombardia ne otterremo la cartina geografica sulla quale, in particolare, è presente un'icona in corrispondenza del luogo in cui si trova il laboratorio.
 
-![ESE_006](http://doc.smeup.com/immagini/LOCMAP_A/ESE_006.png)
+![ESE_006](https://doc.smeup.com/immagini/LOCMAP_A/ESE_006.png)
 Ci troviamo dunque ad osservare la planimetria generale della sede.
 Al centro, nell'area corrispondente all'edificio principale, abbiamo applicato una fotografia che non solo ne mostra l'immagine reale, ma permette anche di proseguire con la navigazione all'interno.
 
-![ESE_007](http://doc.smeup.com/immagini/LOCMAP_A/ESE_007.png)
+![ESE_007](https://doc.smeup.com/immagini/LOCMAP_A/ESE_007.png)
 Si accede così all'edificio principale, nel quale si può navigare tramite la selezione di un piano o di un ingresso.
 
 
-![ESE_008](http://doc.smeup.com/immagini/LOCMAP_A/ESE_008.png)
+![ESE_008](https://doc.smeup.com/immagini/LOCMAP_A/ESE_008.png)
 Entrando al piano terra si accede alla pianta relativa : 
 
-![ESE_009](http://doc.smeup.com/immagini/LOCMAP_A/ESE_009.png)
+![ESE_009](https://doc.smeup.com/immagini/LOCMAP_A/ESE_009.png)
 Osserviamo che l'area relativa ad una delle stanze può essere riempita con un colore diverso (blu).
 Tale caratteristica è definita nello script ricevuto dall'AS/400, di cui ne riportiamo le istruzioni relative : 
 
-![ESE_010](http://doc.smeup.com/immagini/LOCMAP_A/ESE_010.png)
+![ESE_010](https://doc.smeup.com/immagini/LOCMAP_A/ESE_010.png)
 L'area (denominata "Stanza RPG") ha associate diverse caratteristiche : 
 - La forma è rettangolare ed è definita da coordinate espresse in millesimi rispetto alle dimensioni dello schermo;
 - L'attributo Fill è settato ad "ON" ed indica infatti il riempimento dell'area con un particolare colore; gli attributi Img e Txt indicano la possibilità di associare un testo o un immagine a tale area. Queste caratteristiche possono essere sempre visibili ("ALWAYS"), possono essere visibili solo al passaggio del mouse ("MOUSEON") o non attive ("OFF")
@@ -50,7 +50,7 @@ L'area (denominata "Stanza RPG") ha associate diverse caratteristiche :
 
 Entrando in "Sala Java" arriviamo all'immagine reale della stanza : 
 
-![ESE_011](http://doc.smeup.com/immagini/LOCMAP_A/ESE_011.png)
+![ESE_011](https://doc.smeup.com/immagini/LOCMAP_A/ESE_011.png)
 Ora possiamo visualizzare, per esempio, i dati relativi ai dipendenti di questa sezione dell'azienda selezionando la singola persona.
 
-![ESE_012](http://doc.smeup.com/immagini/LOCMAP_A/ESE_012.png)
+![ESE_012](https://doc.smeup.com/immagini/LOCMAP_A/ESE_012.png)

@@ -5,7 +5,7 @@
 Per l'avvio di una istanza di Looc.Up verso un server As.UP, è necessario creare in Smeup.GO
 un collegamento come da seguente figura : 
 
-![MULOOC_05A](http://doc.smeup.com/immagini/MULOOC_05/MULOOC_05A.png)
+![MULOOC_05A](https://doc.smeup.com/immagini/MULOOC_05/MULOOC_05A.png)
 
 Il client Looc.UP per default assume che il sistema server sia un server iSeries. Per questo motivo
 quando si crea una connessione verso un sistema As.UP è necessario specificarlo nel link di comunicazione.

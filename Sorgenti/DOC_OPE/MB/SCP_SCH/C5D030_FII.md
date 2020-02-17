@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare e gestire le fideiussioni aperte dall'azienda sia in qualità di contraente che in qualità di garante.
 
-![C5D030_055](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_FII/C5D030_055.png)
+![C5D030_055](https://doc.smeup.com/immagini/MBDOC_SCH-C5D030_FII/C5D030_055.png)
 
 ## Dettaglio informazioni
 All'interno della scheda sono disponibili le sezioni : 
@@ -13,7 +13,7 @@ All'interno della scheda sono disponibili le sezioni :
 ## Opzioni
 
 Tramite il pulsante F07 è possibile inserire una nuova fideiussione : 
-![C5D030_056](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_FII/C5D030_056.png)Il sistema assegnerà alla fideiussione un codice progressivo e imposterà la fideiussione come attiva mentre l'utente dovrà inserire : 
+![C5D030_056](https://doc.smeup.com/immagini/MBDOC_SCH-C5D030_FII/C5D030_056.png)Il sistema assegnerà alla fideiussione un codice progressivo e imposterà la fideiussione come attiva mentre l'utente dovrà inserire : 
  \* Tipo fideiussione
  \* Banca
  \* Data inizio

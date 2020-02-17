@@ -2,7 +2,7 @@
 Questo pgm permette la generazione del file per la trasmissione telematica dei dati relativi alle dichiarazioni d'intento ricevute, e da trasmettere alla agenzia delle Entrate entro il 16 del mese successivo alla ricezione di tali dichiarazioni.
 
 # Formato di lancio
-![Fig_004](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN03/Fig_004.png)
+![Fig_004](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN03/Fig_004.png)
 E' necessario anzitutto indicare un **Periodo** per il quale effettuare l'invio della dichiarazione, e un **Tipo Trasmissione** ovvero se quella che si sta inviando è una dichiarazione : 
  \* Correttiva nei termini
  \* Eventi eccezionali
@@ -14,4 +14,4 @@ Fondamentale è poi l'indicazione del campo **Trasferimento**, che determina la 
 Il campo opzionale **Stampa Modelli**  permette di stampare il modello IVA dell'Agenzia  delle
 Entrate
 
-![Fig_006](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN03/Fig_006.png)
+![Fig_006](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN03/Fig_006.png)

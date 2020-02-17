@@ -6,7 +6,7 @@ Attraverso questa funzione è possibile analizzare e lanciare l'esecuzione delle
 
 Il formato guida si presenta nel seguente modo : 
 
-![C5D010_037](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE54/C5D010_037.png)
+![C5D010_037](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE54/C5D010_037.png)
 All'interno del formato guida è necessario specificare i seguenti campi : 
 
  - Codice della lista di conti per cui si voglia eseguire la funzione. Nel caso in cui il campo venga lasciato bianco il sistema analizzerà l'elenco completo dei conti contabili.Per dettagli sull'utilizzo delle liste oggetti si veda : 
@@ -29,7 +29,7 @@ All'interno del formato guida è necessario specificare i seguenti campi :
 
 ### Impostazioni
 Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere alle Impostazioni che riportano i seguenti campi : 
-![C5D010_038](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE54/C5D010_038.png)
+![C5D010_038](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE54/C5D010_038.png)
 - Tipo Calcolo. E' possibile richiedere un calcolo dettagliato per partita oppure sul saldo complessivo del conto. Il calcolo per partita è eseguibile solo per i conti su cui è attiva la Gestione a Documenti (si veda tabella C5B).
 - Tipo Cambio di riferimento. Può essere compilato con : 
 -- E - Cambi fissi verso l'Euro
@@ -72,7 +72,7 @@ Le memorizzazioni consentono di salvare le parametrizzazioni definite all'intern
 ## Formato lista
 Lanciando la funzione con modalità Interrogazione è possibile visualizzare l'elenco delle oscillazioni rilevate. Il formato di questo elenco varia in funzione delle impostazioni definite e della struttura dei conti : 
 
-![C5D010_039](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE54/C5D010_039.png)
+![C5D010_039](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOE54/C5D010_039.png)
 In questo caso è riportato l'esempio di conti gestiti a partita e l'interrogazione è stata effettuata impostando il tipo calcolo per partite.
 Pe ogni partita in valuta sono riportati seguenti dati : 
 

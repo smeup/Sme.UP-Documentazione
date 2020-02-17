@@ -23,7 +23,7 @@ _3_Nota bene :  in Sme.up la distinta di tipo ART è quella fondamentale e gesti
 ## Gestione distinta
 Per attivare la gestione della distinta si parte dal seguente formato guida : 
 
-![BR_02_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI01/BR_02_01.png)
+![BR_02_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI01/BR_02_01.png)
 da notare che sotto al solito campo per le opzioni esiste un secondo campo in cui inserire : 
 
 - _3_IM, se si vuole gestire la distinta in implosione (nella lista successiva vengono presentati i padri dell'oggetto in input)
@@ -33,7 +33,7 @@ Se il campo è vuoto si assume esplosione.
 
 Dopo aver inserito i dati di input si accede al formato successivo dove vengono presentati gli oggetti collegati a quello in input (padri se implosione, figli se esplosione) : 
 
-![BR_02_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI01/BR_02_02.png)
+![BR_02_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI01/BR_02_02.png)
 Il formato della lista dipende da una impostazione fissata nella tabella BRL (tipo distinta) e può essere : 
 
 - _3_Sintetico, come da esempio precedente, dove vengono visualizzati i dati principali di una gestione distinta e di uso comune nella maggior parte dei casi
@@ -41,13 +41,13 @@ Il formato della lista dipende da una impostazione fissata nella tabella BRL (ti
 - _3_Esteso, dove vengono presentati i dati in un formato a 132 colonne
 
 
-![BR_02_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI01/BR_02_03.png)
+![BR_02_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI01/BR_02_03.png)
 Il tasto F15 serve per passare da un tipo di visualizzazione all'altro.
 
 Utilizzando le normali opzioni standard si accede al formato di dettaglio dove sono
 presentati tutti i campi per la gestione di un singolo legame di distinta : 
 
-![BR_02_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI01/BR_02_04.png)
+![BR_02_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRDI01/BR_02_04.png)
 ### Descrizione dei campi
 
 - _2_Sequenze (Sequenza 1 , Sequenza 2), Sono definibili per un tipo distinta due diverse sequenze, una come prefisso e l'altra come suffisso. Esse impongono un ordinamento diverso da quello per codice e permettono di associare più volte lo stesso componente in un assieme, nel caso in cui intervengono in operazioni diverse o hanno date di validità differenti.

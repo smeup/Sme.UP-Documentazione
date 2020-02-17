@@ -30,4 +30,4 @@ Usare il programma funizzato B£FU01X passando come parametro il comando CALL Pg
 ## Funzione da lanciare al termine del programma (RFunction)
  :  : DEC T(OJ) P(\*PGM) K(JAEMU1)
 
-![LOCBAS_038](http://doc.smeup.com/immagini/LOCEMU_01/LOCBAS_038.png)
+![LOCBAS_038](https://doc.smeup.com/immagini/LOCEMU_01/LOCBAS_038.png)

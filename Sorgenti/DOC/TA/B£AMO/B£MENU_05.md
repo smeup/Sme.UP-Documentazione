@@ -12,7 +12,7 @@ In ambiente grafico LoocUP, il menù di oggetto è richiamabile in queste due mo
 -  Attraverso il menù a tendina (chiamato anche popup), contestuale all'oggetto, che può essere invocato in qualsiasi punto in cui l'oggetto sia identificabile nella schermata video (es. cella di matrice o nodo albero) attraverso la pressione del tasto destro del mouse.
 -  Il menu di modulo è invece richiamabile, dopo aver selezionato un'applicazione, cliccando la sua icona nella parte a destra del menu iniziale (figura 2).
 
-![B£MENU_039](http://doc.smeup.com/immagini/B£MENU_05/BXMENU_039.png)![B£MENU_040](http://doc.smeup.com/immagini/B£MENU_05/BXMENU_040.png)
+![B£MENU_039](https://doc.smeup.com/immagini/B£MENU_05/BXMENU_039.png)![B£MENU_040](https://doc.smeup.com/immagini/B£MENU_05/BXMENU_040.png)
 **NOTA** :  come si può vedere dalle immagini appena riportate, il menù di un oggetto (fig.1) e il menù di un modulo (fig.2) appaiono molto simili, per lo meno nella loro struttura. Per facilitare la navigazione all'interno di LoocUP e rendere l'utilizzatore finale in grado di capire in ogni momento in quale punto di trovi, è stato pensato di colorare gli sfondi di tali menù con tonalità differenti. Nello specifico, i menù di un oggetto hanno sempre uno sfondo giallo paglierino (fig.1), mentre lo sfondo dei menù dei moduli è sempre grigio (fig.2).
 
 In ambiente 5250, il menù di oggetto è richiamabile a seconda che l'oggetto sia un modulo o un'altro oggetto nei seguenti modi : 
@@ -23,7 +23,7 @@ In ambiente 5250, il menù di oggetto è richiamabile a seconda che l'oggetto si
 Sempre mantenendo la suddivisione fra moduli ed altri oggetti, viene qui riportata la composizione dei menù oggetto standard.
 
 ### Moduli
-![B£MENU_042](http://doc.smeup.com/immagini/B£MENU_05/BXMENU_042.png)
+![B£MENU_042](https://doc.smeup.com/immagini/B£MENU_05/BXMENU_042.png)
 -  **Dashboard** :  è la funzione che viene richiamata ogni volta che si accede al modulo e di norma permette di eseguire un'elaborazione statistica dei dati di competenza del modulo. Il nome della scheda da richiamare viene ritornato dalla funzione £J11 e, salvo alcune eccezioni,  è definito dal nome del modulo stesso seguito da "_CRU". Dal punto di vista dei contenuti, come accennato in precedenza, questo Dashboard riporta delle informazioni statistiche specifiche del modulo ricavate dagli archivi di competenza. Unica eccezione è il modulo base (denominato XXBASE, dove XX è la sigla dell'applicazione), che ha alcune particolarità. Nei Dashboard dei moduli base infatti, viene presentata la lista dei moduli da cui, cliccando, si presenta il dashobard relativo. Se il modulo base ha un archivio "proprio" (ad esempio i dati di articolo/pianificazione per il  modulo M5BASE), viene presentato anche un dashboard specifico.
 
 -  **Info** :  visualizza le informazioni tecniche del modulo (è presentata solo per gli utenti aventi USLVL > 00)
@@ -32,7 +32,7 @@ Sempre mantenendo la suddivisione fra moduli ed altri oggetti, viene qui riporta
 - \* La /COPY £G46 che costruisce le funzioni di navigazione grafica standard
 - \* Le query riferite all'oggetto intestatario del modulo (si vedano /COPY £K01, £IQ1 e modulo B£EQRY)
 - \* Le voci della MEAxx (xx è l'applicazione di riferimento del modulo) riempiendo il campo "Modulo Appartenenza" con il codice del modulo ed il campo "Surf" valorizzato ad "1", e lasciando il campo "No Modulo su Std" vuoto. Di seguito un esempio di actions sulle distinte : 
-![B£MENU_043](http://doc.smeup.com/immagini/B£MENU_05/BXMENU_043.png)
+![B£MENU_043](https://doc.smeup.com/immagini/B£MENU_05/BXMENU_043.png)
 -  **Actions** :  sono le funzioni applicative peculiari del modulo. Queste sono reperite all'interno della voci della MEAxx (dove xx è l'applicazione di riferimento del modulo) in cui il campo "No Modulo su Std" è stato lasciato vuoto, sul campo "Modulo Appartenenza" è stato riportato il codice del modulo e il campo "Surf" è stato lasciato vuoto. In questa sezione ci sono le seguenti voci standard : 
 - \* Tabelle, che contiene le tabelle utilizzate nel modulo (settori, campi di un settore, singoli elementi), divise in tabelle del modulo e tabelle dell'applicazione, e organizzate per importanza e per appartenenza al modulo. L'impostazione di questi oggetti va eseguita negli script O_XX di SCP_SET, dove XX è la sigla dell'applicazione.
 - \* Funzioni applicative (USLV>00) per simulare funzioni (UP FUN richiamato con la sigla dell'applicazione) (solo per il modulo base)
@@ -74,7 +74,7 @@ Per approfondimenti tecnici vedere anche
 
 ### Altri Oggetti
 
-![B£MENU_044](http://doc.smeup.com/immagini/B£MENU_05/BXMENU_044.png)-  **Dashboard** :   è la funzione che viene richiamata ogni volta che viene aperta la schermata dell'oggetto e di norma presenta una schermata dove sono messe in evidenza le caratteristiche peculiari dell'oggetto. Il nome della scheda da richiamare viene ritornato dalla funzione £J11. La scheda standard può essere sovrascrivibile attraverso la configurazione dell'elemento della tabella  B§K£O con codice corrispondente alla classe.  Attraverso la stessa tabella è inoltre possibile decidere di disattivare l'immediata esecuzione del dashboard all'accesso della scheda.
+![B£MENU_044](https://doc.smeup.com/immagini/B£MENU_05/BXMENU_044.png)-  **Dashboard** :   è la funzione che viene richiamata ogni volta che viene aperta la schermata dell'oggetto e di norma presenta una schermata dove sono messe in evidenza le caratteristiche peculiari dell'oggetto. Il nome della scheda da richiamare viene ritornato dalla funzione £J11. La scheda standard può essere sovrascrivibile attraverso la configurazione dell'elemento della tabella  B§K£O con codice corrispondente alla classe.  Attraverso la stessa tabella è inoltre possibile decidere di disattivare l'immediata esecuzione del dashboard all'accesso della scheda.
 
 -  **Azioni Rapide** :  non hanno un loro titolo in quanto, nella scheda sono riportate al di sotto del titolo dashboard (si veda la figura relativa), mentre nel popup sono le prime azioni specifiche dell'oggetto. Sono le azioni che l'utente richiama più frequentemente. Possono essere reperite nei seguenti modi : 
 - \* qualora siano state previste delle voci dello Script SCP_MNU della classe, con l'indicazione dell'attributo "PoR Posizione di Riferimento" valorizzata a "K" .
@@ -159,8 +159,8 @@ Le voci possono essere omesse attraverso l'utilizzo delle autorizzazioni. Le aut
 
 Queste relazioni vengono esplicitate/evidenziate nella scheda di gestione delle autorizzazione dei menù. Tale scheda può essere raggiungibile nei seguenti modi : 
 -  tramite le apposite voci predisposte nei menù dei moduli B£MENU e B£AUTO (sotto voce "autorizzazioni menù di accesso")
-![B£MENU_045](http://doc.smeup.com/immagini/B£MENU_05/BXMENU_045.png)-  attraverso la specifica voce di popup che si apre sulla voce di menù nell'interrogazione del menù stesso.
-![B£MENU_046](http://doc.smeup.com/immagini/B£MENU_05/BXMENU_046.png)NOTA BENE :  per la natura "dinamica" delle voci di menù, nella scheda di gestione, qualora sia richiesto è sempre opportuno indicare l'istanza dell'oggetto di riferimento del menù (si veda anche il documento relativo agli oggetti MP/ME).
+![B£MENU_045](https://doc.smeup.com/immagini/B£MENU_05/BXMENU_045.png)-  attraverso la specifica voce di popup che si apre sulla voce di menù nell'interrogazione del menù stesso.
+![B£MENU_046](https://doc.smeup.com/immagini/B£MENU_05/BXMENU_046.png)NOTA BENE :  per la natura "dinamica" delle voci di menù, nella scheda di gestione, qualora sia richiesto è sempre opportuno indicare l'istanza dell'oggetto di riferimento del menù (si veda anche il documento relativo agli oggetti MP/ME).
 
 Il controllo delle autorizzazioni è demandato alle /COPY £AUO e £AUA.
  :  : DEC T(MB) P(QILEGEN) K(£AUO) L(1)

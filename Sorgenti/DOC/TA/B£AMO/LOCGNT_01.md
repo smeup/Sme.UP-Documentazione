@@ -47,11 +47,11 @@ Per migliorare la lettura del Gantt e' possibile inserire una griglia di sfondo 
 o segnalare l'aggregazione di alcune celle.
 
 Si possono specificare tre tipi di griglie di sfondo : 
-![03COMGNT01](http://doc.smeup.com/immagini/LOCGNT_01/03COMGNT01.png)Lo sfondo a livello di Gantt serve per evidenziare dei periodi temporali fissi e indipendenti dalle
+![03COMGNT01](https://doc.smeup.com/immagini/LOCGNT_01/03COMGNT01.png)Lo sfondo a livello di Gantt serve per evidenziare dei periodi temporali fissi e indipendenti dalle
 attivita', esempio i periodi di chiusura per festivita' o semplicemente perche' ore notturne.
-![03COMGNT02](http://doc.smeup.com/immagini/LOCGNT_01/03COMGNT02.png)E' possibile abilitare uno sfondo che comprenda tutte le attivita' che hanno la stessa chiave di
+![03COMGNT02](https://doc.smeup.com/immagini/LOCGNT_01/03COMGNT02.png)E' possibile abilitare uno sfondo che comprenda tutte le attivita' che hanno la stessa chiave di
 raggruppamento, cosi' e' possibile rendere piu' evidente il legame che unisce un gruppo di attivita'.
-![03COMGNT03](http://doc.smeup.com/immagini/LOCGNT_01/03COMGNT03.png)Per ogni singola riga si possono specificare una serie di intervalli che prenderanno uno sfondo
+![03COMGNT03](https://doc.smeup.com/immagini/LOCGNT_01/03COMGNT03.png)Per ogni singola riga si possono specificare una serie di intervalli che prenderanno uno sfondo
 particolare.
 
 ### Possibilita' di definire i colori a livello AS
@@ -65,13 +65,13 @@ strumenti :
 - Seleziona attivita'
 - Seleziona intervalli di tempo
 
-![03COMGNT04](http://doc.smeup.com/immagini/LOCGNT_01/03COMGNT04.png)Tramite il selettore di intervalli di tempo si possono selezionare attivita' slot disegnando un riquadro
+![03COMGNT04](https://doc.smeup.com/immagini/LOCGNT_01/03COMGNT04.png)Tramite il selettore di intervalli di tempo si possono selezionare attivita' slot disegnando un riquadro
 rettangolare all'interno del Gantt. Tutte le celle nel riquadro verranno selezionate, anche le celle
 selezionate parzialmente. Il selettore di attivita' permette invece di selezionare piu' attivita' tenendo
 premuto il tasto shift e cliccando una volta su di esse.
 Se le attivita' selezionate sono temporalmente contigue allora si possono raggruppare in un gruppo
 temporaneo attraverso il tasto 'Crea Gruppo temporaneo'.
-![03COMGNT05](http://doc.smeup.com/immagini/LOCGNT_01/03COMGNT05.png)Per sciogliere un gruppo temporaneo e' sufficiente cliccare su un'attività del gruppo col tasto destro
+![03COMGNT05](https://doc.smeup.com/immagini/LOCGNT_01/03COMGNT05.png)Per sciogliere un gruppo temporaneo e' sufficiente cliccare su un'attività del gruppo col tasto destro
 e scegliere dal menu' 'azioni su gruppi temporanei' la voce appropriata.
-![03COMGNT06](http://doc.smeup.com/immagini/LOCGNT_01/03COMGNT06.png)La selezione multipla di attivita' puo' essere disabilitata nel caso i programmi non siano allineati alla
+![03COMGNT06](https://doc.smeup.com/immagini/LOCGNT_01/03COMGNT06.png)La selezione multipla di attivita' puo' essere disabilitata nel caso i programmi non siano allineati alla
 versione dello schedulatore grafico.

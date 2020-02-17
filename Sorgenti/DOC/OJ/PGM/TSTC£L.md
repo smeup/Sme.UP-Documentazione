@@ -101,4 +101,4 @@ Viene ritornata la struttura tabellare completa
 
 
 ## Formato video
-![TSTC£L_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_TSTC£L/TSTCXL_01.png)
+![TSTC£L_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_TSTC£L/TSTCXL_01.png)

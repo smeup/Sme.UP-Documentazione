@@ -1,7 +1,7 @@
 # Caricamento dei documenti di ciclo attivo
 ## Stampa
 L'operazione di stampa fattura assegna il numero di fattura al documento.
-![ARCHIV](http://doc.smeup.com/immagini/ODIAED_03/ARCHIV.png)Durante tale operazione è possibile scegliere il formato di stampa.
+![ARCHIV](https://doc.smeup.com/immagini/ODIAED_03/ARCHIV.png)Durante tale operazione è possibile scegliere il formato di stampa.
  T(Le scelte possibili sono : )
 - Spool di stampa (vecchio formato stampa su stampante ad aghi)
 - Pdf
@@ -32,10 +32,10 @@ L'archiviazione dello storico è prevista attraverso una procedura che rigenera 
 # Consultazione
 Grazie all'informazione relativa all'ID di salvataggio del documento in EDOK è possibile "puntarlo" e recuperarlo in qualunque scheda richiedendo a Loocup server (sempre tramite le code dati che questo mette a disposizione) l'estrazione di una copia del documento e il percorso per visualizzarla. percorso fornito sotto forma di XML consono ad essere visualizzato in una sezione HTM di una scheda.
 Ad esempio le fatture archiviate e/o conservate sono consultabili tramite loocup attraverso la scheda della fattura.
-![doccons](http://doc.smeup.com/immagini/ODIAED_03/doccons.png)Tale scheda è richiamabile indicando il codice registro, l'anno e il numero della fattura.
+![doccons](https://doc.smeup.com/immagini/ODIAED_03/doccons.png)Tale scheda è richiamabile indicando il codice registro, l'anno e il numero della fattura.
 E' inoltre possibile accedere alla scheda della fattura dal partitario del cliente e da azioni bolle e fatture, tramite l'azione XV "Visualizzazione scheda fattura".
-![lisfatt](http://doc.smeup.com/immagini/ODIAED_03/lisfatt.png)In maniera analoga a quanto fatto nella scheda della fattura è possibile, da una scheda, accedere alla lista dei contenitori dei documenti presenti in EDOK e all'elenco dei documenti presenti in un contenitore con tutti i suoi campi.
-![volcont](http://doc.smeup.com/immagini/ODIAED_03/volcont.png)
+![lisfatt](https://doc.smeup.com/immagini/ODIAED_03/lisfatt.png)In maniera analoga a quanto fatto nella scheda della fattura è possibile, da una scheda, accedere alla lista dei contenitori dei documenti presenti in EDOK e all'elenco dei documenti presenti in un contenitore con tutti i suoi campi.
+![volcont](https://doc.smeup.com/immagini/ODIAED_03/volcont.png)
 # Conservazione sostitutiva
 Per sommi capi ora spieghiamo cos'è la Conservazione Sostitutiva e come viene realizzata da Loocup, lasciando l'approfondimento dell'argomento a documentazione specifica.
 La conservazione sostitutiva è una procedura che permette di eliminare la necessità di registrare cartaceamente alcuni dei documenti aziendali. Prendendo ad esempio le fatture del ciclo attivo, tramite la Conservazione sostitutiva, si può ovviare alla stampa cartacea e all'archiviazione in faldoni fisici delle stesse.
@@ -68,7 +68,7 @@ Tutti i documenti conservati saranno ancora interrogabili tramite Loocup alla st
 
 ## L'operatività
 Per procedere alla procedura di conservazione occorre portarsi nella scheda di interfaccia per l'archiviazione sostitutiva (scheda ODIAED) : 
-![volcont](http://doc.smeup.com/immagini/ODIAED_03/volcont.png)
+![volcont](https://doc.smeup.com/immagini/ODIAED_03/volcont.png)
 La conservazione prevede di selezionare in tale scheda il contenitore che si vuole sottoporre a conservazione (quindi il contenitore FA01) e premere il bottone "Conserva Documenti".
 La procedura procede preventivamente ad una fase di controllo dei documenti che si stanno per conservare, bloccando la conservazione in caso di errori.
  T(I controlli implementati sono : )
@@ -85,5 +85,5 @@ E' importante notare che la presenza di errori blocca tutto il processo di conse
 La fase di conservazione vera e propria viene richiesta al software EDOK che effettua tutta la procedura prevista e restituisce i dati di conferma del successo dell'operazione
 
 Al termine dell'operazione, se è avvenuta con successo, apparirà nella sezione in basso "Conserva documenti" la tabella con i risultati della conservazione.
-![volcons7](http://doc.smeup.com/immagini/ODIAED_03/volcons7.png)
+![volcons7](https://doc.smeup.com/immagini/ODIAED_03/volcons7.png)
 Ricaricando la scheda si noterà la presenza nella lista "Contenitori" del nuovo contenitore creato dalla conservazione, contenente i documenti appena conservati, mentre il contenitore di archiviazione FA01 sarà vuoto.

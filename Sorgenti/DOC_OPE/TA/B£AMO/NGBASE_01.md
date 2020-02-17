@@ -6,7 +6,7 @@
 
 Ogni volta che trovate un campo in giallo
 
-![CAMPO_GIALLO](http://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_01/CAMPO_GIALLO.png)è possibile premere il tasto [F1] oppure fare un doppio clic per ottenere la lista degli elementi disponibili. Il titolo della finestra che appare, solitamente riporta il nome della tabella che contiene l'informazione.
+![CAMPO_GIALLO](https://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_01/CAMPO_GIALLO.png)è possibile premere il tasto [F1] oppure fare un doppio clic per ottenere la lista degli elementi disponibili. Il titolo della finestra che appare, solitamente riporta il nome della tabella che contiene l'informazione.
 
 Se un campo di immissione è seguito da un triangolo contenente un punto esclamativo, significa che l'informazione richiesta è un dato obbligatorio (nella vecchia versione ha un bordo rosso ed è seguito da un pallino blu).
 
@@ -14,17 +14,17 @@ Se un campo di immissione è seguito da un triangolo contenente un punto esclama
 
 Per ordinare i dati all'interno delle griglie in ordine crescente o decrescente, basta cliccare col tasto sinistro del mouse sulla barra del titolo in corrispondenza della voce interessata. Al primo clic verrà applicato l'ordine crescente, al secondo, l'ordinamento verrà invertito.
 
-![GRIGLIA](http://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_01/GRIGLIA.png)
+![GRIGLIA](https://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_01/GRIGLIA.png)
 Cliccando sul titolo di una colonna e tenendo premuto il tasto sinistro del mouse è possibile trascinare la colonna spostandola nella posizione scelta dall'utente. E' possibile personalizzare ulteriormente la griglia cliccando col tasto destro del mouse sulla barra del titolo (dove si legge "Articolo", "Descrizione", etc.). Apparirà l'elenco delle voci selezionabili per la compilazione della griglia.
 A questo punto sarà anche possibile salvare le impostazioni personalizzate cliccando su Salva Layout, per evitare di dover modificare ogni volta la visualizzazione proposta.
 Non è possibile ordinare e filtrare le colonne con intestazioni in "grigio chiaro"
 
-![LAYOUT_GRIGLIA](http://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_01/LAYOUT_GRIGLIA.png)
+![LAYOUT_GRIGLIA](https://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_01/LAYOUT_GRIGLIA.png)
 ## Filtri
 
 Selezionando un elemento della griglia (cella) e cliccando col tasto destro del mouse è possibile includere o escludere dalla visualizzazione determinati valori grazie all'uso dei filtri
 
-![FILTRO](http://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_01/FILTRO.png)
+![FILTRO](https://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_01/FILTRO.png)
 Premendo il pulsante destro del mouse su una cella della griglia è possibile : 
 
 Copiare il contenuto della cella

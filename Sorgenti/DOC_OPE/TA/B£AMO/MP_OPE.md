@@ -31,10 +31,10 @@ Ad esempio possiamo avere :
 
 Una vista piano è una matrice costituita di colonne che rappresentano i periodi e di righe che rappresentano le quantità per periodo delle entità caratteristiche della vista di piano (righe Cliente-Articolo, Qtà-Periodo 1, Qtà-Periodo 2, ecc...).
 
-![MP_001_04](http://doc.smeup.com/immagini/MBDOC_OPE-MP_OPE/MP_001_04.png)
+![MP_001_04](https://doc.smeup.com/immagini/MBDOC_OPE-MP_OPE/MP_001_04.png)
 Un piano può essere visto in forma tridimensionale come una serie di strati, ognuno dei quali rappresentato da una vista piano.
 
-![MP_001_05](http://doc.smeup.com/immagini/MBDOC_OPE-MP_OPE/MP_001_05.png)
+![MP_001_05](https://doc.smeup.com/immagini/MBDOC_OPE-MP_OPE/MP_001_05.png)
 Tutte le funzioni di trattamento di un piano possono essere ricondotte a delle operazioni su una vista o su una coppia di viste e il cui risultato può generare una nuova vista o aggiornarne una esistente.
 
 # Impostazione del piano / Periodicità

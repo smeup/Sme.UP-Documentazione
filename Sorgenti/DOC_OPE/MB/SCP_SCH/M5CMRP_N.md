@@ -2,7 +2,7 @@
 La scheda permette la navigazione nei suggerimenti con varie possibilità di ingresso e ordinamento, la scheda si configura e cambia comportamento a seconda della modalità scelta.
 
 ## Visualizzazione per articolo e opzionalmente per oggetto di rottura
-![M5CMRP_022](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_022.png)
+![M5CMRP_022](https://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_022.png)
 La scheda è composta di 4 sezioni più un bottone di selezione : 
 -  **sezione albero in alto a sinistra** :  viene presentata la lista dei valori trovati per l'oggetto di riferimento (attributo dell'articolo inpostato nello scenario - Tab. M5B)
 -  **sezione albero al centro a sinistra** :  dato un oggetto di riferimento viene presentata la lista degli articoli che gli appartengono
@@ -37,28 +37,28 @@ La classificazione è peggiore aumentando il valore :  1 è la condizione miglio
 
 Per i suggerimenti di produzione o di conto lavoro, viene anche eseguita la stessa classificazione su tutti gli impegni collegati e si presenta la situazione di quello in condizioni peggiori
 
-![M5CMRP_023](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_023.png)
+![M5CMRP_023](https://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_023.png)
 ## Visualizzazione per oggetto di riferimento e suggerimento
 
-![M5CMRP_024](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_024.png)
+![M5CMRP_024](https://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_024.png)
 Qui è possibile scegliere il livello, l'oggetto di riferimento e successivamente il tipo di consiglio (suddiviso tra consigli di pianificazione e consigli di azione sull'esistente).
 
 In base alla selezione seguita viene presentata la lista degli articoli congruenti, per l'articolo scelto, nella matrice della sezione in basso, sono esposti i consigli associati.
 
 ## Visualizzazione per suggerimento
 
-![M5CMRP_025](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_025.png)
+![M5CMRP_025](https://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_025.png)
 Come il precedente senza la selezione per livello e oggetto di riferimento.
 
 ## Visualizzazione per fonte
 
-![M5CMRP_026](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_026.png)
+![M5CMRP_026](https://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_026.png)
 In questa scheda è possibile selezionare la fonte (esistente o futura) e vedere gli articoli ad essa appartenenti. Una volta scelto l'articolo vengono mostrati in basso i suoi consigli.
 Nelle altre due matrici in basso è possibile vedere la lista dei consigli relativi alle fonti selezionate.
 
 ## Visualizzazione per ente
 
-![M5CMRP_027](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_027.png)
+![M5CMRP_027](https://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_027.png)
 In questa scheda è possibile scegliere un ente (visualizzato suddiviso per tipo di ente) e successivamente le fonti relative. Una volta scelta la fonte, è possibile vedere nella matrice i consigli relativi a quella coppia ente-fonte, è anche possibile vedere tutti i consigli relativi ad un certo ente indipendentemente dalla fonte.
 
 In basso è presente il pulsante "Scegli l'ente" (analogo a Scegli articolo) che consente di inserire direttamente il tipo e il codice dell'ente.
@@ -85,4 +85,4 @@ Nel caso di pianificazione multiplant è possibile cambiare il plant scegliendol
 Nella matrici contententi tutti i consigli relativi alle voci selezionate nelle varie schede è possibile cliccare con il tasto destro sul codice del suggerimento e scegliere la navigazione più opportuna.
 Questo apre un'ulteriore sottoscheda con i dati relativi a quella navigazione. E' comunque sempre possibile saltare dalla navigazione alle visualizzazioni viste precedentemente.
 
-![M5CMRP_028](http://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_028.png)
+![M5CMRP_028](https://doc.smeup.com/immagini/MBDOC_SCH-M5CMRP_N/M5CMRP_028.png)

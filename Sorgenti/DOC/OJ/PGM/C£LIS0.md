@@ -37,7 +37,7 @@ Descrizione dei campi valore utilizzati nella sezione. Nota, le descrizioni dei 
 ## Formato guida gestione listino
 Per accedere alla gestione di un listino si parte dal formato seguente : 
 
-![C£LIST_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LIS0/CXLIST_01.png)
+![C£LIST_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£LIS0/CXLIST_01.png)
 devono essere inseriti opportunamente il codice listino e la sezione, in base alla sezione inserita si configurano i successivi campi di input della videata.
 Le opzioni sono quelle standard con in aggiunta : 
 
@@ -47,7 +47,7 @@ Le opzioni sono quelle standard con in aggiunta :
 Se invece non si sceglie una delle opzioni particolari la gestione è quella standard.
 Quando non si compila nessuna opzione viene presentata la solita lista, nella gestione listini, seuno dei possibili campi chiave è compilato la lista si presenta ordinata secondo il campo chiaveed il valore inserito serve come posizionamento della lista.
 
-![C£LIST_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LIS0/CXLIST_03.png)
+![C£LIST_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£LIS0/CXLIST_03.png)
 Entrando nel formato di gestione al dettaglio si presentano tutti i campi gestibili : 
 
-![C£LIST_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_C£LIS0/CXLIST_04.png)
+![C£LIST_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_C£LIS0/CXLIST_04.png)

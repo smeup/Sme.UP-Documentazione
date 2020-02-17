@@ -6,12 +6,12 @@ Ad esempio :  per gestire un magazzino materiali con scaffalature, ogni scaffale
 
 Di seguito viene esposta le gestione ubicazioni di Sme.up, che si attiva a partire dal seguente formato guida : 
 
-![GMUBIC_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMUB01/GMUBIC_01.png)
+![GMUBIC_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMUB01/GMUBIC_01.png)
 le opzioni utilizzabili sono quelle standard, come è standard la sequenza delle videate usate nella gestione.
 
 Il formato di dettaglio è il seguente : 
 
-![GMUBIC_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMUB01/GMUBIC_02.png)
+![GMUBIC_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMUB01/GMUBIC_02.png)
 ## Campi significativi : 
 I campi significativi di questa gestione sono : 
 

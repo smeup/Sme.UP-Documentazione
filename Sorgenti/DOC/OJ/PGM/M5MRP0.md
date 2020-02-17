@@ -2,7 +2,7 @@ L'elaborazione MRP può essere schedulata automaticamente con una frequenza stab
 
 I parametri di lancio si impostano nella videata seguente : 
 
-![M5_001_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5MRP0/M5_001_07.png)
+![M5_001_07](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5MRP0/M5_001_07.png)
 Significato dei campi : 
  \* __gruppo fonti__ :  usato dall'MRP durante l'elaborazione (esclusi gli articoli con una politica di riordino riferita a un gruppo fonti speciale);
  \* __scenario__ :  si possono definire diversi scenari per elaborazioni MRP parallele di simulazione o effettive (normalmente lo scenario effettivo è denominato \*\*);
@@ -12,4 +12,4 @@ Significato dei campi :
 
 >N.B. :  Segnaliamo che con il comando funzione F15 si possono vedere le statistiche dell'ultima elaborazione completa : 
 
-![M5_001_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_M5MRP0/M5_001_08.png)
+![M5_001_08](https://doc.smeup.com/immagini/MBDOC_OGG-P_M5MRP0/M5_001_08.png)

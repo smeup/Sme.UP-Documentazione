@@ -12,7 +12,7 @@ I componenti elementari che descrivono un processo sono i seguenti :
 Un processo deve iniziare e terminare con dei luoghi.
 
 Vediamo di seguito un semplice esempio di processo, costituito dai luoghi L01, L02, L03 e dalle transizioni T01, T02. Il luogo L01 contiene un token.
-![WF-FIG0003](http://doc.smeup.com/immagini/WFBASE_015/WF-FIG0003.png)# Esecuzione di un processo
+![WF-FIG0003](https://doc.smeup.com/immagini/WFBASE_015/WF-FIG0003.png)# Esecuzione di un processo
 Un processo viene eseguito eseguendo alcune o tutte le transizioni che lo compongono (svolgimento dei compiti previsti).
 
 L'esecuzione di una transizione si compone di due elementi : 
@@ -22,24 +22,24 @@ L'esecuzione di una transizione si compone di due elementi :
 All'inizio del processo tutti i luoghi di partenza contengono un token. Nell'esempio illustrato in queste condizioni la transizione T01 è eseguibile, perchè il suo luogo in ingresso (L01) contiene un token.
 
 L'esecuzione della transizione T01 toglie il token dal luogo L01 e ne mette uno nel luogo L02 :  a questo punto T01 non può più essere eseguita e diventa attiva T02 : 
-![WF-FIG0004](http://doc.smeup.com/immagini/WFBASE_015/WF-FIG0004.png)L'esecuzione di T02 sposta il token da L02 a L03 : 
-![WF-FIG0005](http://doc.smeup.com/immagini/WFBASE_015/WF-FIG0005.png)Dal momento che il luogo L03 è finale (non porta in nessuna transizione) il processo è terminato.
+![WF-FIG0004](https://doc.smeup.com/immagini/WFBASE_015/WF-FIG0004.png)L'esecuzione di T02 sposta il token da L02 a L03 : 
+![WF-FIG0005](https://doc.smeup.com/immagini/WFBASE_015/WF-FIG0005.png)Dal momento che il luogo L03 è finale (non porta in nessuna transizione) il processo è terminato.
 
 L'esempio appena illustrato rappresenta quindi un semplice processo composto da due compiti in sequenza.
 
 # Esempi
 
 ## Mutua esclusione
-![WF-FIG0006](http://doc.smeup.com/immagini/WFBASE_015/WF-FIG0006.png)Sia T01 che T02 possono essere eseguite, perchè il luogo in ingresso ad entrambe (L01) contiene un token.
+![WF-FIG0006](https://doc.smeup.com/immagini/WFBASE_015/WF-FIG0006.png)Sia T01 che T02 possono essere eseguite, perchè il luogo in ingresso ad entrambe (L01) contiene un token.
 L'esecuzione di una delle due transizioni (ad es. T01) toglie il token dal luogo L01 (disattivando così l'altra transizione, ad es. T02) e lo mette nel luogo L02.
 Dal momento che il luogo L03 è finale (non porta in nessuna transizione) il processo è terminato : 
 
 ## Parallelismo
-![WF-FIG0007](http://doc.smeup.com/immagini/WFBASE_015/WF-FIG0007.png)Sia T01 che T02 possono essere eseguite, perchè l luoghi in ingresso ad entrambe (L01/L02) contiengono un token.
+![WF-FIG0007](https://doc.smeup.com/immagini/WFBASE_015/WF-FIG0007.png)Sia T01 che T02 possono essere eseguite, perchè l luoghi in ingresso ad entrambe (L01/L02) contiengono un token.
 L'esecuzione di T01 e di T02 sposta i token, rispettivamente, da L01 a L03 e da L02 a L04; la transizione successiva, T03, può quindi essere eseguita solo dopo l'esecuzione sia di T01 che di T02, perchè deve esserci un token sia in L02 che in L04.
 
 ## Diramazioni complesse
-![WF-FIG0008](http://doc.smeup.com/immagini/WFBASE_015/WF-FIG0008.png)All'esecuzione della transizione T01 il processo può chiedere all'utente di scegliere in quale luogo, L02 o L03, mettere il token :  nel primo caso viene attivata la transizione T02, la cui esecuzione riattiverà la T01 (eseguendo quindi un loop), mentre nel secondo la T03.
+![WF-FIG0008](https://doc.smeup.com/immagini/WFBASE_015/WF-FIG0008.png)All'esecuzione della transizione T01 il processo può chiedere all'utente di scegliere in quale luogo, L02 o L03, mettere il token :  nel primo caso viene attivata la transizione T02, la cui esecuzione riattiverà la T01 (eseguendo quindi un loop), mentre nel secondo la T03.
 
 Si noti che configurazioni alternative della transizione T01 potrebbero implicare : 
  \* tutti i luoghi (L02, L03) vengono riempiti automaticamente dall'esecuzione della transizione T01 :  in questo modo T02 e T03 si attivano contemporaneamente.

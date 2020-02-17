@@ -8,7 +8,7 @@ Il gestore delle connessioni di Sme.Up ha lo scopo di superare i limiti di un ta
 L'idea di base è quella di replicare all'interno di Looc.Up un sistema simile a quello dell'Operation Navigator for iSeries di IBM.
 
 
-![LOSMEG_014](http://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_014.png)
+![LOSMEG_014](https://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_014.png)
  T(La gestione delle connessioni utilizza le seguenti aree : )
 - Gruppi di connessioni condivise
 - Gruppi di connessioni personali
@@ -32,22 +32,22 @@ Nel primo caso  Looc.Up si avvia mostrando la finestra di connessione.
 Nel secondo caso Looc.Up viene attivato direttamente con i parametri definiti nella connessione configurata.
 Se nella connessione non vengono inseriti tutti i dati necessari Looc.Up si avvia mostrando la finestra di connessioni.
 
-![LOSMEG_009](http://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_009.png)
+![LOSMEG_009](https://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_009.png)
 Se non è specificato l'ambiente, viene mostrata una finestra di scelta ambiente.
 
 ## Gestione gruppi
 Il riquadro "Gestione gruppi" presente nel pannello a sinistra permette di creare, modificare o eliminare un gruppo di connessioni.
 
-![LOSMEG_015](http://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_015.png)
+![LOSMEG_015](https://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_015.png)
 ## Gestione connessioni
 Il riquadro "Gestione connessioni" presente nel pannello a sinistra permette di creare una nuova connessione, modificare o eliminare una connessione presente e verificarne la compatibilità con Looc.up.
 Le stesse operazioni sono richiamabili premendo il tasto destro del mouse sull'icona di una singola connessione.
 
-![LOSMEG_010](http://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_010.png)
+![LOSMEG_010](https://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_010.png)
 La finestra di creazione/modifica di una connessione consente di specificare i dati per eseguire un collegamento e una serie di parametri aggiuntivi.
 Un parametro importante è il flag "Avvio automatico" che, se selezionato, permette di far eseguire direttamente la connessione di Looc.up automaticamente all'avvio di Sme.Up GO.
 
-![LOSMEG_011](http://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_011.png)
+![LOSMEG_011](https://doc.smeup.com/immagini/LOSMEG_02/LOSMEG_011.png)
 ## Connessioni personali e condivise
 Ci sono due tipologie di gruppi di connessioni : 
 - personali :  gestibili in prima persona da ogni utente

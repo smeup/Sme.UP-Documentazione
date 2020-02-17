@@ -25,7 +25,7 @@ Prima di procedere è necessario controllare i dati anagrafici aziendali :
 
 # Richiesta Parametri
 
-![C5C070_004](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_004.png)
+![C5C070_004](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_004.png)
 -  Tipologia di invio. Selezionare : 
 - \*   - Invio ordinario - Normale Trasmissione dei Dati prima della scadenza
 - \* S - Invio sostitutivo - Trasmissione che sostituisce una precedente certificazione inviata
@@ -38,8 +38,8 @@ Prima di procedere è necessario controllare i dati anagrafici aziendali :
 -  Percipiente :  da compilare nel caso in cui si voglia selezionare un range o singolo percipiente
 
 -  Trasferimento :  mettendo una carattere qualsiasi si accede alla finestra di impostazione del percorso di salvataggio del file. In questa finestra impostare il tipo di trasmissione (si consiglia di utilizzare il 5), il nome del file (può essere utilizzato qualsiasi nome e qualsiasi estensione), e il percorso della cartella IFS (preceduta e seguita dal carattere "/") in cui verrà collegato il file da trasmettere all'agenzia. La cartella deve essere creata : 
-![C5C070_005](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_005.png)Nel caso in cui in fase di installazione vi sia già stato impostato il percorso di trasferimento potrete sceglierlo indicando un '!' nel campo 'Memorizzazione Dati Video' in alto a sinistra : 
-![C5C070_006](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_006.png)
+![C5C070_005](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_005.png)Nel caso in cui in fase di installazione vi sia già stato impostato il percorso di trasferimento potrete sceglierlo indicando un '!' nel campo 'Memorizzazione Dati Video' in alto a sinistra : 
+![C5C070_006](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_006.png)
 -  Codice Attività :  indicare il codice dell attività svolta in via prevalente (con riferimento al volume d affari) desunto dalla classificazione delle attività economiche, vigente al momento del rilascio della Certificazione Unica. Si precisa che la tabella dei codici attività è consultabile presso gli uffici dell Agenzia delle Entrate ed è reperibile sul sito Internet del Ministero dell Economia e delle Finanze www.finanze.gov.it e dell'Agenzia dell Entrate www.agenziaentrate.gov.it.
 
 -  Codice Sede :  è un dato facoltativo che può essere utilizzato per identificare diverse sedi, ovvero gestire separatamente gruppi di dipendenti. Per fare ciò è possibile indicare per ciascuna gestione un codice identificativo. Tale codice,autonomamente determinato dal sostituto è costituito esclusivamente da valori numerici compresi tra xl valore 001 ed il valore 999. Il predetto codice, riportato nel 730-4 messo a disposizione del sostituto, costituisce elemento identificativo della gestione di appartenenza del dipendente al fine dello svolgimento delle operazioni di conguaglio.
@@ -52,12 +52,12 @@ Prima di procedere è necessario controllare i dati anagrafici aziendali :
 - \* Società :  qualora il vero rappresentante sia una società, qui dovranno essere indicati il tipo ed il codice contatto dell'anagrafica enti utilizzato per il soggetto che firmerà la certificazione. Viceversa come rappresentante dovrà essere indicato l'ente rappresentante di tale società.
 
 Ad esempio se il rappresentante legale è il fornitore 123456 dovrò compilare i campi in questo modo : 
-![C5C070_007](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_007.png)
+![C5C070_007](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_007.png)
 -  Dati Soggetto Intermediario :  questi campi vanno indicati solo nel caso in cui l'invio tramite Entratel dei dati non venga effettuato dall'azienda stessa ma da un intermediario
 - \* Contatto :  tipo e codice contatto dell'anagrafica enti utilizzato per il soggetto in questione
 - \* Data Impegno :  data impegno intermediario
 Ad esempio se il mio intermediario è il fornitore 111111 e si è impegnato a trasmettere per me in data 01/01/15 dovrò compilare i campi in questo modo : 
-![C5C070_008](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_008.png)
+![C5C070_008](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5CU14A/C5C070_008.png)
 -  Dati Responsabile Trasmissione :  questi campi vanno indicati solo nel caso in cui l'invio tramite Entratel dei dati non venga effettuato dall'azienda stessa ma da un intermediario. In questi campi va indicato il soggetto a cui è intestata la firma digitale Entratel. Nella quasi totalità dei casi in questo campo va indicato lo stesso codice impostato nel campo Intermediario
 - \* Contatto :  tipo e codice contatto dell'anagrafica enti utilizzato per il soggetto in questione
 - \* Tipo Fornitore :  indicare 10 se si tratta di intermediario

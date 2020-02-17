@@ -2,7 +2,7 @@
 Il carrello è uno strumento applicativo che consente di gestire raggruppamenti di oggetti e funzioni e le loro reciproche interazioni.
 Nato dall'esigenza iniziale di gestire dei "Preferiti" in LoocUp esso ne estende enormemente le potenzialità perchè può essere infatti "ancorato" non solo al proprio utente (istanze di TAB£U) ma ad una qualunque istanza di un qualunque oggetto che ne diventa il suo possessore (Owner) e con cui si identifica univocamente. Ogni istanza dunque può agganciare un proprio carrello...
 
-![B£CARR_001](http://doc.smeup.com/immagini/B£CARR_A/BXCARR_001.png)
+![B£CARR_001](https://doc.smeup.com/immagini/B£CARR_A/BXCARR_001.png)
 E' possibile in questo modo per esempio associare : 
  \* Ad un cliente l'elenco degli articoli preferenziali da lui richiesti o l'elenco degli agenti che ne gestiscono i contatti
  \* Ad un fornitore l'elenco dei clienti che rifornisce

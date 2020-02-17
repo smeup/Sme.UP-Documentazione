@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare e gestire i conti di collegamento tra cespiti e contabilità impostati all'interno dei parametri £A5.
 
-![A5OPCO_001](http://doc.smeup.com/immagini/MBDOC_SCH-A5OPCO_CO1/A5OPCO_001.png)
+![A5OPCO_001](https://doc.smeup.com/immagini/MBDOC_SCH-A5OPCO_CO1/A5OPCO_001.png)
 ## Parametri di lancio
 
  \* Linea :  impostare la linea per cui si vogliano analizzare i collegamenti cespiti - co.ge

@@ -4,7 +4,7 @@ Attraverso questa funzione è possibile interrogare la lista documenti in attesa
 ## Formato guida
 Il formato guida si presenta nel seguente modo : 
 
-![C5C040_016](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYL0/C5C040_016.png)
+![C5C040_016](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYL0/C5C040_016.png)
 All'interno del formato guida è necessario definire l'ente o la lista enti su cui eseguire l'interrogazione in funzione del fatto che l'interrogazione venga lanciata per un singolo ente o per una lista enti. Nel secondo caso, lasciando il campo blank verranno presi in considerazione tutti gli enti del tipo selezionato (clienti o fornitori); per definire una specifica lista di enti si veda la documentazione relativa alla gestione liste : 
 - [Liste oggetti](Sorgenti/DOC_OPE/TA/B£AMO/B£_LIS)
 Nel campo 'Modalità' è necessario indicare il tipo di output desiderato.
@@ -39,7 +39,7 @@ Digitando il tasto F17 o selezionando il relativo bottone è possibile accedere 
 A seconda delle impostazioni definite nella tabella C56 è possibile visualizzare o meno una schermata di filtro prima di accedere alla lista fonti in attesa di fattura.
 Nel caso in cui all'interno delle impostazioni si sia scelto di visualizzare il dettaglio delle fonti il formato lista si presenterà in questo modo : 
 
-![C5C040_017](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYL0/C5C040_017.png)
+![C5C040_017](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYL0/C5C040_017.png)
 Se, invece, si sceglie di non visualizzare il dettaglio nel formato lista verranno visualizzate solo le testate delle fonti in attesa di fattura.
 All'interno del formato lista per le testate sono riportate le seguenti informazioni : 
  \* Codice e descrizione fonte
@@ -62,7 +62,7 @@ Sulle righe di dettaglio delle fonti sono disponibili le seguenti opzioni (visua
 
 - 05 :  Dettaglio. Permette di visualizzare il dettaglio delle informazioni disponibili per la fonte : 
 
-![C5C040_018](http://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYL0/C5C040_018.png)
+![C5C040_018](https://doc.smeup.com/immagini/MBDOC_OGG-P_C5NOYL0/C5C040_018.png)
 - VO :  Origine - Visualizza. Permette di visualizzare la riga del documento origine.
 - VT :  Origine(T) - Visualizza. Permette di visualizzare la testata del documento origine
 - MO :  Origine - Modifica. Permette di modificare la riga del documento origine.

@@ -2,7 +2,7 @@
 Questo pgm permette la generazione del file per la trasmissione telematica dei dati relativi alle dichiarazioni d'intento emesse e la stampa del modello ministeriale.
 
 # Formato di lancio
-![Fig_007](http://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN05/Fig_007.png)Nella videata impostare : 
+![Fig_007](https://doc.smeup.com/immagini/MBDOC_OGG-P_BRIN05/Fig_007.png)Nella videata impostare : 
  \* Data emissione :  mettere il range di date con cui sono state emesse le dichiarazioni che si vuole trasmettere. Se ad esempio sono state emesse tra il 17/12/XX e il 31/12/XX compilare con questi due valori il primo e il secondo riquadro rispettivamente
  \* Tipo trasmissione :  lasciare il campo vuoto per la trasmissione normale e compilarlo con 1 per effettuare una trasmissione integrativa (è possibile farlo solo se il fornitore non ha ancora emesso fatture riferite alla dichiarazione di intento che si sta trasmettendo)
 -  Parzializzazioni :  permette di parzializzare per fornitore, protocollo, ecc

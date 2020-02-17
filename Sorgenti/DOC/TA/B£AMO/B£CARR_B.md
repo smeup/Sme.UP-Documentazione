@@ -17,7 +17,7 @@ A questa scheda si può accedere :
 Nella sezione Tipo Oggetto vengono elencate le tipologie di oggetto per le quali esistono istanze con carrello. Selezionandone una, nella sezione sottostante si visualizzano le istanze di quella tipologia che hanno un carrello agganciato. L'istanza identifica univocamente un carrello; per ogni istanza può essere attivato un unico carrello.
 
 
-![B£CARR_004](http://doc.smeup.com/immagini/B£CARR_B/BXCARR_004.png)
+![B£CARR_004](https://doc.smeup.com/immagini/B£CARR_B/BXCARR_004.png)
  :  : PAR
 Ogni carrello contiene cartelle. Selezionando l'istanza, e quindi il carrello corrispondente, nella sezione centrale in alto viene caricato l'elenco delle cartelle. Le cartelle possono essere di diverse tipologie e si distinguono per omogeneità del contenuto e per utilizzo.
 Se è valorizzata la colonna tipo... la cartella è omogenea cioè potrà contenere solo elementi della tipologia specificata.
@@ -35,7 +35,7 @@ In basso a destra compare un cestino... per eliminare un elemento è sufficiente
 In basso, di fianco alla toolbar di navigazione di LoocUp è attiva una sequenza di bottoni. Essi lanciano operazioni di creazione, cancellazione e svuotamento di carrello e di cartelle. Consentono anche l'aggiunta o la rimozione di elementi. Ciascuna di queste azioni passa attraversouna finestra di dialogo con richiesta di conferma.
 
 
-![B£CARR_007](http://doc.smeup.com/immagini/B£CARR_B/BXCARR_007.png)
+![B£CARR_007](https://doc.smeup.com/immagini/B£CARR_B/BXCARR_007.png)
  :  : PAR
 L'immagine sopra si riferisce al tasto Aggiungi Elemento.
 
@@ -54,13 +54,13 @@ Sulla sinistra viene caricata la cartella di WORK specifica dell'utente di lavor
 Attraverso operazioni di trascinamento (Drag & Drop) tra la cartella di work e il carrello a destra è possibile alimentare o svuotare la medesima su altre cartelle.
 E' attivo su entrambi il cestino
 
-![B£CARR_006](http://doc.smeup.com/immagini/B£CARR_B/BXCARR_006.png)
+![B£CARR_006](https://doc.smeup.com/immagini/B£CARR_B/BXCARR_006.png)
 ### Merge tra Carrelli
 A destra e sinistra vengono aperti due carrelli.
 E' possibile travasare il contenuto della cartella di un carrello in quello della cartella di un altro
 E' attivo su entrambi il cestino
 
-![B£CARR_005](http://doc.smeup.com/immagini/B£CARR_B/BXCARR_005.png)
+![B£CARR_005](https://doc.smeup.com/immagini/B£CARR_B/BXCARR_005.png)
 ## Carrello
 
 ## Cartella
@@ -75,7 +75,7 @@ Nella scheda dei carrelli, associata al modulo applicativo B£CARR, si trovano p
 ### Inserire oggetti
 Dal menu Popup di un oggetto è possibile memorizzare l'oggetto stesso in una cartella.
 
-![B£CARR_008](http://doc.smeup.com/immagini/B£CARR_B/BXCARR_008.png)
+![B£CARR_008](https://doc.smeup.com/immagini/B£CARR_B/BXCARR_008.png)
 Le cartelle disponibili possono essere di varie tipologie. Tra le principali proprietà che le caratterizzano citiamo : 
 - il nome può essere prefissato o modificabile
 - il proprietario del carrello può essere l'utente che sta eseguendo la funzione o un altro oggetto
@@ -100,7 +100,7 @@ Contiene un insieme di elementi, anche di tipo eterogeneo. Può trovarsi in un c
 
 Se la cartella richiede l'immissione di parametri da parte dell'utente, appare il seguente formatodi richiesta : 
 
-![B£CARR_002](http://doc.smeup.com/immagini/B£CARR_B/BXCARR_002.png)
+![B£CARR_002](https://doc.smeup.com/immagini/B£CARR_B/BXCARR_002.png)
 Se la cartella è personale dell'utente (= si trova nel carrello dell'utente e non in un carrello Generico), i campi tipo e codice carrello sono preimpostati con il nome utente e non sono accessibili.
 
 ## Utilizzare oggetti presenti in una cartella

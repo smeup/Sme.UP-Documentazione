@@ -15,7 +15,7 @@ Dal punto di vista standard, la MEA prevede :
 La corrispondenza tra i sottosettori della MEA e i codici codificati nella tabella B£A è garantita per tutte le applicazioni standard, eccezion fatta per i sottosettori V4 e V6 della MEA che non coincidono con delle vere e proprie applicazioni (in tabella B£A non esistono infatti degli elementi V4 e V6). Questi due sottosettori sono da considerarsi come derivazioni specifiche dell'originaria applicazione V5, che era di fatto adibita alla gestione sia del ciclo attivo che di quello passivo. In questo modo ora è possibile trovare nel sottosettore V4 le voci di gestione delle richieste di acquisto, nel V6 quelle relative alle vendite mentre nel sottosettore di MEA V5 le sole voci di gestione degli acquisti.
 Ecco di seguito un estratto che risporta la corrispondenza degli elementi della B£A (a destra) e dei sottosettori della MEA (a sinistra) : 
 
-![B£MENU_038](http://doc.smeup.com/immagini/B£MENU_02/BXMENU_038.png)
+![B£MENU_038](https://doc.smeup.com/immagini/B£MENU_02/BXMENU_038.png)
 All'interno di ogni sottosettore della MEA (e quindi per tutte le applicazioni) è stato previsto che : 
 -  esista una voce scpecifica per ciascun modulo di una applicazione, che garantisca l'accesso alla scheda del modulo stesso. Tale richiamo è governato dal campo T$MEAE "Tipo Azione" che deve essere compilato con il valore "D" (_per maggiori informazioni si rimanda alla documentazione specifica del campo raggiungibile con l'F1 dalla tabella).
 -  tutte le voci della MEA siano abbinate a un modulo specifico tramite il campo T$MEAL "Modulo appartenenza", nel quale deve essere indicato un elemento della tabella B£AMO (il campo è tipizzato e pertanto è soggetto a controlli di consistenza)._ Per maggiori informazioni si rimanda alla documentazione specifica del campo raggiungibile con l'F1 dalla tabella.
@@ -70,7 +70,7 @@ I menù di accesso vengono resi graficamente in due modi differenti a seconda ch
 
 ## Accesso 5250
 Accedendo tramite 5250, il menù di ingresso che viene visualizzato è il classico menù ad albero, strutturato in nodi e foglie e organizzato in più livelli. Il primo livello di questo menù corrisponde alle aree applicative introdotte nella MEA00, mentre esplodendo uno di questi nodi è possibile visualizzare tutte le applicazioni a essa abbinate.
-![B£MENU_032](http://doc.smeup.com/immagini/B£MENU_02/BXMENU_032.png)Esplodendo poi ciascuno di questi nodi è possibile visualizzare prima i nodi relativi ai singoli moduli (ovvero a quelle voci di MEA che, in corrispondenza del campo T$MEAE "Tipo azione", hanno la "D") e, scendendo ancora di livello, le singole azioni di gestione.
+![B£MENU_032](https://doc.smeup.com/immagini/B£MENU_02/BXMENU_032.png)Esplodendo poi ciascuno di questi nodi è possibile visualizzare prima i nodi relativi ai singoli moduli (ovvero a quelle voci di MEA che, in corrispondenza del campo T$MEAE "Tipo azione", hanno la "D") e, scendendo ancora di livello, le singole azioni di gestione.
 
 ## Accesso da Looc.UP
 L'accesso tramite client Loocup, propone una schermata grafica composta da due sezioni : 
@@ -80,7 +80,7 @@ I moduli che vengono caricati possono presentarsi in due formati grafici. La sce
 -  IMAGE LIST, ovvero una sequenza di icone (si veda la prima figura)
 -  ALBERO tradizionale aperto o chiuso (seconda figura).
 Il risultato è il seguente : 
-![B£MENU_033](http://doc.smeup.com/immagini/B£MENU_02/BXMENU_033.png)![B£MENU_034](http://doc.smeup.com/immagini/B£MENU_02/BXMENU_034.png)
+![B£MENU_033](https://doc.smeup.com/immagini/B£MENU_02/BXMENU_033.png)![B£MENU_034](https://doc.smeup.com/immagini/B£MENU_02/BXMENU_034.png)
 Una precisazione :  ricordiamo che, nella sezione di destra vengono caricate tutte e sole le voci che nella MEA hanno il campo "tipo azione" compilato a "D" (Scheda del modulo), ovvero tutte le voci che corrispondono potenzialmente a un modulo. Perchè all'interno di questa riorganizzazione, il modulo ha assunto un ruolo di fondamentale importanza, essendo questo l'elemento rispetto cui sono state riviste tutte le azioni che appaiono sotto la voce "Actions", all'interno della scheda del modulo (per maggiori dettagli si veda il capito specifico "menù dell'oggetto" che spiega le regole che governano la composizione delle voci di menù di un oggetto).
 
 ## I menu personali (sottosettori X)
@@ -91,10 +91,10 @@ Per capire meglio quanto detto fino ad ora, si consideri l'esempio seguente.
 Facendo riferimento alla figura, che riporta la videata standard di accesso di Looc.UP, si può notare : 
 -  la parte di sinistra, evidenziata dal riquadro rosso, che riporta nella struttura ad albero, l'elenco delle aree applicative e delle relative applicazioni
 -  la parte di destra, evidenziata invece dal riquadro giallo, in cui trovano posto le voci di secondo livello relative ai moduli dell'applicazione selezionata a sinistra, che possono essere presentate in formato "image list" o  ad "albero".
-![B£MENU_035](http://doc.smeup.com/immagini/B£MENU_02/BXMENU_035.png)Cliccando su una icona si accede alla scheda del modulo corrispondente (nel caso in esame il BRARTI).
+![B£MENU_035](https://doc.smeup.com/immagini/B£MENU_02/BXMENU_035.png)Cliccando su una icona si accede alla scheda del modulo corrispondente (nel caso in esame il BRARTI).
 Le voci che compaiono sotto al titolo "Actions" sono invece gli elementi di MEABR che hanno il campo "modulo di appartenenza" compilato con BRARTI.
 Per comprendere meglio le logiche che sono state seguite per la creazione degli elementi della MEA, si osservi la figura seguente che riporta in forma matriciale, la definizione delle actions del BR. Ricordiamo che questa immagine è stata ricavata dalla scheda di gestione deì menu presente nel modulo B£MENU.
-![B£MENU_036](http://doc.smeup.com/immagini/B£MENU_02/BXMENU_036.png)![B£MENU_037](http://doc.smeup.com/immagini/B£MENU_02/BXMENU_037.png)
+![B£MENU_036](https://doc.smeup.com/immagini/B£MENU_02/BXMENU_036.png)![B£MENU_037](https://doc.smeup.com/immagini/B£MENU_02/BXMENU_037.png)
 Il riquadro rosso della figura precedente riporta l'elenco delle voci di MEABR. Come si può vedere, le voci legate al BRARTI sono in totale 5 : 
 -  Codice azione 0100 :  è la scheda del modulo. Questo lo si uintuisce dalla presenza del valore "D" nel campo "Tipo azione" _(si veda il cerchio verde dell'immagine)_;
 -  Codice azione 0101 :  "Gestione articoli" è la prima voce che troviamo tra le actions del modulo;

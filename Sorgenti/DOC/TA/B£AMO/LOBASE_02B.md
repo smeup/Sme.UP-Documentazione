@@ -275,16 +275,16 @@ Nel primo caso viene mostrato un elenco dei lavori aperti per l'utente connesso.
 - **LO_SHHMMSS**  per le sessioni connesse alle sessioni di emulazione 5250 (S  = Standard)
 
 
-![LOCBAS_025](http://doc.smeup.com/immagini/LOBASE_02B/LOCBAS_025.png)
+![LOCBAS_025](https://doc.smeup.com/immagini/LOBASE_02B/LOCBAS_025.png)
 Il codice **HHMMSS** rappresenta la data di creazione del lavoro secondo il formato ore-minuti-secondi.
 Le sessioni di lavoro del tipo **LO_EHHMMSS** sono rintracciabili grazie al codice presente nella **barra del titolo** della finestra Windows che contiene la sessione di Looc.Up.
 
-![LOCBAS_023](http://doc.smeup.com/immagini/LOBASE_02B/LOCBAS_023.png)
+![LOCBAS_023](https://doc.smeup.com/immagini/LOBASE_02B/LOCBAS_023.png)
 Per identificare invece una sessione di emulazione (**LO_SHHMMSS**) è sufficiente tenere traccia del momento in cui viene avviata la finestra di emulazione e associarlo al codice HHMMSS.
 
 Una volta individuato il lavoro è possibile avviare il debug con l'opzione **SJ** (Avvio diagnosi + avvio debug). Sia che io abbia aperte più sessioni (caso 2) sia che  abbia aperta una sola sessione(caso2) il sistema dopo aver invocato il comando SJ mi chiede di indicare quale **programma/servizio** voglio analizzare con il debug. Nel nostro caso è sufficiente individuare il **nome del servizio** (per esempio inseriamo il nome del servizio **A5SER_01**). Da questo momento possiamo interagire con le funzioni del debugger.
 
-![LOCBAS_022](http://doc.smeup.com/immagini/LOBASE_02B/LOCBAS_022.png)
+![LOCBAS_022](https://doc.smeup.com/immagini/LOBASE_02B/LOCBAS_022.png)
 ### 2 - Executing Debugger - Operazioni con il debugger
 Una volta inserito il nome del servizio a cui collegare il debug, la prima operazione da fare e decidere quali **breakpoint** inserire tramite il comando **F6**. Una volta inseriti i possibili punti in cui voglio analizzare il programma **attivo il debug** con il comando **F12**.
 A questo punto posso far **partire la mia richiesta** dall'interfaccia di Loocup identificando il tab che contiene la mia chiamata al servizio.

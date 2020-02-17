@@ -36,7 +36,7 @@ Sono implementati i seguenti assunti e forzature :
  \* Se vi sono sia legami senza data sia legami con data, i primi vengono eliminati.
 
 ### Esempi grafici di sostituzione
-![MPAP53_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_01.png)![MPAP53_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_02.png)![MPAP53_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_03.png)![MPAP53_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_04.png)![MPAP53_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_05.png)![MPAP53_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_06.png)![MPAP53_07](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_07.png)![MPAP53_08](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_08.png)![MPAP53_09](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_09.png)![MPAP53_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_10.png)![MPAP53_11](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_11.png)![MPAP53_12](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_12.png)
+![MPAP53_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_01.png)![MPAP53_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_02.png)![MPAP53_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_03.png)![MPAP53_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_04.png)![MPAP53_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_05.png)![MPAP53_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_06.png)![MPAP53_07](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_07.png)![MPAP53_08](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_08.png)![MPAP53_09](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_09.png)![MPAP53_10](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_10.png)![MPAP53_11](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_11.png)![MPAP53_12](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_12.png)
 
 ## Sostituzione articolo 1 -> N
 Si inserisce nello script (default MPAP53 di SCP_SET) il passo ..M53_03
@@ -58,10 +58,10 @@ E' possibile utilzzare il programma TSTDIBM, che presenta questa scansione a vid
 ### Esempio grafici di sostituzione
  _2_Distinta di sostituzione dell'assieme A01.
 
-![MPAP53_13](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_13.png)
+![MPAP53_13](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_13.png)
  _2_Sostituzione nel passato considerando come data fine della frontiera (ultimo periodo della storia) il 29/02/2008.
 
-![MPAP53_14](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_14.png)
+![MPAP53_14](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_14.png)
 _2_Sostituzione nel futuro considerando come data di inizio (inizio del primo periodo successivo alla frontiera) il 01/03/2012.
 
-![MPAP53_15](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_15.png)
+![MPAP53_15](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPAP53/MPAP53_15.png)

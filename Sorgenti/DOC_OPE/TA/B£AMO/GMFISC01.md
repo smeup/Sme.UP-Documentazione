@@ -30,8 +30,8 @@ Ad ogni chiusura di magazzino (es. chiusura mensile) tutti i movimenti effettuat
 
 Dopo l'analisi e la validazione degli indici storici un programma specifico costruisce la sintesi di magazzino relativa al nuovo esercizio, sommarizzando i dati raccolti nell'archivio indici storici nei periodi appartenenti all'esercizio in corso (cioè relativi alle chiusure periodiche successive all'ultimo esercizio chiuso).
 
-![GM_FISC_01](http://doc.smeup.com/immagini/MBDOC_OPE-GMFISC01/GM_FISC_01.png)
+![GM_FISC_01](https://doc.smeup.com/immagini/MBDOC_OPE-GMFISC01/GM_FISC_01.png)
 # Sintesi da giacenza
 Possiamo costruire delle sintesi_2_da giacenza corrente, la funzione costruisce la sintesi del nuovo periodo partendo dalla giacenza attuale ed elaborando a ritroso tutti i movimenti di magazzino relativi alle aree di giacenza con rilevanza fiscale fino alla data di fine esercizio. Se alla fine dell'esercizio la giacenza risulta superiore all'esercizio precedente la differenza viene riportata come carico del periodo, altrimenti viene riportata come scarico.
 
-![GM_V001_02](http://doc.smeup.com/immagini/MBDOC_OPE-GMFISC01/GM_V001_02.png)
+![GM_V001_02](https://doc.smeup.com/immagini/MBDOC_OPE-GMFISC01/GM_V001_02.png)

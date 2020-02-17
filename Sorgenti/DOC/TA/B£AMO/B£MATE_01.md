@@ -30,7 +30,7 @@ Dall'esperienza, un valore di 0,2 per tutti e tre pare dia risultati accettabili
 Un modo più evoluto (che richiede però tempi di elaborazione molto più lunghi) è l'autofit, in cui si fanno calcolare al sistema i valori ottimi dei tre fattori di smorzamento.
 L'ottimo si definisce come la terna dei valori che minimizza un coefficiente generale di bontà della previsione (CB), che può essere scelto tra
 
-![B£MATE_01](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_01.png)
+![B£MATE_01](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_01.png)
 Disponendo di una serie di tre periodicità, la frontiera viene portata alla fine delle prime due (che costituiscono la zona di training). Viene quindi calcolata la previsione per la terza periodicità (zona di test) per tutte le combinazioni di alfa, beta e gamma (con un passo impostato, ad esempio di 0,2), e si determina il CB, confrontando, nella zona di test, la previsione calcolata con i valori storici.
 Viene quindi eseguita la previsione, con la frontiera riportata al valore iniziale, con la terna di fattori che ha minimizzato il CB.
 Non disponendo di una serie di tre periodicità, ma solo di due (che è la condizione minima per l'applicabilità di HW), si opera nel seguente modo (autofit senza arretramento) :  durante l'elaborazione, per determinare i coefficienti di livello, trend e stagionalità sulla frontiera, viene calcolata, per ogni periodo della storia, la previsione, partendo dai valori di livello, trend e stagionalità dello stesso periodo; si esegue, come nel caso precedente, l'elaborazione per tutte le combinazioni di alfa, beta e gamma e si determina il CB confrontando la serie storica con la previsione "storica"; la parte successiva del metodo coincide con il caso predecente.
@@ -68,15 +68,15 @@ Anche in questo caso si vuole controllare, dall'esterno, l'attendibilità della 
  \* Ci si riconduce quindi al caso B), pertanto è possibile utilizzare l'autofit "normale".
  \* Le ulteriori considerazioni (calcolo dei CB previsionali e totali) sono le stesse del caso C).
 
-![B£MATE_014](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_014.png)![B£MATE_015](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_015.png)![B£MATE_016](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_016.png)
+![B£MATE_014](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_014.png)![B£MATE_015](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_015.png)![B£MATE_016](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_016.png)
 ## Holt Winters :  esposizione dettagliata
 La previsione di un periodo futuro **n** dipende dai valori di livello, trend e stagionalità, relativi alla frontiera (ultimo periodo della storia), con la seguente formula : 
-![B£MATE_017](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_017.png)dove : 
-![B£MATE_018](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_018.png)E' necessario quindi determinare i valori di livello, trend e stagionalità alla frontiera.
+![B£MATE_017](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_017.png)dove : 
+![B£MATE_018](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_018.png)E' necessario quindi determinare i valori di livello, trend e stagionalità alla frontiera.
 Si utilizzano le seguenti formule, che permettono di calcolare il valore per il generico periodo **i+1** a partire dal valore del periodo**i**.
 **Esse vanno applicate ricorsivamente, a partire dai valori del periodo 1 (inizio della storia) fino a quelli del periodo f (frontiera).
-![B£MATE_019](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_019.png)dove : 
-![B£MATE_020](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_020.png)Da queste espressioni si comprende che fattori di smorzamento prossimi a zero tendono a rafforzare i valori dei periodi iniziali, mentre fattori prossimi a uno tendono a rafforzare i valori dei periodi più recenti.
+![B£MATE_019](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_019.png)dove : 
+![B£MATE_020](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_020.png)Da queste espressioni si comprende che fattori di smorzamento prossimi a zero tendono a rafforzare i valori dei periodi iniziali, mentre fattori prossimi a uno tendono a rafforzare i valori dei periodi più recenti.
 
 Anche i valori del periodo **1** vengono calcolati nello stesso modo, partendo dai valori del periodo precedente (periodo 0), che invece si determinano in modo specifico, partendo dai dati della serie storica.
 ### Calcolo valori al periodo 0
@@ -87,8 +87,8 @@ Per la stagionalità, che è costituita da un vettore con un numero di elementi 
 La stagionalità del periodo **n** è data dalla media aritmetica dei residui del periodo **n** , **n+p**, **n+2p**, (dove **p** è la periodicità), fino a che questo indice supera la storia.
 
 Ad esempio, con una storia di 31 periodi e una periodicità di 12, si determina il seguente vettore di stagionalità : 
-![B£MATE_021](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_021.png)dove : 
-![B£MATE_022](http://doc.smeup.com/immagini/B£MATE_01/BXMATE_022.png)Ricordiamo che deve esistere una storia almeno pari a una periodicità :  questa condizione garantisce che si possa calcolare l'intero vettore della stagionalità
+![B£MATE_021](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_021.png)dove : 
+![B£MATE_022](https://doc.smeup.com/immagini/B£MATE_01/BXMATE_022.png)Ricordiamo che deve esistere una storia almeno pari a una periodicità :  questa condizione garantisce che si possa calcolare l'intero vettore della stagionalità
 
 # Holt Winters moltiplicativo
 Il metodo descritto in precedenza è di tipo additivo :  le tre componenti si sommano per ottenere la previsione e hanno quindi tutte la stessa unità di misura della previsione.

@@ -1,7 +1,7 @@
 # Interrogazione Sintesi Magazzino / Articolo
 L'interrogazione seguente è una funzione di sintesi delle varie interrogazioni applicabili ad un articolo in un plant : 
 
-![GMBASE_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI01/GMBASE_04.png)Sono possibili le seguenti scelte : 
+![GMBASE_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMSI01/GMBASE_04.png)Sono possibili le seguenti scelte : 
 
 - _2_analisi disponibilità, (per l'utilizzo vedi il documento specifico) sono opzionali forma e gruppo fonti, altrimenti si usano la forma DET ed il gruppo fonti \*\*
 - _2_Righe documento, presenta le righe documento (deve essere specificato il tipo documento) del livello in input per l'articolo dato

@@ -158,7 +158,7 @@ Definiamo le eventuali Informazioni di Validità :
  \* Buono Riutilizzabile nello Scontrino :  se sono attive due o più Promozioni che scattano con validità Buono con la stessa Causale (vedi campo precedente), impostando a SI le Promozioni scattano in contemporanea, con NO scatta solo 1 Promo. Per far scattare le successive bisogna leggere un altro Buono della stessa Causale.
  \* Valida se Utilizzato Incasso di Tipo :  se specificato Codice Incasso la Promozione sarà Valida solo nel caso in cui nello Scontrino venga utilizzato l'Incasso indicato. Dato che la Promozione viene rilevata al momento della pressione del tasto SubTotale e ancora non è stata definita quale sarà la modalità di pagamento, Negoziando mostra la seguente finestra di avviso : 
 
-![WARNINGMODPAG](http://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_13/WARNINGMODPAG.png)
+![WARNINGMODPAG](https://doc.smeup.com/immagini/MBDOC_OPE-NGBASE_13/WARNINGMODPAG.png)
 Quindi premere F6 Conferma se il cliente paga con la modalità necessaria per usufruire della Promozione o Esc se il cliente declina l'offerta.
 
 Premiamo Invio per confermare e accediamo alla scheda successiva dove ci vengono richieste ulteriori informazioni  a seconda del Tipo di Promozione specificato : 

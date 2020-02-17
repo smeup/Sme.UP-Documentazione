@@ -15,8 +15,8 @@ Si scorrono tutte le righe del documento, vengono saltate le righe diverse dal "
 Se si trova una sola riga ordine viene eseguito direttamente l'aggiornamento delle righe documento con la fase copiata dall'ordine, altrimenti viene proposta la lista di selezione dove la scelta è manuale.
 
 ### Formato di selezione
-![P5PMFP_59](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02Z/P5PMFP_59.png)
+![P5PMFP_59](https://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02Z/P5PMFP_59.png)
 Con "X" si aggiorna la fase sulla riga
 
 ### Opzioni su lista
-![P5PMFP_60](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02Z/P5PMFP_60.png)
+![P5PMFP_60](https://doc.smeup.com/immagini/MBDOC_OGG-P_V5MFP02Z/P5PMFP_60.png)

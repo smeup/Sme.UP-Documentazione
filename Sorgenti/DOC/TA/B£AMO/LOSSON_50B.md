@@ -59,51 +59,51 @@ Nelle pagine seguenti sono illustrati nell'ordine :
 
 Visualizzazione dei programmi installati (go licpgm opzione 10) : 
 
-![LOBASE_122](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_122.png)
+![LOBASE_122](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_122.png)
 Visualizzazione dei programmi installati - continua
 
-![LOBASE_123](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_123.png)
+![LOBASE_123](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_123.png)
 Verifica del valore di sistema QRMTSIGN  :  Wrksysval QRMTSIGN
 
-![LOBASE_124](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_124.png)
+![LOBASE_124](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_124.png)
 Verifica del valore di sistema QTIMZON :  Wrksysval QTIMZON
 
-![LOBASE_125](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_125.png)
+![LOBASE_125](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_125.png)
 Verifica del valore di sistema QTIME :   Wrksysval QTIME
 
-![LOBASE_126](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_126.png)
+![LOBASE_126](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_126.png)
 Verifica tabella host :  Cfgtcp opzione 10.
 
-![LOBASE_127](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_127.png)
+![LOBASE_127](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_127.png)
 Cfgtcp opzione 12 : 
 
-![LOBASE_128](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_128.png)
+![LOBASE_128](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_128.png)
 ## Implementazione
 
 ### operazioni preliminari
 Collegarsi in Operation Navigator con uno user con diritti **\*SECOFR** (o con un utente con i diritti sopra elencati)
 
-![LOBASE_129](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_129.png)
+![LOBASE_129](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_129.png)
 Controllare ed eventualmente completare la tabella host iSeries
-![LOBASE_130](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_130.png)
+![LOBASE_130](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_130.png)
 Immettere una password per il Tivoli : 
 
-![LOBASE_131](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_131.png)
+![LOBASE_131](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_131.png)
 ### Configurazione Dominio accesso REALM e  i5/OS NetServer
 
 **NOTA** :  Nonostante si utilizzi un utente con dirittti \*SECOFR, è capitato che l'Operation Navigator non consenta l'accesso al EIM. Provare allora a disintallare e reinstallare l'Operation Navigator.
-![LOBASE_132](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_132.png)
-![LOBASE_133](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_133.png)![LOBASE_134](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_134.png)![LOBASE_135](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_135.png)
-![LOBASE_136](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_136.png)![LOBASE_137](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_137.png)
-![LOBASE_156](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_156.png)
+![LOBASE_132](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_132.png)
+![LOBASE_133](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_133.png)![LOBASE_134](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_134.png)![LOBASE_135](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_135.png)
+![LOBASE_136](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_136.png)![LOBASE_137](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_137.png)
+![LOBASE_156](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_156.png)
  \* inserire la password che si vuole utilizzare e confermarla
  \* cliccare su next
 
-![LOBASE_157](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_157.png)
+![LOBASE_157](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_157.png)
 -  E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
 -  Cliccare su next
 
-![LOBASE_158](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_158.png)
+![LOBASE_158](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_158.png)
  \* Verificare che tutte le informazioni siano coerenti con quanto inserito
  \* Cliccare su finish
 
@@ -114,16 +114,16 @@ Collegarsi  al Domani controller Microsoft
 
 Come da figura qui sotto riportata
 
-![LOBASE_159](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_159.png)
+![LOBASE_159](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_159.png)
 Passare a iNavigator
 
-![LOBASE_160](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_160.png)
+![LOBASE_160](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_160.png)
 Sempre da iNavigator : 
  \* Selezionare Network Servers  Tcp/ip
  \* Cliccare con il tasto DX su i5/OS NetServer
  \* Selezionare proprietà
 
-![LOBASE_161](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_161.png)
+![LOBASE_161](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_161.png)
  \* Selezionare la scheda security
  \* Verificare che l'authentication method sia impostato a Passwords/Network authentication
 
@@ -131,10 +131,10 @@ A questo punto IFS è funzionante anche dopo il cambio di password da windows.
 
 ### Creazione utenti del DC
  Per automatizzare la creazione degli utenti di dominio necessari al dialogo iSeries - DC, utilizzare la seguante procedura : 
-![LOBASE_138](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_138.png) \* E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
+![LOBASE_138](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_138.png) \* E' possibile accettare il percorso predefinito o eventualmente selezionarne uno alternativo premendo Browse
  \* Cliccare su next
 
-![LOBASE_139](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_139.png) \* Verificare che tutte le informazioni siano coerenti con quanto inserito
+![LOBASE_139](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_139.png) \* Verificare che tutte le informazioni siano coerenti con quanto inserito
  \* Cliccare su finish
 
 Collegarsi  al Domani controller Microsoft
@@ -144,38 +144,38 @@ Collegarsi  al Domani controller Microsoft
 
 Come da figura qui sotto riportata
 
-![LOBASE_140](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_140.png)
+![LOBASE_140](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_140.png)
 ### Configurare enterprise identity mapping
 
-![LOBASE_141](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_141.png)![LOBASE_142](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_142.png)![LOBASE_143](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_143.png)![LOBASE_144](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_144.png)
+![LOBASE_141](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_141.png)![LOBASE_142](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_142.png)![LOBASE_143](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_143.png)![LOBASE_144](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_144.png)
 **NOTA** : Nella definizione del NAS va impostato sì, in modifica va selezionato il valore NO
 
 
-![LOBASE_145](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_145.png)![LOBASE_146](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_146.png)![LOBASE_147](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_147.png)
+![LOBASE_145](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_145.png)![LOBASE_146](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_146.png)![LOBASE_147](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_147.png)
 Immettere la password di autenticazione
 
-![LOBASE_148](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_148.png)![LOBASE_149](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_149.png)
+![LOBASE_148](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_148.png)![LOBASE_149](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_149.png)
 Creare gli identificativi necessari sul nuovo dominio EIM ed associare i registri di dominio/user  per l'autenticazione su iSeries
 
-![LOBASE_150](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_150.png)![LOBASE_151](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_151.png)![LOBASE_152](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_152.png)
+![LOBASE_150](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_150.png)![LOBASE_151](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_151.png)![LOBASE_152](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_152.png)
 
 ### IMPOSTAZIONE TCP SU NAS
 
 Va fatto sulla NAS (network autentication security)
 Quindi Operation navigator, Sicurezza, servizio di autenticazione di rete, proprietà : 
 Spuntare **utilizza TCP**
-![LOBASE_162](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_162.png)
+![LOBASE_162](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_162.png)
 
 
 ## configurazione emulazione e test
 Configurare la sessione di emulazione video per autenticarsi come Kerberos nelle proprietà del collegamento
 
-![LOBASE_153](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_153.png)
+![LOBASE_153](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_153.png)
 Questa opzione non è valida per i citrix
 
 Testate l'accesso in emulazione
 
-![LOBASE_154](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_154.png)![LOBASE_155](http://doc.smeup.com/immagini/LOSSON_50B/LOBASE_155.png)
+![LOBASE_154](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_154.png)![LOBASE_155](https://doc.smeup.com/immagini/LOSSON_50B/LOBASE_155.png)
 ## I MANUALI IBM
 Maggiori dettagli riguardo la configurazione dell'EIM si trovano nel documento
 "Redbook Windows-based Single Signon and the EIM .pdf", disponibile al seguente link : 

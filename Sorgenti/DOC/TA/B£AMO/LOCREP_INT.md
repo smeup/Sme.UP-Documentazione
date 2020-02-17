@@ -14,15 +14,15 @@ Looc.UP si interfaccia ad una versione specifica di iReport. Tale versione è sc
  :  : DEC T(J1) P(URL) [http://www.smeup.com/loocup_downloads/tools/iReport-1.3.3-windows-installer.zip](http://www.smeup.com/loocup_downloads/tools/iReport-1.3.3-windows-installer.zip)
 Informazioni aggiuntive sono disponibili direttamente sul sito del prodotto (http://jasperforge.org/sf/projects/ireport)
 Di seguito iReport in azione
-![ireport](http://doc.smeup.com/immagini/LOCREP_INT/ireport.png)
+![ireport](https://doc.smeup.com/immagini/LOCREP_INT/ireport.png)
 Una volta definiti i template è possibile, ad esempio basandosi su una scheda predisposta per tale scopo, generarne il report prevedendo il lancio della stessa funzione che apre la suddetta "scheda predisposta" sostituendo il componente EXD con REP (es. :  F(EXD;\*SCO;)..... diventerà F(REP;\*SCO;)....... )
-![scheda](http://doc.smeup.com/immagini/LOCREP_INT/scheda.png)oppure, su una sezione matrice di una scheda, generarne il report anche in questo caso sostituendo il componente EXB con REP (es. :  F(EXB;LOSER_XX;)..... diventerà F(REP;LOSER_XX;)....... ).
+![scheda](https://doc.smeup.com/immagini/LOCREP_INT/scheda.png)oppure, su una sezione matrice di una scheda, generarne il report anche in questo caso sostituendo il componente EXB con REP (es. :  F(EXB;LOSER_XX;)..... diventerà F(REP;LOSER_XX;)....... ).
 Come ultima possibilità si può generare il report di una matrice attraverso le funzioni specifiche della sezione
-![visual](http://doc.smeup.com/immagini/LOCREP_INT/visual.png)
+![visual](https://doc.smeup.com/immagini/LOCREP_INT/visual.png)
 Attraverso le impostazioni di setup si possono decidere il formato del documento, il tipo di file da generare, la collocazione, etc.
-![setupREP](http://doc.smeup.com/immagini/LOCREP_INT/setupREP.png)Il file che viene generato è un file PDF
-![pdf](http://doc.smeup.com/immagini/LOCREP_INT/pdf.png)che può essere fornito opzionalmente di una copertina
-![pdfCover](http://doc.smeup.com/immagini/LOCREP_INT/pdfCover.png)
+![setupREP](https://doc.smeup.com/immagini/LOCREP_INT/setupREP.png)Il file che viene generato è un file PDF
+![pdf](https://doc.smeup.com/immagini/LOCREP_INT/pdf.png)che può essere fornito opzionalmente di una copertina
+![pdfCover](https://doc.smeup.com/immagini/LOCREP_INT/pdfCover.png)
 Nel caso di Visualizzazione di una matrice come Report eventuali impostazioni di visualizzazione, raggruppamento, ordinamento, filtro, totalizzazione della sezione presenti al momento della richiesta vengono mantenute anche nel report
 
 ### Elementi tecnici

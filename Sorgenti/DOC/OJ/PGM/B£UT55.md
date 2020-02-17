@@ -3,13 +3,13 @@ Con queste funzioni si definiscono :  gli ambienti (sistemi informativi) a cui u
 
 ## Menù di ingresso
 Il programma può essere lanciato dalla riga comandi attraverso il comando breve **UP UT5**, o in alternativa dalle actions del modulo B£AMBI.
-![B£UT55_00](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_00.png)
+![B£UT55_00](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_00.png)
 Descriveremo di seguito le funzioni nell'ordine del processo suggerito (creazione ambienti, creazione gruppi, attribuzione gruppi agli utenti).
 
 ## Costruzione ambienti applicativi
 L'attività utilizza la funzione "Ambienti Applicativi (B£B)" che permette di definire la lista librerie utilizzata da un ambiente, l'impostazione è la stessa utilizzata in precedenza con la tabella B£B (si possono inserire sia librerie che gruppi di librerie, questi ultimi caratterizzati dal prefisso \*\*, anche i gruppi di librerie vengono gestiti con questa stessa funzione) : 
-![B£UT55_10](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_10.png)F6 per inserire un nuovo ambiente, per la gestione di un ambiente esistente sono valide le opzioni consuete (02 = Modifica, 03 = Copia, ....) : 
-![B£UT55_11](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_11.png)**Nota**; Nella gestione ambienti, oltre alla lista delle librerie e gruppi sono presenti anche 2 campi ulteriori : 
+![B£UT55_10](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_10.png)F6 per inserire un nuovo ambiente, per la gestione di un ambiente esistente sono valide le opzioni consuete (02 = Modifica, 03 = Copia, ....) : 
+![B£UT55_11](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_11.png)**Nota**; Nella gestione ambienti, oltre alla lista delle librerie e gruppi sono presenti anche 2 campi ulteriori : 
 -  __Localizzazione__, in questo campo può essere inserito un elemento della tab. A£B dove sono presenti le impostazioni di localizzazione (lingua, separatori decimali, formato data; ...)
 -  __Encoding__, qui possono essere impostati i parametri di codifica dei dati negli archivi
 -  __Colore__, qui è possibile indicare il colore di base che dovrà avere Looc.UP in questo ambiente (il colore va indicato nella forma RxxxGyyyBzzz).
@@ -17,30 +17,30 @@ L'attività utilizza la funzione "Ambienti Applicativi (B£B)" che permette di d
 ## Defninizione gruppi di accesso
 I gruppi di accesso vengono usati per attribuire ad un insieme di utenti gli stessi ambienti con le stesse modalità. I gruppi di accesso non vanno confusi con i gruppi utente che invece servono, all'interno di un ambiente, per assegnare a più utenti autorizzazioni comuni.
 La funzione permette di gestire la lista dei gruppi di accesso, sono utilizzabili le funzioni di manutenzione consuete, F6 per inserire un nuovo gruppo : 
-![B£UT55_09](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_09.png)In creazione o modifica del gruppo si può direttamente gestire gli ambienti associati : 
-![B£UT55_14](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_14.png)![B£UT55_15](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_15.png)
+![B£UT55_09](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_09.png)In creazione o modifica del gruppo si può direttamente gestire gli ambienti associati : 
+![B£UT55_14](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_14.png)![B£UT55_15](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_15.png)
 ## Gestione ingressi utente / Ambiente per utente
 La funzione premette di attribuire direttamente gli accessi ad un utente oppure di assegnare un gruppo utente da cui ereditare gli ingressi, oltre a dare la possibilità di impostare per l'utente anche altri default operativi. Con la stessa funzione si possono anche gestire delle impostazioni di natura più sistemistica sul profilo utente, ma queste richiedono un livello di autorizzazioni più elevato (SECADM) e non saranno trattate in questo documento.
 
 Per gestire accessi e impostazioni dell'utente Scegliere "Gestione utente" ed inserire il profilo : 
 
-![B£UT55_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_01.png)
+![B£UT55_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_01.png)
 Premendo INVIO il programma mostra la lista degli accessi previsti per l'utente, in cui si possono vedere le varie impostazioni di ambiente già attribuite all'utente direttamente oppure dal suo gruppo di accesso : 
-![B£UT55_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_02.png)Viene emessa una segnalazione per indicare se l'utente è collegato o meno ad un gruppo accesso.
+![B£UT55_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_02.png)Viene emessa una segnalazione per indicare se l'utente è collegato o meno ad un gruppo accesso.
 Con F13 si passa alle impostazioni di default utente, con F14 alla gestione degli accessi utente, con F15 alla gestione degli accessi di gruppo.
 
 ## F13 Default utente
 Questa funzione permette di attribuire ad un utente il suo gruppo di accesso, oltre che altri parametri di default.
 Vedi formato : 
-![B£UT55_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_05.png)
+![B£UT55_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_05.png)
 ## F15 Accessi di gruppo
 Si può accedere direttamente alla gestione degli accessi del gruppo utente : 
-![B£UT55_16](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_16.png)
+![B£UT55_16](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_16.png)
 ## F14 Accessi utente
-![B£UT55_17](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_17.png)Sono possibili le consuete operazioni di gestione (01 Inserimento, 02 Modifica, 03 Copia, 04 Cancellazione).
+![B£UT55_17](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_17.png)Sono possibili le consuete operazioni di gestione (01 Inserimento, 02 Modifica, 03 Copia, 04 Cancellazione).
 
 ## Formato di dettaglio
-![B£UT55_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_03.png)Descrizione dei campi significativi : 
+![B£UT55_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_03.png)Descrizione dei campi significativi : 
 
 - **Tipo accesso**,  definisce la modalità con cui ci si collega all'ambiente, la ricerca presenta i tipi accesso previsti, in particolare : 
 -- S = Menù Sme.UP
@@ -62,7 +62,7 @@ Permette di definire un gruppo di default, se è presente il gruppo di default, 
 ### Gruppo Azioni collegati a "ESC"
 Permette di gestire il gruppo della azioni attivabili con "Attn/Esc", questo gruppo azioni può essere associato ad un utente in fase di impostazione del default utente, in mancanza di una precisa assegnazione il sistema utilizza il gruppo **$$\*\***.
 
-![B£UT55_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_06.png)
+![B£UT55_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_06.png)
 ## Librerie di Sistema
 Permette di impostare o modificare le librerie di sistema utilizzate da Sme.UP.
 E' possibile impostare tali librerie mediante due metodologie. Quella "Normale" (F06) e quella "Speciale" (F07).
@@ -87,8 +87,8 @@ In caso di necessità è anche possibile utilizzare una gestione mista :  alcune
 ### Parametri di encoding e Tabella localizzazione linguistica
 Queste voci sono relative all'impostazioni di ambienti in lingua non italiana.
 
-![B£UT55_12](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_12.png)
-![B£UT55_13](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_13.png)
+![B£UT55_12](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_12.png)
+![B£UT55_13](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£UT55/BXUT55_13.png)
 ### Menù a Parametri per gruppo utente
 Abbiamo tenuto per ultima questa funzione perchè a partire dalla relase 4.1 non è più attiva essendo stata sostituita dalla gestione del modulo B£MENU.
 Con le release precedenti questa funzione si occupava delle impostazioni delle autorizzazioni, sui menù e sulle azioni di menù, per gruppo utente attraverso il programma B£UT54.

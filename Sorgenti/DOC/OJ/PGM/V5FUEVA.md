@@ -15,13 +15,13 @@ Gli impieghi principali sono per capire se un ordine di produzione, oppure uno d
 ## Formato richiesta
 Il formato di richiesta è il seguente : 
 
-![V5_04_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5FUEVA/V5_04_01.png)
+![V5_04_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_V5FUEVA/V5_04_01.png)
 _3_Nota bene; il formato precedente si utilizza solo in fase di controllo della funzione, mentre nella normale attività giornaliera l'analisi evadibilità viene lanciata direttamente attraverso pulsanti o funzioni di righe documenti e ordini di produzione.
 	
 ## Lista prodotta
 Viene emessa la lista seguente : 
 
-![V5_04_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_V5FUEVA/V5_04_02.png)
+![V5_04_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_V5FUEVA/V5_04_02.png)
 Le righe vengono esposte in ordine di data e sono presentate : 
 
 - _2_prima riga, se esiste della quantità pronta e disponibile per la richiesta, la prima riga riporta nel campo data la dicitura PRONTA e nel campo qtà evadibile presenta la qtà pronta

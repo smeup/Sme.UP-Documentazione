@@ -22,23 +22,23 @@ Convenzionalmente gli attributi di un oggetto sono codificati nel seguente modo 
 # Interrogazione
 Gli attributi di un oggetto possono essere visualizzati con l'opzione '7' lanciabile dalle funzioni di un oggetto (tasto F10 dal formato di gestione di dettaglio dell'oggetto) : 
 
-![B£_06_01](http://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_01.png)
+![B£_06_01](https://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_01.png)
 Oppure utilizzando la funzione generale di lancio dell'interrogazione (programma B£OAV2L che può essere lanciato con il comando breve 'UP OAV') : 
 
-![B£_06_02](http://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_02.png)
+![B£_06_02](https://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_02.png)
 
 Con  'Scelta' = 1 dato un oggetto (Tipo + Parametro) si possono vedere tutti i suoi OAV, eventualmente filtrando per codice.
 
 Con  'Scelta' = 2 dato un oggetto specifico (Tipo + Parametro + Codice) si possono vedere tutti i suoi OAV ed i relativi valori : 
 
-![B£_06_03](http://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_03.png)
+![B£_06_03](https://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_03.png)
 # Informazioni tecniche
 ## Costruzione OAV
 Per essere utilizzati gli OAV devono essere 'costruiti' cioè devono essere presenti nel file B£SLOT0F dove sono inserite tutte le definizioni degli attributi attivi per gli oggetti Sme.up.
 
 La costruzione/ricostruzione del file può essere lanciata dal programma TSTOAV, utilizzando le funzioni / metodo opportune : 
 
-![B£_06_04](http://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_04.png)
+![B£_06_04](https://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_04.png)
 ## Inclusione OAV negli schemi
 Gli OAV rappresentano informazioni associate agli oggetti, quindi risulta naturale poter presentare anche queste informazioni nelle liste che si possono ottenere in Sme.up, cioè includere gli OAV negli schemi informazione.
 - [Schemi di visualizzazione e stampa](Sorgenti/DOC_OPE/TA/B£AMO/B£_SCH)
@@ -69,7 +69,7 @@ dove :
 
 Esempio : 
 
-![B£_06_05](http://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_05.png)
+![B£_06_05](https://doc.smeup.com/immagini/MBDOC_OPE-B£_OAV/BX_06_05.png)
 questo elemento della tabella INT_AD aggiunge agli schemi dell'analisi disponibilità l'OAV I/03 (indirizzo) di un ente il cui codice è nell'elemento 010 della tabella ed il cui tipo è nell'elemento 009 della tabella.
 
 - [Autorizzazioni attributi di un oggetto](Sorgenti/DOC_OPE/TA/B£AMO/B£_OAV1)

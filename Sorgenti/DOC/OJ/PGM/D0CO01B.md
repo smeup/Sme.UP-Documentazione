@@ -2,7 +2,7 @@
 Dato un tipo il programma calcola e memorizza il costo di una lista di oggetti.
 
 ## Formato di input
-![D0BASE_56](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01B/D0BASE_56.png)Sono possibili le seguenti impostazioni : 
+![D0BASE_56](https://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01B/D0BASE_56.png)Sono possibili le seguenti impostazioni : 
  \* **Contesto**; è il tipo di oggetto di cui si vuole calcolare il costo, al momento sono previsti AR, DR, OP, CM
  \* **Tipo costo**; è il tipo costo che sarà memorizzato
  \* **Data**; è la data a fronte della quale sarà eseguita la memorizzazione, la stessa data viene utilizzata nelle eventuali scansioni distinta e ciclo

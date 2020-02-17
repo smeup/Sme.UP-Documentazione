@@ -8,7 +8,7 @@ La gestione e la movimentazione delle merci lungo tutta la filiera produttiva (d
  \* migliore programmabilità dei tempi di lavorazione
  \* migliore informazione a livello gestionale e commerciale.
 
-![AAP_LOG_01](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_01.png)
+![AAP_LOG_01](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_01.png)
 Mentre in termini di efficienza,i vantaggi derivano dall'eliminazione o riduzione, da parte dei vari operatori, di iniziative personali e non coordinate, grazie al controllo integrato del processo; ottenendo così : 
  \* riduzione di errori all'accettazione, nello stoccaggio, nel prelievo e nella spedizione, tramite anche la tracciabilità di  tutti i movimenti
  \* riduzione delle conseguenze dovute a merce mancante
@@ -22,7 +22,7 @@ Mentre in termini di efficienza,i vantaggi derivano dall'eliminazione o riduzion
  \* maggiore conoscenza dei cicli di vita dei prodotti, degli indici di rotazione, delle stagionalità, ecc., tramite statistiche dei movimenti ed elaborazioni esterne di tutte le informazioni disponibili.
 La definizione di regole di funzionamento, configurabili in modo flessibile e facilmente personalizzabili, porta ad un miglioramento generale del processo logistico.
 
-![AAP_LOG_02](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_02.png)
+![AAP_LOG_02](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_02.png)
 # Organizzazione logistica
 Una caratteristica di Sme.UP è di non avere un ambiente logistico separato dal magazzino gestionale (es. gestione dei saldi giacenza a livello alto di gestionale e gestione delle ubicazioni e della movimentazione a livello di sistema dipartimentale). Sme.UP permette di spingersi fino al massimo dettaglio desiderato direttamente all'interno del magazzino gestionale, che in tal modo risulta essere l'unica informazione di giacenza a cui tutto il sistema accede.
 Le giacenze di interesse per l'azienda possono essere : 
@@ -81,7 +81,7 @@ Sme.UP permette di caratterizzare la giacenza utilizzando quattro elementi tipic
  \* e, naturalmente, qualsiasi altra combinazione di questi oggetti.
 È anche possibile aggiungere, per individuare la giacenza, il codice del contenitore.
 
-![AAP_LOG_03](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_03.png)
+![AAP_LOG_03](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_03.png)
 ## Integrazione
 Un sistema logistico in un'azienda deve essere perfettamente integrato con il resto del sistema gestionale e deve potersi integrare con i sistemi di automazione e di campo eventualmente presenti.
 Il sistema logistico di Sme.UP prevede integrazioni con : 
@@ -116,7 +116,7 @@ Il materiale ricevuto può transitare in un'area di accettazione, per poi essere
 
 Collegata al ricevimento è la creazione del lotto o l'acquisizione della matricola che accompagnerà sempre il materiale permettendone così la tracciabilità. Normalmente si introduce l'area di accettazione quando vogliamo integrare il ricevimento merci con il sistema di gestione della qualità (Q9000), in questi casi alla generazione del lotto si può decidere se accettare l'entrata in free-pass oppure se controllare, e con quali piani di campionamento, i materiali in ingresso. L'esito del collaudo può attivare automaticamente la movimentazione dall'area di accettazione verso l'area di magazzino oppure verso l'area dei non conformi o quella degli scarti.
 
-![AAP_LOG_04](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_04.png)
+![AAP_LOG_04](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_04.png)
 ### Interrogazione giacenze
 Come abbiamo visto in precedenza (Organizzazione logistica) la giacenza di un articolo può arrivare ad un grado di dettaglio notevole, di conseguenza serve uno strumento potente di interrogazione che permetta l'analisi delle giacenze secondo le viste più svariate (es. per articolo, per cliente, per ubicazione/lotto, ecc...). Lo strumento di interrogazione giacenze permette di definire "forme di presentazione" a piacere, tagliate sulle esigenze dell'utente, da utilizzare in sede di interrogazione giacenze.
 
@@ -138,7 +138,7 @@ La spedizione è un particolare flusso di documenti, nel quale un ordine di vend
 ### Contenitori
 La movimentazione può essere eseguita facendo riferimento ad unità fisiche (contenitori, colli, pallet), dette Unità di Movimentazione (UdM). In questo caso tutto il contenuto viene mosso. Sono previste anche attività di riempimento (con eventuale produzione del documento di identificazione), svuotamento, suddivisione e accorpamento. E' possibile assegnare ad ogni articolo il tipo di contenitore nel quale è previsto che venga mosso. In associazione con l'utilizzo di tecniche quali la radiofrequenza la movimentazione per UdM permette di raggiungere elevati standard di efficacia/efficienza in quanto possiamo associare ad un singolo codice (l'identificativo dell'UdM) tutta una serie di informazioni quali Articolo, Quantità, Lotto, Configurazione, Ubicazione fisica, ecc ... L'impiego delle UdM semplifica notevolmente anche le attività collegate all'inventario fisico.
 
-![AAP_LOG_05](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_05.png)
+![AAP_LOG_05](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_05.png)
 ## Gestione dei dati di giacenza
 ### Rintracciabilità lotti
 All'atto del ricevimento di un articolo d'acquisto (o di conto lavorazione) o al versamento dell'ordine di produzione, è possibile registrare un nuovo lotto. Il lotto, oltre a scopi di controllo qualità, può risultare utile come base per l'analisi di tracciabilità. I prelievi di produzione dovranno essere intestati al lotto utilizzato, come pure per i versamenti dovremo registrare il lotto. In tal modo, tramite i movimenti di magazzino, si formeranno dei legami in base ai quali sarà possibile rispondere alle domande : 
@@ -152,7 +152,7 @@ Per lo svolgimento di questa attività, si deve innanzitutto inserire il codice 
  \* su cartellini distribuiti agli utenti. Si produce un archivio di cartellini, eventualmente raggruppati in lotti di conta. Essi vengono stampati, compilati, raccolti ed inseriti nel sistema con i dati identificativi (articolo, lotto, area, tipo giacenza, ubicazione, ecc.) e la quantità trovata. Con un passo successivo da essi si aggiorna l'inventario.
 L'inventario, dopo essere stato compilato, può essere stampato o visualizzato, in varie modalità e sintesi, eventualmente valorizzando gli scostamenti, ed infine concluso con l'esecuzione automatica delle rettifiche inventariali.
 
-![AAP_LOG_06](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_06.png)
+![AAP_LOG_06](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/AAP_LOG_06.png)
 ## Fotografia di giacenza
 E' una funzione che permette di memorizzare la situazione delle giacenze ad una qualsiasi data. Una fotografia può essere ottenuta a partire dalla giacenza attuale o dal magazzino fiscale, è' inoltre possibile ottenere fotografie incrementali come differenza di situazioni tra foto a due diverse date.La fotografia così ottenuta può essere visualizzata o stampata,
 eventualmente riaggregata a livelli superiori e valorizzata secondo un tipo di costo selezionato.
@@ -170,9 +170,9 @@ A queste applicazioni se ne aggiungono anche altre con funzione di supporto :
 
 ### Alcuni esempi
 
-![GMANIN_01](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMANIN_01.png)
-![GM_02_02](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GM_02_02.png)
-![GMRN02_04](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMRN02_04.png)
-![GMUBIC_02](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMUBIC_02.png)
-![GMANIN_03](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMANIN_03.png)
-![GMMOVI_11](http://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMMOVI_11.png)
+![GMANIN_01](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMANIN_01.png)
+![GM_02_02](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GM_02_02.png)
+![GMRN02_04](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMRN02_04.png)
+![GMUBIC_02](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMUBIC_02.png)
+![GMANIN_03](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMANIN_03.png)
+![GMMOVI_11](https://doc.smeup.com/immagini/MBDOC_VIS-AALOG/GMMOVI_11.png)

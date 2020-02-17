@@ -1,5 +1,5 @@
 ## Parametrizzazione - ESECUZIONE
-![D0BASE_62](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO10A/D0BASE_62.png)Sono possibili le seguenti impostazioni : 
+![D0BASE_62](https://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO10A/D0BASE_62.png)Sono possibili le seguenti impostazioni : 
  \* **Contesto** :   Tipo Oggetto contesto del calcolo del costo MEDIO è esclusivamente l'oggetto >Articolo, oggetto su cui si scatenano eventi di diversa natura : 
 - \* Documenti di Acquisto
 - \* Documenti di Conto Lavoro
@@ -60,7 +60,7 @@ Sul piede del formato ci sono dei comandi funzione con il seguente significato :
 - \* Tipo Costo
 
 ### Formato impostazioni parametri programma estrazione
-![D0BASE_63](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO10A/D0BASE_63.png)-  **LLC Ricalcolo**; permette di lanciare il ricalcolo del Low Level Code a monte del calcolo costo, valori possibili  :  blank = NO, 1 = Si
+![D0BASE_63](https://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO10A/D0BASE_63.png)-  **LLC Ricalcolo**; permette di lanciare il ricalcolo del Low Level Code a monte del calcolo costo, valori possibili  :  blank = NO, 1 = Si
 -  **LLC Tipo distinta articolo**; tipo distinta da utilizzare in casi ricalcolo del Low Level Code
 -  **OAV Causali movimenti**; vvvvvvvv
 -  **Costi con configurazione**; valori possibili  :  blank = NO, 1 = Si

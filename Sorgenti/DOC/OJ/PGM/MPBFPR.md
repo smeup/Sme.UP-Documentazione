@@ -15,4 +15,4 @@ Le possibili manutenzioni sono :
 
 Tutte le funzioni possono essere limitate ai periodi e ai codici stabiliti nelle parzializzazioni.
 
-![MP_001_42](http://doc.smeup.com/immagini/MBDOC_OGG-P_MPBFPR/MP_001_42.png)
+![MP_001_42](https://doc.smeup.com/immagini/MBDOC_OGG-P_MPBFPR/MP_001_42.png)

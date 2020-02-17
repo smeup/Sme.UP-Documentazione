@@ -26,23 +26,23 @@ _1_Pubblicazione manuale di un singolo documento
 La pubblicazione dei documenti può avvenire contestualmente alla generazione oppure in una fase successiva. Se la pubblicazione è contestuale è possibile indicare due destinazioni. La prima sull'AS400A, la seconda sul server al Mix (demo.smeup.com).
 N.B. :  la pubblicazione differita avviene solo in modalità manuale usando un client FTP.
 
-![B£DOCU_22](http://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_22.png)Nell'immagine che segue vediamo la scheda della documentazione e possiamo individuare i passi compiuti per definire il book e per invocare la stampa / pubblicazione.
+![B£DOCU_22](https://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_22.png)Nell'immagine che segue vediamo la scheda della documentazione e possiamo individuare i passi compiuti per definire il book e per invocare la stampa / pubblicazione.
 Nel dettaglio vediamo che dopo aver selezionato la scheda della applicazioni, selezioniamo un'applicazione (in questo caso B£),.
 Possiamo selezionare quattro tipi di manuali tra applicativo, operativo, documentazione tecnica e note di sviluppo.
 Effettuata la scelta, per generare il PDF è necessario selezionare la linguetta Set'n Play ed infine  Comandi Latex.
 Il pulsante che genera la documentazione e la pubblica al mix, sul server demo.smeup.com è  l'ultimo in basso.
 
-![B£DOCU_23](http://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_23.png)
+![B£DOCU_23](https://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_23.png)
 _1_Generazione manuale e pubblicazione documenti da iSeries
 Dalla scheda della documentazione (My Loocup, documentazione), selezionare la linguetta Generazione documenti, poi nell'albero di sinistra, sotto la voce Latex, sono disponibili le varie collane di documenti da generare. Se ad esempio si seleziona Tutte le applicazioni, e poi Flusso batch di tutti i documenti, verrà associata la funzione di creazione al pulsante posto in basso.
 
-![B£DOCU_24](http://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_24.png)
+![B£DOCU_24](https://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_24.png)
 _1_Generazione automatica e pubblicazione documenti da iSeries
 Come descritto dalla seguente immagine, l'AS400 richiede a Loocup server la generazione dei file PDF.
 Al termine del processo Loocup server invia i file ottenuti a un server SMEA (MIX).
 E' possibile schedulare tale attività direttamente su iSeries.
 
-![B£DOCU_25](http://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_25.png)
+![B£DOCU_25](https://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_25.png)
 La generazione automatica presuppone un'architettura in cui Loocup è installato su un server, è attivo e l'AS400 è a conoscenza di questo server Loocup.
 
 _3_NOTA :  La generazione automatica scandisce la lista delle applicazione, poi verifica l'esistenza dei  vari tipi di membri di documentazione (operativa, applicativa, tecnica, di sviluppo) e procede alla generazione/pubblicazione. Non vi è nessun controllo sulla validità del contenuto.  La scelta del metodo è a totale discrezione del responsabile dei manuali, anche se di default l'opzione usata è la prima illustrata.
@@ -52,12 +52,12 @@ Per consultare la documentazione il cliente deve "loggarsi" all' "Area Riservata
 A questo punto l'utente può consultare e scaricare i manuali a cui è autorizzato ad accedere.
 Il controllo dei documenti accessibili al cliente è effettuato dal server as400 in Smea, a cui il sito smeup.com accede con l'utente specifico WU2_SME, come mostrato dall'immagine che segue.
 
-![B£DOCU_26](http://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_26.png)
+![B£DOCU_26](https://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_26.png)
 ## Autorizzazione ai documenti
 In fase di registrazione del cliente al sito di Sme.UP il server web richiede al sistema AS400 (attraverso un web service) un codice SMEUP (codice di 15 caratteri max) che sarà memorizzato assieme agli altri dati dell'utente (quelli immessi al momento della registrazione :  nome, mail, P.IVA ecc).
 Quando in seguito il cliente si loggherà al sito per visionare i manuali online il server invierà il suo codice SMEUP all' as400 per ottenere l' elenco dei manuali disponibili.
 
-![B£DOCU_27](http://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_27.png)
+![B£DOCU_27](https://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_27.png)
 _1_NOTA :  Lo screenshot "Area riservata" (raffigurante la sezione Web.UP 2.0) usato nello schema è indicativo dell' accesso all' area riservata in generale, in quanto al momento del rilascio la documentazione online sarà raggiungibile dalla sezione "Documentazione" del sito.
 
 
@@ -70,7 +70,7 @@ In AS/400 le autorizzazioni sono contenute nel membro C_USR del file DOC_BOK di 
 ## Procedura di accesso all'area riservata
 Il flusso di registrazione/accesso è quello che segue : 
 
-![B£DOCU_28](http://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_28.png)
+![B£DOCU_28](https://doc.smeup.com/immagini/B£DOCU_15/BXDOCU_28.png)
 ## Note tecniche
 I documenti sono generati tramite il componente di Loocup FRM. Il componente riceve i dati da elaborare dal servizio B£SER_22, poi richiama il motore Latex utilizzando il setup ricevuto.
 Il motore latex genera un pdf che può essere salvato oppure inviato in FTP ad una delle destinazioni.

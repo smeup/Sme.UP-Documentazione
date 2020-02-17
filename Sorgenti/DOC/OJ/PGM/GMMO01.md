@@ -5,7 +5,7 @@ L'interrogazione movimenti permette, secondo varie forme, di visualizzare i movi
 ## Formato di lancio
 L'interrogazione movimenti parte dal seguente formato di lancio : 
 
-![GM_12_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_01.png)Selezionando la forma si determinano i vari modi con cui interrogare i movimenti e si aprono i relativi campi di selezione : 
+![GM_12_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_01.png)Selezionando la forma si determinano i vari modi con cui interrogare i movimenti e si aprono i relativi campi di selezione : 
 
 - _2_Numero di registrazione, presenta i movimenti in ordine di numero di registrazione (ascendente o discendente) a partire da un dato numero di registrazione
 - _2_Articolo - Plant - Data Registrazione, presenta i movimenti di un articolo in un plant a partire da una data di registrazione, è possibile anche la selezione della scheda movimenti
@@ -25,9 +25,9 @@ Di seguito descriveremo le forme di interrogazione più significative.
 ### Numero di registrazione
 Presenta i movimenti ordinati per numero di registrazione, che è il numeratore progressivo che viene attribuito dal sistema a ciascun movimento, si può avere un ordinamento ascendente (da una determinata registrazione in avanti) o discendente (all'indietro da una registrazione), se si inserisce un numero negativo vengono visualizzati gli ultimi n movimenti (es. -8 mostra gli ultimi 8 movimenti) : 
 
-![GM_12_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_02.png)Nella lista movimenti, indipendentemente dalla forma, si può interrogare il dettaglio movimento (opzione 05), oppure interrogare i movimenti collegati : 
+![GM_12_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_02.png)Nella lista movimenti, indipendentemente dalla forma, si può interrogare il dettaglio movimento (opzione 05), oppure interrogare i movimenti collegati : 
 
-![GM_12_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_03.png)I movimenti collegati sono gli altri movimenti generati dal sistema e collegati in qualche maniera a quello di partenza.
+![GM_12_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_03.png)I movimenti collegati sono gli altri movimenti generati dal sistema e collegati in qualche maniera a quello di partenza.
 
 Ad esempio i movimenti collegati di un versamento di produzione sono i movimento di consumo dei componenti e viceversa il movimento collegato ad un consumo componenti è il versamen to di produzione del padre.
 Altri movimenti collegati sono i trasferimenti dove un movimento di scarico della giacenza di partenza è collegato al movimento di carico della giacenza di destinazione.
@@ -39,11 +39,11 @@ Per vedere gli ultimi N movimenti scegliere la forma 1 e inserire N- nel campo N
 ### Articolo - Plant - Data Registrazione
 Presenta i movimenti di un articolo in un plant a partire da una data di registrazione : 
 
-![GM_12_04](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_04.png)Con questa forma è possibile anche la scheda : 
+![GM_12_04](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_04.png)Con questa forma è possibile anche la scheda : 
 
-![GM_12_05](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_05.png)Impostando i parametri di lancio, in particolare la forma scheda e le date inizio e fine periodo presenta una scheda riassuntiva dei movimenti di un articolo : 
+![GM_12_05](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_05.png)Impostando i parametri di lancio, in particolare la forma scheda e le date inizio e fine periodo presenta una scheda riassuntiva dei movimenti di un articolo : 
 
-![GM_12_06](http://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_06.png)Da notare che  la _2_forma scheda, determina il tipo di output : 
+![GM_12_06](https://doc.smeup.com/immagini/MBDOC_OGG-P_GMMO01/GM_12_06.png)Da notare che  la _2_forma scheda, determina il tipo di output : 
 
 - _3_DET / AVA, presenta il dettaglio movimenti in avanti dalla data iniziale a quella finale del periodo
 - _3_DET / IND, come il precedente con presentazione all'indietro dalla data finale a quella iniziale

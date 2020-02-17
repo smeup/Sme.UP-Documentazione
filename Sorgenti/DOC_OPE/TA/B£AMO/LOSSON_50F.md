@@ -35,12 +35,12 @@ Seguire  i seguenti passi :
  \* Creare un collegamento a Loocup (Loocup_w.exe o Loocup.exe )
  \* Modificare l'attributo "Proprietà" del collegamento :   dopo Loocup.exe, aggiungere uno spazio poi il nome dell'iSeries
 
-![LOBASE_168](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_168.png)
+![LOBASE_168](https://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_168.png)
 
 - Avviare Loocup
 
 
-![LOBASE_169](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_169.png)
+![LOBASE_169](https://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_169.png)
 
 - Nella finestra di signon, spuntare il campo SSO, poi cliccare su OK.
 
@@ -52,7 +52,7 @@ Nel caso di insuccesso verrà riproposta la finestra di login che richiederà nu
 
 Aprire la finestra di "About" e togliere il flag di spunta relativo al checkbox "Attiva SSO" : 
 
-![LOBASE_170](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_170.png)
+![LOBASE_170](https://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_170.png)
 
 ## COME ACCEDERE CON UTENTI DIFFERENTI
 
@@ -60,7 +60,7 @@ L'accesso tramite SSO utilizza le credenziali dell'utente iSeries associato all'
 
 Per autenticarsi attraverso altro profilo, quindi non attraverso SSO, è necessario predisporre un collegamento nel quale o manca il nome dell'iSeries (collegamento generico), oppure si indica un utente.
 
-![LOBASE_171](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_171.png)
+![LOBASE_171](https://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_171.png)
 ## SSO ABILITAZIONE ALTERNATIVA
 
 Questa soluzione consente di attivare e disattivare SSO attraverso gli attributi presenti nella riga di collegamento.
@@ -69,7 +69,7 @@ Questa soluzione consente di attivare e disattivare SSO attraverso gli attributi
  - Modificare l'attributo Proprietà del collegamento :   dopo Loocup.exe, aggiungere  uno spazio poi il nome dell'iSeries, un altro spazio ed infine  \*SSO
  - Cliccare su OK
 
-![LOBASE_172](http://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_172.png)
+![LOBASE_172](https://doc.smeup.com/immagini/MBDOC_OPE-LOSSON_50F/LOBASE_172.png)
 L'utente \*SSO è una convenzione adottata da Loocup per indicare la modalità di accesso in SSO.
 L'accesso tramite SSO utilizza le credenziali dell'utente iSeries associato all'utente di dominio windows  (utilizzato per accedere al Pc). Tramite SSO si può pertanto accedere con un solo profilo iSeries.
 Nel caso in cui si voglia accedere con un utente differente riferirsi al paragrafo precedente.

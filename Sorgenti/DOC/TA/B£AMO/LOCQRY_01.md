@@ -26,13 +26,13 @@ In questo specifico contesto l'utente ha la necessità di selezionare un codice 
 
 In questo caso specifico la finestra di ricerca assume l'aspetto riportato nella seguente figura : 
 
-![ese1](http://doc.smeup.com/immagini/LOCQRY_01/ese1.png)
+![ese1](https://doc.smeup.com/immagini/LOCQRY_01/ese1.png)
 
 La finestra di ricerca è suddivisa in tre zone funzionali distinte : 
 
 ### Pannello di definizione delle condizioni di ricerca.
 
-![ese2](http://doc.smeup.com/immagini/LOCQRY_01/ese2.png)
+![ese2](https://doc.smeup.com/immagini/LOCQRY_01/ese2.png)
 Questo pannello, posto nella parte alta della finestra di ricerca, consente di modificare le opzioni di filtro/visualizzazione della lista di oggetti da selezionare. I suoi principali campi sono : 
 
 
@@ -59,7 +59,7 @@ Al fine di velocizzare le operazioni di comunicazione, la visualizzazione della 
 
 ### Bottoniera di controllo
 
-![ese3](http://doc.smeup.com/immagini/LOCQRY_01/ese3.png)
+![ese3](https://doc.smeup.com/immagini/LOCQRY_01/ese3.png)
 
 Nella parte bassa della finestra di ricerca c'è la bottoniera di controllo che mostra una serie di bottoni che consentono l'attivazione di una serie di operazioni.
 A seguito la descrizione dei singoli bottoni : 
@@ -83,7 +83,7 @@ La funzionalità di ricerca di un oggetto quasiasi svolge all'interno di LoocUp 
 
 La pressione del tasto F4 porta alla visualizzazione di una finestra di selezione oggetto del tipo : 
 
-![ese4](http://doc.smeup.com/immagini/LOCQRY_01/ese4.png)
+![ese4](https://doc.smeup.com/immagini/LOCQRY_01/ese4.png)
 
 Questa finestra consente di definire la selezione di un oggetto specifico attraverso la selezione dei tre parametri distintivi di un oggetto applicativo, il tipo, il parametro e il codice. I tre campi di immissione sono a loro volta dei campi di tipo tipizzato e sono strettamente legati :  la selezione del campo tipo influenza la tipologia del campo parametro. Quindi se si sceglie un determinato tipo, il campo parametro accetterà solo parametri associabili al tipo selezionato. Il campo codice ovviamente dipende sia dal campo tipo che dal campo parametro. Tutti e tre i campi sono dotati di funzione di ricerca, attivabile cliccando con il tasto sinistro del mouse sulle icone oppure premendo il tasto F4 quando uno dei campi possiede il fuoco. Il campo di spunta "Minuscoli/maiuscoli" attiva la modalità case sensitive :  se il campo di spunta è attivato il sistema tiene conto anche della minuscole e delle maiuscole nella definizione di codici (in questo caso, il codice "a01" e il codice "A01" sono diversi).
 

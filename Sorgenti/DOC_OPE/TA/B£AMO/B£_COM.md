@@ -48,6 +48,6 @@ Se è emesso un messaggio di errore, il comando permette di visualizzare tutti i
 Se non è attivo nessun messaggio e se sul video in alto a sinistra è presente il carattere >">" in reverse image, il programma elenca le tabelle utilizzate dal programma.
 Di seguito viene presentata la finestra di informazioni di stato del programma.
 
-![B£BASE_057](http://doc.smeup.com/immagini/MBDOC_OPE-B£_COM/BXBASE_057.png)**F24 - Elenco comandi attivi**
+![B£BASE_057](https://doc.smeup.com/immagini/MBDOC_OPE-B£_COM/BXBASE_057.png)**F24 - Elenco comandi attivi**
 Attivando questo comando il programma elenca i comandi previsti dalla funzione e disponibili all'utente.
 

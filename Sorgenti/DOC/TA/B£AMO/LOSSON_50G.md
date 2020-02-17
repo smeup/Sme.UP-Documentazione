@@ -22,7 +22,7 @@ Una buona analogia è uno ski pass per il weekend valido per diversi impianti sc
 La differenza è che con Kerberos è il sistema ad accorgersi automaticamente che si è in possesso di uno ski pass. In questo modo il sistema può avviare in modo trasparente il processo di richiesta e consegna del  ticket per il servizio.
 
 
-![LOBASE_50](http://doc.smeup.com/immagini/LOSSON_50G/LOBASE_50.png)
+![LOBASE_50](https://doc.smeup.com/immagini/LOSSON_50G/LOBASE_50.png)
 ### Kerberos e Windows
 
 Le reti Windows implementato kerberos con Active Directory.

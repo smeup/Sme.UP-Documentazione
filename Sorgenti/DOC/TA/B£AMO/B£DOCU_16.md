@@ -14,7 +14,7 @@ La generazione è soggetta ad una variabile che indica dove reperire le immagini
 ### La pubblicazione
 I file generati come descritto al punto precedente, qualora vengano impostati i parametri necessari, possono essere, contestualmente alla fase di generazione sottoposti ad una ulteriore fase che li pubblica direttamente attraverso un server JSPWiki.
 La parametrizzazione del setup che permette la pubblicazione diretta tramite il server JSPWiki è rappresentata nell'immagine seguente
-![B£DOCU_29](http://doc.smeup.com/immagini/B£DOCU_16/BXDOCU_29.png)Se viene impostato Sì nel parametro **Pubblica**, il file verrà spostato sul server Wiki e versionato.
+![B£DOCU_29](https://doc.smeup.com/immagini/B£DOCU_16/BXDOCU_29.png)Se viene impostato Sì nel parametro **Pubblica**, il file verrà spostato sul server Wiki e versionato.
 ### Parametri per la pubblicazione
 La pubblicazione è soggetta ad una serie di variabili che indicano il server di pubblicazione, l'utente e la password di collegamento, il percorso di pubblicazione. Più in dettaglio
 
@@ -43,7 +43,7 @@ _3_NOTA :  La generazione automatica scandisce la lista delle applicazione, poi 
 ## Consultazione del sito Wiki
 Il sito Wiki è consultabile attraverso un normale browser all'indirizzo
 [http://wikidoc.smeup.com](http://wikidoc.smeup.com)
-![B£DOCU_30](http://doc.smeup.com/immagini/B£DOCU_16/BXDOCU_30.png)Nella sezione di sinistra è possibile selezionare la lingua (di default è italiano).
+![B£DOCU_30](https://doc.smeup.com/immagini/B£DOCU_16/BXDOCU_30.png)Nella sezione di sinistra è possibile selezionare la lingua (di default è italiano).
 E' inoltre possibile entrare in navigazione attreverso la lista delle applicazioni o i tipi di manuale previsti (Applicativo, Operativo, Sviluppo, Tecnico, Visione)
 
 ## Autorizzazione ai documenti

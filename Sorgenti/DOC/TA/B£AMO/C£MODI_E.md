@@ -12,7 +12,7 @@ Per accedere al modello dinamico selezionare :
  \* Contesto = L'applicazione voluta tra quelle presenti nella finestra dei contesti attivi
 
 Si presenta la scheda del modello dinamico dell'applicazione : 
-![C£MODI_021](http://doc.smeup.com/immagini/C£MODI_E/CXMODI_021.png)
+![C£MODI_021](https://doc.smeup.com/immagini/C£MODI_E/CXMODI_021.png)
 ## Scenario LIB - Librerie
 Questo scenario serve per visualizzare tutte le relazioni tra gli oggetti principali presenti in una libreria.
 
@@ -22,7 +22,7 @@ Per accedere al modello dinamico selezionare :
 
 Si presenta la scheda del modello dinamico dell'applicazione : 
 
-![C£MODI_023](http://doc.smeup.com/immagini/C£MODI_E/CXMODI_023.png)
+![C£MODI_023](https://doc.smeup.com/immagini/C£MODI_E/CXMODI_023.png)
 ## Scenario OGG - Oggetti
 Questo scenario ha l'obiettivo di visualizzare gli ambienti (liste librerie) e le autorizzazioni applicative impostati.
 
@@ -32,7 +32,7 @@ Per accedere al modello dinamico selezionare :
 
 Si presenta la scheda del modello dinamico del contesto richiesto : 
 
-![C£MODI_024](http://doc.smeup.com/immagini/C£MODI_E/CXMODI_024.png)
+![C£MODI_024](https://doc.smeup.com/immagini/C£MODI_E/CXMODI_024.png)
 ## Programmi
 L'obiettivo di questo scenario è quello di analizzare le relazioni esistenti tra programmi ed applicazioni e le relazioni tra programmi e altri oggetti : 
  \* archivi;
@@ -49,12 +49,12 @@ Un utilizzo particolare dello scenario PRO permette di vedere l'elenco delle /Co
  \* si seleziona il tipo "MB = Membro di un file" > "MBQILEGEN";
  \* viene presentata la lista delle /Copy utilizzate.
 
-![C£MODI_025](http://doc.smeup.com/immagini/C£MODI_E/CXMODI_025.png)
+![C£MODI_025](https://doc.smeup.com/immagini/C£MODI_E/CXMODI_025.png)
 Un altro modo di raggiungere il modello dinamico di una /Copy è dalla lista generale di tutte le /Copy, che può essere ottenuta selezionando la voce "Servizi e Azioni" dal menù MyLoocUp, oppure dalla scheda di un'applicazione qualsiasi.
 
 La scheda della /copy presenta il tab 'Modelli Dinamici', che selezionato attiva una scheda come sotto : 
 
-![C£MODI_022](http://doc.smeup.com/immagini/C£MODI_E/CXMODI_022.png)
+![C£MODI_022](https://doc.smeup.com/immagini/C£MODI_E/CXMODI_022.png)
 Nel riquadro "Relazioni dell'oggetto" compare l'unica relazione 'é utilizzata da' con l'elenco dei programmi che utilizzano tale routine.
 Selezionando uno dei programmi in elenco, nel riquadro centrale verranno evidenziate le relazioni significative a cui è soggetto tale programma.
 Dall'esempio compaiono relazioni di appartenenza, di creazione, modifica e utilizzo, ritenute significative da chi ha disegnato il modello dinamico. E' chiaro che, se si dovessero ritenere significative altre relazioni, basterebbe modificare il programma di ricostruzione del modello secondo le indicazioni date nei paragrafi precedenti.
@@ -76,7 +76,7 @@ Per accedere al modello dinamico selezionare :
 
 Si presenta la scheda del modello dinamico del "Dove Usato" : 
 
-![C£MODI_026](http://doc.smeup.com/immagini/C£MODI_E/CXMODI_026.png)
+![C£MODI_026](https://doc.smeup.com/immagini/C£MODI_E/CXMODI_026.png)
 ## Scenario DOC - Documenti
 L'obiettivo di questo scenario è quello di analizzare le relazioni esistenti tra i documenti.
 In particolare : 

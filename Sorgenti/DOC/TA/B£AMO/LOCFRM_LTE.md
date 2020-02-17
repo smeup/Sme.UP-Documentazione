@@ -44,7 +44,7 @@ Nel caso non lo fosse, è possibile impostarla tra le varie opzioni nel seguente
 - premere "OK" e confermare l'operazione
 
 
-![LOCFRM_038](http://doc.smeup.com/immagini/LOCFRM_LTE/LOCFRM_038.png)
+![LOCFRM_038](https://doc.smeup.com/immagini/LOCFRM_LTE/LOCFRM_038.png)
  :  : R01 Nota :  i pacchetti aggiuntivi
 Durante le prime generazioni dei file PDF sarà richiesta l'installazione di package (pacchetti) aggiuntivi. Per un corretto funzionamento del programma è necessario confermare l'installazione.
 A seguito della conferma i pacchetti verranno scaricati ed installati automaticamente.
@@ -58,7 +58,7 @@ E' possibile installare i package manualmente nel seguente modo :
 - premere "OK" e confermare l'installazione
 
 
-![LOCFRM_039](http://doc.smeup.com/immagini/LOCFRM_LTE/LOCFRM_039.png)
+![LOCFRM_039](https://doc.smeup.com/immagini/LOCFRM_LTE/LOCFRM_039.png)
 E' possibile ricercare il package desiderato aprendo lo "start package manager", in cui sono elencati tutti i pacchetti disponibili dal repository (archivio).
 
  :  : R01 Installazione MikTeX
@@ -89,10 +89,10 @@ L'installazione del software è **opzionale**, ma utile soprattutto nel caso di 
  :  : R01 Nota :  correzione degli errori
 Selezionando la scheda "set and play" del documento desiderato, è possibile visualizzare il sorgente LaTeX generato selezionando la scheda "Formattazione LaTeX".
 
-![LOCFRM_022](http://doc.smeup.com/immagini/LOCFRM_LTE/LOCFRM_022.png)
+![LOCFRM_022](https://doc.smeup.com/immagini/LOCFRM_LTE/LOCFRM_022.png)
 Copiare il sorgente visualizzato nella scheda in un nuovo file creato in WinEdt. A questo punto lanciare la compilazione del documento da WinEdt premendo il tasto F9. Il programma si interromperà al primo errore, visualizzando il numero di riga e la causa dell'errore.
 
-![COMPWINEDT](http://doc.smeup.com/immagini/LOCFRM_LTE/COMPWINEDT.png)
+![COMPWINEDT](https://doc.smeup.com/immagini/LOCFRM_LTE/COMPWINEDT.png)
  :  : R01 Installazione WinEdt
 E' possibile installare WinEdt seguendo il percorso : 
 http://www.winedt.com/download.html e selezionando l'ultima versione disponibile

@@ -1,6 +1,6 @@
 # Impostazioni di calcolo costo
 ## Formato impostazioni del calcolo
-![D0BASE_52](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01I/D0BASE_52.png) \* **Estrazione oggetti**
+![D0BASE_52](https://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01I/D0BASE_52.png) \* **Estrazione oggetti**
  \*\* __Programma__; per il contesto articolo è possibile far eseguire il ricalcolo del low level code, indicando il tipo esplosione distinta da utilizzare nel ricalcolo. Se attivata questa modalità il ricalcolo sarà eseguito prima della elaborazione vera e propria del calcolo costi
  \*\* __Exit__; permette di indicare un suffisso del programma XXXXXXX_x come exit nell'estrazione oggetti
  \* **Calcolo costo**
@@ -26,7 +26,7 @@
  \*\* __Pre / Post__; si possono indicare elementi della tabella B£H che descrivono flussi di elaborazione da eseguire prima o dopo del calcolo
 
 ### Formato impostazioni di calcolo costo
-![D0BASE_53](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01I/D0BASE_53.png) \* **Costo aliquote**; indicare il tipo costo da utilizzare per le aliquote orarie
+![D0BASE_53](https://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01I/D0BASE_53.png) \* **Costo aliquote**; indicare il tipo costo da utilizzare per le aliquote orarie
  \* **Costo lavorazione esterna pieno**; indicare il tipo costo da utilizzare per le lavorazioni esterne in caso di conto lavoro pieno
  \* **Costo lavorazione esterna fase**; indicare il tipo costo da utilizzare per le lavorazioni esterne in caso di conto lavoro di fase
  \* **Costo materiale acquisto**; indicare il tipo costo da utilizzare per i componenti che sono di acquisto
@@ -47,7 +47,7 @@
  \* **Tipo costo del componente**; hhhhh
 
 ### Formato impostazioni di completamento costi struttura
-![D0BASE_54](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01I/D0BASE_54.png) \* **Nuova gestione livello inferiore IGI**;  SI/NO hhhhh
+![D0BASE_54](https://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01I/D0BASE_54.png) \* **Nuova gestione livello inferiore IGI**;  SI/NO hhhhh
  \* **Suffisso programma per exit di calcolo costi indiretti**; hhhhh
  \* **Attivazione exit di calcolo**
  \*\* __Materiale acquisto__;  SI/NO hhhhh
@@ -58,5 +58,5 @@
  \*\* __Ricarica oggetto__;  SI/NO hhhhh
 
 ### Formato impostazioni di completamento costi ricariche
-![D0BASE_55](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01I/D0BASE_55.png) \* **Sottosettore ricariche**;  hhhhh
+![D0BASE_55](https://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01I/D0BASE_55.png) \* **Sottosettore ricariche**;  hhhhh
  \* **Sottosettore metodo attribuzione %**;  hhhhh

@@ -27,10 +27,10 @@ Lo standard propone, tra l'altro
 -  la % di carico di ogni risorsa rispetto alla totalità delle risorse del gruppo, rappresentata sia numericamente sia graficamente
 -  la % di saturazione di ogni risorsa, rappresentata sia numericamente sia graficamente, con colori diversi se la percentuale si abbassa (verde / giallo / rosso)
 
-![FIG_060](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_060.png)
+![FIG_060](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_060.png)
 # Rappresentazione di dettaglio (Gantt / Incolonnata)
 Cliccando su una risorsa specifica, nella sezione principale della scheda della schedulazione, si presenta il seguente popup
-![FIG_063](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_063.png)
+![FIG_063](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_063.png)
 da cui si può passare alla rappresentazione di dettaglio
 -  su tutte le risorse schedulate  (Gantt totale)
 -  su tutte le risorse appartenenti al gruppo della risorsa selezionata (Gantt della risorsa generale), questo bottone è presente solo se è stata attivata nello scenario la distinzione tra risorse generali e specifiche
@@ -39,7 +39,7 @@ da cui si può passare alla rappresentazione di dettaglio
 E' possibile inoltre impostare, nello script dei parametri BCD, due codici OAV che, se definiti, aggiungono due bottoni, la cui pressione fa passare al dettaglio di tutte le risorse (generali o specifiche, in base a quanto impostato, sempre nello script dei parametri) che hanno lo stesso valore dell'OAV della risorsa puntata.
 
 Nel seguente esempio si è scelto di poter filtrare per il responsablie del centro di lavoro a cui appartiene la macchina selezionata, o per il codice di appartenenza della macchina stessa.
-![FIG_076](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_076.png)
+![FIG_076](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_076.png)
 Le righe presentate si dividono in due tipi : 
 -  riga riassuntiva - una per ogni risorsa specifica
 -  riga di dettaglio - un per ogni fase schedulata
@@ -61,7 +61,7 @@ Questa memorizzazione vale per tutti gli utenti.
 E' possibile settare la presentazione del dettaglio, operando nella finestra di impostazioni,
 richiamata dal menu di popup ottenuto premendo il tasto destro in una zona vuota del Gantt.
 
-![FIG_064](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_064.png)
+![FIG_064](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_064.png)
 Tali impostazioni permettono : 
 -  di non visualizzare i segnali delle date
 - \* al più presto
@@ -79,21 +79,21 @@ Tali impostazioni permettono :
 ## Visualizzazione di tutte le risorse
 In modalità Gantt viene riportata una riga riassuntiva per ogni risorsa caricata, con le fasi schedulate una accanto all'altra in sequenza temporale. E' possibile aprire ogni risorsa per  visualiizzare le righe in dettaglio.
 La figura seguente riporta un esempio di questa presentazione.
-![FIG_065](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_065.png)In modalità Incolonnata viene riportata una riga riassuntiva per ogni risorsa caricata, ma essa appare vuota in quanto le celle si sovrapporrebbero.In questo caso, l'apertura delle singole risorse è obbligatoria.
+![FIG_065](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_065.png)In modalità Incolonnata viene riportata una riga riassuntiva per ogni risorsa caricata, ma essa appare vuota in quanto le celle si sovrapporrebbero.In questo caso, l'apertura delle singole risorse è obbligatoria.
 La figura seguente è un esempio di questa presentazione, dopo aver aperto manualmente la risorsa MOA.02
-![FIG_066](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_066.png)
+![FIG_066](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_066.png)
 ## Visualizzazione di una risorsa generale e delle sue risorse specifiche.
 Vengono presentate le risorse specifiche della risorsa generale, ciascuna con la riga riassuntiva ed il dettaglio.
 In questa forma si può sceglere se vislauzziare o meno le risorse vuote, e se entare in modalità aperta o chiusa
 Nelll'esempio seguente viene riportato un caso di presentazione a Gantt, in modalità aperta e con le risorse vuote visualizzate (ad esempio le macchine ASA.02, ASA.03, ecc--)
-![FIG_067](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_067.png)L'esempio seguente è la stessa visualizzazione in modalità incolonnata.
-![FIG_068](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_068.png)
+![FIG_067](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_067.png)L'esempio seguente è la stessa visualizzazione in modalità incolonnata.
+![FIG_068](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_068.png)
 ### Filtro solo preferenziali
 In questa rappresentazione, se è attivo il filtro delle risorse specifiche è possibile utilizzarlo per visulizzare un sottoinsieme delle risorse specifiche.
 Se si attiva il poup da una cella la cui fase ha un filtro di risorse specifiche, si presenta il bottone "visualizza solo preferenziali" la cui pressione fa sì che appaiano solo le risorse del filtro (oltre alla risordsa attuale della cella, se non appartiene al filtro).
 
 Nel seguente esempio, la pressione del bottone "Visualizza solo preferenziali" farà sì che vengano mostrate le risorse MOA.02 e MoA.03 (che costituiscono il filtro) e la rlsorsa MOA.01 (attuale). Si rimanda al documento "Azioni manuali" per la descrizione completa del bottone "Sposta nel gruppo" che mostra il flitro.
-![FIG_026](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_026.png)
+![FIG_026](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_026.png)
 Dalla presentazione filtrata, si ritorna alla visualizzazione completa tramite il pulsante "Visualizza tutti" che, in questo caso,appare nei popup di tutte le celle.
 
 ## Visualizzazione di una singola risorsa specifica.
@@ -102,7 +102,7 @@ La rappresentazione è simile alla precedente, con la differenza che viene prese
 ## Azioni eseguibili
 Le azioni generali eseguibili, dall'inteno di un dettaglio, si richiamano cliccando in una zona libera della parte grafica.
 Appare il seguente popup : 
-![FIG_069](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_069.png)
+![FIG_069](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_069.png)
 In esso è possibile
 -  Alternare la presentazione Gantt e Incolonnata (nell'esempio precedente si è in Incolonnata e quindi viene proposto di passare alla visualizzazione Gantt
 -  Passare alla definizione delle Impostazioni. Al ritorno, il dettaglio verrà riaggiornato con le nuove impostazioni.
@@ -113,10 +113,10 @@ Nel dettaglio le celle rappresentano le operazioni schedulate. La loro forma per
 
 Esse possono infatti essere : 
 **iniziate** :  è stata eseguita almeno una dichiarazione di attività
-![FIG_003](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_003.png)**libere** :  non son state iniziate e non vi è nessuna azione manuale
-![FIG_002](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_002.png)**congelate** :  vedi documentazione sulle azioni manuali
-![FIG_001](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_001.png)**forzate** :  vedi documentazione sulle azioni manuali
-![FIG_004](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_004.png)
+![FIG_003](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_003.png)**libere** :  non son state iniziate e non vi è nessuna azione manuale
+![FIG_002](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_002.png)**congelate** :  vedi documentazione sulle azioni manuali
+![FIG_001](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_001.png)**forzate** :  vedi documentazione sulle azioni manuali
+![FIG_004](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_004.png)
 Se è stato impostato di evidenziare l'attrezzaggio e se esso è effettivamente presente, all'interno della cella viene riportata una barra verticale.
 -  nella rappresentazione GANTT, in cul la lunghezza della cella è proporzionale al tempo della fase, la barra è posizionala all'instante di fine attrezzaggio.
 -  nella rappresentazione incolonnata, in cui tutte le celle hanno la medesima lunghezza, la barra è posizionata alla fine della percentuale di attrezzaggio rispetto al tempo totale. Ad esempio, se l'attrezzaggio è il 20 % del tempo totale, la barra è sempre nella stessa posizione (ad un quinto dall'inizio della cella) indipendentemente dal tempo della fase.
@@ -136,18 +136,18 @@ I segnali nella rappresentazione Gantt son collocati all'istante in cui si verif
 Vengono riportati i seguenti segnali : 
 
 __Solo in Gantt__ :  data al più presto (vincolo dalla fine dell'operazione precedente)
-![FIG_005](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_005.png)__Solo in Gantt__ :  vincolo esterno al più presto
-![FIG_020](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_020.png)__Solo in Gantt__ :  data fine richiesta (dell'ordine a cui l'operazione appartiene)
-![FIG_006](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_006.png)__Solo in incolonnata__ :  data fine richiesta (dell'ordine a cui l'operazione appartiene) se scaduta
-![FIG_021](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_021.png)__Solo in incolonnata__ :   c'è una hole subito prima dell'operazione visualizzata
-![FIG_022](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_022.png)**data fine schedulata**(dell'ordine a cui l'operazione appartiene)
+![FIG_005](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_005.png)__Solo in Gantt__ :  vincolo esterno al più presto
+![FIG_020](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_020.png)__Solo in Gantt__ :  data fine richiesta (dell'ordine a cui l'operazione appartiene)
+![FIG_006](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_006.png)__Solo in incolonnata__ :  data fine richiesta (dell'ordine a cui l'operazione appartiene) se scaduta
+![FIG_021](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_021.png)__Solo in incolonnata__ :   c'è una hole subito prima dell'operazione visualizzata
+![FIG_022](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_022.png)**data fine schedulata**(dell'ordine a cui l'operazione appartiene)
 se inferiore alla data fine richiesta (anticipo)
 sotto la soglia 1 (anticipo basso)
-![FIG_007](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_007.png)tra la soglia 1 e la soglia 2 (anticipo medio)
-![FIG_008](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_008.png)sopra la soglia 2 (anticipo alto)
-![FIG_009](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_009.png)se superiore alla data fine richiesta (ritardo)
+![FIG_007](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_007.png)tra la soglia 1 e la soglia 2 (anticipo medio)
+![FIG_008](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_008.png)sopra la soglia 2 (anticipo alto)
+![FIG_009](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_009.png)se superiore alla data fine richiesta (ritardo)
 sotto la soglia 1 (ritardo basso)
-![FIG_010](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_010.png)tra la soglia 1 e la soglia 2 (ritardo medio)
-![FIG_011](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_011.png)sopra la soglia 2 (ritardo alto)
-![FIG_012](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_012.png)se uguale alla data fine richiesta (ordine puntuale)
-![FIG_013](http://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_013.png)
+![FIG_010](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_010.png)tra la soglia 1 e la soglia 2 (ritardo medio)
+![FIG_011](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_011.png)sopra la soglia 2 (ritardo alto)
+![FIG_012](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_012.png)se uguale alla data fine richiesta (ordine puntuale)
+![FIG_013](https://doc.smeup.com/immagini/MBDOC_OPE-S5IRIS_RIS/FIG_013.png)

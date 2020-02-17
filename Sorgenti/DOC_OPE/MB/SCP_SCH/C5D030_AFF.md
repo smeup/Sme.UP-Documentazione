@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare gli affidamenti bancari concessi all'azienda
 
-![C5D030_049](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_AFF/C5D030_049.png)
+![C5D030_049](https://doc.smeup.com/immagini/MBDOC_SCH-C5D030_AFF/C5D030_049.png)
 ## Parametri di lancio
 
  \* Data Riferimento :  permette di impostare la data a cui analizzare i fidi concessi. Se lasciata vuota viene considerato "Oggi"

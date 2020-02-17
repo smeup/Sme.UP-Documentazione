@@ -67,4 +67,4 @@ Codifica il tipo di addebito/accredito.
  \* Stampa osservazioni di collaudo
 
 # Gestione Non Conformità (flusso funzionale)
-![CQ_NCNF_01](http://doc.smeup.com/immagini/CQNCNF_01/CQ_NCNF_01.png)
+![CQ_NCNF_01](https://doc.smeup.com/immagini/CQNCNF_01/CQ_NCNF_01.png)

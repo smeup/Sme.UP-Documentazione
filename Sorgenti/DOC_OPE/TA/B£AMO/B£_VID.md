@@ -14,7 +14,7 @@ Normalmente un formato video è costituito da :
 - **piede** (la parte in basso).
 
 
-![B£BASE_059](http://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_059.png)
+![B£BASE_059](https://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_059.png)
 **1. Testata**
 È costituita dalle prime due righe in alto della videata, contiene una serie di informazioni standard : 
 
@@ -51,14 +51,14 @@ Guida alle funzioni (immissione, modifica, copia, cancellazione, ecc...) abilita
 Nel formato guida si può definire l'opzione di scelta della funzione da eseguire e passare direttamente al formato di dettaglio per la gestione (in questo caso si devono anche inserire i dati relativi all'oggetto cui applicare l'azione).
 
 
-![B£BASE_060](http://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_060.png)
+![B£BASE_060](https://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_060.png)
 ## Lista di gestione
 Su questa videata viene mostrata la lista degli oggetti sui quali è possibile eseguire una delle attività alle quali l'utente è abilitato.
 E' possibile selezionare più oggetti per la stessa o per diverse attività :  il sistema proporrà la videata di dettaglio per ciascun record selezionato.
 La lista può essere ridotta solo ai record di interesse utilizzando le parzializzazioni; se già attive, viene evidenziato il corrispondente comando funzione in reverse image.
 
 
-![B£BASE_061](http://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_061.png)
+![B£BASE_061](https://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_061.png)
 ## Lista di selezione
 È del tutto simile alla lista di gestione, ma sono attive solo le funzioni di scelta ed eventualmente di visualizzazione del dettaglio.
 
@@ -71,7 +71,7 @@ In particolare possono essere attivate le seguenti funzionalità standard :
 - **note strutturate**     -->    se presente il campo >__** in basso a destra, è possibile passare alla gestione delle note strutturate.
 
 
-![B£BASE_059](http://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_059.png)
+![B£BASE_059](https://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_059.png)
 ## Parzializzazioni
 Con questa schermata si limitano / ricercano i record da presentare nella lista.
 Se presente l'ordinamento, si definisce anche il modo con cui i record selezionati saranno ordinati.
@@ -82,7 +82,7 @@ Alcune gestioni richiedono l'utilizzo di parzializzazioni superiori a quelle con
 Tutte le parzializzazioni impostate possono essere identificate con un codice identificativo e memorizzate.
 - [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
 
-![B£BASE_062](http://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_062.png)
+![B£BASE_062](https://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_062.png)
 ## Impostazione di una stampa
 L'impostazione di una stampa inizia abitualmente con la richiesta del tipo di output (carta, video o trasferimento a personal computer).
 Normalmente un formato di stampa è un insieme di diverse impostazioni : 
@@ -97,14 +97,14 @@ Ciascuna di queste impostazioni può essere memorizzata singolarmente per essere
 Anche l'insieme delle impostazioni di una stampa può essere memorizzato.
 - [Gestione Dati Scelte Video](Sorgenti/DOC/OJ/PGM/B£MDV0)
 
-![B£BASE_063](http://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_063.png)
+![B£BASE_063](https://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_063.png)
 Si rimanda al documento _2_"STAMPE" per ulteriori dettagli.
 
 ## Richiesta parametri di esecuzione
 Normalmente le elaborazioni di funzioni che trattano masse di dati vengono eseguite in modo batch (tipico esempio sono le stampe di rapporti) e permettono di intervenire manualmente per cambiare i parametri di elaborazione preimpostati in fase di programmazione.
 Queste modifiche possono essere fatte attarverso la schermata standard di gestione dei parametri di esecuzione, a cui si accede mediante il comando funzione >F11.
 
-![B£BASE_064](http://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_064.png)
+![B£BASE_064](https://doc.smeup.com/immagini/MBDOC_OPE-B£_VID/BXBASE_064.png)
 ## Messaggi
 Nelle operazioni di modifica il sistema esegue contemporaneamente i controlli sui dati di input e può emettere dei messaggi di errore, il primo dei quali viene visualizzato in alta intensità sul piede della schermata. I messaggi possono essere visualizzati o gestiti (aggiungendo informazioni particolari) mediante il comando funzione >F22.
 

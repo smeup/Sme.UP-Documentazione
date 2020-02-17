@@ -1,5 +1,5 @@
 Il modello semplificato dell'avanzamento di un impegno è il seguente : 
-![WF-FIG0002](http://doc.smeup.com/immagini/WFBASE_033/WF-FIG0002.png)
+![WF-FIG0002](https://doc.smeup.com/immagini/WFBASE_033/WF-FIG0002.png)
 I nodi rappresentano gli stati in cui ciascun impegno di workflow si può trovare, mentre gli archi sono le azioni di workflow necessarie per avanzare di stato.
 Ogni azione di workflow genera un'attività (quindi lascia un log su tempo e utente di esecuzione).
 

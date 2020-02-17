@@ -10,7 +10,7 @@ Allo stato attuale è in grado di esportare dati verso :
 
 ### Esportazione verso Databeacon
 L'esportazione verso Databeacon è accessibile dal popup di sezione di qualunque matrice sotto Visualizza come... --> Cube.up
-![cubpop](http://doc.smeup.com/immagini/LOCCUB_01/cubpop.png)La definizione di Databeacon come destinazione dell'esportazione viene dalla presenza nel setup dell'attributo Type valorizzato come "DTB".
+![cubpop](https://doc.smeup.com/immagini/LOCCUB_01/cubpop.png)La definizione di Databeacon come destinazione dell'esportazione viene dalla presenza nel setup dell'attributo Type valorizzato come "DTB".
 La destinazione Databeacon è inoltre la destinazione di default qualora il nodo Type non sia presente o sia vuoto
 Per la parametrizzazione esiste un file **application.xml** nella cartella LOOCUP_SET/CFG presente nell'installazione.
 In tale setup, nell'elemento **UICube**, è possibile definire i parametri che configurano le informazioni necessarie a scatenare il processo di esportazione e visualizzazione.

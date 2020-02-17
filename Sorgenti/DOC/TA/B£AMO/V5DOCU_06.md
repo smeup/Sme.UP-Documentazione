@@ -72,14 +72,14 @@ L'utente procede ad aggiungere alle righe dell'ordine di vendita una riga con l'
 La cosa importante ovviamente è aver codificato nella tabella V5B OA (relativi ai tipi riga degli ordini attivi) 2 tipologie di riga : 
 - quella relativa all'acconto (es. 004)
 - quella relativa allo storno dell'anticipo (005)
-![V5_013](http://doc.smeup.com/immagini/V5DOCU_06/V5_013.png)
+![V5_013](https://doc.smeup.com/immagini/V5DOCU_06/V5_013.png)
 La prima riga relativa all'acconto viene inserita dall'utente, e grazie all'automatismo previsto dal programma V5FUANT, se correttamente richiamato nei flussi di inserimento (tabelle B£H e B£J) della riga stessa, viene creata una seconda riga di storno.
-![V5_014](http://doc.smeup.com/immagini/V5DOCU_06/V5_014.png)Affinchè ciò avvenga però, deve essere inserito nella nuova tabella V5H creata appositamente per la gestione degli anticipi, un nuovo elemento con lo stesso codice della riga di anticipo manuale.
+![V5_014](https://doc.smeup.com/immagini/V5DOCU_06/V5_014.png)Affinchè ciò avvenga però, deve essere inserito nella nuova tabella V5H creata appositamente per la gestione degli anticipi, un nuovo elemento con lo stesso codice della riga di anticipo manuale.
 In questo elemento deve essere definita la tipologia di riga da utilizzare per lo storno dell'anticipo (il codice riga è assolutamente libero, non vi è nulla di forzato nel programma).
-![V5_024](http://doc.smeup.com/immagini/V5DOCU_06/V5_024.png)
+![V5_024](https://doc.smeup.com/immagini/V5DOCU_06/V5_024.png)
 Quindi contestualmente all'aggiunta del tipo di riga dell'ordine è necessario creare nella tabella V5H questo elemento che contenga tutte le informazioni necessarie al V5FUANT per automatizzare i processi.
 
-![V5_015](http://doc.smeup.com/immagini/V5DOCU_06/V5_015.png)Devono essere definiti : 
+![V5_015](https://doc.smeup.com/immagini/V5DOCU_06/V5_015.png)Devono essere definiti : 
 - il sottosettore della V5B e l'elemento che il programma deve usare per creare la riga.
 - il "Codice oggetto Rec. Or." conterrà l'elemento della V5S che verrà utilizzato come oggetto della riga di recupero.
 - qualora si vogliano adottare dei comportamenti particolari esiste la possibilità di indicare il suffisso del programma di aggiustamento V5FUANT_X.
@@ -97,9 +97,9 @@ Il prossimo passo è inserire i flussi nelle apposite tabelle (B£H) :
 2. In modifica delle righe d'ordine
 3. In pre-cancellazione righe d'ordine
 4. In transazione sulle righe dell'ordine e sulle righe della bolla
-![V5_016](http://doc.smeup.com/immagini/V5DOCU_06/V5_016.png)
+![V5_016](https://doc.smeup.com/immagini/V5DOCU_06/V5_016.png)
 La B£J invece : 
-![V5_025](http://doc.smeup.com/immagini/V5DOCU_06/V5_025.png)
+![V5_025](https://doc.smeup.com/immagini/V5DOCU_06/V5_025.png)
 Il programma se agganciato quindi nei flussi di riga, qualora individui una riga presente come elemento nella V5H, provvederà a generare in automatico la relativa riga di recupero/storno dell'anticipo.
 Queste righe saranno legate fra di loro, in quanto sulla riga automatica di storno anticipo nel campo R§NRRI (Riga master di riferimento) verrà indicata la riga origine dell'anticipo.
 La particolarità della riga di storno sta nel gruppo flag riga, il qual'è avrà nel FLAG07 il valore "1", indicando così l'inversione, l'importo risulterà positivo ma verrà stornato dall'imponibile totale.
@@ -111,17 +111,17 @@ Passiamo ora allo step successivo, una volta inserito l'ordine con le relative r
 Per fatturare l'acconto però è necessario estrarre un documento  di tipo fattura con i flag impostati correttamente, gli importi presi dalla riga dell'ordine ecc.
 
 A tal proposito è possibile, è un opzione facoltativa, di creare un tipo documento nella V5ADA apposito per la fattura d'acconto : 
-![V5_017](http://doc.smeup.com/immagini/V5DOCU_06/V5_017.png)
+![V5_017](https://doc.smeup.com/immagini/V5DOCU_06/V5_017.png)
 Procediamo poi, alla creazione di un tipo riga apposito di modo che nella V5AOA della riga 004 di anticipo potrò indicare la riga di destinazione appena creata (in questo modo il pgm di estrazione prenderà solo le righe specifiche).
 Il passo successivo sarà creare nella tabella V5G CA (per i flussi del ciclo attivo), un flusso di estrazione e stampa degli anticipi e aggiungerlo al menu.
-![V5_026](http://doc.smeup.com/immagini/V5DOCU_06/V5_026.png)
+![V5_026](https://doc.smeup.com/immagini/V5DOCU_06/V5_026.png)
 Quando sarà spedita la merce al cliente, la routine CALIMP, richiamata come flusso di transazione delle bolle, calcola l'importo di recupero dell'acconto.
 Quindi quando si procederà all'estrazione della bolla a partire dall'ordine, dopo aver compilato testata e selezionato le righe in uscita dal documento, A CONDIZIONE CHE LA RIGA DI ANTICIPO origine sull'ordine sia CHIUSA/FATTURATA (ovvero che abbia un livello = 8) si attiverà il pgm inserito nel flusso di transizione che calcolerà l'imponibile (se l'imponibile è 0 non farà nulla) leggerà tutte le righe dell'ordine. Per ogni riga della bolla che ha documento origine (ogni riga della bolla potrebbe aver origine da ordini di vendita diversi) verificherà che la tipologia delle righe sia presente sulla tabella V5H (quindi sia una riga di acconto) e che abbia livello 8.
 A questo punto leggerà la riga di recupero acconto (grazie ai parametri impostati nella V5H), verificherà che sia o meno recuperabile (deve essere di LIV=2 aperto).
 Grazie agli OAV troverà la quantità delle riga di recupero e il valore iniziale, leggerà la quantità residua e il valore residuo.
-![V5_027](http://doc.smeup.com/immagini/V5DOCU_06/V5_027.png)
+![V5_027](https://doc.smeup.com/immagini/V5DOCU_06/V5_027.png)
 La quantità residua verrà scritta dopo la decurtazione dell'anticipo dalla bolla, e sarà calcolata in % a partire dalla quantità iniziale pari a 1, quindi per esempio se preleverò il 60% rimarrà un quantità pari a 0,40.
-![V5_018](http://doc.smeup.com/immagini/V5DOCU_06/V5_018.png)
+![V5_018](https://doc.smeup.com/immagini/V5DOCU_06/V5_018.png)
 Dopo le varie considerazione viene creata la riga di recupero acconto sulla bolla. Questo grazie alla lettura della V5H nella quale è stato indicato il tipo riga e il sottosettore della V5B.
 Nella tabella V5H come già anticipato deve essere compilata la spesa (tabella V5S) che voglio utilizzare per il recupero dell'anticipo.
 Quando viene scritta la riga di recupero dell'anticipo sulla bolla, questa riga tramite i campi R§TDOR, R§NDOR, R§NRIR viene collegata alla riga di recupero sull'ordine di vendita.
@@ -133,7 +133,7 @@ Il secondo caso riguarda tutti quegli anticipi che non sono legati a nessun ordi
 A tal proposito infatti, abbiamo la tabella V59, creata appositamente per permettere al programma di reperire i dati necessari per individuare questi anticipi generici sul cliente.
 Nella tabella V59 abbiamo i seguenti campi : 
 
-![V5_019](http://doc.smeup.com/immagini/V5DOCU_06/V5_019.png)Tipo doc. Solo Ant. - Contiene il tipo documento da utilizzare per gli acconti non legati ad un ordine che verranno recuperati alla prima spedizione.
+![V5_019](https://doc.smeup.com/immagini/V5DOCU_06/V5_019.png)Tipo doc. Solo Ant. - Contiene il tipo documento da utilizzare per gli acconti non legati ad un ordine che verranno recuperati alla prima spedizione.
 SS Modello Solo Ant.  - Contiene il sottosettore del modello per gli acconti non legati ad un ordine che verranno recuperati alla prima spedizione.
 Modello solo Ant. - Contiene il modello per gli acconti non legati ad un ordine che verranno recuperati alla prima spedizione a cliente.
 
@@ -147,11 +147,11 @@ Azioni eseguite in fase di creazione bolla :
 - successivamente controllerà se per quel cliente esiste un documento (ordine acconto del 2° tipo) aperto intestato a quel soggetto, come da indicazione della V59.
 In sequenza sulla bolla appena generata stornerà prima uno e poi l'altro, se esiste ancora un residuo.
 
-![V5_020](http://doc.smeup.com/immagini/V5DOCU_06/V5_020.png)
+![V5_020](https://doc.smeup.com/immagini/V5DOCU_06/V5_020.png)
 
 ### Anticipi creati tramite codici pagamento - IN SVILUPPO
 Sarà predisposto un automatismo che permetterà la creazione delle riga di anticipo completamente in modo automatico tramite la tabella PAG.
-![V5_021](http://doc.smeup.com/immagini/V5DOCU_06/V5_021.png)A differenza del primo metodo che prevedeva un inserimento manuale della riga d'anticipo sull'ordine, per questa tipologia di acconto il tutto viene pilotato dalla tabella PAG nella quale vado a definire la % di anticipo per quel pagamento. Quindi la riga verrà riempita in base al valore del documento calcolando la %.
+![V5_021](https://doc.smeup.com/immagini/V5DOCU_06/V5_021.png)A differenza del primo metodo che prevedeva un inserimento manuale della riga d'anticipo sull'ordine, per questa tipologia di acconto il tutto viene pilotato dalla tabella PAG nella quale vado a definire la % di anticipo per quel pagamento. Quindi la riga verrà riempita in base al valore del documento calcolando la %.
 
 Sono stati aggiunti 3 campi sulla tabella : 
 -  % anticipo :  ovviamente in questo caso posso gestire un unico anticipo precedente alla consegna.
@@ -168,11 +168,11 @@ E' stata aggiunto nella tabella V59 un campo che permette la gestione degli scen
 Se attivo questo flag la spedizione recupererà solo gli acconti a parità di scenario altrimenti se non valorizzato verrano recuperati tutti gli acconti inseriti indipendentemente dallo scenario.
 Il programma recupera gli anticipi legati allo scenario da cui sto partendo.
 
-![V5_022](http://doc.smeup.com/immagini/V5DOCU_06/V5_022.png)
+![V5_022](https://doc.smeup.com/immagini/V5DOCU_06/V5_022.png)
 
 ### Exit
 **ATTENZIONE : ** l'unico accorgimento che segnaliamo è quello di predisporre una semplicissima EXIT da agganciare al flusso standard di bolla, per evitare che in fase di estrazione bolla si vedano anche le righe di recupero dell'acconto.
-![V5_023](http://doc.smeup.com/immagini/V5DOCU_06/V5_023.png)
+![V5_023](https://doc.smeup.com/immagini/V5DOCU_06/V5_023.png)
 ### Prototipo
 Sulla tabella V5H ho un pgm di controllo di cui è stato fatto il prototipo V5FUANT_X.
 V5FUANT_X   Esempio Pgm aggiustamento funzioni Anticipi   [SMESRC/V5SRC].

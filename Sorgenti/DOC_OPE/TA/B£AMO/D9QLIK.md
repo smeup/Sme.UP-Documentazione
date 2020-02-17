@@ -9,7 +9,7 @@ In particolare, per meglio esprimere le selezioni e i dati, ogni foglio è suddi
 
 Tutte le selezioni fatte su un foglio rimangono attive durante la navigazione, per questo motivo tutti i fogli del modello di QlikView mantengono la stessa formattazione.
 
-![D9QLIK_06](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_06.png)# Selezioni
+![D9QLIK_06](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_06.png)# Selezioni
 Le selezioni ci consentono di interpretare i dati :  selezionando un qualsiasi valore di una list box, di una tabella o di un grafico, si attiva il filtro dati e tutti i grafici e le tabelle esistenti nel documento vengono di conseguenza valorizzate.
 
 Supponendo di volere analizzare le vendite Italia - 2012 - da gennaio a marzo : 
@@ -24,8 +24,8 @@ Per cancellare le selezioni è possibile agire in due modi :  attraverso il bott
 
 ## Casella Selezioni Correnti
 Sul lato sinistro del foglio è presente una finestra all'interno della quale è possibile visualizzare tutte le selezioni attive.
-![D9QLIK_07](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_07.png)## Operazioni da effettuare col tasto destro e sinistro del mouse
-![D9QLIK_08](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_08.png)
+![D9QLIK_07](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_07.png)## Operazioni da effettuare col tasto destro e sinistro del mouse
+![D9QLIK_08](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_08.png)
 - Select Possible/Seleziona Possibili - Prende in considerazione solo il valore selezionato.
 -Select Excluded/Seleziona Esclusi - Seleziona tutti i valori evidenziati in verde escludendo quello dove si è cliccato che viene evidenziato in grigio.
 - Select All/Seleziona Tutto - Evidenzia tutti i valori contenuti nella list box.
@@ -41,7 +41,7 @@ Sul lato sinistro del foglio è presente una finestra all'interno della quale è
 - Export - Permette di esportare la tabella in vari formati.
 
 
-![D9QLIK_10](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_10.png)## Cercare testi o numeri
+![D9QLIK_10](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_10.png)## Cercare testi o numeri
 Un'altra via per trovare i dati che ci interessano è la ricerca : 
 1) scegliere la selezione cliccando sul pallino;
 2) digitare la prima lettera della parola, immediatamente la list box del valore cercato si riempirà di dati inizianti con la lettera digitata. Si può anche scrivere direttamente tutta la parola, purché digitata in modo preciso.
@@ -73,19 +73,19 @@ In alternativa nelle list box si può anche schiacciare il bottone trova, indica
 
 
 ## Torna indietro e vai avanti
-![D9QLIK_11](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_11.png)I bottoni per andare avanti o per tornare indietro si trovano sempre nella barra degli strumenti e sono indicati rispettivamente con due frecce, quella per tornare indietro rivolta verso sinistra, e quella per andare avanti rivolta verso destra. Ogni volta che questo bottone viene premuto ci consente di andare avanti o di tornare indietro per uno o più selezioni precedentemente effettuate.
+![D9QLIK_11](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_11.png)I bottoni per andare avanti o per tornare indietro si trovano sempre nella barra degli strumenti e sono indicati rispettivamente con due frecce, quella per tornare indietro rivolta verso sinistra, e quella per andare avanti rivolta verso destra. Ogni volta che questo bottone viene premuto ci consente di andare avanti o di tornare indietro per uno o più selezioni precedentemente effettuate.
 
 
 ## Bloccare e sbloccare selezioni
-![D9QLIK_12](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_12.png)Per bloccare le selezioni al fine di evitare cancellature involontarie si può usare il bottone rappresentato da un lucchetto chiuso ("blocca selezione"). Una volta attivato questo comando, la selezione è bloccata e non si può più cancellare.
+![D9QLIK_12](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_12.png)Per bloccare le selezioni al fine di evitare cancellature involontarie si può usare il bottone rappresentato da un lucchetto chiuso ("blocca selezione"). Una volta attivato questo comando, la selezione è bloccata e non si può più cancellare.
 Quando si sbloccare delle selezioni basta pigiare il bottone raffigurato da un lucchetto aperto ("sblocca selezione") e subito tutti i dati torneranno a disposizione.
 
 
 # Creare un bookmark
-![D9QLIK_13](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_13.png)Creare dei bookmark (preferiti/segnalibri) significa salvare le selezioni effettuate all'interno del documento per un utilizzo successivo. I bookmark possono essere anche condivisi fra i diversi utenti.
+![D9QLIK_13](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_13.png)Creare dei bookmark (preferiti/segnalibri) significa salvare le selezioni effettuate all'interno del documento per un utilizzo successivo. I bookmark possono essere anche condivisi fra i diversi utenti.
 Per creare un bookmark serve : 
 - selezionare uno o più valori;
-![D9QLIK_14](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_14.png)- cliccare sull'icona, sopra la barra dei tab, raffigurante una stella ("crea bookmark");
+![D9QLIK_14](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_14.png)- cliccare sull'icona, sopra la barra dei tab, raffigurante una stella ("crea bookmark");
 - inserire il nome che si vuole dare al bookmark e premere Invio.
 
 Le nostre selezioni verranno così salvate e potremmo farne uso successivamente.
@@ -94,5 +94,5 @@ Per cancellare invece un bookmark è necessario premere il bottone a forma di st
 
 # Grafici e Tabelle
 Sui grafici si possono effettuare selezioni in modo da visualizzare in dettaglio solo alcuni dati; per fare ciò basta tenere premuto il tasto sinistro del mouse e scorrere finché tutti i dati che ci interessano saranno evidenziati in verde.
-![D9QLIK_16](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_16.png)I grafici e le tabelle possono anche esportati anche in Excel o direttamente stampati attraverso i bottoni presenti sull'intestazione della finestra.
-![D9QLIK_15](http://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_15.png)
+![D9QLIK_16](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_16.png)I grafici e le tabelle possono anche esportati anche in Excel o direttamente stampati attraverso i bottoni presenti sull'intestazione della finestra.
+![D9QLIK_15](https://doc.smeup.com/immagini/MBDOC_OPE-D9QLIK/D9QLIK_15.png)

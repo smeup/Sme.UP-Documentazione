@@ -2,7 +2,7 @@
 L'obiettivo che si pone la spunta manuale è quello di conciliare i movimenti contabili con i movimenti bancari ricevuti tramite l'importazione del flusso inviato dalla Banca stessa.
 Tramite l'utilizzo di questa sezione l'utente potrà manualmente associare i movimenti banca con quelli contabili con gli stessi effetti della spunta automatica.
 
-![C5D030_057](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_RIM/C5D030_057.png)
+![C5D030_057](https://doc.smeup.com/immagini/MBDOC_SCH-C5D030_RIM/C5D030_057.png)
 ## Parametri di lancio
  \* Rapporto Bancario :  specificare quale il rapporto bancario da analizzare.
  \* Movimenti :  permette di filtrare : 
@@ -46,7 +46,7 @@ Annulla movimento Banca :  Consente di annullare il movimento dal flusso banca;
 
 Al fine di ottenere la conciliazione tra i movimenti contabili ed i movimenti bancari è necessario spuntare i movimenti interessati. Per farlo flaggare il quadratino posto a sinistra del movimento contabile e quello posto a sinistra del movimento bancario : 
 
-![C5D030_058](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_RIM/C5D030_058.png)
+![C5D030_058](https://doc.smeup.com/immagini/MBDOC_SCH-C5D030_RIM/C5D030_058.png)
 Confermando con F6 verrà confermata la spunta. La riga del movimento contabile non sarà, quindi, più modificabile e il movimento non comparirà più tra i movimenti da spuntare.
 
 ## Come inserire movimenti contabili a partire dal record di remote banking

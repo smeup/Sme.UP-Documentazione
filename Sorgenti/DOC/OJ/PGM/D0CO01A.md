@@ -2,7 +2,7 @@
 Dato un oggetto il programma ne calcola il costo, presenta in una lista il risultato e, se opportunamente impostato, può memorizzare il costo calcolato.
 
 ## Formato di input
-![D0BASE_51](http://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01A/D0BASE_51.png)Sono possibili le seguenti impostazioni : 
+![D0BASE_51](https://doc.smeup.com/immagini/MBDOC_OGG-P_D0CO01A/D0BASE_51.png)Sono possibili le seguenti impostazioni : 
  \* **Contesto**; è il tipo di oggetto di cui si vuole calcolare il costo, al momento sono previsti AR, DR, OP, CM
  \* **Tipo costo**; è il tipo costo che sarà memorizzato
  \* **Data**; è la data a fronte della quale sarà eseguita la memorizzazione, la stessa data viene utilizzata nelle eventuali scansioni distinta e ciclo

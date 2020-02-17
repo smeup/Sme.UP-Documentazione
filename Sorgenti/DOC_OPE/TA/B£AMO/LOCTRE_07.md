@@ -1,5 +1,5 @@
 
-![LOCTRE_036](http://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_07/LOCTRE_036.png)
+![LOCTRE_036](https://doc.smeup.com/immagini/MBDOC_OPE-LOCTRE_07/LOCTRE_036.png)
 Vediamo le principali impostazioni per la creazione del setup limitandoci a considerare le caratteristiche relative all'interfaccia grafica ed escludendo le personalizzazioni tecniche.
  \* Refresh ogni nnn secondi :  è possibile forzare l'aggiornamento dell'albero ogni nnn secondi indicando il numero di secondi nel campo. I valori possibili sono numerici, il valore di default è non definito.
  \* Mostra Icone :  questo attributo abilita /disabilita o consente una visualizzazione parziale delle icone nell'albero. I valori possibili sono Yes/No/Partial. Il valore di default è Yes.

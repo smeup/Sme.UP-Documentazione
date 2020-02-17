@@ -9,18 +9,18 @@ Le note sono organizzate in contenitori e capitoli :
 - >Capitoli  --> le note associate a un oggetto possono essere di varia natura e ciascuna di esse può avere caratteristiche diverse, definite nello specifico elemento presente nel sottosettore della tabella NSI, richiamato dal contenitore (tab. NSC).
 
 
-![B£_07_01](http://doc.smeup.com/immagini/B£NOTE/BX_07_01.png)
+![B£_07_01](https://doc.smeup.com/immagini/B£NOTE/BX_07_01.png)
 # Gestione
 Se, in fase di customizzazione, ad un oggetto è stata associata la gestione delle note, questa può essere attivata direttamente dai formati di gestione dei vari oggetti.
 
 Se ad un oggetto sono collegati più capitoli, verrà richiesta selezione del capitolo su cui agire : 
 
 
-![B£_07_02](http://doc.smeup.com/immagini/B£NOTE/BX_07_02.png)
+![B£_07_02](https://doc.smeup.com/immagini/B£NOTE/BX_07_02.png)
 Se non sono state previste impostazioni particolari, come programmi specifici di gestione o di controllo, tutte le note hanno il medesimo formato : 
 
 
-![B£_07_03](http://doc.smeup.com/immagini/B£NOTE/BX_07_03.png)
+![B£_07_03](https://doc.smeup.com/immagini/B£NOTE/BX_07_03.png)
 ## Funzioni Disponibili
 Il formato di input è diviso in 3 parti : 
 
@@ -54,7 +54,7 @@ _1_Condizionamenti riga
 Nella colonna di destra, impostando opportunamente il flag di condizionamento, si può decidere su quale documento cartaceo far stampare la riga.
 
 
-![B£_07_04](http://doc.smeup.com/immagini/B£NOTE/BX_07_04.png)
+![B£_07_04](https://doc.smeup.com/immagini/B£NOTE/BX_07_04.png)
 Questa funzionalità può essere anche usata in alternativa alla suddivisione delle note in capitoli (in questo caso le varie note saranno fisicamente scritte in un unico capitolo generico, in cui il flag di destra deciderà se e dove stampare la riga).
 
 # Autorizzazioni delle note

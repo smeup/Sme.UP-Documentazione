@@ -2,9 +2,9 @@
 Assegnare ad un lotto controllato la relativa dichiarazione di esito del controllo.
 
 ## Formato guida
-![QA_ENLO010](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQBC10/QA_ENLO010.png)
+![QA_ENLO010](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQBC10/QA_ENLO010.png)
 ## Lista lotti da dichiarare
-![QA_ENLO011](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQBC10/QA_ENLO011.png)
+![QA_ENLO011](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQBC10/QA_ENLO011.png)
 ad ogni lotto è associato : 
  \* il livello ed il  piano di campionamento (riferimento FU/PADC)
  \* la fase di lavorazione
@@ -36,4 +36,4 @@ All'utente viene data la possibilità di :
  \* gestire la priorità del lotto (opzione T). Questa opzione consente una gestione manuale della priorità del lotto che normalmente se viene gestita dal gestionale è recuperata in automatico dal QA Sme.UP.
 
 ## Formato di dettaglio dichiarazione
-![QA_ENLO012](http://doc.smeup.com/immagini/MBDOC_OGG-P_CQBC10/QA_ENLO012.png)
+![QA_ENLO012](https://doc.smeup.com/immagini/MBDOC_OGG-P_CQBC10/QA_ENLO012.png)

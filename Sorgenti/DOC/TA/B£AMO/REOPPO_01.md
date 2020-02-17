@@ -3,7 +3,7 @@
  :  : I.INC.MBR Fil(DOC_VOC) Mem(REBASE_GLO) Sec( :  : VOC) SAt(008)
 
 ## Schema relazioni
-![X1MARK06A](http://doc.smeup.com/immagini/REOPPO_01/X1MARK06A.png)## Dati
+![X1MARK06A](https://doc.smeup.com/immagini/REOPPO_01/X1MARK06A.png)## Dati
 -  Codice identificativo
 -  Date apertura / chiusura attesa / scadenza
 -  Responsabile
@@ -15,7 +15,7 @@
 -  Probabilità di chiusura
 -  Lead origine
 
-![X1MARK0602](http://doc.smeup.com/immagini/REOPPO_01/X1MARK0602.png)
+![X1MARK0602](https://doc.smeup.com/immagini/REOPPO_01/X1MARK0602.png)
 ## Dati New
 
 I dati relativi alle opportunità riesiedono su tre file : 
@@ -97,7 +97,7 @@ R§NR06
 -----------------------------------------------------------------
 ## Funzioni
 ### Creazione nuova opportunità ed assegnazione di un responsabile
-![X1MARK0601](http://doc.smeup.com/immagini/REOPPO_01/X1MARK0601.png)
+![X1MARK0601](https://doc.smeup.com/immagini/REOPPO_01/X1MARK0601.png)
 ### Scadenzario / promemoria
 
 ### Formalizzazione offerta

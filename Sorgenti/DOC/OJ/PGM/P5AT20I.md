@@ -7,7 +7,7 @@ Esistono delle funzioni di creazione e ricalcolo degli impegni risorse che posso
 ## Formato di lancio
 L'interrogazione viene lanciata dal seguente formato : 
 
-![P5_16_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_P5AT20I/P5_16_01.png)
+![P5_16_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_P5AT20I/P5_16_01.png)
 Si possono interrogare gli impegni per : 
 
 - _2_Risorsa, inserire anche il tipo risorsa
@@ -20,11 +20,11 @@ Si possono interrogare gli impegni per :
 ## Formato di lista
 Fatte le opportune selezioni si ottiene una lista tipo la seguente : 
 
-![P5_16_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_P5AT20I/P5_16_02.png)
+![P5_16_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_P5AT20I/P5_16_02.png)
 ## Opzioni di riga
 Sulla riga sono possibili diverse opzioni : 
 
-![P5_16_03](http://doc.smeup.com/immagini/MBDOC_OGG-P_P5AT20I/P5_16_03.png)
+![P5_16_03](https://doc.smeup.com/immagini/MBDOC_OGG-P_P5AT20I/P5_16_03.png)
 Interrogazione del dettaglio dell'impegno.
 
 Verificare se l'operazione è di tipo milestone

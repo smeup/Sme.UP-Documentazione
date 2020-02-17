@@ -9,7 +9,7 @@ In un'azienda le Vendite sono al centro di un gruppo di processi che vede :
  \* le richieste soddisfatte all'interno delle condizioni commerciali definite, che possono essere quelle generali di fornitura oppure specificatamente concordate con il cliente
  \* la determinazione e il rispetto della data di fornitura concordata sono un elemento fondamentale per la soddisfazione del cliente; la data di consegna pertanto deve considerare la figura della disponibilità datata di quanto viene richiesto/offerto. Il risultato è l'esecuzione della vendita stessa. Nella esecuzione della fornitura sono interessati i processi di evasione degli ordini, di logistica interna ed esterna, di fatturazione dopo la consegna al cliente dei beni o servizi richiesti si possono innescare dei processi di post-vendita che possono riguardare gli interventi o le riparazioni in garanzia, la gestione dei resi cliente la gestione degli upgrade/retrofit, nel caso la vendita abbia come oggetto macchinari o servizi.I processi vengono monitorati attraverso statistiche ed analisi che comprendono tutta la reportistica e gli strumenti associati all'evasione degli ordini, alla misurazione della performance della funzione, alla pianificazione delle attività (portafoglio ordini, fatturato, customer rating, analisi margine di contribuzione, budget di vendita, ecc..).
 
-![AAP_VEN_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_01.png)
+![AAP_VEN_01](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_01.png)
 ## Copertura funzionale
 Sme.UP ha applicazioni in grado di supportare tutte le necessità di gestione relative alla funzione delle Vendite : 
  \* Gestione anagrafico clienti
@@ -48,7 +48,7 @@ Nell'anagrafico Clienti vengono gestite le informazioni seguenti :
  \* classificazioni :  categoria contabile, settore merceologico, ecc.
  \* dati movimentazione merce :  consegna, spedizione, giorni chiusura, ecc.
 
-![AAP_VEN_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_01.png)
+![AAP_VEN_01](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_01.png)
 Nelle estensioni dei clienti possiamo gestire altre categorie di informazioni quali :  calendario alternativo, documenti / allegati specifici, indirizzo internet; ecc.; questi dati possono essere presenti o meno per ogni cliente, inoltre possono essere un numero anche elevato a piacere per tipo, superando la classica limitazione del numero di campi disponibile in un normale archivio anagrafico. Attraverso la gestione dei dati cliente/articolo è possibile mantenere informazioni specifiche per gli articoli offerti ad un cliente (il codice e la descrizione propria che il cliente assegna all'articolo, l'unità di misura di vendita che potrebbe differire rispetto a quella utilizzata internamente, ecc.. ).
 In Sme.UP è anche prevista le gestione delle dichiarazioni d'intento ricevute dai clienti che possono essere di tipo : 
  \* singolo
@@ -84,14 +84,14 @@ La gestione di tutte le tipologie di documenti è concentrata in una struttura u
  \* la testata, dedicata alla gestione dei dati relativi alla totalità del documento (numero documento, cliente intestatario, riferimento esterno, responsabile commerciale, destinazione, data di emissione, modalità di spedizione, modalità di pagamento, ecc..)
  \* le righe che rappresentano l'oggetto dello scambio (articoli, servizi, oggetti non codificati, ecc...) e indicano le quantità, le date ed i prezzi convenuti.
 
-![AAP_VEN_02](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_02.png)
+![AAP_VEN_02](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_02.png)
 Il raggruppamento in un'unica struttura permette il grande vantaggio di normalizzare e standardizzare tutte le funzioni di manutenzione di tutti i possibili documenti del ciclo esterno. L'unificazione inoltre fornisce la possibilità di estendere automaticamente alle gestioni di tutti gli altri tipi documento, migliorie ed implementazioni apportate ad un tipo di documento.
 
-![AAP_VEN_01](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_01.png)
+![AAP_VEN_01](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_01.png)
 ## Tipizzazione del documento
 I documenti sono classificati secondo il "Tipo documento" che ne definisce la natura (un ordine, un contratto, una bolla, ecc.) e le caratteristiche di comportamento (controlli, sviluppi, influenza sui vari portafogli o registri, ..).
 
-![AAP_VEN_03](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_03.png)
+![AAP_VEN_03](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_03.png)
 Per ogni tipo documento diverso è possibile ottenere opportune statistiche e interrogazioni, produrre stampe, gestire manutenzioni. All'interno di un tipo documento le testate possono essere differenziate attraverso il "Modello documento"  che rappresenta delle sotto-classificazioni necessarie per ragioni interne all'azienda (es. vendite nazionali piuttosto che CEE o ExtraCEE, oppure vendite di prodotti o di servizi); il modello determina inoltre il tipo ed il layout di stampa del modulo di output. Nel documento (e di conseguenza all'interno di uno specifico tipo documento) anche le righe sono ulteriormente caratterizzate da un "Tipo riga", che definisce :  l'oggetto della vendita, se quantità e/o prezzi sono obbligatori, quali sono le informazioni aggiuntive contenute ed i controlli da eseguire. Potremo quindi avere righe riferite ad articoli codificati, righe di oggetti non codificati, righe di conto lavoro, righe fatturabili e non, ecc.
 In Sme.UP il tipo documento è riferito ad una tabella, dove sono descritte le principali caratteristiche del documento stesso, tra cui : 
  \* gruppi di modelli ammessi
@@ -158,7 +158,7 @@ A seconda che si sia in presenza di magazzini complessi o semplici la customizza
 ### Gestione documenti di spedizione
 In Sme.UP il documento di spedizione viene processato attraverso un flusso di estrazione che deriva la bolla di vendita dagli ordini di riferimento. Il flusso permette di lanciare in sequenza una serie di elaborazioni elementari ciascuna specializzata a compiere una parte dell'intero processo. Ad esempio, in presenza di magazzini complessi in cui il processo di prelievo è gestito con liste, le righe  della bolla possono essere create con riferimento all'ordine di vendita, ma solo relativamente agli articoli / quantità effettivamente consuntivati nelle liste di prelievo. Alle funzioni elementari standard si possono aggiungere anche funzioni specifiche utente sviluppate ad hoc. La combinazione delle funzioni elementari standard, con l'aggiunta di eventuali funzioni utente, permette di realizzare elaborazioni complesse che rispondono a qualsiasi esigenza possa nascere.
 
-![AAP_VEN_04](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_04.png)
+![AAP_VEN_04](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_04.png)
 ### Gestione logistica esterna
 Nell'applicazione si può attivare anche il modulo di gestione viaggi che permette di raggruppare sotto un singolo oggetto l'insieme delle bolle che devono fare lo stesso itinerario e che saranno affidate allo stesso vettore. Nella gestione dei viaggi è anche possibile gestire in modo cumulativo la data/ora di effettiva spedizione e le informazioni consuntive del trasporto (tipo di automezzo, targa, volumi, pesi, ecc...), utilizzabili nel controllo delle fatture di trasporto.
 
@@ -193,9 +193,9 @@ Si tratta di documenti concepiti come gli interventi di assistenza, con la diffe
 Sono disponibili "servizi" per la visualizzazione dei portafogli ordini e del fatturato, mentre sul cliente è possibile avere la sintesi degli articoli venduti e del prezzo relativo, nel periodo e negli anni precedenti.
 I report possono essere visualizzati in Looc.UP oppure esportati per elaborazioni di strumenti di Business Intelligence.
 
-![V5STAT_021](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/V5STAT_021.png)
-![V5STAT_039](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/V5STAT_039.png)
-![V5STAT_080](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/V5STAT_080.png)
+![V5STAT_021](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/V5STAT_021.png)
+![V5STAT_039](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/V5STAT_039.png)
+![V5STAT_080](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/V5STAT_080.png)
 ## Customer rating
 È un modulo dell'applicazione Q9000 normalmente usato nella valutazione dei fornitori, ma le cui funzioni possono essere utilizzate anche come autovalutazione nei confronti delle forniture ai clienti.
 Si possono avere autovalutazioni in termini di : 
@@ -234,7 +234,7 @@ Nel CRM possiamo distinguere :
 ## Provvigioni
 Le provvigioni possono essere estratte automaticamente dai documenti di vendita. La liquidazione può essere gestita con differenti periodicità (annuale, mensile, trimestrale) ed effettuata sull'importo fatturato, sull'importo incassato o sull'importo saldato. È previsto il calcolo del piano dei contributi dell'agente (ritenute d'acconto, Enasarco, ISC, e FIRR), con la stampa della fattura proforma e la creazione opzionale di un documento di ciclo esterno sul quale verrà eseguito il controllo all'arrivo della fattura dell'agente. Le funzioni di contabilizzazione provvigioni permettono di attribuire i costi, nonché i contributi in funzione del loro periodo di competenza (e non in funzione della registrazione della fattura agente) : 
 
-![V5PROV_002](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/V5PROV_002.png)
+![V5PROV_002](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/V5PROV_002.png)
 # Conclusioni - Impostazione concettuale
 La struttura delle informazioni e le funzioni a supporto della gestione vendite sono state concepite con un elevato grado di astrazione in modo da avere una impostazione non direttamente collegata alle sole problematiche correnti ma da poter garantire un supporto anche a processi che nel tempo subiscono evoluzioni.
 Così abbiamo ad esempio : 
@@ -242,7 +242,7 @@ Così abbiamo ad esempio :
  \* il documento, grazie alla tipizzazione della testata (caratterizzata dal tipo documento e modello) e delle righe (caratterizzate dal tipo riga), permette di rappresentare una grande varietà di condizioni. Ad esempio il documento può essere un ordine di vendita o una bolla di spedizione, come pure una previsione di vendita, un'offerta, ecc...  Nelle righe possiamo avere sia articoli che oggetti non codificati (es. servizi, interventi, immobili, ...).
  \* i flussi di estrazione, che permettono di creare un documento per derivazione, parziale o totale, da un altro documento origine. Possiamo avere flussi per estrarre delle bolle di vendita da un ordine, come estrazioni di richieste di consegna da contratti, oppure ordini da previsioni, e così via ...
 
-![AAP_VEN_05](http://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_05.png)
+![AAP_VEN_05](https://doc.smeup.com/immagini/MBDOC_VIS-AAVEN/AAP_VEN_05.png)
  \* i listini :  che permettono di associare prezzi e sconti a tre oggetti variabili definiti nelle tabelle di impostazioni (fornitori, clienti, articoli, classi materiale, fasi di lavorazione ecc...)
  \* il budget di vendita, basato su un'applicazione che a fronte di una coppia di oggetti (es. articolo, cliente, classe merceologica, zona, ecc...) può gestire piani di 120 periodi con ampiezza variabile di giorni, settimane, mesi, anche mista nello stesso piano in cui si possono esprimere le quantità oppure i valori ed i valori possono essere calcolati a prezzi budget o a prezzi di listino, usando listini effettivi o eventuali listini di simulazione ...
 

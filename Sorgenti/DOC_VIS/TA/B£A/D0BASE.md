@@ -17,7 +17,7 @@ La composizione di questi elementi viene guidata dalla customizzazione, possiamo
 
 ## Calcolo costo standard
 Essenziamente è un calcolo che valorizza un articolo attraverso la valorizzazione del suo ciclo e della sua distinta. Fatto salvo che in customizzazione possiamo definire a piacere la struttura del costo di un articolo in funzione delle esigenze di controllo aziendali, con Sme.UP forniamo la seguente struttura di esempio : 
-![D0BASE_00](http://doc.smeup.com/immagini/MBDOC_VIS-D0BASE/D0BASE_00.png)
+![D0BASE_00](https://doc.smeup.com/immagini/MBDOC_VIS-D0BASE/D0BASE_00.png)
 ### Impostazioni del calcolo
 -  tipo costo / tema dove memorizzare il costo articolo
 -  tipo costo / tema dove memorizzare il costo alla fase

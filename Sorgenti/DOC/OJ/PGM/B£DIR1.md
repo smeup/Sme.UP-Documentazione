@@ -3,7 +3,7 @@ Permettere la manutenzione dell'archivio che definisce quali sono i giorni 'spec
 # DETTAGLIO FORMATI
 # Formato guida
 
-![B£DIR1_01](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR1/BXDIR1_01.png)
+![B£DIR1_01](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR1/BXDIR1_01.png)
 ## Tipo risorsa gestita
 Codice controllato sulla tabella TRG. Si veda la documentazione relativa per comprenderne il significato.
 
@@ -14,7 +14,7 @@ Inserire l'anno da manutenere, se il campo è blank si passa alla lista degli an
 
 # Formato immissione/variazione/annullamento
 
-![B£DIR1_02](http://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR1/BXDIR1_02.png)
+![B£DIR1_02](https://doc.smeup.com/immagini/MBDOC_OGG-P_B£DIR1/BXDIR1_02.png)
 ## Tabella mesi
 Ogni riga rappresenta un mese ed ogni colonna un giorno.
 Si devono indicare solo i giorni speciali, ossia che hanno un orario di lavoro diverso da quello solito settimanale, e lasciare in bianco tutti gli altri. Pertanto non occorre specificare nè sabati, nè domeniche.

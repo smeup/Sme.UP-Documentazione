@@ -1,7 +1,7 @@
 ## Obiettivo
 Obiettivo di questa scheda è analizzare e gestire le condizioni bancarie per rapporto/operazione.
 
-![C5D030_052](http://doc.smeup.com/immagini/MBDOC_SCH-C5D030_COP/C5D030_052.png)
+![C5D030_052](https://doc.smeup.com/immagini/MBDOC_SCH-C5D030_COP/C5D030_052.png)
 ## Parametri di lancio
 
  \* Tipo Operazioni :  permette di visualizzare le condizioni impostate per i rapporti SBF piuttosto che le condizioni impostate sugli altri rapporti bancari
