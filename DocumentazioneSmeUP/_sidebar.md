@@ -260,5 +260,6 @@
         - [Gestione Dati di Campo](DocumentazioneSmeUP/NWS/News/000100/PH/_sidebar.md)
       - [WebApplication](DocumentazioneSmeUP/NWS/News/000110/_sidebar.md)
         - [Componenti Web](DocumentazioneSmeUP/NWS/News/000110/WE/_sidebar.md)
+        - [Componenti Web](DocumentazioneSmeUP/NWS/News/000110/WE/_sidebar.md)
     
     
