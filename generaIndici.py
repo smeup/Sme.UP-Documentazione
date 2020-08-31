@@ -22,7 +22,7 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
         file_or_path = os.path.join(dire, filename)
         if os.path.isdir(file_or_path): #is dir
             
-            if mdfile_in_dir(file_or_path) and os.path.relpath(file_or_path) != 'DocumentazioneSmeUP\DOC': # if there is .md files in the folder
+            if mdfile_in_dir(file_or_path) and os.path.relpath(file_or_path) != 'documentazione\DOC': # if there is .md files in the folder
                 #print(os.path.relpath(file_or_path))
                               
                 if filename in areeApp: # Se è un'area applicativa
@@ -33,32 +33,32 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
 
                 elif filename in applicazioni: # Se è un'applicazione
                     if 'DOC_VIS' in os.path.relpath(file_or_path):
-                        if os.path.exists('Sorgenti/DOC_VIS/TA/B£A/' + filename +'.md'):
-                            output_file.write('  ' * iter_depth + '- [' + applicazioni[filename] + '](' + 'Sorgenti/DOC_VIS/TA/B£A/' + filename +'.md)\n')
+                        if os.path.exists('md-convertito-da-AS400/DOC_VIS/TA/B£A/' + filename +'.md'):
+                            output_file.write('  ' * iter_depth + '- [' + applicazioni[filename] + '](' + 'md-convertito-da-AS400/DOC_VIS/TA/B£A/' + filename +'.md)\n')
                     elif 'DOC_SER' in os.path.relpath(file_or_path):
                         applicazioneEsistente = False
-                        for singleFile in os.listdir('Sorgenti/DOC/V3/ASE'):
+                        for singleFile in os.listdir('md-convertito-da-AS400/DOC/V3/ASE'):
                             nomeFile = singleFile.replace('.md','')
                             if filename == singleFile[:2] and applicazioneEsistente == False:
                                 output_file.write('  ' * iter_depth + '- [' + applicazioni[filename] + '](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
                                 applicazioneEsistente = True
                     elif 'News' in os.path.relpath(file_or_path):
                         applicazioneEsistente = False
-                        for singleFile in os.listdir('Sorgenti/DOC/H6/NWS'):
+                        for singleFile in os.listdir('md-convertito-da-AS400/DOC/H6/NWS'):
                             nomeFile = singleFile.replace('.md','')
                             if filename == singleFile[:2] and applicazioneEsistente == False:
                                 output_file.write('  ' * iter_depth + '- [' + applicazioni[filename] + '](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
                                 applicazioneEsistente = True
                     elif 'FAQ' in os.path.relpath(file_or_path):
                         applicazioneEsistente = False
-                        for singleFile in os.listdir('Sorgenti/FAQ/TA/B£AMO'):
+                        for singleFile in os.listdir('md-convertito-da-AS400/FAQ/TA/B£AMO'):
                             nomeFile = singleFile.replace('.md','')
                             if filename == singleFile[:2] and applicazioneEsistente == False:
                                 output_file.write('  ' * iter_depth + '- [' + applicazioni[filename] + '](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
                                 applicazioneEsistente = True
                     elif 'GLO' in os.path.relpath(file_or_path):
                         applicazioneEsistente = False
-                        for singleFile in os.listdir('Sorgenti/GLO/TA/B£AMO'):
+                        for singleFile in os.listdir('md-convertito-da-AS400/GLO/TA/B£AMO'):
                             nomeFile = singleFile.replace('.md','')
                             if filename == singleFile[:2] and applicazioneEsistente == False:
                                 output_file.write('  ' * iter_depth + '- [' + applicazioni[filename] + '](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
@@ -67,11 +67,11 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                         pathApplicazione = os.path.relpath(file_or_path) + '/_sidebar.md'
                         with open(pathApplicazione, 'w', encoding='utf8') as f3:
                             f3.write('# ' + applicazioni[filename] + '\n')
-                            for singleFile in os.listdir('Sorgenti/DOC_OPE/MB/SCP_SCH'):
+                            for singleFile in os.listdir('md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH'):
                                 nomeFile = singleFile.replace('.md','')    
                                 if filename == singleFile[:2]:
                                     if nomeFile in nomiDOC_SCH and len(nomeFile) == 6 and '_' not in nomeFile:
-                                        indiceModulo = 'Sorgenti/DOC_OPE/MB/SCP_SCH/' + nomeFile + '.md'
+                                        indiceModulo = 'md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + nomeFile + '.md'
                                         f3.write('- [' + nomiDOC_SCH[nomeFile] + '](' + indiceModulo + ')\n')
                     else:
                         output_file.write('  ' * iter_depth + '- [' + applicazioni[filename] + '](' + os.path.relpath(file_or_path).replace('\\','/').replace(' ','%20') + '/_sidebar.md)\n')
@@ -103,11 +103,11 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                             if codice in os.path.relpath(file_or_path):
                                 with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f2:
                                     f2.write('# ' + nome + '\n')
-                                    for singleFile in os.listdir('Sorgenti/DOC/TA/B£AMO'):
+                                    for singleFile in os.listdir('md-convertito-da-AS400/DOC/TA/B£AMO'):
                                         nomeFile = singleFile.replace('.md','')
                                         if codice == singleFile[:2]:
                                             if nomeFile in moduli and '_' not in nomeFile:
-                                                indiceModulo = 'Sorgenti/DOC/TA/B£AMO/' + nomeFile + '.md'
+                                                indiceModulo = 'md-convertito-da-AS400/DOC/TA/B£AMO/' + nomeFile + '.md'
                                                 if os.path.exists(indiceModulo): # Se il modulo non ha il file di indice non viene inserito nell'elenco dei moduli
                                                     f2.write('- [' + moduli[nomeFile] + '](' + indiceModulo + ')\n')
                     elif 'DOC_OPE' in os.path.relpath(file_or_path):
@@ -115,11 +115,11 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                             if codice in os.path.relpath(file_or_path):
                                 with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f2:
                                     f2.write('# ' + nome + '\n')
-                                    for singleFile in os.listdir('Sorgenti/DOC_OPE/TA/B£AMO'):
+                                    for singleFile in os.listdir('md-convertito-da-AS400/DOC_OPE/TA/B£AMO'):
                                         nomeFile = singleFile.replace('.md','')
                                         if codice == singleFile[:2]:
                                             if nomeFile in moduliDOC_OPE and '_' not in nomeFile:
-                                                indiceModulo = 'Sorgenti/DOC_OPE/TA/B£AMO/' + nomeFile + '.md'
+                                                indiceModulo = 'md-convertito-da-AS400/DOC_OPE/TA/B£AMO/' + nomeFile + '.md'
                                                 if os.path.exists(indiceModulo): # Se il modulo non ha il file di indice non viene inserito nell'elenco dei moduli
                                                     f2.write('- [' + moduliDOC_OPE[nomeFile] + '](' + indiceModulo + ')\n')
                     elif 'DOC_SER' in os.path.relpath(file_or_path):
@@ -127,14 +127,22 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                             if codice in os.path.relpath(file_or_path):
                                 with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f2:
                                     f2.write('# ' + nome + '\n')
-                                    for singleFile in os.listdir('Sorgenti/DOC/V3/ASE'):
+                                    for singleFile in os.listdir('md-convertito-da-AS400/DOC/V3/ASE'):
                                         nomeFile = singleFile.replace('.md','')
                                         if codice == singleFile[:2]:
-                                            indiceFile = 'Sorgenti/DOC/V3/ASE/' + nomeFile + '.md'
-                                            if nomiDOC_SER[nomeFile] == '':
-                                                f2.write('- [' + nomeFile + '](' + indiceFile + ')\n')
-                                            else:
-                                                f2.write('- [' + nomiDOC_SER[nomeFile] + '](' + indiceFile + ')\n')
+                                            indiceFile = 'md-convertito-da-AS400/DOC/V3/ASE/' + nomeFile + '.md'
+                                            titolo = nomeFile
+                                            with open('md-convertito-da-AS400/DOC_SER_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                                for riga in indice:
+                                                    if nomeFile in riga:
+                                                        titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                        titolo = titolo.replace('\'', '\\\'')
+                                                        break
+                                            f2.write('- [' + titolo + '](' + indiceFile + ')\n')
+                                            #if nomiDOC_SER[nomeFile] == '':
+                                                #f2.write('- [' + nomeFile + '](' + indiceFile + ')\n')
+                                            #else:
+                                                #f2.write('- [' + nomiDOC_SER[nomeFile] + '](' + indiceFile + ')\n')
                     elif 'DOC_SCH' in os.path.relpath(file_or_path):
                         if '\\Applicazioni\\_sidebar' in os.path.relpath(file_or_path): # Elenca le applicazioni che hanno almeno un documento DOC_SCH
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
@@ -144,143 +152,254 @@ def output_markdown(dire, base_dir, output_file, append, oneLevelIndex, iter_dep
                                         applicazioneEsistente = False
                                         for codice, nome in areeApp.items(): 
                                             if nome == nomiAreeApplicative[i]:
-                                                for singleFile in os.listdir('Sorgenti/DOC_OPE/MB/SCP_SCH'):
+                                                for singleFile in os.listdir('md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH'):
                                                     nomeFile = singleFile.replace('.md','')    
                                                     if areeApplicative[i][j] == singleFile[:2] and nomeFile in nomiDOC_SCH and len(nomeFile) == 6 and '_' not in nomeFile and applicazioneEsistente == False:
-                                                        pathApplicazione = 'DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/' + codice + '/' + areeApplicative[i][j] + '/_sidebar.md'
+                                                        pathApplicazione = 'documentazione/DOC/DOC_SCH/Applicazioni/' + codice + '/' + areeApplicative[i][j] + '/_sidebar.md'
                                                         f.write('- [' + applicazioni[areeApplicative[i][j]] + '](' + pathApplicazione.replace(' ', '%20') + ')\n')
                                                         applicazioneEsistente = True              
                         elif '\\Componenti\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_SCH relativi ai Componenti
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Schede di Componenti\n')
-                                for singleFile in os.listdir('Sorgenti/DOC_OPE/MB/SCP_SCH'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH'):
                                     if singleFile[:3] == 'CMP':
                                         nomeFile = singleFile.replace('.md','')
-                                        f.write('- [' + nomiDOC_SCH[nomeFile] + '](Sorgenti/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
+                                        titolo = nomeFile
+                                        with open('md-convertito-da-AS400/DOC_SCH_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                            for riga in indice:
+                                                if nomeFile in riga:
+                                                    titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                    titolo = titolo.replace('\'', '\\\'')
+                                                    break
+                                        f.write('- [' + titolo + '](md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
+                                        #f.write('- [' + nomiDOC_SCH[nomeFile] + '](md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
                         elif '\\UPP\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_SCH relativi agli UPP
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Schede di UPP\n')
-                                for singleFile in os.listdir('Sorgenti/DOC_OPE/MB/SCP_SCH'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH'):
                                     nomeFile = singleFile.replace('.md','')
                                     upp = ""
                                     if '_' in nomeFile:
                                         codice = nomeFile.rsplit('_')[0]
                                         upp = nomeFile.rsplit('_')[1]
                                         if len(upp) == 3 and len(codice) == 2 and codice in applicazioni:
-                                            f.write('- [' + nomiDOC_SCH[nomeFile] + '](Sorgenti/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
+                                            titolo = nomeFile
+                                            with open('md-convertito-da-AS400/DOC_SCH_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                                for riga in indice:
+                                                    if nomeFile in riga:
+                                                        titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                        titolo = titolo.replace('\'', '\\\'')
+                                                        break
+                                            f.write('- [' + titolo + '](md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
+                                            #f.write('- [' + nomiDOC_SCH[nomeFile] + '](md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
                         elif '\\Oggetti\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_SCH relativi agli Oggetti
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Schede di Oggetti\n')
-                                for singleFile in os.listdir('Sorgenti/DOC_OPE/MB/SCP_SCH'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH'):
                                     nomeFile = singleFile.replace('.md','')
                                     if '_' in nomeFile:
                                         codice = nomeFile.rsplit('_')[0]
                                         if len(codice) == 2 and codice not in applicazioni:
-                                            f.write('- [' + nomiDOC_SCH[nomeFile] + '](Sorgenti/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
+                                            titolo = nomeFile
+                                            with open('md-convertito-da-AS400/DOC_SCH_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                                for riga in indice:
+                                                    if nomeFile in riga:
+                                                        titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                        titolo = titolo.replace('\'', '\\\'')
+                                                        break
+                                            f.write('- [' + titolo + '](md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
+                                            #f.write('- [' + nomiDOC_SCH[nomeFile] + '](md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
                         else:
-                            with open('DocumentazioneSmeUP/DOC/DOC_SCH/Altro/_sidebar.md' , 'w', encoding='utf8') as f:
+                            with open('documentazione/DOC/DOC_SCH/Altro/_sidebar.md' , 'w', encoding='utf8') as f:
                                 f.write('# Altre Schede\n')
-                                for singleFile in os.listdir('Sorgenti/DOC_OPE/MB/SCP_SCH'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH'):
                                     codice = ""
                                     if '_' in singleFile:
                                         codice = singleFile.rsplit('_')[0]
                                     if singleFile[:3] != 'CMP' and singleFile[:2] not in applicazioni and len(codice) != 2:
                                         nomeFile = singleFile.replace('.md','')
-                                        f.write('- [' + nomiDOC_SCH[nomeFile] + '](Sorgenti/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
+                                        titolo = nomeFile
+                                        with open('md-convertito-da-AS400/DOC_SCH_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                            for riga in indice:
+                                                if nomeFile in riga:
+                                                    titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                    titolo = titolo.replace('\'', '\\\'')
+                                                    break
+                                        f.write('- [' + titolo + '](md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
+                                        #f.write('- [' + nomiDOC_SCH[nomeFile] + '](md-convertito-da-AS400/DOC_OPE/MB/SCP_SCH/' + singleFile + ')\n')
                     elif 'DOC_OGG' in os.path.relpath(file_or_path):
                         if '\\File\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_OGG relativi ai File
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# File\n')
-                                for singleFile in os.listdir('Sorgenti/DOC/OJ/FILE'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC/OJ/FILE'):
                                     nomeFile = 'F_' + singleFile.replace('.md','')
-                                    f.write('- [' + nomiDOC_OGG[nomeFile] + '](Sorgenti/DOC/OJ/FILE/' + singleFile + ')\n')
+                                    titolo = nomeFile
+                                    with open('md-convertito-da-AS400/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                        for riga in indice:
+                                            if nomeFile in riga:
+                                                titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                titolo = titolo.replace('\'', '\\\'')
+                                                break
+                                    f.write('- [' + titolo + '](md-convertito-da-AS400/DOC/OJ/FILE/' + singleFile + ')\n')
+                                    #f.write('- [' + nomiDOC_OGG[nomeFile] + '](md-convertito-da-AS400/DOC/OJ/FILE/' + singleFile + ')\n')
                         elif '\\Costruttori\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_OGG relativi ai Costruttori
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Costruttori\n')
-                                for singleFile in os.listdir('Sorgenti/DOC/V2/LOCOS'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC/V2/LOCOS'):
                                     if singleFile[:3] == 'LOA' or singleFile[:7] == 'V2LOCOS':
-                                       nomeFile = singleFile.replace('.md','')
-                                       if nomeFile not in nomiDOC_OGG:
-                                           f.write('- [' + nomeFile + '](Sorgenti/DOC/V2/LOCOS/' + singleFile + ')\n')
-                                       else:
-                                           f.write('- [' + nomiDOC_OGG[nomeFile] + '](Sorgenti/DOC/V2/LOCOS/' + singleFile + ')\n')
+                                        nomeFile = singleFile.replace('.md','')
+                                        titolo = nomeFile
+                                        with open('md-convertito-da-AS400/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                            for riga in indice:
+                                                if nomeFile in riga:
+                                                    titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                    titolo = titolo.replace('\'', '\\\'')
+                                                    break
+                                        f.write('- [' + titolo + '](md-convertito-da-AS400/DOC/V2/LOCOS/' + singleFile + ')\n')
+                                       #if nomeFile not in nomiDOC_OGG:
+                                           #f.write('- [' + nomeFile + '](md-convertito-da-AS400/DOC/V2/LOCOS/' + singleFile + ')\n')
+                                       #else:
+                                           #f.write('- [' + nomiDOC_OGG[nomeFile] + '](md-convertito-da-AS400/DOC/V2/LOCOS/' + singleFile + ')\n')
                         elif '\\Classes\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_OGG relativi alle Classi
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Classi\n')
-                                for singleFile in os.listdir('Sorgenti/DOC/OG/OG'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC/OG/OG'):
                                     nomeFile = 'OG_' + singleFile.replace('.md','')
-                                    if nomiDOC_OGG[nomeFile] == '':
-                                        f.write('- [' + nomeFile + '](Sorgenti/DOC/OG/OG/' + singleFile + ')\n')
-                                    else:
-                                        f.write('- [' + nomiDOC_OGG[nomeFile] + '](Sorgenti/DOC/OG/OG/' + singleFile + ')\n')
+                                    titolo = nomeFile
+                                    with open('md-convertito-da-AS400/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                        for riga in indice:
+                                            if nomeFile in riga:
+                                                titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                titolo = titolo.replace('\'', '\\\'')
+                                                break
+                                    f.write('- [' + titolo + '](md-convertito-da-AS400/DOC/OG/OG/' + singleFile + ')\n')
+                                    #if nomiDOC_OGG[nomeFile] == '':
+                                        #f.write('- [' + nomeFile + '](md-convertito-da-AS400/DOC/OG/OG/' + singleFile + ')\n')
+                                    #else:
+                                        #f.write('- [' + nomiDOC_OGG[nomeFile] + '](md-convertito-da-AS400/DOC/OG/OG/' + singleFile + ')\n')
                         elif '\\Programmi\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_OGG relativi ai Programmi
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Programmi\n')
-                                for singleFile in os.listdir('Sorgenti/DOC/OJ/PGM'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC/OJ/PGM'):
                                     nomeFile = 'P_' + singleFile.replace('.md','')
-                                    if nomeFile not in nomiDOC_OGG:
-                                        f.write('- [' + nomeFile + '](Sorgenti/DOC/OJ/PGM/' + singleFile + ')\n')
-                                    elif nomiDOC_OGG[nomeFile] == '':
-                                        f.write('- [' + nomeFile + '](Sorgenti/DOC/OJ/PGM/' + singleFile + ')\n')
-                                    else:
-                                        f.write('- [' + nomiDOC_OGG[nomeFile] + '](Sorgenti/DOC/OJ/PGM/' + singleFile + ')\n')
+                                    titolo = nomeFile
+                                    with open('md-convertito-da-AS400/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                        for riga in indice:
+                                            if nomeFile in riga:
+                                                titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                titolo = titolo.replace('\'', '\\\'')
+                                                break
+                                    f.write('- [' + titolo + '](md-convertito-da-AS400/DOC/OJ/PGM/' + singleFile + ')\n')
+                                    #if nomeFile not in nomiDOC_OGG:
+                                        #f.write('- [' + nomeFile + '](md-convertito-da-AS400/DOC/OJ/PGM/' + singleFile + ')\n')
+                                    #elif nomiDOC_OGG[nomeFile] == '':
+                                        #f.write('- [' + nomeFile + '](md-convertito-da-AS400/DOC/OJ/PGM/' + singleFile + ')\n')
+                                    #else:
+                                        #f.write('- [' + nomiDOC_OGG[nomeFile] + '](md-convertito-da-AS400/DOC/OJ/PGM/' + singleFile + ')\n')
                         elif '\\Tabelle\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_OGG relativi alle Tabelle
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Tabelle\n')
-                                for singleFile in os.listdir('Sorgenti/DOC/OG/TA'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC/OG/TA'):
                                     nomeFile = 'TA_' + singleFile.replace('.md','')
-                                    if nomiDOC_OGG[nomeFile] == '':
-                                        f.write('- [' + nomeFile + '](Sorgenti/DOC/OG/TA/' + singleFile + ')\n')
-                                    else:
-                                        f.write('- [' + nomiDOC_OGG[nomeFile] + '](Sorgenti/DOC/OG/TA/' + singleFile + ')\n')
+                                    titolo = nomeFile
+                                    with open('md-convertito-da-AS400/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                        for riga in indice:
+                                            if nomeFile in riga:
+                                                titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                titolo = titolo.replace('\'', '\\\'')
+                                                break
+                                    f.write('- [' + titolo + '](md-convertito-da-AS400/DOC/OG/TA/' + singleFile + ')\n')
+                                    #if nomiDOC_OGG[nomeFile] == '':
+                                        #f.write('- [' + nomeFile + '](md-convertito-da-AS400/DOC/OG/TA/' + singleFile + ')\n')
+                                    #else:
+                                        #f.write('- [' + nomiDOC_OGG[nomeFile] + '](md-convertito-da-AS400/DOC/OG/TA/' + singleFile + ')\n')
                         elif '\\ValoriFissi\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_OGG relativi ai Valori Fissi (V2)
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Valori Fissi\n')
-                                for singleFile in os.listdir('Sorgenti/DOC/OG/V2'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC/OG/V2'):
                                     nomeFile = 'V2_' + singleFile.replace('.md','')
-                                    if nomiDOC_OGG[nomeFile] == '':
-                                        f.write('- [' + nomeFile + '](Sorgenti/DOC/OG/V2/' + singleFile + ')\n')
-                                    else:
-                                        f.write('- [' + nomiDOC_OGG[nomeFile] + '](Sorgenti/DOC/OG/V2/' + singleFile + ')\n')
+                                    titolo = nomeFile
+                                    with open('md-convertito-da-AS400/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                        for riga in indice:
+                                            if nomeFile in riga:
+                                                titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                titolo = titolo.replace('\'', '\\\'')
+                                                break
+                                    f.write('- [' + titolo + '](md-convertito-da-AS400/DOC/OG/V2/' + singleFile + ')\n')
+                                    #if nomiDOC_OGG[nomeFile] == '':
+                                        #f.write('- [' + nomeFile + '](md-convertito-da-AS400/DOC/OG/V2/' + singleFile + ')\n')
+                                    #else:
+                                        #f.write('- [' + nomiDOC_OGG[nomeFile] + '](md-convertito-da-AS400/DOC/OG/V2/' + singleFile + ')\n')
                         elif '\\ValoriDinamici\\_sidebar' in os.path.relpath(file_or_path): # Elenco dei DOC_OGG relativi ai Valori Dinamici (V3)
                             with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f:
                                 f.write('# Valori Dinamici\n')
-                                for singleFile in os.listdir('Sorgenti/DOC/OG/V3'):
+                                for singleFile in os.listdir('md-convertito-da-AS400/DOC/OG/V3'):
                                     nomeFile = 'V3_' + singleFile.replace('.md','')
-                                    if nomiDOC_OGG[nomeFile] == '':
-                                        f.write('- [' + nomeFile + '](Sorgenti/DOC/OG/V3/' + singleFile + ')\n')
-                                    else:
-                                        f.write('- [' + nomiDOC_OGG[nomeFile] + '](Sorgenti/DOC/OG/V3/' + singleFile + ')\n')
+                                    titolo = nomeFile
+                                    with open('md-convertito-da-AS400/DOC_OGG_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                        for riga in indice:
+                                            if nomeFile in riga:
+                                                titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                titolo = titolo.replace('\'', '\\\'')
+                                                break
+                                    f.write('- [' + titolo + '](md-convertito-da-AS400/DOC/OG/V3/' + singleFile + ')\n')
+                                    #if nomiDOC_OGG[nomeFile] == '':
+                                        #f.write('- [' + nomeFile + '](md-convertito-da-AS400/DOC/OG/V3/' + singleFile + ')\n')
+                                    #else:
+                                        #f.write('- [' + nomiDOC_OGG[nomeFile] + '](md-convertito-da-AS400/DOC/OG/V3/' + singleFile + ')\n')
                     elif 'News' in os.path.relpath(file_or_path):
                         for codice, nome in applicazioni.items():
                             if '\\' + codice in os.path.relpath(file_or_path):
                                 with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f2:
                                     f2.write('# ' + nome + '\n')
-                                    for singleFile in os.listdir('Sorgenti/DOC/H6/NWS'):
+                                    for singleFile in os.listdir('md-convertito-da-AS400/DOC/H6/NWS'):
                                         nomeFile = singleFile.replace('.md','').replace('_', '_NWS')
                                         if codice == singleFile[:2]:
-                                            indiceFile = 'Sorgenti/DOC/H6/NWS/' + singleFile
-                                            f2.write('- [' + nomiDOC_NWS[nomeFile] + '](' + indiceFile + ')\n')
+                                            indiceFile = 'md-convertito-da-AS400/DOC/H6/NWS/' + singleFile
+                                            titolo = singleFile
+                                            with open('md-convertito-da-AS400/DOC_NWS_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                                for riga in indice:
+                                                    if nomeFile[3:] in riga:
+                                                        titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                        titolo = titolo.replace('\'', '\\\'')
+                                                        break
+                                            f2.write('- [' + titolo + '](' + indiceFile + ')\n')
                     elif 'FAQ' in os.path.relpath(file_or_path):
                         for codice, nome in applicazioni.items():
                             if '\\' + codice in os.path.relpath(file_or_path):
                                 with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f2:
                                     f2.write('# ' + nome + '\n')
-                                    for singleFile in os.listdir('Sorgenti/FAQ/TA/B£AMO'):
+                                    for singleFile in os.listdir('md-convertito-da-AS400/FAQ/TA/B£AMO'):
                                         nomeFile = singleFile.replace('.md','') + '_FAQ'
                                         if codice == singleFile[:2]:
-                                            indiceFile = 'Sorgenti/FAQ/TA/B£AMO/' + singleFile
-                                            f2.write('- [' + nomiFAQ[nomeFile] + '](' + indiceFile + ')\n')
+                                            indiceFile = 'md-convertito-da-AS400/FAQ/TA/B£AMO/' + singleFile
+                                            titolo = nomeFile
+                                            with open('md-convertito-da-AS400/DOC_VOC_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                                for riga in indice:
+                                                    if nomeFile in riga:
+                                                        titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                        titolo = titolo.replace('\'', '\\\'')
+                                                        break
+                                            f2.write('- [' + titolo + '](' + indiceFile + ')\n')
+                                            #f2.write('- [' + nomiFAQ[nomeFile] + '](' + indiceFile + ')\n')
                     elif 'GLO' in os.path.relpath(file_or_path):
                         for codice, nome in applicazioni.items():
                             if '\\' + codice in os.path.relpath(file_or_path):
                                 with open(os.path.relpath(file_or_path), 'w', encoding='utf8') as f2:
                                     f2.write('# ' + nome + '\n')
-                                    for singleFile in os.listdir('Sorgenti/GLO/TA/B£AMO'):
+                                    for singleFile in os.listdir('md-convertito-da-AS400/GLO/TA/B£AMO'):
                                         nomeFile = singleFile.replace('.md','') + '_GLO'
                                         if codice == singleFile[:2]:
-                                            indiceFile = 'Sorgenti/GLO/TA/B£AMO/' + singleFile
-                                            f2.write('- [' + nomiGLO[nomeFile] + '](' + indiceFile + ')\n')                     
+                                            indiceFile = 'md-convertito-da-AS400/GLO/TA/B£AMO/' + singleFile
+                                            titolo = nomeFile
+                                            with open('md-convertito-da-AS400/DOC_VOC_00INDEX.TXT', 'r', encoding='latin1') as indice:
+                                                for riga in indice:
+                                                    if nomeFile in riga:
+                                                        titolo = riga[riga.find('- ')+2 : riga.find('  ')]
+                                                        titolo = titolo.replace('\'', '\\\'')
+                                                        break
+                                            f2.write('- [' + titolo + '](' + indiceFile + ')\n')
+                                            #f2.write('- [' + nomiGLO[nomeFile] + '](' + indiceFile + ')\n')                     
 
 def mdfile_in_dir(dire):
     """
@@ -379,7 +498,7 @@ def main():
             else:
                 output = open(os.path.join(dir_input, filename), 'a+', encoding='utf8')
     else:
-        if os.path.relpath(dir_input) != 'DocumentazioneSmeUP':
+        if os.path.relpath(dir_input) != 'documentazione':
             output = open(os.path.join(dir_input, filename), 'w+', encoding='utf8')
 
     # Se è una cartella stampa nel file di indice il titolo ed eventualmente le categorie
@@ -387,38 +506,38 @@ def main():
         directoryName = dir_input[dir_input.rfind('/')+1:]
         if directoryName == 'DOC':
             output.write('# Documentazione\n')
-            output.write('- [Documentazione Applicativa](DocumentazioneSmeUP/DOC/DOC_APP/_sidebar)\n')
-            output.write('- [Documentazione dei Servizi](DocumentazioneSmeUP/DOC/DOC_SER/_sidebar)\n')
-            output.write('- [Documentazione Schede](DocumentazioneSmeUP/DOC/DOC_SCH/_sidebar)\n')
-            output.write('- [Documentazione per Oggetto](DocumentazioneSmeUP/DOC/DOC_OGG/_sidebar)\n')
+            output.write('- [Documentazione Applicativa](documentazione/DOC/DOC_APP/_sidebar)\n')
+            output.write('- [Documentazione dei Servizi](documentazione/DOC/DOC_SER/_sidebar)\n')
+            output.write('- [Documentazione Schede](documentazione/DOC/DOC_SCH/_sidebar)\n')
+            output.write('- [Documentazione per Oggetto](documentazione/DOC/DOC_OGG/_sidebar)\n')
         elif directoryName == 'DOC_APP':
             output.write('# Documentazione Applicativa\n')
         elif directoryName == 'DOC_VIS':
             output.write('# Documentazione di Visione\n')
         elif directoryName == 'DOC_SCH':
             output.write('# Documentazione Schede\n')
-            output.write('- [Schede di Applicazioni](DocumentazioneSmeUP/DOC/DOC_SCH/Applicazioni/_sidebar)\n')
-            output.write('- [Schede di Componenti](DocumentazioneSmeUP/DOC/DOC_SCH/Componenti/_sidebar)\n')
-            output.write('- [Schede di UPP](DocumentazioneSmeUP/DOC/DOC_SCH/UPP/_sidebar)\n')
-            output.write('- [Schede di Oggetti](DocumentazioneSmeUP/DOC/DOC_SCH/Oggetti/_sidebar)\n')
-            output.write('- [Altre Schede](DocumentazioneSmeUP/DOC/DOC_SCH/Altro/_sidebar)\n')
+            output.write('- [Schede di Applicazioni](documentazione/DOC/DOC_SCH/Applicazioni/_sidebar)\n')
+            output.write('- [Schede di Componenti](documentazione/DOC/DOC_SCH/Componenti/_sidebar)\n')
+            output.write('- [Schede di UPP](documentazione/DOC/DOC_SCH/UPP/_sidebar)\n')
+            output.write('- [Schede di Oggetti](documentazione/DOC/DOC_SCH/Oggetti/_sidebar)\n')
+            output.write('- [Altre Schede](documentazione/DOC/DOC_SCH/Altro/_sidebar)\n')
         elif directoryName == 'DOC_OGG':
             output.write('# Documentazione per Oggetto\n')
-            output.write('- [File](DocumentazioneSmeUP/DOC/DOC_OGG/File/_sidebar)\n')
-            output.write('- [Costruttori](DocumentazioneSmeUP/DOC/DOC_OGG/Costruttori/_sidebar)\n')
-            output.write('- [Classi](DocumentazioneSmeUP/DOC/DOC_OGG/Classes/_sidebar)\n')
-            output.write('- [Programmi](DocumentazioneSmeUP/DOC/DOC_OGG/Programmi/_sidebar)\n')
-            output.write('- [Tabelle](DocumentazioneSmeUP/DOC/DOC_OGG/Tabelle/_sidebar)\n')
-            output.write('- [Valori Fissi](DocumentazioneSmeUP/DOC/DOC_OGG/ValoriFissi/_sidebar)\n')
-            output.write('- [Valori Dinamici](DocumentazioneSmeUP/DOC/DOC_OGG/ValoriDinamici/_sidebar)\n')
-            # output.write('- [Altri Oggetti](DocumentazioneSmeUP/DOC/DOC_OGG/Altro/_sidebar)\n')
+            output.write('- [File](documentazione/DOC/DOC_OGG/File/_sidebar)\n')
+            output.write('- [Costruttori](documentazione/DOC/DOC_OGG/Costruttori/_sidebar)\n')
+            output.write('- [Classi](documentazione/DOC/DOC_OGG/Classes/_sidebar)\n')
+            output.write('- [Programmi](documentazione/DOC/DOC_OGG/Programmi/_sidebar)\n')
+            output.write('- [Tabelle](documentazione/DOC/DOC_OGG/Tabelle/_sidebar)\n')
+            output.write('- [Valori Fissi](documentazione/DOC/DOC_OGG/ValoriFissi/_sidebar)\n')
+            output.write('- [Valori Dinamici](documentazione/DOC/DOC_OGG/ValoriDinamici/_sidebar)\n')
+            # output.write('- [Altri Oggetti](documentazione/DOC/DOC_OGG/Altro/_sidebar)\n')
         elif directoryName == 'DOC_OPE':
             output.write('# Documentazione Operativa\n')
         elif directoryName == 'DOC_SER':
             output.write('# Documentazione dei Servizi\n')
         elif directoryName == 'NWS':
             output.write('# News\n')
-            output.write('- [News](DocumentazioneSmeUP/NWS/News/_sidebar)\n')
+            output.write('- [News](documentazione/NWS/News/_sidebar)\n')
         elif directoryName == 'GLO':
             output.write('# Glossario\n')
         elif directoryName == 'NTI':
@@ -434,12 +553,12 @@ def main():
         
 
     # Se non è l'indice totale, genera indice con un solo livello
-    if os.path.relpath(dir_input) == 'DocumentazioneSmeUP':
+    if os.path.relpath(dir_input) == 'documentazione':
         oneLevelIndex = False
     else:
         oneLevelIndex = True
 
-    if os.path.relpath(dir_input) != 'DocumentazioneSmeUP':
+    if os.path.relpath(dir_input) != 'documentazione':
         output_markdown(dir_input, dir_input, output, append, oneLevelIndex)
 
     return 0
